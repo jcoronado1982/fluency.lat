@@ -295,6 +295,19 @@ function CategorySelector() {
     const [localGroupOrder, setLocalGroupOrder] = useState([]);
     const [localNestedDeckOrder, setLocalNestedDeckOrder] = useState([]);
 
+    const recentNestedDecks = useMemo(
+        () => recentlyFinishedDecks
+            .filter((entry) => entry.category === currentCategory)
+            .map((entry) => entry.deck),
+        [recentlyFinishedDecks, currentCategory],
+    );
+
+    const groupNamesKey = groupNames.join(',');
+    const completedGroupNamesKey = completedGroupNames.join(',');
+    const nestedDeckNamesKey = nestedDeckNames.join(',');
+    const completedNestedDeckNamesKey = completedNestedDeckNames.join(',');
+    const recentNestedDecksKey = recentNestedDecks.join(',');
+
     useEffect(() => {
         const storedGroupOrder = getGroupOrderPreference(
             user?.email,
@@ -311,15 +324,9 @@ function CategorySelector() {
             completedGroupNames,
         );
         setLocalGroupOrder(ordered);
-    }, [currentCategory, currentDeckName, groupNames, user?.catalog_preferences, completedGroupNames, user?.email]);
+    }, [currentCategory, currentDeckName, groupNamesKey, user?.catalog_preferences, completedGroupNamesKey, user?.email]);
 
     const levelPreferenceKey = `__level__${activeLevel || 'basic'}`;
-    const recentNestedDecks = useMemo(
-        () => recentlyFinishedDecks
-            .filter((entry) => entry.category === currentCategory)
-            .map((entry) => entry.deck),
-        [recentlyFinishedDecks, currentCategory],
-    );
     useEffect(() => {
         const storedNestedDeckOrder = getGroupOrderPreference(
             user?.email,
@@ -328,18 +335,15 @@ function CategorySelector() {
             nestedDeckNames,
             user?.catalog_preferences,
         );
-        // Hunde los mazos recién repasados (aunque no estén 100% completos) hacia el final, en
-        // el orden en que se repasaron — igual que sortCategories hace con la categoría recién
-        // estudiada — así es fácil elegir otro mazo distinto al que se acaba de dejar.
         const ordered = sinkRecentCategory(
             applyPreferenceOrder(nestedDeckNames, storedNestedDeckOrder),
             recentNestedDecks,
             completedNestedDeckNames,
         );
         setLocalNestedDeckOrder(ordered);
-    }, [currentCategory, levelPreferenceKey, nestedDeckNames, user?.catalog_preferences, completedNestedDeckNames, user?.email, recentNestedDecks]);
+    }, [currentCategory, levelPreferenceKey, nestedDeckNamesKey, user?.catalog_preferences, completedNestedDeckNamesKey, user?.email, recentNestedDecksKey]);
 
-    const groupsList = localGroupOrder
+    const groupsList = (localGroupOrder.length > 0 ? localGroupOrder : groupNames)
         .map(name => {
             const cards = groupsMap[name] || [];
             const total = cards.length;
@@ -347,7 +351,7 @@ function CategorySelector() {
             return { name, total, learned };
         });
     const visibleGroups = groupsList;
-    const visibleNestedDecks = localNestedDeckOrder;
+    const visibleNestedDecks = localNestedDeckOrder.length > 0 ? localNestedDeckOrder : nestedDeckNames;
 
     const handleLevelChange = (level) => {
         const targetDeck = isNestedCatalog

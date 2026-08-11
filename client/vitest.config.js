@@ -6,5 +6,6 @@ export default defineConfig({
         setupFiles: ['./vitest.setup.js'],
         include: ['src/**/*.test.{js,jsx}'],
         clearMocks: true,
+        fileParallelism: false,
     },
 });

@@ -49,7 +49,7 @@ vi.mock('../context/CategoryContext', () => ({
 vi.mock('../context/FlashcardContext', () => ({
     useFlashcardContext: () => ({
         deckNames: ['nouns-basic'],
-        deckSummaries: {},
+        deckSummaries: { 'nouns-basic': { total: 10, learned: 0 } },
         currentDeckName: 'nouns-basic',
         changeDeck: mockChangeDeck,
         masterData: [
@@ -63,12 +63,12 @@ vi.mock('../context/FlashcardContext', () => ({
 }));
 
 describe('CategorySelector', () => {
-    it('closes the category selector when selecting a subcategory (group)', () => {
+    it('closes the category selector when selecting a deck card', () => {
         render(<CategorySelector />);
-        const groupCard = screen.getByText('Action');
-        fireEvent.click(groupCard);
+        const deckCard = screen.getByText('Nouns Basic');
+        fireEvent.click(deckCard);
 
-        expect(mockSetSelectedGroup).toHaveBeenCalledWith('Action');
+        expect(mockChangeDeck).toHaveBeenCalledWith('nouns-basic');
         expect(mockSetIsCatalogVisible).toHaveBeenCalledWith(false);
     });
 });
