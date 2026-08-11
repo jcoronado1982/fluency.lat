@@ -1,0 +1,679 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "medicine",
+        "phonetic": "/ˈmɛdsən/",
+        "spoken_phonetic_us": "/ˈmɛdəsən/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Medicina (la ciencia)]",
+                "usage_example": "She is studying medicine.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE medicine AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: She is studying medicine.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: La ciencia o práctica del diagnóstico, tratamiento y prevención de enfermedades.]",
+                "usage_context_es": "The science or practice of the diagnosis, treatment, and prevention of disease.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_185_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Medicina / Medicamento]",
+                "usage_example": "Did you take your medicine?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE medicine AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Did you take your medicine?]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Un fármaco u otra preparación para el tratamiento o prevención de enfermedades.]",
+                "usage_context_es": "A drug or other preparation for the treatment or prevention of disease.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_185_def1.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "drug",
+        "phonetic": "/drʌɡ/",
+        "spoken_phonetic_us": "/drʌɡ/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Medicamento / Fármaco]",
+                "usage_example": "This is a powerful drug.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE drug AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: This is a powerful drug.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Un medicamento u otra sustancia que tiene un efecto fisiológico cuando se ingiere.]",
+                "usage_context_es": "A medicine or other substance which has a physiological effect when ingested.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_186_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Droga (ilegal)]",
+                "usage_example": "He was arrested for selling drugs.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE drug AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He was arrested for selling drugs.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Una sustancia ilegal, a menudo adictiva, tomada por sus efectos narcóticos.]",
+                "usage_context_es": "An illegal, often addictive, substance taken for its narcotic effects.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_186_def1.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "prescription",
+        "phonetic": "/prɪˈskrɪpʃən/",
+        "spoken_phonetic_us": "/prɪˈskrɪpʃən/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Receta (médica) / Fórmula]",
+                "usage_example": "I need a prescription for this.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE prescription AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I need a prescription for this.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Una instrucción escrita por un médico que autoriza a un paciente a recibir un medicamento.]",
+                "usage_context_es": "An instruction written by a medical practitioner that authorizes a patient to be provided a medicine.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_187_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "patient",
+        "phonetic": "/ˈpeɪʃənt/",
+        "spoken_phonetic_us": "/ˈpeɪʃənt/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Paciente]",
+                "usage_example": "The patient is feeling better.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE patient AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The patient is feeling better.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Una persona que recibe o está registrada para recibir tratamiento médico.]",
+                "usage_context_es": "A person receiving or registered to receive medical treatment.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_188_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "illness",
+        "phonetic": "/ˈɪlnəs/",
+        "spoken_phonetic_us": "/ˈɪlnəs/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Enfermedad (general / malestar)]",
+                "usage_example": "He recovered from his illness.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE illness AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He recovered from his illness.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Una enfermedad o período de dolencia que afecta el cuerpo o la mente.]",
+                "usage_context_es": "A disease or period of sickness affecting the body or mind.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_189_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "disease",
+        "phonetic": "/dɪˈziz/",
+        "spoken_phonetic_us": "/dɪˈziz/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Enfermedad (específica / diagnosticable)]",
+                "usage_example": "Heart disease is a serious problem.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE disease AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Heart disease is a serious problem.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Un trastorno específico de estructura o función en un organismo, a menudo con síntomas conocidos.]",
+                "usage_context_es": "A specific disorder of structure or function in an organism, often with known symptoms.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_190_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "headache",
+        "phonetic": "/ˈhɛdeɪk/",
+        "spoken_phonetic_us": "/ˈhɛdeɪk/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Dolor de cabeza]",
+                "usage_example": "I have a terrible headache.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE headache AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I have a terrible headache.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Un dolor continuo en la cabeza.]",
+                "usage_context_es": "A continuous pain in the head.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_191_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "temperature",
+        "phonetic": "/ˈtɛmprətʃər/",
+        "spoken_phonetic_us": "/ˈtɛmpərətʃər/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Temperatura]",
+                "usage_example": "The temperature is high today.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE temperature AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The temperature is high today.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: El grado de calor presente en una sustancia u objeto.]",
+                "usage_context_es": "The degree of heat present in a substance or object.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_192_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Fiebre]",
+                "usage_example": "The baby has a temperature.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE temperature AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The baby has a temperature.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Una temperatura corporal más alta de lo normal, generalmente un signo de enfermedad.]",
+                "usage_context_es": "A body temperature that is higher than normal, usually a sign of illness.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_192_def1.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "injury",
+        "phonetic": "/ˈɪndʒəri/",
+        "spoken_phonetic_us": "/ˈɪndʒəri/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Lesión / Herida]",
+                "usage_example": "It's a serious injury.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE injury AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: It's a serious injury.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: Una instancia de ser dañado o lastimado.]",
+                "usage_context_es": "An instance of being harmed or damaged.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_193_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "wound",
+        "phonetic": "/wund/",
+        "spoken_phonetic_us": "/wund/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Herida (abierta / corte)]",
+                "usage_example": "He has a deep wound on his leg.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE wound AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He has a deep wound on his leg.]",
+                "char_count": "8",
+                "usage_context_en": "[TRADUCIR AL FR: Una lesión al tejido vivo, especialmente una donde la piel está cortada o rota.]",
+                "usage_context_es": "An injury to living tissue, especially one where the skin is cut or broken.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_194_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "brain",
+        "phonetic": "/breɪn/",
+        "spoken_phonetic_us": "/breɪn/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Cerebro]",
+                "usage_example": "Use your brain.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE brain AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Use your brain.]",
+                "char_count": "3",
+                "usage_context_en": "[TRADUCIR AL FR: El órgano dentro de la cabeza que controla el pensamiento, la memoria y el movimiento.]",
+                "usage_context_es": "The organ inside the head that controls thought, memory, and movement.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_195_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "surgery",
+        "phonetic": "/ˈsɜrdʒəri/",
+        "spoken_phonetic_us": "/ˈsɜrdʒəri/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Cirugía]",
+                "usage_example": "He needs surgery on his knee.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE surgery AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He needs surgery on his knee.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Tratamiento médico en el que un doctor corta el cuerpo de alguien para reparar o quitar partes dañadas.]",
+                "usage_context_es": "Medical treatment in which a doctor cuts into someone's body to repair or remove damaged parts.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_196_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "cancer",
+        "phonetic": "/ˈkænsər/",
+        "spoken_phonetic_us": "/ˈkænsər/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Cáncer]",
+                "usage_example": "She is being treated for cancer.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE cancer AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: She is being treated for cancer.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Una enfermedad grave causada por células anormales que crecen sin control.]",
+                "usage_context_es": "A serious disease caused by abnormal cells growing uncontrollably.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_197_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "allergy",
+        "phonetic": "/ˈælərdʒi/",
+        "spoken_phonetic_us": "/ˈælərdʒi/",
+        "search_term": "noun/health/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Alergia]",
+                "usage_example": "I have an allergy to dust.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE allergy AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I have an allergy to dust.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Una reacción negativa del cuerpo a una sustancia]",
+                "usage_context_es": "A negative reaction of the body to a substance",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_345_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "symptom",
+        "phonetic": "/ˈsɪmptəm/",
+        "spoken_phonetic_us": "/ˈsɪmptəm/",
+        "search_term": "noun/health/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Síntoma]",
+                "usage_example": "Fever is a symptom.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE symptom AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Fever is a symptom.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Una señal de que algo está mal con tu salud]",
+                "usage_context_es": "A sign that something is wrong with your health",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_346_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "therapy",
+        "phonetic": "/ˈθɛrəpi/",
+        "spoken_phonetic_us": "/ˈθɛrəpi/",
+        "search_term": "noun/health/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Terapia]",
+                "usage_example": "She goes to therapy weekly.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE therapy AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: She goes to therapy weekly.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Un tratamiento para una condición física o mental]",
+                "usage_context_es": "A treatment for a physical or mental condition",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_347_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "appointment",
+        "phonetic": "/əˈpɔɪntmənt/",
+        "spoken_phonetic_us": "/əˈpɔɪntmənt/",
+        "search_term": "noun/health/work/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Cita médica / Turno]",
+                "usage_example": "I have an appointment tomorrow.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE appointment AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I have an appointment tomorrow.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: Una reunión planificada con un médico o profesional]",
+                "usage_context_es": "A planned meeting with a doctor or professional",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_348_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "diet",
+        "phonetic": "/ˈdaɪət/",
+        "spoken_phonetic_us": "/ˈdaɪət/",
+        "search_term": "noun/health/food/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Dieta]",
+                "usage_example": "She is on a healthy diet.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE diet AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: She is on a healthy diet.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: El tipo de comida que una persona suele comer]",
+                "usage_context_es": "The kind of food a person usually eats",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_349_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "nutrition",
+        "phonetic": "/njuːˈtrɪʃən/",
+        "spoken_phonetic_us": "/nuːˈtrɪʃən/",
+        "search_term": "noun/health/food/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Nutrición]",
+                "usage_example": "Good nutrition keeps you healthy.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE nutrition AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Good nutrition keeps you healthy.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: El proceso de obtener la comida adecuada para la salud]",
+                "usage_context_es": "The process of getting the right food for health",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_350_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "vitamin",
+        "phonetic": "/ˈvaɪtəmɪn/",
+        "spoken_phonetic_us": "/ˈvaɪtəmɪn/",
+        "search_term": "noun/health/food/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Vitamina]",
+                "usage_example": "Vitamin C helps the immune system.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE vitamin AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Vitamin C helps the immune system.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Una sustancia natural en los alimentos que tu cuerpo necesita]",
+                "usage_context_es": "A natural substance in food that your body needs",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_351_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "mental health",
+        "phonetic": "/ˈmɛntəl hɛlθ/",
+        "spoken_phonetic_us": "/ˈmɛntəl hɛlθ/",
+        "search_term": "noun/health/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Salud mental]",
+                "usage_example": "Mental health is important.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE mental health AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Mental health is important.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: El estado de tu bienestar emocional y psicológico]",
+                "usage_context_es": "The state of your emotional and psychological wellbeing",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_352_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "obesity",
+        "phonetic": "/oʊˈbiːsɪti/",
+        "spoken_phonetic_us": "/oʊˈbiːsɪti/",
+        "search_term": "noun/health/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Obesidad]",
+                "usage_example": "Obesity is a health problem.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE obesity AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Obesity is a health problem.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: La condición de tener mucho sobrepeso]",
+                "usage_context_es": "The condition of being very overweight",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_353_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "disability",
+        "phonetic": "/ˌdɪsəˈbɪlɪti/",
+        "spoken_phonetic_us": "/ˌdɪsəˈbɪlɪti/",
+        "search_term": "noun/health/society/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Discapacidad]",
+                "usage_example": "He lives with a disability.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE disability AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He lives with a disability.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: Una condición física o mental que limita a una persona]",
+                "usage_context_es": "A physical or mental condition that limits a person",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_354_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "four",
+        "imagePath": "/card_images/nouns/2-intermediate/people/2-intermediate_people_card_0_def0.avif",
+        "meaning": "Cliente",
+        "pronunciation_guide_es": "/de_CLAI-ent_is_HA-pi/",
+        "usage_context_en": "A person using the services of a professional person or organization.",
+        "usage_context_es": "Una persona que utiliza los servicios de un profesional u organización.",
+        "usage_example": "The client is happy.",
+        "usage_example_es": "El cliente está feliz."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "client",
+    "phonetic": "/ˈklaɪənt/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈklaɪənt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "five",
+        "imagePath": "/card_images/nouns/2-intermediate/people/2-intermediate_people_card_1_def0.avif",
+        "meaning": "Colega / Compañero de trabajo",
+        "pronunciation_guide_es": "/ai_uil_ask_mai_CO-lig/",
+        "usage_context_en": "A person with whom one works in a profession or business.",
+        "usage_context_es": "Una persona con la que se trabaja en una profesión o negocio.",
+        "usage_example": "I will ask my colleague.",
+        "usage_example_es": "Le preguntaré a mi colega."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "colleague",
+    "phonetic": "/ˈkɑliɡ/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈkɑliɡ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/nouns/2-intermediate/people/2-intermediate_people_card_2_def0.avif",
+        "meaning": "Compañero de trabajo",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A person you work with.",
+        "usage_context_es": "A person you work with.",
+        "usage_example": "My coworker helped me finish the report.",
+        "usage_example_es": "Mi compañero de trabajo me ayudó a terminar el informe."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "coworker",
+    "phonetic": "/koʊˈwɝkər/",
+    "search_term": "noun/people/added",
+    "spoken_phonetic_us": "/koʊˈwɝkər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "9",
+        "imagePath": "/card_images/nouns/2-intermediate/people/2-intermediate_people_card_3_def0.avif",
+        "meaning": "Desconocido / Extraño",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A person you do not know.",
+        "usage_context_es": "A person you do not know.",
+        "usage_example": "She did not want to talk to a stranger.",
+        "usage_example_es": "Ella no quería hablar con un desconocido."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "stranger",
+    "phonetic": "/ˈstreɪndʒər/",
+    "search_term": "noun/people/added",
+    "spoken_phonetic_us": "/ˈstreɪndʒər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/2-intermediate/people/2-intermediate_people_card_4_def0.avif",
+        "meaning": "Compañero / Acompañante",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A person who goes somewhere with another person.",
+        "usage_context_es": "A person who goes somewhere with another person.",
+        "usage_example": "He was a good travel companion.",
+        "usage_example_es": "Él fue un buen compañero de viaje."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "companion",
+    "phonetic": "/kəmˈpænjən/",
+    "search_term": "noun/people/added",
+    "spoken_phonetic_us": "/kəmˈpænjən/"
+  }
+]

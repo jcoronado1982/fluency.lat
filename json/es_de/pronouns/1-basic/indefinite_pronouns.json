@@ -1,0 +1,488 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_0_def0.avif",
+        "meaning": "Alguien",
+        "pronunciation_guide_es": "/YE-mant_ist_an_der_TUER/",
+        "usage_context_en": "An unspecified person (used in affirmative sentences). Synonym: 'somebody'.",
+        "usage_context_es": "Una persona no especificada (usado en oraciones afirmativas). Sinónimo: 'somebody'.",
+        "usage_example": "Jemand ist an der Tür.",
+        "usage_example_es": "Alguien está en la puerta."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "is_verb": false,
+    "name": "jemand",
+    "phonetic": "/ˈjeːmant/",
+    "search_term": "pronoun/indefinite",
+    "spoken_phonetic_us": "/ˈjeːmant/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_1_def0.avif",
+        "meaning": "Algo",
+        "pronunciation_guide_es": "/ish_BRAU-je_ET-vas_tsu_TRIN-ken/",
+        "usage_context_en": "An unspecified thing (used in affirmative sentences).",
+        "usage_context_es": "Una cosa no especificada (usado en oraciones afirmativas).",
+        "usage_example": "Ich brauche etwas zu trinken.",
+        "usage_example_es": "Necesito algo de beber."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "is_verb": false,
+    "name": "etwas",
+    "phonetic": "/ˈɛtvas/",
+    "search_term": "pronoun/indefinite",
+    "spoken_phonetic_us": "/ˈɛtvas/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_2_def0.avif",
+        "meaning": "Alguien (en preguntas)",
+        "pronunciation_guide_es": "/ist_YE-mant_tsu_HAU-ze/",
+        "usage_context_en": "Used to ask if 'any person' exists. Synonym: 'anybody'.",
+        "usage_context_es": "Usado para preguntar si 'alguna persona' existe. Sinónimo: 'anybody'.",
+        "usage_example": "Ist jemand zu Hause?",
+        "usage_example_es": "¿Hay alguien en casa?"
+      },
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_2_def1.avif",
+        "meaning": "Nadie (en negaciones)",
+        "pronunciation_guide_es": "/ish_HA-be_NI-man-den_ge-ZE-en/",
+        "usage_context_en": "Used to mean 'no person' in negative sentences. Synonym: 'anybody'.",
+        "usage_context_es": "Usado para significar 'ninguna persona' en oraciones negativas. Sinónimo: 'anybody'.",
+        "usage_example": "Ich habe niemanden gesehen.",
+        "usage_example_es": "No vi a nadie."
+      },
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_2_def2.avif",
+        "meaning": "Cualquiera",
+        "pronunciation_guide_es": "/YE-der_kan_das_TUN/",
+        "usage_context_en": "Used in affirmative sentences to mean 'any person at all'.",
+        "usage_context_es": "Usado en oraciones afirmativas para significar 'cualquier persona'.",
+        "usage_example": "Jeder kann das tun.",
+        "usage_example_es": "Cualquiera puede hacer eso."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "is_verb": false,
+    "name": "jemand",
+    "phonetic": "/ˈjeːmant/",
+    "search_term": "pronoun/indefinite",
+    "spoken_phonetic_us": "/ˈjeːmant/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_3_def0.avif",
+        "meaning": "Algo (en preguntas)",
+        "pronunciation_guide_es": "/BRAUJST_du_ET-vas/",
+        "usage_context_en": "Used to ask if 'any thing' exists.",
+        "usage_context_es": "Usado para preguntar si 'alguna cosa' existe.",
+        "usage_example": "Brauchst du etwas?",
+        "usage_example_es": "¿Necesitas algo?"
+      },
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_3_def1.avif",
+        "meaning": "Nada (en negaciones)",
+        "pronunciation_guide_es": "/ish_BRAU-je_NISHTS/",
+        "usage_context_en": "Used to mean 'no thing' in negative sentences.",
+        "usage_context_es": "Usado para significar 'ninguna cosa' en oraciones negativas.",
+        "usage_example": "Ich brauche nichts.",
+        "usage_example_es": "No necesito nada."
+      },
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_3_def2.avif",
+        "meaning": "Cualquier cosa",
+        "pronunciation_guide_es": "/du_kanst_A-les_KAU-fen_vas_du_VILST/",
+        "usage_context_en": "Used in affirmative sentences to mean 'any thing at all'.",
+        "usage_context_es": "Usado en oraciones afirmativas para significar 'cualquier cosa'.",
+        "usage_example": "Du kannst alles kaufen, was du willst.",
+        "usage_example_es": "Puedes comprar cualquier cosa que quieras."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "is_verb": false,
+    "name": "etwas",
+    "phonetic": "/ˈɛtvas/",
+    "search_term": "pronoun/indefinite",
+    "spoken_phonetic_us": "/ˈɛtvas/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_4_def0.avif",
+        "meaning": "Todos / Todas (las personas)",
+        "pronunciation_guide_es": "/YE-der_ist_HIR/",
+        "usage_context_en": "All people in a group. Synonym: 'everybody'.",
+        "usage_context_es": "Todas las personas en un grupo. Sinónimo: 'everybody'.",
+        "usage_example": "Jeder ist hier.",
+        "usage_example_es": "Todos están aquí."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "is_verb": false,
+    "name": "jeder",
+    "phonetic": "/ˈjeːdɐ/",
+    "search_term": "pronoun/indefinite",
+    "spoken_phonetic_us": "/ˈjeːdɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_5_def0.avif",
+        "meaning": "Todo (las cosas)",
+        "pronunciation_guide_es": "/A-les_ist_be-RAIT/",
+        "usage_context_en": "All things.",
+        "usage_context_es": "Todas las cosas.",
+        "usage_example": "Alles ist bereit.",
+        "usage_example_es": "Todo está listo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "is_verb": false,
+    "name": "alles",
+    "phonetic": "/ˈaləs/",
+    "search_term": "pronoun/indefinite",
+    "spoken_phonetic_us": "/ˈaləs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_6_def0.avif",
+        "meaning": "Nadie",
+        "pronunciation_guide_es": "/NI-mant_ist_tsu_HAU-ze/",
+        "usage_context_en": "No person; no one. (Used as the subject or object in an affirmative verb structure).",
+        "usage_context_es": "Ninguna persona; nadie. (Usado como sujeto u objeto en una estructura verbal afirmativa).",
+        "usage_example": "Niemand ist zu Hause.",
+        "usage_example_es": "No hay nadie en casa."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "is_verb": false,
+    "name": "niemand",
+    "phonetic": "/ˈniːmant/",
+    "search_term": "pronoun/indefinite",
+    "spoken_phonetic_us": "/ˈniːmant/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_7_def0.avif",
+        "meaning": "Nada",
+        "pronunciation_guide_es": "/ish_HA-be_NISHTS_tsu_ZA-gen/",
+        "usage_color": "rgba(255, 204, 153, 0.1)",
+        "usage_context_en": "No thing; not anything. (Used as the subject or object in an affirmative verb structure).",
+        "usage_context_es": "Ninguna cosa; nada. (Usado como sujeto u objeto en una estructura verbal afirmativa).",
+        "usage_example": "Ich habe nichts zu sagen.",
+        "usage_example_es": "No tengo nada que decir."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "is_verb": false,
+    "name": "nichts",
+    "phonetic": "/nɪçts/",
+    "search_term": "pronoun/indefinite",
+    "spoken_phonetic_us": "/nɪçts/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_8_def0.avif",
+        "meaning": "Uno / Una (genérico)",
+        "pronunciation_guide_es": "/man_mus_I-mer_FOR-zish-tish_ZAIN/",
+        "usage_context_en": "Used to refer to any person in general.",
+        "usage_context_es": "Usado para referirse a cualquier persona en general.",
+        "usage_example": "Man muss immer vorsichtig sein.",
+        "usage_example_es": "Uno debe tener siempre cuidado."
+      },
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_8_def1.avif",
+        "meaning": "Uno / Una (reemplazo)",
+        "pronunciation_guide_es": "/mir_ge-FELT_das_RO-te/",
+        "usage_context_en": "Used to replace a specific singular countable noun.",
+        "usage_context_es": "Usado para reemplazar un sustantivo contable singular específico.",
+        "usage_example": "Mir gefällt das rote.",
+        "usage_example_es": "Me gusta el rojo (ese)."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "is_verb": false,
+    "name": "man",
+    "phonetic": "/man/",
+    "search_term": "pronoun/indefinite",
+    "spoken_phonetic_us": "/man/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_9_def0.avif",
+        "meaning": "Otro / Otra",
+        "pronunciation_guide_es": "/mir_ge-FELT_DI-zes_nisht_TSAIK_mir_ain_AN-de-res/",
+        "usage_context_en": "Used as a pronoun to mean 'an additional or different one'.",
+        "usage_context_es": "Usado como pronombre para significar 'uno adicional o diferente'.",
+        "usage_example": "Mir gefällt dieses nicht, zeig mir ein anderes.",
+        "usage_example_es": "No me gusta este, muéstrame otro."
+      },
+      {
+        "char_count": "21",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_9_def1.avif",
+        "meaning": "Otro / Otra",
+        "pronunciation_guide_es": "/fer-ZU-jen_vir_es_auf_AI-ne_AN-de-re_VAI-ze/",
+        "usage_context_en": "Used as a pronoun to mean 'an additional or different one'.",
+        "usage_context_es": "Usado como pronombre para significar 'uno adicional o diferente'.",
+        "usage_example": "Versuchen wir es auf eine andere Weise.",
+        "usage_example_es": "Probemos otra manera."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "is_verb": false,
+    "name": "ein anderes",
+    "phonetic": "/aɪn ˈandərəs/",
+    "search_term": "pronoun/indefinite",
+    "spoken_phonetic_us": "/aɪn ˈandərəs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_10_def0.avif",
+        "meaning": "Otros / Otras (los demás)",
+        "pronunciation_guide_es": "/MAN-she_LOI-te_MOE-gen_es_AN-de-re_HA-sen_es/",
+        "usage_context_en": "Used as a pronoun to mean 'other people or things'.",
+        "usage_context_es": "Usado como pronombre para significar 'otras personas o cosas'.",
+        "usage_example": "Manche Leute mögen es, andere hassen es.",
+        "usage_example_es": "A algunas personas les gusta, otras lo odian."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "is_verb": false,
+    "name": "andere",
+    "phonetic": "/ˈandərə/",
+    "search_term": "pronoun/indefinite",
+    "spoken_phonetic_us": "/ˈandərə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_11_def0.avif",
+        "meaning": "Todos / Todas (las personas)",
+        "pronunciation_guide_es": "/YE-der_ist_HIR/",
+        "usage_context_en": "All people in a group. (Synonym of 'everyone').",
+        "usage_context_es": "Todas las personas en un grupo. (Sinónimo de 'everyone').",
+        "usage_example": "Jeder ist hier.",
+        "usage_example_es": "Todos están aquí."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "is_verb": false,
+    "name": "jeder",
+    "phonetic": "/ˈjeːdɐ/",
+    "search_term": "pronoun/indefinite",
+    "spoken_phonetic_us": "/ˈjeːdɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_12_def0.avif",
+        "meaning": "Nadie",
+        "pronunciation_guide_es": "/NI-mant_ist_tsu_HAU-ze/",
+        "usage_context_en": "No person; nobody. (Used as the subject in an affirmative verb structure).",
+        "usage_context_es": "Ninguna persona; nadie. (Usado como sujeto en una estructura verbal afirmativa).",
+        "usage_example": "Niemand ist zu Hause.",
+        "usage_example_es": "No hay nadie en casa."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "is_verb": false,
+    "name": "niemand",
+    "phonetic": "/ˈniːmant/",
+    "search_term": "pronoun/indefinite",
+    "spoken_phonetic_us": "/ˈniːmant/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_13_def0.avif",
+        "meaning": "Alguien (en preguntas)",
+        "pronunciation_guide_es": "/ist_YE-mant_tsu_HAU-ze/",
+        "usage_context_en": "Used to ask if 'any person' exists. (Synonym of 'anyone').",
+        "usage_context_es": "Usado para preguntar si 'alguna persona' existe. (Sinónimo de 'anyone').",
+        "usage_example": "Ist jemand zu Hause?",
+        "usage_example_es": "¿Hay alguien en casa?"
+      },
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_13_def1.avif",
+        "meaning": "Nadie (en negaciones)",
+        "pronunciation_guide_es": "/ish_HA-be_NI-man-den_ge-ZE-en/",
+        "usage_context_en": "Used to mean 'no person' in negative sentences. (Synonym of 'anyone').",
+        "usage_context_es": "Usado para significar 'ninguna persona' en oraciones negativas. (Sinónimo de 'anyone').",
+        "usage_example": "Ich habe niemanden gesehen.",
+        "usage_example_es": "No vi a nadie."
+      },
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_13_def2.avif",
+        "meaning": "Cualquiera",
+        "pronunciation_guide_es": "/YE-der_kan_das_TUN/",
+        "usage_context_en": "Used in affirmative sentences to mean 'any person at all'.",
+        "usage_context_es": "Usado en oraciones afirmativas para significar 'cualquier persona'.",
+        "usage_example": "Jeder kann das tun.",
+        "usage_example_es": "Cualquiera puede hacer eso."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "is_verb": false,
+    "name": "jemand",
+    "phonetic": "/ˈjeːmant/",
+    "search_term": "pronoun/indefinite",
+    "spoken_phonetic_us": "/ˈjeːmant/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_14_def0.avif",
+        "meaning": "Alguien",
+        "pronunciation_guide_es": "/YE-mant_ist_an_der_TUER/",
+        "usage_context_en": "An unspecified person (used in affirmative sentences). Synonym: 'someone'.",
+        "usage_context_es": "Una persona no especificada (usado en oraciones afirmativas). Sinónimo: 'someone'.",
+        "usage_example": "Jemand ist an der Tür.",
+        "usage_example_es": "Alguien está en la puerta."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "is_verb": false,
+    "name": "jemand",
+    "phonetic": "/ˈjeːmant/",
+    "search_term": "pronoun/indefinite",
+    "spoken_phonetic_us": "/ˈjeːmant/"
+  }
+]

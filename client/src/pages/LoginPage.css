@@ -1,0 +1,226 @@
+@import '../modules/landing/styles/base.css';
+
+/* !important en background (más abajo): .login-page convive con .lp en el
+   mismo elemento y el orden de los chunks CSS entre login y landing no está
+   garantizado en runtime; el tema del login debe ganar el empate siempre. */
+.login-page {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    font-family: var(--font-family-app, 'Plus Jakarta Sans', system-ui, sans-serif);
+    --font-family-body: var(--font-family-app);
+    color: #fff;
+    background:
+        radial-gradient(
+            ellipse 50% 40% at 50% 35%,
+            color-mix(in srgb, var(--c-pink) 10%, transparent),
+            transparent 70%
+        ),
+        radial-gradient(
+            ellipse 40% 30% at 85% 90%,
+            color-mix(in srgb, var(--c-orange) 6%, transparent),
+            transparent 70%
+        ),
+        var(--c-bg) !important;
+}
+
+.login-page .lp-bg-glow,
+.login-page .lp-bg-blob {
+    display: none;
+}
+
+.login-nav .lp-nav-inner {
+    max-width: var(--shell-content-max-width, 1280px);
+    position: relative;
+    z-index: 2;
+}
+
+.login-main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: max(24px, env(safe-area-inset-top, 0px)) max(24px, env(safe-area-inset-right, 0px)) max(24px, env(safe-area-inset-bottom, 0px)) max(24px, env(safe-area-inset-left, 0px));
+    position: relative;
+    z-index: 1;
+}
+
+.login-stage {
+    width: min(100%, 440px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-5vh);
+}
+
+.login-panel {
+    width: 100%;
+    padding: 42px 32px 36px;
+    border-radius: 36px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: linear-gradient(
+        145deg,
+        color-mix(in srgb, var(--c-bg2) 88%, transparent) 0%,
+        color-mix(in srgb, var(--c-bg) 96%, transparent) 100%
+    );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow:
+        0 22px 56px rgba(0, 0, 0, 0.42),
+        inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    animation: loginFadeIn 0.8s ease-out;
+}
+
+.login-title {
+    margin: 0 0 20px 0;
+    background: linear-gradient(105deg, var(--c-text) 6%, var(--c-pink) 66%, var(--c-orange) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--font-family-display);
+    font-size: clamp(1.85rem, 5vw, 2.3rem);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.035em;
+    text-align: center;
+    text-wrap: balance;
+}
+
+.login-subtitle {
+    margin: 10px 0 1.75rem;
+    font-family: var(--font-family-app);
+    color: rgba(245, 245, 245, 0.78);
+    font-size: 1.05rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.login-trust {
+    margin: -2px 0 0;
+    color: var(--c-muted);
+    font-family: var(--font-family-body);
+    font-size: 0.78rem;
+    font-weight: 500;
+    line-height: 1.45;
+    text-align: center;
+}
+
+.login-auth {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.login-or {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    color: rgba(148, 163, 184, 0.85);
+    font-size: 0.82rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.login-or::before,
+.login-or::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.login-or span {
+    flex-shrink: 0;
+}
+
+.login-apple-btn {
+    width: 100%;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 4px;
+    background: #000;
+    color: #fff;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1;
+    cursor: not-allowed;
+    opacity: 0.72;
+}
+
+.login-apple-btn svg {
+    flex-shrink: 0;
+}
+
+.google-btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 44px;
+    overflow: visible;
+    transition: transform 0.2s ease;
+}
+
+/* !important: el iframe de Google trae width inline; solo important lo acota. */
+.google-btn-container iframe {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    display: block !important;
+    border-radius: 24px;
+}
+
+.google-btn-container:hover {
+    transform: translateY(-1px);
+}
+
+.login-page .shell-footer {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.login-page .lp-nav {
+    position: relative;
+    z-index: 2;
+    background: rgba(21, 9, 16, 0.68);
+}
+
+@keyframes loginFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 480px) {
+    .login-main {
+        padding: 20px;
+    }
+
+    .login-panel {
+        padding: 30px 20px 26px;
+    }
+
+    .login-stage {
+        transform: translateY(-2.5vh);
+    }
+}

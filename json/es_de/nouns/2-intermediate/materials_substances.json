@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/2-intermediate/materials_substances_e_people/2-intermediate_materials_substances_e_people_card_0_def0.avif",
+        "meaning": "Acero",
+        "pronunciation_guide_es": "/di_BRUE-ke_be-SHTET_aus_SHTAL/",
+        "usage_context_en": "A hard, strong, gray or bluish-gray alloy of iron with carbon.",
+        "usage_context_es": "Una aleación dura, fuerte, gris o gris azulada de hierro con carbono.",
+        "usage_example": "Die Brücke besteht aus Stahl.",
+        "usage_example_es": "El puente está hecho de acero."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature & Materials",
+    "is_verb": false,
+    "name": "der Stahl",
+    "phonetic": "/deːɐ ʃtaːl/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/deːɐ ʃtaːl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_0_def0.avif",
+        "meaning": "Tela / Tejido",
+        "pronunciation_guide_es": "/DI-zer_SHTOF_FUELT_zish_VAISH_an/",
+        "usage_context_en": "Cloth used for making clothes or other items.",
+        "usage_context_es": "Cloth used for making clothes or other items.",
+        "usage_example": "Dieser Stoff fühlt sich weich an.",
+        "usage_example_es": "Esta tela se siente suave."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature & Materials",
+    "is_verb": false,
+    "name": "der Stoff",
+    "phonetic": "/deːɐ ʃtɔf/",
+    "search_term": "noun/materials_substances/added",
+    "spoken_phonetic_us": "/deːɐ ʃtɔf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_1_def0.avif",
+        "meaning": "Fibra",
+        "pronunciation_guide_es": "/DI-zes_ma-te-ri-AL_ent-HAELT_na-TUR-fa-zern/",
+        "usage_context_en": "A thin thread-like part of a material.",
+        "usage_context_es": "A thin thread-like part of a material.",
+        "usage_example": "Dieses Material enthält Naturfasern.",
+        "usage_example_es": "Este material contiene fibra natural."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature & Materials",
+    "is_verb": false,
+    "name": "die Faser",
+    "phonetic": "/diː ˈfaːzɐ/",
+    "search_term": "noun/materials_substances/added",
+    "spoken_phonetic_us": "/diː ˈfaːzɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "imagePath": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_2_def0.avif",
+        "meaning": "Textil / Tela",
+        "pronunciation_guide_es": "/di_SHTAT_ist_be-KANT_fuer_I-re_teks-TIL-in-dus-tri/",
+        "usage_context_en": "A type of woven or manufactured cloth.",
+        "usage_context_es": "A type of woven or manufactured cloth.",
+        "usage_example": "Die Stadt ist bekannt für ihre Textilindustrie.",
+        "usage_example_es": "La ciudad es conocida por su industria textil."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature & Materials",
+    "is_verb": false,
+    "name": "das Textil",
+    "phonetic": "/das tɛksˈtiːl/",
+    "search_term": "noun/materials_substances/added",
+    "spoken_phonetic_us": "/das tɛksˈtiːl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "imagePath": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_3_def0.avif",
+        "meaning": "Aleación",
+        "pronunciation_guide_es": "/SHTAL_ist_AI-ne_le-GI-rung_aus_AI-zen_unt_KO-len-shtof/",
+        "usage_context_en": "A metal made by combining two or more elements.",
+        "usage_context_es": "A metal made by combining two or more elements.",
+        "usage_example": "Stahl ist eine Legierung aus Eisen und Kohlenstoff.",
+        "usage_example_es": "El acero es una aleación de hierro y carbono."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature & Materials",
+    "is_verb": false,
+    "name": "die Legierung",
+    "phonetic": "/diː leˈɡiːʁʊŋ/",
+    "search_term": "noun/materials_substances/added",
+    "spoken_phonetic_us": "/diː leˈɡiːʁʊŋ/"
+  }
+]

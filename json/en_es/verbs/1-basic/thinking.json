@@ -1,0 +1,371 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Saber (información)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/knowledge/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "know",
+        "usage_example": "Sé la respuesta.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I know the answer.",
+        "char_count": "one",
+        "usage_context_en": "information/facts",
+        "usage_context_es": "información/hechos",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_0_def0.avif",
+        "target_meaning_es": "Saber (información)"
+      },
+      {
+        "meaning": "know",
+        "usage_example": "La conozco de la escuela.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I know her from school.",
+        "char_count": "one",
+        "usage_context_en": "people/places",
+        "usage_context_es": "gente/lugares",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_0_def1.avif",
+        "target_meaning_es": "Conocer (a una persona/lugar)"
+      }
+    ],
+    "group_name": "Mind & Senses",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Ver (con los ojos)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/vision/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "see",
+        "usage_example": "Puedo ver el océano desde aquí.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I can see the ocean from here.",
+        "char_count": "one",
+        "usage_context_en": "vision/sight",
+        "usage_context_es": "visión/vista",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_1_def0.avif",
+        "target_meaning_es": "Ver (con los ojos)"
+      },
+      {
+        "meaning": "see",
+        "usage_example": "Entiendo lo que quieres decir.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I see what you mean.",
+        "char_count": "one",
+        "usage_context_en": "understanding/realization",
+        "usage_context_es": "comprensión/darse cuenta",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_1_def1.avif",
+        "target_meaning_es": "Entender/Comprender"
+      }
+    ],
+    "group_name": "Mind & Senses",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Pensar (razonar)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/opinion/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "think",
+        "usage_example": "Pienso mucho en mi futuro.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I think about my future a lot.",
+        "char_count": "one",
+        "usage_context_en": "reasoning/reflection",
+        "usage_context_es": "razonar/reflexionar",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_2_def0.avif",
+        "target_meaning_es": "Pensar (razonar)"
+      },
+      {
+        "meaning": "think",
+        "usage_example": "Creo que va a llover hoy.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I think it will rain today.",
+        "char_count": "one",
+        "usage_context_en": "opinion/belief",
+        "usage_context_es": "opinión/creencia",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_2_def1.avif",
+        "target_meaning_es": "Creer/Opinar"
+      }
+    ],
+    "group_name": "Mind & Senses",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Mirar",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/look/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "look",
+        "usage_example": "Mírame.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Look at me.",
+        "char_count": "one",
+        "usage_context_en": "attention/vision",
+        "usage_context_es": "atención/visión",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_3_def0.avif",
+        "target_meaning_es": "Mirar"
+      },
+      {
+        "meaning": "look",
+        "usage_example": "Ella se ve feliz.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She looks happy.",
+        "char_count": "one",
+        "usage_context_en": "appearance/impression",
+        "usage_context_es": "apariencia/impresión",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_3_def1.avif",
+        "target_meaning_es": "Parecer (verse de cierta manera)"
+      }
+    ],
+    "group_name": "Perception & Attention",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Oír/Escuchar",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/sound/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "hear",
+        "usage_example": "¿Oíste ese ruido?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Did you hear that noise?",
+        "char_count": "one",
+        "usage_context_en": "sound/sense",
+        "usage_context_es": "sonido/sentido",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_4_def0.avif",
+        "target_meaning_es": "Oír/Escuchar"
+      },
+      {
+        "meaning": "hear",
+        "usage_example": "No he sabido de él en semanas.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I haven't heard from him in weeks.",
+        "char_count": "one",
+        "usage_context_en": "news/communication",
+        "usage_context_es": "noticias/comunicación",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_4_def1.avif",
+        "target_meaning_es": "Recibir noticias/Saber de alguien"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Escuchar",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/listen/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "listen",
+        "usage_example": "Escúchame.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Listen to me.",
+        "char_count": "one",
+        "usage_context_en": "attention/sound",
+        "usage_context_es": "atención/sonido",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_5_def0.avif",
+        "target_meaning_es": "Escuchar"
+      },
+      {
+        "meaning": "listen",
+        "usage_example": "No escuchan el consejo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "They don't listen to the advice.",
+        "char_count": "one",
+        "usage_context_en": "advice/instructions",
+        "usage_context_es": "consejos/instrucciones",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_5_def1.avif",
+        "target_meaning_es": "Prestar atención"
+      }
+    ],
+    "group_name": "Perception & Attention",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Encontrar (localizar algo)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/discover/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "find",
+        "usage_example": "No puedo encontrar mis llaves.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I can't find my keys.",
+        "char_count": "one",
+        "usage_context_en": "search/discovery",
+        "usage_context_es": "búsqueda/descubrimiento",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_6_def0.avif",
+        "target_meaning_es": "Encontrar (localizar algo)"
+      },
+      {
+        "meaning": "find",
+        "usage_example": "Encuentro la película aburrida.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I find the movie boring.",
+        "char_count": "one",
+        "usage_context_en": "opinion/judgment",
+        "usage_context_es": "opinión/juicio",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_6_def1.avif",
+        "target_meaning_es": "Parecer/Opinar (encontrarle a algo una característica)"
+      }
+    ],
+    "group_name": "Mind & Senses",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Ver/Mirar (con atención)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/observe/level_up",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "watch",
+        "usage_example": "Veo televisión todas las noches.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I watch TV every night.",
+        "char_count": "one",
+        "usage_context_en": "entertainment/warning",
+        "usage_context_es": "entretenimiento/advertencia",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_7_def0.avif",
+        "target_meaning_es": "Ver/Mirar (con atención)"
+      },
+      {
+        "meaning": "watch",
+        "usage_example": "¿Puedes vigilar mi bolso por un momento?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Can you watch my bag for a moment?",
+        "char_count": "one",
+        "usage_context_en": "supervision/care",
+        "usage_context_es": "supervisión/cuidado",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_7_def1.avif",
+        "target_meaning_es": "Vigilar/Cuidar"
+      }
+    ],
+    "group_name": "Mind & Senses",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Significar/Querer decir",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/signify/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "mean",
+        "usage_example": "¿Qué significa esta palabra?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "What does this word mean?",
+        "char_count": "one",
+        "usage_context_en": "definition/intention",
+        "usage_context_es": "definición/intención",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_8_def0.avif",
+        "target_meaning_es": "Significar/Querer decir"
+      },
+      {
+        "meaning": "mean",
+        "usage_example": "Tengo la intención de terminar este proyecto pronto.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I mean to finish this project soon.",
+        "char_count": "one",
+        "usage_context_en": "intention/purpose",
+        "usage_context_es": "intención/propósito",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_8_def1.avif",
+        "target_meaning_es": "Tener la intención de"
+      }
+    ],
+    "group_name": "Being & State",
+    "category": ""
+  }
+]

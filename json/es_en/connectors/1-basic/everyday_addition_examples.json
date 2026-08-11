@@ -1,0 +1,142 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "and",
+    "phonetic": "/ænd/",
+    "spoken_phonetic_us": "/ænd/",
+    "search_term": "conjunction/linking",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Addition",
+    "definitions": [
+      {
+        "meaning": "Y",
+        "usage_example": "I like coffee and tea.",
+        "pronunciation_guide_es": "/ai_LAIK_CO-fi_and_TI/",
+        "usage_example_es": "Me gusta el café y el té.",
+        "char_count": "5",
+        "usage_context_en": "Used to connect two words, phrases, or clauses of equal importance.",
+        "usage_context_es": "Usado para conectar dos palabras, frases o cláusulas de igual importancia.",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples/1-basic_everyday_addition_examples_card_0_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "also",
+    "phonetic": "/ˈɔlsoʊ/",
+    "spoken_phonetic_us": "/ˈɔlsoʊ/",
+    "search_term": "adverb/addition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Addition",
+    "definitions": [
+      {
+        "meaning": "También / Además",
+        "usage_example": "I also like tea.",
+        "pronunciation_guide_es": "/ai_OL-sou_LAIK_TI/",
+        "usage_example_es": "También me gusta el té.",
+        "char_count": "4",
+        "usage_context_en": "In addition; too. (Typically placed before the main verb or after 'to be').",
+        "usage_context_es": "Además; también. (Típicamente ubicado antes del verbo principal o después de 'to be').",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples/1-basic_everyday_addition_examples_card_1_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "too",
+    "phonetic": "/tu/",
+    "spoken_phonetic_us": "/tu/",
+    "search_term": "adverb/addition/intensifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Addition",
+    "definitions": [
+      {
+        "meaning": "También",
+        "usage_example": "I like coffee, too.",
+        "pronunciation_guide_es": "/ai_LAIK_CO-fi_TU/",
+        "usage_example_es": "Me gusta el café también.",
+        "char_count": "4",
+        "usage_context_en": "In addition; also. (Typically at the end of a clause).",
+        "usage_context_es": "Además; también. (Típicamente al final de una cláusula).",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples/1-basic_everyday_addition_examples_card_2_def0.avif"
+      },
+      {
+        "meaning": "Demasiado",
+        "usage_example": "It is too hot.",
+        "pronunciation_guide_es": "/it_is_TU_HOT/",
+        "usage_example_es": "Hace demasiado calor.",
+        "char_count": "4",
+        "usage_context_en": "An intensifier meaning 'excessively' or 'more than is wanted'.",
+        "usage_context_es": "Un intensificador que significa 'excesivamente' o 'más de lo deseado'.",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples/1-basic_everyday_addition_examples_card_2_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "or",
+    "phonetic": "/ɔr/",
+    "spoken_phonetic_us": "/ɔr/",
+    "search_term": "connector/alternative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Alternative",
+    "definitions": [
+      {
+        "meaning": "O (alternativa)",
+        "usage_example": "Would you like tea or coffee?",
+        "pronunciation_guide_es": "/uud_iu_laik_ti_or_co-fi/",
+        "usage_example_es": "¿Te gustaría té o café?",
+        "char_count": "2",
+        "usage_context_en": "Used to link alternatives.",
+        "usage_context_es": "Usado para enlazar alternativas.",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples/1-basic_everyday_addition_examples_card_3_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "for example",
+    "phonetic": "/fɔr ɪɡˈzæmpəl/",
+    "spoken_phonetic_us": "/fɔr ɪɡˈzæmpəl/",
+    "search_term": "phrase/example",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Example",
+    "definitions": [
+      {
+        "meaning": "Por ejemplo",
+        "usage_example": "I like fruits, for example, apples.",
+        "pronunciation_guide_es": "/ai_LAIK_FRUTS_for_ex-AM-pol_A-pols/",
+        "usage_example_es": "Me gustan las frutas, por ejemplo, las manzanas.",
+        "char_count": "6",
+        "usage_context_en": "Used to introduce a specific item that illustrates a general point.",
+        "usage_context_es": "Usado para introducir un ítem específico que ilustra un punto general.",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples/1-basic_everyday_addition_examples_card_4_def0.avif"
+      }
+    ]
+  }
+]

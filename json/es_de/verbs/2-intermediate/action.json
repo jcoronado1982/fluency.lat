@@ -1,0 +1,878 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "einschließen",
+    "phonetic": "/ˈaɪnʃliːsn̩/",
+    "spoken_phonetic_us": "/ˈaɪnʃliːsn̩/",
+    "search_term": "verb/contain/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Incluir",
+        "usage_example": "Schließt der Preis das Frühstück ein?",
+        "pronunciation_guide_es": "/SHLIST_der_PRAIS_das_FRUE-shtuek_AIN/",
+        "alternative_example": "Please include me in the team.",
+        "usage_example_es": "¿El precio incluye el desayuno?",
+        "char_count": "two",
+        "usage_context_en": "costs/groups",
+        "usage_context_es": "costos/grupos",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_0_def0.avif"
+      },
+      {
+        "meaning": "Contener (como parte de un grupo)",
+        "usage_example": "Die Liste umfasst 50 Verben.",
+        "pronunciation_guide_es": "/di_LIS-te_um-FAST_FUENF-tsish_VER-ben/",
+        "alternative_example": "My family includes my parents and brother.",
+        "usage_example_es": "La lista incluye 50 verbos.",
+        "char_count": "two",
+        "usage_context_en": "lists/elements",
+        "usage_context_es": "listas/elementos",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_0_def1.avif"
+      }
+    ],
+    "group_name": "Managing & Control"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "fortsetzen",
+    "phonetic": "/ˈfɔʁtzɛtsn̩/",
+    "spoken_phonetic_us": "/ˈfɔʁtzɛtsn̩/",
+    "search_term": "verb/keep on/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Continuar/Seguir",
+        "usage_example": "Bitte lies weiter.",
+        "pronunciation_guide_es": "/BI-te_LIS_VAI-ter/",
+        "alternative_example": "The rain continued all night.",
+        "usage_example_es": "Por favor, sigue leyendo.",
+        "char_count": "three",
+        "usage_context_en": "activities/duration",
+        "usage_context_es": "actividades/duración",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_1_def0.avif"
+      },
+      {
+        "meaning": "Reanudar",
+        "usage_example": "Wir werden die Diskussion morgen fortsetzen.",
+        "pronunciation_guide_es": "/vir_VER-den_di_dis-ku-SI-on_MOR-gen_FORT-zet-sen/",
+        "alternative_example": "Continue on this road for 2 miles.",
+        "usage_example_es": "Continuaremos la discusión mañana.",
+        "char_count": "three",
+        "usage_context_en": "discussion/path",
+        "usage_context_es": "discusión/camino",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_1_def1.avif"
+      }
+    ],
+    "group_name": "Social & Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "setzen",
+    "phonetic": "/ˈzɛtsn̩/",
+    "spoken_phonetic_us": "/ˈzɛtsn̩/",
+    "search_term": "verb/arrange/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Establecer/Fijar",
+        "usage_example": "Setzen wir ein Datum für das Treffen fest.",
+        "pronunciation_guide_es": "/ZET-sen_vir_ain_DA-tum_fuer_das_TRE-fen_FEST/",
+        "alternative_example": "He set the alarm for 6 AM.",
+        "usage_example_es": "Fijemos una fecha para la reunión.",
+        "char_count": "one",
+        "usage_context_en": "time/rules",
+        "usage_context_es": "tiempo/reglas",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_2_def0.avif"
+      },
+      {
+        "meaning": "Colocar/Poner",
+        "usage_example": "Deck den Tisch für das Abendessen.",
+        "pronunciation_guide_es": "/DEK_den_TISH_fuer_das_A-bent-e-sen/",
+        "alternative_example": "The sun sets in the west.",
+        "usage_example_es": "Pon la mesa para la cena.",
+        "char_count": "one",
+        "usage_context_en": "objects/position",
+        "usage_context_es": "objetos/posición",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_2_def1.avif"
+      }
+    ],
+    "irregular": {
+      "past": {
+        "form": "setzte",
+        "phonetic": "/ˈzɛtstə/",
+        "spoken_phonetic_us": "/ˈzɛtstə/",
+        "usage_example": "He set the table.",
+        "usage_example_es": "Él puso la mesa.",
+        "pronunciation_guide_es": "/ji_SET_de_TEIBOL/",
+        "meaning": "Pasado de poner/establecer",
+        "definitions": [
+          {
+            "usage_example": "Sie legten die Bedingungen für den Deal fest.",
+            "usage_example_es": "Ellos establecieron las condiciones para el trato.",
+            "pronunciation_guide_es": "/zi_LEK-ten_di_be-DIN-gun-gen_fuer_den_DIL_FEST/",
+            "meaning": "Pasado de Establecer",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_2_def0_v2.avif"
+          },
+          {
+            "usage_example": "Sie stellte die Vase ins Regal.",
+            "usage_example_es": "Ella colocó el florero en el estante.",
+            "pronunciation_guide_es": "/zi_SHTEL-te_di_VA-ze_ins_re-GAL/",
+            "meaning": "Pasado de Colocar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_2_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "gesetzt",
+        "phonetic": "/ɡəˈzɛtst/",
+        "spoken_phonetic_us": "/ɡəˈzɛtst/",
+        "usage_example": "The rules are set.",
+        "usage_example_es": "Las reglas están establecidas.",
+        "pronunciation_guide_es": "/de_RULS_ar_SET/",
+        "meaning": "Participio de poner/establecer",
+        "definitions": [
+          {
+            "usage_example": "Sie haben die Bedingungen für den Deal festgelegt.",
+            "usage_example_es": "Ellos establecieron las condiciones para el trato.",
+            "pronunciation_guide_es": "/zi_HA-ben_di_be-DIN-gun-gen_fuer_den_DIL_FEST-ge-lekt/",
+            "meaning": "Participio de Establecer",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_2_def0_v3.avif"
+          },
+          {
+            "usage_example": "Sie hat die Vase ins Regal gestellt.",
+            "usage_example_es": "Ella colocó el florero en el estante.",
+            "pronunciation_guide_es": "/zi_hat_di_VA-ze_ins_re-GAL_ge-SHTELT/",
+            "meaning": "Participio de Colocar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_2_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Managing & Control"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "erlauben",
+    "phonetic": "/ɛɐˈlaʊbn̩/",
+    "spoken_phonetic_us": "/ɛɐˈlaʊbn̩/",
+    "search_term": "verb/permit/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Permitir/Dejar",
+        "usage_example": "Meine Mutter erlaubt mir, lange aufzubleiben.",
+        "pronunciation_guide_es": "/MAI-ne_MUT-ter_er-LAUPT_mir_LAN-ge_AUF-tsu-blai-ben/",
+        "alternative_example": "Smoking is not allowed here.",
+        "usage_example_es": "Mi mamá me permite quedarme despierto hasta tarde.",
+        "char_count": "two",
+        "usage_context_en": "permission/rules",
+        "usage_context_es": "permiso/reglas",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_3_def0.avif"
+      },
+      {
+        "meaning": "Dar (tiempo, dinero, etc.)",
+        "usage_example": "Gib mir einen Moment zum Nachdenken.",
+        "pronunciation_guide_es": "/GIP_mir_AI-nen_mo-MENT_tsum_NAJ-den-ken/",
+        "alternative_example": "We need to allow for delays.",
+        "usage_example_es": "Dame un momento para pensar.",
+        "char_count": "two",
+        "usage_context_en": "time/contingency",
+        "usage_context_es": "tiempo/contingencia",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_3_def1.avif"
+      }
+    ],
+    "group_name": "Managing & Control"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "hinzufügen",
+    "phonetic": "/hɪnˈtsuːfyːɡn̩/",
+    "spoken_phonetic_us": "/hɪnˈtsuːfyːɡn̩/",
+    "search_term": "verb/increase/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Añadir/Sumar",
+        "usage_example": "Füge etwas Salz zur Suppe hinzu.",
+        "pronunciation_guide_es": "/FUE-ge_ET-vas_ZALTS_tsur_ZU-pe_HIN-tsu/",
+        "alternative_example": "Please add these numbers.",
+        "usage_example_es": "Añade un poco de sal a la sopa.",
+        "char_count": "one",
+        "usage_context_en": "cooking/math",
+        "usage_context_es": "cocina/matemáticas",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_4_def0.avif"
+      },
+      {
+        "meaning": "Agregar (algo más)",
+        "usage_example": "Hast du deinen Namen zur Liste hinzugefügt?",
+        "pronunciation_guide_es": "/hast_du_DAI-nen_NA-men_tsur_LIS-te_HIN-tsu-ge-fuekt/",
+        "alternative_example": "He added that he was tired.",
+        "usage_example_es": "¿Añadiste tu nombre a la lista?",
+        "char_count": "one",
+        "usage_context_en": "lists/speech",
+        "usage_context_es": "listas/discurso",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_4_def1.avif"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "töten",
+    "phonetic": "/ˈtøːtn̩/",
+    "spoken_phonetic_us": "/ˈtøːtn̩/",
+    "search_term": "verb/end life/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Matar/Quitar la vida",
+        "usage_example": "Mücken können Menschen töten.",
+        "pronunciation_guide_es": "/MUE-ken_KOE-nen_MEN-shen_TOE-ten/",
+        "alternative_example": "The poison killed the rats.",
+        "usage_example_es": "Los mosquitos pueden matar gente.",
+        "char_count": "one",
+        "usage_context_en": "life/insects",
+        "usage_context_es": "vida/insectos",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_5_def0.avif"
+      },
+      {
+        "meaning": "Anular/Detener (una idea, plan)",
+        "usage_example": "Das neue Gesetz hat das Projekt gestoppt.",
+        "pronunciation_guide_es": "/das_NOI-e_ge-ZETS_hat_das_pro-YEKT_ge-SHTOPT/",
+        "alternative_example": "Let's kill some time with a movie.",
+        "usage_example_es": "La nueva ley anuló el proyecto.",
+        "char_count": "one",
+        "usage_context_en": "plans/time",
+        "usage_context_es": "planes/tiempo",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_5_def1.avif"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "erfordern",
+    "phonetic": "/ɛɐˈfɔʁdɐn/",
+    "spoken_phonetic_us": "/ɛɐˈfɔʁdɐn/",
+    "search_term": "verb/demand/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Requerir/Necesitar (formal)",
+        "usage_example": "Der Job erfordert viel Erfahrung.",
+        "pronunciation_guide_es": "/der_YOP_er-FOR-dert_fil_er-FA-rung/",
+        "alternative_example": "Do you require any assistance?",
+        "usage_example_es": "El trabajo requiere mucha experiencia.",
+        "char_count": "two",
+        "usage_context_en": "skills/necessity",
+        "usage_context_es": "habilidades/necesidad",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_6_def0.avif"
+      },
+      {
+        "meaning": "Exigir/Ordenar (reglas)",
+        "usage_example": "Das Gesetz verlangt, dass du einen Sicherheitsgurt trägst.",
+        "pronunciation_guide_es": "/das_ge-ZETS_fer-LANGT_das_du_AI-nen_ZI-sher-haits-gurt_TREKST/",
+        "alternative_example": "Safety requires concentration.",
+        "usage_example_es": "La ley exige que uses un cinturón de seguridad.",
+        "char_count": "two",
+        "usage_context_en": "laws/safety",
+        "usage_context_es": "leyes/seguridad",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_6_def1.avif"
+      }
+    ],
+    "group_name": "Managing & Control"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "tragen",
+    "phonetic": "/ˈtʁaːɡn̩/",
+    "spoken_phonetic_us": "/ˈtʁaːɡn̩/",
+    "search_term": "verb/clothing/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Usar/Llevar puesto (ropa, joyas)",
+        "usage_example": "Was trägst du heute?",
+        "pronunciation_guide_es": "/vas_TREKST_du_HOI-te/",
+        "alternative_example": "I always wear my glasses.",
+        "usage_example_es": "¿Qué llevas puesto hoy?",
+        "char_count": "one",
+        "usage_context_en": "clothing/accessories",
+        "usage_context_es": "ropa/accesorios",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_7_def0.avif"
+      },
+      {
+        "meaning": "Desgastar/Erosionar",
+        "usage_example": "Der Teppich beginnt sich abzunutzen.",
+        "pronunciation_guide_es": "/der_te-PISH_be-GINT_zish_AP-tsu-nut-sen/",
+        "alternative_example": "Time wears away stones.",
+        "usage_example_es": "La alfombra está empezando a desgastarse.",
+        "char_count": "one",
+        "usage_context_en": "materials/time",
+        "usage_context_es": "materiales/tiempo",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_7_def1.avif"
+      }
+    ],
+    "group_name": "Daily Routine"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "tragen",
+    "phonetic": "/ˈtʁaːɡn̩/",
+    "spoken_phonetic_us": "/ˈtʁaːɡn̩/",
+    "search_term": "verb/transport/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Llevar/Cargar",
+        "usage_example": "Kannst du diese Tasche für mich tragen?",
+        "pronunciation_guide_es": "/kanst_du_DI-ze_TA-she_fuer_mish_TRA-gen/",
+        "alternative_example": "The bridge carries heavy traffic.",
+        "usage_example_es": "¿Puedes llevar esta bolsa por mí?",
+        "char_count": "two",
+        "usage_context_en": "objects/transport",
+        "usage_context_es": "objetos/transporte",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_8_def0.avif"
+      },
+      {
+        "meaning": "Conllevar/Implicar",
+        "usage_example": "Dieser Job bringt große Verantwortung mit sich.",
+        "pronunciation_guide_es": "/DI-zer_YOP_BRINGT_GRO-se_fer-ANT-vor-tung_mit_zish/",
+        "alternative_example": "They carried out the plan successfully.",
+        "usage_example_es": "Este trabajo conlleva una gran responsabilidad.",
+        "char_count": "two",
+        "usage_context_en": "responsibility/plans",
+        "usage_context_es": "responsabilidad/planes",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_8_def1.avif"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "beitreten",
+    "phonetic": "/ˈbaɪtʁeːtn̩/",
+    "spoken_phonetic_us": "/ˈbaɪtʁeːtn̩/",
+    "search_term": "verb/unite/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Unirse a (un grupo, club)",
+        "usage_example": "Möchtest du unserem Team beitreten?",
+        "pronunciation_guide_es": "/MOESH-test_du_UN-ze-rem_TIM_BAI-tre-ten/",
+        "alternative_example": "I joined the gym last month.",
+        "usage_example_es": "¿Quieres unirte a nuestro equipo?",
+        "char_count": "one",
+        "usage_context_en": "groups/membership",
+        "usage_context_es": "grupos/membresía",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_9_def0.avif"
+      },
+      {
+        "meaning": "Juntar/Conectar",
+        "usage_example": "Verbinde diese zwei Teile.",
+        "pronunciation_guide_es": "/fer-BIN-de_DI-ze_TSVAI_TAI-le/",
+        "alternative_example": "The river joins the sea here.",
+        "usage_example_es": "Junta estas dos piezas.",
+        "char_count": "one",
+        "usage_context_en": "connection/objects",
+        "usage_context_es": "conexión/objetos",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_9_def1.avif"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "brechen",
+    "phonetic": "/ˈbʁɛçn̩/",
+    "spoken_phonetic_us": "/ˈbʁɛçn̩/",
+    "search_term": "verb/fracture/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Romper/Quebrar",
+        "usage_example": "Pass auf, dass das Glas nicht zerbricht.",
+        "pronunciation_guide_es": "/PAS_AUF_das_das_GLAS_nisht_tser-BRISHT/",
+        "alternative_example": "He broke his arm.",
+        "usage_example_es": "Ten cuidado de no romper el vaso.",
+        "char_count": "one",
+        "usage_context_en": "objects/injury",
+        "usage_context_es": "objetos/herida",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_10_def0.avif"
+      },
+      {
+        "meaning": "Tomar un descanso/Interrumpir",
+        "usage_example": "Machen wir eine Pause zum Mittagessen.",
+        "pronunciation_guide_es": "/MA-chen_vir_AI-ne_PAU-ze_tsum_MI-tak-e-sen/",
+        "alternative_example": "She broke the record.",
+        "usage_example_es": "Paremos para almorzar.",
+        "char_count": "one",
+        "usage_context_en": "rest/interruption",
+        "usage_context_es": "descanso/interrupción",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_10_def1.avif"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "fangen",
+    "phonetic": "/ˈfaŋən/",
+    "spoken_phonetic_us": "/ˈfaŋən/",
+    "search_term": "verb/grab/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Atrapar/Coger (un objeto en movimiento)",
+        "usage_example": "Fang den Ball!",
+        "pronunciation_guide_es": "/FANG_den_BAL/",
+        "alternative_example": "I caught a cold.",
+        "usage_example_es": "¡Atrapa la pelota!",
+        "char_count": "one",
+        "usage_context_en": "sports/illness",
+        "usage_context_es": "deportes/enfermedad",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_11_def0.avif"
+      },
+      {
+        "meaning": "Tomar (un transporte)/Descubrir",
+        "usage_example": "Wir müssen den Bus erwischen.",
+        "pronunciation_guide_es": "/vir_MUE-sen_den_BUS_er-VI-shen/",
+        "alternative_example": "I caught him stealing.",
+        "usage_example_es": "Tenemos que tomar el autobús.",
+        "char_count": "one",
+        "usage_context_en": "transport/discovery",
+        "usage_context_es": "transporte/descubrimiento",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_11_def1.avif"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "werfen",
+    "phonetic": "/ˈvɛʁfn̩/",
+    "spoken_phonetic_us": "/ˈvɛʁfn̩/",
+    "search_term": "verb/toss/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Lanzar/Arrojar",
+        "usage_example": "Wirf mir die Schlüssel zu.",
+        "pronunciation_guide_es": "/VIRF_mir_di_SHLUE-sel_TSU/",
+        "alternative_example": "She threw the paper in the trash.",
+        "usage_example_es": "Lánzame las llaves.",
+        "char_count": "one",
+        "usage_context_en": "objects/movement",
+        "usage_context_es": "objetos/movimiento",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_12_def0.avif"
+      },
+      {
+        "meaning": "Hacer (una fiesta)",
+        "usage_example": "Wir werden eine Party schmeißen.",
+        "pronunciation_guide_es": "/vir_VER-den_AI-ne_PAR-ti_SHMAI-sen/",
+        "alternative_example": "Don't throw away your chance.",
+        "usage_example_es": "Vamos a hacer una fiesta.",
+        "char_count": "one",
+        "usage_context_en": "party/idiom",
+        "usage_context_es": "fiesta/modismo",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_12_def1.avif"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "unterstützen",
+    "phonetic": "/ˈʊntɐʃtʏtsn̩/",
+    "spoken_phonetic_us": "/ˈʊntɐʃtʏtsn̩/",
+    "search_term": "verb/help/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Apoyar/Ayudar (a alguien)",
+        "usage_example": "Ich werde deine Entscheidungen immer unterstützen.",
+        "pronunciation_guide_es": "/ish_VER-de_DAI-ne_ent-SHAI-dun-gen_IM-mer_UN-ter-shtuet-sen/",
+        "alternative_example": "Which team do you support?",
+        "usage_example_es": "Siempre apoyaré tus decisiones.",
+        "char_count": "two",
+        "usage_context_en": "emotional/teams",
+        "usage_context_es": "emocional/equipos",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_13_def0.avif"
+      },
+      {
+        "meaning": "Sostener/Mantener (físicamente)",
+        "usage_example": "Die Säulen tragen das Dach.",
+        "pronunciation_guide_es": "/di_ZOI-len_TRA-gen_das_DACH/",
+        "alternative_example": "He needs support to walk.",
+        "usage_example_es": "Las columnas sostienen el techo.",
+        "char_count": "two",
+        "usage_context_en": "physical/structure",
+        "usage_context_es": "físico/estructura",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_13_def1.avif"
+      }
+    ],
+    "group_name": "Social & Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "streiten",
+    "phonetic": "/ˈʃtʁaɪtn̩/",
+    "spoken_phonetic_us": "/ˈʃtʁaɪtn̩/",
+    "search_term": "verb/disagree/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Discutir (en desacuerdo)",
+        "usage_example": "Meine Eltern streiten immer über Geld.",
+        "pronunciation_guide_es": "/MAI-ne_EL-tern_SHTRAI-ten_IM-mer_UE-ber_GELT/",
+        "alternative_example": "Don't argue with me.",
+        "usage_example_es": "Mis padres siempre discuten por dinero.",
+        "char_count": "two",
+        "usage_context_en": "disagreement/conflict",
+        "usage_context_es": "desacuerdo/conflicto",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_14_def0.avif"
+      },
+      {
+        "meaning": "Argumentar/Sostener (una idea)",
+        "usage_example": "Er argumentierte, dass der Plan zu teuer sei.",
+        "pronunciation_guide_es": "/er_ar-gu-men-TIR-te_das_der_PLAN_tsu_TOI-er_zai/",
+        "alternative_example": "She argued for a change in policy.",
+        "usage_example_es": "Argumentó que el plan era demasiado caro.",
+        "char_count": "two",
+        "usage_context_en": "reasoning/debate",
+        "usage_context_es": "razonamiento/debate",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_14_def1.avif"
+      }
+    ],
+    "group_name": "Feelings & Reactions"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "reparieren",
+    "phonetic": "/ʁepaˈʁiːʁən/",
+    "spoken_phonetic_us": "/ʁepaˈʁiːʁən/",
+    "search_term": "verb/repair/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Arreglar/Reparar",
+        "usage_example": "Kannst du meinen kaputten Stuhl reparieren?",
+        "pronunciation_guide_es": "/kanst_du_MAI-nen_ka-PU-ten_SHTUL_re-pa-RI-ren/",
+        "alternative_example": "I need to fix this error in the code.",
+        "usage_example_es": "¿Puedes arreglar mi silla rota?",
+        "char_count": "one",
+        "usage_context_en": "repair/objects",
+        "usage_context_es": "reparación/objetos",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_15_def0.avif"
+      },
+      {
+        "meaning": "Fijar/Establecer (una fecha, precio)",
+        "usage_example": "Sie legten ein Datum für die Hochzeit fest.",
+        "pronunciation_guide_es": "/zi_LEK-ten_ain_DA-tum_fuer_di_HOCH-tsait_FEST/",
+        "alternative_example": "Let's fix the problem.",
+        "usage_example_es": "Fijaron una fecha para la boda.",
+        "char_count": "one",
+        "usage_context_en": "schedule/solution",
+        "usage_context_es": "horario/solución",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_15_def1.avif"
+      }
+    ],
+    "group_name": "Building & Creating"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "putzen",
+    "phonetic": "/ˈpʊtsn̩/",
+    "spoken_phonetic_us": "/ˈpʊtsn̩/",
+    "search_term": "verb/wash/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Limpiar",
+        "usage_example": "Ich muss mein Zimmer putzen.",
+        "pronunciation_guide_es": "/ish_MUS_main_TSI-mer_PUT-sen/",
+        "alternative_example": "Clean the table after dinner.",
+        "usage_example_es": "Necesito limpiar mi cuarto.",
+        "char_count": "one",
+        "usage_context_en": "housework/hygiene",
+        "usage_context_es": "tareas del hogar/higiene",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_16_def0.avif"
+      },
+      {
+        "meaning": "Quitar la suciedad",
+        "usage_example": "Er putzte den Schmutz von seinen Schuhen.",
+        "pronunciation_guide_es": "/er_PUT-ste_den_SHMUTS_fon_ZAI-nen_SHU-en/",
+        "alternative_example": "Clean up this mess!",
+        "usage_example_es": "Él limpió la suciedad de sus zapatos.",
+        "char_count": "one",
+        "usage_context_en": "dirt/tidiness",
+        "usage_context_es": "suciedad/orden",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_16_def1.avif"
+      }
+    ],
+    "group_name": "Daily Routine"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "kochen",
+    "phonetic": "/ˈkɔxn̩/",
+    "spoken_phonetic_us": "/ˈkɔxn̩/",
+    "search_term": "verb/prepare food/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Cocinar",
+        "usage_example": "Ich koche gerne Pasta.",
+        "pronunciation_guide_es": "/ish_KO-che_GER-ne_PAS-ta/",
+        "alternative_example": "What are you cooking?",
+        "usage_example_es": "Me gusta cocinar pasta.",
+        "char_count": "one",
+        "usage_context_en": "food/hobby",
+        "usage_context_es": "comida/pasatiempo",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_17_def0.avif"
+      },
+      {
+        "meaning": "Preparar comida",
+        "usage_example": "Mein Vater kocht jeden Abend das Essen.",
+        "pronunciation_guide_es": "/main_FA-ter_KOCHT_YE-den_A-bent_das_E-sen/",
+        "alternative_example": "The rice is cooking.",
+        "usage_example_es": "Mi padre cocina la cena todas las noches.",
+        "char_count": "one",
+        "usage_context_en": "meals/routine",
+        "usage_context_es": "comidas/rutina",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_17_def1.avif"
+      }
+    ],
+    "group_name": "Daily Routine"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "waschen",
+    "phonetic": "/ˈvaʃn̩/",
+    "spoken_phonetic_us": "/ˈvaʃn̩/",
+    "search_term": "verb/clean with water/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Lavar (con agua y jabón)",
+        "usage_example": "Du solltest dir vor dem Essen die Hände waschen.",
+        "pronunciation_guide_es": "/du_ZOL-test_dir_for_dem_E-sen_di_HEN-de_VA-shen/",
+        "alternative_example": "I need to wash my car.",
+        "usage_example_es": "Debes lavarte las manos antes de comer.",
+        "char_count": "one",
+        "usage_context_en": "hygiene/cleaning",
+        "usage_context_es": "higiene/limpieza",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_18_def0.avif"
+      },
+      {
+        "meaning": "Lavar (ropa)",
+        "usage_example": "Sie wäscht die Kleidung.",
+        "pronunciation_guide_es": "/zi_VESHT_di_KLAI-dung/",
+        "alternative_example": "The waves washed against the shore.",
+        "usage_example_es": "Ella está lavando la ropa.",
+        "char_count": "one",
+        "usage_context_en": "laundry/movement",
+        "usage_context_es": "lavandería/movimiento",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_18_def1.avif"
+      }
+    ],
+    "group_name": "Daily Routine"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "einkaufen",
+    "phonetic": "/ˈaɪnkaʊfn̩/",
+    "spoken_phonetic_us": "/ˈaɪnkaʊfn̩/",
+    "search_term": "verb/buy things/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Ir de compras",
+        "usage_example": "Wir kaufen samstags Lebensmittel ein.",
+        "pronunciation_guide_es": "/vir_KAU-fen_ZAMS-taks_LE-bens-mi-tel_AIN/",
+        "alternative_example": "I like shopping for new shoes.",
+        "usage_example_es": "Hacemos la compra los sábados.",
+        "char_count": "one",
+        "usage_context_en": "shopping/routine",
+        "usage_context_es": "compras/rutina",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_19_def0.avif"
+      },
+      {
+        "meaning": "Comprar en (una tienda)",
+        "usage_example": "Wo kaufst du normalerweise ein?",
+        "pronunciation_guide_es": "/vo_KAUFST_du_nor-MA-ler-vai-ze_AIN/",
+        "alternative_example": "She shopped around for the best price.",
+        "usage_example_es": "¿Dónde compras habitualmente?",
+        "char_count": "one",
+        "usage_context_en": "stores/comparison",
+        "usage_context_es": "tiendas/comparación",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_19_def1.avif"
+      }
+    ],
+    "group_name": "Daily Routine"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "suchen",
+    "phonetic": "/ˈzuːxn̩/",
+    "spoken_phonetic_us": "/ˈzuːxn̩/",
+    "search_term": "verb/look for/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Buscar (con intención)",
+        "usage_example": "Ich suche online nach Informationen.",
+        "pronunciation_guide_es": "/ish_ZU-che_ON-lain_naj_in-for-ma-tsi-O-nen/",
+        "alternative_example": "Police searched the house.",
+        "usage_example_es": "Estoy buscando información en línea.",
+        "char_count": "one",
+        "usage_context_en": "internet/investigation",
+        "usage_context_es": "internet/investigación",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_20_def0.avif"
+      },
+      {
+        "meaning": "Registrar (un lugar)",
+        "usage_example": "Er durchsuchte seine Taschen nach seinen Schlüsseln.",
+        "pronunciation_guide_es": "/er_DURSH-zuj-te_ZAI-ne_TA-shen_naj_ZAI-nen_SHLUE-seln/",
+        "alternative_example": "They are searching for survivors.",
+        "usage_example_es": "Él registró sus bolsillos buscando sus llaves.",
+        "char_count": "one",
+        "usage_context_en": "objects/rescue",
+        "usage_context_es": "objetos/rescate",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_20_def1.avif"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Reiniciar / Restablecer",
+        "pronunciation_guide_es": "/vi_ZET-se_ish_main_te-le-FON_tsu-RUEK/",
+        "usage_context_en": "To restart an electronic device to its default state",
+        "usage_context_es": "Reiniciar un dispositivo electrónico a su estado inicial",
+        "usage_example": "Wie setze ich mein Telefon zurück?",
+        "usage_example_es": "¿Cómo reinicio mi teléfono?",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_21_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "zurücksetzen",
+    "phonetic": "/tsuˈʁʏkzɛtsn̩/",
+    "search_term": "verb/action/essentials",
+    "spoken_phonetic_us": "/tsuˈʁʏkzɛtsn̩/",
+    "group_name": "Managing & Control"
+  }
+]

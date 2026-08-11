@@ -1,0 +1,321 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "person",
+        "phonetic": "/ˈpɜːrsən/",
+        "spoken_phonetic_us": "/ˈpɜːrsən/",
+        "search_term": "noun/human/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Persona]",
+                "usage_example": "He is a nice person.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE person AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He is a nice person.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Un ser humano]",
+                "usage_context_es": "A human being",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_1_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "people",
+        "phonetic": "/ˈpiːpəl/",
+        "spoken_phonetic_us": "/ˈpiːpəl/",
+        "search_term": "noun/human/plural/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Gente / Personas]",
+                "usage_example": "There are many people here.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE people AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: There are many people here.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Plural de persona]",
+                "usage_context_es": "Plural of person",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_2_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "man",
+        "phonetic": "/mæn/",
+        "spoken_phonetic_us": "/mæn/",
+        "search_term": "noun/male/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Hombre]",
+                "usage_example": "That man is my father.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE man AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: That man is my father.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un humano masculino adulto]",
+                "usage_context_es": "An adult male human",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_5_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: La humanidad / especie humana]",
+                "usage_example": "Man has always sought knowledge.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE man AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Man has always sought knowledge.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Se refiere a los seres humanos en conjunto.]",
+                "usage_context_es": "Refers to human beings collectively.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_5_def1.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "woman",
+        "phonetic": "/ˈwʊmən/",
+        "spoken_phonetic_us": "/ˈwʊmən/",
+        "search_term": "noun/female/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Mujer]",
+                "usage_example": "She is a smart woman.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE woman AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: She is a smart woman.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Una humana femenina adulta]",
+                "usage_context_es": "An adult female human",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_6_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "child",
+        "phonetic": "/ʧaɪld/",
+        "spoken_phonetic_us": "/ʧaɪld/",
+        "search_term": "noun/young person/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Niño / Niña]",
+                "usage_example": "The child is playing.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE child AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The child is playing.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un ser humano joven]",
+                "usage_context_es": "A young human being",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_9_def0.avif"
+            }
+        ],
+        "group_name": "Family",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "friend",
+        "phonetic": "/frɛnd/",
+        "spoken_phonetic_us": "/frɛnd/",
+        "search_term": "noun/people/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Amigo / Amiga]",
+                "usage_example": "She is my best friend.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE friend AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: She is my best friend.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Una persona que te agrada y conoces bien]",
+                "usage_context_es": "A person you like and know well",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_22_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "boy",
+        "phonetic": "/bɔɪ/",
+        "spoken_phonetic_us": "/bɔɪ/",
+        "search_term": "noun/male/child/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Niño / Chico]",
+                "usage_example": "The boy is playing.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE boy AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The boy is playing.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un niño varón]",
+                "usage_context_es": "A male child",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_102_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "girl",
+        "phonetic": "/ɡɜːrl/",
+        "spoken_phonetic_us": "/ɡɜːrl/",
+        "search_term": "noun/female/child/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Niña / Chica]",
+                "usage_example": "The girl is reading.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE girl AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The girl is reading.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Una niña mujer]",
+                "usage_context_es": "A female child",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_103_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "neighbor",
+        "phonetic": "/ˈneɪbər/",
+        "spoken_phonetic_us": "/ˈneɪbər/",
+        "search_term": "noun/people/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Vecino / Vecina]",
+                "usage_example": "My neighbor is very friendly.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE neighbor AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: My neighbor is very friendly.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Una persona que vive cerca de ti]",
+                "usage_context_es": "A person who lives near you",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_221_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "group",
+        "phonetic": "/ɡruːp/",
+        "spoken_phonetic_us": "/ɡruːp/",
+        "search_term": "noun/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Grupo]",
+                "usage_example": "A group of people is waiting.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE group AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: A group of people is waiting.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un número de personas o cosas juntas]",
+                "usage_context_es": "A number of people or things together",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_223_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "guest",
+        "phonetic": "/ɡɛst/",
+        "spoken_phonetic_us": "/ɡɛst/",
+        "search_term": "noun/person/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Invitado / Huésped]",
+                "usage_example": "We have a guest tonight.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE guest AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: We have a guest tonight.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Una persona que te visita o se queda en un hotel]",
+                "usage_context_es": "A person visiting you or staying at a hotel",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_387_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    }
+]

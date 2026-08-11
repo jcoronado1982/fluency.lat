@@ -1,0 +1,58 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Electrodoméstico",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/machine",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Electrodoméstico]",
+                "usage_example": "La cocina tiene electrodomésticos nuevos.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: La cocina tiene electrodomésticos nuevos.]",
+                "char_count": "1",
+                "usage_context_en": "[TRADUCIR AL FR: Una máquina usada en el hogar para un propósito específico]",
+                "usage_context_es": "Una máquina usada en el hogar para un propósito específico",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_409_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Tomacorriente / Enchufe",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Tomacorriente / Enchufe]",
+                "usage_example": "Enchufa el cargador en el tomacorriente.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Enchufa el cargador en el tomacorriente.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Un lugar en la pared para conectar enchufes eléctricos]",
+                "usage_context_es": "Un lugar en la pared para conectar enchufes eléctricos",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    }
+]

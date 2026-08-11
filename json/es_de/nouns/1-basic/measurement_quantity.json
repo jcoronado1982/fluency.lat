@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/measurement_quantity/1-basic_measurement_quantity_card_0_def0.avif",
+        "meaning": "Talla / Tamaño",
+        "pronunciation_guide_es": "/VEL-she_GROE-se_TREKST_du/",
+        "usage_context_en": "How large or small something is",
+        "usage_context_es": "Qué tan grande o pequeño es algo",
+        "usage_example": "Welche Größe trägst du?",
+        "usage_example_es": "¿Qué talla usas?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Größe",
+    "phonetic": "/diː ˈɡʁøːsə/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/diː ˈɡʁøːsə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/measurement_quantity/1-basic_measurement_quantity_card_1_def0.avif",
+        "meaning": "Edad",
+        "pronunciation_guide_es": "/vi_ALT_bist_du/",
+        "usage_context_en": "How old someone is",
+        "usage_context_es": "Qué tan viejo es alguien",
+        "usage_example": "Wie alt bist du?",
+        "usage_example_es": "¿Cuál es tu edad?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "das Alter",
+    "phonetic": "/das ˈaltɐ/",
+    "search_term": "noun/concept/time/essentials",
+    "spoken_phonetic_us": "/das ˈaltɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/measurement_quantity/1-basic_measurement_quantity_card_2_def0.avif",
+        "meaning": "Nivel",
+        "pronunciation_guide_es": "/der_VA-ser-shtant_ist_HOJ/",
+        "usage_context_en": "A position on a scale; a flat surface",
+        "usage_context_es": "Una posición en una escala; una superficie plana",
+        "usage_example": "Der Wasserstand ist hoch.",
+        "usage_example_es": "El nivel del agua está alto."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "der Pegel",
+    "phonetic": "/deːɐ ˈpeːɡl̩/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈpeːɡl̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/nouns/1-basic/measurement_quantity/1-basic_measurement_quantity_card_3_def0.avif",
+        "meaning": "Peso",
+        "pronunciation_guide_es": "/vas_ist_das_ge-VISHT_der_KIS-te/",
+        "usage_context_en": "How heavy someone or something is.",
+        "usage_context_es": "How heavy someone or something is.",
+        "usage_example": "Was ist das Gewicht der Kiste?",
+        "usage_example_es": "¿Cuál es el peso de la caja?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "das Gewicht",
+    "phonetic": "/das ɡəˈvɪçt/",
+    "search_term": "noun/measurement_quantity/added",
+    "spoken_phonetic_us": "/das ɡəˈvɪçt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "imagePath": "/card_images/nouns/1-basic/measurement_quantity/1-basic_measurement_quantity_card_4_def0.avif",
+        "meaning": "Altura",
+        "pronunciation_guide_es": "/di_HOE-e_der_VANT_ist_TSVAI_ME-ter/",
+        "usage_context_en": "How tall someone or something is.",
+        "usage_context_es": "How tall someone or something is.",
+        "usage_example": "Die Höhe der Wand ist zwei Meter.",
+        "usage_example_es": "La altura de la pared es de dos metros."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Höhe",
+    "phonetic": "/diː ˈhøːə/",
+    "search_term": "noun/measurement_quantity/added",
+    "spoken_phonetic_us": "/diː ˈhøːə/"
+  }
+]

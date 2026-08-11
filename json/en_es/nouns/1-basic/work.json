@@ -1,0 +1,217 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Trabajo",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/job/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "work",
+        "usage_example": "Tengo que ir al trabajo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I have to go to work.",
+        "char_count": "one",
+        "usage_context_en": "Activity involving mental or physical effort",
+        "usage_context_es": "Actividad que implica esfuerzo físico o mental",
+        "imagePath": "/card_images/nouns/1-basic/work/1-basic_work_card_0_def0.avif",
+        "target_meaning_es": "Trabajo"
+      },
+      {
+        "meaning": "work",
+        "usage_example": "Esta pintura es una obra de arte famosa.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "This painting is a famous work of art.",
+        "char_count": "7",
+        "usage_context_en": "A creation such as a book, painting, or music piece.",
+        "usage_context_es": "Una creación como un libro, pintura o pieza musical.",
+        "imagePath": "/card_images/nouns/1-basic/work/1-basic_work_card_0_def1.avif",
+        "target_meaning_es": "Obra artística o literaria"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Oficina",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/work/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "office",
+        "usage_example": "Él trabaja en una oficina.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He works in an office.",
+        "char_count": "two",
+        "usage_context_en": "A room or building for administrative work",
+        "usage_context_es": "Un cuarto o edificio para trabajo administrativo",
+        "imagePath": "/card_images/nouns/1-basic/work/1-basic_work_card_1_def0.avif",
+        "target_meaning_es": "Oficina"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Empresa / Compañía",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/work/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "company",
+        "usage_example": "Trabajo para una empresa grande.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I work for a big company.",
+        "char_count": "three",
+        "usage_context_en": "A business organization",
+        "usage_context_es": "Una organización de negocios",
+        "imagePath": "/card_images/nouns/1-basic/work/1-basic_work_card_2_def0.avif",
+        "target_meaning_es": "Empresa / Compañía"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Negocio / Empresa",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/work/company/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "business",
+        "usage_example": "Él empezó su propio negocio.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He started his own business.",
+        "char_count": "two",
+        "usage_context_en": "The activity of buying and selling goods",
+        "usage_context_es": "La actividad de comprar y vender bienes",
+        "imagePath": "/card_images/nouns/1-basic/work/1-basic_work_card_3_def0.avif",
+        "target_meaning_es": "Negocio / Empresa"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Escritorio",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/furniture/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "desk",
+        "usage_example": "El lápiz está sobre el escritorio.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The pencil is on the desk.",
+        "char_count": "one",
+        "usage_context_en": "A table for writing or working",
+        "usage_context_es": "Una mesa para escribir o trabajar",
+        "imagePath": "/card_images/nouns/1-basic/work/1-basic_work_card_4_def0.avif",
+        "target_meaning_es": "Escritorio"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Cliente",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/person/work/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "customer",
+        "usage_example": "El cliente siempre tiene la razón.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The customer is always right.",
+        "char_count": "three",
+        "usage_context_en": "A person who buys things from a store",
+        "usage_context_es": "Una persona que compra cosas en una tienda",
+        "imagePath": "/card_images/nouns/1-basic/work/1-basic_work_card_5_def0.avif",
+        "target_meaning_es": "Cliente"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Reunión",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/work/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "meeting",
+        "usage_example": "Tengo una reunión a las dos.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I have a meeting at two.",
+        "char_count": "two",
+        "usage_context_en": "A gathering of people to discuss something",
+        "usage_context_es": "Una reunión de personas para discutir algo",
+        "imagePath": "/card_images/nouns/1-basic/work/1-basic_work_card_6_def0.avif",
+        "target_meaning_es": "Reunión"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  }
+]

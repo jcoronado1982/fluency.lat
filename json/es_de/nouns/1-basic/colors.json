@@ -1,0 +1,314 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Rojo",
+        "pronunciation_guide_es": "/der_A-pfel_ist_ROT/",
+        "usage_context_en": "The color of blood",
+        "usage_context_es": "El color de la sangre",
+        "usage_example": "Der Apfel ist rot.",
+        "usage_example_es": "La manzana es roja.",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_verb": false,
+    "name": "das Rot",
+    "phonetic": "/das ʁoːt/",
+    "search_term": "noun/color/essentials",
+    "spoken_phonetic_us": "/das ʁoːt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Azul",
+        "pronunciation_guide_es": "/der_HIM-mel_ist_BLAU/",
+        "usage_context_en": "The color of the sky",
+        "usage_context_es": "El color del cielo",
+        "usage_example": "Der Himmel ist blau.",
+        "usage_example_es": "El cielo es azul.",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_verb": false,
+    "name": "das Blau",
+    "phonetic": "/das blaʊ/",
+    "search_term": "noun/color/essentials",
+    "spoken_phonetic_us": "/das blaʊ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Verde",
+        "pronunciation_guide_es": "/das_GRAS_ist_GRUEN/",
+        "usage_context_en": "The color of grass",
+        "usage_context_es": "El color del pasto",
+        "usage_example": "Das Gras ist grün.",
+        "usage_example_es": "El pasto es verde.",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_verb": false,
+    "name": "das Grün",
+    "phonetic": "/das ɡʁyːn/",
+    "search_term": "noun/color/essentials",
+    "spoken_phonetic_us": "/das ɡʁyːn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Amarillo",
+        "pronunciation_guide_es": "/di_ZO-ne_ist_GELP/",
+        "usage_context_en": "The color of the sun",
+        "usage_context_es": "El color del sol",
+        "usage_example": "Die Sonne ist gelb.",
+        "usage_example_es": "El sol es amarillo.",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_verb": false,
+    "name": "das Gelb",
+    "phonetic": "/das ɡɛlp/",
+    "search_term": "noun/color/essentials",
+    "spoken_phonetic_us": "/das ɡɛlp/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Negro",
+        "pronunciation_guide_es": "/di_KAT-se_ist_SHVARTS/",
+        "usage_context_en": "The darkest color, like night",
+        "usage_context_es": "El color más oscuro, como la noche",
+        "usage_example": "Die Katze ist schwarz.",
+        "usage_example_es": "El gato es negro.",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_verb": false,
+    "name": "das Schwarz",
+    "phonetic": "/das ʃvaʁts/",
+    "search_term": "noun/color/essentials",
+    "spoken_phonetic_us": "/das ʃvaʁts/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Blanco",
+        "pronunciation_guide_es": "/der_SHNE_ist_VAIS/",
+        "usage_context_en": "The color of milk or snow",
+        "usage_context_es": "El color de la leche o la nieve",
+        "usage_example": "Der Schnee ist weiß.",
+        "usage_example_es": "La nieve es blanca.",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_verb": false,
+    "name": "das Weiß",
+    "phonetic": "/das vaɪs/",
+    "search_term": "noun/color/essentials",
+    "spoken_phonetic_us": "/das vaɪs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Color",
+        "pronunciation_guide_es": "/vas_ist_DAI-ne_LIP-lings-far-be/",
+        "usage_context_en": "Red, blue, green, yellow, etc.",
+        "usage_context_es": "Rojo, azul, verde, amarillo, etc.",
+        "usage_example": "Was ist deine Lieblingsfarbe?",
+        "usage_example_es": "¿Cuál es tu color favorito?",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_6_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_verb": false,
+    "name": "die Farbe",
+    "phonetic": "/diː ˈfaʁbə/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/diː ˈfaʁbə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Marrón / Café",
+        "pronunciation_guide_es": "/ZAI-ne_SHU-e_zint_BRAUN/",
+        "usage_context_en": "The color of wood or earth",
+        "usage_context_es": "El color de la madera o la tierra",
+        "usage_example": "Seine Schuhe sind braun.",
+        "usage_example_es": "Sus zapatos son marrones.",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_verb": false,
+    "name": "das Braun",
+    "phonetic": "/das bʁaʊn/",
+    "search_term": "noun/color/essentials",
+    "spoken_phonetic_us": "/das bʁaʊn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Gris",
+        "pronunciation_guide_es": "/der_HIM-mel_ist_GRAU/",
+        "usage_context_en": "A color between black and white (AmE)",
+        "usage_context_es": "Un color entre negro y blanco (AmE)",
+        "usage_example": "Der Himmel ist grau.",
+        "usage_example_es": "El cielo está gris.",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_8_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_verb": false,
+    "name": "das Grau",
+    "phonetic": "/das ɡʁaʊ/",
+    "search_term": "noun/color/essentials",
+    "spoken_phonetic_us": "/das ɡʁaʊ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Rosado / Rosa",
+        "pronunciation_guide_es": "/AI-ne_RO-za_BLU-me/",
+        "usage_context_en": "A light red color",
+        "usage_context_es": "Un color rojo claro",
+        "usage_example": "Eine rosa Blume.",
+        "usage_example_es": "Una flor rosada.",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_verb": false,
+    "name": "das Rosa",
+    "phonetic": "/das ˈʁoːza/",
+    "search_term": "noun/color/essentials",
+    "spoken_phonetic_us": "/das ˈʁoːza/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Morado / Púrpura",
+        "pronunciation_guide_es": "/TRAU-ben_zint_LI-la/",
+        "usage_context_en": "A color between red and blue",
+        "usage_context_es": "Un color entre rojo y azul",
+        "usage_example": "Trauben sind lila.",
+        "usage_example_es": "Las uvas son moradas.",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_verb": false,
+    "name": "das Lila",
+    "phonetic": "/das ˈliːla/",
+    "search_term": "noun/color/essentials",
+    "spoken_phonetic_us": "/das ˈliːla/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "meaning": "The color between red and yellow.",
+        "pronunciation_guide_es": "/das_HEMT_ist_o-RANJ/",
+        "usage_context_en": "The color between red and yellow.",
+        "usage_context_es": "El color entre rojo y amarillo.",
+        "usage_example": "Das Hemd ist orange.",
+        "usage_example_es": "La camisa es naranja.",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_11_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_verb": false,
+    "name": "das Orange",
+    "phonetic": "/das oˈʁɑ̃ːʒə/",
+    "search_term": "noun/colors/seed",
+    "spoken_phonetic_us": "/das oˈʁɑ̃ːʒə/"
+  }
+]

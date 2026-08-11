@@ -1,0 +1,344 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The store will hire new workers next month.",
+        "char_count": "one",
+        "usage_example_es": "Contrataron a mi hermano.",
+        "meaning": "Contratar",
+        "pronunciation_guide_es": "/zi_HA-ben_MAI-nen_BRU-der_AIN-ge-shtelt/",
+        "usage_context_en": "jobs/work",
+        "usage_context_es": "empleos/trabajo",
+        "usage_example": "Sie haben meinen Bruder eingestellt.",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_0_def0.avif"
+      },
+      {
+        "alternative_example": "We need to hire a driver for the trip.",
+        "char_count": "one",
+        "usage_example_es": "Podemos contratar un guía.",
+        "meaning": "Alquilar servicios de alguien",
+        "pronunciation_guide_es": "/vir_KOE-nen_AI-nen_FUE-rer_an-ga-ZHI-ren/",
+        "usage_context_en": "services/help",
+        "usage_context_es": "servicios/ayuda",
+        "usage_example": "Wir können einen Führer engagieren.",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_0_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "einstellen",
+    "phonetic": "/ˈaɪnʃtɛlən/",
+    "search_term": "verb/hire/essentials",
+    "spoken_phonetic_us": "/ˈaɪnʃtɛlən/",
+    "group_name": "Work & Jobs"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The company fired two people yesterday.",
+        "char_count": "one",
+        "usage_example_es": "Lo despidieron.",
+        "meaning": "Despedir (del trabajo)",
+        "pronunciation_guide_es": "/zi_HA-ben_in_ent-LA-sen/",
+        "usage_context_en": "jobs/work",
+        "usage_context_es": "empleos/trabajo",
+        "usage_example": "Sie haben ihn entlassen.",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_1_def0.avif"
+      },
+      {
+        "alternative_example": "The officer fired into the air.",
+        "char_count": "one",
+        "usage_example_es": "Disparó el arma.",
+        "meaning": "Disparar",
+        "pronunciation_guide_es": "/er_SHOS_in_di_LUFT/",
+        "usage_context_en": "weapons/action",
+        "usage_context_es": "armas/acción",
+        "usage_example": "Er schoss in die Luft.",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_1_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "entlassen",
+    "phonetic": "/ɛntˈlasn̩/",
+    "search_term": "verb/fire/essentials",
+    "spoken_phonetic_us": "/ɛntˈlasn̩/",
+    "group_name": "Work & Jobs"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "servieren",
+    "phonetic": "/zɛɐˈviːʁən/",
+    "spoken_phonetic_us": "/zɛɐˈviːʁən/",
+    "search_term": "verb/duty/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Servir (comida, en una tienda)",
+        "usage_example": "Sie servieren das Abendessen um 19 Uhr.",
+        "pronunciation_guide_es": "/zi_zer-VI-ren_das_A-bent-e-sen_um_ZIP-tsen_UR/",
+        "alternative_example": "The waiter served the drinks.",
+        "usage_example_es": "Sirven la cena a las 7 PM.",
+        "char_count": "one",
+        "usage_context_en": "food/restaurants",
+        "usage_context_es": "comida/restaurantes",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_2_def0.avif"
+      },
+      {
+        "meaning": "Servir/Ser útil",
+        "usage_example": "Dieses Werkzeug dient vielen Zwecken.",
+        "pronunciation_guide_es": "/DI-zes_VERK-tsoik_DINT_FI-len_TSVE-ken/",
+        "alternative_example": "She served in the army.",
+        "usage_example_es": "Esta herramienta sirve para muchos propósitos.",
+        "char_count": "one",
+        "usage_context_en": "utility/duty",
+        "usage_context_es": "utilidad/deber",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_2_def1.avif"
+      }
+    ],
+    "group_name": "Social & Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "bieten",
+    "phonetic": "/ˈbiːtn̩/",
+    "spoken_phonetic_us": "/ˈbiːtn̩/",
+    "search_term": "verb/supply/essentials",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Proporcionar/Suministrar",
+        "usage_example": "Das Hotel bietet kostenloses WLAN.",
+        "pronunciation_guide_es": "/das_ho-TEL_BI-tet_KOS-ten-lo-zes_VE-LAN/",
+        "alternative_example": "We provide food and shelter.",
+        "usage_example_es": "El hotel proporciona Wi-Fi gratuito.",
+        "char_count": "two",
+        "usage_context_en": "services/necessities",
+        "usage_context_es": "servicios/necesidades",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_3_def0.avif"
+      },
+      {
+        "meaning": "Estipular/Establecer (formal)",
+        "usage_example": "Der Vertrag sieht eine Strafe vor.",
+        "pronunciation_guide_es": "/der_fer-TRAK_ZIT_AI-ne_SHTRA-fe_FOR/",
+        "alternative_example": "The law provides protection.",
+        "usage_example_es": "El contrato estipula una multa.",
+        "char_count": "two",
+        "usage_context_en": "law/agreements",
+        "usage_context_es": "ley/acuerdos",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_3_def1.avif"
+      }
+    ],
+    "group_name": "Social & Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "repräsentieren",
+    "phonetic": "/ʁepʁɛzɛnˈtiːʁən/",
+    "spoken_phonetic_us": "/ʁepʁɛzɛnˈtiːʁən/",
+    "search_term": "verb/stand for/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Representar",
+        "usage_example": "Das Symbol repräsentiert Frieden.",
+        "pronunciation_guide_es": "/das_zuem-BOL_re-pre-zen-TIRT_FRI-den/",
+        "alternative_example": "He represents the company at the event.",
+        "usage_example_es": "El símbolo representa la paz.",
+        "char_count": "three",
+        "usage_context_en": "symbols/role",
+        "usage_context_es": "símbolos/rol",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_4_def0.avif"
+      },
+      {
+        "meaning": "Mostrar/Describir",
+        "usage_example": "Das Gemälde stellt eine Schlachtszene dar.",
+        "pronunciation_guide_es": "/das_ge-MAEL-de_SHTELT_AI-ne_SHLACHT-stse-ne_DAR/",
+        "alternative_example": "This case represents a problem.",
+        "usage_example_es": "La pintura representa una escena de batalla.",
+        "char_count": "three",
+        "usage_context_en": "art/description",
+        "usage_context_es": "arte/descripción",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_4_def1.avif"
+      }
+    ],
+    "group_name": "Social & Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "kosten",
+    "phonetic": "/ˈkɔstn̩/",
+    "spoken_phonetic_us": "/ˈkɔstn̩/",
+    "search_term": "verb/price/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Costar (tener un precio)",
+        "usage_example": "Wie viel kostet das?",
+        "pronunciation_guide_es": "/vi_FIL_KOS-tet_das/",
+        "alternative_example": "It cost me a lot of money.",
+        "usage_example_es": "¿Cuánto cuesta esto?",
+        "char_count": "one",
+        "usage_context_en": "price/money",
+        "usage_context_es": "precio/dinero",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_5_def0.avif"
+      },
+      {
+        "meaning": "Causar una pérdida",
+        "usage_example": "Der Fehler hat ihn seinen Job gekostet.",
+        "pronunciation_guide_es": "/der_FE-ler_hat_in_ZAI-nen_YOP_ge-KOS-tet/",
+        "alternative_example": "Honesty costs nothing.",
+        "usage_example_es": "El error le costó el trabajo.",
+        "char_count": "one",
+        "usage_context_en": "loss/consequence",
+        "usage_context_es": "pérdida/consecuencia",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_5_def1.avif"
+      }
+    ],
+    "group_name": "Managing & Control"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "überprüfen",
+    "phonetic": "/yːbɐˈpʁyːfn̩/",
+    "spoken_phonetic_us": "/yːbɐˈpʁyːfn̩/",
+    "search_term": "verb/verify/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Revisar/Comprobar",
+        "usage_example": "Bitte überprüfe deine Arbeit auf Fehler.",
+        "pronunciation_guide_es": "/BI-te_UE-ber-prue-fe_DAI-ne_AR-bait_auf_FE-ler/",
+        "alternative_example": "I need to check my email.",
+        "usage_example_es": "Por favor, revisa tu trabajo en busca de errores.",
+        "char_count": "one",
+        "usage_context_en": "verification/errors",
+        "usage_context_es": "verificación/errores",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_6_def0.avif"
+      },
+      {
+        "meaning": "Facturar (equipaje)/Pagar (la cuenta)",
+        "usage_example": "Wir müssen unser Gepäck aufgeben.",
+        "pronunciation_guide_es": "/vir_MUE-sen_UN-zer_ge-PEK_AUF-ge-ben/",
+        "alternative_example": "Can we check out of the hotel?",
+        "usage_example_es": "Necesitamos facturar nuestras maletas.",
+        "char_count": "one",
+        "usage_context_en": "travel/hotel",
+        "usage_context_es": "viaje/hotel",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_6_def1.avif"
+      }
+    ],
+    "group_name": "Managing & Control"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "leiten",
+    "phonetic": "/ˈlaɪtn̩/",
+    "spoken_phonetic_us": "/ˈlaɪtn̩/",
+    "search_term": "verb/control/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Gestionar/Administrar",
+        "usage_example": "Sie leitet ein Team von 10 Personen.",
+        "pronunciation_guide_es": "/zi_LAI-tet_ain_TIM_fon_TSEN_per-ZO-nen/",
+        "alternative_example": "You need to manage your time better.",
+        "usage_example_es": "Ella gestiona un equipo de 10 personas.",
+        "char_count": "two",
+        "usage_context_en": "business/control",
+        "usage_context_es": "negocios/control",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_7_def0.avif"
+      },
+      {
+        "meaning": "Arreglárselas/Lograr (con dificultad)",
+        "usage_example": "Wie hast du es geschafft, pünktlich fertig zu werden?",
+        "pronunciation_guide_es": "/vi_hast_du_es_ge-SHAFT_PUENKT-lish_FER-tish_tsu_VER-den/",
+        "alternative_example": "I can manage on my own, thanks.",
+        "usage_example_es": "¿Cómo te las arreglaste para terminar a tiempo?",
+        "char_count": "two",
+        "usage_context_en": "succeed/difficulty",
+        "usage_context_es": "lograr/dificultad",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_7_def1.avif"
+      }
+    ],
+    "group_name": "Managing & Control"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "kontrollieren",
+    "phonetic": "/kɔntʁɔˈliːʁən/",
+    "spoken_phonetic_us": "/kɔntʁɔˈliːʁən/",
+    "search_term": "verb/manage/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Controlar/Dominar",
+        "usage_example": "Du musst deinen Hund kontrollieren.",
+        "pronunciation_guide_es": "/du_MUST_DAI-nen_HUNT_kon-tro-LI-ren/",
+        "alternative_example": "She learned to control her emotions.",
+        "usage_example_es": "Necesitas controlar a tu perro.",
+        "char_count": "two",
+        "usage_context_en": "command/emotions",
+        "usage_context_es": "comando/emociones",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_8_def0.avif"
+      },
+      {
+        "meaning": "Manejar/Regular (una máquina)",
+        "usage_example": "Dieser Schalter steuert die Lichter.",
+        "pronunciation_guide_es": "/DI-zer_SHAL-ter_SHTOI-ert_di_LISH-ter/",
+        "alternative_example": "The government controls the prices.",
+        "usage_example_es": "Este interruptor controla las luces.",
+        "char_count": "two",
+        "usage_context_en": "function/regulation",
+        "usage_context_es": "función/regulación",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_8_def1.avif"
+      }
+    ],
+    "group_name": "Managing & Control"
+  }
+]

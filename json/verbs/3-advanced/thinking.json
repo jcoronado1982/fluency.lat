@@ -1,0 +1,299 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "analyze",
+    "phonetic": "/ˈænəlaɪz/",
+    "spoken_phonetic_us": "/ˈænəlaɪz/",
+    "search_term": "verb/examine/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Analizar",
+        "usage_example": "We need to analyze the data carefully.",
+        "pronunciation_guide_es": "/ui_NID_tu_ANalaiz_de_DEIta_KERfuli/",
+        "alternative_example": "She analyzed the causes of the problem.",
+        "usage_example_es": "Necesitamos analizar los datos con cuidado.",
+        "char_count": "three",
+        "usage_context_en": "data/examination",
+        "usage_context_es": "datos/examinación",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_1_def0.avif"
+      }
+    ],
+    "group_name": "Critical Thinking"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "evaluate",
+    "phonetic": "/ɪˈvæljueɪt/",
+    "spoken_phonetic_us": "/ɪˈvæljueɪt/",
+    "search_term": "verb/assess/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Evaluar/Valorar",
+        "usage_example": "We need to evaluate the performance of the team.",
+        "pronunciation_guide_es": "/ui_NID_tu_iVALiueit_de_perFORmans_of_de_TIM/",
+        "alternative_example": "It's hard to evaluate the long-term effects.",
+        "usage_example_es": "Necesitamos evaluar el desempeño del equipo.",
+        "char_count": "four",
+        "usage_context_en": "performance/judgment",
+        "usage_context_es": "desempeño/juicio",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_2_def0.avif"
+      }
+    ],
+    "group_name": "Critical Thinking"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "interpret",
+    "phonetic": "/ɪnˈtɜːrprɪt/",
+    "spoken_phonetic_us": "/ɪnˈtɜːrprɪt/",
+    "search_term": "verb/understand meaning/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Interpretar (entender el significado)",
+        "usage_example": "How do you interpret these results?",
+        "pronunciation_guide_es": "/jau_du_iu_inTORpret_dis_riSOLTS/",
+        "alternative_example": "I interpreted his silence as disagreement.",
+        "usage_example_es": "¿Cómo interpretas estos resultados?",
+        "char_count": "three",
+        "usage_context_en": "meaning/understanding",
+        "usage_context_es": "significado/comprensión",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_3_def0.avif"
+      }
+    ],
+    "group_name": "Critical Thinking"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "assume",
+    "phonetic": "/əˈsuːm/",
+    "spoken_phonetic_us": "/əˈsuːm/",
+    "search_term": "verb/suppose/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Asumir/Suponer (dar por hecho)",
+        "usage_example": "I assume you already know the news.",
+        "pronunciation_guide_es": "/ai_aSUM_iu_olREDI_NOU_de_NIUS/",
+        "alternative_example": "Let's assume the theory is correct.",
+        "usage_example_es": "Asumo que ya sabes la noticia.",
+        "char_count": "two",
+        "usage_context_en": "supposition/belief",
+        "usage_context_es": "suposición/creencia",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_4_def0.avif"
+      }
+    ],
+    "group_name": "Critical Thinking"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "comprehend",
+    "phonetic": "/ˌkɒmprɪˈhɛnd/",
+    "spoken_phonetic_us": "/ˌkɑːmprɪˈhɛnd/",
+    "search_term": "verb/understand fully/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Comprender (profundamente)",
+        "usage_example": "I cannot comprehend his motivations.",
+        "pronunciation_guide_es": "/ai_kanOT_kompriJEND_jis_motiVEIshons/",
+        "alternative_example": "She comprehends complex theories easily.",
+        "usage_example_es": "No puedo comprender sus motivaciones.",
+        "char_count": "three",
+        "usage_context_en": "understanding/depth",
+        "usage_context_es": "comprensión/profundidad",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_5_def0.avif"
+      }
+    ],
+    "group_name": "Critical Thinking"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "encounter",
+    "phonetic": "/ɪnˈkaʊntər/",
+    "spoken_phonetic_us": "/ɪnˈkaʊntər/",
+    "search_term": "verb/meet unexpectedly/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Encontrar/Toparse con (inesperadamente)",
+        "usage_example": "I encountered an old friend at the store.",
+        "pronunciation_guide_es": "/ai_inKAUNterd_an_OULD_FREND_at_de_STOR/",
+        "alternative_example": "We encountered some problems.",
+        "usage_example_es": "Me encontré con un viejo amigo en la tienda.",
+        "char_count": "three",
+        "usage_context_en": "unexpected/meeting",
+        "usage_context_es": "inesperado/encuentro",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_24_def0.avif"
+      }
+    ],
+    "group_name": "Social Dynamics"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "perceive",
+    "phonetic": "/pərˈsiːv/",
+    "spoken_phonetic_us": "/pərˈsiːv/",
+    "search_term": "verb/notice/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Percibir/Darse cuenta de",
+        "usage_example": "I perceived a change in his attitude.",
+        "pronunciation_guide_es": "/ai_perSIVD_a_CHEINY_in_jis_ATitiud/",
+        "alternative_example": "How do you perceive the situation?",
+        "usage_example_es": "Percibí un cambio en su actitud.",
+        "char_count": "two",
+        "usage_context_en": "awareness/senses",
+        "usage_context_es": "conciencia/sentidos",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_25_def0.avif"
+      }
+    ],
+    "group_name": "Critical Thinking"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "anticipate",
+    "phonetic": "/ænˈtɪsɪpeɪt/",
+    "spoken_phonetic_us": "/ænˈtɪsɪpeɪt/",
+    "search_term": "verb/expect/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Anticipar/Prever",
+        "usage_example": "We anticipate a large crowd at the event.",
+        "pronunciation_guide_es": "/ui_anTISIpeit_a_LARY_KRAUD_at_di_iVENT/",
+        "alternative_example": "I did not anticipate any problems.",
+        "usage_example_es": "Anticipamos una gran multitud en el evento.",
+        "char_count": "five",
+        "usage_context_en": "expectation/future",
+        "usage_context_es": "expectativa/futuro",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_27_def0.avif"
+      }
+    ],
+    "group_name": "Critical Thinking"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "investigate",
+    "phonetic": "/ɪnˈvɛstɪɡeɪt/",
+    "spoken_phonetic_us": "/ɪnˈvɛstɪɡeɪt/",
+    "search_term": "verb/examine/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Investigar (formalmente, un crimen)",
+        "usage_example": "The police are investigating the crime.",
+        "pronunciation_guide_es": "/de_poLIS_ar_inVESTIgeiting_de_KRAIM/",
+        "alternative_example": "They will investigate the cause of the accident.",
+        "usage_example_es": "La policía está investigando el crimen.",
+        "char_count": "five",
+        "usage_context_en": "crime/examination",
+        "usage_context_es": "crimen/examinación",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_28_def0.avif"
+      }
+    ],
+    "group_name": "Critical Thinking"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "infer",
+    "phonetic": "/ɪnˈfɜːr/",
+    "spoken_phonetic_us": "/ɪnˈfɜːr/",
+    "search_term": "verb/deduce/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Inferir/Deducir",
+        "usage_example": "What can you infer from this data?",
+        "pronunciation_guide_es": "/uat_kan_iu_inFOR_from_dis_DEIta/",
+        "alternative_example": "I inferred from her smile that she was happy.",
+        "usage_example_es": "¿Qué puedes inferir de estos datos?",
+        "char_count": "two",
+        "usage_context_en": "conclusion/deduction",
+        "usage_context_es": "conclusión/deducción",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_31_def0.avif"
+      }
+    ],
+    "group_name": "Critical Thinking"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "regard",
+    "phonetic": "/rɪˈɡɑːrd/",
+    "spoken_phonetic_us": "/rɪˈɡɑːrd/",
+    "search_term": "verb/consider/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Considerar/Ver como",
+        "usage_example": "I regard him as a close friend.",
+        "pronunciation_guide_es": "/ai_riGARD_jim_as_a_KLOUS_FREND/",
+        "alternative_example": "She is highly regarded by her colleagues.",
+        "usage_example_es": "Lo considero un amigo cercano.",
+        "char_count": "two",
+        "usage_context_en": "opinion/judgment",
+        "usage_context_es": "opinión/juicio",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_32_def0.avif"
+      }
+    ],
+    "group_name": "Social Dynamics"
+  }
+]

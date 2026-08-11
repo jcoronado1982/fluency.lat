@@ -1,0 +1,427 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: some]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "some",
+                "usage_example": "[TRADUCIR AL FR: I need some water. / I need some apples.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I need some water. / I need some apples.",
+                "char_count": "4",
+                "usage_context_en": "Used for an unspecified amount in affirmative sentences.",
+                "usage_context_es": "[TRADUCIR AL FR: Used for an unspecified amount in affirmative sentences.]",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_14_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: any]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "any",
+                "usage_example": "[TRADUCIR AL FR: Do you have any money?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Do you have any money?",
+                "char_count": "5",
+                "usage_context_en": "Used for an unspecified amount in questions.",
+                "usage_context_es": "[TRADUCIR AL FR: Used for an unspecified amount in questions.]",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_15_def0.avif"
+            },
+            {
+                "meaning": "any (def 2)",
+                "usage_example": "[TRADUCIR AL FR: I don't have any money.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I don't have any money.",
+                "char_count": "5",
+                "usage_context_en": "Used for a zero amount in negative sentences.",
+                "usage_context_es": "[TRADUCIR AL FR: Used for a zero amount in negative sentences.]",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_15_def1.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: no]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "no",
+                "usage_example": "[TRADUCIR AL FR: I have no money.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I have no money.",
+                "char_count": "4",
+                "usage_context_en": "Used to indicate zero amount (stronger than 'not any').",
+                "usage_context_es": "[TRADUCIR AL FR: Used to indicate zero amount (stronger than 'not any').]",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_16_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: all]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "all",
+                "usage_example": "[TRADUCIR AL FR: All the food is ready.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "All the food is ready.",
+                "char_count": "5",
+                "usage_context_en": "Used to refer to the whole quantity or extent of something.",
+                "usage_context_es": "[TRADUCIR AL FR: Used to refer to the whole quantity or extent of something.]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: much]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "much",
+                "usage_example": "[TRADUCIR AL FR: I don't have much time.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I don't have much time.",
+                "char_count": "5",
+                "usage_context_en": "Used for a large amount of an uncountable noun (mainly in questions/negatives).",
+                "usage_context_es": "[TRADUCIR AL FR: Used for a large amount of an uncountable noun (mainly in questions/negatives).]",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_19_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: many]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "many",
+                "usage_example": "[TRADUCIR AL FR: I have many friends.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I have many friends.",
+                "char_count": "4",
+                "usage_context_en": "Used for a large number of a countable noun.",
+                "usage_context_es": "[TRADUCIR AL FR: Used for a large number of a countable noun.]",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_20_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: a lot of]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "a lot of",
+                "usage_example": "[TRADUCIR AL FR: I have a lot of friends. / I have a lot of time.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I have a lot of friends. / I have a lot of time.",
+                "char_count": 5,
+                "usage_context_en": "A large amount or number (used with both countable and uncountable nouns).",
+                "usage_context_es": "[TRADUCIR AL FR: A large amount or number (used with both countable and uncountable nouns).]",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_21_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: few]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "few",
+                "usage_example": "[TRADUCIR AL FR: He has few friends.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He has few friends.",
+                "char_count": "4",
+                "usage_context_en": "Used for a small number of a countable noun (implies a negative quantity, 'not enough').",
+                "usage_context_es": "[TRADUCIR AL FR: Used for a small number of a countable noun (implies a negative quantity, 'not enough').]",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_23_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: little]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "little",
+                "usage_example": "[TRADUCIR AL FR: He has little time.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He has little time.",
+                "char_count": "4",
+                "usage_context_en": "Used for a small amount of an uncountable noun (implies a negative quantity, 'not enough').",
+                "usage_context_es": "[TRADUCIR AL FR: Used for a small amount of an uncountable noun (implies a negative quantity, 'not enough').]",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_24_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: enough]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "enough",
+                "usage_example": "[TRADUCIR AL FR: I don't have enough money.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I don't have enough money.",
+                "char_count": "5",
+                "usage_context_en": "As much or as many as is necessary or required.",
+                "usage_context_es": "[TRADUCIR AL FR: As much or as many as is necessary or required.]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: more]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "more",
+                "usage_example": "[TRADUCIR AL FR: I need more time.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I need more time.",
+                "char_count": "4",
+                "usage_context_en": "A greater or additional amount or degree.",
+                "usage_context_es": "[TRADUCIR AL FR: A greater or additional amount or degree.]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: less]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "less",
+                "usage_example": "[TRADUCIR AL FR: I have less money than you.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I have less money than you.",
+                "char_count": "6",
+                "usage_context_en": "A smaller amount of (used with uncountable nouns).",
+                "usage_context_es": "[TRADUCIR AL FR: A smaller amount of (used with uncountable nouns).]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: another]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "another",
+                "usage_example": "[TRADUCIR AL FR: Can I have another cookie?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Can I have another cookie?",
+                "char_count": "5",
+                "usage_context_en": "Used for one more, additional, singular countable noun.",
+                "usage_context_es": "[TRADUCIR AL FR: Used for one more, additional, singular countable noun.]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "another (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Let's meet another day.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Let's meet another day.",
+                "char_count": "4",
+                "usage_context_en": "Used for a different singular countable noun.",
+                "usage_context_es": "[TRADUCIR AL FR: Used for a different singular countable noun.]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: other]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "other",
+                "usage_example": "[TRADUCIR AL FR: Do you have other options?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Do you have other options?",
+                "char_count": "5",
+                "usage_context_en": "Used for different or additional plural or uncountable nouns.",
+                "usage_context_es": "[TRADUCIR AL FR: Used for different or additional plural or uncountable nouns.]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "other (def 2)",
+                "usage_example": "[TRADUCIR AL FR: The other key is on the table.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The other key is on the table.",
+                "char_count": "7",
+                "usage_context_en": "Used with 'the' to refer to the second of two specific things.",
+                "usage_context_es": "[TRADUCIR AL FR: Used with 'the' to refer to the second of two specific things.]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    }
+]

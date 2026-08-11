@@ -1,0 +1,29 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "acquire",
+    "phonetic": "/əˈkwaɪər/",
+    "spoken_phonetic_us": "/əˈkwaɪər/",
+    "search_term": "verb/get/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Adquirir (obtener, comprar)",
+        "usage_example": "The company acquired a new building.",
+        "pronunciation_guide_es": "/de_KOMpani_aKUAIERD_a_NIU_BILding/",
+        "alternative_example": "He acquired a taste for wine.",
+        "usage_example_es": "La compañía adquirió un nuevo edificio.",
+        "char_count": "two",
+        "usage_context_en": "purchase/gain",
+        "usage_context_es": "compra/obtención",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_21_def0.avif"
+      }
+    ],
+    "group_name": "Social Dynamics"
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Mañana (parte del día)",
+        "pronunciation_guide_es": "/ish_AR-bai-te_am_MOR-gen/",
+        "usage_context_en": "The time from sunrise to noon",
+        "usage_context_es": "El tiempo desde el amanecer hasta el mediodía",
+        "usage_example": "Ich arbeite am Morgen.",
+        "usage_example_es": "Trabajo por la mañana.",
+        "imagePath": "/card_images/nouns/1-basic/day_parts/1-basic_day_parts_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "der Morgen",
+    "phonetic": "/deːɐ ˈmɔʁɡn̩/",
+    "search_term": "noun/time/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈmɔʁɡn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Tarde",
+        "pronunciation_guide_es": "/vir_ZE-en_uns_am_NAJ-mi-tak/",
+        "usage_context_en": "The time from noon to evening",
+        "usage_context_es": "El tiempo desde el mediodía hasta el atardecer",
+        "usage_example": "Wir sehen uns am Nachmittag.",
+        "usage_example_es": "Nos vemos en la tarde.",
+        "imagePath": "/card_images/nouns/1-basic/day_parts/1-basic_day_parts_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "der Nachmittag",
+    "phonetic": "/deːɐ ˈnaːxmɪtaːk/",
+    "search_term": "noun/time/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈnaːxmɪtaːk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Tarde-Noche",
+        "pronunciation_guide_es": "/ish_SHAU-e_am_A-bent_FERN/",
+        "usage_context_en": "The time from the end of the day to night",
+        "usage_context_es": "El tiempo desde el fin del día hasta la noche",
+        "usage_example": "Ich schaue am Abend fern.",
+        "usage_example_es": "Veo televisión por la tarde-noche.",
+        "imagePath": "/card_images/nouns/1-basic/day_parts/1-basic_day_parts_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "der Abend",
+    "phonetic": "/deːɐ ˈaːbn̩t/",
+    "search_term": "noun/time/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈaːbn̩t/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Noche",
+        "pronunciation_guide_es": "/ish_SHLA-fe_in_der_NAJT/",
+        "usage_context_en": "The period of darkness in 24 hours",
+        "usage_context_es": "El período de oscuridad en 24 horas",
+        "usage_example": "Ich schlafe in der Nacht.",
+        "usage_example_es": "Duermo por la noche.",
+        "imagePath": "/card_images/nouns/1-basic/day_parts/1-basic_day_parts_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "die Nacht",
+    "phonetic": "/diː naxt/",
+    "search_term": "noun/time/essentials",
+    "spoken_phonetic_us": "/diː naxt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "meaning": "Around the middle of the day.",
+        "pronunciation_guide_es": "/es_ist_MI-tak/",
+        "usage_context_en": "Around the middle of the day.",
+        "usage_context_es": "Alrededor de la mitad del día.",
+        "usage_example": "Es ist Mittag.",
+        "usage_example_es": "Es mediodía.",
+        "imagePath": "/card_images/nouns/1-basic/day_parts/1-basic_day_parts_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "der Mittag",
+    "phonetic": "/deːɐ ˈmɪtaːk/",
+    "search_term": "noun/time/seed",
+    "spoken_phonetic_us": "/deːɐ ˈmɪtaːk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "meaning": "Twelve o'clock in the daytime.",
+        "pronunciation_guide_es": "/das_MI-tak-e-sen_ist_um_MI-tak/",
+        "usage_context_en": "Twelve o'clock in the daytime.",
+        "usage_context_es": "Las doce del día.",
+        "usage_example": "Das Mittagessen ist um Mittag.",
+        "usage_example_es": "El almuerzo es al mediodía.",
+        "imagePath": "/card_images/nouns/1-basic/day_parts/1-basic_day_parts_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "der Mittag",
+    "phonetic": "/deːɐ ˈmɪtaːk/",
+    "search_term": "noun/time/seed",
+    "spoken_phonetic_us": "/deːɐ ˈmɪtaːk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "meaning": "Twelve o'clock at night.",
+        "pronunciation_guide_es": "/der_VE-ker_KLIN-gel-te_um_MI-ter-nacht/",
+        "usage_context_en": "Twelve o'clock at night.",
+        "usage_context_es": "Las doce de la noche.",
+        "usage_example": "Der Wecker klingelte um Mitternacht.",
+        "usage_example_es": "La alarma sonó a medianoche.",
+        "imagePath": "/card_images/nouns/1-basic/day_parts/1-basic_day_parts_card_6_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "die Mitternacht",
+    "phonetic": "/diː ˈmɪtɐnaxt/",
+    "search_term": "noun/time/seed",
+    "spoken_phonetic_us": "/diː ˈmɪtɐnaxt/"
+  }
+]

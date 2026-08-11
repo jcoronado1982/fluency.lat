@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Salud",
+        "pronunciation_guide_es": "/JELTH_is_VERI_imPORtant/",
+        "usage_context_en": "The condition of your body",
+        "usage_context_es": "La condición de tu cuerpo",
+        "usage_example": "Health is very important.",
+        "usage_example_es": "La salud es muy importante.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_168_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "health",
+    "phonetic": "/hɛlθ/",
+    "search_term": "noun/concept/body/essentials",
+    "spoken_phonetic_us": "/hɛlθ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Dolor",
+        "pronunciation_guide_es": "/ai_FIL_a_PEIN_in_mai_LEG/",
+        "usage_context_en": "The feeling you have when your body is hurt",
+        "usage_context_es": "El sentimiento que tienes cuando tu cuerpo está herido",
+        "usage_example": "I feel a pain in my leg.",
+        "usage_example_es": "Siento un dolor en la pierna.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_340_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Feelings",
+    "is_verb": false,
+    "name": "pain",
+    "phonetic": "/peɪn/",
+    "search_term": "noun/feeling/body/essentials",
+    "spoken_phonetic_us": "/peɪn/"
+  },
+  {
+    "word": "medicine",
+    "translation": "medicina",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "meaning": "A substance used to treat illness.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A substance used to treat illness.",
+        "usage_context_es": "Una sustancia usada para tratar una enfermedad.",
+        "usage_example": "Take your medicine after lunch.",
+        "usage_example_es": "Toma tu medicina después del almuerzo.",
+        "imagePath": "/card_images/nouns/1-basic/seed_medicine.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Health & Medicine",
+    "is_verb": false,
+    "name": "medicine",
+    "phonetic": "",
+    "search_term": "noun/health-&-medicine/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "patient",
+    "translation": "paciente",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "meaning": "A person receiving medical care.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A person receiving medical care.",
+        "usage_context_es": "Una persona que recibe atención médica.",
+        "usage_example": "The patient is resting.",
+        "usage_example_es": "El paciente está descansando.",
+        "imagePath": "/card_images/nouns/1-basic/seed_patient.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Health & Medicine",
+    "is_verb": false,
+    "name": "patient",
+    "phonetic": "",
+    "search_term": "noun/health-&-medicine/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "illness",
+    "translation": "enfermedad",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "meaning": "A condition of being sick.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A condition of being sick.",
+        "usage_context_es": "La condición de estar enfermo.",
+        "usage_example": "The illness lasted three days.",
+        "usage_example_es": "La enfermedad duró tres días.",
+        "imagePath": "/card_images/nouns/1-basic/seed_illness.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Health & Medicine",
+    "is_verb": false,
+    "name": "illness",
+    "phonetic": "",
+    "search_term": "noun/health-&-medicine/seed",
+    "spoken_phonetic_us": ""
+  }
+]

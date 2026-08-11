@@ -1,0 +1,880 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "four",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_0_def0.avif",
+        "meaning": "Comité",
+        "pronunciation_guide_es": "/de_co-MI-ti_uil_de-SAID/",
+        "usage_context_en": "A group of people appointed for a specific function by a larger group.",
+        "usage_context_es": "Un grupo de personas nombradas para una función específica por un grupo más grande.",
+        "usage_example": "The committee will decide.",
+        "usage_example_es": "El comité decidirá."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "committee",
+    "phonetic": "/kəˈmɪti/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/kəˈmɪti/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_1_def0.avif",
+        "meaning": "Economía",
+        "pronunciation_guide_es": "/di_e-CO-no-mi_is_GROU-ing_SLOU-li/",
+        "usage_context_en": "The system of trade and industry by which the wealth of a country is made and used.",
+        "usage_context_es": "El sistema de comercio e industria por el cual se crea y utiliza la riqueza de un país.",
+        "usage_example": "The economy is growing slowly.",
+        "usage_example_es": "La economía está creciendo lentamente."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "economy",
+    "phonetic": "/ɪˈkɒnəmi/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ɪˈkɑnəmi/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_2_def0.avif",
+        "meaning": "Justicia",
+        "pronunciation_guide_es": "/dei_ar_FAI-ting_for_YOS-tis/",
+        "usage_context_en": "The quality of being fair and reasonable.",
+        "usage_context_es": "La cualidad de ser justo y razonable.",
+        "usage_example": "They are fighting for justice.",
+        "usage_example_es": "Ellos están luchando por la justicia."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "justice",
+    "phonetic": "/ˈdʒʌstɪs/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈdʒʌstɪs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_3_def0.avif",
+        "meaning": "Seguridad",
+        "pronunciation_guide_es": "/ui_nid_BE-ter_se-KIU-ri-ti/",
+        "usage_context_en": "The state of being free from danger or threat.",
+        "usage_context_es": "El estado de estar libre de peligro o amenaza.",
+        "usage_example": "We need better security.",
+        "usage_example_es": "Necesitamos mejor seguridad."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "security",
+    "phonetic": "/sɪˈkjʊərəti/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/sɪˈkjʊrəti/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_4_def0.avif",
+        "meaning": "Elección",
+        "pronunciation_guide_es": "/di_e-LEK-shon_is_next_TUS-dei/",
+        "usage_context_en": "A formal process of choosing a person for public office by voting.",
+        "usage_context_es": "Un proceso formal de elegir a una persona para un cargo público mediante votación.",
+        "usage_example": "The election is next Tuesday.",
+        "usage_example_es": "La elección es el próximo martes."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "election",
+    "phonetic": "/ɪˈlɛkʃən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ɪˈlɛkʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_5_def0.avif",
+        "meaning": "Campaña",
+        "pronunciation_guide_es": "/hi_loncht_his_cam-PEIN/",
+        "usage_context_en": "An organized series of actions intended to achieve a goal (e.g., political, advertising).",
+        "usage_context_es": "Una serie organizada de acciones destinadas a lograr un objetivo (ej. político, publicitario).",
+        "usage_example": "He launched his campaign.",
+        "usage_example_es": "Él lanzó su campaña."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "campaign",
+    "phonetic": "/kæmˈpeɪn/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/kæmˈpeɪn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_6_def0.avif",
+        "meaning": "Libertad",
+        "pronunciation_guide_es": "/dei_fot_for_der_FRI-dom/",
+        "usage_context_en": "The power or right to act, speak, or think as one wants.",
+        "usage_context_es": "El poder o derecho de actuar, hablar o pensar como uno quiera.",
+        "usage_example": "They fought for their freedom.",
+        "usage_example_es": "Lucharon por su libertad."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "freedom",
+    "phonetic": "/ˈfridəm/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈfridəm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_7_def0.avif",
+        "meaning": "Libertad (formal)",
+        "pronunciation_guide_es": "/de_STA-chu_of_LI-ber-ti/",
+        "usage_context_en": "The state of being free within society from oppressive restrictions.",
+        "usage_context_es": "El estado de estar libre dentro de la sociedad de restricciones opresivas.",
+        "usage_example": "The statue of Liberty.",
+        "usage_example_es": "La estatua de la Libertad."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "liberty",
+    "phonetic": "/ˈlɪbərti/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈlɪbərti/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_8_def0.avif",
+        "meaning": "Revolución",
+        "pronunciation_guide_es": "/de_french_re-vo-LU-shon_uas_in_seven-tin_ei-ti-NAIN/",
+        "usage_context_en": "A forcible overthrow of a government or social order in favor of a new system.",
+        "usage_context_es": "Un derrocamiento forzoso de un gobierno u orden social a favor de un nuevo sistema.",
+        "usage_example": "The French Revolution was in 1789.",
+        "usage_example_es": "La Revolución Francesa fue en 1789."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "revolution",
+    "phonetic": "/ˌrɛvəˈluʃən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˌrɛvəˈluʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_9_def0.avif",
+        "meaning": "Población",
+        "pronunciation_guide_es": "/de_SI-ti_has_a_lary_po-piu-LEI-shon/",
+        "usage_context_en": "All the inhabitants of a particular town, area, or country.",
+        "usage_context_es": "Todos los habitantes de un pueblo, área o país en particular.",
+        "usage_example": "The city has a large population.",
+        "usage_example_es": "La ciudad tiene una gran población."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "population",
+    "phonetic": "/ˌpɒpjuˈleɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˌpɑpjuˈleɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_10_def0.avif",
+        "meaning": "Generación",
+        "pronunciation_guide_es": "/dis_is_a_niu_ye-ne-REI-shon/",
+        "usage_context_en": "All of the people born and living at about the same time.",
+        "usage_context_es": "Todas las personas nacidas y que viven aproximadamente al mismo tiempo.",
+        "usage_example": "This is a new generation.",
+        "usage_example_es": "Esta es una nueva generación."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "generation",
+    "phonetic": "/ˌdʒɛnəˈreɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˌdʒɛnəˈreɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_11_def0.avif",
+        "meaning": "Pobreza",
+        "pronunciation_guide_es": "/dei_liv_in_ex-TRIM_PO-ver-ti/",
+        "usage_context_en": "The state of being extremely poor.",
+        "usage_context_es": "El estado de ser extremadamente pobre.",
+        "usage_example": "They live in extreme poverty.",
+        "usage_example_es": "Ellos viven en pobreza extrema."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "poverty",
+    "phonetic": "/ˈpɒvəti/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈpɑvərti/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_12_def0.avif",
+        "meaning": "Crimen / Delito",
+        "pronunciation_guide_es": "/STI-ling_is_a_CRAIM/",
+        "usage_context_en": "An action or omission that constitutes an offense punishable by law.",
+        "usage_context_es": "Una acción u omisión que constituye un delito penado por la ley.",
+        "usage_example": "Stealing is a crime.",
+        "usage_example_es": "Robar es un delito."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "crime",
+    "phonetic": "/kraɪm/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/kraɪm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_13_def0.avif",
+        "meaning": "Prisión / Cárcel",
+        "pronunciation_guide_es": "/hi_uas_sent_tu_PRI-son/",
+        "usage_context_en": "A place where people are kept as a punishment for a crime.",
+        "usage_context_es": "Un lugar donde se mantiene a la gente como castigo por un crimen.",
+        "usage_example": "He was sent to prison.",
+        "usage_example_es": "Él fue enviado a prisión."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "prison",
+    "phonetic": "/ˈprɪzən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈprɪzən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_14_def0.avif",
+        "meaning": "Corte / Tribunal / Juzgado",
+        "pronunciation_guide_es": "/ui_hav_tu_gou_tu_CORT/",
+        "usage_context_en": "A place where legal trials take place and justice is administered.",
+        "usage_context_es": "Un lugar donde se llevan a cabo juicios legales y se administra justicia.",
+        "usage_example": "We have to go to court.",
+        "usage_example_es": "Tenemos que ir al juzgado."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "court",
+    "phonetic": "/kɔrt/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/kɔrt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_15_def0.avif",
+        "meaning": "Asociación / Organización",
+        "pronunciation_guide_es": "/hi_yoind_de_treid_a-so-si-EI-shon/",
+        "usage_context_en": "A group of people organized for a joint purpose; an organization.",
+        "usage_context_es": "Un grupo de personas organizadas para un propósito conjunto; una organización.",
+        "usage_example": "He joined the trade association.",
+        "usage_example_es": "Él se unió a la asociación comercial."
+      },
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_15_def1.avif",
+        "meaning": "Asociación / Relación",
+        "pronunciation_guide_es": "/di_a-so-si-EI-shon_bi-TUIN_SMOU-king_and_CAN-ser/",
+        "usage_context_en": "A connection or link between people or things.",
+        "usage_context_es": "Una conexión o vínculo entre personas o cosas.",
+        "usage_example": "The association between smoking and cancer.",
+        "usage_example_es": "La asociación entre fumar y el cáncer."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "association",
+    "phonetic": "/əˌsoʊsiˈeɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/əˌsoʊsiˈeɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_16_def0.avif",
+        "meaning": "Administración / Dirección",
+        "pronunciation_guide_es": "/shi_uorks_in_ad-mi-nis-TREI-shon/",
+        "usage_context_en": "The process or activity of running a business, organization, etc.",
+        "usage_context_es": "El proceso o actividad de dirigir un negocio, organización, etc.",
+        "usage_example": "She works in administration.",
+        "usage_example_es": "Ella trabaja en administración."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "administration",
+    "phonetic": "/ədˌmɪnɪˈstreɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ədˌmɪnɪˈstreɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_17_def0.avif",
+        "meaning": "Cultura",
+        "pronunciation_guide_es": "/ai_lov_LER-ning_a-BAUT_O-der_COL-churs/",
+        "usage_context_en": "The customs, arts, social institutions, and achievements of a particular nation or people.",
+        "usage_context_es": "Las costumbres, artes, instituciones sociales y logros de una nación o pueblo en particular.",
+        "usage_example": "I love learning about other cultures.",
+        "usage_example_es": "Me encanta aprender sobre otras culturas."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "culture",
+    "phonetic": "/ˈkʌltʃər/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈkʌltʃər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_18_def0.avif",
+        "meaning": "Departamento",
+        "pronunciation_guide_es": "/hi_UORKS_in_de_SEILS_di-PART-ment/",
+        "usage_context_en": "A division of a large organization such as a government, university, or business.",
+        "usage_context_es": "Una división de una gran organización como un gobierno, universidad o empresa.",
+        "usage_example": "He works in the sales department.",
+        "usage_example_es": "Él trabaja en el departamento de ventas."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "department",
+    "phonetic": "/dɪˈpɑrtmənt/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/dɪˈpɑrtmənt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_19_def0.avif",
+        "meaning": "Liderazgo",
+        "pronunciation_guide_es": "/shi_shoud_greit_LI-der-ship_SKILS/",
+        "usage_context_en": "The action of leading a group of people or an organization.",
+        "usage_context_es": "La acción de dirigir un grupo de personas u una organización.",
+        "usage_example": "She showed great leadership skills.",
+        "usage_example_es": "Ella demostró grandes habilidades de liderazgo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "leadership",
+    "phonetic": "/ˈlidərʃɪp/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈlidərʃɪp/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_20_def0.avif",
+        "meaning": "Nación",
+        "pronunciation_guide_es": "/its_a_strong_NEI-shon/",
+        "usage_context_en": "A large body of people united by common descent, history, culture, or language, inhabiting a particular country.",
+        "usage_context_es": "Un gran cuerpo de personas unidas por descendencia, historia, cultura o idioma común, que habitan un país en particular.",
+        "usage_example": "It's a strong nation.",
+        "usage_example_es": "Es una nación fuerte."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "nation",
+    "phonetic": "/ˈneɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈneɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_21_def0.avif",
+        "meaning": "Organización (empresa, grupo)",
+        "pronunciation_guide_es": "/hi_UORKS_for_a_lary_or-ga-ni-ZEI-shon/",
+        "usage_context_en": "An organized group of people with a particular purpose, such as a business.",
+        "usage_context_es": "Un grupo organizado de personas con un propósito particular, como un negocio.",
+        "usage_example": "He works for a large organization.",
+        "usage_example_es": "Él trabaja para una gran organización."
+      },
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_21_def1.avif",
+        "meaning": "Organización (proceso)",
+        "pronunciation_guide_es": "/di_or-ga-ni-ZEI-shon_of_di_i-VENT_uas_PUR/",
+        "usage_context_en": "The action of arranging or structuring something.",
+        "usage_context_es": "La acción de arreglar o estructurar algo.",
+        "usage_example": "The organization of the event was poor.",
+        "usage_example_es": "La organización del evento fue deficiente."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "organization",
+    "phonetic": "/ˌɔrɡənəˈzeɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˌɔrɡənəˈzeɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_22_def0.avif",
+        "meaning": "Servicio",
+        "pronunciation_guide_es": "/de_SER-vis_hir_is_EK-se-lent/",
+        "usage_context_en": "The action of helping or doing work for someone.",
+        "usage_context_es": "La acción de ayudar o hacer un trabajo para alguien.",
+        "usage_example": "The service here is excellent.",
+        "usage_example_es": "El servicio aquí es excelente."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "service",
+    "phonetic": "/ˈsɜrvɪs/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈsɜrvɪs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_23_def0.avif",
+        "meaning": "Sociedad",
+        "pronunciation_guide_es": "/ui_LIV_in_a_MO-dern_so-SAI-e-ti/",
+        "usage_context_en": "The community of people living in a particular country or region and having shared customs and laws.",
+        "usage_context_es": "La comunidad de personas que viven en un país o región en particular y que tienen costumbres y leyes compartidas.",
+        "usage_example": "We live in a modern society.",
+        "usage_example_es": "Vivimos en una sociedad moderna."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "society",
+    "phonetic": "/səˈsaɪəti/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/səˈsaɪəti/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_24_def0.avif",
+        "meaning": "Inmigración",
+        "pronunciation_guide_es": "/imiGREshon_reitS_ar_RAISIN/",
+        "usage_context_en": "The process of moving to live in another country",
+        "usage_context_es": "El proceso de mudarse a vivir en otro país",
+        "usage_example": "Immigration rates are rising.",
+        "usage_example_es": "Las tasas de inmigración están aumentando."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "immigration",
+    "phonetic": "/ˌɪmɪˈɡreɪʃən/",
+    "search_term": "noun/society/essentials",
+    "spoken_phonetic_us": "/ˌɪmɪˈɡreɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_25_def0.avif",
+        "meaning": "Refugiado",
+        "pronunciation_guide_es": "/de_REFiuYi_nids_JELP/",
+        "usage_context_en": "A person forced to leave their country due to danger",
+        "usage_context_es": "Una persona obligada a abandonar su país por peligro",
+        "usage_example": "The refugee needs help.",
+        "usage_example_es": "El refugiado necesita ayuda."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "refugee",
+    "phonetic": "/ˌrɛfjʊˈdʒiː/",
+    "search_term": "noun/society/essentials",
+    "spoken_phonetic_us": "/ˌrɛfjʊˈdʒiː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_26_def0.avif",
+        "meaning": "Minoría",
+        "pronunciation_guide_es": "/maiNORiti_GRUPS_nid_PROUTEKSHON/",
+        "usage_context_en": "A smaller group within a larger population",
+        "usage_context_es": "Un grupo más pequeño dentro de una población más grande",
+        "usage_example": "Minority groups need protection.",
+        "usage_example_es": "Los grupos minoritarios necesitan protección."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "minority",
+    "phonetic": "/maɪˈnɒrɪti/",
+    "search_term": "noun/society/essentials",
+    "spoken_phonetic_us": "/maɪˈnɔːrɪti/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_27_def0.avif",
+        "meaning": "Protesta",
+        "pronunciation_guide_es": "/de_PROtest_uos_PISful/",
+        "usage_context_en": "A public demonstration against something",
+        "usage_context_es": "Una manifestación pública en contra de algo",
+        "usage_example": "The protest was peaceful.",
+        "usage_example_es": "La protesta fue pacífica."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "protest",
+    "phonetic": "/ˈproʊtɛst/",
+    "search_term": "noun/society/essentials",
+    "spoken_phonetic_us": "/ˈproʊtɛst/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_28_def0.avif",
+        "meaning": "Democracia",
+        "pronunciation_guide_es": "/diMOKrasi_is_a_SISTEM_of_GOVernment/",
+        "usage_context_en": "A system of government chosen by the people",
+        "usage_context_es": "Un sistema de gobierno elegido por el pueblo",
+        "usage_example": "Democracy is a system of government.",
+        "usage_example_es": "La democracia es un sistema de gobierno."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "democracy",
+    "phonetic": "/dɪˈmɒkrəsi/",
+    "search_term": "noun/government/essentials",
+    "spoken_phonetic_us": "/dɪˈmɑːkrəsi/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_29_def0.avif",
+        "meaning": "Constitución",
+        "pronunciation_guide_es": "/de_KONstitiushon_prouTEKTS_de_PIpol/",
+        "usage_context_en": "The basic laws that govern a country",
+        "usage_context_es": "Las leyes básicas que gobiernan un país",
+        "usage_example": "The constitution protects the people.",
+        "usage_example_es": "La constitución protege al pueblo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "constitution",
+    "phonetic": "/ˌkɒnstɪˈtjuːʃən/",
+    "search_term": "noun/government/essentials",
+    "spoken_phonetic_us": "/ˌkɑːnstɪˈtuːʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_30_def0.avif",
+        "meaning": "Derechos",
+        "pronunciation_guide_es": "/EVRIBADI_JAS_RAITS/",
+        "usage_context_en": "Things you are legally or morally allowed to do",
+        "usage_context_es": "Cosas que tienes permitido hacer legal o moralmente",
+        "usage_example": "Everybody has rights.",
+        "usage_example_es": "Todo el mundo tiene derechos."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "rights",
+    "phonetic": "/raɪts/",
+    "search_term": "noun/society/essentials",
+    "spoken_phonetic_us": "/raɪts/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_31_def0.avif",
+        "meaning": "Corrupción",
+        "pronunciation_guide_es": "/koRAPshon_is_a_SIRios_PROblem/",
+        "usage_context_en": "Dishonest behavior by people in power",
+        "usage_context_es": "Comportamiento deshonesto de personas en el poder",
+        "usage_example": "Corruption is a serious problem.",
+        "usage_example_es": "La corrupción es un problema grave."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "corruption",
+    "phonetic": "/kəˈrʌpʃən/",
+    "search_term": "noun/society/government/essentials",
+    "spoken_phonetic_us": "/kəˈrʌpʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_32_def0.avif",
+        "meaning": "Bienestar social / Subsidio",
+        "pronunciation_guide_es": "/de_GOVernment_PROVAIDZ_UELfer/",
+        "usage_context_en": "Government support given to people in need",
+        "usage_context_es": "Apoyo del gobierno dado a personas en necesidad",
+        "usage_example": "The government provides welfare.",
+        "usage_example_es": "El gobierno proporciona bienestar social."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "welfare",
+    "phonetic": "/ˈwɛlˌfɛər/",
+    "search_term": "noun/society/government/essentials",
+    "spoken_phonetic_us": "/ˈwɛlˌfɛr/"
+  }
+]

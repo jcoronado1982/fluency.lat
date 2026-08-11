@@ -1,0 +1,349 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Perdido/a",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adjective/basic/location_distance",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Perdido/a]",
+                "usage_example": "Estoy perdido.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Estoy perdido.]",
+                "char_count": "3",
+                "usage_context_en": "[TRADUCIR AL PT: Incapaz de encontrar el camino o saber dónde está.]",
+                "usage_context_es": "Incapaz de encontrar el camino o saber dónde está.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Location & Distance",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Cercano/a / Cerca",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adjective/basic/location_distance",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cercano/a / Cerca]",
+                "usage_example": "El hospital está cerca.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El hospital está cerca.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Cerca en distancia.]",
+                "usage_context_es": "Cerca en distancia.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Location & Distance",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Lejano/a / Lejos",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adjective/basic/location_distance",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Lejano/a / Lejos]",
+                "usage_example": "La estación está lejos.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: La estación está lejos.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: A gran distancia.]",
+                "usage_context_es": "A gran distancia.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Location & Distance",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Lleno de gente / Congestionado",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adjective/basic/places_crowds",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Lleno de gente / Congestionado]",
+                "usage_example": "El bus está lleno de gente.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El bus está lleno de gente.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Lleno de personas, con poco espacio.]",
+                "usage_context_es": "Lleno de personas, con poco espacio.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Places & Crowds",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Grande",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adjective/basic/size_dimension",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Grande]",
+                "usage_example": "Esa es una casa grande.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Esa es una casa grande.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: De tamaño o extensión considerable.]",
+                "usage_context_es": "De tamaño o extensión considerable.",
+                "imagePath": "/card_images/adjectives/1-basic/1-basic_card_0_def0.avif"
+            }
+        ],
+        "group_name": "Size & Dimension",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Pequeño/a",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adjective/basic/size_dimension",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Pequeño/a]",
+                "usage_example": "Tengo un carro pequeño.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Tengo un carro pequeño.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: De un tamaño menor al normal o promedio.]",
+                "usage_context_es": "De un tamaño menor al normal o promedio.",
+                "imagePath": "/card_images/adjectives/1-basic/1-basic_card_1_def0.avif"
+            }
+        ],
+        "group_name": "Size & Dimension",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Largo/a",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adjective/basic/size_dimension",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Largo/a]",
+                "usage_example": "Es un camino largo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Es un camino largo.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Que mide una gran distancia de extremo a extremo.]",
+                "usage_context_es": "Que mide una gran distancia de extremo a extremo.",
+                "imagePath": "/card_images/adjectives/1-basic/1-basic_card_13_def0.avif"
+            }
+        ],
+        "group_name": "Size & Dimension",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Corto/a",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adjective/basic/size_dimension",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Corto/a]",
+                "usage_example": "Esta es una película corta.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Esta es una película corta.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Que mide una distancia pequeña de extremo a extremo.]",
+                "usage_context_es": "Que mide una distancia pequeña de extremo a extremo.",
+                "imagePath": "/card_images/adjectives/1-basic/1-basic_card_14_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Bajo/a (estatura)]",
+                "usage_example": "Él es bajo (de estatura).",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Él es bajo (de estatura).]",
+                "char_count": "3",
+                "usage_context_en": "[TRADUCIR AL PT: De poca altura.]",
+                "usage_context_es": "De poca altura.",
+                "imagePath": "/card_images/adjectives/1-basic/1-basic_card_14_def1.avif"
+            }
+        ],
+        "group_name": "Size & Dimension",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Alto/a",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adjective/basic/size_dimension",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Alto/a]",
+                "usage_example": "Ella es muy alta.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ella es muy alta.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: De estatura mayor al promedio.]",
+                "usage_context_es": "De estatura mayor al promedio.",
+                "imagePath": "/card_images/adjectives/1-basic/1-basic_card_33_def0.avif"
+            }
+        ],
+        "group_name": "Size & Dimension",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Ancho/a",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adjective/basic/size_dimension",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Ancho/a]",
+                "usage_example": "El río es muy ancho.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El río es muy ancho.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: De gran distancia de lado a lado.]",
+                "usage_context_es": "De gran distancia de lado a lado.",
+                "imagePath": "/card_images/adjectives/1-basic/1-basic_card_34_def0.avif"
+            }
+        ],
+        "group_name": "Size & Dimension",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Pesado/a",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adjective/basic/size_dimension",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Pesado/a]",
+                "usage_example": "Esta bolsa es muy pesada.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Esta bolsa es muy pesada.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: De gran peso.]",
+                "usage_context_es": "De gran peso.",
+                "imagePath": "/card_images/adjectives/1-basic/1-basic_card_35_def0.avif"
+            }
+        ],
+        "group_name": "Size & Dimension",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Ligero/a",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adjective/basic/size_dimension",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Ligero/a]",
+                "usage_example": "La caja es ligera.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: La caja es ligera.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: De poco peso; fácil de levantar.]",
+                "usage_context_es": "De poco peso; fácil de levantar.",
+                "imagePath": "/card_images/adjectives/1-basic/1-basic_card_36_def0.avif"
+            }
+        ],
+        "group_name": "Size & Dimension",
+        "category": "Basic"
+    }
+]

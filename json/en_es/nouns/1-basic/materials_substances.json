@@ -1,0 +1,350 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "",
+    "definitions": [
+      {
+        "alternative_example": "",
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_0_def0.avif",
+        "meaning": "metal",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Metal",
+        "usage_context_en": "A hard, shiny substance (e.g., iron, gold)",
+        "usage_context_es": "Una sustancia dura y brillante (ej. hierro, oro)",
+        "usage_example": "La llave está hecha de metal.",
+        "usage_example_es": "The key is made of metal."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_phrasal_verb": false,
+    "name": "Metal",
+    "phonetic": "",
+    "search_term": "noun/substance/essentials",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "",
+    "definitions": [
+      {
+        "alternative_example": "",
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_1_def0.avif",
+        "meaning": "plastic",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Plástico",
+        "usage_context_en": "A light, artificial material",
+        "usage_context_es": "Un material artificial y ligero",
+        "usage_example": "La botella está hecha de plástico.",
+        "usage_example_es": "The bottle is made of plastic."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_phrasal_verb": false,
+    "name": "Plástico",
+    "phonetic": "",
+    "search_term": "noun/substance/essentials",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "",
+    "definitions": [
+      {
+        "alternative_example": "",
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_2_def0.avif",
+        "meaning": "cotton",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Algodón",
+        "usage_context_en": "A soft, white material from a plant",
+        "usage_context_es": "Un material suave y blanco de una planta",
+        "usage_example": "Esta camisa está hecha de algodón.",
+        "usage_example_es": "This shirt is made of cotton."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Clothing",
+    "is_phrasal_verb": false,
+    "name": "Algodón",
+    "phonetic": "",
+    "search_term": "noun/substance/clothing/essentials",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "",
+    "definitions": [
+      {
+        "alternative_example": "",
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_3_def0.avif",
+        "meaning": "leather",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Cuero / Piel",
+        "usage_context_en": "Material made from animal skin",
+        "usage_context_es": "Material hecho de piel de animal",
+        "usage_example": "Una chaqueta de cuero.",
+        "usage_example_es": "A leather jacket."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Clothing",
+    "is_phrasal_verb": false,
+    "name": "Cuero / Piel",
+    "phonetic": "",
+    "search_term": "noun/substance/clothing/essentials",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "",
+    "definitions": [
+      {
+        "alternative_example": "",
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_4_def0.avif",
+        "meaning": "gold",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Oro",
+        "usage_context_en": "A yellow, expensive metal",
+        "usage_context_es": "Un metal amarillo y caro",
+        "usage_example": "El anillo está hecho de oro.",
+        "usage_example_es": "The ring is made of gold."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_phrasal_verb": false,
+    "name": "Oro",
+    "phonetic": "",
+    "search_term": "noun/substance/color/essentials",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "",
+    "definitions": [
+      {
+        "alternative_example": "",
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_5_def0.avif",
+        "meaning": "silver",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Plata",
+        "usage_context_en": "A gray-white, expensive metal",
+        "usage_context_es": "Un metal gris-blanco y caro",
+        "usage_example": "Una cuchara de plata.",
+        "usage_example_es": "A silver spoon."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_phrasal_verb": false,
+    "name": "Plata",
+    "phonetic": "",
+    "search_term": "noun/substance/color/essentials",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "",
+    "definitions": [
+      {
+        "alternative_example": "",
+        "char_count": "8",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_6_def0.avif",
+        "meaning": "material",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Material",
+        "usage_context_en": "A substance or matter used to make things.",
+        "usage_context_es": "Una sustancia o materia usada para hacer cosas.",
+        "usage_example": "La madera es un material.",
+        "usage_example_es": "Wood is a material."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Materials",
+    "is_phrasal_verb": false,
+    "name": "Material",
+    "phonetic": "",
+    "search_term": "noun/materials/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "",
+    "definitions": [
+      {
+        "alternative_example": "",
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_7_def0.avif",
+        "meaning": "bronze",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Bronce",
+        "usage_context_en": "A metal made mostly of copper and tin.",
+        "usage_context_es": "Un metal hecho sobre todo de cobre y estaño.",
+        "usage_example": "La medalla es de bronce.",
+        "usage_example_es": "The medal is bronze."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Materials",
+    "is_phrasal_verb": false,
+    "name": "Bronce",
+    "phonetic": "",
+    "search_term": "noun/materials/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "",
+    "definitions": [
+      {
+        "alternative_example": "",
+        "char_count": "4",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_8_def0.avif",
+        "meaning": "iron",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Hierro",
+        "usage_context_en": "A common strong metal.",
+        "usage_context_es": "Un metal común y resistente.",
+        "usage_example": "El hierro se usa en herramientas.",
+        "usage_example_es": "Iron is used in tools."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Materials",
+    "is_phrasal_verb": false,
+    "name": "Hierro",
+    "phonetic": "",
+    "search_term": "noun/materials/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "",
+    "definitions": [
+      {
+        "alternative_example": "",
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_9_def0.avif",
+        "meaning": "steel",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Acero",
+        "usage_context_en": "A very strong metal made from iron.",
+        "usage_context_es": "Un metal muy resistente hecho de hierro.",
+        "usage_example": "El puente es de acero.",
+        "usage_example_es": "The bridge is made of steel."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Materials",
+    "is_phrasal_verb": false,
+    "name": "Acero",
+    "phonetic": "",
+    "search_term": "noun/materials/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "",
+    "definitions": [
+      {
+        "alternative_example": "",
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_10_def0.avif",
+        "meaning": "copper",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Cobre",
+        "usage_context_en": "A reddish-brown metal.",
+        "usage_context_es": "Un metal rojizo.",
+        "usage_example": "El cobre se usa en cables.",
+        "usage_example_es": "Copper is used in wires."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Materials",
+    "is_phrasal_verb": false,
+    "name": "Cobre",
+    "phonetic": "",
+    "search_term": "noun/materials/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "",
+    "definitions": [
+      {
+        "alternative_example": "",
+        "char_count": "9",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_11_def0.avif",
+        "meaning": "plutonium",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Plutonio",
+        "usage_context_en": "A heavy radioactive metal.",
+        "usage_context_es": "Un metal pesado y radiactivo.",
+        "usage_example": "El plutonio es muy radiactivo.",
+        "usage_example_es": "Plutonium is highly radioactive."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Materials",
+    "is_phrasal_verb": false,
+    "name": "Plutonio",
+    "phonetic": "",
+    "search_term": "noun/materials/seed",
+    "spoken_phonetic_us": ""
+  }
+]

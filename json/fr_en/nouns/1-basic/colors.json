@@ -1,0 +1,338 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "red",
+        "phonetic": "/rɛd/",
+        "spoken_phonetic_us": "/rɛd/",
+        "search_term": "noun/color/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Rojo]",
+                "usage_example": "The apple is red.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE red AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The apple is red.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: El color de la sangre]",
+                "usage_context_es": "The color of blood",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_69_def0.avif"
+            }
+        ],
+        "group_name": "Colors",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "blue",
+        "phonetic": "/bluː/",
+        "spoken_phonetic_us": "/bluː/",
+        "search_term": "noun/color/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Azul]",
+                "usage_example": "The sky is blue.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE blue AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The sky is blue.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: El color del cielo]",
+                "usage_context_es": "The color of the sky",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_70_def0.avif"
+            }
+        ],
+        "group_name": "Colors",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "green",
+        "phonetic": "/ɡriːn/",
+        "spoken_phonetic_us": "/ɡriːn/",
+        "search_term": "noun/color/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Verde]",
+                "usage_example": "The grass is green.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE green AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The grass is green.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: El color del pasto]",
+                "usage_context_es": "The color of grass",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_71_def0.avif"
+            }
+        ],
+        "group_name": "Colors",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "yellow",
+        "phonetic": "/ˈjɛloʊ/",
+        "spoken_phonetic_us": "/ˈjɛloʊ/",
+        "search_term": "noun/color/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Amarillo]",
+                "usage_example": "The sun is yellow.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE yellow AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The sun is yellow.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: El color del sol]",
+                "usage_context_es": "The color of the sun",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_72_def0.avif"
+            }
+        ],
+        "group_name": "Colors",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "black",
+        "phonetic": "/blæk/",
+        "spoken_phonetic_us": "/blæk/",
+        "search_term": "noun/color/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Negro]",
+                "usage_example": "The cat is black.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE black AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The cat is black.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: El color más oscuro, como la noche]",
+                "usage_context_es": "The darkest color, like night",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_73_def0.avif"
+            }
+        ],
+        "group_name": "Colors",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "white",
+        "phonetic": "/waɪt/",
+        "spoken_phonetic_us": "/waɪt/",
+        "search_term": "noun/color/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Blanco]",
+                "usage_example": "The snow is white.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE white AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The snow is white.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: El color de la leche o la nieve]",
+                "usage_context_es": "The color of milk or snow",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_74_def0.avif"
+            }
+        ],
+        "group_name": "Colors",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "color",
+        "phonetic": "/ˈkʌlər/",
+        "spoken_phonetic_us": "/ˈkʌlər/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Color]",
+                "usage_example": "What is your favorite color?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE color AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: What is your favorite color?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Rojo, azul, verde, amarillo, etc.]",
+                "usage_context_es": "Red, blue, green, yellow, etc.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_166_def0.avif"
+            }
+        ],
+        "group_name": "Colors",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "brown",
+        "phonetic": "/braʊn/",
+        "spoken_phonetic_us": "/braʊn/",
+        "search_term": "noun/color/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Marrón / Café]",
+                "usage_example": "His shoes are brown.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE brown AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: His shoes are brown.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: El color de la madera o la tierra]",
+                "usage_context_es": "The color of wood or earth",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_366_def0.avif"
+            }
+        ],
+        "group_name": "Colors",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "gray",
+        "phonetic": "/ɡreɪ/",
+        "spoken_phonetic_us": "/ɡreɪ/",
+        "search_term": "noun/color/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Gris]",
+                "usage_example": "The sky is gray.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE gray AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The sky is gray.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un color entre negro y blanco (AmE)]",
+                "usage_context_es": "A color between black and white (AmE)",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_367_def0.avif"
+            }
+        ],
+        "group_name": "Colors",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "pink",
+        "phonetic": "/pɪŋk/",
+        "spoken_phonetic_us": "/pɪŋk/",
+        "search_term": "noun/color/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Rosado / Rosa]",
+                "usage_example": "A pink flower.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE pink AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: A pink flower.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un color rojo claro]",
+                "usage_context_es": "A light red color",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_368_def0.avif"
+            }
+        ],
+        "group_name": "Colors",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "purple",
+        "phonetic": "/ˈpɜːrpəl/",
+        "spoken_phonetic_us": "/ˈpɜːrpəl/",
+        "search_term": "noun/color/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Morado / Púrpura]",
+                "usage_example": "Grapes are purple.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE purple AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Grapes are purple.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Un color entre rojo y azul]",
+                "usage_context_es": "A color between red and blue",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_369_def0.avif"
+            }
+        ],
+        "group_name": "Colors",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "orange",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/colors/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: The color between red and yellow.]",
+                "usage_example": "The shirt is orange.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE orange AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The shirt is orange.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: El color entre rojo y amarillo.]",
+                "usage_context_es": "The color between red and yellow.",
+                "imagePath": "/card_images/nouns/1-basic/seed_orange.avif"
+            }
+        ],
+        "group_name": "Colors",
+        "category": ""
+    }
+]

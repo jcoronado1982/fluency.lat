@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/nouns/3-advanced/structure_components/3-advanced_structure_components_card_0_def0.avif",
+        "meaning": "Arquitectura",
+        "pronunciation_guide_es": "/ai_ad-MAIR_MO-dern_AR-ki-tek-cher/",
+        "usage_context_en": "The art or practice of designing and constructing buildings.",
+        "usage_context_es": "El arte o la práctica de diseñar y construir edificios.",
+        "usage_example": "I admire modern architecture.",
+        "usage_example_es": "Admiro la arquitectura moderna."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Arts & Media",
+    "is_verb": false,
+    "name": "architecture",
+    "phonetic": "/ˈɑrkɪˌtɛktʃər/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈɑrkɪˌtɛktʃər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/3-advanced/structure_components/3-advanced_structure_components_card_1_def0.avif",
+        "meaning": "Mecanismo",
+        "pronunciation_guide_es": "/de_CLOKS_ME-ka-ni-som_is_BROU-ken/",
+        "usage_context_en": "A system of parts working together in a machine; a piece of machinery.",
+        "usage_context_es": "Un sistema de partes que trabajan juntas en una máquina; una pieza de maquinaria.",
+        "usage_example": "The clock's mechanism is broken.",
+        "usage_example_es": "El mecanismo del reloj está roto."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "mechanism",
+    "phonetic": "/ˈmɛkəˌnɪzəm/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈmɛkəˌnɪzəm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/structure_components/3-advanced_structure_components_card_2_def0.avif",
+        "meaning": "Propiedad / Posesión",
+        "pronunciation_guide_es": "/HU_has_OU-ner-ship_of_dis_CAR/",
+        "usage_context_en": "The act, state, or right of possessing something.",
+        "usage_context_es": "El acto, estado o derecho de poseer algo.",
+        "usage_example": "Who has ownership of this car?",
+        "usage_example_es": "¿Quién tiene la propiedad de este coche?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "ownership",
+    "phonetic": "/ˈoʊnərʃɪp/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈoʊnərʃɪp/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "imagePath": "/card_images/nouns/3-advanced/structure_components/3-advanced_structure_components_card_3_def0.avif",
+        "meaning": "Aparato / Sistema complejo",
+        "pronunciation_guide_es": "/di_a-pa-RA-tos_is_BROU-ken/",
+        "usage_context_en": "A complex piece of equipment or machinery",
+        "usage_context_es": "Una pieza compleja de equipo o maquinaria",
+        "usage_example": "The scientific apparatus is broken.",
+        "usage_example_es": "El aparato científico está roto."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "apparatus",
+    "phonetic": "/ˌæpəˈrætəs/",
+    "search_term": "noun/objects/advanced",
+    "spoken_phonetic_us": "/ˌæpəˈrætəs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/structure_components/3-advanced_structure_components_card_4_def0.avif",
+        "meaning": "Marco / Estructura",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A basic structure that supports something.",
+        "usage_context_es": "A basic structure that supports something.",
+        "usage_example": "The agreement provides a legal framework.",
+        "usage_example_es": "El acuerdo proporciona un marco legal."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Arts & Media",
+    "is_verb": false,
+    "name": "framework",
+    "phonetic": "/ˈfreɪmˌwɝk/",
+    "search_term": "noun/structure_components/added",
+    "spoken_phonetic_us": "/ˈfreɪmˌwɝk/"
+  }
+]

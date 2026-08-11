@@ -1,0 +1,334 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "create",
+    "phonetic": "/kriːˈeɪt/",
+    "spoken_phonetic_us": "/kriːˈeɪt/",
+    "search_term": "verb/make/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Crear/Generar",
+        "usage_example": "We want to create a new project.",
+        "pronunciation_guide_es": "/ui_UANT_tu_kriEIT_a_niu_PROJECT/",
+        "alternative_example": "He created a beautiful painting.",
+        "usage_example_es": "Queremos crear un nuevo proyecto.",
+        "char_count": "two",
+        "usage_context_en": "projects/art",
+        "usage_context_es": "proyectos/arte",
+        "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_0_def0.avif"
+      },
+      {
+        "meaning": "Causar (un resultado)",
+        "usage_example": "The noise created a disturbance.",
+        "pronunciation_guide_es": "/de_NOIS_kriEITid_a_diSTURbans/",
+        "alternative_example": "Ideas can create change.",
+        "usage_example_es": "El ruido causó una molestia.",
+        "char_count": "two",
+        "usage_context_en": "effect/innovation",
+        "usage_context_es": "efecto/innovación",
+        "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_0_def1.avif"
+      }
+    ],
+    "group_name": "Building & Creating"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "grow",
+    "phonetic": "/ɡroʊ/",
+    "spoken_phonetic_us": "/ɡroʊ/",
+    "search_term": "verb/increase/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Crecer (plantas, personas)",
+        "usage_example": "The plant grows very fast.",
+        "pronunciation_guide_es": "/de_PLANT_GROUS_veri_FAST/",
+        "alternative_example": "The children have grown a lot.",
+        "usage_example_es": "La planta crece muy rápido.",
+        "char_count": "one",
+        "usage_context_en": "biology/development",
+        "usage_context_es": "biología/desarrollo",
+        "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_1_def0.avif"
+      },
+      {
+        "meaning": "Cultivar/Aumentar",
+        "usage_example": "They grow vegetables in their garden.",
+        "pronunciation_guide_es": "/dei_GROU_VEYetebols_in_der_GARDEN/",
+        "alternative_example": "The company is growing rapidly.",
+        "usage_example_es": "Cultivan verduras en su jardín.",
+        "char_count": "one",
+        "usage_context_en": "agriculture/business",
+        "usage_context_es": "agricultura/negocios",
+        "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_1_def1.avif"
+      }
+    ],
+    "irregular": {
+      "past": {
+        "form": "grew",
+        "phonetic": "/ɡruː/",
+        "spoken_phonetic_us": "/ɡruː/",
+        "usage_example": "The garden grew quickly.",
+        "usage_example_es": "El jardín creció rápido.",
+        "pronunciation_guide_es": "/de_GARDEN_GRU_KUICKli/",
+        "meaning": "Pasado de crecer/cultivar",
+        "definitions": [
+          {
+            "usage_example": "The company grew rapidly last year.",
+            "usage_example_es": "La empresa creció rápidamente el año pasado.",
+            "pronunciation_guide_es": "/de_KOMpani_GRU_RAPidli_last_IER/",
+            "meaning": "Pasado de Crecer",
+            "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_1_def0_v2.avif"
+          },
+          {
+            "usage_example": "They grew corn in their backyard.",
+            "usage_example_es": "Cultivaron maíz en su patio trasero.",
+            "pronunciation_guide_es": "/dei_GRU_KORN_in_der_BAKIard/",
+            "meaning": "Pasado de Cultivar",
+            "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_1_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "grown",
+        "phonetic": "/ɡroʊn/",
+        "spoken_phonetic_us": "/ɡroʊn/",
+        "usage_example": "He has grown a beard.",
+        "usage_example_es": "Él se ha dejado crecer la barba.",
+        "pronunciation_guide_es": "/ji_jas_GROUN_a_BIRD/",
+        "meaning": "Participio de crecer/cultivar",
+        "definitions": [
+          {
+            "usage_example": "The company grew rapidly last year.",
+            "usage_example_es": "La empresa creció rápidamente el año pasado.",
+            "pronunciation_guide_es": "/de_KOMpani_GRU_RAPidli_last_IER/",
+            "meaning": "Participio de Crecer",
+            "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_1_def0_v3.avif"
+          },
+          {
+            "usage_example": "They grew corn in their backyard.",
+            "usage_example_es": "Cultivaron maíz en su patio trasero.",
+            "pronunciation_guide_es": "/dei_GRU_KORN_in_der_BAKIard/",
+            "meaning": "Participio de Cultivar",
+            "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_1_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Building & Creating"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "build",
+    "phonetic": "/bɪld/",
+    "spoken_phonetic_us": "/bɪld/",
+    "search_term": "verb/construct/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Construir/Edificar",
+        "usage_example": "They plan to build a new bridge.",
+        "pronunciation_guide_es": "/dei_PLAN_tu_BILD_a_niu_BRIDY/",
+        "alternative_example": "We are building a tree house.",
+        "usage_example_es": "Planean construir un nuevo puente.",
+        "char_count": "one",
+        "usage_context_en": "construction/projects",
+        "usage_context_es": "construcción/proyectos",
+        "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_2_def0.avif"
+      },
+      {
+        "meaning": "Crear/Desarrollar (reputación, negocio)",
+        "usage_example": "He builds his reputation on honesty.",
+        "pronunciation_guide_es": "/hi_BILT_jis_repiuEISHAN_on_ONesti/",
+        "alternative_example": "It takes time to build trust.",
+        "usage_example_es": "Él construye su reputación con honestidad.",
+        "char_count": "one",
+        "usage_context_en": "reputation/trust",
+        "usage_context_es": "reputación/confianza",
+        "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_2_def1.avif"
+      }
+    ],
+    "irregular": {
+      "past": {
+        "form": "built",
+        "phonetic": "/bɪlt/",
+        "spoken_phonetic_us": "/bɪlt/",
+        "usage_example": "They built a new school.",
+        "usage_example_es": "Construyeron una nueva escuela.",
+        "pronunciation_guide_es": "/dei_BILT_a_niu_SKUL/",
+        "meaning": "Pasado de construir",
+        "definitions": [
+          {
+            "usage_example": "They built a massive bridge in two years.",
+            "usage_example_es": "Construyeron un puente masivo en dos años.",
+            "pronunciation_guide_es": "/dei_BILT_a_MASiv_BRID_in_tu_IERS/",
+            "meaning": "Pasado de Construir",
+            "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_2_def0_v2.avif"
+          },
+          {
+            "usage_example": "She built her business from scratch.",
+            "usage_example_es": "Desarrolló su negocio desde cero.",
+            "pronunciation_guide_es": "/shi_BILT_jer_BISnis_from_SKRACH/",
+            "meaning": "Pasado de Desarrollar",
+            "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_2_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "built",
+        "phonetic": "/bɪlt/",
+        "spoken_phonetic_us": "/bɪlt/",
+        "usage_example": "The house was built in 1920.",
+        "usage_example_es": "La casa fue construida en 1920.",
+        "pronunciation_guide_es": "/de_JAUS_uas_BILT_in_nainTIN_TUENTI/",
+        "meaning": "Participio de construir",
+        "definitions": [
+          {
+            "usage_example": "They built a massive bridge in two years.",
+            "usage_example_es": "Construyeron un puente masivo en dos años.",
+            "pronunciation_guide_es": "/dei_BILT_a_MASiv_BRID_in_tu_IERS/",
+            "meaning": "Participio de Construir",
+            "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_2_def0_v3.avif"
+          },
+          {
+            "usage_example": "She built her business from scratch.",
+            "usage_example_es": "Desarrolló su negocio desde cero.",
+            "pronunciation_guide_es": "/shi_BILT_jer_BISnis_from_SKRACH/",
+            "meaning": "Participio de Desarrollar",
+            "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_2_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Building & Creating"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "raise",
+    "phonetic": "/reɪz/",
+    "spoken_phonetic_us": "/reɪz/",
+    "search_term": "verb/lift/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Levantar/Alzar",
+        "usage_example": "Raise your hand if you know the answer.",
+        "pronunciation_guide_es": "/REIZ_yor_JAND_if_iu_NOU_de_ANSWER/",
+        "alternative_example": "The company raised the prices.",
+        "usage_example_es": "Levanta la mano si sabes la respuesta.",
+        "char_count": "one",
+        "usage_context_en": "gesture/increase",
+        "usage_context_es": "gesto/aumento",
+        "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_3_def0.avif"
+      },
+      {
+        "meaning": "Criar/Educar",
+        "usage_example": "They raise their children to be kind.",
+        "pronunciation_guide_es": "/dei_REIZ_der_CHILdren_tu_bi_KAIND/",
+        "alternative_example": "He raises cattle on his farm.",
+        "usage_example_es": "Crían a sus hijos para que sean amables.",
+        "char_count": "one",
+        "usage_context_en": "family/agriculture",
+        "usage_context_es": "familia/agricultura",
+        "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_3_def1.avif"
+      }
+    ],
+    "group_name": "Managing & Control"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "develop",
+    "phonetic": "/dɪˈvɛləp/",
+    "spoken_phonetic_us": "/dɪˈvɛləp/",
+    "search_term": "verb/grow/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Desarrollar/Crear",
+        "usage_example": "We need to develop new skills.",
+        "pronunciation_guide_es": "/ui_NID_tu_diVELOP_niu_SKILs/",
+        "alternative_example": "The company develops software.",
+        "usage_example_es": "Necesitamos desarrollar nuevas habilidades.",
+        "char_count": "three",
+        "usage_context_en": "skills/technology",
+        "usage_context_es": "habilidades/tecnología",
+        "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_4_def0.avif"
+      },
+      {
+        "meaning": "Crecer/Evolucionar",
+        "usage_example": "The project is developing well.",
+        "pronunciation_guide_es": "/de_PROJECT_is_diVELOPing_UEL/",
+        "alternative_example": "A child develops quickly.",
+        "usage_example_es": "El proyecto se está desarrollando bien.",
+        "char_count": "three",
+        "usage_context_en": "projects/growth",
+        "usage_context_es": "proyectos/crecimiento",
+        "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_4_def1.avif"
+      }
+    ],
+    "group_name": "Building & Creating"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "form",
+    "phonetic": "/fɔːrm/",
+    "spoken_phonetic_us": "/fɔːrm/",
+    "search_term": "verb/create/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Formar/Crear",
+        "usage_example": "The students formed a study group.",
+        "pronunciation_guide_es": "/de_STUDENTS_FORMd_a_STADI_GRUP/",
+        "alternative_example": "Ice forms when water freezes.",
+        "usage_example_es": "Los estudiantes formaron un grupo de estudio.",
+        "char_count": "one",
+        "usage_context_en": "groups/nature",
+        "usage_context_es": "grupos/naturaleza",
+        "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_5_def0.avif"
+      },
+      {
+        "meaning": "Constituir/Ser parte de",
+        "usage_example": "These elements form the whole structure.",
+        "pronunciation_guide_es": "/dis_ELEments_FORM_de_JOL_STRAKtur/",
+        "alternative_example": "What forms the basis of your argument?",
+        "usage_example_es": "Estos elementos constituyen toda la estructura.",
+        "char_count": "one",
+        "usage_context_en": "structure/basis",
+        "usage_context_es": "estructura/base",
+        "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_5_def1.avif"
+      }
+    ],
+    "group_name": "Building & Creating"
+  }
+]

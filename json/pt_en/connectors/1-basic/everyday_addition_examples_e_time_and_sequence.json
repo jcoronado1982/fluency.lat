@@ -1,0 +1,332 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "and",
+        "phonetic": "/ænd/",
+        "spoken_phonetic_us": "/ænd/",
+        "search_term": "conjunction/linking",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Y]",
+                "usage_example": "I like coffee and tea.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE and AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I like coffee and tea.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para conectar dos palabras, frases o cláusulas de igual importancia.]",
+                "usage_context_es": "Used to connect two words, phrases, or clauses of equal importance.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_0_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "first",
+        "phonetic": "/fɜrst/",
+        "spoken_phonetic_us": "/fɜrst/",
+        "search_term": "adverb/sequence",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Primero / En primer lugar]",
+                "usage_example": "First, open the box. Then, read the manual.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE first AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: First, open the box. Then, read the manual.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para marcar el inicio de una secuencia o lista.]",
+                "usage_context_es": "Used to mark the beginning of a sequence or list.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_13_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Sequence",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "also",
+        "phonetic": "/ˈɔlsoʊ/",
+        "spoken_phonetic_us": "/ˈɔlsoʊ/",
+        "search_term": "adverb/addition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: También / Además]",
+                "usage_example": "I also like tea.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE also AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I also like tea.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Además; también. (Típicamente ubicado antes del verbo principal o después de 'to be').]",
+                "usage_context_es": "In addition; too. (Typically placed before the main verb or after 'to be').",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_1_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "next",
+        "phonetic": "/nɛkst/",
+        "spoken_phonetic_us": "/nɛkst/",
+        "search_term": "adverb/sequence",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Luego / Siguiente]",
+                "usage_example": "Next, add the sugar.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE next AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Next, add the sugar.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para indicar el paso siguiente al actual.]",
+                "usage_context_es": "Used to indicate the step following the current one.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_15_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Sequence",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "too",
+        "phonetic": "/tu/",
+        "spoken_phonetic_us": "/tu/",
+        "search_term": "adverb/addition/intensifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: También]",
+                "usage_example": "I like coffee, too.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE too AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I like coffee, too.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Además; también. (Típicamente al final de una cláusula).]",
+                "usage_context_es": "In addition; also. (Typically at the end of a clause).",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_2_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Demasiado]",
+                "usage_example": "It is too hot.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE too AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: It is too hot.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Un intensificador que significa 'excesivamente' o 'más de lo deseado'.]",
+                "usage_context_es": "An intensifier meaning 'excessively' or 'more than is wanted'.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_2_def1.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "after that",
+        "phonetic": "/ˈæftər ðæt/",
+        "spoken_phonetic_us": "/ˈæftər ðæt/",
+        "search_term": "phrase/sequence",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Después de eso]",
+                "usage_example": "We ate dinner, and after that, we watched a movie.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE after that AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: We ate dinner, and after that, we watched a movie.]",
+                "char_count": "9",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para introducir el siguiente evento en una secuencia.]",
+                "usage_context_es": "Used to introduce the next event in a sequence.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_16_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Sequence",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "or",
+        "phonetic": "/ɔr/",
+        "spoken_phonetic_us": "/ɔr/",
+        "search_term": "connector/alternative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: O (alternativa)]",
+                "usage_example": "Would you like tea or coffee?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE or AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Would you like tea or coffee?]",
+                "char_count": "2",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para enlazar alternativas.]",
+                "usage_context_es": "Used to link alternatives.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_39_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Alternative",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "finally",
+        "phonetic": "/ˈfaɪnəli/",
+        "spoken_phonetic_us": "/ˈfaɪnəli/",
+        "search_term": "adverb/sequence",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Finalmente / Por último]",
+                "usage_example": "Finally, close the box.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE finally AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Finally, close the box.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para introducir el último ítem en una lista o secuencia.]",
+                "usage_context_es": "Used to introduce the last item in a list or sequence.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_17_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Sequence",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "for example",
+        "phonetic": "/fɔr ɪɡˈzæmpəl/",
+        "spoken_phonetic_us": "/fɔr ɪɡˈzæmpəl/",
+        "search_term": "phrase/example",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Por ejemplo]",
+                "usage_example": "I like fruits, for example, apples.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE for example AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I like fruits, for example, apples.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para introducir un ítem específico que ilustra un punto general.]",
+                "usage_context_es": "Used to introduce a specific item that illustrates a general point.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_26_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Example",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "then",
+        "phonetic": "/ðɛn/",
+        "spoken_phonetic_us": "/ðɛn/",
+        "search_term": "adverb/sequence/result",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Luego / Después]",
+                "usage_example": "First I work, then I rest.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE then AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: First I work, then I rest.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para indicar lo que sucede a continuación en una secuencia.]",
+                "usage_context_es": "Used to indicate what happens next in a sequence.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_14_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Entonces / En ese caso]",
+                "usage_example": "If you are hungry, then you should eat.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE then AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: If you are hungry, then you should eat.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para indicar una consecuencia o resultado.]",
+                "usage_context_es": "Used to state a consequence or result.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_14_def1.avif"
+            }
+        ],
+        "group_name": "Connectors: Sequence",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "when",
+        "phonetic": "/wɛn/",
+        "spoken_phonetic_us": "/wɛn/",
+        "search_term": "conjunction/time",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cuando]",
+                "usage_example": "Call me when you arrive.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE when AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Call me when you arrive.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para introducir una cláusula de tiempo.]",
+                "usage_context_es": "Used to introduce a clause of time.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_38_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Time",
+        "category": ""
+    }
+]

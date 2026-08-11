@@ -1,0 +1,610 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Lado",
+        "pronunciation_guide_es": "/de_PARK_is_on_DIS_SAID/",
+        "usage_context_en": "A position left or right of a center",
+        "usage_context_es": "Una posición a la izquierda o derecha de un centro",
+        "usage_example": "The park is on this side.",
+        "usage_example_es": "El parque está en este lado.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_174_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "side",
+    "phonetic": "/saɪd/",
+    "search_term": "noun/position/essentials",
+    "spoken_phonetic_us": "/saɪd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Punto / Idea principal",
+        "pronunciation_guide_es": "/dats_a_GUD_POINT/",
+        "usage_context_en": "An idea or opinion / A specific spot",
+        "usage_context_es": "Una idea u opinión / Un lugar específico",
+        "usage_example": "That's a good point.",
+        "usage_example_es": "Ese es un buen punto (argumento).",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_176_def0.avif"
+      },
+      {
+        "char_count": "5",
+        "meaning": "Propósito o idea principal",
+        "pronunciation_guide_es": "/dzats_de_POINT_of_de_STOri/",
+        "usage_context_en": "The main idea or purpose of something.",
+        "usage_context_es": "La idea o propósito principal de algo.",
+        "usage_example": "That’s the point of the story.",
+        "usage_example_es": "Ese es el punto de la historia.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_176_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "point",
+    "phonetic": "/pɔɪnt/",
+    "search_term": "noun/idea/location/essentials",
+    "spoken_phonetic_us": "/pɔɪnt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Mapa",
+        "pronunciation_guide_es": "/ai_NID_a_MAP_of_de_SITi/",
+        "usage_context_en": "A drawing of an area or country",
+        "usage_context_es": "Un dibujo de un área o país",
+        "usage_example": "I need a map of the city.",
+        "usage_example_es": "Necesito un mapa de la ciudad.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_265_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "map",
+    "phonetic": "/mæp/",
+    "search_term": "noun/object/place/essentials",
+    "spoken_phonetic_us": "/mæp/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Dirección",
+        "pronunciation_guide_es": "/uat_is_yor_aDRES/",
+        "usage_context_en": "Where you live (street and number)",
+        "usage_context_es": "Donde vives (calle y número)",
+        "usage_example": "What is your address?",
+        "usage_example_es": "¿Cuál es tu dirección?",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_287_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "address",
+    "phonetic": "/əˈdrɛs/",
+    "search_term": "noun/place/essentials",
+    "spoken_phonetic_us": "/ˈædrɛs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Norte",
+        "pronunciation_guide_es": "/de_MAP_SHOUS_de_NORTH/",
+        "usage_context_en": "The direction opposite of south",
+        "usage_context_es": "La dirección opuesta al sur",
+        "usage_example": "The map shows the north.",
+        "usage_example_es": "El mapa muestra el norte.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_297_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Directions",
+    "is_verb": false,
+    "name": "north",
+    "phonetic": "/nɔːrθ/",
+    "search_term": "noun/direction/essentials",
+    "spoken_phonetic_us": "/nɔːrθ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Sur",
+        "pronunciation_guide_es": "/dei_TRAveld_SAUTH/",
+        "usage_context_en": "The direction opposite of north",
+        "usage_context_es": "La dirección opuesta al norte",
+        "usage_example": "They traveled south.",
+        "usage_example_es": "Ellos viajaron al sur.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_298_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Directions",
+    "is_verb": false,
+    "name": "south",
+    "phonetic": "/saʊθ/",
+    "search_term": "noun/direction/essentials",
+    "spoken_phonetic_us": "/saʊθ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Este",
+        "pronunciation_guide_es": "/de_SAN_RAISis_in_di_IST/",
+        "usage_context_en": "The direction where the sun rises",
+        "usage_context_es": "La dirección por donde sale el sol",
+        "usage_example": "The sun rises in the east.",
+        "usage_example_es": "El sol sale por el este.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_299_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Directions",
+    "is_verb": false,
+    "name": "east",
+    "phonetic": "/iːst/",
+    "search_term": "noun/direction/essentials",
+    "spoken_phonetic_us": "/iːst/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Oeste",
+        "pronunciation_guide_es": "/de_SAN_SETS_in_de_UEST/",
+        "usage_context_en": "The direction where the sun sets",
+        "usage_context_es": "La dirección por donde se pone el sol",
+        "usage_example": "The sun sets in the west.",
+        "usage_example_es": "El sol se pone por el oeste.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_300_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Directions",
+    "is_verb": false,
+    "name": "west",
+    "phonetic": "/wɛst/",
+    "search_term": "noun/direction/essentials",
+    "spoken_phonetic_us": "/wɛst/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Izquierda",
+        "pronunciation_guide_es": "/TORN_tu_de_LEFT/",
+        "usage_context_en": "The direction opposite of right",
+        "usage_context_es": "La dirección opuesta a la derecha",
+        "usage_example": "Turn to the left.",
+        "usage_example_es": "Gira a la izquierda.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_301_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Directions",
+    "is_verb": false,
+    "name": "left",
+    "phonetic": "/lɛft/",
+    "search_term": "noun/direction/essentials",
+    "spoken_phonetic_us": "/lɛft/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Derecha",
+        "pronunciation_guide_es": "/TORN_tu_de_RAIT/",
+        "usage_context_en": "The direction opposite of left",
+        "usage_context_es": "La dirección opuesta a la izquierda",
+        "usage_example": "Turn to the right.",
+        "usage_example_es": "Gira a la derecha.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_302_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Directions",
+    "is_verb": false,
+    "name": "right",
+    "phonetic": "/raɪt/",
+    "search_term": "noun/direction/essentials",
+    "spoken_phonetic_us": "/raɪt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Área / Zona",
+        "pronunciation_guide_es": "/dis_is_a_resiDENshal_ERia/",
+        "usage_context_en": "A region or part of a place",
+        "usage_context_es": "Una región o parte de un lugar",
+        "usage_example": "This is a residential area.",
+        "usage_example_es": "Esta es una zona residencial.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_304_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places",
+    "is_verb": false,
+    "name": "area",
+    "phonetic": "/ˈɛəriə/",
+    "search_term": "noun/place/essentials",
+    "spoken_phonetic_us": "/ˈɛriə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Región",
+        "pronunciation_guide_es": "/a_MAUNtenos_RIyion/",
+        "usage_context_en": "A large area of a country or the world",
+        "usage_context_es": "Un área grande de un país o del mundo",
+        "usage_example": "A mountainous region.",
+        "usage_example_es": "Una región montañosa.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_305_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places",
+    "is_verb": false,
+    "name": "region",
+    "phonetic": "/ˈriːʤən/",
+    "search_term": "noun/place/essentials",
+    "spoken_phonetic_us": "/ˈriːʤən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Espacio",
+        "pronunciation_guide_es": "/ai_NID_MOR_SPEIS/",
+        "usage_context_en": "An empty area / The area outside Earth",
+        "usage_context_es": "Un área vacía / El área fuera de la Tierra",
+        "usage_example": "I need more space.",
+        "usage_example_es": "Necesito más espacio.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_306_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places",
+    "is_verb": false,
+    "name": "space",
+    "phonetic": "/speɪs/",
+    "search_term": "noun/place/essentials",
+    "spoken_phonetic_us": "/speɪs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Esquina",
+        "pronunciation_guide_es": "/de_STOR_is_on_de_KORner/",
+        "usage_context_en": "The place where two streets or walls meet",
+        "usage_context_es": "El lugar donde dos calles o paredes se encuentran",
+        "usage_example": "The store is on the corner.",
+        "usage_example_es": "La tienda está en la esquina.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_312_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places",
+    "is_verb": false,
+    "name": "corner",
+    "phonetic": "/ˈkɔːrnər/",
+    "search_term": "noun/place/essentials",
+    "spoken_phonetic_us": "/ˈkɔːrnər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Frente / Parte delantera",
+        "pronunciation_guide_es": "/de_FRONT_of_de_JAUS_is_BLU/",
+        "usage_context_en": "The most forward part; opposite of back",
+        "usage_context_es": "La parte más delantera; opuesto a 'atrás'",
+        "usage_example": "The front of the house is blue.",
+        "usage_example_es": "El frente de la casa es azul.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_313_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Directions",
+    "is_verb": false,
+    "name": "front",
+    "phonetic": "/frʌnt/",
+    "search_term": "noun/place/direction/essentials",
+    "spoken_phonetic_us": "/frʌnt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Cima / Parte superior",
+        "pronunciation_guide_es": "/de_BUK_is_on_TOP_of_de_TEIbol/",
+        "usage_context_en": "The highest part; opposite of bottom",
+        "usage_context_es": "La parte más alta; opuesto a 'fondo'",
+        "usage_example": "The book is on top of the table.",
+        "usage_example_es": "El libro está encima de la mesa.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_314_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Directions",
+    "is_verb": false,
+    "name": "top",
+    "phonetic": "/tɒp/",
+    "search_term": "noun/place/direction/essentials",
+    "spoken_phonetic_us": "/tɑːp/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Fondo / Parte inferior",
+        "pronunciation_guide_es": "/mai_NEIM_is_at_de_BOTom_of_de_PEICH/",
+        "usage_context_en": "The lowest part; opposite of top",
+        "usage_context_es": "La parte más baja; opuesto a 'cima'",
+        "usage_example": "My name is at the bottom of the page.",
+        "usage_example_es": "Mi nombre está al fondo de la página.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_315_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Directions",
+    "is_verb": false,
+    "name": "bottom",
+    "phonetic": "/ˈbɒtəm/",
+    "search_term": "noun/place/direction/essentials",
+    "spoken_phonetic_us": "/ˈbɑːtəm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Centro",
+        "pronunciation_guide_es": "/de_TEIbol_is_in_de_SENter_of_de_RUM/",
+        "usage_context_en": "The middle point",
+        "usage_context_es": "El punto medio",
+        "usage_example": "The table is in the center of the room.",
+        "usage_example_es": "La mesa está en el centro del cuarto.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_316_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Directions",
+    "is_verb": false,
+    "name": "center",
+    "phonetic": "/ˈsɛntər/",
+    "search_term": "noun/place/direction/essentials",
+    "spoken_phonetic_us": "/ˈsɛntər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Medio",
+        "pronunciation_guide_es": "/ji_is_in_de_MIDol_of_de_KRAUD/",
+        "usage_context_en": "The center point or position",
+        "usage_context_es": "El punto o posición central",
+        "usage_example": "He is in the middle of the crowd.",
+        "usage_example_es": "Él está en medio de la multitud.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_317_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Directions",
+    "is_verb": false,
+    "name": "middle",
+    "phonetic": "/ˈmɪdl/",
+    "search_term": "noun/place/direction/essentials",
+    "spoken_phonetic_us": "/ˈmɪdl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_318_def0.avif",
+        "meaning": "Borde / Orilla",
+        "pronunciation_guide_es": "/dont_STAND_sou_KLOUS_tu_di_ECH/",
+        "usage_context_en": "The outside limit of an object or area",
+        "usage_context_es": "El límite exterior de un objeto o área",
+        "usage_example": "Don't stand so close to the edge.",
+        "usage_example_es": "No te pares tan cerca del borde."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Directions",
+    "is_verb": false,
+    "name": "edge",
+    "phonetic": "/ɛʤ/",
+    "search_term": "noun/place/direction/essentials",
+    "spoken_phonetic_us": "/ɛʤ/"
+  },
+  {
+    "word": "entrance",
+    "translation": "entrada",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "meaning": "A place where you can enter.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A place where you can enter.",
+        "usage_context_es": "Un lugar por donde se puede entrar.",
+        "usage_example": "Wait at the entrance.",
+        "usage_example_es": "Espera en la entrada.",
+        "imagePath": "/card_images/nouns/1-basic/seed_entrance.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Directions",
+    "is_verb": false,
+    "name": "entrance",
+    "phonetic": "",
+    "search_term": "noun/directions/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "exit",
+    "translation": "salida",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "meaning": "A way out of a place.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A way out of a place.",
+        "usage_context_es": "Una vía para salir de un lugar.",
+        "usage_example": "The exit is on the left.",
+        "usage_example_es": "La salida está a la izquierda.",
+        "imagePath": "/card_images/nouns/1-basic/seed_exit.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Directions",
+    "is_verb": false,
+    "name": "exit",
+    "phonetic": "",
+    "search_term": "noun/directions/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "direction",
+    "translation": "dirección",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "9",
+        "meaning": "The way something points or moves.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "The way something points or moves.",
+        "usage_context_es": "La orientación o rumbo de algo.",
+        "usage_example": "What direction is the station?",
+        "usage_example_es": "¿En qué dirección queda la estación?",
+        "imagePath": "/card_images/nouns/1-basic/seed_direction.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Directions",
+    "is_verb": false,
+    "name": "direction",
+    "phonetic": "",
+    "search_term": "noun/directions/seed",
+    "spoken_phonetic_us": ""
+  }
+]

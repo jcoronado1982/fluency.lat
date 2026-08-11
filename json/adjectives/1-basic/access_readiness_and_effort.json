@@ -1,0 +1,224 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "available",
+    "phonetic": "/əˈveɪləbəl/",
+    "spoken_phonetic_us": "/əˈveɪləbəl/",
+    "search_term": "adjective/basic/access_availability",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Access & Availability",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Disponible",
+        "usage_example": "Is a room available?",
+        "pronunciation_guide_es": "/is_a_RUM_a-VEI-la-bol/",
+        "usage_example_es": "¿Hay una habitación disponible?",
+        "char_count": "4",
+        "usage_context_en": "Able to be used, obtained, or reached.",
+        "usage_context_es": "Que se puede usar, obtener o alcanzar."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "public",
+    "phonetic": "/ˈpʌblɪk/",
+    "spoken_phonetic_us": "/ˈpʌblɪk/",
+    "search_term": "adjective/basic/access_availability",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Access & Availability",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Público/a",
+        "usage_example": "This is a public bathroom.",
+        "pronunciation_guide_es": "/dis_is_a_PO-blic_BAZ-rum/",
+        "usage_example_es": "Este es un baño público.",
+        "char_count": "5",
+        "usage_context_en": "Open or available to everyone.",
+        "usage_context_es": "Abierto o disponible para todos."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "private",
+    "phonetic": "/ˈpraɪvət/",
+    "spoken_phonetic_us": "/ˈpraɪvət/",
+    "search_term": "adjective/basic/access_availability",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Access & Availability",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Privado/a",
+        "usage_example": "This is a private area.",
+        "pronunciation_guide_es": "/dis_is_a_PRAI-vet_E-ri-a/",
+        "usage_example_es": "Esta es un área privada.",
+        "char_count": "5",
+        "usage_context_en": "For one person or group; not public.",
+        "usage_context_es": "Para una persona o grupo; no público."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ready",
+    "phonetic": "/ˈrɛdi/",
+    "spoken_phonetic_us": "/ˈrɛdi/",
+    "search_term": "adjective/basic/needs_readiness",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Needs & Readiness",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Listo/a (preparado)",
+        "usage_example": "Are you ready to go?",
+        "pronunciation_guide_es": "/ar_iu_RE-di_tu_GOU/",
+        "usage_example_es": "¿Estás listo para ir?",
+        "char_count": "5",
+        "usage_context_en": "In a suitable state for an activity, action, or situation; prepared.",
+        "usage_context_es": "En un estado adecuado para una actividad, acción o situación; preparado.",
+        "imagePath": "/card_images/adjectives/2-intermediate/2-intermediate_card_26_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "busy",
+    "phonetic": "/ˈbɪzi/",
+    "spoken_phonetic_us": "/ˈbɪzi/",
+    "search_term": "adjective/basic/needs_readiness",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Needs & Readiness",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Ocupado/a",
+        "usage_example": "I am busy right now.",
+        "pronunciation_guide_es": "/ai_am_BI-si_RAIT_NAU/",
+        "usage_example_es": "Estoy ocupado ahora mismo.",
+        "char_count": "5",
+        "usage_context_en": "Having a great deal to do.",
+        "usage_context_es": "Tener mucho que hacer.",
+        "imagePath": "/card_images/adjectives/2-intermediate/2-intermediate_card_27_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "necessary",
+    "phonetic": "/ˈnɛsəˌsɛri/",
+    "spoken_phonetic_us": "/ˈnɛsəˌsɛri/",
+    "search_term": "adjective/basic/needs_readiness",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Needs & Readiness",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Necesario/a",
+        "usage_example": "Water is necessary.",
+        "pronunciation_guide_es": "/UO-ter_is_NE-sa-se-ri/",
+        "usage_example_es": "El agua es necesaria.",
+        "char_count": "3",
+        "usage_context_en": "Needed; required.",
+        "usage_context_es": "Que se necesita; requerido."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "easy",
+    "phonetic": "/ˈiːzi/",
+    "spoken_phonetic_us": "/ˈiːzi/",
+    "search_term": "adjective/basic/difficulty_effort",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Difficulty & Effort",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Fácil",
+        "usage_example": "The test was very easy.",
+        "pronunciation_guide_es": "/de_TEST_uas_VE-ri_I-si/",
+        "usage_example_es": "El examen fue muy fácil.",
+        "char_count": "5",
+        "usage_context_en": "Achieved without great effort; presenting no difficulty.",
+        "usage_context_es": "Logrado sin gran esfuerzo; que no presenta dificultad.",
+        "imagePath": "/card_images/adjectives/1-basic/1-basic_card_11_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "hard",
+    "phonetic": "/hɑːrd/",
+    "spoken_phonetic_us": "/hɑrd/",
+    "search_term": "adjective/basic/difficulty_effort",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Difficulty & Effort",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Difícil",
+        "usage_example": "The test was very hard.",
+        "pronunciation_guide_es": "/de_TEST_uas_VE-ri_HARD/",
+        "usage_example_es": "El examen fue muy difícil.",
+        "char_count": "5",
+        "usage_context_en": "Requiring a great deal of effort; difficult.",
+        "usage_context_es": "Que requiere una gran cantidad de esfuerzo; difícil.",
+        "imagePath": "/card_images/adjectives/1-basic/1-basic_card_12_def0.avif"
+      },
+      {
+        "meaning": "Duro/a (textura)",
+        "usage_example": "The rock is hard.",
+        "pronunciation_guide_es": "/de_ROK_is_HARD/",
+        "usage_example_es": "La roca es dura.",
+        "char_count": "4",
+        "usage_context_en": "Solid, firm, and rigid; not easily broken or bent.",
+        "usage_context_es": "Sólido, firme y rígido; que no se rompe o dobla fácilmente.",
+        "imagePath": "/card_images/adjectives/1-basic/1-basic_card_12_def1.avif"
+      }
+    ]
+  }
+]

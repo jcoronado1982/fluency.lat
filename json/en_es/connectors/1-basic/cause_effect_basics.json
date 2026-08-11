@@ -1,0 +1,113 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Porque",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "conjunction/reason",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "because",
+        "usage_example": "Estoy cansado porque trabajé mucho.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I am tired because I worked a lot.",
+        "char_count": "7",
+        "usage_context_en": "Used to introduce a reason or cause.",
+        "usage_context_es": "Usado para introducir una razón o causa.",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_0_def0.avif",
+        "target_meaning_es": "Porque"
+      }
+    ],
+    "group_name": "Connectors: Cause & Effect",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Así que / Por lo tanto",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "conjunction/result",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "so",
+        "usage_example": "Trabajé mucho, así que estoy cansado.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I worked a lot, so I am tired.",
+        "char_count": "7",
+        "usage_context_en": "Used to introduce a result or consequence.",
+        "usage_context_es": "Usado para introducir un resultado o consecuencia.",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_1_def0.avif",
+        "target_meaning_es": "Así que / Por lo tanto"
+      },
+      {
+        "meaning": "so",
+        "usage_example": "Estoy ahorrando dinero para poder comprar un carro.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I am saving money so I can buy a car.",
+        "char_count": "9",
+        "usage_context_en": "Used to show purpose (often 'so that').",
+        "usage_context_es": "Usado para mostrar propósito (a menudo 'so that').",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_1_def1.avif",
+        "target_meaning_es": "Para que"
+      },
+      {
+        "meaning": "so",
+        "usage_example": "Él es tan alto.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He is so tall.",
+        "char_count": "4",
+        "usage_context_en": "An intensifier meaning 'very' or 'to this degree'.",
+        "usage_context_es": "Un intensificador que significa 'muy' o 'a este grado'.",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_1_def2.avif",
+        "target_meaning_es": "Tan / Muy"
+      }
+    ],
+    "group_name": "Connectors: Cause & Effect",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Por eso / Es por eso que",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "phrase/result",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "that's why",
+        "usage_example": "Él estudió mucho. Por eso aprobó.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He studied hard. That's why he passed.",
+        "char_count": "6",
+        "usage_context_en": "For that reason (less formal than 'therefore').",
+        "usage_context_es": "Por esa razón (menos formal que 'therefore').",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_2_def0.avif",
+        "target_meaning_es": "Por eso / Es por eso que"
+      }
+    ],
+    "group_name": "Connectors: Cause & Effect",
+    "category": ""
+  }
+]

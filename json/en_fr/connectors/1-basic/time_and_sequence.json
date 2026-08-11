@@ -1,0 +1,181 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: first]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adverb/sequence",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "first",
+                "usage_example": "[TRADUCIR AL FR: First, open the box. Then, read the manual.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "First, open the box. Then, read the manual.",
+                "char_count": "7",
+                "usage_context_en": "Used to mark the beginning of a sequence or list.",
+                "usage_context_es": "[TRADUCIR AL FR: Used to mark the beginning of a sequence or list.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_13_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Sequence",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: next]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adverb/sequence",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "next",
+                "usage_example": "[TRADUCIR AL FR: Next, add the sugar.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Next, add the sugar.",
+                "char_count": "4",
+                "usage_context_en": "Used to indicate the step following the current one.",
+                "usage_context_es": "[TRADUCIR AL FR: Used to indicate the step following the current one.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_15_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Sequence",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: after that]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "phrase/sequence",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "after that",
+                "usage_example": "[TRADUCIR AL FR: We ate dinner, and after that, we watched a movie.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "We ate dinner, and after that, we watched a movie.",
+                "char_count": "9",
+                "usage_context_en": "Used to introduce the next event in a sequence.",
+                "usage_context_es": "[TRADUCIR AL FR: Used to introduce the next event in a sequence.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_16_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Sequence",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: finally]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adverb/sequence",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "finally",
+                "usage_example": "[TRADUCIR AL FR: Finally, close the box.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Finally, close the box.",
+                "char_count": "4",
+                "usage_context_en": "Used to introduce the last item in a list or sequence.",
+                "usage_context_es": "[TRADUCIR AL FR: Used to introduce the last item in a list or sequence.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_17_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Sequence",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: then]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adverb/sequence/result",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "then",
+                "usage_example": "[TRADUCIR AL FR: First I work, then I rest.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "First I work, then I rest.",
+                "char_count": "5",
+                "usage_context_en": "Used to indicate what happens next in a sequence.",
+                "usage_context_es": "[TRADUCIR AL FR: Used to indicate what happens next in a sequence.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_14_def0.avif"
+            },
+            {
+                "meaning": "then (def 2)",
+                "usage_example": "[TRADUCIR AL FR: If you are hungry, then you should eat.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "If you are hungry, then you should eat.",
+                "char_count": "7",
+                "usage_context_en": "Used to state a consequence or result.",
+                "usage_context_es": "[TRADUCIR AL FR: Used to state a consequence or result.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_14_def1.avif"
+            }
+        ],
+        "group_name": "Connectors: Sequence",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: when]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "conjunction/time",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "when",
+                "usage_example": "[TRADUCIR AL FR: Call me when you arrive.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Call me when you arrive.",
+                "char_count": "5",
+                "usage_context_en": "Used to introduce a clause of time.",
+                "usage_context_es": "[TRADUCIR AL FR: Used to introduce a clause of time.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_38_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Time",
+        "category": ""
+    }
+]

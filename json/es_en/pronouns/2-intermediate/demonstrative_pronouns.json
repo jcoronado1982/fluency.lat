@@ -1,0 +1,137 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/2-intermediate/demonstrative_pronouns/2-intermediate_demonstrative_pronouns_card_0_def0.avif",
+        "meaning": "Este / Esta / Esto",
+        "pronunciation_guide_es": "/dis_is_mai_FEI-vrit_buk/",
+        "usage_context_en": "Used as a pronoun for a singular item near the speaker.",
+        "usage_context_es": "Usado como pronombre para un objeto singular cerca del hablante.",
+        "usage_example": "This is my favorite book.",
+        "usage_example_es": "Este es mi libro favorito."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Demostrativo",
+    "is_verb": false,
+    "name": "this",
+    "phonetic": "/ðɪs/",
+    "search_term": "pronoun/demonstrative",
+    "spoken_phonetic_us": "/ðɪs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/2-intermediate/demonstrative_pronouns/2-intermediate_demonstrative_pronouns_card_1_def0.avif",
+        "meaning": "Ese / Esa / Aquel / Aquella",
+        "pronunciation_guide_es": "/dat_is_mai_KAR/",
+        "usage_context_en": "Used as a pronoun for a singular item that is far from the speaker.",
+        "usage_context_es": "Usado como pronombre para un objeto singular que está lejos del hablante.",
+        "usage_example": "That is my car.",
+        "usage_example_es": "Ese es mi carro."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Demostrativo",
+    "is_verb": false,
+    "name": "that",
+    "phonetic": "/ðæt/",
+    "search_term": "pronoun/demonstrative",
+    "spoken_phonetic_us": "/ðæt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/2-intermediate/demonstrative_pronouns/2-intermediate_demonstrative_pronouns_card_2_def0.avif",
+        "meaning": "Estos / Estas",
+        "pronunciation_guide_es": "/dis_ar_MAI_KIS/",
+        "usage_context_en": "Used as a pronoun for plural items near the speaker.",
+        "usage_context_es": "Usado como pronombre para objetos plurales cerca del hablante.",
+        "usage_example": "These are my keys.",
+        "usage_example_es": "Estas son mis llaves."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Demostrativo",
+    "is_verb": false,
+    "name": "these",
+    "phonetic": "/ðiːz/",
+    "search_term": "pronoun/demonstrative",
+    "spoken_phonetic_us": "/ðiːz/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/2-intermediate/demonstrative_pronouns/2-intermediate_demonstrative_pronouns_card_3_def0.avif",
+        "meaning": "Esos / Esas / Aquellos / Aquellas",
+        "pronunciation_guide_es": "/dous_ar_MAI_KIS/",
+        "usage_context_en": "Used as a pronoun for plural items far from the speaker.",
+        "usage_context_es": "Usado como pronombre para objetos plurales lejos del hablante.",
+        "usage_example": "Those are my keys.",
+        "usage_example_es": "Esas son mis llaves."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Demostrativo",
+    "is_verb": false,
+    "name": "those",
+    "phonetic": "/ðoʊz/",
+    "search_term": "pronoun/demonstrative",
+    "spoken_phonetic_us": "/ðoʊz/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Intermediate",
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/pronouns/2-intermediate/demonstrative_pronouns/2-intermediate_demonstrative_pronouns_card_4_def0.avif",
+        "meaning": "Tal / Semejante cosa",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "Used to refer to something of that kind.",
+        "usage_context_es": "Used to refer to something of that kind.",
+        "usage_example": "I had never seen such before.",
+        "usage_example_es": "Nunca había visto algo así."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Demostrativo",
+    "is_verb": false,
+    "name": "such",
+    "phonetic": "/sʌtʃ/",
+    "search_term": "pronoun/demonstrative_pronouns/added",
+    "spoken_phonetic_us": "/sʌtʃ/"
+  }
+]

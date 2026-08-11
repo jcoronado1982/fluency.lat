@@ -1,0 +1,147 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "since",
+        "phonetic": "/sɪns/",
+        "spoken_phonetic_us": "/sɪns/",
+        "search_term": "conjunction/reason/time",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Ya que / Puesto que (causa)]",
+                "usage_example": "Since you are here, you can help.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE since AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Since you are here, you can help.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para introducir una razón (similar a 'because').]",
+                "usage_context_es": "Used to introduce a reason (similar to 'because').",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_23_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Desde (tiempo)]",
+                "usage_example": "I have been here since 9 AM.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE since AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I have been here since 9 AM.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para indicar un punto de inicio en el tiempo.]",
+                "usage_context_es": "Used to indicate a starting point in time.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_23_def1.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "as",
+        "phonetic": "/æz/",
+        "spoken_phonetic_us": "/æz/",
+        "search_term": "conjunction/reason/time/comparison",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Como / Ya que (causa)]",
+                "usage_example": "As I was tired, I went to bed.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE as AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: As I was tired, I went to bed.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para indicar una razón (similar a 'because').]",
+                "usage_context_es": "Used to state a reason (similar to 'because').",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_22_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Mientras (tiempo)]",
+                "usage_example": "He sang as he walked.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE as AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He sang as he walked.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para indicar que dos acciones ocurren al mismo tiempo.]",
+                "usage_context_es": "Used to indicate that two actions are happening at the same time.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_22_def1.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Como (comparación)]",
+                "usage_example": "She is as tall as me.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE as AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: She is as tall as me.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para hacer una comparación de igualdad.]",
+                "usage_context_es": "Used to make a comparison of equality.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_22_def2.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "meanwhile",
+        "phonetic": "/ˈminˌwaɪl/",
+        "spoken_phonetic_us": "/ˈminˌwaɪl/",
+        "search_term": "connector/time",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Mientras tanto]",
+                "usage_example": "I was studying; meanwhile, my brother was playing.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE meanwhile AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I was studying; meanwhile, my brother was playing.]",
+                "char_count": "9",
+                "usage_context_en": "[TRADUCIR AL PT: En el período de tiempo intermedio.]",
+                "usage_context_es": "In the intervening period of time.",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_7_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "what",
+        "phonetic": "/wɒt/",
+        "spoken_phonetic_us": "/wʌt/",
+        "search_term": "pronoun/interrogative/relative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Lo que (pronombre relativo)]",
+                "usage_example": "I don't know what to do.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE what AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I don't know what to do.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Usado como pronombre relativo para referirse a 'la(s) cosa(s) que'.]",
+                "usage_context_es": "Used as a relative pronoun to refer to 'the thing(s) that'.",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_1_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Relative",
+        "category": ""
+    }
+]

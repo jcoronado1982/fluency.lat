@@ -1,0 +1,143 @@
+/* CardCounter.module.css — estilos del contador de progreso flotante
+   (chip "VERBOS 3/8" arriba a la derecha) que renderiza FlashcardPage.
+   SRP: extraído del antiguo modules/flashcards/features/Flashcard.module.css
+   (copia duplicada del CSS de la tarjeta, hoy eliminada) para que el widget
+   tenga su propia hoja y no dependa del CSS del componente Flashcard. */
+
+.cardCounter {
+    /* Se posiciona respecto a .flashcard-page-wrapper (position: relative),
+       no respecto al viewport. Así permanece unido a la tarjeta al hacer
+       scroll y comparte su padding superior responsivo. */
+    position: absolute;
+    top: clamp(12px, 2.5vh, 36px);
+    right: 40px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 24px;
+    /* Chip silencioso (jul 2026): informa sin robar foco a la tarjeta. */
+    background: rgba(11, 17, 32, 0.6);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    color: #f8fafc;
+    font-family: var(--font-family-body);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* En portátiles de poca altura App.css elimina el padding superior de la
+   tarjeta para aprovechar el viewport; el contador debe hacer lo mismo. */
+@media (min-width: 768.02px) and (max-width: 1600px) and (max-height: 900px) {
+    .cardCounter {
+        top: 0;
+    }
+}
+
+.cardCounter:hover {
+    background: rgba(21, 28, 44, 0.85);
+    border-color: rgba(244, 114, 182, 0.35);
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5), 0 0 20px rgba(244, 114, 182, 0.12);
+}
+
+.counterItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.counterLabel {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #94a3b8;
+    margin-bottom: 2px;
+    font-weight: 700;
+}
+
+.counterValues {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.learnedValue {
+    color: #f472b6;
+    font-weight: 900;
+    font-size: 1.6rem;
+    text-shadow: 0 0 12px rgba(244, 114, 182, 0.22);
+    line-height: 1;
+}
+
+.totalValue {
+    color: #64748b;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.counterDivider {
+    width: 1px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0 4px;
+}
+
+/* Móvil: el contador deja de flotar y se alinea a la derecha sobre la
+   tarjeta, como una fila compacta sin fondo. Los !important son necesarios
+   para que el :hover de escritorio (mayor especificidad) no reactive el
+   fondo/transform flotante al tocar el contador en pantallas táctiles. */
+@media (max-width: 768px) {
+    .cardCounter {
+        position: static !important;
+        top: auto !important;
+        right: auto !important;
+        left: auto !important;
+        transform: none !important;
+        margin: 10px 20px 10px auto !important;
+        width: calc(100% - (var(--fc-page-inline-padding, 12px) * 2)) !important;
+        max-width: var(--fc-card-max-width, 620px) !important;
+        display: flex !important;
+        justify-content: flex-end !important;
+        padding: 0px 10px !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        border: none !important;
+        z-index: auto !important;
+    }
+
+    .cardCounter.pronounsCounter {
+        margin-top: 8px !important;
+    }
+
+    .counterItem {
+        flex-direction: row !important;
+        align-items: baseline !important;
+        gap: 10px !important;
+        min-width: 0 !important;
+        white-space: nowrap !important;
+    }
+
+    .counterLabel {
+        margin-bottom: 0 !important;
+        white-space: nowrap !important;
+    }
+
+    .counterValues {
+        flex-shrink: 0 !important;
+        white-space: nowrap !important;
+    }
+
+    .learnedValue {
+        font-size: 1.2rem;
+    }
+}
+
+@media (display-mode: standalone) and (max-width: 768px) {
+    .cardCounter {
+        display: none !important;
+    }
+}

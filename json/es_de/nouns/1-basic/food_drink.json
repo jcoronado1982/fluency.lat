@@ -1,0 +1,1094 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Comida",
+        "pronunciation_guide_es": "/ish_HA-be_HUNG-er_ish_BRAU-che_E-sen/",
+        "usage_context_en": "What people and animals eat",
+        "usage_context_es": "Lo que la gente y los animales comen",
+        "usage_example": "Ich habe Hunger, ich brauche Essen.",
+        "usage_example_es": "Tengo hambre, necesito comida.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Essen",
+    "phonetic": "/das ˈɛsn̩/",
+    "search_term": "noun/eating/essentials",
+    "spoken_phonetic_us": "/das ˈɛsn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Agua",
+        "pronunciation_guide_es": "/BI-te_TRINK_VA-ser/",
+        "usage_context_en": "The clear liquid ($H_2O$) you drink",
+        "usage_context_es": "El líquido transparente ($H_2O$) que bebes",
+        "usage_example": "Bitte trink Wasser.",
+        "usage_example_es": "Por favor, bebe agua.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Wasser",
+    "phonetic": "/das ˈvasɐ/",
+    "search_term": "noun/drink/essentials",
+    "spoken_phonetic_us": "/das ˈvasɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Pan",
+        "pronunciation_guide_es": "/ish_E-se_BROT_unt_KAE-ze/",
+        "usage_context_en": "A basic food made from flour and water",
+        "usage_context_es": "Una comida básica hecha de harina y agua",
+        "usage_example": "Ich esse Brot und Käse.",
+        "usage_example_es": "Como pan y queso.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Brot",
+    "phonetic": "/das bʁoːt/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/das bʁoːt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Leche",
+        "pronunciation_guide_es": "/ish_TRIN-ke_am_MOR-gen_MILSH/",
+        "usage_context_en": "A white liquid from cows",
+        "usage_context_es": "Un líquido blanco de las vacas",
+        "usage_example": "Ich trinke am Morgen Milch.",
+        "usage_example_es": "Bebo leche en la mañana.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "die Milch",
+    "phonetic": "/diː mɪlç/",
+    "search_term": "noun/drink/essentials",
+    "spoken_phonetic_us": "/diː mɪlç/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Pollo",
+        "pronunciation_guide_es": "/vir_E-sen_HAEN-shen_tsum_A-bent-e-sen/",
+        "usage_context_en": "A bird, or its meat",
+        "usage_context_es": "Un ave, o su carne",
+        "usage_example": "Wir essen Hähnchen zum Abendessen.",
+        "usage_example_es": "Vamos a cenar pollo.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Hähnchen",
+    "phonetic": "/das ˈhɛːnçən/",
+    "search_term": "noun/food/meat/essentials",
+    "spoken_phonetic_us": "/das ˈhɛːnçən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Huevo",
+        "pronunciation_guide_es": "/ish_E-se_ain_AI_tsum_FRUE-shtuek/",
+        "usage_context_en": "An oval object from a chicken",
+        "usage_context_es": "Un objeto ovalado de una gallina",
+        "usage_example": "Ich esse ein Ei zum Frühstück.",
+        "usage_example_es": "Como un huevo en el desayuno.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Ei",
+    "phonetic": "/das aɪ/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/das aɪ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Manzana",
+        "pronunciation_guide_es": "/ish_MOESH-te_AI-nen_AP-fel_E-sen/",
+        "usage_context_en": "A hard, round fruit",
+        "usage_context_es": "Una fruta dura y redonda",
+        "usage_example": "Ich möchte einen Apfel essen.",
+        "usage_example_es": "Quiero comerme una manzana.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_6_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Apfel",
+    "phonetic": "/deːɐ ˈapfl̩/",
+    "search_term": "noun/food/fruit/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈapfl̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Arroz",
+        "pronunciation_guide_es": "/ish_E-se_GER-ne_RAIS/",
+        "usage_context_en": "A common grain used for food",
+        "usage_context_es": "Un grano común usado como comida",
+        "usage_example": "Ich esse gerne Reis.",
+        "usage_example_es": "Me gusta comer arroz.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Reis",
+    "phonetic": "/deːɐ ʁaɪs/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/deːɐ ʁaɪs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Café",
+        "pronunciation_guide_es": "/ish_TRIN-ke_MOR-gens_ka-FE/",
+        "usage_context_en": "A dark brown hot drink",
+        "usage_context_es": "Una bebida caliente de color marrón oscuro",
+        "usage_example": "Ich trinke morgens Kaffee.",
+        "usage_example_es": "Bebo café por la mañana.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_8_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Kaffee",
+    "phonetic": "/deːɐ ˈkafeː/",
+    "search_term": "noun/drink/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈkafeː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Té",
+        "pronunciation_guide_es": "/MOESH-test_du_TE_O-der_ka-FE/",
+        "usage_context_en": "A hot drink made from leaves",
+        "usage_context_es": "Una bebida caliente hecha de hojas",
+        "usage_example": "Möchtest du Tee oder Kaffee?",
+        "usage_example_es": "¿Quieres té o café?",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Tee",
+    "phonetic": "/deːɐ teː/",
+    "search_term": "noun/drink/essentials",
+    "spoken_phonetic_us": "/deːɐ teː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Carne",
+        "pronunciation_guide_es": "/ish_E-se_KAIN_FLAISH/",
+        "usage_context_en": "The flesh of an animal used as food",
+        "usage_context_es": "La carne de un animal usada como comida",
+        "usage_example": "Ich esse kein Fleisch.",
+        "usage_example_es": "No como carne.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Fleisch",
+    "phonetic": "/das flaɪʃ/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/das flaɪʃ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Desayuno",
+        "pronunciation_guide_es": "/vas_MOESH-test_du_tsum_FRUE-shtuek/",
+        "usage_context_en": "The first meal of the day",
+        "usage_context_es": "La primera comida del día",
+        "usage_example": "Was möchtest du zum Frühstück?",
+        "usage_example_es": "¿Qué quieres para el desayuno?",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_11_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Frühstück",
+    "phonetic": "/das ˈfʁyːʃtʏk/",
+    "search_term": "noun/food/meal/essentials",
+    "spoken_phonetic_us": "/das ˈfʁyːʃtʏk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Almuerzo",
+        "pronunciation_guide_es": "/es_ist_TSAIT_fuer_das_MI-tak-e-sen/",
+        "usage_context_en": "The meal eaten in the middle of the day",
+        "usage_context_es": "La comida que se come a mitad del día",
+        "usage_example": "Es ist Zeit für das Mittagessen.",
+        "usage_example_es": "Es hora del almuerzo.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_12_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Mittagessen",
+    "phonetic": "/das ˈmɪtaːkɛsn̩/",
+    "search_term": "noun/food/meal/essentials",
+    "spoken_phonetic_us": "/das ˈmɪtaːkɛsn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Cena",
+        "pronunciation_guide_es": "/vas_GIPT_es_tsum_A-bent-e-sen/",
+        "usage_context_en": "The main meal of the day, eaten in the evening",
+        "usage_context_es": "La comida principal del día, comida en la tarde-noche",
+        "usage_example": "Was gibt es zum Abendessen?",
+        "usage_example_es": "¿Qué hay de cena?",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_13_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Abendessen",
+    "phonetic": "/das ˈaːbn̩tʔɛsn̩/",
+    "search_term": "noun/food/meal/essentials",
+    "spoken_phonetic_us": "/das ˈaːbn̩tʔɛsn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Comida (evento)",
+        "pronunciation_guide_es": "/ish_E-se_DRAI_MAL-tsai-ten_am_TAK/",
+        "usage_context_en": "An occasion when food is eaten (e.g., breakfast, lunch)",
+        "usage_context_es": "Una ocasión en la que se come (ej. desayuno, almuerzo)",
+        "usage_example": "Ich esse drei Mahlzeiten am Tag.",
+        "usage_example_es": "Como tres comidas al día.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_14_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "die Mahlzeit",
+    "phonetic": "/diː ˈmaːltsaɪt/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/diː ˈmaːltsaɪt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Fruta",
+        "pronunciation_guide_es": "/ain_AP-fel_ist_OPST/",
+        "usage_context_en": "Sweet food that grows on trees or bushes",
+        "usage_context_es": "Comida dulce que crece en árboles o arbustos",
+        "usage_example": "Ein Apfel ist Obst.",
+        "usage_example_es": "Una manzana es una fruta.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_15_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Obst",
+    "phonetic": "/das oːpst/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/das oːpst/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Verdura / Vegetal",
+        "pronunciation_guide_es": "/IS_dain_ge-MUE-ze/",
+        "usage_context_en": "A plant or part of a plant used as food",
+        "usage_context_es": "Una planta o parte de una planta usada como comida",
+        "usage_example": "Iss dein Gemüse.",
+        "usage_example_es": "Come tus verduras.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_16_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Gemüse",
+    "phonetic": "/das ɡəˈmyːzə/",
+    "search_term": "noun/food/plant/essentials",
+    "spoken_phonetic_us": "/das ɡəˈmyːzə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Papa / Patata",
+        "pronunciation_guide_es": "/ish_MAK_ge-BA-ke-ne_kar-TO-feln/",
+        "usage_context_en": "A round, white vegetable that grows underground",
+        "usage_context_es": "Una verdura redonda y blanca que crece bajo tierra",
+        "usage_example": "Ich mag gebackene Kartoffeln.",
+        "usage_example_es": "Me gustan las papas al horno.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_17_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "die Kartoffel",
+    "phonetic": "/diː kaʁˈtɔfl̩/",
+    "search_term": "noun/food/vegetable/essentials",
+    "spoken_phonetic_us": "/diː kaʁˈtɔfl̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Tomate",
+        "pronunciation_guide_es": "/di_ZO-se_BRAUCHT_to-MA-te/",
+        "usage_context_en": "A soft, red fruit used as a vegetable",
+        "usage_context_es": "Una fruta roja y suave usada como verdura",
+        "usage_example": "Die Soße braucht Tomate.",
+        "usage_example_es": "La salsa necesita tomate.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_18_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "die Tomate",
+    "phonetic": "/diː toˈmaːtə/",
+    "search_term": "noun/food/fruit/essentials",
+    "spoken_phonetic_us": "/diː toˈmaːtə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Naranja (fruta)",
+        "pronunciation_guide_es": "/ish_MOESH-te_AI-ne_o-RANJ-e/",
+        "usage_context_en": "A round, orange-colored fruit",
+        "usage_context_es": "Una fruta redonda de color naranja",
+        "usage_example": "Ich möchte eine Orange.",
+        "usage_example_es": "Quiero una naranja.",
+        "imagePath": ""
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "die Orange",
+    "phonetic": "/diː oˈʁɑ̃ːʒə/",
+    "search_term": "noun/food/fruit/color/essentials",
+    "spoken_phonetic_us": "/diː oˈʁɑ̃ːʒə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Banana / Plátano",
+        "pronunciation_guide_es": "/A-fen_LI-ben_ba-NA-nen/",
+        "usage_context_en": "A long, yellow fruit",
+        "usage_context_es": "Una fruta larga y amarilla",
+        "usage_example": "Affen lieben Bananen.",
+        "usage_example_es": "A los monos les encantan las bananas.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_19_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "die Banane",
+    "phonetic": "/diː baˈnaːnə/",
+    "search_term": "noun/food/fruit/essentials",
+    "spoken_phonetic_us": "/diː baˈnaːnə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Queso",
+        "pronunciation_guide_es": "/ish_MAK_BROT_unt_KAE-ze/",
+        "usage_context_en": "A yellow or white food made from milk",
+        "usage_context_es": "Una comida amarilla o blanca hecha de leche",
+        "usage_example": "Ich mag Brot und Käse.",
+        "usage_example_es": "Me gusta el pan y el queso.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_20_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Käse",
+    "phonetic": "/deːɐ ˈkɛːzə/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈkɛːzə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Azúcar",
+        "pronunciation_guide_es": "/ish_GE-be_TSU-ker_in_MAI-nen_ka-FE/",
+        "usage_context_en": "A sweet substance",
+        "usage_context_es": "Una sustancia dulce",
+        "usage_example": "Ich gebe Zucker in meinen Kaffee.",
+        "usage_example_es": "Pongo azúcar en mi café.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_21_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Zucker",
+    "phonetic": "/deːɐ ˈtsʊkɐ/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈtsʊkɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Sal",
+        "pronunciation_guide_es": "/FUE-ge_ET-vas_ZALTS_HIN-tsu/",
+        "usage_context_en": "A white substance used to flavor food",
+        "usage_context_es": "Una sustancia blanca usada para sazonar comida",
+        "usage_example": "Füge etwas Salz hinzu.",
+        "usage_example_es": "Añade un poco de sal.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_22_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Salz",
+    "phonetic": "/das zalts/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/das zalts/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Pimienta / Pimiento",
+        "pronunciation_guide_es": "/ish_BRAU-che_ZALTS_unt_PFE-fer/",
+        "usage_context_en": "A black powder / A green or red vegetable",
+        "usage_context_es": "Un polvo negro / Una verdura verde o roja",
+        "usage_example": "Ich brauche Salz und Pfeffer.",
+        "usage_example_es": "Necesito sal y pimienta.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_23_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Pfeffer",
+    "phonetic": "/deːɐ ˈpfɛfɐ/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈpfɛfɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Aceite",
+        "pronunciation_guide_es": "/KOCH_mit_o-LI-ven-oel/",
+        "usage_context_en": "A liquid fat used in cooking",
+        "usage_context_es": "Una grasa líquida usada para cocinar",
+        "usage_example": "Koch mit Olivenöl.",
+        "usage_example_es": "Cocina con aceite de oliva.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_24_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Öl",
+    "phonetic": "/das øːl/",
+    "search_term": "noun/food/substance/essentials",
+    "spoken_phonetic_us": "/das øːl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Mantequilla",
+        "pronunciation_guide_es": "/BROT_mit_BU-ter/",
+        "usage_context_en": "A yellow fat made from milk",
+        "usage_context_es": "Una grasa amarilla hecha de leche",
+        "usage_example": "Brot mit Butter.",
+        "usage_example_es": "Pan con mantequilla.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_25_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "die Butter",
+    "phonetic": "/diː ˈbʊtɐ/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/diː ˈbʊtɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Sopa",
+        "pronunciation_guide_es": "/di_ZU-pe_ist_HAIS/",
+        "usage_context_en": "A hot liquid food made with vegetables or meat",
+        "usage_context_es": "Un alimento líquido caliente hecho con verduras o carne",
+        "usage_example": "Die Suppe ist heiß.",
+        "usage_example_es": "La sopa está caliente.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_26_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "die Suppe",
+    "phonetic": "/diː ˈzʊpə/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/diː ˈzʊpə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Ensalada",
+        "pronunciation_guide_es": "/ish_MOESH-te_AI-nen_za-LAT/",
+        "usage_context_en": "A cold dish made with vegetables",
+        "usage_context_es": "Un plato frío hecho con verduras",
+        "usage_example": "Ich möchte einen Salat.",
+        "usage_example_es": "Quiero una ensalada.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_27_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Salat",
+    "phonetic": "/deːɐ zaˈlaːt/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/deːɐ zaˈlaːt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Sándwich / Emparedado",
+        "pronunciation_guide_es": "/ish_HA-be_ain_ZENT-vitsh_ge-GE-sen/",
+        "usage_context_en": "Two slices of bread with filling in between",
+        "usage_context_es": "Dos rebanadas de pan con relleno en medio",
+        "usage_example": "Ich habe ein Sandwich gegessen.",
+        "usage_example_es": "Comí un sándwich.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_28_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Sandwich",
+    "phonetic": "/das ˈzɛntvɪtʃ/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/das ˈzɛntvɪtʃ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Torta / Pastel",
+        "pronunciation_guide_es": "/ish_MAK_sho-ko-LA-den-ku-chen/",
+        "usage_context_en": "A sweet baked dessert",
+        "usage_context_es": "Un postre dulce horneado",
+        "usage_example": "Ich mag Schokoladenkuchen.",
+        "usage_example_es": "Me gusta el pastel de chocolate.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_29_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Kuchen",
+    "phonetic": "/deːɐ ˈkuːxn̩/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈkuːxn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Jugo / Zumo",
+        "pronunciation_guide_es": "/ish_MOESH-te_o-RANJ-en-zaft/",
+        "usage_context_en": "A drink made from fruit",
+        "usage_context_es": "Una bebida hecha de fruta",
+        "usage_example": "Ich möchte Orangensaft.",
+        "usage_example_es": "Quiero jugo de naranja.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_30_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Saft",
+    "phonetic": "/deːɐ zaft/",
+    "search_term": "noun/food/drink/essentials",
+    "spoken_phonetic_us": "/deːɐ zaft/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Cerveza",
+        "pronunciation_guide_es": "/kan_ish_ain_BIR_HA-ben/",
+        "usage_context_en": "An alcoholic drink made from grain",
+        "usage_context_es": "Una bebida alcohólica hecha de grano",
+        "usage_example": "Kann ich ein Bier haben?",
+        "usage_example_es": "¿Me puede dar una cerveza?",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_31_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Bier",
+    "phonetic": "/das biːɐ/",
+    "search_term": "noun/food/drink/essentials",
+    "spoken_phonetic_us": "/das biːɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Vino",
+        "pronunciation_guide_es": "/zi_TRINKT_ROT-vain/",
+        "usage_context_en": "An alcoholic drink made from grapes",
+        "usage_context_es": "Una bebida alcohólica hecha de uvas",
+        "usage_example": "Sie trinkt Rotwein.",
+        "usage_example_es": "Ella toma vino tinto.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_32_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Wein",
+    "phonetic": "/deːɐ vaɪn/",
+    "search_term": "noun/food/drink/essentials",
+    "spoken_phonetic_us": "/deːɐ vaɪn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Cebolla",
+        "pronunciation_guide_es": "/di_TSVI-bel_RISHT_SHTARK/",
+        "usage_context_en": "A round vegetable with a strong smell",
+        "usage_context_es": "Una verdura redonda con un olor fuerte",
+        "usage_example": "Die Zwiebel riecht stark.",
+        "usage_example_es": "La cebolla huele fuerte.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_33_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "die Zwiebel",
+    "phonetic": "/diː ˈtsviːbl̩/",
+    "search_term": "noun/food/vegetable/essentials",
+    "spoken_phonetic_us": "/diː ˈtsviːbl̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Ajo",
+        "pronunciation_guide_es": "/FUE-ge_KNOP-laux_tsum_RAIS_HIN-tsu/",
+        "usage_context_en": "A small plant used to flavor food",
+        "usage_context_es": "Una planta pequeña usada para dar sabor a la comida",
+        "usage_example": "Füge Knoblauch zum Reis hinzu.",
+        "usage_example_es": "Agrega ajo al arroz.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_34_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Knoblauch",
+    "phonetic": "/deːɐ ˈknoːplaʊx/",
+    "search_term": "noun/food/vegetable/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈknoːplaʊx/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Chocolate",
+        "pronunciation_guide_es": "/ish_LI-be_sho-ko-LA-de/",
+        "usage_context_en": "A sweet food made from cacao",
+        "usage_context_es": "Un alimento dulce hecho de cacao",
+        "usage_example": "Ich liebe Schokolade.",
+        "usage_example_es": "Me encanta el chocolate.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_35_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "die Schokolade",
+    "phonetic": "/diː ʃokoˈlaːdə/",
+    "search_term": "noun/food/sweet/essentials",
+    "spoken_phonetic_us": "/diː ʃokoˈlaːdə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Postre",
+        "pronunciation_guide_es": "/vas_GIPT_es_tsum_NAJ-tish/",
+        "usage_context_en": "A sweet dish eaten after a meal",
+        "usage_context_es": "Un plato dulce que se come después de una comida",
+        "usage_example": "Was gibt es zum Nachtisch?",
+        "usage_example_es": "¿Qué hay de postre?",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_36_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Nachtisch",
+    "phonetic": "/deːɐ ˈnaːxtɪʃ/",
+    "search_term": "noun/food/sweet/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈnaːxtɪʃ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Merienda / Snack",
+        "pronunciation_guide_es": "/ish_BRAU-che_AI-nen_SNEK/",
+        "usage_context_en": "A small amount of food eaten between meals",
+        "usage_context_es": "Una pequeña cantidad de comida que se come entre comidas",
+        "usage_example": "Ich brauche einen Snack.",
+        "usage_example_es": "Necesito una merienda.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_37_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Snack",
+    "phonetic": "/deːɐ snɛk/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/deːɐ snɛk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Tocino / Bacon",
+        "pronunciation_guide_es": "/ish_E-se_GER-ne_KNUS-pri-gen_SHPEK_tsum_FRUE-shtuek/",
+        "usage_context_en": "Cured meat from a pig",
+        "usage_context_es": "Carne curada de cerdo",
+        "usage_example": "Ich esse gerne knusprigen Speck zum Frühstück.",
+        "usage_example_es": "Me gusta comer tocino crujiente para el desayuno.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_38_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Speck",
+    "phonetic": "/deːɐ ʃpɛk/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/deːɐ ʃpɛk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Ketchup / Cátsup",
+        "pronunciation_guide_es": "/ish_MAK_KE-tshap_auf_MAI-nen_PO-mes/",
+        "usage_context_en": "A sweet tomato sauce",
+        "usage_context_es": "Una salsa de tomate dulce",
+        "usage_example": "Ich mag Ketchup auf meinen Pommes.",
+        "usage_example_es": "Me gusta ponerle kétchup a mis papas fritas.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_39_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "der Ketchup",
+    "phonetic": "/deːɐ ˈkɛtʃap/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈkɛtʃap/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Helado",
+        "pronunciation_guide_es": "/ish_MOESH-te_sho-ko-LA-den-ais_E-sen/",
+        "usage_context_en": "A sweet frozen food made from milk and cream",
+        "usage_context_es": "Un alimento dulce congelado hecho de leche y crema",
+        "usage_example": "Ich möchte Schokoladeneis essen.",
+        "usage_example_es": "Quiero comer helado de chocolate.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_40_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Food",
+    "is_verb": false,
+    "name": "das Eis",
+    "phonetic": "/das aɪs/",
+    "search_term": "noun/food/essentials",
+    "spoken_phonetic_us": "/das aɪs/"
+  }
+]

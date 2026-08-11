@@ -1,0 +1,153 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: and]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "conjunction/linking",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Y",
+                "usage_example": "[TRADUCIR AL FR: I like coffee and tea.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Me gusta el café y el té.",
+                "char_count": "5",
+                "usage_context_en": "Usado para conectar dos palabras, frases o cláusulas de igual importancia.",
+                "usage_context_es": "[TRADUCIR AL FR: Used to connect two words, phrases, or clauses of equal importance.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_0_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: also]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adverb/addition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "También / Además",
+                "usage_example": "[TRADUCIR AL FR: I also like tea.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "También me gusta el té.",
+                "char_count": "4",
+                "usage_context_en": "Además; también. (Típicamente ubicado antes del verbo principal o después de 'to be').",
+                "usage_context_es": "[TRADUCIR AL FR: In addition; too. (Typically placed before the main verb or after 'to be').]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_1_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: too]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adverb/addition/intensifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "También",
+                "usage_example": "[TRADUCIR AL FR: I like coffee, too.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Me gusta el café también.",
+                "char_count": "4",
+                "usage_context_en": "Además; también. (Típicamente al final de una cláusula).",
+                "usage_context_es": "[TRADUCIR AL FR: In addition; also. (Typically at the end of a clause).]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_2_def0.avif"
+            },
+            {
+                "meaning": "Demasiado",
+                "usage_example": "[TRADUCIR AL FR: It is too hot.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Hace demasiado calor.",
+                "char_count": "4",
+                "usage_context_en": "Un intensificador que significa 'excesivamente' o 'más de lo deseado'.",
+                "usage_context_es": "[TRADUCIR AL FR: An intensifier meaning 'excessively' or 'more than is wanted'.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_2_def1.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: or]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "connector/alternative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "O (alternativa)",
+                "usage_example": "[TRADUCIR AL FR: Would you like tea or coffee?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Te gustaría té o café?",
+                "char_count": "2",
+                "usage_context_en": "Usado para enlazar alternativas.",
+                "usage_context_es": "[TRADUCIR AL FR: Used to link alternatives.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_39_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Alternative",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: for example]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "phrase/example",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Por ejemplo",
+                "usage_example": "[TRADUCIR AL FR: I like fruits, for example, apples.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Me gustan las frutas, por ejemplo, las manzanas.",
+                "char_count": "6",
+                "usage_context_en": "Usado para introducir un ítem específico que ilustra un punto general.",
+                "usage_context_es": "[TRADUCIR AL FR: Used to introduce a specific item that illustrates a general point.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_26_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Example",
+        "category": ""
+    }
+]

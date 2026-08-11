@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Salud",
+        "pronunciation_guide_es": "/ge-ZUNT-hait_ist_ZER_VISH-tish/",
+        "usage_context_en": "The condition of your body",
+        "usage_context_es": "La condición de tu cuerpo",
+        "usage_example": "Gesundheit ist sehr wichtig.",
+        "usage_example_es": "La salud es muy importante.",
+        "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Gesundheit",
+    "phonetic": "/diː ɡəˈzʊnthaɪt/",
+    "search_term": "noun/concept/body/essentials",
+    "spoken_phonetic_us": "/diː ɡəˈzʊnthaɪt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Dolor",
+        "pronunciation_guide_es": "/ish_HA-be_SHMER-tsen_im_BAIN/",
+        "usage_context_en": "The feeling you have when your body is hurt",
+        "usage_context_es": "El sentimiento que tienes cuando tu cuerpo está herido",
+        "usage_example": "Ich habe Schmerzen im Bein.",
+        "usage_example_es": "Siento un dolor en la pierna.",
+        "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Feelings",
+    "is_verb": false,
+    "name": "der Schmerz",
+    "phonetic": "/deːɐ ʃmɛʁts/",
+    "search_term": "noun/feeling/body/essentials",
+    "spoken_phonetic_us": "/deːɐ ʃmɛʁts/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "meaning": "A substance used to treat illness.",
+        "pronunciation_guide_es": "/NIM_DAI-ne_me-di-TSIN_naj_dem_MI-tak-e-sen/",
+        "usage_context_en": "A substance used to treat illness.",
+        "usage_context_es": "Una sustancia usada para tratar una enfermedad.",
+        "usage_example": "Nimm deine Medizin nach dem Mittagessen.",
+        "usage_example_es": "Toma tu medicina después del almuerzo.",
+        "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Health & Medicine",
+    "is_verb": false,
+    "name": "die Medizin",
+    "phonetic": "/diː mediˈtsiːn/",
+    "search_term": "noun/health-&-medicine/seed",
+    "spoken_phonetic_us": "/diː mediˈtsiːn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "meaning": "A person receiving medical care.",
+        "pronunciation_guide_es": "/der_pa-TSI-ent_RUT_zish_AUS/",
+        "usage_context_en": "A person receiving medical care.",
+        "usage_context_es": "Una persona que recibe atención médica.",
+        "usage_example": "Der Patient ruht sich aus.",
+        "usage_example_es": "El paciente está descansando.",
+        "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Health & Medicine",
+    "is_verb": false,
+    "name": "der Patient",
+    "phonetic": "/deːɐ paˈtsi̯ɛnt/",
+    "search_term": "noun/health-&-medicine/seed",
+    "spoken_phonetic_us": "/deːɐ paˈtsi̯ɛnt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "meaning": "A condition of being sick.",
+        "pronunciation_guide_es": "/di_KRANK-hait_DAU-er-te_DRAI_TA-ge/",
+        "usage_context_en": "A condition of being sick.",
+        "usage_context_es": "La condición de estar enfermo.",
+        "usage_example": "Die Krankheit dauerte drei Tage.",
+        "usage_example_es": "La enfermedad duró tres días.",
+        "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Health & Medicine",
+    "is_verb": false,
+    "name": "die Krankheit",
+    "phonetic": "/diː ˈkʁaŋkhaɪt/",
+    "search_term": "noun/health-&-medicine/seed",
+    "spoken_phonetic_us": "/diː ˈkʁaŋkhaɪt/"
+  }
+]

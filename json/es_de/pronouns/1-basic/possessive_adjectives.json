@@ -1,0 +1,211 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "mein",
+    "phonetic": "/maɪn/",
+    "spoken_phonetic_us": "/maɪn/",
+    "search_term": "pronoun/possessive-adjective",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Posesivo (Adjetivo)",
+    "definitions": [
+      {
+        "meaning": "Mi / Mis",
+        "usage_example": "Das ist mein Buch.",
+        "pronunciation_guide_es": "/das_ist_MAIN_BUJ/",
+        "usage_example_es": "Este es mi libro.",
+        "char_count": "4",
+        "usage_context_en": "The possessive adjective for 'I'. Always followed by a noun.",
+        "usage_context_es": "El adjetivo posesivo para 'Yo'. Siempre va seguido de un sustantivo.",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives/1-basic_possessive_adjectives_card_0_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "dein",
+    "phonetic": "/daɪn/",
+    "spoken_phonetic_us": "/daɪn/",
+    "search_term": "pronoun/possessive-adjective",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Posesivo (Adjetivo)",
+    "definitions": [
+      {
+        "meaning": "Tu / Tus / Su / Sus (de usted)",
+        "usage_example": "Ist das deine Tasche?",
+        "pronunciation_guide_es": "/ist_das_DAI-ne_TA-she/",
+        "usage_example_es": "¿Es esta tu bolsa?",
+        "char_count": "4",
+        "usage_context_en": "The possessive adjective for 'you'. Always followed by a noun.",
+        "usage_context_es": "El adjetivo posesivo para 'tú/usted'. Siempre va seguido de un sustantivo.",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives/1-basic_possessive_adjectives_card_1_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sein",
+    "phonetic": "/zaɪn/",
+    "spoken_phonetic_us": "/zaɪn/",
+    "search_term": "pronoun/possessive-adjective",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Posesivo (Adjetivo)",
+    "definitions": [
+      {
+        "meaning": "Su / Sus (de un objeto o animal)",
+        "usage_example": "Der Hund wedelte mit seinem Schwanz.",
+        "pronunciation_guide_es": "/der_HUNT_VE-del-te_mit_ZAI-nem_SHVANTS/",
+        "usage_example_es": "El perro movió su cola.",
+        "char_count": "5",
+        "usage_context_en": "The possessive adjective for 'it'. Always followed by a noun.",
+        "usage_context_es": "El adjetivo posesivo para 'it'. Siempre va seguido de un sustantivo.",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives/1-basic_possessive_adjectives_card_2_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "unser",
+    "phonetic": "/ˈʊnzɐ/",
+    "spoken_phonetic_us": "/ˈʊnzɐ/",
+    "search_term": "pronoun/possessive-adjective",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Posesivo (Adjetivo)",
+    "definitions": [
+      {
+        "meaning": "Nuestro / Nuestra / Nuestros / Nuestras",
+        "usage_example": "Das ist unser Haus.",
+        "pronunciation_guide_es": "/das_ist_UN-zer_HAUS/",
+        "usage_example_es": "Esta es nuestra casa.",
+        "char_count": "4",
+        "usage_context_en": "The possessive adjective for 'we'. Always followed by a noun.",
+        "usage_context_es": "El adjetivo posesivo para 'nosotros'. Siempre va seguido de un sustantivo.",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives/1-basic_possessive_adjectives_card_3_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ihr",
+    "phonetic": "/iːɐ̯/",
+    "spoken_phonetic_us": "/iːɐ̯/",
+    "search_term": "pronoun/possessive-adjective",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Posesivo (Adjetivo)",
+    "definitions": [
+      {
+        "meaning": "Su / Sus (de ellos/ellas)",
+        "usage_example": "Es ist ihr Haus.",
+        "pronunciation_guide_es": "/es_ist_IR_HAUS/",
+        "usage_example_es": "Es su casa (de ellos/ellas).",
+        "char_count": "4",
+        "usage_context_en": "The possessive adjective for 'they'. Always followed by a noun.",
+        "usage_context_es": "El adjetivo posesivo para 'ellos/ellas'. Siempre va seguido de un sustantivo.",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives/1-basic_possessive_adjectives_card_4_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sie",
+    "phonetic": "/ziː/",
+    "spoken_phonetic_us": "/ziː/",
+    "search_term": "pronoun/object/possessive-adjective",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Objeto",
+    "definitions": [
+      {
+        "meaning": "La / Le / A ella (Objeto)",
+        "usage_example": "Ich kenne sie.",
+        "pronunciation_guide_es": "/ish_KE-ne_zi/",
+        "usage_example_es": "La conozco (a ella).",
+        "char_count": "3",
+        "usage_context_en": "The pronoun for the 3rd person singular (female) as the object.",
+        "usage_context_es": "El pronombre de la 3ª persona singular (femenino) como objeto.",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_11_def0.avif"
+      },
+      {
+        "meaning": "Su / Sus (Posesivo de ella)",
+        "usage_example": "Das ist ihr Buch.",
+        "pronunciation_guide_es": "/das_ist_IR_BUJ/",
+        "usage_example_es": "Este es su libro (de ella).",
+        "char_count": "4",
+        "usage_context_en": "The possessive determiner for the 3rd person singular (female).",
+        "usage_context_es": "El determinante posesivo de la 3ª persona singular (femenino).",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_11_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sein",
+    "phonetic": "/zaɪn/",
+    "spoken_phonetic_us": "/zaɪn/",
+    "search_term": "pronoun/possessive-adjective/possessive-pronoun",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Posesivo (Pronombre)",
+    "definitions": [
+      {
+        "meaning": "Su / Sus (de él) (Determinante)",
+        "usage_example": "Das ist sein Auto.",
+        "pronunciation_guide_es": "/das_ist_ZAIN_AU-to/",
+        "usage_example_es": "Ese es su carro (el carro de él).",
+        "char_count": "4",
+        "usage_context_en": "The possessive determiner for 'he' (followed by a noun).",
+        "usage_context_es": "El determinante posesivo para 'él' (seguido de un sustantivo).",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_11_def0.avif"
+      },
+      {
+        "meaning": "Suyo / Suyos (de él) (Pronombre)",
+        "usage_example": "Das rote Auto ist seins.",
+        "pronunciation_guide_es": "/das_RO-te_AU-to_ist_ZAINS/",
+        "usage_example_es": "El carro rojo es suyo (de él).",
+        "char_count": "5",
+        "usage_context_en": "The possessive pronoun for 'he'. (It is not followed by a noun).",
+        "usage_context_es": "El pronombre posesivo para 'él'. (No va seguido de un sustantivo).",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives/1-basic_possessive_adjectives_card_5_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "sensation",
+        "phonetic": "/sɛnˈseɪʃən/",
+        "spoken_phonetic_us": "/sɛnˈseɪʃən/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Sensación (física)]",
+                "usage_example": "I have a tingling sensation.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE sensation AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I have a tingling sensation.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Un sentimiento físico resultante de algo que le sucede o entra en contacto con el cuerpo.]",
+                "usage_context_es": "A physical feeling resulting from something that happens to or comes into contact with the body.",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_103_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Sensación (conmoción)]",
+                "usage_example": "The new movie was a sensation.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE sensation AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The new movie was a sensation.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Una reacción generalizada de interés y emoción.]",
+                "usage_context_es": "A widespread reaction of interest and excitement.",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_103_def1.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    }
+]

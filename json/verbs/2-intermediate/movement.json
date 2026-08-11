@@ -1,0 +1,260 @@
+[
+  {
+    "name": "reach",
+    "phonetic": "/riːʧ/",
+    "spoken_phonetic_us": "/riːʧ/",
+    "search_term": "verb/arrive/level_up",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Alcanzar (con la mano, un objetivo)",
+        "usage_example": "Can you reach the top shelf?",
+        "pronunciation_guide_es": "/kan_iu_RICH_de_top_SHELF/",
+        "alternative_example": "We reached our goal.",
+        "usage_example_es": "¿Puedes alcanzar el estante de arriba?",
+        "char_count": "one",
+        "usage_context_en": "physical reach/goals",
+        "usage_context_es": "alcance físico/metas"
+      },
+      {
+        "meaning": "Llegar a (un lugar, acuerdo)",
+        "usage_example": "We reached the city after a long drive.",
+        "pronunciation_guide_es": "/ui_RICHt_de_SITi_after_a_long_DRAIV/",
+        "alternative_example": "They reached an agreement.",
+        "usage_example_es": "Llegamos a la ciudad después de un largo viaje.",
+        "char_count": "one",
+        "usage_context_en": "arrival/agreements",
+        "usage_context_es": "llegada/acuerdos"
+      }
+    ],
+    "group_name": "Body & Movement"
+  },
+  {
+    "name": "drive",
+    "phonetic": "/draɪv/",
+    "spoken_phonetic_us": "/draɪv/",
+    "search_term": "verb/operate vehicle/level_up",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Conducir/Manejar",
+        "usage_example": "I learned to drive last year.",
+        "pronunciation_guide_es": "/ai_LORND_tu_DRAIV_last_YIR/",
+        "alternative_example": "He drives a taxi.",
+        "usage_example_es": "Aprendí a conducir el año pasado.",
+        "char_count": "one",
+        "usage_context_en": "vehicle/skill",
+        "usage_context_es": "vehículo/habilidad"
+      },
+      {
+        "meaning": "Impulsar/Llevar (a un estado)",
+        "usage_example": "Hunger drove him to steal.",
+        "pronunciation_guide_es": "/JONGer_DROUV_jim_tu_STIL/",
+        "alternative_example": "That noise is driving me crazy.",
+        "usage_example_es": "El hambre lo llevó a robar.",
+        "char_count": "one",
+        "usage_context_en": "motivation/emotion",
+        "usage_context_es": "motivación/emoción"
+      }
+    ],
+    "group_name": "Daily Routine"
+  },
+  {
+    "name": "swim",
+    "phonetic": "/swɪm/",
+    "spoken_phonetic_us": "/swɪm/",
+    "search_term": "verb/move in water/level_up",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Nadar",
+        "usage_example": "Can you swim in the ocean?",
+        "pronunciation_guide_es": "/kan_iu_SUIM_in_di_OUshan/",
+        "alternative_example": "We went swimming yesterday.",
+        "usage_example_es": "¿Puedes nadar en el océano?",
+        "char_count": "one",
+        "usage_context_en": "water/sport",
+        "usage_context_es": "agua/deporte"
+      },
+      {
+        "meaning": "Marearse/Girar (la cabeza)",
+        "usage_example": "My head is swimming.",
+        "pronunciation_guide_es": "/mai_JED_is_SUIMing/",
+        "alternative_example": "The room swam before my eyes.",
+        "usage_example_es": "Me da vueltas la cabeza.",
+        "char_count": "one",
+        "usage_context_en": "dizziness/sensation",
+        "usage_context_es": "mareo/sensación"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "name": "fly",
+    "phonetic": "/flaɪ/",
+    "spoken_phonetic_us": "/flaɪ/",
+    "search_term": "verb/move in air/level_up",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Volar (en el aire)",
+        "usage_example": "Birds can fly very high.",
+        "pronunciation_guide_es": "/BERDS_kan_FLAI_VERI_JAI/",
+        "alternative_example": "I am flying to New York tomorrow.",
+        "usage_example_es": "Los pájaros pueden volar muy alto.",
+        "char_count": "one",
+        "usage_context_en": "air/travel",
+        "usage_context_es": "aire/viaje"
+      },
+      {
+        "meaning": "Pasar rápidamente (el tiempo)",
+        "usage_example": "Time flies when you are having fun.",
+        "pronunciation_guide_es": "/TAIM_FLAIS_uen_iu_ar_JAVing_FAN/",
+        "alternative_example": "He flew down the stairs.",
+        "usage_example_es": "El tiempo vuela cuando te diviertes.",
+        "char_count": "one",
+        "usage_context_en": "time/speed",
+        "usage_context_es": "tiempo/velocidad"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "name": "travel",
+    "phonetic": "/ˈtrævəl/",
+    "spoken_phonetic_us": "/ˈtrævəl/",
+    "search_term": "verb/journey/intermediate",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Viajar",
+        "usage_example": "I love to travel to new countries.",
+        "pronunciation_guide_es": "/ai_LOV_tu_TRAvel_tu_NIU_KANtris/",
+        "alternative_example": "He travels for work.",
+        "usage_example_es": "Me encanta viajar a nuevos países.",
+        "char_count": "two",
+        "usage_context_en": "journey/hobby",
+        "usage_context_es": "viaje/pasatiempo"
+      },
+      {
+        "meaning": "Desplazarse",
+        "usage_example": "Light travels faster than sound.",
+        "pronunciation_guide_es": "/LAIT_TRAvels_FASter_dan_SAUND/",
+        "alternative_example": "The news traveled quickly.",
+        "usage_example_es": "La luz viaja más rápido que el sonido.",
+        "char_count": "two",
+        "usage_context_en": "physics/movement",
+        "usage_context_es": "física/movimiento"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "name": "arrive",
+    "phonetic": "/əˈraɪv/",
+    "spoken_phonetic_us": "/əˈraɪv/",
+    "search_term": "verb/reach destination/intermediate",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Llegar (a un destino)",
+        "usage_example": "What time does the train arrive?",
+        "pronunciation_guide_es": "/uat_TAIM_das_de_TREIN_aRAIV/",
+        "alternative_example": "We arrived at the airport.",
+        "usage_example_es": "¿A qué hora llega el tren?",
+        "char_count": "two",
+        "usage_context_en": "destination/travel",
+        "usage_context_es": "destino/viaje"
+      },
+      {
+        "meaning": "Llegar (el momento)",
+        "usage_example": "The moment has finally arrived.",
+        "pronunciation_guide_es": "/de_MOUment_jas_FAINali_aRAIVD/",
+        "alternative_example": "The package arrived today.",
+        "usage_example_es": "El momento finalmente ha llegado.",
+        "char_count": "two",
+        "usage_context_en": "time/occurrence",
+        "usage_context_es": "tiempo/ocurrencia"
+      }
+    ],
+    "group_name": "Body & Movement"
+  },
+  {
+    "name": "return",
+    "phonetic": "/rɪˈtɜːrn/",
+    "spoken_phonetic_us": "/rɪˈtɜːrn/",
+    "search_term": "verb/go back/intermediate",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Regresar/Volver",
+        "usage_example": "When will you return from your trip?",
+        "pronunciation_guide_es": "/uen_uil_iu_riTORN_from_yor_TRIP/",
+        "alternative_example": "I returned home late.",
+        "usage_example_es": "¿Cuándo regresarás de tu viaje?",
+        "char_count": "two",
+        "usage_context_en": "go back/travel",
+        "usage_context_es": "volver/viaje"
+      },
+      {
+        "meaning": "Devolver (un objeto)",
+        "usage_example": "I need to return this book to the library.",
+        "pronunciation_guide_es": "/ai_NID_tu_riTORN_dis_BUK_tu_de_LAIbrari/",
+        "alternative_example": "Please return my call.",
+        "usage_example_es": "Tengo que devolver este libro a la biblioteca.",
+        "char_count": "two",
+        "usage_context_en": "give back/objects",
+        "usage_context_es": "devolver/objetos"
+      }
+    ],
+    "group_name": "Body & Movement"
+  },
+  {
+    "name": "avoid",
+    "phonetic": "/əˈvɔɪd/",
+    "spoken_phonetic_us": "/əˈvɔɪd/",
+    "search_term": "verb/prevent/intermediate",
+    "is_verb": true,
+    "learned": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Evitar",
+        "usage_example": "You should avoid eating junk food.",
+        "pronunciation_guide_es": "/iu_shud_aVOID_ITing_YANK_FUD/",
+        "alternative_example": "I try to avoid traffic in the morning.",
+        "usage_example_es": "Deberías evitar comer comida chatarra.",
+        "char_count": "two",
+        "usage_context_en": "prevention/habits",
+        "usage_context_es": "prevención/hábitos",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_75_def0.avif"
+      },
+      {
+        "meaning": "Eludir/Esquivar",
+        "usage_example": "He is avoiding me.",
+        "pronunciation_guide_es": "/ji_is_aVOIDing_mi/",
+        "alternative_example": "They avoided an accident.",
+        "usage_example_es": "Él me está evitando.",
+        "char_count": "two",
+        "usage_context_en": "people/danger",
+        "usage_context_es": "personas/peligro",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_75_def1.avif"
+      }
+    ],
+    "group_name": "Body & Movement"
+  }
+]

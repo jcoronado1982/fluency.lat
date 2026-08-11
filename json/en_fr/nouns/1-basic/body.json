@@ -1,0 +1,975 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: hand]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "hand",
+                "usage_example": "[TRADUCIR AL FR: Wash your hands.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Wash your hands.",
+                "char_count": "one",
+                "usage_context_en": "The part of the body at the end of the arm",
+                "usage_context_es": "[TRADUCIR AL FR: The part of the body at the end of the arm]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_12_def0.avif"
+            },
+            {
+                "meaning": "hand (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Can you give me a hand?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Can you give me a hand?",
+                "char_count": "4",
+                "usage_context_en": "Help or assistance.",
+                "usage_context_es": "[TRADUCIR AL FR: Help or assistance.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_12_def1.avif"
+            },
+            {
+                "meaning": "hand (def 3)",
+                "usage_example": "[TRADUCIR AL FR: The clock's hands show the time.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The clock's hands show the time.",
+                "char_count": "4",
+                "usage_context_en": "The pointers that show time on a clock.",
+                "usage_context_es": "[TRADUCIR AL FR: The pointers that show time on a clock.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_12_def2.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: eye]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "eye",
+                "usage_example": "[TRADUCIR AL FR: Close your eyes.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Close your eyes.",
+                "char_count": "one",
+                "usage_context_en": "The part of the body you use to see",
+                "usage_context_es": "[TRADUCIR AL FR: The part of the body you use to see]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_13_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: head]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "head",
+                "usage_example": "[TRADUCIR AL FR: My head hurts.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "My head hurts.",
+                "char_count": "one",
+                "usage_context_en": "The top part of your body",
+                "usage_context_es": "[TRADUCIR AL FR: The top part of your body]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_14_def0.avif"
+            },
+            {
+                "meaning": "head (def 2)",
+                "usage_example": "[TRADUCIR AL FR: She is the head of the company.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She is the head of the company.",
+                "char_count": "5",
+                "usage_context_en": "The person in charge of an organization or department.",
+                "usage_context_es": "[TRADUCIR AL FR: The person in charge of an organization or department.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_14_def1.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: face]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "face",
+                "usage_example": "[TRADUCIR AL FR: She has a happy face.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She has a happy face.",
+                "char_count": "one",
+                "usage_context_en": "The front of the head, with eyes, nose, mouth",
+                "usage_context_es": "[TRADUCIR AL FR: The front of the head, with eyes, nose, mouth]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_41_def0.avif"
+            },
+            {
+                "meaning": "face (def 2)",
+                "usage_example": "[TRADUCIR AL FR: The north face of the mountain is steep.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The north face of the mountain is steep.",
+                "char_count": "6",
+                "usage_context_en": "The surface or front part of something.",
+                "usage_context_es": "[TRADUCIR AL FR: The surface or front part of something.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_41_def1.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: arm]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "arm",
+                "usage_example": "[TRADUCIR AL FR: My left arm hurts.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "My left arm hurts.",
+                "char_count": "one",
+                "usage_context_en": "The part of the body between the shoulder and hand",
+                "usage_context_es": "[TRADUCIR AL FR: The part of the body between the shoulder and hand]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_42_def0.avif"
+            },
+            {
+                "meaning": "arm (def 2)",
+                "usage_example": "[TRADUCIR AL FR: The army has a medical arm.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The army has a medical arm.",
+                "char_count": "4",
+                "usage_context_en": "A branch or division of a larger organization.",
+                "usage_context_es": "[TRADUCIR AL FR: A branch or division of a larger organization.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_42_def1.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: leg]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "leg",
+                "usage_example": "[TRADUCIR AL FR: He broke his leg.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He broke his leg.",
+                "char_count": "one",
+                "usage_context_en": "The part of the body used for walking",
+                "usage_context_es": "[TRADUCIR AL FR: The part of the body used for walking]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_43_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: foot]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "foot",
+                "usage_example": "[TRADUCIR AL FR: My feet are cold.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "My feet are cold.",
+                "char_count": "one",
+                "usage_context_en": "The part of the body at the end of the leg",
+                "usage_context_es": "[TRADUCIR AL FR: The part of the body at the end of the leg]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_44_def0.avif"
+            },
+            {
+                "meaning": "foot (def 2)",
+                "usage_example": "[TRADUCIR AL FR: There is a house at the foot of the hill.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "There is a house at the foot of the hill.",
+                "char_count": "5",
+                "usage_context_en": "The bottom or lower part of something.",
+                "usage_context_es": "[TRADUCIR AL FR: The bottom or lower part of something.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_44_def1.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: body]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "body",
+                "usage_example": "[TRADUCIR AL FR: You must take care of your body.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "You must take care of your body.",
+                "char_count": "two",
+                "usage_context_en": "The physical structure of a person or animal",
+                "usage_context_es": "[TRADUCIR AL FR: The physical structure of a person or animal]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_45_def0.avif"
+            },
+            {
+                "meaning": "body (def 2)",
+                "usage_example": "[TRADUCIR AL FR: The governing body approved the new rules.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The governing body approved the new rules.",
+                "char_count": "5",
+                "usage_context_en": "A group of people who work together for a purpose.",
+                "usage_context_es": "[TRADUCIR AL FR: A group of people who work together for a purpose.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_45_def1.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: hair]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "hair",
+                "usage_example": "[TRADUCIR AL FR: She has long hair.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She has long hair.",
+                "char_count": "one",
+                "usage_context_en": "The strands that grow from the head",
+                "usage_context_es": "[TRADUCIR AL FR: The strands that grow from the head]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_46_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: back]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/direction/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "back",
+                "usage_example": "[TRADUCIR AL FR: My back hurts.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "My back hurts.",
+                "char_count": "one",
+                "usage_context_en": "The rear surface of the human body / The opposite of front",
+                "usage_context_es": "[TRADUCIR AL FR: The rear surface of the human body / The opposite of front]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_109_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: nose]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "nose",
+                "usage_example": "[TRADUCIR AL FR: My nose is cold.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "My nose is cold.",
+                "char_count": "one",
+                "usage_context_en": "The part of the face used for smelling",
+                "usage_context_es": "[TRADUCIR AL FR: The part of the face used for smelling]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_249_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: mouth]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "mouth",
+                "usage_example": "[TRADUCIR AL FR: Open your mouth.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Open your mouth.",
+                "char_count": "one",
+                "usage_context_en": "The part of the face used for eating and speaking",
+                "usage_context_es": "[TRADUCIR AL FR: The part of the face used for eating and speaking]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_250_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: tooth]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "tooth",
+                "usage_example": "[TRADUCIR AL FR: I brush my teeth.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I brush my teeth.",
+                "char_count": "one",
+                "usage_context_en": "The hard white things in your mouth",
+                "usage_context_es": "[TRADUCIR AL FR: The hard white things in your mouth]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_251_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: ear]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "ear",
+                "usage_example": "[TRADUCIR AL FR: I hear with my ears.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I hear with my ears.",
+                "char_count": "one",
+                "usage_context_en": "The part of the body used for hearing",
+                "usage_context_es": "[TRADUCIR AL FR: The part of the body used for hearing]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_252_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: shoulder]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "shoulder",
+                "usage_example": "[TRADUCIR AL FR: My shoulder hurts.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "My shoulder hurts.",
+                "char_count": "two",
+                "usage_context_en": "The part of the body between the arm and the neck",
+                "usage_context_es": "[TRADUCIR AL FR: The part of the body between the arm and the neck]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_253_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: knee]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "knee",
+                "usage_example": "[TRADUCIR AL FR: I hurt my knee.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I hurt my knee.",
+                "char_count": "one",
+                "usage_context_en": "The joint in the middle of your leg",
+                "usage_context_es": "[TRADUCIR AL FR: The joint in the middle of your leg]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_254_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: finger]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "finger",
+                "usage_example": "[TRADUCIR AL FR: I have ten fingers.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I have ten fingers.",
+                "char_count": "two",
+                "usage_context_en": "One of the five parts at the end of your hand",
+                "usage_context_es": "[TRADUCIR AL FR: One of the five parts at the end of your hand]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_255_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: toe]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "toe",
+                "usage_example": "[TRADUCIR AL FR: I hurt my toe.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I hurt my toe.",
+                "char_count": "one",
+                "usage_context_en": "One of the five parts at the end of your foot",
+                "usage_context_es": "[TRADUCIR AL FR: One of the five parts at the end of your foot]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_256_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: neck]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "neck",
+                "usage_example": "[TRADUCIR AL FR: My neck is sore.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "My neck is sore.",
+                "char_count": "one",
+                "usage_context_en": "The part of the body connecting the head and shoulders",
+                "usage_context_es": "[TRADUCIR AL FR: The part of the body connecting the head and shoulders]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_257_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: heart]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "heart",
+                "usage_example": "[TRADUCIR AL FR: My heart is beating fast.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "My heart is beating fast.",
+                "char_count": "one",
+                "usage_context_en": "The organ in your chest that pumps blood",
+                "usage_context_es": "[TRADUCIR AL FR: The organ in your chest that pumps blood]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_352_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: blood]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "blood",
+                "usage_example": "[TRADUCIR AL FR: Blood is red.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Blood is red.",
+                "char_count": "one",
+                "usage_context_en": "The red liquid inside your body",
+                "usage_context_es": "[TRADUCIR AL FR: The red liquid inside your body]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_353_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: bone]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "bone",
+                "usage_example": "[TRADUCIR AL FR: The dog has a bone.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The dog has a bone.",
+                "char_count": "one",
+                "usage_context_en": "The hard parts inside your body",
+                "usage_context_es": "[TRADUCIR AL FR: The hard parts inside your body]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_354_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: skin]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "skin",
+                "usage_example": "[TRADUCIR AL FR: I have soft skin.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I have soft skin.",
+                "char_count": "one",
+                "usage_context_en": "The outer covering of your body",
+                "usage_context_es": "[TRADUCIR AL FR: The outer covering of your body]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_355_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: voice]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/sound/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "voice",
+                "usage_example": "[TRADUCIR AL FR: She has a beautiful voice.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She has a beautiful voice.",
+                "char_count": "one",
+                "usage_context_en": "The sound you make when you speak or sing",
+                "usage_context_es": "[TRADUCIR AL FR: The sound you make when you speak or sing]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_356_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: chest]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "chest",
+                "usage_example": "[TRADUCIR AL FR: I have pain in my chest.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I have pain in my chest.",
+                "char_count": "one",
+                "usage_context_en": "The front part of your body between the neck and stomach",
+                "usage_context_es": "[TRADUCIR AL FR: The front part of your body between the neck and stomach]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_456_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: stomach]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "stomach",
+                "usage_example": "[TRADUCIR AL FR: My stomach hurts.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "My stomach hurts.",
+                "char_count": "two",
+                "usage_context_en": "The organ in your body that digests food",
+                "usage_context_es": "[TRADUCIR AL FR: The organ in your body that digests food]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_457_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: wrist]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "wrist",
+                "usage_example": "[TRADUCIR AL FR: I hurt my wrist.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I hurt my wrist.",
+                "char_count": "one",
+                "usage_context_en": "The joint between your hand and arm",
+                "usage_context_es": "[TRADUCIR AL FR: The joint between your hand and arm]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_458_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: ankle]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "ankle",
+                "usage_example": "[TRADUCIR AL FR: I twisted my ankle.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I twisted my ankle.",
+                "char_count": "two",
+                "usage_context_en": "The joint connecting your foot and leg",
+                "usage_context_es": "[TRADUCIR AL FR: The joint connecting your foot and leg]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_459_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: thumb]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "thumb",
+                "usage_example": "[TRADUCIR AL FR: My thumb is sore.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "My thumb is sore.",
+                "char_count": "one",
+                "usage_context_en": "The short thick finger on your hand",
+                "usage_context_es": "[TRADUCIR AL FR: The short thick finger on your hand]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_460_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: lip]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "lip",
+                "usage_example": "[TRADUCIR AL FR: She has red lips.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She has red lips.",
+                "char_count": "one",
+                "usage_context_en": "The soft edge of your mouth",
+                "usage_context_es": "[TRADUCIR AL FR: The soft edge of your mouth]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_461_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: tongue]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "tongue",
+                "usage_example": "[TRADUCIR AL FR: The tongue helps you taste.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The tongue helps you taste.",
+                "char_count": "two",
+                "usage_context_en": "The muscle in your mouth used to taste and speak",
+                "usage_context_es": "[TRADUCIR AL FR: The muscle in your mouth used to taste and speak]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_462_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: lung]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "lung",
+                "usage_example": "[TRADUCIR AL FR: The lungs breathe air.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The lungs breathe air.",
+                "char_count": "one",
+                "usage_context_en": "The organ in your body used for breathing",
+                "usage_context_es": "[TRADUCIR AL FR: The organ in your body used for breathing]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_463_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    }
+]

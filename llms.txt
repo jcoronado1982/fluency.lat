@@ -1,0 +1,69 @@
+# Fluency (antes Flashcard AI)
+
+> Plataforma de aprendizaje de idiomas en [fluency.lat](https://fluency.lat). Monolito modular:
+> backend Rust (Axum, Clean/Hexagonal) + frontend React 19 (Vite, módulos por registry).
+> Base de datos: **SurrealDB 1.5.5** (server-oci-1, VCN privada). Auth: **Google OAuth 2.0 → JWT**.
+> Infra multi-cloud (Oracle proxy+DB, GCP overflow, AWS espejo, Azure CI/CD) en VMs de 1 GB.
+
+**Punto de entrada canónico de la documentación: [GEMINI.md](GEMINI.md)** (raíz del repo, alias `CLAUDE.md`, `AGENTS.md`).
+Este archivo es su espejo mínimo para agentes que no lo cargan automáticamente.
+
+## Protocolo de lectura obligatorio (antes de desarrollar)
+
+1. Arquitectura: [docs/ARQUITECTURA_MODULAR.md](docs/ARQUITECTURA_MODULAR.md)
+2. Registry de módulos (estado y flags): [modules/README.md](modules/README.md)
+3. Doc del módulo en que trabajas — SOLO ese: [docs/modules/](docs/modules/)
+   (no leas docs de otros módulos salvo dependencia declarada)
+4. Al código guiado por el "Mapa de archivos" de la doc del módulo — sin exploración a ciegas.
+
+Además, [GEMINI.md](GEMINI.md) define **hojas de ruta por tarea** (frontend, backend, servidores,
+pipeline, DB, media, QA→prod): rutas cerradas de 3-4 documentos con paso 0 = sparse-checkout y
+lista explícita de a dónde NO entrar. Síguelas — no explorar para "orientarse".
+
+## Regla doc-first de infraestructura
+
+- IPs, RAM, CPU, proveedor, contenedores: leer PRIMERO
+  [docs/infrastructure/server_inventory.md](docs/infrastructure/server_inventory.md).
+  Prohibido SSH para consultar datos que esa doc ya cubre.
+- SSH/consola solo como fallback si la doc falta o contradice el runtime; lo descubierto se
+  guarda en la doc en el mismo cambio.
+- Antes de tocar infra/rendimiento/caché/pipeline: leer
+  [docs/infrastructure/AI_OPERATIONS_CONTEXT.md](docs/infrastructure/AI_OPERATIONS_CONTEXT.md).
+
+## Regla de cierre
+
+Un trabajo no está terminado hasta: (1) testear, (2) actualizar el plano del módulo
+(`docs/modules/<módulo>.md`) en el mismo cambio, (3) `./scripts/verify-blueprints.sh` en verde.
+Si los tests pasan pero la realidad falla: verificar en vivo, arreglar, y actualizar doc + test.
+
+## Documentación principal
+
+- [GEMINI.md](GEMINI.md): protocolo completo (Gemini Protocol) + índice maestro "si vas a X → lee Y".
+- [client/GEMINI.md](client/GEMINI.md): frontend (leer completo antes de tocar `client/`, alias `client/CLAUDE.md`).
+- [backend/GEMINI.md](backend/GEMINI.md): backend Rust (workspace, endpoints, adapters, alias `backend/CLAUDE.md`).
+- [docs/infrastructure/pipeline-and-deploy.md](docs/infrastructure/pipeline-and-deploy.md): CI/CD canónico.
+- [docs/QA_TO_PROD_FLOW.md](docs/QA_TO_PROD_FLOW.md): promoción QA → producción.
+- [docs/DEPLOY_Y_REPOSITORIO.md](docs/DEPLOY_Y_REPOSITORIO.md): repo Git, ramas, Azure DevOps.
+- [database_schema_diagram.md](database_schema_diagram.md): esquema SurrealDB.
+- [docs/infrastructure/media-delivery-cache.md](docs/infrastructure/media-delivery-cache.md): entrega/caché de imágenes y audio.
+- [SECRETS_MAP.md](SECRETS_MAP.md): (LOCAL ONLY) credenciales SSH y DB.
+- [scripts/cloud_connections.skill.md](scripts/cloud_connections.skill.md): conexión a Azure/GCP/OCI/AWS.
+- [scripts/azure_pipeline_cleanup.skill.md](scripts/azure_pipeline_cleanup.skill.md): skill portable para limpiar runs, artefactos y logs de Azure Pipelines.
+- [scripts/routine_operations.skill.md](scripts/routine_operations.skill.md): operaciones rutinarias.
+- [scripts/troubleshooting_library.skill.md](scripts/troubleshooting_library.skill.md): lecciones aprendidas.
+
+## Hechos que NO deben contradecirse
+
+- La DB activa del producto es SurrealDB 1.5.5; PostgreSQL solo existe en docker-compose local,
+  reservado para pagos futuros, sin desarrollar.
+- Hay autenticación: Google OAuth 2.0 → JWT (`backend/mod_shell/src/auth.rs`).
+- El backend primario de producción corre en el Oracle Proxy (`157.151.199.170`); GCP Cloud Run
+  es overflow y AWS es espejo.
+- El único pipeline vigente es `azure-pipelines.yml`; ramas que despliegan: `qa` y `main`.
+- `docs/archive/` es histórico: no describe el estado vigente.
+
+## Estado
+
+- Marca: fluency.lat (nombre interno legado: flashcard, conservado en paths/imágenes Docker).
+- Repo: `github.com/jcoronado1982/http-fluency.lat` — pipeline Azure DevOps `jcoronado1982.fluency`.
+- Última actualización de este archivo: 2026-07-17.

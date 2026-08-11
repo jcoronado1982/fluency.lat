@@ -1,0 +1,650 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "I believe in magic.",
+        "char_count": "two",
+        "meaning": "Creer (algo)",
+        "pronunciation_guide_es": "/du_iu_biLIV_jis_STORI/",
+        "usage_context_en": "truth/faith",
+        "usage_context_es": "verdad/fe",
+        "usage_example": "Do you believe his story?",
+        "usage_example_es": "¿Crees su historia?"
+      },
+      {
+        "alternative_example": "She believes in a better future.",
+        "char_count": "two",
+        "meaning": "Tener fe/Confiar",
+        "pronunciation_guide_es": "/ai_biLIV_in_iu/",
+        "usage_context_en": "trust/optimism",
+        "usage_context_es": "confianza/optimismo",
+        "usage_example": "I believe in you.",
+        "usage_example_es": "Creo en ti."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "believe",
+    "phonetic": "/bɪˈliːv/",
+    "search_term": "verb/faith/essentials",
+    "spoken_phonetic_us": "/bɪˈliːv/",
+    "group_name": "Mind & Senses"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "She learns new things every day.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/1-basic_card_58_def0.avif",
+        "meaning": "Aprender",
+        "pronunciation_guide_es": "/ai_UANT_tu_LORN_INGlish/",
+        "usage_context_en": "study/skills",
+        "usage_context_es": "estudio/habilidades",
+        "usage_example": "I want to learn English.",
+        "usage_example_es": "Quiero aprender inglés."
+      },
+      {
+        "alternative_example": "He learned his lesson.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/1-basic_card_58_def1.avif",
+        "meaning": "Enterarse de/Saber (información)",
+        "pronunciation_guide_es": "/ai_LORNt_aBAUT_de_NIUS_dis_MORning/",
+        "usage_context_en": "information/experience",
+        "usage_context_es": "información/experiencia",
+        "usage_example": "I learned about the news this morning.",
+        "usage_example_es": "Me enteré de la noticia esta mañana."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "learn",
+    "phonetic": "/lɜːrn/",
+    "search_term": "verb/acquire knowledge/level_up",
+    "spoken_phonetic_us": "/lɜːrn/",
+    "irregular": {
+      "past": {
+        "form": "learned / learnt",
+        "phonetic": "/lɜːrnd/ /lɜːrnt/",
+        "spoken_phonetic_us": "/lɜːrnd/ /lɜːrnt/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Past of learn"
+      },
+      "participle": {
+        "form": "learned / learnt",
+        "phonetic": "/lɜːrnd/ /lɜːrnt/",
+        "spoken_phonetic_us": "/lɜːrnd/ /lɜːrnt/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Participle of learn"
+      }
+    },
+    "group_name": "Mind & Senses"
+  },
+  {
+    "name": "remember",
+    "phonetic": "/rɪˈmɛmbər/",
+    "spoken_phonetic_us": "/rɪˈmɛmbər/",
+    "search_term": "verb/recall/level_up",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Recordar",
+        "usage_example": "I can't remember his name.",
+        "pronunciation_guide_es": "/ai_kant_riMEMBER_jis_NEIM/",
+        "alternative_example": "Remember to buy milk!",
+        "usage_example_es": "No puedo recordar su nombre.",
+        "char_count": "three",
+        "usage_context_en": "memory/tasks",
+        "usage_context_es": "memoria/tareas"
+      },
+      {
+        "meaning": "Tener en cuenta/Asegurarse",
+        "usage_example": "Remember me to your family.",
+        "pronunciation_guide_es": "/riMEMBER_mi_tu_yor_FAMili/",
+        "alternative_example": "I remember my childhood clearly.",
+        "usage_example_es": "Dale mis saludos a tu familia.",
+        "char_count": "three",
+        "usage_context_en": "greetings/past",
+        "usage_context_es": "saludos/pasado"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "name": "consider",
+    "phonetic": "/kənˈsɪdər/",
+    "spoken_phonetic_us": "/kənˈsɪdər/",
+    "search_term": "verb/think about/level_up",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Considerar/Pensar en",
+        "usage_example": "We should consider all options.",
+        "pronunciation_guide_es": "/ui_shud_konSIDER_ol_OPshons/",
+        "alternative_example": "I am considering a new career.",
+        "usage_example_es": "Deberíamos considerar todas las opciones.",
+        "char_count": "three",
+        "usage_context_en": "options/decisions",
+        "usage_context_es": "opciones/decisiones"
+      },
+      {
+        "meaning": "Creer/Juzgar",
+        "usage_example": "I consider him a good friend.",
+        "pronunciation_guide_es": "/ai_konSIDER_jim_a_gud_FREND/",
+        "alternative_example": "She is considered an expert.",
+        "usage_example_es": "Lo considero un buen amigo.",
+        "char_count": "three",
+        "usage_context_en": "judgment/reputation",
+        "usage_context_es": "juicio/reputación"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "name": "expect",
+    "phonetic": "/ɪkˈspɛkt/",
+    "spoken_phonetic_us": "/ɪkˈspɛkt/",
+    "search_term": "verb/anticipate/level_up",
+    "is_verb": true,
+    "learned": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Esperar (que algo suceda)",
+        "usage_example": "I expect a call from him soon.",
+        "pronunciation_guide_es": "/ai_ikSPEKT_a_KOL_from_jim_sun/",
+        "alternative_example": "They expect us to be on time.",
+        "usage_example_es": "Espero una llamada de él pronto.",
+        "char_count": "two",
+        "usage_context_en": "anticipation/punctuality",
+        "usage_context_es": "anticipación/puntualidad",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_11_def0.avif"
+      },
+      {
+        "meaning": "Exigir (formal)",
+        "usage_example": "What do you expect of me?",
+        "pronunciation_guide_es": "/uat_du_iu_ikSPEKT_of_mi/",
+        "alternative_example": "We expect a full refund.",
+        "usage_example_es": "¿Qué esperas de mí?",
+        "char_count": "two",
+        "usage_context_en": "demand/refund",
+        "usage_context_es": "demanda/reembolso",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_11_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "name": "decide",
+    "phonetic": "/dɪˈsaɪd/",
+    "spoken_phonetic_us": "/dɪˈsaɪd/",
+    "search_term": "verb/choose/level_up",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Decidir/Resolver",
+        "usage_example": "We need to decide quickly.",
+        "pronunciation_guide_es": "/ui_NID_tu_diSAID_KUICKli/",
+        "alternative_example": "Have you decided on a color?",
+        "usage_example_es": "Necesitamos decidirnos rápido.",
+        "char_count": "two",
+        "usage_context_en": "time/choice",
+        "usage_context_es": "tiempo/elección"
+      },
+      {
+        "meaning": "Determinar/Fallar (legal)",
+        "usage_example": "The judge will decide the case.",
+        "pronunciation_guide_es": "/de_YADy_uil_diSAID_de_KEIS/",
+        "alternative_example": "She decided to study abroad.",
+        "usage_example_es": "El juez decidirá el caso.",
+        "char_count": "two",
+        "usage_context_en": "law/plans",
+        "usage_context_es": "ley/planes"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "name": "understand",
+    "phonetic": "/ˌʌndərˈstænd/",
+    "spoken_phonetic_us": "/ˌʌndərˈstænd/",
+    "search_term": "verb/comprehend/level_up",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Entender/Comprender",
+        "usage_example": "I don't understand the question.",
+        "pronunciation_guide_es": "/ai_dont_anderSTAND_de_KUESchon/",
+        "alternative_example": "She understands Spanish.",
+        "usage_example_es": "No entiendo la pregunta.",
+        "char_count": "three",
+        "usage_context_en": "comprehension/language",
+        "usage_context_es": "comprensión/idioma"
+      },
+      {
+        "meaning": "Saber/Interpretar",
+        "usage_example": "I understand you are busy.",
+        "pronunciation_guide_es": "/ai_anderSTAND_iu_ar_BISI/",
+        "alternative_example": "He understands my feelings.",
+        "usage_example_es": "Entiendo que estás ocupado.",
+        "char_count": "three",
+        "usage_context_en": "awareness/empathy",
+        "usage_context_es": "consciencia/empatía"
+      }
+    ],
+    "irregular": {
+      "past": {
+        "form": "understood",
+        "phonetic": "/ˌʌndərˈstʊd/",
+        "spoken_phonetic_us": "/ˌʌndərˈstʊd/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Past of understand",
+        "definitions": [
+          {
+            "usage_example": "I understood everything you said.",
+            "usage_example_es": "Entendí todo lo que dijiste.",
+            "pronunciation_guide_es": "/ai_anderSTUD_EVriTHing_iu_SED/",
+            "meaning": "Pasado de Entender"
+          },
+          {
+            "usage_example": "We understood each other perfectly.",
+            "usage_example_es": "Nos comprendimos perfectamente.",
+            "pronunciation_guide_es": "/ui_anderSTUD_ICH_ader_PERfektli/",
+            "meaning": "Pasado de Comprender"
+          }
+        ]
+      },
+      "participle": {
+        "form": "understood",
+        "phonetic": "/ˌʌndərˈstʊd/",
+        "spoken_phonetic_us": "/ˌʌndərˈstʊd/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Participle of understand",
+        "definitions": [
+          {
+            "usage_example": "I understood everything you said.",
+            "usage_example_es": "Entendí todo lo que dijiste.",
+            "pronunciation_guide_es": "/ai_anderSTUD_EVriTHing_iu_SED/",
+            "meaning": "Participio de Entender"
+          },
+          {
+            "usage_example": "We understood each other perfectly.",
+            "usage_example_es": "Nos comprendimos perfectamente.",
+            "pronunciation_guide_es": "/ui_anderSTUD_ICH_ader_PERfektli/",
+            "meaning": "Participio de Comprender"
+          }
+        ]
+      }
+    },
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "name": "choose",
+    "phonetic": "/ʧuːz/",
+    "spoken_phonetic_us": "/ʧuːz/",
+    "search_term": "verb/select/level_up",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Elegir/Escoger",
+        "usage_example": "You have to choose one option.",
+        "pronunciation_guide_es": "/iu_JAV_tu_CHUZ_uan_OPshon/",
+        "alternative_example": "I choose the blue shirt.",
+        "usage_example_es": "Tienes que elegir una opción.",
+        "char_count": "one",
+        "usage_context_en": "decision/selection",
+        "usage_context_es": "decisión/selección"
+      },
+      {
+        "meaning": "Decidir/Preferir",
+        "usage_example": "She chooses to stay home.",
+        "pronunciation_guide_es": "/shi_CHOUZ_tu_STEI_JOM/",
+        "alternative_example": "We must choose wisely.",
+        "usage_example_es": "Ella elige quedarse en casa.",
+        "char_count": "one",
+        "usage_context_en": "action/preference",
+        "usage_context_es": "acción/preferencia"
+      }
+    ],
+    "irregular": {
+      "past": {
+        "form": "chose",
+        "phonetic": "/tʃoʊz/",
+        "spoken_phonetic_us": "/tʃoʊz/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Past of choose",
+        "definitions": [
+          {
+            "usage_example": "She chose the blue dress for the party.",
+            "usage_example_es": "Ella eligió el vestido azul para la fiesta.",
+            "pronunciation_guide_es": "/shi_CHOUS_de_BLU_DRES_for_de_PARTI/",
+            "meaning": "Pasado de Elegir"
+          },
+          {
+            "usage_example": "They chose to stay home instead.",
+            "usage_example_es": "Escogieron quedarse en casa en su lugar.",
+            "pronunciation_guide_es": "/dei_CHOUS_tu_STEI_JOUM_inSTED/",
+            "meaning": "Pasado de Escoger"
+          }
+        ]
+      },
+      "participle": {
+        "form": "chosen",
+        "phonetic": "/ˈtʃoʊzən/",
+        "spoken_phonetic_us": "/ˈtʃoʊzən/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Participle of choose",
+        "definitions": [
+          {
+            "usage_example": "She chose the blue dress for the party.",
+            "usage_example_es": "Ella eligió el vestido azul para la fiesta.",
+            "pronunciation_guide_es": "/shi_CHOUS_de_BLU_DRES_for_de_PARTI/",
+            "meaning": "Participio de Elegir"
+          },
+          {
+            "usage_example": "They chose to stay home instead.",
+            "usage_example_es": "Escogieron quedarse en casa en su lugar.",
+            "pronunciation_guide_es": "/dei_CHOUS_tu_STEI_JOUM_inSTED/",
+            "meaning": "Participio de Escoger"
+          }
+        ]
+      }
+    },
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "name": "forget",
+    "phonetic": "/fərˈɡɛt/",
+    "spoken_phonetic_us": "/fərˈɡɛt/",
+    "search_term": "verb/omit memory/level_up",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Olvidar",
+        "usage_example": "I always forget his birthday.",
+        "pronunciation_guide_es": "/ai_OLueis_forGET_jis_BIRTHdei/",
+        "alternative_example": "Don't forget your keys.",
+        "usage_example_es": "Siempre olvido su cumpleaños.",
+        "char_count": "two",
+        "usage_context_en": "memory/tasks",
+        "usage_context_es": "memoria/tareas"
+      },
+      {
+        "meaning": "Dejar de pensar en",
+        "usage_example": "I can't forget what she said.",
+        "pronunciation_guide_es": "/ai_KANT_forGET_uat_shi_SED/",
+        "alternative_example": "I forgot to call him.",
+        "usage_example_es": "No puedo olvidar lo que dijo.",
+        "char_count": "two",
+        "usage_context_en": "past events/actions",
+        "usage_context_es": "eventos pasados/acciones"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "name": "realize",
+    "phonetic": "/ˈriːəlaɪz/",
+    "spoken_phonetic_us": "/ˈriːəlaɪz/",
+    "search_term": "verb/understand suddenly/intermediate",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Darse cuenta de",
+        "usage_example": "I suddenly realized I forgot my keys.",
+        "pronunciation_guide_es": "/ai_SODenli_RIalaizd_ai_forGOT_mai_KIS/",
+        "alternative_example": "Do you realize how important this is?",
+        "usage_example_es": "De repente me di cuenta de que olvidé mis llaves.",
+        "char_count": "three",
+        "usage_context_en": "awareness/understanding",
+        "usage_context_es": "conciencia/comprensión"
+      },
+      {
+        "meaning": "Cumplir/Hacer realidad (un sueño)",
+        "usage_example": "She finally realized her dream of traveling.",
+        "pronunciation_guide_es": "/shi_FAINali_RIalaizd_her_DRIM_of_TRAveling/",
+        "alternative_example": "He realized his full potential.",
+        "usage_example_es": "Finalmente hizo realidad su sueño de viajar.",
+        "char_count": "three",
+        "usage_context_en": "achievement/dreams",
+        "usage_context_es": "logro/sueños"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "name": "guess",
+    "phonetic": "/ɡɛs/",
+    "spoken_phonetic_us": "/ɡɛs/",
+    "search_term": "verb/suppose/intermediate",
+    "is_verb": true,
+    "learned": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Adivinar",
+        "usage_example": "Can you guess my age?",
+        "pronunciation_guide_es": "/kan_iu_GUES_mai_EIY/",
+        "alternative_example": "I guessed the correct answer.",
+        "usage_example_es": "¿Puedes adivinar mi edad?",
+        "char_count": "one",
+        "usage_context_en": "questions/answers",
+        "usage_context_es": "preguntas/respuestas",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_53_def0.avif"
+      },
+      {
+        "meaning": "Suponer/Creer (informal)",
+        "usage_example": "I guess it will rain tomorrow.",
+        "pronunciation_guide_es": "/ai_GUES_it_uil_REIN_tuMOROU/",
+        "alternative_example": "I guess I should leave now.",
+        "usage_example_es": "Supongo que lloverá mañana.",
+        "char_count": "one",
+        "usage_context_en": "opinion/supposition",
+        "usage_context_es": "opinión/suposición",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_53_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "name": "wonder",
+    "phonetic": "/ˈwʌndər/",
+    "spoken_phonetic_us": "/ˈwʌndər/",
+    "search_term": "verb/ask oneself/intermediate",
+    "is_verb": true,
+    "learned": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Preguntarse/Querer saber",
+        "usage_example": "I wonder why he is late.",
+        "pronunciation_guide_es": "/ai_UONDER_UAI_ji_is_LEIT/",
+        "alternative_example": "I wonder if she likes me.",
+        "usage_example_es": "Me pregunto por qué llega tarde.",
+        "char_count": "two",
+        "usage_context_en": "curiosity/doubt",
+        "usage_context_es": "curiosidad/duda",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_54_def0.avif"
+      },
+      {
+        "meaning": "Maravillarse/Asombrarse",
+        "usage_example": "I wonder at her ability to stay calm.",
+        "pronunciation_guide_es": "/ai_UONDER_at_her_aBILiti_tu_STEI_KALM/",
+        "alternative_example": "We wondered at the beauty of the view.",
+        "usage_example_es": "Me maravilla su habilidad para mantener la calma.",
+        "char_count": "two",
+        "usage_context_en": "admiration/awe",
+        "usage_context_es": "admiración/asombro",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_54_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "name": "recognize",
+    "phonetic": "/ˈrɛkəɡnaɪz/",
+    "spoken_phonetic_us": "/ˈrɛkəɡnaɪz/",
+    "search_term": "verb/identify/intermediate",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Reconocer (identificar)",
+        "usage_example": "I didn't recognize you with the new haircut.",
+        "pronunciation_guide_es": "/ai_DIDent_REkognaiz_iu_uith_de_NIU_JERkat/",
+        "alternative_example": "Do you recognize this song?",
+        "usage_example_es": "No te reconocí con el nuevo corte de pelo.",
+        "char_count": "three",
+        "usage_context_en": "identity/memory",
+        "usage_context_es": "identidad/memoria"
+      },
+      {
+        "meaning": "Reconocer (aceptar, admitir)",
+        "usage_example": "We must recognize the problem.",
+        "pronunciation_guide_es": "/ui_MAST_REkognaiz_de_PROblem/",
+        "alternative_example": "The government recognized his bravery.",
+        "usage_example_es": "Debemos reconocer el problema.",
+        "char_count": "three",
+        "usage_context_en": "acceptance/official",
+        "usage_context_es": "aceptación/oficial"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "name": "doubt",
+    "phonetic": "/daʊt/",
+    "spoken_phonetic_us": "/daʊt/",
+    "search_term": "verb/be unsure/intermediate",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Dudar (no estar seguro)",
+        "usage_example": "I doubt he will come.",
+        "pronunciation_guide_es": "/ai_DAUT_ji_uil_KAM/",
+        "alternative_example": "She doubts his story.",
+        "usage_example_es": "Dudo que venga.",
+        "char_count": "one",
+        "usage_context_en": "uncertainty/belief",
+        "usage_context_es": "incertidumbre/creencia"
+      },
+      {
+        "meaning": "Cuestionar",
+        "usage_example": "Never doubt your abilities.",
+        "pronunciation_guide_es": "/NEver_DAUT_yor_aBILitis/",
+        "alternative_example": "I have no reason to doubt him.",
+        "usage_example_es": "Nunca dudes de tus habilidades.",
+        "char_count": "one",
+        "usage_context_en": "confidence/trust",
+        "usage_context_es": "confianza/confianza"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "name": "plan",
+    "phonetic": "/plæn/",
+    "spoken_phonetic_us": "/plæn/",
+    "search_term": "verb/organize/intermediate",
+    "is_verb": true,
+    "learned": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Planear/Planificar",
+        "usage_example": "We are planning a trip to the coast.",
+        "pronunciation_guide_es": "/ui_ar_PLANing_a_TRIP_tu_de_KOUST/",
+        "alternative_example": "What do you plan to do?",
+        "usage_example_es": "Estamos planeando un viaje a la costa.",
+        "char_count": "one",
+        "usage_context_en": "future/travel",
+        "usage_context_es": "futuro/viaje",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_59_def0.avif"
+      },
+      {
+        "meaning": "Tener la intención de",
+        "usage_example": "I plan to study more this year.",
+        "pronunciation_guide_es": "/ai_PLAN_tu_STADI_MOR_dis_YIR/",
+        "alternative_example": "He planned his moves carefully.",
+        "usage_example_es": "Tengo la intención de estudiar más este año.",
+        "char_count": "one",
+        "usage_context_en": "intention/strategy",
+        "usage_context_es": "intención/estrategia",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_59_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "name": "worry",
+    "phonetic": "/ˈwɜːri/",
+    "spoken_phonetic_us": "/ˈwɜːri/",
+    "search_term": "verb/be anxious/intermediate",
+    "is_verb": true,
+    "learned": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Preocuparse",
+        "usage_example": "Don't worry about me.",
+        "pronunciation_guide_es": "/dont_UORI_aBAUT_mi/",
+        "alternative_example": "I am worried about the test.",
+        "usage_example_es": "No te preocupes por mí.",
+        "char_count": "two",
+        "usage_context_en": "anxiety/reassurance",
+        "usage_context_es": "ansiedad/tranquilizar",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_78_def0.avif"
+      },
+      {
+        "meaning": "Molestar/Inquietar",
+        "usage_example": "Does the noise worry you?",
+        "pronunciation_guide_es": "/das_de_NOIS_UORI_iu/",
+        "alternative_example": "She worries her parents when she's late.",
+        "usage_example_es": "¿Te molesta el ruido?",
+        "char_count": "two",
+        "usage_context_en": "bother/concern",
+        "usage_context_es": "molestia/preocupación",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_78_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  }
+]

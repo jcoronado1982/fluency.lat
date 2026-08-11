@@ -1,0 +1,322 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_0_def0.avif",
+        "meaning": "Me / A mí mismo (Reflexivo)",
+        "pronunciation_guide_es": "/ai_COT_mai-SELF/",
+        "usage_context_en": "Used when the subject and object of the verb are the same (I).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (Yo).",
+        "usage_example": "I cut myself.",
+        "usage_example_es": "Me corté."
+      },
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_0_def1.avif",
+        "meaning": "Yo mismo (Énfasis)",
+        "pronunciation_guide_es": "/ai_DID_it_mai-SELF/",
+        "usage_context_en": "Used to add emphasis to the subject (I).",
+        "usage_context_es": "Usado para añadir énfasis al sujeto (Yo).",
+        "usage_example": "I did it myself.",
+        "usage_example_es": "Lo hice yo mismo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "is_verb": false,
+    "name": "myself",
+    "phonetic": "/maɪˈsɛlf/",
+    "search_term": "pronoun/reflexive",
+    "spoken_phonetic_us": "/maɪˈsɛlf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_1_def0.avif",
+        "meaning": "Te / Se / A ti mismo (Reflexivo)",
+        "pronunciation_guide_es": "/did_iu_HORT_iur-SELF/",
+        "usage_context_en": "Used when the subject and object of the verb are the same (You).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (Tú/Usted).",
+        "usage_example": "Did you hurt yourself?",
+        "usage_example_es": "¿Te lastimaste?"
+      },
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_1_def1.avif",
+        "meaning": "Tú mismo / Usted mismo (Énfasis)",
+        "pronunciation_guide_es": "/iu_can_DU_it_iur-SELF/",
+        "usage_context_en": "Used to add emphasis to the subject (You).",
+        "usage_context_es": "Usado para añadir énfasis al sujeto (Tú/Usted).",
+        "usage_example": "You can do it yourself.",
+        "usage_example_es": "Puedes hacerlo tú mismo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "is_verb": false,
+    "name": "yourself",
+    "phonetic": "/jɔːrˈsɛlf/",
+    "search_term": "pronoun/reflexive",
+    "spoken_phonetic_us": "/jərˈsɛlf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_2_def0.avif",
+        "meaning": "Se / A sí mismo (Reflexivo, masculino)",
+        "pronunciation_guide_es": "/hi_HORT_him-SELF/",
+        "usage_context_en": "Used when the subject and object of the verb are the same (He).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (Él).",
+        "usage_example": "He hurt himself.",
+        "usage_example_es": "Él se lastimó."
+      },
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_2_def1.avif",
+        "meaning": "Él mismo (Énfasis)",
+        "pronunciation_guide_es": "/hi_BILT_it_him-SELF/",
+        "usage_context_en": "Used to add emphasis to the subject (He).",
+        "usage_context_es": "Usado para añadir énfasis al sujeto (Él).",
+        "usage_example": "He built it himself.",
+        "usage_example_es": "Él mismo lo construyó."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "is_verb": false,
+    "name": "himself",
+    "phonetic": "/hɪmˈsɛlf/",
+    "search_term": "pronoun/reflexive",
+    "spoken_phonetic_us": "/hɪmˈsɛlf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_3_def0.avif",
+        "meaning": "Se / A sí misma (Reflexivo, femenino)",
+        "pronunciation_guide_es": "/shi_TOT_her-SELF_tu_PLEI_de_pi-A-no/",
+        "usage_context_en": "Used when the subject and object of the verb are the same (She).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (Ella).",
+        "usage_example": "She taught herself to play the piano.",
+        "usage_example_es": "Ella se enseñó a sí misma a tocar el piano."
+      },
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_3_def1.avif",
+        "meaning": "Ella misma (Énfasis)",
+        "pronunciation_guide_es": "/shi_DID_it_her-SELF/",
+        "usage_context_en": "Used to add emphasis to the subject (She).",
+        "usage_context_es": "Usado para añadir énfasis al sujeto (Ella).",
+        "usage_example": "She did it herself.",
+        "usage_example_es": "Ella misma lo hizo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "is_verb": false,
+    "name": "herself",
+    "phonetic": "/hɜːrˈsɛlf/",
+    "search_term": "pronoun/reflexive",
+    "spoken_phonetic_us": "/hərˈsɛlf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Intermediate",
+    "definitions": [
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_4_def0.avif",
+        "meaning": "Nos / A nosotros mismos (Reflexivo)",
+        "pronunciation_guide_es": "/ui_en-YOID_aur-SELVS/",
+        "usage_context_en": "Used when the subject and object of the verb are the same (We).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (Nosotros/as).",
+        "usage_example": "We enjoyed ourselves.",
+        "usage_example_es": "Nos divertimos (a nosotros mismos)."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "is_verb": false,
+    "name": "ourselves",
+    "phonetic": "/ˌaʊərˈsɛlvz/",
+    "search_term": "pronoun/reflexive",
+    "spoken_phonetic_us": "/ˌaʊərˈsɛlvz/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Intermediate",
+    "definitions": [
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_5_def0.avif",
+        "meaning": "Se / A sí mismos (Reflexivo)",
+        "pronunciation_guide_es": "/dei_HORT_dem-SELVS/",
+        "usage_context_en": "Used when the subject and object of the verb are the same (They).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (Ellos/Ellas).",
+        "usage_example": "They hurt themselves.",
+        "usage_example_es": "Se lastimaron (a sí mismos)."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "is_verb": false,
+    "name": "themselves",
+    "phonetic": "/ðəmˈsɛlvz/",
+    "search_term": "pronoun/reflexive",
+    "spoken_phonetic_us": "/ðəmˈsɛlvz/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Intermediate",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_6_def0.avif",
+        "meaning": "Se / A sí mismo (Reflexivo, neutro)",
+        "pronunciation_guide_es": "/de_ma-SHIN_FIKST_it-SELF/",
+        "usage_context_en": "Used when the subject and object of the verb are the same (It).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (Ello/Cosa).",
+        "usage_example": "The machine fixed itself.",
+        "usage_example_es": "La máquina se arregló a sí misma."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "is_verb": false,
+    "name": "itself",
+    "phonetic": "/ɪtˈsɛlf/",
+    "search_term": "pronoun/reflexive",
+    "spoken_phonetic_us": "/ɪtˈsɛlf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Intermediate",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_7_def0.avif",
+        "meaning": "El uno al otro / Mutuamente (dos personas)",
+        "pronunciation_guide_es": "/mai_PA-rents_LOV_ich_O-der/",
+        "usage_context_en": "A reciprocal pronoun used when referring to two people or things.",
+        "usage_context_es": "Pronombre recíproco usado al referirse a dos personas o cosas.",
+        "usage_example": "My parents love each other.",
+        "usage_example_es": "Mis padres se aman (el uno al otro)."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Recíproco",
+    "is_verb": false,
+    "name": "each other",
+    "phonetic": "/iːtʃ ˈʌðər/",
+    "search_term": "pronoun/reciprocal",
+    "spoken_phonetic_us": "/iːtʃ ˈʌðər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Intermediate",
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_8_def0.avif",
+        "meaning": "Unos a otros / Mutuamente (más de dos)",
+        "pronunciation_guide_es": "/de_TIM_MEM-bers_HELP_uan_a-NO-der/",
+        "usage_context_en": "A reciprocal pronoun used when referring to more than two people or things.",
+        "usage_context_es": "Pronombre recíproco usado al referirse a más de dos personas o cosas.",
+        "usage_example": "The team members help one another.",
+        "usage_example_es": "Los miembros del equipo se ayudan unos a otros."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Recíproco",
+    "is_verb": false,
+    "name": "one another",
+    "phonetic": "/wʌn əˈnʌðər/",
+    "search_term": "pronoun/reciprocal",
+    "spoken_phonetic_us": "/wʌn əˈnʌðər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Intermediate",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_9_def0.avif",
+        "meaning": "Se / A ustedes mismos (Reflexivo)",
+        "pronunciation_guide_es": "/did_iu_JORT_iurSELVS/",
+        "usage_context_en": "Used when the subject and object of the verb are the same (you plural).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (ustedes/vosotros).",
+        "usage_example": "Did you hurt yourselves?",
+        "usage_example_es": "¿Se lastimaron ustedes mismos?"
+      },
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_9_def1.avif",
+        "meaning": "Ustedes mismos / Vosotros mismos (Énfasis)",
+        "pronunciation_guide_es": "/iu_can_DU_it_iurSELVS/",
+        "usage_context_en": "Used to add emphasis to the subject (you plural).",
+        "usage_context_es": "Usado para añadir énfasis al sujeto (ustedes/vosotros).",
+        "usage_example": "You can do it yourselves.",
+        "usage_example_es": "Pueden hacerlo ustedes mismos."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "is_verb": false,
+    "name": "yourselves",
+    "phonetic": "/jʊrˈsɛlvz/",
+    "search_term": "pronoun/reflexive",
+    "spoken_phonetic_us": "/jərˈsɛlvz/"
+  }
+]

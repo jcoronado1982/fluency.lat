@@ -1,0 +1,54 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "agenda",
+    "phonetic": "/əˈdʒɛndə/",
+    "spoken_phonetic_us": "/əˈdʒɛndə/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Agenda / Orden del día",
+        "usage_example": "What is on the agenda today?",
+        "pronunciation_guide_es": "/uat_is_on_di_a-YEN-da_tu-DEI/",
+        "usage_example_es": "¿Qué hay en la agenda hoy?",
+        "char_count": "6",
+        "usage_context_en": "A list of items to be discussed at a formal meeting.",
+        "usage_context_es": "Una lista de temas a discutir en una reunión formal.",
+        "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_7_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "schedule",
+    "phonetic": "/ˈʃɛdjuːl/",
+    "spoken_phonetic_us": "/ˈskɛdʒuːl/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Horario / Agenda / Programa",
+        "usage_example": "What is your schedule for today?",
+        "pronunciation_guide_es": "/uat_is_iur_SKE-yul_for_tu-DEI/",
+        "usage_example_es": "¿Cuál es tu horario para hoy?",
+        "char_count": "6",
+        "usage_context_en": "A plan for carrying out a process or procedure, giving lists of intended events and times.",
+        "usage_context_es": "Un plan para llevar a cabo un proceso, dando listas de eventos y horas previstas.",
+        "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_102_def0.avif"
+      }
+    ]
+  }
+]

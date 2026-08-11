@@ -1,0 +1,308 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "and",
+    "phonetic": "/ænd/",
+    "spoken_phonetic_us": "/ænd/",
+    "search_term": "conjunction/linking",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Addition",
+    "definitions": [
+      {
+        "meaning": "Y",
+        "usage_example": "I like coffee and tea.",
+        "pronunciation_guide_es": "/ai_LAIK_CO-fi_and_TI/",
+        "usage_example_es": "Me gusta el café y el té.",
+        "char_count": "5",
+        "usage_context_en": "Used to connect two words, phrases, or clauses of equal importance.",
+        "usage_context_es": "Usado para conectar dos palabras, frases o cláusulas de igual importancia.",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples_e_time_and_sequence/1-basic_everyday_addition_examples_e_time_and_sequence_card_0_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "first",
+    "phonetic": "/fɜrst/",
+    "spoken_phonetic_us": "/fɜrst/",
+    "search_term": "adverb/sequence",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Sequence",
+    "definitions": [
+      {
+        "meaning": "Primero / En primer lugar",
+        "usage_example": "First, open the box. Then, read the manual.",
+        "pronunciation_guide_es": "/FIRST_OU-pen_de_BOX_DEN_rid_de_MA-niu-al/",
+        "usage_example_es": "Primero, abre la caja. Luego, lee el manual.",
+        "char_count": "7",
+        "usage_context_en": "Used to mark the beginning of a sequence or list.",
+        "usage_context_es": "Usado para marcar el inicio de una secuencia o lista.",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples_e_time_and_sequence/1-basic_everyday_addition_examples_e_time_and_sequence_card_1_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "also",
+    "phonetic": "/ˈɔlsoʊ/",
+    "spoken_phonetic_us": "/ˈɔlsoʊ/",
+    "search_term": "adverb/addition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Addition",
+    "definitions": [
+      {
+        "meaning": "También / Además",
+        "usage_example": "I also like tea.",
+        "pronunciation_guide_es": "/ai_OL-sou_LAIK_TI/",
+        "usage_example_es": "También me gusta el té.",
+        "char_count": "4",
+        "usage_context_en": "In addition; too. (Typically placed before the main verb or after 'to be').",
+        "usage_context_es": "Además; también. (Típicamente ubicado antes del verbo principal o después de 'to be').",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples_e_time_and_sequence/1-basic_everyday_addition_examples_e_time_and_sequence_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "next",
+    "phonetic": "/nɛkst/",
+    "spoken_phonetic_us": "/nɛkst/",
+    "search_term": "adverb/sequence",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Sequence",
+    "definitions": [
+      {
+        "meaning": "Luego / Siguiente",
+        "usage_example": "Next, add the sugar.",
+        "pronunciation_guide_es": "/NEKST_AD_de_SHU-gar/",
+        "usage_example_es": "Luego, añade el azúcar.",
+        "char_count": "4",
+        "usage_context_en": "Used to indicate the step following the current one.",
+        "usage_context_es": "Usado para indicar el paso siguiente al actual.",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples_e_time_and_sequence/1-basic_everyday_addition_examples_e_time_and_sequence_card_3_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "too",
+    "phonetic": "/tu/",
+    "spoken_phonetic_us": "/tu/",
+    "search_term": "adverb/addition/intensifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Addition",
+    "definitions": [
+      {
+        "meaning": "También",
+        "usage_example": "I like coffee, too.",
+        "pronunciation_guide_es": "/ai_LAIK_CO-fi_TU/",
+        "usage_example_es": "Me gusta el café también.",
+        "char_count": "4",
+        "usage_context_en": "In addition; also. (Typically at the end of a clause).",
+        "usage_context_es": "Además; también. (Típicamente al final de una cláusula).",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples_e_time_and_sequence/1-basic_everyday_addition_examples_e_time_and_sequence_card_4_def0.avif"
+      },
+      {
+        "meaning": "Demasiado",
+        "usage_example": "It is too hot.",
+        "pronunciation_guide_es": "/it_is_TU_HOT/",
+        "usage_example_es": "Hace demasiado calor.",
+        "char_count": "4",
+        "usage_context_en": "An intensifier meaning 'excessively' or 'more than is wanted'.",
+        "usage_context_es": "Un intensificador que significa 'excesivamente' o 'más de lo deseado'.",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples_e_time_and_sequence/1-basic_everyday_addition_examples_e_time_and_sequence_card_4_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "after that",
+    "phonetic": "/ˈæftər ðæt/",
+    "spoken_phonetic_us": "/ˈæftər ðæt/",
+    "search_term": "phrase/sequence",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Sequence",
+    "definitions": [
+      {
+        "meaning": "Después de eso",
+        "usage_example": "We ate dinner, and after that, we watched a movie.",
+        "pronunciation_guide_es": "/ui_EIT_DI-ner_and_AF-ter_DAT_ui_UACHT_a_MU-vi/",
+        "usage_example_es": "Cenamos y, después de eso, vimos una película.",
+        "char_count": "9",
+        "usage_context_en": "Used to introduce the next event in a sequence.",
+        "usage_context_es": "Usado para introducir el siguiente evento en una secuencia.",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples_e_time_and_sequence/1-basic_everyday_addition_examples_e_time_and_sequence_card_5_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "or",
+    "phonetic": "/ɔr/",
+    "spoken_phonetic_us": "/ɔr/",
+    "search_term": "connector/alternative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Alternative",
+    "definitions": [
+      {
+        "meaning": "O (alternativa)",
+        "usage_example": "Would you like tea or coffee?",
+        "pronunciation_guide_es": "/uud_iu_laik_ti_or_co-fi/",
+        "usage_example_es": "¿Te gustaría té o café?",
+        "char_count": "2",
+        "usage_context_en": "Used to link alternatives.",
+        "usage_context_es": "Usado para enlazar alternativas.",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples_e_time_and_sequence/1-basic_everyday_addition_examples_e_time_and_sequence_card_6_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "finally",
+    "phonetic": "/ˈfaɪnəli/",
+    "spoken_phonetic_us": "/ˈfaɪnəli/",
+    "search_term": "adverb/sequence",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Sequence",
+    "definitions": [
+      {
+        "meaning": "Finalmente / Por último",
+        "usage_example": "Finally, close the box.",
+        "pronunciation_guide_es": "/FAI-na-li_CLOUS_de_BOX/",
+        "usage_example_es": "Finalmente, cierra la caja.",
+        "char_count": "4",
+        "usage_context_en": "Used to introduce the last item in a list or sequence.",
+        "usage_context_es": "Usado para introducir el último ítem en una lista o secuencia.",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples_e_time_and_sequence/1-basic_everyday_addition_examples_e_time_and_sequence_card_7_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "for example",
+    "phonetic": "/fɔr ɪɡˈzæmpəl/",
+    "spoken_phonetic_us": "/fɔr ɪɡˈzæmpəl/",
+    "search_term": "phrase/example",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Example",
+    "definitions": [
+      {
+        "meaning": "Por ejemplo",
+        "usage_example": "I like fruits, for example, apples.",
+        "pronunciation_guide_es": "/ai_LAIK_FRUTS_for_ex-AM-pol_A-pols/",
+        "usage_example_es": "Me gustan las frutas, por ejemplo, las manzanas.",
+        "char_count": "6",
+        "usage_context_en": "Used to introduce a specific item that illustrates a general point.",
+        "usage_context_es": "Usado para introducir un ítem específico que ilustra un punto general.",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples_e_time_and_sequence/1-basic_everyday_addition_examples_e_time_and_sequence_card_8_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "then",
+    "phonetic": "/ðen/",
+    "spoken_phonetic_us": "/ðen/",
+    "search_term": "adverb/sequence/result",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Sequence",
+    "definitions": [
+      {
+        "meaning": "Luego / Después",
+        "usage_example": "First I work, then I rest.",
+        "pronunciation_guide_es": "/FIRST_ai_UORK_den_ai_REST/",
+        "usage_example_es": "Primero trabajo, luego descanso.",
+        "char_count": "5",
+        "usage_context_en": "Used to indicate what happens next in a sequence.",
+        "usage_context_es": "Usado para indicar lo que sucede a continuación en una secuencia.",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples_e_time_and_sequence/1-basic_everyday_addition_examples_e_time_and_sequence_card_9_def0.avif"
+      },
+      {
+        "meaning": "Entonces / En ese caso",
+        "usage_example": "If you are hungry, then you should eat.",
+        "pronunciation_guide_es": "/if_iu_ar_HON-gri_DEN_iu_shud_IT/",
+        "usage_example_es": "Si tienes hambre, entonces deberías comer.",
+        "char_count": "7",
+        "usage_context_en": "Used to state a consequence or result.",
+        "usage_context_es": "Usado para indicar una consecuencia o resultado.",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples_e_time_and_sequence/1-basic_everyday_addition_examples_e_time_and_sequence_card_9_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "when",
+    "phonetic": "/wɛn/",
+    "spoken_phonetic_us": "/wɛn/",
+    "search_term": "conjunction/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Time",
+    "definitions": [
+      {
+        "meaning": "Cuando",
+        "usage_example": "Call me when you arrive.",
+        "pronunciation_guide_es": "/COL_mi_UEN_iu_a-RAIV/",
+        "usage_example_es": "Llámame cuando llegues.",
+        "char_count": "5",
+        "usage_context_en": "Used to introduce a clause of time.",
+        "usage_context_es": "Usado para introducir una cláusula de tiempo.",
+        "imagePath": "/card_images/connectors/1-basic/everyday_addition_examples_e_time_and_sequence/1-basic_everyday_addition_examples_e_time_and_sequence_card_10_def0.avif"
+      }
+    ]
+  }
+]

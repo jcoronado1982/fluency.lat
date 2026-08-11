@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/3-advanced/society/3-advanced_society_card_0_def0.avif",
+        "meaning": "Legislación / Leyes",
+        "pronunciation_guide_es": "/de_GO-vern-ment_PAST_niu_le-yis-LEI-shon/",
+        "usage_context_en": "Laws, considered collectively.",
+        "usage_context_es": "Leyes, consideradas colectivamente.",
+        "usage_example": "The government passed new legislation.",
+        "usage_example_es": "El gobierno aprobó nueva legislación."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "legislation",
+    "phonetic": "/ˌlɛdʒɪsˈleɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˌlɛdʒɪsˈleɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/society/3-advanced_society_card_1_def0.avif",
+        "meaning": "Obligación",
+        "pronunciation_guide_es": "/iu_HAV_no_o-bli-GUEI-shon_tu_STEI/",
+        "usage_context_en": "An act or course of action to which a person is morally or legally bound; a duty.",
+        "usage_context_es": "Un acto o curso de acción al que una persona está moral o legalmente obligada; un deber.",
+        "usage_example": "You have no obligation to stay.",
+        "usage_example_es": "No tienes obligación de quedarte."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "obligation",
+    "phonetic": "/ˌɒblɪˈɡeɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˌɑblɪˈɡeɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/society/3-advanced_society_card_2_def0.avif",
+        "meaning": "Multa / Castigo / Penal",
+        "pronunciation_guide_es": "/de_PE-nal-ti_for_SPI-ding_is_HAI/",
+        "usage_context_en": "A punishment imposed for breaking a law, rule, or contract.",
+        "usage_context_es": "Un castigo impuesto por infringir una ley, regla o contrato.",
+        "usage_example": "The penalty for speeding is high.",
+        "usage_example_es": "La multa por exceso de velocidad es alta."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "penalty",
+    "phonetic": "/ˈpɛnlti/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈpɛnlti/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/3-advanced/society/3-advanced_society_card_3_def0.avif",
+        "meaning": "Político/a",
+        "pronunciation_guide_es": "/de_po-li-TI-shan_GUEIV_a_SPICH/",
+        "usage_context_en": "A person who is professionally involved in politics, especially as a holder of an elected office.",
+        "usage_context_es": "Una persona que está involucrada profesionalmente en la política, especialmente como titular de un cargo electo.",
+        "usage_example": "The politician gave a speech.",
+        "usage_example_es": "El político dio un discurso."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "politician",
+    "phonetic": "/ˌpɒlɪˈtɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˌpɑləˈtɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "imagePath": "/card_images/nouns/3-advanced/society/3-advanced_society_card_4_def0.avif",
+        "meaning": "Infraestructura",
+        "pronunciation_guide_es": "/de_SITi_NIDS_BEter_in-fra-STROK-cher/",
+        "usage_context_en": "The basic physical structures like buildings and roads",
+        "usage_context_es": "Las estructuras físicas básicas como edificios y carreteras",
+        "usage_example": "The city needs better infrastructure.",
+        "usage_example_es": "La ciudad necesita mejor infraestructura."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "is_verb": false,
+    "name": "infrastructure",
+    "phonetic": "/ˈɪnfrəˌstrʌktʃər/",
+    "search_term": "noun/concept/society/advanced",
+    "spoken_phonetic_us": "/ˈɪnfrəˌstrʌktʃər/"
+  }
+]

@@ -1,0 +1,353 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "hire",
+        "phonetic": "/haɪr/",
+        "spoken_phonetic_us": "/haɪr/",
+        "search_term": "verb/hire/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Contratar]",
+                "usage_example": "They hired my brother.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE hire AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: They hired my brother.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: empleos/trabajo]",
+                "usage_context_es": "jobs/work",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_84_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Alquilar servicios de alguien]",
+                "usage_example": "We can hire a guide.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE hire AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: We can hire a guide.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: servicios/ayuda]",
+                "usage_context_es": "services/help",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_84_def1.avif"
+            }
+        ],
+        "group_name": "Work & Jobs",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "fire",
+        "phonetic": "/faɪr/",
+        "spoken_phonetic_us": "/faɪr/",
+        "search_term": "verb/fire/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Despedir (del trabajo)]",
+                "usage_example": "They fired him.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE fire AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: They fired him.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: empleos/trabajo]",
+                "usage_context_es": "jobs/work",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_85_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Disparar]",
+                "usage_example": "He fired the gun.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE fire AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He fired the gun.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: armas/acción]",
+                "usage_context_es": "weapons/action",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_85_def1.avif"
+            }
+        ],
+        "group_name": "Work & Jobs",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "serve",
+        "phonetic": "/sɜːrv/",
+        "spoken_phonetic_us": "/sɜːrv/",
+        "search_term": "verb/duty/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Servir (comida, en una tienda)]",
+                "usage_example": "They serve dinner at 7 PM.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE serve AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: They serve dinner at 7 PM.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: comida/restaurantes]",
+                "usage_context_es": "food/restaurants",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Servir/Ser útil]",
+                "usage_example": "This tool serves many purposes.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE serve AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: This tool serves many purposes.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: utilidad/deber]",
+                "usage_context_es": "utility/duty",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "provide",
+        "phonetic": "/prəˈvaɪd/",
+        "spoken_phonetic_us": "/prəˈvaɪd/",
+        "search_term": "verb/supply/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Proporcionar/Suministrar]",
+                "usage_example": "The hotel provides free Wi-Fi.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE provide AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The hotel provides free Wi-Fi.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: servicios/necesidades]",
+                "usage_context_es": "services/necessities",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Estipular/Establecer (formal)]",
+                "usage_example": "The contract provides for a penalty.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE provide AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The contract provides for a penalty.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: ley/acuerdos]",
+                "usage_context_es": "law/agreements",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "represent",
+        "phonetic": "/rɛprɪˈzɛnt/",
+        "spoken_phonetic_us": "/rɛprɪˈzɛnt/",
+        "search_term": "verb/stand for/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Representar]",
+                "usage_example": "The symbol represents peace.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE represent AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The symbol represents peace.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL PT: símbolos/rol]",
+                "usage_context_es": "symbols/role",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Mostrar/Describir]",
+                "usage_example": "The painting represents a battle scene.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE represent AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The painting represents a battle scene.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL PT: arte/descripción]",
+                "usage_context_es": "art/description",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "cost",
+        "phonetic": "/kɒst/",
+        "spoken_phonetic_us": "/kɔːst/",
+        "search_term": "verb/price/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Costar (tener un precio)]",
+                "usage_example": "How much does this cost?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE cost AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: How much does this cost?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: precio/dinero]",
+                "usage_context_es": "price/money",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Causar una pérdida]",
+                "usage_example": "The mistake cost him his job.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE cost AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The mistake cost him his job.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: pérdida/consecuencia]",
+                "usage_context_es": "loss/consequence",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Managing & Control",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "check",
+        "phonetic": "/ʧɛk/",
+        "spoken_phonetic_us": "/ʧɛk/",
+        "search_term": "verb/verify/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Revisar/Comprobar]",
+                "usage_example": "Please check your work for mistakes.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE check AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Please check your work for mistakes.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: verificación/errores]",
+                "usage_context_es": "verification/errors",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Facturar (equipaje)/Pagar (la cuenta)]",
+                "usage_example": "We need to check our bags.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE check AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: We need to check our bags.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: viaje/hotel]",
+                "usage_context_es": "travel/hotel",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Managing & Control",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "manage",
+        "phonetic": "/ˈmænɪʤ/",
+        "spoken_phonetic_us": "/ˈmænɪʤ/",
+        "search_term": "verb/control/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Gestionar/Administrar]",
+                "usage_example": "She manages a team of 10 people.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE manage AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: She manages a team of 10 people.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: negocios/control]",
+                "usage_context_es": "business/control",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Arreglárselas/Lograr (con dificultad)]",
+                "usage_example": "How did you manage to finish on time?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE manage AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: How did you manage to finish on time?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: lograr/dificultad]",
+                "usage_context_es": "succeed/difficulty",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Managing & Control",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "control",
+        "phonetic": "/kənˈtroʊl/",
+        "spoken_phonetic_us": "/kənˈtroʊl/",
+        "search_term": "verb/manage/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Controlar/Dominar]",
+                "usage_example": "You need to control your dog.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE control AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: You need to control your dog.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: comando/emociones]",
+                "usage_context_es": "command/emotions",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Manejar/Regular (una máquina)]",
+                "usage_example": "This switch controls the lights.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE control AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: This switch controls the lights.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: función/regulación]",
+                "usage_context_es": "function/regulation",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Managing & Control",
+        "category": ""
+    }
+]

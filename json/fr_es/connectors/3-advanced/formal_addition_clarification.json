@@ -1,0 +1,86 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Además",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "connector/addition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Además]",
+                "usage_example": "La casa es hermosa. Además, está en una excelente ubicación.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: La casa es hermosa. Además, está en una excelente ubicación.]",
+                "char_count": "11",
+                "usage_context_en": "[TRADUCIR AL FR: En adición; además.]",
+                "usage_context_es": "En adición; además.",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_4_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Además / Es más (formal)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adverb/addition/formal",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Además / Es más (formal)]",
+                "usage_example": "El plan es arriesgado. Además, es caro.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: El plan es arriesgado. Además, es caro.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL FR: Como un punto adicional; además (usado para añadir un punto más fuerte y relacionado).]",
+                "usage_context_es": "Como un punto adicional; además (usado para añadir un punto más fuerte y relacionado).",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_4_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Es decir (formal)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "phrase/clarification/formal",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Es decir (formal)]",
+                "usage_example": "El hotel está cerrado; es decir, no podemos quedarnos allí.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: El hotel está cerrado; es decir, no podemos quedarnos allí.]",
+                "char_count": "8",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para explicar o especificar lo que se acaba de decir (a menudo abreviado como 'i.e.').]",
+                "usage_context_es": "Usado para explicar o especificar lo que se acaba de decir (a menudo abreviado como 'i.e.').",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_28_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Clarification",
+        "category": ""
+    }
+]

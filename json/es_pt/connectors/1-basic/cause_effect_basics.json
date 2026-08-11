@@ -1,0 +1,108 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: because]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "conjunction/reason",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Porque",
+                "usage_example": "[TRADUCIR AL PT: I am tired because I worked a lot.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Estoy cansado porque trabajé mucho.",
+                "char_count": "7",
+                "usage_context_en": "Usado para introducir una razón o causa.",
+                "usage_context_es": "[TRADUCIR AL PT: Used to introduce a reason or cause.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_19_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: so]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "conjunction/result",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Así que / Por lo tanto",
+                "usage_example": "[TRADUCIR AL PT: I worked a lot, so I am tired.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Trabajé mucho, así que estoy cansado.",
+                "char_count": "7",
+                "usage_context_en": "Usado para introducir un resultado o consecuencia.",
+                "usage_context_es": "[TRADUCIR AL PT: Used to introduce a result or consequence.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_20_def0.avif"
+            },
+            {
+                "meaning": "Para que",
+                "usage_example": "[TRADUCIR AL PT: I am saving money so I can buy a car.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Estoy ahorrando dinero para poder comprar un carro.",
+                "char_count": "9",
+                "usage_context_en": "Usado para mostrar propósito (a menudo 'so that').",
+                "usage_context_es": "[TRADUCIR AL PT: Used to show purpose (often 'so that').]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_20_def1.avif"
+            },
+            {
+                "meaning": "Tan / Muy",
+                "usage_example": "[TRADUCIR AL PT: He is so tall.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Él es tan alto.",
+                "char_count": "4",
+                "usage_context_en": "Un intensificador que significa 'muy' o 'a este grado'.",
+                "usage_context_es": "[TRADUCIR AL PT: An intensifier meaning 'very' or 'to this degree'.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_20_def2.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: that's why]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "phrase/result",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Por eso / Es por eso que",
+                "usage_example": "[TRADUCIR AL PT: He studied hard. That's why he passed.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Él estudió mucho. Por eso aprobó.",
+                "char_count": "6",
+                "usage_context_en": "Por esa razón (menos formal que 'therefore').",
+                "usage_context_es": "[TRADUCIR AL PT: For that reason (less formal than 'therefore').]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_25_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    }
+]

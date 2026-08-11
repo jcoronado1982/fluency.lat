@@ -1,0 +1,181 @@
+[
+  {
+    "name": "now",
+    "phonetic": "/naʊ/",
+    "spoken_phonetic_us": "/naʊ/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "learned": true,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Ahora",
+        "usage_example": "I have to leave now.",
+        "pronunciation_guide_es": "/ai_HAV_tu_LIV_NAU/",
+        "usage_example_es": "Tengo que irme ahora.",
+        "char_count": 5,
+        "usage_context_en": "At the present time or moment.",
+        "usage_context_es": "En el tiempo o momento presente."
+      }
+    ]
+  },
+  {
+    "name": "today",
+    "phonetic": "/təˈdeɪ/",
+    "spoken_phonetic_us": "/təˈdeɪ/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "learned": true,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Hoy",
+        "usage_example": "I have to work today.",
+        "pronunciation_guide_es": "/ai_HAV_tu_UORK_tu-DEI/",
+        "usage_example_es": "Tengo que trabajar hoy.",
+        "char_count": 5,
+        "usage_context_en": "On or during this present day.",
+        "usage_context_es": "En o durante este día presente."
+      }
+    ]
+  },
+  {
+    "name": "yesterday",
+    "phonetic": "/ˈjɛstərdeɪ/",
+    "spoken_phonetic_us": "/ˈjɛstərdeɪ/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "learned": true,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Ayer",
+        "usage_example": "I saw him yesterday.",
+        "pronunciation_guide_es": "/ai_SO_him_IES-ter-dei/",
+        "usage_example_es": "Lo vi ayer.",
+        "char_count": 4,
+        "usage_context_en": "On the day before today.",
+        "usage_context_es": "En el día antes de hoy."
+      }
+    ]
+  },
+  {
+    "name": "tomorrow",
+    "phonetic": "/təˈmɒroʊ/",
+    "spoken_phonetic_us": "/təˈmɑːroʊ/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "learned": true,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Mañana",
+        "usage_example": "See you tomorrow.",
+        "pronunciation_guide_es": "/SI_iu_tu-MO-rou/",
+        "usage_example_es": "Nos vemos mañana.",
+        "char_count": 3,
+        "usage_context_en": "On the day after today.",
+        "usage_context_es": "En el día después de hoy."
+      }
+    ]
+  },
+  {
+    "name": "early",
+    "phonetic": "/ˈɜːrli/",
+    "spoken_phonetic_us": "/ˈɜrli/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "learned": true,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Temprano",
+        "usage_example": "He arrived early for the meeting.",
+        "pronunciation_guide_es": "/hi_a-RAIVD_ER-li_for_de_MI-ting/",
+        "usage_example_es": "Él llegó temprano a la reunión.",
+        "char_count": 6,
+        "usage_context_en": "Before the usual or expected time.",
+        "usage_context_es": "Antes de la hora habitual o esperada."
+      }
+    ]
+  },
+  {
+    "name": "late",
+    "phonetic": "/leɪt/",
+    "spoken_phonetic_us": "/leɪt/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "learned": true,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Tarde",
+        "usage_example": "He arrived late for the meeting.",
+        "pronunciation_guide_es": "/hi_a-RAIVD_LEIT_for_de_MI-ting/",
+        "usage_example_es": "Él llegó tarde a la reunión.",
+        "char_count": 6,
+        "usage_context_en": "After the usual or expected time.",
+        "usage_context_es": "Después de la hora habitual o esperada."
+      }
+    ]
+  },
+  {
+    "name": "soon",
+    "phonetic": "/suːn/",
+    "spoken_phonetic_us": "/suːn/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "learned": true,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Pronto",
+        "usage_example": "I will be home soon.",
+        "pronunciation_guide_es": "/ai_uil_bi_HOUM_SUN/",
+        "usage_example_es": "Estaré en casa pronto.",
+        "char_count": 5,
+        "usage_context_en": "In or after a short time.",
+        "usage_context_es": "En o después de un corto tiempo."
+      }
+    ]
+  },
+  {
+    "name": "then",
+    "phonetic": "/ðɛn/",
+    "spoken_phonetic_us": "/ðɛn/",
+    "search_term": "adverb/time/sequence",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Entonces / En ese momento",
+        "usage_example": "I was young then.",
+        "pronunciation_guide_es": "/ai_uas_IONG_DEN/",
+        "usage_example_es": "Yo era joven en ese momento.",
+        "char_count": 4,
+        "usage_context_en": "Referring to a specific time in the past or future.",
+        "usage_context_es": "Refiriéndose a un tiempo específico en el pasado o futuro.",
+        "imagePath": "/card_images/adverbs/1-basic/1-basic_card_12_def0.avif"
+      },
+      {
+        "meaning": "Luego / Después",
+        "usage_example": "First I work, then I rest.",
+        "pronunciation_guide_es": "/FIRST_ai_UORK_den_ai_REST/",
+        "usage_example_es": "Primero trabajo, luego descanso.",
+        "char_count": 5,
+        "usage_context_en": "Used to indicate what happens next in a sequence.",
+        "usage_context_es": "Usado para indicar lo que sucede a continuación en una secuencia.",
+        "imagePath": "/card_images/adverbs/1-basic/1-basic_card_12_def1.avif"
+      }
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "end",
+        "phonetic": "/ɛnd/",
+        "spoken_phonetic_us": "/ɛnd/",
+        "search_term": "noun/finish/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Fin / Final]",
+                "usage_example": "This is the end of the movie.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE end AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: This is the end of the movie.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: La parte final de algo]",
+                "usage_context_es": "The final part of something",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_100_def0.avif"
+            }
+        ],
+        "group_name": null,
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "start",
+        "phonetic": "/stɑːrt/",
+        "spoken_phonetic_us": "/stɑːrt/",
+        "search_term": "noun/beginning/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Inicio / Comienzo]",
+                "usage_example": "It was a good start.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE start AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: It was a good start.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: El comienzo de algo]",
+                "usage_context_es": "The beginning of something",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_101_def0.avif"
+            }
+        ],
+        "group_name": null,
+        "category": ""
+    }
+]

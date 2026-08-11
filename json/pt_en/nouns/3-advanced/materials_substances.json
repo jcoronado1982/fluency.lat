@@ -1,0 +1,108 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "atmosphere",
+        "phonetic": "/ˈætməsfɪr/",
+        "spoken_phonetic_us": "/ˈætməsfɪr/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Atmósfera (aire)]",
+                "usage_example": "The atmosphere is thin at high altitudes.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE atmosphere AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The atmosphere is thin at high altitudes.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL PT: Los gases que rodean la tierra u otro planeta.]",
+                "usage_context_es": "The gases surrounding the earth or another planet.",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_15_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Ambiente (de un lugar)]",
+                "usage_example": "The restaurant has a good atmosphere.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE atmosphere AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The restaurant has a good atmosphere.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: El tono o estado de ánimo dominante de un lugar o situación.]",
+                "usage_context_es": "The pervading tone or mood of a place or situation.",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_15_def1.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "commodity",
+        "phonetic": "/kəˈmɒdəti/",
+        "spoken_phonetic_us": "/kəˈmɑdəti/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Producto / Mercancía]",
+                "usage_example": "Oil is a valuable commodity.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE commodity AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Oil is a valuable commodity.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Una materia prima o producto agrícola primario que se puede comprar y vender.]",
+                "usage_context_es": "A raw material or primary agricultural product that can be bought and sold.",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_28_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "substance",
+        "phonetic": "/ˈsʌbstəns/",
+        "spoken_phonetic_us": "/ˈsʌbstəns/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Sustancia / Material]",
+                "usage_example": "It's a dangerous substance.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE substance AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: It's a dangerous substance.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Un tipo particular de materia con propiedades uniformes.]",
+                "usage_context_es": "A particular kind of matter with uniform properties.",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_106_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Sustancia (contenido / esencia)]",
+                "usage_example": "The article lacks substance.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE substance AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The article lacks substance.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: El significado real o esencial; significancia.]",
+                "usage_context_es": "The real or essential meaning; significance.",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_106_def1.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    }
+]

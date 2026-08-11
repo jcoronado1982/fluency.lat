@@ -1,0 +1,118 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Este / Esta / Esto",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "pronoun/demonstrative",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "this",
+        "usage_example": "Este es mi libro favorito.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "This is my favorite book.",
+        "char_count": "4",
+        "usage_context_en": "Used as a pronoun for a singular item near the speaker.",
+        "usage_context_es": "Usado como pronombre para un objeto singular cerca del hablante.",
+        "imagePath": "/card_images/pronouns/2-intermediate/demonstrative_pronouns/2-intermediate_demonstrative_pronouns_card_0_def0.avif",
+        "target_meaning_es": "Este / Esta / Esto"
+      }
+    ],
+    "group_name": "Demostrativo",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Ese / Esa / Aquel / Aquella",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "pronoun/demonstrative",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "that",
+        "usage_example": "Ese es mi carro.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "That is my car.",
+        "char_count": "4",
+        "usage_context_en": "Used as a pronoun for a singular item that is far from the speaker.",
+        "usage_context_es": "Usado como pronombre para un objeto singular que está lejos del hablante.",
+        "imagePath": "/card_images/pronouns/2-intermediate/demonstrative_pronouns/2-intermediate_demonstrative_pronouns_card_1_def0.avif",
+        "target_meaning_es": "Ese / Esa / Aquel / Aquella"
+      }
+    ],
+    "group_name": "Demostrativo",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Estos / Estas",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "pronoun/demonstrative",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "these",
+        "usage_example": "Estas son mis llaves.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "These are my keys.",
+        "char_count": "4",
+        "usage_context_en": "Used as a pronoun for plural items near the speaker.",
+        "usage_context_es": "Usado como pronombre para objetos plurales cerca del hablante.",
+        "imagePath": "/card_images/pronouns/2-intermediate/demonstrative_pronouns/2-intermediate_demonstrative_pronouns_card_2_def0.avif",
+        "target_meaning_es": "Estos / Estas"
+      }
+    ],
+    "group_name": "Demostrativo",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Esos / Esas / Aquellos / Aquellas",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "pronoun/demonstrative",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "those",
+        "usage_example": "Esas son mis llaves.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Those are my keys.",
+        "char_count": "4",
+        "usage_context_en": "Used as a pronoun for plural items far from the speaker.",
+        "usage_context_es": "Usado como pronombre para objetos plurales lejos del hablante.",
+        "imagePath": "/card_images/pronouns/2-intermediate/demonstrative_pronouns/2-intermediate_demonstrative_pronouns_card_3_def0.avif",
+        "target_meaning_es": "Esos / Esas / Aquellos / Aquellas"
+      }
+    ],
+    "group_name": "Demostrativo",
+    "category": "Basic"
+  }
+]

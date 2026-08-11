@@ -1,0 +1,464 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "explanation",
+    "phonetic": "/ˌɛkspləˈneɪʃən/",
+    "spoken_phonetic_us": "/ˌɛkspləˈneɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Explicación",
+        "usage_example": "I need an explanation.",
+        "pronunciation_guide_es": "/ai_nid_an_ex-pla-NEI-shon/",
+        "usage_example_es": "Necesito una explicación.",
+        "char_count": "four",
+        "usage_context_en": "A statement or account that makes something clear.",
+        "usage_context_es": "Una declaración o relato que aclara algo.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_0_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "reference",
+    "phonetic": "/ˈrɛfərəns/",
+    "spoken_phonetic_us": "/ˈrɛfərəns/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Referencia",
+        "usage_example": "He made a reference to the book.",
+        "pronunciation_guide_es": "/hi_meid_a_RE-fe-rens_tu_de_buk/",
+        "usage_example_es": "Él hizo una referencia al libro.",
+        "char_count": "seven",
+        "usage_context_en": "The action of mentioning or alluding to something.",
+        "usage_context_es": "La acción de mencionar o aludir a algo.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_1_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "advertisement",
+    "phonetic": "/ˌædvərˈtaɪzmənt/",
+    "spoken_phonetic_us": "/ˌædvərˈtaɪzmənt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Anuncio / Publicidad",
+        "usage_example": "I saw an advertisement for a job.",
+        "pronunciation_guide_es": "/ai_so_an_ad-ver-TAIS-ment_for_a_yob/",
+        "usage_example_es": "Vi un anuncio de trabajo.",
+        "char_count": "seven",
+        "usage_context_en": "A notice or announcement in a public medium promoting a product or service.",
+        "usage_context_es": "Un aviso o anuncio en un medio público promocionando un producto o servicio.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "complaint",
+    "phonetic": "/kəmˈpleɪnt/",
+    "spoken_phonetic_us": "/kəmˈpleɪnt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Queja / Reclamación",
+        "usage_example": "I need to make a complaint.",
+        "pronunciation_guide_es": "/ai_nid_tu_meik_a_com-PLEINT/",
+        "usage_example_es": "Necesito poner una queja.",
+        "char_count": "six",
+        "usage_context_en": "A statement that a situation is unsatisfactory or unacceptable.",
+        "usage_context_es": "Una declaración de que una situación es insatisfactoria o inaceptable.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_3_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "interview",
+    "phonetic": "/ˈɪntərvju/",
+    "spoken_phonetic_us": "/ˈɪntərvju/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Entrevista",
+        "usage_example": "I have a job interview today.",
+        "pronunciation_guide_es": "/ai_hav_a_yob_IN-ter-viu_tu-DEI/",
+        "usage_example_es": "Tengo una entrevista de trabajo hoy.",
+        "char_count": "6",
+        "usage_context_en": "A formal meeting in which someone is asked questions to see if they are suitable for a job.",
+        "usage_context_es": "Una reunión formal en la que se hacen preguntas a alguien para ver si es adecuado para un trabajo.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_4_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sign",
+    "phonetic": "/saɪn/",
+    "spoken_phonetic_us": "/saɪn/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Señal / Letrero",
+        "usage_example": "Read the sign.",
+        "pronunciation_guide_es": "/rid_de_SAIN/",
+        "usage_example_es": "Lee el letrero.",
+        "char_count": "3",
+        "usage_context_en": "A notice or board giving information, a warning, or an instruction.",
+        "usage_context_es": "Un aviso o tablero que da información, una advertencia o una instrucción.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_5_def0.avif"
+      },
+      {
+        "meaning": "Señal / Indicio",
+        "usage_example": "It's a sign of good luck.",
+        "pronunciation_guide_es": "/its_a_SAIN_of_gud_LOK/",
+        "usage_example_es": "Es una señal de buena suerte.",
+        "char_count": "6",
+        "usage_context_en": "An indication of a quality or state of affairs.",
+        "usage_context_es": "Una indicación de una cualidad o estado de las cosas.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_5_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "signal",
+    "phonetic": "/ˈsɪɡnəl/",
+    "spoken_phonetic_us": "/ˈsɪɡnəl/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Señal (eléctrica / gesto)",
+        "usage_example": "The phone has no signal.",
+        "pronunciation_guide_es": "/de_FOUN_has_no_SIG-nal/",
+        "usage_example_es": "El teléfono no tiene señal.",
+        "char_count": "5",
+        "usage_context_en": "A gesture, action, or sound that conveys information; or an electrical impulse.",
+        "usage_context_es": "Un gesto, acción o sonido que transmite información; o un impulso eléctrico.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_6_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "message",
+    "phonetic": "/ˈmɛsɪdʒ/",
+    "spoken_phonetic_us": "/ˈmɛsɪdʒ/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Mensaje",
+        "usage_example": "I sent you a message.",
+        "pronunciation_guide_es": "/ai_sent_iu_a_ME-sich/",
+        "usage_example_es": "Te envié un mensaje.",
+        "char_count": "5",
+        "usage_context_en": "A verbal, written, or recorded communication sent to a recipient.",
+        "usage_context_es": "Una comunicación verbal, escrita o grabada enviada a un destinatario.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_7_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "advice",
+    "phonetic": "/ədˈvaɪs/",
+    "spoken_phonetic_us": "/ədˈvaɪs/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Consejo (no contable)",
+        "usage_example": "He gave me some good advice.",
+        "pronunciation_guide_es": "/hi_gueiv_mi_som_gud_ad-VAIS/",
+        "usage_example_es": "Él me dio un buen consejo.",
+        "char_count": "6",
+        "usage_context_en": "Guidance or recommendations offered with regard to future action.",
+        "usage_context_es": "Orientación o recomendaciones ofrecidas con respecto a acciones futuras.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_8_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "warning",
+    "phonetic": "/ˈwɔrnɪŋ/",
+    "spoken_phonetic_us": "/ˈwɔrnɪŋ/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Advertencia / Aviso",
+        "usage_example": "This is your final warning.",
+        "pronunciation_guide_es": "/dis_is_iur_FAI-nal_UOR-ning/",
+        "usage_example_es": "Esta es tu última advertencia.",
+        "char_count": "5",
+        "usage_context_en": "A statement or event that indicates a possible danger or problem.",
+        "usage_context_es": "Una declaración o evento que indica un posible peligro o problema.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_9_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "permission",
+    "phonetic": "/pərˈmɪʃən/",
+    "spoken_phonetic_us": "/pərˈmɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Permiso",
+        "usage_example": "Did you ask for permission?",
+        "pronunciation_guide_es": "/did_iu_ASK_for_per-MI-shon/",
+        "usage_example_es": "¿Pediste permiso?",
+        "char_count": "5",
+        "usage_context_en": "Official consent or authorization to do something.",
+        "usage_context_es": "Consentimiento o autorización oficial para hacer algo.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_10_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "communication",
+    "phonetic": "/kəˌmjunɪˈkeɪʃən/",
+    "spoken_phonetic_us": "/kəˌmjunɪˈkeɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Comunicación",
+        "usage_example": "Communication is key.",
+        "pronunciation_guide_es": "/co-miu-ni-KEI-shon_is_KI/",
+        "usage_example_es": "La comunicación es clave.",
+        "char_count": "3",
+        "usage_context_en": "The imparting or exchanging of information by speaking, writing, or using other media.",
+        "usage_context_es": "La transmisión o intercambio de información hablando, escribiendo o usando otros medios.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_11_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "contact",
+    "phonetic": "/ˈkɒntækt/",
+    "spoken_phonetic_us": "/ˈkɑntækt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Contacto",
+        "usage_example": "I lost contact with him.",
+        "pronunciation_guide_es": "/ai_lost_CON-tact_uiz_him/",
+        "usage_example_es": "Perdí contacto con él.",
+        "char_count": "5",
+        "usage_context_en": "The state of physical touching or communication.",
+        "usage_context_es": "El estado de tocarse físicamente o de comunicarse.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_12_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "conversation",
+    "phonetic": "/ˌkɒnvərˈseɪʃən/",
+    "spoken_phonetic_us": "/ˌkɑnvərˈseɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Conversación",
+        "usage_example": "We had a long conversation.",
+        "pronunciation_guide_es": "/ui_had_a_long_con-ver-SEI-shon/",
+        "usage_example_es": "Tuvimos una larga conversación.",
+        "char_count": "5",
+        "usage_context_en": "A talk, especially an informal one, between two or more people.",
+        "usage_context_es": "Una charla, especialmente informal, entre dos o más personas.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_13_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "description",
+    "phonetic": "/dɪˈskrɪpʃən/",
+    "spoken_phonetic_us": "/dɪˈskrɪpʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Descripción",
+        "usage_example": "Give me a description of the man.",
+        "pronunciation_guide_es": "/giv_mi_a_dis-CRIP-shon_of_de_MAN/",
+        "usage_example_es": "Dame una descripción del hombre.",
+        "char_count": "7",
+        "usage_context_en": "A spoken or written account of a person, object, or event.",
+        "usage_context_es": "Un relato hablado o escrito de una persona, objeto o evento.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_14_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "expression",
+    "phonetic": "/ɪkˈsprɛʃən/",
+    "spoken_phonetic_us": "/ɪkˈsprɛʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Expresión (facial)",
+        "usage_example": "He had a sad expression.",
+        "pronunciation_guide_es": "/hi_had_a_SAD_ex-PRE-shon/",
+        "usage_example_es": "Tenía una expresión triste.",
+        "char_count": "5",
+        "usage_context_en": "The look on someone's face that conveys a particular emotion.",
+        "usage_context_es": "La mirada en el rostro de alguien que transmite una emoción particular.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_15_def0.avif"
+      },
+      {
+        "meaning": "Expresión (dicho)",
+        "usage_example": "That's a common expression.",
+        "pronunciation_guide_es": "/dats_a_CO-mon_ex-PRE-shon/",
+        "usage_example_es": "Esa es una expresión común.",
+        "char_count": "4",
+        "usage_context_en": "A word or phrase, especially an idiomatic one.",
+        "usage_context_es": "Una palabra o frase, especialmente una idiomática.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_15_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "introduction",
+    "phonetic": "/ˌɪntrəˈdʌkʃən/",
+    "spoken_phonetic_us": "/ˌɪntrəˈdʌkʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Introducción / Presentación",
+        "usage_example": "He made a brief introduction.",
+        "pronunciation_guide_es": "/hi_meid_a_brif_in-tro-DOK-shon/",
+        "usage_example_es": "Hizo una breve introducción.",
+        "char_count": "5",
+        "usage_context_en": "The action of introducing someone or something for the first time.",
+        "usage_context_es": "La acción de presentar a alguien o algo por primera vez.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_16_def0.avif"
+      }
+    ]
+  }
+]

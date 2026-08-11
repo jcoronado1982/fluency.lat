@@ -1,0 +1,860 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_0_def0.avif",
+        "meaning": "Sol",
+        "pronunciation_guide_es": "/de_SAN_is_JOT/",
+        "usage_context_en": "The star that gives us light",
+        "usage_context_es": "La estrella que nos da luz",
+        "usage_example": "The sun is hot.",
+        "usage_example_es": "El sol está caliente."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "sun",
+    "phonetic": "/sʌn/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/sʌn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_1_def0.avif",
+        "meaning": "Luna",
+        "pronunciation_guide_es": "/ai_SI_de_MUN/",
+        "usage_context_en": "The object that shines in the sky at night",
+        "usage_context_es": "El objeto que brilla en el cielo de noche",
+        "usage_example": "I see the moon.",
+        "usage_example_es": "Veo la luna."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "moon",
+    "phonetic": "/muːn/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/muːn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_2_def0.avif",
+        "meaning": "Cielo",
+        "pronunciation_guide_es": "/de_SKAI_is_BLU/",
+        "usage_context_en": "The space above the Earth",
+        "usage_context_es": "El espacio sobre la Tierra",
+        "usage_example": "The sky is blue.",
+        "usage_example_es": "El cielo es azul."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "sky",
+    "phonetic": "/skaɪ/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/skaɪ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_3_def0.avif",
+        "meaning": "Árbol",
+        "pronunciation_guide_es": "/dat_is_a_TOL_TRI/",
+        "usage_context_en": "A tall plant with a wood trunk",
+        "usage_context_es": "Una planta alta con un tronco de madera",
+        "usage_example": "That is a tall tree.",
+        "usage_example_es": "Ese es un árbol alto."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "tree",
+    "phonetic": "/triː/",
+    "search_term": "noun/nature/plant/essentials",
+    "spoken_phonetic_us": "/triː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_4_def0.avif",
+        "meaning": "Flor",
+        "pronunciation_guide_es": "/a_RED_FLAUer/",
+        "usage_context_en": "The colored part of a plant",
+        "usage_context_es": "La parte coloreada de una planta",
+        "usage_example": "A red flower.",
+        "usage_example_es": "Una flor roja."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "flower",
+    "phonetic": "/ˈflaʊər/",
+    "search_term": "noun/nature/plant/essentials",
+    "spoken_phonetic_us": "/ˈflaʊər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_5_def0.avif",
+        "meaning": "Lluvia",
+        "pronunciation_guide_es": "/ai_LAIK_de_SAUND_of_de_REIN/",
+        "usage_context_en": "Water that falls from the sky",
+        "usage_context_es": "Agua que cae del cielo",
+        "usage_example": "I like the sound of the rain.",
+        "usage_example_es": "Me gusta el sonido de la lluvia."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "rain",
+    "phonetic": "/reɪn/",
+    "search_term": "noun/nature/weather/essentials",
+    "spoken_phonetic_us": "/reɪn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_6_def0.avif",
+        "meaning": "Nieve",
+        "pronunciation_guide_es": "/LUK_at_de_SNOU/",
+        "usage_context_en": "Soft, white frozen water",
+        "usage_context_es": "Agua congelada, blanca y suave",
+        "usage_example": "Look at the snow!",
+        "usage_example_es": "¡Mira la nieve!"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "snow",
+    "phonetic": "/snoʊ/",
+    "search_term": "noun/nature/weather/essentials",
+    "spoken_phonetic_us": "/snoʊ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_7_def0.avif",
+        "meaning": "Clima / Tiempo",
+        "pronunciation_guide_es": "/jau_is_de_UEDer_tuDEI/",
+        "usage_context_en": "The condition of the atmosphere (hot, cold, rain, sun)",
+        "usage_context_es": "La condición de la atmósfera (calor, frío, lluvia, sol)",
+        "usage_example": "How is the weather today?",
+        "usage_example_es": "¿Cómo está el clima hoy?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "weather",
+    "phonetic": "/ˈwɛðər/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/ˈwɛðər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_8_def0.avif",
+        "meaning": "Río",
+        "pronunciation_guide_es": "/de_RIVer_is_LONG/",
+        "usage_context_en": "A large natural flow of water",
+        "usage_context_es": "Un gran flujo natural de agua",
+        "usage_example": "The river is long.",
+        "usage_example_es": "El río es largo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "river",
+    "phonetic": "/ˈrɪvər/",
+    "search_term": "noun/nature/water/essentials",
+    "spoken_phonetic_us": "/ˈrɪvər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_9_def0.avif",
+        "meaning": "Montaña",
+        "pronunciation_guide_es": "/dat_MAUNten_is_VERI_JAI/",
+        "usage_context_en": "A very high hill",
+        "usage_context_es": "Una colina muy alta",
+        "usage_example": "That mountain is very high.",
+        "usage_example_es": "Esa montaña es muy alta."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "mountain",
+    "phonetic": "/ˈmaʊntən/",
+    "search_term": "noun/nature/place/essentials",
+    "spoken_phonetic_us": "/ˈmaʊntən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_10_def0.avif",
+        "meaning": "Aire",
+        "pronunciation_guide_es": "/ai_NID_FRESH_ER/",
+        "usage_context_en": "The invisible gas surrounding the Earth",
+        "usage_context_es": "El gas invisible que rodea la Tierra",
+        "usage_example": "I need fresh air.",
+        "usage_example_es": "Necesito aire fresco."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "air",
+    "phonetic": "/ɛər/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/ɛr/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_11_def0.avif",
+        "meaning": "Fuego / Incendio",
+        "pronunciation_guide_es": "/de_FAIR_is_JOT/",
+        "usage_context_en": "Heat and light from burning",
+        "usage_context_es": "Calor y luz de la combustión",
+        "usage_example": "The fire is hot.",
+        "usage_example_es": "El fuego está caliente."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "fire",
+    "phonetic": "/faɪər/",
+    "search_term": "noun/nature/element/essentials",
+    "spoken_phonetic_us": "/faɪər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_12_def0.avif",
+        "meaning": "Tierra (superficie)",
+        "pronunciation_guide_es": "/ui_ar_on_DRAI_LAND/",
+        "usage_context_en": "The part of the Earth's surface that is not water",
+        "usage_context_es": "La parte de la superficie de la Tierra que no es agua",
+        "usage_example": "We are on dry land.",
+        "usage_example_es": "Estamos en tierra firme."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "land",
+    "phonetic": "/lænd/",
+    "search_term": "noun/nature/place/essentials",
+    "spoken_phonetic_us": "/lænd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_13_def0.avif",
+        "meaning": "Playa",
+        "pronunciation_guide_es": "/lets_GOU_tu_de_BICH/",
+        "usage_context_en": "An area of sand or small stones by the sea",
+        "usage_context_es": "Un área de arena o piedras pequeñas junto al mar",
+        "usage_example": "Let's go to the beach.",
+        "usage_example_es": "Vamos a la playa."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "beach",
+    "phonetic": "/biːʧ/",
+    "search_term": "noun/place/nature/essentials",
+    "spoken_phonetic_us": "/biːʧ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_14_def0.avif",
+        "meaning": "Bosque",
+        "pronunciation_guide_es": "/a_UOK_in_de_FORest/",
+        "usage_context_en": "A large area covered with trees",
+        "usage_context_es": "Un área grande cubierta de árboles",
+        "usage_example": "A walk in the forest.",
+        "usage_example_es": "Un paseo por el bosque."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "forest",
+    "phonetic": "/ˈfɒrɪst/",
+    "search_term": "noun/place/nature/essentials",
+    "spoken_phonetic_us": "/ˈfɔːrɪst/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_15_def0.avif",
+        "meaning": "Isla",
+        "pronunciation_guide_es": "/dei_LIV_on_an_AIland/",
+        "usage_context_en": "A piece of land surrounded by water",
+        "usage_context_es": "Un pedazo de tierra rodeado de agua",
+        "usage_example": "They live on an island.",
+        "usage_example_es": "Ellos viven en una isla."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "island",
+    "phonetic": "/ˈaɪlənd/",
+    "search_term": "noun/place/nature/essentials",
+    "spoken_phonetic_us": "/ˈaɪlənd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_16_def0.avif",
+        "meaning": "Hoja (de planta)",
+        "pronunciation_guide_es": "/a_GRIN_LIF/",
+        "usage_context_en": "The flat, green part of a tree or plant",
+        "usage_context_es": "La parte plana y verde de un árbol o planta",
+        "usage_example": "A green leaf.",
+        "usage_example_es": "Una hoja verde."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "leaf",
+    "phonetic": "/liːf/",
+    "search_term": "noun/nature/plant/essentials",
+    "spoken_phonetic_us": "/liːf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_17_def0.avif",
+        "meaning": "Pasto / Césped",
+        "pronunciation_guide_es": "/de_GRAS_is_GRIN/",
+        "usage_context_en": "A common green plant covering the ground",
+        "usage_context_es": "Una planta verde común que cubre el suelo",
+        "usage_example": "The grass is green.",
+        "usage_example_es": "El pasto es verde."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "grass",
+    "phonetic": "/ɡræs/",
+    "search_term": "noun/nature/plant/essentials",
+    "spoken_phonetic_us": "/ɡræs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_18_def0.avif",
+        "meaning": "Arena",
+        "pronunciation_guide_es": "/ai_LAIK_de_SAND_on_de_BICH/",
+        "usage_context_en": "Small, loose grains of rock",
+        "usage_context_es": "Pequeños granos sueltos de roca",
+        "usage_example": "I like the sand on the beach.",
+        "usage_example_es": "Me gusta la arena de la playa."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "sand",
+    "phonetic": "/sænd/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/sænd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_19_def0.avif",
+        "meaning": "Estrella",
+        "pronunciation_guide_es": "/LUK_at_de_STARS/",
+        "usage_context_en": "A point of light in the night sky",
+        "usage_context_es": "Un punto de luz en el cielo nocturno",
+        "usage_example": "Look at the stars!",
+        "usage_example_es": "¡Mira las estrellas!"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "star",
+    "phonetic": "/stɑːr/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/stɑːr/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_20_def0.avif",
+        "meaning": "Viento",
+        "pronunciation_guide_es": "/de_UIND_is_STRONG_tuDEI/",
+        "usage_context_en": "Moving air",
+        "usage_context_es": "Aire en movimiento",
+        "usage_example": "The wind is strong today.",
+        "usage_example_es": "El viento está fuerte hoy."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "wind",
+    "phonetic": "/wɪnd/",
+    "search_term": "noun/nature/weather/essentials",
+    "spoken_phonetic_us": "/wɪnd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_21_def0.avif",
+        "meaning": "Suelo / Tierra",
+        "pronunciation_guide_es": "/ji_FEL_on_de_GRAUND/",
+        "usage_context_en": "The surface of the Earth",
+        "usage_context_es": "La superficie de la Tierra",
+        "usage_example": "He fell on the ground.",
+        "usage_example_es": "Él se cayó al suelo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "ground",
+    "phonetic": "/ɡraʊnd/",
+    "search_term": "noun/place/nature/essentials",
+    "spoken_phonetic_us": "/ɡraʊnd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_22_def0.avif",
+        "meaning": "Hielo",
+        "pronunciation_guide_es": "/de_DRINK_JAS_AIS/",
+        "usage_context_en": "Frozen water",
+        "usage_context_es": "Agua congelada",
+        "usage_example": "The drink has ice.",
+        "usage_example_es": "La bebida tiene hielo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "ice",
+    "phonetic": "/aɪs/",
+    "search_term": "noun/nature/substance/essentials",
+    "spoken_phonetic_us": "/aɪs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_23_def0.avif",
+        "meaning": "Madera",
+        "pronunciation_guide_es": "/de_TEIbol_is_MEID_of_UUD/",
+        "usage_context_en": "The hard material from trees",
+        "usage_context_es": "El material duro de los árboles",
+        "usage_example": "The table is made of wood.",
+        "usage_example_es": "La mesa está hecha de madera."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "wood",
+    "phonetic": "/wʊd/",
+    "search_term": "noun/substance/nature/essentials",
+    "spoken_phonetic_us": "/wʊd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_24_def0.avif",
+        "meaning": "Piedra",
+        "pronunciation_guide_es": "/ji_THRU_a_STOUN/",
+        "usage_context_en": "A hard, solid piece of rock",
+        "usage_context_es": "Una pieza dura y sólida de roca",
+        "usage_example": "He threw a stone.",
+        "usage_example_es": "Él lanzó una piedra."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "stone",
+    "phonetic": "/stoʊn/",
+    "search_term": "noun/substance/nature/essentials",
+    "spoken_phonetic_us": "/stoʊn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_25_def0.avif",
+        "meaning": "Planta",
+        "pronunciation_guide_es": "/ai_NID_tu_UATer_de_PLANTS/",
+        "usage_context_en": "A living thing that grows in the ground",
+        "usage_context_es": "Un ser vivo que crece en la tierra",
+        "usage_example": "I need to water the plants.",
+        "usage_example_es": "Necesito regar las plantas."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "plant",
+    "phonetic": "/plænt/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/plænt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_26_def0.avif",
+        "meaning": "Nube",
+        "pronunciation_guide_es": "/de_KLAUD_is_UAIT/",
+        "usage_context_en": "A white or gray mass of water in the sky",
+        "usage_context_es": "Una masa blanca o gris de agua en el cielo",
+        "usage_example": "The cloud is white.",
+        "usage_example_es": "La nube es blanca."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "cloud",
+    "phonetic": "/klaʊd/",
+    "search_term": "noun/nature/weather/essentials",
+    "spoken_phonetic_us": "/klaʊd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_27_def0.avif",
+        "meaning": "Tormenta",
+        "pronunciation_guide_es": "/der_is_a_BIG_STORM/",
+        "usage_context_en": "Very bad weather with heavy rain and wind",
+        "usage_context_es": "Mal tiempo con lluvia intensa y viento",
+        "usage_example": "There is a big storm.",
+        "usage_example_es": "Hay una gran tormenta."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "storm",
+    "phonetic": "/stɔːrm/",
+    "search_term": "noun/nature/weather/essentials",
+    "spoken_phonetic_us": "/stɔːrm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_28_def0.avif",
+        "meaning": "Lago",
+        "pronunciation_guide_es": "/de_LEIK_is_BEUTIFUL/",
+        "usage_context_en": "A large area of water surrounded by land",
+        "usage_context_es": "Una gran área de agua rodeada de tierra",
+        "usage_example": "The lake is beautiful.",
+        "usage_example_es": "El lago es hermoso."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "lake",
+    "phonetic": "/leɪk/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/leɪk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_29_def0.avif",
+        "meaning": "Terremoto",
+        "pronunciation_guide_es": "/de_ERTHkueik_uos_STRONG/",
+        "usage_context_en": "A sudden shaking of the ground",
+        "usage_context_es": "Un sacudimiento repentino del suelo",
+        "usage_example": "The earthquake was strong.",
+        "usage_example_es": "El terremoto fue fuerte."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "earthquake",
+    "phonetic": "/ˈɜːrθkweɪk/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/ˈɜːrθkweɪk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_30_def0.avif",
+        "meaning": "Humo",
+        "pronunciation_guide_es": "/i_SI_SMOUK_frum_de_FAIER/",
+        "usage_context_en": "The gas produced when something burns",
+        "usage_context_es": "El gas que se produce cuando algo se quema",
+        "usage_example": "I see smoke from the fire.",
+        "usage_example_es": "Veo humo del fuego."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "smoke",
+    "phonetic": "/smoʊk/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/smoʊk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_31_def0.avif",
+        "meaning": "Sombra",
+        "pronunciation_guide_es": "/de_TRI_has_a_BIG_SHAdou/",
+        "usage_context_en": "A dark area caused by an object blocking light",
+        "usage_context_es": "Un área oscura causada por un objeto que bloquea la luz",
+        "usage_example": "The tree has a big shadow.",
+        "usage_example_es": "El árbol tiene una gran sombra."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "shadow",
+    "phonetic": "/ˈʃædoʊ/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/ˈʃædoʊ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_32_def0.avif",
+        "meaning": "Planeta",
+        "pronunciation_guide_es": "/ui_mʌst_protekt_aur_planet/",
+        "usage_context_en": "A large round object in space that orbits a star",
+        "usage_context_es": "Un objeto redondo grande en el espacio que orbita una estrella",
+        "usage_example": "We must protect our planet.",
+        "usage_example_es": "Debemos proteger nuestro planeta."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "planet",
+    "phonetic": "/ˈplænɪt/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/ˈplænɪt/"
+  }
+]

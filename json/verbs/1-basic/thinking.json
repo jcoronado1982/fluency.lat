@@ -1,0 +1,462 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "Do you know his phone number?",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_know_def0.avif",
+                "meaning": "Saber (información)",
+                "pronunciation_guide_es": "/ai_NOU_de_ANSWER/",
+                "usage_context_en": "information/facts",
+                "usage_context_es": "información/hechos",
+                "usage_example": "I know the answer.",
+                "usage_example_es": "Sé la respuesta."
+            },
+            {
+                "alternative_example": "He knows this city well.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_know_def1.avif",
+                "meaning": "Conocer (a una persona/lugar)",
+                "pronunciation_guide_es": "/ai_NOU_her_from_SKUL/",
+                "usage_context_en": "people/places",
+                "usage_context_es": "gente/lugares",
+                "usage_example": "I know her from school.",
+                "usage_example_es": "La conozco de la escuela."
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "know",
+        "phonetic": "/noʊ/",
+        "search_term": "verb/knowledge/essentials",
+        "spoken_phonetic_us": "/noʊ/",
+        "irregular": {
+            "past": {
+                "form": "knew",
+                "phonetic": "/njuː/",
+                "spoken_phonetic_us": "/nuː/",
+                "usage_example": "I knew the answer immediately.",
+                "usage_example_es": "Sabía la respuesta inmediatamente.",
+                "pronunciation_guide_es": "/ai_NIU_de_ANSuer_iMIDiAtli/",
+                "meaning": "Pasado de saber"
+            },
+            "participle": {
+                "form": "known",
+                "phonetic": "/noʊn/",
+                "spoken_phonetic_us": "/noʊn/",
+                "usage_example": "I have known him for years.",
+                "usage_example_es": "Lo conozco desde hace años.",
+                "pronunciation_guide_es": "/ai_JAV_NOUN_jim_for_IERS/",
+                "meaning": "Participio de saber"
+            }
+        },
+        "group_name": "Mind & Senses"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "Do you see that bird?",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_9_def0.avif",
+                "meaning": "Ver (con los ojos)",
+                "pronunciation_guide_es": "/ai_kan_SI_de_OUSHAN_from_HIR/",
+                "usage_context_en": "vision/sight",
+                "usage_context_es": "visión/vista",
+                "usage_example": "I can see the ocean from here.",
+                "usage_example_es": "Puedo ver el océano desde aquí."
+            },
+            {
+                "alternative_example": "Oh, I finally see!",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_9_def1.avif",
+                "meaning": "Entender/Comprender",
+                "pronunciation_guide_es": "/ai_SI_uat_iu_MIN/",
+                "usage_context_en": "understanding/realization",
+                "usage_context_es": "comprensión/darse cuenta",
+                "usage_example": "I see what you mean.",
+                "usage_example_es": "Entiendo lo que quieres decir."
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "see",
+        "phonetic": "/siː/",
+        "search_term": "verb/vision/essentials",
+        "spoken_phonetic_us": "/siː/",
+        "irregular": {
+            "past": {
+                "form": "saw",
+                "phonetic": "/sɔː/",
+                "spoken_phonetic_us": "/sɔː/",
+                "usage_example": "I saw a beautiful bird today.",
+                "usage_example_es": "Vi un pájaro hermoso hoy.",
+                "pronunciation_guide_es": "/ai_SO_a_BIUtiful_BURD_tuDEI/",
+                "meaning": "Pasado de ver"
+            },
+            "participle": {
+                "form": "seen",
+                "phonetic": "/siːn/",
+                "spoken_phonetic_us": "/siːn/",
+                "usage_example": "I have seen that movie before.",
+                "usage_example_es": "He visto esa película antes.",
+                "pronunciation_guide_es": "/ai_JAV_SIN_dat_MUvi_biFOR/",
+                "meaning": "Participio de ver"
+            }
+        },
+        "group_name": "Mind & Senses"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "I think, therefore I am.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_think_def0.avif",
+                "meaning": "Pensar (razonar)",
+                "pronunciation_guide_es": "/ai_THINK_aBAUT_mai_FIUchur_a_LOT/",
+                "usage_context_en": "reasoning/reflection",
+                "usage_context_es": "razonar/reflexionar",
+                "usage_example": "I think about my future a lot.",
+                "usage_example_es": "Pienso mucho en mi futuro."
+            },
+            {
+                "alternative_example": "What do you think of it?",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_think_def1.avif",
+                "meaning": "Creer/Opinar",
+                "pronunciation_guide_es": "/ai_THINK_it_uil_REIN_tuDEI/",
+                "usage_context_en": "opinion/belief",
+                "usage_context_es": "opinión/creencia",
+                "usage_example": "I think it will rain today.",
+                "usage_example_es": "Creo que va a llover hoy."
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "think",
+        "phonetic": "/θɪŋk/",
+        "search_term": "verb/opinion/essentials",
+        "spoken_phonetic_us": "/θɪŋk/",
+        "irregular": {
+            "past": {
+                "form": "thought",
+                "phonetic": "/θɔːt/",
+                "spoken_phonetic_us": "/θɔːt/",
+                "usage_example": "I thought you were coming.",
+                "usage_example_es": "Pensé que venías.",
+                "pronunciation_guide_es": "/ai_THOT_iu_uer_KAming/",
+                "meaning": "Pasado de pensar"
+            },
+            "participle": {
+                "form": "thought",
+                "phonetic": "/θɔːt/",
+                "spoken_phonetic_us": "/θɔːt/",
+                "usage_example": "I have thought about it carefully.",
+                "usage_example_es": "Lo he pensado cuidadosamente.",
+                "pronunciation_guide_es": "/ai_JAV_THOT_aBAUT_it_KERfuli/",
+                "meaning": "Participio de pensar"
+            }
+        },
+        "group_name": "Mind & Senses"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "Look at the board, please.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_71_def0.avif",
+                "meaning": "Mirar",
+                "pronunciation_guide_es": "/LUK_at_mi/",
+                "usage_context_en": "attention/vision",
+                "usage_context_es": "atención/visión",
+                "usage_example": "Look at me.",
+                "usage_example_es": "Mírame."
+            },
+            {
+                "alternative_example": "You look tired today.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_71_def1.avif",
+                "meaning": "Parecer (verse de cierta manera)",
+                "pronunciation_guide_es": "/shi_LUKS_japi/",
+                "usage_context_en": "appearance/impression",
+                "usage_context_es": "apariencia/impresión",
+                "usage_example": "She looks happy.",
+                "usage_example_es": "Ella se ve feliz."
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "look",
+        "phonetic": "/lʊk/",
+        "search_term": "verb/look/essentials",
+        "spoken_phonetic_us": "/lʊk/",
+        "group_name": "Perception & Attention"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "I can't hear you clearly.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_33_def0.avif",
+                "meaning": "Oír/Escuchar",
+                "pronunciation_guide_es": "/did_iu_HIR_dat_NOIS/",
+                "usage_context_en": "sound/sense",
+                "usage_context_es": "sonido/sentido",
+                "usage_example": "Do you hear that noise?",
+                "usage_example_es": "¿Oyes ese ruido?"
+            },
+            {
+                "alternative_example": "What do you hear about the plan?",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_33_def1.avif",
+                "meaning": "Recibir noticias/Saber de alguien",
+                "pronunciation_guide_es": "/ai_JAVent_HORD_from_him_in_UIKS/",
+                "usage_context_en": "news/communication",
+                "usage_context_es": "noticias/comunicación",
+                "usage_example": "I haven't heard from him in weeks.",
+                "usage_example_es": "No he sabido de él en semanas."
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "hear",
+        "phonetic": "/hɪər/",
+        "search_term": "verb/sound/essentials",
+        "spoken_phonetic_us": "/hɪər/",
+        "irregular": {
+            "past": {
+                "form": "heard",
+                "phonetic": "/hɜːrd/",
+                "spoken_phonetic_us": "/hɜːrd/",
+                "usage_example": "I heard a strange noise.",
+                "usage_example_es": "Oí un ruido extraño.",
+                "pronunciation_guide_es": "/ai_JURD_a_STREIN_NOIS/",
+                "meaning": "Pasado de oír"
+            },
+            "participle": {
+                "form": "heard",
+                "phonetic": "/hɜːrd/",
+                "spoken_phonetic_us": "/hɜːrd/",
+                "usage_example": "I have heard that story.",
+                "usage_example_es": "He oído esa historia.",
+                "pronunciation_guide_es": "/ai_JAV_JURD_dat_STORI/",
+                "meaning": "Participio de oír"
+            }
+        },
+        "group_name": "Communication"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "Listen to your teacher.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_72_def0.avif",
+                "meaning": "Escuchar",
+                "pronunciation_guide_es": "/LIsen_tu_mi/",
+                "usage_context_en": "attention/sound",
+                "usage_context_es": "atención/sonido",
+                "usage_example": "Listen to me.",
+                "usage_example_es": "Escúchame."
+            },
+            {
+                "alternative_example": "I listened carefully to the news.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_72_def1.avif",
+                "meaning": "Prestar atención",
+                "pronunciation_guide_es": "/dei_didnt_LIsen_tu_de_adVAIS/",
+                "usage_context_en": "advice/instructions",
+                "usage_context_es": "consejos/instrucciones",
+                "usage_example": "They didn't listen to the advice.",
+                "usage_example_es": "No escucharon el consejo."
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "listen",
+        "phonetic": "/ˈlɪs.ən/",
+        "search_term": "verb/listen/essentials",
+        "spoken_phonetic_us": "/ˈlɪs.ən/",
+        "group_name": "Perception & Attention"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "Do you find a job?",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_14_def0.avif",
+                "meaning": "Encontrar (localizar algo)",
+                "pronunciation_guide_es": "/ai_kant_FAIND_mai_KIS/",
+                "usage_context_en": "search/discovery",
+                "usage_context_es": "búsqueda/descubrimiento",
+                "usage_example": "I can't find my keys.",
+                "usage_example_es": "No puedo encontrar mis llaves."
+            },
+            {
+                "alternative_example": "She finds English easy.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_14_def1.avif",
+                "meaning": "Parecer/Opinar (encontrarle a algo una característica)",
+                "pronunciation_guide_es": "/ai_FAIND_de_MUVI_BORing/",
+                "usage_context_en": "opinion/judgment",
+                "usage_context_es": "opinión/juicio",
+                "usage_example": "I find the movie boring.",
+                "usage_example_es": "Encuentro la película aburrida."
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "find",
+        "phonetic": "/faɪnd/",
+        "search_term": "verb/discover/essentials",
+        "spoken_phonetic_us": "/faɪnd/",
+        "irregular": {
+            "past": {
+                "form": "found",
+                "phonetic": "/faʊnd/",
+                "spoken_phonetic_us": "/faʊnd/",
+                "usage_example": "I found my keys under the sofa.",
+                "usage_example_es": "Encontré mis llaves debajo del sofá.",
+                "pronunciation_guide_es": "/ai_FAUND_mai_KIS_ander_de_SOUFA/",
+                "meaning": "Pasado de encontrar"
+            },
+            "participle": {
+                "form": "found",
+                "phonetic": "/faʊnd/",
+                "spoken_phonetic_us": "/faʊnd/",
+                "usage_example": "I have found the perfect gift.",
+                "usage_example_es": "He encontrado el regalo perfecto.",
+                "pronunciation_guide_es": "/ai_JAV_FAUND_de_PERfekt_GIFT/",
+                "meaning": "Participio de encontrar"
+            }
+        },
+        "group_name": "Mind & Senses"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "Watch out for the hole!",
+                "char_count": "one",
+                "meaning": "Ver/Mirar (con atención)",
+                "pronunciation_guide_es": "/ai_UACH_TI_VI_EVri_NAIT/",
+                "usage_context_en": "entertainment/warning",
+                "usage_context_es": "entretenimiento/advertencia",
+                "usage_example": "I watch TV every night.",
+                "usage_example_es": "Veo televisión todas las noches."
+            },
+            {
+                "alternative_example": "We watched the kids play.",
+                "char_count": "one",
+                "meaning": "Vigilar/Cuidar",
+                "pronunciation_guide_es": "/kan_iu_UACH_mai_BAG_for_a_MOUment/",
+                "usage_context_en": "supervision/care",
+                "usage_context_es": "supervisión/cuidado",
+                "usage_example": "Can you watch my bag for a moment?",
+                "usage_example_es": "¿Puedes vigilar mi bolso por un momento?"
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "watch",
+        "phonetic": "/wɒʧ/",
+        "search_term": "verb/observe/level_up",
+        "spoken_phonetic_us": "/wɑːʧ/",
+        "group_name": "Mind & Senses"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "I don't mean to hurt you.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_18_def0.avif",
+                "meaning": "Significar/Querer decir",
+                "pronunciation_guide_es": "/uat_das_dis_UORD_MIN/",
+                "usage_context_en": "definition/intention",
+                "usage_context_es": "definición/intención",
+                "usage_example": "What does this word mean?",
+                "usage_example_es": "¿Qué significa esta palabra?"
+            },
+            {
+                "alternative_example": "He means well.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_18_def1.avif",
+                "meaning": "Tener la intención de",
+                "pronunciation_guide_es": "/ai_MIN_tu_FINish_dis_PROJECT_sun/",
+                "usage_context_en": "intention/purpose",
+                "usage_context_es": "intención/propósito",
+                "usage_example": "I mean to finish this project soon.",
+                "usage_example_es": "Tengo la intención de terminar este proyecto pronto."
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "mean",
+        "phonetic": "/miːn/",
+        "search_term": "verb/signify/essentials",
+        "spoken_phonetic_us": "/miːn/",
+        "irregular": {
+            "past": {
+                "form": "meant",
+                "phonetic": "/mɛnt/",
+                "spoken_phonetic_us": "/mɛnt/",
+                "usage_example": "I meant what I said.",
+                "usage_example_es": "Quise decir lo que dije.",
+                "pronunciation_guide_es": "/ai_MENT_uat_ai_SED/",
+                "meaning": "Pasado de significar/querer decir"
+            },
+            "participle": {
+                "form": "meant",
+                "phonetic": "/mɛnt/",
+                "spoken_phonetic_us": "/mɛnt/",
+                "usage_example": "It has meant a lot to me.",
+                "usage_example_es": "Ha significado mucho para mí.",
+                "pronunciation_guide_es": "/it_jas_MENT_a_LOT_tu_MI/",
+                "meaning": "Participio de significar/querer decir"
+            }
+        },
+        "group_name": "Being & State"
+    }
+]

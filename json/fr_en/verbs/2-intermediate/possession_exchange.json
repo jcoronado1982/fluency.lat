@@ -1,0 +1,119 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "spend",
+        "phonetic": "/spɛnd/",
+        "spoken_phonetic_us": "/spɛnd/",
+        "search_term": "verb/time/money/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Gastar (dinero)]",
+                "usage_example": "I spend too much money on clothes.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE spend AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I spend too much money on clothes.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: dinero/compras]",
+                "usage_context_es": "money/shopping",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Pasar (tiempo)]",
+                "usage_example": "We spend the weekend at the beach.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE spend AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: We spend the weekend at the beach.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: tiempo/ocio]",
+                "usage_context_es": "time/leisure",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "offer",
+        "phonetic": "/ˈɒfər/",
+        "spoken_phonetic_us": "/ˈɑːfər/",
+        "search_term": "verb/present/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Ofrecer (algo)]",
+                "usage_example": "Can I offer you a drink?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE offer AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Can I offer you a drink?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: hospitalidad/empleos]",
+                "usage_context_es": "hospitality/jobs",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Proponer/Sugerir]",
+                "usage_example": "What solution did they offer?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE offer AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: What solution did they offer?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: sugerencias/ayuda]",
+                "usage_context_es": "suggestions/aid",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "share",
+        "phonetic": "/ʃɛər/",
+        "spoken_phonetic_us": "/ʃɛr/",
+        "search_term": "verb/divide/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Compartir (algo con alguien)]",
+                "usage_example": "Do you want to share my pizza?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE share AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Do you want to share my pizza?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: comida/información]",
+                "usage_context_es": "food/information",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Tener en común]",
+                "usage_example": "We share the same interests.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE share AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: We share the same interests.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: comunalidad/colaboración]",
+                "usage_context_es": "commonality/collaboration",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    }
+]

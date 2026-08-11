@@ -1,0 +1,288 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "instance",
+    "phonetic": "/ˈɪnstəns/",
+    "spoken_phonetic_us": "/ˈɪnstəns/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Instancia / Ejemplo",
+        "usage_example": "This is just one instance.",
+        "pronunciation_guide_es": "/dis_is_yost_uan_IN-stans/",
+        "usage_example_es": "Esta es solo una instancia.",
+        "char_count": "five",
+        "usage_context_en": "An example or single occurrence of something.",
+        "usage_context_es": "Un ejemplo o una sola ocurrencia de algo.",
+        "imagePath": "/card_images/nouns/2-intermediate/classification_e_household_items/2-intermediate_classification_e_household_items_card_0_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Electrodoméstico",
+        "pronunciation_guide_es": "/de_KICHen_has_NIU_a-PLAI-an-ses/",
+        "usage_context_en": "A machine used in the home for a specific purpose",
+        "usage_context_es": "Una máquina usada en el hogar para un propósito específico",
+        "usage_example": "The kitchen has new appliances.",
+        "usage_example_es": "La cocina tiene electrodomésticos nuevos.",
+        "imagePath": "/card_images/nouns/2-intermediate/classification_e_household_items/2-intermediate_classification_e_household_items_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "appliance",
+    "phonetic": "/əˈplaɪəns/",
+    "search_term": "noun/household/machine",
+    "spoken_phonetic_us": "/əˈplaɪəns/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "pattern",
+    "phonetic": "/ˈpætərn/",
+    "spoken_phonetic_us": "/ˈpætərn/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Patrón",
+        "usage_example": "I see a pattern here.",
+        "pronunciation_guide_es": "/ai_si_a_PA-tern_hir/",
+        "usage_example_es": "Veo un patrón aquí.",
+        "char_count": "four",
+        "usage_context_en": "A repeated decorative design or a regular form or sequence.",
+        "usage_context_es": "Un diseño decorativo repetido o una forma o secuencia regular.",
+        "imagePath": "/card_images/nouns/2-intermediate/classification_e_household_items/2-intermediate_classification_e_household_items_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Tomacorriente / Enchufe",
+        "pronunciation_guide_es": "/plʌg_de_charjer_into_de_ilektrikəl_autlet/",
+        "usage_context_en": "A place on the wall to connect electric plugs",
+        "usage_context_es": "Un lugar en la pared para conectar enchufes eléctricos",
+        "usage_example": "Plug the charger into the electrical outlet.",
+        "usage_example_es": "Enchufa el cargador en el tomacorriente.",
+        "imagePath": "/card_images/nouns/2-intermediate/classification_e_household_items/2-intermediate_classification_e_household_items_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "outlet",
+    "phonetic": "/ˈaʊtlet/",
+    "search_term": "noun/household/essentials",
+    "spoken_phonetic_us": "/ˈaʊtlet/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "species",
+    "phonetic": "/ˈspiʃiz/",
+    "spoken_phonetic_us": "/ˈspiʃiz/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Especie",
+        "usage_example": "It is a rare species.",
+        "pronunciation_guide_es": "/it_is_a_rer_SPI-shis/",
+        "usage_example_es": "Es una especie rara.",
+        "char_count": "five",
+        "usage_context_en": "A group of living organisms consisting of similar individuals.",
+        "usage_context_es": "Un grupo de organismos vivos que consta de individuos similares.",
+        "imagePath": "/card_images/nouns/2-intermediate/classification_e_household_items/2-intermediate_classification_e_household_items_card_4_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "utensil",
+    "phonetic": "/juˈtɛnsəl/",
+    "spoken_phonetic_us": "/juˈtɛnsəl/",
+    "search_term": "noun/household_items/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Utensilio",
+        "usage_example": "A spoon is a common kitchen utensil.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Una cuchara es un utensilio común de cocina.",
+        "char_count": "7",
+        "usage_context_en": "A tool used in the house, especially in the kitchen.",
+        "usage_context_es": "A tool used in the house, especially in the kitchen.",
+        "imagePath": "/card_images/nouns/2-intermediate/classification_e_household_items/2-intermediate_classification_e_household_items_card_5_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Household"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "variety",
+    "phonetic": "/vəˈraɪəti/",
+    "spoken_phonetic_us": "/vəˈraɪəti/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Variedad",
+        "usage_example": "They offer a wide variety.",
+        "pronunciation_guide_es": "/dei_O-fer_a_uaid_va-RAI-e-ti/",
+        "usage_example_es": "Ellos ofrecen una amplia variedad.",
+        "char_count": "five",
+        "usage_context_en": "The quality or state of being different or diverse.",
+        "usage_context_es": "La cualidad o estado de ser diferente o diverso.",
+        "imagePath": "/card_images/nouns/2-intermediate/classification_e_household_items/2-intermediate_classification_e_household_items_card_6_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "furniture",
+    "phonetic": "/ˈfɝnɪtʃər/",
+    "spoken_phonetic_us": "/ˈfɝnɪtʃər/",
+    "search_term": "noun/household_items/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Muebles / Mobiliario",
+        "usage_example": "We bought new furniture for the living room.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Compramos muebles nuevos para la sala.",
+        "char_count": "8",
+        "usage_context_en": "Large movable items in a room.",
+        "usage_context_es": "Large movable items in a room.",
+        "imagePath": "/card_images/nouns/2-intermediate/classification_e_household_items/2-intermediate_classification_e_household_items_card_7_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Household"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "category",
+    "phonetic": "/ˈkætəˌɡɔri/",
+    "spoken_phonetic_us": "/ˈkætəˌɡɔri/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Categoría",
+        "usage_example": "Put it in the right category.",
+        "pronunciation_guide_es": "/put_it_in_de_rait_CA-te-go-ri/",
+        "usage_example_es": "Ponlo en la categoría correcta.",
+        "char_count": "6",
+        "usage_context_en": "A class or division of people or things having shared characteristics.",
+        "usage_context_es": "Una clase o división de personas o cosas que tienen características compartidas.",
+        "imagePath": "/card_images/nouns/2-intermediate/classification_e_household_items/2-intermediate_classification_e_household_items_card_8_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "fixture",
+    "phonetic": "/ˈfɪkstʃər/",
+    "spoken_phonetic_us": "/ˈfɪkstʃər/",
+    "search_term": "noun/household_items/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Instalación fija / Accesorio fijo",
+        "usage_example": "The sink is a bathroom fixture.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "El lavamanos es una instalación fija del baño.",
+        "char_count": "6",
+        "usage_context_en": "An item fixed in place in a building.",
+        "usage_context_es": "An item fixed in place in a building.",
+        "imagePath": "/card_images/nouns/2-intermediate/classification_e_household_items/2-intermediate_classification_e_household_items_card_9_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Household"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "difference",
+    "phonetic": "/ˈdɪfərəns/",
+    "spoken_phonetic_us": "/ˈdɪfərəns/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Diferencia",
+        "usage_example": "What is the main difference?",
+        "pronunciation_guide_es": "/uat_is_de_MEIN_DI-fe-rens/",
+        "usage_example_es": "¿Cuál es la principal diferencia?",
+        "char_count": "5",
+        "usage_context_en": "A point or way in which people or things are not the same.",
+        "usage_context_es": "Un punto o forma en que las personas o cosas no son iguales.",
+        "imagePath": "/card_images/nouns/2-intermediate/classification_e_household_items/2-intermediate_classification_e_household_items_card_10_def0.avif"
+      }
+    ]
+  }
+]

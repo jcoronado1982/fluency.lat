@@ -1,0 +1,156 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "bleiben",
+    "phonetic": "/ˈblaɪbn̩/",
+    "spoken_phonetic_us": "/ˈblaɪbn̩/",
+    "search_term": "verb/stay/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Permanecer/Quedarse",
+        "usage_example": "Bitte bleiben Sie bis zum Ende sitzen.",
+        "pronunciation_guide_es": "/BI-te_BLAI-ben_zi_bis_tsum_EN-de_ZIT-sen/",
+        "alternative_example": "She remained calm during the crisis.",
+        "usage_example_es": "Por favor, permanezca sentado hasta el final.",
+        "char_count": "two",
+        "usage_context_en": "position/state",
+        "usage_context_es": "posición/estado",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state/2-intermediate_being_state_card_0_def0.avif"
+      },
+      {
+        "meaning": "Restar/Quedar (como sobra)",
+        "usage_example": "Nur noch wenige Minuten bleiben übrig.",
+        "pronunciation_guide_es": "/nur_noch_VE-ni-ge_mi-NU-ten_BLAI-ben_UE-brik/",
+        "alternative_example": "The remaining pieces are on the table.",
+        "usage_example_es": "Solo quedan unos pocos minutos.",
+        "char_count": "two",
+        "usage_context_en": "time/quantity",
+        "usage_context_es": "tiempo/cantidad",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state/2-intermediate_being_state_card_0_def1.avif"
+      }
+    ],
+    "group_name": "Body & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "erscheinen",
+    "phonetic": "/ɛɐˈʃaɪnən/",
+    "spoken_phonetic_us": "/ɛɐˈʃaɪnən/",
+    "search_term": "verb/seem/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Aparecer",
+        "usage_example": "Die Sonne erschien hinter den Wolken.",
+        "pronunciation_guide_es": "/di_ZO-ne_er-SHIN_HIN-ter_den_VOL-ken/",
+        "alternative_example": "He suddenly appeared at the door.",
+        "usage_example_es": "El sol apareció detrás de las nubes.",
+        "char_count": "two",
+        "usage_context_en": "visibility/arrival",
+        "usage_context_es": "visibilidad/llegada",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state/2-intermediate_being_state_card_1_def0.avif"
+      },
+      {
+        "meaning": "Parecer/Dar la impresión",
+        "usage_example": "Sie scheint sehr klug zu sein.",
+        "pronunciation_guide_es": "/zi_SHAINT_ZER_KLUK_tsu_zain/",
+        "alternative_example": "It appears you made a mistake.",
+        "usage_example_es": "Ella parece ser muy inteligente.",
+        "char_count": "two",
+        "usage_context_en": "impression/judgment",
+        "usage_context_es": "impresión/juicio",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state/2-intermediate_being_state_card_1_def1.avif"
+      }
+    ],
+    "group_name": "Feelings & Reactions"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "existieren",
+    "phonetic": "/ɛksɪsˈtiːʁən/",
+    "spoken_phonetic_us": "/ɛksɪsˈtiːʁən/",
+    "search_term": "verb/being_state/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Existir",
+        "usage_example": "Glaubst du, dass Leben auf anderen Planeten existiert?",
+        "pronunciation_guide_es": "/GLAUPST_du_das_LE-ben_auf_AN-de-ren_pla-NE-ten_ek-zis-TIRT/",
+        "usage_example_es": "¿Crees que existe vida en otros planetas?",
+        "char_count": "8",
+        "usage_context_en": "To be real or present.",
+        "usage_context_es": "To be real or present.",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state/2-intermediate_being_state_card_2_def0.avif"
+      }
+    ],
+    "is_verb": true,
+    "group_name": "Body & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "auftreten",
+    "phonetic": "/ˈaʊftʁeːtn̩/",
+    "spoken_phonetic_us": "/ˈaʊftʁeːtn̩/",
+    "search_term": "verb/being_state/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Ocurrir / Suceder",
+        "usage_example": "Das Problem trat gestern erneut auf.",
+        "pronunciation_guide_es": "/das_pro-BLEM_TRAT_GES-tern_er-NOIT_AUF/",
+        "usage_example_es": "El problema ocurrió otra vez ayer.",
+        "char_count": "5",
+        "usage_context_en": "To happen or take place.",
+        "usage_context_es": "To happen or take place.",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state/2-intermediate_being_state_card_3_def0.avif"
+      }
+    ],
+    "is_verb": true,
+    "group_name": "Body & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "dauern",
+    "phonetic": "/ˈdaʊɐn/",
+    "spoken_phonetic_us": "/ˈdaʊɐn/",
+    "search_term": "verb/being_state/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Durar",
+        "usage_example": "Das Treffen dauerte zwei Stunden.",
+        "pronunciation_guide_es": "/das_TRE-fen_DAU-er-te_TSVAI_SHTUN-den/",
+        "usage_example_es": "La reunión duró dos horas.",
+        "char_count": "5",
+        "usage_context_en": "To continue for a period of time.",
+        "usage_context_es": "To continue for a period of time.",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state/2-intermediate_being_state_card_4_def0.avif"
+      }
+    ],
+    "is_verb": true,
+    "group_name": "Body & Movement"
+  }
+]

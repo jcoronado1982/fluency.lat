@@ -1,0 +1,748 @@
+parameters:
+  - name: deployJson
+    displayName: 'Publicar json/ (sin efecto — job de destino deshabilitado)'
+    type: boolean
+    default: false
+
+trigger:
+  batch: true
+  branches:
+    include:
+      - main
+      - qa
+      - dev-flashcard
+
+  paths:
+    include:
+      - azure-pipelines.yml
+      - client/**
+      - backend/**
+      - infra/**
+
+variables:
+  - name: sshConn
+    value: 'SrvPortfolio'
+  - name: gcpProject
+    value: 'launch-490115'
+  - name: gcpRegion
+    value: 'us-east1'
+  - name: imageName
+    value: 'gcr.io/launch-490115/flashcard-backend'
+  - name: dockerRegistryConn
+    value: 'GCP-Registry-Connection'
+  - name: cacheRef
+    value: 'gcr.io/launch-490115/flashcard-backend:buildcache'
+  # Publicar json/ es opcional porque CopyFilesOverSSH retransfiere miles de
+  # archivos en cada run. En una ejecución manual, activar el parámetro
+  # deployJson solo cuando se quiera actualizar el catálogo en Oracle.
+  - ${{ if eq(parameters.deployJson, true) }}:
+    - name: DEPLOY_JSON
+      value: 'true'
+  - ${{ else }}:
+    - name: DEPLOY_JSON
+      value: 'false'
+  # Un único switch para backend + Caddy + mirrors: oracle | cloudflare.
+  # Producción entra por el proxy de Cloudflare; qa.fluency.lat permanece DNS-only.
+  # En QA, el header exclusivo del CDN es ignorado y el navegador revalida siempre.
+  - name: MEDIA_DELIVERY_MODE
+    value: 'cloudflare'
+  # Destino real de la media que escriben los nodos remotos (Cloud Run overflow y
+  # mirror de AWS): el proxy de GCP. El prefijo ORACLE_* es nombre LEGADO — Oracle
+  # está archivado desde el 4 ago 2026 (tools/oracle-legacy/README.md) y producción
+  # es GCP. La IP no es secreta (ya está en docs/infrastructure/server_inventory.md);
+  # la contraseña SÍ, y vive en el variable group Flashcard-Secrets.
+  # Antes del 5 ago 2026 ninguna de las dos existía: Azure dejaba el literal
+  # `$(ORACLE_HOST)`, bash lo ejecutaba como comando y llegaba VACÍO a destino.
+  - name: ORACLE_HOST
+    value: '35.188.162.50'
+  # Ruta del repositorio de media EN EL PROXY DE GCP. La anterior
+  # (/root/smart-proxy/repository/flashcard) es de Oracle y NO existe en GCP
+  # (verificado por SSH el 5 ago 2026) — todo SCP hacia allí fallaba.
+  - name: ORACLE_REMOTE_PATH
+    value: '/mnt/sda/repository/flashcard'
+  - ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/qa') }}:
+    - name: remotePath
+      value: '/root/smart-proxy/qa_flashcard'
+  - ${{ else }}:
+    - name: remotePath
+      value: '/root/smart-proxy/flashcard'
+
+# ═══════════════════════════════════════════════════════════════════════
+# ARQUITECTURA DEL PIPELINE (actualizado 5 ago 2026 — servidor real: GCP)
+#
+#  Stage 1 Build_Frontend  ──┐  PARALELO en LocalBuild (PC dev, ~30 GB RAM)
+#  Stage 2 Build_Backend   ──┘  docker buildx amd64+arm64 → push GCR
+#                                    │
+#                    ┌───────────────┼────────────────┐
+#                    ▼               ▼                ▼
+#            Stage 3 Deploy_Front  Stage 4 Deploy_GCP  Stage 5 Deploy_Mirrors
+#            (DESHABILITADO,       (Default —          (Default — solo AWS
+#             sin destino activo)   deploy real)         activo, resto off)
+#                                    │
+#                                    ▼
+#                          Stage 6 Cleanup (limpia workspace agente + artefacto actual)
+#
+# El servidor real de producción es GCP (proxy Caddy + backend, ver
+# docs/infrastructure/server_inventory.md §GCP) desde el 4 ago 2026. La
+# infraestructura legacy (antes el servidor real) quedó archivada como
+# respaldo apagado — ver tools/oracle-legacy/README.md; nada de este
+# pipeline le despliega nada automáticamente (Stage 3 y 2 de los 3 jobs de
+# Stage 5 están deshabilitados con `condition: false` por esa razón; no se
+# borraron, quedan de referencia si se reactiva esa infraestructura).
+# Agente LocalBuild: infra/ci/install-local-agent.sh
+# ═══════════════════════════════════════════════════════════════════════
+
+stages:
+
+# ───────────────────────────────────────────────────────────────────────
+# STAGE 1: BUILD FRONTEND
+# Agente: LocalBuild (PC dev self-hosted, siempre encendida)
+# ───────────────────────────────────────────────────────────────────────
+- stage: Build_Frontend
+  displayName: '🏗️ 1. Build Front (LocalBuild)'
+  dependsOn: []
+  jobs:
+  - job: BuildFront
+    pool:
+      name: 'LocalBuild'
+    steps:
+    # Cache de módulos bun entre pipeline runs (~30 s ahorrados)
+    - task: Cache@2
+      displayName: 'Cache bun modules'
+      inputs:
+        key: 'bun | "$(Agent.OS)" | client/package.json'
+        restoreKeys: 'bun | "$(Agent.OS)"'
+        path: '$(HOME)/.bun/install/cache'
+
+    - script: |
+        curl -fsSL https://bun.sh/install | bash
+        export PATH=$HOME/.bun/bin:$PATH
+        cd client
+        cp env-profiles/production.profile .env.production
+        bun install --frozen-lockfile
+        # Vacío → same-origin: /api va al mismo dominio (prod, QA o cualquier subdominio)
+        VITE_API_URL='' bun run build
+      displayName: 'Bun install + Vite build'
+
+    - task: PublishPipelineArtifact@1
+      displayName: 'Publish dist/'
+      inputs:
+        targetPath: 'client/dist'
+        artifact: 'flashcard-site'
+
+# ───────────────────────────────────────────────────────────────────────
+# STAGE 2: BUILD BACKEND — Cross-Compilación cruzada amd64 + arm64
+#
+# Por qué LocalBuild (PC dev) y no Oracle ARM:
+#   • PC dev → ~30 GB RAM, Docker buildx, cache local persistente
+#   • Oracle ARM 1 GB → solo deploy (pool Default), nunca compila
+#
+# Cómo funciona la cross-compilación:
+#   • Dockerfile usa FROM --platform=$BUILDPLATFORM → el builder corre NATIVO en x86_64
+#   • Para arm64 usa aarch64-linux-gnu-gcc (cross-linker, no QEMU)
+#   • QEMU solo se usa para el FROM final (debian:bookworm-slim, trivial)
+#   • cache-to/from GCR → las ~300 crates de dependencias se reutilizan entre runs
+# ───────────────────────────────────────────────────────────────────────
+- stage: Build_Backend
+  displayName: '🦀 2. Cross-Compile Backend (amd64 + arm64)'
+  dependsOn: []
+  variables:
+    - group: Flashcard-Secrets
+  jobs:
+  - job: CrossCompile
+    pool:
+      name: 'LocalBuild'
+    timeoutInMinutes: 45
+    steps:
+    - script: |
+        docker run --privileged --rm tonistiigi/binfmt --install arm64 2>/dev/null || true
+      displayName: 'Registrar binfmt arm64 (si falta)'
+    - task: Docker@2
+      displayName: 'Login GCR'
+      inputs:
+        containerRegistry: $(dockerRegistryConn)
+        command: 'login'
+
+    - script: |
+        set -e
+        export DOCKER_CLIENT_TIMEOUT=300
+        export COMPOSE_HTTP_TIMEOUT=300
+
+        docker run --privileged --rm tonistiigi/binfmt --install arm64
+
+        docker buildx create --use --name ci-builder \
+          --driver docker-container \
+          --driver-opt network=host \
+          2>/dev/null || docker buildx use ci-builder
+        docker buildx inspect --bootstrap
+
+        build_push() {
+          docker buildx build \
+            --provenance=false --sbom=false \
+            --platform linux/amd64,linux/arm64 \
+            -f backend/Dockerfile \
+            -t $(imageName):latest \
+            -t $(imageName):$(Build.BuildId) \
+            --cache-from type=registry,ref=$(cacheRef) \
+            --cache-to   type=registry,ref=$(cacheRef),mode=min \
+            --push \
+            backend
+        }
+
+        gcr_login() {
+          printf '%s' '$(GCP_KEY_JSON)' | docker login -u _json_key --password-stdin https://gcr.io
+        }
+
+        for attempt in 1 2 3; do
+          echo "=== Push GCR intento ${attempt}/3 ==="
+          gcr_login
+          if build_push; then
+            echo "Push GCR OK"
+            exit 0
+          fi
+          echo "Intento ${attempt} falló; reintento en 45s..."
+          sleep 45
+        done
+        echo "Push GCR falló tras 3 intentos"
+        exit 1
+      displayName: 'Buildx cross-compile + push (cache GCR, 3 reintentos)'
+
+# ───────────────────────────────────────────────────────────────────────
+# STAGE 3: DEPLOY FRONTEND → Oracle Caddy
+# Agente: Default (self-hosted, deshabilitado — ver bloque de arriba)
+#
+# DESHABILITADO (5 ago 2026, mismo motivo que Mirror_Oracle/Mirror_OCI1 en
+# Deploy_Mirrors): Oracle está archivado como respaldo apagado desde el 4
+# ago 2026 (ver tools/oracle-legacy/README.md) y $(sshConn)=SrvPortfolio
+# sigue apuntando a su IP muerta. Este job NO se desactivó junto con los
+# Mirror_* en esa migración — quedó vivo y cada run se colgaba para
+# siempre en el primer paso SSH (Checkout/CopyFilesOverSSH esperando un
+# host que nunca responde), bloqueando la cola del agente Default para
+# TODOS los builds siguientes (bug real, ago 2026 — ver
+# scripts/troubleshooting_library.skill.md). No hay todavía un service
+# connection SSH hacia el proxy real (GCP, 10.128.0.5 — ver
+# docs/infrastructure/server_inventory.md §GCP); hasta crearlo, el
+# frontend SPA no se despliega vía pipeline (pendiente, no es este fix).
+# No borrar el job (referencia si se crea el service connection GCP y se
+# reactiva apuntando ahí), solo no se ejecuta.
+# ───────────────────────────────────────────────────────────────────────
+- stage: Deploy_Frontend
+  displayName: '🚀 3. Deploy Frontend (deshabilitado — sin destino activo)'
+  dependsOn: Build_Frontend
+  condition: succeeded('Build_Frontend')
+  jobs:
+  - job: DeployFront
+    condition: false
+    pool: { name: 'Default' }
+    steps:
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download dist/'
+      inputs:
+        artifact: 'flashcard-site'
+        targetPath: '$(Pipeline.Workspace)/site'
+
+    - task: CopyFilesOverSSH@0
+      displayName: 'Upload SPA → Legacy Proxy (deshabilitado)'
+      inputs:
+        sshEndpoint: $(sshConn)
+        sourceFolder: '$(Pipeline.Workspace)/site'
+        contents: '**'
+        targetFolder: $(remotePath)
+        cleanTargetFolder: true
+
+    - task: SSH@0
+      displayName: 'Ajustar permisos'
+      inputs:
+        sshEndpoint: $(sshConn)
+        runOptions: 'commands'
+        commands: |
+          chown -R 101:101 $(remotePath)
+          chmod -R 755 $(remotePath)
+
+    - task: CopyFilesOverSSH@0
+      displayName: 'Sync infra/proxy → Legacy Proxy (deshabilitado)'
+      inputs:
+        sshEndpoint: $(sshConn)
+        sourceFolder: 'infra/proxy'
+        contents: |
+          Caddyfile
+          Dockerfile
+          entrypoint.sh
+          deploy.sh
+          deploy-caddy.sh
+          deploy-oracle-backend.sh
+          deploy-surrealdb.sh
+          deploy-surrealdb-oci1.sh
+          oci1-db-tuning.sh
+          docker-gcr-auth.sh
+          bootstrap-oracle.sh
+          sync-json-to-oracle.sh
+          sync-qa-repository.sh
+          oracle-ram-monitor.sh
+          aws-health-monitor.sh
+          sentinel-handler
+          traffic-manager
+        targetFolder: '/root/smart-proxy/infra-proxy'
+        cleanTargetFolder: false
+
+    - task: SSH@0
+      displayName: 'Bootstrap Legacy Proxy (Caddy + monitors, deshabilitado)'
+      inputs:
+        sshEndpoint: $(sshConn)
+        runOptions: 'inline'
+        failOnStdErr: false
+        inline: |
+          export MEDIA_DELIVERY_MODE="$(MEDIA_DELIVERY_MODE)"
+          bash /root/smart-proxy/infra-proxy/bootstrap-oracle.sh --caddy-only
+          if [ "$(Build.SourceBranch)" = "refs/heads/qa" ]; then
+            FRONTEND_HOST=qa.fluency.lat
+            curl -sf -k -H "Host: qa.fluency.lat" https://127.0.0.1/api/health || echo "WARN: QA API health via Caddy not ready yet"
+          else
+            FRONTEND_HOST=fluency.lat
+            curl -sf https://fluency.lat/api/health >/dev/null || echo "WARN: API health via Caddy not ready yet"
+          fi
+
+          echo "Verifying SPA cache policy..."
+          HTML_HEADERS=$(curl -skI --resolve "$FRONTEND_HOST:443:127.0.0.1" "https://$FRONTEND_HOST/")
+          printf '%s\n' "$HTML_HEADERS" | grep -qi '^cache-control: no-cache, must-revalidate' || {
+            echo "ERROR: index.html can remain stale after a deployment"; exit 1;
+          }
+          HTML=$(curl -sk --resolve "$FRONTEND_HOST:443:127.0.0.1" "https://$FRONTEND_HOST/")
+          ASSET_PATH=$(printf '%s' "$HTML" | grep -oE '/assets/[^" ]+\.js' | head -1)
+          test -n "$ASSET_PATH" || { echo "ERROR: no hashed JS bundle found in index.html"; exit 1; }
+          ASSET_HEADERS=$(curl -skI --resolve "$FRONTEND_HOST:443:127.0.0.1" "https://$FRONTEND_HOST$ASSET_PATH")
+          printf '%s\n' "$ASSET_HEADERS" | grep -qi '^cache-control: public, max-age=31536000, immutable' || {
+            echo "ERROR: hashed frontend assets are not immutable"; exit 1;
+          }
+          echo "SPA cache policy OK"
+          echo "Frontend deploy OK"
+
+
+# ───────────────────────────────────────────────────────────────────────
+# STAGE 4: DEPLOY BACKEND → GCP Cloud Run
+# Agente: Default (self-hosted, gcloud ya instalado) — gcloud run deploy
+# ───────────────────────────────────────────────────────────────────────
+- stage: Deploy_GCP
+  displayName: '☁️ 4. Deploy Backend → GCP Cloud Run'
+  dependsOn:
+    - Build_Backend
+    - Deploy_Frontend
+  condition: and(succeeded('Build_Backend'), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  variables:
+    - group: Flashcard-Secrets
+  jobs:
+  - job: CloudRunDeploy
+    pool: { name: 'Default' }
+    steps:
+    - script: |
+        # La cuenta gcloud "activa" del agente es ambiente compartido: un humano que
+        # corre `gcloud config set account` en esta misma máquina (p.ej. durante la
+        # migración a GCP del 4 ago 2026) cambia con qué identidad despliega el
+        # pipeline. Verificado en vivo el 5 ago 2026: alberto.testing01@gmail.com
+        # (la cuenta activa) NO tiene run.services.get sobre launch-490115 y este
+        # stage fallaba con PERMISSION_DENIED en TODOS los runs de main (388, 391);
+        # la SA del pipeline sí lo tiene. Pinear la identidad aquí en vez de heredar
+        # la del agente.
+        export CLOUDSDK_CORE_ACCOUNT="azure-pipelines-deployer@launch-490115.iam.gserviceaccount.com"
+        # ORACLE_* es nombre legado: el destino real es el proxy de GCP (ver bloque
+        # `variables` arriba). Hasta el 5 ago 2026 ORACLE_HOST/ORACLE_SSH_PASSWORD no
+        # existían y llegaban VACÍOS junto a SYNC_TO_ORACLE=true, así que al caer el
+        # tráfico al overflow, generar audio/imagen hacía SCP a un host vacío y fallaba.
+        gcloud run deploy flashcard-backend \
+          --project $(gcpProject) \
+          --image $(imageName):latest \
+          --region $(gcpRegion) \
+          --platform managed \
+          --allow-unauthenticated \
+          --cpu 1 --memory 512Mi \
+          --concurrency 80 \
+          --set-env-vars "SURREAL_URL=wss://fluency.lat/db/rpc,GEMINI_API_KEY=$(GEMINI_API_KEY),GCP_API_KEY=$(GCP_API_KEY),RUST_LOG=info,GOOGLE_CLIENT_ID=$(GOOGLE_CLIENT_ID),JWT_SECRET=$(JWT_SECRET),SUPER_ADMIN_EMAIL=$(SUPER_ADMIN_EMAIL),SYNC_TO_ORACLE=true,ORACLE_HOST=$(ORACLE_HOST),ORACLE_SSH_PASSWORD=$(ORACLE_SSH_PASSWORD),ORACLE_REMOTE_PATH=$(ORACLE_REMOTE_PATH),LOCAL_STORAGE_PATH=/tmp,GCS_JSON_PREFIX=json,GCS_IMAGES_PREFIX=card_images,GCS_AUDIO_PREFIX=card_audio,MEDIA_DELIVERY_MODE=$(MEDIA_DELIVERY_MODE)"
+      displayName: 'gcloud run deploy'
+
+# ───────────────────────────────────────────────────────────────────────
+# STAGE 5: REPLICATE MIRRORS — Oracle + OCI-1 + AWS
+#
+# Cada servidor solo hace: docker pull + docker run
+# SIN compilar nada — la imagen ya incluye el binario arm64/amd64 correcto
+# ───────────────────────────────────────────────────────────────────────
+- stage: Deploy_Mirrors
+  displayName: '🔁 5. Replicate Mirrors (AWS activo; otros 2 deshabilitados)'
+  dependsOn:
+    - Build_Backend
+    - Deploy_Frontend
+    - Deploy_GCP
+  condition: |
+    and(
+      succeeded('Build_Backend'),
+      in(dependencies.Deploy_Frontend.result, 'Succeeded', 'Skipped'),
+      in(dependencies.Deploy_GCP.result, 'Succeeded', 'Skipped')
+    )
+  variables:
+    - group: Flashcard-Secrets
+  jobs:
+
+  # ── A. Oracle Proxy Mirror ──────────────────────────────────────────
+  # DESHABILITADO (4 ago 2026): Oracle dejó de ser el servidor real; el
+  # proxy/backend de producción ahora corren en GCP. Oracle queda como
+  # infraestructura de respaldo apagada — el pipeline ya no le despliega
+  # nada automáticamente. No borrar el job (referencia si se reactiva),
+  # solo no se ejecuta.
+  - job: Mirror_Oracle
+    displayName: 'Legacy Proxy Mirror (deshabilitado)'
+    condition: false
+    pool: { name: 'Default' }
+    steps:
+    - script: |
+        set -euo pipefail
+        GCP_CREDS_B64="$(printf '%s' '$(GCP_KEY_JSON)' | base64 -w0)"
+        echo "##vso[task.setvariable variable=GCP_CREDS_B64;issecret=true]${GCP_CREDS_B64}"
+        SUPER_ADMIN_EMAIL_VAL='$(SUPER_ADMIN_EMAIL)'
+        if [ -z "$SUPER_ADMIN_EMAIL_VAL" ]; then
+          echo "##vso[task.logissue type=error]SUPER_ADMIN_EMAIL no está definido en Flashcard-Secrets"
+          exit 1
+        fi
+        echo "##vso[task.setvariable variable=SUPER_ADMIN_EMAIL_VAL]${SUPER_ADMIN_EMAIL_VAL}"
+      displayName: 'Preparar creds para deploy Legacy Proxy (GCP + SUPER_ADMIN_EMAIL)'
+
+    - task: CopyFilesOverSSH@0
+      displayName: 'Sync infra/proxy scripts → Legacy Proxy (deshabilitado)'
+      inputs:
+        sshEndpoint: $(sshConn)
+        sourceFolder: 'infra/proxy'
+        contents: |
+          Caddyfile
+          Dockerfile
+          entrypoint.sh
+          deploy.sh
+          deploy-caddy.sh
+          deploy-oracle-backend.sh
+          deploy-surrealdb.sh
+          deploy-surrealdb-oci1.sh
+          oci1-db-tuning.sh
+          docker-gcr-auth.sh
+          bootstrap-oracle.sh
+          sync-json-to-oracle.sh
+          sync-qa-repository.sh
+          oracle-ram-monitor.sh
+          aws-health-monitor.sh
+          sentinel-handler
+          traffic-manager
+        targetFolder: '/root/smart-proxy/infra-proxy'
+        cleanTargetFolder: false
+
+    - script: node scripts/generate-catalog-manifest.mjs
+      displayName: 'Generar manifiesto global del catálogo'
+      condition: and(succeeded(), eq(variables['DEPLOY_JSON'], 'true'))
+
+    - task: CopyFilesOverSSH@0
+      displayName: 'Stage json/ del repo → Legacy Proxy (deshabilitado)'
+      condition: and(succeeded(), eq(variables['DEPLOY_JSON'], 'true'))
+      inputs:
+        sshEndpoint: $(sshConn)
+        sourceFolder: 'json'
+        contents: '**'
+        targetFolder: '/tmp/flashcard-json-staging'
+        cleanTargetFolder: true
+
+    - task: SSH@0
+      displayName: 'Deploy Legacy Proxy backend (env en memoria vía SSH, deshabilitado)'
+      inputs:
+        sshEndpoint: $(sshConn)
+        runOptions: inline
+        failOnStdErr: false
+        inline: |
+          set -euo pipefail
+          export DATABASE_URL="$(DATABASE_URL)"
+          export GEMINI_API_KEY="$(GEMINI_API_KEY)"
+          export GEMINI_TTS_API_KEY="$(GEMINI_TTS_API_KEY)"
+          export GCP_API_KEY="$(GCP_API_KEY)"
+          export GOOGLE_CLIENT_ID="$(GOOGLE_CLIENT_ID)"
+          export JWT_SECRET="$(JWT_SECRET)"
+          export SUPER_ADMIN_EMAIL="$(SUPER_ADMIN_EMAIL_VAL)"
+          export GOOGLE_CREDENTIALS_JSON="$(GCP_CREDS_B64)"
+          export RUST_LOG=info
+          export SURREAL_URL=10.128.0.5:8080
+          export SURREAL_USER="$(SURREAL_USER)"
+          export SURREAL_PASS="$(SURREAL_PASS)"
+          export MEDIA_DELIVERY_MODE="$(MEDIA_DELIVERY_MODE)"
+
+          if [ "$(DEPLOY_JSON)" = "true" ]; then
+            echo "Applying json/ from repo to Oracle production repository..."
+            test -d /tmp/flashcard-json-staging
+            bash /root/smart-proxy/infra-proxy/sync-json-to-oracle.sh \
+              /tmp/flashcard-json-staging \
+              /root/smart-proxy/repository/flashcard/json
+          else
+            echo "JSON deploy skipped (DEPLOY_JSON=$(DEPLOY_JSON))"
+          fi
+
+          if [ "$(Build.SourceBranch)" = "refs/heads/qa" ]; then
+            export SURREAL_NS=qa_flashcard
+            export SURREAL_DB=qa_flashcard
+            export FLASHCARD_BACKEND_CONTAINER=qa-flashcard-backend-node
+            # QA se usa poco y de noche: mínimos recursos, prioridad a producción.
+            # 128m de RAM (uso real ~14m) y cpu-shares 128 (≈11% de la CPU SOLO
+            # si compite con prod; con prod ocioso corre a velocidad completa).
+            export FLASHCARD_BACKEND_MEMORY_LIMIT=128m
+            export FLASHCARD_BACKEND_CPU_SHARES=128
+            export FLASHCARD_REPO_PATH=/root/smart-proxy/repository/qa_flashcard
+            export BACKEND_PORT=8081
+            export HEALTH_URL="http://127.0.0.1:8081/api/health"
+            export EXTERNAL_HEALTH_URL="https://qa.fluency.lat/api/health"
+            echo "Syncing QA content repository from production..."
+            bash /root/smart-proxy/infra-proxy/sync-qa-repository.sh
+          else
+            export SURREAL_NS=flashcard
+            export SURREAL_DB=flashcard
+            export FLASHCARD_BACKEND_CONTAINER=flashcard-backend-node
+            export FLASHCARD_REPO_PATH=/root/smart-proxy/repository/flashcard
+            export BACKEND_PORT=8080
+            export HEALTH_URL="http://127.0.0.1:8080/api/health"
+            export EXTERNAL_HEALTH_URL="https://fluency.lat/api/health"
+          fi
+
+          rm -f /tmp/gcp-deploy-key.json /tmp/flashcard-backend.env
+          bash /root/smart-proxy/infra-proxy/bootstrap-oracle.sh --backend-only --no-monitors
+          
+          echo "Verifying local container health..."
+          curl -sf "$HEALTH_URL"
+          
+          echo "Verifying local Caddy proxy routing (bypassing DNS)..."
+          if [ "$(Build.SourceBranch)" = "refs/heads/qa" ]; then
+            curl -sf -k -H "Host: qa.fluency.lat" https://127.0.0.1/api/health || \
+            curl -sf -H "Host: qa.fluency.lat" http://127.0.0.1/api/health
+            echo "Verifying QA categories are loaded..."
+            QA_CATS=$(curl -sf -H "Host: qa.fluency.lat" http://127.0.0.1:8081/api/categories | python3 -c "import json,sys; d=json.load(sys.stdin); print(len(d.get('categories',[])))")
+            if [ "${QA_CATS:-0}" -eq 0 ]; then
+              echo "ERROR: QA /api/categories returned empty list — check /root/smart-proxy/repository/qa_flashcard/json"
+              exit 1
+            fi
+            echo "QA categories OK (${QA_CATS})"
+          else
+            curl -sf -k -H "Host: fluency.lat" https://127.0.0.1/api/health || \
+            curl -sf -H "Host: fluency.lat" http://127.0.0.1/api/health
+            echo "Verifying production categories are loaded..."
+            PROD_CATS=$(curl -sf http://127.0.0.1:8080/api/categories | python3 -c "import json,sys; d=json.load(sys.stdin); print(len(d.get('categories',[])))")
+            if [ "${PROD_CATS:-0}" -eq 0 ]; then
+              echo "ERROR: production /api/categories returned empty list — check /root/smart-proxy/repository/flashcard/json"
+              exit 1
+            fi
+            echo "Production categories OK (${PROD_CATS})"
+          fi
+
+          echo "Verifying media provider consistency and origin cache policy..."
+          CADDY_MEDIA_MODE=$(docker inspect caddy-smart --format '{{range .Config.Env}}{{println .}}{{end}}' | sed -n 's/^MEDIA_DELIVERY_MODE=//p')
+          BACKEND_MEDIA_MODE=$(docker inspect "$FLASHCARD_BACKEND_CONTAINER" --format '{{range .Config.Env}}{{println .}}{{end}}' | sed -n 's/^MEDIA_DELIVERY_MODE=//p')
+          if [ "$CADDY_MEDIA_MODE" != "$MEDIA_DELIVERY_MODE" ] || [ "$BACKEND_MEDIA_MODE" != "$MEDIA_DELIVERY_MODE" ]; then
+            echo "ERROR: media mode mismatch (pipeline=$MEDIA_DELIVERY_MODE caddy=$CADDY_MEDIA_MODE backend=$BACKEND_MEDIA_MODE)"
+            exit 1
+          fi
+
+          if [ "$(Build.SourceBranch)" = "refs/heads/qa" ]; then
+            MEDIA_REPO=/root/smart-proxy/repository/qa_flashcard
+            MEDIA_HOST=qa.fluency.lat
+          else
+            MEDIA_REPO=/root/smart-proxy/repository/flashcard
+            MEDIA_HOST=fluency.lat
+          fi
+          IMAGE_FILE=$(find "$MEDIA_REPO/card_images" -type f \( -name '*.avif' -o -name '*.webp' -o -name '*.png' -o -name '*.jpg' -o -name '*.jpeg' \) -print -quit)
+          AUDIO_FILE=$(find "$MEDIA_REPO/card_audio" -type f \( -name '*.ogg' -o -name '*.mp3' -o -name '*.wav' \) -print -quit)
+          if [ -z "$IMAGE_FILE" ] || [ -z "$AUDIO_FILE" ]; then
+            echo "ERROR: image/audio unavailable to verify cache policy in $MEDIA_REPO"
+            exit 1
+          fi
+          for MEDIA_FILE in "$IMAGE_FILE" "$AUDIO_FILE"; do
+            MEDIA_PATH=${MEDIA_FILE#"$MEDIA_REPO/"}
+            # --resolve conserva Host y SNI de MEDIA_HOST, pero conecta al
+            # Caddy local. Un header Host sobre https://127.0.0.1 no basta:
+            # TLS negocia con SNI=127.0.0.1 y Caddy rechaza el certificado.
+            VERSIONED_HEADERS=$(curl -skI --resolve "$MEDIA_HOST:443:127.0.0.1" "https://$MEDIA_HOST/$MEDIA_PATH?v=pipeline-check")
+            UNVERSIONED_HEADERS=$(curl -skI --resolve "$MEDIA_HOST:443:127.0.0.1" "https://$MEDIA_HOST/$MEDIA_PATH")
+            printf '%s\n' "$UNVERSIONED_HEADERS" | grep -qi '^cache-control: public, no-cache' || {
+              echo "ERROR: unversioned media is not revalidated ($MEDIA_PATH)"; exit 1;
+            }
+            if [ "$MEDIA_DELIVERY_MODE" = "cloudflare" ]; then
+              printf '%s\n' "$VERSIONED_HEADERS" | grep -qi '^cache-control: public, no-cache' || {
+                echo "ERROR: browser cache policy is not safe for Cloudflare mode ($MEDIA_PATH)"; exit 1;
+              }
+              printf '%s\n' "$VERSIONED_HEADERS" | grep -qi '^cloudflare-cdn-cache-control: public, max-age=31536000' || {
+                echo "ERROR: Cloudflare edge cache policy is missing ($MEDIA_PATH)"; exit 1;
+              }
+            else
+              printf '%s\n' "$VERSIONED_HEADERS" | grep -qi '^cache-control: public, max-age=31536000, immutable' || {
+                echo "ERROR: Oracle browser cache policy is missing ($MEDIA_PATH)"; exit 1;
+              }
+            fi
+            echo "Media cache policy OK ($MEDIA_PATH)"
+          done
+          echo "Media provider consistency OK ($MEDIA_DELIVERY_MODE)"
+
+          echo "Verifying external DNS health check..."
+          if curl -sf --connect-timeout 5 "$EXTERNAL_HEALTH_URL"; then
+            echo "External health check OK"
+          else
+            echo "WARNING: External health check failed (this is expected if DNS has not propagated yet for QA)."
+            if [ "$(Build.SourceBranch)" != "refs/heads/qa" ]; then
+              echo "ERROR: Production external health check must pass."
+              exit 1
+            fi
+          fi
+          echo "Oracle Mirror OK"
+
+  # ── B. OCI-1 — SurrealDB dedicado (500 usuarios concurrentes) ───────────
+  # DESHABILITADO (4 ago 2026), misma razón que Mirror_Oracle: la DB real
+  # de producción es la SurrealDB de GCP, no OCI-1. No borrar (referencia).
+  - job: Mirror_OCI1
+    displayName: 'OCI-1 DB Dedicada (129.158.214.227)'
+    dependsOn: Mirror_Oracle
+    # succeeded('Mirror_Oracle') explícito: `dependsOn` por sí solo SOLO define
+    # orden, no éxito. Sin esto, un Mirror_Oracle fallido no bloqueaba este job
+    # — causó un incidente real (jul 2026): con el backend sin desplegar, este
+    # job igual redesplegó SurrealDB a una versión mayor nueva contra datos
+    # todavía en el formato viejo, y el contenedor corrompió el storage al
+    # intentar arrancar. Ver troubleshooting_library.skill.md entrada 5.
+    condition: false
+    pool: { name: 'Default' }
+    steps:
+    - script: |
+        set -euo pipefail
+        command -v sshpass >/dev/null || { echo "sshpass no instalado en el agente"; exit 1; }
+        OCI_HOST="129.158.214.227"
+        REMOTE_DIR="/root/smart-proxy/infra-proxy"
+        sshpass -p '$(OCI_PASSWORD)' ssh -o StrictHostKeyChecking=no "root@${OCI_HOST}" "mkdir -p ${REMOTE_DIR}"
+        sshpass -p '$(OCI_PASSWORD)' scp -o StrictHostKeyChecking=no \
+          infra/proxy/deploy-surrealdb-oci1.sh \
+          infra/proxy/oci1-db-tuning.sh \
+          "root@${OCI_HOST}:${REMOTE_DIR}/"
+        sshpass -p '$(OCI_PASSWORD)' ssh -o StrictHostKeyChecking=no "root@${OCI_HOST}" \
+          "chmod +x ${REMOTE_DIR}/deploy-surrealdb-oci1.sh ${REMOTE_DIR}/oci1-db-tuning.sh && bash ${REMOTE_DIR}/deploy-surrealdb-oci1.sh && echo OCI-1 DB deploy OK"
+      displayName: 'Deploy SurrealDB OCI-1 (800m, host network)'
+
+  # ── C. AWS Mirror ───────────────────────────────────────────────────
+  # Ya NO depende de Mirror_Oracle/Mirror_OCI1 (deshabilitados el 4 ago
+  # 2026): antes estaba encadenado a ellos solo por orden de ejecución en
+  # este stage, no por una dependencia real de datos — AWS ya conecta a
+  # SurrealDB vía wss://fluency.lat/db, no a Oracle directo. Con Oracle
+  # apagado del pipeline, dejarlo encadenado lo hubiera dejado sin correr.
+  - job: Mirror_AWS
+    displayName: 'AWS Mirror (34.229.229.255)'
+    dependsOn: []
+    condition: eq(variables['Build.SourceBranch'], 'refs/heads/main')
+    pool: { name: 'Default' }
+    steps:
+    - script: |
+        set -euo pipefail
+        command -v sshpass >/dev/null || { echo "sshpass no instalado en el agente"; exit 1; }
+        GCP_CREDS_B64="$(printf '%s' '$(GCP_KEY_JSON)' | base64 -w0)"
+        SUPER_ADMIN_EMAIL_VAL='$(SUPER_ADMIN_EMAIL)'
+        ORACLE_HOST_VAL='$(ORACLE_HOST)'
+        ORACLE_SSH_PASSWORD_VAL='$(ORACLE_SSH_PASSWORD)'
+        ORACLE_REMOTE_PATH_VAL='$(ORACLE_REMOTE_PATH)'
+        cat > $(Agent.TempDirectory)/deploy-aws.sh << EOF
+        #!/bin/sh
+        set -eu
+        IMAGE="gcr.io/launch-490115/flashcard-backend:latest"
+        CONTAINER="flashcard-backend-node"
+        GOOGLE_CREDENTIALS_JSON="${GCP_CREDS_B64}"
+        KEY_TMP="\$(mktemp /tmp/gcp-key-XXXXXX)"
+        AUTH_TMP="\$(mktemp -d /tmp/docker-auth-XXXXXX)"
+        chmod 600 "\$KEY_TMP"
+        chmod 700 "\$AUTH_TMP"
+        trap 'rm -rf "\$AUTH_TMP" "\$KEY_TMP" /tmp/gcp-deploy-key.json' EXIT
+        printf '%s' "\$GOOGLE_CREDENTIALS_JSON" | base64 -d > "\$KEY_TMP"
+        export DOCKER_CONFIG="\$AUTH_TMP"
+        cat "\$KEY_TMP" | doas docker login -u _json_key --password-stdin https://gcr.io >/dev/null
+        doas docker pull "\$IMAGE"
+        rm -rf "\$AUTH_TMP"
+        unset DOCKER_CONFIG
+        doas docker stop "\$CONTAINER" 2>/dev/null || true
+        doas docker rm   "\$CONTAINER" 2>/dev/null || true
+        doas docker run -d --name "\$CONTAINER" \
+          --network host --restart always \
+          -e DATABASE_URL="$(DATABASE_URL)" \
+          -e SURREAL_URL="wss://fluency.lat/db/rpc" \
+          -e SURREAL_NS="flashcard" -e SURREAL_DB="flashcard" \
+          -e SURREAL_USER="$(SURREAL_USER)" -e SURREAL_PASS="$(SURREAL_PASS)" \
+          -e GEMINI_API_KEY="$(GEMINI_API_KEY)" \
+          -e GCP_API_KEY="$(GCP_API_KEY)" \
+          -e GOOGLE_CREDENTIALS_JSON="\$GOOGLE_CREDENTIALS_JSON" \
+          -e RUST_LOG="info" -e PORT="8080" \
+          -e GOOGLE_CLIENT_ID="$(GOOGLE_CLIENT_ID)" \
+          -e JWT_SECRET="$(JWT_SECRET)" \
+          -e SUPER_ADMIN_EMAIL="${SUPER_ADMIN_EMAIL_VAL}" \
+          -e MEDIA_DELIVERY_MODE="$(MEDIA_DELIVERY_MODE)" \
+          -e SYNC_TO_ORACLE="true" \
+          -e ORACLE_HOST="${ORACLE_HOST_VAL}" \
+          -e ORACLE_SSH_PASSWORD="${ORACLE_SSH_PASSWORD_VAL}" \
+          -e ORACLE_REMOTE_PATH="${ORACLE_REMOTE_PATH_VAL}" \
+          -e LOCAL_STORAGE_PATH="/tmp" \
+          -e GCS_JSON_PREFIX="json" \
+          -e GCS_IMAGES_PREFIX="card_images" \
+          -e GCS_AUDIO_PREFIX="card_audio" \
+          "\$IMAGE"
+        rm -f "\$KEY_TMP" /tmp/gcp-deploy-key.json
+        echo "AWS Mirror OK"
+        EOF
+        chmod +x $(Agent.TempDirectory)/deploy-aws.sh
+        sshpass -p '$(OCI_PASSWORD)' scp -o StrictHostKeyChecking=no \
+          $(Agent.TempDirectory)/deploy-aws.sh \
+          alpine@34.229.229.255:/tmp/
+        sshpass -p '$(OCI_PASSWORD)' ssh -o StrictHostKeyChecking=no \
+          -o PreferredAuthentications=password \
+          alpine@34.229.229.255 'sh /tmp/deploy-aws.sh'
+      displayName: 'Deploy AWS'
+
+# ───────────────────────────────────────────────────────────────────────
+# STAGE 6: CLEANUP — Borrar artefactos ADO y logs del agente tras deploy
+# ───────────────────────────────────────────────────────────────────────
+- stage: Cleanup
+  displayName: '🧹 6. Cleanup (artifacts + logs)'
+  dependsOn: Deploy_Mirrors
+  condition: |
+    in(dependencies.Deploy_Mirrors.result, 'Succeeded', 'Skipped')
+  jobs:
+
+  - job: Cleanup_Default
+    displayName: 'Cleanup agent Default + delete ADO artifact'
+    pool: { name: 'Default' }
+    steps:
+    - checkout: none
+    - script: |
+        set -euo pipefail
+        echo "Cleaning Default agent workspace..."
+        rm -rf "$(Pipeline.Workspace)/site" "$(Pipeline.Workspace)/s" 2>/dev/null || true
+        rm -f /tmp/deploy-oci1.sh /tmp/deploy-aws.sh 2>/dev/null || true
+        find "$(Pipeline.Workspace)" -maxdepth 5 -name "*.log" -type f -delete 2>/dev/null || true
+        find "$(Agent.TempDirectory)" -maxdepth 3 -type f -delete 2>/dev/null || true
+
+        echo "Deleting pipeline artifact flashcard-site (build $(Build.BuildId))..."
+        ORG_URL="$(System.CollectionUri)"
+        PROJECT="$(System.TeamProject)"
+        BUILD_ID="$(Build.BuildId)"
+        HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X DELETE \
+          -H "Authorization: Bearer $(System.AccessToken)" \
+          "${ORG_URL}${PROJECT}/_apis/build/builds/${BUILD_ID}/artifacts?artifactName=flashcard-site&api-version=7.1" || echo "000")
+        if [ "$HTTP_CODE" = "204" ] || [ "$HTTP_CODE" = "200" ]; then
+          echo "ADO artifact flashcard-site deleted (HTTP $HTTP_CODE)"
+        else
+          echo "WARN: could not delete ADO artifact (HTTP $HTTP_CODE)"
+        fi
+        echo "Default cleanup OK"
+      displayName: 'Clean workspace + delete current ADO artifact'
+      env:
+        SYSTEM_ACCESSTOKEN: $(System.AccessToken)
+
+  - job: Cleanup_LocalBuild
+    displayName: 'Cleanup agent LocalBuild'
+    pool: { name: 'LocalBuild' }
+    steps:
+    - checkout: none
+    - script: |
+        set -euo pipefail
+        echo "Cleaning LocalBuild agent workspace..."
+        rm -rf "$(Pipeline.Workspace)/site" "$(Pipeline.Workspace)/s/client/dist" 2>/dev/null || true
+        find "$(Pipeline.Workspace)" -maxdepth 6 -name "*.log" -type f -delete 2>/dev/null || true
+        find "$(Agent.TempDirectory)" -maxdepth 3 -type f -delete 2>/dev/null || true
+        docker buildx prune -f --filter "until=24h" 2>/dev/null || true
+        echo "LocalBuild cleanup OK"
+      displayName: 'Clean build artifacts and logs'

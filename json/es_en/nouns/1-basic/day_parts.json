@@ -1,0 +1,184 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Mañana (parte del día)",
+        "pronunciation_guide_es": "/ai_UORK_in_de_MORning/",
+        "usage_context_en": "The time from sunrise to noon",
+        "usage_context_es": "El tiempo desde el amanecer hasta el mediodía",
+        "usage_example": "I work in the morning.",
+        "usage_example_es": "Trabajo por la mañana.",
+        "imagePath": "/card_images/nouns/1-basic/day_parts/1-basic_day_parts_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "morning",
+    "phonetic": "/ˈmɔːrnɪŋ/",
+    "search_term": "noun/time/essentials",
+    "spoken_phonetic_us": "/ˈmɔːrnɪŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Tarde",
+        "pronunciation_guide_es": "/si_iu_in_di_afterNUN/",
+        "usage_context_en": "The time from noon to evening",
+        "usage_context_es": "El tiempo desde el mediodía hasta el atardecer",
+        "usage_example": "See you in the afternoon.",
+        "usage_example_es": "Nos vemos en la tarde.",
+        "imagePath": "/card_images/nouns/1-basic/day_parts/1-basic_day_parts_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "afternoon",
+    "phonetic": "/ˌæftərˈnuːn/",
+    "search_term": "noun/time/essentials",
+    "spoken_phonetic_us": "/ˌæftərˈnuːn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Tarde-Noche",
+        "pronunciation_guide_es": "/ai_UACH_tiVI_in_di_IVning/",
+        "usage_context_en": "The time from the end of the day to night",
+        "usage_context_es": "El tiempo desde el fin del día hasta la noche",
+        "usage_example": "I watch TV in the evening.",
+        "usage_example_es": "Veo televisión por la tarde-noche.",
+        "imagePath": "/card_images/nouns/1-basic/day_parts/1-basic_day_parts_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "evening",
+    "phonetic": "/ˈiːvnɪŋ/",
+    "search_term": "noun/time/essentials",
+    "spoken_phonetic_us": "/ˈiːvnɪŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Noche",
+        "pronunciation_guide_es": "/ai_SLIP_at_NAIT/",
+        "usage_context_en": "The period of darkness in 24 hours",
+        "usage_context_es": "El período de oscuridad en 24 horas",
+        "usage_example": "I sleep at night.",
+        "usage_example_es": "Duermo por la noche.",
+        "imagePath": "/card_images/nouns/1-basic/day_parts/1-basic_day_parts_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "night",
+    "phonetic": "/naɪt/",
+    "search_term": "noun/time/essentials",
+    "spoken_phonetic_us": "/naɪt/"
+  },
+  {
+    "word": "midday",
+    "translation": "mediodía",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "meaning": "Around the middle of the day.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "Around the middle of the day.",
+        "usage_context_es": "Alrededor de la mitad del día.",
+        "usage_example": "It is midday.",
+        "usage_example_es": "Es mediodía.",
+        "imagePath": "/card_images/nouns/1-basic/day_parts/1-basic_day_parts_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "midday",
+    "phonetic": "",
+    "search_term": "noun/time/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "noon",
+    "translation": "mediodía",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "meaning": "Twelve o'clock in the daytime.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "Twelve o'clock in the daytime.",
+        "usage_context_es": "Las doce del día.",
+        "usage_example": "Lunch is at noon.",
+        "usage_example_es": "El almuerzo es al mediodía.",
+        "imagePath": "/card_images/nouns/1-basic/day_parts/1-basic_day_parts_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "noon",
+    "phonetic": "",
+    "search_term": "noun/time/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "midnight",
+    "translation": "medianoche",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "meaning": "Twelve o'clock at night.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "Twelve o'clock at night.",
+        "usage_context_es": "Las doce de la noche.",
+        "usage_example": "The alarm rang at midnight.",
+        "usage_example_es": "La alarma sonó a medianoche.",
+        "imagePath": "/card_images/nouns/1-basic/day_parts/1-basic_day_parts_card_6_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "midnight",
+    "phonetic": "",
+    "search_term": "noun/time/seed",
+    "spoken_phonetic_us": ""
+  }
+]

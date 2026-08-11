@@ -1,0 +1,672 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "das Konto",
+    "phonetic": "/das ˈkɔnto/",
+    "spoken_phonetic_us": "/das ˈkɔnto/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Cuenta (bancaria, de email)",
+        "usage_example": "Ich habe ein neues Konto eröffnet.",
+        "pronunciation_guide_es": "/ish_HA-be_ain_NOI-es_KON-to_er-OEF-net/",
+        "usage_example_es": "Abrí una cuenta nueva.",
+        "char_count": "five",
+        "usage_context_en": "A record or statement of financial expenditure or receipts.",
+        "usage_context_es": "Un registro o estado de gastos o ingresos financieros.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_0_def0.avif"
+      },
+      {
+        "meaning": "Relato / Informe",
+        "usage_example": "Er gab einen vollständigen Bericht über das Ereignis.",
+        "pronunciation_guide_es": "/er_GAP_AI-nen_FOL-shtaen-di-gen_be-RISHT_UE-ber_das_er-AIG-nis/",
+        "usage_example_es": "Él dio un relato completo del evento.",
+        "char_count": "eight",
+        "usage_context_en": "A report or description of an event or experience.",
+        "usage_context_es": "Un informe o descripción de un evento o experiencia.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_0_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "der Bonus",
+    "phonetic": "/deːɐ ˈboːnʊs/",
+    "spoken_phonetic_us": "/deːɐ ˈboːnʊs/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Bono / Prima",
+        "usage_example": "Wir bekamen einen Weihnachtsbonus.",
+        "pronunciation_guide_es": "/vir_be-KA-men_AI-nen_VAI-nachts-bo-nus/",
+        "usage_example_es": "Recibimos un bono de Navidad.",
+        "char_count": "five",
+        "usage_context_en": "An amount of money added to wages on a seasonal basis, especially as a reward.",
+        "usage_context_es": "Una cantidad de dinero añadida al salario de forma estacional, especialmente como recompensa.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_1_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "das Budget",
+    "phonetic": "/das byˈdʒeː/",
+    "spoken_phonetic_us": "/das byˈdʒeː/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Presupuesto",
+        "usage_example": "Wir sind über dem Budget.",
+        "pronunciation_guide_es": "/vir_zint_UE-ber_dem_bue-DSHE/",
+        "usage_example_es": "Estamos por encima del presupuesto.",
+        "char_count": "four",
+        "usage_context_en": "An estimate of income and expenditure for a set period of time.",
+        "usage_context_es": "Una estimación de ingresos y gastos para un período de tiempo establecido.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "der Handel",
+    "phonetic": "/deːɐ ˈhandl̩/",
+    "spoken_phonetic_us": "/deːɐ ˈhandl̩/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Comercio",
+        "usage_example": "Der E-Commerce wächst schnell.",
+        "pronunciation_guide_es": "/der_I-ko-mers_VEHST_SHNEL/",
+        "usage_example_es": "El comercio electrónico está creciendo rápido.",
+        "char_count": "four",
+        "usage_context_en": "The activity of buying and selling, especially on a large scale.",
+        "usage_context_es": "La actividad de comprar y vender, especialmente a gran escala.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_3_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "die Versicherung",
+    "phonetic": "/diː fɛɐˈzɪçəʁʊŋ/",
+    "spoken_phonetic_us": "/diː fɛɐˈzɪçəʁʊŋ/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Seguro",
+        "usage_example": "Hast du eine Autoversicherung?",
+        "pronunciation_guide_es": "/HAST_du_AI-ne_AU-to-fer-zi-she-rung/",
+        "usage_example_es": "¿Tienes seguro de coche?",
+        "char_count": "5",
+        "usage_context_en": "An agreement where you pay a company and they pay costs if you have an accident or loss.",
+        "usage_context_es": "Un acuerdo donde pagas a una compañía y ellos pagan los costos si tienes un accidente o pérdida.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_4_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "der Gewinn",
+    "phonetic": "/deːɐ ɡəˈvɪn/",
+    "spoken_phonetic_us": "/deːɐ ɡəˈvɪn/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Ganancia / Aumento",
+        "usage_example": "Er erzielte einen finanziellen Gewinn.",
+        "pronunciation_guide_es": "/er_er-TSIL-te_AI-nen_fi-nan-tsi-E-len_ge-VIN/",
+        "usage_example_es": "Él obtuvo una ganancia financiera.",
+        "char_count": "5",
+        "usage_context_en": "An increase in wealth or resources; an advantage.",
+        "usage_context_es": "Un aumento en la riqueza o los recursos; una ventaja.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_5_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "der Verbraucher",
+    "phonetic": "/deːɐ fɛɐˈbʁaʊxɐ/",
+    "spoken_phonetic_us": "/deːɐ fɛɐˈbʁaʊxɐ/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Consumidor",
+        "usage_example": "Der Verbraucher hat Rechte.",
+        "pronunciation_guide_es": "/der_fer-BRAU-jer_hat_RESH-te/",
+        "usage_example_es": "El consumidor tiene derechos.",
+        "char_count": "4",
+        "usage_context_en": "A person who purchases goods and services for personal use.",
+        "usage_context_es": "Una persona que compra bienes y servicios para uso personal.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_6_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "die Nachfrage",
+    "phonetic": "/diː ˈnaːxfʁaːɡə/",
+    "spoken_phonetic_us": "/diː ˈnaːxfʁaːɡə/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Demanda / Exigencia",
+        "usage_example": "Es gibt eine hohe Nachfrage nach diesem Produkt.",
+        "pronunciation_guide_es": "/es_GIPT_AI-ne_HO-e_NACH-fra-ge_naj_DI-zem_pro-DUKT/",
+        "usage_example_es": "Hay una alta demanda de este producto.",
+        "char_count": "8",
+        "usage_context_en": "The desire of consumers for a particular commodity or service.",
+        "usage_context_es": "El deseo de los consumidores por un determinado producto o servicio.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_7_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "die Verteilung",
+    "phonetic": "/diː fɛɐˈtaɪlʊŋ/",
+    "spoken_phonetic_us": "/diː fɛɐˈtaɪlʊŋ/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Distribución / Reparto",
+        "usage_example": "Die Verteilung von Essen.",
+        "pronunciation_guide_es": "/di_fer-TAI-lung_fon_E-sen/",
+        "usage_example_es": "La distribución de comida.",
+        "char_count": "4",
+        "usage_context_en": "The action of sharing something out among a number of recipients.",
+        "usage_context_es": "La acción de repartir algo entre varios destinatarios.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_8_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "der Austausch",
+    "phonetic": "/deːɐ ˈaʊstaʊʃ/",
+    "spoken_phonetic_us": "/deːɐ ˈaʊstaʊʃ/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Intercambio",
+        "usage_example": "Wir haben einen Austausch gemacht.",
+        "pronunciation_guide_es": "/vir_HA-ben_AI-nen_AUS-taush_ge-MACHT/",
+        "usage_example_es": "Hicimos un intercambio.",
+        "char_count": "4",
+        "usage_context_en": "An act of giving one thing and receiving another in return.",
+        "usage_context_es": "Un acto de dar una cosa y recibir otra a cambio.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_9_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "die Industrie",
+    "phonetic": "/diː ɪndʊsˈtʁiː/",
+    "spoken_phonetic_us": "/diː ɪndʊsˈtʁiː/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Industria (sector económico)",
+        "usage_example": "Die Technologieindustrie wächst.",
+        "pronunciation_guide_es": "/di_tesh-no-lo-GI-in-dus-tri_VEHST/",
+        "usage_example_es": "La industria de la tecnología está creciendo.",
+        "char_count": "5",
+        "usage_context_en": "Economic activity concerned with the processing of raw materials and manufacture of goods.",
+        "usage_context_es": "Actividad económica relacionada con el procesamiento de materias primas y fabricación de bienes.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_10_def0.avif"
+      },
+      {
+        "meaning": "Diligencia (cualidad)",
+        "usage_example": "Er hatte Erfolg durch harte Arbeit und Fleiß.",
+        "pronunciation_guide_es": "/er_HAT-te_er-FOLK_durch_HAR-te_AR-bait_unt_FLAIS/",
+        "usage_example_es": "Él tuvo éxito gracias al trabajo duro y la diligencia.",
+        "char_count": "7",
+        "usage_context_en": "Hard, diligent work.",
+        "usage_context_es": "Trabajo duro y diligente.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_10_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "die Investition",
+    "phonetic": "/diː ɪnvɛstiˈtsi̯oːn/",
+    "spoken_phonetic_us": "/diː ɪnvɛstiˈtsi̯oːn/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Inversión",
+        "usage_example": "Es ist eine gute Investition.",
+        "pronunciation_guide_es": "/es_ist_AI-ne_GU-te_in-ves-ti-TSI-on/",
+        "usage_example_es": "Es una buena inversión.",
+        "char_count": "4",
+        "usage_context_en": "The action or process of putting money into something to gain a profit.",
+        "usage_context_es": "La acción o proceso de poner dinero en algo para obtener una ganancia.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_11_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Salario / Sueldo",
+        "pronunciation_guide_es": "/main_ge-HALT_ist_DI-zes_YAR_ge-SHTI-gen/",
+        "usage_context_en": "The money you earn from your job each month",
+        "usage_context_es": "El dinero que ganas de tu trabajo cada mes",
+        "usage_example": "Mein Gehalt ist dieses Jahr gestiegen.",
+        "usage_example_es": "Mi salario aumentó este año.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_12_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "das Gehalt",
+    "phonetic": "/das ɡəˈhalt/",
+    "search_term": "noun/work/money/essentials",
+    "spoken_phonetic_us": "/das ɡəˈhalt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Ganancia / Utilidad",
+        "pronunciation_guide_es": "/di_FIR-ma_MACH-te_AI-nen_GRO-sen_ge-VIN/",
+        "usage_context_en": "The money earned after paying all costs",
+        "usage_context_es": "El dinero ganado después de pagar todos los costos",
+        "usage_example": "Die Firma machte einen großen Gewinn.",
+        "usage_example_es": "La empresa obtuvo una gran ganancia.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_13_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "der Gewinn",
+    "phonetic": "/deːɐ ɡəˈvɪn/",
+    "search_term": "noun/business/money/essentials",
+    "spoken_phonetic_us": "/deːɐ ɡəˈvɪn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Pérdida",
+        "pronunciation_guide_es": "/di_FIR-ma_HAT-te_AI-nen_fer-LUST/",
+        "usage_context_en": "Money lost when costs are more than income",
+        "usage_context_es": "Dinero perdido cuando los costos superan los ingresos",
+        "usage_example": "Die Firma hatte einen Verlust.",
+        "usage_example_es": "La empresa tuvo una pérdida.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_14_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "der Verlust",
+    "phonetic": "/deːɐ fɛɐˈlʊst/",
+    "search_term": "noun/business/money/essentials",
+    "spoken_phonetic_us": "/deːɐ fɛɐˈlʊst/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Factura",
+        "pronunciation_guide_es": "/SHIK_di_RESH-nung_HOI-te/",
+        "usage_context_en": "A document requesting payment for goods or services",
+        "usage_context_es": "Un documento que solicita pago por bienes o servicios",
+        "usage_example": "Schick die Rechnung heute.",
+        "usage_example_es": "Envía la factura hoy.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_15_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Rechnung",
+    "phonetic": "/diː ˈʁɛçnʊŋ/",
+    "search_term": "noun/business/essentials",
+    "spoken_phonetic_us": "/diː ˈʁɛçnʊŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Proveedor",
+        "pronunciation_guide_es": "/der_li-fe-RANT_ist_SHPAET/",
+        "usage_context_en": "A company that provides goods or services to another",
+        "usage_context_es": "Una empresa que provee bienes o servicios a otra",
+        "usage_example": "Der Lieferant ist spät.",
+        "usage_example_es": "El proveedor está atrasado.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_16_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "der Lieferant",
+    "phonetic": "/deːɐ liːfəˈʁant/",
+    "search_term": "noun/business/essentials",
+    "spoken_phonetic_us": "/deːɐ liːfəˈʁant/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Mercadeo / Marketing",
+        "pronunciation_guide_es": "/MAR-ke-ting_HILFT_pro-DUK-te_tsu_fer-KAU-fen/",
+        "usage_context_en": "Activities that promote and sell products or services",
+        "usage_context_es": "Actividades que promocionan y venden productos o servicios",
+        "usage_example": "Marketing hilft, Produkte zu verkaufen.",
+        "usage_example_es": "El marketing ayuda a vender productos.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_17_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "das Marketing",
+    "phonetic": "/das ˈmaʁkətɪŋ/",
+    "search_term": "noun/business/essentials",
+    "spoken_phonetic_us": "/das ˈmaʁkətɪŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Marca",
+        "pronunciation_guide_es": "/NAI-ki_ist_AI-ne_be-RUEM-te_MAR-ke/",
+        "usage_context_en": "A name or symbol that identifies a product or company",
+        "usage_context_es": "Un nombre o símbolo que identifica un producto o empresa",
+        "usage_example": "Nike ist eine berühmte Marke.",
+        "usage_example_es": "Nike es una marca famosa.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_18_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Marke",
+    "phonetic": "/diː ˈmaʁkə/",
+    "search_term": "noun/business/essentials",
+    "spoken_phonetic_us": "/diː ˈmaʁkə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Empresa emergente / Startup",
+        "pronunciation_guide_es": "/ir_START-ap_be-KAM_AI-ne_fi-nan-TSI-rung/",
+        "usage_context_en": "A new business that is just beginning",
+        "usage_context_es": "Un nuevo negocio que está comenzando",
+        "usage_example": "Ihr Start-up bekam eine Finanzierung.",
+        "usage_example_es": "Su startup obtuvo financiamiento.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_19_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "das Start-up",
+    "phonetic": "/das ˈstaʁtʔap/",
+    "search_term": "noun/business/essentials",
+    "spoken_phonetic_us": "/das ˈstaʁtʔap/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Préstamo",
+        "pronunciation_guide_es": "/ish_NAM_AI-nen_kre-DIT_bai_der_BANK_AUF/",
+        "usage_context_en": "Money borrowed that must be paid back",
+        "usage_context_es": "Dinero prestado que debe ser devuelto",
+        "usage_example": "Ich nahm einen Kredit bei der Bank auf.",
+        "usage_example_es": "Tomé un préstamo del banco.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_20_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "der Kredit",
+    "phonetic": "/deːɐ kʁeˈdiːt/",
+    "search_term": "noun/money/essentials",
+    "spoken_phonetic_us": "/deːɐ kʁeˈdiːt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Deuda",
+        "pronunciation_guide_es": "/er_hat_FI-le_SHUL-den/",
+        "usage_context_en": "Money that you owe to someone",
+        "usage_context_es": "Dinero que le debes a alguien",
+        "usage_example": "Er hat viele Schulden.",
+        "usage_example_es": "Él tiene mucha deuda.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_21_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Schuld",
+    "phonetic": "/diː ʃʊlt/",
+    "search_term": "noun/money/essentials",
+    "spoken_phonetic_us": "/diː ʃʊlt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Ahorros",
+        "pronunciation_guide_es": "/ish_HA-be_MAI-ne_er-SHPAR-ni-se_auf_di_BANK_ge-BRACHT/",
+        "usage_context_en": "Money that you keep for future use",
+        "usage_context_es": "Dinero que guardas para uso futuro",
+        "usage_example": "Ich habe meine Ersparnisse auf die Bank gebracht.",
+        "usage_example_es": "Puse mis ahorros en el banco.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_22_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Ersparnisse",
+    "phonetic": "/diː ɛɐˈʃpaʁnɪsə/",
+    "search_term": "noun/money/essentials",
+    "spoken_phonetic_us": "/diː ɛɐˈʃpaʁnɪsə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Hipoteca",
+        "pronunciation_guide_es": "/di_hue-po-TEK_LOIFT_UE-ber_DRAI-sish_YA-re/",
+        "usage_context_en": "A loan taken to buy a house",
+        "usage_context_es": "Un préstamo tomado para comprar una casa",
+        "usage_example": "Die Hypothek läuft über 30 Jahre.",
+        "usage_example_es": "La hipoteca es de 30 años.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_23_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Hypothek",
+    "phonetic": "/diː hypoˈteːk/",
+    "search_term": "noun/money/essentials",
+    "spoken_phonetic_us": "/diː hypoˈteːk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Inflación",
+        "pronunciation_guide_es": "/di_in-fla-TSI-on_LAEST_di_PRAI-ze_SHTAI-gen/",
+        "usage_context_en": "The rise in prices over time",
+        "usage_context_es": "El aumento de precios con el tiempo",
+        "usage_example": "Die Inflation lässt die Preise steigen.",
+        "usage_example_es": "La inflación hace subir los precios.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_24_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Inflation",
+    "phonetic": "/diː ɪnflaˈtsi̯oːn/",
+    "search_term": "noun/economy/essentials",
+    "spoken_phonetic_us": "/diː ɪnflaˈtsi̯oːn/"
+  }
+]

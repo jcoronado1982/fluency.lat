@@ -1,0 +1,357 @@
+/* FloatingMenu.css */
+
+.floatingMenuContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    z-index: 1250;
+    flex-shrink: 0;
+    font-family: var(--font-family-app, var(--font-family-body));
+}
+
+.floatingMainButton {
+    background: transparent;
+    border: none;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #f8fafc;
+    transition: background 160ms ease, color 160ms ease;
+    flex-shrink: 0;
+}
+
+.floatingMainButtonIcon {
+    width: 24px;
+    height: 24px;
+    stroke-width: 2;
+}
+
+.floatingMainButton:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+}
+
+/* ─── Panel ──────────────────────────────────────────────────────────────────── */
+.floatingOptions {
+    position: absolute;
+    top: calc(100% + 15px);
+    right: 0;
+    transform: translateY(-8px) scale(0.97);
+    transform-origin: top right;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 200ms ease, transform 200ms cubic-bezier(0.34, 1.56, 0.64, 1);
+    background: #0d1526;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 16px;
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255,255,255,0.03);
+    padding: 8px;
+    width: 236px;
+    z-index: 1260;
+    font-family: var(--font-family-app, var(--font-family-body));
+}
+
+.floatingOptions.show {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+}
+
+/* ─── Section labels and dividers ───────────────────────────────────────────── */
+.floatingOptions .fmSectionLabel {
+    display: block;
+    padding: 8px 10px 4px;
+    color: #475569;
+    font-size: 0.64rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+.floatingOptions .fmDivider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 6px 4px;
+}
+
+.mobileInterfaceLanguageControl {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobileInterfaceLanguageControl {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        min-height: 48px;
+        padding: 2px 4px 8px 10px;
+        color: #cbd5e1;
+    }
+
+    .mobileInterfaceLanguageLabel {
+        font-size: 0.76rem;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .mobileInterfaceLanguageControl [role='group'] {
+        min-width: 96px;
+        height: 40px;
+    }
+}
+
+/* ─── Option row ─────────────────────────────────────────────────────────────── */
+.floatingOption {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    color: #94a3b8;
+    transition: background 140ms ease, color 140ms ease;
+}
+
+.floatingOption:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: #e2e8f0;
+}
+
+.floatingOption:hover .optionIcon { color: #e2e8f0; }
+
+.floatingOption.active {
+    background: rgba(244, 114, 182, 0.08);
+    color: #f8fafc;
+}
+
+.floatingOption.active .optionIcon { color: #f472b6; }
+
+/* Fila informativa (ítem de módulo sin onClick): se ve igual, pero no responde al puntero */
+.floatingOption.floatingOptionStatic {
+    cursor: default;
+    opacity: 1;
+}
+
+.floatingOption.floatingOptionStatic:hover {
+    background: transparent;
+    color: #94a3b8;
+}
+
+.floatingOption.floatingOptionStatic:hover .fmOptionName { color: #e2e8f0; }
+.floatingOption.floatingOptionStatic:hover .fmOptionSub  { color: #475569; }
+
+/* Submenu indented items */
+.floatingOption.submenuItem {
+    padding-left: 42px;
+    min-height: 30px;
+}
+
+.floatingOption.submenuItem .fmOptionName {
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: #64748b;
+}
+
+.floatingOption.submenuItem:hover .fmOptionName { color: #cbd5e1; }
+
+/* ─── Option icon ────────────────────────────────────────────────────────────── */
+.optionIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #475569;
+    transition: color 140ms ease;
+}
+
+.optionIcon svg {
+    width: 17px;
+    height: 17px;
+    stroke-width: var(--brand-icon-stroke, 2);
+}
+
+/* Semantic color variants — icon color only, no background box */
+.optionIcon.brand   { color: #f472b6; }
+.optionIcon.purple  { color: #7d77dd; }
+.optionIcon.premium { color: #facc15; }
+.optionIcon.red     { color: #f43f5e; }
+
+/* ─── Option text ────────────────────────────────────────────────────────────── */
+.fmOptionText {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    min-width: 0;
+}
+
+.fmOptionName {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #e2e8f0;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fmOptionSub {
+    font-size: 0.69rem;
+    color: #475569;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.floatingOption:hover .fmOptionName { color: #f8fafc; }
+.floatingOption:hover .fmOptionSub  { color: #64748b; }
+
+/* ─── User profile block ─────────────────────────────────────────────────────── */
+.userProfileItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px 8px;
+}
+
+.userAvatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(244, 114, 182, 0.4);
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.userAvatarFallback {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(244, 114, 182, 0.4);
+    background: linear-gradient(135deg, #be185d, #f472b6 50%, #fb923c);
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    color: #ffffff;
+    font-size: 0.82rem;
+    font-weight: 800;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    min-width: 0;
+}
+
+.userName {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #f8fafc;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.userRole {
+    font-size: 0.68rem;
+    color: #94a3b8;
+    text-transform: capitalize;
+}
+
+.userRole--premium {
+    color: #f59e0b;
+    font-weight: 600;
+}
+
+/* Logout hover */
+.logoutBtn:hover .optionIcon.red { color: #f87171; }
+.logoutBtn:hover .fmOptionName   { color: #f87171; }
+
+@media (max-width: 768px) {
+    .floatingOptions {
+        right: -4px;
+        width: min(244px, calc(100vw - 20px));
+        max-height: min(72vh, calc(100dvh - 72px - env(safe-area-inset-top, 0px)));
+        overflow-x: hidden;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .floatingOptions .fmSectionLabel {
+        font-size: 0.58rem;
+    }
+
+    .fmOptionName {
+        font-size: 0.8rem;
+    }
+
+    .fmOptionSub {
+        font-size: 0.64rem;
+    }
+
+    .userName {
+        font-size: 0.8rem;
+    }
+
+    .userRole {
+        font-size: 0.62rem;
+    }
+
+    .studyDirectionLabel {
+        font-size: 0.64rem;
+    }
+
+    .studyDirectionOption {
+        font-size: 0.76rem;
+    }
+}
+.studyDirectionControl {
+    display: grid;
+    gap: 10px;
+    margin: 8px 12px 12px;
+}
+
+.studyDirectionLabel {
+    color: #94a3b8;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.studyDirectionOption {
+    width: 100%;
+    padding: 9px 11px;
+    border: 1px solid rgba(148, 163, 184, 0.22);
+    border-radius: 10px;
+    background: rgba(15, 23, 42, 0.42);
+    color: #cbd5e1;
+    font: inherit;
+    font-size: 0.82rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+.studyDirectionOption.active {
+    border-color: rgba(244, 114, 182, 0.7);
+    background: rgba(190, 24, 93, 0.2);
+    color: #fff;
+}

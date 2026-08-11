@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "where",
+    "phonetic": "/wɛər/",
+    "spoken_phonetic_us": "/wɛr/",
+    "search_term": "adverb/interrogative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Questions",
+    "definitions": [
+      {
+        "meaning": "Dónde / Adónde",
+        "usage_example": "Where do you live?",
+        "pronunciation_guide_es": "/UER_du_iu_LIV/",
+        "usage_example_es": "¿Dónde vives?",
+        "char_count": 5,
+        "usage_context_en": "Used to ask about place or destination.",
+        "usage_context_es": "Usado para preguntar por lugar o destino.",
+        "imagePath": "/card_images/adverbs/1-basic/interrogative_adverbs/1-basic_interrogative_adverbs_card_0_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "when",
+    "phonetic": "/wɛn/",
+    "spoken_phonetic_us": "/wɛn/",
+    "search_term": "adverb/interrogative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Questions",
+    "definitions": [
+      {
+        "meaning": "Cuándo",
+        "usage_example": "When does the class start?",
+        "pronunciation_guide_es": "/UEN_dos_de_CLAS_START/",
+        "usage_example_es": "¿Cuándo empieza la clase?",
+        "char_count": 4,
+        "usage_context_en": "Used to ask about time.",
+        "usage_context_es": "Usado para preguntar por tiempo.",
+        "imagePath": "/card_images/adverbs/1-basic/interrogative_adverbs/1-basic_interrogative_adverbs_card_1_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "how",
+    "phonetic": "/haʊ/",
+    "spoken_phonetic_us": "/haʊ/",
+    "search_term": "adverb/interrogative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Questions",
+    "definitions": [
+      {
+        "meaning": "Cómo",
+        "usage_example": "How do you do that?",
+        "pronunciation_guide_es": "/JAU_du_iu_du_DAT/",
+        "usage_example_es": "¿Cómo haces eso?",
+        "char_count": 3,
+        "usage_context_en": "Used to ask about manner, condition, or method.",
+        "usage_context_es": "Usado para preguntar por manera, estado o método.",
+        "imagePath": "/card_images/adverbs/1-basic/interrogative_adverbs/1-basic_interrogative_adverbs_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "why",
+    "phonetic": "/waɪ/",
+    "spoken_phonetic_us": "/waɪ/",
+    "search_term": "adverb/interrogative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Questions",
+    "definitions": [
+      {
+        "meaning": "Por qué",
+        "usage_example": "Why are you late?",
+        "pronunciation_guide_es": "/UAI_ar_iu_LEIT/",
+        "usage_example_es": "¿Por qué llegaste tarde?",
+        "char_count": 3,
+        "usage_context_en": "Used to ask about reason or cause.",
+        "usage_context_es": "Usado para preguntar por razón o causa.",
+        "imagePath": "/card_images/adverbs/1-basic/interrogative_adverbs/1-basic_interrogative_adverbs_card_3_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "how much",
+    "phonetic": "/haʊ mʌtʃ/",
+    "spoken_phonetic_us": "/haʊ mʌtʃ/",
+    "search_term": "adverb/interrogative_adverbs/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Cuánto / Cuánta",
+        "usage_example": "How much do you need?",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "¿Cuánto necesitas?",
+        "char_count": "5",
+        "usage_context_en": "Used to ask about quantity or amount.",
+        "usage_context_es": "Used to ask about quantity or amount.",
+        "imagePath": "/card_images/adverbs/1-basic/interrogative_adverbs/1-basic_interrogative_adverbs_card_4_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Adverbs: Questions"
+  }
+]

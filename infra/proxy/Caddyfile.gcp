@@ -1,0 +1,157 @@
+# ⚠️ Copia FIEL del Caddyfile real que corre en `fluency-proxy-backend` (GCP,
+# 35.188.162.50), montado como /mnt/sda/Caddyfile → /etc/caddy/Caddyfile en el
+# contenedor `caddy-smart`. Editar este archivo NO cambia el servidor real —
+# hay que aplicar el cambio manualmente en la VM y traer la copia de vuelta acá
+# (o viceversa) para no desincronizar. Ver `docs/infrastructure/server_inventory.md`
+# (sección GCP Proxy) para el resto de mounts (repositorio, caddy_data/caddy_config
+# para TLS persistente).
+#
+# ⚠️ Gotcha real al aplicar este tipo de cambio: reemplazar el archivo con `mv
+# nuevo.Caddyfile Caddyfile` en el host ROMPE el bind mount de un solo archivo de
+# Docker (que sigue el inodo, no la ruta) — el contenedor queda sirviendo el
+# Caddyfile de fábrica de la imagen sin ningún error visible en `caddy reload`.
+# Usar `cp`/sobreescribir el contenido en el mismo inodo, o hacer `docker restart`
+# (no `recreate`) después de un `mv` para que Docker vuelva a resolver el mount.
+#
+# 4 ago 2026: se agregó `asset_cache_policy`/`spa_cache_policy` (Cache-Control largo
+# para media versionada) y la válvula de overflow `api_with_overflow` + `/db/*`
+# (antes ausentes del Caddy real de GCP, aunque el backend "completo" del repo ya
+# los tenía). Requiere `oracle-ram-monitor.sh` corriendo (nohup, ver
+# `bootstrap-gcp.sh`) para gestionar `/tmp/ORACLE_HEALTHY` — sin el monitor
+# corriendo, el archivo nunca se crea y el API siempre cae al overflow de Cloud
+# Run aunque la VM tenga RAM de sobra.
+#
+# ⚠️ INCIDENTE REAL (4 ago 2026, mismo día): con el overflow ya activo, el login
+# de producción se rompió (`"Autenticación no disponible: DB no configurada"`)
+# cada vez que el tráfico caía a Cloud Run. La causa NO fue este Caddyfile — fue
+# que `SURREAL_URL` de Cloud Run/AWS apuntaba a `wss://fluency.lat/db` SIN el
+# sufijo `/rpc` que el cliente de SurrealDB (Rust SDK y CLI oficial) requiere de
+# forma explícita, no lo agrega solo. Corregido a `wss://fluency.lat/db/rpc` en
+# Cloud Run (`gcloud run services update`) y en `azure-pipelines.yml`. Detalle
+# completo: `scripts/troubleshooting_library.skill.md` entrada 9.
+(asset_cache_policy) {
+	@versioned `query({'v': '*'}) || query({'t': '*'})`
+	header @versioned Cache-Control "public, max-age=31536000, immutable"
+	header @versioned Cloudflare-CDN-Cache-Control "public, max-age=31536000"
+	@unversioned `!query({'v': '*'}) && !query({'t': '*'})`
+	header @unversioned Cache-Control "public, no-cache"
+}
+
+(spa_cache_policy) {
+	@spa_hashed_assets path /assets/*
+	header @spa_hashed_assets Cache-Control "public, max-age=31536000, immutable"
+	@spa_entrypoint not path /assets/*
+	header @spa_entrypoint Cache-Control "no-cache, must-revalidate"
+}
+
+# VALVULA DE OVERFLOW: GCP local -> Cloud Run.
+# /tmp/ORACLE_HEALTHY lo gestiona oracle-ram-monitor.sh (cada 30s, nombre de
+# archivo/script legado de Oracle, logica igual): existe <=> RAM libre del
+# proxy > 250 MB. Bajo presion de RAM, el API se desvia a Cloud Run
+# (scale-to-zero) en vez de colapsar esta VM de 1 GB.
+(api_with_overflow) {
+	@gcp_healthy {
+		file {
+			root /tmp
+			try_files ORACLE_HEALTHY
+		}
+	}
+	handle @gcp_healthy {
+		header +X-Backend "GCP-Local"
+		reverse_proxy 127.0.0.1:8080
+	}
+	handle {
+		header +X-Backend "CloudRun-Overflow"
+		reverse_proxy https://flashcard-backend-977952175712.us-east1.run.app {
+			header_up Host {upstream_hostport}
+			transport http {
+				versions 2 1.1
+				tls
+			}
+		}
+	}
+}
+
+fluency.lat, www.fluency.lat {
+    # /db/* excluido de `encode`: es un WebSocket (Cloud Run/AWS conectan a
+    # SurrealDB via wss://fluency.lat/db/rpc), y gzip/zstd no aplica a un
+    # upgrade -- se usa un matcher explicito porque el orden textual del
+    # Caddyfile no garantiza el orden real (Caddy reordena directivas).
+    # No confundir con la causa real del incidente de login del 4 ago 2026:
+    # esta ruta ya funcionaba bien -- el bug era que Cloud Run/AWS tenian
+    # SURREAL_URL="wss://fluency.lat/db" SIN el sufijo /rpc que el cliente
+    # de SurrealDB requiere de forma explicita (no lo agrega solo). Ver
+    # `backend/api_main/src/infrastructure/storage/surreal/connection.rs`
+    # y `azure-pipelines.yml` (Mirror_AWS).
+    @not_db not path /db/*
+    encode @not_db gzip zstd
+
+    handle /db/* {
+        uri strip_prefix /db
+        reverse_proxy 10.128.0.5:8080
+    }
+
+    handle /api/* {
+        import api_with_overflow
+    }
+
+    handle /card_images/* {
+        root * /data_repo
+        import asset_cache_policy
+        header +X-Content-Type-Options "nosniff"
+        file_server
+    }
+
+    handle /card_audio/* {
+        root * /data_repo
+        import asset_cache_policy
+        file_server
+    }
+
+    handle /json/* {
+        root * /data_repo
+        header Cache-Control "public, no-cache"
+        file_server browse
+    }
+
+    handle {
+        root * /flashcard
+        import spa_cache_policy
+        try_files {path} /index.html
+        file_server
+    }
+}
+
+qa.fluency.lat {
+    encode gzip zstd
+
+    handle /api/* {
+        reverse_proxy 127.0.0.1:8081
+    }
+
+    handle /card_images/* {
+        root * /qa_data_repo
+        import asset_cache_policy
+        header +X-Content-Type-Options "nosniff"
+        file_server
+    }
+
+    handle /card_audio/* {
+        root * /qa_data_repo
+        import asset_cache_policy
+        file_server
+    }
+
+    handle /json/* {
+        root * /qa_data_repo
+        header Cache-Control "public, no-cache"
+        file_server browse
+    }
+
+    handle {
+        root * /qa_flashcard
+        import spa_cache_policy
+        try_files {path} /index.html
+        file_server
+    }
+}

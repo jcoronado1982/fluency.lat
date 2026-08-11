@@ -1,0 +1,388 @@
+/* Reviews wall — auto-scroll carousel. Todo (título, muro, formulario) vive
+   dentro del mismo .lp-section-inner que las demás secciones del landing:
+   sin full-bleed ni anchos especiales. */
+.lp-reviews-wall {
+    overflow: hidden;
+}
+
+.lp-reviews-wall--empty {
+    padding: 0 0 12px;
+}
+
+.lp-reviews-wall-empty {
+    margin: 0;
+    text-align: left;
+    font-family: var(--font-family-body);
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.lp-reviews-wall-header {
+    padding: 0 0 28px;
+    text-align: left;
+}
+
+.lp-reviews-wall-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.lp-reviews-wall-title {
+    margin: 0;
+    font-family: var(--font-family-display);
+    font-size: var(--lp-section-title-size);
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-variation-settings: 'opsz' 56;
+    line-height: var(--lp-section-title-line);
+    letter-spacing: -0.035em;
+    color: #ffffff;
+    max-width: 24ch;
+    text-wrap: balance;
+}
+
+.lp-reviews-wall-subtitle {
+    margin: 4px 0 0;
+    font-family: var(--font-family-body);
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.4;
+}
+
+.lp-reviews-wall-summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.lp-reviews-wall-average {
+    font-family: var(--font-family-body);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #ffffff;
+}
+
+.lp-reviews-wall-count {
+    font-family: var(--font-family-body);
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.lp-reviews-wall-viewport {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    height: 520px;
+    overflow: hidden;
+    mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        #000 12%,
+        #000 88%,
+        transparent
+    );
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        #000 12%,
+        #000 88%,
+        transparent
+    );
+}
+
+.lp-reviews-wall-viewport:hover .lp-reviews-scroll-track {
+    animation-play-state: paused;
+}
+
+.lp-reviews-scroll-col {
+    height: 100%;
+    overflow: hidden;
+}
+
+.lp-reviews-scroll-track {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* Offset inicial por columna (0 / -60px / -120px): margen negativo, no
+       padding, para que el arranque de cada columna quede desfasado a propósito. */
+    margin-top: var(--col-stagger, 0px);
+    animation: lp-reviews-scroll-up var(--scroll-duration, 45s) linear infinite;
+    animation-direction: var(--scroll-direction, normal);
+    will-change: transform;
+}
+
+/* Altura mínima que garantiza que 3 tarjetas + gaps (≥602px) superan la altura
+   del viewport del muro con cualquier offset: el clon del loop nunca es visible
+   a la vez que su original. No bajar sin recalcular ese margen. */
+.lp-reviews-scroll-col .lp-social-card {
+    min-height: 190px;
+}
+
+@keyframes lp-reviews-scroll-up {
+    from { transform: translateY(0); }
+    to { transform: translateY(-50%); }
+}
+
+/* Misma piel que las tarjetas del landing (vocabulary-first / demo del hero):
+   radio 40px, borde blanco sutil y fondo oscuro semi-transparente. */
+.lp-social-card {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 18px 20px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(8, 4, 10, 0.55);
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.04) inset,
+        0 8px 24px rgba(0, 0, 0, 0.28);
+}
+
+.lp-social-card__header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: start;
+    gap: 12px;
+}
+
+.lp-social-card__avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.lp-social-card__avatar--fallback {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, rgba(125, 119, 221, 0.55), rgba(244, 114, 182, 0.45));
+}
+
+.lp-social-card__who {
+    min-width: 0;
+}
+
+.lp-social-card__name-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.lp-social-card__name {
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25;
+    color: rgba(245, 245, 245, 0.92);
+}
+
+.lp-social-card__sub {
+    margin: 3px 0 0;
+    font-family: var(--font-family-body);
+    font-size: 0.75rem;
+    line-height: 1.4;
+    color: rgba(245, 245, 245, 0.42);
+    word-break: break-word;
+}
+
+.lp-social-card__verified {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #1d9bf0;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.lp-social-card__verified svg {
+    width: 10px;
+    height: 10px;
+}
+
+.lp-social-card__source {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    opacity: 0.9;
+}
+
+.lp-social-card__brand {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    object-fit: cover;
+    flex-shrink: 0;
+    opacity: 0.85;
+}
+
+.lp-social-card__text {
+    margin: 0;
+    font-family: var(--font-family-body);
+    font-size: 0.875rem;
+    line-height: 1.65;
+    color: rgba(245, 245, 245, 0.82);
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.lp-social-card__rating {
+    margin-top: -4px;
+}
+
+.lp-social-card__sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+@media (max-width: 900px) {
+    .lp-reviews-wall-viewport {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        height: 440px;
+    }
+
+    .lp-reviews-scroll-col:nth-child(3) {
+        display: none;
+    }
+}
+
+@media (max-width: 560px) {
+    .lp-reviews-wall-viewport {
+        grid-template-columns: 1fr;
+        height: 400px;
+    }
+
+    .lp-reviews-scroll-col:nth-child(2),
+    .lp-reviews-scroll-col:nth-child(3) {
+        display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .lp-reviews-scroll-track {
+        animation: none;
+    }
+}
+
+/* Empty state decoration */
+.lp-reviews-empty-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 40px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.lp-reviews-empty-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, rgba(139, 92, 246, 0) 70%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.lp-reviews-empty-icon-wrap {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 50%;
+    margin-bottom: 24px;
+    color: #a78bfa;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.lp-reviews-empty-icon {
+    font-size: 2rem;
+}
+
+.lp-reviews-empty-title {
+    position: relative;
+    z-index: 1;
+    margin: 0 0 10px;
+    font-family: var(--font-family-body);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.lp-reviews-empty-desc {
+    position: relative;
+    z-index: 1;
+    margin: 0 0 24px;
+    font-family: var(--font-family-body);
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.55);
+    max-width: 400px;
+    line-height: 1.5;
+}
+
+.lp-reviews-empty-badge {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    padding: 6px 16px;
+    background: rgba(167, 139, 250, 0.1);
+    border: 1px solid rgba(167, 139, 250, 0.25);
+    border-radius: 100px;
+    color: #c084fc;
+    font-family: var(--font-family-body);
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    animation: pulse-glow 2.5s infinite ease-in-out;
+}
+
+@keyframes pulse-glow {
+    0%, 100% {
+        opacity: 0.9;
+        box-shadow: 0 0 0 0 rgba(167, 139, 250, 0);
+    }
+    50% {
+        opacity: 1;
+        box-shadow: 0 0 12px 2px rgba(167, 139, 250, 0.15);
+    }
+}

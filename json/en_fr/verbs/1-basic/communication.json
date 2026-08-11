@@ -1,0 +1,342 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: say]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/speech/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "say",
+                "usage_example": "[TRADUCIR AL FR: What did you say?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "What did you say?",
+                "char_count": "one",
+                "usage_context_en": "dialogue/communication",
+                "usage_context_es": "[TRADUCIR AL FR: dialogue/communication]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_say_def0.avif"
+            },
+            {
+                "meaning": "say (def 2)",
+                "usage_example": "[TRADUCIR AL FR: The sign says 'Stop'.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The sign says 'Stop'.",
+                "char_count": "one",
+                "usage_context_en": "signs/information",
+                "usage_context_es": "[TRADUCIR AL FR: signs/information]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_say_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: talk]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/speak/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "talk",
+                "usage_example": "[TRADUCIR AL FR: We talk every day on the phone.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "We talk every day on the phone.",
+                "char_count": "one",
+                "usage_context_en": "communication/dialogue",
+                "usage_context_es": "[TRADUCIR AL FR: communication/dialogue]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_39_def0.avif"
+            },
+            {
+                "meaning": "talk (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Don't talk during the movie.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Don't talk during the movie.",
+                "char_count": "one",
+                "usage_context_en": "discussion/banter",
+                "usage_context_es": "[TRADUCIR AL FR: discussion/banter]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_39_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: tell]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/inform/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "tell",
+                "usage_example": "[TRADUCIR AL FR: Tell me a story.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Tell me a story.",
+                "char_count": "one",
+                "usage_context_en": "stories/information",
+                "usage_context_es": "[TRADUCIR AL FR: stories/information]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_16_def0.avif"
+            },
+            {
+                "meaning": "tell (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Can you tell the difference?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Can you tell the difference?",
+                "char_count": "one",
+                "usage_context_en": "difference/instruction",
+                "usage_context_es": "[TRADUCIR AL FR: difference/instruction]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_16_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: ask]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/question/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "ask",
+                "usage_example": "[TRADUCIR AL FR: Ask your teacher for help.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Ask your teacher for help.",
+                "char_count": "one",
+                "usage_context_en": "questions/help",
+                "usage_context_es": "[TRADUCIR AL FR: questions/help]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_23_def0.avif"
+            },
+            {
+                "meaning": "ask (def 2)",
+                "usage_example": "[TRADUCIR AL FR: I asked for a glass of water.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I asked for a glass of water.",
+                "char_count": "one",
+                "usage_context_en": "request/demand",
+                "usage_context_es": "[TRADUCIR AL FR: request/demand]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_23_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: call]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/name/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "call",
+                "usage_example": "[TRADUCIR AL FR: Call me later.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Call me later.",
+                "char_count": "one",
+                "usage_context_en": "telephone/communication",
+                "usage_context_es": "[TRADUCIR AL FR: telephone/communication]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_22_def0.avif"
+            },
+            {
+                "meaning": "call (def 2)",
+                "usage_example": "[TRADUCIR AL FR: They call him 'The Boss'.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "They call him 'The Boss'.",
+                "char_count": "one",
+                "usage_context_en": "naming/titles",
+                "usage_context_es": "[TRADUCIR AL FR: naming/titles]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_22_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: write]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/compose/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "write",
+                "usage_example": "[TRADUCIR AL FR: Write your name on the paper.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Write your name on the paper.",
+                "char_count": "one",
+                "usage_context_en": "penmanship/creation",
+                "usage_context_es": "[TRADUCIR AL FR: penmanship/creation]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "write (def 2)",
+                "usage_example": "[TRADUCIR AL FR: He is writing a book about history.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He is writing a book about history.",
+                "char_count": "one",
+                "usage_context_en": "literature/communication",
+                "usage_context_es": "[TRADUCIR AL FR: literature/communication]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: read]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/literature/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "read",
+                "usage_example": "[TRADUCIR AL FR: I read a book every month.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I read a book every month.",
+                "char_count": "one",
+                "usage_context_en": "books/instructions",
+                "usage_context_es": "[TRADUCIR AL FR: books/instructions]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "read (def 2)",
+                "usage_example": "[TRADUCIR AL FR: He reads law at university.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He reads law at university.",
+                "char_count": "one",
+                "usage_context_en": "study/data",
+                "usage_context_es": "[TRADUCIR AL FR: study/data]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: show]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/display/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "show",
+                "usage_example": "[TRADUCIR AL FR: Show me your new phone.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Show me your new phone.",
+                "char_count": "one",
+                "usage_context_en": "objects/demonstration",
+                "usage_context_es": "[TRADUCIR AL FR: objects/demonstration]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_32_def0.avif"
+            },
+            {
+                "meaning": "show (def 2)",
+                "usage_example": "[TRADUCIR AL FR: She showed her talent at the event.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She showed her talent at the event.",
+                "char_count": "one",
+                "usage_context_en": "talent/results",
+                "usage_context_es": "[TRADUCIR AL FR: talent/results]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_32_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: thank]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/speech/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "thank",
+                "usage_example": "[TRADUCIR AL FR: I want to thank you for the dinner.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I want to thank you for the dinner.",
+                "char_count": "one",
+                "usage_context_en": "To say thanks or express gratitude",
+                "usage_context_es": "[TRADUCIR AL FR: To say thanks or express gratitude]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    }
+]

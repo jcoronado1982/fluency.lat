@@ -1,0 +1,133 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "acquire",
+    "phonetic": "/əˈkwaɪər/",
+    "spoken_phonetic_us": "/əˈkwaɪər/",
+    "search_term": "verb/get/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Adquirir (obtener, comprar)",
+        "usage_example": "The company acquired a new building.",
+        "pronunciation_guide_es": "/de_KOMpani_aKUAIERD_a_NIU_BILding/",
+        "alternative_example": "He acquired a taste for wine.",
+        "usage_example_es": "La compañía adquirió un nuevo edificio.",
+        "char_count": "two",
+        "usage_context_en": "purchase/gain",
+        "usage_context_es": "compra/obtención",
+        "imagePath": "/card_images/verbs/3-advanced/possession_exchange/3-advanced_possession_exchange_card_0_def0.avif"
+      }
+    ],
+    "group_name": "Social Dynamics"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "inherit",
+    "phonetic": "/ɪnˈhɛrɪt/",
+    "spoken_phonetic_us": "/ɪnˈhɛrɪt/",
+    "search_term": "verb/possession_exchange/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Heredar",
+        "usage_example": "She inherited the house from her aunt.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Ella heredó la casa de su tía.",
+        "char_count": "7",
+        "usage_context_en": "To receive money or property from someone after death.",
+        "usage_context_es": "To receive money or property from someone after death.",
+        "imagePath": "/card_images/verbs/3-advanced/possession_exchange/3-advanced_possession_exchange_card_1_def0.avif"
+      }
+    ],
+    "is_verb": true,
+    "group_name": "Social Dynamics"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "possess",
+    "phonetic": "/pəˈzɛs/",
+    "spoken_phonetic_us": "/pəˈzɛs/",
+    "search_term": "verb/possession_exchange/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Poseer",
+        "usage_example": "He possesses great patience.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Él posee gran paciencia.",
+        "char_count": "4",
+        "usage_context_en": "To own or have something.",
+        "usage_context_es": "To own or have something.",
+        "imagePath": "/card_images/verbs/3-advanced/possession_exchange/3-advanced_possession_exchange_card_2_def0.avif"
+      }
+    ],
+    "is_verb": true,
+    "group_name": "Social Dynamics"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "retain",
+    "phonetic": "/rɪˈteɪn/",
+    "spoken_phonetic_us": "/rɪˈteɪn/",
+    "search_term": "verb/possession_exchange/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Conservar / Retener",
+        "usage_example": "The material retains heat well.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "El material conserva bien el calor.",
+        "char_count": "5",
+        "usage_context_en": "To keep or continue to have something.",
+        "usage_context_es": "To keep or continue to have something.",
+        "imagePath": "/card_images/verbs/3-advanced/possession_exchange/3-advanced_possession_exchange_card_3_def0.avif"
+      }
+    ],
+    "is_verb": true,
+    "group_name": "Social Dynamics"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "obtain",
+    "phonetic": "/əbˈteɪn/",
+    "spoken_phonetic_us": "/əbˈteɪn/",
+    "search_term": "verb/possession_exchange/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Obtener / Conseguir",
+        "usage_example": "You need a permit to obtain access.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Necesitas un permiso para obtener acceso.",
+        "char_count": "7",
+        "usage_context_en": "To get something.",
+        "usage_context_es": "To get something.",
+        "imagePath": "/card_images/verbs/3-advanced/possession_exchange/3-advanced_possession_exchange_card_4_def0.avif"
+      }
+    ],
+    "is_verb": true,
+    "group_name": "Social Dynamics"
+  }
+]

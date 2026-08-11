@@ -1,0 +1,114 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: this]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/demonstrative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Este / Esta / Esto",
+                "usage_example": "[TRADUCIR AL PT: This is my favorite book.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Este es mi libro favorito.",
+                "char_count": "4",
+                "usage_context_en": "Usado como pronombre para un objeto singular cerca del hablante.",
+                "usage_context_es": "[TRADUCIR AL PT: Used as a pronoun for a singular item near the speaker.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_23_def0.avif"
+            }
+        ],
+        "group_name": "Demostrativo",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: that]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/demonstrative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Ese / Esa / Aquel / Aquella",
+                "usage_example": "[TRADUCIR AL PT: That is my car.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Ese es mi carro.",
+                "char_count": "4",
+                "usage_context_en": "Usado como pronombre para un objeto singular que está lejos del hablante.",
+                "usage_context_es": "[TRADUCIR AL PT: Used as a pronoun for a singular item that is far from the speaker.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_24_def0.avif"
+            }
+        ],
+        "group_name": "Demostrativo",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: these]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/demonstrative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Estos / Estas",
+                "usage_example": "[TRADUCIR AL PT: These are my keys.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Estas son mis llaves.",
+                "char_count": "4",
+                "usage_context_en": "Usado como pronombre para objetos plurales cerca del hablante.",
+                "usage_context_es": "[TRADUCIR AL PT: Used as a pronoun for plural items near the speaker.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_25_def0.avif"
+            }
+        ],
+        "group_name": "Demostrativo",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: those]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/demonstrative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Esos / Esas / Aquellos / Aquellas",
+                "usage_example": "[TRADUCIR AL PT: Those are my keys.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Esas son mis llaves.",
+                "char_count": "4",
+                "usage_context_en": "Usado como pronombre para objetos plurales lejos del hablante.",
+                "usage_context_es": "[TRADUCIR AL PT: Used as a pronoun for plural items far from the speaker.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_26_def0.avif"
+            }
+        ],
+        "group_name": "Demostrativo",
+        "category": "Basic"
+    }
+]

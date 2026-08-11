@@ -1,0 +1,359 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Decir (expresar con palabras)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/speech/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "say",
+        "usage_example": "¿Qué dices?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "What do you say?",
+        "char_count": "one",
+        "usage_context_en": "dialogue/communication",
+        "usage_context_es": "diálogo/comunicación",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_0_def0.avif",
+        "target_meaning_es": "Decir (expresar con palabras)"
+      },
+      {
+        "meaning": "say",
+        "usage_example": "El cartel dice 'Pare'.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The sign says 'Stop'.",
+        "char_count": "one",
+        "usage_context_en": "signs/information",
+        "usage_context_es": "señales/información",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_0_def1.avif",
+        "target_meaning_es": "Afirmar (establecer algo)"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Hablar/Conversar",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/speak/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "talk",
+        "usage_example": "Hablamos todos los días por teléfono.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "We talk every day on the phone.",
+        "char_count": "one",
+        "usage_context_en": "communication/dialogue",
+        "usage_context_es": "comunicación/diálogo",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_1_def0.avif",
+        "target_meaning_es": "Hablar/Conversar"
+      },
+      {
+        "meaning": "talk",
+        "usage_example": "No hables durante la película.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Don't talk during the movie.",
+        "char_count": "one",
+        "usage_context_en": "discussion/banter",
+        "usage_context_es": "discusión/charla",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_1_def1.avif",
+        "target_meaning_es": "Charlar/Comentar"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Contar/Decir (informar a alguien)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/inform/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "tell",
+        "usage_example": "Cuéntame una historia.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Tell me a story.",
+        "char_count": "one",
+        "usage_context_en": "stories/information",
+        "usage_context_es": "historias/información",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_2_def0.avif",
+        "target_meaning_es": "Contar/Decir (informar a alguien)"
+      },
+      {
+        "meaning": "tell",
+        "usage_example": "¿Puedes notar la diferencia?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Can you tell the difference?",
+        "char_count": "one",
+        "usage_context_en": "difference/instruction",
+        "usage_context_es": "diferencia/instrucción",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_2_def1.avif",
+        "target_meaning_es": "Ordenar/Distinguir"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Preguntar",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/question/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "ask",
+        "usage_example": "Pregúntale a tu profesor por ayuda.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Ask your teacher for help.",
+        "char_count": "one",
+        "usage_context_en": "questions/help",
+        "usage_context_es": "preguntas/ayuda",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_3_def0.avif",
+        "target_meaning_es": "Preguntar"
+      },
+      {
+        "meaning": "ask",
+        "usage_example": "Pido un vaso de agua.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I ask for a glass of water.",
+        "char_count": "one",
+        "usage_context_en": "request/demand",
+        "usage_context_es": "petición/demanda",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_3_def1.avif",
+        "target_meaning_es": "Pedir (una cosa)"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Llamar (por teléfono)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/name/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "call",
+        "usage_example": "Llámame más tarde.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Call me later.",
+        "char_count": "one",
+        "usage_context_en": "telephone/communication",
+        "usage_context_es": "teléfono/comunicación",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_4_def0.avif",
+        "target_meaning_es": "Llamar (por teléfono)"
+      },
+      {
+        "meaning": "call",
+        "usage_example": "Lo llaman 'El Jefe'.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "They call him 'The Boss'.",
+        "char_count": "one",
+        "usage_context_en": "naming/titles",
+        "usage_context_es": "nombrar/títulos",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_4_def1.avif",
+        "target_meaning_es": "Llamar (nombrar)"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Escribir (con un bolígrafo, etc.)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/compose/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "write",
+        "usage_example": "Escribe tu nombre en el papel.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Write your name on the paper.",
+        "char_count": "one",
+        "usage_context_en": "penmanship/creation",
+        "usage_context_es": "escritura/creación",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_5_def0.avif",
+        "target_meaning_es": "Escribir (con un bolígrafo, etc.)"
+      },
+      {
+        "meaning": "write",
+        "usage_example": "Él está escribiendo un libro sobre historia.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He is writing a book about history.",
+        "char_count": "one",
+        "usage_context_en": "literature/communication",
+        "usage_context_es": "literatura/comunicación",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_5_def1.avif",
+        "target_meaning_es": "Componer (música, libro)"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Leer (texto)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/literature/level_up",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "read",
+        "usage_example": "Leo un libro cada mes.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I read a book every month.",
+        "char_count": "one",
+        "usage_context_en": "books/instructions",
+        "usage_context_es": "libros/instrucciones",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_6_def0.avif",
+        "target_meaning_es": "Leer (texto)"
+      },
+      {
+        "meaning": "read",
+        "usage_example": "Él estudia derecho en la universidad.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He reads law at university.",
+        "char_count": "one",
+        "usage_context_en": "study/data",
+        "usage_context_es": "estudio/datos",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_6_def1.avif",
+        "target_meaning_es": "Estudiar/Interpretar (formal)"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Mostrar/Enseñar",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/display/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "show",
+        "usage_example": "Muéstrame tu teléfono nuevo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Show me your new phone.",
+        "char_count": "one",
+        "usage_context_en": "objects/demonstration",
+        "usage_context_es": "objetos/demostración",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_7_def0.avif",
+        "target_meaning_es": "Mostrar/Enseñar"
+      },
+      {
+        "meaning": "show",
+        "usage_example": "Ella muestra su talento en el evento.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She shows her talent at the event.",
+        "char_count": "one",
+        "usage_context_en": "talent/results",
+        "usage_context_es": "talento/resultados",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_7_def1.avif",
+        "target_meaning_es": "Exhibir/Presentar"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Agradecer",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/speech/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "thank",
+        "usage_example": "Quiero agradecerte por la cena.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I want to thank you for the dinner.",
+        "char_count": "one",
+        "usage_context_en": "To say thanks or express gratitude",
+        "usage_context_es": "Decir gracias o expresar gratitud",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_8_def0.avif",
+        "target_meaning_es": "Agradecer"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  }
+]

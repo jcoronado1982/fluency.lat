@@ -1,0 +1,14 @@
+              total        used        free      shared  buff/cache   available
+Mem:            970         252         213         294         506         250
+gate: AUSENTE-overflow-activo
+--- contenedores ---
+caddy-smart Up 2 hours
+flashcard-backend-node Up 5 hours
+--- log del centinela (ultimas transiciones) ---
+2026-08-05 17:15:53 monitor iniciado (ram 220/300MB, cpu 85/60%, steal 10%, interval 2s)
+2026-08-05 18:27:00 OVERFLOW -> ram-low:210MB
+  cpu_busy max : 35%
+  steal max    : %
+  mem_disp min : 208MB
+  swap max     : 76MB
+  muestras con overflow activo: 27

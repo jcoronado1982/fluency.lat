@@ -1,0 +1,191 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sick",
+    "phonetic": "/sɪk/",
+    "spoken_phonetic_us": "/sɪk/",
+    "search_term": "adjective/basic/health_emergency",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Health & Emergency",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Enfermo/a",
+        "usage_example": "I feel sick today.",
+        "pronunciation_guide_es": "/ai_FIL_SIK_tu-DEI/",
+        "usage_example_es": "Me siento enfermo hoy.",
+        "char_count": "4",
+        "usage_context_en": "Affected by a physical or mental illness.",
+        "usage_context_es": "Afectado por una enfermedad física o mental.",
+        "imagePath": "/card_images/adjectives/1-basic/health_safety_and_emergency/1-basic_health_safety_and_emergency_card_0_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "healthy",
+    "phonetic": "/ˈhɛlθi/",
+    "spoken_phonetic_us": "/ˈhɛlθi/",
+    "search_term": "adjective/basic/health_emergency",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Health & Emergency",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Saludable / Sano/a",
+        "usage_example": "Fruit is healthy food.",
+        "pronunciation_guide_es": "/FRUT_is_HEL-zi_FUD/",
+        "usage_example_es": "La fruta es comida saludable.",
+        "char_count": "4",
+        "usage_context_en": "In a good physical or mental condition; good for health.",
+        "usage_context_es": "En buena condición física o mental; bueno para la salud.",
+        "imagePath": "/card_images/adjectives/1-basic/health_safety_and_emergency/1-basic_health_safety_and_emergency_card_1_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "hurt",
+    "phonetic": "/hɜːrt/",
+    "spoken_phonetic_us": "/hɜrt/",
+    "search_term": "adjective/basic/health_emergency",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Health & Emergency",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Herido/a / Lastimado/a",
+        "usage_example": "My arm is hurt.",
+        "pronunciation_guide_es": "/mai_ARM_is_HERT/",
+        "usage_example_es": "Mi brazo está lastimado.",
+        "char_count": "4",
+        "usage_context_en": "In pain or physically injured.",
+        "usage_context_es": "Con dolor o físicamente lesionado.",
+        "imagePath": "/card_images/adjectives/1-basic/health_safety_and_emergency/1-basic_health_safety_and_emergency_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "injured",
+    "phonetic": "/ˈɪndʒərd/",
+    "spoken_phonetic_us": "/ˈɪndʒərd/",
+    "search_term": "adjective/basic/health_emergency",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Health & Emergency",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Lesionado/a / Herido/a",
+        "usage_example": "He is injured.",
+        "pronunciation_guide_es": "/hi_is_IN-yerd/",
+        "usage_example_es": "Él está lesionado.",
+        "char_count": "3",
+        "usage_context_en": "Hurt or harmed physically.",
+        "usage_context_es": "Lastimado o dañado físicamente.",
+        "imagePath": "/card_images/adjectives/1-basic/health_safety_and_emergency/1-basic_health_safety_and_emergency_card_3_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "urgent",
+    "phonetic": "/ˈɜːrdʒənt/",
+    "spoken_phonetic_us": "/ˈɜrdʒənt/",
+    "search_term": "adjective/basic/health_emergency",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Health & Emergency",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Urgente",
+        "usage_example": "It is urgent.",
+        "pronunciation_guide_es": "/it_is_ER-yent/",
+        "usage_example_es": "Es urgente.",
+        "char_count": "3",
+        "usage_context_en": "Needing immediate attention or action.",
+        "usage_context_es": "Que necesita atención o acción inmediata.",
+        "imagePath": "/card_images/adjectives/1-basic/health_safety_and_emergency/1-basic_health_safety_and_emergency_card_4_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "safe",
+    "phonetic": "/seɪf/",
+    "spoken_phonetic_us": "/seɪf/",
+    "search_term": "adjective/basic/safety_risk",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Safety & Risk",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Seguro/a (sin peligro)",
+        "usage_example": "Is this neighborhood safe?",
+        "pronunciation_guide_es": "/is_dis_NEI-bor-hud_SEIF/",
+        "usage_example_es": "¿Es este barrio seguro?",
+        "char_count": "4",
+        "usage_context_en": "Protected from or not exposed to danger or risk.",
+        "usage_context_es": "Protegido de o no expuesto a peligro o riesgo.",
+        "imagePath": "/card_images/adjectives/1-basic/health_safety_and_emergency/1-basic_health_safety_and_emergency_card_5_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "dangerous",
+    "phonetic": "/ˈdeɪndʒərəs/",
+    "spoken_phonetic_us": "/ˈdeɪndʒərəs/",
+    "search_term": "adjective/basic/safety_risk",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Safety & Risk",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Peligroso/a",
+        "usage_example": "Driving fast is dangerous.",
+        "pronunciation_guide_es": "/DRAI-ving_FAST_is_DEIN-yer-os/",
+        "usage_example_es": "Conducir rápido es peligroso.",
+        "char_count": "4",
+        "usage_context_en": "Able or likely to cause harm or injury.",
+        "usage_context_es": "Capaz o propenso a causar daño o lesión.",
+        "imagePath": "/card_images/adjectives/1-basic/health_safety_and_emergency/1-basic_health_safety_and_emergency_card_6_def0.avif"
+      }
+    ]
+  }
+]

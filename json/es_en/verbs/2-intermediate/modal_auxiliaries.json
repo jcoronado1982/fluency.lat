@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Podría / Quizás",
+        "pronunciation_guide_es": "/ui_MAIT_GO_aLONE/",
+        "usage_context_en": "uncertain possibility",
+        "usage_context_es": "posibilidad incierta",
+        "usage_example": "We might go alone.",
+        "usage_example_es": "Puede que vayamos solos.",
+        "imagePath": "/card_images/verbs/2-intermediate/modal_auxiliaries/2-intermediate_modal_auxiliaries_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Modal Verbs",
+    "is_verb": true,
+    "name": "might",
+    "phonetic": "/maɪt/",
+    "search_term": "modal/possibility/intermediate",
+    "spoken_phonetic_us": "/maɪt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Deberíamos / Vamos a",
+        "pronunciation_guide_es": "/SHAL_ui_BIgin/",
+        "usage_context_en": "formal suggestion/future",
+        "usage_context_es": "sugerencia formal/futuro",
+        "usage_example": "Shall we begin?",
+        "usage_example_es": "¿Comenzamos?",
+        "imagePath": "/card_images/verbs/2-intermediate/modal_auxiliaries/2-intermediate_modal_auxiliaries_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Modal Verbs",
+    "is_verb": true,
+    "name": "shall",
+    "phonetic": "/ʃæl/",
+    "search_term": "modal/formal-intermediate",
+    "spoken_phonetic_us": "/ʃæl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Necesitar",
+        "pronunciation_guide_es": "/iu_NID_tu_REST/",
+        "usage_context_en": "necessity",
+        "usage_context_es": "necesidad",
+        "usage_example": "You need to rest.",
+        "usage_example_es": "Necesitas descansar.",
+        "imagePath": "/card_images/verbs/2-intermediate/modal_auxiliaries/2-intermediate_modal_auxiliaries_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Modal Verbs",
+    "is_verb": true,
+    "name": "need to",
+    "phonetic": "/niːd tuː/",
+    "search_term": "modal/necessity/intermediate",
+    "spoken_phonetic_us": "/niːd tuː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Debería",
+        "pronunciation_guide_es": "/ui_OT_tu_RESPEKT_dem/",
+        "usage_context_en": "moral advice",
+        "usage_context_es": "consejo moral",
+        "usage_example": "We ought to respect them.",
+        "usage_example_es": "Deberíamos respetarlos.",
+        "imagePath": "/card_images/verbs/2-intermediate/modal_auxiliaries/2-intermediate_modal_auxiliaries_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Modal Verbs",
+    "is_verb": true,
+    "name": "ought to",
+    "phonetic": "/ɔːt tuː/",
+    "search_term": "modal/advice-intermediate",
+    "spoken_phonetic_us": "/ɔːt tuː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Solía",
+        "pronunciation_guide_es": "/ai_IUST_tu_LIV_der/",
+        "usage_context_en": "past habit/state",
+        "usage_context_es": "hábito/estado pasado",
+        "usage_example": "I used to live there.",
+        "usage_example_es": "Yo solía vivir allí.",
+        "imagePath": "/card_images/verbs/2-intermediate/modal_auxiliaries/2-intermediate_modal_auxiliaries_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Modal Verbs",
+    "is_verb": true,
+    "name": "used to",
+    "phonetic": "/ˈjuːst tuː/",
+    "search_term": "modal/past-habit/intermediate",
+    "spoken_phonetic_us": "/ˈjuːst tuː/"
+  }
+]

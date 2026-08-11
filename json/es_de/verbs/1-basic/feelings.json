@@ -1,0 +1,290 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Do you feel cold?",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_0_def0.avif",
+        "meaning": "Sentir (emociones, sensaciones)",
+        "pronunciation_guide_es": "/ish_FUE-le_mish_HOI-te_GLUEK-lish/",
+        "usage_context_en": "emotion/sensation",
+        "usage_context_es": "emoción/sensación",
+        "usage_example": "Ich fühle mich heute glücklich.",
+        "usage_example_es": "Me siento feliz hoy."
+      },
+      {
+        "alternative_example": "I feel a drop of rain.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_0_def1.avif",
+        "meaning": "Palpar/Tocar",
+        "pronunciation_guide_es": "/FUEL_di_teks-TUR_des_SHTO-fes/",
+        "usage_context_en": "touch/texture",
+        "usage_context_es": "tacto/textura",
+        "usage_example": "Fühl die Textur des Stoffes.",
+        "usage_example_es": "Siente la textura de la tela."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "fühlen",
+    "phonetic": "/ˈfyːlən/",
+    "search_term": "verb/emotion/essentials",
+    "spoken_phonetic_us": "/ˈfyːlən/",
+    "irregular": {
+      "past": {
+        "form": "fühlte",
+        "phonetic": "/ˈfyːltə/",
+        "spoken_phonetic_us": "/ˈfyːltə/",
+        "usage_example": "Ich fühlte mich nach der Arbeit sehr müde.",
+        "usage_example_es": "Me sentí muy cansado después del trabajo.",
+        "pronunciation_guide_es": "/ish_FUEL-te_mish_naj_der_AR-bait_ZER_MUE-de/",
+        "meaning": "Pasado de sentir",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_0_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gefühlt",
+        "phonetic": "/ɡəˈfyːlt/",
+        "spoken_phonetic_us": "/ɡəˈfyːlt/",
+        "usage_example": "Ich habe mich in letzter Zeit besser gefühlt.",
+        "usage_example_es": "Me he sentido mejor últimamente.",
+        "pronunciation_guide_es": "/ish_HA-be_mish_in_LETS-ter_TSAIT_BE-ser_ge-FUELT/",
+        "meaning": "Participio de sentir",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_0_def0_v3.avif"
+      }
+    },
+    "group_name": "Being & State"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Do you like to swim?",
+        "char_count": "one",
+        "meaning": "Gustar/Agradar",
+        "pronunciation_guide_es": "/mir_ge-FELT_dain_NOI-er_HAR-shnit/",
+        "usage_context_en": "preference/enjoyment",
+        "usage_context_es": "preferencia/disfrute",
+        "usage_example": "Mir gefällt dein neuer Haarschnitt.",
+        "usage_example_es": "Me gusta tu nuevo corte de pelo.",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_1_def0.avif"
+      },
+      {
+        "alternative_example": "I'd like to thank you.",
+        "char_count": "one",
+        "meaning": "Querer (en algunas frases)",
+        "pronunciation_guide_es": "/vas_MOESH-test_du_TRIN-ken/",
+        "usage_context_en": "requests/politeness",
+        "usage_context_es": "peticiones/cortesía",
+        "usage_example": "Was möchtest du trinken?",
+        "usage_example_es": "¿Qué te gustaría beber?",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_1_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "mögen",
+    "phonetic": "/ˈmøːɡn̩/",
+    "search_term": "verb/preference/essentials",
+    "spoken_phonetic_us": "/ˈmøːɡn̩/",
+    "group_name": "Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "She wants to travel.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_2_def0.avif",
+        "meaning": "Querer (desear algo)",
+        "pronunciation_guide_es": "/ish_VIL_ain_GLAS_VA-ser/",
+        "usage_context_en": "desire/need",
+        "usage_context_es": "deseo/necesidad",
+        "usage_example": "Ich will ein Glas Wasser.",
+        "usage_example_es": "Quiero un vaso de agua."
+      },
+      {
+        "alternative_example": "I want that job.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_2_def1.avif",
+        "meaning": "Pedir/Solicitar",
+        "pronunciation_guide_es": "/zi_VO-len_mit_dem_ME-ne-ger_SHPRE-chen/",
+        "usage_context_en": "request/demand",
+        "usage_context_es": "petición/demanda",
+        "usage_example": "Sie wollen mit dem Manager sprechen.",
+        "usage_example_es": "Ellos quieren hablar con el gerente."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "wollen",
+    "phonetic": "/ˈvɔlən/",
+    "search_term": "verb/desire/essentials",
+    "spoken_phonetic_us": "/ˈvɔlən/",
+    "group_name": "Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "We need food and water.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_3_def0.avif",
+        "meaning": "Necesitar (algo)",
+        "pronunciation_guide_es": "/ish_BRAU-che_mer_TSAIT/",
+        "usage_context_en": "necessity/time",
+        "usage_context_es": "necesidad/tiempo",
+        "usage_example": "Ich brauche mehr Zeit.",
+        "usage_example_es": "Necesito más tiempo."
+      },
+      {
+        "alternative_example": "The car needs cleaning.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_3_def1.avif",
+        "meaning": "Requerir (hacer algo)",
+        "pronunciation_guide_es": "/du_MUST_fuer_di_PRUE-fung_LER-nen/",
+        "usage_context_en": "requirement/obligation",
+        "usage_context_es": "requisito/obligación",
+        "usage_example": "Du musst für die Prüfung lernen.",
+        "usage_example_es": "Necesitas estudiar para el examen."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "brauchen",
+    "phonetic": "/ˈbʁaʊxn̩/",
+    "search_term": "verb/necessity/essentials",
+    "spoken_phonetic_us": "/ˈbʁaʊxn̩/",
+    "group_name": "Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "I love my family very much.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_4_def0.avif",
+        "meaning": "Amar",
+        "pronunciation_guide_es": "/ish_LI-be_MAI-ne_fa-MI-li-e/",
+        "usage_context_en": "family/relationships",
+        "usage_context_es": "familia/relaciones",
+        "usage_example": "Ich liebe meine Familie.",
+        "usage_example_es": "Amo a mi familia."
+      },
+      {
+        "alternative_example": "She loves chocolate ice cream.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_4_def1.avif",
+        "meaning": "Encantar",
+        "pronunciation_guide_es": "/vir_LI-ben_DI-zes_LIT/",
+        "usage_context_en": "preferences/strong liking",
+        "usage_context_es": "preferencias/gusto fuerte",
+        "usage_example": "Wir lieben dieses Lied.",
+        "usage_example_es": "Nos encanta esta canción."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "lieben",
+    "phonetic": "/ˈliːbn̩/",
+    "search_term": "verb/love/essentials",
+    "spoken_phonetic_us": "/ˈliːbn̩/",
+    "group_name": "Feelings & Relationships"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "He hates waking up early.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_5_def0.avif",
+        "meaning": "Odiar",
+        "pronunciation_guide_es": "/ish_HA-se_shpi-NAT/",
+        "usage_context_en": "strong dislike/preferences",
+        "usage_context_es": "desagrado fuerte/preferencias",
+        "usage_example": "Ich hasse Spinat.",
+        "usage_example_es": "Odio la espinaca."
+      },
+      {
+        "alternative_example": "They hate waiting in long lines.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_5_def1.avif",
+        "meaning": "Detestar",
+        "pronunciation_guide_es": "/zi_HAST_es_a-LAIN_tsu_zain/",
+        "usage_context_en": "daily life/emotions",
+        "usage_context_es": "vida diaria/emociones",
+        "usage_example": "Sie hasst es, allein zu sein.",
+        "usage_example_es": "Ella detesta estar sola."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "hassen",
+    "phonetic": "/ˈhasn̩/",
+    "search_term": "verb/hate/essentials",
+    "spoken_phonetic_us": "/ˈhasn̩/",
+    "group_name": "Feelings & Relationships"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "We hope for the best.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_6_def0.avif",
+        "meaning": "Esperar (tener esperanza)",
+        "pronunciation_guide_es": "/ish_HO-fe_das_du_dish_BALT_BE-ser_FUELST/",
+        "usage_context_en": "health/optimism",
+        "usage_context_es": "salud/optimismo",
+        "usage_example": "Ich hoffe, dass du dich bald besser fühlst.",
+        "usage_example_es": "Espero que te sientas mejor pronto."
+      },
+      {
+        "alternative_example": "She hopes to pass the exam.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_6_def1.avif",
+        "meaning": "Desear/Querer (que algo suceda)",
+        "pronunciation_guide_es": "/ish_HO-fe_es_REK-net_MOR-gen_nisht/",
+        "usage_context_en": "weather/exams",
+        "usage_context_es": "clima/exámenes",
+        "usage_example": "Ich hoffe, es regnet morgen nicht.",
+        "usage_example_es": "Espero que no llueva mañana."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "hoffen",
+    "phonetic": "/ˈhɔfn̩/",
+    "search_term": "verb/wish/level_up",
+    "spoken_phonetic_us": "/ˈhɔfn̩/",
+    "group_name": "Daily Life"
+  }
+]

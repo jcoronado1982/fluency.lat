@@ -1,0 +1,524 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Camisa",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "shirt",
+        "usage_example": "Me gusta tu camisa azul.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I like your blue shirt.",
+        "char_count": "one",
+        "usage_context_en": "A piece of clothing for the upper body",
+        "usage_context_es": "Una prenda de vestir para la parte superior del cuerpo",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_0_def0.avif",
+        "target_meaning_es": "Camisa"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Zapatos",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "shoes",
+        "usage_example": "Necesito zapatos nuevos.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I need new shoes.",
+        "char_count": "one",
+        "usage_context_en": "Coverings for your feet",
+        "usage_context_es": "Coberturas para tus pies",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_1_def0.avif",
+        "target_meaning_es": "Zapatos"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Pantalones",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "pants",
+        "usage_example": "Él lleva pantalones negros.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He is wearing black pants.",
+        "char_count": "one",
+        "usage_context_en": "Clothing for your legs (AmE)",
+        "usage_context_es": "Ropa para tus piernas (AmE)",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_2_def0.avif",
+        "target_meaning_es": "Pantalones"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Abrigo",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "coat",
+        "usage_example": "Hace frío, ponte el abrigo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "It's cold, wear your coat.",
+        "char_count": "one",
+        "usage_context_en": "Outer clothing for cold weather",
+        "usage_context_es": "Ropa exterior para clima frío",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_3_def0.avif",
+        "target_meaning_es": "Abrigo"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Vestido",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "dress",
+        "usage_example": "Ella lleva un vestido rojo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She is wearing a red dress.",
+        "char_count": "one",
+        "usage_context_en": "A piece of clothing for women/girls",
+        "usage_context_es": "Una prenda de vestir para mujeres/niñas",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_4_def0.avif",
+        "target_meaning_es": "Vestido"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Sombrero / Gorro",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "hat",
+        "usage_example": "Él lleva un sombrero rojo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He is wearing a red hat.",
+        "char_count": "one",
+        "usage_context_en": "A covering for the head",
+        "usage_context_es": "Una cobertura para la cabeza",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_5_def0.avif",
+        "target_meaning_es": "Sombrero / Gorro"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Calcetín / Media",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "sock",
+        "usage_example": "Perdí un calcetín.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I lost a sock.",
+        "char_count": "one",
+        "usage_context_en": "A piece of clothing for your foot",
+        "usage_context_es": "Una prenda de vestir para tu pie",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_6_def0.avif",
+        "target_meaning_es": "Calcetín / Media"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Chaqueta / Saco",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "jacket",
+        "usage_example": "Ponte la chaqueta.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Put on your jacket.",
+        "char_count": "two",
+        "usage_context_en": "A short coat",
+        "usage_context_es": "Un abrigo corto",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_7_def0.avif",
+        "target_meaning_es": "Chaqueta / Saco"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Falda",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "skirt",
+        "usage_example": "Ella lleva una falda azul.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She is wearing a blue skirt.",
+        "char_count": "one",
+        "usage_context_en": "A piece of clothing for women that hangs from the waist",
+        "usage_context_es": "Una prenda de mujer que cuelga de la cintura",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_8_def0.avif",
+        "target_meaning_es": "Falda"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Jeans / Vaqueros",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "jeans",
+        "usage_example": "Uso jeans azules.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I wear blue jeans.",
+        "char_count": "two",
+        "usage_context_en": "Pants made of denim fabric",
+        "usage_context_es": "Pantalones hechos de tela denim",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_9_def0.avif",
+        "target_meaning_es": "Jeans / Vaqueros"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Botas",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "boots",
+        "usage_example": "Mis botas son negras.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "My boots are black.",
+        "char_count": "one",
+        "usage_context_en": "Shoes that cover the ankle or leg",
+        "usage_context_es": "Zapatos que cubren el tobillo o la pierna",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_10_def0.avif",
+        "target_meaning_es": "Botas"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Guantes",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "gloves",
+        "usage_example": "Ponte los guantes, hace frío.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Wear your gloves, it's cold.",
+        "char_count": "two",
+        "usage_context_en": "Coverings for your hands",
+        "usage_context_es": "Coberturas para tus manos",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_11_def0.avif",
+        "target_meaning_es": "Guantes"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Bufanda / Pañoleta",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "scarf",
+        "usage_example": "Ella usa una bufanda roja.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She wears a red scarf.",
+        "char_count": "one",
+        "usage_context_en": "A piece of cloth worn around the neck",
+        "usage_context_es": "Una pieza de tela que se usa alrededor del cuello",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_12_def0.avif",
+        "target_meaning_es": "Bufanda / Pañoleta"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Cinturón / Correa",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "belt",
+        "usage_example": "Necesito un cinturón nuevo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I need a new belt.",
+        "char_count": "one",
+        "usage_context_en": "A strip of material worn around the waist",
+        "usage_context_es": "Una tira de material que se usa alrededor de la cintura",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_13_def0.avif",
+        "target_meaning_es": "Cinturón / Correa"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Suéter / Sudadera",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "sweater",
+        "usage_example": "Hace frío, ponte un suéter.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "It's cold, wear a sweater.",
+        "char_count": "two",
+        "usage_context_en": "A warm piece of clothing for the top of your body",
+        "usage_context_es": "Una prenda de vestir cálida para la parte superior del cuerpo",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_14_def0.avif",
+        "target_meaning_es": "Suéter / Sudadera"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Corbata",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "tie",
+        "usage_example": "Él usa una corbata azul.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He wears a blue tie.",
+        "char_count": "one",
+        "usage_context_en": "A long piece of cloth worn around the neck",
+        "usage_context_es": "Una pieza larga de tela que se usa alrededor del cuello",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_15_def0.avif",
+        "target_meaning_es": "Corbata"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Pijama",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "pyjamas",
+        "usage_example": "Me pongo el pijama en la noche.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I wear my pyjamas at night.",
+        "char_count": "two",
+        "usage_context_en": "Loose clothing worn to sleep",
+        "usage_context_es": "Ropa suelta que se usa para dormir",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_16_def0.avif",
+        "target_meaning_es": "Pijama"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Pantalones cortos / Shorts",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/clothing/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "shorts",
+        "usage_example": "Él usa pantalones cortos en el verano.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He wears shorts in the summer.",
+        "char_count": "one",
+        "usage_context_en": "Short pants ending above the knees",
+        "usage_context_es": "Pantalones cortos que terminan por encima de las rodillas",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_17_def0.avif",
+        "target_meaning_es": "Pantalones cortos / Shorts"
+      }
+    ],
+    "group_name": "Clothing",
+    "category": ""
+  }
+]

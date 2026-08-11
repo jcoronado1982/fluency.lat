@@ -1,0 +1,470 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Madre",
+        "pronunciation_guide_es": "/mai_MODer_is_a_DOKtor/",
+        "usage_context_en": "A female parent",
+        "usage_context_es": "Un pariente femenino",
+        "usage_example": "My mother is a doctor.",
+        "usage_example_es": "Mi madre es doctora.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "mother",
+    "phonetic": "/ˈmʌðər/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/ˈmʌðər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Padre",
+        "pronunciation_guide_es": "/mai_FADer_UORKS_JARD/",
+        "usage_context_en": "A male parent",
+        "usage_context_es": "Un pariente masculino",
+        "usage_example": "My father works hard.",
+        "usage_example_es": "Mi padre trabaja duro.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "father",
+    "phonetic": "/ˈfɑːðər/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/ˈfɑːðər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Hermano",
+        "pronunciation_guide_es": "/ji_is_mai_OLder_BRODer/",
+        "usage_context_en": "A male sibling",
+        "usage_context_es": "Un hermano varón",
+        "usage_example": "He is my older brother.",
+        "usage_example_es": "Él es mi hermano mayor.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "brother",
+    "phonetic": "/ˈbrʌðər/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/ˈbrʌðər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Hermana",
+        "pronunciation_guide_es": "/mai_SISter_is_VERI_TOL/",
+        "usage_context_en": "A female sibling",
+        "usage_context_es": "Una hermana mujer",
+        "usage_example": "My sister is very tall.",
+        "usage_example_es": "Mi hermana es muy alta.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "sister",
+    "phonetic": "/ˈsɪstər/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/ˈsɪstər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Hijo",
+        "pronunciation_guide_es": "/dat_is_mai_SON/",
+        "usage_context_en": "A male child",
+        "usage_context_es": "Un hijo varón",
+        "usage_example": "That is my son.",
+        "usage_example_es": "Ese es mi hijo.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "son",
+    "phonetic": "/sʌn/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/sʌn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Hija",
+        "pronunciation_guide_es": "/jis_DOter_is_FAIV_YIRS_OLD/",
+        "usage_context_en": "A female child",
+        "usage_context_es": "Una hija mujer",
+        "usage_example": "His daughter is five years old.",
+        "usage_example_es": "Su hija tiene cinco años.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "daughter",
+    "phonetic": "/ˈdɔːtər/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/ˈdɔːtər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Bebé",
+        "pronunciation_guide_es": "/de_BEIBi_is_SLIPing/",
+        "usage_context_en": "A very young child",
+        "usage_context_es": "Un niño muy pequeño",
+        "usage_example": "The baby is sleeping.",
+        "usage_example_es": "El bebé está durmiendo.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_6_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "baby",
+    "phonetic": "/ˈbeɪbi/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/ˈbeɪbi/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Familia",
+        "pronunciation_guide_es": "/ai_LOV_mai_FAMili/",
+        "usage_context_en": "A group of parents and children",
+        "usage_context_es": "Un grupo de padres e hijos",
+        "usage_example": "I love my family.",
+        "usage_example_es": "Amo a mi familia.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "family",
+    "phonetic": "/ˈfæməli/",
+    "search_term": "noun/group/essentials",
+    "spoken_phonetic_us": "/ˈfæməli/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Padre / Madre (en general)",
+        "pronunciation_guide_es": "/mai_PARENTS_ar_from_koLOMbia/",
+        "usage_context_en": "A mother or father",
+        "usage_context_es": "Una madre o un padre",
+        "usage_example": "My parents are from Colombia.",
+        "usage_example_es": "Mis padres (ambos) son de Colombia.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_8_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "parent",
+    "phonetic": "/ˈpɛərənt/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/ˈpɛrənt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Esposo / Marido",
+        "pronunciation_guide_es": "/ji_is_mai_JOSband/",
+        "usage_context_en": "A married man",
+        "usage_context_es": "Un hombre casado",
+        "usage_example": "He is my husband.",
+        "usage_example_es": "Él es mi esposo.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "husband",
+    "phonetic": "/ˈhʌzbənd/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/ˈhʌzbənd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Esposa",
+        "pronunciation_guide_es": "/shi_is_mai_UAIF/",
+        "usage_context_en": "A married woman",
+        "usage_context_es": "Una mujer casada",
+        "usage_example": "She is my wife.",
+        "usage_example_es": "Ella es mi esposa.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "wife",
+    "phonetic": "/waɪf/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/waɪf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Tío",
+        "pronunciation_guide_es": "/hi_is_mai_ANKel/",
+        "usage_context_en": "The brother of your mother or father",
+        "usage_context_es": "El hermano de tu madre o padre",
+        "usage_example": "He is my uncle.",
+        "usage_example_es": "Él es mi tío.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_11_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "uncle",
+    "phonetic": "/ˈʌŋkəl/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/ˈʌŋkəl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Tía",
+        "pronunciation_guide_es": "/shi_is_mai_ANT/",
+        "usage_context_en": "The sister of your mother or father",
+        "usage_context_es": "La hermana de tu madre o padre",
+        "usage_example": "She is my aunt.",
+        "usage_example_es": "Ella es mi tía.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_12_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "aunt",
+    "phonetic": "/ænt/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/ænt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Abuelo",
+        "pronunciation_guide_es": "/mai_GRANDfaDer_is_OLD/",
+        "usage_context_en": "The father of your mother or father",
+        "usage_context_es": "El padre de tu madre o padre",
+        "usage_example": "My grandfather is old.",
+        "usage_example_es": "Mi abuelo es viejo.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_13_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "grandfather",
+    "phonetic": "/ˈɡrænfɑːðər/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/ˈɡrænfɑːðər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Abuela",
+        "pronunciation_guide_es": "/mai_GRANmaDer_KUKS_WEL/",
+        "usage_context_en": "The mother of your mother or father",
+        "usage_context_es": "La madre de tu madre o padre",
+        "usage_example": "My grandmother cooks well.",
+        "usage_example_es": "Mi abuela cocina bien.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_14_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "grandmother",
+    "phonetic": "/ˈɡrænmʌðər/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/ˈɡrænmʌðər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Primo / Prima",
+        "pronunciation_guide_es": "/shi_is_mai_KAZin/",
+        "usage_context_en": "The child of your aunt or uncle",
+        "usage_context_es": "El hijo o hija de tu tío o tía",
+        "usage_example": "She is my cousin.",
+        "usage_example_es": "Ella es mi prima.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_15_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "cousin",
+    "phonetic": "/ˈkʌzən/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/ˈkʌzən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Sobrino",
+        "pronunciation_guide_es": "/hi_is_mai_NEFiu/",
+        "usage_context_en": "The son of your brother or sister",
+        "usage_context_es": "El hijo de tu hermano o hermana",
+        "usage_example": "He is my nephew.",
+        "usage_example_es": "Él es mi sobrino.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_16_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "nephew",
+    "phonetic": "/ˈnɛfjuː/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/ˈnɛfjuː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Sobrina",
+        "pronunciation_guide_es": "/shi_is_mai_NIS/",
+        "usage_context_en": "The daughter of your brother or sister",
+        "usage_context_es": "La hija de tu hermano o hermana",
+        "usage_example": "She is my niece.",
+        "usage_example_es": "Ella es mi sobrina.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_17_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "niece",
+    "phonetic": "/niːs/",
+    "search_term": "noun/family/essentials",
+    "spoken_phonetic_us": "/niːs/"
+  }
+]

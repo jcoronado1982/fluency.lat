@@ -1,0 +1,302 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The store will hire new workers next month.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/1-basic_card_84_def0.avif",
+        "meaning": "Contratar",
+        "pronunciation_guide_es": "/dei_JAIERD_mai_broder/",
+        "usage_context_en": "jobs/work",
+        "usage_context_es": "empleos/trabajo",
+        "usage_example": "They hired my brother.",
+        "usage_example_es": "Contrataron a mi hermano."
+      },
+      {
+        "alternative_example": "We need to hire a driver for the trip.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/1-basic_card_84_def1.avif",
+        "meaning": "Alquilar servicios de alguien",
+        "pronunciation_guide_es": "/ui_can_JAIER_a_GAID/",
+        "usage_context_en": "services/help",
+        "usage_context_es": "servicios/ayuda",
+        "usage_example": "We can hire a guide.",
+        "usage_example_es": "Podemos contratar un guía."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "hire",
+    "phonetic": "/haɪr/",
+    "search_term": "verb/hire/essentials",
+    "spoken_phonetic_us": "/haɪr/",
+    "group_name": "Work & Jobs"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The company fired two people yesterday.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/1-basic_card_85_def0.avif",
+        "meaning": "Despedir (del trabajo)",
+        "pronunciation_guide_es": "/dei_FAIERD_jim/",
+        "usage_context_en": "jobs/work",
+        "usage_context_es": "empleos/trabajo",
+        "usage_example": "They fired him.",
+        "usage_example_es": "Lo despidieron."
+      },
+      {
+        "alternative_example": "The officer fired into the air.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/1-basic_card_85_def1.avif",
+        "meaning": "Disparar",
+        "pronunciation_guide_es": "/ji_FAIERD_de_gan/",
+        "usage_context_en": "weapons/action",
+        "usage_context_es": "armas/acción",
+        "usage_example": "He fired the gun.",
+        "usage_example_es": "Disparó el arma."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "fire",
+    "phonetic": "/faɪr/",
+    "search_term": "verb/fire/essentials",
+    "spoken_phonetic_us": "/faɪr/",
+    "group_name": "Work & Jobs"
+  },
+  {
+    "name": "serve",
+    "phonetic": "/sɜːrv/",
+    "spoken_phonetic_us": "/sɜːrv/",
+    "search_term": "verb/duty/level_up",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Servir (comida, en una tienda)",
+        "usage_example": "They serve dinner at 7 PM.",
+        "pronunciation_guide_es": "/dei_SERV_DINer_at_seven_PI_EM/",
+        "alternative_example": "The waiter served the drinks.",
+        "usage_example_es": "Sirven la cena a las 7 PM.",
+        "char_count": "one",
+        "usage_context_en": "food/restaurants",
+        "usage_context_es": "comida/restaurantes"
+      },
+      {
+        "meaning": "Servir/Ser útil",
+        "usage_example": "This tool serves many purposes.",
+        "pronunciation_guide_es": "/dis_TUL_SERVS_MENi_PURpusis/",
+        "alternative_example": "She served in the army.",
+        "usage_example_es": "Esta herramienta sirve para muchos propósitos.",
+        "char_count": "one",
+        "usage_context_en": "utility/duty",
+        "usage_context_es": "utilidad/deber"
+      }
+    ],
+    "group_name": "Social & Daily Life"
+  },
+  {
+    "name": "provide",
+    "phonetic": "/prəˈvaɪd/",
+    "spoken_phonetic_us": "/prəˈvaɪd/",
+    "search_term": "verb/supply/essentials",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Proporcionar/Suministrar",
+        "usage_example": "The hotel provides free Wi-Fi.",
+        "pronunciation_guide_es": "/de_HOUTEL_proVAIDz_fri_UAI_FAI/",
+        "alternative_example": "We provide food and shelter.",
+        "usage_example_es": "El hotel proporciona Wi-Fi gratuito.",
+        "char_count": "two",
+        "usage_context_en": "services/necessities",
+        "usage_context_es": "servicios/necesidades"
+      },
+      {
+        "meaning": "Estipular/Establecer (formal)",
+        "usage_example": "The contract provides for a penalty.",
+        "pronunciation_guide_es": "/de_KONTRAKT_proVAIDz_for_a_PENalti/",
+        "alternative_example": "The law provides protection.",
+        "usage_example_es": "El contrato estipula una multa.",
+        "char_count": "two",
+        "usage_context_en": "law/agreements",
+        "usage_context_es": "ley/acuerdos"
+      }
+    ],
+    "group_name": "Social & Daily Life"
+  },
+  {
+    "name": "represent",
+    "phonetic": "/rɛprɪˈzɛnt/",
+    "spoken_phonetic_us": "/rɛprɪˈzɛnt/",
+    "search_term": "verb/stand for/level_up",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Representar",
+        "usage_example": "The symbol represents peace.",
+        "pronunciation_guide_es": "/de_SIMbol_repriZENTs_PIS/",
+        "alternative_example": "He represents the company at the event.",
+        "usage_example_es": "El símbolo representa la paz.",
+        "char_count": "three",
+        "usage_context_en": "symbols/role",
+        "usage_context_es": "símbolos/rol"
+      },
+      {
+        "meaning": "Mostrar/Describir",
+        "usage_example": "The painting represents a battle scene.",
+        "pronunciation_guide_es": "/de_PEINTing_repriZENTs_a_BATOL_SIN/",
+        "alternative_example": "This case represents a problem.",
+        "usage_example_es": "La pintura representa una escena de batalla.",
+        "char_count": "three",
+        "usage_context_en": "art/description",
+        "usage_context_es": "arte/descripción"
+      }
+    ],
+    "group_name": "Social & Daily Life"
+  },
+  {
+    "name": "cost",
+    "phonetic": "/kɒst/",
+    "spoken_phonetic_us": "/kɔːst/",
+    "search_term": "verb/price/level_up",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Costar (tener un precio)",
+        "usage_example": "How much does this cost?",
+        "pronunciation_guide_es": "/jau_MACH_das_dis_KOST/",
+        "alternative_example": "It cost me a lot of money.",
+        "usage_example_es": "¿Cuánto cuesta esto?",
+        "char_count": "one",
+        "usage_context_en": "price/money",
+        "usage_context_es": "precio/dinero"
+      },
+      {
+        "meaning": "Causar una pérdida",
+        "usage_example": "The mistake cost him his job.",
+        "pronunciation_guide_es": "/de_misTEIK_KOST_jim_jis_YOB/",
+        "alternative_example": "Honesty costs nothing.",
+        "usage_example_es": "El error le costó el trabajo.",
+        "char_count": "one",
+        "usage_context_en": "loss/consequence",
+        "usage_context_es": "pérdida/consecuencia"
+      }
+    ],
+    "group_name": "Managing & Control"
+  },
+  {
+    "name": "check",
+    "phonetic": "/ʧɛk/",
+    "spoken_phonetic_us": "/ʧɛk/",
+    "search_term": "verb/verify/intermediate",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Revisar/Comprobar",
+        "usage_example": "Please check your work for mistakes.",
+        "pronunciation_guide_es": "/PLIS_CHEK_yor_UORK_for_misTEIKS/",
+        "alternative_example": "I need to check my email.",
+        "usage_example_es": "Por favor, revisa tu trabajo en busca de errores.",
+        "char_count": "one",
+        "usage_context_en": "verification/errors",
+        "usage_context_es": "verificación/errores"
+      },
+      {
+        "meaning": "Facturar (equipaje)/Pagar (la cuenta)",
+        "usage_example": "We need to check our bags.",
+        "pronunciation_guide_es": "/ui_NID_tu_CHEK_aur_BAGS/",
+        "alternative_example": "Can we check out of the hotel?",
+        "usage_example_es": "Necesitamos facturar nuestras maletas.",
+        "char_count": "one",
+        "usage_context_en": "travel/hotel",
+        "usage_context_es": "viaje/hotel"
+      }
+    ],
+    "group_name": "Managing & Control"
+  },
+  {
+    "name": "manage",
+    "phonetic": "/ˈmænɪʤ/",
+    "spoken_phonetic_us": "/ˈmænɪʤ/",
+    "search_term": "verb/control/intermediate",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Gestionar/Administrar",
+        "usage_example": "She manages a team of 10 people.",
+        "pronunciation_guide_es": "/shi_MANiyis_a_TIM_of_ten_PIPOL/",
+        "alternative_example": "You need to manage your time better.",
+        "usage_example_es": "Ella gestiona un equipo de 10 personas.",
+        "char_count": "two",
+        "usage_context_en": "business/control",
+        "usage_context_es": "negocios/control"
+      },
+      {
+        "meaning": "Arreglárselas/Lograr (con dificultad)",
+        "usage_example": "How did you manage to finish on time?",
+        "pronunciation_guide_es": "/jau_did_iu_MANIy_tu_FINish_on_TAIM/",
+        "alternative_example": "I can manage on my own, thanks.",
+        "usage_example_es": "¿Cómo te las arreglaste para terminar a tiempo?",
+        "char_count": "two",
+        "usage_context_en": "succeed/difficulty",
+        "usage_context_es": "lograr/dificultad"
+      }
+    ],
+    "group_name": "Managing & Control"
+  },
+  {
+    "name": "control",
+    "phonetic": "/kənˈtroʊl/",
+    "spoken_phonetic_us": "/kənˈtroʊl/",
+    "search_term": "verb/manage/intermediate",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Controlar/Dominar",
+        "usage_example": "You need to control your dog.",
+        "pronunciation_guide_es": "/iu_NID_tu_konTROL_yor_DOG/",
+        "alternative_example": "She learned to control her emotions.",
+        "usage_example_es": "Necesitas controlar a tu perro.",
+        "char_count": "two",
+        "usage_context_en": "command/emotions",
+        "usage_context_es": "comando/emociones"
+      },
+      {
+        "meaning": "Manejar/Regular (una máquina)",
+        "usage_example": "This switch controls the lights.",
+        "pronunciation_guide_es": "/dis_SUICH_konTROLS_de_LAITS/",
+        "alternative_example": "The government controls the prices.",
+        "usage_example_es": "Este interruptor controla las luces.",
+        "char_count": "two",
+        "usage_context_en": "function/regulation",
+        "usage_context_es": "función/regulación"
+      }
+    ],
+    "group_name": "Managing & Control"
+  }
+]

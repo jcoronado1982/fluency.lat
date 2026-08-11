@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/3-advanced/logic_reasoning/3-advanced_logic_reasoning_card_0_def0.avif",
+        "meaning": "Acusación / Alegato",
+        "pronunciation_guide_es": "/er_be-SHTRIT_di_SHVE-re_AN-shul-di-gung/",
+        "usage_context_en": "A claim or assertion that someone has done something illegal or wrong, typically made without proof.",
+        "usage_context_es": "Una afirmación o aserción de que alguien ha hecho algo ilegal o incorrecto, típicamente hecha sin pruebas.",
+        "usage_example": "Er bestritt die schwere Anschuldigung.",
+        "usage_example_es": "Él negó la grave acusación."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Anschuldigung",
+    "phonetic": "/diː ˈanʃʊldɪɡʊŋ/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/diː ˈanʃʊldɪɡʊŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/logic_reasoning/3-advanced_logic_reasoning_card_1_def0.avif",
+        "meaning": "Sesgo / Prejuicio",
+        "pronunciation_guide_es": "/der_ar-TI-kel_hat_AI-ne_po-LI-ti-she_FOR-ain-ge-no-men-hait/",
+        "usage_context_en": "Prejudice in favor of or against one thing, person, or group compared with another.",
+        "usage_context_es": "Prejuicio a favor o en contra de una cosa, persona o grupo en comparación con otro.",
+        "usage_example": "Der Artikel hat eine politische Voreingenommenheit.",
+        "usage_example_es": "El artículo tiene un sesgo político."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Voreingenommenheit",
+    "phonetic": "/diː ˈfoːɐʔaɪnɡənɔmənhaɪt/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/diː ˈfoːɐʔaɪnɡənɔmənhaɪt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/nouns/3-advanced/logic_reasoning/3-advanced_logic_reasoning_card_2_def0.avif",
+        "meaning": "Paradoja",
+        "pronunciation_guide_es": "/es_ist_ain_MERK-vuer-di-ges_pa-ra-DOKS/",
+        "usage_context_en": "A seemingly absurd or self-contradictory statement that may be true.",
+        "usage_context_es": "Una declaración aparentemente absurda o autocontradictoria que puede ser cierta.",
+        "usage_example": "Es ist ein merkwürdiges Paradox.",
+        "usage_example_es": "Es una paradoja curiosa."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "das Paradox",
+    "phonetic": "/das paʁaˈdɔks/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/das paʁaˈdɔks/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/3-advanced/logic_reasoning/3-advanced_logic_reasoning_card_3_def0.avif",
+        "meaning": "Falacia",
+        "pronunciation_guide_es": "/DI-zes_ar-gu-MENT_ent-HAELT_AI-nen_TRUK-shlus/",
+        "usage_context_en": "A mistaken belief or error in reasoning.",
+        "usage_context_es": "A mistaken belief or error in reasoning.",
+        "usage_example": "Dieses Argument enthält einen Trugschluss.",
+        "usage_example_es": "Ese argumento contiene una falacia."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "der Trugschluss",
+    "phonetic": "/deːɐ ˈtʁuːkʃlʊs/",
+    "search_term": "noun/logic_reasoning/added",
+    "spoken_phonetic_us": "/deːɐ ˈtʁuːkʃlʊs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/logic_reasoning/3-advanced_logic_reasoning_card_4_def0.avif",
+        "meaning": "Inferencia",
+        "pronunciation_guide_es": "/di_SHLUS-fol-ge-rung_ba-ZIRT_auf_LO-gi-shem_SHLI-sen/",
+        "usage_context_en": "A conclusion reached from evidence or reasoning.",
+        "usage_context_es": "A conclusion reached from evidence or reasoning.",
+        "usage_example": "Die Schlussfolgerung basiert auf logischem Schließen.",
+        "usage_example_es": "La conclusión se basa en una inferencia."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Schlussfolgerung",
+    "phonetic": "/diː ˈʃlʊsfɔlɡəʁʊŋ/",
+    "search_term": "noun/logic_reasoning/added",
+    "spoken_phonetic_us": "/diː ˈʃlʊsfɔlɡəʁʊŋ/"
+  }
+]

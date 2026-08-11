@@ -1,0 +1,166 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Desear (algo)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/desire/level_up",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "wish",
+        "usage_example": "Te deseo un feliz cumpleaños.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I wish you a happy birthday.",
+        "char_count": "one",
+        "usage_context_en": "celebrations/hypotheticals",
+        "usage_context_es": "celebraciones/hipotéticos",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_0_def0.avif",
+        "target_meaning_es": "Desear (algo)"
+      },
+      {
+        "meaning": "wish",
+        "usage_example": "Ella anhela la paz.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She wishes for peace.",
+        "char_count": "one",
+        "usage_context_en": "longing/formal request",
+        "usage_context_es": "anhelo/petición formal",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_0_def1.avif",
+        "target_meaning_es": "Anhelar/Querer"
+      }
+    ],
+    "group_name": "Feelings & Reactions",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Estar de acuerdo",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/consent/level_up",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "agree",
+        "usage_example": "Estoy de acuerdo con tu opinión.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I agree with your opinion.",
+        "char_count": "two",
+        "usage_context_en": "opinion/plans",
+        "usage_context_es": "opinión/planes",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_1_def0.avif",
+        "target_meaning_es": "Estar de acuerdo"
+      },
+      {
+        "meaning": "agree",
+        "usage_example": "El verbo debe concordar con el sujeto.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The verb must agree with the subject.",
+        "char_count": "two",
+        "usage_context_en": "grammar/negotiation",
+        "usage_context_es": "gramática/negociación",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_1_def1.avif",
+        "target_meaning_es": "Concordar (gramática)"
+      }
+    ],
+    "group_name": "Feelings & Reactions",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Disfrutar",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/like/intermediate",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "enjoy",
+        "usage_example": "Disfruto jugando al fútbol.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I enjoy playing soccer.",
+        "char_count": "two",
+        "usage_context_en": "hobby/pleasure",
+        "usage_context_es": "pasatiempo/placer",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_2_def0.avif",
+        "target_meaning_es": "Disfrutar"
+      },
+      {
+        "meaning": "enjoy",
+        "usage_example": "La ciudad goza de una buena reputación.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The city enjoys a good reputation.",
+        "char_count": "two",
+        "usage_context_en": "advantage/possession",
+        "usage_context_es": "ventaja/posesión",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_2_def1.avif",
+        "target_meaning_es": "Gozar de/Tener"
+      }
+    ],
+    "group_name": "Feelings & Reactions",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Preferir",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/like more/intermediate",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "prefer",
+        "usage_example": "¿Prefieres té o café?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Do you prefer tea or coffee?",
+        "char_count": "two",
+        "usage_context_en": "choice/comparison",
+        "usage_context_es": "elección/comparación",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_3_def0.avif",
+        "target_meaning_es": "Preferir"
+      },
+      {
+        "meaning": "prefer",
+        "usage_example": "Ella prefiere guardar silencio.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She prefers to stay silent.",
+        "char_count": "two",
+        "usage_context_en": "decision/action",
+        "usage_context_es": "decisión/acción",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_3_def1.avif",
+        "target_meaning_es": "Elegir (una opción sobre otra)"
+      }
+    ],
+    "group_name": "Feelings & Reactions",
+    "category": ""
+  }
+]

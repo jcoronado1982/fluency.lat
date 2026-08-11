@@ -1,0 +1,332 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "to",
+        "phonetic": "/tu/",
+        "spoken_phonetic_us": "/tu/",
+        "search_term": "preposition/direction",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: A / Hacia (dirección)]",
+                "usage_example": "I am going to the store.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE to AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I am going to the store.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para indicar movimiento o dirección hacia un destino.]",
+                "usage_context_es": "Used to indicate movement or direction toward a destination.",
+                "imagePath": "/card_images/preposition/1-basic/1-basic_card_3_def0.avif"
+            }
+        ],
+        "group_name": "Prepositions: Movement & Direction",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "away from",
+        "phonetic": "/əˈweɪ frʌm/",
+        "spoken_phonetic_us": "/əˈweɪ frʌm/",
+        "search_term": "preposition/direction",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Lejos de / Alejado de]",
+                "usage_example": "Move away from the car.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE away from AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Move away from the car.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Moverse o estar más lejos de alguien o algo.]",
+                "usage_context_es": "Moving or being farther from someone or something.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Prepositions: Movement & Direction",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "toward",
+        "phonetic": "/təˈwɔːrd/",
+        "spoken_phonetic_us": "/tɔrd/",
+        "search_term": "preposition/direction",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Hacia]",
+                "usage_example": "Walk toward the station.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE toward AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Walk toward the station.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: En dirección a algo. 'Toward' es la forma común en inglés americano; 'towards' también se entiende.]",
+                "usage_context_es": "In the direction of something. 'Toward' is the common American form; 'towards' is also understood.",
+                "imagePath": "/card_images/preposition/2-intermediate/2-intermediate_card_5_def0.avif"
+            }
+        ],
+        "group_name": "Prepositions: Movement & Direction",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "into",
+        "phonetic": "/ˈɪntu/",
+        "spoken_phonetic_us": "/ˈɪntu/",
+        "search_term": "preposition/direction",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Dentro de (con movimiento)]",
+                "usage_example": "He walked into the room.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE into AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He walked into the room.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Indica movimiento al interior de un lugar (compara con 'in').]",
+                "usage_context_es": "Indicates movement to the inside of a place (compare 'in').",
+                "imagePath": "/card_images/preposition/2-intermediate/2-intermediate_card_6_def0.avif"
+            }
+        ],
+        "group_name": "Prepositions: Movement & Direction",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "out of",
+        "phonetic": "/aʊt ɒv/",
+        "spoken_phonetic_us": "/aʊt əv/",
+        "search_term": "preposition/direction",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Fuera de]",
+                "usage_example": "Please get out of the car.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE out of AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Please get out of the car.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Indica movimiento desde el interior hacia el exterior.]",
+                "usage_context_es": "Indicates movement from the inside to the outside.",
+                "imagePath": "/card_images/preposition/2-intermediate/2-intermediate_card_7_def0.avif"
+            }
+        ],
+        "group_name": "Prepositions: Movement & Direction",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "onto",
+        "phonetic": "/ˈɒntu/",
+        "spoken_phonetic_us": "/ˈɑntu/",
+        "search_term": "preposition/direction",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Sobre (con movimiento)]",
+                "usage_example": "The cat jumped onto the table.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE onto AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The cat jumped onto the table.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Indica movimiento a una posición sobre una superficie (compara con 'on').]",
+                "usage_context_es": "Indicates movement to a position on a surface (compare 'on').",
+                "imagePath": "/card_images/preposition/2-intermediate/2-intermediate_card_8_def0.avif"
+            }
+        ],
+        "group_name": "Prepositions: Movement & Direction",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "down from",
+        "phonetic": "/daʊn frʌm/",
+        "spoken_phonetic_us": "/daʊn frʌm/",
+        "search_term": "preposition/direction",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Bajando desde / Abajo de]",
+                "usage_example": "Walk down from the hill.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE down from AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Walk down from the hill.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Moverse de un lugar más alto a uno más bajo.]",
+                "usage_context_es": "Moving from a higher place to a lower place.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Prepositions: Movement & Direction",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "off",
+        "phonetic": "/ɒf/",
+        "spoken_phonetic_us": "/ɔf/",
+        "search_term": "preposition/direction/separation",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: De (separación)]",
+                "usage_example": "Take your feet off the table.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE off AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Take your feet off the table.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Lejos de un lugar o posición; indicando separación o remoción.]",
+                "usage_context_es": "Away from a place or position; indicating separation or removal.",
+                "imagePath": "/card_images/preposition/2-intermediate/2-intermediate_card_9_def0.avif"
+            }
+        ],
+        "group_name": "Prepositions: Movement & Direction",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "around",
+        "phonetic": "/əˈraʊnd/",
+        "spoken_phonetic_us": "/əˈraʊnd/",
+        "search_term": "preposition/movement/approximation",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Alrededor de (lugar)]",
+                "usage_example": "He walked around the lake.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE around AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He walked around the lake.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Moviéndose en círculo o rodeando algo.]",
+                "usage_context_es": "Moving in a circle or surrounding something.",
+                "imagePath": "/card_images/preposition/2-intermediate/2-intermediate_card_4_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Aproximadamente / Cerca de]",
+                "usage_example": "It costs around 20 dollars.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE around AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: It costs around 20 dollars.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para indicar aproximación (tiempo, cantidad o número).]",
+                "usage_context_es": "Used to indicate approximation (time, quantity, or number).",
+                "imagePath": "/card_images/preposition/2-intermediate/2-intermediate_card_4_def1.avif"
+            }
+        ],
+        "group_name": "Prepositions: Movement & Approximation",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "through",
+        "phonetic": "/θruː/",
+        "spoken_phonetic_us": "/θruː/",
+        "search_term": "preposition/movement/method",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: A través de (lugar)]",
+                "usage_example": "We walked through the forest.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE through AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: We walked through the forest.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Moviéndose por un lado y saliendo por el otro de un espacio cerrado.]",
+                "usage_context_es": "Moving in one side and out the other side of an enclosed space.",
+                "imagePath": "/card_images/preposition/2-intermediate/2-intermediate_card_1_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Mediante / Por medio de]",
+                "usage_example": "I found the job through a friend.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE through AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I found the job through a friend.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para indicar el medio o método por el cual se logra algo.]",
+                "usage_context_es": "Used to indicate the means or method by which something is achieved.",
+                "imagePath": "/card_images/preposition/2-intermediate/2-intermediate_card_1_def1.avif"
+            }
+        ],
+        "group_name": "Prepositions: Movement & Method",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "from",
+        "phonetic": "/frɒm/",
+        "spoken_phonetic_us": "/frʌm/",
+        "search_term": "preposition/origin",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: De / Desde (origen)]",
+                "usage_example": "I am from Colombia.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE from AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I am from Colombia.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para indicar el punto de origen o la fuente.]",
+                "usage_context_es": "Used to indicate the point of origin or source.",
+                "imagePath": "/card_images/preposition/1-basic/1-basic_card_4_def0.avif"
+            }
+        ],
+        "group_name": "Prepositions: Origin",
+        "category": "Basic"
+    }
+]

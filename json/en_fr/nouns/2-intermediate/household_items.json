@@ -1,0 +1,58 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: appliance]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/machine",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "appliance",
+                "usage_example": "[TRADUCIR AL FR: The kitchen has new appliances.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The kitchen has new appliances.",
+                "char_count": "1",
+                "usage_context_en": "A machine used in the home for a specific purpose",
+                "usage_context_es": "[TRADUCIR AL FR: A machine used in the home for a specific purpose]",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_409_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: outlet]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "outlet",
+                "usage_example": "[TRADUCIR AL FR: Plug the charger into the electrical outlet.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Plug the charger into the electrical outlet.",
+                "char_count": "two",
+                "usage_context_en": "A place on the wall to connect electric plugs",
+                "usage_context_es": "[TRADUCIR AL FR: A place on the wall to connect electric plugs]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    }
+]

@@ -1,0 +1,245 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "happy",
+    "phonetic": "/ˈhæpi/",
+    "spoken_phonetic_us": "/ˈhæpi/",
+    "search_term": "adjective/basic/feelings_emotions",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Feelings & Emotions",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Feliz",
+        "usage_example": "I feel happy today.",
+        "pronunciation_guide_es": "/ai_FIL_HA-pi_tu-DEI/",
+        "usage_example_es": "Me siento feliz hoy.",
+        "char_count": "4",
+        "usage_context_en": "Feeling or showing pleasure or contentment.",
+        "usage_context_es": "Sentir o mostrar placer o contentamiento.",
+        "imagePath": "/card_images/adjectives/1-basic/emotions_and_personality/1-basic_emotions_and_personality_card_0_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sad",
+    "phonetic": "/sæd/",
+    "spoken_phonetic_us": "/sæd/",
+    "search_term": "adjective/basic/feelings_emotions",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Feelings & Emotions",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Triste",
+        "usage_example": "The movie made me sad.",
+        "pronunciation_guide_es": "/de_MU-vi_meid_mi_SAD/",
+        "usage_example_es": "La película me puso triste.",
+        "char_count": "5",
+        "usage_context_en": "Feeling or showing sorrow or unhappiness.",
+        "usage_context_es": "Sentir o mostrar pena o infelicidad.",
+        "imagePath": "/card_images/adjectives/1-basic/emotions_and_personality/1-basic_emotions_and_personality_card_1_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "angry",
+    "phonetic": "/ˈæŋɡri/",
+    "spoken_phonetic_us": "/ˈæŋɡri/",
+    "search_term": "adjective/basic/feelings_emotions",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Feelings & Emotions",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Enojado/a",
+        "usage_example": "The boss is angry.",
+        "pronunciation_guide_es": "/de_BOS_is_AN-gri/",
+        "usage_example_es": "El jefe está enojado.",
+        "char_count": "4",
+        "usage_context_en": "Feeling or showing strong annoyance or displeasure.",
+        "usage_context_es": "Sentir o mostrar gran molestia o disgusto.",
+        "imagePath": "/card_images/adjectives/1-basic/emotions_and_personality/1-basic_emotions_and_personality_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "tired",
+    "phonetic": "/ˈtaɪərd/",
+    "spoken_phonetic_us": "/ˈtaɪərd/",
+    "search_term": "adjective/basic/feelings_emotions",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Feelings & Emotions",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Cansado/a",
+        "usage_example": "I am tired from work.",
+        "pronunciation_guide_es": "/ai_am_TAI-erd_from_UORK/",
+        "usage_example_es": "Estoy cansado del trabajo.",
+        "char_count": "5",
+        "usage_context_en": "In need of sleep or rest; weary.",
+        "usage_context_es": "Necesitado de dormir o descansar; fatigado.",
+        "imagePath": "/card_images/adjectives/1-basic/emotions_and_personality/1-basic_emotions_and_personality_card_3_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "hungry",
+    "phonetic": "/ˈhʌŋɡri/",
+    "spoken_phonetic_us": "/ˈhʌŋɡri/",
+    "search_term": "adjective/basic/feelings_emotions",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Feelings & Emotions",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Hambriento/a",
+        "usage_example": "I am hungry, let's eat.",
+        "pronunciation_guide_es": "/ai_am_HON-gri_lets_IT/",
+        "usage_example_es": "Tengo hambre, comamos.",
+        "char_count": "5",
+        "usage_context_en": "Feeling or displaying the need for food.",
+        "usage_context_es": "Sentir o mostrar la necesidad de comida.",
+        "imagePath": "/card_images/adjectives/1-basic/emotions_and_personality/1-basic_emotions_and_personality_card_4_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "scared",
+    "phonetic": "/skɛrd/",
+    "spoken_phonetic_us": "/skɛrd/",
+    "search_term": "adjective/basic/feelings_emotions",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Feelings & Emotions",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Asustado/a",
+        "usage_example": "The child is scared of the dark.",
+        "pronunciation_guide_es": "/de_CHAILD_is_SKERD_ov_de_DARK/",
+        "usage_example_es": "El niño tiene miedo a la oscuridad.",
+        "char_count": "7",
+        "usage_context_en": "Feeling frightened.",
+        "usage_context_es": "Que siente miedo.",
+        "imagePath": "/card_images/adjectives/1-basic/emotions_and_personality/1-basic_emotions_and_personality_card_5_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "afraid",
+    "phonetic": "/əˈfreɪd/",
+    "spoken_phonetic_us": "/əˈfreɪd/",
+    "search_term": "adjective/basic/feelings_emotions",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Feelings & Emotions",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Asustado/a / Con miedo (de)",
+        "usage_example": "The child is afraid of the dark.",
+        "pronunciation_guide_es": "/de_CHAILD_is_a-FREID_of_de_DARK/",
+        "usage_example_es": "El niño le tiene miedo a la oscuridad.",
+        "char_count": "7",
+        "usage_context_en": "Feeling fear or anxiety; frightened.",
+        "usage_context_es": "Sentir miedo o ansiedad; asustado.",
+        "imagePath": "/card_images/adjectives/1-basic/emotions_and_personality/1-basic_emotions_and_personality_card_6_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "alone",
+    "phonetic": "/əˈloʊn/",
+    "spoken_phonetic_us": "/əˈloʊn/",
+    "search_term": "adjective/basic/feelings_emotions",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Feelings & Emotions",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Solo/a",
+        "usage_example": "I am alone.",
+        "pronunciation_guide_es": "/ai_am_a-LOUN/",
+        "usage_example_es": "Estoy solo.",
+        "char_count": "3",
+        "usage_context_en": "Without other people.",
+        "usage_context_es": "Sin otras personas.",
+        "imagePath": "/card_images/adjectives/1-basic/emotions_and_personality/1-basic_emotions_and_personality_card_7_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "careful",
+    "phonetic": "/ˈkɛəfəl/",
+    "spoken_phonetic_us": "/ˈkɛrfəl/",
+    "search_term": "adjective/basic/personality_behavior",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Personality & Behavior",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Cuidadoso/a",
+        "usage_example": "Please be careful with the glass.",
+        "pronunciation_guide_es": "/PLIS_bi_KER-ful_uiz_de_GLAS/",
+        "usage_example_es": "Por favor, sé cuidadoso con el vaso.",
+        "char_count": "6",
+        "usage_context_en": "Making sure to avoid potential danger, harm, or mistakes.",
+        "usage_context_es": "Asegurarse de evitar peligros, daños o errores potenciales.",
+        "imagePath": "/card_images/adjectives/1-basic/emotions_and_personality/1-basic_emotions_and_personality_card_8_def0.avif"
+      }
+    ]
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/personal_items/1-basic_personal_items_card_0_def0.avif",
+        "meaning": "Teléfono",
+        "pronunciation_guide_es": "/main_te-le-FON_KLIN-gelt/",
+        "usage_context_en": "A device for talking to people far away",
+        "usage_context_es": "Un dispositivo para hablar con gente lejana",
+        "usage_example": "Mein Telefon klingelt.",
+        "usage_example_es": "Mi teléfono está sonando."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Telefon",
+    "phonetic": "/das teleˈfoːn/",
+    "search_term": "noun/device/essentials",
+    "spoken_phonetic_us": "/das teleˈfoːn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/personal_items/1-basic_personal_items_card_1_def0.avif",
+        "meaning": "Bolsa / Bolso",
+        "pronunciation_guide_es": "/MAI-ne_SHLUE-sel_zint_in_MAI-ner_TA-she/",
+        "usage_context_en": "A soft container for carrying things",
+        "usage_context_es": "Un contenedor suave para llevar cosas",
+        "usage_example": "Meine Schlüssel sind in meiner Tasche.",
+        "usage_example_es": "Mis llaves están en mi bolso."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Tasche",
+    "phonetic": "/diː ˈtaʃə/",
+    "search_term": "noun/object/container/essentials",
+    "spoken_phonetic_us": "/diː ˈtaʃə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/personal_items/1-basic_personal_items_card_2_def0.avif",
+        "meaning": "Anillo",
+        "pronunciation_guide_es": "/ain_HOCH-tsaits-ring/",
+        "usage_context_en": "A piece of jewelry worn on the finger",
+        "usage_context_es": "Una joya que se lleva en el dedo",
+        "usage_example": "Ein Hochzeitsring.",
+        "usage_example_es": "Un anillo de bodas."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Clothing",
+    "is_verb": false,
+    "name": "der Ring",
+    "phonetic": "/deːɐ ʁɪŋ/",
+    "search_term": "noun/clothing/jewelry/essentials",
+    "spoken_phonetic_us": "/deːɐ ʁɪŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/personal_items/1-basic_personal_items_card_3_def0.avif",
+        "meaning": "Reloj (de pulsera)",
+        "pronunciation_guide_es": "/ish_SHAU-te_auf_MAI-ne_ARM-bant-ur/",
+        "usage_context_en": "A small clock worn on the wrist",
+        "usage_context_es": "Un pequeño reloj que se lleva en la muñeca",
+        "usage_example": "Ich schaute auf meine Armbanduhr.",
+        "usage_example_es": "Miré mi reloj."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Armbanduhr",
+    "phonetic": "/diː ˈaʁmbantuːɐ/",
+    "search_term": "noun/object/time/essentials",
+    "spoken_phonetic_us": "/diː ˈaʁmbantuːɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/personal_items/1-basic_personal_items_card_4_def0.avif",
+        "meaning": "Billetera / Cartera",
+        "pronunciation_guide_es": "/MAI-ne_BRIF-ta-she_ist_LER/",
+        "usage_context_en": "A small case for holding money and cards",
+        "usage_context_es": "Un estuche pequeño para guardar dinero y tarjetas",
+        "usage_example": "Meine Brieftasche ist leer.",
+        "usage_example_es": "Mi billetera está vacía."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Brieftasche",
+    "phonetic": "/diː ˈbʁiːftaʃə/",
+    "search_term": "noun/object/money/essentials",
+    "spoken_phonetic_us": "/diː ˈbʁiːftaʃə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "imagePath": "/card_images/nouns/1-basic/personal_items/1-basic_personal_items_card_5_def0.avif",
+        "meaning": "Paraguas / Sombrilla",
+        "pronunciation_guide_es": "/NIM_AI-nen_RE-gen-shirm_MIT_es_REK-net/",
+        "usage_context_en": "A tool used for protection from rain or sun",
+        "usage_context_es": "Una herramienta usada para protegerse de la lluvia o el sol",
+        "usage_example": "Nimm einen Regenschirm mit, es regnet.",
+        "usage_example_es": "Lleva un paraguas, está lloviendo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "der Regenschirm",
+    "phonetic": "/deːɐ ˈʁeːɡn̩ʃɪʁm/",
+    "search_term": "noun/object/weather/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈʁeːɡn̩ʃɪʁm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "imagePath": "/card_images/nouns/1-basic/personal_items/1-basic_personal_items_card_6_def0.avif",
+        "meaning": "Cámara",
+        "pronunciation_guide_es": "/ish_HA-be_AI-ne_NOI-e_KA-me-ra/",
+        "usage_context_en": "A device for taking photographs",
+        "usage_context_es": "Un dispositivo para tomar fotografías",
+        "usage_example": "Ich habe eine neue Kamera.",
+        "usage_example_es": "Tengo una cámara nueva."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Kamera",
+    "phonetic": "/diː ˈkaməʁa/",
+    "search_term": "noun/object/device/essentials",
+    "spoken_phonetic_us": "/diː ˈkaməʁa/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/nouns/1-basic/personal_items/1-basic_personal_items_card_7_def0.avif",
+        "meaning": "Lenses worn to help someone see.",
+        "pronunciation_guide_es": "/ish_BRAU-che_MAI-ne_BRI-le_tsum_LE-zen/",
+        "usage_context_en": "Lenses worn to help someone see.",
+        "usage_context_es": "Lentes que se usan para ayudar a ver.",
+        "usage_example": "Ich brauche meine Brille zum Lesen.",
+        "usage_example_es": "Necesito mis gafas para leer."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Personal Items",
+    "is_verb": false,
+    "name": "die Brille",
+    "phonetic": "/diː ˈbʁɪlə/",
+    "search_term": "noun/personal-items/seed",
+    "spoken_phonetic_us": "/diː ˈbʁɪlə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "imagePath": "/card_images/nouns/1-basic/personal_items/1-basic_personal_items_card_8_def0.avif",
+        "meaning": "A bag carried on the back.",
+        "pronunciation_guide_es": "/MAI-ne_BUE-sher_zint_im_RUK-zak/",
+        "usage_context_en": "A bag carried on the back.",
+        "usage_context_es": "Una bolsa que se lleva en la espalda.",
+        "usage_example": "Meine Bücher sind im Rucksack.",
+        "usage_example_es": "Mis libros están en la mochila."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Personal Items",
+    "is_verb": false,
+    "name": "der Rucksack",
+    "phonetic": "/deːɐ ˈʁʊkzak/",
+    "search_term": "noun/personal-items/seed",
+    "spoken_phonetic_us": "/deːɐ ˈʁʊkzak/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "10",
+        "imagePath": "/card_images/nouns/1-basic/personal_items/1-basic_personal_items_card_9_def0.avif",
+        "meaning": "A device worn on the ears to listen to sound.",
+        "pronunciation_guide_es": "/ish_be-NUT-se_KOPF-hoe-rer_im_BUS/",
+        "usage_context_en": "A device worn on the ears to listen to sound.",
+        "usage_context_es": "Un dispositivo que se usa en los oídos para escuchar sonido.",
+        "usage_example": "Ich benutze Kopfhörer im Bus.",
+        "usage_example_es": "Uso audífonos en el bus."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Personal Items",
+    "is_verb": false,
+    "name": "die Kopfhörer",
+    "phonetic": "/diː ˈkɔpfhøːʁɐ/",
+    "search_term": "noun/personal-items/seed",
+    "spoken_phonetic_us": "/diː ˈkɔpfhøːʁɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "imagePath": "/card_images/nouns/1-basic/personal_items/1-basic_personal_items_card_10_def0.avif",
+        "meaning": "An official document for international travel.",
+        "pronunciation_guide_es": "/be-VA-re_DAI-nen_RAI-ze-pas_an_AI-nem_ZISH-e-ren_ORT_AUF/",
+        "usage_context_en": "An official document for international travel.",
+        "usage_context_es": "Un documento oficial para viajar a otros países.",
+        "usage_example": "Bewahre deinen Reisepass an einem sicheren Ort auf.",
+        "usage_example_es": "Guarda tu pasaporte en un lugar seguro."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Personal Items",
+    "is_verb": false,
+    "name": "der Reisepass",
+    "phonetic": "/deːɐ ˈʁaɪzəpas/",
+    "search_term": "noun/personal-items/seed",
+    "spoken_phonetic_us": "/deːɐ ˈʁaɪzəpas/"
+  }
+]

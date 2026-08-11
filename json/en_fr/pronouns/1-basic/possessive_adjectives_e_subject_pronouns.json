@@ -1,0 +1,438 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: my]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/possessive-adjective",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "my",
+                "usage_example": "[TRADUCIR AL FR: This is my book.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "This is my book.",
+                "char_count": "4",
+                "usage_context_en": "The possessive adjective for 'I'. Always followed by a noun.",
+                "usage_context_es": "[TRADUCIR AL FR: The possessive adjective for 'I'. Always followed by a noun.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_12_def0.avif"
+            }
+        ],
+        "group_name": "Posesivo (Adjetivo)",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: I]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/subject",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "I",
+                "usage_example": "[TRADUCIR AL FR: I am a student.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I am a student.",
+                "char_count": "4",
+                "usage_context_en": "The pronoun for the 1st person singular (the speaker).",
+                "usage_context_es": "[TRADUCIR AL FR: The pronoun for the 1st person singular (the speaker).]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_0_def0.avif"
+            }
+        ],
+        "group_name": "Subject",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: your]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/possessive-adjective",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "your",
+                "usage_example": "[TRADUCIR AL FR: Is this your bag?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Is this your bag?",
+                "char_count": "4",
+                "usage_context_en": "The possessive adjective for 'you'. Always followed by a noun.",
+                "usage_context_es": "[TRADUCIR AL FR: The possessive adjective for 'you'. Always followed by a noun.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_13_def0.avif"
+            }
+        ],
+        "group_name": "Posesivo (Adjetivo)",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: he]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/subject",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "he",
+                "usage_example": "[TRADUCIR AL FR: He works at a bank.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He works at a bank.",
+                "char_count": "5",
+                "usage_context_en": "The pronoun for the 3rd person singular (male) as the subject.",
+                "usage_context_es": "[TRADUCIR AL FR: The pronoun for the 3rd person singular (male) as the subject.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_2_def0.avif"
+            }
+        ],
+        "group_name": "Subject",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: its]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/possessive-adjective",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "its",
+                "usage_example": "[TRADUCIR AL FR: The dog wagged its tail.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The dog wagged its tail.",
+                "char_count": "5",
+                "usage_context_en": "The possessive adjective for 'it'. Always followed by a noun.",
+                "usage_context_es": "[TRADUCIR AL FR: The possessive adjective for 'it'. Always followed by a noun.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_16_def0.avif"
+            }
+        ],
+        "group_name": "Posesivo (Adjetivo)",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: she]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/subject",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "she",
+                "usage_example": "[TRADUCIR AL FR: She is a doctor.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She is a doctor.",
+                "char_count": "4",
+                "usage_context_en": "The pronoun for the 3rd person singular (female) as the subject.",
+                "usage_context_es": "[TRADUCIR AL FR: The pronoun for the 3rd person singular (female) as the subject.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_3_def0.avif"
+            }
+        ],
+        "group_name": "Subject",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: our]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/possessive-adjective",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "our",
+                "usage_example": "[TRADUCIR AL FR: This is our house.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "This is our house.",
+                "char_count": "4",
+                "usage_context_en": "The possessive adjective for 'we'. Always followed by a noun.",
+                "usage_context_es": "[TRADUCIR AL FR: The possessive adjective for 'we'. Always followed by a noun.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_17_def0.avif"
+            }
+        ],
+        "group_name": "Posesivo (Adjetivo)",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: we]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/subject",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "we",
+                "usage_example": "[TRADUCIR AL FR: We are a team.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "We are a team.",
+                "char_count": "4",
+                "usage_context_en": "The pronoun for the 1st person plural as the subject.",
+                "usage_context_es": "[TRADUCIR AL FR: The pronoun for the 1st person plural as the subject.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_5_def0.avif"
+            }
+        ],
+        "group_name": "Subject",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: their]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/possessive-adjective",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "their",
+                "usage_example": "[TRADUCIR AL FR: It is their house.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "It is their house.",
+                "char_count": "4",
+                "usage_context_en": "The possessive adjective for 'they'. Always followed by a noun.",
+                "usage_context_es": "[TRADUCIR AL FR: The possessive adjective for 'they'. Always followed by a noun.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_18_def0.avif"
+            }
+        ],
+        "group_name": "Posesivo (Adjetivo)",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: they]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/subject",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "they",
+                "usage_example": "[TRADUCIR AL FR: They are watching TV.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "They are watching TV.",
+                "char_count": "4",
+                "usage_context_en": "The pronoun for the 3rd person plural as the subject.",
+                "usage_context_es": "[TRADUCIR AL FR: The pronoun for the 3rd person plural as the subject.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_6_def0.avif"
+            }
+        ],
+        "group_name": "Subject",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: her]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/object/possessive-adjective",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "her",
+                "usage_example": "[TRADUCIR AL FR: I know her.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I know her.",
+                "char_count": "3",
+                "usage_context_en": "The pronoun for the 3rd person singular (female) as the object.",
+                "usage_context_es": "[TRADUCIR AL FR: The pronoun for the 3rd person singular (female) as the object.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_9_def0.avif"
+            },
+            {
+                "meaning": "her (def 2)",
+                "usage_example": "[TRADUCIR AL FR: This is her book.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "This is her book.",
+                "char_count": "4",
+                "usage_context_en": "The possessive determiner for the 3rd person singular (female).",
+                "usage_context_es": "[TRADUCIR AL FR: The possessive determiner for the 3rd person singular (female).]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_9_def1.avif"
+            }
+        ],
+        "group_name": "Objeto",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: you]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/subject/object",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "you",
+                "usage_example": "[TRADUCIR AL FR: You are my friend.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "You are my friend.",
+                "char_count": "4",
+                "usage_context_en": "The pronoun for the 2nd person (the listener) as the subject.",
+                "usage_context_es": "[TRADUCIR AL FR: The pronoun for the 2nd person (the listener) as the subject.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_1_def0.avif"
+            },
+            {
+                "meaning": "you (def 2)",
+                "usage_example": "[TRADUCIR AL FR: I will help you.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I will help you.",
+                "char_count": "4",
+                "usage_context_en": "The pronoun for the 2nd person (the listener) as the object.",
+                "usage_context_es": "[TRADUCIR AL FR: The pronoun for the 2nd person (the listener) as the object.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_1_def1.avif"
+            }
+        ],
+        "group_name": "Subject",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: his]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/possessive-adjective/possessive-pronoun",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "his",
+                "usage_example": "[TRADUCIR AL FR: That is his car.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "That is his car.",
+                "char_count": "4",
+                "usage_context_en": "The possessive determiner for 'he' (followed by a noun).",
+                "usage_context_es": "[TRADUCIR AL FR: The possessive determiner for 'he' (followed by a noun).]",
+                "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_7_def0.avif"
+            },
+            {
+                "meaning": "his (def 2)",
+                "usage_example": "[TRADUCIR AL FR: The red car is his.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The red car is his.",
+                "char_count": "5",
+                "usage_context_en": "The possessive pronoun for 'he'. (It is not followed by a noun).",
+                "usage_context_es": "[TRADUCIR AL FR: The possessive pronoun for 'he'. (It is not followed by a noun).]",
+                "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_7_def1.avif"
+            }
+        ],
+        "group_name": "Posesivo (Pronombre)",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: it]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/subject/object",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "it",
+                "usage_example": "[TRADUCIR AL FR: It is cold outside.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "It is cold outside.",
+                "char_count": "4",
+                "usage_context_en": "The pronoun for the 3rd person singular (thing/animal) as the subject.",
+                "usage_context_es": "[TRADUCIR AL FR: The pronoun for the 3rd person singular (thing/animal) as the subject.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_4_def0.avif"
+            },
+            {
+                "meaning": "it (def 2)",
+                "usage_example": "[TRADUCIR AL FR: I don't understand it.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I don't understand it.",
+                "char_count": "4",
+                "usage_context_en": "The pronoun for the 3rd person singular (thing/animal) as the object.",
+                "usage_context_es": "[TRADUCIR AL FR: The pronoun for the 3rd person singular (thing/animal) as the object.]",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_4_def1.avif"
+            }
+        ],
+        "group_name": "Subject",
+        "category": "Basic"
+    }
+]

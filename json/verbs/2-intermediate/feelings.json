@@ -1,0 +1,132 @@
+[
+  {
+    "name": "wish",
+    "phonetic": "/wɪʃ/",
+    "spoken_phonetic_us": "/wɪʃ/",
+    "search_term": "verb/desire/level_up",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Desear (algo)",
+        "usage_example": "I wish you a happy birthday.",
+        "pronunciation_guide_es": "/ai_UISH_iu_a_JAPI_BIRTHdei/",
+        "alternative_example": "I wish I were rich.",
+        "usage_example_es": "Te deseo un feliz cumpleaños.",
+        "char_count": "one",
+        "usage_context_en": "celebrations/hypotheticals",
+        "usage_context_es": "celebraciones/hipotéticos"
+      },
+      {
+        "meaning": "Anhelar/Querer",
+        "usage_example": "She wished for peace.",
+        "pronunciation_guide_es": "/shi_UISHT_for_PIS/",
+        "alternative_example": "I wish to speak to the manager.",
+        "usage_example_es": "Ella anhelaba la paz.",
+        "char_count": "one",
+        "usage_context_en": "longing/formal request",
+        "usage_context_es": "anhelo/petición formal"
+      }
+    ],
+    "group_name": "Feelings & Reactions"
+  },
+  {
+    "name": "agree",
+    "phonetic": "/əˈɡriː/",
+    "spoken_phonetic_us": "/əˈɡriː/",
+    "search_term": "verb/consent/level_up",
+    "is_verb": true,
+    "learned": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Estar de acuerdo",
+        "usage_example": "I agree with your opinion.",
+        "pronunciation_guide_es": "/ai_aGRI_uith_yor_oPINion/",
+        "alternative_example": "We agreed to meet at 8.",
+        "usage_example_es": "Estoy de acuerdo con tu opinión.",
+        "char_count": "two",
+        "usage_context_en": "opinion/plans",
+        "usage_context_es": "opinión/planes",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_26_def0.avif"
+      },
+      {
+        "meaning": "Concordar (gramática)",
+        "usage_example": "The verb must agree with the subject.",
+        "pronunciation_guide_es": "/de_VERB_mast_aGRI_uith_de_SABYekt/",
+        "alternative_example": "They finally agreed on a price.",
+        "usage_example_es": "El verbo debe concordar con el sujeto.",
+        "char_count": "two",
+        "usage_context_en": "grammar/negotiation",
+        "usage_context_es": "gramática/negociación",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_26_def1.avif"
+      }
+    ],
+    "group_name": "Feelings & Reactions"
+  },
+  {
+    "name": "enjoy",
+    "phonetic": "/ɪnˈʤɔɪ/",
+    "spoken_phonetic_us": "/ɪnˈʤɔɪ/",
+    "search_term": "verb/like/intermediate",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Disfrutar",
+        "usage_example": "I enjoy playing soccer.",
+        "pronunciation_guide_es": "/ai_inYOY_PLEIing_SOKer/",
+        "alternative_example": "Enjoy your meal!",
+        "usage_example_es": "Disfruto jugando al fútbol.",
+        "char_count": "two",
+        "usage_context_en": "hobby/pleasure",
+        "usage_context_es": "pasatiempo/placer"
+      },
+      {
+        "meaning": "Gozar de/Tener",
+        "usage_example": "The city enjoys a good reputation.",
+        "pronunciation_guide_es": "/de_SITi_inYOIS_a_GUD_repiuTEIshon/",
+        "alternative_example": "I hope you enjoy the party.",
+        "usage_example_es": "La ciudad goza de una buena reputación.",
+        "char_count": "two",
+        "usage_context_en": "advantage/possession",
+        "usage_context_es": "ventaja/posesión"
+      }
+    ],
+    "group_name": "Feelings & Reactions"
+  },
+  {
+    "name": "prefer",
+    "phonetic": "/prɪˈfɜːr/",
+    "spoken_phonetic_us": "/prɪˈfɜːr/",
+    "search_term": "verb/like more/intermediate",
+    "is_verb": true,
+    "learned": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Preferir",
+        "usage_example": "Do you prefer tea or coffee?",
+        "pronunciation_guide_es": "/du_iu_priFOR_TI_or_KOFI/",
+        "alternative_example": "I prefer reading books to watching TV.",
+        "usage_example_es": "¿Prefieres té o café?",
+        "char_count": "two",
+        "usage_context_en": "choice/comparison",
+        "usage_context_es": "elección/comparación"
+      },
+      {
+        "meaning": "Elegir (una opción sobre otra)",
+        "usage_example": "She preferred to stay silent.",
+        "pronunciation_guide_es": "/shi_priFORD_tu_STEI_SAIlent/",
+        "alternative_example": "I would prefer to leave early.",
+        "usage_example_es": "Ella prefirió guardar silencio.",
+        "char_count": "two",
+        "usage_context_en": "decision/action",
+        "usage_context_es": "decisión/acción"
+      }
+    ],
+    "group_name": "Feelings & Reactions"
+  }
+]

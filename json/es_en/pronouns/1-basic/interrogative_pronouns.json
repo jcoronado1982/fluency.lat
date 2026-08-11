@@ -1,0 +1,167 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns/1-basic_interrogative_pronouns_card_0_def0.avif",
+        "meaning": "¿Quién / Quiénes?",
+        "pronunciation_guide_es": "/HU_is_dat_PER-son/",
+        "usage_context_en": "Used as an interrogative pronoun to ask about a person.",
+        "usage_context_es": "Usado como pronombre interrogativo para preguntar sobre una persona.",
+        "usage_example": "Who is that person?",
+        "usage_example_es": "¿Quién es esa persona?"
+      },
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns/1-basic_interrogative_pronouns_card_0_def1.avif",
+        "meaning": "Que / Quien / El cual (para personas)",
+        "pronunciation_guide_es": "/de_MAN_hu_COLD_mi_is_HIR/",
+        "usage_context_en": "Used as a relative pronoun to introduce a clause about a person.",
+        "usage_context_es": "Usado como pronombre relativo para introducir una cláusula sobre una persona.",
+        "usage_example": "The man who called me is here.",
+        "usage_example_es": "El hombre que me llamó está aquí."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Interrogativo/Relativo",
+    "is_verb": false,
+    "name": "who",
+    "phonetic": "/huː/",
+    "search_term": "pronoun/interrogative/relative",
+    "spoken_phonetic_us": "/huː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns/1-basic_interrogative_pronouns_card_1_def0.avif",
+        "meaning": "Qué / Cuál (pregunta)",
+        "pronunciation_guide_es": "/UAT_is_iur_NEIM/",
+        "usage_context_en": "Used as an interrogative word to ask for information (open choice).",
+        "usage_context_es": "Usado como palabra interrogativa para pedir información (elección abierta).",
+        "usage_example": "What is your name?",
+        "usage_example_es": "¿Cuál es tu nombre?"
+      },
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns/1-basic_interrogative_pronouns_card_1_def1.avif",
+        "meaning": "Lo que (pronombre relativo)",
+        "pronunciation_guide_es": "/ai_DONT_NOU_uat_tu_DU/",
+        "usage_context_en": "Used as a relative pronoun to refer to 'the thing(s) that'.",
+        "usage_context_es": "Usado como pronombre relativo para referirse a 'la(s) cosa(s) que'.",
+        "usage_example": "I don't know what to do.",
+        "usage_example_es": "No sé qué hacer. (No sé lo que debo hacer)."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Interrogativo/Relativo",
+    "is_verb": false,
+    "name": "what",
+    "phonetic": "/wɒt/",
+    "search_term": "pronoun/interrogative/relative",
+    "spoken_phonetic_us": "/wʌt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns/1-basic_interrogative_pronouns_card_2_def0.avif",
+        "meaning": "¿Cuál / Cuáles?",
+        "pronunciation_guide_es": "/UICH_CO-lor_du_iu_pri-FER/",
+        "usage_context_en": "Used as an interrogative word to ask about a limited choice.",
+        "usage_context_es": "Usado como palabra interrogativa para preguntar sobre una elección limitada.",
+        "usage_example": "Which color do you prefer?",
+        "usage_example_es": "¿Cuál color prefieres?"
+      },
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns/1-basic_interrogative_pronouns_card_2_def1.avif",
+        "meaning": "Que / El cual / La cual",
+        "pronunciation_guide_es": "/de_CAR_uich_is_RED_is_MAIN/",
+        "usage_context_en": "Used as a relative pronoun to introduce a clause about a thing.",
+        "usage_context_es": "Usado como pronombre relativo para introducir una cláusula sobre una cosa.",
+        "usage_example": "The car which is red is mine.",
+        "usage_example_es": "El carro que es rojo es mío."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Interrogativo/Relativo",
+    "is_verb": false,
+    "name": "which",
+    "phonetic": "/wɪtʃ/",
+    "search_term": "pronoun/interrogative/relative",
+    "spoken_phonetic_us": "/wɪtʃ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns/1-basic_interrogative_pronouns_card_3_def0.avif",
+        "meaning": "A quién / A quien",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "Used as the object form of who in formal English.",
+        "usage_context_es": "Used as the object form of who in formal English.",
+        "usage_example": "Whom did you invite to the meeting?",
+        "usage_example_es": "¿A quién invitaste a la reunión?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Interrogativo/Relativo",
+    "is_verb": false,
+    "name": "whom",
+    "phonetic": "/huːm/",
+    "search_term": "pronoun/interrogative_pronouns/added",
+    "spoken_phonetic_us": "/huːm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns/1-basic_interrogative_pronouns_card_4_def0.avif",
+        "meaning": "Quién más",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "Used to ask about an additional person.",
+        "usage_context_es": "Used to ask about an additional person.",
+        "usage_example": "Who else wants to come with us?",
+        "usage_example_es": "¿Quién más quiere venir con nosotros?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Interrogativo/Relativo",
+    "is_verb": false,
+    "name": "who else",
+    "phonetic": "/huː ɛls/",
+    "search_term": "pronoun/interrogative_pronouns/added",
+    "spoken_phonetic_us": "/huː ɛls/"
+  }
+]

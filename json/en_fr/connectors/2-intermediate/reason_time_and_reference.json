@@ -1,0 +1,147 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: since]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "conjunction/reason/time",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "since",
+                "usage_example": "[TRADUCIR AL FR: Since you are here, you can help.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Since you are here, you can help.",
+                "char_count": "6",
+                "usage_context_en": "Used to introduce a reason (similar to 'because').",
+                "usage_context_es": "[TRADUCIR AL FR: Used to introduce a reason (similar to 'because').]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_23_def0.avif"
+            },
+            {
+                "meaning": "since (def 2)",
+                "usage_example": "[TRADUCIR AL FR: I have been here since 9 AM.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I have been here since 9 AM.",
+                "char_count": "6",
+                "usage_context_en": "Used to indicate a starting point in time.",
+                "usage_context_es": "[TRADUCIR AL FR: Used to indicate a starting point in time.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_23_def1.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: as]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "conjunction/reason/time/comparison",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "as",
+                "usage_example": "[TRADUCIR AL FR: As I was tired, I went to bed.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "As I was tired, I went to bed.",
+                "char_count": "7",
+                "usage_context_en": "Used to state a reason (similar to 'because').",
+                "usage_context_es": "[TRADUCIR AL FR: Used to state a reason (similar to 'because').]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_22_def0.avif"
+            },
+            {
+                "meaning": "as (def 2)",
+                "usage_example": "[TRADUCIR AL FR: He sang as he walked.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He sang as he walked.",
+                "char_count": "5",
+                "usage_context_en": "Used to indicate that two actions are happening at the same time.",
+                "usage_context_es": "[TRADUCIR AL FR: Used to indicate that two actions are happening at the same time.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_22_def1.avif"
+            },
+            {
+                "meaning": "as (def 3)",
+                "usage_example": "[TRADUCIR AL FR: She is as tall as me.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She is as tall as me.",
+                "char_count": "5",
+                "usage_context_en": "Used to make a comparison of equality.",
+                "usage_context_es": "[TRADUCIR AL FR: Used to make a comparison of equality.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_22_def2.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: meanwhile]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "connector/time",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "meanwhile",
+                "usage_example": "[TRADUCIR AL FR: I was studying; meanwhile, my brother was playing.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I was studying; meanwhile, my brother was playing.",
+                "char_count": "9",
+                "usage_context_en": "In the intervening period of time.",
+                "usage_context_es": "[TRADUCIR AL FR: In the intervening period of time.]",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_7_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: what]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/interrogative/relative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "what",
+                "usage_example": "[TRADUCIR AL FR: I don't know what to do.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I don't know what to do.",
+                "char_count": "6",
+                "usage_context_en": "Used as a relative pronoun to refer to 'the thing(s) that'.",
+                "usage_context_es": "[TRADUCIR AL FR: Used as a relative pronoun to refer to 'the thing(s) that'.]",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_1_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Relative",
+        "category": ""
+    }
+]

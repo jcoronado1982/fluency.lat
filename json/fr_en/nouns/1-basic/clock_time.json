@@ -1,0 +1,153 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "time",
+        "phonetic": "/taɪm/",
+        "spoken_phonetic_us": "/taɪm/",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Tiempo / Hora]",
+                "usage_example": "What time is it?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE time AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: What time is it?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: El concepto de duración, un momento específico]",
+                "usage_context_es": "The concept of duration, a specific moment",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_0_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Ocasión / Vez]",
+                "usage_example": "He called me three times.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE time AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He called me three times.]",
+                "char_count": "2",
+                "usage_context_en": "[TRADUCIR AL FR: Una ocasión o vez en la que algo ocurre.]",
+                "usage_context_es": "An instance or occasion when something happens.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_0_def1.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "hour",
+        "phonetic": "/ˈaʊər/",
+        "spoken_phonetic_us": "/ˈaʊər/",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Hora]",
+                "usage_example": "I will be back in an hour.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE hour AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I will be back in an hour.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Un período de 60 minutos]",
+                "usage_context_es": "A period of 60 minutes",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_120_def0.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "minute",
+        "phonetic": "/ˈmɪnɪt/",
+        "spoken_phonetic_us": "/ˈmɪnɪt/",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Minuto]",
+                "usage_example": "Wait a minute.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE minute AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Wait a minute.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Un período de 60 segundos]",
+                "usage_context_es": "A period of 60 seconds",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_121_def0.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "second",
+        "phonetic": "/ˈsɛkənd/",
+        "spoken_phonetic_us": "/ˈsɛkənd/",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Segundo]",
+                "usage_example": "Just a second, please.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE second AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Just a second, please.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Una unidad de tiempo muy corta]",
+                "usage_context_es": "A very short unit of time",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_122_def0.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "clock",
+        "phonetic": "/klɒk/",
+        "spoken_phonetic_us": "/klɑːk/",
+        "search_term": "noun/object/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Reloj (de pared o mesa)]",
+                "usage_example": "The clock is on the wall.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE clock AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The clock is on the wall.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un dispositivo que muestra la hora (no se lleva puesto)]",
+                "usage_context_es": "A device that shows time (not worn)",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_264_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    }
+]

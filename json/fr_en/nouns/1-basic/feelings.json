@@ -1,0 +1,310 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "love",
+        "phonetic": "/lʌv/",
+        "spoken_phonetic_us": "/lʌv/",
+        "search_term": "noun/feeling/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Amor]",
+                "usage_example": "Love is important.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE love AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Love is important.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un fuerte sentimiento de afecto]",
+                "usage_context_es": "A strong feeling of affection",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_82_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "feeling",
+        "phonetic": "/ˈfiːlɪŋ/",
+        "spoken_phonetic_us": "/ˈfiːlɪŋ/",
+        "search_term": "noun/concept/emotion/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Sentimiento / Sensación]",
+                "usage_example": "I have a good feeling about this.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE feeling AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I have a good feeling about this.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Una emoción (ej. felicidad, tristeza)]",
+                "usage_context_es": "An emotion (e.g., happiness, sadness)",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_334_def0.avif"
+            }
+        ],
+        "group_name": "Feelings",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "happiness",
+        "phonetic": "/ˈhæpinəs/",
+        "spoken_phonetic_us": "/ˈhæpinəs/",
+        "search_term": "noun/feeling/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Felicidad]",
+                "usage_example": "I wish you happiness.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE happiness AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I wish you happiness.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: El sentimiento de estar feliz]",
+                "usage_context_es": "The feeling of being happy",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_335_def0.avif"
+            }
+        ],
+        "group_name": "Feelings",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "sadness",
+        "phonetic": "/ˈsædnəs/",
+        "spoken_phonetic_us": "/ˈsædnəs/",
+        "search_term": "noun/feeling/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Tristeza]",
+                "usage_example": "A feeling of sadness.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE sadness AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: A feeling of sadness.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: El sentimiento de estar triste]",
+                "usage_context_es": "The feeling of being sad",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_336_def0.avif"
+            }
+        ],
+        "group_name": "Feelings",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "anger",
+        "phonetic": "/ˈæŋɡər/",
+        "spoken_phonetic_us": "/ˈæŋɡər/",
+        "search_term": "noun/feeling/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Ira / Enojo]",
+                "usage_example": "He was filled with anger.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE anger AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He was filled with anger.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Un fuerte sentimiento de estar molesto]",
+                "usage_context_es": "A strong feeling of being upset or annoyed",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_337_def0.avif"
+            }
+        ],
+        "group_name": "Feelings",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "fear",
+        "phonetic": "/fɪər/",
+        "spoken_phonetic_us": "/fɪr/",
+        "search_term": "noun/feeling/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Miedo]",
+                "usage_example": "I have a fear of spiders.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE fear AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I have a fear of spiders.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: El sentimiento que tienes cuando estás en peligro]",
+                "usage_context_es": "The feeling you get when you are in danger",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_338_def0.avif"
+            }
+        ],
+        "group_name": "Feelings",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "joy",
+        "phonetic": "/ʤɔɪ/",
+        "spoken_phonetic_us": "/ʤɔɪ/",
+        "search_term": "noun/feeling/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Alegría / Gozo]",
+                "usage_example": "The children shouted with joy.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE joy AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The children shouted with joy.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un sentimiento de gran felicidad]",
+                "usage_context_es": "A feeling of great happiness",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_339_def0.avif"
+            }
+        ],
+        "group_name": "Feelings",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "hope",
+        "phonetic": "/hoʊp/",
+        "spoken_phonetic_us": "/hoʊp/",
+        "search_term": "noun/feeling/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Esperanza]",
+                "usage_example": "There is always hope.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE hope AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: There is always hope.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: El sentimiento de que algo bueno pasará]",
+                "usage_context_es": "The feeling that something good will happen",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_341_def0.avif"
+            }
+        ],
+        "group_name": "Feelings",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "dream",
+        "phonetic": "/driːm/",
+        "spoken_phonetic_us": "/driːm/",
+        "search_term": "noun/concept/feeling/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Sueño]",
+                "usage_example": "I had a strange dream.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE dream AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I had a strange dream.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Las imágenes en tu mente cuando duermes]",
+                "usage_context_es": "The images in your mind when you sleep",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_396_def0.avif"
+            }
+        ],
+        "group_name": "Feelings",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "wish",
+        "phonetic": "/wɪʃ/",
+        "spoken_phonetic_us": "/wɪʃ/",
+        "search_term": "noun/concept/feeling/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Deseo]",
+                "usage_example": "Make a wish.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE wish AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Make a wish.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Algo que quieres que pase]",
+                "usage_context_es": "Something you want to happen",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_397_def0.avif"
+            }
+        ],
+        "group_name": "Feelings",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "fun",
+        "phonetic": "/fʌn/",
+        "spoken_phonetic_us": "/fʌn/",
+        "search_term": "noun/concept/feeling/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Diversión]",
+                "usage_example": "We had a lot of fun.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE fun AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: We had a lot of fun.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Disfrute o placer]",
+                "usage_context_es": "Enjoyment or pleasure",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_402_def0.avif"
+            }
+        ],
+        "group_name": "Feelings",
+        "category": ""
+    }
+]

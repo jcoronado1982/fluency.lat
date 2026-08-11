@@ -1,0 +1,91 @@
+[
+  {
+    "description": "SSH Access",
+    "is-stateless": false,
+    "protocol": "6",
+    "source": "0.0.0.0/0",
+    "source-type": "CIDR_BLOCK",
+    "tcp-options": {
+      "destination-port-range": {
+        "max": 22,
+        "min": 22
+      }
+    }
+  },
+  {
+    "description": "HTTP",
+    "is-stateless": false,
+    "protocol": "6",
+    "source": "0.0.0.0/0",
+    "source-type": "CIDR_BLOCK",
+    "tcp-options": {
+      "destination-port-range": {
+        "max": 80,
+        "min": 80
+      }
+    }
+  },
+  {
+    "description": "HTTPS",
+    "is-stateless": false,
+    "protocol": "6",
+    "source": "0.0.0.0/0",
+    "source-type": "CIDR_BLOCK",
+    "tcp-options": {
+      "destination-port-range": {
+        "max": 443,
+        "min": 443
+      }
+    }
+  },
+  {
+    "description": "Postgres",
+    "is-stateless": false,
+    "protocol": "6",
+    "source": "0.0.0.0/0",
+    "source-type": "CIDR_BLOCK",
+    "tcp-options": {
+      "destination-port-range": {
+        "max": 5432,
+        "min": 5432
+      }
+    }
+  },
+  {
+    "description": "Backend API (Clones)",
+    "is-stateless": false,
+    "protocol": "6",
+    "source": "0.0.0.0/0",
+    "source-type": "CIDR_BLOCK",
+    "tcp-options": {
+      "destination-port-range": {
+        "max": 8080,
+        "min": 8080
+      }
+    }
+  },
+  {
+    "description": "Monitor de RAM Sentinel (Global)",
+    "is-stateless": false,
+    "protocol": "6",
+    "source": "0.0.0.0/0",
+    "source-type": "CIDR_BLOCK",
+    "tcp-options": {
+      "destination-port-range": {
+        "max": 8888,
+        "min": 8888
+      }
+    }
+  },
+  {
+    "description": "ICMP",
+    "icmp-options": {
+      "code": 4,
+      "type": 3
+    },
+    "is-stateless": false,
+    "protocol": "1",
+    "source": "0.0.0.0/0",
+    "source-type": "CIDR_BLOCK"
+  }
+]

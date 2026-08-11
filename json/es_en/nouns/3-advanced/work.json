@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/3-advanced/work/3-advanced_work_card_0_def0.avif",
+        "meaning": "Mantenimiento",
+        "pronunciation_guide_es": "/de_CAR_nids_RE-giu-lar_MEIN-te-nans/",
+        "usage_context_en": "The process of preserving a condition or situation or the state of being preserved.",
+        "usage_context_es": "El proceso de preservar una condición o situación, o el estado de ser preservado.",
+        "usage_example": "The car needs regular maintenance.",
+        "usage_example_es": "El coche necesita mantenimiento regular."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "maintenance",
+    "phonetic": "/ˈmeɪntənəns/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈmeɪntənəns/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/work/3-advanced_work_card_1_def0.avif",
+        "meaning": "Ocupación / Profesión",
+        "pronunciation_guide_es": "/plis_STEIT_iur_NEIM_and_o-kiu-PEI-shon/",
+        "usage_context_en": "A person's job or profession.",
+        "usage_context_es": "El trabajo o profesión de una persona.",
+        "usage_example": "Please state your name and occupation.",
+        "usage_example_es": "Por favor, indique su nombre y ocupación."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "occupation",
+    "phonetic": "/ˌɒkjuˈpeɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˌɑkjuˈpeɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/3-advanced/work/3-advanced_work_card_2_def0.avif",
+        "meaning": "Fuerza laboral",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "All the people available for work in a company or area.",
+        "usage_context_es": "All the people available for work in a company or area.",
+        "usage_example": "The company expanded its workforce.",
+        "usage_example_es": "La empresa amplió su fuerza laboral."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "workforce",
+    "phonetic": "/ˈwɝkˌfɔrs/",
+    "search_term": "noun/work/added",
+    "spoken_phonetic_us": "/ˈwɝkˌfɔrs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/3-advanced/work/3-advanced_work_card_3_def0.avif",
+        "meaning": "Productividad",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "The rate of effective work or output.",
+        "usage_context_es": "The rate of effective work or output.",
+        "usage_example": "Good tools can improve productivity.",
+        "usage_example_es": "Las buenas herramientas pueden mejorar la productividad."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "productivity",
+    "phonetic": "/ˌproʊdʌkˈtɪvəti/",
+    "search_term": "noun/work/added",
+    "spoken_phonetic_us": "/ˌproʊdʌkˈtɪvəti/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/3-advanced/work/3-advanced_work_card_4_def0.avif",
+        "meaning": "Eficiencia",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "The ability to work well without wasting time or resources.",
+        "usage_context_es": "The ability to work well without wasting time or resources.",
+        "usage_example": "The new process increased efficiency.",
+        "usage_example_es": "El nuevo proceso aumentó la eficiencia."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "efficiency",
+    "phonetic": "/ɪˈfɪʃənsi/",
+    "search_term": "noun/work/added",
+    "spoken_phonetic_us": "/ɪˈfɪʃənsi/"
+  }
+]

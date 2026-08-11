@@ -1,0 +1,37 @@
+
+/* Intencionales: el resaltado de reproducción debe ganar a blur/spoiler y
+   a los resets globales dentro de la tarjeta 3D de Safari. */
+.highlightedWord,
+[data-fc='examples'] li div span.highlightedWord {
+    position: relative;
+    display: inline-block;
+    color: var(--fc-highlight-color, #333333);
+    font-weight: var(--fc-highlight-font-weight, 700);
+    font-size: 1.05em;
+    text-shadow: none;
+    /* translate3d en lugar de scale: Safari no pinta fondos dentro de tarjetas 3D con scale */
+    transform: translate3d(0, 0, 1px);
+    -webkit-transform: translate3d(0, 0, 1px);
+    padding: var(--fc-highlight-padding, 2px 6px);
+    margin: 0 2px;
+    border-radius: 6px;
+    background: var(--fc-highlight-background, transparent);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    isolation: isolate;
+    transition: color 0.15s ease-out;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+.highlightedWord::before,
+[data-fc='examples'] li div span.highlightedWord::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: #FFC107;
+    border-radius: 6px;
+    z-index: -1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}

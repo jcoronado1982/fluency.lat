@@ -1,0 +1,76 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(6px, 1.5vw, 14px);
+    width: min(620px, 100%);
+    margin: 16px auto 20px;
+    padding: 10px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 32px;
+    background: rgba(21, 28, 44, 0.72);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35), inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+    font-family: var(--font-family-app, var(--font-family-body));
+}
+
+.wrapper button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    min-width: 0;
+    min-height: 48px;
+    padding: 6px 9px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background: transparent;
+    font: inherit;
+    font-size: 0.92rem;
+    font-weight: 650;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.wrapper button svg {
+    width: 21px;
+    height: 21px;
+    flex: 0 0 auto;
+}
+
+.wrapper button:disabled { opacity: 0.4; cursor: default; }
+.fail { color: #f87171; }
+.correct { color: #34d399; }
+.expel { color: #94a3b8; }
+.fail:hover:not(:disabled), .fail:focus-visible:not(:disabled) { background: rgba(248, 113, 113, 0.1); border-color: rgba(248, 113, 113, 0.28); }
+.correct:hover:not(:disabled), .correct:focus-visible:not(:disabled) { background: rgba(52, 211, 153, 0.1); border-color: rgba(52, 211, 153, 0.28); }
+.expel:hover:not(:disabled), .expel:focus-visible:not(:disabled) { background: rgba(148, 163, 184, 0.1); border-color: rgba(148, 163, 184, 0.28); color: #cbd5e1; }
+.counter {
+    min-width: 52px;
+    color: #f8fafc;
+    text-align: center;
+    font-size: 1.05rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        gap: 3px;
+        margin-top: 0;
+        margin-bottom: env(safe-area-inset-bottom, 0);
+        padding: 8px 6px;
+    }
+    .wrapper button { min-height: 48px; gap: 3px; padding: 4px 5px; font-size: 0.76rem; }
+    .wrapper button svg { width: 18px; height: 18px; }
+    .counter { min-width: 43px; font-size: 0.9rem; }
+}
+
+@media (max-width: 390px) {
+    .wrapper button { flex-direction: column; gap: 2px; font-size: 0.68rem; }
+    .wrapper button svg { width: 17px; height: 17px; }
+    .counter { min-width: 38px; font-size: 0.82rem; }
+}

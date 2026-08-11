@@ -1,0 +1,600 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Número",
+        "pronunciation_guide_es": "/uat_is_yor_FOUN_NOMber/",
+        "usage_context_en": "A symbol used to count (1, 2, 3)",
+        "usage_context_es": "Un símbolo usado para contar (1, 2, 3)",
+        "usage_example": "What is your phone number?",
+        "usage_example_es": "¿Cuál es tu número de teléfono?",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "number",
+    "phonetic": "/ˈnʌmbər/",
+    "search_term": "noun/count/essentials",
+    "spoken_phonetic_us": "/ˈnʌmbər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Uno",
+        "pronunciation_guide_es": "/UAN_plos_UAN_is_TU/",
+        "usage_context_en": "The number 1",
+        "usage_context_es": "El número 1",
+        "usage_example": "One plus one is two.",
+        "usage_example_es": "Uno más uno es dos.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "one",
+    "phonetic": "/wʌn/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/wʌn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Dos",
+        "pronunciation_guide_es": "/ai_UANT_TU_Apols/",
+        "usage_context_en": "The number 2",
+        "usage_context_es": "El número 2",
+        "usage_example": "I want two apples.",
+        "usage_example_es": "Quiero dos manzanas.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "two",
+    "phonetic": "/tuː/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/tuː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Tres",
+        "pronunciation_guide_es": "/it_KOSTS_THRI_DOLars/",
+        "usage_context_en": "The number 3",
+        "usage_context_es": "El número 3",
+        "usage_example": "It costs three dollars.",
+        "usage_example_es": "Cuesta tres dólares.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "three",
+    "phonetic": "/θriː/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/θriː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Cuatro",
+        "pronunciation_guide_es": "/der_ar_FOR_CHERS/",
+        "usage_context_en": "The number 4",
+        "usage_context_es": "El número 4",
+        "usage_example": "There are four chairs.",
+        "usage_example_es": "Hay cuatro sillas.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "four",
+    "phonetic": "/fɔːr/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/fɔːr/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Cinco",
+        "pronunciation_guide_es": "/ai_JAV_FAIV_FINGers/",
+        "usage_context_en": "The number 5",
+        "usage_context_es": "El número 5",
+        "usage_example": "I have five fingers.",
+        "usage_example_es": "Tengo cinco dedos.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "five",
+    "phonetic": "/faɪv/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/faɪv/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Seis",
+        "pronunciation_guide_es": "/ji_is_SIKS_YIRS_OLD/",
+        "usage_context_en": "The number 6",
+        "usage_context_es": "El número 6",
+        "usage_example": "He is six years old.",
+        "usage_example_es": "Él tiene seis años.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_6_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "six",
+    "phonetic": "/sɪks/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/sɪks/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Siete",
+        "pronunciation_guide_es": "/der_ar_SEven_DEIS_in_a_UIK/",
+        "usage_context_en": "The number 7",
+        "usage_context_es": "El número 7",
+        "usage_example": "There are seven days in a week.",
+        "usage_example_es": "Hay siete días en una semana.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "seven",
+    "phonetic": "/ˈsɛvən/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/ˈsɛvən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Ocho",
+        "pronunciation_guide_es": "/de_MITing_is_at_EIT/",
+        "usage_context_en": "The number 8",
+        "usage_context_es": "El número 8",
+        "usage_example": "The meeting is at eight.",
+        "usage_example_es": "La reunión es a las ocho.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_8_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "eight",
+    "phonetic": "/eɪt/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/eɪt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Nueve",
+        "pronunciation_guide_es": "/ai_JAV_NAIN_DOLars/",
+        "usage_context_en": "The number 9",
+        "usage_context_es": "El número 9",
+        "usage_example": "I have nine dollars.",
+        "usage_example_es": "Tengo nueve dólares.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "nine",
+    "phonetic": "/naɪn/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/naɪn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Diez",
+        "pronunciation_guide_es": "/shi_JAS_TEN_KATS/",
+        "usage_context_en": "The number 10",
+        "usage_context_es": "El número 10",
+        "usage_example": "She has ten cats.",
+        "usage_example_es": "Ella tiene diez gatos.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "ten",
+    "phonetic": "/tɛn/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/tɛn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Once",
+        "pronunciation_guide_es": "/ai_jav_iLEven_KOUins/",
+        "usage_context_en": "The number 11",
+        "usage_context_es": "El número 11",
+        "usage_example": "I have eleven coins.",
+        "usage_example_es": "Tengo once monedas.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_11_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "eleven",
+    "phonetic": "/ɪˈlɛvən/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/ɪˈlɛvən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Doce",
+        "pronunciation_guide_es": "/der_ar_TUELV_MONths_in_a_YIR/",
+        "usage_context_en": "The number 12",
+        "usage_context_es": "El número 12",
+        "usage_example": "There are twelve months in a year.",
+        "usage_example_es": "Hay doce meses en un año.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_12_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "twelve",
+    "phonetic": "/twɛlv/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/twɛlv/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Trece",
+        "pronunciation_guide_es": "/hi_is_zerTIN_YIRS_old/",
+        "usage_context_en": "The number 13",
+        "usage_context_es": "El número 13",
+        "usage_example": "He is thirteen years old.",
+        "usage_example_es": "Él tiene trece años.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_13_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "thirteen",
+    "phonetic": "/θɜːrˈtiːn/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/θɜrˈtin/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Catorce",
+        "pronunciation_guide_es": "/ui_nid_forTIN_CHERS/",
+        "usage_context_en": "The number 14",
+        "usage_context_es": "El número 14",
+        "usage_example": "We need fourteen chairs.",
+        "usage_example_es": "Necesitamos catorce sillas.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_14_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "fourteen",
+    "phonetic": "/fɔːrˈtiːn/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/fɔrˈtin/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Quince",
+        "pronunciation_guide_es": "/its_fifTIN_MINits_LEIT/",
+        "usage_context_en": "The number 15",
+        "usage_context_es": "El número 15",
+        "usage_example": "It's fifteen minutes late.",
+        "usage_example_es": "Lleva quince minutos de retraso.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_15_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "fifteen",
+    "phonetic": "/fɪfˈtiːn/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/fɪfˈtin/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Dieciséis",
+        "pronunciation_guide_es": "/shi_TORNZ_siksTIN_tuDEI/",
+        "usage_context_en": "The number 16",
+        "usage_context_es": "El número 16",
+        "usage_example": "She turns sixteen today.",
+        "usage_example_es": "Ella cumple dieciséis hoy.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_16_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "sixteen",
+    "phonetic": "/sɪksˈtiːn/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/sɪksˈtin/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Diecisiete",
+        "pronunciation_guide_es": "/der_ar_sevenTIN_STUdents/",
+        "usage_context_en": "The number 17",
+        "usage_context_es": "El número 17",
+        "usage_example": "There are seventeen students.",
+        "usage_example_es": "Hay diecisiete estudiantes.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_17_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "seventeen",
+    "phonetic": "/sɛvənˈtiːn/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/sɛvənˈtin/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Dieciocho",
+        "pronunciation_guide_es": "/ju_MAST_bi_eiTIN/",
+        "usage_context_en": "The number 18",
+        "usage_context_es": "El número 18",
+        "usage_example": "You must be eighteen.",
+        "usage_example_es": "Debes tener dieciocho años.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_18_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "eighteen",
+    "phonetic": "/eɪˈtiːn/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/eɪˈtin/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Diecinueve",
+        "pronunciation_guide_es": "/de_BUK_kosts_nainTIN_DOLars/",
+        "usage_context_en": "The number 19",
+        "usage_context_es": "El número 19",
+        "usage_example": "The book costs nineteen dollars.",
+        "usage_example_es": "El libro cuesta diecinueve dólares.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_19_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "nineteen",
+    "phonetic": "/naɪnˈtiːn/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/naɪnˈtin/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Veinte",
+        "pronunciation_guide_es": "/ai_NID_TUENti_KOPis/",
+        "usage_context_en": "The number 20",
+        "usage_context_es": "El número 20",
+        "usage_example": "I need twenty copies.",
+        "usage_example_es": "Necesito veinte copias.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_20_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "twenty",
+    "phonetic": "/ˈtwɛnti/",
+    "search_term": "noun/number/essentials",
+    "spoken_phonetic_us": "/ˈtwɛnti/"
+  },
+  {
+    "word": "zero",
+    "translation": "cero",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "meaning": "The number 0.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "The number 0.",
+        "usage_context_es": "El número 0.",
+        "usage_example": "The answer is zero.",
+        "usage_example_es": "La respuesta es cero.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_21_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "zero",
+    "phonetic": "",
+    "search_term": "noun/numbers/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "hundred",
+    "translation": "cien",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "meaning": "The number 100.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "The number 100.",
+        "usage_context_es": "El número 100.",
+        "usage_example": "There are one hundred pages.",
+        "usage_example_es": "Hay cien páginas.",
+        "imagePath": "/card_images/nouns/1-basic/numbers/1-basic_numbers_card_22_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Numbers",
+    "is_verb": false,
+    "name": "hundred",
+    "phonetic": "",
+    "search_term": "noun/numbers/seed",
+    "spoken_phonetic_us": ""
+  }
+]

@@ -1,0 +1,15 @@
+.gcloudignore
+.git
+.gitignore
+card_images/
+card_audio/
+json/
+client/
+tools/
+scratch/
+.tada_batch_staging/
+.venv/
+.claude/
+.cursor/
+.vscode/
+target/

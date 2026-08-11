@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Electrodoméstico",
+        "pronunciation_guide_es": "/de_KICHen_has_NIU_a-PLAI-an-ses/",
+        "usage_context_en": "A machine used in the home for a specific purpose",
+        "usage_context_es": "Una máquina usada en el hogar para un propósito específico",
+        "usage_example": "The kitchen has new appliances.",
+        "usage_example_es": "La cocina tiene electrodomésticos nuevos.",
+        "imagePath": "/card_images/nouns/2-intermediate/household_items/2-intermediate_household_items_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "appliance",
+    "phonetic": "/əˈplaɪəns/",
+    "search_term": "noun/household/machine",
+    "spoken_phonetic_us": "/əˈplaɪəns/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Tomacorriente / Enchufe",
+        "pronunciation_guide_es": "/plʌg_de_charjer_into_de_ilektrikəl_autlet/",
+        "usage_context_en": "A place on the wall to connect electric plugs",
+        "usage_context_es": "Un lugar en la pared para conectar enchufes eléctricos",
+        "usage_example": "Plug the charger into the electrical outlet.",
+        "usage_example_es": "Enchufa el cargador en el tomacorriente.",
+        "imagePath": "/card_images/nouns/2-intermediate/household_items/2-intermediate_household_items_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "outlet",
+    "phonetic": "/ˈaʊtlet/",
+    "search_term": "noun/household/essentials",
+    "spoken_phonetic_us": "/ˈaʊtlet/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "utensil",
+    "phonetic": "/juˈtɛnsəl/",
+    "spoken_phonetic_us": "/juˈtɛnsəl/",
+    "search_term": "noun/household_items/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Utensilio",
+        "usage_example": "A spoon is a common kitchen utensil.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Una cuchara es un utensilio común de cocina.",
+        "char_count": "7",
+        "usage_context_en": "A tool used in the house, especially in the kitchen.",
+        "usage_context_es": "A tool used in the house, especially in the kitchen.",
+        "imagePath": "/card_images/nouns/2-intermediate/household_items/2-intermediate_household_items_card_2_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Household"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "furniture",
+    "phonetic": "/ˈfɝnɪtʃər/",
+    "spoken_phonetic_us": "/ˈfɝnɪtʃər/",
+    "search_term": "noun/household_items/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Muebles / Mobiliario",
+        "usage_example": "We bought new furniture for the living room.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Compramos muebles nuevos para la sala.",
+        "char_count": "8",
+        "usage_context_en": "Large movable items in a room.",
+        "usage_context_es": "Large movable items in a room.",
+        "imagePath": "/card_images/nouns/2-intermediate/household_items/2-intermediate_household_items_card_3_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Household"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "fixture",
+    "phonetic": "/ˈfɪkstʃər/",
+    "spoken_phonetic_us": "/ˈfɪkstʃər/",
+    "search_term": "noun/household_items/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Instalación fija / Accesorio fijo",
+        "usage_example": "The sink is a bathroom fixture.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "El lavamanos es una instalación fija del baño.",
+        "char_count": "6",
+        "usage_context_en": "An item fixed in place in a building.",
+        "usage_context_es": "An item fixed in place in a building.",
+        "imagePath": "/card_images/nouns/2-intermediate/household_items/2-intermediate_household_items_card_4_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Household"
+  }
+]

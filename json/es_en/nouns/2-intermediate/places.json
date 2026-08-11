@@ -1,0 +1,314 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_0_def0.avif",
+        "meaning": "Universidad",
+        "pronunciation_guide_es": "/shi_STO-dis_at_de_iu-ni-VER-si-ti/",
+        "usage_context_en": "A high-level educational institution where students study for degrees.",
+        "usage_context_es": "Una institución educativa de alto nivel donde los estudiantes estudian para obtener títulos.",
+        "usage_example": "She studies at the university.",
+        "usage_example_es": "Ella estudia en la universidad."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "is_verb": false,
+    "name": "university",
+    "phonetic": "/ˌjunəˈvɜrsəti/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˌjunəˈvɜrsəti/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_1_def0.avif",
+        "meaning": "Distrito / Barrio",
+        "pronunciation_guide_es": "/ai_liv_in_de_fai-NAN-shal_DIS-trikt/",
+        "usage_context_en": "An area of a city or country, regarded as a unit for administrative purposes.",
+        "usage_context_es": "Un área de una ciudad o país, considerada como una unidad con fines administrativos.",
+        "usage_example": "I live in the financial district.",
+        "usage_example_es": "Vivo en el distrito financiero."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "is_verb": false,
+    "name": "district",
+    "phonetic": "/ˈdɪstrɪkt/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈdɪstrɪkt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_2_def0.avif",
+        "meaning": "Museo",
+        "pronunciation_guide_es": "/de_miu-SI-om_is_CLOUSD_tu-DEI/",
+        "usage_context_en": "A building in which objects of historical, scientific, artistic, or cultural interest are stored.",
+        "usage_context_es": "Un edificio en el que se almacenan objetos de interés histórico, científico, artístico o cultural.",
+        "usage_example": "The museum is closed today.",
+        "usage_example_es": "El museo está cerrado hoy."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "is_verb": false,
+    "name": "museum",
+    "phonetic": "/mjuˈziəm/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/mjuˈziəm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_3_def0.avif",
+        "meaning": "Teatro",
+        "pronunciation_guide_es": "/ui_ar_GOU-ing_tu_de_ZI-a-ter/",
+        "usage_context_en": "A building where plays, shows, and other performances are staged.",
+        "usage_context_es": "Un edificio donde se representan obras de teatro, espectáculos y otras actuaciones.",
+        "usage_example": "We are going to the theater.",
+        "usage_example_es": "Vamos al teatro."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "is_verb": false,
+    "name": "theater",
+    "phonetic": "/ˈθiətər/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈθiətər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "imagePath": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_4_def0.avif",
+        "meaning": "Cine",
+        "pronunciation_guide_es": "/du_iu_UANT_tu_gou_tu_de_SI-ne-ma/",
+        "usage_context_en": "A place where movies are shown; a movie theater.",
+        "usage_context_es": "Un lugar donde se proyectan películas; una sala de cine.",
+        "usage_example": "Do you want to go to the cinema?",
+        "usage_example_es": "¿Quieres ir al cine?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "is_verb": false,
+    "name": "cinema",
+    "phonetic": "/ˈsɪnəmə/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈsɪnəmə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_5_def0.avif",
+        "meaning": "Centro comercial",
+        "pronunciation_guide_es": "/ai_bot_dis_at_de_MOL/",
+        "usage_context_en": "A large, enclosed shopping center.",
+        "usage_context_es": "Un gran centro comercial cerrado.",
+        "usage_example": "I bought this at the mall.",
+        "usage_example_es": "Compré esto en el centro comercial."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "is_verb": false,
+    "name": "mall",
+    "phonetic": "/mɔl/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/mɔl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "imagePath": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_6_def0.avif",
+        "meaning": "Supermercado",
+        "pronunciation_guide_es": "/ai_nid_tu_bai_MILK_at_de_SU-per-mar-ket/",
+        "usage_context_en": "A large self-service store selling foods and household goods.",
+        "usage_context_es": "Una gran tienda de autoservicio que vende alimentos y artículos para el hogar.",
+        "usage_example": "I need to buy milk at the supermarket.",
+        "usage_example_es": "Necesito comprar leche en el supermercado."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "is_verb": false,
+    "name": "supermarket",
+    "phonetic": "/ˈsupərˌmɑrkɪt/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈsupərˌmɑrkɪt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_7_def0.avif",
+        "meaning": "Farmacia",
+        "pronunciation_guide_es": "/de_FAR-ma-si_is_O-pen_tuen-ti-FOR_AU-ers/",
+        "usage_context_en": "A store where medicinal drugs are prepared and sold.",
+        "usage_context_es": "Una tienda donde se preparan y venden medicamentos.",
+        "usage_example": "The pharmacy is open 24 hours.",
+        "usage_example_es": "La farmacia está abierta 24 horas."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "is_verb": false,
+    "name": "pharmacy",
+    "phonetic": "/ˈfɑrməsi/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈfɑrməsi/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_8_def0.avif",
+        "meaning": "Sitio / Lugar",
+        "pronunciation_guide_es": "/its_a_his-TO-ri-cal_SAIT/",
+        "usage_context_en": "An area of ground on which a town, building, or monument is constructed.",
+        "usage_context_es": "Un área de terreno en la que se construye un pueblo, edificio o monumento.",
+        "usage_example": "It's a historical site.",
+        "usage_example_es": "Es un sitio histórico."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "is_verb": false,
+    "name": "site",
+    "phonetic": "/saɪt/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/saɪt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_9_def0.avif",
+        "meaning": "Refugio / Albergue",
+        "pronunciation_guide_es": "/dei_bilt_a_TEM-po-re-ri_SHEL-ter/",
+        "usage_context_en": "A place giving temporary protection from bad weather or danger.",
+        "usage_context_es": "Un lugar que da protección temporal contra el mal tiempo o el peligro.",
+        "usage_example": "They built a temporary shelter.",
+        "usage_example_es": "Construyeron un refugio temporal."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "is_verb": false,
+    "name": "shelter",
+    "phonetic": "/ˈʃɛltər/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈʃɛltər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_10_def0.avif",
+        "meaning": "Ruta / Camino",
+        "pronunciation_guide_es": "/dis_is_de_SHOR-test_RUT (o RAUT)/",
+        "usage_context_en": "A way or course taken in getting from a starting point to a destination.",
+        "usage_context_es": "Un camino o curso tomado para ir de un punto de partida a un destino.",
+        "usage_example": "This is the shortest route.",
+        "usage_example_es": "Esta es la ruta más corta."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "is_verb": false,
+    "name": "route",
+    "phonetic": "/rut/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/raʊt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_11_def0.avif",
+        "meaning": "Ubicación / Lugar",
+        "pronunciation_guide_es": "/dis_is_a_gud_lou-KEI-shon/",
+        "usage_context_en": "A particular place or position.",
+        "usage_context_es": "Un lugar o posición particular.",
+        "usage_example": "This is a good location.",
+        "usage_example_es": "Esta es una buena ubicación."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "is_verb": false,
+    "name": "location",
+    "phonetic": "/loʊˈkeɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/loʊˈkeɪʃən/"
+  }
+]

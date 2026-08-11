@@ -1,0 +1,114 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Cosa",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/object/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Cosa]",
+                "usage_example": "¿Qué es esa cosa?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: ¿Qué es esa cosa?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL IT: Un objeto o idea (muy general)]",
+                "usage_context_es": "Un objeto o idea (muy general)",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_7_def0.avif"
+            }
+        ],
+        "group_name": null,
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Ejemplo",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/sample/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Ejemplo]",
+                "usage_example": "¿Puedes darme un ejemplo?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: ¿Puedes darme un ejemplo?]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL IT: Una cosa que muestra cómo son otras]",
+                "usage_context_es": "Una cosa que muestra cómo son otras",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_177_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Tipo / Clase",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/category/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Tipo / Clase]",
+                "usage_example": "¿Qué tipo de música te gusta?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: ¿Qué tipo de música te gusta?]",
+                "char_count": "1",
+                "usage_context_en": "[TRADUCIR AL IT: Un grupo de cosas con características similares]",
+                "usage_context_es": "Un grupo de cosas con características similares",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_483_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Pedazo / Pieza",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/object/part/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Pedazo / Pieza]",
+                "usage_example": "Necesito un pedazo de papel.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Necesito un pedazo de papel.]",
+                "char_count": "1",
+                "usage_context_en": "[TRADUCIR AL IT: Una parte de algo que ha sido separada]",
+                "usage_context_es": "Una parte de algo que ha sido separada",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_484_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    }
+]

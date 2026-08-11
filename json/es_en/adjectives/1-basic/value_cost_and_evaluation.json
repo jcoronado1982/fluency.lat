@@ -1,0 +1,336 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "cheap",
+    "phonetic": "/tʃiːp/",
+    "spoken_phonetic_us": "/tʃiːp/",
+    "search_term": "adjective/basic/money_cost",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Money & Cost",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Barato/a",
+        "usage_example": "The tickets are cheap.",
+        "pronunciation_guide_es": "/de_TI-kets_ar_CHIP/",
+        "usage_example_es": "Los boletos están baratos.",
+        "char_count": "4",
+        "usage_context_en": "Low in price; not expensive.",
+        "usage_context_es": "Bajo en precio; no caro.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_0_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "expensive",
+    "phonetic": "/ɪkˈspɛnsɪv/",
+    "spoken_phonetic_us": "/ɪkˈspɛnsɪv/",
+    "search_term": "adjective/basic/money_cost",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Money & Cost",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Caro/a / Costoso/a",
+        "usage_example": "A new car is expensive.",
+        "pronunciation_guide_es": "/a_NIU_CAR_is_ex-PEN-siv/",
+        "usage_example_es": "Un carro nuevo es costoso.",
+        "char_count": "5",
+        "usage_context_en": "Costing a lot of money.",
+        "usage_context_es": "Que cuesta mucho dinero.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_1_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "good",
+    "phonetic": "/ɡʊd/",
+    "spoken_phonetic_us": "/ɡʊd/",
+    "search_term": "adjective/basic/quality_value",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Quality & Value",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Bueno/a",
+        "usage_example": "This is a good book.",
+        "pronunciation_guide_es": "/dis_is_a_GUD_BUK/",
+        "usage_example_es": "Este es un buen libro.",
+        "char_count": "5",
+        "usage_context_en": "Of a high standard or quality; positive.",
+        "usage_context_es": "De alto estándar o calidad; positivo.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "bad",
+    "phonetic": "/bæd/",
+    "spoken_phonetic_us": "/bæd/",
+    "search_term": "adjective/basic/quality_value",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Quality & Value",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Malo/a",
+        "usage_example": "That was a bad movie.",
+        "pronunciation_guide_es": "/dat_uas_a_BAD_MU-vi/",
+        "usage_example_es": "Esa fue una película mala.",
+        "char_count": "5",
+        "usage_context_en": "Of a low standard or quality; negative.",
+        "usage_context_es": "De bajo estándar o calidad; negativo.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_3_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "nice",
+    "phonetic": "/naɪs/",
+    "spoken_phonetic_us": "/naɪs/",
+    "search_term": "adjective/basic/quality_value",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Quality & Value",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Agradable / Amable",
+        "usage_example": "She is a nice person.",
+        "pronunciation_guide_es": "/shi_is_a_NAIS_PER-son/",
+        "usage_example_es": "Ella es una persona agradable.",
+        "char_count": "5",
+        "usage_context_en": "Pleasant, attractive, or kind.",
+        "usage_context_es": "Placentero, atractivo o amable.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_4_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "great",
+    "phonetic": "/ɡreɪt/",
+    "spoken_phonetic_us": "/ɡreɪt/",
+    "search_term": "adjective/basic/quality_value",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Quality & Value",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Genial / Excelente",
+        "usage_example": "That is a great idea.",
+        "pronunciation_guide_es": "/dat_is_a_GREIT_ai-DI-a/",
+        "usage_example_es": "Esa es una gran idea.",
+        "char_count": "5",
+        "usage_context_en": "Of an extent, amount, or intensity considerably above the normal.",
+        "usage_context_es": "De un nivel, cantidad o intensidad considerablemente superior al normal.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_5_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "free",
+    "phonetic": "/friː/",
+    "spoken_phonetic_us": "/friː/",
+    "search_term": "adjective/basic/quality_value",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Quality & Value",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Libre / Gratis",
+        "usage_example": "The entry is free.",
+        "pronunciation_guide_es": "/de_EN-tri_is_FRI/",
+        "usage_example_es": "La entrada es gratis.",
+        "char_count": "4",
+        "usage_context_en": "Not under the control of another; not costing anything.",
+        "usage_context_es": "No bajo el control de otro; sin costo.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_6_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "right",
+    "phonetic": "/raɪt/",
+    "spoken_phonetic_us": "/raɪt/",
+    "search_term": "adjective/basic/logic_evaluation",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Logic & Evaluation",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Correcto/a",
+        "usage_example": "That is the right answer.",
+        "pronunciation_guide_es": "/dat_is_de_RAIT_AN-ser/",
+        "usage_example_es": "Esa es la respuesta correcta.",
+        "char_count": "5",
+        "usage_context_en": "True or correct as a fact.",
+        "usage_context_es": "Verdadero o correcto como un hecho.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_7_def0.avif"
+      },
+      {
+        "meaning": "Derecho/a",
+        "usage_example": "Turn at the right corner.",
+        "pronunciation_guide_es": "/TERN_at_de_RAIT_COR-ner/",
+        "usage_example_es": "Gira en la esquina derecha.",
+        "char_count": "5",
+        "usage_context_en": "On or relating to the side of the body opposite the left.",
+        "usage_context_es": "En o relativo al lado del cuerpo opuesto al izquierdo.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_7_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "wrong",
+    "phonetic": "/rɒŋ/",
+    "spoken_phonetic_us": "/rɔŋ/",
+    "search_term": "adjective/basic/logic_evaluation",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Logic & Evaluation",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Incorrecto/a / Equivocado/a",
+        "usage_example": "That is the wrong answer.",
+        "pronunciation_guide_es": "/dat_is_de_RONG_AN-ser/",
+        "usage_example_es": "Esa es la respuesta incorrecta.",
+        "char_count": "5",
+        "usage_context_en": "Not correct or true; incorrect.",
+        "usage_context_es": "No correcto o verdadero; incorrecto.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_8_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "true",
+    "phonetic": "/truː/",
+    "spoken_phonetic_us": "/truː/",
+    "search_term": "adjective/basic/logic_evaluation",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Logic & Evaluation",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Verdadero/a",
+        "usage_example": "That story is true.",
+        "pronunciation_guide_es": "/dat_STO-ri_is_TRU/",
+        "usage_example_es": "Esa historia es verdadera.",
+        "char_count": "4",
+        "usage_context_en": "In accordance with fact or reality.",
+        "usage_context_es": "De acuerdo con un hecho o la realidad.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_9_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "false",
+    "phonetic": "/fɔːls/",
+    "spoken_phonetic_us": "/fɔːls/",
+    "search_term": "adjective/basic/logic_evaluation",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Logic & Evaluation",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Falso/a",
+        "usage_example": "That information is false.",
+        "pronunciation_guide_es": "/dat_in-for-MEI-sion_is_FOLS/",
+        "usage_example_es": "Esa información es falsa.",
+        "char_count": "4",
+        "usage_context_en": "Not according with truth or fact; incorrect.",
+        "usage_context_es": "No conforme con la verdad o los hechos; incorrecto.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_10_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "correct",
+    "phonetic": "/kəˈrɛkt/",
+    "spoken_phonetic_us": "/kəˈrɛkt/",
+    "search_term": "adjective/basic/logic_evaluation",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Logic & Evaluation",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Correcto/a",
+        "usage_example": "The address is correct.",
+        "pronunciation_guide_es": "/di_A-dres_is_co-REKT/",
+        "usage_example_es": "La dirección es correcta.",
+        "char_count": "4",
+        "usage_context_en": "Free from error; right.",
+        "usage_context_es": "Sin error; correcto.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_11_def0.avif"
+      }
+    ]
+  }
+]

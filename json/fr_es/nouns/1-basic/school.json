@@ -1,0 +1,656 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Escuela / Colegio",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Escuela / Colegio]",
+                "usage_example": "Los niños están en la escuela.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Los niños están en la escuela.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un lugar donde los niños van a aprender]",
+                "usage_context_es": "Un lugar donde los niños van a aprender",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_11_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Grupo de peces]",
+                "usage_example": "Pasó un grupo de peces.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Pasó un grupo de peces.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: Un grupo de peces que nadan juntos.]",
+                "usage_context_es": "Un grupo de peces que nadan juntos.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_11_def1.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Corriente de pensamiento]",
+                "usage_example": "La corriente de pensamiento cree en la libertad.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: La corriente de pensamiento cree en la libertad.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Un grupo particular de ideas o creencias.]",
+                "usage_context_es": "Un grupo particular de ideas o creencias.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_11_def2.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Libro",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/object/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Libro]",
+                "usage_example": "Estoy leyendo un libro.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Estoy leyendo un libro.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un conjunto de páginas escritas en una cubierta]",
+                "usage_context_es": "Un conjunto de páginas escritas en una cubierta",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_53_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Reservar (como verbo convertido en sustantivo)]",
+                "usage_example": "Hice una reserva de boletos para el viaje.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Hice una reserva de boletos para el viaje.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Una colección o registro de reservas o boletos.]",
+                "usage_context_es": "Una colección o registro de reservas o boletos.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_53_def1.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Estudiante / Alumno",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/person/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Estudiante / Alumno]",
+                "usage_example": "Él es un buen estudiante.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Él es un buen estudiante.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Una persona que está estudiando en una escuela]",
+                "usage_context_es": "Una persona que está estudiando en una escuela",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_97_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Profesor / Maestra",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/person/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Profesor / Maestra]",
+                "usage_example": "El profesor está en el salón.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: El profesor está en el salón.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Una persona que enseña]",
+                "usage_context_es": "Una persona que enseña",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_98_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Bolígrafo / Pluma",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/tool/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Bolígrafo / Pluma]",
+                "usage_example": "Necesito un bolígrafo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Necesito un bolígrafo.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Una herramienta para escribir con tinta]",
+                "usage_context_es": "Una herramienta para escribir con tinta",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_111_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Lápiz",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/tool/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Lápiz]",
+                "usage_example": "¿Me prestas tu lápiz?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: ¿Me prestas tu lápiz?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Una herramienta para escribir con grafito]",
+                "usage_context_es": "Una herramienta para escribir con grafito",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_112_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Papel",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/material/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Papel]",
+                "usage_example": "Necesito un trozo de papel.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Necesito un trozo de papel.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Material usado para escribir o imprimir]",
+                "usage_context_es": "Material usado para escribir o imprimir",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_113_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Documento o ensayo académico]",
+                "usage_example": "Ella escribió un ensayo sobre el cambio climático.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Ella escribió un ensayo sobre el cambio climático.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Un ensayo o informe escrito sobre un tema específico.]",
+                "usage_context_es": "Un ensayo o informe escrito sobre un tema específico.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_113_def1.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Clase",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Clase]",
+                "usage_example": "Tengo una clase de inglés.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Tengo una clase de inglés.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Una lección / Un grupo de estudiantes]",
+                "usage_context_es": "Una lección / Un grupo de estudiantes",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_224_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Lección",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Lección]",
+                "usage_example": "La lección fue difícil.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: La lección fue difícil.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Un período de tiempo para aprender]",
+                "usage_context_es": "Un período de tiempo para aprender",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_225_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Prueba / Examen (corto)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Prueba / Examen (corto)]",
+                "usage_example": "Tenemos una prueba hoy.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Tenemos una prueba hoy.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un conjunto de preguntas para revisar el conocimiento]",
+                "usage_context_es": "Un conjunto de preguntas para revisar el conocimiento",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_226_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Examen (formal, importante)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Examen (formal, importante)]",
+                "usage_example": "El examen final es la próxima semana.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: El examen final es la próxima semana.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Una prueba importante]",
+                "usage_context_es": "Una prueba importante",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_227_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Tarea (escolar)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Tarea (escolar)]",
+                "usage_example": "Tengo que hacer mi tarea.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Tengo que hacer mi tarea.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Trabajo escolar hecho en casa]",
+                "usage_context_es": "Trabajo escolar hecho en casa",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_228_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Carta / Letra",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/communication/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Carta / Letra]",
+                "usage_example": "Escribí una carta. / 'A' es la primera letra.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Escribí una carta. / 'A' es la primera letra.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Un mensaje escrito / Un símbolo del alfabeto]",
+                "usage_context_es": "Un mensaje escrito / Un símbolo del alfabeto",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_270_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Carácter del alfabeto]",
+                "usage_example": "La palabra 'cat' tiene tres letras.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: La palabra 'cat' tiene tres letras.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Un símbolo usado para representar un sonido en la escritura.]",
+                "usage_context_es": "Un símbolo usado para representar un sonido en la escritura.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_270_def1.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Carta escrita o mensaje]",
+                "usage_example": "Ella escribió una carta a su amiga.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Ella escribió una carta a su amiga.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Un mensaje escrito enviado a alguien.]",
+                "usage_context_es": "Un mensaje escrito enviado a alguien.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_270_def2.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Historia",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Historia]",
+                "usage_example": "Estoy estudiando historia.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Estoy estudiando historia.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: El estudio de eventos pasados]",
+                "usage_context_es": "El estudio de eventos pasados",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_325_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Ciencia",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Ciencia]",
+                "usage_example": "La ciencia es fascinante.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: La ciencia es fascinante.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: El estudio del mundo natural]",
+                "usage_context_es": "El estudio del mundo natural",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_326_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Matemáticas",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Matemáticas]",
+                "usage_example": "Tengo clase de matemáticas hoy.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Tengo clase de matemáticas hoy.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: El estudio de números y formas (AmE)]",
+                "usage_context_es": "El estudio de números y formas (AmE)",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_327_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Asignatura / Tema",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Asignatura / Tema]",
+                "usage_example": "¿Cuál es tu asignatura favorita?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: ¿Cuál es tu asignatura favorita?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Un tema de estudio / La idea principal]",
+                "usage_context_es": "Un tema de estudio / La idea principal",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_328_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Nota / Apunte",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/communication/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Nota / Apunte]",
+                "usage_example": "Deja una nota en la mesa.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Deja una nota en la mesa.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un mensaje escrito corto]",
+                "usage_context_es": "Un mensaje escrito corto",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_472_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "A book of blank pages for writing notes.",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/school-&-work/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A book of blank pages for writing notes.]",
+                "usage_example": "Mi cuaderno está sobre el escritorio.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Mi cuaderno está sobre el escritorio.]",
+                "char_count": "8",
+                "usage_context_en": "[TRADUCIR AL FR: Un libro de páginas en blanco para escribir notas.]",
+                "usage_context_es": "Un libro de páginas en blanco para escribir notas.",
+                "imagePath": "/card_images/nouns/1-basic/seed_notebook.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "An object used to remove pencil marks.",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/school-&-work/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: An object used to remove pencil marks.]",
+                "usage_example": "Necesito un borrador para este error.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Necesito un borrador para este error.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Un objeto usado para borrar marcas de lápiz.]",
+                "usage_context_es": "Un objeto usado para borrar marcas de lápiz.",
+                "imagePath": "/card_images/nouns/1-basic/seed_eraser.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "A straight tool used for measuring or drawing lines.",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/school-&-work/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A straight tool used for measuring or drawing lines.]",
+                "usage_example": "Usa la regla para dibujar la línea.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Usa la regla para dibujar la línea.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Una herramienta recta usada para medir o dibujar líneas.]",
+                "usage_context_es": "Una herramienta recta usada para medir o dibujar líneas.",
+                "imagePath": "/card_images/nouns/1-basic/seed_ruler.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    }
+]

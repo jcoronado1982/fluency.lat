@@ -1,0 +1,142 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Parte",
+        "pronunciation_guide_es": "/dis_is_de_BEST_PART_of_de_MUVI/",
+        "usage_context_en": "A piece of a whole",
+        "usage_context_es": "Un pedazo de un todo",
+        "usage_example": "This is the best part of the movie.",
+        "usage_example_es": "Esta es la mejor parte de la película.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components/1-basic_structure_components_card_0_def0.avif"
+      },
+      {
+        "char_count": "4",
+        "meaning": "Papel o rol",
+        "pronunciation_guide_es": "/ji_PLEId_a_PART_in_de_MUVi/",
+        "usage_context_en": "A role in a play, movie, or situation.",
+        "usage_context_es": "Un papel en una obra, película o situación.",
+        "usage_example": "He played a part in the movie.",
+        "usage_example_es": "Él interpretó un papel en la película.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components/1-basic_structure_components_card_0_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "part",
+    "phonetic": "/pɑːrt/",
+    "search_term": "noun/piece/essentials",
+    "spoken_phonetic_us": "/pɑːrt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Equipo",
+        "pronunciation_guide_es": "/ui_ar_a_GUD_TIM/",
+        "usage_context_en": "A group of people working or playing together",
+        "usage_context_es": "Un grupo de personas que trabajan o juegan juntas",
+        "usage_example": "We are a good team.",
+        "usage_example_es": "Somos un buen equipo.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components/1-basic_structure_components_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "People",
+    "is_verb": false,
+    "name": "team",
+    "phonetic": "/tiːm/",
+    "search_term": "noun/group/work/essentials",
+    "spoken_phonetic_us": "/tiːm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "section",
+    "phonetic": "/ˈsɛkʃən/",
+    "spoken_phonetic_us": "/ˈsɛkʃən/",
+    "search_term": "noun/structure_components/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Sección",
+        "usage_example": "Read the next section carefully.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Lee la siguiente sección con cuidado.",
+        "char_count": "5",
+        "usage_context_en": "One part of a larger whole.",
+        "usage_context_es": "One part of a larger whole.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components/1-basic_structure_components_card_2_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "People"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "unit",
+    "phonetic": "/ˈjuːnɪt/",
+    "spoken_phonetic_us": "/ˈjuːnɪt/",
+    "search_term": "noun/structure_components/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Unidad",
+        "usage_example": "This unit covers basic grammar.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Esta unidad cubre gramática básica.",
+        "char_count": "5",
+        "usage_context_en": "A single part of a system or course.",
+        "usage_context_es": "A single part of a system or course.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components/1-basic_structure_components_card_3_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "People"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "member",
+    "phonetic": "/ˈmɛmbər/",
+    "spoken_phonetic_us": "/ˈmɛmbər/",
+    "search_term": "noun/structure_components/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Miembro",
+        "usage_example": "She is a member of the team.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Ella es miembro del equipo.",
+        "char_count": "7",
+        "usage_context_en": "A person who belongs to a group.",
+        "usage_context_es": "A person who belongs to a group.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components/1-basic_structure_components_card_4_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "People"
+  }
+]

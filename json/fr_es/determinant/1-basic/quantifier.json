@@ -1,0 +1,427 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Algo de / Unos / Algunas",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Algo de / Unos / Algunas]",
+                "usage_example": "Necesito algo de agua. / Necesito unas manzanas.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Necesito algo de agua. / Necesito unas manzanas.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para una cantidad no especificada en oraciones afirmativas.]",
+                "usage_context_es": "Usado para una cantidad no especificada en oraciones afirmativas.",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_14_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Algo de / Algún / Alguna (preguntas)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Algo de / Algún / Alguna (preguntas)]",
+                "usage_example": "¿Tienes (algo de) dinero?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: ¿Tienes (algo de) dinero?]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para una cantidad no especificada en preguntas.]",
+                "usage_context_es": "Usado para una cantidad no especificada en preguntas.",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_15_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Nada de / Ningún / Ninguna (negativos)]",
+                "usage_example": "No tengo (nada de) dinero.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: No tengo (nada de) dinero.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para una cantidad cero en oraciones negativas.]",
+                "usage_context_es": "Usado para una cantidad cero en oraciones negativas.",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_15_def1.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "No / Ningún / Ninguna",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: No / Ningún / Ninguna]",
+                "usage_example": "No tengo dinero. (Tengo cero dinero).",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: No tengo dinero. (Tengo cero dinero).]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para indicar cantidad cero (más fuerte que 'not any').]",
+                "usage_context_es": "Usado para indicar cantidad cero (más fuerte que 'not any').",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_16_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Todo/a / Todos/as",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Todo/a / Todos/as]",
+                "usage_example": "Toda la comida está lista.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Toda la comida está lista.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para referirse a la cantidad total o extensión de algo.]",
+                "usage_context_es": "Usado para referirse a la cantidad total o extensión de algo.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Mucho / Mucha",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Mucho / Mucha]",
+                "usage_example": "No tengo mucho tiempo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: No tengo mucho tiempo.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para una gran cantidad de un sustantivo incontable (principalmente en preguntas/negativos).]",
+                "usage_context_es": "Usado para una gran cantidad de un sustantivo incontable (principalmente en preguntas/negativos).",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_19_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Muchos / Muchas",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Muchos / Muchas]",
+                "usage_example": "Tengo muchos amigos.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Tengo muchos amigos.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para un gran número de un sustantivo contable.]",
+                "usage_context_es": "Usado para un gran número de un sustantivo contable.",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_20_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Mucho / Mucha / Muchos / Muchas",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Mucho / Mucha / Muchos / Muchas]",
+                "usage_example": "Tengo muchos amigos. / Tengo mucho tiempo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Tengo muchos amigos. / Tengo mucho tiempo.]",
+                "char_count": 5,
+                "usage_context_en": "[TRADUCIR AL FR: Una gran cantidad o número (usado con sustantivos contables e incontables).]",
+                "usage_context_es": "Una gran cantidad o número (usado con sustantivos contables e incontables).",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_21_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Pocos / Pocas (casi nada)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Pocos / Pocas (casi nada)]",
+                "usage_example": "Él tiene pocos amigos. (sentido negativo)",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Él tiene pocos amigos. (sentido negativo)]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para un pequeño número de un sustantivo contable (implica cantidad negativa, 'no suficientes').]",
+                "usage_context_es": "Usado para un pequeño número de un sustantivo contable (implica cantidad negativa, 'no suficientes').",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_23_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Poco / Poca (casi nada)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Poco / Poca (casi nada)]",
+                "usage_example": "Él tiene poco tiempo. (sentido negativo)",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Él tiene poco tiempo. (sentido negativo)]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para una pequeña cantidad de un sustantivo incontable (implica cantidad negativa, 'no suficiente').]",
+                "usage_context_es": "Usado para una pequeña cantidad de un sustantivo incontable (implica cantidad negativa, 'no suficiente').",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_24_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Suficiente(s)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Suficiente(s)]",
+                "usage_example": "No tengo suficiente dinero.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: No tengo suficiente dinero.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Tanto o tantos como sea necesario o requerido.]",
+                "usage_context_es": "Tanto o tantos como sea necesario o requerido.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Más",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Más]",
+                "usage_example": "Necesito más tiempo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Necesito más tiempo.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: Una cantidad o grado mayor o adicional.]",
+                "usage_context_es": "Una cantidad o grado mayor o adicional.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Menos (incontable)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Menos (incontable)]",
+                "usage_example": "Tengo menos dinero que tú.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Tengo menos dinero que tú.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Una cantidad menor de (usado con sustantivos incontables).]",
+                "usage_context_es": "Una cantidad menor de (usado con sustantivos incontables).",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Otro/a (uno más, adicional)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Otro/a (uno más, adicional)]",
+                "usage_example": "¿Puedo tomar otra galleta?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: ¿Puedo tomar otra galleta?]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para uno más, adicional, sustantivo contable singular.]",
+                "usage_context_es": "Usado para uno más, adicional, sustantivo contable singular.",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Otro/a (diferente)]",
+                "usage_example": "Reunámonos otro día.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Reunámonos otro día.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para un sustantivo contable singular diferente.]",
+                "usage_context_es": "Usado para un sustantivo contable singular diferente.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Otro/a / Otros/as (general)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "determiner/quantifier",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Otro/a / Otros/as (general)]",
+                "usage_example": "¿Tienes otras opciones?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: ¿Tienes otras opciones?]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para sustantivos plurales o incontables diferentes o adicionales.]",
+                "usage_context_es": "Usado para sustantivos plurales o incontables diferentes o adicionales.",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: El/La otro/a (específico)]",
+                "usage_example": "La otra llave está en la mesa.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: La otra llave está en la mesa.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL FR: Usado con 'the' para referirse al segundo de dos objetos específicos.]",
+                "usage_context_es": "Usado con 'the' para referirse al segundo de dos objetos específicos.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Quantifiers",
+        "category": "Basic"
+    }
+]

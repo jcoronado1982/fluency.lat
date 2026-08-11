@@ -1,0 +1,58 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "but",
+        "phonetic": "/bʌt/",
+        "spoken_phonetic_us": "/bʌt/",
+        "search_term": "conjunction/contrast",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Pero]",
+                "usage_example": "I like coffee, but I prefer tea.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE but AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I like coffee, but I prefer tea.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para introducir una frase o cláusula que contrasta con lo que ya se ha dicho.]",
+                "usage_context_es": "Used to introduce a phrase or clause contrasting with what has already been said.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_6_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Contrast",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "if",
+        "phonetic": "/ɪf/",
+        "spoken_phonetic_us": "/ɪf/",
+        "search_term": "conjunction/condition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Si (condicional)]",
+                "usage_example": "If it rains, I will stay home.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE if AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: If it rains, I will stay home.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para introducir una condición (algo que debe pasar primero).]",
+                "usage_context_es": "Used to introduce a condition (something that must happen first).",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_34_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Condition",
+        "category": ""
+    }
+]

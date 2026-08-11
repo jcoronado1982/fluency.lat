@@ -1,0 +1,3779 @@
+{
+  "summary": {
+    "DEF_COUNT_MISMATCH": 8,
+    "IMAGE_MISSING": 1,
+    "IMAGE_MISSING_NO_BASELINE": 18,
+    "WORD_COUNT_MISMATCH": 98,
+    "WORD_MISALIGNED": 357
+  },
+  "total_findings": 482,
+  "findings": [
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/core_survival.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 5
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/interrogative_adverbs.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 4
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/manner_degree_quantity.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 14,
+      "direction_count": 13
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/manner_degree_quantity.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "Demasiado / También",
+      "direction_headword": "Demasiado"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/manner_degree_quantity.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "Juntos/as",
+      "direction_headword": "Suficiente"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/manner_degree_quantity.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 11,
+      "baseline_headword": "Suficiente",
+      "direction_headword": "Más"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/manner_degree_quantity.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 12,
+      "baseline_headword": "Más",
+      "direction_headword": "Menos"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/place_direction.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 22,
+      "direction_count": 17
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/place_direction.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 14,
+      "baseline_headword": "A la derecha / Correcto",
+      "direction_headword": "A la derecha"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/time_sequence.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 13,
+      "direction_count": 8
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 7,
+      "direction_count": 8
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 0,
+      "baseline_headword": "Duro / Con esfuerzo",
+      "direction_headword": "Juntos/as"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "Fácilmente",
+      "direction_headword": "Duro / Con esfuerzo"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Silenciosamente / En voz baja",
+      "direction_headword": "Fácilmente"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "Ruidosamente / En voz alta",
+      "direction_headword": "Silenciosamente / En voz baja"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Claramente",
+      "direction_headword": "Ruidosamente / En voz alta"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Gradualmente / Poco a poco",
+      "direction_headword": "Claramente"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "De repente / Súbitamente",
+      "direction_headword": "Gradualmente / Poco a poco"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 9
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "Obviamente / Evidentemente",
+      "direction_headword": "Ciertamente / Sin duda"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "En realidad / De hecho",
+      "direction_headword": "Definitivamente / Sin duda"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "Basicamente / En esencia",
+      "direction_headword": "Afortunadamente / Por suerte"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Ciertamente / Sin duda",
+      "direction_headword": "Desafortunadamente / Lamentablemente"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Definitivamente / Sin duda",
+      "direction_headword": "Personalmente / En mi opinión"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Afortunadamente / Por suerte",
+      "direction_headword": "Honestamente / En serio"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Desafortunadamente / Lamentablemente",
+      "direction_headword": "Seriamente / Gravemente"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "Personalmente / En mi opinión",
+      "direction_headword": "Naturalmente / Por supuesto"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 9,
+      "direction_count": 8
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 0,
+      "baseline_headword": "Recientemente / Hace poco",
+      "direction_headword": "Ya"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "Finalmente / Al final",
+      "direction_headword": "Todavía / Aún"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Para siempre",
+      "direction_headword": "Recientemente / Hace poco"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "Por último / Finalmente (secuencia)",
+      "direction_headword": "Finalmente / Al final"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Rara vez / Casi nunca",
+      "direction_headword": "Para siempre"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Generalmente / Por lo general",
+      "direction_headword": "Por último / Finalmente (secuencia)"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Normalmente",
+      "direction_headword": "Rara vez / Casi nunca"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Frecuentemente / A menudo",
+      "direction_headword": "Generalmente / Por lo general"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/degree_focus_e_discourse_logic.json",
+      "type": "DEF_COUNT_MISMATCH",
+      "word_index": 5,
+      "name": "De lo contrario / Si no",
+      "baseline_def_count": 2,
+      "direction_def_count": 1
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/degree_focus_e_discourse_logic.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "De lo contrario / Si no",
+      "direction_headword": "De lo contrario / Si no"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/discourse_logic.json",
+      "type": "DEF_COUNT_MISMATCH",
+      "word_index": 2,
+      "name": "De lo contrario / Si no",
+      "baseline_def_count": 2,
+      "direction_def_count": 1
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/discourse_logic.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "De lo contrario / Si no",
+      "direction_headword": "De lo contrario / Si no"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/frequency_time.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 0,
+      "baseline_headword": "Constantemente",
+      "direction_headword": "Normalmente"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/frequency_time.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "Mientras tanto",
+      "direction_headword": "Frecuentemente / A menudo"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/frequency_time.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Ocasionalmente / De vez en cuando",
+      "direction_headword": "Comúnmente / Habitualmente"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/frequency_time.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "Periódicamente",
+      "direction_headword": "Constantemente"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/frequency_time.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Consistentemente / De manera constante",
+      "direction_headword": "Mientras tanto"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/frequency_time_e_manner_precision.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 0,
+      "baseline_headword": "Constantemente",
+      "direction_headword": "Normalmente"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/frequency_time_e_manner_precision.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Mientras tanto",
+      "direction_headword": "Frecuentemente / A menudo"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/frequency_time_e_manner_precision.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Ocasionalmente / De vez en cuando",
+      "direction_headword": "Comúnmente / Habitualmente"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/frequency_time_e_manner_precision.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Periódicamente",
+      "direction_headword": "Constantemente"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/frequency_time_e_manner_precision.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "Consistentemente / De manera constante",
+      "direction_headword": "Mientras tanto"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/sentence_stance.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "Aparentemente / Por lo visto",
+      "direction_headword": "Obviamente / Evidentemente"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/sentence_stance.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Se podría decir que / Posiblemente",
+      "direction_headword": "Aparentemente / Por lo visto"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/sentence_stance.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "Hay que admitirlo / Admitidamente",
+      "direction_headword": "En realidad / De hecho"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/sentence_stance.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Presumiblemente / Se supone que",
+      "direction_headword": "Básicamente / En esencia"
+    },
+    {
+      "direction": "en_es",
+      "file": "connectors/1-basic/cause_effect_basics.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 3
+    },
+    {
+      "direction": "en_es",
+      "file": "connectors/1-basic/cause_effect_basics_e_contrast_condition_basics.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 5
+    },
+    {
+      "direction": "en_es",
+      "file": "connectors/1-basic/contrast_condition_basics.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 2
+    },
+    {
+      "direction": "en_es",
+      "file": "connectors/1-basic/time_and_sequence.json",
+      "type": "DEF_COUNT_MISMATCH",
+      "word_index": 4,
+      "name": "Luego / Después",
+      "baseline_def_count": 1,
+      "direction_def_count": 2
+    },
+    {
+      "direction": "en_es",
+      "file": "connectors/1-basic/time_and_sequence.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Luego / Después",
+      "direction_headword": "Luego / Después"
+    },
+    {
+      "direction": "en_es",
+      "file": "connectors/2-intermediate/addition_and_clarification.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 4
+    },
+    {
+      "direction": "en_es",
+      "file": "connectors/2-intermediate/addition_and_clarification_e_reason_time_and_reference.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 11,
+      "direction_count": 8
+    },
+    {
+      "direction": "en_es",
+      "file": "connectors/2-intermediate/contrast_and_condition.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 11,
+      "direction_count": 9
+    },
+    {
+      "direction": "en_es",
+      "file": "connectors/2-intermediate/reason_time_and_reference.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 6,
+      "direction_count": 4
+    },
+    {
+      "direction": "en_es",
+      "file": "connectors/3-advanced/formal_addition_clarification.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 3
+    },
+    {
+      "direction": "en_es",
+      "file": "connectors/3-advanced/formal_addition_clarification_e_formal_cause_effect.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 7
+    },
+    {
+      "direction": "en_es",
+      "file": "connectors/3-advanced/formal_addition_clarification_e_formal_cause_effect.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Del mismo modo / Asimismo",
+      "direction_headword": "Así pues / Por lo tanto (formal)"
+    },
+    {
+      "direction": "en_es",
+      "file": "connectors/3-advanced/formal_cause_effect.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 4
+    },
+    {
+      "direction": "en_es",
+      "file": "determinant/1-basic/numbers_and_order.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 17,
+      "direction_count": 8
+    },
+    {
+      "direction": "en_es",
+      "file": "determinant/1-basic/reference_and_selection.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 12,
+      "baseline_headword": "Cuál / Cuáles",
+      "direction_headword": "Qué / Cuál"
+    },
+    {
+      "direction": "en_es",
+      "file": "determinant/3-advanced/reference_and_relation.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "El/La/Los/Las siguiente(s)",
+      "direction_headword": "Quienquiera que (formal)"
+    },
+    {
+      "direction": "en_es",
+      "file": "determinant/3-advanced/reference_and_relation.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "Respectivo/a",
+      "direction_headword": "El/La/Los/Las siguiente(s)"
+    },
+    {
+      "direction": "en_es",
+      "file": "determinant/3-advanced/reference_and_relation.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Mencionado anteriormente",
+      "direction_headword": "Respectivo/a"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/animals.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Oveja (singular y plural)",
+      "direction_headword": "Oveja"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/calendar.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 18,
+      "baseline_headword": "Fecha / Cita",
+      "direction_headword": "Fecha"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/classification.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 4
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/classification_e_clock_time.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 9
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/classification_e_clock_time.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "Tipo",
+      "direction_headword": "Reloj (de pared o mesa)"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/cognition_language.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 3
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/cognition_language_e_communication.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 10
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/cognition_language_e_communication.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Pensamiento / Idea",
+      "direction_headword": "Respuesta"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/cognition_language_e_communication.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Respuesta",
+      "direction_headword": "Idioma / Lenguaje"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/cognition_language_e_communication.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "Mente",
+      "direction_headword": "Información"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/cognition_language_e_communication.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "Idioma / Lenguaje",
+      "direction_headword": "Charla / Conversación"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/colors.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 11,
+      "baseline_headword": "The color between red and yellow.",
+      "direction_headword": "Naranja (color)"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 0,
+      "baseline_headword": "The largest continent.",
+      "direction_headword": "Asia"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "A continent west of Asia.",
+      "direction_headword": "Europa"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "A continent south of Europe.",
+      "direction_headword": "África"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "A continent in the Northern Hemisphere.",
+      "direction_headword": "América del Norte"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "A continent in the Western Hemisphere.",
+      "direction_headword": "América del Sur"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "A region and continent grouping in the Pacific.",
+      "direction_headword": "Oceanía"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "The continent around the South Pole.",
+      "direction_headword": "Antártida"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents_e_day_parts.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 0,
+      "baseline_headword": "The largest continent.",
+      "direction_headword": "Asia"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents_e_day_parts.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "A continent west of Asia.",
+      "direction_headword": "Europa"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents_e_day_parts.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "A continent south of Europe.",
+      "direction_headword": "África"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents_e_day_parts.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "A continent in the Northern Hemisphere.",
+      "direction_headword": "América del Norte"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents_e_day_parts.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "A continent in the Western Hemisphere.",
+      "direction_headword": "América del Sur"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents_e_day_parts.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "Around the middle of the day.",
+      "direction_headword": "Mediodía"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents_e_day_parts.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "A region and continent grouping in the Pacific.",
+      "direction_headword": "Oceanía"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents_e_day_parts.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 11,
+      "baseline_headword": "Twelve o'clock in the daytime.",
+      "direction_headword": "Mediodía"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents_e_day_parts.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 12,
+      "baseline_headword": "The continent around the South Pole.",
+      "direction_headword": "Antártida"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/continents_e_day_parts.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 13,
+      "baseline_headword": "Twelve o'clock at night.",
+      "direction_headword": "Medianoche"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "A major country in North America.",
+      "direction_headword": "Estados Unidos"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "A large country north of the United States.",
+      "direction_headword": "Canadá"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "A country south of the United States.",
+      "direction_headword": "México"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "The largest country in South America.",
+      "direction_headword": "Brasil"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "A major country in South America.",
+      "direction_headword": "Argentina"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "A country in the northwest of South America.",
+      "direction_headword": "Colombia"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "A country on the western side of South America.",
+      "direction_headword": "Perú"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "A country in southwestern Europe.",
+      "direction_headword": "España"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "A country in Western Europe.",
+      "direction_headword": "Francia"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "A central European country.",
+      "direction_headword": "Alemania"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 11,
+      "baseline_headword": "A country in southern Europe.",
+      "direction_headword": "Italia"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 12,
+      "baseline_headword": "An island country in northwestern Europe.",
+      "direction_headword": "Reino Unido"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 13,
+      "baseline_headword": "A large country in East Asia.",
+      "direction_headword": "China"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 14,
+      "baseline_headword": "An island country in East Asia.",
+      "direction_headword": "Japón"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 15,
+      "baseline_headword": "A very large country across Europe and Asia.",
+      "direction_headword": "Rusia"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 16,
+      "baseline_headword": "A major country in South Asia.",
+      "direction_headword": "India"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 17,
+      "baseline_headword": "A country in East Asia.",
+      "direction_headword": "Corea del Sur"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 18,
+      "baseline_headword": "A large country in Oceania.",
+      "direction_headword": "Australia"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 19,
+      "baseline_headword": "A country in North Africa.",
+      "direction_headword": "Egipto"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 20,
+      "baseline_headword": "A large country in West Africa.",
+      "direction_headword": "Nigeria"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/countries.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 21,
+      "baseline_headword": "A country at the southern end of Africa.",
+      "direction_headword": "Sudáfrica"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/day_parts.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Around the middle of the day.",
+      "direction_headword": "Mediodía"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/day_parts.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Twelve o'clock in the daytime.",
+      "direction_headword": "Mediodía"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/day_parts.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Twelve o'clock at night.",
+      "direction_headword": "Medianoche"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/economy_e_health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "A substance used to treat illness.",
+      "direction_headword": "Medicina / Medicamento"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/economy_e_health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "A person receiving medical care.",
+      "direction_headword": "Paciente"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/economy_e_health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "A condition of being sick.",
+      "direction_headword": "Enfermedad"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 41,
+      "direction_count": 42
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 19,
+      "baseline_headword": "Banana / Plátano",
+      "direction_headword": "Naranja (fruta)"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 20,
+      "baseline_headword": "Queso",
+      "direction_headword": "Banana / Plátano"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 21,
+      "baseline_headword": "Azúcar",
+      "direction_headword": "Queso"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 22,
+      "baseline_headword": "Sal",
+      "direction_headword": "Azúcar"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 23,
+      "baseline_headword": "Pimienta / Pimiento",
+      "direction_headword": "Sal"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 24,
+      "baseline_headword": "Aceite",
+      "direction_headword": "Pimienta / Pimiento"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 25,
+      "baseline_headword": "Mantequilla",
+      "direction_headword": "Aceite"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 26,
+      "baseline_headword": "Sopa",
+      "direction_headword": "Mantequilla"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 27,
+      "baseline_headword": "Ensalada",
+      "direction_headword": "Sopa"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 28,
+      "baseline_headword": "Sándwich / Emparedado",
+      "direction_headword": "Ensalada"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 29,
+      "baseline_headword": "Torta / Pastel",
+      "direction_headword": "Sándwich / Emparedado"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 30,
+      "baseline_headword": "Jugo / Zumo",
+      "direction_headword": "Torta / Pastel"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 31,
+      "baseline_headword": "Cerveza",
+      "direction_headword": "Jugo / Zumo"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 32,
+      "baseline_headword": "Vino",
+      "direction_headword": "Cerveza"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 33,
+      "baseline_headword": "Cebolla",
+      "direction_headword": "Vino"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 34,
+      "baseline_headword": "Ajo",
+      "direction_headword": "Cebolla"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 35,
+      "baseline_headword": "Chocolate",
+      "direction_headword": "Ajo"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 36,
+      "baseline_headword": "Postre",
+      "direction_headword": "Chocolate"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 37,
+      "baseline_headword": "Merienda / Snack",
+      "direction_headword": "Postre"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 38,
+      "baseline_headword": "Tocino / Bacon",
+      "direction_headword": "Merienda / Snack"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 39,
+      "baseline_headword": "Ketchup / Cátsup",
+      "direction_headword": "Tocino / Bacon"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 40,
+      "baseline_headword": "Helado",
+      "direction_headword": "Ketchup / Cátsup"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "A substance used to treat illness.",
+      "direction_headword": "Medicina / Medicamento"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "A person receiving medical care.",
+      "direction_headword": "Paciente"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "A condition of being sick.",
+      "direction_headword": "Enfermedad"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/home_rooms.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "The main room in a home for sitting and relaxing.",
+      "direction_headword": "Sala / Sala de estar"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/home_rooms.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 11,
+      "baseline_headword": "A room where people eat meals.",
+      "direction_headword": "Comedor"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/home_rooms.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 12,
+      "baseline_headword": "A place where a car is kept.",
+      "direction_headword": "Garaje"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/household_items.json",
+      "type": "DEF_COUNT_MISMATCH",
+      "word_index": 6,
+      "name": "Luz / Lámpara",
+      "baseline_def_count": 3,
+      "direction_def_count": 2
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/household_items.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Luz / Lámpara",
+      "direction_headword": "Luz / Lámpara"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/household_items.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 29,
+      "baseline_headword": "A metal container used for cooking food.",
+      "direction_headword": "Sartén"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/household_items.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 30,
+      "baseline_headword": "A deep container used for cooking.",
+      "direction_headword": "Olla"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/location.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 20,
+      "baseline_headword": "A place where you can enter.",
+      "direction_headword": "Entrada"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/location.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 21,
+      "baseline_headword": "A way out of a place.",
+      "direction_headword": "Salida"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/location.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 22,
+      "baseline_headword": "The way something points or moves.",
+      "direction_headword": "Dirección"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/logic_reasoning.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 4
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/logic_reasoning_e_measurement_quantity.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 7
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/materials_substances.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 11,
+      "direction_count": 12
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/materials_substances.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "A substance or matter used to make things.",
+      "direction_headword": "Material"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/materials_substances.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "A metal made mostly of copper and tin.",
+      "direction_headword": "Bronce"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/materials_substances.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "A common strong metal.",
+      "direction_headword": "Hierro"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/materials_substances.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "A very strong metal made from iron.",
+      "direction_headword": "Acero"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/materials_substances.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "A reddish-brown metal.",
+      "direction_headword": "Cobre"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/measurement_quantity.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 3
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/numbers.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 21,
+      "baseline_headword": "The number 0.",
+      "direction_headword": "Cero"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/numbers.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 22,
+      "baseline_headword": "The number 100.",
+      "direction_headword": "Cien"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/oceans_seas.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "The largest ocean on Earth.",
+      "direction_headword": "Océano Pacífico"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/oceans_seas.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "The ocean between the Americas and Europe/Africa.",
+      "direction_headword": "Océano Atlántico"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/oceans_seas.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "The ocean between Africa, Asia, and Australia.",
+      "direction_headword": "Océano Índico"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/oceans_seas.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "The ocean around the North Pole.",
+      "direction_headword": "Océano Ártico"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/oceans_seas.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "The ocean surrounding Antarctica.",
+      "direction_headword": "Océano Austral"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/oceans_seas.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "A sea between Europe, Africa, and Asia.",
+      "direction_headword": "Mar Mediterráneo"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/oceans_seas.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "A sea in the Caribbean region.",
+      "direction_headword": "Mar Caribe"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/oceans_seas.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "A sea between Africa and Asia.",
+      "direction_headword": "Mar Rojo"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/oceans_seas.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "A sea between Eastern Europe and Western Asia.",
+      "direction_headword": "Mar Negro"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/oceans_seas.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 11,
+      "baseline_headword": "A sea between Great Britain and northern Europe.",
+      "direction_headword": "Mar del Norte"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/oceans_seas.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 12,
+      "baseline_headword": "A sea in the northwest Indian Ocean.",
+      "direction_headword": "Mar Arábigo"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/oceans_seas.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 13,
+      "baseline_headword": "A sea in Northern Europe.",
+      "direction_headword": "Mar Báltico"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/personal_items.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Lenses worn to help someone see.",
+      "direction_headword": "Gafas / Lentes"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/personal_items.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "A bag carried on the back.",
+      "direction_headword": "Mochila"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/personal_items.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "A device worn on the ears to listen to sound.",
+      "direction_headword": "Audífonos / Auriculares"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/personal_items.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "An official document for international travel.",
+      "direction_headword": "Pasaporte"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/process_change.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 4,
+      "direction_count": 2
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/process_change_e_seasons.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 11,
+      "direction_count": 8
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/process_change_e_seasons.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Comienzo / Inicio",
+      "direction_headword": "Verano"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/process_change_e_seasons.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Verano",
+      "direction_headword": "Otoño (AmE)"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/process_change_e_seasons.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Final",
+      "direction_headword": "Otoño (BrE)"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/process_change_e_seasons.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Otoño (AmE)",
+      "direction_headword": "Invierno"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/school.json",
+      "type": "DEF_COUNT_MISMATCH",
+      "word_index": 1,
+      "name": "Libro",
+      "baseline_def_count": 2,
+      "direction_def_count": 1
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/school.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "Libro",
+      "direction_headword": "Libro"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/school.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 18,
+      "baseline_headword": "A book of blank pages for writing notes.",
+      "direction_headword": "Cuaderno"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/school.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 19,
+      "baseline_headword": "An object used to remove pencil marks.",
+      "direction_headword": "Borrador / Goma de borrar"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/school.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 20,
+      "baseline_headword": "A straight tool used for measuring or drawing lines.",
+      "direction_headword": "Regla"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/social_customs.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "The yearly anniversary of a person's birth.",
+      "direction_headword": "Cumpleaños"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/social_customs.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "A ceremony where two people get married.",
+      "direction_headword": "Boda"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/social_customs.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "A special day of celebration or rest.",
+      "direction_headword": "Día festivo / Festividad"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/sports.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 9,
+      "direction_count": 8
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/structure_components.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 2
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/structure_components_e_work.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 9
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/structure_components_e_work.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Sección",
+      "direction_headword": "Empresa / Compañía"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/structure_components_e_work.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Empresa / Compañía",
+      "direction_headword": "Negocio / Empresa"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/structure_components_e_work.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Unidad",
+      "direction_headword": "Escritorio"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/structure_components_e_work.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Negocio / Empresa",
+      "direction_headword": "Cliente"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/structure_components_e_work.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "Miembro",
+      "direction_headword": "Reunión"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/classification_e_household_items.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 11,
+      "direction_count": 8
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/classification_e_household_items.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Utensilio",
+      "direction_headword": "Variedad"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/classification_e_household_items.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Variedad",
+      "direction_headword": "Categoría"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/classification_e_household_items.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Muebles / Mobiliario",
+      "direction_headword": "Diferencia"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/goals_plans.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Arreglo / Plan",
+      "direction_headword": "Plan / Acuerdo"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 20,
+      "direction_count": 23
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 0,
+      "baseline_headword": "Medicamento / Fármaco",
+      "direction_headword": "Medicina (la ciencia)"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "Receta (médica) / Fórmula",
+      "direction_headword": "Medicamento / Fármaco"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Enfermedad (específica / diagnosticable)",
+      "direction_headword": "Receta (médica) / Fórmula"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "Dolor de cabeza",
+      "direction_headword": "Paciente"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Temperatura",
+      "direction_headword": "Enfermedad (general / malestar)"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Lesión / Herida",
+      "direction_headword": "Enfermedad (específica / diagnosticable)"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Herida (abierta / corte)",
+      "direction_headword": "Dolor de cabeza"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Cerebro",
+      "direction_headword": "Temperatura"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "Cirugía",
+      "direction_headword": "Lesión / Herida"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "Cáncer",
+      "direction_headword": "Herida (abierta / corte)"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "Alergia",
+      "direction_headword": "Cerebro"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 11,
+      "baseline_headword": "Síntoma",
+      "direction_headword": "Cirugía"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 12,
+      "baseline_headword": "Terapia",
+      "direction_headword": "Cáncer"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 13,
+      "baseline_headword": "Cita médica / Turno",
+      "direction_headword": "Alergia"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 14,
+      "baseline_headword": "Dieta",
+      "direction_headword": "Síntoma"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 15,
+      "baseline_headword": "Nutrición",
+      "direction_headword": "Terapia"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 16,
+      "baseline_headword": "Vitamina",
+      "direction_headword": "Cita médica / Turno"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 17,
+      "baseline_headword": "Salud mental",
+      "direction_headword": "Dieta"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 18,
+      "baseline_headword": "Obesidad",
+      "direction_headword": "Nutrición"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 19,
+      "baseline_headword": "Discapacidad",
+      "direction_headword": "Vitamina"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/household_items.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 2
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/location.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 4,
+      "direction_count": 3
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/location.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "Distancia",
+      "direction_headword": "Dirección (rumbo)"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/location.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Punto de referencia / Monumento",
+      "direction_headword": "Distancia"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/location_e_logic_reasoning.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 10
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/location_e_logic_reasoning.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Punto de referencia / Monumento",
+      "direction_headword": "Significado"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/location_e_logic_reasoning.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Significado",
+      "direction_headword": "Posibilidad"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/location_e_logic_reasoning.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "Cercanías / Proximidad",
+      "direction_headword": "Probabilidad"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/location_e_logic_reasoning.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "Posibilidad",
+      "direction_headword": "Declaración / Afirmación"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/materials_substances.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 4,
+      "direction_count": 1
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/materials_substances.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 0,
+      "baseline_headword": "Tela / Tejido",
+      "direction_headword": "Acero"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/materials_substances_e_people.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 3
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/materials_substances_e_people.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Tela / Tejido",
+      "direction_headword": "Colega / Compañero de trabajo"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/numbers.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Mil",
+      "direction_headword": "Cien / Ciento"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/numbers.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "Millón",
+      "direction_headword": "Mil"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/people.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 2
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/places.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 14
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/places.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "Ruta / Camino",
+      "direction_headword": "Garaje"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/places.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 11,
+      "baseline_headword": "Ubicación / Lugar",
+      "direction_headword": "Ruta / Camino"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/science.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Bacteria (plural)",
+      "direction_headword": "Bacterias (plural; singular: bacteria)"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/social_customs.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 2
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/social_customs_e_spirit_identity.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 5
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/social_customs_e_spirit_identity.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Costumbre",
+      "direction_headword": "Identidad"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/spirit_identity.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 3
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 17,
+      "direction_count": 18
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "Servidor",
+      "direction_headword": "Nube / Cloud"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 11,
+      "baseline_headword": "Actualización",
+      "direction_headword": "Servidor"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 12,
+      "baseline_headword": "Copia de seguridad",
+      "direction_headword": "Actualización"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 13,
+      "baseline_headword": "Inteligencia artificial",
+      "direction_headword": "Copia de seguridad"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 14,
+      "baseline_headword": "Datos",
+      "direction_headword": "Inteligencia artificial"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 15,
+      "baseline_headword": "Ciberseguridad",
+      "direction_headword": "Datos"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 16,
+      "baseline_headword": "Transmisión en línea / Streaming",
+      "direction_headword": "Ciberseguridad"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 24,
+      "direction_count": 25
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 16,
+      "baseline_headword": "Gasolinera / Estación de servicio (US)",
+      "direction_headword": "Pasaporte"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 17,
+      "baseline_headword": "Gasolinera / Estación de servicio (UK)",
+      "direction_headword": "Gasolinera / Estación de servicio (US)"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 18,
+      "baseline_headword": "Entrega / Reparto",
+      "direction_headword": "Gasolinera / Estación de servicio (UK)"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 19,
+      "baseline_headword": "Alojamiento / Hospedaje",
+      "direction_headword": "Entrega / Reparto"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 20,
+      "baseline_headword": "Visa",
+      "direction_headword": "Alojamiento / Hospedaje"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 21,
+      "baseline_headword": "Aduana",
+      "direction_headword": "Visa"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 22,
+      "baseline_headword": "Itinerario",
+      "direction_headword": "Aduana"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 23,
+      "baseline_headword": "Peatón",
+      "direction_headword": "Itinerario"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/calendar.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 2
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/calendar_e_communication.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 3
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/communication.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 1
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/economy_e_feelings.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 9
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/feelings.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 4
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/goals_plans.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 2
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/goals_plans_e_health.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 3
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/health.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 1
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/logic_reasoning.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 3
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/logic_reasoning_e_materials_substances.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 6
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/materials_substances.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 3
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/measurement_quantity_e_nature.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 11,
+      "direction_count": 7
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/measurement_quantity_e_nature.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "Ecosistema",
+      "direction_headword": "Competencia / Capacidad"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/measurement_quantity_e_nature.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Competencia / Capacidad",
+      "direction_headword": "Indicador"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/measurement_quantity_e_nature.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Biodiversidad",
+      "direction_headword": "Proporción / Parte"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/measurement_quantity_e_nature.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Indicador",
+      "direction_headword": "Fuerza"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/nature.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 1
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/science.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 1
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/science_e_society.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 6
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/science_e_society.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Molécula",
+      "direction_headword": "Obligación"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/science_e_society.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "Obligación",
+      "direction_headword": "Sanción / Multa / Castigo"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/science_e_society.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Organismo",
+      "direction_headword": "Político/a"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/science_e_society.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Multa / Castigo / Penal",
+      "direction_headword": "Infraestructura"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/society.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Multa / Castigo / Penal",
+      "direction_headword": "Sanción / Multa / Castigo"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/structure_components.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 4
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/3-advanced/work.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 2
+    },
+    {
+      "direction": "en_es",
+      "file": "phrasal_verbs/1-basic/daily_life_home.json",
+      "type": "DEF_COUNT_MISMATCH",
+      "word_index": 10,
+      "name": "Sacar (la basura)",
+      "baseline_def_count": 3,
+      "direction_def_count": 2
+    },
+    {
+      "direction": "en_es",
+      "file": "phrasal_verbs/1-basic/daily_life_home.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "Sacar (la basura)",
+      "direction_headword": "Sacar (la basura)"
+    },
+    {
+      "direction": "en_es",
+      "file": "phrasal_verbs/1-basic/difficult_situations_e_progress_reactions.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 11,
+      "direction_count": 10
+    },
+    {
+      "direction": "en_es",
+      "file": "phrasal_verbs/1-basic/difficult_situations_e_progress_reactions.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "Animarse / Alegrarse",
+      "direction_headword": "Agotarse, quedarse sin (algo)"
+    },
+    {
+      "direction": "en_es",
+      "file": "phrasal_verbs/1-basic/progress_reactions.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 4
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/interrogative_pronouns.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 3
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/interrogative_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "¿Cuál / Cuáles?",
+      "direction_headword": "Qué / Cuál / Que"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/interrogative_pronouns_e_object_pronouns.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 10
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/interrogative_pronouns_e_object_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "¿Cuál / Cuáles?",
+      "direction_headword": "Qué / Cuál / Que"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/interrogative_pronouns_e_object_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "A quién / A quien",
+      "direction_headword": "Los / Las / Les / A ellos/as"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/interrogative_pronouns_e_object_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Los / Las / Les / A ellos/as",
+      "direction_headword": "Te / Lo / La / Le / A ti / A usted(es)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/interrogative_pronouns_e_object_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "Quién más",
+      "direction_headword": "Lo / La"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/interrogative_pronouns_e_object_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "Tú / Usted / Ustedes (Sujeto)",
+      "direction_headword": "La / Le / A ella"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/object_pronouns.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 7
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/object_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "La / Le / A ella (Objeto)",
+      "direction_headword": "Te / Lo / La / Le / A ti / A usted(es)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/possessive_adjectives.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 6,
+      "direction_count": 7
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/possessive_adjectives.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Suyo / Suyos (de él) (Pronombre)",
+      "direction_headword": "Su / Sus (de ella)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/subject_pronouns.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 7,
+      "direction_count": 6
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/subject_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Tú / Usted / Ustedes (Sujeto)",
+      "direction_headword": "Tú / Usted / Ustedes"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/2-intermediate/demonstrative_pronouns.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 4
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 11
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "Tal / Semejante cosa",
+      "direction_headword": "Suyo / Suya / Suyos / Suyas (de ellos/ellas)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "Suyo / Suya / Suyos / Suyas (de ellos/ellas)",
+      "direction_headword": "Suyo / Suya / Suyos / Suyas (de él)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "Su / Sus (de él) (Determinante)",
+      "direction_headword": "Mi propio/a"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/2-intermediate/possessive_pronouns_and_emphasis.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 6,
+      "direction_count": 7
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/2-intermediate/possessive_pronouns_and_emphasis.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Mi propio/a",
+      "direction_headword": "Suyo / Suya / Suyos / Suyas (de él)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/2-intermediate/reflexive_and_reciprocal_pronouns.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 9
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 20
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 0,
+      "baseline_headword": "Cada uno de nosotros",
+      "direction_headword": "Cada uno / Cada una"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "Ninguno de ellos/as",
+      "direction_headword": "Ambos/as (Determinante)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "La mayoría de ellos/as",
+      "direction_headword": "Pocos / Pocas (Determinante)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "Algunos de nosotros",
+      "direction_headword": "Muchos / Muchas (Determinante)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Uno de ellos / Una de ellas",
+      "direction_headword": "Varios/as (Determinante)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Ambos / Nosotros dos",
+      "direction_headword": "Ninguno / Ninguna / Nada"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Ninguno de ellos (dos)",
+      "direction_headword": "Cualquiera (de dos) (Determinante)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Cualquiera de ellos (dos)",
+      "direction_headword": "Ninguno (de dos) (Determinante)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "Todos nosotros",
+      "direction_headword": "Cada uno de nosotros"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "Todos ellos/as",
+      "direction_headword": "Ninguno de ellos/as"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "Algunos de ellos/as",
+      "direction_headword": "La mayoría de ellos/as"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 11,
+      "baseline_headword": "Parte de nosotros",
+      "direction_headword": "Algunos de nosotros"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/1-basic/action.json",
+      "type": "IMAGE_MISSING",
+      "word_index": 0,
+      "def_index": 1,
+      "name": "Hacer (una actividad)",
+      "expected_imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_0_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/1-basic/communication.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 11,
+      "direction_count": 9
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/1-basic/movement.json",
+      "type": "DEF_COUNT_MISMATCH",
+      "word_index": 0,
+      "name": "Ir (moverse a un lugar)",
+      "baseline_def_count": 2,
+      "direction_def_count": 1
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/1-basic/movement.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 0,
+      "baseline_headword": "Ir (moverse a un lugar)",
+      "direction_headword": "Ir (moverse a un lugar)"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/1-basic/possession_exchange.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 10
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/1-basic/thinking.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 16,
+      "direction_count": 9
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/being_state.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 2
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/being_state_e_creation.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 11,
+      "direction_count": 8
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/being_state_e_creation.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Existir",
+      "direction_headword": "Construir/Edificar"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/being_state_e_creation.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Construir/Edificar",
+      "direction_headword": "Levantar/Alzar"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/being_state_e_creation.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Ocurrir / Suceder",
+      "direction_headword": "Desarrollar/Crear"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/being_state_e_creation.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Levantar/Alzar",
+      "direction_headword": "Formar/Crear"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/feelings.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 4
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/possession_exchange.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 3
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 16
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Considerar/Pensar en",
+      "direction_headword": "Recordar"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "Esperar (que algo suceda)",
+      "direction_headword": "Considerar/Pensar en"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Decidir/Resolver",
+      "direction_headword": "Esperar (que algo suceda)"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Elegir/Escoger",
+      "direction_headword": "Decidir/Resolver"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Darse cuenta de",
+      "direction_headword": "Entender/Comprender"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Adivinar",
+      "direction_headword": "Elegir/Escoger"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "Preguntarse/Querer saber",
+      "direction_headword": "Olvidar"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "Reconocer (identificar)",
+      "direction_headword": "Darse cuenta de"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "Dudar (no estar seguro)",
+      "direction_headword": "Adivinar"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 11,
+      "baseline_headword": "Planear/Planificar",
+      "direction_headword": "Preguntarse/Querer saber"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/3-advanced/movement.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 1
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/3-advanced/possession_exchange.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 1
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/core_survival_e_frequency_routine.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "No"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/core_survival_e_frequency_routine.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 4,
+      "def_index": 0,
+      "name": "No"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 0,
+      "def_index": 0,
+      "name": "Alguien"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "Alguien (en preguntas)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 2,
+      "def_index": 1,
+      "name": "Alguien (en preguntas)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 2,
+      "def_index": 2,
+      "name": "Alguien (en preguntas)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 4,
+      "def_index": 0,
+      "name": "Todos / Todas (las personas)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "Nadie"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "Otro / Otra"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 9,
+      "def_index": 1,
+      "name": "Otro / Otra"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "Todos / Todas (las personas)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "Nadie"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "Alguien (en preguntas)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 13,
+      "def_index": 1,
+      "name": "Alguien (en preguntas)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 13,
+      "def_index": 2,
+      "name": "Alguien (en preguntas)"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "Alguien"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "Alguien más"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "type": "IMAGE_MISSING_NO_BASELINE",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "Alguien más"
+    },
+    {
+      "direction": "es_de",
+      "file": "connectors/1-basic/time_and_sequence.json",
+      "type": "DEF_COUNT_MISMATCH",
+      "word_index": 4,
+      "name": "dann",
+      "baseline_def_count": 1,
+      "direction_def_count": 2
+    },
+    {
+      "direction": "es_de",
+      "file": "connectors/1-basic/time_and_sequence.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Luego / Después",
+      "direction_headword": "Luego / Después"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 41,
+      "direction_count": 42
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 19,
+      "baseline_headword": "Banana / Plátano",
+      "direction_headword": "Naranja (fruta)"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 20,
+      "baseline_headword": "Queso",
+      "direction_headword": "Banana / Plátano"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 21,
+      "baseline_headword": "Azúcar",
+      "direction_headword": "Queso"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 22,
+      "baseline_headword": "Sal",
+      "direction_headword": "Azúcar"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 23,
+      "baseline_headword": "Pimienta / Pimiento",
+      "direction_headword": "Sal"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 24,
+      "baseline_headword": "Aceite",
+      "direction_headword": "Pimienta / Pimiento"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 25,
+      "baseline_headword": "Mantequilla",
+      "direction_headword": "Aceite"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 26,
+      "baseline_headword": "Sopa",
+      "direction_headword": "Mantequilla"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 27,
+      "baseline_headword": "Ensalada",
+      "direction_headword": "Sopa"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 28,
+      "baseline_headword": "Sándwich / Emparedado",
+      "direction_headword": "Ensalada"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 29,
+      "baseline_headword": "Torta / Pastel",
+      "direction_headword": "Sándwich / Emparedado"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 30,
+      "baseline_headword": "Jugo / Zumo",
+      "direction_headword": "Torta / Pastel"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 31,
+      "baseline_headword": "Cerveza",
+      "direction_headword": "Jugo / Zumo"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 32,
+      "baseline_headword": "Vino",
+      "direction_headword": "Cerveza"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 33,
+      "baseline_headword": "Cebolla",
+      "direction_headword": "Vino"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 34,
+      "baseline_headword": "Ajo",
+      "direction_headword": "Cebolla"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 35,
+      "baseline_headword": "Chocolate",
+      "direction_headword": "Ajo"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 36,
+      "baseline_headword": "Postre",
+      "direction_headword": "Chocolate"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 37,
+      "baseline_headword": "Merienda / Snack",
+      "direction_headword": "Postre"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 38,
+      "baseline_headword": "Tocino / Bacon",
+      "direction_headword": "Merienda / Snack"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 39,
+      "baseline_headword": "Ketchup / Cátsup",
+      "direction_headword": "Tocino / Bacon"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 40,
+      "baseline_headword": "Helado",
+      "direction_headword": "Ketchup / Cátsup"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/process_change.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 4,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 20,
+      "direction_count": 23
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 0,
+      "baseline_headword": "Medicamento / Fármaco",
+      "direction_headword": "Medicina (la ciencia)"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "Receta (médica) / Fórmula",
+      "direction_headword": "Medicamento / Fármaco"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Enfermedad (específica / diagnosticable)",
+      "direction_headword": "Receta (médica) / Fórmula"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "Dolor de cabeza",
+      "direction_headword": "Paciente"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "Temperatura",
+      "direction_headword": "Enfermedad (general / malestar)"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Lesión / Herida",
+      "direction_headword": "Enfermedad (específica / diagnosticable)"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 6,
+      "baseline_headword": "Herida (abierta / corte)",
+      "direction_headword": "Dolor de cabeza"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Cerebro",
+      "direction_headword": "Temperatura"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "Cirugía",
+      "direction_headword": "Lesión / Herida"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 9,
+      "baseline_headword": "Cáncer",
+      "direction_headword": "Herida (abierta / corte)"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "Alergia",
+      "direction_headword": "Cerebro"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 11,
+      "baseline_headword": "Síntoma",
+      "direction_headword": "Cirugía"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 12,
+      "baseline_headword": "Terapia",
+      "direction_headword": "Cáncer"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 13,
+      "baseline_headword": "Cita médica / Turno",
+      "direction_headword": "Alergia"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 14,
+      "baseline_headword": "Dieta",
+      "direction_headword": "Síntoma"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 15,
+      "baseline_headword": "Nutrición",
+      "direction_headword": "Terapia"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 16,
+      "baseline_headword": "Vitamina",
+      "direction_headword": "Cita médica / Turno"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 17,
+      "baseline_headword": "Salud mental",
+      "direction_headword": "Dieta"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 18,
+      "baseline_headword": "Obesidad",
+      "direction_headword": "Nutrición"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 19,
+      "baseline_headword": "Discapacidad",
+      "direction_headword": "Vitamina"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/location.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 4,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/location.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "Distancia",
+      "direction_headword": "Dirección (rumbo)"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/location.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Punto de referencia / Monumento",
+      "direction_headword": "Distancia"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/location.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "Cercanías / Proximidad",
+      "direction_headword": "Punto de referencia / Monumento"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/materials_substances.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 4,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/materials_substances.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 0,
+      "baseline_headword": "Tela / Tejido",
+      "direction_headword": "Acero"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/materials_substances.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "Fibra",
+      "direction_headword": "Tela / Tejido"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/materials_substances.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Textil / Tela",
+      "direction_headword": "Fibra"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/materials_substances.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "Aleación",
+      "direction_headword": "Textil / Tela"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/numbers.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 9,
+      "direction_count": 10
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/numbers.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 7,
+      "baseline_headword": "Mil",
+      "direction_headword": "Cien / Ciento"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/numbers.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 8,
+      "baseline_headword": "Millón",
+      "direction_headword": "Mil"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/places.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 14
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/places.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "Ruta / Camino",
+      "direction_headword": "Garaje"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/places.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 11,
+      "baseline_headword": "Ubicación / Lugar",
+      "direction_headword": "Ruta / Camino"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 17,
+      "direction_count": 18
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 10,
+      "baseline_headword": "Servidor",
+      "direction_headword": "Nube / Cloud"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 11,
+      "baseline_headword": "Actualización",
+      "direction_headword": "Servidor"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 12,
+      "baseline_headword": "Copia de seguridad",
+      "direction_headword": "Actualización"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 13,
+      "baseline_headword": "Inteligencia artificial",
+      "direction_headword": "Copia de seguridad"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 14,
+      "baseline_headword": "Datos",
+      "direction_headword": "Inteligencia artificial"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 15,
+      "baseline_headword": "Ciberseguridad",
+      "direction_headword": "Datos"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 16,
+      "baseline_headword": "Transmisión en línea / Streaming",
+      "direction_headword": "Ciberseguridad"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 24,
+      "direction_count": 25
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 16,
+      "baseline_headword": "Gasolinera / Estación de servicio (US)",
+      "direction_headword": "Pasaporte"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 17,
+      "baseline_headword": "Gasolinera / Estación de servicio (UK)",
+      "direction_headword": "Gasolinera / Estación de servicio (US)"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 18,
+      "baseline_headword": "Entrega / Reparto",
+      "direction_headword": "Gasolinera / Estación de servicio (UK)"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 19,
+      "baseline_headword": "Alojamiento / Hospedaje",
+      "direction_headword": "Entrega / Reparto"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 20,
+      "baseline_headword": "Visa",
+      "direction_headword": "Alojamiento / Hospedaje"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 21,
+      "baseline_headword": "Aduana",
+      "direction_headword": "Visa"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 22,
+      "baseline_headword": "Itinerario",
+      "direction_headword": "Aduana"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 23,
+      "baseline_headword": "Peatón",
+      "direction_headword": "Itinerario"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/1-basic/object_pronouns.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 5,
+      "direction_count": 7
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/1-basic/object_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 4,
+      "baseline_headword": "La / Le / A ella (Objeto)",
+      "direction_headword": "Tú / Usted / Ustedes (Sujeto)"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/1-basic/possessive_adjectives.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 6,
+      "direction_count": 7
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/1-basic/possessive_adjectives.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Suyo / Suyos (de él) (Pronombre)",
+      "direction_headword": "La / Le / A ella (Objeto)"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/1-basic/quantifier_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "Ambos/as (Pronombre)",
+      "direction_headword": "Ambos/as (Determinante)"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/1-basic/quantifier_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Muchos / Muchas (Pronombre)",
+      "direction_headword": "Muchos / Muchas (Determinante)"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/possessive_pronouns_and_emphasis.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 6,
+      "direction_count": 7
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/possessive_pronouns_and_emphasis.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 5,
+      "baseline_headword": "Mi propio/a",
+      "direction_headword": "Su / Sus (de él) (Determinante)"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/quantifier_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 0,
+      "baseline_headword": "Pocos / Pocas (Pronombre)",
+      "direction_headword": "Pocos / Pocas (Determinante)"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/quantifier_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 1,
+      "baseline_headword": "Varios/as (Pronombre)",
+      "direction_headword": "Varios/as (Determinante)"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/quantifier_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 2,
+      "baseline_headword": "Cualquiera (de dos) (Pronombre)",
+      "direction_headword": "Cualquiera (de dos) (Determinante)"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/quantifier_pronouns.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 3,
+      "baseline_headword": "Ninguno (de dos) (Pronombre)",
+      "direction_headword": "Ninguno (de dos) (Determinante)"
+    }
+  ]
+}

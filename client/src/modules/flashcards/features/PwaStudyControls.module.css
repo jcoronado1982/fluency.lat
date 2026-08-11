@@ -1,0 +1,90 @@
+.pwaControls {
+    display: none;
+}
+
+@media (display-mode: standalone) and (max-width: 768px) {
+    .pwaControls {
+        position: relative;
+        z-index: 6;
+        display: flex;
+        width: fit-content;
+        min-height: 58px;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        margin: -32px auto 0;
+        padding: 6px;
+        box-sizing: border-box;
+    }
+
+    .pwaControls[data-layout='standard'] {
+        margin-top: -80px;
+    }
+
+    :global(body:has([data-tour='boton-voltear-tarjeta'][data-state='back'])) .pwaControls {
+        display: none;
+    }
+
+    .secondaryAction,
+    .primaryAction {
+        display: grid;
+        width: 52px;
+        height: 52px;
+        min-width: 52px;
+        min-height: 52px;
+        place-items: center;
+        padding: 0;
+        border: 1px solid var(--pwa-nav-border, rgba(255, 255, 255, 0.1));
+        border-radius: 50%;
+        background: var(--pwa-nav-surface, rgba(18, 22, 30, 0.62));
+        cursor: pointer;
+        box-shadow: 0 12px 34px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(28px) saturate(1.4);
+        -webkit-backdrop-filter: blur(28px) saturate(1.4);
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .secondaryAction {
+        color: #e11d48;
+    }
+
+    .primaryAction {
+        color: #6ee7b7;
+    }
+
+    .secondaryAction svg,
+    .primaryAction svg {
+        width: 25px;
+        height: 25px;
+        stroke-width: var(--brand-icon-stroke, 2);
+    }
+
+    .secondaryAction:disabled,
+    .primaryAction:disabled {
+        opacity: 0.38;
+        cursor: default;
+    }
+
+    .secondaryAction:focus-visible,
+    .primaryAction:focus-visible {
+        outline: 3px solid rgba(255, 255, 255, 0.72);
+        outline-offset: 3px;
+    }
+
+    .progress {
+        min-width: 62px;
+        padding: 9px 12px;
+        color: rgba(255, 255, 255, 0.94);
+        font-family: var(--font-family-app, var(--font-family-body));
+        font-size: 0.92rem;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+        border: 1px solid var(--pwa-nav-border, rgba(255, 255, 255, 0.1));
+        border-radius: 999px;
+        background: var(--pwa-nav-surface, rgba(18, 22, 30, 0.62));
+        box-shadow: 0 12px 34px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(28px) saturate(1.4);
+        -webkit-backdrop-filter: blur(28px) saturate(1.4);
+    }
+}

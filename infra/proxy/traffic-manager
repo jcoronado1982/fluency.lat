@@ -1,0 +1,37 @@
+#!/bin/sh
+STATE_FILE="/tmp/PROXY_STATE"
+GATE_FILE="/tmp/GATE_FILE"
+# CLOSED_FILE existe ⟺ STATE ≠ normal (leído por el matcher de Caddy)
+CLOSED_FILE="/tmp/PROXY_CLOSED"
+DB_IP=${DB_IP:-"127.0.0.1"}
+
+# Sincronización Inicial: Preguntar al DB cómo está
+echo "Sincronizando estado inicial..."
+RESPONSE=$(curl -s --max-time 2 http://$DB_IP:8888/canenter)
+if [ "$RESPONSE" = "no" ]; then
+    echo "rojo" > $STATE_FILE
+    touch $CLOSED_FILE
+else
+    echo "normal" > $STATE_FILE
+    rm -f $CLOSED_FILE
+fi
+
+while true; do
+    CURRENT_STATE=$(cat $STATE_FILE 2>/dev/null || echo "normal")
+
+    if [ "$CURRENT_STATE" = "normal" ]; then
+        rm -f $GATE_FILE $CLOSED_FILE
+        sleep 60
+    else
+        # Si estamos en amarillo/rojo, preguntar cada minuto si ya podemos entrar
+        RESPONSE=$(curl -s --max-time 5 http://$DB_IP:8888/canenter)
+        if [ "$RESPONSE" = "si" ]; then
+            touch $GATE_FILE
+            # Si el DB dice que sí, pero el semáforo sigue mal, 
+            # eventualmente el monitor enviará un /normal
+        else
+            rm -f $GATE_FILE
+        fi
+        sleep 60
+    fi
+done

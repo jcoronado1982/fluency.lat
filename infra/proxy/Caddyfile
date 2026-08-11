@@ -1,0 +1,286 @@
+# ⚠️ Este es el Caddyfile "completo" pensado para `deploy-caddy.sh` + la imagen
+# `fluency-proxy` (estilo Oracle: centinela db_protection, válvula de overflow,
+# MEDIA_DELIVERY_MODE parametrizado, dominios theruby.lat/bill/talent/map). NO es lo
+# que corre hoy en la VM real de GCP (`fluency-proxy-backend`, 35.188.162.50): ese
+# proxy usa un Caddyfile manual mucho más simple, sin sentinel/overflow/otros
+# dominios, con otras rutas de montaje — ver `Caddyfile.gcp` en este mismo directorio
+# (copia fiel del archivo real) y `docs/infrastructure/server_inventory.md` (sección
+# GCP Proxy). Antes de asumir que este archivo describe el runtime vigente, confirmar
+# cuál de los dos se está desplegando.
+#
+# Protección DB sin subprocesos: antes forward_auth → socat → sh (6-8 forks
+# POR CADA request, incluidos assets). Ahora Caddy evalúa los mismos archivos
+# de estado directamente (como ya se hace con AWS_HEALTHY). Semántica idéntica:
+# bloquear ⟺ estado ≠ normal (PROXY_CLOSED existe) y sin permiso del DB (GATE_FILE ausente).
+# sentinel-handler/traffic-manager mantienen PROXY_CLOSED ⟺ STATE ≠ normal.
+(db_protection) {
+    @db_blocked {
+        file {
+            root /tmp
+            try_files PROXY_CLOSED
+        }
+        not file {
+            root /tmp
+            try_files GATE_FILE
+        }
+    }
+    handle @db_blocked {
+        respond "Service Unavailable" 503
+    }
+}
+
+# ============================================================
+# VÁLVULA DE OVERFLOW: Oracle local → GCP Cloud Run
+# /tmp/ORACLE_HEALTHY lo gestiona oracle-ram-monitor.sh (cada 30s):
+# existe ⟺ RAM libre del proxy > 250 MB. Bajo picos de usuarios la caja
+# de 1 GB desvía el API a Cloud Run (scale-to-zero) en vez de colapsar.
+# Cloud Run guarda archivos vía SCP y usa Surreal por WSS (fluency.lat/db).
+# ============================================================
+(api_with_overflow) {
+    @oracle_healthy {
+        file {
+            root /tmp
+            try_files ORACLE_HEALTHY
+        }
+    }
+
+    handle @oracle_healthy {
+        header +X-Backend "Oracle-Local"
+        reverse_proxy localhost:8080
+    }
+
+    handle {
+        header +X-Backend "GCP-Overflow"
+        reverse_proxy https://flashcard-backend-977952175712.us-east1.run.app {
+            header_up Host {upstream_hostport}
+            # Cloud Run ya termina TLS y soporta HTTP/2 nativo (gRPC/h2)
+            transport http {
+                versions 2 1.1
+                tls
+            }
+        }
+    }
+}
+
+# ============================================================
+# POLÍTICA DE CACHÉ DE ASSETS (imágenes y audio) — espejo de assets.rs:
+# MEDIA_DELIVERY_MODE se traduce en deploy-caddy.sh a estas directivas:
+# oracle → navegador conserva la URL versionada; cloudflare → CDN conserva 1 año
+# y el navegador revalida contra el edge. Sin versión → no-cache en todos los modos.
+# Los nombres de archivo hashean los INPUTS de generación, no el contenido:
+# regenerar imagen (force_generation) o rotar voz reescribe el MISMO archivo,
+# así que "immutable sin condición" produce assets viejos hasta 1 año.
+# OJO: el matcher `query v=* t=*` exige AMBOS parámetros (AND) — por eso se
+# usa expression CEL (v= O t=), verificado contra caddy:alpine 2.11.
+# ============================================================
+(asset_cache_policy) {
+    # En un matcher `query v=* t=*`, claves distintas son AND. CEL expresa el OR
+    # real y evita falsos positivos como `?preview=`.
+    @versioned `query({'v': '*'}) || query({'t': '*'})`
+    header @versioned Cache-Control "{$MEDIA_VERSIONED_BROWSER_CACHE_CONTROL:public, max-age=31536000, immutable}"
+    header @versioned {$MEDIA_SHARED_CACHE_HEADER:X-Media-Shared-Cache-Control} "{$MEDIA_VERSIONED_SHARED_CACHE_CONTROL:public, no-cache}"
+    @unversioned `!query({'v': '*'}) && !query({'t': '*'})`
+    header @unversioned Cache-Control "public, no-cache"
+    header @unversioned {$MEDIA_SHARED_CACHE_HEADER:X-Media-Shared-Cache-Control} "public, no-cache"
+}
+
+# ============================================================
+# SNIPPET DE COMPRESIÓN: Brotli → zstd → gzip (orden de preferencia)
+# Se aplica a todo tipo de contenido comprimible.
+# ============================================================
+(compression) {
+    encode {
+        zstd best
+        gzip 6
+        minimum_length 512
+    }
+}
+
+# El documento de entrada de la SPA debe revalidarse en cada navegación para
+# descubrir inmediatamente los nuevos nombres hasheados generados por Vite.
+# Los bundles bajo /assets/ son inmutables porque su nombre cambia con el
+# contenido, así que se pueden conservar un año sin servir una versión vieja.
+(spa_cache_policy) {
+    @spa_hashed_assets path /assets/*
+    header @spa_hashed_assets Cache-Control "public, max-age=31536000, immutable"
+
+    @spa_entrypoint not path /assets/*
+    header @spa_entrypoint Cache-Control "no-cache, must-revalidate"
+}
+
+theruby.lat {
+    handle /rojo* {
+        reverse_proxy localhost:8888
+    }
+    handle /amarillo* {
+        reverse_proxy localhost:8888
+    }
+    handle /normal* {
+        reverse_proxy localhost:8888
+    }
+    handle /status* {
+        reverse_proxy localhost:8888
+    }
+
+    handle {
+        root * /usr/share/caddy/portfolio
+        try_files {path} /index.html
+        file_server
+    }
+}
+
+fluency.lat, www.fluency.lat {
+    # Exponer SurrealDB de forma segura para los servidores espejo (AWS y Cloud Run)
+    handle /db/* {
+        uri strip_prefix /db
+        reverse_proxy 10.128.0.5:8080
+    }
+
+    # Resto de rutas protegidas por el centinela
+    handle {
+        route {
+            import db_protection
+
+            # ------------------------------------------------------------------
+            # ASSETS ESTÁTICOS — imágenes y audio (servidos desde disco)
+            # ------------------------------------------------------------------
+            handle /card_images/* {
+                root * /usr/share/caddy/repository
+
+                # Normalizar extensiones legacy → .avif
+                @try_avif {
+                    path_regexp avif ^(.+)\.(jpg|jpeg|png)$
+                }
+                rewrite @try_avif {re.avif.1}.avif
+
+                import asset_cache_policy
+                header +X-Content-Type-Options "nosniff"
+                file_server
+            }
+
+            handle /card_audio/* {
+                root * /usr/share/caddy/repository
+                import asset_cache_policy
+                file_server
+            }
+
+            handle /json/* {
+                root * /usr/share/caddy/repository
+                # browse es requerido: el backend lista directorios parseando este HTML
+                # no-cache: sin Cache-Control el navegador aplica caché heurística sobre
+                # Last-Modified y un deck general actualizado podría quedar stale días.
+                header Cache-Control "public, no-cache"
+                import compression
+                file_server browse
+            }
+
+            # ------------------------------------------------------------------
+            # API → backend Oracle local si hay RAM; si no, overflow a GCP
+            # ------------------------------------------------------------------
+            @backend_routes {
+                path /api/*
+            }
+            handle @backend_routes {
+                import compression
+                import api_with_overflow
+            }
+
+            # ------------------------------------------------------------------
+            # FRONTEND ESTÁTICO (SPA)
+            # JS/CSS/HTML se versionan con hashes en Vite → cache largo.
+            # index.html no se puede cachear agresivamente (es el entry point).
+            # ------------------------------------------------------------------
+            handle {
+                root * /usr/share/caddy/flashcard
+                import compression
+                import spa_cache_policy
+                try_files {path} /index.html
+                file_server
+            }
+        }
+    }
+}
+
+bill.theruby.lat, bill.fluency.lat {
+    route {
+        import db_protection
+        root * /usr/share/caddy/bill
+        import compression
+        try_files {path} /index.html
+        file_server
+    }
+}
+
+talent.theruby.lat, talent.fluency.lat {
+    route {
+        import db_protection
+        root * /usr/share/caddy/talent
+        import compression
+        try_files {path} /index.html
+        file_server
+    }
+}
+
+map.theruby.lat, map.fluency.lat {
+    root * /usr/share/caddy/map
+    import compression
+    try_files {path} /index.html
+    file_server
+}
+
+qa.fluency.lat {
+    # Exponer SurrealDB de forma segura
+    handle /db/* {
+        uri strip_prefix /db
+        reverse_proxy 10.128.0.5:8080
+    }
+
+    handle {
+        route {
+            import db_protection
+
+            # ASSETS ESTÁTICOS QA
+            handle /card_images/* {
+                root * /usr/share/caddy/qa_repository
+                @try_avif {
+                    path_regexp avif ^(.+)\.(jpg|jpeg|png)$
+                }
+                rewrite @try_avif {re.avif.1}.avif
+                import asset_cache_policy
+                header +X-Content-Type-Options "nosniff"
+                file_server
+            }
+
+            handle /card_audio/* {
+                root * /usr/share/caddy/qa_repository
+                import asset_cache_policy
+                file_server
+            }
+
+            handle /json/* {
+                root * /usr/share/caddy/qa_repository
+                header Cache-Control "public, no-cache"
+                import compression
+                file_server browse
+            }
+
+            # API QA
+            @backend_routes {
+                path /api/*
+            }
+            handle @backend_routes {
+                import compression
+                reverse_proxy localhost:8081
+            }
+
+            # FRONTEND ESTÁTICO QA
+            handle {
+                root * /usr/share/caddy/qa_flashcard
+                import compression
+                import spa_cache_policy
+                try_files {path} /index.html
+                file_server
+            }
+        }
+    }
+}

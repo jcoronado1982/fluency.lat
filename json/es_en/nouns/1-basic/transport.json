@@ -1,0 +1,418 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Carro / Coche",
+        "pronunciation_guide_es": "/ai_DRAIV_a_RED_KAR/",
+        "usage_context_en": "A vehicle with four wheels",
+        "usage_context_es": "Un vehículo con cuatro ruedas",
+        "usage_example": "I drive a red car.",
+        "usage_example_es": "Conduzco un carro rojo.",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "car",
+    "phonetic": "/kɑːr/",
+    "search_term": "noun/transport/essentials",
+    "spoken_phonetic_us": "/kɑːr/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Autobús / Bus",
+        "pronunciation_guide_es": "/ai_TEIK_de_BAS_tu_SKUL/",
+        "usage_context_en": "A large vehicle for many people",
+        "usage_context_es": "Un vehículo grande para muchas personas",
+        "usage_example": "I take the bus to school.",
+        "usage_example_es": "Tomo el autobús a la escuela.",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "bus",
+    "phonetic": "/bʌs/",
+    "search_term": "noun/transport/essentials",
+    "spoken_phonetic_us": "/bʌs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Tren",
+        "pronunciation_guide_es": "/de_TREIN_is_LEIT/",
+        "usage_context_en": "A vehicle that moves on rails",
+        "usage_context_es": "Un vehículo que se mueve sobre rieles",
+        "usage_example": "The train is late.",
+        "usage_example_es": "El tren está retrasado.",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "train",
+    "phonetic": "/treɪn/",
+    "search_term": "noun/transport/essentials",
+    "spoken_phonetic_us": "/treɪn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Avión",
+        "pronunciation_guide_es": "/de_PLEIN_is_FLAiing/",
+        "usage_context_en": "A vehicle that flies in the air",
+        "usage_context_es": "Un vehículo que vuela en el aire",
+        "usage_example": "The plane is flying.",
+        "usage_example_es": "El avión está volando.",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "plane",
+    "phonetic": "/pleɪn/",
+    "search_term": "noun/transport/essentials",
+    "spoken_phonetic_us": "/pleɪn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Aeropuerto",
+        "pronunciation_guide_es": "/ui_ar_GOUing_tu_di_ERport/",
+        "usage_context_en": "A place where airplanes take off and land",
+        "usage_context_es": "Un lugar donde los aviones despegan y aterrizan",
+        "usage_example": "We are going to the airport.",
+        "usage_example_es": "Vamos al aeropuerto.",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "airport",
+    "phonetic": "/ˈɛərpɔːrt/",
+    "search_term": "noun/place/transport/essentials",
+    "spoken_phonetic_us": "/ˈɛrpɔːrt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Estación",
+        "pronunciation_guide_es": "/de_TREIN_STEIshon_is_NIR_JIR/",
+        "usage_context_en": "A place where buses or trains stop",
+        "usage_context_es": "Un lugar donde los buses o trenes paran",
+        "usage_example": "The train station is near here.",
+        "usage_example_es": "La estación de tren está cerca de aquí.",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "station",
+    "phonetic": "/ˈsteɪʃən/",
+    "search_term": "noun/place/transport/essentials",
+    "spoken_phonetic_us": "/ˈsteɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_6_def0.avif",
+        "meaning": "Bote / Barco (pequeño)",
+        "pronunciation_guide_es": "/a_SMOL_BOUT_on_de_LEIK/",
+        "usage_context_en": "A vehicle for traveling on water",
+        "usage_context_es": "Un vehículo para viajar sobre el agua",
+        "usage_example": "A small boat on the lake.",
+        "usage_example_es": "Un bote pequeño en el lago."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "boat",
+    "phonetic": "/boʊt/",
+    "search_term": "noun/transport/essentials",
+    "spoken_phonetic_us": "/boʊt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Barco (grande)",
+        "pronunciation_guide_es": "/a_LARY_SHIP_KROST_di_OUshan/",
+        "usage_context_en": "A large boat for traveling on the sea",
+        "usage_context_es": "Un bote grande para viajar en el mar",
+        "usage_example": "A large ship crossed the ocean.",
+        "usage_example_es": "Un barco grande cruzó el océano.",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "ship",
+    "phonetic": "/ʃɪp/",
+    "search_term": "noun/transport/essentials",
+    "spoken_phonetic_us": "/ʃɪp/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Bicicleta",
+        "pronunciation_guide_es": "/ai_RAID_mai_BAISikol_tu_UORK/",
+        "usage_context_en": "A vehicle with two wheels (a bike)",
+        "usage_context_es": "Un vehículo con dos ruedas (una bici)",
+        "usage_example": "I ride my bicycle to work.",
+        "usage_example_es": "Monto mi bicicleta al trabajo.",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_8_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "bicycle",
+    "phonetic": "/ˈbaɪsɪkl/",
+    "search_term": "noun/transport/essentials",
+    "spoken_phonetic_us": "/ˈbaɪsɪkl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "four",
+        "meaning": "Motocicleta / Moto",
+        "pronunciation_guide_es": "/ji_JAS_a_FAST_MOtor-saikol/",
+        "usage_context_en": "A vehicle with two wheels and an engine",
+        "usage_context_es": "Un vehículo con dos ruedas y un motor",
+        "usage_example": "He has a fast motorcycle.",
+        "usage_example_es": "Él tiene una motocicleta rápida.",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "motorcycle",
+    "phonetic": "/ˈmoʊtərsaɪkl/",
+    "search_term": "noun/transport/essentials",
+    "spoken_phonetic_us": "/ˈmoʊtərsaɪkl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Taxi",
+        "pronunciation_guide_es": "/lets_TEIK_a_TAKsi/",
+        "usage_content_en": "A car with a driver you pay",
+        "usage_context_es": "Un carro con un conductor al que le pagas",
+        "usage_example": "Let's take a taxi.",
+        "usage_example_es": "Tomemos un taxi.",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "taxi",
+    "phonetic": "/ˈtæksi/",
+    "search_term": "noun/transport/essentials",
+    "spoken_phonetic_us": "/ˈtæksi/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Avión",
+        "pronunciation_guide_es": "/di_ERplein_is_FLAiing_JAI/",
+        "usage_context_en": "A vehicle that flies (AmE)",
+        "usage_context_es": "Un vehículo que vuela (AmE)",
+        "usage_example": "The airplane is flying high.",
+        "usage_example_es": "El avión está volando alto.",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_11_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "airplane",
+    "phonetic": "/ˈɛərpleɪn/",
+    "search_term": "noun/transport/essentials",
+    "spoken_phonetic_us": "/ˈɛrpleɪn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Camión",
+        "pronunciation_guide_es": "/a_BIG_RED_TROK/",
+        "usage_context_en": "A large vehicle for carrying goods (AmE)",
+        "usage_control_es": "Un vehículo grande para llevar mercancías (AmE)",
+        "usage_example": "A big red truck.",
+        "usage_example_es": "Un camión rojo y grande.",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_12_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "truck",
+    "phonetic": "/trʌk/",
+    "search_term": "noun/transport/essentials",
+    "spoken_phonetic_us": "/trʌk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_13_def0.avif",
+        "meaning": "Camión (BrE)",
+        "pronunciation_guide_es": "/a_LARY_LORI/",
+        "usage_context_en": "A large vehicle for carrying goods (BrE)",
+        "usage_context_es": "Un vehículo grande para llevar mercancías (BrE)",
+        "usage_example": "A large lorry.",
+        "usage_example_es": "Un camión grande."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "lorry",
+    "phonetic": "/ˈlɒri/",
+    "search_term": "noun/transport/essentials",
+    "spoken_phonetic_us": "/ˈlɔːri/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Metro (Subterráneo) (AmE)",
+        "pronunciation_guide_es": "/lets_TEIK_de_SOBuey/",
+        "usage_context_en": "An underground electric train (AmE)",
+        "usage_context_es": "Un tren eléctrico subterráneo (AmE)",
+        "usage_example": "Let's take the subway.",
+        "usage_example_es": "Tomemos el metro.",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_14_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "subway",
+    "phonetic": "/ˈsʌbweɪ/",
+    "search_term": "noun/transport/essentials",
+    "spoken_phonetic_us": "/ˈsʌbweɪ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "four",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_15_def0.avif",
+        "meaning": "Metro (Subterráneo) (BrE)",
+        "pronunciation_guide_es": "/lets_TEIK_di_ONdergraund/",
+        "usage_context_en": "An underground electric train (BrE, 'the tube')",
+        "usage_context_es": "Un tren eléctrico subterráneo (BrE, 'the tube')",
+        "usage_example": "Let's take the underground.",
+        "usage_example_es": "Tomemos el metro."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation",
+    "is_verb": false,
+    "name": "underground",
+    "phonetic": "/ˈʌndərɡraʊnd/",
+    "search_term": "noun/transport/essentials",
+    "spoken_phonetic_us": "/ˈʌndərɡraʊnd/"
+  }
+]

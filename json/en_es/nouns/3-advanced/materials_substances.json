@@ -1,0 +1,113 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Atmósfera (aire)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "atmosphere",
+        "usage_example": "La atmósfera es delgada a grandes altitudes.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The atmosphere is thin at high altitudes.",
+        "char_count": "7",
+        "usage_context_en": "The gases surrounding the earth or another planet.",
+        "usage_context_es": "Los gases que rodean la tierra u otro planeta.",
+        "imagePath": "/card_images/nouns/3-advanced/materials_substances/3-advanced_materials_substances_card_0_def0.avif",
+        "target_meaning_es": "Atmósfera (aire)"
+      },
+      {
+        "meaning": "atmosphere",
+        "usage_example": "El restaurante tiene un buen ambiente.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The restaurant has a good atmosphere.",
+        "char_count": "6",
+        "usage_context_en": "The pervading tone or mood of a place or situation.",
+        "usage_context_es": "El tono o estado de ánimo dominante de un lugar o situación.",
+        "imagePath": "/card_images/nouns/3-advanced/materials_substances/3-advanced_materials_substances_card_0_def1.avif",
+        "target_meaning_es": "Ambiente (de un lugar)"
+      }
+    ],
+    "group_name": "General Concepts",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Producto / Mercancía",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "commodity",
+        "usage_example": "El petróleo es un producto valioso.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Oil is a valuable commodity.",
+        "char_count": "5",
+        "usage_context_en": "A raw material or primary agricultural product that can be bought and sold.",
+        "usage_context_es": "Una materia prima o producto agrícola primario que se puede comprar y vender.",
+        "imagePath": "/card_images/nouns/3-advanced/materials_substances/3-advanced_materials_substances_card_1_def0.avif",
+        "target_meaning_es": "Producto / Mercancía"
+      }
+    ],
+    "group_name": "General Concepts",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Sustancia / Material",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "substance",
+        "usage_example": "Es una sustancia peligrosa.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "It's a dangerous substance.",
+        "char_count": "4",
+        "usage_context_en": "A particular kind of matter with uniform properties.",
+        "usage_context_es": "Un tipo particular de materia con propiedades uniformes.",
+        "imagePath": "/card_images/nouns/3-advanced/materials_substances/3-advanced_materials_substances_card_2_def0.avif",
+        "target_meaning_es": "Sustancia / Material"
+      },
+      {
+        "meaning": "substance",
+        "usage_example": "El artículo carece de sustancia.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The article lacks substance.",
+        "char_count": "4",
+        "usage_context_en": "The real or essential meaning; significance.",
+        "usage_context_es": "El significado real o esencial; significancia.",
+        "imagePath": "/card_images/nouns/3-advanced/materials_substances/3-advanced_materials_substances_card_2_def1.avif",
+        "target_meaning_es": "Sustancia (contenido / esencia)"
+      }
+    ],
+    "group_name": "General Concepts",
+    "category": ""
+  }
+]

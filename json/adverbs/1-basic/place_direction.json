@@ -1,0 +1,382 @@
+[
+  {
+    "name": "here",
+    "phonetic": "/hɪər/",
+    "spoken_phonetic_us": "/hɪr/",
+    "search_term": "adverb/place",
+    "is_verb": false,
+    "learned": true,
+    "force_generation": false,
+    "group_name": "Adverbs: Place",
+    "definitions": [
+      {
+        "meaning": "Aquí / Acá",
+        "usage_example": "Please come here.",
+        "pronunciation_guide_es": "/PLIS_com_HIR/",
+        "usage_example_es": "Por favor, ven aquí.",
+        "char_count": 3,
+        "usage_context_en": "In, at, or to this present place.",
+        "usage_context_es": "En, o a este lugar presente."
+      }
+    ]
+  },
+  {
+    "name": "there",
+    "phonetic": "/ðɛər/",
+    "spoken_phonetic_us": "/ðɛr/",
+    "search_term": "adverb/place",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Place",
+    "definitions": [
+      {
+        "meaning": "Allí / Allá",
+        "usage_example": "The book is over there.",
+        "pronunciation_guide_es": "/de_BUK_is_OU-ver_DER/",
+        "usage_example_es": "El libro está allá.",
+        "char_count": 5,
+        "usage_context_en": "In, at, or to that place (not here).",
+        "usage_context_es": "En, o a ese lugar (no aquí).",
+        "imagePath": "/card_images/adverbs/1-basic/1-basic_card_17_def0.avif"
+      }
+    ]
+  },
+  {
+    "name": "inside",
+    "phonetic": "/ɪnˈsaɪd/",
+    "spoken_phonetic_us": "/ɪnˈsaɪd/",
+    "search_term": "adverb/place",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Place",
+    "definitions": [
+      {
+        "meaning": "Adentro",
+        "usage_example": "It's cold. Let's go inside.",
+        "pronunciation_guide_es": "/its_COLD_lets_gou_in-SAID/",
+        "usage_example_es": "Hace frío. Vayamos adentro.",
+        "char_count": 5,
+        "usage_context_en": "Used as an adverb to mean 'on or in the interior'.",
+        "usage_context_es": "Usado como adverbio para significar 'en o en el interior'.",
+        "imagePath": "/card_images/adverbs/1-basic/1-basic_card_18_def0.avif"
+      }
+    ]
+  },
+  {
+    "name": "outside",
+    "phonetic": "/ˌaʊtˈsaɪd/",
+    "spoken_phonetic_us": "/ˌaʊtˈsaɪd/",
+    "search_term": "adverb/place",
+    "is_verb": false,
+    "learned": true,
+    "force_generation": false,
+    "group_name": "Adverbs: Place",
+    "definitions": [
+      {
+        "meaning": "Afuera",
+        "usage_example": "The children are playing outside.",
+        "pronunciation_guide_es": "/de_CHIL-dren_ar_PLEI-ing_aut-SAID/",
+        "usage_example_es": "Los niños están jugando afuera.",
+        "char_count": 5,
+        "usage_context_en": "Used as an adverb to mean 'on or in the exterior'.",
+        "usage_context_es": "Usado como adverbio para significar 'en o en el exterior'."
+      }
+    ]
+  },
+  {
+    "name": "away",
+    "phonetic": "/əˈweɪ/",
+    "spoken_phonetic_us": "/əˈweɪ/",
+    "search_term": "adverb/place",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Place",
+    "definitions": [
+      {
+        "meaning": "Lejos / Fuera",
+        "usage_example": "The house is far away.",
+        "pronunciation_guide_es": "/de jáus is far a-UEI/",
+        "usage_example_es": "La casa está lejos.",
+        "char_count": 5,
+        "usage_context_en": "Used to say something is at a distance.",
+        "usage_context_es": "Se usa para decir que algo está a una distancia.",
+        "imagePath": "/card_images/adverbs/1-basic/1-basic_card_29_def0.avif"
+      },
+      {
+        "meaning": "No aquí / Ausente",
+        "usage_example": "She is away today.",
+        "pronunciation_guide_es": "/shi is a-UEI tudei/",
+        "usage_example_es": "Ella está fuera hoy.",
+        "char_count": 4,
+        "usage_context_en": "Used when someone is not present in a place.",
+        "usage_context_es": "Se usa cuando alguien no está presente en un lugar.",
+        "imagePath": "/card_images/adverbs/1-basic/1-basic_card_29_def1.avif"
+      },
+      {
+        "meaning": "A una distancia en tiempo o espacio",
+        "usage_example": "The beach is 10 minutes away.",
+        "pronunciation_guide_es": "/de bich is ten mínits a-UEI/",
+        "usage_example_es": "La playa está a 10 minutos.",
+        "char_count": 5,
+        "usage_context_en": "Indicates distance in time or space.",
+        "usage_context_es": "Indica distancia en tiempo o espacio.",
+        "imagePath": "/card_images/adverbs/1-basic/1-basic_card_29_def2.avif"
+      }
+    ]
+  },
+  {
+    "name": "nearby",
+    "phonetic": "/ˌnɪrˈbaɪ/",
+    "spoken_phonetic_us": "/ˌnɪrˈbaɪ/",
+    "search_term": "survival/place",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Survival: Street Basics",
+    "definitions": [
+      {
+        "meaning": "Cerca / Por aquí cerca",
+        "usage_example": "Is there a pharmacy nearby?",
+        "pronunciation_guide_es": "/is_der_a_FAR-ma-si_NIR-bai/",
+        "usage_example_es": "¿Hay una farmacia cerca?",
+        "char_count": "6",
+        "usage_context_en": "Used to ask or say that something is close to your current location.",
+        "usage_context_es": "Usado para preguntar o decir que algo está cerca de tu ubicación actual."
+      }
+    ]
+  },
+  {
+    "name": "around",
+    "phonetic": "/əˈraʊnd/",
+    "spoken_phonetic_us": "/əˈraʊnd/",
+    "search_term": "survival/place",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Survival: Street Basics",
+    "definitions": [
+      {
+        "meaning": "Alrededor / Por aquí",
+        "usage_example": "Is there a restroom around here?",
+        "pronunciation_guide_es": "/is_der_a_REST-rum_a-RAUND_hir/",
+        "usage_example_es": "¿Hay un baño por aquí?",
+        "char_count": "6",
+        "usage_context_en": "Used to talk about the area near a place.",
+        "usage_context_es": "Usado para hablar del área cercana a un lugar."
+      }
+    ]
+  },
+  {
+    "name": "near",
+    "phonetic": "/nɪr/",
+    "spoken_phonetic_us": "/nɪr/",
+    "search_term": "survival/place",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Survival: Street Basics",
+    "definitions": [
+      {
+        "meaning": "Cerca",
+        "usage_example": "Is the hospital near here?",
+        "pronunciation_guide_es": "/is_de_HOS-pi-tal_NIR_hir/",
+        "usage_example_es": "¿El hospital está cerca de aquí?",
+        "char_count": "5",
+        "usage_context_en": "Used to ask or say that something is close.",
+        "usage_context_es": "Usado para preguntar o decir que algo está cerca."
+      }
+    ]
+  },
+  {
+    "name": "far",
+    "phonetic": "/fɑr/",
+    "spoken_phonetic_us": "/fɑr/",
+    "search_term": "survival/place",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Survival: Street Basics",
+    "definitions": [
+      {
+        "meaning": "Lejos",
+        "usage_example": "Is it far from here?",
+        "pronunciation_guide_es": "/is_it_FAR_from_HIR/",
+        "usage_example_es": "¿Está lejos de aquí?",
+        "char_count": "5",
+        "usage_context_en": "Used to ask or say that something is not close.",
+        "usage_context_es": "Usado para preguntar o decir que algo no está cerca."
+      }
+    ]
+  },
+  {
+    "name": "up",
+    "phonetic": "/ʌp/",
+    "spoken_phonetic_us": "/ʌp/",
+    "search_term": "adverb/direction",
+    "is_verb": false,
+    "learned": true,
+    "force_generation": false,
+    "group_name": "Adverbs: Place",
+    "definitions": [
+      {
+        "meaning": "Arriba",
+        "usage_example": "Look up at the sky.",
+        "pronunciation_guide_es": "/luk_OP_at_de_SKAI/",
+        "usage_example_es": "Mira hacia arriba, al cielo.",
+        "char_count": 5,
+        "usage_context_en": "Towards a higher place or position.",
+        "usage_context_es": "Hacia un lugar o posición más alta."
+      }
+    ]
+  },
+  {
+    "name": "down",
+    "phonetic": "/daʊn/",
+    "spoken_phonetic_us": "/daʊn/",
+    "search_term": "adverb/direction",
+    "is_verb": false,
+    "learned": true,
+    "force_generation": false,
+    "group_name": "Adverbs: Place",
+    "definitions": [
+      {
+        "meaning": "Abajo",
+        "usage_example": "He sat down on the chair.",
+        "pronunciation_guide_es": "/hi_SAT_DAUN_on_de_CHER/",
+        "usage_example_es": "Él se sentó en la silla.",
+        "char_count": 6,
+        "usage_context_en": "Towards a lower place or position.",
+        "usage_context_es": "Hacia un lugar o posición más baja."
+      }
+    ]
+  },
+  {
+    "name": "back",
+    "phonetic": "/bæk/",
+    "spoken_phonetic_us": "/bæk/",
+    "search_term": "survival/direction",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Survival: Street Basics",
+    "definitions": [
+      {
+        "meaning": "Atrás / De vuelta",
+        "usage_example": "Please go back to the hotel.",
+        "pronunciation_guide_es": "/PLIS_gou_BAK_tu_de_hou-TEL/",
+        "usage_example_es": "Por favor vuelve al hotel.",
+        "char_count": "6",
+        "usage_context_en": "Used for returning to a place or moving toward the rear.",
+        "usage_context_es": "Usado para volver a un lugar o moverse hacia atrás."
+      }
+    ]
+  },
+  {
+    "name": "forward",
+    "phonetic": "/ˈfɔrwərd/",
+    "spoken_phonetic_us": "/ˈfɔrwərd/",
+    "search_term": "survival/direction",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Survival: Street Basics",
+    "definitions": [
+      {
+        "meaning": "Hacia adelante",
+        "usage_example": "Move forward slowly.",
+        "pronunciation_guide_es": "/MUV_FOR-werd_SLOU-li/",
+        "usage_example_es": "Muévete hacia adelante despacio.",
+        "char_count": "3",
+        "usage_context_en": "Used to indicate movement toward the front.",
+        "usage_context_es": "Usado para indicar movimiento hacia el frente."
+      }
+    ]
+  },
+  {
+    "name": "left",
+    "phonetic": "/lɛft/",
+    "spoken_phonetic_us": "/lɛft/",
+    "search_term": "survival/direction",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Survival: Street Basics",
+    "definitions": [
+      {
+        "meaning": "A la izquierda",
+        "usage_example": "Turn left at the corner.",
+        "pronunciation_guide_es": "/TURN_LEFT_at_de_COR-ner/",
+        "usage_example_es": "Gira a la izquierda en la esquina.",
+        "char_count": "5",
+        "usage_context_en": "Used for giving or understanding directions.",
+        "usage_context_es": "Usado para dar o entender direcciones."
+      }
+    ]
+  },
+  {
+    "name": "right",
+    "phonetic": "/raɪt/",
+    "spoken_phonetic_us": "/raɪt/",
+    "search_term": "survival/direction",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Survival: Street Basics",
+    "definitions": [
+      {
+        "meaning": "A la derecha / Correcto",
+        "usage_example": "Turn right after the bank.",
+        "pronunciation_guide_es": "/TURN_RAIT_AF-ter_de_BANK/",
+        "usage_example_es": "Gira a la derecha después del banco.",
+        "char_count": "5",
+        "usage_context_en": "Used for directions; also used to mean correct.",
+        "usage_context_es": "Usado para direcciones; también significa correcto."
+      }
+    ]
+  },
+  {
+    "name": "straight",
+    "phonetic": "/streɪt/",
+    "spoken_phonetic_us": "/streɪt/",
+    "search_term": "survival/direction",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Survival: Street Basics",
+    "definitions": [
+      {
+        "meaning": "Derecho / Recto",
+        "usage_example": "Go straight for two blocks.",
+        "pronunciation_guide_es": "/gou_STREIT_for_TU_BLOKS/",
+        "usage_example_es": "Sigue derecho por dos cuadras.",
+        "char_count": "5",
+        "usage_context_en": "Used to indicate movement without turning.",
+        "usage_context_es": "Usado para indicar movimiento sin girar."
+      }
+    ]
+  },
+  {
+    "name": "across",
+    "phonetic": "/əˈkrɔs/",
+    "spoken_phonetic_us": "/əˈkrɔs/",
+    "search_term": "survival/place/direction",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Survival: Street Basics",
+    "definitions": [
+      {
+        "meaning": "Al otro lado / A través",
+        "usage_example": "The store is across the street.",
+        "pronunciation_guide_es": "/de_STOR_is_a-CROS_de_STRIT/",
+        "usage_example_es": "La tienda está al otro lado de la calle.",
+        "char_count": "6",
+        "usage_context_en": "Used to say something is on the other side of a street or area.",
+        "usage_context_es": "Usado para decir que algo está al otro lado de una calle o área."
+      }
+    ]
+  }
+]

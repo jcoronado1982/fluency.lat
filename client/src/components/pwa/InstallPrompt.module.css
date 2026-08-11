@@ -1,0 +1,42 @@
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+
+.primaryAction,
+.secondaryAction {
+  min-height: 38px;
+  padding: 8px 13px;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border-radius: 999px;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.primaryAction {
+  color: #fff;
+  background: var(--brand-gradient-btn, linear-gradient(135deg, #be185d, #f472b6 50%, #fb923c));
+  border: 0;
+}
+
+.secondaryAction {
+  color: #e2e8f0;
+  background: transparent;
+  border: 1px solid rgb(226 232 240 / 28%);
+}
+
+.primaryAction:focus-visible,
+.secondaryAction:focus-visible {
+  outline: 3px solid rgb(244 114 182 / 45%);
+  outline-offset: 2px;
+}
+
+@media (max-width: 480px) {
+  .actions {
+    justify-content: flex-end;
+  }
+}

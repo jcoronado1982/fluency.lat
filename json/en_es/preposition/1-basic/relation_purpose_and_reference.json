@@ -1,0 +1,369 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Sin",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "preposition/absence",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "without",
+        "usage_example": "No puedo vivir sin ti.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I can't live without you.",
+        "char_count": "5",
+        "usage_context_en": "Used to indicate the absence of someone or something.",
+        "usage_context_es": "Usado para indicar la ausencia de alguien o algo.",
+        "imagePath": "/card_images/preposition/1-basic/relation_purpose_and_reference/1-basic_relation_purpose_and_reference_card_0_def0.avif",
+        "target_meaning_es": "Sin"
+      }
+    ],
+    "group_name": "Prepositions: Absence",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Con (compañía)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "preposition/accompaniment/instrument",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "with",
+        "usage_example": "Estoy con mi amigo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I am with my friend.",
+        "char_count": "5",
+        "usage_context_en": "Used to indicate accompaniment or being together.",
+        "usage_context_es": "Usado para indicar acompañamiento o estar juntos.",
+        "imagePath": "/card_images/preposition/1-basic/relation_purpose_and_reference/1-basic_relation_purpose_and_reference_card_1_def0.avif",
+        "target_meaning_es": "Con (compañía)"
+      },
+      {
+        "meaning": "with",
+        "usage_example": "Escribo con un bolígrafo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I write with a pen.",
+        "char_count": "5",
+        "usage_context_en": "Used to indicate the tool or instrument used.",
+        "usage_context_es": "Usado para indicar la herramienta o instrumento utilizado.",
+        "imagePath": "/card_images/preposition/1-basic/relation_purpose_and_reference/1-basic_relation_purpose_and_reference_card_1_def1.avif",
+        "target_meaning_es": "Con (herramienta)"
+      }
+    ],
+    "group_name": "Prepositions: Accompaniment & Instrument",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Por (agente pasivo)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "preposition/agent/place/method",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "by",
+        "usage_example": "El libro fue escrito por él.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The book was written by him.",
+        "char_count": "6",
+        "usage_context_en": "Used to indicate the agent in a passive sentence.",
+        "usage_context_es": "Usado para indicar el agente en una oración pasiva.",
+        "imagePath": "/card_images/preposition/1-basic/relation_purpose_and_reference/1-basic_relation_purpose_and_reference_card_2_def0.avif",
+        "target_meaning_es": "Por (agente pasivo)"
+      },
+      {
+        "meaning": "by",
+        "usage_example": "La casa está al lado del río.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The house is by the river.",
+        "char_count": "6",
+        "usage_context_en": "Used to mean 'near' or 'next to'.",
+        "usage_context_es": "Usado para significar 'cerca de' o 'al lado de'.",
+        "imagePath": "/card_images/preposition/1-basic/relation_purpose_and_reference/1-basic_relation_purpose_and_reference_card_2_def1.avif",
+        "target_meaning_es": "Al lado de / Cerca de"
+      }
+    ],
+    "group_name": "Prepositions: Agent, Place & Method",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Como (similitud)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "preposition/comparison/similarity",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "like",
+        "usage_example": "Ella canta como un ángel.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She sings like an angel.",
+        "char_count": "4",
+        "usage_context_en": "Having the same characteristics or qualities as; similar to.",
+        "usage_context_es": "Tener las mismas características o cualidades que; similar a.",
+        "imagePath": "/card_images/preposition/1-basic/relation_purpose_and_reference/1-basic_relation_purpose_and_reference_card_3_def0.avif",
+        "target_meaning_es": "Como (similitud)"
+      }
+    ],
+    "group_name": "Prepositions: Comparison & Similarity",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Hasta / Como máximo",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "preposition/limit/quantity",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "up to",
+        "usage_example": "Cuesta hasta 50 dólares.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "It costs up to 50 dollars.",
+        "char_count": "5",
+        "usage_context_en": "Used to show a maximum amount, time, or limit.",
+        "usage_context_es": "Usado para mostrar una cantidad, tiempo o límite máximo.",
+        "imagePath": "/card_images/preposition/1-basic/relation_purpose_and_reference/1-basic_relation_purpose_and_reference_card_4_def0.avif",
+        "target_meaning_es": "Hasta / Como máximo"
+      }
+    ],
+    "group_name": "Prepositions: Limit & Quantity",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Contra",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "preposition/opposition",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "against",
+        "usage_example": "Están jugando contra el mejor equipo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "They are playing against the best team.",
+        "char_count": "7",
+        "usage_context_en": "In opposition to.",
+        "usage_context_es": "En oposición a.",
+        "imagePath": "/card_images/preposition/1-basic/relation_purpose_and_reference/1-basic_relation_purpose_and_reference_card_5_def0.avif",
+        "target_meaning_es": "Contra"
+      }
+    ],
+    "group_name": "Prepositions: Opposition",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Sobre / Por encima de",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "preposition/place/quantity",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "over",
+        "usage_example": "El avión vuela por encima de la ciudad.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The plane flies over the city.",
+        "char_count": "6",
+        "usage_context_en": "In a position higher than something, often implying movement.",
+        "usage_context_es": "En una posición más alta que algo, a menudo implicando movimiento.",
+        "imagePath": "/card_images/preposition/1-basic/relation_purpose_and_reference/1-basic_relation_purpose_and_reference_card_6_def0.avif",
+        "target_meaning_es": "Sobre / Por encima de"
+      },
+      {
+        "meaning": "over",
+        "usage_example": "Cuesta más de 100 dólares.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "It costs over 100 dollars.",
+        "char_count": "5",
+        "usage_context_en": "Used to mean 'more than' a certain number or amount.",
+        "usage_context_es": "Usado para significar 'más de' un cierto número o cantidad.",
+        "imagePath": "/card_images/preposition/1-basic/relation_purpose_and_reference/1-basic_relation_purpose_and_reference_card_6_def1.avif",
+        "target_meaning_es": "Más de"
+      }
+    ],
+    "group_name": "Prepositions: Place & Quantity",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "De (posesión / relación)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "preposition/possession",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "of",
+        "usage_example": "El color del cielo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The color of the sky.",
+        "char_count": "5",
+        "usage_context_en": "Used to show possession, origin, or relation.",
+        "usage_context_es": "Usado para mostrar posesión, origen o relación.",
+        "imagePath": "/card_images/preposition/1-basic/relation_purpose_and_reference/1-basic_relation_purpose_and_reference_card_7_def0.avif",
+        "target_meaning_es": "De (posesión / relación)"
+      }
+    ],
+    "group_name": "Prepositions: Possession & Relation",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Para (propósito / destinatario)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "preposition/purpose/duration",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "for",
+        "usage_example": "Este regalo es para ti.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "This gift is for you.",
+        "char_count": "5",
+        "usage_context_en": "Used to indicate purpose or the recipient of an action.",
+        "usage_context_es": "Usado para indicar propósito o el destinatario de una acción.",
+        "imagePath": "/card_images/preposition/1-basic/relation_purpose_and_reference/1-basic_relation_purpose_and_reference_card_8_def0.avif",
+        "target_meaning_es": "Para (propósito / destinatario)"
+      },
+      {
+        "meaning": "for",
+        "usage_example": "Estudié por (durante) dos horas.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I studied for two hours.",
+        "char_count": "5",
+        "usage_context_en": "Used to indicate a duration of time.",
+        "usage_context_es": "Usado para indicar una duración de tiempo.",
+        "imagePath": "/card_images/preposition/1-basic/relation_purpose_and_reference/1-basic_relation_purpose_and_reference_card_8_def1.avif",
+        "target_meaning_es": "Por / Durante (tiempo)"
+      }
+    ],
+    "group_name": "Prepositions: Time & Purpose",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Como (función/rol)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "preposition/role/function",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "as",
+        "usage_example": "Él trabaja como profesor.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He works as a teacher.",
+        "char_count": "2",
+        "usage_context_en": "Used to describe the purpose or quality of someone or something.",
+        "usage_context_es": "Usado para describir el propósito o la calidad de alguien o algo.",
+        "imagePath": "/card_images/preposition/1-basic/relation_purpose_and_reference/1-basic_relation_purpose_and_reference_card_9_def0.avif",
+        "target_meaning_es": "Como (función/rol)"
+      }
+    ],
+    "group_name": "Prepositions: Role & Function",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Sobre / Acerca de",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "preposition/topic",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "about",
+        "usage_example": "Estamos hablando sobre música.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "We are talking about music.",
+        "char_count": "5",
+        "usage_context_en": "Used to indicate the topic or subject.",
+        "usage_context_es": "Usado para indicar el tema o asunto.",
+        "imagePath": "/card_images/preposition/1-basic/relation_purpose_and_reference/1-basic_relation_purpose_and_reference_card_10_def0.avif",
+        "target_meaning_es": "Sobre / Acerca de"
+      }
+    ],
+    "group_name": "Prepositions: Topic",
+    "category": "Basic"
+  }
+]

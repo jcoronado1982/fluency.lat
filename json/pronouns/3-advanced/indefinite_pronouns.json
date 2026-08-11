@@ -1,0 +1,714 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "someone",
+    "phonetic": "/ˈsʌmwʌn/",
+    "spoken_phonetic_us": "/ˈsʌmwʌn/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Alguien",
+        "usage_example": "Someone is at the door.",
+        "pronunciation_guide_es": "/SOM-uan_is_at_de_DOR/",
+        "usage_example_es": "Alguien está en la puerta.",
+        "char_count": "5",
+        "usage_context_en": "An unspecified person (used in affirmative sentences). Synonym: 'somebody'.",
+        "usage_context_es": "Una persona no especificada (usado en oraciones afirmativas). Sinónimo: 'somebody'.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_27_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "something",
+    "phonetic": "/ˈsʌmθɪŋ/",
+    "spoken_phonetic_us": "/ˈsʌmθɪŋ/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Algo",
+        "usage_example": "I need something to drink.",
+        "pronunciation_guide_es": "/ai_NID_SOM-zing_tu_DRINK/",
+        "usage_example_es": "Necesito algo de beber.",
+        "char_count": "5",
+        "usage_context_en": "An unspecified thing (used in affirmative sentences).",
+        "usage_context_es": "Una cosa no especificada (usado en oraciones afirmativas).",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_28_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "anyone",
+    "phonetic": "/ˈɛniwʌn/",
+    "spoken_phonetic_us": "/ˈɛniwʌn/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Alguien (en preguntas)",
+        "usage_example": "Is anyone home?",
+        "pronunciation_guide_es": "/is_E-ni-uan_HOUM/",
+        "usage_example_es": "¿Hay alguien en casa?",
+        "char_count": "3",
+        "usage_context_en": "Used to ask if 'any person' exists. Synonym: 'anybody'.",
+        "usage_context_es": "Usado para preguntar si 'alguna persona' existe. Sinónimo: 'anybody'.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_29_def0.avif"
+      },
+      {
+        "meaning": "Nadie (en negaciones)",
+        "usage_example": "I didn't see anyone.",
+        "pronunciation_guide_es": "/ai_DID-ent_SI_E-ni-uan/",
+        "usage_example_es": "No vi a nadie.",
+        "char_count": "4",
+        "usage_context_en": "Used to mean 'no person' in negative sentences. Synonym: 'anybody'.",
+        "usage_context_es": "Usado para significar 'ninguna persona' en oraciones negativas. Sinónimo: 'anybody'.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_29_def1.avif"
+      },
+      {
+        "meaning": "Cualquiera",
+        "usage_example": "Anyone can do that.",
+        "pronunciation_guide_es": "/E-ni-uan_can_DU_dat/",
+        "usage_example_es": "Cualquiera puede hacer eso.",
+        "char_count": "4",
+        "usage_context_en": "Used in affirmative sentences to mean 'any person at all'.",
+        "usage_context_es": "Usado en oraciones afirmativas para significar 'cualquier persona'.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_29_def2.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "anything",
+    "phonetic": "/ˈɛniθɪŋ/",
+    "spoken_phonetic_us": "/ˈɛniθɪŋ/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Algo (en preguntas)",
+        "usage_example": "Do you need anything?",
+        "pronunciation_guide_es": "/du_iu_NID_E-ni-zing/",
+        "usage_example_es": "¿Necesitas algo?",
+        "char_count": "4",
+        "usage_context_en": "Used to ask if 'any thing' exists.",
+        "usage_context_es": "Usado para preguntar si 'alguna cosa' existe.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_30_def0.avif"
+      },
+      {
+        "meaning": "Nada (en negaciones)",
+        "usage_example": "I don't need anything.",
+        "pronunciation_guide_es": "/ai_DONT_NID_E-ni-zing/",
+        "usage_example_es": "No necesito nada.",
+        "char_count": "4",
+        "usage_context_en": "Used to mean 'no thing' in negative sentences.",
+        "usage_context_es": "Usado para significar 'ninguna cosa' en oraciones negativas.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_30_def1.avif"
+      },
+      {
+        "meaning": "Cualquier cosa",
+        "usage_example": "You can buy anything you want.",
+        "pronunciation_guide_es": "/iu_can_BAI_E-ni-zing_iu_UANT/",
+        "usage_example_es": "Puedes comprar cualquier cosa que quieras.",
+        "char_count": "6",
+        "usage_context_en": "Used in affirmative sentences to mean 'any thing at all'.",
+        "usage_context_es": "Usado en oraciones afirmativas para significar 'cualquier cosa'.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_30_def2.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "everyone",
+    "phonetic": "/ˈɛvriwʌn/",
+    "spoken_phonetic_us": "/ˈɛvriwʌn/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Todos / Todas (las personas)",
+        "usage_example": "Everyone is here.",
+        "pronunciation_guide_es": "/E-vri-uan_is_HIR/",
+        "usage_example_es": "Todos están aquí.",
+        "char_count": "3",
+        "usage_context_en": "All people in a group. Synonym: 'everybody'.",
+        "usage_context_es": "Todas las personas en un grupo. Sinónimo: 'everybody'.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_31_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "everything",
+    "phonetic": "/ˈɛvriθɪŋ/",
+    "spoken_phonetic_us": "/ˈɛvriθɪŋ/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Todo (las cosas)",
+        "usage_example": "Everything is ready.",
+        "pronunciation_guide_es": "/E-vri-zing_is_RE-di/",
+        "usage_example_es": "Todo está listo.",
+        "char_count": "3",
+        "usage_context_en": "All things.",
+        "usage_context_es": "Todas las cosas.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_32_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "nobody",
+    "phonetic": "/ˈnoʊbədi/",
+    "spoken_phonetic_us": "/ˈnoʊbədi/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Nadie",
+        "usage_example": "Nobody is home.",
+        "pronunciation_guide_es": "/NOU-ba-di_is_HOUM/",
+        "usage_example_es": "No hay nadie en casa.",
+        "char_count": "3",
+        "usage_context_en": "No person; no one. (Used as the subject or object in an affirmative verb structure).",
+        "usage_context_es": "Ninguna persona; nadie. (Usado como sujeto u objeto en una estructura verbal afirmativa).",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_33_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "nothing",
+    "phonetic": "/ˈnʌθɪŋ/",
+    "spoken_phonetic_us": "/ˈnʌθɪŋ/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Nada",
+        "usage_example": "I have nothing to say.",
+        "pronunciation_guide_es": "/ai_HAV_NO-zing_tu_SEI/",
+        "usage_example_es": "No tengo nada que decir.",
+        "char_count": "5",
+        "usage_context_en": "No thing; not anything. (Used as the subject or object in an affirmative verb structure).",
+        "usage_color": "rgba(255, 204, 153, 0.1)",
+        "usage_context_es": "Ninguna cosa; nada. (Usado como sujeto u objeto en una estructura verbal afirmativa).",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_34_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "one",
+    "phonetic": "/wʌn/",
+    "spoken_phonetic_us": "/wʌn/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Uno / Una (genérico)",
+        "usage_example": "One must always be careful.",
+        "pronunciation_guide_es": "/UAN_most_OL-ueis_bi_KER-ful/",
+        "usage_example_es": "Uno debe tener siempre cuidado.",
+        "char_count": "5",
+        "usage_context_en": "Used to refer to any person in general.",
+        "usage_context_es": "Usado para referirse a cualquier persona en general.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_36_def0.avif"
+      },
+      {
+        "meaning": "Uno / Una (reemplazo)",
+        "usage_example": "I like the red one.",
+        "pronunciation_guide_es": "/ai_LAIK_de_RED_uan/",
+        "usage_example_es": "Me gusta el rojo (ese).",
+        "char_count": "4",
+        "usage_context_en": "Used to replace a specific singular countable noun.",
+        "usage_context_es": "Usado para reemplazar un sustantivo contable singular específico.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_36_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "another",
+    "phonetic": "/əˈnʌðər/",
+    "spoken_phonetic_us": "/əˈnʌðər/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Otro / Otra",
+        "usage_example": "I don't like this one, show me another.",
+        "pronunciation_guide_es": "/ai_DONT_LAIK_dis_UAN_SHOU_mi_a-NO-der/",
+        "usage_example_es": "No me gusta este, muéstrame otro.",
+        "char_count": "7",
+        "usage_context_en": "Used as a pronoun to mean 'an additional or different one'.",
+        "usage_context_es": "Usado como pronombre para significar 'uno adicional o diferente'.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_37_def0.avif"
+      },
+      {
+        "meaning": "Otro / Otra",
+        "usage_example": "Let’s try another way.",
+        "pronunciation_guide_es": "/lets _ trai _ ə-NO-der _ wei/",
+        "usage_example_es": "Probemos otra manera.",
+        "char_count": "21",
+        "usage_context_en": "Used as a pronoun to mean 'an additional or different one'.",
+        "usage_context_es": "Usado como pronombre para significar 'uno adicional o diferente'.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_37_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "others",
+    "phonetic": "/ˈʌðərz/",
+    "spoken_phonetic_us": "/ˈʌðərz/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Otros / Otras (los demás)",
+        "usage_example": "Some people like it, others hate it.",
+        "pronunciation_guide_es": "/som_PI-pol_LAIK_it_O-ders_HEIT_it/",
+        "usage_example_es": "A algunas personas les gusta, otras lo odian.",
+        "char_count": "6",
+        "usage_context_en": "Used as a pronoun to mean 'other people or things'.",
+        "usage_context_es": "Usado como pronombre para significar 'otras personas o cosas'.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_38_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "everybody",
+    "phonetic": "/ˈɛvribɒdi/",
+    "spoken_phonetic_us": "/ˈɛvribɑdi/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Todos / Todas (las personas)",
+        "usage_example": "Everybody is here.",
+        "pronunciation_guide_es": "/E-vri-ba-di_is_HIR/",
+        "usage_example_es": "Todos están aquí.",
+        "char_count": "3",
+        "usage_context_en": "All people in a group. (Synonym of 'everyone').",
+        "usage_context_es": "Todas las personas en un grupo. (Sinónimo de 'everyone').",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_0_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "no one",
+    "phonetic": "/ˈnoʊ wʌn/",
+    "spoken_phonetic_us": "/ˈnoʊ wʌn/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Nadie",
+        "usage_example": "No one is home.",
+        "pronunciation_guide_es": "/NOU_uan_is_HOUM/",
+        "usage_example_es": "No hay nadie en casa.",
+        "char_count": "4",
+        "usage_context_en": "No person; nobody. (Used as the subject in an affirmative verb structure).",
+        "usage_context_es": "Ninguna persona; nadie. (Usado como sujeto en una estructura verbal afirmativa).",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_1_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "anybody",
+    "phonetic": "/ˈɛnibɒdi/",
+    "spoken_phonetic_us": "/ˈɛnibɑdi/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Alguien (en preguntas)",
+        "usage_example": "Is anybody home?",
+        "pronunciation_guide_es": "/is_E-ni-ba-di_HOUM/",
+        "usage_example_es": "¿Hay alguien en casa?",
+        "char_count": "3",
+        "usage_context_en": "Used to ask if 'any person' exists. (Synonym of 'anyone').",
+        "usage_context_es": "Usado para preguntar si 'alguna persona' existe. (Sinónimo de 'anyone').",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_2_def0.avif"
+      },
+      {
+        "meaning": "Nadie (en negaciones)",
+        "usage_example": "I didn't see anybody.",
+        "pronunciation_guide_es": "/ai_DID-ent_SI_E-ni-ba-di/",
+        "usage_example_es": "No vi a nadie.",
+        "char_count": "4",
+        "usage_context_en": "Used to mean 'no person' in negative sentences. (Synonym of 'anyone').",
+        "usage_context_es": "Usado para significar 'ninguna persona' en oraciones negativas. (Sinónimo de 'anyone').",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_2_def1.avif"
+      },
+      {
+        "meaning": "Cualquiera",
+        "usage_example": "Anybody can do that.",
+        "pronunciation_guide_es": "/E-ni-ba-di_can_DU_dat/",
+        "usage_example_es": "Cualquiera puede hacer eso.",
+        "char_count": "4",
+        "usage_context_en": "Used in affirmative sentences to mean 'any person at all'.",
+        "usage_context_es": "Usado en oraciones afirmativas para significar 'cualquier persona'.",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_2_def2.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "somebody",
+    "phonetic": "/ˈsʌmbɒdi/",
+    "spoken_phonetic_us": "/ˈsʌmbɑdi/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Alguien",
+        "usage_example": "Somebody is at the door.",
+        "pronunciation_guide_es": "/SOM-ba-di_is_at_de_DOR/",
+        "usage_example_es": "Alguien está en la puerta.",
+        "char_count": "5",
+        "usage_context_en": "An unspecified person (used in affirmative sentences). Synonym: 'someone'.",
+        "usage_context_es": "Una persona no especificada (usado en oraciones afirmativas). Sinónimo: 'someone'.",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_22_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "someone else",
+    "phonetic": "/ˈsʌmwʌn ɛls/",
+    "spoken_phonetic_us": "/ˈsʌmwʌn ɛls/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Alguien más",
+        "usage_example": "This must be someone else's jacket.",
+        "pronunciation_guide_es": "/dis_most_bi_SOM-uan_EL-ses_YA-ket/",
+        "usage_example_es": "Esta debe ser la chaqueta de alguien más.",
+        "char_count": "6",
+        "usage_context_en": "A different or additional person.",
+        "usage_context_es": "Una persona diferente o adicional.",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_23_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "anyone else",
+    "phonetic": "/ˈɛniwʌn ɛls/",
+    "spoken_phonetic_us": "/ˈɛniwʌn ɛls/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Alguien más (pregunta) / Nadie más (negación)",
+        "usage_example": "Is anyone else coming?",
+        "pronunciation_guide_es": "/is_E-ni-uan_ELS_CO-ming/",
+        "usage_example_es": "¿Viene alguien más?",
+        "char_count": "4",
+        "usage_context_en": "Any other person (used in questions and negatives).",
+        "usage_context_es": "Cualquier otra persona (usado en preguntas y negaciones).",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_24_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "something else",
+    "phonetic": "/ˈsʌmθɪŋ ɛls/",
+    "spoken_phonetic_us": "/ˈsʌmθɪŋ ɛls/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Algo más / Otra cosa",
+        "usage_example": "I need something else.",
+        "pronunciation_guide_es": "/ai_NID_SOM-zing_ELS/",
+        "usage_example_es": "Necesito algo más.",
+        "char_count": "4",
+        "usage_context_en": "A different or additional thing.",
+        "usage_context_es": "Una cosa diferente o adicional.",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_25_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "everyone else",
+    "phonetic": "/ˈɛvriwʌn ɛls/",
+    "spoken_phonetic_us": "/ˈɛvriwʌn ɛls/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Todos los demás",
+        "usage_example": "Everyone else is already here.",
+        "pronunciation_guide_es": "/E-vri-uan_ELS_is_ol-RE-di_HIR/",
+        "usage_example_es": "Todos los demás ya están aquí.",
+        "char_count": "5",
+        "usage_context_en": "All the other people in the group.",
+        "usage_context_es": "Todas las otras personas en el grupo.",
+        "imagePath": "/card_images/pronouns/3-advanced/3-advanced_card_14_def0.avif"
+      }
+    ],
+    "category": "Advanced"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "somebody else",
+    "phonetic": "/ˈsʌmbɒdi ɛls/",
+    "spoken_phonetic_us": "/ˈsʌmbɑdi ɛls/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Alguien más",
+        "usage_example": "This must be somebody else's coat.",
+        "pronunciation_guide_es": "/dis_most_bi_SOM-ba-di_EL-ses_COUT/",
+        "usage_example_es": "Este debe ser el abrigo de alguien más.",
+        "char_count": "6",
+        "usage_context_en": "A different or additional person.",
+        "usage_context_es": "Una persona diferente o adicional.",
+        "imagePath": "/card_images/pronouns/3-advanced/3-advanced_card_15_def0.avif"
+      }
+    ],
+    "category": "Advanced"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "anybody else",
+    "phonetic": "/ˈɛnibɒdi ɛls/",
+    "spoken_phonetic_us": "/ˈɛnibɑdi ɛls/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "¿Alguien más?",
+        "usage_example": "Is anybody else coming?",
+        "pronunciation_guide_es": "/is_E-ni-ba-di_ELS_CO-ming/",
+        "usage_example_es": "¿Viene alguien más?",
+        "char_count": "4",
+        "usage_context_en": "Any other person (used in questions).",
+        "usage_context_es": "Cualquier otra persona (usado en preguntas).",
+        "imagePath": "/card_images/pronouns/3-advanced/3-advanced_card_16_def0.avif"
+      },
+      {
+        "meaning": "Nadie más",
+        "usage_example": "I didn't see anybody else.",
+        "pronunciation_guide_es": "/ai_DID-ent_SI_E-ni-ba-di_ELS/",
+        "usage_example_es": "No vi a nadie más.",
+        "char_count": "5",
+        "usage_context_en": "No other person (used in negatives).",
+        "usage_context_es": "Ninguna otra persona (usado en negaciones).",
+        "imagePath": "/card_images/pronouns/3-advanced/3-advanced_card_16_def1.avif"
+      }
+    ],
+    "category": "Advanced"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "someone new",
+    "phonetic": "/ˈsʌmwʌn njuː/",
+    "spoken_phonetic_us": "/ˈsʌmwʌn nuː/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Alguien nuevo",
+        "usage_example": "I want to meet someone new.",
+        "pronunciation_guide_es": "/ai_UANT_tu_MIT_SOM-uan_NIU/",
+        "usage_example_es": "Quiero conocer a alguien nuevo.",
+        "char_count": "6",
+        "usage_context_en": "A new or different person.",
+        "usage_context_es": "Una persona nueva o diferente.",
+        "imagePath": "/card_images/pronouns/3-advanced/3-advanced_card_17_def0.avif"
+      }
+    ],
+    "category": "Advanced"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "something new",
+    "phonetic": "/ˈsʌmθɪŋ njuː/",
+    "spoken_phonetic_us": "/ˈsʌmθɪŋ nuː/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Algo nuevo",
+        "usage_example": "I learned something new today.",
+        "pronunciation_guide_es": "/ai_LERND_SOM-zing_NIU_tu-DEI/",
+        "usage_example_es": "Aprendí algo nuevo hoy.",
+        "char_count": "5",
+        "usage_context_en": "A new or different thing or fact.",
+        "usage_context_es": "Una cosa o hecho nuevo o diferente.",
+        "imagePath": "/card_images/pronouns/3-advanced/3-advanced_card_18_def0.avif"
+      }
+    ],
+    "category": "Advanced"
+  }
+]

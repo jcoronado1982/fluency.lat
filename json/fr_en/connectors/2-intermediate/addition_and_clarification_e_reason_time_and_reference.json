@@ -1,0 +1,259 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "as well",
+        "phonetic": "/æz wɛl/",
+        "spoken_phonetic_us": "/æz wɛl/",
+        "search_term": "phrase/addition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: También]",
+                "usage_example": "He bought the book and the pen as well.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE as well AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He bought the book and the pen as well.]",
+                "char_count": "8",
+                "usage_context_en": "[TRADUCIR AL FR: Además; también. (Usado al final de una cláusula).]",
+                "usage_context_es": "In addition; too. (Used at the end of a clause).",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_3_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "since",
+        "phonetic": "/sɪns/",
+        "spoken_phonetic_us": "/sɪns/",
+        "search_term": "conjunction/reason/time",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Ya que / Puesto que (causa)]",
+                "usage_example": "Since you are here, you can help.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE since AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Since you are here, you can help.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para introducir una razón (similar a 'because').]",
+                "usage_context_es": "Used to introduce a reason (similar to 'because').",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_23_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Desde (tiempo)]",
+                "usage_example": "I have been here since 9 AM.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE since AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I have been here since 9 AM.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para indicar un punto de inicio en el tiempo.]",
+                "usage_context_es": "Used to indicate a starting point in time.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_23_def1.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "besides",
+        "phonetic": "/bɪˈsaɪdz/",
+        "spoken_phonetic_us": "/bɪˈsaɪdz/",
+        "search_term": "adverb/addition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Además]",
+                "usage_example": "I don't want to go. Besides, I am tired.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE besides AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I don't want to go. Besides, I am tired.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL FR: Además; es más (usado para añadir otra razón).]",
+                "usage_context_es": "In addition; moreover (used to add another reason).",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_5_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "as",
+        "phonetic": "/æz/",
+        "spoken_phonetic_us": "/æz/",
+        "search_term": "conjunction/reason/time/comparison",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Como / Ya que (causa)]",
+                "usage_example": "As I was tired, I went to bed.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE as AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: As I was tired, I went to bed.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para indicar una razón (similar a 'because').]",
+                "usage_context_es": "Used to state a reason (similar to 'because').",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_22_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Mientras (tiempo)]",
+                "usage_example": "He sang as he walked.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE as AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He sang as he walked.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para indicar que dos acciones ocurren al mismo tiempo.]",
+                "usage_context_es": "Used to indicate that two actions are happening at the same time.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_22_def1.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Como (comparación)]",
+                "usage_example": "She is as tall as me.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE as AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: She is as tall as me.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para hacer una comparación de igualdad.]",
+                "usage_context_es": "Used to make a comparison of equality.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_22_def2.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "in addition",
+        "phonetic": "/ɪn əˈdɪʃən/",
+        "spoken_phonetic_us": "/ɪn əˈdɪʃən/",
+        "search_term": "connector/addition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Además / Adicionalmente]",
+                "usage_example": "In addition to his salary, he gets a bonus.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE in addition AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: In addition to his salary, he gets a bonus.]",
+                "char_count": "11",
+                "usage_context_en": "[TRADUCIR AL FR: Como persona, cosa o circunstancia adicional.]",
+                "usage_context_es": "As an extra person, thing, or circumstance.",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_5_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "meanwhile",
+        "phonetic": "/ˈminˌwaɪl/",
+        "spoken_phonetic_us": "/ˈminˌwaɪl/",
+        "search_term": "connector/time",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Mientras tanto]",
+                "usage_example": "I was studying; meanwhile, my brother was playing.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE meanwhile AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I was studying; meanwhile, my brother was playing.]",
+                "char_count": "9",
+                "usage_context_en": "[TRADUCIR AL FR: En el período de tiempo intermedio.]",
+                "usage_context_es": "In the intervening period of time.",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_7_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "in other words",
+        "phonetic": "/ɪn ˈʌðər wɜrdz/",
+        "spoken_phonetic_us": "/ɪn ˈʌðər wɜrdz/",
+        "search_term": "phrase/clarification",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: En otras palabras]",
+                "usage_example": "He is my father's brother. In other words, he is my uncle.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE in other words AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He is my father's brother. In other words, he is my uncle.]",
+                "char_count": "10",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para explicar algo de una forma más simple o diferente.]",
+                "usage_context_es": "Used to explain something in a simpler or different way.",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_3_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Clarification",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "what",
+        "phonetic": "/wɒt/",
+        "spoken_phonetic_us": "/wʌt/",
+        "search_term": "pronoun/interrogative/relative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Lo que (pronombre relativo)]",
+                "usage_example": "I don't know what to do.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE what AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I don't know what to do.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Usado como pronombre relativo para referirse a 'la(s) cosa(s) que'.]",
+                "usage_context_es": "Used as a relative pronoun to refer to 'the thing(s) that'.",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_1_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Relative",
+        "category": ""
+    }
+]

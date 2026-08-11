@@ -1,0 +1,334 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Parte",
+        "pronunciation_guide_es": "/dis_is_de_BEST_PART_of_de_MUVI/",
+        "usage_context_en": "A piece of a whole",
+        "usage_context_es": "Un pedazo de un todo",
+        "usage_example": "This is the best part of the movie.",
+        "usage_example_es": "Esta es la mejor parte de la película.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components_e_work/1-basic_structure_components_e_work_card_0_def0.avif"
+      },
+      {
+        "char_count": "4",
+        "meaning": "Papel o rol",
+        "pronunciation_guide_es": "/ji_PLEId_a_PART_in_de_MUVi/",
+        "usage_context_en": "A role in a play, movie, or situation.",
+        "usage_context_es": "Un papel en una obra, película o situación.",
+        "usage_example": "He played a part in the movie.",
+        "usage_example_es": "Él interpretó un papel en la película.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components_e_work/1-basic_structure_components_e_work_card_0_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "part",
+    "phonetic": "/pɑːrt/",
+    "search_term": "noun/piece/essentials",
+    "spoken_phonetic_us": "/pɑːrt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Trabajo",
+        "pronunciation_guide_es": "/ai_JAV_tu_GOU_tu_UORK/",
+        "usage_context_en": "Activity involving mental or physical effort",
+        "usage_context_es": "Actividad que implica esfuerzo físico o mental",
+        "usage_example": "I have to go to work.",
+        "usage_example_es": "Tengo que ir al trabajo.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components_e_work/1-basic_structure_components_e_work_card_1_def0.avif"
+      },
+      {
+        "char_count": "7",
+        "meaning": "Obra artística o literaria",
+        "pronunciation_guide_es": "/dis_PEINting_is_a_FEImos_UORK_of_ART/",
+        "usage_context_en": "A creation such as a book, painting, or music piece.",
+        "usage_context_es": "Una creación como un libro, pintura o pieza musical.",
+        "usage_example": "This painting is a famous work of art.",
+        "usage_example_es": "Esta pintura es una obra de arte famosa.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components_e_work/1-basic_structure_components_e_work_card_1_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "work",
+    "phonetic": "/wɜːrk/",
+    "search_term": "noun/job/essentials",
+    "spoken_phonetic_us": "/wɜːrk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Equipo",
+        "pronunciation_guide_es": "/ui_ar_a_GUD_TIM/",
+        "usage_context_en": "A group of people working or playing together",
+        "usage_context_es": "Un grupo de personas que trabajan o juegan juntas",
+        "usage_example": "We are a good team.",
+        "usage_example_es": "Somos un buen equipo.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components_e_work/1-basic_structure_components_e_work_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "People",
+    "is_verb": false,
+    "name": "team",
+    "phonetic": "/tiːm/",
+    "search_term": "noun/group/work/essentials",
+    "spoken_phonetic_us": "/tiːm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Oficina",
+        "pronunciation_guide_es": "/ji_UORKS_in_an_OFis/",
+        "usage_context_en": "A room or building for administrative work",
+        "usage_context_es": "Un cuarto o edificio para trabajo administrativo",
+        "usage_example": "He works in an office.",
+        "usage_example_es": "Él trabaja en una oficina.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components_e_work/1-basic_structure_components_e_work_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places",
+    "is_verb": false,
+    "name": "office",
+    "phonetic": "/ˈɒfɪs/",
+    "search_term": "noun/place/work/essentials",
+    "spoken_phonetic_us": "/ˈɑːfɪs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "section",
+    "phonetic": "/ˈsɛkʃən/",
+    "spoken_phonetic_us": "/ˈsɛkʃən/",
+    "search_term": "noun/structure_components/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Sección",
+        "usage_example": "Read the next section carefully.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Lee la siguiente sección con cuidado.",
+        "char_count": "5",
+        "usage_context_en": "One part of a larger whole.",
+        "usage_context_es": "One part of a larger whole.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components_e_work/1-basic_structure_components_e_work_card_4_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "People"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Empresa / Compañía",
+        "pronunciation_guide_es": "/ai_UORK_for_a_BIG_KOMpani/",
+        "usage_context_en": "A business organization",
+        "usage_context_es": "Una organización de negocios",
+        "usage_example": "I work for a big company.",
+        "usage_example_es": "Trabajo para una empresa grande.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components_e_work/1-basic_structure_components_e_work_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "company",
+    "phonetic": "/ˈkʌmpəni/",
+    "search_term": "noun/place/work/essentials",
+    "spoken_phonetic_us": "/ˈkʌmpəni/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "unit",
+    "phonetic": "/ˈjuːnɪt/",
+    "spoken_phonetic_us": "/ˈjuːnɪt/",
+    "search_term": "noun/structure_components/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Unidad",
+        "usage_example": "This unit covers basic grammar.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Esta unidad cubre gramática básica.",
+        "char_count": "5",
+        "usage_context_en": "A single part of a system or course.",
+        "usage_context_es": "A single part of a system or course.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components_e_work/1-basic_structure_components_e_work_card_6_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "People"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Negocio / Empresa",
+        "pronunciation_guide_es": "/ji_STARTid_jis_OUN_BISnes/",
+        "usage_context_en": "The activity of buying and selling goods",
+        "usage_context_es": "La actividad de comprar y vender bienes",
+        "usage_example": "He started his own business.",
+        "usage_example_es": "Él empezó su propio negocio.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components_e_work/1-basic_structure_components_e_work_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "business",
+    "phonetic": "/ˈbɪznəs/",
+    "search_term": "noun/work/company/essentials",
+    "spoken_phonetic_us": "/ˈbɪznəs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "member",
+    "phonetic": "/ˈmɛmbər/",
+    "spoken_phonetic_us": "/ˈmɛmbər/",
+    "search_term": "noun/structure_components/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Miembro",
+        "usage_example": "She is a member of the team.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Ella es miembro del equipo.",
+        "char_count": "7",
+        "usage_context_en": "A person who belongs to a group.",
+        "usage_context_es": "A person who belongs to a group.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components_e_work/1-basic_structure_components_e_work_card_8_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "People"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Escritorio",
+        "pronunciation_guide_es": "/de_PENsol_is_on_de_DESK/",
+        "usage_context_en": "A table for writing or working",
+        "usage_context_es": "Una mesa para escribir o trabajar",
+        "usage_example": "The pencil is on the desk.",
+        "usage_example_es": "El lápiz está sobre el escritorio.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components_e_work/1-basic_structure_components_e_work_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "desk",
+    "phonetic": "/dɛsk/",
+    "search_term": "noun/furniture/school/essentials",
+    "spoken_phonetic_us": "/dɛsk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Cliente",
+        "pronunciation_guide_es": "/de_KOStomer_is_OLueis_RAIT/",
+        "usage_context_en": "A person who buys things from a store",
+        "usage_context_es": "Una persona que compra cosas en una tienda",
+        "usage_example": "The customer is always right.",
+        "usage_example_es": "El cliente siempre tiene la razón.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components_e_work/1-basic_structure_components_e_work_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "customer",
+    "phonetic": "/ˈkʌstəmər/",
+    "search_term": "noun/person/work/essentials",
+    "spoken_phonetic_us": "/ˈkʌstəmər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Reunión",
+        "pronunciation_guide_es": "/i_JAV_a_MITin_at_TU/",
+        "usage_context_en": "A gathering of people to discuss something",
+        "usage_context_es": "Una reunión de personas para discutir algo",
+        "usage_example": "I have a meeting at two.",
+        "usage_example_es": "Tengo una reunión a las dos.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components_e_work/1-basic_structure_components_e_work_card_11_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "meeting",
+    "phonetic": "/ˈmiːtɪŋ/",
+    "search_term": "noun/work/essentials",
+    "spoken_phonetic_us": "/ˈmiːtɪŋ/"
+  }
+]

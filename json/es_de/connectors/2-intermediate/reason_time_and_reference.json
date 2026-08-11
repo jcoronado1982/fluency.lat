@@ -1,0 +1,188 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "da",
+    "phonetic": "/daː/",
+    "spoken_phonetic_us": "/daː/",
+    "search_term": "conjunction/reason/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Cause & Effect",
+    "definitions": [
+      {
+        "meaning": "Ya que / Puesto que (causa)",
+        "usage_example": "Da du hier bist, kannst du helfen.",
+        "pronunciation_guide_es": "/da_du_HIR_bist_kanst_du_HEL-fen/",
+        "usage_example_es": "Ya que estás aquí, puedes ayudar.",
+        "char_count": "6",
+        "usage_context_en": "Used to introduce a reason (similar to 'because').",
+        "usage_context_es": "Usado para introducir una razón (similar a 'because').",
+        "imagePath": "/card_images/connectors/2-intermediate/reason_time_and_reference/2-intermediate_reason_time_and_reference_card_0_def0.avif"
+      },
+      {
+        "meaning": "Desde (tiempo)",
+        "usage_example": "Ich bin seit 9 Uhr hier.",
+        "pronunciation_guide_es": "/ish_bin_zait_NOIN_UR_HIR/",
+        "usage_example_es": "He estado aquí desde las 9 AM.",
+        "char_count": "6",
+        "usage_context_en": "Used to indicate a starting point in time.",
+        "usage_context_es": "Usado para indicar un punto de inicio en el tiempo.",
+        "imagePath": "/card_images/connectors/2-intermediate/reason_time_and_reference/2-intermediate_reason_time_and_reference_card_0_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "da",
+    "phonetic": "/daː/",
+    "spoken_phonetic_us": "/daː/",
+    "search_term": "conjunction/reason/time/comparison",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Cause & Effect",
+    "definitions": [
+      {
+        "meaning": "Como / Ya que (causa)",
+        "usage_example": "Da ich müde war, ging ich ins Bett.",
+        "pronunciation_guide_es": "/da_ish_MUE-de_var_GING_ish_ins_BET/",
+        "usage_example_es": "Como estaba cansado, me fui a la cama.",
+        "char_count": "7",
+        "usage_context_en": "Used to state a reason (similar to 'because').",
+        "usage_context_es": "Usado para indicar una razón (similar a 'because').",
+        "imagePath": "/card_images/connectors/2-intermediate/reason_time_and_reference/2-intermediate_reason_time_and_reference_card_1_def0.avif"
+      },
+      {
+        "meaning": "Mientras (tiempo)",
+        "usage_example": "Er sang, während er ging.",
+        "pronunciation_guide_es": "/er_ZANG_VE-rent_er_GING/",
+        "usage_example_es": "Cantaba mientras caminaba.",
+        "char_count": "5",
+        "usage_context_en": "Used to indicate that two actions are happening at the same time.",
+        "usage_context_es": "Usado para indicar que dos acciones ocurren al mismo tiempo.",
+        "imagePath": "/card_images/connectors/2-intermediate/reason_time_and_reference/2-intermediate_reason_time_and_reference_card_1_def1.avif"
+      },
+      {
+        "meaning": "Como (comparación)",
+        "usage_example": "Sie ist so groß wie ich.",
+        "pronunciation_guide_es": "/zi_ist_zo_GROS_vi_ISH/",
+        "usage_example_es": "Ella es tan alta como yo.",
+        "char_count": "5",
+        "usage_context_en": "Used to make a comparison of equality.",
+        "usage_context_es": "Usado para hacer una comparación de igualdad.",
+        "imagePath": "/card_images/connectors/2-intermediate/reason_time_and_reference/2-intermediate_reason_time_and_reference_card_1_def2.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "währenddessen",
+    "phonetic": "/ˈvɛːʁəntdɛsən/",
+    "spoken_phonetic_us": "/ˈvɛːʁəntdɛsən/",
+    "search_term": "connector/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Time",
+    "definitions": [
+      {
+        "meaning": "Mientras tanto",
+        "usage_example": "Ich lernte; währenddessen spielte mein Bruder.",
+        "pronunciation_guide_es": "/ish_LERN-te_VE-rent-de-sen_SHPIL-te_main_BRU-der/",
+        "usage_example_es": "Yo estaba estudiando; mientras tanto, mi hermano estaba jugando.",
+        "char_count": "9",
+        "usage_context_en": "In the intervening period of time.",
+        "usage_context_es": "En el período de tiempo intermedio.",
+        "imagePath": "/card_images/connectors/2-intermediate/reason_time_and_reference/2-intermediate_reason_time_and_reference_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "was",
+    "phonetic": "/vas/",
+    "spoken_phonetic_us": "/vas/",
+    "search_term": "pronoun/interrogative/relative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Relative",
+    "definitions": [
+      {
+        "meaning": "Lo que (pronombre relativo)",
+        "usage_example": "Ich weiß nicht, was ich tun soll.",
+        "pronunciation_guide_es": "/ish_VAIS_nisht_vas_ish_TUN_zol/",
+        "usage_example_es": "No sé qué hacer. (No sé lo que debo hacer).",
+        "char_count": "6",
+        "usage_context_en": "Used as a relative pronoun to refer to 'the thing(s) that'.",
+        "usage_context_es": "Usado como pronombre relativo para referirse a 'la(s) cosa(s) que'.",
+        "imagePath": "/card_images/connectors/2-intermediate/reason_time_and_reference/2-intermediate_reason_time_and_reference_card_3_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "damit",
+    "phonetic": "/daˈmɪt/",
+    "spoken_phonetic_us": "/daˈmɪt/",
+    "search_term": "connector/purpose/intermediate",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Purpose",
+    "definitions": [
+      {
+        "meaning": "Para que",
+        "usage_example": "Sprich langsam, damit ich verstehen kann.",
+        "pronunciation_guide_es": "/SHPRISH_LANG-zam_da-MIT_ish_fer-SHTE-en_kan/",
+        "usage_example_es": "Habla despacio para que pueda entender.",
+        "char_count": "7",
+        "usage_context_en": "Used to express purpose or desired result.",
+        "usage_context_es": "Usado para expresar propósito o resultado deseado.",
+        "imagePath": "/card_images/connectors/2-intermediate/reason_time_and_reference/2-intermediate_reason_time_and_reference_card_4_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "um ... zu",
+    "phonetic": "/ʊm tsuː/",
+    "spoken_phonetic_us": "/ʊm tsuː/",
+    "search_term": "connector/purpose/intermediate",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Purpose",
+    "definitions": [
+      {
+        "meaning": "Para",
+        "usage_example": "Sie lernt hart, um zu bestehen.",
+        "pronunciation_guide_es": "/zi_LERNT_HART_um_tsu_be-SHTE-en/",
+        "usage_example_es": "Ella estudia mucho para aprobar.",
+        "char_count": "12",
+        "usage_context_en": "Used to explain purpose before an infinitive verb.",
+        "usage_context_es": "Usado para explicar propósito antes de un verbo en infinitivo.",
+        "imagePath": "/card_images/connectors/2-intermediate/reason_time_and_reference/2-intermediate_reason_time_and_reference_card_5_def0.avif"
+      }
+    ]
+  }
+]

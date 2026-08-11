@@ -1,0 +1,679 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: world]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/planet/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "world",
+                "usage_example": "[TRADUCIR AL FR: I want to see the world.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I want to see the world.",
+                "char_count": "one",
+                "usage_context_en": "The Earth and all people and things on it",
+                "usage_context_es": "[TRADUCIR AL FR: The Earth and all people and things on it]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_10_def0.avif"
+            },
+            {
+                "meaning": "world (def 2)",
+                "usage_example": "[TRADUCIR AL FR: She works in the fashion world.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She works in the fashion world.",
+                "char_count": "5",
+                "usage_context_en": "A particular sphere or environment.",
+                "usage_context_es": "[TRADUCIR AL FR: A particular sphere or environment.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_10_def1.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: city]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "city",
+                "usage_example": "[TRADUCIR AL FR: New York is a big city.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "New York is a big city.",
+                "char_count": "two",
+                "usage_context_en": "A large town",
+                "usage_context_es": "[TRADUCIR AL FR: A large town]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_59_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: store]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "store",
+                "usage_example": "[TRADUCIR AL FR: I need to go to the store.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I need to go to the store.",
+                "char_count": "one",
+                "usage_context_en": "A place where you buy things",
+                "usage_context_es": "[TRADUCIR AL FR: A place where you buy things]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_61_def0.avif"
+            },
+            {
+                "meaning": "store (def 2)",
+                "usage_example": "[TRADUCIR AL FR: They have a store of food for winter.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "They have a store of food for winter.",
+                "char_count": "5",
+                "usage_context_en": "A supply or reserve of something.",
+                "usage_context_es": "[TRADUCIR AL FR: A supply or reserve of something.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_61_def1.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: park]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "park",
+                "usage_example": "[TRADUCIR AL FR: Let's walk in the park.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Let's walk in the park.",
+                "char_count": "one",
+                "usage_context_en": "A public green area",
+                "usage_context_es": "[TRADUCIR AL FR: A public green area]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_63_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: street]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/city/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "street",
+                "usage_example": "[TRADUCIR AL FR: The car is on the street.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The car is on the street.",
+                "char_count": "one",
+                "usage_context_en": "A public road in a city",
+                "usage_context_es": "[TRADUCIR AL FR: A public road in a city]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_134_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: road]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/transport/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "road",
+                "usage_example": "[TRADUCIR AL FR: This road goes to the city.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "This road goes to the city.",
+                "char_count": "one",
+                "usage_context_en": "A long path for vehicles",
+                "usage_context_es": "[TRADUCIR AL FR: A long path for vehicles]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_135_def0.avif"
+            }
+        ],
+        "group_name": "Transportation",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: market]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/food/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "market",
+                "usage_example": "[TRADUCIR AL FR: I buy fruit at the market.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I buy fruit at the market.",
+                "char_count": "two",
+                "usage_context_en": "A place to buy food and goods",
+                "usage_context_es": "[TRADUCIR AL FR: A place to buy food and goods]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_136_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: hospital]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/health/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "hospital",
+                "usage_example": "[TRADUCIR AL FR: He is in the hospital.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He is in the hospital.",
+                "char_count": "three",
+                "usage_context_en": "A place for sick people",
+                "usage_context_es": "[TRADUCIR AL FR: A place for sick people]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_137_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: restaurant]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/food/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "restaurant",
+                "usage_example": "[TRADUCIR AL FR: Let's eat at a restaurant.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Let's eat at a restaurant.",
+                "char_count": "three",
+                "usage_context_en": "A place to buy and eat a meal",
+                "usage_context_es": "[TRADUCIR AL FR: A place to buy and eat a meal]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_138_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: hotel]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/travel/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "hotel",
+                "usage_example": "[TRADUCIR AL FR: We are staying at a hotel.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "We are staying at a hotel.",
+                "char_count": "two",
+                "usage_context_en": "A place to sleep when traveling",
+                "usage_context_es": "[TRADUCIR AL FR: A place to sleep when traveling]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_139_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: bank]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/money/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "bank",
+                "usage_example": "[TRADUCIR AL FR: I need to go to the bank.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I need to go to the bank.",
+                "char_count": "one",
+                "usage_context_en": "A place to keep money",
+                "usage_context_es": "[TRADUCIR AL FR: A place to keep money]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_142_def0.avif"
+            },
+            {
+                "meaning": "bank (def 2)",
+                "usage_example": "[TRADUCIR AL FR: We had a picnic on the river bank.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "We had a picnic on the river bank.",
+                "char_count": "5",
+                "usage_context_en": "The land alongside or sloping down to a river or lake.",
+                "usage_context_es": "[TRADUCIR AL FR: The land alongside or sloping down to a river or lake.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_142_def1.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: place]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/location/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "place",
+                "usage_example": "[TRADUCIR AL FR: This is a beautiful place.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "This is a beautiful place.",
+                "char_count": "one",
+                "usage_context_en": "A specific location",
+                "usage_context_es": "[TRADUCIR AL FR: A specific location]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_175_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: town]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "town",
+                "usage_example": "[TRADUCIR AL FR: I live in a small town.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I live in a small town.",
+                "char_count": "one",
+                "usage_context_en": "A place with houses, smaller than a city",
+                "usage_context_es": "[TRADUCIR AL FR: A place with houses, smaller than a city]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_233_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: village]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "village",
+                "usage_example": "[TRADUCIR AL FR: It's a quiet village.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "It's a quiet village.",
+                "char_count": "two",
+                "usage_context_en": "A very small town, usually in the country",
+                "usage_context_es": "[TRADUCIR AL FR: A very small town, usually in the country]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_234_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: farm]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/nature/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "farm",
+                "usage_example": "[TRADUCIR AL FR: They grow vegetables on the farm.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "They grow vegetables on the farm.",
+                "char_count": "one",
+                "usage_context_en": "Land used for growing food or animals",
+                "usage_context_es": "[TRADUCIR AL FR: Land used for growing food or animals]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_235_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: building]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "building",
+                "usage_example": "[TRADUCIR AL FR: That building is very tall.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "That building is very tall.",
+                "char_count": "two",
+                "usage_context_en": "A structure with walls and a roof (e.g., house, office)",
+                "usage_context_es": "[TRADUCIR AL FR: A structure with walls and a roof (e.g., house, office)]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_236_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: library]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "library",
+                "usage_example": "[TRADUCIR AL FR: I borrow books from the library.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I borrow books from the library.",
+                "char_count": "three",
+                "usage_context_en": "A place with books to read or borrow",
+                "usage_context_es": "[TRADUCIR AL FR: A place with books to read or borrow]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_237_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: church]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/religion/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "church",
+                "usage_example": "[TRADUCIR AL FR: They go to church on Sunday.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "They go to church on Sunday.",
+                "char_count": "one",
+                "usage_context_en": "A building for Christian religious services",
+                "usage_context_es": "[TRADUCIR AL FR: A building for Christian religious services]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_238_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: bridge]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/transport/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "bridge",
+                "usage_example": "[TRADUCIR AL FR: We crossed the bridge.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "We crossed the bridge.",
+                "char_count": "one",
+                "usage_context_en": "A structure built over a river or road",
+                "usage_context_es": "[TRADUCIR AL FR: A structure built over a river or road]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_239_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: garden]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/nature/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "garden",
+                "usage_example": "[TRADUCIR AL FR: She is in the garden.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She is in the garden.",
+                "char_count": "two",
+                "usage_context_en": "An area of land for growing flowers or vegetables",
+                "usage_context_es": "[TRADUCIR AL FR: An area of land for growing flowers or vegetables]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_240_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: gym]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "gym",
+                "usage_example": "[TRADUCIR AL FR: I go to the gym every day.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I go to the gym every day.",
+                "char_count": "one",
+                "usage_context_en": "A place where you go to exercise",
+                "usage_context_es": "[TRADUCIR AL FR: A place where you go to exercise]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_464_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: stadium]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "stadium",
+                "usage_example": "[TRADUCIR AL FR: The stadium is full.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The stadium is full.",
+                "char_count": "two",
+                "usage_context_en": "A large place where sports are played",
+                "usage_context_es": "[TRADUCIR AL FR: A large place where sports are played]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_465_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: neighborhood]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "neighborhood",
+                "usage_example": "[TRADUCIR AL FR: It's a safe neighborhood.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "It's a safe neighborhood.",
+                "char_count": "three",
+                "usage_context_en": "The area near where you live",
+                "usage_context_es": "[TRADUCIR AL FR: The area near where you live]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_466_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    }
+]

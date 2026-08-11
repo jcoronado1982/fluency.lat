@@ -1,0 +1,54 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_21_def0.avif",
+        "meaning": "Manera / Camino",
+        "pronunciation_guide_es": "/dis_is_de_RAIT_UEI/",
+        "usage_context_en": "A method, style, or direction",
+        "usage_context_es": "Un método, estilo o dirección",
+        "usage_example": "This is the right way.",
+        "usage_example_es": "Este es el camino correcto."
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "way",
+    "phonetic": "/weɪ/",
+    "search_term": "noun/method/essentials",
+    "spoken_phonetic_us": "/weɪ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Idea",
+        "pronunciation_guide_es": "/ai_JAV_a_GUD_aiDIA/",
+        "usage_context_en": "A thought or suggestion",
+        "usage_context_es": "Un pensamiento o sugerencia",
+        "usage_example": "I have a good idea.",
+        "usage_example_es": "Tengo una buena idea.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_77_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "idea",
+    "phonetic": "/aɪˈdiːə/",
+    "search_term": "noun/thought/essentials",
+    "spoken_phonetic_us": "/aɪˈdiːə/"
+  }
+]

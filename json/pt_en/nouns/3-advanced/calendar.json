@@ -1,0 +1,58 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "agenda",
+        "phonetic": "/əˈdʒɛndə/",
+        "spoken_phonetic_us": "/əˈdʒɛndə/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Agenda / Orden del día]",
+                "usage_example": "What is on the agenda today?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE agenda AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: What is on the agenda today?]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Una lista de temas a discutir en una reunión formal.]",
+                "usage_context_es": "A list of items to be discussed at a formal meeting.",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_7_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "schedule",
+        "phonetic": "/ˈʃɛdjuːl/",
+        "spoken_phonetic_us": "/ˈskɛdʒuːl/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Horario / Agenda / Programa]",
+                "usage_example": "What is your schedule for today?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE schedule AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: What is your schedule for today?]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Un plan para llevar a cabo un proceso, dando listas de eventos y horas previstas.]",
+                "usage_context_es": "A plan for carrying out a process or procedure, giving lists of intended events and times.",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_102_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "policy",
+    "phonetic": "/ˈpɒləsi/",
+    "spoken_phonetic_us": "/ˈpɑləsi/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Government & Society",
+    "definitions": [
+      {
+        "meaning": "Política (norma / plan)",
+        "usage_example": "It's a company policy.",
+        "pronunciation_guide_es": "/its_a_COM-pa-ni_PO-li-si/",
+        "usage_example_es": "Es una política de la empresa.",
+        "char_count": "4",
+        "usage_context_en": "A course or principle of action adopted or proposed by a government, party, business, or individual.",
+        "usage_context_es": "Un curso o principio de acción adoptado o propuesto por un gobierno, partido, negocio o individuo.",
+        "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_91_def0.avif"
+      },
+      {
+        "meaning": "Póliza (de seguro)",
+        "usage_example": "She has a life insurance policy.",
+        "pronunciation_guide_es": "/shi_HAS_a_LAIF_in-SHU-rans_PO-li-si/",
+        "usage_example_es": "Ella tiene una póliza de seguro de vida.",
+        "char_count": "6",
+        "usage_context_en": "A contract of insurance.",
+        "usage_context_es": "Un contrato de seguro.",
+        "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_91_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "recommendation",
+    "phonetic": "/ˌrɛkəmenˈdeɪʃən/",
+    "spoken_phonetic_us": "/ˌrɛkəmenˈdeɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Recomendación",
+        "usage_example": "Do you have a recommendation?",
+        "pronunciation_guide_es": "/du_iu_HAV_a_re-co-men-DEI-shon/",
+        "usage_example_es": "¿Tienes alguna recomendación?",
+        "char_count": "5",
+        "usage_context_en": "A suggestion or proposal as to the best course of action.",
+        "usage_context_es": "Una sugerencia o propuesta sobre el mejor curso de acción.",
+        "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_99_def0.avif"
+      }
+    ]
+  }
+]

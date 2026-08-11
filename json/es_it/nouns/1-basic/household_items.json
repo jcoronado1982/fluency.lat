@@ -1,0 +1,953 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: table]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/furniture/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Mesa",
+                "usage_example": "[TRADUCIR AL IT: The book is on the table.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "El libro está sobre la mesa.",
+                "char_count": "two",
+                "usage_context_en": "Un mueble con una superficie plana",
+                "usage_context_es": "[TRADUCIR AL IT: A piece of furniture with a flat top]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_47_def0.avif"
+            },
+            {
+                "meaning": "Lista o conjunto de datos",
+                "usage_example": "[TRADUCIR AL IT: The results are shown in the table below.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Los resultados se muestran en la tabla de abajo.",
+                "char_count": "6",
+                "usage_context_en": "Un conjunto de datos dispuestos en filas y columnas.",
+                "usage_context_es": "[TRADUCIR AL IT: A set of data arranged in rows and columns.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_47_def1.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: chair]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/furniture/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Silla",
+                "usage_example": "[TRADUCIR AL IT: Sit on the chair.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Siéntate en la silla.",
+                "char_count": "one",
+                "usage_context_en": "Un asiento para una persona",
+                "usage_context_es": "[TRADUCIR AL IT: A seat for one person]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_48_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: door]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/house/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Puerta",
+                "usage_example": "[TRADUCIR AL IT: Close the door, please.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Cierra la puerta, por favor.",
+                "char_count": "one",
+                "usage_context_en": "Usas esto para entrar o salir de un cuarto",
+                "usage_context_es": "[TRADUCIR AL IT: You use this to enter or leave a room]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_49_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: window]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/house/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Ventana",
+                "usage_example": "[TRADUCIR AL IT: Open the window.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Abre la ventana.",
+                "char_count": "two",
+                "usage_context_en": "Una abertura en una pared con vidrio",
+                "usage_context_es": "[TRADUCIR AL IT: An opening in a wall with glass]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_50_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: bed]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/furniture/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Cama",
+                "usage_example": "[TRADUCIR AL IT: I am going to bed.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Me voy a la cama.",
+                "char_count": "one",
+                "usage_context_en": "Un mueble para dormir",
+                "usage_context_es": "[TRADUCIR AL IT: A piece of furniture for sleeping]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_51_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: key]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/tool/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Llave",
+                "usage_example": "[TRADUCIR AL IT: I lost my key.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Perdí mi llave.",
+                "char_count": "one",
+                "usage_context_en": "Una pequeña herramienta de metal para abrir una cerradura",
+                "usage_context_es": "[TRADUCIR AL IT: A small metal tool to open a lock]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_52_def0.avif"
+            },
+            {
+                "meaning": "Tecla (de piano o teclado)",
+                "usage_example": "[TRADUCIR AL IT: Press the key to play the note.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Presiona la tecla para tocar la nota.",
+                "char_count": "3",
+                "usage_context_en": "Un botón que presionas en un teclado o piano.",
+                "usage_context_es": "[TRADUCIR AL IT: A button you press on a keyboard or piano.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_52_def1.avif"
+            },
+            {
+                "meaning": "Idea principal / clave",
+                "usage_example": "[TRADUCIR AL IT: This is the key to success.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Esta es la clave del éxito.",
+                "char_count": "5",
+                "usage_context_en": "Algo importante o esencial para comprender.",
+                "usage_context_es": "[TRADUCIR AL IT: Something important or essential for understanding.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_52_def2.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: light]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/brightness/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Luz / Lámpara",
+                "usage_example": "[TRADUCIR AL IT: Turn on the light.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Enciende la luz.",
+                "char_count": "one",
+                "usage_context_en": "El brillo del sol o una lámpara",
+                "usage_context_es": "[TRADUCIR AL IT: The brightness from the sun or a lamp]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_110_def0.avif"
+            },
+            {
+                "meaning": "Iluminación o fuente de luz",
+                "usage_example": "[TRADUCIR AL IT: Turn on the light.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Enciende la luz.",
+                "char_count": "4",
+                "usage_context_en": "Energía visible que permite ver las cosas.",
+                "usage_context_es": "[TRADUCIR AL IT: Visible energy that makes things seen.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_110_def1.avif"
+            },
+            {
+                "meaning": "Peso liviano",
+                "usage_example": "[TRADUCIR AL IT: This bag is very light.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Esta bolsa es muy liviana.",
+                "char_count": "4",
+                "usage_context_en": "Que tiene poco peso; no es pesado.",
+                "usage_context_es": "[TRADUCIR AL IT: Having little weight; not heavy.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_110_def2.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: box]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/object/container/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Caja",
+                "usage_example": "[TRADUCIR AL IT: Put it in the box.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Ponlo en la caja.",
+                "char_count": "one",
+                "usage_context_en": "Un contenedor con lados cuadrados",
+                "usage_context_es": "[TRADUCIR AL IT: A container with square sides]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_152_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: bottle]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/object/container/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Botella",
+                "usage_example": "[TRADUCIR AL IT: A bottle of water.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Una botella de agua.",
+                "char_count": "two",
+                "usage_context_en": "Un contenedor para líquidos, usualmente de vidrio o plástico",
+                "usage_context_es": "[TRADUCIR AL IT: A container for liquids, usually glass or plastic]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_154_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: cup]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/object/container/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Taza / Vaso",
+                "usage_example": "[TRADUCIR AL IT: A cup of tea.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Una taza de té.",
+                "char_count": "one",
+                "usage_context_en": "Un contenedor pequeño para beber",
+                "usage_context_es": "[TRADUCIR AL IT: A small container for drinking]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_155_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: glass]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/object/container/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Vaso / Vidrio",
+                "usage_example": "[TRADUCIR AL IT: A glass of water.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Un vaso de agua.",
+                "char_count": "one",
+                "usage_context_en": "Un contenedor para beber / El material duro y transparente",
+                "usage_context_es": "[TRADUCIR AL IT: A container for drinking / The hard, clear material]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_156_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: plate]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/object/kitchen/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Plato",
+                "usage_example": "[TRADUCIR AL IT: Put the food on the plate.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Pon la comida en el plato.",
+                "char_count": "one",
+                "usage_context_en": "Un recipiente plano para comer",
+                "usage_context_es": "[TRADUCIR AL IT: A flat dish for eating food]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_157_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: fork]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/object/kitchen/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Tenedor",
+                "usage_example": "[TRADUCIR AL IT: I eat salad with a fork.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Como ensalada con un tenedor.",
+                "char_count": "one",
+                "usage_context_en": "Una herramienta con puntas para levantar comida",
+                "usage_context_es": "[TRADUCIR AL IT: A tool with points for lifting food]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_158_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: spoon]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/object/kitchen/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Cuchara",
+                "usage_example": "[TRADUCIR AL IT: I eat soup with a spoon.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Como sopa con una cuchara.",
+                "char_count": "one",
+                "usage_context_en": "Una herramienta con un cuenco pequeño para comida líquida",
+                "usage_context_es": "[TRADUCIR AL IT: A tool with a small bowl for liquid food]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_159_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: knife]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/object/kitchen/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Cuchillo",
+                "usage_example": "[TRADUCIR AL IT: Be careful with the knife.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Ten cuidado con el cuchillo.",
+                "char_count": "one",
+                "usage_context_en": "Una herramienta con una hoja para cortar",
+                "usage_context_es": "[TRADUCIR AL IT: A tool with a blade for cutting]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_160_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: television]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/object/device/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Televisión / Televisor",
+                "usage_example": "[TRADUCIR AL IT: I am watching television.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Estoy viendo la televisión.",
+                "char_count": "four",
+                "usage_context_en": "Un dispositivo que muestra imágenes en movimiento (TV)",
+                "usage_context_es": "[TRADUCIR AL IT: A device that shows moving pictures (TV)]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_269_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: sofa]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/furniture/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Sofá / Sillón",
+                "usage_example": "[TRADUCIR AL IT: Sit on the sofa.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Siéntate en el sofá.",
+                "char_count": "one",
+                "usage_context_en": "Un asiento largo y suave para más de una persona",
+                "usage_context_es": "[TRADUCIR AL IT: A long soft seat for more than one person]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_424_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: lamp]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Lámpara",
+                "usage_example": "[TRADUCIR AL IT: Turn on the lamp.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Enciende la lámpara.",
+                "char_count": "one",
+                "usage_context_en": "Un dispositivo que produce luz",
+                "usage_context_es": "[TRADUCIR AL IT: A device that produces light]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_425_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: mirror]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Espejo",
+                "usage_example": "[TRADUCIR AL IT: Look in the mirror.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Mírate en el espejo.",
+                "char_count": "two",
+                "usage_context_en": "Una superficie plana que refleja tu imagen",
+                "usage_context_es": "[TRADUCIR AL IT: A flat surface that reflects your image]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_426_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: towel]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Toalla",
+                "usage_example": "[TRADUCIR AL IT: Grab the towel.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Agarra la toalla.",
+                "char_count": "one",
+                "usage_context_en": "Un trozo de tela usado para secarte",
+                "usage_context_es": "[TRADUCIR AL IT: A piece of cloth used to dry yourself]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_427_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: soap]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Jabón",
+                "usage_example": "[TRADUCIR AL IT: Use the soap.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Usa el jabón.",
+                "char_count": "one",
+                "usage_context_en": "Una sustancia usada para lavar",
+                "usage_context_es": "[TRADUCIR AL IT: A substance used for washing]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_428_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: pillow]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Almohada / Cojín",
+                "usage_example": "[TRADUCIR AL IT: The pillow is soft.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "La almohada es suave.",
+                "char_count": "two",
+                "usage_context_en": "Una bolsa suave usada para reposar la cabeza",
+                "usage_context_es": "[TRADUCIR AL IT: A soft bag used to rest your head]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_429_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: blanket]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Cobija / Manta",
+                "usage_example": "[TRADUCIR AL IT: The blanket is warm.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "La cobija está caliente.",
+                "char_count": "two",
+                "usage_context_en": "Una pieza grande de tela usada para mantenerse abrigado",
+                "usage_context_es": "[TRADUCIR AL IT: A large piece of cloth used to keep warm]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_430_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: shelf]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Estante / Repisa",
+                "usage_example": "[TRADUCIR AL IT: The books are on the shelf.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Los libros están en el estante.",
+                "char_count": "one",
+                "usage_context_en": "Una tabla plana fijada a la pared para poner cosas",
+                "usage_context_es": "[TRADUCIR AL IT: A flat board fixed to a wall to put things on]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_431_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: drawer]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Cajón / Gaveta",
+                "usage_example": "[TRADUCIR AL IT: Open the drawer.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Abre el cajón.",
+                "char_count": "two",
+                "usage_context_en": "Una caja deslizante usada para guardar cosas",
+                "usage_context_es": "[TRADUCIR AL IT: A sliding box used to store things]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_432_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: fridge]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/kitchen/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Nevera / Refrigerador",
+                "usage_example": "[TRADUCIR AL IT: Put the milk in the fridge.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Pon la leche en la nevera.",
+                "char_count": "1",
+                "usage_context_en": "Una máquina usada para mantener fríos los alimentos y bebidas",
+                "usage_context_es": "[TRADUCIR AL IT: A machine used to keep food and drinks cold]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_478_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: stove]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/kitchen/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Estufa / Cocina",
+                "usage_example": "[TRADUCIR AL IT: The soup is on the stove.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "La sopa está en la estufa.",
+                "char_count": "1",
+                "usage_context_en": "Un equipo usado para cocinar alimentos",
+                "usage_context_es": "[TRADUCIR AL IT: A piece of equipment used for cooking food]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_479_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: toilet]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/bathroom/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Inodoro / Retrete",
+                "usage_example": "[TRADUCIR AL IT: Flush the toilet, please.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Tira de la cadena del inodoro, por favor.",
+                "char_count": "1",
+                "usage_context_en": "Una taza usada para la micción y defecación",
+                "usage_context_es": "[TRADUCIR AL IT: A bowl used for urination and defecation]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_480_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: shower]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/bathroom/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Ducha",
+                "usage_example": "[TRADUCIR AL IT: I take a shower in the morning.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Tomo una ducha en la mañana.",
+                "char_count": "1",
+                "usage_context_en": "Un lugar donde te pones de pie para lavar tu cuerpo",
+                "usage_context_es": "[TRADUCIR AL IT: A place where you stand to wash your body]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_481_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: pan]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "A metal container used for cooking food.",
+                "usage_example": "[TRADUCIR AL IT: The eggs are in the pan.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Los huevos están en la sartén.",
+                "char_count": "3",
+                "usage_context_en": "Un recipiente de metal usado para cocinar.",
+                "usage_context_es": "[TRADUCIR AL IT: A metal container used for cooking food.]",
+                "imagePath": "/card_images/nouns/1-basic/seed_pan.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: pot]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "A deep container used for cooking.",
+                "usage_example": "[TRADUCIR AL IT: The soup is in the pot.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "La sopa está en la olla.",
+                "char_count": "3",
+                "usage_context_en": "Un recipiente hondo usado para cocinar.",
+                "usage_context_es": "[TRADUCIR AL IT: A deep container used for cooking.]",
+                "imagePath": "/card_images/nouns/1-basic/seed_pot.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: fan]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Ventilador / Abanico",
+                "usage_example": "[TRADUCIR AL IT: It is hot, please turn on the fan.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Hace calor, por favor enciende el ventilador.",
+                "char_count": "one",
+                "usage_context_en": "Una máquina que mueve el aire para refrescarte",
+                "usage_context_es": "[TRADUCIR AL IT: A machine that moves air to make you cool]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    }
+]

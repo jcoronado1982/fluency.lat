@@ -1,0 +1,153 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: time]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Tiempo / Hora",
+                "usage_example": "[TRADUCIR AL FR: What time is it?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Qué hora es?",
+                "char_count": "one",
+                "usage_context_en": "El concepto de duración, un momento específico",
+                "usage_context_es": "[TRADUCIR AL FR: The concept of duration, a specific moment]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_0_def0.avif"
+            },
+            {
+                "meaning": "Ocasión / Vez",
+                "usage_example": "[TRADUCIR AL FR: He called me three times.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Me llamó tres veces.",
+                "char_count": "2",
+                "usage_context_en": "Una ocasión o vez en la que algo ocurre.",
+                "usage_context_es": "[TRADUCIR AL FR: An instance or occasion when something happens.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_0_def1.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: hour]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Hora",
+                "usage_example": "[TRADUCIR AL FR: I will be back in an hour.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Volveré en una hora.",
+                "char_count": "two",
+                "usage_context_en": "Un período de 60 minutos",
+                "usage_context_es": "[TRADUCIR AL FR: A period of 60 minutes]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_120_def0.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: minute]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Minuto",
+                "usage_example": "[TRADUCIR AL FR: Wait a minute.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Espera un minuto.",
+                "char_count": "two",
+                "usage_context_en": "Un período de 60 segundos",
+                "usage_context_es": "[TRADUCIR AL FR: A period of 60 seconds]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_121_def0.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: second]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Segundo",
+                "usage_example": "[TRADUCIR AL FR: Just a second, please.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Solo un segundo, por favor.",
+                "char_count": "two",
+                "usage_context_en": "Una unidad de tiempo muy corta",
+                "usage_context_es": "[TRADUCIR AL FR: A very short unit of time]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_122_def0.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: clock]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/object/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Reloj (de pared o mesa)",
+                "usage_example": "[TRADUCIR AL FR: The clock is on the wall.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "El reloj está en la pared.",
+                "char_count": "one",
+                "usage_context_en": "Un dispositivo que muestra la hora (no se lleva puesto)",
+                "usage_context_es": "[TRADUCIR AL FR: A device that shows time (not worn)]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_264_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    }
+]

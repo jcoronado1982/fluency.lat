@@ -1,0 +1,210 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Poder / Saber",
+        "pronunciation_guide_es": "/ish_kan_SHVI-men/",
+        "usage_context_en": "ability/possibility",
+        "usage_context_es": "habilidad/posibilidad",
+        "usage_example": "Ich kann schwimmen.",
+        "usage_example_es": "Puedo nadar.",
+        "imagePath": "/card_images/verbs/1-basic/modal_auxiliaries/1-basic_modal_auxiliaries_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Modal Verbs",
+    "is_verb": true,
+    "name": "können",
+    "phonetic": "/ˈkœnən/",
+    "search_term": "modal/ability/basic",
+    "spoken_phonetic_us": "/ˈkœnən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Podría",
+        "pronunciation_guide_es": "/ish_KOEN-te_dir_HEL-fen/",
+        "usage_context_en": "ability/possibility/polite request",
+        "usage_context_es": "habilidad/posibilidad/petición cortés",
+        "usage_example": "Ich könnte dir helfen.",
+        "usage_example_es": "Podría ayudarte.",
+        "imagePath": "/card_images/verbs/1-basic/modal_auxiliaries/1-basic_modal_auxiliaries_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Modal Verbs",
+    "is_verb": true,
+    "name": "könnte",
+    "phonetic": "/ˈkœntə/",
+    "search_term": "modal/ability/basic",
+    "spoken_phonetic_us": "/ˈkœntə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Hará / Va a",
+        "pronunciation_guide_es": "/ish_VER-de_dish_MOR-gen_AN-ru-fen/",
+        "usage_context_en": "future/decision",
+        "usage_context_es": "futuro/decisión",
+        "usage_example": "Ich werde dich morgen anrufen.",
+        "usage_example_es": "Te llamaré mañana.",
+        "imagePath": "/card_images/verbs/1-basic/modal_auxiliaries/1-basic_modal_auxiliaries_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Modal Verbs",
+    "is_verb": true,
+    "name": "werden",
+    "phonetic": "/ˈveːɐdn̩/",
+    "search_term": "modal/future/basic",
+    "spoken_phonetic_us": "/ˈveːɐdn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Haría",
+        "pronunciation_guide_es": "/ish_HET-te_GER-ne_AI-nen_ka-FE/",
+        "usage_context_en": "polite request/hypothetical",
+        "usage_context_es": "petición cortés/hipótesis",
+        "usage_example": "Ich hätte gerne einen Kaffee.",
+        "usage_example_es": "Me gustaría un café.",
+        "imagePath": "/card_images/verbs/1-basic/modal_auxiliaries/1-basic_modal_auxiliaries_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Modal Verbs",
+    "is_verb": true,
+    "name": "würde",
+    "phonetic": "/ˈvʏʁdə/",
+    "search_term": "modal/polite-basic",
+    "spoken_phonetic_us": "/ˈvʏʁdə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Debería",
+        "pronunciation_guide_es": "/du_ZOL-test_tsum_ARTST_GE-en/",
+        "usage_context_en": "advice",
+        "usage_context_es": "consejo",
+        "usage_example": "Du solltest zum Arzt gehen.",
+        "usage_example_es": "Deberías ir al doctor.",
+        "imagePath": "/card_images/verbs/1-basic/modal_auxiliaries/1-basic_modal_auxiliaries_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Modal Verbs",
+    "is_verb": true,
+    "name": "sollte",
+    "phonetic": "/ˈzɔltə/",
+    "search_term": "modal/advice/basic",
+    "spoken_phonetic_us": "/ˈzɔltə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Deber / Tener que",
+        "pronunciation_guide_es": "/du_MUST_AI-nen_HELM_TRA-gen/",
+        "usage_context_en": "obligation/necessity",
+        "usage_context_es": "obligación/necesidad",
+        "usage_example": "Du musst einen Helm tragen.",
+        "usage_example_es": "Debes usar un casco.",
+        "imagePath": "/card_images/verbs/1-basic/modal_auxiliaries/1-basic_modal_auxiliaries_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Modal Verbs",
+    "is_verb": true,
+    "name": "müssen",
+    "phonetic": "/ˈmʏsn̩/",
+    "search_term": "modal/obligation/basic",
+    "spoken_phonetic_us": "/ˈmʏsn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Tener que",
+        "pronunciation_guide_es": "/ish_MUS_YETST_GE-en/",
+        "usage_context_en": "external obligation",
+        "usage_context_es": "obligación externa",
+        "usage_example": "Ich muss jetzt gehen.",
+        "usage_example_es": "Tengo que irme ahora.",
+        "imagePath": "/card_images/verbs/1-basic/modal_auxiliaries/1-basic_modal_auxiliaries_card_6_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Modal Verbs",
+    "is_verb": true,
+    "name": "müssen",
+    "phonetic": "/ˈmʏsn̩/",
+    "search_term": "modal/obligation/basic",
+    "spoken_phonetic_us": "/ˈmʏsn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Puede que / Tal vez",
+        "pronunciation_guide_es": "/es_KOEN-te_SHPAE-ter_REK-nen/",
+        "usage_context_en": "possibility/permission",
+        "usage_context_es": "posibilidad/permiso",
+        "usage_example": "Es könnte später regnen.",
+        "usage_example_es": "Puede que llueva más tarde.",
+        "imagePath": "/card_images/verbs/1-basic/modal_auxiliaries/1-basic_modal_auxiliaries_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Modal Verbs",
+    "is_verb": true,
+    "name": "können",
+    "phonetic": "/ˈkœnən/",
+    "search_term": "modal/possibility/basic",
+    "spoken_phonetic_us": "/ˈkœnən/"
+  }
+]

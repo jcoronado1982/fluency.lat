@@ -1,0 +1,11 @@
+# Perfil de rama — no editar a mano; regenerar con create-dev-module-branch.sh
+branch=dev-flashcards
+profile=flashcards
+modules=landing dashboard flashcards
+sparse_command=./scripts/sparse-module.sh landing dashboard flashcards
+cargo_build=cargo build -p api_main --no-default-features --features auth,flashcards
+frontend_flags=VITE_ENABLE_FLASHCARDS=true
+env_profile=client/env-profiles/flashcards.profile
+apply_env=cp client/env-profiles/flashcards.profile client/.env.development
+start_dev=./scripts/start-branch-dev.sh dev-flashcards
+oracle_note=SYNC_TO_ORACLE desde .env si hay Docker (igual dev-full)

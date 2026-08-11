@@ -1,0 +1,652 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "highway",
+    "phonetic": "/ˈhaɪˌweɪ/",
+    "spoken_phonetic_us": "/ˈhaɪˌweɪ/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "definitions": [
+      {
+        "meaning": "Autopista / Carretera",
+        "usage_example": "The highway has a lot of traffic.",
+        "pronunciation_guide_es": "/de_HAI-uei_has_a_lot_of_TRA-fik/",
+        "usage_example_es": "La autopista tiene mucho tráfico.",
+        "char_count": "7",
+        "usage_context_en": "A main public road, especially one connecting major towns or cities.",
+        "usage_context_es": "Una carretera pública principal, especialmente una que conecta pueblos o ciudades importantes.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_119_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "transportation",
+    "phonetic": "/ˌtrænspɔrˈteɪʃən/",
+    "spoken_phonetic_us": "/ˌtrænspərˈteɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Transporte",
+        "usage_example": "Public transportation is cheap.",
+        "pronunciation_guide_es": "/PO-blik_trans-por-TEI-shon_is_CHIP/",
+        "usage_example_es": "El transporte público es barato.",
+        "char_count": "4",
+        "usage_context_en": "The system or means of conveying people or goods from place to place.",
+        "usage_context_es": "El sistema o medio de llevar personas o mercancías de un lugar a otro.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_139_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "airline",
+    "phonetic": "/ˈɛrˌlaɪn/",
+    "spoken_phonetic_us": "/ˈɛrˌlaɪn/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Aerolínea",
+        "usage_example": "Which airline did you fly?",
+        "pronunciation_guide_es": "/uich_ER-lain_did_iu_FLAI/",
+        "usage_example_es": "¿Con qué aerolínea volaste?",
+        "char_count": "5",
+        "usage_context_en": "A company that provides regular flights to take people and goods to different places.",
+        "usage_context_es": "Una compañía que proporciona vuelos regulares para llevar personas y mercancías a diferentes lugares.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_140_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "vehicle",
+    "phonetic": "/ˈviɪkəl/",
+    "spoken_phonetic_us": "/ˈviəkəl/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Vehículo",
+        "usage_example": "A car is a type of vehicle.",
+        "pronunciation_guide_es": "/a_CAR_is_a_taip_of_VI-i-kol/",
+        "usage_example_es": "Un coche es un tipo de vehículo.",
+        "char_count": "7",
+        "usage_context_en": "A machine, usually with wheels and an engine, used for transport.",
+        "usage_context_es": "Una máquina, usualmente con ruedas y motor, usada para el transporte.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_141_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "traffic",
+    "phonetic": "/ˈtræfɪk/",
+    "spoken_phonetic_us": "/ˈtræfɪk/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Tráfico / Tránsito",
+        "usage_example": "The traffic is bad today.",
+        "pronunciation_guide_es": "/de_TRA-fik_is_bad_tu-DEI/",
+        "usage_example_es": "El tráfico está terrible hoy.",
+        "char_count": "5",
+        "usage_context_en": "Vehicles moving on a road or public highway.",
+        "usage_context_es": "Vehículos moviéndose en una carretera o vía pública.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_142_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "engine",
+    "phonetic": "/ˈɛndʒɪn/",
+    "spoken_phonetic_us": "/ˈɛndʒɪn/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Motor",
+        "usage_example": "The car has a powerful engine.",
+        "pronunciation_guide_es": "/de_CAR_has_a_PAU-er-ful_EN-yin/",
+        "usage_example_es": "El coche tiene un motor potente.",
+        "char_count": "6",
+        "usage_context_en": "A machine that converts power into motion.",
+        "usage_context_es": "Una máquina que convierte potencia en movimiento.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_143_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "fuel",
+    "phonetic": "/ˈfjuəl/",
+    "spoken_phonetic_us": "/ˈfjuəl/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Combustible",
+        "usage_example": "We need to get more fuel.",
+        "pronunciation_guide_es": "/ui_nid_tu_get_mor_FIUL/",
+        "usage_example_es": "Necesitamos conseguir más combustible.",
+        "char_count": "6",
+        "usage_context_en": "Material such as gas, coal, or oil that is burned to produce heat or power.",
+        "usage_context_es": "Material como gas, carbón o petróleo que se quema para producir calor o energía.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_144_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "flight",
+    "phonetic": "/flaɪt/",
+    "spoken_phonetic_us": "/flaɪt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Vuelo",
+        "usage_example": "My flight is at 10 AM.",
+        "pronunciation_guide_es": "/mai_FLAIT_is_at_ten_ei-EM/",
+        "usage_example_es": "Mi vuelo es a las 10 AM.",
+        "char_count": "6",
+        "usage_context_en": "A journey made by air, especially in an airplane.",
+        "usage_context_es": "Un viaje hecho por aire, especialmente en un avión.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_145_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "journey",
+    "phonetic": "/ˈdʒɜrni/",
+    "spoken_phonetic_us": "/ˈdʒɜrni/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Viaje (largo / trayecto)",
+        "usage_example": "It was a long journey.",
+        "pronunciation_guide_es": "/it_uas_a_long_YUR-ni/",
+        "usage_example_es": "Fue un viaje largo.",
+        "char_count": "5",
+        "usage_context_en": "The act of traveling from one place to another, especially over a long distance.",
+        "usage_context_es": "El acto de viajar de un lugar a otro, especialmente sobre una larga distancia.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_146_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "trip",
+    "phonetic": "/trɪp/",
+    "spoken_phonetic_us": "/trɪp/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Viaje (corto / excursión)",
+        "usage_example": "How was your trip?",
+        "pronunciation_guide_es": "/hau_uas_iur_TRIP/",
+        "usage_example_es": "¿Qué tal tu viaje?",
+        "char_count": "4",
+        "usage_context_en": "A journey or excursion, especially for pleasure.",
+        "usage_context_es": "Un viaje o excursión, especialmente por placer.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_147_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "tour",
+    "phonetic": "/tʊr/",
+    "spoken_phonetic_us": "/tʊr/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Tour / Gira / Recorrido",
+        "usage_example": "We took a tour of the city.",
+        "pronunciation_guide_es": "/ui_tuk_a_TUR_of_de_SI-ti/",
+        "usage_example_es": "Hicimos un recorrido por la ciudad.",
+        "char_count": "7",
+        "usage_context_en": "A journey for pleasure in which several different places are visited.",
+        "usage_context_es": "Un viaje por placer en el que se visitan varios lugares diferentes.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_148_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "destination",
+    "phonetic": "/ˌdɛstɪˈneɪʃən/",
+    "spoken_phonetic_us": "/ˌdɛstɪˈneɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Destino",
+        "usage_example": "What is your final destination?",
+        "pronunciation_guide_es": "/uat_is_iur_FAI-nal_des-ti-NEI-shon/",
+        "usage_example_es": "¿Cuál es tu destino final?",
+        "char_count": "5",
+        "usage_context_en": "The place to which someone or something is going or being sent.",
+        "usage_context_es": "El lugar al que alguien o algo va o es enviado.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_149_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "passenger",
+    "phonetic": "/ˈpæsɪndʒər/",
+    "spoken_phonetic_us": "/ˈpæsɪndʒər/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Pasajero",
+        "usage_example": "The passenger fell asleep.",
+        "pronunciation_guide_es": "/de_PA-sen-yer_fel_a-SLIP/",
+        "usage_example_es": "El pasajero se quedó dormido.",
+        "char_count": "4",
+        "usage_context_en": "A traveler on a public or private conveyance other than the driver or crew.",
+        "usage_context_es": "Un viajero en un transporte público o privado que no es el conductor o la tripulación.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_150_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "luggage",
+    "phonetic": "/ˈlʌɡɪdʒ/",
+    "spoken_phonetic_us": "/ˈlʌɡɪdʒ/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Equipaje (UK)",
+        "usage_example": "Where is my luggage?",
+        "pronunciation_guide_es": "/uer_is_mai_LO-guich/",
+        "usage_example_es": "¿Dónde está mi equipaje?",
+        "char_count": "4",
+        "usage_context_en": "Suitcases or bags, typically taken on a journey.",
+        "usage_context_es": "Maletas o bolsos, típicamente llevados en un viaje.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_151_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "baggage",
+    "phonetic": "/ˈbæɡɪdʒ/",
+    "spoken_phonetic_us": "/ˈbæɡɪdʒ/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Equipaje (US)",
+        "usage_example": "Please check your baggage.",
+        "pronunciation_guide_es": "/plis_chek_iur_BA-guich/",
+        "usage_example_es": "Por favor revise su equipaje.",
+        "char_count": "4",
+        "usage_context_en": "Suitcases or bags, typically taken on a journey (common in US English).",
+        "usage_context_es": "Maletas o bolsos, típicamente llevados en un viaje (común en inglés de EE. UU.).",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_152_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "ticket",
+    "phonetic": "/ˈtɪkɪt/",
+    "spoken_phonetic_us": "/ˈtɪkɪt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Tiquete / Boleto / Billete",
+        "usage_example": "I bought a train ticket.",
+        "pronunciation_guide_es": "/ai_bot_a_trein_TI-ket/",
+        "usage_example_es": "Compré un boleto de tren.",
+        "char_count": "5",
+        "usage_context_en": "A piece of paper or card that gives the holder a right to travel or enter a place.",
+        "usage_context_es": "Un trozo de papel o tarjeta que da al titular el derecho a viajar o entrar a un lugar.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_153_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "passport",
+    "phonetic": "/ˈpæspɔrt/",
+    "spoken_phonetic_us": "/ˈpæspɔrt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Pasaporte",
+        "usage_example": "I need to renew my passport.",
+        "pronunciation_guide_es": "/ai_nid_tu_ri-NIU_mai_PAS-port/",
+        "usage_example_es": "Necesito renovar mi pasaporte.",
+        "char_count": "6",
+        "usage_context_en": "An official document issued by a government, certifying the holder's identity and citizenship.",
+        "usage_context_es": "Un documento oficial emitido por un gobierno, que certifica la identidad y ciudadanía del titular.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_154_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "gas station",
+    "phonetic": "/ˈɡæs ˌsteɪʃən/",
+    "spoken_phonetic_us": "/ˈɡæs ˌsteɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Gasolinera / Estación de servicio (US)",
+        "usage_example": "I stopped at the gas station.",
+        "pronunciation_guide_es": "/ai_stopt_at_de_GAS_stei-shon/",
+        "usage_example_es": "Paré en la gasolinera.",
+        "char_count": "6",
+        "usage_context_en": "A place selling fuel for motor vehicles (US English).",
+        "usage_context_es": "Un lugar que vende combustible para vehículos motorizados (inglés de EE. UU.).",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_156_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "petrol station",
+    "phonetic": "/ˈpɛtrəl ˌsteɪʃən/",
+    "spoken_phonetic_us": "/ˈpɛtrəl ˌsteɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "definitions": [
+      {
+        "meaning": "Gasolinera / Estación de servicio (UK)",
+        "usage_example": "Let's find a petrol station.",
+        "pronunciation_guide_es": "/lets_faind_a_PE-trol_stei-shon/",
+        "usage_example_es": "Busquemos una gasolinera.",
+        "char_count": "5",
+        "usage_context_en": "A place selling fuel for motor vehicles (UK English).",
+        "usage_context_es": "Un lugar que vende combustible para vehículos motorizados (inglés de Reino Unido).",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_157_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "delivery",
+    "phonetic": "/dɪˈlɪvəri/",
+    "spoken_phonetic_us": "/dɪˈlɪvəri/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Entrega / Reparto",
+        "usage_example": "The delivery is late.",
+        "pronunciation_guide_es": "/de_de-LI-ve-ri_is_LEIT/",
+        "usage_example_es": "La entrega está retrasada.",
+        "char_count": "4",
+        "usage_context_en": "The action of delivering letters, packages, or goods.",
+        "usage_context_es": "La acción de entregar cartas, paquetes o mercancías.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_260_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Alojamiento / Hospedaje",
+        "pronunciation_guide_es": "/ui_BAKT_akOModeishon_in_aDVANS/",
+        "usage_context_en": "A place to stay when traveling",
+        "usage_context_es": "Un lugar donde quedarse al viajar",
+        "usage_example": "We booked accommodation in advance.",
+        "usage_example_es": "Reservamos alojamiento con anticipación.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_396_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "is_verb": false,
+    "name": "accommodation",
+    "phonetic": "/əˌkɒməˈdeɪʃən/",
+    "search_term": "noun/travel/essentials",
+    "spoken_phonetic_us": "/əˌkɑːməˈdeɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Visa",
+        "pronunciation_guide_es": "/ai_nid_a_VISa_to_ENter/",
+        "usage_context_en": "An official permit to enter a foreign country",
+        "usage_context_es": "Un permiso oficial para entrar a un país extranjero",
+        "usage_example": "I need a visa to enter.",
+        "usage_example_es": "Necesito una visa para entrar.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_397_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "is_verb": false,
+    "name": "visa",
+    "phonetic": "/ˈviːzə/",
+    "search_term": "noun/travel/essentials",
+    "spoken_phonetic_us": "/ˈviːzə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Aduana",
+        "pronunciation_guide_es": "/ai_past_THROUGH_KAStomz_FAST/",
+        "usage_context_en": "The place at a border where goods and bags are checked",
+        "usage_context_es": "El lugar en la frontera donde se revisan bienes y maletas",
+        "usage_example": "I passed through customs fast.",
+        "usage_example_es": "Pasé por la aduana rápido.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_398_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "is_verb": false,
+    "name": "customs",
+    "phonetic": "/ˈkʌstəmz/",
+    "search_term": "noun/travel/essentials",
+    "spoken_phonetic_us": "/ˈkʌstəmz/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Itinerario",
+        "pronunciation_guide_es": "/de_aiTINereri_is_REDI/",
+        "usage_context_en": "A detailed plan of a journey",
+        "usage_context_es": "Un plan detallado de un viaje",
+        "usage_example": "The itinerary is ready.",
+        "usage_example_es": "El itinerario está listo.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_400_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "is_verb": false,
+    "name": "itinerary",
+    "phonetic": "/aɪˈtɪnərəri/",
+    "search_term": "noun/travel/essentials",
+    "spoken_phonetic_us": "/aɪˈtɪnərɛri/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Peatón",
+        "pronunciation_guide_es": "/de_KAR_STOPT_for_de_pe-DES-trian/",
+        "usage_context_en": "A person walking rather than traveling in a vehicle",
+        "usage_context_es": "Una persona que camina en lugar de viajar en un vehículo",
+        "usage_example": "The car stopped for the pedestrian.",
+        "usage_example_es": "El carro se detuvo por el peatón.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_410_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "is_verb": false,
+    "name": "pedestrian",
+    "phonetic": "/pɪˈdɛstriən/",
+    "search_term": "noun/transport/person",
+    "spoken_phonetic_us": "/pəˈdɛstriən/"
+  }
+]

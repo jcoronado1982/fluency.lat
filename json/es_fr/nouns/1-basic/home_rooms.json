@@ -1,0 +1,399 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: home]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Hogar",
+                "usage_example": "[TRADUCIR AL FR: I am going home.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Voy a casa.",
+                "char_count": "one",
+                "usage_context_en": "El lugar donde vives",
+                "usage_context_es": "[TRADUCIR AL FR: The place where you live]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_15_def0.avif"
+            },
+            {
+                "meaning": "Institución o residencia",
+                "usage_example": "[TRADUCIR AL FR: She lives in a nursing home.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Ella vive en un hogar de ancianos.",
+                "char_count": "5",
+                "usage_context_en": "Un lugar donde las personas viven y reciben cuidado, como un hogar de ancianos.",
+                "usage_context_es": "[TRADUCIR AL FR: A place where people live and are cared for, such as a nursing home.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_15_def1.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: house]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/building/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Casa (edificio)",
+                "usage_example": "[TRADUCIR AL FR: That is a big house.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Esa es una casa grande.",
+                "char_count": "one",
+                "usage_context_en": "Un edificio para vivir",
+                "usage_context_es": "[TRADUCIR AL FR: A building for living in]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_16_def0.avif"
+            },
+            {
+                "meaning": "Cámara legislativa",
+                "usage_example": "[TRADUCIR AL FR: The House passed the bill.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "La cámara aprobó el proyecto de ley.",
+                "char_count": "5",
+                "usage_context_en": "Un cuerpo legislativo o deliberativo.",
+                "usage_context_es": "[TRADUCIR AL FR: A legislative or deliberative body.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_16_def1.avif"
+            },
+            {
+                "meaning": "Familia noble / dinastía",
+                "usage_example": "[TRADUCIR AL FR: The House of Windsor is famous.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "La Casa de Windsor es famosa.",
+                "char_count": "5",
+                "usage_context_en": "Una familia real o noble.",
+                "usage_context_es": "[TRADUCIR AL FR: A royal or noble family line.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_16_def2.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: room]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/house/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Habitación / Cuarto",
+                "usage_example": "[TRADUCIR AL FR: My room is small.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Mi habitación es pequeña.",
+                "char_count": "one",
+                "usage_context_en": "Una parte del interior de un edificio",
+                "usage_context_es": "[TRADUCIR AL FR: A part of the inside of a building]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_64_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: kitchen]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/house/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Cocina",
+                "usage_example": "[TRADUCIR AL FR: I am in the kitchen.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Estoy en la cocina.",
+                "char_count": "two",
+                "usage_context_en": "Un cuarto para cocinar",
+                "usage_context_es": "[TRADUCIR AL FR: A room for cooking]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_131_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: bathroom]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/house/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Baño",
+                "usage_example": "[TRADUCIR AL FR: Where is the bathroom?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Dónde está el baño?",
+                "char_count": "two",
+                "usage_context_en": "Un cuarto con un inodoro y un lavamanos",
+                "usage_context_es": "[TRADUCIR AL FR: A room with a toilet and sink]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_132_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: bedroom]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/house/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Dormitorio / Habitación",
+                "usage_example": "[TRADUCIR AL FR: My bedroom is large.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Mi dormitorio es grande.",
+                "char_count": "two",
+                "usage_context_en": "Un cuarto para dormir",
+                "usage_context_es": "[TRADUCIR AL FR: A room for sleeping]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_133_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: floor]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Piso / Suelo (de un cuarto)",
+                "usage_example": "[TRADUCIR AL FR: The keys are on the floor.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Las llaves están en el piso.",
+                "char_count": "one",
+                "usage_context_en": "La superficie de un cuarto sobre la que caminas",
+                "usage_context_es": "[TRADUCIR AL FR: The surface of a room you walk on]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_308_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: wall]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Pared / Muro",
+                "usage_example": "[TRADUCIR AL FR: The picture is on the wall.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "El cuadro está en la pared.",
+                "char_count": "one",
+                "usage_context_en": "El lado de un cuarto o edificio",
+                "usage_context_es": "[TRADUCIR AL FR: The side of a room or building]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_309_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: roof]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Techo (exterior) / Tejado",
+                "usage_example": "[TRADUCIR AL FR: The cat is on the roof.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "El gato está en el techo.",
+                "char_count": "one",
+                "usage_context_en": "La cubierta en la cima de un edificio",
+                "usage_context_es": "[TRADUCIR AL FR: The cover on top of a building]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_310_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: ceiling]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Techo (interior)",
+                "usage_example": "[TRADUCIR AL FR: The lamp hangs from the ceiling.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "La lámpara cuelga del techo.",
+                "char_count": "two",
+                "usage_context_en": "La superficie superior interna de un cuarto",
+                "usage_context_es": "[TRADUCIR AL FR: The inside top surface of a room]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_311_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: living room]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/home/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "The main room in a home for sitting and relaxing.",
+                "usage_example": "[TRADUCIR AL FR: We watch TV in the living room.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Vemos televisión en la sala.",
+                "char_count": "11",
+                "usage_context_en": "La habitación principal de una casa para sentarse y relajarse.",
+                "usage_context_es": "[TRADUCIR AL FR: The main room in a home for sitting and relaxing.]",
+                "imagePath": "/card_images/nouns/1-basic/seed_living_room.avif"
+            }
+        ],
+        "group_name": "Home",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: dining room]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/home/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "A room where people eat meals.",
+                "usage_example": "[TRADUCIR AL FR: Dinner is in the dining room.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "La cena es en el comedor.",
+                "char_count": "11",
+                "usage_context_en": "Un cuarto donde la gente come.",
+                "usage_context_es": "[TRADUCIR AL FR: A room where people eat meals.]",
+                "imagePath": "/card_images/nouns/1-basic/seed_dining_room.avif"
+            }
+        ],
+        "group_name": "Home",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: garage]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/home/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "A place where a car is kept.",
+                "usage_example": "[TRADUCIR AL FR: The car is in the garage.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "El carro está en el garaje.",
+                "char_count": "6",
+                "usage_context_en": "Un lugar donde se guarda un carro.",
+                "usage_context_es": "[TRADUCIR AL FR: A place where a car is kept.]",
+                "imagePath": "/card_images/nouns/1-basic/seed_garage.avif"
+            }
+        ],
+        "group_name": "Home",
+        "category": ""
+    }
+]

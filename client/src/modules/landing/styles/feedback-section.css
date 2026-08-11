@@ -1,0 +1,409 @@
+/* ── Feedback (sesión 2) — transparente, mismo degradado continuo ── */
+.lp-feedback-section {
+    position: relative;
+    background: transparent;
+    padding: 0 0 48px;
+}
+
+.lp-feedback-section::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -104px;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 240px;
+    z-index: 0;
+    pointer-events: none;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.10) 18%,
+        rgba(5, 2, 4, 0.34) 42%,
+        rgba(20, 8, 16, 0.48) 68%,
+        rgba(20, 8, 16, 0.18) 88%,
+        rgba(20, 8, 16, 0) 100%
+    );
+}
+
+.lp-feedback-section .lp-section-inner {
+    position: relative;
+    z-index: 1;
+    padding: 52px var(--lp-section-inline-padding, var(--shell-content-inline-padding)) 0;
+}
+
+@media (max-width: 719px) {
+    .lp-feedback-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: min(92vw, 1000px);
+        height: 1px;
+        z-index: 1;
+        pointer-events: none;
+        background: var(--lp-section-fade-line);
+    }
+
+    .lp-feedback-section::after {
+        bottom: -54px;
+        width: 100vw;
+        height: 140px;
+        background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(6, 2, 5, 0.24) 32%,
+            rgba(20, 8, 16, 0.42) 70%,
+            rgba(20, 8, 16, 0) 100%
+        );
+    }
+}
+
+/* ── Demo feedback box ── */
+.lp-demo-feedback-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 100%;
+}
+/* Amazon-style stars */
+.lp-stars {
+    display: inline-flex;
+    align-items: center;
+    gap: 1px;
+    line-height: 1;
+}
+
+.lp-stars--sm .lp-star,
+.lp-stars--sm .lp-star-btn {
+    font-size: 0.95rem;
+}
+
+.lp-stars--md .lp-star,
+.lp-stars--md .lp-star-btn {
+    font-size: 1rem;
+}
+
+/* ≥28px de glifo: cómodas de tocar en móvil. */
+.lp-stars--lg .lp-star-btn {
+    font-size: 1.9rem;
+    min-width: 28px;
+    min-height: 28px;
+}
+
+.lp-star,
+.lp-stars--input .lp-star-btn {
+    color: rgba(148, 163, 184, 0.35);
+}
+
+/* Estrellas vacías del input como contorno claro, visibles sobre el fondo
+   negro. El @supports evita dejarlas invisibles donde no exista text-stroke. */
+@supports (-webkit-text-stroke: 1px #fff) {
+    .lp-stars--input .lp-star-btn:not(.is-active) {
+        color: transparent;
+        -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.35);
+    }
+}
+
+.lp-star.is-full {
+    color: #f97316;
+}
+
+.lp-stars--input .lp-star-btn.is-active {
+    color: #f97316;
+}
+
+.lp-star.is-partial {
+    background: linear-gradient(90deg, #f97316 var(--star-fill, 50%), rgba(148, 163, 184, 0.35) var(--star-fill, 50%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.lp-stars--input {
+    gap: 2px;
+}
+
+.lp-star-btn {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.12s, color 0.12s;
+    line-height: 1;
+}
+
+.lp-star-btn:hover,
+.lp-star-btn:focus-visible {
+    transform: scale(1.05);
+    outline: none;
+}
+
+.lp-stars--input .lp-star-btn:hover,
+.lp-stars--input .lp-star-btn:focus-visible {
+    color: rgba(249, 115, 22, 0.75);
+}
+
+.lp-demo-feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 30px 0 0;
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background: transparent;
+    box-shadow: none;
+}
+
+.lp-demo-feedback-head {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.lp-demo-feedback-label {
+    font-family: var(--font-family-body);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+}
+
+.lp-demo-feedback-sub {
+    margin: 0;
+    font-family: var(--font-family-body);
+    font-size: calc(1.25rem - 1px);
+    font-weight: 400;
+    line-height: 1.65;
+    color: rgba(245,245,245,0.85);
+}
+
+/* Es un <button>: la línea de "inicia sesión…" abre el login, no es solo texto. */
+.lp-demo-feedback-auth-hint {
+    margin: 4px 0 0;
+    padding: 0;
+    border: none;
+    background: none;
+    text-align: left;
+    align-self: flex-start;
+    cursor: pointer;
+    font-family: var(--font-family-body);
+    font-size: calc(1.25rem - 1px);
+    font-weight: 400;
+    color: var(--c-teal);
+    line-height: 1.65;
+    text-decoration: underline;
+    text-decoration-color: rgba(45, 212, 191, 0.35);
+    text-underline-offset: 4px;
+    transition: text-decoration-color 0.2s;
+}
+
+.lp-demo-feedback-auth-hint:hover,
+.lp-demo-feedback-auth-hint:focus-visible {
+    text-decoration-color: var(--c-teal);
+}
+
+.lp-demo-feedback-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 10px;
+    font-family: var(--font-family-body);
+    font-size: 0.82rem;
+    color: var(--c-muted);
+}
+
+.lp-demo-feedback-user .lp-social-card__avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.lp-demo-feedback-user strong {
+    color: var(--c-muted2);
+    font-weight: 600;
+}
+
+.lp-demo-feedback-signout {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: var(--font-family-body);
+    font-size: 0.78rem;
+    color: rgba(148, 163, 184, 0.6);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: color 0.2s;
+}
+
+.lp-demo-feedback-signout:hover,
+.lp-demo-feedback-signout:focus-visible {
+    color: var(--c-muted2);
+}
+
+.lp-demo-feedback-rating-row {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lp-demo-feedback-rating-label {
+    font-family: var(--font-family-body);
+    font-size: calc(1.25rem - 1px);
+    font-weight: 600;
+    color: rgba(245,245,245,0.85);
+    line-height: 1.65;
+    margin-bottom: 2px;
+}
+
+.lp-demo-feedback-rating-hint {
+    font-family: var(--font-family-body);
+    font-size: calc(0.95rem - 1px);
+    font-weight: 500;
+    color: rgba(245,245,245,0.7);
+    letter-spacing: 0.02em;
+    margin-top: 2px;
+}
+
+.lp-demo-feedback-input-wrap {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/* Misma piel que las tarjetas de review: radio 40px, borde blanco sutil,
+   fondo oscuro semi-transparente. */
+.lp-demo-feedback-input {
+    display: block;
+    width: 100%;
+    resize: vertical;
+    min-height: 100px;
+    padding: 20px 20px 34px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(8, 4, 10, 0.55);
+    color: var(--c-text);
+    font-family: var(--font-family-body);
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.lp-demo-feedback-input::placeholder {
+    color: rgba(148, 163, 184, 0.5);
+}
+
+.lp-demo-feedback-input:focus {
+    outline: none;
+    border-color: rgba(244, 114, 182, 0.45);
+}
+
+.lp-demo-feedback-counter {
+    position: absolute;
+    right: 28px;
+    bottom: 12px;
+    pointer-events: none;
+    font-family: var(--font-family-body);
+    font-size: 0.72rem;
+    color: rgba(148, 163, 184, 0.55);
+}
+
+.lp-demo-feedback-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.lp-demo-feedback-error {
+    font-family: var(--font-family-body);
+    font-size: 0.78rem;
+    color: #fca5a5;
+    margin-right: auto;
+}
+
+/* Habilitado = mismo gradiente que los CTAs principales del sitio (.lp-btn). */
+.lp-demo-feedback-submit {
+    flex-shrink: 0;
+    padding: 10px 20px;
+    border-radius: 999px;
+    border: none;
+    background: linear-gradient(135deg, var(--c-rose), var(--c-pink) 50%, var(--c-orange));
+    color: #ffffff;
+    box-shadow: 0 8px 24px rgba(190, 24, 93, 0.3);
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.15s, box-shadow 0.2s;
+}
+
+.lp-demo-feedback-submit:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 26px rgba(190, 24, 93, 0.4);
+}
+
+.lp-demo-feedback-submit:active:not(:disabled) {
+    transform: scale(0.97);
+}
+
+.lp-demo-feedback-submit:disabled {
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.45);
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+.lp-demo-feedback--done {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: var(--c-teal);
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-color: rgba(45,212,191,0.25);
+    background: rgba(45,212,191,0.06);
+}
+
+.lp-demo-feedback-toast {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    border: 1px solid rgba(45, 212, 191, 0.28);
+    background: rgba(45, 212, 191, 0.08);
+    color: rgba(45, 212, 191, 0.95);
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    font-size: 0.875rem;
+    animation: lp-toast-in 0.2s ease-out;
+}
+
+@keyframes lp-toast-in {
+    from { opacity: 0; transform: translateY(-4px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+[data-landing-demo].flashcard-page-wrapper {
+    overflow: visible;
+    width: 100%;
+    min-width: 0;
+}
+
+[data-landing-demo] .app-container {
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+    min-width: 0;
+    overflow: visible;
+}

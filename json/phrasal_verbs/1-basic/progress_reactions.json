@@ -1,0 +1,165 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "go on",
+    "phonetic": "/go on/",
+    "spoken_phonetic_us": "/go on/",
+    "search_term": "phrasal verb/continue/happen",
+    "is_phrasal_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Continuar / Seguir",
+        "usage_example": "Please go on.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "Please continue.",
+        "usage_example_es": "Por favor, continúa.",
+        "char_count": "one",
+        "usage_context_en": "continuing",
+        "usage_context_es": "continuar"
+      },
+      {
+        "meaning": "Pasar / Suceder",
+        "usage_example": "What is going on?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "What is happening?",
+        "usage_example_es": "¿Qué está pasando?",
+        "char_count": "one",
+        "usage_context_en": "asking about a situation",
+        "usage_context_es": "preguntar por una situación"
+      }
+    ],
+    "group_name": "Phrasal Verbs: Go",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "get on",
+    "phonetic": "/ɡɛt ɑn/",
+    "spoken_phonetic_us": "/ɡɛɾ ɑn/",
+    "search_term": "phrasal verb transport/relationships/progress",
+    "is_phrasal_verb": true,
+    "definitions": [
+      {
+        "meaning": "subirse (a un transporte)",
+        "usage_example": "The family gets on the train at the station.",
+        "pronunciation_guide_es": "/da_FA-mi-li_guets_ON_da_trein_at_da_STEI-shon/",
+        "alternative_example": "The family boards the train at the station.",
+        "usage_example_es": "La familia se sube al tren en la estación.",
+        "char_count": "multiple",
+        "usage_context_en": "transport",
+        "usage_context_es": "transporte",
+        "imagePath": "/card_images/phrasal_verbs/1-basic/1-basic_card_39_def0.avif"
+      },
+      {
+        "meaning": "llevarse bien con alguien",
+        "usage_example": "How are you getting on with your new flatmate?",
+        "pronunciation_guide_es": "/jau_ar_iu_GUER-in_on_uiz_iur_niu_FLAT-meit/",
+        "alternative_example": "Do you have a good relationship with your new flatmate?",
+        "usage_example_es": "¿Cómo te llevas con tu nuevo compañero de piso?",
+        "char_count": "two",
+        "usage_context_en": "relationships",
+        "usage_context_es": "relaciones",
+        "imagePath": "/card_images/phrasal_verbs/1-basic/1-basic_card_39_def1.avif"
+      },
+      {
+        "meaning": "arreglárselas o hacer progreso",
+        "usage_example": "How are you getting on with your homework?",
+        "pronunciation_guide_es": "/jau_ar_iu_GUER-in_on_uiz_iur_JOM-uork/",
+        "alternative_example": "How are you progressing with your homework?",
+        "usage_example_es": "¿Cómo estás progresando con tu tarea?",
+        "char_count": "one",
+        "usage_context_en": "progress",
+        "usage_context_es": "progreso",
+        "imagePath": "/card_images/phrasal_verbs/1-basic/1-basic_card_39_def2.avif"
+      }
+    ],
+    "group_name": "Phrasal Verbs: Get",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "calm down",
+    "phonetic": "/kɑm daʊn/",
+    "spoken_phonetic_us": "/kɑm daʊn/",
+    "search_term": "phrasal verb/relax/emotions/stop being angry",
+    "is_phrasal_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Calmarse, tranquilizarse (uno mismo)",
+        "usage_example": "I need to sit down and calm down.",
+        "pronunciation_guide_es": "/ai_NID_tu_sit_DAUN_and_kam_DAUN/",
+        "alternative_example": "I need to sit down and relax.",
+        "usage_example_es": "Necesito sentarme y calmarme.",
+        "char_count": "one",
+        "usage_context_en": "relaxing/de-stressing",
+        "usage_context_es": "relajarse/desestresarse",
+        "imagePath": "/card_images/phrasal_verbs/1-basic/1-basic_card_15_def0.avif"
+      },
+      {
+        "meaning": "Calmar (a otra persona)",
+        "usage_example": "I tried to calm him down, but he was too angry.",
+        "pronunciation_guide_es": "/ai_TRAID_tu_KAM_him_DAUN, bat_hi_uas_TU_ANGgri/",
+        "alternative_example": "I tried to soothe him, but he was too angry.",
+        "usage_example_es": "Intenté calmarlo, pero estaba demasiado enojado.",
+        "char_count": "one",
+        "usage_context_en": "helping others/de-escalating",
+        "usage_context_es": "ayudar a otros/calmar",
+        "imagePath": "/card_images/phrasal_verbs/1-basic/1-basic_card_15_def1.avif"
+      },
+      {
+        "meaning": "¡Cálmate! (una orden)",
+        "usage_example": "Hey, calm down! It was just an accident.",
+        "pronunciation_guide_es": "/hei, kam_DAUN! it_uas_yost_an_AKsident/",
+        "alternative_example": "Hey, relax! It was just an accident.",
+        "usage_example_es": "¡Oye, cálmate! Solo fue un accidente.",
+        "char_count": "one",
+        "usage_context_en": "command/telling someone to relax",
+        "usage_context_es": "orden/decirle a alguien que se relaje",
+        "imagePath": "/card_images/phrasal_verbs/1-basic/1-basic_card_15_def2.avif"
+      }
+    ],
+    "group_name": "Phrasal Verbs: Calm",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "hurry up",
+    "phonetic": "/hurry up/",
+    "spoken_phonetic_us": "/hurry up/",
+    "search_term": "phrasal verb/urgency",
+    "is_phrasal_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Apurarse / Darse prisa",
+        "usage_example": "Hurry up! The bus is leaving.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "Be quick!",
+        "usage_example_es": "¡Apúrate! El bus se va.",
+        "char_count": "one",
+        "usage_context_en": "urgent instruction",
+        "usage_context_es": "instrucción urgente"
+      }
+    ],
+    "group_name": "Phrasal Verbs: Hurry",
+    "category": "Basic"
+  }
+]

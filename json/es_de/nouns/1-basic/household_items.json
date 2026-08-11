@@ -1,0 +1,884 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Mesa",
+        "pronunciation_guide_es": "/das_BUJ_LIKT_auf_dem_TISH/",
+        "usage_context_en": "A piece of furniture with a flat top",
+        "usage_context_es": "Un mueble con una superficie plana",
+        "usage_example": "Das Buch liegt auf dem Tisch.",
+        "usage_example_es": "El libro está sobre la mesa.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_0_def0.avif"
+      },
+      {
+        "char_count": "6",
+        "meaning": "Lista o conjunto de datos",
+        "pronunciation_guide_es": "/di_er-GEP-ni-se_VER-den_in_der_ta-BE-le_UN-ten_ge-TSIKT/",
+        "usage_context_en": "A set of data arranged in rows and columns.",
+        "usage_context_es": "Un conjunto de datos dispuestos en filas y columnas.",
+        "usage_example": "Die Ergebnisse werden in der Tabelle unten gezeigt.",
+        "usage_example_es": "Los resultados se muestran en la tabla de abajo.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_0_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "der Tisch",
+    "phonetic": "/deːɐ tɪʃ/",
+    "search_term": "noun/furniture/essentials",
+    "spoken_phonetic_us": "/deːɐ tɪʃ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Silla",
+        "pronunciation_guide_es": "/ZETS_dish_auf_den_SHTUL/",
+        "usage_context_en": "A seat for one person",
+        "usage_context_es": "Un asiento para una persona",
+        "usage_example": "Setz dich auf den Stuhl.",
+        "usage_example_es": "Siéntate en la silla.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "der Stuhl",
+    "phonetic": "/deːɐ ʃtuːl/",
+    "search_term": "noun/furniture/essentials",
+    "spoken_phonetic_us": "/deːɐ ʃtuːl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Puerta",
+        "pronunciation_guide_es": "/SHLIS_BI-te_di_TUER/",
+        "usage_context_en": "You use this to enter or leave a room",
+        "usage_context_es": "Usas esto para entrar o salir de un cuarto",
+        "usage_example": "Schließ bitte die Tür.",
+        "usage_example_es": "Cierra la puerta, por favor.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Tür",
+    "phonetic": "/diː tyːɐ/",
+    "search_term": "noun/house/essentials",
+    "spoken_phonetic_us": "/diː tyːɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Ventana",
+        "pronunciation_guide_es": "/OEF-ne_das_FEN-ster/",
+        "usage_context_en": "An opening in a wall with glass",
+        "usage_context_es": "Una abertura en una pared con vidrio",
+        "usage_example": "Öffne das Fenster.",
+        "usage_example_es": "Abre la ventana.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Fenster",
+    "phonetic": "/das ˈfɛnstɐ/",
+    "search_term": "noun/house/essentials",
+    "spoken_phonetic_us": "/das ˈfɛnstɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Cama",
+        "pronunciation_guide_es": "/ish_GE-e_ins_BET/",
+        "usage_context_en": "A piece of furniture for sleeping",
+        "usage_context_es": "Un mueble para dormir",
+        "usage_example": "Ich gehe ins Bett.",
+        "usage_example_es": "Me voy a la cama.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Bett",
+    "phonetic": "/das bɛt/",
+    "search_term": "noun/furniture/essentials",
+    "spoken_phonetic_us": "/das bɛt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Llave",
+        "pronunciation_guide_es": "/ish_HA-be_MAI-nen_SHLUE-sel_fer-LO-ren/",
+        "usage_context_en": "A small metal tool to open a lock",
+        "usage_context_es": "Una pequeña herramienta de metal para abrir una cerradura",
+        "usage_example": "Ich habe meinen Schlüssel verloren.",
+        "usage_example_es": "Perdí mi llave.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_5_def0.avif"
+      },
+      {
+        "char_count": "3",
+        "meaning": "Tecla (de piano o teclado)",
+        "pronunciation_guide_es": "/DRUEK_di_TAS-te_um_di_NO-te_tsu_SHPI-len/",
+        "usage_context_en": "A button you press on a keyboard or piano.",
+        "usage_context_es": "Un botón que presionas en un teclado o piano.",
+        "usage_example": "Drück die Taste, um die Note zu spielen.",
+        "usage_example_es": "Presiona la tecla para tocar la nota.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_5_def1.avif"
+      },
+      {
+        "char_count": "5",
+        "meaning": "Idea principal / clave",
+        "pronunciation_guide_es": "/das_ist_der_SHLUE-sel_tsum_er-FOLK/",
+        "usage_context_en": "Something important or essential for understanding.",
+        "usage_context_es": "Algo importante o esencial para comprender.",
+        "usage_example": "Das ist der Schlüssel zum Erfolg.",
+        "usage_example_es": "Esta es la clave del éxito.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_5_def2.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "der Schlüssel",
+    "phonetic": "/deːɐ ˈʃlʏsl̩/",
+    "search_term": "noun/tool/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈʃlʏsl̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Luz / Lámpara",
+        "pronunciation_guide_es": "/MACH_das_LISHT_AN/",
+        "usage_context_en": "The brightness from the sun or a lamp",
+        "usage_context_es": "El brillo del sol o una lámpara",
+        "usage_example": "Mach das Licht an.",
+        "usage_example_es": "Enciende la luz.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_6_def0.avif"
+      },
+      {
+        "char_count": "4",
+        "meaning": "Iluminación o fuente de luz",
+        "pronunciation_guide_es": "/MACH_das_LISHT_AN/",
+        "usage_context_en": "Visible energy that makes things seen.",
+        "usage_context_es": "Energía visible que permite ver las cosas.",
+        "usage_example": "Mach das Licht an.",
+        "usage_example_es": "Enciende la luz.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_6_def1.avif"
+      },
+      {
+        "char_count": "4",
+        "meaning": "Peso liviano",
+        "pronunciation_guide_es": "/DI-ze_TA-she_ist_ZER_LAISHT/",
+        "usage_context_en": "Having little weight; not heavy.",
+        "usage_context_es": "Que tiene poco peso; no es pesado.",
+        "usage_example": "Diese Tasche ist sehr leicht.",
+        "usage_example_es": "Esta bolsa es muy liviana.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_6_def2.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Licht",
+    "phonetic": "/das lɪçt/",
+    "search_term": "noun/brightness/essentials",
+    "spoken_phonetic_us": "/das lɪçt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Caja",
+        "pronunciation_guide_es": "/LEK_es_in_di_KIS-te/",
+        "usage_context_en": "A container with square sides",
+        "usage_context_es": "Un contenedor con lados cuadrados",
+        "usage_example": "Leg es in die Kiste.",
+        "usage_example_es": "Ponlo en la caja.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Kiste",
+    "phonetic": "/diː ˈkɪstə/",
+    "search_term": "noun/object/container/essentials",
+    "spoken_phonetic_us": "/diː ˈkɪstə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Botella",
+        "pronunciation_guide_es": "/AI-ne_FLA-she_VA-ser/",
+        "usage_context_en": "A container for liquids, usually glass or plastic",
+        "usage_context_es": "Un contenedor para líquidos, usualmente de vidrio o plástico",
+        "usage_example": "Eine Flasche Wasser.",
+        "usage_example_es": "Una botella de agua.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_8_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Flasche",
+    "phonetic": "/diː ˈflaʃə/",
+    "search_term": "noun/object/container/essentials",
+    "spoken_phonetic_us": "/diː ˈflaʃə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Taza / Vaso",
+        "pronunciation_guide_es": "/AI-ne_TA-se_TE/",
+        "usage_context_en": "A small container for drinking",
+        "usage_context_es": "Un contenedor pequeño para beber",
+        "usage_example": "Eine Tasse Tee.",
+        "usage_example_es": "Una taza de té.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Tasse",
+    "phonetic": "/diː ˈtasə/",
+    "search_term": "noun/object/container/essentials",
+    "spoken_phonetic_us": "/diː ˈtasə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Vaso / Vidrio",
+        "pronunciation_guide_es": "/ain_GLAS_VA-ser/",
+        "usage_context_en": "A container for drinking / The hard, clear material",
+        "usage_context_es": "Un contenedor para beber / El material duro y transparente",
+        "usage_example": "Ein Glas Wasser.",
+        "usage_example_es": "Un vaso de agua.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Glas",
+    "phonetic": "/das ɡlaːs/",
+    "search_term": "noun/object/container/essentials",
+    "spoken_phonetic_us": "/das ɡlaːs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "usage_example_es": "Pon la comida en el plato.",
+        "meaning": "Plato",
+        "pronunciation_guide_es": "/LEK_das_E-sen_auf_den_TE-ler/",
+        "usage_context_en": "A flat dish for eating food",
+        "usage_context_es": "Un recipiente plano para comer",
+        "usage_example": "Leg das Essen auf den Teller.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_11_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "der Teller",
+    "phonetic": "/deːɐ ˈtɛlɐ/",
+    "search_term": "noun/object/kitchen/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈtɛlɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "usage_example_es": "Como ensalada con un tenedor.",
+        "meaning": "Tenedor",
+        "pronunciation_guide_es": "/ish_E-se_za-LAT_mit_AI-ner_GA-bel/",
+        "usage_context_en": "A tool with points for lifting food",
+        "usage_context_es": "Una herramienta con puntas para levantar comida",
+        "usage_example": "Ich esse Salat mit einer Gabel.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_12_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Gabel",
+    "phonetic": "/diː ˈɡaːbl̩/",
+    "search_term": "noun/object/kitchen/essentials",
+    "spoken_phonetic_us": "/diː ˈɡaːbl̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "usage_example_es": "Como sopa con una cuchara.",
+        "meaning": "Cuchara",
+        "pronunciation_guide_es": "/ish_E-se_ZU-pe_mit_AI-nem_LOE-fel/",
+        "usage_context_en": "A tool with a small bowl for liquid food",
+        "usage_context_es": "Una herramienta con un cuenco pequeño para comida líquida",
+        "usage_example": "Ich esse Suppe mit einem Löffel.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_13_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "der Löffel",
+    "phonetic": "/deːɐ ˈlœfl̩/",
+    "search_term": "noun/object/kitchen/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈlœfl̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "usage_example_es": "Ten cuidado con el cuchillo.",
+        "meaning": "Cuchillo",
+        "pronunciation_guide_es": "/zai_FOR-zish-tish_mit_dem_ME-ser/",
+        "usage_context_en": "A tool with a blade for cutting",
+        "usage_context_es": "Una herramienta con una hoja para cortar",
+        "usage_example": "Sei vorsichtig mit dem Messer.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_14_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Messer",
+    "phonetic": "/das ˈmɛsɐ/",
+    "search_term": "noun/object/kitchen/essentials",
+    "spoken_phonetic_us": "/das ˈmɛsɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "four",
+        "meaning": "Televisión / Televisor",
+        "pronunciation_guide_es": "/ish_SHAU-e_FERN/",
+        "usage_context_en": "A device that shows moving pictures (TV)",
+        "usage_context_es": "Un dispositivo que muestra imágenes en movimiento (TV)",
+        "usage_example": "Ich schaue fern.",
+        "usage_example_es": "Estoy viendo la televisión.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_15_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "der Fernseher",
+    "phonetic": "/deːɐ ˈfɛʁnzeːɐ/",
+    "search_term": "noun/object/device/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈfɛʁnzeːɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Sofá / Sillón",
+        "pronunciation_guide_es": "/ZETS_dish_auf_das_ZO-fa/",
+        "usage_context_en": "A long soft seat for more than one person",
+        "usage_context_es": "Un asiento largo y suave para más de una persona",
+        "usage_example": "Setz dich auf das Sofa.",
+        "usage_example_es": "Siéntate en el sofá.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_16_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Sofa",
+    "phonetic": "/das ˈzoːfa/",
+    "search_term": "noun/household/furniture/essentials",
+    "spoken_phonetic_us": "/das ˈzoːfa/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Lámpara",
+        "pronunciation_guide_es": "/MACH_di_LAM-pe_AN/",
+        "usage_context_en": "A device that produces light",
+        "usage_context_es": "Un dispositivo que produce luz",
+        "usage_example": "Mach die Lampe an.",
+        "usage_example_es": "Enciende la lámpara.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_17_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Lampe",
+    "phonetic": "/diː ˈlampə/",
+    "search_term": "noun/household/essentials",
+    "spoken_phonetic_us": "/diː ˈlampə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Espejo",
+        "pronunciation_guide_es": "/SHAU_in_den_SHPI-gel/",
+        "usage_context_en": "A flat surface that reflects your image",
+        "usage_context_es": "Una superficie plana que refleja tu imagen",
+        "usage_example": "Schau in den Spiegel.",
+        "usage_example_es": "Mírate en el espejo.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_18_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "der Spiegel",
+    "phonetic": "/deːɐ ˈʃpiːɡl̩/",
+    "search_term": "noun/household/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈʃpiːɡl̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Toalla",
+        "pronunciation_guide_es": "/NIM_das_HANT-tuch/",
+        "usage_context_en": "A piece of cloth used to dry yourself",
+        "usage_context_es": "Un trozo de tela usado para secarte",
+        "usage_example": "Nimm das Handtuch.",
+        "usage_example_es": "Agarra la toalla.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_19_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Handtuch",
+    "phonetic": "/das ˈhanttuːx/",
+    "search_term": "noun/household/essentials",
+    "spoken_phonetic_us": "/das ˈhanttuːx/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Jabón",
+        "pronunciation_guide_es": "/be-NUT-se_di_ZAI-fe/",
+        "usage_context_en": "A substance used for washing",
+        "usage_context_es": "Una sustancia usada para lavar",
+        "usage_example": "Benutze die Seife.",
+        "usage_example_es": "Usa el jabón.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_20_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Seife",
+    "phonetic": "/diː ˈzaɪfə/",
+    "search_term": "noun/household/essentials",
+    "spoken_phonetic_us": "/diː ˈzaɪfə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Almohada / Cojín",
+        "pronunciation_guide_es": "/das_KI-sen_ist_VAISH/",
+        "usage_context_en": "A soft bag used to rest your head",
+        "usage_context_es": "Una bolsa suave usada para reposar la cabeza",
+        "usage_example": "Das Kissen ist weich.",
+        "usage_example_es": "La almohada es suave.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_21_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Kissen",
+    "phonetic": "/das ˈkɪsn̩/",
+    "search_term": "noun/household/essentials",
+    "spoken_phonetic_us": "/das ˈkɪsn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Cobija / Manta",
+        "pronunciation_guide_es": "/di_DE-ke_ist_VARM/",
+        "usage_context_en": "A large piece of cloth used to keep warm",
+        "usage_context_es": "Una pieza grande de tela usada para mantenerse abrigado",
+        "usage_example": "Die Decke ist warm.",
+        "usage_example_es": "La cobija está caliente.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_22_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Decke",
+    "phonetic": "/diː ˈdɛkə/",
+    "search_term": "noun/household/essentials",
+    "spoken_phonetic_us": "/diː ˈdɛkə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Estante / Repisa",
+        "pronunciation_guide_es": "/di_BUE-sher_SHTE-en_im_re-GAL/",
+        "usage_context_en": "A flat board fixed to a wall to put things on",
+        "usage_context_es": "Una tabla plana fijada a la pared para poner cosas",
+        "usage_example": "Die Bücher stehen im Regal.",
+        "usage_example_es": "Los libros están en el estante.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_23_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Regal",
+    "phonetic": "/das ʁeˈɡaːl/",
+    "search_term": "noun/household/essentials",
+    "spoken_phonetic_us": "/das ʁeˈɡaːl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Cajón / Gaveta",
+        "pronunciation_guide_es": "/OEF-ne_di_SHUP-la-de/",
+        "usage_context_en": "A sliding box used to store things",
+        "usage_context_es": "Una caja deslizante usada para guardar cosas",
+        "usage_example": "Öffne die Schublade.",
+        "usage_example_es": "Abre el cajón.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_24_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Schublade",
+    "phonetic": "/diː ˈʃuːpladə/",
+    "search_term": "noun/household/essentials",
+    "spoken_phonetic_us": "/diː ˈʃuːpladə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Nevera / Refrigerador",
+        "pronunciation_guide_es": "/SHTEL_di_MILSH_in_den_KUEL-shrank/",
+        "usage_context_en": "A machine used to keep food and drinks cold",
+        "usage_context_es": "Una máquina usada para mantener fríos los alimentos y bebidas",
+        "usage_example": "Stell die Milch in den Kühlschrank.",
+        "usage_example_es": "Pon la leche en la nevera.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_25_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "der Kühlschrank",
+    "phonetic": "/deːɐ ˈkyːlʃʁaŋk/",
+    "search_term": "noun/household/kitchen/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈkyːlʃʁaŋk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Estufa / Cocina",
+        "pronunciation_guide_es": "/di_ZU-pe_ist_auf_dem_HERT/",
+        "usage_context_en": "A piece of equipment used for cooking food",
+        "usage_context_es": "Un equipo usado para cocinar alimentos",
+        "usage_example": "Die Suppe ist auf dem Herd.",
+        "usage_example_es": "La sopa está en la estufa.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_26_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "der Herd",
+    "phonetic": "/deːɐ heːɐt/",
+    "search_term": "noun/household/kitchen/essentials",
+    "spoken_phonetic_us": "/deːɐ heːɐt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Inodoro / Retrete",
+        "pronunciation_guide_es": "/SHPUEL_BI-te_di_toa-LE-te/",
+        "usage_context_en": "A bowl used for urination and defecation",
+        "usage_context_es": "Una taza usada para la micción y defecación",
+        "usage_example": "Spül bitte die Toilette.",
+        "usage_example_es": "Tira de la cadena del inodoro, por favor.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_27_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Toilette",
+    "phonetic": "/diː toaˈlɛtə/",
+    "search_term": "noun/household/bathroom/essentials",
+    "spoken_phonetic_us": "/diː toaˈlɛtə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Ducha",
+        "pronunciation_guide_es": "/ish_DU-she_MOR-gens/",
+        "usage_context_en": "A place where you stand to wash your body",
+        "usage_context_es": "Un lugar donde te pones de pie para lavar tu cuerpo",
+        "usage_example": "Ich dusche morgens.",
+        "usage_example_es": "Tomo una ducha en la mañana.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_28_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Dusche",
+    "phonetic": "/diː ˈduːʃə/",
+    "search_term": "noun/household/bathroom/essentials",
+    "spoken_phonetic_us": "/diː ˈduːʃə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "3",
+        "meaning": "A metal container used for cooking food.",
+        "pronunciation_guide_es": "/di_AI-er_zint_in_der_PFA-ne/",
+        "usage_context_en": "A metal container used for cooking food.",
+        "usage_context_es": "Un recipiente de metal usado para cocinar.",
+        "usage_example": "Die Eier sind in der Pfanne.",
+        "usage_example_es": "Los huevos están en la sartén.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_29_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Pfanne",
+    "phonetic": "/diː ˈpfanə/",
+    "search_term": "noun/household/seed",
+    "spoken_phonetic_us": "/diː ˈpfanə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "3",
+        "meaning": "A deep container used for cooking.",
+        "pronunciation_guide_es": "/di_ZU-pe_ist_im_TOPF/",
+        "usage_context_en": "A deep container used for cooking.",
+        "usage_context_es": "Un recipiente hondo usado para cocinar.",
+        "usage_example": "Die Suppe ist im Topf.",
+        "usage_example_es": "La sopa está en la olla.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_30_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "der Topf",
+    "phonetic": "/deːɐ tɔpf/",
+    "search_term": "noun/household/seed",
+    "spoken_phonetic_us": "/deːɐ tɔpf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Ventilador / Abanico",
+        "pronunciation_guide_es": "/es_ist_HAIS_MACH_BI-te_den_ven-ti-LA-tor_AN/",
+        "usage_context_en": "A machine that moves air to make you cool",
+        "usage_context_es": "Una máquina que mueve el aire para refrescarte",
+        "usage_example": "Es ist heiß, mach bitte den Ventilator an.",
+        "usage_example_es": "Hace calor, por favor enciende el ventilador.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_31_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "der Ventilator",
+    "phonetic": "/deːɐ vɛntiˈlaːtoːɐ/",
+    "search_term": "noun/household/essentials",
+    "spoken_phonetic_us": "/deːɐ vɛntiˈlaːtoːɐ/"
+  }
+]

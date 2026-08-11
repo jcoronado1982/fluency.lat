@@ -1,0 +1,101 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "",
+    "definitions": [
+      {
+        "alternative_example": "",
+        "char_count": "4",
+        "imagePath": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_0_def0.avif",
+        "meaning": "border",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Frontera",
+        "usage_context_en": "The line separating two countries or regions.",
+        "usage_context_es": "La línea que separa dos países o regiones.",
+        "usage_example": "Cruzamos la frontera.",
+        "usage_example_es": "We crossed the border."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "is_phrasal_verb": false,
+    "name": "Frontera",
+    "phonetic": "",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "",
+    "definitions": [
+      {
+        "alternative_example": "",
+        "char_count": "7",
+        "imagePath": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_1_def0.avif",
+        "meaning": "direction",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Dirección (rumbo)",
+        "usage_context_en": "The path that a moving object follows.",
+        "usage_context_es": "El camino que sigue un objeto en movimiento.",
+        "usage_example": "Vamos en la dirección equivocada.",
+        "usage_example_es": "We are going in the wrong direction."
+      },
+      {
+        "alternative_example": "",
+        "char_count": "3",
+        "imagePath": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_1_def1.avif",
+        "meaning": "direction",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Instrucción (a menudo plural)",
+        "usage_context_en": "An instruction on how to do something or reach a place.",
+        "usage_context_es": "Una instrucción sobre cómo hacer algo o llegar a un lugar.",
+        "usage_example": "Sigue las instrucciones.",
+        "usage_example_es": "Follow the directions."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_phrasal_verb": false,
+    "name": "Dirección (rumbo)",
+    "phonetic": "",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "",
+    "definitions": [
+      {
+        "alternative_example": "",
+        "char_count": "7",
+        "imagePath": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_2_def0.avif",
+        "meaning": "distance",
+        "pronunciation_guide_es": "",
+        "target_meaning_es": "Distancia",
+        "usage_context_en": "The amount of space between two things or places.",
+        "usage_context_es": "La cantidad de espacio entre dos cosas o lugares.",
+        "usage_example": "¿Cuál es la distancia a la ciudad?",
+        "usage_example_es": "What is the distance to the city?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_phrasal_verb": false,
+    "name": "Distancia",
+    "phonetic": "",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": ""
+  }
+]

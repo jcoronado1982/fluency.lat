@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "surprisingly",
+    "phonetic": "/səˈpraɪzɪŋli/",
+    "spoken_phonetic_us": "/sərˈpraɪzɪŋli/",
+    "search_term": "adverb/sentence",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Sentence",
+    "definitions": [
+      {
+        "meaning": "Sorprendentemente",
+        "usage_example": "Surprisingly, the test was easy.",
+        "pronunciation_guide_es": "/sor-PRAI-sing-li_de_TEST_uas_I-si/",
+        "usage_example_es": "Sorprendentemente, el examen fue fácil.",
+        "char_count": 5,
+        "usage_context_en": "In a way that causes surprise; unexpectedly.",
+        "usage_context_es": "De una manera que causa sorpresa; inesperadamente.",
+        "imagePath": "/card_images/adverbs/3-advanced/sentence_stance/3-advanced_sentence_stance_card_0_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "apparently",
+    "phonetic": "/əˈpærəntli/",
+    "spoken_phonetic_us": "/əˈpærəntli/",
+    "search_term": "adverb/sentence/certainty",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Certainty",
+    "definitions": [
+      {
+        "meaning": "Aparentemente / Por lo visto",
+        "usage_example": "Apparently, the meeting was canceled.",
+        "pronunciation_guide_es": "/a-PA-rent-li_de_MI-ting_uas_CAN-seld/",
+        "usage_example_es": "Aparentemente, la reunión fue cancelada.",
+        "char_count": 5,
+        "usage_context_en": "Used to say that something seems true based on what you heard or read.",
+        "usage_context_es": "Usado para decir que algo parece verdad basado en lo que oíste o leíste.",
+        "imagePath": "/card_images/adverbs/3-advanced/sentence_stance/3-advanced_sentence_stance_card_1_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "arguably",
+    "phonetic": "/ˈɑrɡjuəbli/",
+    "spoken_phonetic_us": "/ˈɑrɡjuəbli/",
+    "search_term": "adverb/sentence_stance/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Se podría decir que / Posiblemente",
+        "usage_example": "It is arguably the best option.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Se podría decir que es la mejor opción.",
+        "char_count": "6",
+        "usage_context_en": "Used to present a debatable opinion.",
+        "usage_context_es": "Used to present a debatable opinion.",
+        "imagePath": "/card_images/adverbs/3-advanced/sentence_stance/3-advanced_sentence_stance_card_2_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Adverbs: Sentence"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "admittedly",
+    "phonetic": "/ədˈmɪtɪdli/",
+    "spoken_phonetic_us": "/ədˈmɪtɪdli/",
+    "search_term": "adverb/sentence_stance/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Hay que admitirlo / Admitidamente",
+        "usage_example": "Admittedly, the plan needs more work.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Hay que admitirlo, el plan necesita más trabajo.",
+        "char_count": "6",
+        "usage_context_en": "Used to concede a point before continuing.",
+        "usage_context_es": "Used to concede a point before continuing.",
+        "imagePath": "/card_images/adverbs/3-advanced/sentence_stance/3-advanced_sentence_stance_card_3_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Adverbs: Sentence"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "presumably",
+    "phonetic": "/prɪˈzuːməbli/",
+    "spoken_phonetic_us": "/prɪˈzuːməbli/",
+    "search_term": "adverb/sentence_stance/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Presumiblemente / Se supone que",
+        "usage_example": "They are presumably on their way.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Presumiblemente vienen en camino.",
+        "char_count": "6",
+        "usage_context_en": "Used when something is assumed to be true.",
+        "usage_context_es": "Used when something is assumed to be true.",
+        "imagePath": "/card_images/adverbs/3-advanced/sentence_stance/3-advanced_sentence_stance_card_4_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Adverbs: Sentence"
+  }
+]

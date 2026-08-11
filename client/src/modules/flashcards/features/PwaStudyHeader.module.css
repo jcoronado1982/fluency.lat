@@ -1,0 +1,32 @@
+.pwaHeader {
+    display: none;
+}
+
+@media (display-mode: standalone) and (max-width: 768px) {
+    .pwaHeader {
+        position: absolute;
+        z-index: 7;
+        top: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        width: 100%;
+        height: calc(58px + env(safe-area-inset-top, 0px));
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding-top: env(safe-area-inset-top, 0px);
+        background: linear-gradient(180deg, rgba(9, 14, 22, 0.68), rgba(9, 14, 22, 0.3) 76%, rgba(9, 14, 22, 0.12));
+        backdrop-filter: blur(12px) saturate(1.12);
+        -webkit-backdrop-filter: blur(12px) saturate(1.12);
+        pointer-events: none;
+    }
+
+    .logo {
+        display: block;
+        width: 34px;
+        height: 34px;
+        object-fit: contain;
+        border-radius: 8px;
+    }
+}

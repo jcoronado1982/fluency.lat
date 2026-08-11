@@ -1,0 +1,288 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Dinero",
+        "pronunciation_guide_es": "/ai_NID_MOR_MANi/",
+        "usage_context_en": "What you use to buy things",
+        "usage_context_es": "Lo que usas para comprar cosas",
+        "usage_example": "I need more money.",
+        "usage_example_es": "Necesito más dinero.",
+        "imagePath": "/card_images/nouns/1-basic/economy_e_health/1-basic_economy_e_health_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "money",
+    "phonetic": "/ˈmʌni/",
+    "search_term": "noun/cash/essentials",
+    "spoken_phonetic_us": "/ˈmʌni/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Salud",
+        "pronunciation_guide_es": "/JELTH_is_VERI_imPORtant/",
+        "usage_context_en": "The condition of your body",
+        "usage_context_es": "La condición de tu cuerpo",
+        "usage_example": "Health is very important.",
+        "usage_example_es": "La salud es muy importante.",
+        "imagePath": "/card_images/nouns/1-basic/economy_e_health/1-basic_economy_e_health_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "health",
+    "phonetic": "/hɛlθ/",
+    "search_term": "noun/concept/body/essentials",
+    "spoken_phonetic_us": "/hɛlθ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Dólar",
+        "pronunciation_guide_es": "/it_KOSTS_TEN_DOLars/",
+        "usage_context_en": "The currency of the USA",
+        "usage_context_es": "La moneda de los EE.UU.",
+        "usage_example": "It costs ten dollars.",
+        "usage_example_es": "Cuesta diez dólares.",
+        "imagePath": "/card_images/nouns/1-basic/economy_e_health/1-basic_economy_e_health_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "dollar",
+    "phonetic": "/ˈdɒlər/",
+    "search_term": "noun/money/essentials",
+    "spoken_phonetic_us": "/ˈdɑːlər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Dolor",
+        "pronunciation_guide_es": "/ai_FIL_a_PEIN_in_mai_LEG/",
+        "usage_context_en": "The feeling you have when your body is hurt",
+        "usage_context_es": "El sentimiento que tienes cuando tu cuerpo está herido",
+        "usage_example": "I feel a pain in my leg.",
+        "usage_example_es": "Siento un dolor en la pierna.",
+        "imagePath": "/card_images/nouns/1-basic/economy_e_health/1-basic_economy_e_health_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Feelings",
+    "is_verb": false,
+    "name": "pain",
+    "phonetic": "/peɪn/",
+    "search_term": "noun/feeling/body/essentials",
+    "spoken_phonetic_us": "/peɪn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Precio",
+        "pronunciation_guide_es": "/uat_is_de_PRAIS/",
+        "usage_context_en": "The amount of money to buy something",
+        "usage_context_es": "La cantidad de dinero para comprar algo",
+        "usage_example": "What is the price?",
+        "usage_example_es": "¿Cuál es el precio?",
+        "imagePath": "/card_images/nouns/1-basic/economy_e_health/1-basic_economy_e_health_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "price",
+    "phonetic": "/praɪs/",
+    "search_term": "noun/concept/money/essentials",
+    "spoken_phonetic_us": "/praɪs/"
+  },
+  {
+    "word": "medicine",
+    "translation": "medicina",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "meaning": "A substance used to treat illness.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A substance used to treat illness.",
+        "usage_context_es": "Una sustancia usada para tratar una enfermedad.",
+        "usage_example": "Take your medicine after lunch.",
+        "usage_example_es": "Toma tu medicina después del almuerzo.",
+        "imagePath": "/card_images/nouns/1-basic/economy_e_health/1-basic_economy_e_health_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Health & Medicine",
+    "is_verb": false,
+    "name": "medicine",
+    "phonetic": "",
+    "search_term": "noun/health-&-medicine/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Costo / Coste",
+        "pronunciation_guide_es": "/de_KOST_is_TU_JAI/",
+        "usage_context_en": "The money needed to buy or do something",
+        "usage_context_es": "El dinero necesario para comprar o hacer algo",
+        "usage_example": "The cost is too high.",
+        "usage_example_es": "El costo es demasiado alto.",
+        "imagePath": "/card_images/nouns/1-basic/economy_e_health/1-basic_economy_e_health_card_6_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "cost",
+    "phonetic": "/kɒst/",
+    "search_term": "noun/concept/money/essentials",
+    "spoken_phonetic_us": "/kɔːst/"
+  },
+  {
+    "word": "patient",
+    "translation": "paciente",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "meaning": "A person receiving medical care.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A person receiving medical care.",
+        "usage_context_es": "Una persona que recibe atención médica.",
+        "usage_example": "The patient is resting.",
+        "usage_example_es": "El paciente está descansando.",
+        "imagePath": "/card_images/nouns/1-basic/economy_e_health/1-basic_economy_e_health_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Health & Medicine",
+    "is_verb": false,
+    "name": "patient",
+    "phonetic": "",
+    "search_term": "noun/health-&-medicine/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Impuesto",
+        "pronunciation_guide_es": "/iu_JAV_tu_PEI_TAKSes/",
+        "usage_context_en": "Money paid to the government",
+        "usage_context_es": "Dinero pagado al gobierno",
+        "usage_example": "You have to pay taxes.",
+        "usage_example_es": "Tienes que pagar impuestos.",
+        "imagePath": "/card_images/nouns/1-basic/economy_e_health/1-basic_economy_e_health_card_8_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Society",
+    "is_verb": false,
+    "name": "tax",
+    "phonetic": "/tæks/",
+    "search_term": "noun/money/society/essentials",
+    "spoken_phonetic_us": "/tæks/"
+  },
+  {
+    "word": "illness",
+    "translation": "enfermedad",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "meaning": "A condition of being sick.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A condition of being sick.",
+        "usage_context_es": "La condición de estar enfermo.",
+        "usage_example": "The illness lasted three days.",
+        "usage_example_es": "La enfermedad duró tres días.",
+        "imagePath": "/card_images/nouns/1-basic/economy_e_health/1-basic_economy_e_health_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Health & Medicine",
+    "is_verb": false,
+    "name": "illness",
+    "phonetic": "",
+    "search_term": "noun/health-&-medicine/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Oferta / Rebaja",
+        "pronunciation_guide_es": "/dis_aitem_is_on_seil/",
+        "usage_context_en": "A period when items are sold at lower prices",
+        "usage_context_es": "Un período en que las cosas se venden a precios más bajos",
+        "usage_example": "This item is on sale.",
+        "usage_example_es": "Este artículo está en oferta.",
+        "imagePath": "/card_images/nouns/1-basic/economy_e_health/1-basic_economy_e_health_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "sale",
+    "phonetic": "/seɪl/",
+    "search_term": "noun/concept/money/essentials",
+    "spoken_phonetic_us": "/seɪl/"
+  }
+]

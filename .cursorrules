@@ -1,0 +1,25 @@
+# Reglas de Codificación e Instrucciones del Proyecto (Fluency / Flashcard AI)
+
+**Protocolo canónico completo: `GEMINI.md` en la raíz** (alias: `CLAUDE.md`, `AGENTS.md`).
+Leerlo PRIMERO: orden de lectura, hojas de ruta por tarea, índice de herramientas, regla
+doc-first de infraestructura y regla de cierre. Lo de abajo es el resumen para este editor.
+
+## 🏗️ 1. Arquitectura y Estructura
+*   **Arquitectura modular:** Leer `docs/ARQUITECTURA_MODULAR.md` y `modules/README.md`. Plano por módulo: `docs/modules/<módulo>.md`. Registry: `scripts/module_registry.sh`. Sparse-checkout: `./scripts/sparse-module.sh <modulo>`.
+*   **Backend (Rust + Axum):** `backend/core` (puertos), `backend/mod_*` (casos de uso), `backend/api_main` (composition root). Guía: `backend/GEMINI.md` (alias `backend/CLAUDE.md`).
+*   **Frontend (React 19 + Vite + CSS vanilla/CSS Modules — PROHIBIDO Tailwind/Sass/MUI):** `client/src/modules/<nombre>/index.jsx` registra rutas y navegación. Guía: `client/GEMINI.md` (alias `client/CLAUDE.md`).
+*   **Base de datos:** SurrealDB 1.5.5 (no PostgreSQL; Postgres es solo infraestructura futura de pagos).
+*   **Dominios (Jun 2026):** Primario: `fluency.lat`. Secundario/Transición: `theruby.lat`.
+
+## 🗺️ 2. Foco de Contexto Inteligente (Mapa de Dominios)
+*   Antes de leer o modificar archivos, consulta `docs/MAPA_DOMINIOS.md` y activa sparse-checkout del módulo relevante (`./scripts/sparse-module.sh flashcards|pronoun`).
+*   Carga únicamente el shell compartido + el módulo activo para mantener la ventana de contexto limpia.
+*   **Infraestructura Oracle/DB (Jun 2026):** Antes de tocar deploy, SurrealDB, Caddy o servidores, leer `docs/infrastructure/ARQUITECTURA_ORACLE_DB.md`. SurrealDB vive en OCI-1 (`10.0.1.138:8080`), no en el proxy. Postgres está en Azure, no en OCI-1.
+
+## ⚙️ 3. Metodología de trabajo (validación obligatoria)
+1.  **Edición Local:** Lee y edita los archivos utilizando las herramientas nativas del editor.
+2.  **Validación Obligatoria:** Tras realizar cualquier modificación de código, ejecuta obligatoriamente en la terminal:
+    *   Para Rust: `cargo check --manifest-path backend/Cargo.toml`
+    *   Para validar tests: `cargo test --manifest-path backend/Cargo.toml`
+3.  **Auto-Corrección:** Si la compilación o las pruebas fallan, analiza las líneas de error exactas, propone y aplica la corrección, y vuelve a verificar.
+4.  **Confirmación:** No declares una tarea como finalizada hasta que la compilación y los tests den "Éxito/Verde" con cero errores.

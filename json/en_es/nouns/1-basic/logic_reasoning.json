@@ -1,0 +1,118 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Razón / Motivo",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/cause/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "reason",
+        "usage_example": "¿Cuál es la razón?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "What is the reason?",
+        "char_count": "two",
+        "usage_context_en": "The cause or explanation for something",
+        "usage_context_es": "La causa o explicación de algo",
+        "imagePath": "/card_images/nouns/1-basic/logic_reasoning/1-basic_logic_reasoning_card_0_def0.avif",
+        "target_meaning_es": "Razón / Motivo"
+      }
+    ],
+    "group_name": "General Concepts",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Hecho",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "fact",
+        "usage_example": "Es un hecho conocido.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "It is a known fact.",
+        "char_count": "one",
+        "usage_context_en": "Something that is true",
+        "usage_context_es": "Algo que es verdad",
+        "imagePath": "/card_images/nouns/1-basic/logic_reasoning/1-basic_logic_reasoning_card_1_def0.avif",
+        "target_meaning_es": "Hecho"
+      }
+    ],
+    "group_name": "General Concepts",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Verdad",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "truth",
+        "usage_example": "Dime la verdad.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Tell me the truth.",
+        "char_count": "one",
+        "usage_context_en": "What is true; opposite of a lie",
+        "usage_context_es": "Lo que es cierto; opuesto a una mentira",
+        "imagePath": "/card_images/nouns/1-basic/logic_reasoning/1-basic_logic_reasoning_card_2_def0.avif",
+        "target_meaning_es": "Verdad"
+      }
+    ],
+    "group_name": "General Concepts",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Mentira",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "lie",
+        "usage_example": "Eso es una mentira.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "That is a lie.",
+        "char_count": "one",
+        "usage_context_en": "Something you say that is not true",
+        "usage_context_es": "Algo que dices que no es verdad",
+        "imagePath": "/card_images/nouns/1-basic/logic_reasoning/1-basic_logic_reasoning_card_3_def0.avif",
+        "target_meaning_es": "Mentira"
+      }
+    ],
+    "group_name": "General Concepts",
+    "category": ""
+  }
+]

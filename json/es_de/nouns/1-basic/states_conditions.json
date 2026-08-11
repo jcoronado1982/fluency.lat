@@ -1,0 +1,168 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Vida",
+        "pronunciation_guide_es": "/es_ist_ain_VUN-der-shoe-nes_LE-ben/",
+        "usage_context_en": "The state of being alive",
+        "usage_context_es": "El estado de estar vivo",
+        "usage_example": "Es ist ein wunderschönes Leben.",
+        "usage_example_es": "Es una vida hermosa.",
+        "imagePath": "/card_images/nouns/1-basic/states_conditions/1-basic_states_conditions_card_0_def0.avif"
+      },
+      {
+        "char_count": "4",
+        "meaning": "Forma o estilo de vida",
+        "pronunciation_guide_es": "/er_ge-NIST_das_SHTAT-le-ben/",
+        "usage_context_en": "The manner or way of living.",
+        "usage_context_es": "La forma o estilo de vivir.",
+        "usage_example": "Er genießt das Stadtleben.",
+        "usage_example_es": "Disfruta de la vida en la ciudad.",
+        "imagePath": "/card_images/nouns/1-basic/states_conditions/1-basic_states_conditions_card_0_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "das Leben",
+    "phonetic": "/das ˈleːbn̩/",
+    "search_term": "noun/existence/essentials",
+    "spoken_phonetic_us": "/das ˈleːbn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Problema",
+        "pronunciation_guide_es": "/ish_HA-be_ain_pro-BLEM/",
+        "usage_context_en": "A situation that is difficult or needs a solution",
+        "usage_context_es": "Una situación que es difícil o necesita una solución",
+        "usage_example": "Ich habe ein Problem.",
+        "usage_example_es": "Tengo un problema.",
+        "imagePath": "/card_images/nouns/1-basic/states_conditions/1-basic_states_conditions_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "das Problem",
+    "phonetic": "/das pʁoˈbleːm/",
+    "search_term": "noun/issue/essentials",
+    "spoken_phonetic_us": "/das pʁoˈbleːm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Error",
+        "pronunciation_guide_es": "/du_HAST_AI-nen_FE-ler_ge-MACHT/",
+        "usage_context_en": "A mistake",
+        "usage_context_es": "Una equivocación",
+        "usage_example": "Du hast einen Fehler gemacht.",
+        "usage_example_es": "Cometiste un error.",
+        "imagePath": "/card_images/nouns/1-basic/states_conditions/1-basic_states_conditions_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "der Fehler",
+    "phonetic": "/deːɐ ˈfeːlɐ/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈfeːlɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Error / Equivocación",
+        "pronunciation_guide_es": "/ish_HA-be_AI-nen_FE-ler_ge-MACHT/",
+        "usage_context_en": "An action or judgment that is wrong",
+        "usage_context_es": "Una acción o juicio que es incorrecto",
+        "usage_example": "Ich habe einen Fehler gemacht.",
+        "usage_example_es": "Cometí un error.",
+        "imagePath": "/card_images/nouns/1-basic/states_conditions/1-basic_states_conditions_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "der Fehler",
+    "phonetic": "/deːɐ ˈfeːlɐ/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈfeːlɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Suerte",
+        "pronunciation_guide_es": "/FIL_GLUEK/",
+        "usage_context_en": "Success that happens by chance",
+        "usage_context_es": "Éxito que ocurre por casualidad",
+        "usage_example": "Viel Glück!",
+        "usage_example_es": "¡Buena suerte!",
+        "imagePath": "/card_images/nouns/1-basic/states_conditions/1-basic_states_conditions_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "das Glück",
+    "phonetic": "/das ɡlʏk/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/das ɡlʏk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Peligro",
+        "pronunciation_guide_es": "/du_BIST_in_ge-FAR/",
+        "usage_context_en": "The possibility of being harmed or killed",
+        "usage_context_es": "La posibilidad de ser herido o morir",
+        "usage_example": "Du bist in Gefahr.",
+        "usage_example_es": "Estás en peligro.",
+        "imagePath": "/card_images/nouns/1-basic/states_conditions/1-basic_states_conditions_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Gefahr",
+    "phonetic": "/diː ɡəˈfaːɐ/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/diː ɡəˈfaːɐ/"
+  }
+]

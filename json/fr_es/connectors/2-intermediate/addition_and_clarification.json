@@ -1,0 +1,114 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "También",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "phrase/addition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: También]",
+                "usage_example": "Él compró el libro y el bolígrafo también.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Él compró el libro y el bolígrafo también.]",
+                "char_count": "8",
+                "usage_context_en": "[TRADUCIR AL FR: Además; también. (Usado al final de una cláusula).]",
+                "usage_context_es": "Además; también. (Usado al final de una cláusula).",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_3_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Además",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adverb/addition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Además]",
+                "usage_example": "No quiero ir. Además, estoy cansado.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: No quiero ir. Además, estoy cansado.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL FR: Además; es más (usado para añadir otra razón).]",
+                "usage_context_es": "Además; es más (usado para añadir otra razón).",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_5_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Además / Adicionalmente",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "connector/addition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Además / Adicionalmente]",
+                "usage_example": "Además de su salario, recibe un bono.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Además de su salario, recibe un bono.]",
+                "char_count": "11",
+                "usage_context_en": "[TRADUCIR AL FR: Como persona, cosa o circunstancia adicional.]",
+                "usage_context_es": "Como persona, cosa o circunstancia adicional.",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_5_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "En otras palabras",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "phrase/clarification",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: En otras palabras]",
+                "usage_example": "Es el hermano de mi padre. En otras palabras, es mi tío.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Es el hermano de mi padre. En otras palabras, es mi tío.]",
+                "char_count": "10",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para explicar algo de una forma más simple o diferente.]",
+                "usage_context_es": "Usado para explicar algo de una forma más simple o diferente.",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_3_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Clarification",
+        "category": ""
+    }
+]

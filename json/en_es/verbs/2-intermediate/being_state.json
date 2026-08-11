@@ -1,0 +1,84 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Permanecer/Quedarse",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/stay/level_up",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "remain",
+        "usage_example": "Por favor, permanezca sentado hasta el final.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Please remain seated until the end.",
+        "char_count": "two",
+        "usage_context_en": "position/state",
+        "usage_context_es": "posición/estado",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state/2-intermediate_being_state_card_0_def0.avif",
+        "target_meaning_es": "Permanecer/Quedarse"
+      },
+      {
+        "meaning": "remain",
+        "usage_example": "Solo quedan unos pocos minutos.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Only a few minutes remain.",
+        "char_count": "two",
+        "usage_context_en": "time/quantity",
+        "usage_context_es": "tiempo/cantidad",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state/2-intermediate_being_state_card_0_def1.avif",
+        "target_meaning_es": "Restar/Quedar (como sobra)"
+      }
+    ],
+    "group_name": "Body & Movement",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Aparecer",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/seem/level_up",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "appear",
+        "usage_example": "El sol aparece detrás de las nubes.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The sun appears from behind the clouds.",
+        "char_count": "two",
+        "usage_context_en": "visibility/arrival",
+        "usage_context_es": "visibilidad/llegada",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state/2-intermediate_being_state_card_1_def0.avif",
+        "target_meaning_es": "Aparecer"
+      },
+      {
+        "meaning": "appear",
+        "usage_example": "Ella parece ser muy inteligente.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She appears to be very smart.",
+        "char_count": "two",
+        "usage_context_en": "impression/judgment",
+        "usage_context_es": "impresión/juicio",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state/2-intermediate_being_state_card_1_def1.avif",
+        "target_meaning_es": "Parecer/Dar la impresión"
+      }
+    ],
+    "group_name": "Feelings & Reactions",
+    "category": ""
+  }
+]

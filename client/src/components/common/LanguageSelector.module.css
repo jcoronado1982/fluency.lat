@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    /* Changed from dark to transparent */
+    border-radius: 24px;
+    /* Pill shape matching other controls */
+    padding: 4px 12px;
+    position: relative;
+    height: 42px;
+    /* Match height of ToneSelector */
+    min-width: 100px;
+    /* Match border of other controls */
+    transition: all 0.25s ease;
+    font-family: var(--font-family-app, var(--font-family-body));
+}
+
+.container:hover {
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-1px);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.option {
+    background: none;
+    border: none;
+    color: #CBD5E0;
+    /* Lighter text for inactive */
+    font-family: var(--font-family-app, var(--font-family-body));
+    font-size: 0.95em;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0 8px;
+    transition: color 0.3s ease;
+    z-index: 2;
+}
+
+.option.active {
+    color: #ffffff;
+    /* White for active text */
+    font-weight: 700;
+}
+
+.separator {
+    color: #CBD5E0;
+    font-size: 0.9em;
+    margin: 0 4px;
+    user-select: none;
+    font-family: inherit;
+}
+
+.indicator {
+    position: absolute;
+    bottom: 4px;
+    height: 2px;
+    width: 25%;
+    background: linear-gradient(90deg, #be185d, #f472b6 55%, #fb923c);
+    border-radius: 2px;
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.indicatorStudy {
+    position: absolute;
+    bottom: 4px;
+    height: 2px;
+    width: 25%;
+    background: linear-gradient(90deg, #be185d, #f472b6 55%, #fb923c);
+    border-radius: 2px;
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (max-width: 768px) {
+    .container {
+        height: 44px;
+        padding: 4px 5px;
+        min-width: 112px;
+    }
+
+    .option {
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 0 10px;
+        min-width: 36px;
+        min-height: 36px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .option.active {
+        font-weight: 700;
+    }
+
+    .separator {
+        font-size: 1.05rem;
+        margin: 0 6px;
+    }
+
+    .indicator {
+        bottom: 5px;
+        height: 3px;
+        width: 28%;
+    }
+
+    .indicatorStudy {
+        bottom: 5px;
+        height: 3px;
+        width: 28%;
+    }
+}

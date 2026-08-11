@@ -1,0 +1,608 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Escuela / Colegio",
+        "pronunciation_guide_es": "/di_KIN-der_zint_in_der_SHU-le/",
+        "usage_context_en": "A place where children go to learn",
+        "usage_context_es": "Un lugar donde los niños van a aprender",
+        "usage_example": "Die Kinder sind in der Schule.",
+        "usage_example_es": "Los niños están en la escuela.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_0_def0.avif"
+      },
+      {
+        "char_count": "4",
+        "meaning": "Grupo de peces",
+        "pronunciation_guide_es": "/ain_SHVARM_FI-she_SHVAM_for-BAI/",
+        "usage_context_en": "A group of fish swimming together.",
+        "usage_context_es": "Un grupo de peces que nadan juntos.",
+        "usage_example": "Ein Schwarm Fische schwamm vorbei.",
+        "usage_example_es": "Pasó un grupo de peces.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_0_def1.avif"
+      },
+      {
+        "char_count": "5",
+        "meaning": "Corriente de pensamiento",
+        "pronunciation_guide_es": "/di_DENK-rish-tung_GLAUPT_an_FRAI-hait/",
+        "usage_context_en": "A particular group of ideas or beliefs.",
+        "usage_context_es": "Un grupo particular de ideas o creencias.",
+        "usage_example": "Die Denkrichtung glaubt an Freiheit.",
+        "usage_example_es": "La corriente de pensamiento cree en la libertad.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_0_def2.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places",
+    "is_verb": false,
+    "name": "die Schule",
+    "phonetic": "/diː ˈʃuːlə/",
+    "search_term": "noun/place/essentials",
+    "spoken_phonetic_us": "/diː ˈʃuːlə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Libro",
+        "pronunciation_guide_es": "/ish_LE-ze_ain_BUJ/",
+        "usage_context_en": "A set of written pages in a cover",
+        "usage_context_es": "Un conjunto de páginas escritas en una cubierta",
+        "usage_example": "Ich lese ein Buch.",
+        "usage_example_es": "Estoy leyendo un libro.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_1_def0.avif"
+      },
+      {
+        "char_count": "5",
+        "meaning": "Reservar (como verbo convertido en sustantivo)",
+        "pronunciation_guide_es": "/ish_HA-be_ain_HEFT_TI-kets_fuer_di_RAI-ze_ge-MACHT/",
+        "usage_context_en": "A collection or record of reservations or tickets.",
+        "usage_context_es": "Una colección o registro de reservas o boletos.",
+        "usage_example": "Ich habe ein Heft Tickets für die Reise gemacht.",
+        "usage_example_es": "Hice una reserva de boletos para el viaje.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_1_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Buch",
+    "phonetic": "/das buːx/",
+    "search_term": "noun/object/essentials",
+    "spoken_phonetic_us": "/das buːx/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Estudiante / Alumno",
+        "pronunciation_guide_es": "/er_ist_ain_GU-ter_shtu-DENT/",
+        "usage_context_en": "A person who is studying at a school",
+        "usage_context_es": "Una persona que está estudiando en una escuela",
+        "usage_example": "Er ist ein guter Student.",
+        "usage_example_es": "Él es un buen estudiante.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Student",
+    "phonetic": "/deːɐ ʃtuˈdɛnt/",
+    "search_term": "noun/person/school/essentials",
+    "spoken_phonetic_us": "/deːɐ ʃtuˈdɛnt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Profesor / Maestra",
+        "pronunciation_guide_es": "/der_LE-rer_ist_im_KLA-sen-tsi-mer/",
+        "usage_context_en": "A person who teaches",
+        "usage_context_es": "Una persona que enseña",
+        "usage_example": "Der Lehrer ist im Klassenzimmer.",
+        "usage_example_es": "El profesor está en el salón.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Lehrer",
+    "phonetic": "/deːɐ ˈleːʁɐ/",
+    "search_term": "noun/person/school/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈleːʁɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_4_def0.avif",
+        "meaning": "Bolígrafo / Pluma",
+        "pronunciation_guide_es": "/ish_BRAU-che_AI-nen_SHTIFT/",
+        "usage_context_en": "A tool for writing with ink",
+        "usage_context_es": "Una herramienta para escribir con tinta",
+        "usage_example": "Ich brauche einen Stift.",
+        "usage_example_es": "Necesito un bolígrafo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Stift",
+    "phonetic": "/deːɐ ʃtɪft/",
+    "search_term": "noun/tool/school/essentials",
+    "spoken_phonetic_us": "/deːɐ ʃtɪft/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_5_def0.avif",
+        "meaning": "Lápiz",
+        "pronunciation_guide_es": "/kan_ish_mir_DAI-nen_BLAI-shtift_LAI-en/",
+        "usage_context_en": "A tool for writing with graphite",
+        "usage_context_es": "Una herramienta para escribir con grafito",
+        "usage_example": "Kann ich mir deinen Bleistift leihen?",
+        "usage_example_es": "¿Me prestas tu lápiz?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Bleistift",
+    "phonetic": "/deːɐ ˈblaɪʃtɪft/",
+    "search_term": "noun/tool/school/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈblaɪʃtɪft/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Papel",
+        "pronunciation_guide_es": "/ish_BRAU-che_ain_BLAT_pa-PIR/",
+        "usage_context_en": "Material used for writing or printing",
+        "usage_context_es": "Material usado para escribir o imprimir",
+        "usage_example": "Ich brauche ein Blatt Papier.",
+        "usage_example_es": "Necesito un trozo de papel.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_6_def0.avif"
+      },
+      {
+        "char_count": "5",
+        "meaning": "Documento o ensayo académico",
+        "pronunciation_guide_es": "/zi_SHRIP_AI-ne_AR-bait_UE-ber_den_KLI-ma-van-del/",
+        "usage_context_en": "An essay or written report on a specific subject.",
+        "usage_context_es": "Un ensayo o informe escrito sobre un tema específico.",
+        "usage_example": "Sie schrieb eine Arbeit über den Klimawandel.",
+        "usage_example_es": "Ella escribió un ensayo sobre el cambio climático.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_6_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "das Papier",
+    "phonetic": "/das paˈpiːɐ/",
+    "search_term": "noun/material/school/essentials",
+    "spoken_phonetic_us": "/das paˈpiːɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Clase",
+        "pronunciation_guide_es": "/ish_HA-be_AI-ne_ENG-lish-kla-se/",
+        "usage_context_en": "A lesson / A group of students",
+        "usage_context_es": "Una lección / Un grupo de estudiantes",
+        "usage_example": "Ich habe eine Englischklasse.",
+        "usage_example_es": "Tengo una clase de inglés.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "die Klasse",
+    "phonetic": "/diː ˈklasə/",
+    "search_term": "noun/school/essentials",
+    "spoken_phonetic_us": "/diː ˈklasə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Lección",
+        "pronunciation_guide_es": "/di_lek-TSI-on_var_SHVI-rish/",
+        "usage_context_en": "A period of time for learning",
+        "usage_context_es": "Un período de tiempo para aprender",
+        "usage_example": "Die Lektion war schwierig.",
+        "usage_example_es": "La lección fue difícil.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_8_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "die Lektion",
+    "phonetic": "/diː lɛkˈtsi̯oːn/",
+    "search_term": "noun/school/essentials",
+    "spoken_phonetic_us": "/diː lɛkˈtsi̯oːn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Prueba / Examen (corto)",
+        "pronunciation_guide_es": "/vir_HA-ben_HOI-te_AI-ne_PRUE-fung/",
+        "usage_context_en": "A set of questions to check knowledge",
+        "usage_context_es": "Un conjunto de preguntas para revisar el conocimiento",
+        "usage_example": "Wir haben heute eine Prüfung.",
+        "usage_example_es": "Tenemos una prueba hoy.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "die Prüfung",
+    "phonetic": "/diː ˈpʁyːfʊŋ/",
+    "search_term": "noun/school/essentials",
+    "spoken_phonetic_us": "/diː ˈpʁyːfʊŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Examen (formal, importante)",
+        "pronunciation_guide_es": "/di_AP-shlus-klau-zur_ist_NEHS-te_VO-je/",
+        "usage_context_en": "An important test",
+        "usage_context_es": "Una prueba importante",
+        "usage_example": "Die Abschlussklausur ist nächste Woche.",
+        "usage_example_es": "El examen final es la próxima semana.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "die Klausur",
+    "phonetic": "/diː klaʊˈzuːɐ/",
+    "search_term": "noun/school/essentials",
+    "spoken_phonetic_us": "/diː klaʊˈzuːɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Tarea (escolar)",
+        "pronunciation_guide_es": "/ish_MUS_MAI-ne_HAUS-auf-ga-ben_MA-jen/",
+        "usage_context_en": "School work done at home",
+        "usage_context_es": "Trabajo escolar hecho en casa",
+        "usage_example": "Ich muss meine Hausaufgaben machen.",
+        "usage_example_es": "Tengo que hacer mi tarea.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_11_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "die Hausaufgaben",
+    "phonetic": "/diː ˈhaʊsaʊfɡaːbn̩/",
+    "search_term": "noun/school/essentials",
+    "spoken_phonetic_us": "/diː ˈhaʊsaʊfɡaːbn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Carta / Letra",
+        "pronunciation_guide_es": "/ish_SHRIP_AI-nen_BRIF_A_ist_der_ERS-te_BUJ-shta-be/",
+        "usage_context_en": "A written message / A symbol of the alphabet",
+        "usage_context_es": "Un mensaje escrito / Un símbolo del alfabeto",
+        "usage_example": "Ich schrieb einen Brief. / 'A' ist der erste Buchstabe.",
+        "usage_example_es": "Escribí una carta. / 'A' es la primera letra.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_12_def0.avif"
+      },
+      {
+        "char_count": "6",
+        "meaning": "Carácter del alfabeto",
+        "pronunciation_guide_es": "/das_VORT_KET_hat_DRAI_BUJ-shta-ben/",
+        "usage_context_en": "A symbol used to represent a sound in writing.",
+        "usage_context_es": "Un símbolo usado para representar un sonido en la escritura.",
+        "usage_example": "Das Wort 'cat' hat drei Buchstaben.",
+        "usage_example_es": "La palabra 'cat' tiene tres letras.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_12_def1.avif"
+      },
+      {
+        "char_count": "5",
+        "meaning": "Carta escrita o mensaje",
+        "pronunciation_guide_es": "/zi_SHRIP_AI-nen_BRIF_an_I-re_FROIN-din/",
+        "usage_context_en": "A written message sent to someone.",
+        "usage_context_es": "Un mensaje escrito enviado a alguien.",
+        "usage_example": "Sie schrieb einen Brief an ihre Freundin.",
+        "usage_example_es": "Ella escribió una carta a su amiga.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_12_def2.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Brief",
+    "phonetic": "/deːɐ bʁiːf/",
+    "search_term": "noun/communication/essentials",
+    "spoken_phonetic_us": "/deːɐ bʁiːf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Historia",
+        "pronunciation_guide_es": "/ish_shtu-DI-re_ge-SHISH-te/",
+        "usage_context_en": "The study of past events",
+        "usage_context_es": "El estudio de eventos pasados",
+        "usage_example": "Ich studiere Geschichte.",
+        "usage_example_es": "Estoy estudiando historia.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_13_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "die Geschichte",
+    "phonetic": "/diː ɡəˈʃɪçtə/",
+    "search_term": "noun/concept/school/essentials",
+    "spoken_phonetic_us": "/diː ɡəˈʃɪçtə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Ciencia",
+        "pronunciation_guide_es": "/VI-sen-shaft_ist_fas-tsi-NI-rent/",
+        "usage_context_en": "The study of the natural world",
+        "usage_context_es": "El estudio del mundo natural",
+        "usage_example": "Wissenschaft ist faszinierend.",
+        "usage_example_es": "La ciencia es fascinante.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_14_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "die Wissenschaft",
+    "phonetic": "/diː ˈvɪsn̩ʃaft/",
+    "search_term": "noun/concept/school/essentials",
+    "spoken_phonetic_us": "/diː ˈvɪsn̩ʃaft/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Matemáticas",
+        "pronunciation_guide_es": "/ish_HA-be_HOI-te_ma-te-ma-TIK-un-ter-risht/",
+        "usage_context_en": "The study of numbers and shapes (AmE)",
+        "usage_context_es": "El estudio de números y formas (AmE)",
+        "usage_example": "Ich habe heute Mathematikunterricht.",
+        "usage_example_es": "Tengo clase de matemáticas hoy.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_15_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "die Mathematik",
+    "phonetic": "/diː mateˈmaːtiːk/",
+    "search_term": "noun/concept/school/essentials",
+    "spoken_phonetic_us": "/diː mateˈmaːtiːk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_16_def0.avif",
+        "meaning": "Asignatura / Tema",
+        "pronunciation_guide_es": "/vas_ist_dain_LIP-lings-fach/",
+        "usage_context_en": "A topic of study / The main idea",
+        "usage_context_es": "Un tema de estudio / La idea principal",
+        "usage_example": "Was ist dein Lieblingsfach?",
+        "usage_example_es": "¿Cuál es tu asignatura favorita?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "das Fach",
+    "phonetic": "/das fax/",
+    "search_term": "noun/concept/school/essentials",
+    "spoken_phonetic_us": "/das fax/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Nota / Apunte",
+        "pronunciation_guide_es": "/HIN-ter-las_AI-ne_no-TITS_auf_dem_TISH/",
+        "usage_context_en": "A short written message",
+        "usage_context_es": "Un mensaje escrito corto",
+        "usage_example": "Hinterlass eine Notiz auf dem Tisch.",
+        "usage_example_es": "Deja una nota en la mesa.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_17_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "die Notiz",
+    "phonetic": "/diː noˈtiːts/",
+    "search_term": "noun/communication/essentials",
+    "spoken_phonetic_us": "/diː noˈtiːts/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "meaning": "A book of blank pages for writing notes.",
+        "pronunciation_guide_es": "/main_HEFT_LIKT_auf_dem_SHRAIP-tish/",
+        "usage_context_en": "A book of blank pages for writing notes.",
+        "usage_context_es": "Un libro de páginas en blanco para escribir notas.",
+        "usage_example": "Mein Heft liegt auf dem Schreibtisch.",
+        "usage_example_es": "Mi cuaderno está sobre el escritorio.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_18_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "das Heft",
+    "phonetic": "/das hɛft/",
+    "search_term": "noun/school-&-work/seed",
+    "spoken_phonetic_us": "/das hɛft/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "meaning": "An object used to remove pencil marks.",
+        "pronunciation_guide_es": "/ish_BRAU-che_AI-nen_ra-DIR-gu-mi_fuer_DI-zen_FE-ler/",
+        "usage_context_en": "An object used to remove pencil marks.",
+        "usage_context_es": "Un objeto usado para borrar marcas de lápiz.",
+        "usage_example": "Ich brauche einen Radiergummi für diesen Fehler.",
+        "usage_example_es": "Necesito un borrador para este error.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_19_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Radiergummi",
+    "phonetic": "/deːɐ ʁaˈdiːɐɡʊmi/",
+    "search_term": "noun/school-&-work/seed",
+    "spoken_phonetic_us": "/deːɐ ʁaˈdiːɐɡʊmi/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "meaning": "A straight tool used for measuring or drawing lines.",
+        "pronunciation_guide_es": "/be-NUT-se_das_li-ne-AL_um_di_LI-ni-e_tsu_TSAI-shnen/",
+        "usage_context_en": "A straight tool used for measuring or drawing lines.",
+        "usage_context_es": "Una herramienta recta usada para medir o dibujar líneas.",
+        "usage_example": "Benutze das Lineal, um die Linie zu zeichnen.",
+        "usage_example_es": "Usa la regla para dibujar la línea.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_20_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "das Lineal",
+    "phonetic": "/das lineˈaːl/",
+    "search_term": "noun/school-&-work/seed",
+    "spoken_phonetic_us": "/das lineˈaːl/"
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_0_def0.avif",
+        "meaning": "Metal",
+        "pronunciation_guide_es": "/der_SHLUE-sel_ist_aus_me-TAL/",
+        "usage_context_en": "A hard, shiny substance (e.g., iron, gold)",
+        "usage_context_es": "Una sustancia dura y brillante (ej. hierro, oro)",
+        "usage_example": "Der Schlüssel ist aus Metall.",
+        "usage_example_es": "La llave está hecha de metal."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "das Metall",
+    "phonetic": "/das meˈtal/",
+    "search_term": "noun/substance/essentials",
+    "spoken_phonetic_us": "/das meˈtal/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_1_def0.avif",
+        "meaning": "Plástico",
+        "pronunciation_guide_es": "/di_FLA-she_ist_aus_PLAS-tik/",
+        "usage_context_en": "A light, artificial material",
+        "usage_context_es": "Un material artificial y ligero",
+        "usage_example": "Die Flasche ist aus Plastik.",
+        "usage_example_es": "La botella está hecha de plástico."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Plastik",
+    "phonetic": "/das ˈplastɪk/",
+    "search_term": "noun/substance/essentials",
+    "spoken_phonetic_us": "/das ˈplastɪk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_2_def0.avif",
+        "meaning": "Algodón",
+        "pronunciation_guide_es": "/DI-zes_HEMT_ist_aus_BAUM-vo-le/",
+        "usage_context_en": "A soft, white material from a plant",
+        "usage_context_es": "Un material suave y blanco de una planta",
+        "usage_example": "Dieses Hemd ist aus Baumwolle.",
+        "usage_example_es": "Esta camisa está hecha de algodón."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Clothing",
+    "is_verb": false,
+    "name": "die Baumwolle",
+    "phonetic": "/diː ˈbaʊmvɔlə/",
+    "search_term": "noun/substance/clothing/essentials",
+    "spoken_phonetic_us": "/diː ˈbaʊmvɔlə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_3_def0.avif",
+        "meaning": "Cuero / Piel",
+        "pronunciation_guide_es": "/AI-ne_LE-der-ya-ke/",
+        "usage_context_en": "Material made from animal skin",
+        "usage_context_es": "Material hecho de piel de animal",
+        "usage_example": "Eine Lederjacke.",
+        "usage_example_es": "Una chaqueta de cuero."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Clothing",
+    "is_verb": false,
+    "name": "das Leder",
+    "phonetic": "/das ˈleːdɐ/",
+    "search_term": "noun/substance/clothing/essentials",
+    "spoken_phonetic_us": "/das ˈleːdɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_4_def0.avif",
+        "meaning": "Oro",
+        "pronunciation_guide_es": "/der_RING_ist_aus_GOLT/",
+        "usage_context_en": "A yellow, expensive metal",
+        "usage_context_es": "Un metal amarillo y caro",
+        "usage_example": "Der Ring ist aus Gold.",
+        "usage_example_es": "El anillo está hecho de oro."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_verb": false,
+    "name": "das Gold",
+    "phonetic": "/das ɡɔlt/",
+    "search_term": "noun/substance/color/essentials",
+    "spoken_phonetic_us": "/das ɡɔlt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_5_def0.avif",
+        "meaning": "Plata",
+        "pronunciation_guide_es": "/ain_ZIL-ber-ner_LOE-fel/",
+        "usage_context_en": "A gray-white, expensive metal",
+        "usage_context_es": "Un metal gris-blanco y caro",
+        "usage_example": "Ein silberner Löffel.",
+        "usage_example_es": "Una cuchara de plata."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Colors",
+    "is_verb": false,
+    "name": "das Silber",
+    "phonetic": "/das ˈzɪlbɐ/",
+    "search_term": "noun/substance/color/essentials",
+    "spoken_phonetic_us": "/das ˈzɪlbɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_6_def0.avif",
+        "meaning": "A substance or matter used to make things.",
+        "pronunciation_guide_es": "/HOLTS_ist_ain_ma-te-ri-AL/",
+        "usage_context_en": "A substance or matter used to make things.",
+        "usage_context_es": "Una sustancia o materia usada para hacer cosas.",
+        "usage_example": "Holz ist ein Material.",
+        "usage_example_es": "La madera es un material."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Materials",
+    "is_verb": false,
+    "name": "das Material",
+    "phonetic": "/das mateˈʁi̯aːl/",
+    "search_term": "noun/materials/seed",
+    "spoken_phonetic_us": "/das mateˈʁi̯aːl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_7_def0.avif",
+        "meaning": "A metal made mostly of copper and tin.",
+        "pronunciation_guide_es": "/di_me-DAL-ye_ist_aus_BRON-se/",
+        "usage_context_en": "A metal made mostly of copper and tin.",
+        "usage_context_es": "Un metal hecho sobre todo de cobre y estaño.",
+        "usage_example": "Die Medaille ist aus Bronze.",
+        "usage_example_es": "La medalla es de bronce."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Materials",
+    "is_verb": false,
+    "name": "die Bronze",
+    "phonetic": "/diː ˈbʁɔ̃sə/",
+    "search_term": "noun/materials/seed",
+    "spoken_phonetic_us": "/diː ˈbʁɔ̃sə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_8_def0.avif",
+        "meaning": "A common strong metal.",
+        "pronunciation_guide_es": "/AI-zen_virt_fuer_VERK-tsoi-ge_fer-VEN-det/",
+        "usage_context_en": "A common strong metal.",
+        "usage_context_es": "Un metal común y resistente.",
+        "usage_example": "Eisen wird für Werkzeuge verwendet.",
+        "usage_example_es": "El hierro se usa en herramientas."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Materials",
+    "is_verb": false,
+    "name": "das Eisen",
+    "phonetic": "/das ˈaɪzn̩/",
+    "search_term": "noun/materials/seed",
+    "spoken_phonetic_us": "/das ˈaɪzn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_9_def0.avif",
+        "meaning": "A very strong metal made from iron.",
+        "pronunciation_guide_es": "/di_BRUE-ke_ist_aus_SHTAL/",
+        "usage_context_en": "A very strong metal made from iron.",
+        "usage_context_es": "Un metal muy resistente hecho de hierro.",
+        "usage_example": "Die Brücke ist aus Stahl.",
+        "usage_example_es": "El puente es de acero."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Materials",
+    "is_verb": false,
+    "name": "der Stahl",
+    "phonetic": "/deːɐ ʃtaːl/",
+    "search_term": "noun/materials/seed",
+    "spoken_phonetic_us": "/deːɐ ʃtaːl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/1-basic/materials_substances/1-basic_materials_substances_card_10_def0.avif",
+        "meaning": "A reddish-brown metal.",
+        "pronunciation_guide_es": "/KUP-fer_virt_in_KA-beln_fer-VEN-det/",
+        "usage_context_en": "A reddish-brown metal.",
+        "usage_context_es": "Un metal rojizo.",
+        "usage_example": "Kupfer wird in Kabeln verwendet.",
+        "usage_example_es": "El cobre se usa en cables."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Materials",
+    "is_verb": false,
+    "name": "das Kupfer",
+    "phonetic": "/das ˈkʊpfɐ/",
+    "search_term": "noun/materials/seed",
+    "spoken_phonetic_us": "/das ˈkʊpfɐ/"
+  }
+]

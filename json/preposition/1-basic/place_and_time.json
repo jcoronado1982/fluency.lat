@@ -1,0 +1,686 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "near",
+    "phonetic": "/nɪər/",
+    "spoken_phonetic_us": "/nɪr/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place",
+    "definitions": [
+      {
+        "meaning": "Cerca de",
+        "usage_example": "I live near the park.",
+        "pronunciation_guide_es": "/ai_LIV_nir_de_PARK/",
+        "usage_example_es": "Vivo cerca del parque.",
+        "char_count": "5",
+        "usage_context_en": "At a short distance from; close to.",
+        "usage_context_es": "A corta distancia de; cercano a.",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_19_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "close to",
+    "phonetic": "/kloʊs tu/",
+    "spoken_phonetic_us": "/kloʊs tu/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place",
+    "definitions": [
+      {
+        "meaning": "Cerca de",
+        "usage_example": "The hotel is close to the airport.",
+        "pronunciation_guide_es": "/de_ho-TEL_is_CLOUS_tu_di_ER-port/",
+        "usage_example_es": "El hotel está cerca del aeropuerto.",
+        "char_count": "5",
+        "usage_context_en": "At a short distance from; near.",
+        "usage_context_es": "A poca distancia de; cerca de."
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "far from",
+    "phonetic": "/fɑːr frʌm/",
+    "spoken_phonetic_us": "/fɑr frʌm/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place",
+    "definitions": [
+      {
+        "meaning": "Lejos de",
+        "usage_example": "The hospital is far from here.",
+        "pronunciation_guide_es": "/de_HOS-pi-tal_is_FAR_from_HIR/",
+        "usage_example_es": "El hospital está lejos de aquí.",
+        "char_count": "5",
+        "usage_context_en": "At a long distance from a place.",
+        "usage_context_es": "A gran distancia de un lugar."
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "next to",
+    "phonetic": "/nɛkst tu/",
+    "spoken_phonetic_us": "/nɛkst tu/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place",
+    "definitions": [
+      {
+        "meaning": "Al lado de",
+        "usage_example": "The bank is next to the pharmacy.",
+        "pronunciation_guide_es": "/de_BANK_is_NEKST_tu_de_FAR-ma-si/",
+        "usage_example_es": "El banco está al lado de la farmacia.",
+        "char_count": "7",
+        "usage_context_en": "Positioned immediately to the side of something.",
+        "usage_context_es": "Posicionado inmediatamente al lado de algo.",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_15_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "across from",
+    "phonetic": "/əˈkrɔːs frʌm/",
+    "spoken_phonetic_us": "/əˈkrɔs frʌm/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place",
+    "definitions": [
+      {
+        "meaning": "Al otro lado de / En frente de",
+        "usage_example": "The pharmacy is across from the bank.",
+        "pronunciation_guide_es": "/de_FAR-ma-si_is_a-CROS_from_de_BANK/",
+        "usage_example_es": "La farmacia está al otro lado del banco.",
+        "char_count": "5",
+        "usage_context_en": "On the opposite side of a street, room, or area.",
+        "usage_context_es": "En el lado opuesto de una calle, cuarto o área."
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "opposite",
+    "phonetic": "/ˈɑːpəzɪt/",
+    "spoken_phonetic_us": "/ˈɑpəzɪt/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place",
+    "definitions": [
+      {
+        "meaning": "Frente a / Opuesto a",
+        "usage_example": "The restaurant is opposite the station.",
+        "pronunciation_guide_es": "/de_RES-to-rant_is_O-pa-zit_de_STEI-shon/",
+        "usage_example_es": "El restaurante está frente a la estación.",
+        "char_count": "5",
+        "usage_context_en": "Facing or on the other side of something.",
+        "usage_context_es": "Frente a algo o al otro lado de algo."
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "in front of",
+    "phonetic": "/ɪn frʌnt ɒv/",
+    "spoken_phonetic_us": "/ɪn frʌnt əv/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place",
+    "definitions": [
+      {
+        "meaning": "Delante de / En frente de",
+        "usage_example": "The car is in front of the house.",
+        "pronunciation_guide_es": "/de_CAR_is_in_FRONT_of_de_HAUS/",
+        "usage_example_es": "El carro está en frente de la casa.",
+        "char_count": "8",
+        "usage_context_en": "Positioned directly ahead or at the front of something.",
+        "usage_context_es": "Posicionado directamente adelante o al frente de algo.",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_14_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "behind",
+    "phonetic": "/bɪˈhaɪnd/",
+    "spoken_phonetic_us": "/bɪˈhaɪnd/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place",
+    "definitions": [
+      {
+        "meaning": "Detrás de",
+        "usage_example": "The cat is behind the door.",
+        "pronunciation_guide_es": "/de_CAT_is_bi-HAIND_de_DOR/",
+        "usage_example_es": "El gato está detrás de la puerta.",
+        "char_count": "6",
+        "usage_context_en": "At the back of; in the rear of.",
+        "usage_context_es": "En la parte posterior de.",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_13_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "between",
+    "phonetic": "/bɪˈtwin/",
+    "spoken_phonetic_us": "/bɪˈtwin/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place",
+    "definitions": [
+      {
+        "meaning": "Entre (dos cosas)",
+        "usage_example": "I am between my two friends.",
+        "pronunciation_guide_es": "/ai_am_bi-TUIN_mai_TU_FRENDS/",
+        "usage_example_es": "Estoy entre mis dos amigos.",
+        "char_count": "6",
+        "usage_context_en": "In the space separating two objects, people, or points.",
+        "usage_context_es": "En el espacio que separa dos objetos, personas o puntos.",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_12_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "under",
+    "phonetic": "/ˈʌndər/",
+    "spoken_phonetic_us": "/ˈʌndər/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place",
+    "definitions": [
+      {
+        "meaning": "Debajo de",
+        "usage_example": "The cat is under the table.",
+        "pronunciation_guide_es": "/de_CAT_is_ON-der_de_TEI-bol/",
+        "usage_example_es": "El gato está debajo de la mesa.",
+        "char_count": "6",
+        "usage_context_en": "In a position lower than (and often covered by) something.",
+        "usage_context_es": "En una posición más baja que (y a menudo cubierto por) algo.",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_10_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "above",
+    "phonetic": "/əˈbʌv/",
+    "spoken_phonetic_us": "/əˈbʌv/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place",
+    "definitions": [
+      {
+        "meaning": "Por encima de",
+        "usage_example": "The lamp is above the table.",
+        "pronunciation_guide_es": "/de_LAMP_is_a-BOV_de_TEI-bol/",
+        "usage_example_es": "La lámpara está por encima de la mesa.",
+        "char_count": "6",
+        "usage_context_en": "In a higher position, but not necessarily directly touching (compare 'on').",
+        "usage_context_es": "En una posición más alta, pero no necesariamente tocando (compara con 'on').",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_17_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "below",
+    "phonetic": "/bɪˈloʊ/",
+    "spoken_phonetic_us": "/bɪˈloʊ/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place",
+    "definitions": [
+      {
+        "meaning": "Por debajo de",
+        "usage_example": "The temperature is below zero.",
+        "pronunciation_guide_es": "/de_TEM-pre-cher_is_bi-LOU_SI-ro/",
+        "usage_example_es": "La temperatura está por debajo de cero.",
+        "char_count": "5",
+        "usage_context_en": "In a lower position than something (compare 'under').",
+        "usage_context_es": "En una posición más baja que algo (compara con 'under').",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_18_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "inside",
+    "phonetic": "/ɪnˈsaɪd/",
+    "spoken_phonetic_us": "/ɪnˈsaɪd/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place",
+    "definitions": [
+      {
+        "meaning": "Dentro de",
+        "usage_example": "What is inside the box?",
+        "pronunciation_guide_es": "/uat_is_in-SAID_de_BOX/",
+        "usage_example_es": "¿Qué hay dentro de la caja?",
+        "char_count": "5",
+        "usage_context_en": "The inner part or interior of something; a stronger version of 'in'.",
+        "usage_context_es": "La parte interna o interior de algo; una versión más fuerte de 'in'.",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_20_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "outside",
+    "phonetic": "/ˌaʊtˈsaɪd/",
+    "spoken_phonetic_us": "/ˌaʊtˈsaɪd/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place",
+    "definitions": [
+      {
+        "meaning": "Fuera de",
+        "usage_example": "Please wait outside the room.",
+        "pronunciation_guide_es": "/PLIS_ueit_aut-SAID_de_RUM/",
+        "usage_example_es": "Por favor espera fuera del cuarto.",
+        "char_count": "5",
+        "usage_context_en": "The outer side or exterior of something.",
+        "usage_context_es": "El lado externo o exterior de algo.",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_21_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "across",
+    "phonetic": "/əˈkrɒs/",
+    "spoken_phonetic_us": "/əˈkrɔs/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Movement & Direction",
+    "definitions": [
+      {
+        "meaning": "A través de / Al otro lado de",
+        "usage_example": "She swam across the river.",
+        "pronunciation_guide_es": "/shi_SUAM_a-CROS_de_RI-ver/",
+        "usage_example_es": "Ella nadó a través del río (cruzó a nado).",
+        "char_count": "5",
+        "usage_context_en": "From one side to the other of something (a surface, line, or area).",
+        "usage_context_es": "De un lado a otro de algo (una superficie, línea o área).",
+        "imagePath": "/card_images/preposition/2-intermediate/2-intermediate_card_2_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "along",
+    "phonetic": "/əˈlɒŋ/",
+    "spoken_phonetic_us": "/əˈlɔŋ/",
+    "search_term": "preposition/place",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Movement & Direction",
+    "definitions": [
+      {
+        "meaning": "A lo largo de",
+        "usage_example": "We walked along the beach.",
+        "pronunciation_guide_es": "/ui_UOKT_a-LONG_de_BICH/",
+        "usage_example_es": "Caminamos a lo largo de la playa.",
+        "char_count": "5",
+        "usage_context_en": "Moving in a constant direction on a path or line (like a road or river).",
+        "usage_context_es": "Moviéndose en una dirección constante sobre un camino o línea (como una calle o río).",
+        "imagePath": "/card_images/preposition/2-intermediate/2-intermediate_card_3_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "in",
+    "phonetic": "/ɪn/",
+    "spoken_phonetic_us": "/ɪn/",
+    "search_term": "preposition/place/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place & Time",
+    "definitions": [
+      {
+        "meaning": "En (lugar)",
+        "usage_example": "The keys are in the box.",
+        "pronunciation_guide_es": "/de_KIS_ar_in_de_BOX/",
+        "usage_example_es": "Las llaves están en la caja.",
+        "char_count": "6",
+        "usage_context_en": "Used for enclosed spaces (cities, countries, rooms, boxes).",
+        "usage_context_es": "Usado para espacios cerrados (ciudades, países, cuartos, cajas).",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_0_def0.avif"
+      },
+      {
+        "meaning": "En (tiempo)",
+        "usage_example": "My birthday is in October.",
+        "pronunciation_guide_es": "/mai_BERZ-dei_is_in_ok-TOU-ber/",
+        "usage_example_es": "Mi cumpleaños es en octubre.",
+        "char_count": "5",
+        "usage_context_en": "Used for non-specific time (months, years, seasons).",
+        "usage_context_es": "Usado para tiempo no específico (meses, años, estaciones).",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_0_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "on",
+    "phonetic": "/ɒn/",
+    "spoken_phonetic_us": "/ɑn/",
+    "search_term": "preposition/place/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place & Time",
+    "definitions": [
+      {
+        "meaning": "En / Sobre (lugar)",
+        "usage_example": "The book is on the table.",
+        "pronunciation_guide_es": "/de_BUK_is_on_de_TEI-bol/",
+        "usage_example_es": "El libro está sobre la mesa.",
+        "char_count": "6",
+        "usage_context_en": "Used for surfaces (tables, floors, walls, streets).",
+        "usage_context_es": "Usado para superficies (mesas, pisos, paredes, calles).",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_1_def0.avif"
+      },
+      {
+        "meaning": "En / El (tiempo)",
+        "usage_example": "The meeting is on Friday.",
+        "pronunciation_guide_es": "/de_MI-ting_is_on_FRAI-dei/",
+        "usage_example_es": "La reunión es el viernes.",
+        "char_count": "5",
+        "usage_context_en": "Used for specific days and dates.",
+        "usage_context_es": "Usado para días y fechas específicos.",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_1_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "at",
+    "phonetic": "/æt/",
+    "spoken_phonetic_us": "/æt/",
+    "search_term": "preposition/place/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Place & Time",
+    "definitions": [
+      {
+        "meaning": "En (lugar específico)",
+        "usage_example": "I will meet you at the station.",
+        "pronunciation_guide_es": "/ai_uil_MIT_iu_at_de_STEI-shon/",
+        "usage_example_es": "Te veré en la estación.",
+        "char_count": "7",
+        "usage_context_en": "Used for specific points or locations (the station, the corner, home).",
+        "usage_context_es": "Usado para puntos o lugares específicos (la estación, la esquina, casa).",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_2_def0.avif"
+      },
+      {
+        "meaning": "A (tiempo)",
+        "usage_example": "The movie starts at 9 PM.",
+        "pronunciation_guide_es": "/de_MU-vi_STARTS_at_NAIN_pi-EM/",
+        "usage_example_es": "La película empieza a las 9 PM.",
+        "char_count": "6",
+        "usage_context_en": "Used for a specific time on the clock.",
+        "usage_context_es": "Usado para una hora específica del reloj.",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_2_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "past",
+    "phonetic": "/pɑːst/",
+    "spoken_phonetic_us": "/pæst/",
+    "search_term": "preposition/place/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Movement & Direction",
+    "definitions": [
+      {
+        "meaning": "Pasando / Más allá de (lugar)",
+        "usage_example": "Go past the church and turn left.",
+        "pronunciation_guide_es": "/gou_PAST_de_CHERCH_and_TERN_LEFT/",
+        "usage_example_es": "Pasa la iglesia y gira a la izquierda.",
+        "char_count": "7",
+        "usage_context_en": "To or on the further side of something.",
+        "usage_context_es": "Hacia o en el lado más lejano de algo.",
+        "imagePath": "/card_images/preposition/2-intermediate/2-intermediate_card_17_def0.avif"
+      },
+      {
+        "meaning": "Pasadas (la hora)",
+        "usage_example": "It is ten past three.",
+        "pronunciation_guide_es": "/it_is_TEN_PAST_ZRI/",
+        "usage_example_es": "Son las tres y diez (diez pasadas las tres).",
+        "char_count": "5",
+        "usage_context_en": "Used to tell time, meaning 'after'.",
+        "usage_context_es": "Usado para decir la hora, significando 'después de'.",
+        "imagePath": "/card_images/preposition/2-intermediate/2-intermediate_card_17_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "before",
+    "phonetic": "/bɪˈfɔr/",
+    "spoken_phonetic_us": "/bɪˈfɔr/",
+    "search_term": "preposition/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Time",
+    "definitions": [
+      {
+        "meaning": "Antes de",
+        "usage_example": "Wash your hands before dinner.",
+        "pronunciation_guide_es": "/UASH_iur_JANDS_bi-FOR_DI-ner/",
+        "usage_example_es": "Lávate las manos antes de cenar.",
+        "char_count": "6",
+        "usage_context_en": "During the period of time preceding a particular event.",
+        "usage_context_es": "Durante el período de tiempo que precede a un evento particular.",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_25_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "after",
+    "phonetic": "/ˈæftər/",
+    "spoken_phonetic_us": "/ˈæftər/",
+    "search_term": "preposition/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Time",
+    "definitions": [
+      {
+        "meaning": "Después de",
+        "usage_example": "Call me after the meeting.",
+        "pronunciation_guide_es": "/COL_mi_AF-ter_de_MI-ting/",
+        "usage_example_es": "Llámame después de la reunión.",
+        "char_count": "5",
+        "usage_context_en": "Following in time, place, or order.",
+        "usage_context_es": "Siguiendo en tiempo, lugar u orden.",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_24_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "until",
+    "phonetic": "/ənˈtɪl/",
+    "spoken_phonetic_us": "/ənˈtɪl/",
+    "search_term": "preposition/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Time",
+    "definitions": [
+      {
+        "meaning": "Hasta (tiempo)",
+        "usage_example": "I will wait until tomorrow.",
+        "pronunciation_guide_es": "/ai_uil_UEIT_on-TIL_tu-MO-rou/",
+        "usage_example_es": "Esperaré hasta mañana.",
+        "char_count": "5",
+        "usage_context_en": "Up to a particular point in time.",
+        "usage_context_es": "Hasta un punto particular en el tiempo.",
+        "imagePath": "/card_images/preposition/1-basic/1-basic_card_22_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "during",
+    "phonetic": "/ˈdjʊərɪŋ/",
+    "spoken_phonetic_us": "/ˈdʊrɪŋ/",
+    "search_term": "preposition/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Prepositions: Time",
+    "definitions": [
+      {
+        "meaning": "Durante",
+        "usage_example": "He slept during the movie.",
+        "pronunciation_guide_es": "/hi_SLEPT_DIUR-ing_de_MU-vi/",
+        "usage_example_es": "Él durmió durante la película.",
+        "char_count": "5",
+        "usage_context_en": "Used to specify a period of time in which something happens.",
+        "usage_context_es": "Usado para especificar un período de tiempo en el que algo sucede.",
+        "imagePath": "/card_images/preposition/2-intermediate/2-intermediate_card_0_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  }
+]

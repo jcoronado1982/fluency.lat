@@ -1,0 +1,119 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: spend]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/time/money/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Gastar (dinero)",
+                "usage_example": "[TRADUCIR AL PT: I spend too much money on clothes.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Gasto demasiado dinero en ropa.",
+                "char_count": "one",
+                "usage_context_en": "dinero/compras",
+                "usage_context_es": "[TRADUCIR AL PT: money/shopping]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "Pasar (tiempo)",
+                "usage_example": "[TRADUCIR AL PT: We spend the weekend at the beach.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Pasamos el fin de semana en la playa.",
+                "char_count": "one",
+                "usage_context_en": "tiempo/ocio",
+                "usage_context_es": "[TRADUCIR AL PT: time/leisure]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: offer]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/present/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Ofrecer (algo)",
+                "usage_example": "[TRADUCIR AL PT: Can I offer you a drink?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Quiero ofrecerte una bebida.",
+                "char_count": "two",
+                "usage_context_en": "hospitalidad/empleos",
+                "usage_context_es": "[TRADUCIR AL PT: hospitality/jobs]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "Proponer/Sugerir",
+                "usage_example": "[TRADUCIR AL PT: What solution did they offer?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Qué solución ofrecieron?",
+                "char_count": "two",
+                "usage_context_en": "sugerencias/ayuda",
+                "usage_context_es": "[TRADUCIR AL PT: suggestions/aid]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: share]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/divide/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Compartir (algo con alguien)",
+                "usage_example": "[TRADUCIR AL PT: Do you want to share my pizza?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Quieres compartir mi pizza?",
+                "char_count": "one",
+                "usage_context_en": "comida/información",
+                "usage_context_es": "[TRADUCIR AL PT: food/information]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "Tener en común",
+                "usage_example": "[TRADUCIR AL PT: We share the same interests.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Compartimos los mismos intereses.",
+                "char_count": "one",
+                "usage_context_en": "comunalidad/colaboración",
+                "usage_context_es": "[TRADUCIR AL PT: commonality/collaboration]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    }
+]

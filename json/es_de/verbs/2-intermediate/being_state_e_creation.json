@@ -1,0 +1,488 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "bleiben",
+    "phonetic": "/ˈblaɪbn̩/",
+    "spoken_phonetic_us": "/ˈblaɪbn̩/",
+    "search_term": "verb/stay/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Permanecer/Quedarse",
+        "usage_example": "Bitte bleiben Sie bis zum Ende sitzen.",
+        "pronunciation_guide_es": "/BI-te_BLAI-ben_zi_bis_tsum_EN-de_ZIT-sen/",
+        "alternative_example": "She remained calm during the crisis.",
+        "usage_example_es": "Por favor, permanezca sentado hasta el final.",
+        "char_count": "two",
+        "usage_context_en": "position/state",
+        "usage_context_es": "posición/estado",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_0_def0.avif"
+      },
+      {
+        "meaning": "Restar/Quedar (como sobra)",
+        "usage_example": "Nur noch wenige Minuten bleiben übrig.",
+        "pronunciation_guide_es": "/nur_noch_VE-ni-ge_mi-NU-ten_BLAI-ben_UE-brik/",
+        "alternative_example": "The remaining pieces are on the table.",
+        "usage_example_es": "Solo quedan unos pocos minutos.",
+        "char_count": "two",
+        "usage_context_en": "time/quantity",
+        "usage_context_es": "tiempo/cantidad",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_0_def1.avif"
+      }
+    ],
+    "group_name": "Body & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "erstellen",
+    "phonetic": "/ɛɐˈʃtɛlən/",
+    "spoken_phonetic_us": "/ɛɐˈʃtɛlən/",
+    "search_term": "verb/make/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Crear/Generar",
+        "usage_example": "Wir wollen ein neues Projekt erstellen.",
+        "pronunciation_guide_es": "/vir_VO-len_ain_NOI-es_pro-YEKT_er-SHTE-len/",
+        "alternative_example": "He created a beautiful painting.",
+        "usage_example_es": "Queremos crear un nuevo proyecto.",
+        "char_count": "two",
+        "usage_context_en": "projects/art",
+        "usage_context_es": "proyectos/arte",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_1_def0.avif"
+      },
+      {
+        "meaning": "Causar (un resultado)",
+        "usage_example": "Der Lärm verursachte eine Störung.",
+        "pronunciation_guide_es": "/der_LERM_fer-UR-zach-te_AI-ne_SHTOE-rung/",
+        "alternative_example": "Ideas can create change.",
+        "usage_example_es": "El ruido causó una molestia.",
+        "char_count": "two",
+        "usage_context_en": "effect/innovation",
+        "usage_context_es": "efecto/innovación",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_1_def1.avif"
+      }
+    ],
+    "group_name": "Building & Creating"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "erscheinen",
+    "phonetic": "/ɛɐˈʃaɪnən/",
+    "spoken_phonetic_us": "/ɛɐˈʃaɪnən/",
+    "search_term": "verb/seem/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Aparecer",
+        "usage_example": "Die Sonne erschien hinter den Wolken.",
+        "pronunciation_guide_es": "/di_ZO-ne_er-SHIN_HIN-ter_den_VOL-ken/",
+        "alternative_example": "He suddenly appeared at the door.",
+        "usage_example_es": "El sol apareció detrás de las nubes.",
+        "char_count": "two",
+        "usage_context_en": "visibility/arrival",
+        "usage_context_es": "visibilidad/llegada",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_2_def0.avif"
+      },
+      {
+        "meaning": "Parecer/Dar la impresión",
+        "usage_example": "Sie scheint sehr klug zu sein.",
+        "pronunciation_guide_es": "/zi_SHAINT_ZER_KLUK_tsu_zain/",
+        "alternative_example": "It appears you made a mistake.",
+        "usage_example_es": "Ella parece ser muy inteligente.",
+        "char_count": "two",
+        "usage_context_en": "impression/judgment",
+        "usage_context_es": "impresión/juicio",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_2_def1.avif"
+      }
+    ],
+    "group_name": "Feelings & Reactions"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "wachsen",
+    "phonetic": "/ˈvaksn̩/",
+    "spoken_phonetic_us": "/ˈvaksn̩/",
+    "search_term": "verb/increase/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Crecer (plantas, personas)",
+        "usage_example": "Die Pflanze wächst sehr schnell.",
+        "pronunciation_guide_es": "/di_PFLAN-tse_VEKST_ZER_SHNEL/",
+        "alternative_example": "The children have grown a lot.",
+        "usage_example_es": "La planta crece muy rápido.",
+        "char_count": "one",
+        "usage_context_en": "biology/development",
+        "usage_context_es": "biología/desarrollo",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_3_def0.avif"
+      },
+      {
+        "meaning": "Cultivar/Aumentar",
+        "usage_example": "Sie bauen Gemüse in ihrem Garten an.",
+        "pronunciation_guide_es": "/zi_BAU-en_ge-MUE-ze_in_I-rem_GAR-ten_AN/",
+        "alternative_example": "The company is growing rapidly.",
+        "usage_example_es": "Cultivan verduras en su jardín.",
+        "char_count": "one",
+        "usage_context_en": "agriculture/business",
+        "usage_context_es": "agricultura/negocios",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_3_def1.avif"
+      }
+    ],
+    "irregular": {
+      "past": {
+        "form": "wuchs",
+        "phonetic": "/vuːks/",
+        "spoken_phonetic_us": "/vuːks/",
+        "usage_example": "The garden grew quickly.",
+        "usage_example_es": "El jardín creció rápido.",
+        "pronunciation_guide_es": "/de_GARDEN_GRU_KUICKli/",
+        "meaning": "Pasado de crecer/cultivar",
+        "definitions": [
+          {
+            "usage_example": "Die Firma wuchs letztes Jahr schnell.",
+            "usage_example_es": "La empresa creció rápidamente el año pasado.",
+            "pronunciation_guide_es": "/di_FIR-ma_VUKS_LETS-tes_YAR_SHNEL/",
+            "meaning": "Pasado de Crecer",
+            "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_3_def0_v2.avif"
+          },
+          {
+            "usage_example": "Sie bauten Mais in ihrem Garten an.",
+            "usage_example_es": "Cultivaron maíz en su patio trasero.",
+            "pronunciation_guide_es": "/zi_BAU-ten_MAIS_in_I-rem_GAR-ten_AN/",
+            "meaning": "Pasado de Cultivar",
+            "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_3_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "gewachsen",
+        "phonetic": "/ɡəˈvaksn̩/",
+        "spoken_phonetic_us": "/ɡəˈvaksn̩/",
+        "usage_example": "He has grown a beard.",
+        "usage_example_es": "Él se ha dejado crecer la barba.",
+        "pronunciation_guide_es": "/ji_jas_GROUN_a_BIRD/",
+        "meaning": "Participio de crecer/cultivar",
+        "definitions": [
+          {
+            "usage_example": "Die Firma ist letztes Jahr schnell gewachsen.",
+            "usage_example_es": "La empresa creció rápidamente el año pasado.",
+            "pronunciation_guide_es": "/di_FIR-ma_ist_LETS-tes_YAR_SHNEL_ge-VAK-sen/",
+            "meaning": "Participio de Crecer",
+            "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_3_def0_v3.avif"
+          },
+          {
+            "usage_example": "Sie haben Mais in ihrem Garten angebaut.",
+            "usage_example_es": "Cultivaron maíz en su patio trasero.",
+            "pronunciation_guide_es": "/zi_HA-ben_MAIS_in_I-rem_GAR-ten_AN-ge-baut/",
+            "meaning": "Participio de Cultivar",
+            "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_3_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Building & Creating"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "existieren",
+    "phonetic": "/ɛksɪsˈtiːʁən/",
+    "spoken_phonetic_us": "/ɛksɪsˈtiːʁən/",
+    "search_term": "verb/being_state/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Existir",
+        "usage_example": "Glaubst du, dass Leben auf anderen Planeten existiert?",
+        "pronunciation_guide_es": "/GLAUPST_du_das_LE-ben_auf_AN-de-ren_pla-NE-ten_ek-zis-TIRT/",
+        "usage_example_es": "¿Crees que existe vida en otros planetas?",
+        "char_count": "8",
+        "usage_context_en": "To be real or present.",
+        "usage_context_es": "To be real or present.",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_4_def0.avif"
+      }
+    ],
+    "is_verb": true,
+    "group_name": "Body & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "bauen",
+    "phonetic": "/ˈbaʊən/",
+    "spoken_phonetic_us": "/ˈbaʊən/",
+    "search_term": "verb/construct/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Construir/Edificar",
+        "usage_example": "Sie planen, eine neue Brücke zu bauen.",
+        "pronunciation_guide_es": "/zi_PLA-nen_AI-ne_NOI-e_BRUE-ke_tsu_BAU-en/",
+        "alternative_example": "We are building a tree house.",
+        "usage_example_es": "Planean construir un nuevo puente.",
+        "char_count": "one",
+        "usage_context_en": "construction/projects",
+        "usage_context_es": "construcción/proyectos",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_5_def0.avif"
+      },
+      {
+        "meaning": "Crear/Desarrollar (reputación, negocio)",
+        "usage_example": "Er baut seinen Ruf auf Ehrlichkeit auf.",
+        "pronunciation_guide_es": "/er_BAUT_ZAI-nen_RUF_auf_ER-lish-kait_AUF/",
+        "alternative_example": "It takes time to build trust.",
+        "usage_example_es": "Él construye su reputación con honestidad.",
+        "char_count": "one",
+        "usage_context_en": "reputation/trust",
+        "usage_context_es": "reputación/confianza",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_5_def1.avif"
+      }
+    ],
+    "irregular": {
+      "past": {
+        "form": "baute",
+        "phonetic": "/ˈbaʊtə/",
+        "spoken_phonetic_us": "/ˈbaʊtə/",
+        "usage_example": "They built a new school.",
+        "usage_example_es": "Construyeron una nueva escuela.",
+        "pronunciation_guide_es": "/dei_BILT_a_niu_SKUL/",
+        "meaning": "Pasado de construir",
+        "definitions": [
+          {
+            "usage_example": "Sie bauten eine massive Brücke in zwei Jahren.",
+            "usage_example_es": "Construyeron un puente masivo en dos años.",
+            "pronunciation_guide_es": "/zi_BAU-ten_AI-ne_MA-si-ve_BRUE-ke_in_TSVAI_YA-ren/",
+            "meaning": "Pasado de Construir",
+            "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_5_def0_v2.avif"
+          },
+          {
+            "usage_example": "Sie baute ihr Geschäft von Grund auf auf.",
+            "usage_example_es": "Desarrolló su negocio desde cero.",
+            "pronunciation_guide_es": "/zi_BAU-te_ir_ge-SHEFT_fon_GRUNT_auf_AUF/",
+            "meaning": "Pasado de Desarrollar",
+            "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_5_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "gebaut",
+        "phonetic": "/ɡəˈbaʊt/",
+        "spoken_phonetic_us": "/ɡəˈbaʊt/",
+        "usage_example": "The house was built in 1920.",
+        "usage_example_es": "La casa fue construida en 1920.",
+        "pronunciation_guide_es": "/de_JAUS_uas_BILT_in_nainTIN_TUENTI/",
+        "meaning": "Participio de construir",
+        "definitions": [
+          {
+            "usage_example": "Sie haben eine massive Brücke in zwei Jahren gebaut.",
+            "usage_example_es": "Construyeron un puente masivo en dos años.",
+            "pronunciation_guide_es": "/zi_HA-ben_AI-ne_MA-si-ve_BRUE-ke_in_TSVAI_YA-ren_ge-BAUT/",
+            "meaning": "Participio de Construir",
+            "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_5_def0_v3.avif"
+          },
+          {
+            "usage_example": "Sie hat ihr Geschäft von Grund auf aufgebaut.",
+            "usage_example_es": "Desarrolló su negocio desde cero.",
+            "pronunciation_guide_es": "/zi_hat_ir_ge-SHEFT_fon_GRUNT_auf_AUF-ge-baut/",
+            "meaning": "Participio de Desarrollar",
+            "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_5_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Building & Creating"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "auftreten",
+    "phonetic": "/ˈaʊftʁeːtn̩/",
+    "spoken_phonetic_us": "/ˈaʊftʁeːtn̩/",
+    "search_term": "verb/being_state/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Ocurrir / Suceder",
+        "usage_example": "Das Problem trat gestern erneut auf.",
+        "pronunciation_guide_es": "/das_pro-BLEM_TRAT_GES-tern_er-NOIT_AUF/",
+        "usage_example_es": "El problema ocurrió otra vez ayer.",
+        "char_count": "5",
+        "usage_context_en": "To happen or take place.",
+        "usage_context_es": "To happen or take place.",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_6_def0.avif"
+      }
+    ],
+    "is_verb": true,
+    "group_name": "Body & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "heben",
+    "phonetic": "/ˈheːbn̩/",
+    "spoken_phonetic_us": "/ˈheːbn̩/",
+    "search_term": "verb/lift/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Levantar/Alzar",
+        "usage_example": "Heb die Hand, wenn du die Antwort weißt.",
+        "pronunciation_guide_es": "/HEP_di_HANT_ven_du_di_ANT-vort_VAIST/",
+        "alternative_example": "The company raised the prices.",
+        "usage_example_es": "Levanta la mano si sabes la respuesta.",
+        "char_count": "one",
+        "usage_context_en": "gesture/increase",
+        "usage_context_es": "gesto/aumento",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_7_def0.avif"
+      },
+      {
+        "meaning": "Criar/Educar",
+        "usage_example": "Sie erziehen ihre Kinder zur Freundlichkeit.",
+        "pronunciation_guide_es": "/zi_er-TSI-en_I-re_KIN-der_tsur_FROINT-lish-kait/",
+        "alternative_example": "He raises cattle on his farm.",
+        "usage_example_es": "Crían a sus hijos para que sean amables.",
+        "char_count": "one",
+        "usage_context_en": "family/agriculture",
+        "usage_context_es": "familia/agricultura",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_7_def1.avif"
+      }
+    ],
+    "group_name": "Managing & Control"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "dauern",
+    "phonetic": "/ˈdaʊɐn/",
+    "spoken_phonetic_us": "/ˈdaʊɐn/",
+    "search_term": "verb/being_state/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Durar",
+        "usage_example": "Das Treffen dauerte zwei Stunden.",
+        "pronunciation_guide_es": "/das_TRE-fen_DAU-er-te_TSVAI_SHTUN-den/",
+        "usage_example_es": "La reunión duró dos horas.",
+        "char_count": "5",
+        "usage_context_en": "To continue for a period of time.",
+        "usage_context_es": "To continue for a period of time.",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_8_def0.avif"
+      }
+    ],
+    "is_verb": true,
+    "group_name": "Body & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "entwickeln",
+    "phonetic": "/ɛntˈvɪkl̩n/",
+    "spoken_phonetic_us": "/ɛntˈvɪkl̩n/",
+    "search_term": "verb/grow/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Desarrollar/Crear",
+        "usage_example": "Wir müssen neue Fähigkeiten entwickeln.",
+        "pronunciation_guide_es": "/vir_MUE-sen_NOI-e_FAE-ish-kai-ten_ent-VI-keln/",
+        "alternative_example": "The company develops software.",
+        "usage_example_es": "Necesitamos desarrollar nuevas habilidades.",
+        "char_count": "three",
+        "usage_context_en": "skills/technology",
+        "usage_context_es": "habilidades/tecnología",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_9_def0.avif"
+      },
+      {
+        "meaning": "Crecer/Evolucionar",
+        "usage_example": "Das Projekt entwickelt sich gut.",
+        "pronunciation_guide_es": "/das_pro-YEKT_ent-VI-kelt_zish_GUT/",
+        "alternative_example": "A child develops quickly.",
+        "usage_example_es": "El proyecto se está desarrollando bien.",
+        "char_count": "three",
+        "usage_context_en": "projects/growth",
+        "usage_context_es": "proyectos/crecimiento",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_9_def1.avif"
+      }
+    ],
+    "group_name": "Building & Creating"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "bilden",
+    "phonetic": "/ˈbɪldn̩/",
+    "spoken_phonetic_us": "/ˈbɪldn̩/",
+    "search_term": "verb/create/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Formar/Crear",
+        "usage_example": "Die Studenten bildeten eine Lerngruppe.",
+        "pronunciation_guide_es": "/di_shtu-DEN-ten_BIL-de-ten_AI-ne_LERN-gru-pe/",
+        "alternative_example": "Ice forms when water freezes.",
+        "usage_example_es": "Los estudiantes formaron un grupo de estudio.",
+        "char_count": "one",
+        "usage_context_en": "groups/nature",
+        "usage_context_es": "grupos/naturaleza",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_10_def0.avif"
+      },
+      {
+        "meaning": "Constituir/Ser parte de",
+        "usage_example": "Diese Elemente bilden die gesamte Struktur.",
+        "pronunciation_guide_es": "/DI-ze_e-le-MEN-te_BIL-den_di_ge-ZAM-te_shtruk-TUR/",
+        "alternative_example": "What forms the basis of your argument?",
+        "usage_example_es": "Estos elementos constituyen toda la estructura.",
+        "char_count": "one",
+        "usage_context_en": "structure/basis",
+        "usage_context_es": "estructura/base",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_10_def1.avif"
+      }
+    ],
+    "group_name": "Building & Creating"
+  }
+]

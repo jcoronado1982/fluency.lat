@@ -1,0 +1,168 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "zuerst",
+    "phonetic": "/tsuˈeːɐ̯st/",
+    "spoken_phonetic_us": "/tsuˈeːɐ̯st/",
+    "search_term": "adverb/sequence",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Sequence",
+    "definitions": [
+      {
+        "meaning": "Primero / En primer lugar",
+        "usage_example": "Zuerst öffne die Kiste. Dann lies die Anleitung.",
+        "pronunciation_guide_es": "/tsu-ERST_OEF-ne_di_KIS-te_DAN_LIS_di_AN-lai-tung/",
+        "usage_example_es": "Primero, abre la caja. Luego, lee el manual.",
+        "char_count": "7",
+        "usage_context_en": "Used to mark the beginning of a sequence or list.",
+        "usage_context_es": "Usado para marcar el inicio de una secuencia o lista.",
+        "imagePath": "/card_images/connectors/1-basic/time_and_sequence/1-basic_time_and_sequence_card_0_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "als Nächstes",
+    "phonetic": "/als ˈnɛːçstəs/",
+    "spoken_phonetic_us": "/als ˈnɛːçstəs/",
+    "search_term": "adverb/sequence",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Sequence",
+    "definitions": [
+      {
+        "meaning": "Luego / Siguiente",
+        "usage_example": "Als Nächstes füge den Zucker hinzu.",
+        "pronunciation_guide_es": "/als_NEKS-tes_FUE-ge_den_TSU-ker_hin-TSU/",
+        "usage_example_es": "Luego, añade el azúcar.",
+        "char_count": "4",
+        "usage_context_en": "Used to indicate the step following the current one.",
+        "usage_context_es": "Usado para indicar el paso siguiente al actual.",
+        "imagePath": "/card_images/connectors/1-basic/time_and_sequence/1-basic_time_and_sequence_card_1_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "danach",
+    "phonetic": "/daˈnaːx/",
+    "spoken_phonetic_us": "/daˈnaːx/",
+    "search_term": "phrase/sequence",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Sequence",
+    "definitions": [
+      {
+        "meaning": "Después de eso",
+        "usage_example": "Wir aßen zu Abend, und danach sahen wir einen Film.",
+        "pronunciation_guide_es": "/vir_A-sen_tsu_A-bent_unt_da-NAJ_ZA-en_vir_AI-nen_FILM/",
+        "usage_example_es": "Cenamos y, después de eso, vimos una película.",
+        "char_count": "9",
+        "usage_context_en": "Used to introduce the next event in a sequence.",
+        "usage_context_es": "Usado para introducir el siguiente evento en una secuencia.",
+        "imagePath": "/card_images/connectors/1-basic/time_and_sequence/1-basic_time_and_sequence_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "schließlich",
+    "phonetic": "/ˈʃliːslɪç/",
+    "spoken_phonetic_us": "/ˈʃliːslɪç/",
+    "search_term": "adverb/sequence",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Sequence",
+    "definitions": [
+      {
+        "meaning": "Finalmente / Por último",
+        "usage_example": "Schließlich schließe die Kiste.",
+        "pronunciation_guide_es": "/SHLIS-lish_SHLI-se_di_KIS-te/",
+        "usage_example_es": "Finalmente, cierra la caja.",
+        "char_count": "4",
+        "usage_context_en": "Used to introduce the last item in a list or sequence.",
+        "usage_context_es": "Usado para introducir el último ítem en una lista o secuencia.",
+        "imagePath": "/card_images/connectors/1-basic/time_and_sequence/1-basic_time_and_sequence_card_3_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "dann",
+    "phonetic": "/dan/",
+    "spoken_phonetic_us": "/dan/",
+    "search_term": "adverb/sequence/result",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Sequence",
+    "definitions": [
+      {
+        "meaning": "Luego / Después",
+        "usage_example": "Zuerst arbeite ich, dann ruhe ich mich aus.",
+        "pronunciation_guide_es": "/tsu-ERST_AR-bai-te_ish_dan_RU-e_ish_mish_AUS/",
+        "usage_example_es": "Primero trabajo, luego descanso.",
+        "char_count": "5",
+        "usage_context_en": "Used to indicate what happens next in a sequence.",
+        "usage_context_es": "Usado para indicar lo que sucede a continuación en una secuencia.",
+        "imagePath": "/card_images/connectors/1-basic/time_and_sequence/1-basic_time_and_sequence_card_4_def0.avif"
+      },
+      {
+        "meaning": "Entonces / En ese caso",
+        "usage_example": "Wenn du hungrig bist, dann solltest du essen.",
+        "pronunciation_guide_es": "/ven_du_HUN-grish_bist_dan_ZOL-test_du_E-sen/",
+        "usage_example_es": "Si tienes hambre, entonces deberías comer.",
+        "char_count": "7",
+        "usage_context_en": "Used to state a consequence or result.",
+        "usage_context_es": "Usado para indicar una consecuencia o resultado.",
+        "imagePath": "/card_images/connectors/1-basic/time_and_sequence/1-basic_time_and_sequence_card_4_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "wenn",
+    "phonetic": "/vɛn/",
+    "spoken_phonetic_us": "/vɛn/",
+    "search_term": "conjunction/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Time",
+    "definitions": [
+      {
+        "meaning": "Cuando",
+        "usage_example": "Ruf mich an, wenn du ankommst.",
+        "pronunciation_guide_es": "/RUF_mish_AN_ven_du_AN-komst/",
+        "usage_example_es": "Llámame cuando llegues.",
+        "char_count": "5",
+        "usage_context_en": "Used to introduce a clause of time.",
+        "usage_context_es": "Usado para introducir una cláusula de tiempo.",
+        "imagePath": "/card_images/connectors/1-basic/time_and_sequence/1-basic_time_and_sequence_card_5_def0.avif"
+      }
+    ]
+  }
+]

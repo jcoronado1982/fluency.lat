@@ -1,0 +1,106 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_0_def0.avif",
+        "meaning": "Tela / Tejido",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "Cloth used for making clothes or other items.",
+        "usage_context_es": "Cloth used for making clothes or other items.",
+        "usage_example": "This fabric feels soft.",
+        "usage_example_es": "Esta tela se siente suave."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature & Materials",
+    "is_verb": false,
+    "name": "fabric",
+    "phonetic": "/ˈfæbrɪk/",
+    "search_term": "noun/materials_substances/added",
+    "spoken_phonetic_us": "/ˈfæbrɪk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_1_def0.avif",
+        "meaning": "Fibra",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A thin thread-like part of a material.",
+        "usage_context_es": "A thin thread-like part of a material.",
+        "usage_example": "This material contains natural fiber.",
+        "usage_example_es": "Este material contiene fibra natural."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature & Materials",
+    "is_verb": false,
+    "name": "fiber",
+    "phonetic": "/ˈfaɪbər/",
+    "search_term": "noun/materials_substances/added",
+    "spoken_phonetic_us": "/ˈfaɪbər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "imagePath": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_2_def0.avif",
+        "meaning": "Textil / Tela",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A type of woven or manufactured cloth.",
+        "usage_context_es": "A type of woven or manufactured cloth.",
+        "usage_example": "The city is known for its textile industry.",
+        "usage_example_es": "La ciudad es conocida por su industria textil."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature & Materials",
+    "is_verb": false,
+    "name": "textile",
+    "phonetic": "/ˈtɛkstaɪl/",
+    "search_term": "noun/materials_substances/added",
+    "spoken_phonetic_us": "/ˈtɛkstaɪl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "imagePath": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_3_def0.avif",
+        "meaning": "Aleación",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A metal made by combining two or more elements.",
+        "usage_context_es": "A metal made by combining two or more elements.",
+        "usage_example": "Steel is an alloy of iron and carbon.",
+        "usage_example_es": "El acero es una aleación de hierro y carbono."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature & Materials",
+    "is_verb": false,
+    "name": "alloy",
+    "phonetic": "/ˈælɔɪ/",
+    "search_term": "noun/materials_substances/added",
+    "spoken_phonetic_us": "/ˈælɔɪ/"
+  }
+]

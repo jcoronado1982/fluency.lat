@@ -1,0 +1,306 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "erreichen",
+    "phonetic": "/ɛɐˈʁaɪçn̩/",
+    "spoken_phonetic_us": "/ɛɐˈʁaɪçn̩/",
+    "search_term": "verb/arrive/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Alcanzar (con la mano, un objetivo)",
+        "usage_example": "Kannst du das obere Regal erreichen?",
+        "pronunciation_guide_es": "/kanst_du_das_O-be-re_re-GAL_er-RAI-shen/",
+        "alternative_example": "We reached our goal.",
+        "usage_example_es": "¿Puedes alcanzar el estante de arriba?",
+        "char_count": "one",
+        "usage_context_en": "physical reach/goals",
+        "usage_context_es": "alcance físico/metas",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_0_def0.avif"
+      },
+      {
+        "meaning": "Llegar a (un lugar, acuerdo)",
+        "usage_example": "Wir erreichten die Stadt nach einer langen Fahrt.",
+        "pronunciation_guide_es": "/vir_er-RAISH-ten_di_SHTAT_naj_AI-ner_LAN-gen_FART/",
+        "alternative_example": "They reached an agreement.",
+        "usage_example_es": "Llegamos a la ciudad después de un largo viaje.",
+        "char_count": "one",
+        "usage_context_en": "arrival/agreements",
+        "usage_context_es": "llegada/acuerdos",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_0_def1.avif"
+      }
+    ],
+    "group_name": "Body & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "fahren",
+    "phonetic": "/ˈfaːʁən/",
+    "spoken_phonetic_us": "/ˈfaːʁən/",
+    "search_term": "verb/operate vehicle/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Conducir/Manejar",
+        "usage_example": "Ich habe letztes Jahr das Fahren gelernt.",
+        "pronunciation_guide_es": "/ish_HA-be_LETS-tes_YAR_das_FA-ren_ge-LERNT/",
+        "alternative_example": "He drives a taxi.",
+        "usage_example_es": "Aprendí a conducir el año pasado.",
+        "char_count": "one",
+        "usage_context_en": "vehicle/skill",
+        "usage_context_es": "vehículo/habilidad",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_1_def0.avif"
+      },
+      {
+        "meaning": "Impulsar/Llevar (a un estado)",
+        "usage_example": "Hunger trieb ihn zum Stehlen.",
+        "pronunciation_guide_es": "/HUNG-er_TRIP_in_tsum_SHTE-len/",
+        "alternative_example": "That noise is driving me crazy.",
+        "usage_example_es": "El hambre lo llevó a robar.",
+        "char_count": "one",
+        "usage_context_en": "motivation/emotion",
+        "usage_context_es": "motivación/emoción",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_1_def1.avif"
+      }
+    ],
+    "group_name": "Daily Routine"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "schwimmen",
+    "phonetic": "/ˈʃvɪmən/",
+    "spoken_phonetic_us": "/ˈʃvɪmən/",
+    "search_term": "verb/move in water/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Nadar",
+        "usage_example": "Kannst du im Ozean schwimmen?",
+        "pronunciation_guide_es": "/kanst_du_im_o-tse-AN_SHVI-men/",
+        "alternative_example": "We went swimming yesterday.",
+        "usage_example_es": "¿Puedes nadar en el océano?",
+        "char_count": "one",
+        "usage_context_en": "water/sport",
+        "usage_context_es": "agua/deporte",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_2_def0.avif"
+      },
+      {
+        "meaning": "Marearse/Girar (la cabeza)",
+        "usage_example": "Mir dreht sich der Kopf.",
+        "pronunciation_guide_es": "/mir_DRET_zish_der_KOPF/",
+        "alternative_example": "The room swam before my eyes.",
+        "usage_example_es": "Me da vueltas la cabeza.",
+        "char_count": "one",
+        "usage_context_en": "dizziness/sensation",
+        "usage_context_es": "mareo/sensación",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_2_def1.avif"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "fliegen",
+    "phonetic": "/ˈfliːɡn̩/",
+    "spoken_phonetic_us": "/ˈfliːɡn̩/",
+    "search_term": "verb/move in air/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Volar (en el aire)",
+        "usage_example": "Vögel können sehr hoch fliegen.",
+        "pronunciation_guide_es": "/FOE-gel_KOE-nen_ZER_HOJ_FLI-gen/",
+        "alternative_example": "I am flying to New York tomorrow.",
+        "usage_example_es": "Los pájaros pueden volar muy alto.",
+        "char_count": "one",
+        "usage_context_en": "air/travel",
+        "usage_context_es": "aire/viaje",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_3_def0.avif"
+      },
+      {
+        "meaning": "Pasar rápidamente (el tiempo)",
+        "usage_example": "Die Zeit vergeht wie im Flug, wenn man Spaß hat.",
+        "pronunciation_guide_es": "/di_TSAIT_fer-GET_vi_im_FLUK_ven_man_SHPAS_hat/",
+        "alternative_example": "He flew down the stairs.",
+        "usage_example_es": "El tiempo vuela cuando te diviertes.",
+        "char_count": "one",
+        "usage_context_en": "time/speed",
+        "usage_context_es": "tiempo/velocidad",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_3_def1.avif"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "reisen",
+    "phonetic": "/ˈʁaɪzn̩/",
+    "spoken_phonetic_us": "/ˈʁaɪzn̩/",
+    "search_term": "verb/journey/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Viajar",
+        "usage_example": "Ich liebe es, in neue Länder zu reisen.",
+        "pronunciation_guide_es": "/ish_LI-be_es_in_NOI-e_LEN-der_tsu_RAI-zen/",
+        "alternative_example": "He travels for work.",
+        "usage_example_es": "Me encanta viajar a nuevos países.",
+        "char_count": "two",
+        "usage_context_en": "journey/hobby",
+        "usage_context_es": "viaje/pasatiempo",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_4_def0.avif"
+      },
+      {
+        "meaning": "Desplazarse",
+        "usage_example": "Licht bewegt sich schneller als Schall.",
+        "pronunciation_guide_es": "/LISHT_be-VEKT_zish_SHNE-ler_als_SHAL/",
+        "alternative_example": "The news traveled quickly.",
+        "usage_example_es": "La luz viaja más rápido que el sonido.",
+        "char_count": "two",
+        "usage_context_en": "physics/movement",
+        "usage_context_es": "física/movimiento",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_4_def1.avif"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ankommen",
+    "phonetic": "/ˈankɔmən/",
+    "spoken_phonetic_us": "/ˈankɔmən/",
+    "search_term": "verb/reach destination/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Llegar (a un destino)",
+        "usage_example": "Wann kommt der Zug an?",
+        "pronunciation_guide_es": "/van_KOMT_der_TSUK_AN/",
+        "alternative_example": "We arrived at the airport.",
+        "usage_example_es": "¿A qué hora llega el tren?",
+        "char_count": "two",
+        "usage_context_en": "destination/travel",
+        "usage_context_es": "destino/viaje",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_5_def0.avif"
+      },
+      {
+        "meaning": "Llegar (el momento)",
+        "usage_example": "Der Moment ist endlich gekommen.",
+        "pronunciation_guide_es": "/der_mo-MENT_ist_ENT-lish_ge-KO-men/",
+        "alternative_example": "The package arrived today.",
+        "usage_example_es": "El momento finalmente ha llegado.",
+        "char_count": "two",
+        "usage_context_en": "time/occurrence",
+        "usage_context_es": "tiempo/ocurrencia",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_5_def1.avif"
+      }
+    ],
+    "group_name": "Body & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "zurückkehren",
+    "phonetic": "/tsuˈʁʏkkeːʁən/",
+    "spoken_phonetic_us": "/tsuˈʁʏkkeːʁən/",
+    "search_term": "verb/go back/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Regresar/Volver",
+        "usage_example": "Wann kehrst du von deiner Reise zurück?",
+        "pronunciation_guide_es": "/van_KERST_du_fon_DAI-ner_RAI-ze_tsu-RUEK/",
+        "alternative_example": "I returned home late.",
+        "usage_example_es": "¿Cuándo regresarás de tu viaje?",
+        "char_count": "two",
+        "usage_context_en": "go back/travel",
+        "usage_context_es": "volver/viaje",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_6_def0.avif"
+      },
+      {
+        "meaning": "Devolver (un objeto)",
+        "usage_example": "Ich muss dieses Buch der Bibliothek zurückgeben.",
+        "pronunciation_guide_es": "/ish_MUS_DI-zes_BUJ_der_bi-bli-o-TEK_tsu-RUEK-ge-ben/",
+        "alternative_example": "Please return my call.",
+        "usage_example_es": "Tengo que devolver este libro a la biblioteca.",
+        "char_count": "two",
+        "usage_context_en": "give back/objects",
+        "usage_context_es": "devolver/objetos",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_6_def1.avif"
+      }
+    ],
+    "group_name": "Body & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "vermeiden",
+    "phonetic": "/fɛɐˈmaɪdn̩/",
+    "spoken_phonetic_us": "/fɛɐˈmaɪdn̩/",
+    "search_term": "verb/prevent/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Evitar",
+        "usage_example": "Du solltest Junk-Food vermeiden.",
+        "pronunciation_guide_es": "/du_ZOL-test_DSHANK-FUD_fer-MAI-den/",
+        "alternative_example": "I try to avoid traffic in the morning.",
+        "usage_example_es": "Deberías evitar comer comida chatarra.",
+        "char_count": "two",
+        "usage_context_en": "prevention/habits",
+        "usage_context_es": "prevención/hábitos",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_7_def0.avif"
+      },
+      {
+        "meaning": "Eludir/Esquivar",
+        "usage_example": "Er weicht mir aus.",
+        "pronunciation_guide_es": "/er_VAISHT_mir_AUS/",
+        "alternative_example": "They avoided an accident.",
+        "usage_example_es": "Él me está evitando.",
+        "char_count": "two",
+        "usage_context_en": "people/danger",
+        "usage_context_es": "personas/peligro",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_7_def1.avif"
+      }
+    ],
+    "group_name": "Body & Movement"
+  }
+]

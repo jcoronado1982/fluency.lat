@@ -1,0 +1,194 @@
+.lp-why-vocabulary-first {
+    padding: 120px 0 120px;
+    background: transparent;
+    position: relative;
+}
+
+/* Línea de entrada + resplandor burdeos: ambos pertenecen a esta sección. */
+.lp-why-vocabulary-first::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background:
+        var(--lp-section-fade-line) center top / min(92vw, 1240px) 1px no-repeat,
+        radial-gradient(
+            ellipse 90% 80% at 50% 50%,
+            rgba(190, 24, 93, 0.22) 0%,
+            rgba(244, 114, 182, 0.10) 40%,
+            transparent 72%
+        );
+}
+
+/* Línea inferior que se desvanece en los extremos (sin alterar el degradado de fondo). */
+.lp-why-vocabulary-first::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(92%, 1000px);
+    height: 1px;
+    z-index: 1;
+    pointer-events: none;
+    background: var(--lp-section-fade-line);
+}
+
+.lp-why-vocabulary-first-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: var(--shell-content-max-width);
+    margin: 0 auto;
+    padding: 0 var(--lp-section-inline-padding, var(--shell-content-inline-padding));
+    position: relative;
+    z-index: 1;
+}
+
+.lp-why-vocabulary-first-eyebrow {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 18px;
+    border: 1px solid rgba(244, 114, 182, 0.32);
+    border-radius: 999px;
+    background: rgba(244, 114, 182, 0.04);
+    font-family: var(--font-family-body);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(244, 114, 182, 0.92);
+}
+
+.lp-why-vocabulary-first-title {
+    margin: 0 0 14px;
+    font-family: var(--font-family-display);
+    font-size: var(--lp-section-title-size);
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-variation-settings: 'opsz' 56;
+    letter-spacing: -0.03em;
+    text-align: center;
+    line-height: var(--lp-section-title-line);
+    color: var(--color-text-primary);
+    max-width: 760px;
+    text-wrap: balance;
+    text-shadow:
+        0 0 20px rgba(244, 114, 182, 0.28),
+        0 0 64px rgba(190, 24, 93, 0.16);
+}
+
+.lp-why-vocabulary-first-subtitle {
+    margin: 0 0 40px;
+    font-family: var(--font-family-body);
+    font-size: 1.05rem;
+    line-height: 1.6;
+    text-align: center;
+    color: rgba(203, 213, 225, 0.75);
+    max-width: 640px;
+}
+
+.lp-vocab-first-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.lp-vocab-first-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 24px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(8, 4, 10, 0.55);
+    text-align: left;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.lp-vocab-first-card:hover {
+    background: rgba(244, 114, 182, 0.04);
+    border-color: rgba(244, 114, 182, 0.14);
+}
+
+.lp-vocab-first-card-heading {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+}
+
+.lp-vocab-first-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.lp-vocab-first-card-icon svg {
+    font-size: 1.15rem;
+}
+
+.lp-vocab-first-card-icon--rose {
+    background: rgba(190, 24, 93, 0.16);
+    border: 1px solid rgba(244, 114, 182, 0.22);
+    box-shadow: 0 0 28px rgba(244, 114, 182, 0.07);
+}
+
+.lp-vocab-first-card-icon--rose svg {
+    color: #f472b6;
+}
+
+.lp-vocab-first-card-icon--violet {
+    background: rgba(125, 119, 221, 0.14);
+    border: 1px solid rgba(125, 119, 221, 0.28);
+    box-shadow: 0 0 28px rgba(125, 119, 221, 0.1);
+}
+
+.lp-vocab-first-card-icon--violet svg {
+    color: #a5b4fc;
+}
+
+.lp-vocab-first-card-title {
+    margin: 0;
+    font-family: var(--font-family-body);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+}
+
+.lp-vocab-first-card-body {
+    margin: 0;
+    font-family: var(--font-family-body);
+    font-size: 1rem;
+    line-height: 1.65;
+    color: rgba(203, 213, 225, 0.95);
+}
+
+@media (max-width: 767px) {
+    .lp-why-vocabulary-first-subtitle {
+        margin: 0 0 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .lp-vocab-first-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        align-items: stretch;
+    }
+
+    .lp-vocab-first-card {
+        padding: 24px;
+    }
+}

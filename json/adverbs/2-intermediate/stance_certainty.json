@@ -1,0 +1,209 @@
+[
+  {
+    "name": "probably",
+    "phonetic": "/ˈprɒbəbli/",
+    "spoken_phonetic_us": "/ˈprɑbəbli/",
+    "search_term": "adverb/certainty",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Certainty",
+    "definitions": [
+      {
+        "meaning": "Probablemente",
+        "usage_example": "It will probably rain tomorrow.",
+        "pronunciation_guide_es": "/it_uil_PRO-ba-bli_REIN_tu-MO-rou/",
+        "usage_example_es": "Probablemente lloverá mañana.",
+        "char_count": "5",
+        "usage_context_en": "Almost certainly; as far as one knows or can tell.",
+        "usage_context_es": "Casi con seguridad; por lo que uno sabe o puede decir."
+      }
+    ]
+  },
+  {
+    "name": "certainly",
+    "phonetic": "/ˈsɜːrtənli/",
+    "spoken_phonetic_us": "/ˈsɜrtənli/",
+    "search_term": "adverb/certainty",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Certainty",
+    "definitions": [
+      {
+        "meaning": "Ciertamente / Sin duda",
+        "usage_example": "He will certainly win.",
+        "pronunciation_guide_es": "/hi_uil_SER-ten-li_UIN/",
+        "usage_example_es": "Él sin duda ganará.",
+        "char_count": "4",
+        "usage_context_en": "Without doubt; surely.",
+        "usage_context_es": "Sin duda; seguramente."
+      }
+    ]
+  },
+  {
+    "name": "definitely",
+    "phonetic": "/ˈdɛfɪnətli/",
+    "spoken_phonetic_us": "/ˈdɛfɪnətli/",
+    "search_term": "adverb/certainty",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Certainty",
+    "definitions": [
+      {
+        "meaning": "Definitivamente / Sin duda",
+        "usage_example": "I will definitely be there.",
+        "pronunciation_guide_es": "/ai_uil_DE-fi-net-li_bi_DER/",
+        "usage_example_es": "Definitivamente estaré allí.",
+        "char_count": "5",
+        "usage_context_en": "Without any doubt; certainly.",
+        "usage_context_es": "Sin ninguna duda; ciertamente."
+      }
+    ]
+  },
+  {
+    "name": "luckily",
+    "phonetic": "/ˈlʌkɪli/",
+    "spoken_phonetic_us": "/ˈlʌkɪli/",
+    "search_term": "adverb/sentence",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Sentence",
+    "definitions": [
+      {
+        "meaning": "Afortunadamente / Por suerte",
+        "usage_example": "Luckily, I found my keys.",
+        "pronunciation_guide_es": "/LO-ki-li_ai_FAUND_mai_KIS/",
+        "usage_example_es": "Afortunadamente, encontré mis llaves.",
+        "char_count": "4",
+        "usage_context_en": "It is fortunate that; by good luck.",
+        "usage_context_es": "Es afortunado que; por buena suerte."
+      }
+    ]
+  },
+  {
+    "name": "unfortunately",
+    "phonetic": "/ʌnˈfɔːrtʃənətli/",
+    "spoken_phonetic_us": "/ʌnˈfɔrtʃənətli/",
+    "search_term": "adverb/sentence",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Sentence",
+    "definitions": [
+      {
+        "meaning": "Desafortunadamente / Lamentablemente",
+        "usage_example": "Unfortunately, the store was closed.",
+        "pronunciation_guide_es": "/on-FOR-chu-net-li_de_STOR_uas_CLOUSD/",
+        "usage_example_es": "Desafortunadamente, la tienda estaba cerrada.",
+        "char_count": "5",
+        "usage_context_en": "It is unfortunate that; by bad luck.",
+        "usage_context_es": "Es desafortunado que; por mala suerte."
+      }
+    ]
+  },
+  {
+    "name": "personally",
+    "phonetic": "/ˈpɜːrsənəli/",
+    "spoken_phonetic_us": "/ˈpɜrsənəli/",
+    "search_term": "adverb/sentence",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Sentence",
+    "definitions": [
+      {
+        "meaning": "Personalmente / En mi opinión",
+        "usage_example": "Personally, I disagree.",
+        "pronunciation_guide_es": "/PER-so-na-li_ai_dis-a-GRI/",
+        "usage_example_es": "Personalmente, no estoy de acuerdo.",
+        "char_count": "3",
+        "usage_context_en": "Used to express one's own opinion.",
+        "usage_context_es": "Usado para expresar la opinión propia."
+      }
+    ]
+  },
+  {
+    "name": "honestly",
+    "phonetic": "/ˈɒnɪstli/",
+    "spoken_phonetic_us": "/ˈɑnɪstli/",
+    "search_term": "adverb/manner/sentence",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Manner",
+    "definitions": [
+      {
+        "meaning": "Honestamente / En serio",
+        "usage_example": "Honestly, I don't know the answer.",
+        "pronunciation_guide_es": "/O-nest-li_ai_DONT_NOU_di_AN-ser/",
+        "usage_example_es": "Honestamente, no sé la respuesta.",
+        "char_count": "6",
+        "usage_context_en": "Used to emphasize the truth or sincerity of a statement.",
+        "usage_context_es": "Usado para enfatizar la verdad o sinceridad de una declaración."
+      }
+    ]
+  },
+  {
+    "name": "seriously",
+    "phonetic": "/ˈsɪəriəsli/",
+    "spoken_phonetic_us": "/ˈsɪriəsli/",
+    "search_term": "adverb/manner/sentence",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Manner",
+    "definitions": [
+      {
+        "meaning": "Seriamente / Gravemente",
+        "usage_example": "He was seriously injured.",
+        "pronunciation_guide_es": "/hi_uas_SI-ri-os-li_IN-yurd/",
+        "usage_example_es": "Él resultó gravemente herido.",
+        "char_count": "4",
+        "usage_context_en": "In a serious manner; gravely.",
+        "usage_context_es": "De manera seria; gravemente."
+      },
+      {
+        "meaning": "En serio (pregunta/énfasis)",
+        "usage_example": "Seriously, what are you doing?",
+        "pronunciation_guide_es": "/SI-ri-os-li_UAT_ar_iu_DU-ing/",
+        "usage_example_es": "En serio, ¿qué estás haciendo?",
+        "char_count": "5",
+        "usage_context_en": "Used to ask if someone is joking or to emphasize a point.",
+        "usage_context_es": "Usado para preguntar si alguien bromea o para enfatizar un punto."
+      }
+    ]
+  },
+  {
+    "name": "naturally",
+    "phonetic": "/ˈnætʃərəli/",
+    "spoken_phonetic_us": "/ˈnætʃərəli/",
+    "search_term": "adverb/manner/sentence",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Sentence",
+    "definitions": [
+      {
+        "meaning": "Naturalmente / Por supuesto",
+        "usage_example": "Naturally, I was happy to help.",
+        "pronunciation_guide_es": "/NA-chu-ra-li_ai_uas_HA-pi_tu_HELP/",
+        "usage_example_es": "Naturalmente (por supuesto), estuve feliz de ayudar.",
+        "char_count": "6",
+        "usage_context_en": "As you would expect; of course.",
+        "usage_context_es": "Como era de esperar; por supuesto."
+      },
+      {
+        "meaning": "De forma natural",
+        "usage_example": "Her hair is naturally curly.",
+        "pronunciation_guide_es": "/her_HER_is_NA-chu-ra-li_KER-li/",
+        "usage_example_es": "Su cabello es rizado de forma natural.",
+        "char_count": "5",
+        "usage_context_en": "In a way that is not artificial; without intervention.",
+        "usage_context_es": "De una manera que no es artificial; sin intervención."
+      }
+    ]
+  }
+]

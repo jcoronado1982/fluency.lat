@@ -1,0 +1,184 @@
+[
+  {
+    "word": "Asia",
+    "translation": "Asia",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "meaning": "The largest continent.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "The largest continent.",
+        "usage_context_es": "El continente más grande.",
+        "usage_example": "Asia is a continent.",
+        "usage_example_es": "Asia es un continente.",
+        "imagePath": "/card_images/nouns/1-basic/seed_asia.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Continents",
+    "is_verb": false,
+    "name": "Asia",
+    "phonetic": "",
+    "search_term": "noun/continents/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "Europe",
+    "translation": "Europa",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "meaning": "A continent west of Asia.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A continent west of Asia.",
+        "usage_context_es": "Un continente al oeste de Asia.",
+        "usage_example": "Europe is a continent.",
+        "usage_example_es": "Europa es un continente.",
+        "imagePath": "/card_images/nouns/1-basic/seed_europe.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Continents",
+    "is_verb": false,
+    "name": "Europe",
+    "phonetic": "",
+    "search_term": "noun/continents/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "Africa",
+    "translation": "África",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "meaning": "A continent south of Europe.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A continent south of Europe.",
+        "usage_context_es": "Un continente al sur de Europa.",
+        "usage_example": "Africa is a continent.",
+        "usage_example_es": "África es un continente.",
+        "imagePath": "/card_images/nouns/1-basic/seed_africa.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Continents",
+    "is_verb": false,
+    "name": "Africa",
+    "phonetic": "",
+    "search_term": "noun/continents/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "North America",
+    "translation": "América del Norte",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "13",
+        "meaning": "A continent in the Northern Hemisphere.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A continent in the Northern Hemisphere.",
+        "usage_context_es": "Un continente del hemisferio norte.",
+        "usage_example": "North America is a continent.",
+        "usage_example_es": "América del Norte es un continente.",
+        "imagePath": "/card_images/nouns/1-basic/seed_north_america.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Continents",
+    "is_verb": false,
+    "name": "North America",
+    "phonetic": "",
+    "search_term": "noun/continents/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "South America",
+    "translation": "América del Sur",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "13",
+        "meaning": "A continent in the Western Hemisphere.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A continent in the Western Hemisphere.",
+        "usage_context_es": "Un continente del hemisferio occidental.",
+        "usage_example": "South America is a continent.",
+        "usage_example_es": "América del Sur es un continente.",
+        "imagePath": "/card_images/nouns/1-basic/seed_south_america.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Continents",
+    "is_verb": false,
+    "name": "South America",
+    "phonetic": "",
+    "search_term": "noun/continents/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "Oceania",
+    "translation": "Oceanía",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "meaning": "A region and continent grouping in the Pacific.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A region and continent grouping in the Pacific.",
+        "usage_context_es": "Una región y agrupación continental del Pacífico.",
+        "usage_example": "Oceania is a continent region.",
+        "usage_example_es": "Oceanía es una región continental.",
+        "imagePath": "/card_images/nouns/1-basic/seed_oceania.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Continents",
+    "is_verb": false,
+    "name": "Oceania",
+    "phonetic": "",
+    "search_term": "noun/continents/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "Antarctica",
+    "translation": "Antártida",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "10",
+        "meaning": "The continent around the South Pole.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "The continent around the South Pole.",
+        "usage_context_es": "El continente alrededor del Polo Sur.",
+        "usage_example": "Antarctica is covered with ice.",
+        "usage_example_es": "La Antártida está cubierta de hielo.",
+        "imagePath": "/card_images/nouns/1-basic/seed_antarctica.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Continents",
+    "is_verb": false,
+    "name": "Antarctica",
+    "phonetic": "",
+    "search_term": "noun/continents/seed",
+    "spoken_phonetic_us": ""
+  }
+]

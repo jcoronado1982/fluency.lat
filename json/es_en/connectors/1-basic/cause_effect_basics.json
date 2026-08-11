@@ -1,0 +1,152 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "because",
+    "phonetic": "/bɪˈkɔz/",
+    "spoken_phonetic_us": "/bɪˈkɔz/",
+    "search_term": "conjunction/reason",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Cause & Effect",
+    "definitions": [
+      {
+        "meaning": "Porque",
+        "usage_example": "I am tired because I worked a lot.",
+        "pronunciation_guide_es": "/ai_am_TAI-erd_bi-COZ_ai_UORKT_a_LOT/",
+        "usage_example_es": "Estoy cansado porque trabajé mucho.",
+        "char_count": "7",
+        "usage_context_en": "Used to introduce a reason or cause.",
+        "usage_context_es": "Usado para introducir una razón o causa.",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_0_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "so",
+    "phonetic": "/soʊ/",
+    "spoken_phonetic_us": "/soʊ/",
+    "search_term": "conjunction/result",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Cause & Effect",
+    "definitions": [
+      {
+        "meaning": "Así que / Por lo tanto",
+        "usage_example": "I worked a lot, so I am tired.",
+        "pronunciation_guide_es": "/ai_UORKT_a_LOT_sou_ai_am_TAI-erd/",
+        "usage_example_es": "Trabajé mucho, así que estoy cansado.",
+        "char_count": "7",
+        "usage_context_en": "Used to introduce a result or consequence.",
+        "usage_context_es": "Usado para introducir un resultado o consecuencia.",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_1_def0.avif"
+      },
+      {
+        "meaning": "Para que",
+        "usage_example": "I am saving money so I can buy a car.",
+        "pronunciation_guide_es": "/ai_am_SEI-ving_MO-ni_SOU_ai_can_BAI_a_CAR/",
+        "usage_example_es": "Estoy ahorrando dinero para poder comprar un carro.",
+        "char_count": "9",
+        "usage_context_en": "Used to show purpose (often 'so that').",
+        "usage_context_es": "Usado para mostrar propósito (a menudo 'so that').",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_1_def1.avif"
+      },
+      {
+        "meaning": "Tan / Muy",
+        "usage_example": "He is so tall.",
+        "pronunciation_guide_es": "/hi_is_SOU_TOL/",
+        "usage_example_es": "Él es tan alto.",
+        "char_count": "4",
+        "usage_context_en": "An intensifier meaning 'very' or 'to this degree'.",
+        "usage_context_es": "Un intensificador que significa 'muy' o 'a este grado'.",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_1_def2.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "that's why",
+    "phonetic": "/ðæts waɪ/",
+    "spoken_phonetic_us": "/ðæts waɪ/",
+    "search_term": "phrase/result",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Cause & Effect",
+    "definitions": [
+      {
+        "meaning": "Por eso / Es por eso que",
+        "usage_example": "He studied hard. That's why he passed.",
+        "pronunciation_guide_es": "/hi_STO-did_HARD_dats_UAI_hi_PAST/",
+        "usage_example_es": "Él estudió mucho. Por eso aprobó.",
+        "char_count": "6",
+        "usage_context_en": "For that reason (less formal than 'therefore').",
+        "usage_context_es": "Por esa razón (menos formal que 'therefore').",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "why",
+    "phonetic": "/waɪ/",
+    "spoken_phonetic_us": "/waɪ/",
+    "search_term": "connector/cause_effect_basics/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Por qué / La razón por la que",
+        "usage_example": "I understand why you are upset.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Entiendo por qué estás molesto.",
+        "char_count": "6",
+        "usage_context_en": "Used to ask for or express a reason.",
+        "usage_context_es": "Used to ask for or express a reason.",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_3_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Connectors: Cause & Effect"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "then",
+    "phonetic": "/ðen/",
+    "spoken_phonetic_us": "/ðen/",
+    "search_term": "connector/cause_effect_basics/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Entonces / En ese caso",
+        "usage_example": "If you are ready, then we can start.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Si estás listo, entonces podemos empezar.",
+        "char_count": "8",
+        "usage_context_en": "Used to show consequence or the next logical step.",
+        "usage_context_es": "Used to show consequence or the next logical step.",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_4_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Connectors: Cause & Effect"
+  }
+]

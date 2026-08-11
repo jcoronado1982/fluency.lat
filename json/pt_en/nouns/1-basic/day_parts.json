@@ -1,0 +1,198 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "morning",
+        "phonetic": "/ˈmɔːrnɪŋ/",
+        "spoken_phonetic_us": "/ˈmɔːrnɪŋ/",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Mañana (parte del día)]",
+                "usage_example": "I work in the morning.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE morning AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I work in the morning.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: El tiempo desde el amanecer hasta el mediodía]",
+                "usage_context_es": "The time from sunrise to noon",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_83_def0.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "afternoon",
+        "phonetic": "/ˌæftərˈnuːn/",
+        "spoken_phonetic_us": "/ˌæftərˈnuːn/",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Tarde]",
+                "usage_example": "See you in the afternoon.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE afternoon AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: See you in the afternoon.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL PT: El tiempo desde el mediodía hasta el atardecer]",
+                "usage_context_es": "The time from noon to evening",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_84_def0.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "evening",
+        "phonetic": "/ˈiːvnɪŋ/",
+        "spoken_phonetic_us": "/ˈiːvnɪŋ/",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Tarde-Noche]",
+                "usage_example": "I watch TV in the evening.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE evening AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I watch TV in the evening.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: El tiempo desde el fin del día hasta la noche]",
+                "usage_context_es": "The time from the end of the day to night",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_85_def0.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "night",
+        "phonetic": "/naɪt/",
+        "spoken_phonetic_us": "/naɪt/",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Noche]",
+                "usage_example": "I sleep at night.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE night AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I sleep at night.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: El período de oscuridad en 24 horas]",
+                "usage_context_es": "The period of darkness in 24 hours",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_86_def0.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "midday",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/time/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Around the middle of the day.]",
+                "usage_example": "It is midday.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE midday AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: It is midday.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Alrededor de la mitad del día.]",
+                "usage_context_es": "Around the middle of the day.",
+                "imagePath": "/card_images/nouns/1-basic/seed_midday.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "noon",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/time/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Twelve o'clock in the daytime.]",
+                "usage_example": "Lunch is at noon.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE noon AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Lunch is at noon.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Las doce del día.]",
+                "usage_context_es": "Twelve o'clock in the daytime.",
+                "imagePath": "/card_images/nouns/1-basic/seed_noon.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "midnight",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/time/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Twelve o'clock at night.]",
+                "usage_example": "The alarm rang at midnight.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE midnight AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The alarm rang at midnight.]",
+                "char_count": "8",
+                "usage_context_en": "[TRADUCIR AL PT: Las doce de la noche.]",
+                "usage_context_es": "Twelve o'clock at night.",
+                "imagePath": "/card_images/nouns/1-basic/seed_midnight.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    }
+]

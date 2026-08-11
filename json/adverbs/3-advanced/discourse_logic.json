@@ -1,0 +1,137 @@
+[
+  {
+    "name": "additionally",
+    "phonetic": "/əˈdɪʃənəli/",
+    "spoken_phonetic_us": "/əˈdɪʃənəli/",
+    "search_term": "adverb/connector/addition",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Connectors: Addition",
+    "definitions": [
+      {
+        "meaning": "Adicionalmente / Además",
+        "usage_example": "Additionally, we need to buy milk.",
+        "pronunciation_guide_es": "/a-DI-sho-na-li_ui_NID_tu_BAI_MILK/",
+        "usage_example_es": "Adicionalmente, necesitamos comprar leche.",
+        "char_count": 6,
+        "usage_context_en": "As an extra factor or reason; in addition.",
+        "usage_context_es": "Como un factor o razón extra; además."
+      }
+    ]
+  },
+  {
+    "name": "similarly",
+    "phonetic": "/ˈsɪmɪlərli/",
+    "spoken_phonetic_us": "/ˈsɪmɪlərli/",
+    "search_term": "adverb/connector/addition",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Connectors: Addition",
+    "definitions": [
+      {
+        "meaning": "Similarmente / Del mismo modo",
+        "usage_example": "The sisters dress similarly.",
+        "pronunciation_guide_es": "/de_SIS-ters_DRES_SI-mi-lar-li/",
+        "usage_example_es": "Las hermanas visten de forma similar.",
+        "char_count": 4,
+        "usage_context_en": "In a similar way.",
+        "usage_context_es": "De una manera similar."
+      }
+    ]
+  },
+  {
+    "name": "otherwise",
+    "phonetic": "/ˈʌðərwaɪz/",
+    "spoken_phonetic_us": "/ˈʌðərwaɪz/",
+    "search_term": "adverb/connector/condition",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Connectors: Condition",
+    "definitions": [
+      {
+        "meaning": "De lo contrario / Si no",
+        "usage_example": "Study hard, otherwise you will fail.",
+        "pronunciation_guide_es": "/STO-di_HARD_O-der-uais_iu_uil_FEIL/",
+        "usage_example_es": "Estudia duro, de lo contrario reprobarás.",
+        "char_count": 6,
+        "usage_context_en": "Used to state the consequence if a condition is not met.",
+        "usage_context_es": "Usado para indicar la consecuencia si no se cumple una condición."
+      },
+      {
+        "meaning": "De otra manera / Diferente",
+        "usage_example": "He is quiet, but she is otherwise.",
+        "pronunciation_guide_es": "/hi_is_CUAI-et_bot_shi_is_O-der-uais/",
+        "usage_example_es": "Él es callado, pero ella es diferente.",
+        "char_count": 7,
+        "usage_context_en": "In a different way; differently.",
+        "usage_context_es": "De una manera diferente; diferentemente."
+      }
+    ]
+  },
+  {
+    "name": "nevertheless",
+    "phonetic": "/ˌnɛvərðəˈlɛs/",
+    "spoken_phonetic_us": "/ˌnɛvərðəˈlɛs/",
+    "search_term": "adverb/connector/contrast",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Connectors: Contrast",
+    "definitions": [
+      {
+        "meaning": "Sin embargo / No obstante (formal)",
+        "usage_example": "It was cold. Nevertheless, he went swimming.",
+        "pronunciation_guide_es": "/it_uas_COLD_ne-ver-de-LES_hi_UENT_SUI-ming/",
+        "usage_example_es": "Hacía frío. Sin embargo, fue a nadar.",
+        "char_count": 6,
+        "usage_context_en": "In spite of that; nonetheless (a very formal version of 'however').",
+        "usage_context_es": "A pesar de eso; no obstante (una versión muy formal de 'however')."
+      }
+    ]
+  },
+  {
+    "name": "nonetheless",
+    "phonetic": "/ˌnʌnðəˈlɛs/",
+    "spoken_phonetic_us": "/ˌnʌnðəˈlɛs/",
+    "search_term": "adverb/connector/contrast",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Connectors: Contrast",
+    "definitions": [
+      {
+        "meaning": "Sin embargo / No obstante (formal)",
+        "usage_example": "The results are bad. Nonetheless, we must continue.",
+        "pronunciation_guide_es": "/de_ri-SOLTS_ar_BAD_non-de-LES_ui_most_con-TI-niu/",
+        "usage_example_es": "Los resultados son malos. No obstante, debemos continuar.",
+        "char_count": 7,
+        "usage_context_en": "In spite of that; nevertheless (also very formal).",
+        "usage_context_es": "A pesar de eso; sin embargo (también muy formal)."
+      }
+    ]
+  },
+  {
+    "name": "therefore",
+    "phonetic": "/ˈðɛərˌfɔr/",
+    "spoken_phonetic_us": "/ˈðɛrˌfɔr/",
+    "search_term": "adverb/connector/result",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Connectors: Cause & Effect",
+    "definitions": [
+      {
+        "meaning": "Por lo tanto / Por consiguiente (formal)",
+        "usage_example": "He is sick; therefore, he will not come.",
+        "pronunciation_guide_es": "/hi_is_SIK_DER-for_hi_uil_not_COM/",
+        "usage_example_es": "Él está enfermo; por lo tanto, no vendrá.",
+        "char_count": 7,
+        "usage_context_en": "For that reason; consequently (used in formal speech or writing).",
+        "usage_context_es": "Por esa razón; consecuentemente (usado en habla o escritura formal)."
+      }
+    ]
+  }
+]

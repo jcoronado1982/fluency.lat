@@ -1,0 +1,142 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Parte",
+        "pronunciation_guide_es": "/das_ist_der_BES-te_TAIL_des_FILMS/",
+        "usage_context_en": "A piece of a whole",
+        "usage_context_es": "Un pedazo de un todo",
+        "usage_example": "Das ist der beste Teil des Films.",
+        "usage_example_es": "Esta es la mejor parte de la película.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components/1-basic_structure_components_card_0_def0.avif"
+      },
+      {
+        "char_count": "4",
+        "meaning": "Papel o rol",
+        "pronunciation_guide_es": "/er_SHPIL-te_AI-ne_RO-le_im_FILM/",
+        "usage_context_en": "A role in a play, movie, or situation.",
+        "usage_context_es": "Un papel en una obra, película o situación.",
+        "usage_example": "Er spielte eine Rolle im Film.",
+        "usage_example_es": "Él interpretó un papel en la película.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components/1-basic_structure_components_card_0_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "der Teil",
+    "phonetic": "/deːɐ taɪl/",
+    "search_term": "noun/piece/essentials",
+    "spoken_phonetic_us": "/deːɐ taɪl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Equipo",
+        "pronunciation_guide_es": "/vir_zint_ain_GU-tes_TIM/",
+        "usage_context_en": "A group of people working or playing together",
+        "usage_context_es": "Un grupo de personas que trabajan o juegan juntas",
+        "usage_example": "Wir sind ein gutes Team.",
+        "usage_example_es": "Somos un buen equipo.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components/1-basic_structure_components_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "People",
+    "is_verb": false,
+    "name": "das Team",
+    "phonetic": "/das tiːm/",
+    "search_term": "noun/group/work/essentials",
+    "spoken_phonetic_us": "/das tiːm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "der Abschnitt",
+    "phonetic": "/deːɐ ˈapʃnɪt/",
+    "spoken_phonetic_us": "/deːɐ ˈapʃnɪt/",
+    "search_term": "noun/structure_components/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Sección",
+        "usage_example": "Lies den nächsten Abschnitt sorgfältig.",
+        "pronunciation_guide_es": "/LIS_den_NEHS-ten_AP-shnit_ZORK-fael-tish/",
+        "usage_example_es": "Lee la siguiente sección con cuidado.",
+        "char_count": "5",
+        "usage_context_en": "One part of a larger whole.",
+        "usage_context_es": "One part of a larger whole.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components/1-basic_structure_components_card_2_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "People"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "die Einheit",
+    "phonetic": "/diː ˈaɪnhaɪt/",
+    "spoken_phonetic_us": "/diː ˈaɪnhaɪt/",
+    "search_term": "noun/structure_components/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Unidad",
+        "usage_example": "Diese Einheit behandelt Grundgrammatik.",
+        "pronunciation_guide_es": "/DI-ze_AIN-hait_be-HAN-delt_GRUNT-gra-ma-tik/",
+        "usage_example_es": "Esta unidad cubre gramática básica.",
+        "char_count": "5",
+        "usage_context_en": "A single part of a system or course.",
+        "usage_context_es": "A single part of a system or course.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components/1-basic_structure_components_card_3_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "People"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "das Mitglied",
+    "phonetic": "/das ˈmɪtɡliːt/",
+    "spoken_phonetic_us": "/das ˈmɪtɡliːt/",
+    "search_term": "noun/structure_components/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Miembro",
+        "usage_example": "Sie ist Mitglied des Teams.",
+        "pronunciation_guide_es": "/zi_ist_MIT-glit_des_TIMS/",
+        "usage_example_es": "Ella es miembro del equipo.",
+        "char_count": "7",
+        "usage_context_en": "A person who belongs to a group.",
+        "usage_context_es": "A person who belongs to a group.",
+        "imagePath": "/card_images/nouns/1-basic/structure_components/1-basic_structure_components_card_4_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "People"
+  }
+]

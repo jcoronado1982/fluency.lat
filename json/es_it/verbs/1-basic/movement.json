@@ -1,0 +1,743 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: go]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/movement/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Ir (moverse a un lugar)",
+                "usage_example": "[TRADUCIR AL IT: I go to the gym on Mondays.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Voy al gimnasio los lunes.",
+                "char_count": "one",
+                "usage_context_en": "movimiento/rutina",
+                "usage_context_es": "[TRADUCIR AL IT: movement/routine]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_go_def0.avif"
+            },
+            {
+                "meaning": "Funcionar/Continuar (en expresiones)",
+                "usage_example": "[TRADUCIR AL IT: Is the light going?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Está funcionando la luz?",
+                "char_count": "one",
+                "usage_context_en": "función/actividades",
+                "usage_context_es": "[TRADUCIR AL IT: function/activities]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_go_def1.avif"
+            }
+        ],
+        "group_name": "Action & Movement",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: come]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/movement/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Venir (acercarse)",
+                "usage_example": "[TRADUCIR AL IT: Come here, please.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Ven aquí, por favor.",
+                "char_count": "one",
+                "usage_context_en": "acercamiento/llegada",
+                "usage_context_es": "[TRADUCIR AL IT: approach/arrival]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_11_def0.avif"
+            },
+            {
+                "meaning": "Llegar/Suceder",
+                "usage_example": "[TRADUCIR AL IT: The rain comes in the afternoon.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "La lluvia llega por la tarde.",
+                "char_count": "one",
+                "usage_context_en": "eventos/tiempo",
+                "usage_context_es": "[TRADUCIR AL IT: events/time]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Action & Movement",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: walk]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/move/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Caminar/Andar",
+                "usage_example": "[TRADUCIR AL IT: I walk to the market every morning.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Camino al mercado todas las mañanas.",
+                "char_count": "one",
+                "usage_context_en": "movimiento/ejercicio",
+                "usage_context_es": "[TRADUCIR AL IT: movement/exercise]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "Pasear/Acompañar",
+                "usage_example": "[TRADUCIR AL IT: He is walking the dog.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Él está paseando al perro.",
+                "char_count": "one",
+                "usage_context_en": "mascotas/acompañar",
+                "usage_context_es": "[TRADUCIR AL IT: pets/escorting]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Action & Movement",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: run]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/move/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Correr",
+                "usage_example": "[TRADUCIR AL IT: I run every morning.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Corro todas las mañanas.",
+                "char_count": "one",
+                "usage_context_en": "velocidad/ejercicio",
+                "usage_context_es": "[TRADUCIR AL IT: speed/exercise]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_35_def0.avif"
+            },
+            {
+                "meaning": "Dirigir/Funcionar",
+                "usage_example": "[TRADUCIR AL IT: Who runs this company?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Quién dirige esta empresa?",
+                "char_count": "one",
+                "usage_context_en": "gestión/flujo",
+                "usage_context_es": "[TRADUCIR AL IT: management/flow]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_35_def1.avif"
+            }
+        ],
+        "group_name": "Action & Movement",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: sit]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/rest/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Sentarse",
+                "usage_example": "[TRADUCIR AL IT: Please sit down.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Por favor, siéntate.",
+                "char_count": "one",
+                "usage_context_en": "postura/descanso",
+                "usage_context_es": "[TRADUCIR AL IT: posture/rest]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "Estar ubicado/Posicionado",
+                "usage_example": "[TRADUCIR AL IT: The house sits on a hill.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "La casa está ubicada en una colina.",
+                "char_count": "one",
+                "usage_context_en": "ubicación/posición",
+                "usage_context_es": "[TRADUCIR AL IT: location/position]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Being & State",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: stand]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/position/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Estar de pie",
+                "usage_example": "[TRADUCIR AL IT: Don't stand on the table.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "No te pares en la mesa.",
+                "char_count": "one",
+                "usage_context_en": "postura/espera",
+                "usage_context_es": "[TRADUCIR AL IT: posture/waiting]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "Soportar/Resistir (una situación, idea)",
+                "usage_example": "[TRADUCIR AL IT: I can't stand loud music.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "No soporto la música alta.",
+                "char_count": "one",
+                "usage_context_en": "tolerancia/resistencia",
+                "usage_context_es": "[TRADUCIR AL IT: tolerance/endurance]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Being & State",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: open]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/unseal/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Abrir (una puerta, caja)",
+                "usage_example": "[TRADUCIR AL IT: Can you open the window?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Puedes abrir la ventana?",
+                "char_count": "two",
+                "usage_context_en": "objetos/horario comercial",
+                "usage_context_es": "[TRADUCIR AL IT: objects/business hours]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "Revelar/Desplegar",
+                "usage_example": "[TRADUCIR AL IT: Open your mind to new ideas.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Abre tu mente a nuevas ideas.",
+                "char_count": "two",
+                "usage_context_en": "ideas/discusión",
+                "usage_context_es": "[TRADUCIR AL IT: ideas/discussion]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Handling & Creating",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: help]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/assist/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Ayudar (asistir)",
+                "usage_example": "[TRADUCIR AL IT: Can you help me with this box?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Puedes ayudarme con esta caja?",
+                "char_count": "one",
+                "usage_context_en": "asistencia/tareas",
+                "usage_context_es": "[TRADUCIR AL IT: assistance/tasks]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_29_def0.avif"
+            },
+            {
+                "meaning": "Contribuir/Servir",
+                "usage_example": "[TRADUCIR AL IT: This medicine helps me sleep.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Esta medicina me ayuda a dormir.",
+                "char_count": "one",
+                "usage_context_en": "contribución/beneficio",
+                "usage_context_es": "[TRADUCIR AL IT: contribution/benefit]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_29_def1.avif"
+            }
+        ],
+        "group_name": "Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: turn]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/rotate/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Girar/Voltear",
+                "usage_example": "[TRADUCIR AL IT: Turn left at the next corner.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Gira a la izquierda en la próxima esquina.",
+                "char_count": "one",
+                "usage_context_en": "dirección/movimiento",
+                "usage_context_es": "[TRADUCIR AL IT: direction/movement]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_30_def0.avif"
+            },
+            {
+                "meaning": "Encender/Apagar (con 'on' o 'off')",
+                "usage_example": "[TRADUCIR AL IT: Turn on the light, please.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Enciende la luz, por favor.",
+                "char_count": "one",
+                "usage_context_en": "aparatos/electricidad",
+                "usage_context_es": "[TRADUCIR AL IT: appliances/power]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_30_def1.avif"
+            }
+        ],
+        "group_name": "Action & Movement",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: move]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/change position/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Mover/Moverse",
+                "usage_example": "[TRADUCIR AL IT: Please move your car.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Por favor, mueve tu coche.",
+                "char_count": "one",
+                "usage_context_en": "reubicación/movimiento",
+                "usage_context_es": "[TRADUCIR AL IT: relocation/motion]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_36_def0.avif"
+            },
+            {
+                "meaning": "Mudarse (de casa)",
+                "usage_example": "[TRADUCIR AL IT: We will move to a new apartment.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Nos mudaremos a un apartamento nuevo.",
+                "char_count": "one",
+                "usage_context_en": "residencia/cambio",
+                "usage_context_es": "[TRADUCIR AL IT: residence/change]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_36_def1.avif"
+            }
+        ],
+        "group_name": "Action & Movement",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: leave]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/depart/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Dejar/Abandonar (un lugar o cosa)",
+                "usage_example": "[TRADUCIR AL IT: Don't leave your bag here.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "No dejes tu bolso aquí.",
+                "char_count": "one",
+                "usage_context_en": "objetos/partida",
+                "usage_context_es": "[TRADUCIR AL IT: objects/departure]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "Irse/Partir",
+                "usage_example": "[TRADUCIR AL IT: I must leave now.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Debo irme ahora.",
+                "char_count": "one",
+                "usage_context_en": "partida/tiempo",
+                "usage_context_es": "[TRADUCIR AL IT: departure/time]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Action & Movement",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: touch]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/touch/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Tocar",
+                "usage_example": "[TRADUCIR AL IT: Don't touch that.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "No toques eso.",
+                "char_count": "one",
+                "usage_context_en": "objetos/cuerpo",
+                "usage_context_es": "[TRADUCIR AL IT: objects/body]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_91_def0.avif"
+            },
+            {
+                "meaning": "Conmover/Afectar",
+                "usage_example": "[TRADUCIR AL IT: This story touched me.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Esta historia me conmovió.",
+                "char_count": "one",
+                "usage_context_en": "emociones/impacto",
+                "usage_context_es": "[TRADUCIR AL IT: feelings/impact]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_91_def1.avif"
+            }
+        ],
+        "group_name": "Body & Objects",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: drop]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/drop/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Dejar caer",
+                "usage_example": "[TRADUCIR AL IT: Don't drop it.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "No lo dejes caer.",
+                "char_count": "one",
+                "usage_context_en": "objetos/accidentes",
+                "usage_context_es": "[TRADUCIR AL IT: objects/accidents]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_92_def0.avif"
+            },
+            {
+                "meaning": "Bajar/Disminuir",
+                "usage_example": "[TRADUCIR AL IT: The temperature dropped.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "La temperatura bajó.",
+                "char_count": "one",
+                "usage_context_en": "números/niveles",
+                "usage_context_es": "[TRADUCIR AL IT: numbers/levels]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_92_def1.avif"
+            }
+        ],
+        "group_name": "Body & Objects",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: fall]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/drop/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Caer/Caerse",
+                "usage_example": "[TRADUCIR AL IT: Be careful, don't fall!]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Ten cuidado, ¡no te caigas!",
+                "char_count": "one",
+                "usage_context_en": "accidentes/naturaleza",
+                "usage_context_es": "[TRADUCIR AL IT: accidents/nature]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_64_def0.avif"
+            },
+            {
+                "meaning": "Descender (un valor, temperatura)",
+                "usage_example": "[TRADUCIR AL IT: The temperature is falling.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "La temperatura está bajando.",
+                "char_count": "one",
+                "usage_context_en": "clima/valores",
+                "usage_context_es": "[TRADUCIR AL IT: weather/values]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_64_def1.avif"
+            }
+        ],
+        "group_name": "Action & Movement",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: follow]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/pursue/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Seguir (ir detrás)",
+                "usage_example": "[TRADUCIR AL IT: Follow me to the kitchen.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Sígueme a la cocina.",
+                "char_count": "two",
+                "usage_context_en": "movimiento/dirección",
+                "usage_context_es": "[TRADUCIR AL IT: movement/direction]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "Seguir (instrucciones, reglas)",
+                "usage_example": "[TRADUCIR AL IT: You must follow the rules.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Debes seguir las reglas.",
+                "char_count": "two",
+                "usage_context_en": "reglas/consejo",
+                "usage_context_es": "[TRADUCIR AL IT: rules/advice]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Action & Movement",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: pass]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/go by/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Pasar (por un lugar, tiempo)",
+                "usage_example": "[TRADUCIR AL IT: The time passes very quickly.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "El tiempo pasa muy rápido.",
+                "char_count": "one",
+                "usage_context_en": "tiempo/objetos",
+                "usage_context_es": "[TRADUCIR AL IT: time/objects]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_66_def0.avif"
+            },
+            {
+                "meaning": "Aprobar (un examen, ley)",
+                "usage_example": "[TRADUCIR AL IT: Did you pass your driving test?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Aprobaste tu examen de conducir?",
+                "char_count": "one",
+                "usage_context_en": "exámenes/legislación",
+                "usage_context_es": "[TRADUCIR AL IT: exams/legislation]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_66_def1.avif"
+            }
+        ],
+        "group_name": "Action & Movement",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: enter]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/enter/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Entrar",
+                "usage_example": "[TRADUCIR AL IT: Enter the room.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Entra al cuarto.",
+                "char_count": "one",
+                "usage_context_en": "cuartos/edificios",
+                "usage_context_es": "[TRADUCIR AL IT: rooms/buildings]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_82_def0.avif"
+            },
+            {
+                "meaning": "Ingresar (datos)",
+                "usage_example": "[TRADUCIR AL IT: Enter your password.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Ingresa tu contraseña.",
+                "char_count": "one",
+                "usage_context_en": "formularios/computadoras",
+                "usage_context_es": "[TRADUCIR AL IT: forms/computers]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_82_def1.avif"
+            }
+        ],
+        "group_name": "Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: rest]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/rest/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Descansar",
+                "usage_example": "[TRADUCIR AL IT: Rest a little.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Descansa un poco.",
+                "char_count": "one",
+                "usage_context_en": "salud/cansancio",
+                "usage_context_es": "[TRADUCIR AL IT: health/tiredness]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_88_def0.avif"
+            },
+            {
+                "meaning": "Reposar",
+                "usage_example": "[TRADUCIR AL IT: The book rested on the shelf.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "El libro reposaba en el estante.",
+                "char_count": "one",
+                "usage_context_en": "objetos/posición",
+                "usage_context_es": "[TRADUCIR AL IT: objects/position]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_88_def1.avif"
+            }
+        ],
+        "group_name": "Health & Body",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: visit]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/visit/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Visitar",
+                "usage_example": "[TRADUCIR AL IT: We visit my aunt.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Visitamos a mi tía.",
+                "char_count": "one",
+                "usage_context_en": "familia/viajes",
+                "usage_context_es": "[TRADUCIR AL IT: family/travel]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_81_def0.avif"
+            },
+            {
+                "meaning": "Ir a ver un lugar",
+                "usage_example": "[TRADUCIR AL IT: Let's visit the museum.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Visitemos el museo.",
+                "char_count": "one",
+                "usage_context_en": "lugares/turismo",
+                "usage_context_es": "[TRADUCIR AL IT: places/tourism]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_81_def1.avif"
+            }
+        ],
+        "group_name": "Travel & Social Life",
+        "category": ""
+    }
+]

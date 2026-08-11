@@ -1,0 +1,128 @@
+[
+  {
+    "name": "approximately",
+    "phonetic": "/əˈprɒksɪmətli/",
+    "spoken_phonetic_us": "/əˈprɑksɪmətli/",
+    "search_term": "adverb/degree",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Degree",
+    "definitions": [
+      {
+        "meaning": "Aproximadamente",
+        "usage_example": "It costs approximately 10 dollars.",
+        "pronunciation_guide_es": "/it_COSTS_a-PROK-si-met-li_TEN_DO-lars/",
+        "usage_example_es": "Cuesta aproximadamente 10 dólares.",
+        "char_count": 5,
+        "usage_context_en": "Used to show that something is close to accurate; about.",
+        "usage_context_es": "Usado para mostrar que algo es cercano a lo exacto; alrededor de."
+      }
+    ]
+  },
+  {
+    "name": "mostly",
+    "phonetic": "/ˈmoʊstli/",
+    "spoken_phonetic_us": "/ˈmoʊstli/",
+    "search_term": "adverb/degree",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Degree",
+    "definitions": [
+      {
+        "meaning": "Mayormente / Principalmente",
+        "usage_example": "The team is mostly young players.",
+        "pronunciation_guide_es": "/de_TIM_is_MOUST-li_IONG_PLEI-ers/",
+        "usage_example_es": "El equipo es mayormente jugadores jóvenes.",
+        "char_count": 6,
+        "usage_context_en": "Mainly; for the most part.",
+        "usage_context_es": "Principalmente; en su mayor parte."
+      }
+    ]
+  },
+  {
+    "name": "relatively",
+    "phonetic": "/ˈrɛlətɪvli/",
+    "spoken_phonetic_us": "/ˈrɛlətɪvli/",
+    "search_term": "adverb/degree",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Degree",
+    "definitions": [
+      {
+        "meaning": "Relativamente",
+        "usage_example": "The test was relatively easy.",
+        "pronunciation_guide_es": "/de_TEST_uas_RE-la-tiv-li_I-si/",
+        "usage_example_es": "El examen fue relativamente fácil.",
+        "char_count": 5,
+        "usage_context_en": "In relation or comparison to something else.",
+        "usage_context_es": "En relación o comparación con algo más."
+      }
+    ]
+  },
+  {
+    "name": "significantly",
+    "phonetic": "/sɪɡˈnɪfɪkəntli/",
+    "spoken_phonetic_us": "/sɪɡˈnɪfɪkəntli/",
+    "search_term": "adverb/degree",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Degree",
+    "definitions": [
+      {
+        "meaning": "Significativamente / Considerablemente",
+        "usage_example": "The price increased significantly.",
+        "pronunciation_guide_es": "/de_PRAIS_in-CRIST_sig-NI-fi-cant-li/",
+        "usage_example_es": "El precio aumentó significativamente.",
+        "char_count": 4,
+        "usage_context_en": "In a way that is large or important enough to be noticeable.",
+        "usage_context_es": "De una manera que es lo suficientemente grande o importante como para ser notable."
+      }
+    ]
+  },
+  {
+    "name": "truly",
+    "phonetic": "/ˈtruːli/",
+    "spoken_phonetic_us": "/ˈtruːli/",
+    "search_term": "adverb/degree/emphasis",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Degree",
+    "definitions": [
+      {
+        "meaning": "Verdaderamente / Realmente",
+        "usage_example": "He is a truly good person.",
+        "pronunciation_guide_es": "/hi_is_a_TRU-li_GUD_PER-son/",
+        "usage_example_es": "Él es una persona verdaderamente buena.",
+        "char_count": 6,
+        "usage_context_en": "In a truthful way; genuinely or really.",
+        "usage_context_es": "De una manera veraz; genuinamente o realmente."
+      }
+    ]
+  },
+  {
+    "name": "particularly",
+    "phonetic": "/pəˈtɪkjələli/",
+    "spoken_phonetic_us": "/pərˈtɪkjələrli/",
+    "search_term": "adverb/degree/focus",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Degree",
+    "definitions": [
+      {
+        "meaning": "Particularmente / Especialmente",
+        "usage_example": "I am not particularly busy today.",
+        "pronunciation_guide_es": "/ai_am_NOT_par-TI-kiu-lar-li_BI-si_tu-DEI/",
+        "usage_example_es": "No estoy particularmente ocupado hoy.",
+        "char_count": 6,
+        "usage_context_en": "More than usual; especially.",
+        "usage_context_es": "Más de lo usual; especialmente."
+      }
+    ]
+  }
+]

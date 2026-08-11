@@ -1,0 +1,524 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "heiß",
+    "phonetic": "/haɪs/",
+    "spoken_phonetic_us": "/haɪs/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Caliente",
+        "usage_example": "Der Kaffee ist zu heiß.",
+        "pronunciation_guide_es": "/der_KA-fe_ist_tsu_HAIS/",
+        "usage_example_es": "El café está demasiado caliente.",
+        "char_count": "5",
+        "usage_context_en": "Having a high degree of heat or a high temperature.",
+        "usage_context_es": "Tener un alto grado de calor o una alta temperatura.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_0_def0.avif"
+      },
+      {
+        "meaning": "Picante",
+        "usage_example": "Diese Salsa ist sehr scharf.",
+        "pronunciation_guide_es": "/DI-ze_ZAL-za_ist_ser_SHARF/",
+        "usage_example_es": "Esta salsa es muy picante.",
+        "char_count": "5",
+        "usage_context_en": "Containing spices that cause a burning sensation in the mouth.",
+        "usage_context_es": "Que contiene especias que causan sensación de ardor en la boca.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_0_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "kalt",
+    "phonetic": "/kalt/",
+    "spoken_phonetic_us": "/kalt/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Frío/a",
+        "usage_example": "Meine Hände sind kalt.",
+        "pronunciation_guide_es": "/MAI-ne_HEN-de_zint_KALT/",
+        "usage_example_es": "Mis manos están frías.",
+        "char_count": "4",
+        "usage_context_en": "Having a low temperature.",
+        "usage_context_es": "Tener una temperatura baja.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_1_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "stark",
+    "phonetic": "/ʃtaʁk/",
+    "spoken_phonetic_us": "/ʃtaʁk/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Fuerte",
+        "usage_example": "Er ist ein starker Mann.",
+        "pronunciation_guide_es": "/er_ist_ain_SHTAR-ker_MAN/",
+        "usage_example_es": "Él es un hombre fuerte.",
+        "char_count": "5",
+        "usage_context_en": "Having the power to move heavy weights or perform physically demanding tasks.",
+        "usage_context_es": "Tener el poder de mover pesos pesados o realizar tareas físicamente exigentes.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "schwach",
+    "phonetic": "/ʃvax/",
+    "spoken_phonetic_us": "/ʃvax/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Débil",
+        "usage_example": "Ich fühle mich nach der Krankheit schwach.",
+        "pronunciation_guide_es": "/ish_FUE-le_mish_naj_der_KRANK-hait_SHVAJ/",
+        "usage_example_es": "Me siento débil después de la enfermedad.",
+        "char_count": "6",
+        "usage_context_en": "Having little physical power or energy.",
+        "usage_context_es": "Tener poco poder físico o energía.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_3_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sauber",
+    "phonetic": "/ˈzaʊbɐ/",
+    "spoken_phonetic_us": "/ˈzaʊbɐ/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Limpio/a",
+        "usage_example": "Mein Zimmer ist sauber.",
+        "pronunciation_guide_es": "/main_TSI-mer_ist_ZAU-ber/",
+        "usage_example_es": "Mi cuarto está limpio.",
+        "char_count": "4",
+        "usage_context_en": "Free from dirt, marks, or stains.",
+        "usage_context_es": "Libre de suciedad, marcas o manchas.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_4_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "schmutzig",
+    "phonetic": "/ˈʃmʊtsɪç/",
+    "spoken_phonetic_us": "/ˈʃmʊtsɪç/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Sucio/a",
+        "usage_example": "Deine Schuhe sind schmutzig.",
+        "pronunciation_guide_es": "/DAI-ne_SHU-e_zint_SHMU-tsish/",
+        "usage_example_es": "Tus zapatos están sucios.",
+        "char_count": "4",
+        "usage_context_en": "Covered or marked with an unclean substance.",
+        "usage_context_es": "Cubierto o marcado con una sustancia no limpia.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_5_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "offen",
+    "phonetic": "/ˈɔfən/",
+    "spoken_phonetic_us": "/ˈɔfən/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Abierto/a",
+        "usage_example": "Die Tür ist offen.",
+        "pronunciation_guide_es": "/di_TUER_ist_O-fen/",
+        "usage_example_es": "La puerta está abierta.",
+        "char_count": "4",
+        "usage_context_en": "Not closed or blocked up.",
+        "usage_context_es": "No cerrado o bloqueado.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_6_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "geschlossen",
+    "phonetic": "/ɡəˈʃlɔsən/",
+    "spoken_phonetic_us": "/ɡəˈʃlɔsən/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Cerrado/a",
+        "usage_example": "Das Geschäft ist geschlossen.",
+        "pronunciation_guide_es": "/das_ge-SHEFT_ist_ge-SHLO-sen/",
+        "usage_example_es": "La tienda está cerrada.",
+        "char_count": "4",
+        "usage_context_en": "Not open; shut.",
+        "usage_context_es": "No abierto; cerrado.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_7_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "nass",
+    "phonetic": "/nas/",
+    "spoken_phonetic_us": "/nas/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Mojado/a",
+        "usage_example": "Meine Schuhe sind nass.",
+        "pronunciation_guide_es": "/MAI-ne_SHU-e_zint_NAS/",
+        "usage_example_es": "Mis zapatos están mojados.",
+        "char_count": "4",
+        "usage_context_en": "Covered or saturated with water or another liquid.",
+        "usage_context_es": "Cubierto o saturado de agua u otro líquido.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_8_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "trocken",
+    "phonetic": "/ˈtʁɔkən/",
+    "spoken_phonetic_us": "/ˈtʁɔkən/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Seco/a",
+        "usage_example": "Das Handtuch ist trocken.",
+        "pronunciation_guide_es": "/das_HANT-tuj_ist_TRO-ken/",
+        "usage_example_es": "La toalla está seca.",
+        "char_count": "4",
+        "usage_context_en": "Free from moisture or liquid.",
+        "usage_context_es": "Libre de humedad o líquido.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_9_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "voll",
+    "phonetic": "/fɔl/",
+    "spoken_phonetic_us": "/fɔl/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Lleno/a",
+        "usage_example": "Das Glas ist voll.",
+        "pronunciation_guide_es": "/das_GLAS_ist_FOL/",
+        "usage_example_es": "El vaso está lleno.",
+        "char_count": "4",
+        "usage_context_en": "Containing or holding as much as possible.",
+        "usage_context_es": "Que contiene o sostiene tanto como es posible.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_10_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "leer",
+    "phonetic": "/leːɐ̯/",
+    "spoken_phonetic_us": "/leːɐ̯/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Vacío/a",
+        "usage_example": "Die Flasche ist leer.",
+        "pronunciation_guide_es": "/di_FLA-she_ist_LER/",
+        "usage_example_es": "La botella está vacía.",
+        "char_count": "4",
+        "usage_context_en": "Containing nothing; not filled.",
+        "usage_context_es": "Que no contiene nada; no lleno.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_11_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "warm",
+    "phonetic": "/vaʁm/",
+    "spoken_phonetic_us": "/vaʁm/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Cálido/a / Tibio/a",
+        "usage_example": "Die Suppe ist warm.",
+        "pronunciation_guide_es": "/di_ZU-pe_ist_VARM/",
+        "usage_example_es": "La sopa está tibia.",
+        "char_count": "4",
+        "usage_context_en": "Of a moderately high temperature.",
+        "usage_context_es": "De temperatura moderadamente alta.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_12_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "hell",
+    "phonetic": "/hɛl/",
+    "spoken_phonetic_us": "/hɛl/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Brillante / Luminoso/a",
+        "usage_example": "Das Zimmer ist hell und sonnig.",
+        "pronunciation_guide_es": "/das_TSI-mer_ist_HEL_unt_ZO-nish/",
+        "usage_example_es": "La habitación es luminosa y soleada.",
+        "char_count": "6",
+        "usage_context_en": "Giving out or reflecting a lot of light.",
+        "usage_context_es": "Que emite o refleja mucha luz.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_13_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "dunkel",
+    "phonetic": "/ˈdʊŋkəl/",
+    "spoken_phonetic_us": "/ˈdʊŋkəl/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Oscuro/a",
+        "usage_example": "Das Zimmer ist sehr dunkel.",
+        "pronunciation_guide_es": "/das_TSI-mer_ist_ser_DUN-kel/",
+        "usage_example_es": "La habitación es muy oscura.",
+        "char_count": "5",
+        "usage_context_en": "With little or no light.",
+        "usage_context_es": "Con poca o ninguna luz.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_14_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ruhig",
+    "phonetic": "/ˈʁuːɪç/",
+    "spoken_phonetic_us": "/ˈʁuːɪç/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Silencioso/a / Tranquilo/a",
+        "usage_example": "Die Bibliothek ist ein ruhiger Ort.",
+        "pronunciation_guide_es": "/di_bi-bli-o-TEK_ist_ain_RU-i-ger_ORT/",
+        "usage_example_es": "La biblioteca es un lugar silencioso.",
+        "char_count": "6",
+        "usage_context_en": "Making little or no noise.",
+        "usage_context_es": "Que hace poco o ningún ruido.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_15_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "laut",
+    "phonetic": "/laʊt/",
+    "spoken_phonetic_us": "/laʊt/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Ruidoso/a",
+        "usage_example": "Die Party war zu laut.",
+        "pronunciation_guide_es": "/di_PAR-ti_var_tsu_LAUT/",
+        "usage_example_es": "La fiesta era demasiado ruidosa.",
+        "char_count": "5",
+        "usage_context_en": "Making a lot of noise.",
+        "usage_context_es": "Que hace mucho ruido.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_16_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "kaputt",
+    "phonetic": "/kaˈpʊt/",
+    "spoken_phonetic_us": "/kaˈpʊt/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Roto/a / Dañado/a",
+        "usage_example": "Mein Telefon ist kaputt.",
+        "pronunciation_guide_es": "/main_te-le-FON_ist_ka-PUT/",
+        "usage_example_es": "Mi teléfono está roto.",
+        "char_count": "4",
+        "usage_context_en": "Damaged and not working correctly.",
+        "usage_context_es": "Dañado y sin funcionar correctamente.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_17_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Fresco / Agradable",
+        "pronunciation_guide_es": "/trink_DI-zes_VA-ser_es_ist_SHOEN_KUEL/",
+        "usage_context_en": "Moderately cold in a pleasant way",
+        "usage_context_es": "Moderadamente frío de forma agradable",
+        "usage_example": "Trink dieses Wasser, es ist schön kühl.",
+        "usage_example_es": "Bebe este agua, está agradable y fresca.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_18_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Physical State & Condition",
+    "is_verb": false,
+    "name": "kühl",
+    "phonetic": "/kyːl/",
+    "search_term": "adjective/basic/physical_state_condition",
+    "spoken_phonetic_us": "/kyːl/"
+  }
+]

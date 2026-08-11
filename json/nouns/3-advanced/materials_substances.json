@@ -1,0 +1,100 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "atmosphere",
+    "phonetic": "/ˈætməsfɪr/",
+    "spoken_phonetic_us": "/ˈætməsfɪr/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Atmósfera (aire)",
+        "usage_example": "The atmosphere is thin at high altitudes.",
+        "pronunciation_guide_es": "/di_AT-mos-fir_is_ZIN_at_HAI_AL-ti-tuds/",
+        "usage_example_es": "La atmósfera es delgada a grandes altitudes.",
+        "char_count": "7",
+        "usage_context_en": "The gases surrounding the earth or another planet.",
+        "usage_context_es": "Los gases que rodean la tierra u otro planeta.",
+        "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_15_def0.avif"
+      },
+      {
+        "meaning": "Ambiente (de un lugar)",
+        "usage_example": "The restaurant has a good atmosphere.",
+        "pronunciation_guide_es": "/de_RES-to-rant_has_a_gud_AT-mos-fir/",
+        "usage_example_es": "El restaurante tiene un buen ambiente.",
+        "char_count": "6",
+        "usage_context_en": "The pervading tone or mood of a place or situation.",
+        "usage_context_es": "El tono o estado de ánimo dominante de un lugar o situación.",
+        "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_15_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "commodity",
+    "phonetic": "/kəˈmɒdəti/",
+    "spoken_phonetic_us": "/kəˈmɑdəti/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Producto / Mercancía",
+        "usage_example": "Oil is a valuable commodity.",
+        "pronunciation_guide_es": "/OIL_is_a_VA-liu-bol_co-MO-di-ti/",
+        "usage_example_es": "El petróleo es un producto valioso.",
+        "char_count": "5",
+        "usage_context_en": "A raw material or primary agricultural product that can be bought and sold.",
+        "usage_context_es": "Una materia prima o producto agrícola primario que se puede comprar y vender.",
+        "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_28_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "substance",
+    "phonetic": "/ˈsʌbstəns/",
+    "spoken_phonetic_us": "/ˈsʌbstəns/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Sustancia / Material",
+        "usage_example": "It's a dangerous substance.",
+        "pronunciation_guide_es": "/its_a_DEIN-yer-os_SOBS-tans/",
+        "usage_example_es": "Es una sustancia peligrosa.",
+        "char_count": "4",
+        "usage_context_en": "A particular kind of matter with uniform properties.",
+        "usage_context_es": "Un tipo particular de materia con propiedades uniformes.",
+        "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_106_def0.avif"
+      },
+      {
+        "meaning": "Sustancia (contenido / esencia)",
+        "usage_example": "The article lacks substance.",
+        "pronunciation_guide_es": "/di_AR-ti-col_LAKS_SOBS-tans/",
+        "usage_example_es": "El artículo carece de sustancia.",
+        "char_count": "4",
+        "usage_context_en": "The real or essential meaning; significance.",
+        "usage_context_es": "El significado real o esencial; significancia.",
+        "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_106_def1.avif"
+      }
+    ]
+  }
+]

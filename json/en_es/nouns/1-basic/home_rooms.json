@@ -1,0 +1,415 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Hogar",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "home",
+        "usage_example": "Voy a casa.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I am going home.",
+        "char_count": "one",
+        "usage_context_en": "The place where you live",
+        "usage_context_es": "El lugar donde vives",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_0_def0.avif",
+        "target_meaning_es": "Hogar"
+      },
+      {
+        "meaning": "home",
+        "usage_example": "Ella vive en un hogar de ancianos.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She lives in a nursing home.",
+        "char_count": "5",
+        "usage_context_en": "A place where people live and are cared for, such as a nursing home.",
+        "usage_context_es": "Un lugar donde las personas viven y reciben cuidado, como un hogar de ancianos.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_0_def1.avif",
+        "target_meaning_es": "Institución o residencia"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Casa (edificio)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/building/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "house",
+        "usage_example": "Esa es una casa grande.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "That is a big house.",
+        "char_count": "one",
+        "usage_context_en": "A building for living in",
+        "usage_context_es": "Un edificio para vivir",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_1_def0.avif",
+        "target_meaning_es": "Casa (edificio)"
+      },
+      {
+        "meaning": "house",
+        "usage_example": "La cámara aprobó el proyecto de ley.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The House passed the bill.",
+        "char_count": "5",
+        "usage_context_en": "A legislative or deliberative body.",
+        "usage_context_es": "Un cuerpo legislativo o deliberativo.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_1_def1.avif",
+        "target_meaning_es": "Cámara legislativa"
+      },
+      {
+        "meaning": "house",
+        "usage_example": "La Casa de Windsor es famosa.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The House of Windsor is famous.",
+        "char_count": "5",
+        "usage_context_en": "A royal or noble family line.",
+        "usage_context_es": "Una familia real o noble.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_1_def2.avif",
+        "target_meaning_es": "Familia noble / dinastía"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Habitación / Cuarto",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/house/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "room",
+        "usage_example": "Mi habitación es pequeña.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "My room is small.",
+        "char_count": "one",
+        "usage_context_en": "A part of the inside of a building",
+        "usage_context_es": "Una parte del interior de un edificio",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_2_def0.avif",
+        "target_meaning_es": "Habitación / Cuarto"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Cocina",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/house/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "kitchen",
+        "usage_example": "Estoy en la cocina.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I am in the kitchen.",
+        "char_count": "two",
+        "usage_context_en": "A room for cooking",
+        "usage_context_es": "Un cuarto para cocinar",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_3_def0.avif",
+        "target_meaning_es": "Cocina"
+      }
+    ],
+    "group_name": "Household",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Baño",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/house/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "bathroom",
+        "usage_example": "¿Dónde está el baño?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Where is the bathroom?",
+        "char_count": "two",
+        "usage_context_en": "A room with a toilet and sink",
+        "usage_context_es": "Un cuarto con un inodoro y un lavamanos",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_4_def0.avif",
+        "target_meaning_es": "Baño"
+      }
+    ],
+    "group_name": "Household",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Dormitorio / Habitación",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/house/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "bedroom",
+        "usage_example": "Mi dormitorio es grande.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "My bedroom is large.",
+        "char_count": "two",
+        "usage_context_en": "A room for sleeping",
+        "usage_context_es": "Un cuarto para dormir",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_5_def0.avif",
+        "target_meaning_es": "Dormitorio / Habitación"
+      }
+    ],
+    "group_name": "Household",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Piso / Suelo (de un cuarto)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/household/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "floor",
+        "usage_example": "Las llaves están en el piso.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The keys are on the floor.",
+        "char_count": "one",
+        "usage_context_en": "The surface of a room you walk on",
+        "usage_context_es": "La superficie de un cuarto sobre la que caminas",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_6_def0.avif",
+        "target_meaning_es": "Piso / Suelo (de un cuarto)"
+      }
+    ],
+    "group_name": "Household",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Pared / Muro",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/household/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "wall",
+        "usage_example": "El cuadro está en la pared.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The picture is on the wall.",
+        "char_count": "one",
+        "usage_context_en": "The side of a room or building",
+        "usage_context_es": "El lado de un cuarto o edificio",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_7_def0.avif",
+        "target_meaning_es": "Pared / Muro"
+      }
+    ],
+    "group_name": "Household",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Techo (exterior) / Tejado",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/household/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "roof",
+        "usage_example": "El gato está en el techo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The cat is on the roof.",
+        "char_count": "one",
+        "usage_context_en": "The cover on top of a building",
+        "usage_context_es": "La cubierta en la cima de un edificio",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_8_def0.avif",
+        "target_meaning_es": "Techo (exterior) / Tejado"
+      }
+    ],
+    "group_name": "Household",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Techo (interior)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/household/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "ceiling",
+        "usage_example": "La lámpara cuelga del techo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The lamp hangs from the ceiling.",
+        "char_count": "two",
+        "usage_context_en": "The inside top surface of a room",
+        "usage_context_es": "La superficie superior interna de un cuarto",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_9_def0.avif",
+        "target_meaning_es": "Techo (interior)"
+      }
+    ],
+    "group_name": "Household",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Sala / Sala de estar",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/home/seed",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "living room",
+        "usage_example": "Vemos televisión en la sala.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "We watch TV in the living room.",
+        "char_count": "11",
+        "usage_context_en": "The main room in a home for sitting and relaxing.",
+        "usage_context_es": "La habitación principal de una casa para sentarse y relajarse.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_10_def0.avif",
+        "target_meaning_es": "Sala / Sala de estar"
+      }
+    ],
+    "group_name": "Home",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Comedor",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/home/seed",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "dining room",
+        "usage_example": "La cena es en el comedor.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Dinner is in the dining room.",
+        "char_count": "11",
+        "usage_context_en": "A room where people eat meals.",
+        "usage_context_es": "Un cuarto donde la gente come.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_11_def0.avif",
+        "target_meaning_es": "Comedor"
+      }
+    ],
+    "group_name": "Home",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Garaje",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/home/seed",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "garage",
+        "usage_example": "El carro está en el garaje.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The car is in the garage.",
+        "char_count": "6",
+        "usage_context_en": "A place where a car is kept.",
+        "usage_context_es": "Un lugar donde se guarda un carro.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_12_def0.avif",
+        "target_meaning_es": "Garaje"
+      }
+    ],
+    "group_name": "Home",
+    "category": ""
+  }
+]

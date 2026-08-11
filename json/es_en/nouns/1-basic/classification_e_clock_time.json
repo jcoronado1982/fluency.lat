@@ -1,0 +1,272 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Cosa",
+        "pronunciation_guide_es": "/uat_is_DAT_THING/",
+        "usage_context_en": "An object or idea (very general)",
+        "usage_context_es": "Un objeto o idea (muy general)",
+        "usage_example": "What is that thing?",
+        "usage_example_es": "¿Qué es esa cosa?",
+        "imagePath": "/card_images/nouns/1-basic/classification_e_clock_time/1-basic_classification_e_clock_time_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "thing",
+    "phonetic": "/θɪŋ/",
+    "search_term": "noun/object/essentials",
+    "spoken_phonetic_us": "/θɪŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Tiempo / Hora",
+        "pronunciation_guide_es": "/uat_TAIM_is_it/",
+        "usage_context_en": "The concept of duration, a specific moment",
+        "usage_context_es": "El concepto de duración, un momento específico",
+        "usage_example": "What time is it?",
+        "usage_example_es": "¿Qué hora es?",
+        "imagePath": "/card_images/nouns/1-basic/classification_e_clock_time/1-basic_classification_e_clock_time_card_1_def0.avif"
+      },
+      {
+        "char_count": "2",
+        "meaning": "Ocasión / Vez",
+        "pronunciation_guide_es": "/ji_KOLd_mi_TRII_TAIMs/",
+        "usage_context_en": "An instance or occasion when something happens.",
+        "usage_context_es": "Una ocasión o vez en la que algo ocurre.",
+        "usage_example": "He called me three times.",
+        "usage_example_es": "Me llamó tres veces.",
+        "imagePath": "/card_images/nouns/1-basic/classification_e_clock_time/1-basic_classification_e_clock_time_card_1_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "time",
+    "phonetic": "/taɪm/",
+    "search_term": "noun/time/essentials",
+    "spoken_phonetic_us": "/taɪm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Ejemplo",
+        "pronunciation_guide_es": "/kan_iu_GIV_mi_an_igSAMpol/",
+        "usage_context_en": "A thing that shows what others are like",
+        "usage_context_es": "Una cosa que muestra cómo son otras",
+        "usage_example": "Can you give me an example?",
+        "usage_example_es": "¿Puedes darme un ejemplo?",
+        "imagePath": "/card_images/nouns/1-basic/classification_e_clock_time/1-basic_classification_e_clock_time_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "example",
+    "phonetic": "/ɪɡˈzæmpəl/",
+    "search_term": "noun/concept/sample/essentials",
+    "spoken_phonetic_us": "/ɪɡˈzæmpəl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Hora",
+        "pronunciation_guide_es": "/ai_uil_bi_BAK_in_an_AUR/",
+        "usage_context_en": "A period of 60 minutes",
+        "usage_context_es": "Un período de 60 minutos",
+        "usage_example": "I will be back in an hour.",
+        "usage_example_es": "Volveré en una hora.",
+        "imagePath": "/card_images/nouns/1-basic/classification_e_clock_time/1-basic_classification_e_clock_time_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "hour",
+    "phonetic": "/ˈaʊər/",
+    "search_term": "noun/time/essentials",
+    "spoken_phonetic_us": "/ˈaʊər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Tipo / Clase",
+        "pronunciation_guide_es": "/uat_KAIND_of_MIUzik_du_iu_LAIK/",
+        "usage_context_en": "A group of things with similar characteristics",
+        "usage_context_es": "Un grupo de cosas con características similares",
+        "usage_example": "What kind of music do you like?",
+        "usage_example_es": "¿Qué tipo de música te gusta?",
+        "imagePath": "/card_images/nouns/1-basic/classification_e_clock_time/1-basic_classification_e_clock_time_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "kind",
+    "phonetic": "/kaɪnd/",
+    "search_term": "noun/category/essentials",
+    "spoken_phonetic_us": "/kaɪnd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Minuto",
+        "pronunciation_guide_es": "/UEIT_a_MINit/",
+        "usage_context_en": "A period of 60 seconds",
+        "usage_context_es": "Un período de 60 segundos",
+        "usage_example": "Wait a minute.",
+        "usage_example_es": "Espera un minuto.",
+        "imagePath": "/card_images/nouns/1-basic/classification_e_clock_time/1-basic_classification_e_clock_time_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "minute",
+    "phonetic": "/ˈmɪnɪt/",
+    "search_term": "noun/time/essentials",
+    "spoken_phonetic_us": "/ˈmɪnɪt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Pedazo / Pieza",
+        "pronunciation_guide_es": "/ai_NID_a_PIS_of_PEIper/",
+        "usage_context_en": "A part of something that has been separated",
+        "usage_context_es": "Una parte de algo que ha sido separada",
+        "usage_example": "I need a piece of paper.",
+        "usage_example_es": "Necesito un pedazo de papel.",
+        "imagePath": "/card_images/nouns/1-basic/classification_e_clock_time/1-basic_classification_e_clock_time_card_6_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "piece",
+    "phonetic": "/piːs/",
+    "search_term": "noun/object/part/essentials",
+    "spoken_phonetic_us": "/piːs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Segundo",
+        "pronunciation_guide_es": "/yost_a_SEkond_PLIS/",
+        "usage_context_en": "A very short unit of time",
+        "usage_context_es": "Una unidad de tiempo muy corta",
+        "usage_example": "Just a second, please.",
+        "usage_example_es": "Solo un segundo, por favor.",
+        "imagePath": "/card_images/nouns/1-basic/classification_e_clock_time/1-basic_classification_e_clock_time_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Time",
+    "is_verb": false,
+    "name": "second",
+    "phonetic": "/ˈsɛkənd/",
+    "search_term": "noun/time/essentials",
+    "spoken_phonetic_us": "/ˈsɛkənd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "type",
+    "phonetic": "/taɪp/",
+    "spoken_phonetic_us": "/taɪp/",
+    "search_term": "noun/classification/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Tipo",
+        "usage_example": "What type of movie do you like?",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "¿Qué tipo de película te gusta?",
+        "char_count": "7",
+        "usage_context_en": "A category or kind of something.",
+        "usage_context_es": "A category or kind of something.",
+        "imagePath": "/card_images/nouns/1-basic/classification_e_clock_time/1-basic_classification_e_clock_time_card_8_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "General Concepts"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Reloj (de pared o mesa)",
+        "pronunciation_guide_es": "/de_KLOK_is_on_de_UOL/",
+        "usage_context_en": "A device that shows time (not worn)",
+        "usage_context_es": "Un dispositivo que muestra la hora (no se lleva puesto)",
+        "usage_example": "The clock is on the wall.",
+        "usage_example_es": "El reloj está en la pared.",
+        "imagePath": "/card_images/nouns/1-basic/classification_e_clock_time/1-basic_classification_e_clock_time_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "clock",
+    "phonetic": "/klɒk/",
+    "search_term": "noun/object/time/essentials",
+    "spoken_phonetic_us": "/klɑːk/"
+  }
+]

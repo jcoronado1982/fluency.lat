@@ -1,0 +1,234 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Por ejemplo",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "phrase/example",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "for instance",
+        "usage_example": "Muchos países, por ejemplo, España, tienen siestas.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Many countries, for instance, Spain, have siestas.",
+        "char_count": "7",
+        "usage_context_en": "Used as a synonym for 'for example'.",
+        "usage_context_es": "Usado como sinónimo de 'for example'.",
+        "imagePath": "/card_images/connectors/2-intermediate/examples_and_conclusions/2-intermediate_examples_and_conclusions_card_0_def0.avif",
+        "target_meaning_es": "Por ejemplo"
+      }
+    ],
+    "group_name": "Connectors: Example",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Tal como / Tales como",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "phrase/example",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "such as",
+        "usage_example": "Me gustan las frutas cítricas, tales como las naranjas.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I like citrus fruits, such as oranges.",
+        "char_count": "6",
+        "usage_context_en": "Used to introduce one or more examples that belong to a category.",
+        "usage_context_es": "Usado para introducir uno o más ejemplos que pertenecen a una categoría.",
+        "imagePath": "/card_images/connectors/2-intermediate/examples_and_conclusions/2-intermediate_examples_and_conclusions_card_1_def0.avif",
+        "target_meaning_es": "Tal como / Tales como"
+      }
+    ],
+    "group_name": "Connectors: Example",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Al final / A fin de cuentas",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "phrase/conclusion",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "in the end",
+        "usage_example": "Trabajamos duro y, al final, lo logramos.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "We worked hard, and in the end, we succeeded.",
+        "char_count": "8",
+        "usage_context_en": "Used to indicate a final result or conclusion after a long process.",
+        "usage_context_es": "Usado para indicar un resultado final o conclusión después de un largo proceso.",
+        "imagePath": "/card_images/connectors/2-intermediate/examples_and_conclusions/2-intermediate_examples_and_conclusions_card_2_def0.avif",
+        "target_meaning_es": "Al final / A fin de cuentas"
+      }
+    ],
+    "group_name": "Connectors: Conclusion",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Para resumir",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "phrase/conclusion",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "to sum up",
+        "usage_example": "Para resumir, fue un gran viaje.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "To sum up, it was a great trip.",
+        "char_count": "6",
+        "usage_context_en": "Used to introduce a brief summary of the main points.",
+        "usage_context_es": "Usado para introducir un breve resumen de los puntos principales.",
+        "imagePath": "/card_images/connectors/2-intermediate/examples_and_conclusions/2-intermediate_examples_and_conclusions_card_3_def0.avif",
+        "target_meaning_es": "Para resumir"
+      }
+    ],
+    "group_name": "Connectors: Conclusion",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "En resumen / En pocas palabras",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "phrase/conclusion",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "in short",
+        "usage_example": "La reunión fue larga y aburrida. En resumen, una pérdida de tiempo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The meeting was long and boring. In short, a waste of time.",
+        "char_count": "10",
+        "usage_context_en": "Used to summarize a situation briefly.",
+        "usage_context_es": "Usado para resumir una situación brevemente.",
+        "imagePath": "/card_images/connectors/2-intermediate/examples_and_conclusions/2-intermediate_examples_and_conclusions_card_4_def0.avif",
+        "target_meaning_es": "En resumen / En pocas palabras"
+      }
+    ],
+    "group_name": "Connectors: Conclusion",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "En general / Con todo",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "phrase/conclusion",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "all in all",
+        "usage_example": "En general, fue un buen día.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "All in all, it was a good day.",
+        "char_count": "6",
+        "usage_context_en": "Used to provide a conclusion, considering all aspects.",
+        "usage_context_es": "Usado para dar una conclusión, considerando todos los aspectos.",
+        "imagePath": "/card_images/connectors/2-intermediate/examples_and_conclusions/2-intermediate_examples_and_conclusions_card_5_def0.avif",
+        "target_meaning_es": "En general / Con todo"
+      }
+    ],
+    "group_name": "Connectors: Conclusion",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "En general",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "adverb/conclusion",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "overall",
+        "usage_example": "En general, el proyecto fue un éxito.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Overall, the project was a success.",
+        "char_count": "5",
+        "usage_context_en": "Taking everything into account; in general.",
+        "usage_context_es": "Teniendo todo en cuenta; en general.",
+        "imagePath": "/card_images/connectors/2-intermediate/examples_and_conclusions/2-intermediate_examples_and_conclusions_card_6_def0.avif",
+        "target_meaning_es": "En general"
+      }
+    ],
+    "group_name": "Connectors: Conclusion",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "En conclusión (formal)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "phrase/conclusion/formal",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "in conclusion",
+        "usage_example": "En conclusión, los resultados apoyan nuestra teoría.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "In conclusion, the results support our theory.",
+        "char_count": "7",
+        "usage_context_en": "Used to signal the end or summary of a speech or text.",
+        "usage_context_es": "Usado para señalar el final o resumen de un discurso o texto.",
+        "imagePath": "/card_images/connectors/2-intermediate/examples_and_conclusions/2-intermediate_examples_and_conclusions_card_7_def0.avif",
+        "target_meaning_es": "En conclusión (formal)"
+      }
+    ],
+    "group_name": "Connectors: Conclusion",
+    "category": ""
+  }
+]

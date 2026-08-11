@@ -1,0 +1,299 @@
+/* --- Unified System Dark Theme Vowel Chart --- */
+
+.modal {
+    position: fixed;
+    inset: 0;
+    padding: max(12px, env(safe-area-inset-top, 0px)) max(12px, env(safe-area-inset-right, 0px)) max(12px, env(safe-area-inset-bottom, 0px)) max(12px, env(safe-area-inset-left, 0px));
+    box-sizing: border-box;
+    /* Oscurecimiento profundo en armonía con #0f172a */
+    background: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: fadeInBg 0.25s ease-out;
+}
+
+@keyframes fadeInBg {
+    from { background-color: rgba(15, 23, 42, 0); }
+    to { background-color: rgba(15, 23, 42, 0.75); }
+}
+
+.modalContent {
+    position: relative;
+    /* Misma superficie elevada que la tarjeta (app-brand.css) */
+    background: var(--brand-surface-card, #1b2438);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 32px 32px 24px;
+    width: min(580px, 94vw);
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    animation: scaleIn 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-sizing: border-box;
+    /* Tipografía global del sistema */
+    font-family: var(--font-family-app, 'Plus Jakarta Sans', system-ui, sans-serif);
+}
+
+@keyframes scaleIn {
+    from { opacity: 0; transform: scale(0.96); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.closeButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #94a3b8;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.closeButton:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.modalTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f8fafc;
+    margin: 0 0 24px;
+    letter-spacing: -0.02em;
+}
+
+.chartWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Eje superior */
+.axisTop {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5% 0 calc(46px + 5%);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #64748b;
+}
+
+.chartRow {
+    display: flex;
+    align-items: stretch;
+    gap: 12px;
+}
+
+/* Eje izquierdo */
+.axisLeft {
+    width: 40px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8% 0;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #64748b;
+    text-align: right;
+}
+
+/* Contenedor del trapecio */
+.ipaChart {
+    position: relative;
+    flex: 1;
+    aspect-ratio: 4 / 3;
+}
+
+.chartSvg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.chartLineOuter {
+    /* Relleno translúcido para el trapecio */
+    fill: rgba(30, 41, 59, 0.5);
+    stroke: #475569;
+    stroke-width: 2;
+    stroke-linejoin: round;
+}
+
+.chartLineInner {
+    stroke: #334155;
+    stroke-width: 1.5;
+    stroke-dasharray: 6 6;
+}
+
+/* Botones de símbolos IPA (Teclas unificadas al estilo Flashcard) */
+.ipaBtn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 34px;
+    height: 34px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--font-family-app, 'Plus Jakarta Sans', system-ui, sans-serif);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    z-index: 2;
+    padding: 0;
+    /* Estilo Glassmorphic oscuro */
+    background: rgba(30, 41, 59, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #f1f5f9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+}
+
+.ipaBtn:hover {
+    transform: translate(-50%, -50%) scale(1.12) translateY(-2px);
+    z-index: 10;
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+}
+
+/* Vocales largas / tensas (Toque azul neón) */
+.ipaBtnLong {
+    background: rgba(14, 165, 233, 0.15);
+    border-color: rgba(14, 165, 233, 0.3);
+    color: #f472b6;
+}
+
+.ipaBtnLong:hover {
+    background: rgba(14, 165, 233, 0.25);
+    border-color: #f472b6;
+    color: #ffffff;
+    box-shadow: 0 0 15px rgba(14, 165, 233, 0.4);
+}
+
+/* Vocales cortas / relajadas (Toque gris/blanco puro) */
+.ipaBtnShort {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.12);
+    color: #e2e8f0;
+}
+
+.ipaBtnShort:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Estado: sonando */
+/* !important: estados de reproducción/error deben ganar al :hover del botón. */
+.ipaBtnActive {
+    transform: translate(-50%, -50%) scale(1.15);
+    background: #10b981 !important;
+    border-color: #34d399 !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.25), 0 0 20px rgba(16, 185, 129, 0.5) !important;
+    z-index: 10;
+}
+
+/* Estado: error de audio */
+.ipaBtnError {
+    background: rgba(220, 38, 38, 0.2) !important;
+    border-color: #ef4444 !important;
+    color: #fca5a5 !important;
+    animation: shake 0.4s ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translate(-50%, -50%); }
+    25% { transform: translate(calc(-50% - 4px), -50%); }
+    50% { transform: translate(calc(-50% + 4px), -50%); }
+    75% { transform: translate(calc(-50% - 4px), -50%); }
+}
+
+/* Leyenda */
+.legend {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 24px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #94a3b8;
+}
+
+.legendItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.legendDot {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+}
+
+.legendDotLong {
+    background: rgba(14, 165, 233, 0.15);
+    border: 1px solid rgba(14, 165, 233, 0.3);
+}
+
+.legendDotShort {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Laptop: baja el modal 20px para despegarlo del header y limita su alto
+   para que el borde inferior siga dentro del viewport. */
+@media (min-width: 901px) and (max-width: 1600px) and (max-height: 900px) {
+    .modalContent {
+        top: 20px;
+        max-height: calc(var(--fc-real-vh, 100dvh) - 54px);
+        overflow-y: auto;
+    }
+}
+
+/* Responsividad para móviles */
+@media (max-width: 600px) {
+    .modalContent {
+        padding: 24px 20px 20px;
+        max-height: min(92dvh, calc(100dvh - 24px));
+        overflow-y: auto;
+    }
+    
+    .axisTop {
+        font-size: 10px;
+        padding: 0 2% 0 calc(36px + 2%);
+    }
+
+    .axisLeft {
+        width: 32px;
+        font-size: 10px;
+    }
+
+    .ipaBtn {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+}

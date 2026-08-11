@@ -1,0 +1,58 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "appliance",
+        "phonetic": "/əˈplaɪəns/",
+        "spoken_phonetic_us": "/əˈplaɪəns/",
+        "search_term": "noun/household/machine",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Electrodoméstico]",
+                "usage_example": "The kitchen has new appliances.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE appliance AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The kitchen has new appliances.]",
+                "char_count": "1",
+                "usage_context_en": "[TRADUCIR AL PT: Una máquina usada en el hogar para un propósito específico]",
+                "usage_context_es": "A machine used in the home for a specific purpose",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_409_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "outlet",
+        "phonetic": "/ˈaʊtlet/",
+        "spoken_phonetic_us": "/ˈaʊtlet/",
+        "search_term": "noun/household/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Tomacorriente / Enchufe]",
+                "usage_example": "Plug the charger into the electrical outlet.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE outlet AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Plug the charger into the electrical outlet.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Un lugar en la pared para conectar enchufes eléctricos]",
+                "usage_context_es": "A place on the wall to connect electric plugs",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    }
+]

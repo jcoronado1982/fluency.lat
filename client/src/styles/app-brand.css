@@ -1,0 +1,45 @@
+/* Tokens de marca — app autenticada (flashcards, dashboard, pronombres, admin, login) */
+.app-layout,
+.minimal-app-shell,
+.flashcard-page-wrapper:not([data-landing-demo]),
+.admin-page,
+.arcadeContainer,
+.arcadeStatePanel,
+.completionOverlay,
+.courseContainer {
+  --brand-rose: #f472b6;
+  --brand-rose-dark: #be185d;
+  --brand-orange: #fb923c;
+  --brand-gradient: linear-gradient(90deg, #be185d, #f472b6 55%, #fb923c);
+  --brand-gradient-btn: linear-gradient(135deg, #be185d, #f472b6 50%, #fb923c);
+  --brand-surface: #151c2c;
+  /* Profundidad de la zona de estudio (jul 2026): lienzo casi negro y
+     superficie elevada sólida para que la tarjeta se recorte del fondo.
+     La variante demo de landing NO consume estos tokens (usa --lp-demo-*). */
+  --brand-canvas: #0b1120;
+  --brand-surface-card: #1b2438;
+  --brand-border-subtle: rgba(255, 255, 255, 0.08);
+  --brand-icon-idle: #94a3b8;
+  /* Lenguaje visual de la app instalada. Estos tokens se consumen solo
+     dentro de media queries `display-mode: standalone`; declararlos aquí
+     evita que dashboard, estudio y dock reinterpreten la misma superficie. */
+  --pwa-canvas: #05070d;
+  --pwa-card-radius: 20px;
+  --pwa-dock-radius: 24px;
+  --pwa-border: rgba(255, 255, 255, 0.22);
+  --pwa-text-primary: #f8fafc;
+  --pwa-text-secondary: #e2e8f0;
+  --pwa-text-muted: #cbd5e1;
+  --pwa-glass-surface: rgba(7, 10, 17, 0.72);
+  --pwa-glass-surface-strong: rgba(5, 7, 13, 0.88);
+  /* Barra de navegación inferior (patrón WhatsApp iOS, ver menu.jpg):
+     píldora flotante de cristal translúcido; la pestaña activa lleva una
+     pastilla clara neutra que envuelve icono + etiqueta. */
+  --pwa-nav-surface: rgba(18, 22, 30, 0.62);
+  --pwa-nav-border: rgba(255, 255, 255, 0.1);
+  --pwa-nav-active-bg: rgba(255, 255, 255, 0.15);
+  /* Grosor único de trazo para TODA la iconografía de la app (familia
+     Lucide/Feather, unidades del viewBox de 24). Las reglas del kit lo
+     aplican con ámbito [data-variant='app'] para no alterar el demo. */
+  --brand-icon-stroke: 2;
+}

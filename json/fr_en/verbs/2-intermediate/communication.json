@@ -1,0 +1,431 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "meet",
+        "phonetic": "/miːt/",
+        "spoken_phonetic_us": "/miːt/",
+        "search_term": "verb/encounter/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Reunirse/Encontrarse con]",
+                "usage_example": "Let's meet at the cafe.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE meet AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Let's meet at the cafe.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: social/cita]",
+                "usage_context_es": "social/appointment",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Conocer (a una persona por primera vez)]",
+                "usage_example": "Nice to meet you.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE meet AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Nice to meet you.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: presentación/conocido]",
+                "usage_context_es": "introduction/acquaintance",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "suggest",
+        "phonetic": "/səˈʤɛst/",
+        "spoken_phonetic_us": "/səˈʤɛst/",
+        "search_term": "verb/propose/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Sugerir/Proponer]",
+                "usage_example": "I suggest we take a break.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE suggest AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I suggest we take a break.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: descansos/recomendaciones]",
+                "usage_context_es": "breaks/recommendations",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Indicar/Insinuar]",
+                "usage_example": "The evidence suggests he is guilty.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE suggest AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The evidence suggests he is guilty.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: pistas/implicación]",
+                "usage_context_es": "clues/implication",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "report",
+        "phonetic": "/rɪˈpɔːrt/",
+        "spoken_phonetic_us": "/rɪˈpɔːrt/",
+        "search_term": "verb/inform/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Informar/Notificar]",
+                "usage_example": "Please report any problem to the manager.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE report AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Please report any problem to the manager.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: problemas/noticias]",
+                "usage_context_es": "problems/news",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Presentarse/Acudir]",
+                "usage_example": "Report to the office at 9 AM.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE report AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Report to the office at 9 AM.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: asistencia/deber]",
+                "usage_context_es": "attendance/duty",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "explain",
+        "phonetic": "/ɪkˈspleɪn/",
+        "spoken_phonetic_us": "/ɪkˈspleɪn/",
+        "search_term": "verb/clarify/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Explicar]",
+                "usage_example": "Can you explain the rules to me?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE explain AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Can you explain the rules to me?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: reglas/razones]",
+                "usage_context_es": "rules/reasons",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Aclarar/Justificar]",
+                "usage_example": "Let me explain my point of view.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE explain AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Let me explain my point of view.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: opinión/descripción]",
+                "usage_context_es": "opinion/description",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "speak",
+        "phonetic": "/spiːk/",
+        "spoken_phonetic_us": "/spiːk/",
+        "search_term": "verb/talk/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Hablar (un idioma, formalmente)]",
+                "usage_example": "Do you speak English?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE speak AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Do you speak English?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: idioma/formal]",
+                "usage_context_es": "language/formal",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Dar un discurso/Expresar]",
+                "usage_example": "She spoke about her experiences.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE speak AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: She spoke about her experiences.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: discurso público/expresión]",
+                "usage_context_es": "public speaking/expression",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "discuss",
+        "phonetic": "/dɪˈskʌs/",
+        "spoken_phonetic_us": "/dɪˈskʌs/",
+        "search_term": "verb/talk about/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Discutir/Debatir (un tema)]",
+                "usage_example": "We need to discuss the new plan.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE discuss AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: We need to discuss the new plan.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: temas/reuniones]",
+                "usage_context_es": "topics/meetings",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_49_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Hablar sobre algo]",
+                "usage_example": "Let's discuss where to go for dinner.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE discuss AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Let's discuss where to go for dinner.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: conversación/decisiones]",
+                "usage_context_es": "conversation/decisions",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_49_def1.avif"
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "describe",
+        "phonetic": "/dɪˈskraɪb/",
+        "spoken_phonetic_us": "/dɪˈskraɪb/",
+        "search_term": "verb/explain appearance/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Describir]",
+                "usage_example": "Can you describe the man you saw?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE describe AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Can you describe the man you saw?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: apariencia/detalles]",
+                "usage_context_es": "appearance/details",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Relatar]",
+                "usage_example": "The book describes the history of the city.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE describe AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The book describes the history of the city.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: información/narración]",
+                "usage_context_es": "information/narration",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "promise",
+        "phonetic": "/ˈprɒmɪs/",
+        "spoken_phonetic_us": "/ˈprɑːmɪs/",
+        "search_term": "verb/assure/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Prometer]",
+                "usage_example": "I promise I will call you later.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE promise AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I promise I will call you later.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: garantía/compromiso]",
+                "usage_context_es": "assurance/commitment",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Dar indicios de]",
+                "usage_example": "The clear sky promises a good day.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE promise AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The clear sky promises a good day.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: futuro/potencial]",
+                "usage_context_es": "future/potential",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Feelings & Reactions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "mention",
+        "phonetic": "/ˈmɛnʃən/",
+        "spoken_phonetic_us": "/ˈmɛnʃən/",
+        "search_term": "verb/refer to/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Mencionar]",
+                "usage_example": "Did he mention my name?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE mention AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Did he mention my name?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: conversación/información]",
+                "usage_context_es": "conversation/information",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Hacer alusión a]",
+                "usage_example": "Don't mention it.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE mention AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Don't mention it.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: cortesía/referencia]",
+                "usage_context_es": "politeness/reference",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "order",
+        "phonetic": "/ˈɔːrdər/",
+        "spoken_phonetic_us": "/ˈɔːrdər/",
+        "search_term": "verb/request/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Pedir (en un restaurante, en línea)]",
+                "usage_example": "Are you ready to order?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE order AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Are you ready to order?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: restaurante/comercio]",
+                "usage_context_es": "restaurant/commerce",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_68_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Ordenar/Mandar (dar una orden)]",
+                "usage_example": "The captain ordered the soldiers to attack.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE order AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The captain ordered the soldiers to attack.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: comando/secuencia]",
+                "usage_context_es": "command/sequence",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_68_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "practice",
+        "phonetic": "/ˈpræktɪs/",
+        "spoken_phonetic_us": "/ˈpræktɪs/",
+        "search_term": "verb/rehearse/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Practicar]",
+                "usage_example": "You need to practice every day.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE practice AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: You need to practice every day.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: habilidad/repetición]",
+                "usage_context_es": "skill/repetition",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Ejercer (una profesión)]",
+                "usage_example": "He practices law in New York.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE practice AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He practices law in New York.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: profesión/hábito]",
+                "usage_context_es": "profession/habit",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    }
+]

@@ -1,0 +1,220 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: whose]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/interrogative/relative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "¿De quién?",
+                "usage_example": "[TRADUCIR AL IT: Whose keys are these?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿De quién son estas llaves?",
+                "char_count": "4",
+                "usage_context_en": "Usado como determinante interrogativo para preguntar sobre posesión.",
+                "usage_context_es": "[TRADUCIR AL IT: Used as an interrogative determiner to ask about possession.]",
+                "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_12_def0.avif"
+            },
+            {
+                "meaning": "Cuyo/a / Cuyos/as",
+                "usage_example": "[TRADUCIR AL IT: The man whose car was stolen.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "El hombre cuyo carro fue robado.",
+                "char_count": "6",
+                "usage_context_en": "Usado como determinante relativo para mostrar posesión.",
+                "usage_context_es": "[TRADUCIR AL IT: Used as a relative determiner to show possession.]",
+                "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_12_def1.avif"
+            }
+        ],
+        "group_name": "Interrogativo/Relativo",
+        "category": "Intermediate"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: those who]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/interrogative/relative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Aquellos que / Los que",
+                "usage_example": "[TRADUCIR AL IT: Help is available for those who need it.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Hay ayuda disponible para aquellos que la necesiten.",
+                "char_count": "8",
+                "usage_context_en": "Una forma formal de referirse a 'la gente que'.",
+                "usage_context_es": "[TRADUCIR AL IT: A formal way to refer to 'the people who'.]",
+                "imagePath": "/card_images/pronouns/3-advanced/3-advanced_card_11_def0.avif"
+            }
+        ],
+        "group_name": "Interrogativo/Relativo",
+        "category": "Advanced"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: the one who]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/interrogative/relative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "El que / La que",
+                "usage_example": "[TRADUCIR AL IT: She is the one who called.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Ella es la que llamó.",
+                "char_count": "6",
+                "usage_context_en": "Usado para especificar una sola persona de un grupo.",
+                "usage_context_es": "[TRADUCIR AL IT: Used to specify a single person from a group.]",
+                "imagePath": "/card_images/pronouns/3-advanced/3-advanced_card_12_def0.avif"
+            }
+        ],
+        "group_name": "Interrogativo/Relativo",
+        "category": "Advanced"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: the ones who]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/interrogative/relative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Los que / Las que",
+                "usage_example": "[TRADUCIR AL IT: They are the ones who helped.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Ellos son los que ayudaron.",
+                "char_count": "6",
+                "usage_context_en": "Usado para especificar múltiples personas de un grupo.",
+                "usage_context_es": "[TRADUCIR AL IT: Used to specify multiple people from a group.]",
+                "imagePath": "/card_images/pronouns/3-advanced/3-advanced_card_13_def0.avif"
+            }
+        ],
+        "group_name": "Interrogativo/Relativo",
+        "category": "Advanced"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: whoever]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/indefinite-relative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Quienquiera que / Quien sea",
+                "usage_example": "[TRADUCIR AL IT: Whoever finishes first wins a prize.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Quienquiera que termine primero gana un premio.",
+                "char_count": "6",
+                "usage_context_en": "Usado para significar 'cualquier persona que'.",
+                "usage_context_es": "[TRADUCIR AL IT: Used to mean 'any person who'.]",
+                "imagePath": "/card_images/pronouns/3-advanced/3-advanced_card_0_def0.avif"
+            }
+        ],
+        "group_name": "Indefinido/Relativo",
+        "category": "Advanced"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: whatever]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/indefinite-relative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Lo que sea / Cualquier cosa que",
+                "usage_example": "[TRADUCIR AL IT: You can do whatever you want.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Puedes hacer lo que sea que quieras.",
+                "char_count": "6",
+                "usage_context_en": "Usado para significar 'cualquier cosa o todo lo que'.",
+                "usage_context_es": "[TRADUCIR AL IT: Used to mean 'anything or everything that'.]",
+                "imagePath": "/card_images/pronouns/3-advanced/3-advanced_card_1_def0.avif"
+            },
+            {
+                "meaning": "Lo que sea (informal, indiferencia)",
+                "usage_example": "[TRADUCIR AL IT: Do you want pizza or pasta? Whatever.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Quieres pizza o pasta? Lo que sea (No importa).",
+                "char_count": "6",
+                "usage_context_en": "Usado informalmente para mostrar indiferencia.",
+                "usage_context_es": "[TRADUCIR AL IT: Used informally to show indifference.]",
+                "imagePath": "/card_images/pronouns/3-advanced/3-advanced_card_1_def1.avif"
+            }
+        ],
+        "group_name": "Indefinido/Relativo",
+        "category": "Advanced"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: whichever]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/indefinite-relative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Cualquiera (que) (opciones limitadas)",
+                "usage_example": "[TRADUCIR AL IT: Choose whichever one you like.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Elige cualquiera que te guste (de estas opciones).",
+                "char_count": "5",
+                "usage_context_en": "Usado para significar 'cualquiera de un conjunto limitado'.",
+                "usage_context_es": "[TRADUCIR AL IT: Used to mean 'any one from a limited set'.]",
+                "imagePath": "/card_images/pronouns/3-advanced/3-advanced_card_2_def0.avif"
+            }
+        ],
+        "group_name": "Indefinido/Relativo",
+        "category": "Advanced"
+    }
+]

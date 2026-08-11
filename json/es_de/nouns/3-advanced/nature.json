@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/nature/3-advanced_nature_card_0_def0.avif",
+        "meaning": "Contaminación",
+        "pronunciation_guide_es": "/vir_MUE-sen_di_LUFT-fer-shmut-sung_re-du-TSI-ren/",
+        "usage_context_en": "The presence of harmful substances or contaminants in the environment.",
+        "usage_context_es": "La presencia de sustancias dañinas o contaminantes en el medio ambiente.",
+        "usage_example": "Wir müssen die Luftverschmutzung reduzieren.",
+        "usage_example_es": "Necesitamos reducir la contaminación del aire."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature & Environment",
+    "is_verb": false,
+    "name": "die Verschmutzung",
+    "phonetic": "/diː fɛɐˈʃmʊtsʊŋ/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/diː fɛɐˈʃmʊtsʊŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/nature/3-advanced_nature_card_1_def0.avif",
+        "meaning": "Ecosistema",
+        "pronunciation_guide_es": "/ain_VALT_ist_ain_kom-PLEK-ses_OE-ko-zues-tem/",
+        "usage_context_en": "A community of living things and their environment.",
+        "usage_context_es": "A community of living things and their environment.",
+        "usage_example": "Ein Wald ist ein komplexes Ökosystem.",
+        "usage_example_es": "Un bosque es un ecosistema complejo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature & Environment",
+    "is_verb": false,
+    "name": "das Ökosystem",
+    "phonetic": "/das ˈøːkozʏsteːm/",
+    "search_term": "noun/nature/added",
+    "spoken_phonetic_us": "/das ˈøːkozʏsteːm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/3-advanced/nature/3-advanced_nature_card_2_def0.avif",
+        "meaning": "Biodiversidad",
+        "pronunciation_guide_es": "/der_PARK_SHUETST_di_LO-ka-le_bi-o-di-ver-zi-TAET/",
+        "usage_context_en": "The variety of plant and animal life in a place.",
+        "usage_context_es": "The variety of plant and animal life in a place.",
+        "usage_example": "Der Park schützt die lokale Biodiversität.",
+        "usage_example_es": "El parque protege la biodiversidad local."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature & Environment",
+    "is_verb": false,
+    "name": "die Biodiversität",
+    "phonetic": "/diː biodivɛʁziˈtɛːt/",
+    "search_term": "noun/nature/added",
+    "spoken_phonetic_us": "/diː biodivɛʁziˈtɛːt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/nature/3-advanced_nature_card_3_def0.avif",
+        "meaning": "Sostenibilidad",
+        "pronunciation_guide_es": "/NACH-hal-tish-kait_SHTET_im_TSEN-trum_der_po-li-TIK/",
+        "usage_context_en": "The ability to continue without harming resources.",
+        "usage_context_es": "The ability to continue without harming resources.",
+        "usage_example": "Nachhaltigkeit steht im Zentrum der Politik.",
+        "usage_example_es": "La sostenibilidad es central en la política."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature & Environment",
+    "is_verb": false,
+    "name": "die Nachhaltigkeit",
+    "phonetic": "/diː ˈnaːxhaltɪçkaɪt/",
+    "search_term": "noun/nature/added",
+    "spoken_phonetic_us": "/diː ˈnaːxhaltɪçkaɪt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/nature/3-advanced_nature_card_4_def0.avif",
+        "meaning": "Emisión",
+        "pronunciation_guide_es": "/das_NOI-e_ge-ZETS_be-GREN-tst_KO-len-shtof-e-mi-si-o-nen/",
+        "usage_context_en": "Something released, especially gas or light.",
+        "usage_context_es": "Something released, especially gas or light.",
+        "usage_example": "Das neue Gesetz begrenzt Kohlenstoffemissionen.",
+        "usage_example_es": "La nueva ley limita la emisión de carbono."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature & Environment",
+    "is_verb": false,
+    "name": "die Emission",
+    "phonetic": "/diː emɪˈsi̯oːn/",
+    "search_term": "noun/nature/added",
+    "spoken_phonetic_us": "/diː emɪˈsi̯oːn/"
+  }
+]

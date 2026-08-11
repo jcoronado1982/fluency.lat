@@ -1,0 +1,8 @@
+.statusDot {
+  width: 10px;
+  height: 10px;
+  flex: 0 0 10px;
+  background: #fb923c;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgb(251 146 60 / 18%);
+}

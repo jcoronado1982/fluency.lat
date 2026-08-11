@@ -1,0 +1,386 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_0_def0.avif",
+        "meaning": "¿Quién / Quiénes?",
+        "pronunciation_guide_es": "/ver_ist_DI-ze_per-ZON/",
+        "usage_context_en": "Used as an interrogative pronoun to ask about a person.",
+        "usage_context_es": "Usado como pronombre interrogativo para preguntar sobre una persona.",
+        "usage_example": "Wer ist diese Person?",
+        "usage_example_es": "¿Quién es esa persona?"
+      },
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_0_def1.avif",
+        "meaning": "Que / Quien / El cual (para personas)",
+        "pronunciation_guide_es": "/der_MAN_der_mish_AN-ge-ru-fen_hat_ist_HIR/",
+        "usage_context_en": "Used as a relative pronoun to introduce a clause about a person.",
+        "usage_context_es": "Usado como pronombre relativo para introducir una cláusula sobre una persona.",
+        "usage_example": "Der Mann, der mich angerufen hat, ist hier.",
+        "usage_example_es": "El hombre que me llamó está aquí."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Interrogativo/Relativo",
+    "is_verb": false,
+    "name": "wer",
+    "phonetic": "/veːɐ̯/",
+    "search_term": "pronoun/interrogative/relative",
+    "spoken_phonetic_us": "/veːɐ̯/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_1_def0.avif",
+        "meaning": "Me / Mí",
+        "pronunciation_guide_es": "/er_GAB_mir_das_BUJ/",
+        "usage_context_en": "The pronoun for the 1st person singular as the object.",
+        "usage_context_es": "El pronombre de la 1ª persona singular como objeto.",
+        "usage_example": "Er gab mir das Buch.",
+        "usage_example_es": "Él me dio el libro (a mí)."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Objeto",
+    "is_verb": false,
+    "name": "mir",
+    "phonetic": "/miːɐ̯/",
+    "search_term": "pronoun/object",
+    "spoken_phonetic_us": "/miːɐ̯/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_2_def0.avif",
+        "meaning": "Qué / Cuál (pregunta)",
+        "pronunciation_guide_es": "/vi_HAIST_du/",
+        "usage_context_en": "Used as an interrogative word to ask for information (open choice).",
+        "usage_context_es": "Usado como palabra interrogativa para pedir información (elección abierta).",
+        "usage_example": "Wie heißt du?",
+        "usage_example_es": "¿Cuál es tu nombre?"
+      },
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_2_def1.avif",
+        "meaning": "Lo que (pronombre relativo)",
+        "pronunciation_guide_es": "/ish_VAIS_nisht_vas_ish_TUN_zol/",
+        "usage_context_en": "Used as a relative pronoun to refer to 'the thing(s) that'.",
+        "usage_context_es": "Usado como pronombre relativo para referirse a 'la(s) cosa(s) que'.",
+        "usage_example": "Ich weiß nicht, was ich tun soll.",
+        "usage_example_es": "No sé qué hacer. (No sé lo que debo hacer)."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Interrogativo/Relativo",
+    "is_verb": false,
+    "name": "was",
+    "phonetic": "/vas/",
+    "search_term": "pronoun/interrogative/relative",
+    "spoken_phonetic_us": "/vas/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_3_def0.avif",
+        "meaning": "Le / Lo / A él",
+        "pronunciation_guide_es": "/ish_HA-be_in_GES-tern_AN-ge-ru-fen/",
+        "usage_context_en": "The pronoun for the 3rd person singular (male) as the object.",
+        "usage_context_es": "El pronombre de la 3ª persona singular (masculino) como objeto.",
+        "usage_example": "Ich habe ihn gestern angerufen.",
+        "usage_example_es": "Lo llamé ayer (a él)."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Objeto",
+    "is_verb": false,
+    "name": "ihn",
+    "phonetic": "/iːn/",
+    "search_term": "pronoun/object",
+    "spoken_phonetic_us": "/iːn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_4_def0.avif",
+        "meaning": "¿Cuál / Cuáles?",
+        "pronunciation_guide_es": "/VEL-she_FAR-be_be-FOR-tsukst_du/",
+        "usage_context_en": "Used as an interrogative word to ask about a limited choice.",
+        "usage_context_es": "Usado como palabra interrogativa para preguntar sobre una elección limitada.",
+        "usage_example": "Welche Farbe bevorzugst du?",
+        "usage_example_es": "¿Cuál color prefieres?"
+      },
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_4_def1.avif",
+        "meaning": "Que / El cual / La cual",
+        "pronunciation_guide_es": "/das_AU-to_VEL-shes_ROT_ist_ist_MAINS/",
+        "usage_context_en": "Used as a relative pronoun to introduce a clause about a thing.",
+        "usage_context_es": "Usado como pronombre relativo para introducir una cláusula sobre una cosa.",
+        "usage_example": "Das Auto, welches rot ist, ist meins.",
+        "usage_example_es": "El carro que es rojo es mío."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Interrogativo/Relativo",
+    "is_verb": false,
+    "name": "welche",
+    "phonetic": "/ˈvɛlçə/",
+    "search_term": "pronoun/interrogative/relative",
+    "spoken_phonetic_us": "/ˈvɛlçə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_5_def0.avif",
+        "meaning": "Nos / Nosotros/as",
+        "pronunciation_guide_es": "/er_VAR-tet_auf_UNS/",
+        "usage_context_en": "The pronoun for the 1st person plural as the object.",
+        "usage_context_es": "El pronombre de la 1ª persona plural como objeto.",
+        "usage_example": "Er wartet auf uns.",
+        "usage_example_es": "Él nos está esperando (a nosotros)."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Objeto",
+    "is_verb": false,
+    "name": "uns",
+    "phonetic": "/ʊns/",
+    "search_term": "pronoun/object",
+    "spoken_phonetic_us": "/ʊns/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_6_def0.avif",
+        "meaning": "A quién / A quien",
+        "pronunciation_guide_es": "/ven_hast_du_tsum_TRE-fen_AIN-ge-la-den/",
+        "usage_context_en": "Used as the object form of who in formal English.",
+        "usage_context_es": "Used as the object form of who in formal English.",
+        "usage_example": "Wen hast du zum Treffen eingeladen?",
+        "usage_example_es": "¿A quién invitaste a la reunión?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Interrogativo/Relativo",
+    "is_verb": false,
+    "name": "wen",
+    "phonetic": "/veːn/",
+    "search_term": "pronoun/interrogative_pronouns/added",
+    "spoken_phonetic_us": "/veːn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_7_def0.avif",
+        "meaning": "Los / Las / Les / A ellos/as",
+        "pronunciation_guide_es": "/ish_KE-ne_zi_nisht/",
+        "usage_context_en": "The pronoun for the 3rd person plural as the object.",
+        "usage_context_es": "El pronombre de la 3ª persona plural como objeto.",
+        "usage_example": "Ich kenne sie nicht.",
+        "usage_example_es": "No los conozco (a ellos)."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Objeto",
+    "is_verb": false,
+    "name": "sie",
+    "phonetic": "/ziː/",
+    "search_term": "pronoun/object",
+    "spoken_phonetic_us": "/ziː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_8_def0.avif",
+        "meaning": "Quién más",
+        "pronunciation_guide_es": "/ver_ZONST_MOESH-te_mit_uns_KO-men/",
+        "usage_context_en": "Used to ask about an additional person.",
+        "usage_context_es": "Used to ask about an additional person.",
+        "usage_example": "Wer sonst möchte mit uns kommen?",
+        "usage_example_es": "¿Quién más quiere venir con nosotros?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Interrogativo/Relativo",
+    "is_verb": false,
+    "name": "wer sonst",
+    "phonetic": "/veːɐ̯ zɔnst/",
+    "search_term": "pronoun/interrogative_pronouns/added",
+    "spoken_phonetic_us": "/veːɐ̯ zɔnst/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_9_def0.avif",
+        "meaning": "Tú / Usted / Ustedes (Sujeto)",
+        "pronunciation_guide_es": "/du_bist_main_FROINT/",
+        "usage_context_en": "The pronoun for the 2nd person (the listener) as the subject.",
+        "usage_context_es": "El pronombre de la 2ª persona (el oyente) como sujeto.",
+        "usage_example": "Du bist mein Freund.",
+        "usage_example_es": "Tú eres mi amigo."
+      },
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_9_def1.avif",
+        "meaning": "Te / Ti / Le / A usted / Les / A ustedes (Objeto)",
+        "pronunciation_guide_es": "/ish_VER-de_dir_HEL-fen/",
+        "usage_context_en": "The pronoun for the 2nd person (the listener) as the object.",
+        "usage_context_es": "El pronombre de la 2ª persona (el oyente) como objeto.",
+        "usage_example": "Ich werde dir helfen.",
+        "usage_example_es": "Te ayudaré."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Subject",
+    "is_verb": false,
+    "name": "du",
+    "phonetic": "/duː/",
+    "search_term": "pronoun/subject/object",
+    "spoken_phonetic_us": "/duː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_10_def0.avif",
+        "meaning": "(Sujeto neutro) / Ello",
+        "pronunciation_guide_es": "/es_ist_KALT_DRAU-sen/",
+        "usage_context_en": "The pronoun for the 3rd person singular (thing/animal) as the subject.",
+        "usage_context_es": "El pronombre de la 3ª persona singular (cosa/animal) como sujeto.",
+        "usage_example": "Es ist kalt draußen.",
+        "usage_example_es": "Hace frío afuera. (Ello está frío afuera)."
+      },
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_10_def1.avif",
+        "meaning": "Lo / La (Objeto neutro)",
+        "pronunciation_guide_es": "/ish_fer-SHTE-e_es_nisht/",
+        "usage_context_en": "The pronoun for the 3rd person singular (thing/animal) as the object.",
+        "usage_context_es": "El pronombre de la 3ª persona singular (cosa/animal) como objeto.",
+        "usage_example": "Ich verstehe es nicht.",
+        "usage_example_es": "No lo entiendo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Subject",
+    "is_verb": false,
+    "name": "es",
+    "phonetic": "/ɛs/",
+    "search_term": "pronoun/subject/object",
+    "spoken_phonetic_us": "/ɛs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_11_def0.avif",
+        "meaning": "La / Le / A ella (Objeto)",
+        "pronunciation_guide_es": "/ish_KE-ne_zi/",
+        "usage_context_en": "The pronoun for the 3rd person singular (female) as the object.",
+        "usage_context_es": "El pronombre de la 3ª persona singular (femenino) como objeto.",
+        "usage_example": "Ich kenne sie.",
+        "usage_example_es": "La conozco (a ella)."
+      },
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_11_def1.avif",
+        "meaning": "Su / Sus (Posesivo de ella)",
+        "pronunciation_guide_es": "/das_ist_IR_BUJ/",
+        "usage_context_en": "The possessive determiner for the 3rd person singular (female).",
+        "usage_context_es": "El determinante posesivo de la 3ª persona singular (femenino).",
+        "usage_example": "Das ist ihr Buch.",
+        "usage_example_es": "Este es su libro (de ella)."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Objeto",
+    "is_verb": false,
+    "name": "sie",
+    "phonetic": "/ziː/",
+    "search_term": "pronoun/object/possessive-adjective",
+    "spoken_phonetic_us": "/ziː/"
+  }
+]

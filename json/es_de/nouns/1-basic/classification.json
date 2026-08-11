@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Cosa",
+        "pronunciation_guide_es": "/vas_ist_das_fuer_ain_DING/",
+        "usage_context_en": "An object or idea (very general)",
+        "usage_context_es": "Un objeto o idea (muy general)",
+        "usage_example": "Was ist das für ein Ding?",
+        "usage_example_es": "¿Qué es esa cosa?",
+        "imagePath": "/card_images/nouns/1-basic/classification/1-basic_classification_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "das Ding",
+    "phonetic": "/das dɪŋ/",
+    "search_term": "noun/object/essentials",
+    "spoken_phonetic_us": "/das dɪŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Ejemplo",
+        "pronunciation_guide_es": "/kanst_du_mir_ain_BAI-shpil_GE-ben/",
+        "usage_context_en": "A thing that shows what others are like",
+        "usage_context_es": "Una cosa que muestra cómo son otras",
+        "usage_example": "Kannst du mir ein Beispiel geben?",
+        "usage_example_es": "¿Puedes darme un ejemplo?",
+        "imagePath": "/card_images/nouns/1-basic/classification/1-basic_classification_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "das Beispiel",
+    "phonetic": "/das ˈbaɪʃpiːl/",
+    "search_term": "noun/concept/sample/essentials",
+    "spoken_phonetic_us": "/das ˈbaɪʃpiːl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Tipo / Clase",
+        "pronunciation_guide_es": "/VEL-she_ART_fon_mu-ZIK_MAKST_du/",
+        "usage_context_en": "A group of things with similar characteristics",
+        "usage_context_es": "Un grupo de cosas con características similares",
+        "usage_example": "Welche Art von Musik magst du?",
+        "usage_example_es": "¿Qué tipo de música te gusta?",
+        "imagePath": "/card_images/nouns/1-basic/classification/1-basic_classification_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Art",
+    "phonetic": "/diː aːɐt/",
+    "search_term": "noun/category/essentials",
+    "spoken_phonetic_us": "/diː aːɐt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Pedazo / Pieza",
+        "pronunciation_guide_es": "/ish_BRAU-che_ain_SHTUEK_pa-PIR/",
+        "usage_context_en": "A part of something that has been separated",
+        "usage_context_es": "Una parte de algo que ha sido separada",
+        "usage_example": "Ich brauche ein Stück Papier.",
+        "usage_example_es": "Necesito un pedazo de papel.",
+        "imagePath": "/card_images/nouns/1-basic/classification/1-basic_classification_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "das Stück",
+    "phonetic": "/das ʃtʏk/",
+    "search_term": "noun/object/part/essentials",
+    "spoken_phonetic_us": "/das ʃtʏk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "der Typ",
+    "phonetic": "/deːɐ tyːp/",
+    "spoken_phonetic_us": "/deːɐ tyːp/",
+    "search_term": "noun/classification/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Tipo",
+        "usage_example": "Welchen Typ Film magst du?",
+        "pronunciation_guide_es": "/VEL-shen_TUEP_FILM_MAKST_du/",
+        "usage_example_es": "¿Qué tipo de película te gusta?",
+        "char_count": "7",
+        "usage_context_en": "A category or kind of something.",
+        "usage_context_es": "A category or kind of something.",
+        "imagePath": "/card_images/nouns/1-basic/classification/1-basic_classification_card_4_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "General Concepts"
+  }
+]

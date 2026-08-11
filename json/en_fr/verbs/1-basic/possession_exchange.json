@@ -1,0 +1,425 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: have]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/ownership/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "have",
+                "usage_example": "[TRADUCIR AL FR: They have a big house.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "They have a big house.",
+                "char_count": "one",
+                "usage_context_en": "ownership/family",
+                "usage_context_es": "[TRADUCIR AL FR: ownership/family]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_have_def0.avif"
+            },
+            {
+                "meaning": "have (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Let's have dinner together.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Let's have dinner together.",
+                "char_count": "one",
+                "usage_context_en": "meals/activities",
+                "usage_context_es": "[TRADUCIR AL FR: meals/activities]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_have_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: get]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/obtain/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "get",
+                "usage_example": "[TRADUCIR AL FR: I need to get a new coat.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I need to get a new coat.",
+                "char_count": "one",
+                "usage_context_en": "shopping/receiving",
+                "usage_context_es": "[TRADUCIR AL FR: shopping/receiving]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_get_def0.avif"
+            },
+            {
+                "meaning": "get (def 2)",
+                "usage_example": "[TRADUCIR AL FR: We get home late.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "We get home late.",
+                "char_count": "one",
+                "usage_context_en": "arrival/travel",
+                "usage_context_es": "[TRADUCIR AL FR: arrival/travel]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_get_def1.avif"
+            },
+            {
+                "meaning": "get (def 3)",
+                "usage_example": "[TRADUCIR AL FR: It is getting late.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "It is getting late.",
+                "char_count": "one",
+                "usage_context_en": "state change/emotions",
+                "usage_context_es": "[TRADUCIR AL FR: state change/emotions]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "get (def 4)",
+                "usage_example": "[TRADUCIR AL FR: I don't get it.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I don't get it.",
+                "char_count": "one",
+                "usage_context_en": "comprehension/understanding",
+                "usage_context_es": "[TRADUCIR AL FR: comprehension/understanding]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "get (def 5)",
+                "usage_example": "[TRADUCIR AL FR: Can you get me a pen?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Can you get me a pen?",
+                "char_count": "one",
+                "usage_context_en": "bringing/fetching",
+                "usage_context_es": "[TRADUCIR AL FR: bringing/fetching]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: take]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/transport/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "take",
+                "usage_example": "[TRADUCIR AL FR: Take the book from the table.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Take the book from the table.",
+                "char_count": "one",
+                "usage_context_en": "grabbing/receiving",
+                "usage_context_es": "[TRADUCIR AL FR: grabbing/receiving]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_take_def0.avif"
+            },
+            {
+                "meaning": "take (def 2)",
+                "usage_example": "[TRADUCIR AL FR: He takes the bus to work.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He takes the bus to work.",
+                "char_count": "one",
+                "usage_context_en": "transport/escorting",
+                "usage_context_es": "[TRADUCIR AL FR: transport/escorting]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_take_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: give]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/transfer/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "give",
+                "usage_example": "[TRADUCIR AL FR: Give me the book, please.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Give me the book, please.",
+                "char_count": "one",
+                "usage_context_en": "handing/presenting",
+                "usage_context_es": "[TRADUCIR AL FR: handing/presenting]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_12_def0.avif"
+            },
+            {
+                "meaning": "give (def 2)",
+                "usage_example": "[TRADUCIR AL FR: She gives good advice.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She gives good advice.",
+                "char_count": "one",
+                "usage_context_en": "advice/opportunity",
+                "usage_context_es": "[TRADUCIR AL FR: advice/opportunity]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_12_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: buy]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/purchase/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "buy",
+                "usage_example": "[TRADUCIR AL FR: I need to buy some milk.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I need to buy some milk.",
+                "char_count": "one",
+                "usage_context_en": "shopping/groceries",
+                "usage_context_es": "[TRADUCIR AL FR: shopping/groceries]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "buy (def 2)",
+                "usage_example": "[TRADUCIR AL FR: He bought her a new car.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He bought her a new car.",
+                "char_count": "one",
+                "usage_context_en": "gifts/belief",
+                "usage_context_es": "[TRADUCIR AL FR: gifts/belief]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: pay]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/money/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "pay",
+                "usage_example": "[TRADUCIR AL FR: I need to pay the rent today.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I need to pay the rent today.",
+                "char_count": "one",
+                "usage_context_en": "money/bills",
+                "usage_context_es": "[TRADUCIR AL FR: money/bills]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "pay (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Pay attention to the teacher.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Pay attention to the teacher.",
+                "char_count": "one",
+                "usage_context_en": "focus/courtesy",
+                "usage_context_es": "[TRADUCIR AL FR: focus/courtesy]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: keep]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/retain/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "keep",
+                "usage_example": "[TRADUCIR AL FR: Keep the change.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Keep the change.",
+                "char_count": "one",
+                "usage_context_en": "possession/promise",
+                "usage_context_es": "[TRADUCIR AL FR: possession/promise]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_25_def0.avif"
+            },
+            {
+                "meaning": "keep (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Keep walking straight.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Keep walking straight.",
+                "char_count": "one",
+                "usage_context_en": "continuity/action",
+                "usage_context_es": "[TRADUCIR AL FR: continuity/action]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_25_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: hold]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/grasp/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "hold",
+                "usage_example": "[TRADUCIR AL FR: Hold the baby carefully.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Hold the baby carefully.",
+                "char_count": "one",
+                "usage_context_en": "grasp/support",
+                "usage_context_es": "[TRADUCIR AL FR: grasp/support]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_40_def0.avif"
+            },
+            {
+                "meaning": "hold (def 2)",
+                "usage_example": "[TRADUCIR AL FR: This box holds many toys.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "This box holds many toys.",
+                "char_count": "one",
+                "usage_context_en": "containment/restriction",
+                "usage_context_es": "[TRADUCIR AL FR: containment/restriction]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_40_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: send]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/dispatch/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "send",
+                "usage_example": "[TRADUCIR AL FR: I will send you an email tomorrow.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I will send you an email tomorrow.",
+                "char_count": "one",
+                "usage_context_en": "communication/post",
+                "usage_context_es": "[TRADUCIR AL FR: communication/post]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_63_def0.avif"
+            },
+            {
+                "meaning": "send (def 2)",
+                "usage_example": "[TRADUCIR AL FR: The sun sends light and heat.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The sun sends light and heat.",
+                "char_count": "one",
+                "usage_context_en": "nature/production",
+                "usage_context_es": "[TRADUCIR AL FR: nature/production]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_63_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: sell]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/trade/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "sell",
+                "usage_example": "[TRADUCIR AL FR: We sell coffee and tea.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "We sell coffee and tea.",
+                "char_count": "one",
+                "usage_context_en": "commerce/goods",
+                "usage_context_es": "[TRADUCIR AL FR: commerce/goods]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_67_def0.avif"
+            },
+            {
+                "meaning": "sell (def 2)",
+                "usage_example": "[TRADUCIR AL FR: They sold me the idea right away.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "They sold me the idea right away.",
+                "char_count": "one",
+                "usage_context_en": "persuasion/marketing",
+                "usage_context_es": "[TRADUCIR AL FR: persuasion/marketing]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_67_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    }
+]

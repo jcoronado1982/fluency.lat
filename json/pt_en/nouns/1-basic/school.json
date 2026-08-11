@@ -1,0 +1,656 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "school",
+        "phonetic": "/skuːl/",
+        "spoken_phonetic_us": "/skuːl/",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Escuela / Colegio]",
+                "usage_example": "The children are at school.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE school AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The children are at school.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un lugar donde los niños van a aprender]",
+                "usage_context_es": "A place where children go to learn",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_11_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Grupo de peces]",
+                "usage_example": "A school of fish swam by.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE school AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: A school of fish swam by.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Un grupo de peces que nadan juntos.]",
+                "usage_context_es": "A group of fish swimming together.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_11_def1.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Corriente de pensamiento]",
+                "usage_example": "The school of thought believes in freedom.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE school AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The school of thought believes in freedom.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Un grupo particular de ideas o creencias.]",
+                "usage_context_es": "A particular group of ideas or beliefs.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_11_def2.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "book",
+        "phonetic": "/bʊk/",
+        "spoken_phonetic_us": "/bʊk/",
+        "search_term": "noun/object/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Libro]",
+                "usage_example": "I am reading a book.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE book AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I am reading a book.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un conjunto de páginas escritas en una cubierta]",
+                "usage_context_es": "A set of written pages in a cover",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_53_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Reservar (como verbo convertido en sustantivo)]",
+                "usage_example": "I made a book of tickets for the trip.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE book AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I made a book of tickets for the trip.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Una colección o registro de reservas o boletos.]",
+                "usage_context_es": "A collection or record of reservations or tickets.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_53_def1.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "student",
+        "phonetic": "/ˈstuːdənt/",
+        "spoken_phonetic_us": "/ˈstuːdənt/",
+        "search_term": "noun/person/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Estudiante / Alumno]",
+                "usage_example": "He is a good student.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE student AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He is a good student.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que está estudiando en una escuela]",
+                "usage_context_es": "A person who is studying at a school",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_97_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "teacher",
+        "phonetic": "/ˈtiːʧər/",
+        "spoken_phonetic_us": "/ˈtiːʧər/",
+        "search_term": "noun/person/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Profesor / Maestra]",
+                "usage_example": "The teacher is in the classroom.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE teacher AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The teacher is in the classroom.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que enseña]",
+                "usage_context_es": "A person who teaches",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_98_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "pen",
+        "phonetic": "/pɛn/",
+        "spoken_phonetic_us": "/pɛn/",
+        "search_term": "noun/tool/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Bolígrafo / Pluma]",
+                "usage_example": "I need a pen.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE pen AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I need a pen.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Una herramienta para escribir con tinta]",
+                "usage_context_es": "A tool for writing with ink",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_111_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "pencil",
+        "phonetic": "/ˈpɛnsəl/",
+        "spoken_phonetic_us": "/ˈpɛnsəl/",
+        "search_term": "noun/tool/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Lápiz]",
+                "usage_example": "Can I borrow your pencil?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE pencil AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Can I borrow your pencil?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una herramienta para escribir con grafito]",
+                "usage_context_es": "A tool for writing with graphite",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_112_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "paper",
+        "phonetic": "/ˈpeɪpər/",
+        "spoken_phonetic_us": "/ˈpeɪpər/",
+        "search_term": "noun/material/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Papel]",
+                "usage_example": "I need a piece of paper.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE paper AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I need a piece of paper.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Material usado para escribir o imprimir]",
+                "usage_context_es": "Material used for writing or printing",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_113_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Documento o ensayo académico]",
+                "usage_example": "She wrote a paper on climate change.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE paper AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: She wrote a paper on climate change.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Un ensayo o informe escrito sobre un tema específico.]",
+                "usage_context_es": "An essay or written report on a specific subject.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_113_def1.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "class",
+        "phonetic": "/klæs/",
+        "spoken_phonetic_us": "/klæs/",
+        "search_term": "noun/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Clase]",
+                "usage_example": "I have an English class.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE class AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I have an English class.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Una lección / Un grupo de estudiantes]",
+                "usage_context_es": "A lesson / A group of students",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_224_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "lesson",
+        "phonetic": "/ˈlɛsən/",
+        "spoken_phonetic_us": "/ˈlɛsən/",
+        "search_term": "noun/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Lección]",
+                "usage_example": "The lesson was difficult.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE lesson AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The lesson was difficult.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Un período de tiempo para aprender]",
+                "usage_context_es": "A period of time for learning",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_225_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "test",
+        "phonetic": "/tɛst/",
+        "spoken_phonetic_us": "/tɛst/",
+        "search_term": "noun/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Prueba / Examen (corto)]",
+                "usage_example": "We have a test today.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE test AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: We have a test today.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un conjunto de preguntas para revisar el conocimiento]",
+                "usage_context_es": "A set of questions to check knowledge",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_226_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "exam",
+        "phonetic": "/ɪɡˈzæm/",
+        "spoken_phonetic_us": "/ɪɡˈzæm/",
+        "search_term": "noun/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Examen (formal, importante)]",
+                "usage_example": "The final exam is next week.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE exam AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The final exam is next week.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una prueba importante]",
+                "usage_context_es": "An important test",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_227_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "homework",
+        "phonetic": "/ˈhoʊmwɜːrk/",
+        "spoken_phonetic_us": "/ˈhoʊmwɜːrk/",
+        "search_term": "noun/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Tarea (escolar)]",
+                "usage_example": "I have to do my homework.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE homework AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I have to do my homework.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Trabajo escolar hecho en casa]",
+                "usage_context_es": "School work done at home",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_228_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "letter",
+        "phonetic": "/ˈlɛtər/",
+        "spoken_phonetic_us": "/ˈlɛtər/",
+        "search_term": "noun/communication/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Carta / Letra]",
+                "usage_example": "I wrote a letter. / 'A' is the first letter.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE letter AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I wrote a letter. / 'A' is the first letter.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Un mensaje escrito / Un símbolo del alfabeto]",
+                "usage_context_es": "A written message / A symbol of the alphabet",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_270_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Carácter del alfabeto]",
+                "usage_example": "The word 'cat' has three letters.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE letter AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The word 'cat' has three letters.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Un símbolo usado para representar un sonido en la escritura.]",
+                "usage_context_es": "A symbol used to represent a sound in writing.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_270_def1.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Carta escrita o mensaje]",
+                "usage_example": "She wrote a letter to her friend.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE letter AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: She wrote a letter to her friend.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Un mensaje escrito enviado a alguien.]",
+                "usage_context_es": "A written message sent to someone.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_270_def2.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "history",
+        "phonetic": "/ˈhɪstəri/",
+        "spoken_phonetic_us": "/ˈhɪstəri/",
+        "search_term": "noun/concept/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Historia]",
+                "usage_example": "I am studying history.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE history AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I am studying history.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL PT: El estudio de eventos pasados]",
+                "usage_context_es": "The study of past events",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_325_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "science",
+        "phonetic": "/ˈsaɪəns/",
+        "spoken_phonetic_us": "/ˈsaɪəns/",
+        "search_term": "noun/concept/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Ciencia]",
+                "usage_example": "Science is fascinating.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE science AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Science is fascinating.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: El estudio del mundo natural]",
+                "usage_context_es": "The study of the natural world",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_326_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "math",
+        "phonetic": "/mæθ/",
+        "spoken_phonetic_us": "/mæθ/",
+        "search_term": "noun/concept/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Matemáticas]",
+                "usage_example": "I have math class today.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE math AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I have math class today.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: El estudio de números y formas (AmE)]",
+                "usage_context_es": "The study of numbers and shapes (AmE)",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_327_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "subject",
+        "phonetic": "/ˈsʌbʤɪkt/",
+        "spoken_phonetic_us": "/ˈsʌbʤɪkt/",
+        "search_term": "noun/concept/school/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Asignatura / Tema]",
+                "usage_example": "What is your favorite subject?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE subject AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: What is your favorite subject?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Un tema de estudio / La idea principal]",
+                "usage_context_es": "A topic of study / The main idea",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_328_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "note",
+        "phonetic": "/noʊt/",
+        "spoken_phonetic_us": "/noʊt/",
+        "search_term": "noun/communication/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Nota / Apunte]",
+                "usage_example": "Leave a note on the table.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE note AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Leave a note on the table.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un mensaje escrito corto]",
+                "usage_context_es": "A short written message",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_472_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "notebook",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/school-&-work/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: A book of blank pages for writing notes.]",
+                "usage_example": "My notebook is on the desk.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE notebook AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: My notebook is on the desk.]",
+                "char_count": "8",
+                "usage_context_en": "[TRADUCIR AL PT: Un libro de páginas en blanco para escribir notas.]",
+                "usage_context_es": "A book of blank pages for writing notes.",
+                "imagePath": "/card_images/nouns/1-basic/seed_notebook.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "eraser",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/school-&-work/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: An object used to remove pencil marks.]",
+                "usage_example": "I need an eraser for this mistake.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE eraser AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I need an eraser for this mistake.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Un objeto usado para borrar marcas de lápiz.]",
+                "usage_context_es": "An object used to remove pencil marks.",
+                "imagePath": "/card_images/nouns/1-basic/seed_eraser.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "ruler",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/school-&-work/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: A straight tool used for measuring or drawing lines.]",
+                "usage_example": "Use the ruler to draw the line.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE ruler AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Use the ruler to draw the line.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Una herramienta recta usada para medir o dibujar líneas.]",
+                "usage_context_es": "A straight tool used for measuring or drawing lines.",
+                "imagePath": "/card_images/nouns/1-basic/seed_ruler.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    }
+]

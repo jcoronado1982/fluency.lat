@@ -1,0 +1,177 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "wenige",
+    "phonetic": "/ˈveːnɪɡə/",
+    "spoken_phonetic_us": "/ˈveːnɪɡə/",
+    "search_term": "pronoun/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "definitions": [
+      {
+        "meaning": "Pocos / Pocas (Determinante)",
+        "usage_example": "Er hat wenige Freunde.",
+        "pronunciation_guide_es": "/er_hat_VE-ni-ge_FROIN-de/",
+        "usage_example_es": "Él tiene pocos amigos. (sentido negativo)",
+        "char_count": "4",
+        "usage_context_en": "Used as a determiner for a small number (countable, negative meaning).",
+        "usage_context_es": "Usado como determinante para un número pequeño (contable, sentido negativo).",
+        "imagePath": ""
+      },
+      {
+        "meaning": "Pocos / Pocas (Pronombre)",
+        "usage_example": "Viele versuchten es, aber wenige hatten Erfolg.",
+        "pronunciation_guide_es": "/FI-le_fer-ZU-jten_es_A-ber_VE-ni-ge_HA-ten_er-FOLK/",
+        "usage_example_es": "Muchos lo intentaron, pero pocos lo lograron.",
+        "char_count": "5",
+        "usage_context_en": "Used as a pronoun for a small number of people or things.",
+        "usage_context_es": "Usado como pronombre para un número pequeño de personas o cosas.",
+        "imagePath": "/card_images/pronouns/2-intermediate/quantifier_pronouns/2-intermediate_quantifier_pronouns_card_0_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "mehrere",
+    "phonetic": "/ˈmeːrərə/",
+    "spoken_phonetic_us": "/ˈmeːrərə/",
+    "search_term": "pronoun/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "definitions": [
+      {
+        "meaning": "Varios/as (Determinante)",
+        "usage_example": "Er machte mehrere Fehler.",
+        "pronunciation_guide_es": "/er_MAJ-te_ME-re-re_FE-ler/",
+        "usage_example_es": "Él cometió varios errores.",
+        "char_count": "4",
+        "usage_context_en": "Used as a determiner for a medium number (more than two, but not many).",
+        "usage_context_es": "Usado como determinante para un número mediano (más de dos, pero no muchos).",
+        "imagePath": ""
+      },
+      {
+        "meaning": "Varios/as (Pronombre)",
+        "usage_example": "Mehrere von ihnen sind kaputt.",
+        "pronunciation_guide_es": "/ME-re-re_fon_I-nen_zint_ka-PUT/",
+        "usage_example_es": "Varios de ellos están rotos.",
+        "char_count": "5",
+        "usage_context_en": "Used as a pronoun for a medium number of people or things.",
+        "usage_context_es": "Usado como pronombre para un número mediano de personas o cosas.",
+        "imagePath": "/card_images/pronouns/2-intermediate/quantifier_pronouns/2-intermediate_quantifier_pronouns_card_1_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "entweder",
+    "phonetic": "/ˈɛntveːdɐ/",
+    "spoken_phonetic_us": "/ˈɛntveːdɐ/",
+    "search_term": "pronoun/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "definitions": [
+      {
+        "meaning": "Cualquiera (de dos) (Determinante)",
+        "usage_example": "Du kannst einen von beiden Wegen nehmen.",
+        "pronunciation_guide_es": "/du_kanst_AI-nen_fon_BAI-den_VE-gen_NE-men/",
+        "usage_example_es": "Puedes tomar cualquiera de los dos caminos.",
+        "char_count": "5",
+        "usage_context_en": "Used as a determiner to mean 'one or the other' of two.",
+        "usage_context_es": "Usado como determinante para significar 'uno u otro' de dos.",
+        "imagePath": ""
+      },
+      {
+        "meaning": "Cualquiera (de dos) (Pronombre)",
+        "usage_example": "Welchen möchtest du? Beide sind gut.",
+        "pronunciation_guide_es": "/VEL-shen_MOESH-test_du_BAI-de_zint_GUT/",
+        "usage_example_es": "¿Cuál quieres? Cualquiera está bien.",
+        "char_count": "7",
+        "usage_context_en": "Used as a pronoun to mean 'one or the other'.",
+        "usage_context_es": "Usado como pronombre para significar 'uno u otro'.",
+        "imagePath": "/card_images/pronouns/2-intermediate/quantifier_pronouns/2-intermediate_quantifier_pronouns_card_2_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "keiner",
+    "phonetic": "/ˈkaɪnɐ/",
+    "spoken_phonetic_us": "/ˈkaɪnɐ/",
+    "search_term": "pronoun/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "definitions": [
+      {
+        "meaning": "Ninguno (de dos) (Determinante)",
+        "usage_example": "Keine Antwort ist richtig.",
+        "pronunciation_guide_es": "/KAI-ne_ANT-vort_ist_RISH-tish/",
+        "usage_example_es": "Ninguna de las dos respuestas es correcta.",
+        "char_count": "4",
+        "usage_context_en": "Used as a determiner to mean 'not one and not the other' of two.",
+        "usage_context_es": "Usado como determinante para significar 'ni uno ni el otro' de dos.",
+        "imagePath": ""
+      },
+      {
+        "meaning": "Ninguno (de dos) (Pronombre)",
+        "usage_example": "Keiner ist richtig.",
+        "pronunciation_guide_es": "/KAI-ner_ist_RISH-tish/",
+        "usage_example_es": "Ninguno es correcto.",
+        "char_count": "3",
+        "usage_context_en": "Used as a pronoun to mean 'not one and not the other'.",
+        "usage_context_es": "Usado como pronombre para significar 'ni uno ni el otro'.",
+        "imagePath": "/card_images/pronouns/2-intermediate/quantifier_pronouns/2-intermediate_quantifier_pronouns_card_3_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ein paar",
+    "phonetic": "/aɪn paːɐ̯/",
+    "spoken_phonetic_us": "/aɪn paːɐ̯/",
+    "search_term": "pronoun/quantifier_pronouns/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Un par / Unos pocos",
+        "usage_example": "Ein paar fehlen noch.",
+        "pronunciation_guide_es": "/ain_PAR_FE-len_noj/",
+        "usage_example_es": "Aún faltan un par.",
+        "char_count": "5",
+        "usage_context_en": "Used to refer to two people or things, or a small number.",
+        "usage_context_es": "Used to refer to two people or things, or a small number.",
+        "imagePath": "/card_images/pronouns/2-intermediate/quantifier_pronouns/2-intermediate_quantifier_pronouns_card_4_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Cuantificador",
+    "category": "Intermediate"
+  }
+]

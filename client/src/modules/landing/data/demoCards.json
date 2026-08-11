@@ -1,0 +1,759 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "She is nice and smart.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_1_def0.avif",
+        "meaning": "Ser (identidad, característica)",
+        "pronunciation_guide_es": "/shi_IS_a_STUDENT/",
+        "usage_context_en": "identity/description",
+        "usage_context_es": "identidad/descripción",
+        "usage_example": "She is a student.",
+        "usage_example_es": "Ella es una estudiante."
+      },
+      {
+        "alternative_example": "I am tired today.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_1_def1.avif",
+        "meaning": "Estar (ubicación, estado)",
+        "pronunciation_guide_es": "/ui_AR_at_de_PARK/",
+        "usage_context_en": "location/state",
+        "usage_context_es": "ubicación/estado",
+        "usage_example": "We are at the park.",
+        "usage_example_es": "Estamos en el parque."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "be",
+    "phonetic": "/biː/",
+    "search_term": "verb/to be/essentials",
+    "spoken_phonetic_us": "/biː/",
+    "irregular": {
+      "past": {
+        "form": "was / were",
+        "phonetic": "/wɒz/ /wɜː/",
+        "spoken_phonetic_us": "/wʌz/ /wɜːr/",
+        "definitions": [
+          {
+            "usage_example": "I was a student ten years ago.",
+            "usage_example_es": "Yo era estudiante hace diez años.",
+            "pronunciation_guide_es": "/ai_UAS_a_STIUdent_ten_IERS_aGOU/",
+            "meaning": "Pasado de Ser (identidad/profesión)",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_1_def0_v2.avif"
+          },
+          {
+            "usage_example": "We were at the beach last Sunday.",
+            "usage_example_es": "Estábamos en la playa el domingo pasado.",
+            "pronunciation_guide_es": "/ui_UER_at_de_BICH_last_SANdei/",
+            "meaning": "Pasado de Estar (ubicación)",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_1_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "been",
+        "phonetic": "/biːn/",
+        "spoken_phonetic_us": "/bɪn/",
+        "definitions": [
+          {
+            "usage_example": "She has been a doctor for years.",
+            "usage_example_es": "Ella ha sido doctora por años.",
+            "pronunciation_guide_es": "/shi_jas_BIN_a_DOKtor_for_IERS/",
+            "meaning": "Participio de Ser",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_1_def0_v3.avif"
+          },
+          {
+            "usage_example": "I have been in London since May.",
+            "usage_example_es": "He estado en Londres desde mayo.",
+            "pronunciation_guide_es": "/ai_JAV_bin_in_LONdon_sins_MEI/",
+            "meaning": "Participio de Estar",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_1_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Being & State",
+    "id": 1,
+    "demoIndex": 1
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "I have two sisters.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_2_def0.avif",
+        "meaning": "Tener (posesión)",
+        "pronunciation_guide_es": "/dei_HAV_a_big_HAUS/",
+        "usage_context_en": "ownership/family",
+        "usage_context_es": "posesión/familia",
+        "usage_example": "They have a big house.",
+        "usage_example_es": "Ellos tienen una casa grande."
+      },
+      {
+        "alternative_example": "We have fun at the party.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_2_def1.avif",
+        "meaning": "Tomar/Comer (en expresiones)",
+        "pronunciation_guide_es": "/lets_HAV_DINer_tuGUEder/",
+        "usage_context_en": "meals/activities",
+        "usage_context_es": "comidas/actividades",
+        "usage_example": "Let's have dinner together.",
+        "usage_example_es": "Cenemos juntos."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "have",
+    "phonetic": "/hæv/",
+    "search_term": "verb/ownership/essentials",
+    "spoken_phonetic_us": "/hæv/",
+    "irregular": {
+      "past": {
+        "form": "had",
+        "phonetic": "/hæd/",
+        "spoken_phonetic_us": "/hæd/",
+        "definitions": [
+          {
+            "usage_example": "I had a big house when I was young.",
+            "usage_example_es": "Tenía una casa grande cuando era joven.",
+            "pronunciation_guide_es": "/ai_JAD_a_big_JAUS_uen_ai_uas_YONG/",
+            "meaning": "Pasado de Tener (posesión)",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_2_def0_v2.avif"
+          },
+          {
+            "usage_example": "We had dinner together yesterday.",
+            "usage_example_es": "Cenamos juntos ayer.",
+            "pronunciation_guide_es": "/ui_JAD_DINer_tuGUEder_iesterdei/",
+            "meaning": "Pasado de Tomar/Comer (comida)",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_2_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "had",
+        "phonetic": "/hæd/",
+        "spoken_phonetic_us": "/hæd/",
+        "definitions": [
+          {
+            "usage_example": "I have had many cars in my life.",
+            "usage_example_es": "He tenido muchos coches en mi vida.",
+            "pronunciation_guide_es": "/ai_JAV_jad_meni_KARS_in_mai_LAIF/",
+            "meaning": "Participio de Tener (posesión)",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_2_def0_v3.avif"
+          },
+          {
+            "usage_example": "He has already had breakfast.",
+            "usage_example_es": "Él ya ha desayunado.",
+            "pronunciation_guide_es": "/ji_jas_olREDI_jad_BREKfast/",
+            "meaning": "Participio de Tomar/Comer (comida)",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_2_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Social & Exchange",
+    "id": 2,
+    "demoIndex": 2
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "She does her job well.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_3_def0.avif",
+        "meaning": "Hacer (una actividad)",
+        "pronunciation_guide_es": "/ai_DU_mai_EKserSaisis_in_de_MORning/",
+        "usage_context_en": "tasks/activities",
+        "usage_context_es": "tareas/actividades",
+        "usage_example": "I do my exercises in the morning.",
+        "usage_example_es": "Hago mis ejercicios en la mañana."
+      },
+      {
+        "alternative_example": "I do not know the answer.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_3_def1.avif",
+        "meaning": "Verbo auxiliar (para preguntas/negaciones)",
+        "pronunciation_guide_es": "/DU_iu_LAIK_COFI/",
+        "usage_context_en": "questions/negations",
+        "usage_context_es": "preguntas/negaciones",
+        "usage_example": "Do you like coffee?",
+        "usage_example_es": "¿Te gusta el café?"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "do",
+    "phonetic": "/duː/",
+    "search_term": "verb/action/essentials",
+    "spoken_phonetic_us": "/duː/",
+    "irregular": {
+      "past": {
+        "form": "did",
+        "phonetic": "/dɪd/",
+        "spoken_phonetic_us": "/dɪd/",
+        "definitions": [
+          {
+            "usage_example": "I did my homework last night.",
+            "usage_example_es": "Hice mi tarea anoche.",
+            "pronunciation_guide_es": "/ai_DID_mai_JOUMuork_last_NAIT/",
+            "meaning": "Pasado de Hacer (acción)",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_3_def0_v2.avif"
+          },
+          {
+            "usage_example": "Did you see the movie yesterday?",
+            "usage_example_es": "¿Viste la película ayer?",
+            "pronunciation_guide_es": "/DID_iu_si_de_MUvi_iesterdei/",
+            "meaning": "Pasado Auxiliar (preguntas)",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_3_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "done",
+        "phonetic": "/dʌn/",
+        "spoken_phonetic_us": "/dʌn/",
+        "definitions": [
+          {
+            "usage_example": "I have done this many times.",
+            "usage_example_es": "He hecho esto muchas veces.",
+            "pronunciation_guide_es": "/ai_JAV_don_dis_meni_TAIMS/",
+            "meaning": "Participio de Hacer (hecho)",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_3_def0_v3.avif"
+          },
+          {
+            "usage_example": "Well done! You did a great job.",
+            "usage_example_es": "¡Bien hecho! Hiciste un gran trabajo.",
+            "pronunciation_guide_es": "/uel_DON_iu_did_a_greit_YOB/",
+            "meaning": "Participio de Hacer (completado)",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_3_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Handling & Creating",
+    "id": 3,
+    "demoIndex": 3
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "We should go now.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_4_def0.avif",
+        "meaning": "Ir (moverse a un lugar)",
+        "pronunciation_guide_es": "/ai_GO_tu_de_YIM_on_MONDAYS/",
+        "usage_context_en": "movement/routine",
+        "usage_context_es": "movimiento/rutina",
+        "usage_example": "I go to the gym on Mondays.",
+        "usage_example_es": "Voy al gimnasio los lunes."
+      },
+      {
+        "alternative_example": "Let's go for a walk.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_4_def1.avif",
+        "meaning": "Funcionar/Continuar (en expresiones)",
+        "pronunciation_guide_es": "/is_de_LAIT_GOUin/",
+        "usage_context_en": "function/activities",
+        "usage_context_es": "función/actividades",
+        "usage_example": "Is the light going?",
+        "usage_example_es": "¿Está funcionando la luz?"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "go",
+    "phonetic": "/ɡoʊ/",
+    "search_term": "verb/movement/essentials",
+    "spoken_phonetic_us": "/ɡoʊ/",
+    "irregular": {
+      "past": {
+        "form": "went",
+        "phonetic": "/wɛnt/",
+        "spoken_phonetic_us": "/wɛnt/",
+        "usage_example": "We went to the beach yesterday.",
+        "usage_example_es": "Fuimos a la playa ayer.",
+        "pronunciation_guide_es": "/ui_UENT_tu_de_BICH_iesterdei/",
+        "meaning": "Pasado de ir"
+      },
+      "participle": {
+        "form": "gone",
+        "phonetic": "/ɡɒn/",
+        "spoken_phonetic_us": "/ɡɔːn/",
+        "usage_example": "She has gone to the store.",
+        "usage_example_es": "Ella ha ido a la tienda.",
+        "pronunciation_guide_es": "/shi_jas_GON_tu_de_STOR/",
+        "meaning": "Participio de ir"
+      }
+    },
+    "group_name": "Action & Movement",
+    "id": 4,
+    "demoIndex": 4
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Where did you get that book?",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_5_def0.avif",
+        "meaning": "Obtener/Conseguir",
+        "pronunciation_guide_es": "/ai_NID_tu_GET_a_niu_KOUT/",
+        "usage_context_en": "shopping/receiving",
+        "usage_context_es": "compras/recibir",
+        "usage_example": "I need to get a new coat.",
+        "usage_example_es": "Necesito conseguir un abrigo nuevo."
+      },
+      {
+        "alternative_example": "How can I get to the station?",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_5_def1.avif",
+        "meaning": "Llegar (a un lugar)",
+        "pronunciation_guide_es": "/ui_GET_HOM_LEIT/",
+        "usage_context_en": "arrival/travel",
+        "usage_context_es": "llegada/viaje",
+        "usage_example": "We get home late.",
+        "usage_example_es": "Llegamos tarde a casa."
+      },
+      {
+        "alternative_example": "I am getting tired.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_5_def2.avif",
+        "meaning": "Ponerse / Hacerse (cambio de estado)",
+        "pronunciation_guide_es": "/its_GETin_LEIT/",
+        "usage_context_en": "state change/emotions",
+        "usage_context_es": "cambio de estado/emociones",
+        "usage_example": "It is getting late.",
+        "usage_example_es": "Se está haciendo tarde."
+      },
+      {
+        "alternative_example": "Oh, I get it now.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_5_def3.avif",
+        "meaning": "Entender / Comprender",
+        "pronunciation_guide_es": "/ai_DONT_GET_it/",
+        "usage_context_en": "comprehension/understanding",
+        "usage_context_es": "comprensión/entendimiento",
+        "usage_example": "I don't get it.",
+        "usage_example_es": "No lo entiendo."
+      },
+      {
+        "alternative_example": "I will get my jacket.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_5_def4.avif",
+        "meaning": "Traer / Ir a buscar",
+        "pronunciation_guide_es": "/kan_iu_GET_mi_a_PEN/",
+        "usage_context_en": "bringing/fetching",
+        "usage_context_es": "traer/ir a buscar",
+        "usage_example": "Can you get me a pen?",
+        "usage_example_es": "¿Me puedes traer un bolígrafo?"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "get",
+    "phonetic": "/ɡɛt/",
+    "search_term": "verb/obtain/essentials",
+    "spoken_phonetic_us": "/ɡɛt/",
+    "irregular": {
+      "past": {
+        "form": "got",
+        "phonetic": "/ɡɒt/",
+        "spoken_phonetic_us": "/ɡɑːt/",
+        "definitions": [
+          {
+            "usage_example": "I got a new car last week.",
+            "usage_example_es": "Conseguí un coche nuevo la semana pasada.",
+            "pronunciation_guide_es": "/ai_GOT_a_niu_KAR_last_uik/",
+            "meaning": "Pasado de Conseguir",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_5_def0_v2.avif"
+          },
+          {
+            "usage_example": "We got home very late.",
+            "usage_example_es": "Llegamos a casa muy tarde.",
+            "pronunciation_guide_es": "/ui_GOT_joum_veri_LEIT/",
+            "meaning": "Pasado de Llegar",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_5_def1_v2.avif"
+          },
+          {
+            "usage_example": "I got tired after work.",
+            "usage_example_es": "Me cansé después del trabajo.",
+            "pronunciation_guide_es": "/ai_GOT_TAIard_after_UORK/",
+            "meaning": "Pasado de Ponerse (estado)",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_5_def2_v2.avif"
+          },
+          {
+            "usage_example": "I finally got the idea.",
+            "usage_example_es": "Finalmente entendí la idea.",
+            "pronunciation_guide_es": "/ai_FAI-nali_GOT_di_ai-DI-a/",
+            "meaning": "Pasado de Entender",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_5_def3_v2.avif"
+          },
+          {
+            "usage_example": "He got me a book.",
+            "usage_example_es": "Él me trajo un libro.",
+            "pronunciation_guide_es": "/ji_GOT_mi_a_BUK/",
+            "meaning": "Pasado de Traer",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_5_def4_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "gotten / got",
+        "phonetic": "/ˈɡɒtn/ /ɡɒt/",
+        "spoken_phonetic_us": "/ˈɡɑːtn/ /ɡɑːt/",
+        "definitions": [
+          {
+            "usage_example": "I have gotten many gifts.",
+            "usage_example_es": "He recibido muchos regalos.",
+            "pronunciation_guide_es": "/ai_JAV_GOTen_meni_GUiFTS/",
+            "meaning": "Participio de Conseguir/Recibir",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_5_def0_v3.avif"
+          },
+          {
+            "usage_example": "It has gotten very cold.",
+            "usage_example_es": "Se ha puesto muy frío.",
+            "pronunciation_guide_es": "/it_jas_GOTen_veri_KOLD/",
+            "meaning": "Participio de Ponerse (estado)",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_5_def2_v3.avif"
+          },
+          {
+            "usage_example": "I haven't gotten it yet.",
+            "usage_example_es": "No lo he entendido aún.",
+            "pronunciation_guide_es": "/ai_JA-vent_GOTen_it_IET/",
+            "meaning": "Participio de Entender",
+            "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_5_def3_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Social & Exchange",
+    "id": 5,
+    "demoIndex": 5
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "She makes her bed every morning.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_6_def0.avif",
+        "meaning": "Hacer/Crear",
+        "pronunciation_guide_es": "/kan_iu_MEIK_a_KEIK_for_de_PARTI/",
+        "usage_context_en": "cooking/creating",
+        "usage_context_es": "cocinar/crear",
+        "usage_example": "Can you make a cake for the party?",
+        "usage_example_es": "¿Puedes hacer un pastel para la fiesta?"
+      },
+      {
+        "alternative_example": "Make sure you lock the door.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_6_def1.avif",
+        "meaning": "Obligar/Causar",
+        "pronunciation_guide_es": "/de_MUVI_MEID_mi_CRAI/",
+        "usage_context_en": "emotions/assurance",
+        "usage_context_es": "emociones/asegurar",
+        "usage_example": "The movie made me cry.",
+        "usage_example_es": "La película me hizo llorar."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "make",
+    "phonetic": "/meɪk/",
+    "search_term": "verb/create/essentials",
+    "spoken_phonetic_us": "/meɪk/",
+    "irregular": {
+      "past": {
+        "form": "made",
+        "phonetic": "/meɪd/",
+        "spoken_phonetic_us": "/meɪd/",
+        "usage_example": "She made a delicious cake.",
+        "usage_example_es": "Ella hizo un pastel delicioso.",
+        "pronunciation_guide_es": "/shi_MEID_a_diLISHOS_KEIK/",
+        "meaning": "Pasado de hacer"
+      },
+      "participle": {
+        "form": "made",
+        "phonetic": "/meɪd/",
+        "spoken_phonetic_us": "/meɪd/",
+        "usage_example": "The chair was made of wood.",
+        "usage_example_es": "La silla estaba hecha de madera.",
+        "pronunciation_guide_es": "/de_CHEAR_was_MEID_ov_WUD/",
+        "meaning": "Participio de hacer"
+      }
+    },
+    "group_name": "Handling & Creating",
+    "id": 6,
+    "demoIndex": 6
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Please say 'thank you'.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_7_def0.avif",
+        "meaning": "Decir (expresar con palabras)",
+        "pronunciation_guide_es": "/uat_DID_iu_SEI/",
+        "usage_context_en": "dialogue/communication",
+        "usage_context_es": "diálogo/comunicación",
+        "usage_example": "What did you say?",
+        "usage_example_es": "¿Qué dijiste?"
+      },
+      {
+        "alternative_example": "The report says the opposite.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_7_def1.avif",
+        "meaning": "Afirmar (establecer algo)",
+        "pronunciation_guide_es": "/de_SAIN_SEIS_STOP/",
+        "usage_context_en": "signs/information",
+        "usage_context_es": "señales/información",
+        "usage_example": "The sign says 'Stop'.",
+        "usage_example_es": "El cartel dice 'Pare'."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "say",
+    "phonetic": "/seɪ/",
+    "search_term": "verb/speech/essentials",
+    "spoken_phonetic_us": "/seɪ/",
+    "irregular": {
+      "past": {
+        "form": "said",
+        "phonetic": "/sɛd/",
+        "spoken_phonetic_us": "/sɛd/",
+        "usage_example": "She said she was tired.",
+        "usage_example_es": "Ella dijo que estaba cansada.",
+        "pronunciation_guide_es": "/shi_SED_shi_uas_TAIArd/",
+        "meaning": "Pasado de decir"
+      },
+      "participle": {
+        "form": "said",
+        "phonetic": "/sɛd/",
+        "spoken_phonetic_us": "/sɛd/",
+        "usage_example": "It is said that he is the best.",
+        "usage_example_es": "Se dice que él es el mejor.",
+        "pronunciation_guide_es": "/it_is_SED_dat_ji_is_de_BEST/",
+        "meaning": "Participio de decir"
+      }
+    },
+    "group_name": "Communication",
+    "id": 7,
+    "demoIndex": 7
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Do you know his phone number?",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_8_def0.avif",
+        "meaning": "Saber (información)",
+        "pronunciation_guide_es": "/ai_NOU_de_ANSWER/",
+        "usage_context_en": "information/facts",
+        "usage_context_es": "información/hechos",
+        "usage_example": "I know the answer.",
+        "usage_example_es": "Sé la respuesta."
+      },
+      {
+        "alternative_example": "He knows this city well.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_8_def1.avif",
+        "meaning": "Conocer (a una persona/lugar)",
+        "pronunciation_guide_es": "/ai_NOU_her_from_SKUL/",
+        "usage_context_en": "people/places",
+        "usage_context_es": "gente/lugares",
+        "usage_example": "I know her from school.",
+        "usage_example_es": "La conozco de la escuela."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "know",
+    "phonetic": "/noʊ/",
+    "search_term": "verb/knowledge/essentials",
+    "spoken_phonetic_us": "/noʊ/",
+    "irregular": {
+      "past": {
+        "form": "knew",
+        "phonetic": "/njuː/",
+        "spoken_phonetic_us": "/nuː/",
+        "usage_example": "I knew the answer immediately.",
+        "usage_example_es": "Sabía la respuesta inmediatamente.",
+        "pronunciation_guide_es": "/ai_NIU_de_ANSuer_iMIDiAtli/",
+        "meaning": "Pasado de saber"
+      },
+      "participle": {
+        "form": "known",
+        "phonetic": "/noʊn/",
+        "spoken_phonetic_us": "/noʊn/",
+        "usage_example": "I have known him for years.",
+        "usage_example_es": "Lo conozco desde hace años.",
+        "pronunciation_guide_es": "/ai_JAV_NOUN_jim_for_IERS/",
+        "meaning": "Participio de saber"
+      }
+    },
+    "group_name": "Mind & Senses",
+    "id": 8,
+    "demoIndex": 8
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "I think, therefore I am.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_9_def0.avif",
+        "meaning": "Pensar (razonar)",
+        "pronunciation_guide_es": "/ai_THINK_aBAUT_mai_FIUchur_a_LOT/",
+        "usage_context_en": "reasoning/reflection",
+        "usage_context_es": "razonar/reflexionar",
+        "usage_example": "I think about my future a lot.",
+        "usage_example_es": "Pienso mucho en mi futuro."
+      },
+      {
+        "alternative_example": "What do you think of it?",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_9_def1.avif",
+        "meaning": "Creer/Opinar",
+        "pronunciation_guide_es": "/ai_THINK_it_uil_REIN_tuDEI/",
+        "usage_context_en": "opinion/belief",
+        "usage_context_es": "opinión/creencia",
+        "usage_example": "I think it will rain today.",
+        "usage_example_es": "Creo que va a llover hoy."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "think",
+    "phonetic": "/θɪŋk/",
+    "search_term": "verb/thought/essentials",
+    "spoken_phonetic_us": "/θɪŋk/",
+    "irregular": {
+      "past": {
+        "form": "thought",
+        "phonetic": "/θɔːt/",
+        "spoken_phonetic_us": "/θɔːt/",
+        "usage_example": "I thought you were coming.",
+        "usage_example_es": "Pensé que venías.",
+        "pronunciation_guide_es": "/ai_THOT_iu_uer_KAming/",
+        "meaning": "Pasado de pensar"
+      },
+      "participle": {
+        "form": "thought",
+        "phonetic": "/θɔːt/",
+        "spoken_phonetic_us": "/θɔːt/",
+        "usage_example": "I have thought about it carefully.",
+        "usage_example_es": "Lo he pensado cuidadosamente.",
+        "pronunciation_guide_es": "/ai_JAV_THOT_aBAUT_it_KERfuli/",
+        "meaning": "Participio de pensar"
+      }
+    },
+    "group_name": "Mind & Senses",
+    "id": 9,
+    "demoIndex": 9
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Can I take a picture?",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_10_def0.avif",
+        "meaning": "Tomar/Agarrar",
+        "pronunciation_guide_es": "/TEIK_de_BUK_from_de_TEIBOL/",
+        "usage_context_en": "grabbing/receiving",
+        "usage_context_es": "agarrar/recibir",
+        "usage_example": "Take the book from the table.",
+        "usage_example_es": "Toma el libro de la mesa."
+      },
+      {
+        "alternative_example": "I will take you to the airport.",
+        "char_count": "one",
+        "imagePath": "/card_images/landing-demo/verbs-essentials/verbs-essentials_card_10_def1.avif",
+        "meaning": "Llevar/Transportar",
+        "pronunciation_guide_es": "/hi_TEIKS_de_BAS_tu_UORK/",
+        "usage_context_en": "transport/escorting",
+        "usage_context_es": "transporte/acompañar",
+        "usage_example": "He takes the bus to work.",
+        "usage_example_es": "Él toma el autobús para ir al trabajo."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "take",
+    "phonetic": "/teɪk/",
+    "search_term": "verb/transport/essentials",
+    "spoken_phonetic_us": "/teɪk/",
+    "irregular": {
+      "past": {
+        "form": "took",
+        "phonetic": "/tʊk/",
+        "spoken_phonetic_us": "/tʊk/",
+        "usage_example": "He took my book by mistake.",
+        "usage_example_es": "Él tomó mi libro por error.",
+        "pronunciation_guide_es": "/ji_TUK_mai_BUK_bai_miSTEIK/",
+        "meaning": "Pasado de tomar/llevar"
+      },
+      "participle": {
+        "form": "taken",
+        "phonetic": "/ˈteɪkən/",
+        "spoken_phonetic_us": "/ˈteɪkən/",
+        "usage_example": "The photos were taken by me.",
+        "usage_example_es": "Las fotos fueron tomadas por mí.",
+        "pronunciation_guide_es": "/de_FOUtous_uer_TEIKen_bai_MI/",
+        "meaning": "Participio de tomar/llevar"
+      }
+    },
+    "group_name": "Social & Exchange",
+    "id": 10,
+    "demoIndex": 10
+  }
+]

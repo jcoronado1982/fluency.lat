@@ -1,0 +1,114 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Razón / Motivo",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/cause/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Razón / Motivo]",
+                "usage_example": "¿Cuál es la razón?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: ¿Cuál es la razón?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: La causa o explicación de algo]",
+                "usage_context_es": "La causa o explicación de algo",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_178_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Hecho",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Hecho]",
+                "usage_example": "Es un hecho conocido.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Es un hecho conocido.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Algo que es verdad]",
+                "usage_context_es": "Algo que es verdad",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_398_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Verdad",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Verdad]",
+                "usage_example": "Dime la verdad.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Dime la verdad.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Lo que es cierto; opuesto a una mentira]",
+                "usage_context_es": "Lo que es cierto; opuesto a una mentira",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_399_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Mentira",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Mentira]",
+                "usage_example": "Eso es una mentira.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Eso es una mentira.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Algo que dices que no es verdad]",
+                "usage_context_es": "Algo que dices que no es verdad",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_400_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    }
+]

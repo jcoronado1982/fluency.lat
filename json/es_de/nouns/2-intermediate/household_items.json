@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Electrodoméstico",
+        "pronunciation_guide_es": "/di_KUE-she_hat_NOI-e_e-LEK-tro-ge-rae-te/",
+        "usage_context_en": "A machine used in the home for a specific purpose",
+        "usage_context_es": "Una máquina usada en el hogar para un propósito específico",
+        "usage_example": "Die Küche hat neue Elektrogeräte.",
+        "usage_example_es": "La cocina tiene electrodomésticos nuevos.",
+        "imagePath": "/card_images/nouns/2-intermediate/household_items/2-intermediate_household_items_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Elektrogerät",
+    "phonetic": "/das eˈlɛktʁoɡəʁɛːt/",
+    "search_term": "noun/household/machine",
+    "spoken_phonetic_us": "/das eˈlɛktʁoɡəʁɛːt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Tomacorriente / Enchufe",
+        "pronunciation_guide_es": "/SHTEK_den_LA-der_in_di_SHTEK-do-ze/",
+        "usage_context_en": "A place on the wall to connect electric plugs",
+        "usage_context_es": "Un lugar en la pared para conectar enchufes eléctricos",
+        "usage_example": "Steck den Lader in die Steckdose.",
+        "usage_example_es": "Enchufa el cargador en el tomacorriente.",
+        "imagePath": "/card_images/nouns/2-intermediate/household_items/2-intermediate_household_items_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Steckdose",
+    "phonetic": "/diː ˈʃtɛkdoːzə/",
+    "search_term": "noun/household/essentials",
+    "spoken_phonetic_us": "/diː ˈʃtɛkdoːzə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "das Utensil",
+    "phonetic": "/das utɛnˈziːl/",
+    "spoken_phonetic_us": "/das utɛnˈziːl/",
+    "search_term": "noun/household_items/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Utensilio",
+        "usage_example": "Ein Löffel ist ein gängiges Küchenutensil.",
+        "pronunciation_guide_es": "/ain_LOE-fel_ist_ain_GENG-i-ges_KUE-shen-u-ten-zil/",
+        "usage_example_es": "Una cuchara es un utensilio común de cocina.",
+        "char_count": "7",
+        "usage_context_en": "A tool used in the house, especially in the kitchen.",
+        "usage_context_es": "A tool used in the house, especially in the kitchen.",
+        "imagePath": "/card_images/nouns/2-intermediate/household_items/2-intermediate_household_items_card_2_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Household"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "die Möbel",
+    "phonetic": "/diː ˈmøːbl̩/",
+    "spoken_phonetic_us": "/diː ˈmøːbl̩/",
+    "search_term": "noun/household_items/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Muebles / Mobiliario",
+        "usage_example": "Wir kauften neue Möbel für das Wohnzimmer.",
+        "pronunciation_guide_es": "/vir_KAUF-ten_NOI-e_MOE-bel_fuer_das_VON-tsi-mer/",
+        "usage_example_es": "Compramos muebles nuevos para la sala.",
+        "char_count": "8",
+        "usage_context_en": "Large movable items in a room.",
+        "usage_context_es": "Large movable items in a room.",
+        "imagePath": "/card_images/nouns/2-intermediate/household_items/2-intermediate_household_items_card_3_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Household"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "die feste Einrichtung",
+    "phonetic": "/diː ˈfɛstə ˈaɪnʁɪçtʊŋ/",
+    "spoken_phonetic_us": "/diː ˈfɛstə ˈaɪnʁɪçtʊŋ/",
+    "search_term": "noun/household_items/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Instalación fija / Accesorio fijo",
+        "usage_example": "Das Waschbecken ist eine feste Einrichtung im Bad.",
+        "pronunciation_guide_es": "/das_VASH-be-ken_ist_AI-ne_FES-te_AIN-rish-tung_im_BAT/",
+        "usage_example_es": "El lavamanos es una instalación fija del baño.",
+        "char_count": "6",
+        "usage_context_en": "An item fixed in place in a building.",
+        "usage_context_es": "An item fixed in place in a building.",
+        "imagePath": "/card_images/nouns/2-intermediate/household_items/2-intermediate_household_items_card_4_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Household"
+  }
+]

@@ -1,0 +1,287 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "although",
+        "phonetic": "/ɔlˈðoʊ/",
+        "spoken_phonetic_us": "/ɔlˈðoʊ/",
+        "search_term": "conjunction/contrast",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Aunque]",
+                "usage_example": "Although it was cold, I went out.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE although AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Although it was cold, I went out.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: A pesar del hecho de que; aunque.]",
+                "usage_context_es": "In spite of the fact that; even though.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_7_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Contrast",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "though",
+        "phonetic": "/ðoʊ/",
+        "spoken_phonetic_us": "/ðoʊ/",
+        "search_term": "conjunction/contrast",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Aunque (menos formal)]",
+                "usage_example": "Though it was cold, I went out.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE though AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Though it was cold, I went out.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Una versión menos formal de 'although'.]",
+                "usage_context_es": "A less formal version of 'although'.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_8_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Sin embargo (al final)]",
+                "usage_example": "He is rich. He is not happy, though.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE though AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He is rich. He is not happy, though.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL FR: Usado como adverbio al final de una oración, significando 'sin embargo'.]",
+                "usage_context_es": "Used as an adverb at the end of a sentence, meaning 'however'.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_8_def1.avif"
+            }
+        ],
+        "group_name": "Connectors: Contrast",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "even though",
+        "phonetic": "/ˈivɪn ðoʊ/",
+        "spoken_phonetic_us": "/ˈivɪn ðoʊ/",
+        "search_term": "phrase/contrast",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Aunque / A pesar de que]",
+                "usage_example": "Even though it was cold, I went out.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE even though AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Even though it was cold, I went out.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL FR: Una versión más fuerte y enfática de 'although'.]",
+                "usage_context_es": "A stronger, more emphatic version of 'although'.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_9_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Contrast",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "on the other hand",
+        "phonetic": "/ɒn ði ˈʌðər hænd/",
+        "spoken_phonetic_us": "/ɑn ði ˈʌðər hænd/",
+        "search_term": "phrase/contrast",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Por otro lado]",
+                "usage_example": "This car is cheap. On the other hand, it is very old.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE on the other hand AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: This car is cheap. On the other hand, it is very old.]",
+                "char_count": "10",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para introducir un punto de vista o hecho que contrasta.]",
+                "usage_context_es": "Used to introduce a contrasting point of view or fact.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_10_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Contrast",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "however",
+        "phonetic": "/haʊˈɛvər/",
+        "spoken_phonetic_us": "/haʊˈɛvər/",
+        "search_term": "adverb/contrast/formal",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Sin embargo]",
+                "usage_example": "He is rich. However, he is not happy.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE however AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He is rich. However, he is not happy.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para introducir una declaración que contrasta con algo dicho previamente.]",
+                "usage_context_es": "Used to introduce a statement that contrasts with something said previously.",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_0_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Como sea / De cualquier manera]",
+                "usage_example": "However you look at it, it's a bad situation.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE however AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: However you look at it, it's a bad situation.]",
+                "char_count": "9",
+                "usage_context_en": "[TRADUCIR AL FR: De cualquier forma o manera.]",
+                "usage_context_es": "In whatever way or manner.",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_0_def1.avif"
+            }
+        ],
+        "group_name": "Connectors: Contrast",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "while",
+        "phonetic": "/waɪl/",
+        "spoken_phonetic_us": "/waɪl/",
+        "search_term": "conjunction/contrast/time",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Mientras que (contraste)]",
+                "usage_example": "He likes coffee, while I prefer tea.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE while AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He likes coffee, while I prefer tea.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para contrastar dos hechos o situaciones diferentes.]",
+                "usage_context_es": "Used to contrast two different facts or situations.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_11_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Mientras (tiempo)]",
+                "usage_example": "I read while I wait.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE while AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I read while I wait.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Durante el tiempo que; al mismo tiempo que.]",
+                "usage_context_es": "During the time that; at the same time as.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_11_def1.avif"
+            }
+        ],
+        "group_name": "Connectors: Contrast",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "unless",
+        "phonetic": "/ənˈlɛs/",
+        "spoken_phonetic_us": "/ənˈlɛs/",
+        "search_term": "conjunction/condition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A menos que]",
+                "usage_example": "I will stay home, unless it stops raining.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE unless AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I will stay home, unless it stops raining.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para introducir una condición negativa (igual a 'si... no').]",
+                "usage_context_es": "Used to introduce a negative condition (same as 'if... not').",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_35_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Condition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "as long as",
+        "phonetic": "/æz lɔŋ æz/",
+        "spoken_phonetic_us": "/æz lɔŋ æz/",
+        "search_term": "phrase/condition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Siempre y cuando / Con tal de que]",
+                "usage_example": "You can go, as long as you finish your homework.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE as long as AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: You can go, as long as you finish your homework.]",
+                "char_count": "9",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para introducir una condición que debe ser verdad para que la cláusula principal lo sea.]",
+                "usage_context_es": "Used to introduce a condition that must be true for the main clause to be true.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_36_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Condition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "otherwise",
+        "phonetic": "/ˈʌðərˌwaɪz/",
+        "spoken_phonetic_us": "/ˈʌðərˌwaɪz/",
+        "search_term": "connector/condition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: De lo contrario]",
+                "usage_example": "You need to study hard; otherwise, you will fail.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE otherwise AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: You need to study hard; otherwise, you will fail.]",
+                "char_count": "9",
+                "usage_context_en": "[TRADUCIR AL FR: En circunstancias diferentes a las presentes o consideradas.]",
+                "usage_context_es": "In circumstances different from those present or considered.",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_6_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Condition",
+        "category": ""
+    }
+]

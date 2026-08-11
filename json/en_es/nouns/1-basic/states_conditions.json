@@ -1,0 +1,188 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Vida",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/existence/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "life",
+        "usage_example": "Es una vida hermosa.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "It's a beautiful life.",
+        "char_count": "one",
+        "usage_context_en": "The state of being alive",
+        "usage_context_es": "El estado de estar vivo",
+        "imagePath": "/card_images/nouns/1-basic/states_conditions/1-basic_states_conditions_card_0_def0.avif",
+        "target_meaning_es": "Vida"
+      },
+      {
+        "meaning": "life",
+        "usage_example": "Él disfruta de la vida en la ciudad.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He enjoys city life.",
+        "char_count": "4",
+        "usage_context_en": "The manner or way of living.",
+        "usage_context_es": "La forma o estilo de vivir.",
+        "imagePath": "/card_images/nouns/1-basic/states_conditions/1-basic_states_conditions_card_0_def1.avif",
+        "target_meaning_es": "Forma o estilo de vida"
+      }
+    ],
+    "group_name": null,
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Problema",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/issue/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "problem",
+        "usage_example": "Tengo un problema.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I have a problem.",
+        "char_count": "two",
+        "usage_context_en": "A situation that is difficult or needs a solution",
+        "usage_context_es": "Una situación que es difícil o necesita una solución",
+        "imagePath": "/card_images/nouns/1-basic/states_conditions/1-basic_states_conditions_card_1_def0.avif",
+        "target_meaning_es": "Problema"
+      }
+    ],
+    "group_name": "General Concepts",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Error",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "error",
+        "usage_example": "Cometiste un error.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "You made an error.",
+        "char_count": "two",
+        "usage_context_en": "A mistake",
+        "usage_context_es": "Una equivocación",
+        "imagePath": "/card_images/nouns/1-basic/states_conditions/1-basic_states_conditions_card_2_def0.avif",
+        "target_meaning_es": "Error"
+      }
+    ],
+    "group_name": "General Concepts",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Error / Equivocación",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "mistake",
+        "usage_example": "Cometí un error.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I made a mistake.",
+        "char_count": "two",
+        "usage_context_en": "An action or judgment that is wrong",
+        "usage_context_es": "Una acción o juicio que es incorrecto",
+        "imagePath": "/card_images/nouns/1-basic/states_conditions/1-basic_states_conditions_card_3_def0.avif",
+        "target_meaning_es": "Error / Equivocación"
+      }
+    ],
+    "group_name": "General Concepts",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Suerte",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "luck",
+        "usage_example": "¡Buena suerte!",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Good luck!",
+        "char_count": "one",
+        "usage_context_en": "Success that happens by chance",
+        "usage_context_es": "Éxito que ocurre por casualidad",
+        "imagePath": "/card_images/nouns/1-basic/states_conditions/1-basic_states_conditions_card_4_def0.avif",
+        "target_meaning_es": "Suerte"
+      }
+    ],
+    "group_name": "General Concepts",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Peligro",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "danger",
+        "usage_example": "Estás en peligro.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "You are in danger.",
+        "char_count": "two",
+        "usage_context_en": "The possibility of being harmed or killed",
+        "usage_context_es": "La posibilidad de ser herido o morir",
+        "imagePath": "/card_images/nouns/1-basic/states_conditions/1-basic_states_conditions_card_5_def0.avif",
+        "target_meaning_es": "Peligro"
+      }
+    ],
+    "group_name": "General Concepts",
+    "category": ""
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "achieve",
+    "phonetic": "/əˈʧiːv/",
+    "spoken_phonetic_us": "/əˈʧiːv/",
+    "search_term": "verb/accomplish/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Lograr/Alcanzar (un objetivo)",
+        "usage_example": "We worked hard to achieve our sales goals.",
+        "pronunciation_guide_es": "/ui_UORKT_JARD_tu_aCHIV_aur_SEILS_GOLS/",
+        "alternative_example": "She achieved great success in her career.",
+        "usage_example_es": "Trabajamos duro para lograr nuestros objetivos de ventas.",
+        "char_count": "two",
+        "usage_context_en": "goals/success",
+        "usage_context_es": "metas/éxito",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_0_def0.avif"
+      }
+    ],
+    "group_name": "Goals & Results"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "facilitate",
+    "phonetic": "/fəˈsɪlɪteɪt/",
+    "spoken_phonetic_us": "/fəˈsɪlɪteɪt/",
+    "search_term": "verb/make easier/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Facilitar",
+        "usage_example": "My job is to facilitate the discussion.",
+        "pronunciation_guide_es": "/mai_YOB_is_tu_faSILIteit_de_disKAShon/",
+        "alternative_example": "Technology facilitates communication.",
+        "usage_example_es": "Mi trabajo es facilitar la discusión.",
+        "char_count": "five",
+        "usage_context_en": "process/help",
+        "usage_context_es": "proceso/ayuda",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_13_def0.avif"
+      }
+    ],
+    "group_name": "Professional Action"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "enhance",
+    "phonetic": "/ɪnˈhæns/",
+    "spoken_phonetic_us": "/ɪnˈhæns/",
+    "search_term": "verb/improve/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Mejorar/Realzar",
+        "usage_example": "This sauce will enhance the flavor of the meat.",
+        "pronunciation_guide_es": "/dis_SOS_uil_inJANS_de_FLEIvor_of_de_MIT/",
+        "alternative_example": "You can enhance your skills with practice.",
+        "usage_example_es": "Esta salsa realzará el sabor de la carne.",
+        "char_count": "two",
+        "usage_context_en": "quality/improvement",
+        "usage_context_es": "calidad/mejora",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_14_def0.avif"
+      }
+    ],
+    "group_name": "Professional Action"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "resolve",
+    "phonetic": "/rɪˈzɒlv/",
+    "spoken_phonetic_us": "/rɪˈzɑːlv/",
+    "search_term": "verb/solve/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Resolver (un problema, conflicto)",
+        "usage_example": "We need to resolve this dispute.",
+        "pronunciation_guide_es": "/ui_NID_tu_riSOLV_dis_disPIUT/",
+        "alternative_example": "They resolved their differences.",
+        "usage_example_es": "Necesitamos resolver esta disputa.",
+        "char_count": "two",
+        "usage_context_en": "problem/solution",
+        "usage_context_es": "problema/solución",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_22_def0.avif"
+      }
+    ],
+    "group_name": "Goals & Results"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "overcome",
+    "phonetic": "/ˌoʊvərˈkʌm/",
+    "spoken_phonetic_us": "/ˌoʊvərˈkʌm/",
+    "search_term": "verb/conquer/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Superar (un obstáculo, dificultad)",
+        "usage_example": "He overcame many challenges to succeed.",
+        "pronunciation_guide_es": "/ji_ouverKEIM_MENi_CHALenyis_tu_sakSID/",
+        "alternative_example": "She is trying to overcome her fear.",
+        "usage_example_es": "Él superó muchos desafíos para tener éxito.",
+        "char_count": "four",
+        "usage_context_en": "difficulty/success",
+        "usage_context_es": "dificultad/éxito",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_23_def0.avif"
+      }
+    ],
+    "group_name": "Goals & Results"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "maintain",
+    "phonetic": "/meɪnˈteɪn/",
+    "spoken_phonetic_us": "/meɪnˈteɪn/",
+    "search_term": "verb/keep/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Mantener (en buen estado, un nivel)",
+        "usage_example": "It is important to maintain your car.",
+        "pronunciation_guide_es": "/it_is_imPORtant_tu_meinTEIN_yor_KAR/",
+        "alternative_example": "We need to maintain high standards.",
+        "usage_example_es": "Es importante mantener tu coche.",
+        "char_count": "two",
+        "usage_context_en": "condition/upkeep",
+        "usage_context_es": "condición/mantenimiento",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_29_def0.avif"
+      }
+    ],
+    "group_name": "Professional Action"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "negotiate",
+    "phonetic": "/nɪˈɡoʊʃieɪt/",
+    "spoken_phonetic_us": "/nɪˈɡoʊʃieɪt/",
+    "search_term": "verb/bargain/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Negociar",
+        "usage_example": "We need to negotiate a new contract.",
+        "pronunciation_guide_es": "/ui_NID_tu_niGOUSHieit_a_NIU_KONtrakt/",
+        "alternative_example": "They negotiated a peaceful settlement.",
+        "usage_example_es": "Necesitamos negociar un nuevo contrato.",
+        "char_count": "four",
+        "usage_context_en": "agreement/business",
+        "usage_context_es": "acuerdo/negocios",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_34_def0.avif"
+      }
+    ],
+    "group_name": "Social Dynamics"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "diminish",
+    "phonetic": "/dɪˈmɪnɪʃ/",
+    "spoken_phonetic_us": "/dɪˈmɪnɪʃ/",
+    "search_term": "verb/reduce/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Disminuir/Reducir",
+        "usage_example": "Our resources are diminishing.",
+        "pronunciation_guide_es": "/aur_RI-sorsis_ar_diMINIshing/",
+        "alternative_example": "The medicine will diminish the pain.",
+        "usage_example_es": "Nuestros recursos están disminuyendo.",
+        "char_count": "three",
+        "usage_context_en": "reduce/lessen",
+        "usage_context_es": "reducir/aminorar",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_42_def0.avif"
+      }
+    ],
+    "group_name": "Influence & Change"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "escalate",
+    "phonetic": "/ˈɛskəleɪt/",
+    "spoken_phonetic_us": "/ˈɛskəleɪt/",
+    "search_term": "verb/increase rapidly/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Intensificar/Escalar (un conflicto, problema)",
+        "usage_example": "The conflict escalated quickly.",
+        "pronunciation_guide_es": "/de_KONflikt_ESkoleitid_KUICkli/",
+        "alternative_example": "We must not let the situation escalate.",
+        "usage_example_es": "El conflicto escaló rápidamente.",
+        "char_count": "three",
+        "usage_context_en": "increase/worsen",
+        "usage_context_es": "aumentar/empeorar",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_43_def0.avif"
+      }
+    ],
+    "group_name": "Influence & Change"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "undermine",
+    "phonetic": "/ˌʌndərˈmaɪn/",
+    "spoken_phonetic_us": "/ˌʌndərˈmaɪn/",
+    "search_term": "verb/weaken/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Socavar/Debilitar (autoridad, confianza)",
+        "usage_example": "He tried to undermine my authority.",
+        "pronunciation_guide_es": "/ji_TRAID_tu_anderMAIN_mai_aTHORiti/",
+        "alternative_example": "Lack of sleep can undermine your health.",
+        "usage_example_es": "Él intentó socavar mi autoridad.",
+        "char_count": "four",
+        "usage_context_en": "weaken/damage",
+        "usage_context_es": "debilitar/dañar",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_45_def0.avif"
+      }
+    ],
+    "group_name": "Influence & Change"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "reinforce",
+    "phonetic": "/ˌriːɪnˈfɔːrs/",
+    "spoken_phonetic_us": "/ˌriːɪnˈfɔːrs/",
+    "search_term": "verb/strengthen/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Reforzar/Fortalecer",
+        "usage_example": "We need to reinforce our security.",
+        "pronunciation_guide_es": "/ui_NID_tu_riinFORS_aur_seKIUriti/",
+        "alternative_example": "The event reinforced my beliefs.",
+        "usage_example_es": "Necesitamos reforzar nuestra seguridad.",
+        "char_count": "three",
+        "usage_context_en": "strengthen/support",
+        "usage_context_es": "fortalecer/apoyar",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_46_def0.avif"
+      }
+    ],
+    "group_name": "Influence & Change"
+  }
+]

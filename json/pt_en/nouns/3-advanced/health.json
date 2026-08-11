@@ -1,0 +1,41 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "treatment",
+        "phonetic": "/ˈtriːtmənt/",
+        "spoken_phonetic_us": "/ˈtriːtmənt/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Tratamiento (médico)]",
+                "usage_example": "He is receiving treatment for cancer.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE treatment AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He is receiving treatment for cancer.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Atención médica dada a un paciente por una enfermedad o lesión.]",
+                "usage_context_es": "Medical care given to a patient for an illness or injury.",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_115_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Trato (hacia alguien)]",
+                "usage_example": "His treatment of his employees is bad.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE treatment AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: His treatment of his employees is bad.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL PT: La forma en que uno se comporta o trata a alguien o algo.]",
+                "usage_context_es": "The way one behaves toward or deals with someone or something.",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_115_def1.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    }
+]

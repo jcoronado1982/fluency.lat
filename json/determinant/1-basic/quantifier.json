@@ -1,0 +1,402 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "some",
+        "phonetic": "/sʌm/",
+        "spoken_phonetic_us": "/səm/",
+        "search_term": "determiner/quantifier",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Determiners: Quantifiers",
+        "definitions": [
+            {
+                "meaning": "Algo de / Unos / Algunas",
+                "usage_example": "I need some water. / I need some apples.",
+                "pronunciation_guide_es": "/ai_NID_som_UA-ter_ai_NID_som_A-pols/",
+                "usage_example_es": "Necesito algo de agua. / Necesito unas manzanas.",
+                "char_count": "4",
+                "usage_context_en": "Used for an unspecified amount in affirmative sentences.",
+                "usage_context_es": "Usado para una cantidad no especificada en oraciones afirmativas.",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_14_def0.avif"
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "any",
+        "phonetic": "/ˈɛni/",
+        "spoken_phonetic_us": "/ˈɛni/",
+        "search_term": "determiner/quantifier",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Determiners: Quantifiers",
+        "definitions": [
+            {
+                "meaning": "Algo de / Algún / Alguna (preguntas)",
+                "usage_example": "Do you have any money?",
+                "pronunciation_guide_es": "/du_iu_HAV_E-ni_MO-ni/",
+                "usage_example_es": "¿Tienes (algo de) dinero?",
+                "char_count": "5",
+                "usage_context_en": "Used for an unspecified amount in questions.",
+                "usage_context_es": "Usado para una cantidad no especificada en preguntas.",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_15_def0.avif"
+            },
+            {
+                "meaning": "Nada de / Ningún / Ninguna (negativos)",
+                "usage_example": "I don't have any money.",
+                "pronunciation_guide_es": "/ai_DONT_HAV_E-ni_MO-ni/",
+                "usage_example_es": "No tengo (nada de) dinero.",
+                "char_count": "5",
+                "usage_context_en": "Used for a zero amount in negative sentences.",
+                "usage_context_es": "Usado para una cantidad cero en oraciones negativas.",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_15_def1.avif"
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "no",
+        "phonetic": "/noʊ/",
+        "spoken_phonetic_us": "/noʊ/",
+        "search_term": "determiner/quantifier",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Determiners: Quantifiers",
+        "definitions": [
+            {
+                "meaning": "No / Ningún / Ninguna",
+                "usage_example": "I have no money.",
+                "pronunciation_guide_es": "/ai_HAV_NOU_MO-ni/",
+                "usage_example_es": "No tengo dinero. (Tengo cero dinero).",
+                "char_count": "4",
+                "usage_context_en": "Used to indicate zero amount (stronger than 'not any').",
+                "usage_context_es": "Usado para indicar cantidad cero (más fuerte que 'not any').",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_16_def0.avif"
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "all",
+        "phonetic": "/ɔːl/",
+        "spoken_phonetic_us": "/ɔːl/",
+        "search_term": "determiner/quantifier",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Determiners: Quantifiers",
+        "definitions": [
+            {
+                "meaning": "Todo/a / Todos/as",
+                "usage_example": "All the food is ready.",
+                "pronunciation_guide_es": "/OL_de_FUD_is_RE-di/",
+                "usage_example_es": "Toda la comida está lista.",
+                "char_count": "5",
+                "usage_context_en": "Used to refer to the whole quantity or extent of something.",
+                "usage_context_es": "Usado para referirse a la cantidad total o extensión de algo."
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "much",
+        "phonetic": "/mʌtʃ/",
+        "spoken_phonetic_us": "/mʌtʃ/",
+        "search_term": "determiner/quantifier",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Determiners: Quantifiers",
+        "definitions": [
+            {
+                "meaning": "Mucho / Mucha",
+                "usage_example": "I don't have much time.",
+                "pronunciation_guide_es": "/ai_DONT_HAV_moch_TAIM/",
+                "usage_example_es": "No tengo mucho tiempo.",
+                "char_count": "5",
+                "usage_context_en": "Used for a large amount of an uncountable noun (mainly in questions/negatives).",
+                "usage_context_es": "Usado para una gran cantidad de un sustantivo incontable (principalmente en preguntas/negativos).",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_19_def0.avif"
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "many",
+        "phonetic": "/ˈmɛni/",
+        "spoken_phonetic_us": "/ˈmɛni/",
+        "search_term": "determiner/quantifier",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Determiners: Quantifiers",
+        "definitions": [
+            {
+                "meaning": "Muchos / Muchas",
+                "usage_example": "I have many friends.",
+                "pronunciation_guide_es": "/ai_HAV_ME-ni_FRENDS/",
+                "usage_example_es": "Tengo muchos amigos.",
+                "char_count": "4",
+                "usage_context_en": "Used for a large number of a countable noun.",
+                "usage_context_es": "Usado para un gran número de un sustantivo contable.",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_20_def0.avif"
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "a lot of",
+        "phonetic": "/ə lɒt əv/",
+        "spoken_phonetic_us": "/ə lɑt əv/",
+        "search_term": "determiner/quantifier",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Determiners: Quantifiers",
+        "definitions": [
+            {
+                "meaning": "Mucho / Mucha / Muchos / Muchas",
+                "usage_example": "I have a lot of friends. / I have a lot of time.",
+                "pronunciation_guide_es": "/ai_HAV_a_LOT_of_FRENDS_ai_HAV_a_LOT_of_TAIM/",
+                "usage_example_es": "Tengo muchos amigos. / Tengo mucho tiempo.",
+                "char_count": 5,
+                "usage_context_en": "A large amount or number (used with both countable and uncountable nouns).",
+                "usage_context_es": "Una gran cantidad o número (usado con sustantivos contables e incontables).",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_21_def0.avif"
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "few",
+        "phonetic": "/fjuː/",
+        "spoken_phonetic_us": "/fjuː/",
+        "search_term": "determiner/quantifier",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Determiners: Quantifiers",
+        "definitions": [
+            {
+                "meaning": "Pocos / Pocas (casi nada)",
+                "usage_example": "He has few friends.",
+                "pronunciation_guide_es": "/hi_HAS_FIU_FRENDS/",
+                "usage_example_es": "Él tiene pocos amigos. (sentido negativo)",
+                "char_count": "4",
+                "usage_context_en": "Used for a small number of a countable noun (implies a negative quantity, 'not enough').",
+                "usage_context_es": "Usado para un pequeño número de un sustantivo contable (implica cantidad negativa, 'no suficientes').",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_23_def0.avif"
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "little",
+        "phonetic": "/ˈlɪtəl/",
+        "spoken_phonetic_us": "/ˈlɪtəl/",
+        "search_term": "determiner/quantifier",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Determiners: Quantifiers",
+        "definitions": [
+            {
+                "meaning": "Poco / Poca (casi nada)",
+                "usage_example": "He has little time.",
+                "pronunciation_guide_es": "/hi_HAS_LI-tol_TAIM/",
+                "usage_example_es": "Él tiene poco tiempo. (sentido negativo)",
+                "char_count": "4",
+                "usage_context_en": "Used for a small amount of an uncountable noun (implies a negative quantity, 'not enough').",
+                "usage_context_es": "Usado para una pequeña cantidad de un sustantivo incontable (implica cantidad negativa, 'no suficiente').",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_24_def0.avif"
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "enough",
+        "phonetic": "/ɪˈnʌf/",
+        "spoken_phonetic_us": "/ɪˈnʌf/",
+        "search_term": "determiner/quantifier",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Determiners: Quantifiers",
+        "definitions": [
+            {
+                "meaning": "Suficiente(s)",
+                "usage_example": "I don't have enough money.",
+                "pronunciation_guide_es": "/ai_DONT_HAV_i-NOF_MO-ni/",
+                "usage_example_es": "No tengo suficiente dinero.",
+                "char_count": "5",
+                "usage_context_en": "As much or as many as is necessary or required.",
+                "usage_context_es": "Tanto o tantos como sea necesario o requerido."
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": true,
+        "learned_at": null,
+        "name": "more",
+        "phonetic": "/mɔːr/",
+        "spoken_phonetic_us": "/mɔr/",
+        "search_term": "determiner/quantifier",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Determiners: Quantifiers",
+        "definitions": [
+            {
+                "meaning": "Más",
+                "usage_example": "I need more time.",
+                "pronunciation_guide_es": "/ai_NID_MOR_TAIM/",
+                "usage_example_es": "Necesito más tiempo.",
+                "char_count": "4",
+                "usage_context_en": "A greater or additional amount or degree.",
+                "usage_context_es": "Una cantidad o grado mayor o adicional."
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "less",
+        "phonetic": "/lɛs/",
+        "spoken_phonetic_us": "/lɛs/",
+        "search_term": "determiner/quantifier",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Determiners: Quantifiers",
+        "definitions": [
+            {
+                "meaning": "Menos (incontable)",
+                "usage_example": "I have less money than you.",
+                "pronunciation_guide_es": "/ai_HAV_LES_MO-ni_dan_IU/",
+                "usage_example_es": "Tengo menos dinero que tú.",
+                "char_count": "6",
+                "usage_context_en": "A smaller amount of (used with uncountable nouns).",
+                "usage_context_es": "Una cantidad menor de (usado con sustantivos incontables)."
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "another",
+        "phonetic": "/əˈnʌðər/",
+        "spoken_phonetic_us": "/əˈnʌðər/",
+        "search_term": "determiner/quantifier",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Determiners: Quantifiers",
+        "definitions": [
+            {
+                "meaning": "Otro/a (uno más, adicional)",
+                "usage_example": "Can I have another cookie?",
+                "pronunciation_guide_es": "/can_ai_HAV_a-NO-der_CU-ki/",
+                "usage_example_es": "¿Puedo tomar otra galleta?",
+                "char_count": "5",
+                "usage_context_en": "Used for one more, additional, singular countable noun.",
+                "usage_context_es": "Usado para uno más, adicional, sustantivo contable singular."
+            },
+            {
+                "meaning": "Otro/a (diferente)",
+                "usage_example": "Let's meet another day.",
+                "pronunciation_guide_es": "/lets_MIT_a-NO-der_DEI/",
+                "usage_example_es": "Reunámonos otro día.",
+                "char_count": "4",
+                "usage_context_en": "Used for a different singular countable noun.",
+                "usage_context_es": "Usado para un sustantivo contable singular diferente."
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "other",
+        "phonetic": "/ˈʌðər/",
+        "spoken_phonetic_us": "/ˈʌðər/",
+        "search_term": "determiner/quantifier",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Determiners: Quantifiers",
+        "definitions": [
+            {
+                "meaning": "Otro/a / Otros/as (general)",
+                "usage_example": "Do you have other options?",
+                "pronunciation_guide_es": "/du_iu_HAV_O-der_OP-shons/",
+                "usage_example_es": "¿Tienes otras opciones?",
+                "char_count": "5",
+                "usage_context_en": "Used for different or additional plural or uncountable nouns.",
+                "usage_context_es": "Usado para sustantivos plurales o incontables diferentes o adicionales."
+            },
+            {
+                "meaning": "El/La otro/a (específico)",
+                "usage_example": "The other key is on the table.",
+                "pronunciation_guide_es": "/di_O-der_KI_is_on_de_TEI-bol/",
+                "usage_example_es": "La otra llave está en la mesa.",
+                "char_count": "7",
+                "usage_context_en": "Used with 'the' to refer to the second of two specific things.",
+                "usage_context_es": "Usado con 'the' para referirse al segundo de dos objetos específicos."
+            }
+        ],
+        "category": "Basic"
+    }
+]

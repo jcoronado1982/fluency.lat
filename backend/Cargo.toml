@@ -1,0 +1,32 @@
+[workspace]
+members = ["core","api_main","mod_shell","mod_flashcards"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+anyhow = "1.0"
+async-trait = "0.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1.0", features = ["v4"] }
+dashmap = "5.5"
+tokio = { version = "1", features = ["full"] }
+tracing = "0.1"
+# dev-dependencies compartidas (solo tests: mocks de puertos, property-based, snapshots)
+mockall = "0.13"
+proptest = "1"
+insta = { version = "1", features = ["json"] }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+
+[profile.dev.package."*"]
+opt-level = 3

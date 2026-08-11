@@ -1,0 +1,80 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "soul",
+    "phonetic": "/soʊl/",
+    "spoken_phonetic_us": "/soʊl/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Alma",
+        "usage_example": "Music is good for the soul.",
+        "pronunciation_guide_es": "/MIU-sik_is_gud_for_de_SOUL/",
+        "usage_example_es": "La música es buena para el alma.",
+        "char_count": "6",
+        "usage_context_en": "The spiritual or non-physical part of a person.",
+        "usage_context_es": "La parte espiritual o no física de una persona.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_198_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "spirit",
+    "phonetic": "/ˈspɪrɪt/",
+    "spoken_phonetic_us": "/ˈspɪrɪt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Espíritu",
+        "usage_example": "She has a free spirit.",
+        "pronunciation_guide_es": "/shi_has_a_fri_SPI-rit/",
+        "usage_example_es": "Ella tiene un espíritu libre.",
+        "char_count": "5",
+        "usage_context_en": "The non-physical part of a person, seen as their true self; a person's mood or attitude.",
+        "usage_context_es": "La parte no física de una persona, vista como su verdadero ser; el estado de ánimo o la actitud de una persona.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_199_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "identity",
+    "phonetic": "/aɪˈdɛntəti/",
+    "spoken_phonetic_us": "/aɪˈdɛntəti/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Identidad",
+        "usage_example": "He tried to hide his identity.",
+        "pronunciation_guide_es": "/hi_traid_tu_HAID_his_ai-DEN-ti-ti/",
+        "usage_example_es": "Él intentó ocultar su identidad.",
+        "char_count": "6",
+        "usage_context_en": "The facts or characteristics that define who or what a person or thing is.",
+        "usage_context_es": "Los hechos o características que definen quién o qué es una persona o cosa.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_292_def0.avif"
+      }
+    ]
+  }
+]

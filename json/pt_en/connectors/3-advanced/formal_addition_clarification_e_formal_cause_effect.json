@@ -1,0 +1,198 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "furthermore",
+        "phonetic": "/ˌfɜrðərˈmɔr/",
+        "spoken_phonetic_us": "/ˌfɜrðərˈmɔr/",
+        "search_term": "connector/addition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Además]",
+                "usage_example": "The house is beautiful. Furthermore, it's in a great location.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE furthermore AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The house is beautiful. Furthermore, it's in a great location.]",
+                "char_count": "11",
+                "usage_context_en": "[TRADUCIR AL PT: En adición; además.]",
+                "usage_context_es": "In addition; besides.",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_4_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "consequently",
+        "phonetic": "/ˈkɒnsɪkwəntli/",
+        "spoken_phonetic_us": "/ˈkɑnsəkwɛntli/",
+        "search_term": "connector/result",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Por consiguiente / En consecuencia]",
+                "usage_example": "It rained heavily; consequently, the match was canceled.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE consequently AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: It rained heavily; consequently, the match was canceled.]",
+                "char_count": "12",
+                "usage_context_en": "[TRADUCIR AL PT: Como resultado.]",
+                "usage_context_es": "As a result.",
+                "imagePath": "/card_images/connectors/3-advanced/3-advanced_card_0_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "moreover",
+        "phonetic": "/mɔrˈoʊvər/",
+        "spoken_phonetic_us": "/mɔrˈoʊvər/",
+        "search_term": "adverb/addition/formal",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Además / Es más (formal)]",
+                "usage_example": "The plan is risky. Moreover, it is expensive.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE moreover AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The plan is risky. Moreover, it is expensive.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL PT: Como un punto adicional; además (usado para añadir un punto más fuerte y relacionado).]",
+                "usage_context_es": "As a further matter; besides (used to add a stronger, related point).",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_4_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "hence",
+        "phonetic": "/hɛns/",
+        "spoken_phonetic_us": "/hɛns/",
+        "search_term": "connector/result",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: De ahí que / Por lo tanto]",
+                "usage_example": "He didn't study; hence his failure.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE hence AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He didn't study; hence his failure.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Como consecuencia; por esta razón.]",
+                "usage_context_es": "As a consequence; for this reason.",
+                "imagePath": "/card_images/connectors/3-advanced/3-advanced_card_1_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "that is",
+        "phonetic": "/ðæt ɪz/",
+        "spoken_phonetic_us": "/ðæt ɪz/",
+        "search_term": "phrase/clarification/formal",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Es decir (formal)]",
+                "usage_example": "The hotel is closed; that is, we cannot stay there.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE that is AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The hotel is closed; that is, we cannot stay there.]",
+                "char_count": "8",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para explicar o especificar lo que se acaba de decir (a menudo abreviado como 'i.e.').]",
+                "usage_context_es": "Used to explain or specify what was just said (often abbreviated as 'i.e.').",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_28_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Clarification",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "therefore",
+        "phonetic": "/ˈðɛərˌfɔr/",
+        "spoken_phonetic_us": "/ˈðɛrˌfɔr/",
+        "search_term": "adverb/result/formal",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Por lo tanto / Por consiguiente (formal)]",
+                "usage_example": "He is sick; therefore, he will not come.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE therefore AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He is sick; therefore, he will not come.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL PT: Por esa razón; consecuentemente (usado en habla o escritura formal).]",
+                "usage_context_es": "For that reason; consequently (used in formal speech or writing).",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_21_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "thus",
+        "phonetic": "/ðʌs/",
+        "spoken_phonetic_us": "/ðʌs/",
+        "search_term": "adverb/result/formal",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Así pues / Por lo tanto (formal)]",
+                "usage_example": "He did not study; thus, he failed.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE thus AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He did not study; thus, he failed.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Como resultado o consecuencia de esto; por lo tanto.]",
+                "usage_context_es": "As a result or consequence of this; therefore.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_24_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    }
+]

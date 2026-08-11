@@ -1,0 +1,125 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "¿Quién / Quiénes?",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "pronoun/interrogative/relative",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "who",
+        "usage_example": "¿Quién es esa persona?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Who is that person?",
+        "char_count": "4",
+        "usage_context_en": "Used as an interrogative pronoun to ask about a person.",
+        "usage_context_es": "Usado como pronombre interrogativo para preguntar sobre una persona.",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns/1-basic_interrogative_pronouns_card_0_def0.avif",
+        "target_meaning_es": "¿Quién / Quiénes?"
+      },
+      {
+        "meaning": "who",
+        "usage_example": "El hombre que me llamó está aquí.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The man who called me is here.",
+        "char_count": "7",
+        "usage_context_en": "Used as a relative pronoun to introduce a clause about a person.",
+        "usage_context_es": "Usado como pronombre relativo para introducir una cláusula sobre una persona.",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns/1-basic_interrogative_pronouns_card_0_def1.avif",
+        "target_meaning_es": "Que / Quien / El cual (para personas)"
+      }
+    ],
+    "group_name": "Interrogativo/Relativo",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Qué / Cuál (pregunta)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "pronoun/interrogative/relative",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "what",
+        "usage_example": "¿Cuál es tu nombre?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "What is your name?",
+        "char_count": "4",
+        "usage_context_en": "Used as an interrogative word to ask for information (open choice).",
+        "usage_context_es": "Usado como palabra interrogativa para pedir información (elección abierta).",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns/1-basic_interrogative_pronouns_card_1_def0.avif",
+        "target_meaning_es": "Qué / Cuál (pregunta)"
+      },
+      {
+        "meaning": "what",
+        "usage_example": "No sé qué hacer. (No sé lo que debo hacer).",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I don't know what to do.",
+        "char_count": "6",
+        "usage_context_en": "Used as a relative pronoun to refer to 'the thing(s) that'.",
+        "usage_context_es": "Usado como pronombre relativo para referirse a 'la(s) cosa(s) que'.",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns/1-basic_interrogative_pronouns_card_1_def1.avif",
+        "target_meaning_es": "Lo que (pronombre relativo)"
+      }
+    ],
+    "group_name": "Interrogativo/Relativo",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Qué / Cuál / Que",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "pronoun/interrogative/relative",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "which",
+        "usage_example": "¿Qué color prefieres?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Which color do you prefer?",
+        "char_count": "5",
+        "usage_context_en": "Used as an interrogative word to ask about a limited choice.",
+        "usage_context_es": "Usado como palabra interrogativa para preguntar sobre una elección limitada.",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns/1-basic_interrogative_pronouns_card_2_def0.avif",
+        "target_meaning_es": "¿Cuál / Cuáles?"
+      },
+      {
+        "meaning": "which",
+        "usage_example": "El carro que es rojo es mío.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The car which is red is mine.",
+        "char_count": "7",
+        "usage_context_en": "Used as a relative pronoun to introduce a clause about a thing.",
+        "usage_context_es": "Usado como pronombre relativo para introducir una cláusula sobre una cosa.",
+        "imagePath": "/card_images/pronouns/1-basic/interrogative_pronouns/1-basic_interrogative_pronouns_card_2_def1.avif",
+        "target_meaning_es": "Que / El cual / La cual"
+      }
+    ],
+    "group_name": "Interrogativo/Relativo",
+    "category": "Basic"
+  }
+]

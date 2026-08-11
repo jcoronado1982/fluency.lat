@@ -1,0 +1,69 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "part",
+        "phonetic": "/pɑːrt/",
+        "spoken_phonetic_us": "/pɑːrt/",
+        "search_term": "noun/piece/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Parte]",
+                "usage_example": "This is the best part of the movie.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE part AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: This is the best part of the movie.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un pedazo de un todo]",
+                "usage_context_es": "A piece of a whole",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_17_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Papel o rol]",
+                "usage_example": "He played a part in the movie.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE part AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He played a part in the movie.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: Un papel en una obra, película o situación.]",
+                "usage_context_es": "A role in a play, movie, or situation.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_17_def1.avif"
+            }
+        ],
+        "group_name": null,
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "team",
+        "phonetic": "/tiːm/",
+        "spoken_phonetic_us": "/tiːm/",
+        "search_term": "noun/group/work/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Equipo]",
+                "usage_example": "We are a good team.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE team AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: We are a good team.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un grupo de personas que trabajan o juegan juntas]",
+                "usage_context_es": "A group of people working or playing together",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_222_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Por consiguiente / En consecuencia",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "connector/result",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Por consiguiente / En consecuencia]",
+                "usage_example": "Llovió mucho; por consiguiente, el partido fue cancelado.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Llovió mucho; por consiguiente, el partido fue cancelado.]",
+                "char_count": "12",
+                "usage_context_en": "[TRADUCIR AL PT: Como resultado.]",
+                "usage_context_es": "Como resultado.",
+                "imagePath": "/card_images/connectors/3-advanced/3-advanced_card_0_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "De ahí que / Por lo tanto",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "connector/result",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: De ahí que / Por lo tanto]",
+                "usage_example": "No estudió; de ahí su fracaso.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: No estudió; de ahí su fracaso.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Como consecuencia; por esta razón.]",
+                "usage_context_es": "Como consecuencia; por esta razón.",
+                "imagePath": "/card_images/connectors/3-advanced/3-advanced_card_1_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Por lo tanto / Por consiguiente (formal)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adverb/result/formal",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Por lo tanto / Por consiguiente (formal)]",
+                "usage_example": "El está está enfermo; por lo tanto, no vendrá.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El está está enfermo; por lo tanto, no vendrá.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL PT: Por esa razón; consecuentemente (usado en habla o escritura formal).]",
+                "usage_context_es": "Por esa razón; consecuentemente (usado en habla o escritura formal).",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_21_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Así pues / Por lo tanto (formal)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adverb/result/formal",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Así pues / Por lo tanto (formal)]",
+                "usage_example": "No estudió; así pues, reprobó.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: No estudió; así pues, reprobó.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Como resultado o consecuencia de esto; por lo tanto.]",
+                "usage_context_es": "Como resultado o consecuencia de esto; por lo tanto.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_24_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    }
+]

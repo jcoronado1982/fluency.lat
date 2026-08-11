@@ -1,0 +1,430 @@
+/* ── Fluency Landing ── */
+.lp,
+.lp *,
+.lp *::before,
+.lp *::after {
+    box-sizing: border-box;
+}
+
+.lp {
+    --lp-section-inline-padding: 20px;
+    /* Escala editorial compartida por los encabezados de las secciones.
+       Queda claramente por debajo del hero, pero evita que cada bloque parezca
+       pertenecer a un sistema tipografico distinto. */
+    --lp-section-title-size: clamp(2.5rem, 3.2vw, 3rem);
+    --lp-section-title-line: 1.04;
+    --lp-cta-title-size: clamp(3.25rem, 3.6vw, 3.5rem);
+    --c-bg: #0d0509;
+    --c-bg2: #140810;
+    --c-rose: #be185d;
+    --c-pink: #f472b6;
+    --c-orange: #fb923c;
+    --c-violet: #7d77dd;
+    --c-teal: #2dd4bf;
+    --c-text: #f5f5f5;
+    --c-muted: #94a3b8;
+    --c-muted2: #cbd5e1;
+    --c-surface: rgba(255,255,255,0.05);
+    --c-border: rgba(244,114,182,0.18);
+    --lp-section-fade-line: linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(255, 255, 255, 0.14) 18%,
+        rgba(255, 255, 255, 0.28) 50%,
+        rgba(255, 255, 255, 0.14) 82%,
+        transparent 100%
+    );
+
+    position: relative;
+    min-height: 100dvh;
+    overflow-x: hidden;
+    /*
+     * Gradiente maestro — un solo fondo continuo, sin líneas.
+     *   26-58%  feedback/reseñas  → negro
+     *   58-74%  vocabulary-first → burdeos (sección propia)
+     *   76-90%  everything-you-need → negro/gris
+     *   90-98%  CTA tail → burdeos intenso
+     */
+    background: linear-gradient(
+        180deg,
+        #0d0509  0%,
+        #0e060c  5%,
+        #110710  12%,
+        #0d0509  20%,
+        #080307  26%,
+        #040104  32%,
+        #000000  40%,
+        #000000  55%,
+        #010001  58%,
+        #040104  60%,
+        #080307  62%,
+        #0d0509  65%,
+        #11070f  68%,
+        #140810  71%,
+        #140810  74%,
+        #130810  76%,
+        #0e060c  78%,
+        #060205  80%,
+        #020102  82%,
+        #000000  84%,
+        #000000  88%,
+        #010001  90%,
+        #030103  92%,
+        #060205  94%,
+        #0a0408  96%,
+        #140810  97%,
+        #180a14  98%,
+        #0d0509  100%
+    );
+    color: var(--c-text);
+    font-family: var(--font-family-body);
+}
+
+/* ── BG Decoration ── */
+.lp-bg-glow,
+.lp-bg-blob {
+    position: fixed;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.lp-bg-glow {
+    width: 120%;
+    height: 55%;
+    top: -20%;
+    left: -10%;
+    background: radial-gradient(
+        ellipse at 50% 30%,
+        rgba(190, 24, 93, 0.20) 0%,
+        rgba(244, 114, 182, 0.08) 45%,
+        transparent 70%
+    );
+}
+
+.lp-bg-blob {
+    border-radius: 50%;
+    filter: blur(90px);
+}
+
+.lp-bg-blob--1 {
+    width: 340px;
+    height: 340px;
+    background: var(--c-rose);
+    top: -80px;
+    left: -80px;
+    opacity: 0.09;
+}
+
+.lp-bg-blob--2 {
+    width: 420px;
+    height: 420px;
+    background: var(--c-pink);
+    bottom: 5%;
+    right: -120px;
+    opacity: 0.06;
+}
+
+/* Everything in front of blobs */
+.lp-nav,
+main,
+.shell-footer {
+    position: relative;
+    z-index: 1;
+}
+
+/* ── NAV ── */
+#how-it-works,
+#demo,
+#reviews,
+#vocabulary-first {
+    scroll-margin-top: 5rem;
+}
+
+.lp-nav {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    background: rgba(13,5,9,0.85);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+}
+
+.lp-nav-inner {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    max-width: var(--shell-content-max-width, 1280px);
+    margin: 0 auto;
+    padding: 14px var(--shell-content-inline-padding, 32px);
+}
+
+@media (max-width: 719px) {
+    .lp-nav-inner {
+        gap: 15px;
+    }
+}
+
+.lp-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    flex-shrink: 0;
+}
+
+.lp-brand-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.lp-brand-name {
+    font-family: var(--font-family-body);
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    background: linear-gradient(to right, var(--c-rose), var(--c-pink) 45%, var(--c-orange));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lp-nav-links {
+    display: none;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+@media (min-width: 720px) {
+    .lp-nav-links { display: flex; }
+}
+
+.lp-nav-links a {
+    color: rgba(245,245,245,0.55);
+    text-decoration: none;
+    font-size: var(--text-nav);
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    padding: 6px 0 8px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+    white-space: nowrap;
+}
+
+.lp-nav-links a:hover {
+    color: rgba(245,245,245,0.88);
+}
+
+.lp-nav-links a.is-active {
+    color: var(--c-text);
+    border-bottom-color: var(--c-pink);
+}
+
+.lp-nav-end {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+    margin-left: auto;
+}
+
+.lp-nav-login {
+    color: rgba(245,245,245,0.82);
+    text-decoration: none;
+    font-size: var(--text-nav);
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+    transition: color 0.2s;
+}
+
+.lp-nav-login:hover {
+    color: var(--c-text);
+}
+
+/* Language toggle */
+.lp-lang {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.lp-lang button {
+    border: none;
+    background: transparent;
+    color: rgba(255,255,255,0.35);
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 4px 3px 5px;
+    border-radius: 0;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    position: relative;
+    transition: color 0.2s;
+}
+
+.lp-lang button.is-active {
+    color: var(--c-text);
+}
+
+.lp-lang button.is-active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1.5px;
+    background: linear-gradient(90deg, var(--c-rose), var(--c-pink) 55%, var(--c-orange));
+    border-radius: 999px;
+}
+
+.lp-lang button:hover:not(.is-active) {
+    color: rgba(255,255,255,0.65);
+}
+
+.lp-lang-sep {
+    color: rgba(255,255,255,0.18);
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding: 0 1px;
+    user-select: none;
+}
+
+/* ── Buttons ── */
+.lp-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 0.7rem 1.6rem;
+    border-radius: 999px;
+    font-size: var(--text-body-md);
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, var(--c-rose), var(--c-pink) 50%, var(--c-orange));
+    color: #fff;
+    box-shadow: 0 8px 24px rgba(190,24,93,0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lp-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(190,24,93,0.4);
+}
+
+.lp-btn--sm {
+    min-height: 38px;
+    padding: 0.5rem 1.1rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.01em;
+}
+
+.lp-btn--nav {
+    min-height: 40px;
+    padding: 0.55rem 1.35rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    box-shadow: 0 6px 20px rgba(190,24,93,0.28);
+}
+
+.lp-btn--nav:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px rgba(190,24,93,0.38);
+}
+
+.lp-btn--ghost {
+    background: transparent;
+    box-shadow: none;
+    color: var(--c-muted2);
+    border: 1px solid rgba(255,255,255,0.14);
+    backdrop-filter: blur(8px);
+}
+
+.lp-btn--ghost:hover {
+    background: rgba(255,255,255,0.06);
+    box-shadow: none;
+    color: var(--c-text);
+    border-color: rgba(255,255,255,0.24);
+}
+
+.lp-btn--outline {
+    background: transparent;
+    box-shadow: none;
+    color: var(--c-pink);
+    border: 1.5px solid rgba(244,114,182,0.45);
+}
+
+.lp-btn--outline:hover {
+    background: rgba(244,114,182,0.08);
+    box-shadow: none;
+    border-color: var(--c-pink);
+}
+
+/* ── Shared section layout ── */
+.lp-section-inner {
+    max-width: var(--shell-content-max-width, 1280px);
+    margin: 0 auto;
+    padding-inline: var(--lp-section-inline-padding, var(--shell-content-inline-padding, 32px));
+}
+
+/* ── Zone 1: hero — fondo transparente, solo glow radial ── */
+.lp-zone-flow {
+    position: relative;
+    background: transparent;
+    overflow: hidden;
+}
+
+.lp-zone-flow::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background: radial-gradient(
+        ellipse 130% 55% at 50% 10%,
+        rgba(190, 24, 93, 0.22) 0%,
+        rgba(244, 114, 182, 0.08) 44%,
+        transparent 70%
+    );
+}
+
+.lp-zone-flow > section {
+    position: relative;
+    z-index: 1;
+}
+
+/* ── Zone inferior — fondo transparente, solo glows radiales ── */
+.lp-zone-lower {
+    position: relative;
+    background: transparent;
+    overflow: hidden;
+}
+
+.lp-zone-lower::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background:
+        radial-gradient(
+            ellipse 130% 20% at 50% 96%,
+            rgba(190, 24, 93, 0.42) 0%,
+            rgba(244, 114, 182, 0.16) 38%,
+            rgba(251, 146, 60, 0.04) 60%,
+            transparent 80%
+        );
+}
+
+.lp-zone-lower > section {
+    position: relative;
+    z-index: 1;
+}

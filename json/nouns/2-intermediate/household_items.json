@@ -1,0 +1,28 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Electrodoméstico",
+        "pronunciation_guide_es": "/de_KICHen_has_NIU_a-PLAI-an-ses/",
+        "usage_context_en": "A machine used in the home for a specific purpose",
+        "usage_context_es": "Una máquina usada en el hogar para un propósito específico",
+        "usage_example": "The kitchen has new appliances.",
+        "usage_example_es": "La cocina tiene electrodomésticos nuevos.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_409_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "appliance",
+    "phonetic": "/əˈplaɪəns/",
+    "search_term": "noun/household/machine",
+    "spoken_phonetic_us": "/əˈplaɪəns/"
+  }
+]

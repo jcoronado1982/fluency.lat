@@ -1,0 +1,41 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Tratamiento (médico)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Tratamiento (médico)]",
+                "usage_example": "Él está recibiendo tratamiento para el cáncer.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Él está recibiendo tratamiento para el cáncer.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL IT: Atención médica dada a un paciente por una enfermedad o lesión.]",
+                "usage_context_es": "Atención médica dada a un paciente por una enfermedad o lesión.",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_115_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL IT: Trato (hacia alguien)]",
+                "usage_example": "Su trato hacia sus empleados es malo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Su trato hacia sus empleados es malo.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL IT: La forma en que uno se comporta o trata a alguien o algo.]",
+                "usage_context_es": "La forma en que uno se comporta o trata a alguien o algo.",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_115_def1.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    }
+]

@@ -1,0 +1,139 @@
+#!/bin/sh
+# ============================================================================
+# Startup-script generado por Terraform para fluency-proxy-backend (GCP).
+#
+# NO reimplementa la lógica de bootstrap: escribe a disco los scripts
+# canónicos de infra/proxy/ (embebidos abajo, leídos en build-time por
+# Terraform vía file()) y los ejecuta, igual que se haría a mano por SSH.
+# Editar la lógica en infra/proxy/*.sh, nunca aquí.
+#
+# Corre en cada arranque (comportamiento normal de startup-script en GCE) --
+# cada paso es idempotente o, cuando no lo es (deploy del backend), coincide
+# con el comportamiento ya esperado del script real (recrea el contenedor).
+# ============================================================================
+set -eu
+
+MOUNT_POINT="/mnt/sda"
+PROXY_DIR="$MOUNT_POINT/infra-proxy"
+
+echo "=== 1. Verificando disco persistente diskless ($MOUNT_POINT) ==="
+# El comportamiento "/ es tmpfs, el disco real vive en /mnt/sda" está
+# horneado en la imagen Alpine custom (ver README.md de este directorio,
+# "Limitación crítica: imagen Alpine importada"), NO lo crea este script.
+# Si la imagen de arranque no trae ese mount ya resuelto, abortar en vez de
+# escribir silenciosamente en tmpfs (se perdería todo en el próximo reboot).
+if ! mountpoint -q "$MOUNT_POINT"; then
+  echo "ERROR: $MOUNT_POINT no está montado. La imagen de arranque no es la" >&2
+  echo "imagen diskless esperada (ver docs/infrastructure/server_inventory.md" >&2
+  echo "y el README de infra/terraform/). Abortando para no escribir en tmpfs." >&2
+  exit 1
+fi
+
+mkdir -p "$PROXY_DIR" \
+  "$MOUNT_POINT/repository/flashcard/card_images" \
+  "$MOUNT_POINT/repository/flashcard/card_audio" \
+  "$MOUNT_POINT/repository/flashcard/json" \
+  "$MOUNT_POINT/repository/qa_flashcard/card_images" \
+  "$MOUNT_POINT/repository/qa_flashcard/card_audio" \
+  "$MOUNT_POINT/repository/qa_flashcard/json" \
+  "$MOUNT_POINT/flashcard" \
+  "$MOUNT_POINT/qa_flashcard" \
+  "$MOUNT_POINT/caddy_data" \
+  "$MOUNT_POINT/caddy_config"
+
+echo "=== 2. Docker ==="
+if ! command -v docker >/dev/null 2>&1; then
+  apk update
+  apk add --no-cache docker bash
+  rc-update add docker boot
+  service docker start
+fi
+
+echo "=== 3. Escribiendo scripts canónicos (infra/proxy/) ==="
+cat > "$PROXY_DIR/bootstrap-gcp.sh" <<'FLUENCY_BOOTSTRAP_GCP_EOF'
+${bootstrap_gcp_sh}
+FLUENCY_BOOTSTRAP_GCP_EOF
+
+cat > "$PROXY_DIR/Caddyfile.gcp" <<'FLUENCY_CADDYFILE_GCP_EOF'
+${caddyfile_gcp}
+FLUENCY_CADDYFILE_GCP_EOF
+
+cat > "$PROXY_DIR/oracle-ram-monitor.sh" <<'FLUENCY_RAM_MONITOR_EOF'
+${oracle_ram_monitor_sh}
+FLUENCY_RAM_MONITOR_EOF
+
+cat > "$PROXY_DIR/docker-gcr-auth.sh" <<'FLUENCY_GCR_AUTH_EOF'
+${docker_gcr_auth_sh}
+FLUENCY_GCR_AUTH_EOF
+
+cat > "$PROXY_DIR/deploy-oracle-backend.sh" <<'FLUENCY_DEPLOY_BACKEND_EOF'
+${deploy_oracle_backend_sh}
+FLUENCY_DEPLOY_BACKEND_EOF
+
+chmod +x "$PROXY_DIR"/*.sh
+
+echo "=== 4. Contenedor Caddy (caddy-smart) ==="
+if ! docker ps -a --format '{{.Names}}' | grep -q '^caddy-smart$'; then
+  cp "$PROXY_DIR/Caddyfile.gcp" "$MOUNT_POINT/Caddyfile"
+  # Sin límite de memoria a propósito: verificado en vivo (docker inspect,
+  # 5 ago 2026) que el caddy-smart real corre SIN --memory -- server_inventory.md
+  # documentaba "384m" pero eso no refleja la realidad, corregido en el mismo
+  # cambio que este Terraform. -v /tmp:/tmp es obligatorio: la válvula
+  # api_with_overflow del Caddyfile lee /tmp/ORACLE_HEALTHY (lo escribe
+  # oracle-ram-monitor.sh en el host); sin este bind, Caddy nunca ve ese
+  # archivo y el tráfico cae siempre a Cloud Run aunque la VM tenga RAM libre.
+  docker run -d --name caddy-smart --network host --restart always \
+    -v "$MOUNT_POINT/Caddyfile:/etc/caddy/Caddyfile" \
+    -v "$MOUNT_POINT/repository/flashcard:/data_repo" \
+    -v "$MOUNT_POINT/flashcard:/flashcard" \
+    -v "$MOUNT_POINT/repository/qa_flashcard:/qa_data_repo" \
+    -v "$MOUNT_POINT/qa_flashcard:/qa_flashcard" \
+    -v "$MOUNT_POINT/caddy_data:/data" \
+    -v "$MOUNT_POINT/caddy_config:/config" \
+    -v /tmp:/tmp \
+    caddy:alpine
+else
+  echo "caddy-smart ya existe, no se recrea (bootstrap-gcp.sh se encarga de recargar Caddyfile)."
+fi
+
+echo "=== 5. Tuning de SO + Caddyfile + monitor de RAM (bootstrap-gcp.sh) ==="
+PROXY_DIR="$PROXY_DIR" CADDY_HOST_FILE="$MOUNT_POINT/Caddyfile" sh "$PROXY_DIR/bootstrap-gcp.sh"
+
+echo "=== 6. Backend Rust (deploy-oracle-backend.sh) ==="
+# Secretos leídos de la metadata de la instancia en vez de quedar escritos en
+# este script (que puede quedar visible en logs de consola serie). Cada clave
+# fue puesta ahí por Terraform vía google_compute_instance.metadata (ver
+# proxy.tf) -- valores sensibles, nunca hardcodeados aquí.
+meta() {
+  curl -sf -H "Metadata-Flavor: Google" \
+    "http://metadata.google.internal/computeMetadata/v1/instance/attributes/$1" 2>/dev/null || true
+}
+
+export DATABASE_URL="$(meta database-url)"
+export GEMINI_API_KEY="$(meta gemini-api-key)"
+export GEMINI_TTS_API_KEY="$(meta gemini-tts-api-key)"
+export GCP_API_KEY="$(meta gcp-api-key)"
+export GOOGLE_CLIENT_ID="$(meta google-client-id)"
+export JWT_SECRET="$(meta jwt-secret)"
+export SUPER_ADMIN_EMAIL="$(meta super-admin-email)"
+export GOOGLE_CREDENTIALS_JSON="$(meta google-credentials-json-b64)"
+export LEMON_SQUEEZY_API_KEY="$(meta lemon-squeezy-api-key)"
+export LEMON_SQUEEZY_STORE_ID="$(meta lemon-squeezy-store-id)"
+export LEMON_SQUEEZY_VARIANT_MONTHLY="$(meta lemon-squeezy-variant-monthly)"
+export LEMON_SQUEEZY_VARIANT_ANNUAL="$(meta lemon-squeezy-variant-annual)"
+export LEMON_SQUEEZY_WEBHOOK_SECRET="$(meta lemon-squeezy-webhook-secret)"
+export MEDIA_DELIVERY_MODE="$(meta media-delivery-mode)"
+# SURREAL_URL SIN esquema: Surreal::new::<Ws>() espera host:puerto pelado
+# (ver backend/api_main/src/infrastructure/storage/surreal/connection.rs y
+# AI_OPERATIONS_CONTEXT.md, invariante de conexión). Esta VM habla con la DB
+# por IP privada de VPC, nunca por IP pública.
+export SURREAL_URL="$(meta surreal-url)"
+export SURREAL_NS="flashcard"
+export SURREAL_DB="flashcard"
+export SURREAL_USER="root"
+export FLASHCARD_BACKEND_IMAGE="$(meta backend-image)"
+export FLASHCARD_REPO_PATH="$MOUNT_POINT/repository/flashcard"
+
+bash "$PROXY_DIR/deploy-oracle-backend.sh"
+
+echo "=== startup-script (proxy) completado ==="

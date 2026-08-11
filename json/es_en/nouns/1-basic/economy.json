@@ -1,0 +1,158 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Dinero",
+        "pronunciation_guide_es": "/ai_NID_MOR_MANi/",
+        "usage_context_en": "What you use to buy things",
+        "usage_context_es": "Lo que usas para comprar cosas",
+        "usage_example": "I need more money.",
+        "usage_example_es": "Necesito más dinero.",
+        "imagePath": "/card_images/nouns/1-basic/economy/1-basic_economy_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "money",
+    "phonetic": "/ˈmʌni/",
+    "search_term": "noun/cash/essentials",
+    "spoken_phonetic_us": "/ˈmʌni/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Dólar",
+        "pronunciation_guide_es": "/it_KOSTS_TEN_DOLars/",
+        "usage_context_en": "The currency of the USA",
+        "usage_context_es": "La moneda de los EE.UU.",
+        "usage_example": "It costs ten dollars.",
+        "usage_example_es": "Cuesta diez dólares.",
+        "imagePath": "/card_images/nouns/1-basic/economy/1-basic_economy_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "dollar",
+    "phonetic": "/ˈdɒlər/",
+    "search_term": "noun/money/essentials",
+    "spoken_phonetic_us": "/ˈdɑːlər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Precio",
+        "pronunciation_guide_es": "/uat_is_de_PRAIS/",
+        "usage_context_en": "The amount of money to buy something",
+        "usage_context_es": "La cantidad de dinero para comprar algo",
+        "usage_example": "What is the price?",
+        "usage_example_es": "¿Cuál es el precio?",
+        "imagePath": "/card_images/nouns/1-basic/economy/1-basic_economy_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "price",
+    "phonetic": "/praɪs/",
+    "search_term": "noun/concept/money/essentials",
+    "spoken_phonetic_us": "/praɪs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Costo / Coste",
+        "pronunciation_guide_es": "/de_KOST_is_TU_JAI/",
+        "usage_context_en": "The money needed to buy or do something",
+        "usage_context_es": "El dinero necesario para comprar o hacer algo",
+        "usage_example": "The cost is too high.",
+        "usage_example_es": "El costo es demasiado alto.",
+        "imagePath": "/card_images/nouns/1-basic/economy/1-basic_economy_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "cost",
+    "phonetic": "/kɒst/",
+    "search_term": "noun/concept/money/essentials",
+    "spoken_phonetic_us": "/kɔːst/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Impuesto",
+        "pronunciation_guide_es": "/iu_JAV_tu_PEI_TAKSes/",
+        "usage_context_en": "Money paid to the government",
+        "usage_context_es": "Dinero pagado al gobierno",
+        "usage_example": "You have to pay taxes.",
+        "usage_example_es": "Tienes que pagar impuestos.",
+        "imagePath": "/card_images/nouns/1-basic/economy/1-basic_economy_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Society",
+    "is_verb": false,
+    "name": "tax",
+    "phonetic": "/tæks/",
+    "search_term": "noun/money/society/essentials",
+    "spoken_phonetic_us": "/tæks/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Oferta / Rebaja",
+        "pronunciation_guide_es": "/dis_aitem_is_on_seil/",
+        "usage_context_en": "A period when items are sold at lower prices",
+        "usage_context_es": "Un período en que las cosas se venden a precios más bajos",
+        "usage_example": "This item is on sale.",
+        "usage_example_es": "Este artículo está en oferta.",
+        "imagePath": "/card_images/nouns/1-basic/economy/1-basic_economy_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "sale",
+    "phonetic": "/seɪl/",
+    "search_term": "noun/concept/money/essentials",
+    "spoken_phonetic_us": "/seɪl/"
+  }
+]

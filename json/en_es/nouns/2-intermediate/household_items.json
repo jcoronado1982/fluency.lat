@@ -1,0 +1,60 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Electrodoméstico",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/household/machine",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "appliance",
+        "usage_example": "La cocina tiene electrodomésticos nuevos.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The kitchen has new appliances.",
+        "char_count": "1",
+        "usage_context_en": "A machine used in the home for a specific purpose",
+        "usage_context_es": "Una máquina usada en el hogar para un propósito específico",
+        "imagePath": "/card_images/nouns/2-intermediate/household_items/2-intermediate_household_items_card_0_def0.avif",
+        "target_meaning_es": "Electrodoméstico"
+      }
+    ],
+    "group_name": "Household",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Tomacorriente / Enchufe",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/household/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "outlet",
+        "usage_example": "Enchufa el cargador en el tomacorriente.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Plug the charger into the electrical outlet.",
+        "char_count": "two",
+        "usage_context_en": "A place on the wall to connect electric plugs",
+        "usage_context_es": "Un lugar en la pared para conectar enchufes eléctricos",
+        "imagePath": "/card_images/nouns/2-intermediate/household_items/2-intermediate_household_items_card_1_def0.avif",
+        "target_meaning_es": "Tomacorriente / Enchufe"
+      }
+    ],
+    "group_name": "Household",
+    "category": ""
+  }
+]

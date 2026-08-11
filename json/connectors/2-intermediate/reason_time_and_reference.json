@@ -1,0 +1,136 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "since",
+    "phonetic": "/sɪns/",
+    "spoken_phonetic_us": "/sɪns/",
+    "search_term": "conjunction/reason/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Cause & Effect",
+    "definitions": [
+      {
+        "meaning": "Ya que / Puesto que (causa)",
+        "usage_example": "Since you are here, you can help.",
+        "pronunciation_guide_es": "/SINS_iu_ar_HIR_iu_can_HELP/",
+        "usage_example_es": "Ya que estás aquí, puedes ayudar.",
+        "char_count": "6",
+        "usage_context_en": "Used to introduce a reason (similar to 'because').",
+        "usage_context_es": "Usado para introducir una razón (similar a 'because').",
+        "imagePath": "/card_images/connectors/1-basic/1-basic_card_23_def0.avif"
+      },
+      {
+        "meaning": "Desde (tiempo)",
+        "usage_example": "I have been here since 9 AM.",
+        "pronunciation_guide_es": "/ai_hav_bin_HIR_SINS_NAIN_ei-EM/",
+        "usage_example_es": "He estado aquí desde las 9 AM.",
+        "char_count": "6",
+        "usage_context_en": "Used to indicate a starting point in time.",
+        "usage_context_es": "Usado para indicar un punto de inicio en el tiempo.",
+        "imagePath": "/card_images/connectors/1-basic/1-basic_card_23_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "as",
+    "phonetic": "/æz/",
+    "spoken_phonetic_us": "/æz/",
+    "search_term": "conjunction/reason/time/comparison",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Cause & Effect",
+    "definitions": [
+      {
+        "meaning": "Como / Ya que (causa)",
+        "usage_example": "As I was tired, I went to bed.",
+        "pronunciation_guide_es": "/as_ai_uas_TAI-erd_ai_UENT_tu_BED/",
+        "usage_example_es": "Como estaba cansado, me fui a la cama.",
+        "char_count": "7",
+        "usage_context_en": "Used to state a reason (similar to 'because').",
+        "usage_context_es": "Usado para indicar una razón (similar a 'because').",
+        "imagePath": "/card_images/connectors/1-basic/1-basic_card_22_def0.avif"
+      },
+      {
+        "meaning": "Mientras (tiempo)",
+        "usage_example": "He sang as he walked.",
+        "pronunciation_guide_es": "/hi_SANG_as_hi_UOKT/",
+        "usage_example_es": "Cantaba mientras caminaba.",
+        "char_count": "5",
+        "usage_context_en": "Used to indicate that two actions are happening at the same time.",
+        "usage_context_es": "Usado para indicar que dos acciones ocurren al mismo tiempo.",
+        "imagePath": "/card_images/connectors/1-basic/1-basic_card_22_def1.avif"
+      },
+      {
+        "meaning": "Como (comparación)",
+        "usage_example": "She is as tall as me.",
+        "pronunciation_guide_es": "/shi_is_as_TOL_as_MI/",
+        "usage_example_es": "Ella es tan alta como yo.",
+        "char_count": "5",
+        "usage_context_en": "Used to make a comparison of equality.",
+        "usage_context_es": "Usado para hacer una comparación de igualdad.",
+        "imagePath": "/card_images/connectors/1-basic/1-basic_card_22_def2.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "meanwhile",
+    "phonetic": "/ˈminˌwaɪl/",
+    "spoken_phonetic_us": "/ˈminˌwaɪl/",
+    "search_term": "connector/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Time",
+    "definitions": [
+      {
+        "meaning": "Mientras tanto",
+        "usage_example": "I was studying; meanwhile, my brother was playing.",
+        "pronunciation_guide_es": "/ai_uas_sta-di-ing_min-uail_mai_bro-der_uas_plei-ing/",
+        "usage_example_es": "Yo estaba estudiando; mientras tanto, mi hermano estaba jugando.",
+        "char_count": "9",
+        "usage_context_en": "In the intervening period of time.",
+        "usage_context_es": "En el período de tiempo intermedio.",
+        "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_7_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "what",
+    "phonetic": "/wɒt/",
+    "spoken_phonetic_us": "/wʌt/",
+    "search_term": "pronoun/interrogative/relative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Relative",
+    "definitions": [
+      {
+        "meaning": "Lo que (pronombre relativo)",
+        "usage_example": "I don't know what to do.",
+        "pronunciation_guide_es": "/ai_DONT_NOU_uat_tu_DU/",
+        "usage_example_es": "No sé qué hacer. (No sé lo que debo hacer).",
+        "char_count": "6",
+        "usage_context_en": "Used as a relative pronoun to refer to 'the thing(s) that'.",
+        "usage_context_es": "Usado como pronombre relativo para referirse a 'la(s) cosa(s) que'.",
+        "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_1_def0.avif"
+      }
+    ]
+  }
+]

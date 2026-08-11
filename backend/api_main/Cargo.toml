@@ -1,0 +1,66 @@
+[package]
+name = "api_main"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+axum = { version = "0.7", features = ["multipart"] }
+tokio.workspace = true
+tokio-stream = "0.1"
+tokio-util = { version = "0.7", features = ["io"] }
+futures = "0.3"
+serde.workspace = true
+serde_json.workspace = true
+tower-http = { version = "0.5", features = ["cors", "fs", "trace", "timeout", "compression-gzip", "compression-br"] }
+dotenvy = "0.15"
+tracing.workspace = true
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+reqwest = { version = "0.11", features = ["json", "stream", "rustls-tls"] }
+tonic = { version = "0.12", features = ["tls", "tls-roots"] }
+prost = "0.13"
+http = "1"
+moka = { version = "0.12", features = ["future"] }
+chrono.workspace = true
+anyhow.workspace = true
+async-trait.workspace = true
+tower = "0.4"
+jsonwebtoken = "9.1"
+base64 = "0.21"
+uuid.workspace = true
+rand = "0.8"
+num_cpus = "1"
+gcp_auth = "0.12.6"
+dashmap.workspace = true
+surrealdb = "3.2.3"
+rustls = { version = "0.23", default-features = false, features = ["aws-lc-rs"] }
+image = { version = "0.25", default-features = false, features = ["avif", "png", "jpeg"] }
+openssl = { version = "0.10", features = ["vendored"] }
+ropus = "0.12.18"
+ogg = "0.9.2"
+hmac = "0.12"
+sha2 = "0.10"
+hex = "0.4"
+fluency_core = { path = "../core" }
+mod_shell = { path = "../mod_shell" }
+mod_flashcards = { path = "../mod_flashcards", optional = true }
+
+[dev-dependencies]
+# tests de handlers en memoria: router de Axum + tower::ServiceExt::oneshot (sin puerto ni proceso)
+tower = { version = "0.4", features = ["util"] }
+http-body-util = "0.1"
+insta.workspace = true
+proptest.workspace = true
+
+[features]
+# `subscriptions` va en default porque el binario de producción se compila sin `--features`
+# (backend/Dockerfile) y el cobro real con LemonSqueezy debe estar activo ahí.
+# Invariante: el código debe seguir compilando SIN esta feature
+# (`cargo check -p api_main --no-default-features --features flashcards,auth`).
+default = ["flashcards", "auth", "subscriptions"]
+flashcards = ["mod_flashcards"]
+pronoun_practice = []
+auth = []
+payments = []
+subscriptions = ["payments"]
+local_agent = []
+

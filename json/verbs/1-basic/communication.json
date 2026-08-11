@@ -1,0 +1,402 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "Please say 'thank you'.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_say_def0.avif",
+                "meaning": "Decir (expresar con palabras)",
+                "pronunciation_guide_es": "/uat_DID_iu_SEI/",
+                "usage_context_en": "dialogue/communication",
+                "usage_context_es": "diálogo/comunicación",
+                "usage_example": "What do you say?",
+                "usage_example_es": "¿Qué dices?"
+            },
+            {
+                "alternative_example": "The report says the opposite.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_say_def1.avif",
+                "meaning": "Afirmar (establecer algo)",
+                "pronunciation_guide_es": "/de_SAIN_SEIS_STOP/",
+                "usage_context_en": "signs/information",
+                "usage_context_es": "señales/información",
+                "usage_example": "The sign says 'Stop'.",
+                "usage_example_es": "El cartel dice 'Pare'."
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "say",
+        "phonetic": "/seɪ/",
+        "search_term": "verb/speech/essentials",
+        "spoken_phonetic_us": "/seɪ/",
+        "irregular": {
+            "past": {
+                "form": "said",
+                "phonetic": "/sɛd/",
+                "spoken_phonetic_us": "/sɛd/",
+                "usage_example": "She said she was tired.",
+                "usage_example_es": "Ella dijo que estaba cansada.",
+                "pronunciation_guide_es": "/shi_SED_shi_uas_TAIArd/",
+                "meaning": "Pasado de decir"
+            },
+            "participle": {
+                "form": "said",
+                "phonetic": "/sɛd/",
+                "spoken_phonetic_us": "/sɛd/",
+                "usage_example": "It is said that he is the best.",
+                "usage_example_es": "Se dice que él es el mejor.",
+                "pronunciation_guide_es": "/it_is_SED_dat_ji_is_de_BEST/",
+                "meaning": "Participio de decir"
+            }
+        },
+        "group_name": "Communication"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "Can we talk later?",
+                "char_count": "one",
+                "meaning": "Hablar/Conversar",
+                "pronunciation_guide_es": "/ui_TORK_EVri_DEI_on_de_FOUN/",
+                "usage_context_en": "communication/dialogue",
+                "usage_context_es": "comunicación/diálogo",
+                "usage_example": "We talk every day on the phone.",
+                "usage_example_es": "Hablamos todos los días por teléfono.",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_39_def0.avif"
+            },
+            {
+                "alternative_example": "They are talking about their trip.",
+                "char_count": "one",
+                "meaning": "Charlar/Comentar",
+                "pronunciation_guide_es": "/dont_TORK_DIUring_de_MUVI/",
+                "usage_context_en": "discussion/banter",
+                "usage_context_es": "discusión/charla",
+                "usage_example": "Don't talk during the movie.",
+                "usage_example_es": "No hables durante la película.",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_39_def1.avif"
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "talk",
+        "phonetic": "/tɔːk/",
+        "search_term": "verb/speak/essentials",
+        "spoken_phonetic_us": "/tɔːk/",
+        "group_name": "Communication"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "Do you tell him the news?",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_16_def0.avif",
+                "meaning": "Contar/Decir (informar a alguien)",
+                "pronunciation_guide_es": "/TEL_mi_a_STORI/",
+                "usage_context_en": "stories/information",
+                "usage_context_es": "historias/información",
+                "usage_example": "Tell me a story.",
+                "usage_example_es": "Cuéntame una historia."
+            },
+            {
+                "alternative_example": "Tell the children to clean up.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_16_def1.avif",
+                "meaning": "Ordenar/Distinguir",
+                "pronunciation_guide_es": "/kan_iu_TEL_de_DIFrans/",
+                "usage_context_en": "difference/instruction",
+                "usage_context_es": "diferencia/instrucción",
+                "usage_example": "Can you tell the difference?",
+                "usage_example_es": "¿Puedes notar la diferencia?"
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "tell",
+        "phonetic": "/tɛl/",
+        "search_term": "verb/inform/essentials",
+        "spoken_phonetic_us": "/tɛl/",
+        "irregular": {
+            "past": {
+                "form": "told",
+                "phonetic": "/toʊld/",
+                "spoken_phonetic_us": "/toʊld/",
+                "usage_example": "She told me a secret.",
+                "usage_example_es": "Ella me contó un secreto.",
+                "pronunciation_guide_es": "/shi_TOULD_mi_a_SIkret/",
+                "meaning": "Pasado de contar/decir"
+            },
+            "participle": {
+                "form": "told",
+                "phonetic": "/toʊld/",
+                "spoken_phonetic_us": "/toʊld/",
+                "usage_example": "I have told you many times.",
+                "usage_example_es": "Te lo he dicho muchas veces.",
+                "pronunciation_guide_es": "/ai_JAV_TOULD_iu_meni_TAIMS/",
+                "meaning": "Participio de contar/decir"
+            }
+        },
+        "group_name": "Communication"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "He asked a difficult question.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_23_def0.avif",
+                "meaning": "Preguntar",
+                "pronunciation_guide_es": "/ASK_yor_TICHer_for_HELP/",
+                "usage_context_en": "questions/help",
+                "usage_context_es": "preguntas/ayuda",
+                "usage_example": "Ask your teacher for help.",
+                "usage_example_es": "Pregúntale a tu profesor por ayuda."
+            },
+            {
+                "alternative_example": "She is asking for trouble.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_23_def1.avif",
+                "meaning": "Pedir (una cosa)",
+                "pronunciation_guide_es": "/ai_ASKT_for_a_glas_of_UATER/",
+                "usage_context_en": "request/demand",
+                "usage_context_es": "petición/demanda",
+                "usage_example": "I asked for a glass of water.",
+                "usage_example_es": "Pedí un vaso de agua."
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "ask",
+        "phonetic": "/æsk/",
+        "search_term": "verb/question/essentials",
+        "spoken_phonetic_us": "/æsk/",
+        "group_name": "Communication"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "I need to call my mother.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_22_def0.avif",
+                "meaning": "Llamar (por teléfono)",
+                "pronunciation_guide_es": "/KOL_mi_LEITer/",
+                "usage_context_en": "telephone/communication",
+                "usage_context_es": "teléfono/comunicación",
+                "usage_example": "Call me later.",
+                "usage_example_es": "Llámame más tarde."
+            },
+            {
+                "alternative_example": "What do you call this?",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_22_def1.avif",
+                "meaning": "Llamar (nombrar)",
+                "pronunciation_guide_es": "/dei_KOL_him_de_BOS/",
+                "usage_context_en": "naming/titles",
+                "usage_context_es": "nombrar/títulos",
+                "usage_example": "They call him 'The Boss'.",
+                "usage_example_es": "Lo llaman 'El Jefe'."
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "call",
+        "phonetic": "/kɔːl/",
+        "search_term": "verb/name/essentials",
+        "spoken_phonetic_us": "/kɔːl/",
+        "group_name": "Communication"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "She writes beautiful poems.",
+                "char_count": "one",
+                "meaning": "Escribir (con un bolígrafo, etc.)",
+                "pronunciation_guide_es": "/RAIT_yor_NEIM_on_de_PEIper/",
+                "usage_context_en": "penmanship/creation",
+                "usage_context_es": "escritura/creación",
+                "usage_example": "Write your name on the paper.",
+                "usage_example_es": "Escribe tu nombre en el papel."
+            },
+            {
+                "alternative_example": "Write me an email soon.",
+                "char_count": "one",
+                "meaning": "Componer (música, libro)",
+                "pronunciation_guide_es": "/hi_is_RAITing_a_BUK_aBAUT_HISTRi/",
+                "usage_context_en": "literature/communication",
+                "usage_context_es": "literatura/comunicación",
+                "usage_example": "He is writing a book about history.",
+                "usage_example_es": "Él está escribiendo un libro sobre historia."
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "write",
+        "phonetic": "/raɪt/",
+        "search_term": "verb/compose/essentials",
+        "spoken_phonetic_us": "/raɪt/",
+        "irregular": {
+            "past": {
+                "form": "wrote",
+                "phonetic": "/roʊt/",
+                "spoken_phonetic_us": "/roʊt/",
+                "usage_example": "I wrote a letter to my mom.",
+                "usage_example_es": "Escribí una carta a mi mamá.",
+                "pronunciation_guide_es": "/ai_ROUT_a_LETer_tu_mai_MAM/",
+                "meaning": "Pasado de escribir"
+            },
+            "participle": {
+                "form": "written",
+                "phonetic": "/ˈrɪtn/",
+                "spoken_phonetic_us": "/ˈrɪtn/",
+                "usage_example": "The book was written in 1990.",
+                "usage_example_es": "El libro fue escrito en 1990.",
+                "pronunciation_guide_es": "/de_BUK_uas_RITen_in_nainTIN_NAINti/",
+                "meaning": "Participio de escribir"
+            }
+        },
+        "group_name": "Communication"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "Read the instructions carefully.",
+                "char_count": "one",
+                "meaning": "Leer (texto)",
+                "pronunciation_guide_es": "/ai_RID_a_BUK_EVri_MANTH/",
+                "usage_context_en": "books/instructions",
+                "usage_context_es": "libros/instrucciones",
+                "usage_example": "I read a book every month.",
+                "usage_example_es": "Leo un libro cada mes."
+            },
+            {
+                "alternative_example": "The meter reads 99 miles.",
+                "char_count": "one",
+                "meaning": "Estudiar/Interpretar (formal)",
+                "pronunciation_guide_es": "/hi_RIDS_LO_at_iuniVERSITi/",
+                "usage_context_en": "study/data",
+                "usage_context_es": "estudio/datos",
+                "usage_example": "He reads law at university.",
+                "usage_example_es": "Él estudia derecho en la universidad."
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "read",
+        "phonetic": "/riːd/",
+        "search_term": "verb/literature/level_up",
+        "spoken_phonetic_us": "/riːd/",
+        "irregular": {
+            "past": {
+                "form": "read",
+                "phonetic": "/rɛd/",
+                "spoken_phonetic_us": "/rɛd/",
+                "usage_example": "I read the book last night.",
+                "usage_example_es": "Leí el libro anoche.",
+                "pronunciation_guide_es": "/ai_RED_de_BUK_last_NAIT/",
+                "meaning": "Pasado de leer"
+            },
+            "participle": {
+                "form": "read",
+                "phonetic": "/rɛd/",
+                "spoken_phonetic_us": "/rɛd/",
+                "usage_example": "I have read that article.",
+                "usage_example_es": "He leído ese artículo.",
+                "pronunciation_guide_es": "/ai_JAV_RED_dat_ARtikol/",
+                "meaning": "Participio de leer"
+            }
+        },
+        "group_name": "Communication"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "definitions": [
+            {
+                "alternative_example": "The map shows the way.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_32_def0.avif",
+                "meaning": "Mostrar/Enseñar",
+                "pronunciation_guide_es": "/SHOU_mi_yor_niu_FOUN/",
+                "usage_context_en": "objects/demonstration",
+                "usage_context_es": "objetos/demostración",
+                "usage_example": "Show me your new phone.",
+                "usage_example_es": "Muéstrame tu teléfono nuevo."
+            },
+            {
+                "alternative_example": "The results show improvement.",
+                "char_count": "one",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_32_def1.avif",
+                "meaning": "Exhibir/Presentar",
+                "pronunciation_guide_es": "/shi_SHOUD_her_TALent_at_de_EVENT/",
+                "usage_context_en": "talent/results",
+                "usage_context_es": "talento/resultados",
+                "usage_example": "She shows her talent at the event.",
+                "usage_example_es": "Ella muestra su talento en el evento."
+            }
+        ],
+        "force_generation": false,
+        "is_verb": true,
+        "name": "show",
+        "phonetic": "/ʃoʊ/",
+        "search_term": "verb/display/essentials",
+        "spoken_phonetic_us": "/ʃoʊ/",
+        "irregular": {
+            "past": {
+                "form": "showed",
+                "phonetic": "/ʃoʊd/",
+                "spoken_phonetic_us": "/ʃoʊd/",
+                "usage_example": "She showed me her pictures.",
+                "usage_example_es": "Ella me mostró sus fotos.",
+                "pronunciation_guide_es": "/shi_SHOUD_mi_jer_PIKchers/",
+                "meaning": "Pasado de mostrar"
+            },
+            "participle": {
+                "form": "shown / showed",
+                "phonetic": "/ʃoʊn/ /ʃoʊd/",
+                "spoken_phonetic_us": "/ʃoʊn/ /ʃoʊd/",
+                "usage_example": "He has shown great progress.",
+                "usage_example_es": "Él ha mostrado un gran progreso.",
+                "pronunciation_guide_es": "/ji_jas_SHOUN_greit_PROgres/",
+                "meaning": "Participio de mostrar"
+            }
+        },
+        "group_name": "Communication"
+    }
+]

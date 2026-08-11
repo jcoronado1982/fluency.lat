@@ -1,0 +1,7 @@
+timestamp_inicio: 2026-08-05T13:33:44-05:00
+target: https://fluency.lat
+profile: mixed
+max_vus: 80
+stage_sec: 45
+vm_baseline: mem=226MB swap=76MB load1=0.00 gate=0 root=76%
+abort: mem<150 swap>400 root>90 steal>30 load1>8

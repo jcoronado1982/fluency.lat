@@ -1,0 +1,310 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "phone",
+        "phonetic": "/foʊn/",
+        "spoken_phonetic_us": "/foʊn/",
+        "search_term": "noun/device/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Teléfono]",
+                "usage_example": "My phone is ringing.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE phone AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: My phone is ringing.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un dispositivo para hablar con gente lejana]",
+                "usage_context_es": "A device for talking to people far away",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_54_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "bag",
+        "phonetic": "/bæɡ/",
+        "spoken_phonetic_us": "/bæɡ/",
+        "search_term": "noun/object/container/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Bolsa / Bolso]",
+                "usage_example": "My keys are in my bag.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE bag AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: My keys are in my bag.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un contenedor suave para llevar cosas]",
+                "usage_context_es": "A soft container for carrying things",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_153_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "ring",
+        "phonetic": "/rɪŋ/",
+        "spoken_phonetic_us": "/rɪŋ/",
+        "search_term": "noun/clothing/jewelry/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Anillo]",
+                "usage_example": "A wedding ring.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE ring AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: A wedding ring.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Una joya que se lleva en el dedo]",
+                "usage_context_es": "A piece of jewelry worn on the finger",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_262_def0.avif"
+            }
+        ],
+        "group_name": "Clothing",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "watch",
+        "phonetic": "/wɒʧ/",
+        "spoken_phonetic_us": "/wɑːʧ/",
+        "search_term": "noun/object/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Reloj (de pulsera)]",
+                "usage_example": "I looked at my watch.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE watch AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I looked at my watch.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un pequeño reloj que se lleva en la muñeca]",
+                "usage_context_es": "A small clock worn on the wrist",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_263_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "wallet",
+        "phonetic": "/ˈwɒlɪt/",
+        "spoken_phonetic_us": "/ˈwɔːlɪt/",
+        "search_term": "noun/object/money/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Billetera / Cartera]",
+                "usage_example": "My wallet is empty.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE wallet AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: My wallet is empty.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Un estuche pequeño para guardar dinero y tarjetas]",
+                "usage_context_es": "A small case for holding money and cards",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_266_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "umbrella",
+        "phonetic": "/ʌmˈbrɛlə/",
+        "spoken_phonetic_us": "/ʌmˈbrɛlə/",
+        "search_term": "noun/object/weather/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Paraguas / Sombrilla]",
+                "usage_example": "Take an umbrella, it is raining.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE umbrella AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Take an umbrella, it is raining.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL PT: Una herramienta usada para protegerse de la lluvia o el sol]",
+                "usage_context_es": "A tool used for protection from rain or sun",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_267_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "camera",
+        "phonetic": "/ˈkæmərə/",
+        "spoken_phonetic_us": "/ˈkæmərə/",
+        "search_term": "noun/object/device/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cámara]",
+                "usage_example": "I have a new camera.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE camera AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I have a new camera.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL PT: Un dispositivo para tomar fotografías]",
+                "usage_context_es": "A device for taking photographs",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_268_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "glasses",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/personal-items/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Lenses worn to help someone see.]",
+                "usage_example": "I need my glasses to read.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE glasses AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I need my glasses to read.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL PT: Lentes que se usan para ayudar a ver.]",
+                "usage_context_es": "Lenses worn to help someone see.",
+                "imagePath": "/card_images/nouns/1-basic/seed_glasses.avif"
+            }
+        ],
+        "group_name": "Personal Items",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "backpack",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/personal-items/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: A bag carried on the back.]",
+                "usage_example": "My books are in the backpack.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE backpack AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: My books are in the backpack.]",
+                "char_count": "8",
+                "usage_context_en": "[TRADUCIR AL PT: Una bolsa que se lleva en la espalda.]",
+                "usage_context_es": "A bag carried on the back.",
+                "imagePath": "/card_images/nouns/1-basic/seed_backpack.avif"
+            }
+        ],
+        "group_name": "Personal Items",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "headphones",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/personal-items/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: A device worn on the ears to listen to sound.]",
+                "usage_example": "I use headphones on the bus.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE headphones AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I use headphones on the bus.]",
+                "char_count": "10",
+                "usage_context_en": "[TRADUCIR AL PT: Un dispositivo que se usa en los oídos para escuchar sonido.]",
+                "usage_context_es": "A device worn on the ears to listen to sound.",
+                "imagePath": "/card_images/nouns/1-basic/seed_headphones.avif"
+            }
+        ],
+        "group_name": "Personal Items",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "passport",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/personal-items/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: An official document for international travel.]",
+                "usage_example": "Keep your passport in a safe place.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE passport AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Keep your passport in a safe place.]",
+                "char_count": "8",
+                "usage_context_en": "[TRADUCIR AL PT: Un documento oficial para viajar a otros países.]",
+                "usage_context_es": "An official document for international travel.",
+                "imagePath": "/card_images/nouns/1-basic/seed_passport.avif"
+            }
+        ],
+        "group_name": "Personal Items",
+        "category": ""
+    }
+]

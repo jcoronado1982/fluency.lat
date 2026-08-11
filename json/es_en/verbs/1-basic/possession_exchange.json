@@ -1,0 +1,789 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "I have two sisters.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_0_def0.avif",
+        "meaning": "Tener (posesión)",
+        "pronunciation_guide_es": "/dei_HAV_a_big_HAUS/",
+        "usage_context_en": "ownership/family",
+        "usage_context_es": "posesión/familia",
+        "usage_example": "They have a big house.",
+        "usage_example_es": "Ellos tienen una casa grande."
+      },
+      {
+        "alternative_example": "We have fun at the party.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_0_def1.avif",
+        "meaning": "Tomar/Comer (en expresiones)",
+        "pronunciation_guide_es": "/lets_HAV_DINer_tuGUEder/",
+        "usage_context_en": "meals/activities",
+        "usage_context_es": "comidas/actividades",
+        "usage_example": "Let's have dinner together.",
+        "usage_example_es": "Cenemos juntos."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "have",
+    "phonetic": "/hæv/",
+    "search_term": "verb/ownership/essentials",
+    "spoken_phonetic_us": "/hæv/",
+    "irregular": {
+      "past": {
+        "form": "had",
+        "phonetic": "/hæd/",
+        "spoken_phonetic_us": "/hæd/",
+        "definitions": [
+          {
+            "usage_example": "I had a big house when I was young.",
+            "usage_example_es": "Tenía una casa grande cuando era joven.",
+            "pronunciation_guide_es": "/ai_JAD_a_big_JAUS_uen_ai_uas_YONG/",
+            "meaning": "Pasado de Tener (posesión)",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_0_def0_v2.avif"
+          },
+          {
+            "usage_example": "We had dinner together yesterday.",
+            "usage_example_es": "Cenamos juntos ayer.",
+            "pronunciation_guide_es": "/ui_JAD_DINer_tuGUEder_iesterdei/",
+            "meaning": "Pasado de Tomar/Comer (comida)",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_0_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "had",
+        "phonetic": "/hæd/",
+        "spoken_phonetic_us": "/hæd/",
+        "definitions": [
+          {
+            "usage_example": "I have had many cars in my life.",
+            "usage_example_es": "He tenido muchos coches en mi vida.",
+            "pronunciation_guide_es": "/ai_JAV_jad_meni_KARS_in_mai_LAIF/",
+            "meaning": "Participio de Tener (posesión)",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_0_def0_v3.avif"
+          },
+          {
+            "usage_example": "He has already had breakfast.",
+            "usage_example_es": "Él ya ha desayunado.",
+            "pronunciation_guide_es": "/ji_jas_olREDI_jad_BREKfast/",
+            "meaning": "Participio de Tomar/Comer (comida)",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_0_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Social & Exchange"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Where do you get that book?",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_1_def0.avif",
+        "meaning": "Obtener/Conseguir",
+        "pronunciation_guide_es": "/ai_NID_tu_GET_a_niu_KOUT/",
+        "usage_context_en": "shopping/receiving",
+        "usage_context_es": "compras/recibir",
+        "usage_example": "I need to get a new coat.",
+        "usage_example_es": "Necesito conseguir un abrigo nuevo."
+      },
+      {
+        "alternative_example": "How can I get to the station?",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_1_def1.avif",
+        "meaning": "Llegar (a un lugar)",
+        "pronunciation_guide_es": "/ui_GET_HOM_LEIT/",
+        "usage_context_en": "arrival/travel",
+        "usage_context_es": "llegada/viaje",
+        "usage_example": "We get home late.",
+        "usage_example_es": "Llegamos tarde a casa."
+      },
+      {
+        "alternative_example": "I am getting tired.",
+        "char_count": "one",
+        "meaning": "Ponerse / Hacerse (cambio de estado)",
+        "pronunciation_guide_es": "/its_GETin_LEIT/",
+        "usage_context_en": "state change/emotions",
+        "usage_context_es": "cambio de estado/emociones",
+        "usage_example": "It is getting late.",
+        "usage_example_es": "Se está haciendo tarde.",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_1_def2.avif"
+      },
+      {
+        "alternative_example": "Oh, I get it now.",
+        "char_count": "one",
+        "meaning": "Entender / Comprender",
+        "pronunciation_guide_es": "/ai_DONT_GET_it/",
+        "usage_context_en": "comprehension/understanding",
+        "usage_context_es": "comprensión/entendimiento",
+        "usage_example": "I don't get it.",
+        "usage_example_es": "No lo entiendo.",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_1_def3.avif"
+      },
+      {
+        "alternative_example": "I will get my jacket.",
+        "char_count": "one",
+        "meaning": "Traer / Ir a buscar",
+        "pronunciation_guide_es": "/kan_iu_GET_mi_a_PEN/",
+        "usage_context_en": "bringing/fetching",
+        "usage_context_es": "traer/ir a buscar",
+        "usage_example": "Can you get me a pen?",
+        "usage_example_es": "¿Me puedes traer un bolígrafo?",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_1_def4.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "get",
+    "phonetic": "/ɡɛt/",
+    "search_term": "verb/obtain/essentials",
+    "spoken_phonetic_us": "/ɡɛt/",
+    "irregular": {
+      "past": {
+        "form": "got",
+        "phonetic": "/ɡɒt/",
+        "spoken_phonetic_us": "/ɡɑːt/",
+        "definitions": [
+          {
+            "usage_example": "I got a new car last week.",
+            "usage_example_es": "Conseguí un coche nuevo la semana pasada.",
+            "pronunciation_guide_es": "/ai_GOT_a_niu_KAR_last_uik/",
+            "meaning": "Pasado de Conseguir",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_1_def0_v2.avif"
+          },
+          {
+            "usage_example": "We got home very late.",
+            "usage_example_es": "Llegamos a casa muy tarde.",
+            "pronunciation_guide_es": "/ui_GOT_joum_veri_LEIT/",
+            "meaning": "Pasado de Llegar",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_1_def1_v2.avif"
+          },
+          {
+            "usage_example": "I got tired after work.",
+            "usage_example_es": "Me cansé después del trabajo.",
+            "pronunciation_guide_es": "/ai_GOT_TAIard_after_UORK/",
+            "meaning": "Pasado de Ponerse (estado)",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_1_def2_v2.avif"
+          },
+          {
+            "usage_example": "I finally got the idea.",
+            "usage_example_es": "Finalmente entendí la idea.",
+            "pronunciation_guide_es": "/ai_FAI-nali_GOT_di_ai-DI-a/",
+            "meaning": "Pasado de Entender",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_1_def3_v2.avif"
+          },
+          {
+            "usage_example": "He got me a book.",
+            "usage_example_es": "Él me trajo un libro.",
+            "pronunciation_guide_es": "/ji_GOT_mi_a_BUK/",
+            "meaning": "Pasado de Traer",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_1_def4_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "gotten / got",
+        "phonetic": "/ˈɡɒtn/ /ɡɒt/",
+        "spoken_phonetic_us": "/ˈɡɑːtn/ /ɡɑːt/",
+        "definitions": [
+          {
+            "usage_example": "I have gotten many gifts.",
+            "usage_example_es": "He recibido muchos regalos.",
+            "pronunciation_guide_es": "/ai_JAV_GOTen_meni_GUiFTS/",
+            "meaning": "Participio de Conseguir/Recibir",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_1_def0_v3.avif"
+          },
+          {
+            "usage_example": "It has gotten very cold.",
+            "usage_example_es": "Se ha puesto muy frío.",
+            "pronunciation_guide_es": "/it_jas_GOTen_veri_KOLD/",
+            "meaning": "Participio de Ponerse (estado)",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_1_def1_v3.avif"
+          },
+          {
+            "usage_example": "I haven't gotten it yet.",
+            "usage_example_es": "No lo he entendido aún.",
+            "pronunciation_guide_es": "/ai_JA-vent_GOTen_it_IET/",
+            "meaning": "Participio de Entender",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_1_def2_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Social & Exchange"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Can I take a picture?",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_2_def0.avif",
+        "meaning": "Tomar/Agarrar",
+        "pronunciation_guide_es": "/TEIK_de_BUK_from_de_TEIBOL/",
+        "usage_context_en": "grabbing/receiving",
+        "usage_context_es": "agarrar/recibir",
+        "usage_example": "Take the book from the table.",
+        "usage_example_es": "Toma el libro de la mesa."
+      },
+      {
+        "alternative_example": "I will take you to the airport.",
+        "char_count": "one",
+        "usage_example_es": "Él toma el autobús para ir al trabajo.",
+        "meaning": "Llevar/Transportar",
+        "pronunciation_guide_es": "/hi_TEIKS_de_BAS_tu_UORK/",
+        "usage_context_en": "transport/escorting",
+        "usage_context_es": "transporte/acompañar",
+        "usage_example": "He takes the bus to work.",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_2_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "take",
+    "phonetic": "/teɪk/",
+    "search_term": "verb/transport/essentials",
+    "spoken_phonetic_us": "/teɪk/",
+    "irregular": {
+      "past": {
+        "form": "took",
+        "phonetic": "/tʊk/",
+        "spoken_phonetic_us": "/tʊk/",
+        "usage_example": "He took my book by mistake.",
+        "usage_example_es": "Él tomó mi libro por error.",
+        "pronunciation_guide_es": "/ji_TUK_mai_BUK_bai_miSTEIK/",
+        "meaning": "Pasado de tomar/llevar",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_2_def0_v2.avif"
+      },
+      "participle": {
+        "form": "taken",
+        "phonetic": "/ˈteɪkən/",
+        "spoken_phonetic_us": "/ˈteɪkən/",
+        "usage_example": "The photos were taken by me.",
+        "usage_example_es": "Las fotos fueron tomadas por mí.",
+        "pronunciation_guide_es": "/de_FOUtous_uer_TEIKen_bai_MI/",
+        "meaning": "Participio de tomar/llevar",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_2_def0_v3.avif"
+      }
+    },
+    "group_name": "Social & Exchange"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "I give a gift to my friend.",
+        "char_count": "one",
+        "usage_example_es": "Dame el libro, por favor.",
+        "meaning": "Dar (entregar algo)",
+        "pronunciation_guide_es": "/GIV_mi_de_BUK_PLIS/",
+        "usage_context_en": "handing/presenting",
+        "usage_context_es": "entregar/regalar",
+        "usage_example": "Give me the book, please.",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_3_def0.avif"
+      },
+      {
+        "alternative_example": "They give him a chance.",
+        "char_count": "one",
+        "usage_example_es": "Ella da buenos consejos.",
+        "meaning": "Ofrecer (algo no material)",
+        "pronunciation_guide_es": "/shi_GIVS_gud_adVAIS/",
+        "usage_context_en": "advice/opportunity",
+        "usage_context_es": "consejo/oportunidad",
+        "usage_example": "She gives good advice.",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_3_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "give",
+    "phonetic": "/ɡɪv/",
+    "search_term": "verb/transfer/essentials",
+    "spoken_phonetic_us": "/ɡɪv/",
+    "irregular": {
+      "past": {
+        "form": "gave",
+        "phonetic": "/ɡeɪv/",
+        "spoken_phonetic_us": "/ɡeɪv/",
+        "usage_example": "My dad gave me some advice.",
+        "usage_example_es": "Mi papá me dio un consejo.",
+        "pronunciation_guide_es": "/mai_DAD_GUEIV_mi_som_adVAIS/",
+        "meaning": "Pasado de dar",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_3_def0_v2.avif"
+      },
+      "participle": {
+        "form": "given",
+        "phonetic": "/ˈɡɪvən/",
+        "spoken_phonetic_us": "/ˈɡɪvən/",
+        "usage_example": "He has given up smoking.",
+        "usage_example_es": "Él ha dejado de fumar.",
+        "pronunciation_guide_es": "/ji_jas_GUIVen_ap_SMOUking/",
+        "meaning": "Participio de dar",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_3_def0_v3.avif"
+      }
+    },
+    "group_name": "Social & Exchange"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "buy",
+    "phonetic": "/baɪ/",
+    "spoken_phonetic_us": "/baɪ/",
+    "search_term": "verb/purchase/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Comprar",
+        "usage_example": "I need to buy some milk.",
+        "pronunciation_guide_es": "/ai_NID_tu_BAI_som_MILK/",
+        "alternative_example": "Where do you buy that shirt?",
+        "usage_example_es": "Necesito comprar algo de leche.",
+        "char_count": "one",
+        "usage_context_en": "shopping/groceries",
+        "usage_context_es": "compras/víveres",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_4_def0.avif"
+      },
+      {
+        "meaning": "Adquirir/Creer (informal)",
+        "usage_example": "He buys her a new car.",
+        "pronunciation_guide_es": "/hi_BOT_her_a_NIU_KAR/",
+        "alternative_example": "I don't buy that excuse.",
+        "usage_example_es": "Él le compra un coche nuevo.",
+        "char_count": "one",
+        "usage_context_en": "gifts/belief",
+        "usage_context_es": "regalos/creencia",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_4_def1.avif"
+      }
+    ],
+    "irregular": {
+      "past": {
+        "form": "bought",
+        "phonetic": "/bɔːt/",
+        "spoken_phonetic_us": "/bɔːt/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Past of buy",
+        "definitions": [
+          {
+            "usage_example": "I bought a new laptop yesterday.",
+            "usage_example_es": "Compré una laptop nueva ayer.",
+            "pronunciation_guide_es": "/ai_BOT_a_niu_LAPtop_iesterdei/",
+            "meaning": "Pasado de Comprar",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_4_def0_v2.avif"
+          },
+          {
+            "usage_example": "I never bought his excuse.",
+            "usage_example_es": "Nunca me creí su excusa.",
+            "pronunciation_guide_es": "/ai_NEVer_BOT_jis_eksKIUS/",
+            "meaning": "Pasado de Creerse algo",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_4_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "bought",
+        "phonetic": "/bɔːt/",
+        "spoken_phonetic_us": "/bɔːt/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Participle of buy",
+        "definitions": [
+          {
+            "usage_example": "I bought a new laptop yesterday.",
+            "usage_example_es": "Compré una laptop nueva ayer.",
+            "pronunciation_guide_es": "/ai_BOT_a_niu_LAPtop_iesterdei/",
+            "meaning": "Participio de Comprar",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_4_def0_v3.avif"
+          },
+          {
+            "usage_example": "I never bought his excuse.",
+            "usage_example_es": "Nunca me creí su excusa.",
+            "pronunciation_guide_es": "/ai_NEVer_BOT_jis_eksKIUS/",
+            "meaning": "Participio de Creerse algo",
+            "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_4_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Social & Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Can I pay by credit card?",
+        "char_count": "one",
+        "meaning": "Pagar (dinero)",
+        "pronunciation_guide_es": "/ai_NID_tu_PEI_de_RENT_tuDEI/",
+        "usage_context_en": "money/bills",
+        "usage_context_es": "dinero/facturas",
+        "usage_example": "I need to pay the rent today.",
+        "usage_example_es": "Necesito pagar el alquiler hoy.",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_5_def0.avif"
+      },
+      {
+        "alternative_example": "He never pays me a compliment.",
+        "char_count": "one",
+        "meaning": "Prestar atención (con 'attention')",
+        "pronunciation_guide_es": "/PEI_aTENshan_tu_de_TICHer/",
+        "usage_context_en": "focus/courtesy",
+        "usage_context_es": "enfoque/cortesía",
+        "usage_example": "Pay attention to the teacher.",
+        "usage_example_es": "Presta atención al profesor.",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_5_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "pay",
+    "phonetic": "/peɪ/",
+    "search_term": "verb/money/essentials",
+    "spoken_phonetic_us": "/peɪ/",
+    "irregular": {
+      "past": {
+        "form": "paid",
+        "phonetic": "/peɪd/",
+        "spoken_phonetic_us": "/peɪd/",
+        "usage_example": "I paid the bill online.",
+        "usage_example_es": "Pagué la cuenta en línea.",
+        "pronunciation_guide_es": "/ai_PEID_de_BIL_ONlain/",
+        "meaning": "Pasado de pagar",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_5_def0_v2.avif"
+      },
+      "participle": {
+        "form": "paid",
+        "phonetic": "/peɪd/",
+        "spoken_phonetic_us": "/peɪd/",
+        "usage_example": "Everything is paid for.",
+        "usage_example_es": "Todo está pagado.",
+        "pronunciation_guide_es": "/EVriTHing_is_PEID_for/",
+        "meaning": "Participio de pagar",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_5_def0_v3.avif"
+      }
+    },
+    "group_name": "Social & Exchange"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "I keep my promises.",
+        "char_count": "one",
+        "usage_example_es": "Quédate el cambio.",
+        "meaning": "Mantener/Guardar",
+        "pronunciation_guide_es": "/KIP_de_CHEINY/",
+        "usage_context_en": "possession/promise",
+        "usage_context_es": "posesión/promesa",
+        "usage_example": "Keep the change.",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_6_def0.avif"
+      },
+      {
+        "alternative_example": "She keeps smiling.",
+        "char_count": "one",
+        "usage_example_es": "Sigue caminando recto.",
+        "meaning": "Continuar (haciendo algo)",
+        "pronunciation_guide_es": "/KIP_UOKing_STREIT/",
+        "usage_context_en": "continuity/action",
+        "usage_context_es": "continuidad/acción",
+        "usage_example": "Keep walking straight.",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_6_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "keep",
+    "phonetic": "/kiːp/",
+    "search_term": "verb/retain/essentials",
+    "spoken_phonetic_us": "/kiːp/",
+    "irregular": {
+      "past": {
+        "form": "kept",
+        "phonetic": "/kɛpt/",
+        "spoken_phonetic_us": "/kɛpt/",
+        "usage_example": "She kept her promise.",
+        "usage_example_es": "Ella cumplió su promesa.",
+        "pronunciation_guide_es": "/shi_KEPT_jer_PROmis/",
+        "meaning": "Pasado de mantener/guardar",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_6_def0_v2.avif"
+      },
+      "participle": {
+        "form": "kept",
+        "phonetic": "/kɛpt/",
+        "spoken_phonetic_us": "/kɛpt/",
+        "usage_example": "I have kept your secret.",
+        "usage_example_es": "He guardado tu secreto.",
+        "pronunciation_guide_es": "/ai_JAV_KEPT_yor_SIkret/",
+        "meaning": "Participio de mantener/guardar",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_6_def0_v3.avif"
+      }
+    },
+    "group_name": "Social & Exchange"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Can you hold this for me?",
+        "char_count": "one",
+        "meaning": "Sostener/Agarrar",
+        "pronunciation_guide_es": "/HOULD_de_BEIBI_KERfuli/",
+        "usage_context_en": "grasp/support",
+        "usage_context_es": "sujetar/soporte",
+        "usage_example": "Hold the baby carefully.",
+        "usage_example_es": "Sostén al bebé con cuidado.",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_7_def0.avif"
+      },
+      {
+        "alternative_example": "Hold your breath.",
+        "char_count": "one",
+        "meaning": "Contener/Mantener",
+        "pronunciation_guide_es": "/dis_BOKS_HOULDS_MENi_TOIS/",
+        "usage_context_en": "containment/restriction",
+        "usage_context_es": "contención/restricción",
+        "usage_example": "This box holds many toys.",
+        "usage_example_es": "Esta caja contiene muchos juguetes.",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_7_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "hold",
+    "phonetic": "/hoʊld/",
+    "search_term": "verb/grasp/essentials",
+    "spoken_phonetic_us": "/hoʊld/",
+    "irregular": {
+      "past": {
+        "form": "held",
+        "phonetic": "/hɛld/",
+        "spoken_phonetic_us": "/hɛld/",
+        "usage_example": "She held the baby gently.",
+        "usage_example_es": "Ella sostuvo al bebé con cuidado.",
+        "pronunciation_guide_es": "/shi_JELD_de_BEIbi_YENTli/",
+        "meaning": "Pasado de sostener",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_7_def0_v2.avif"
+      },
+      "participle": {
+        "form": "held",
+        "phonetic": "/hɛld/",
+        "spoken_phonetic_us": "/hɛld/",
+        "usage_example": "The meeting was held in June.",
+        "usage_example_es": "La reunión se celebró en junio.",
+        "pronunciation_guide_es": "/de_MITing_uas_JELD_in_YUN/",
+        "meaning": "Participio de sostener",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_7_def0_v3.avif"
+      }
+    },
+    "group_name": "Social & Exchange"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Send the package by post.",
+        "char_count": "one",
+        "usage_example_es": "Te enviaré un correo mañana.",
+        "meaning": "Enviar/Mandar",
+        "pronunciation_guide_es": "/ai_uil_SEND_iu_an_IMEL_tuMOROU/",
+        "usage_context_en": "communication/post",
+        "usage_context_es": "comunicación/correo",
+        "usage_example": "I will send you an email tomorrow.",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_8_def0.avif"
+      },
+      {
+        "alternative_example": "The factory sends out a lot of smoke.",
+        "char_count": "one",
+        "usage_example_es": "El sol emite luz y calor.",
+        "meaning": "Emitir/Producir (luz, calor)",
+        "pronunciation_guide_es": "/de_SAN_SENDS_LAIT_and_JIT/",
+        "usage_context_en": "nature/production",
+        "usage_context_es": "naturaleza/producción",
+        "usage_example": "The sun sends light and heat.",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_8_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "send",
+    "phonetic": "/sɛnd/",
+    "search_term": "verb/dispatch/level_up",
+    "spoken_phonetic_us": "/sɛnd/",
+    "irregular": {
+      "past": {
+        "form": "sent",
+        "phonetic": "/sɛnt/",
+        "spoken_phonetic_us": "/sɛnt/",
+        "usage_example": "I sent you an email.",
+        "usage_example_es": "Te envié un correo electrónico.",
+        "pronunciation_guide_es": "/ai_SENT_iu_an_IMEIL/",
+        "meaning": "Pasado de enviar",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_8_def0_v2.avif"
+      },
+      "participle": {
+        "form": "sent",
+        "phonetic": "/sɛnt/",
+        "spoken_phonetic_us": "/sɛnt/",
+        "usage_example": "The package was sent.",
+        "usage_example_es": "El paquete fue enviado.",
+        "pronunciation_guide_es": "/de_PAKey_uas_SENT/",
+        "meaning": "Participio de enviar",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_8_def0_v3.avif"
+      }
+    },
+    "group_name": "Social & Exchange"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "He sells his car every year.",
+        "char_count": "one",
+        "usage_example_es": "Vendemos café y té.",
+        "meaning": "Vender",
+        "pronunciation_guide_es": "/ui_SEL_COFI_and_TI/",
+        "usage_context_en": "commerce/goods",
+        "usage_context_es": "comercio/productos",
+        "usage_example": "We sell coffee and tea.",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_9_def0.avif"
+      },
+      {
+        "alternative_example": "The advertisement sells the product well.",
+        "char_count": "one",
+        "usage_example_es": "Me venden la idea enseguida.",
+        "meaning": "Persuadir (informal)",
+        "pronunciation_guide_es": "/dei_SOLD_mi_de_AIdia_rait_aUEI/",
+        "usage_context_en": "persuasion/marketing",
+        "usage_context_es": "persuasión/marketing",
+        "usage_example": "They sell me the idea right away.",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_9_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "sell",
+    "phonetic": "/sɛl/",
+    "search_term": "verb/trade/level_up",
+    "spoken_phonetic_us": "/sɛl/",
+    "irregular": {
+      "past": {
+        "form": "sold",
+        "phonetic": "/soʊld/",
+        "spoken_phonetic_us": "/soʊld/",
+        "usage_example": "They sold their house.",
+        "usage_example_es": "Vendieron su casa.",
+        "pronunciation_guide_es": "/dei_SOULD_der_JAUS/",
+        "meaning": "Pasado de vender",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_9_def0_v2.avif"
+      },
+      "participle": {
+        "form": "sold",
+        "phonetic": "/soʊld/",
+        "spoken_phonetic_us": "/soʊld/",
+        "usage_example": "I have sold my car.",
+        "usage_example_es": "He vendido mi coche.",
+        "pronunciation_guide_es": "/ai_JAV_SOULD_mai_KAR/",
+        "meaning": "Participio de vender",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_9_def0_v3.avif"
+      }
+    },
+    "group_name": "Social & Exchange"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Pedir prestado",
+        "pronunciation_guide_es": "/kan_ai_BARou_yor_PEN/",
+        "usage_context_en": "temporary possession",
+        "usage_context_es": "posesión temporal",
+        "usage_example": "Can I borrow your pen?",
+        "usage_example_es": "¿Puedo pedir prestado tu bolígrafo?",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Possession & Exchange",
+    "is_verb": true,
+    "name": "borrow",
+    "phonetic": "/ˈbɑroʊ/",
+    "search_term": "verb/loan/basic",
+    "spoken_phonetic_us": "/ˈbɑroʊ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Prestar",
+        "pronunciation_guide_es": "/kan_iu_LEND_mi_SAM_MONi/",
+        "usage_context_en": "give temporarily",
+        "usage_context_es": "dar temporalmente",
+        "usage_example": "Can you lend me some money?",
+        "usage_example_es": "¿Puedes prestarme algo de dinero?",
+        "imagePath": "/card_images/verbs/1-basic/possession_exchange/1-basic_possession_exchange_card_11_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Possession & Exchange",
+    "is_verb": true,
+    "name": "lend",
+    "phonetic": "/lɛnd/",
+    "search_term": "verb/loan/basic",
+    "spoken_phonetic_us": "/lɛnd/"
+  }
+]

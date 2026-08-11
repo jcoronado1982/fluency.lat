@@ -1,0 +1,1018 @@
+.page {
+    width: min(100%, 720px);
+    margin: 0 auto;
+    height: 100dvh;
+    max-height: 100dvh;
+    min-height: 0;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: clamp(12px, 2vh, 32px) clamp(14px, 3vw, 24px);
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #ffffff;
+    font-family: var(--font-family-body);
+}
+
+:global(.app-layout:has([data-onboarding-wizard])),
+:global(.minimal-app-shell:has([data-onboarding-wizard])) {
+    height: 100dvh;
+    max-height: 100dvh;
+    min-height: 0;
+    overflow: hidden;
+}
+
+:global(.app-layout:has([data-onboarding-wizard]) .main-content),
+:global(.minimal-app-shell:has([data-onboarding-wizard]) .page-content) {
+    min-height: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+:global(.app-layout:has([data-onboarding-wizard]) .page-content),
+:global(.minimal-app-shell:has([data-onboarding-wizard]) .page-content) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.eyebrow {
+    margin: 0;
+    color: #f472b6;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.progressHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.progressCopy {
+    margin: 0;
+    color: #f472b6;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.progressTrack {
+    width: 100%;
+    height: 4px;
+    margin: 12px 0 20px;
+    border-radius: 999px;
+    background: rgba(100, 116, 139, 0.35);
+    overflow: hidden;
+}
+
+.progressFill {
+    display: block;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #be185d, #f472b6 55%, #fb923c);
+    box-shadow: 0 0 14px rgba(244, 114, 182, 0.35);
+}
+
+.hero {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    max-height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 36px 38px 34px;
+    border-radius: 28px;
+    border: 1px solid rgba(65, 79, 109, 0.52);
+    background:
+        radial-gradient(circle at top left, rgba(244, 114, 182, 0.08), transparent 30%),
+        radial-gradient(circle at 84% 14%, rgba(251, 191, 36, 0.06), transparent 24%),
+        linear-gradient(180deg, rgba(24, 30, 47, 0.98), rgba(16, 22, 38, 0.99));
+    box-shadow:
+        0 24px 70px rgba(2, 8, 23, 0.35),
+        0 0 0 1px rgba(255, 255, 255, 0.03) inset;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.04), transparent 42%);
+    pointer-events: none;
+}
+
+.hero > * {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    margin: 0;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 2rem;
+    line-height: 0.98;
+    letter-spacing: -0.03em;
+}
+
+.studyTitle {
+    font-size: 2rem;
+}
+
+.subtitle {
+    max-width: 640px;
+    margin: 20px 0 0;
+    color: #ffffff;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    font-weight: 400;
+}
+
+.subtitleLead,
+.subtitleQuestion {
+    display: block;
+}
+
+.subtitleLead {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.35;
+    color: #f472b6;
+    letter-spacing: -0.01em;
+}
+
+.subtitleQuestion {
+    margin-top: 14px;
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    margin-top: 28px;
+}
+
+.optionCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    overflow: hidden;
+    min-height: auto;
+    padding: 20px;
+    border: 1px solid rgba(49, 61, 87, 0.88);
+    border-radius: 26px;
+    background: linear-gradient(180deg, rgba(18, 25, 43, 0.95), rgba(18, 25, 43, 0.82));
+    color: #ffffff;
+    text-align: left;
+    cursor: pointer;
+    transition:
+        transform 180ms ease,
+        border-color 180ms ease,
+        box-shadow 180ms ease,
+        background 180ms ease;
+}
+
+.optionCard:hover {
+    transform: translateY(-2px);
+    border-color: rgba(80, 95, 126, 0.9);
+    box-shadow: 0 18px 44px rgba(15, 23, 42, 0.26);
+}
+
+.optionCardSelected {
+    border-color: rgba(244, 114, 182, 0.78);
+    background:
+        radial-gradient(circle at top right, rgba(244, 114, 182, 0.14), transparent 28%),
+        linear-gradient(180deg, rgba(58, 24, 40, 0.95), rgba(40, 18, 32, 0.86));
+    box-shadow:
+        0 0 0 1px rgba(244, 114, 182, 0.22) inset,
+        0 22px 52px rgba(15, 23, 42, 0.32);
+}
+
+.optionFlagRow {
+    display: inline-flex;
+    align-items: center;
+    align-self: flex-start;
+    gap: 8px;
+}
+
+.optionFlagGroup {
+    color: #ffffff;
+    font-size: 1.9rem;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.optionFlagArrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.25rem;
+    color: #ffffff;
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+
+.optionTitle {
+    margin: 0;
+    max-width: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.optionSelectedLabel {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 800;
+}
+
+.optionSelectedIcon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #be185d, #f472b6 55%, #fb923c);
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.optionDescription {
+    margin: 10px 0 0;
+    color: #ffffff;
+    font-size: 0.96rem;
+    line-height: 1.55;
+}
+
+.pillList {
+    display: grid;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.pillButton {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 20px;
+    border: 1px solid rgba(63, 74, 99, 0.8);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.03);
+    color: #ffffff;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: border-color 180ms ease, transform 180ms ease, background 180ms ease;
+}
+
+.pillButton:hover {
+    transform: translateY(-1px);
+    border-color: rgba(87, 99, 129, 0.9);
+}
+
+.pillButtonSelected {
+    border-color: rgba(244, 114, 182, 0.75);
+    background: linear-gradient(135deg, rgba(190, 24, 93, 0.22), rgba(244, 114, 182, 0.14));
+    color: #ffffff;
+    box-shadow:
+        0 0 0 1px rgba(244, 114, 182, 0.2) inset,
+        0 0 28px rgba(190, 24, 93, 0.18);
+}
+
+.pillButtonFlag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+    background: rgba(5, 14, 28, 0.7);
+    font-size: 1rem;
+}
+
+.pillButtonText {
+    display: block;
+}
+
+.selectionCheck {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #be185d, #f472b6 55%, #fb923c);
+    color: #ffffff;
+    font-size: 0.88rem;
+    font-weight: 900;
+}
+
+.pointsList {
+    display: grid;
+    gap: 16px;
+    margin-top: 28px;
+}
+
+.tourScene {
+    display: grid;
+    gap: 18px;
+    margin-top: 28px;
+}
+
+.tourCommand {
+    padding: 20px 22px;
+    border: 1px solid rgba(244, 114, 182, 0.22);
+    border-radius: 24px;
+    background:
+        radial-gradient(circle at top right, rgba(244, 114, 182, 0.08), transparent 30%),
+        linear-gradient(180deg, rgba(190, 24, 93, 0.06), rgba(15, 23, 42, 0.16));
+}
+
+.tourCommandLabel {
+    display: inline-block;
+    margin-bottom: 8px;
+    color: #f472b6;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.tourCommandTitle {
+    margin: 0;
+    color: #ffffff;
+    font-size: 1.32rem;
+    font-weight: 800;
+}
+
+.tourCommandText {
+    margin: 8px 0 0;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.coachCard {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 14px;
+    align-items: start;
+    padding: 18px 18px 16px;
+    border: 1px solid rgba(244, 114, 182, 0.22);
+    border-radius: 22px;
+    background: linear-gradient(180deg, rgba(244, 114, 182, 0.08), rgba(251, 146, 60, 0.08));
+}
+
+.coachAvatar {
+    display: grid;
+    place-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 18px;
+    background: rgba(15, 23, 42, 0.38);
+    font-size: 1.8rem;
+}
+
+.coachLabel {
+    margin: 0 0 6px;
+    color: #f472b6;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.coachText {
+    margin: 0;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.tourGrid {
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr);
+    gap: 18px;
+}
+
+.tourSidebar,
+.tourContent {
+    border: 1px solid rgba(148, 163, 184, 0.16);
+    border-radius: 24px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.035));
+}
+
+.tourSidebar {
+    padding: 20px 16px;
+}
+
+.tourContent {
+    padding: 20px;
+}
+
+.routeBar {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.routeStep {
+    padding: 7px 12px;
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    border-radius: 999px;
+    background: rgba(15, 23, 42, 0.26);
+    color: #ffffff;
+    font-size: 0.82rem;
+    font-weight: 700;
+}
+
+.routeStepActive {
+    border-color: rgba(244, 114, 182, 0.38);
+    background: rgba(244, 114, 182, 0.14);
+    color: #f472b6;
+}
+
+.tourSectionLabel {
+    margin: 0 0 14px;
+    color: #f472b6;
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.tourNavItem {
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    gap: 12px;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    color: #ffffff;
+}
+
+.tourNavItem + .tourNavItem {
+    margin-top: 10px;
+}
+
+.tourNavItem strong,
+.tourNavItem span {
+    display: block;
+}
+
+.tourNavItem strong {
+    color: #ffffff;
+    font-size: 0.98rem;
+}
+
+.tourNavItem span {
+    color: #ffffff;
+    font-size: 0.88rem;
+}
+
+.tourNavItemActive {
+    border-color: rgba(244, 114, 182, 0.32);
+    background: rgba(244, 114, 182, 0.08);
+    box-shadow: 0 0 0 1px rgba(244, 114, 182, 0.1) inset;
+}
+
+.tourNavIcon {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+    background: rgba(125, 119, 221, 0.16);
+    font-size: 1.25rem;
+}
+
+.catalogPanel {
+    margin-bottom: 16px;
+    padding: 16px;
+    border: 1px solid rgba(148, 163, 184, 0.16);
+    border-radius: 18px;
+    background: rgba(15, 23, 42, 0.24);
+}
+
+.catalogPanelHeader {
+    margin-bottom: 14px;
+}
+
+.catalogHint {
+    margin: 6px 0 0;
+    color: #ffffff;
+    font-size: 0.92rem;
+    line-height: 1.5;
+}
+
+.categoryCards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.categoryCard {
+    display: grid;
+    gap: 6px;
+    padding: 14px;
+    border: 1px solid rgba(148, 163, 184, 0.16);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.categoryCard strong {
+    color: #ffffff;
+    font-size: 0.95rem;
+}
+
+.categoryCard span {
+    color: #ffffff;
+    font-size: 0.84rem;
+    line-height: 1.5;
+}
+
+.categoryCardActive {
+    border-color: rgba(244, 114, 182, 0.38);
+    background: rgba(244, 114, 182, 0.08);
+    box-shadow: 0 0 0 1px rgba(244, 114, 182, 0.12) inset;
+}
+
+.lessonCard {
+    padding: 16px;
+    border: 1px solid rgba(148, 163, 184, 0.16);
+    border-radius: 18px;
+    background: rgba(15, 23, 42, 0.24);
+}
+
+.lessonCardActive {
+    border-color: rgba(244, 114, 182, 0.42);
+    box-shadow: 0 0 0 1px rgba(244, 114, 182, 0.14) inset;
+}
+
+.lessonLabel {
+    margin: 0 0 10px;
+    color: #f472b6;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.topicPanelTitle {
+    margin: 0;
+    color: #ffffff;
+    font-size: 1.08rem;
+    font-weight: 700;
+}
+
+.topicPanelBody {
+    margin: 8px 0 12px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.lessonChips {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.lessonChip {
+    padding: 7px 11px;
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    font-size: 0.86rem;
+    font-weight: 600;
+}
+
+.lessonChipAccent {
+    border-color: rgba(244, 114, 182, 0.42);
+    background: rgba(244, 114, 182, 0.12);
+    color: #ffffff;
+}
+
+.lessonChipFocus {
+    border-color: rgba(244, 114, 182, 0.42);
+    background: rgba(190, 24, 93, 0.12);
+    color: #ffffff;
+}
+
+.flashcardDemo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.flashcardDemoActive {
+    filter: drop-shadow(0 0 18px rgba(250, 204, 21, 0.18));
+}
+
+.flashcardFace,
+.flashcardFaceBack {
+    min-height: 170px;
+    padding: 18px;
+    border: 1px solid rgba(148, 163, 184, 0.16);
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03));
+}
+
+.flashcardFaceBack {
+    background: linear-gradient(180deg, rgba(244, 114, 182, 0.08), rgba(125, 119, 221, 0.06));
+}
+
+.flashcardLabel {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #f472b6;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.flashcardWord,
+.flashcardMeaning {
+    display: block;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 1.55rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.flashcardMeaning {
+    font-size: 1.25rem;
+}
+
+.flashcardHint {
+    display: block;
+    margin-top: 14px;
+    color: #ffffff;
+    font-size: 0.92rem;
+}
+
+.tourControls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    color: #ffffff;
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+
+.tourStep {
+    display: grid;
+    grid-template-columns: 54px 1fr;
+    gap: 14px;
+    align-items: start;
+    padding: 18px;
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.tourStepNumber {
+    display: grid;
+    place-items: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #be185d, #f472b6 50%, #fb923c);
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.tourStepTitle {
+    margin: 0 0 6px;
+    color: #ffffff;
+    font-size: 1.08rem;
+    font-weight: 700;
+}
+
+.tourStepText {
+    margin: 0;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.pointCard {
+    padding: 20px 22px;
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    border-radius: 22px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.035));
+    box-shadow: 0 14px 32px rgba(15, 23, 42, 0.18);
+}
+
+.pointIcon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    margin-bottom: 12px;
+    border-radius: 14px;
+    background: rgba(125, 119, 221, 0.16);
+    font-size: 1.45rem;
+}
+
+.pointTitle {
+    margin: 0 0 8px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.pointDescription {
+    margin: 0;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.summary {
+    margin-top: 28px;
+    padding: 24px;
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    border-radius: 24px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04));
+}
+
+.summaryTitle {
+    margin: 0 0 12px;
+    color: #ffffff;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.summaryText {
+    margin: 0 0 8px;
+    color: #ffffff;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(69, 80, 105, 0.38);
+}
+
+.button {
+    min-height: 50px;
+    padding: 0 22px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 180ms ease, box-shadow 180ms ease, opacity 180ms ease;
+}
+
+.button:hover:not(:disabled) {
+    transform: translateY(-1px);
+}
+
+.button:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.buttonPrimary {
+    background: linear-gradient(135deg, #be185d, #f472b6 50%, #fb923c);
+    color: #ffffff;
+    box-shadow: 0 10px 24px rgba(190, 24, 93, 0.3);
+}
+
+.buttonSecondary {
+    background: rgba(30, 41, 59, 0.8);
+    border-color: #334155;
+    color: #ffffff;
+}
+
+.emptyState {
+    max-width: 640px;
+    margin: 28px auto 0;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+@media (max-width: 1100px) {
+    .page {
+        max-width: 720px;
+        padding: 32px 20px;
+    }
+
+    .hero {
+        padding: 30px 28px;
+    }
+
+    .title,
+    .studyTitle {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 760px) {
+    .page {
+        width: 100%;
+        height: 100dvh;
+        max-height: 100dvh;
+        padding: 12px 14px;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .hero {
+        max-width: 100%;
+        padding: 20px 18px 18px;
+        border-radius: 22px;
+    }
+
+    .progressHeader {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tourGrid,
+    .flashcardDemo {
+        grid-template-columns: 1fr;
+    }
+
+    .categoryCards {
+        grid-template-columns: 1fr;
+    }
+
+    .title {
+        font-size: clamp(2rem, 8vw, 2.4rem);
+    }
+
+    .studyTitle {
+        font-size: clamp(2rem, 8vw, 2.4rem);
+    }
+
+    .subtitle {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .optionCard {
+        min-height: auto;
+        padding: 20px 18px;
+        border-radius: 22px;
+    }
+
+    .optionTitle {
+        max-width: none;
+        font-size: 1.2rem;
+    }
+
+    .optionFlagGroup {
+        font-size: 1.7rem;
+    }
+
+    .pillButton {
+        grid-template-columns: auto 1fr;
+        gap: 14px;
+        padding: 16px;
+    }
+
+    .pillButtonText {
+        font-size: 0.98rem;
+    }
+
+    .selectionCheck {
+        display: none;
+    }
+
+    .actions {
+        flex-direction: column;
+        justify-content: stretch;
+    }
+
+    .button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .optionSelectedLabel {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .page {
+        padding: 12px;
+    }
+
+    .hero {
+        width: min(100%, 30rem);
+        padding: 18px 14px 16px;
+        border-radius: 18px;
+    }
+
+    .eyebrow,
+    .progressCopy {
+        font-size: 0.78rem;
+    }
+
+    .progressTrack {
+        margin: 10px 0 22px;
+    }
+
+    .title,
+    .studyTitle {
+        font-size: clamp(1.8rem, 10vw, 2.15rem);
+        line-height: 1.02;
+    }
+
+    .subtitle {
+        margin-top: 12px;
+        font-size: 0.95rem;
+    }
+
+    .pillList,
+    .grid {
+        gap: 14px;
+        margin-top: 22px;
+    }
+
+    .pillButton {
+        padding: 14px;
+        border-radius: 14px;
+    }
+
+    .pillButtonFlag {
+        width: 30px;
+        height: 30px;
+        font-size: 0.95rem;
+    }
+
+    .optionCard {
+        gap: 10px;
+        padding: 18px 16px;
+        border-radius: 20px;
+    }
+
+    .optionFlagGroup {
+        font-size: 1.5rem;
+    }
+
+    .optionTitle {
+        font-size: 1.2rem;
+        line-height: 1.15;
+    }
+
+    .optionSelectedLabel {
+        font-size: 0.88rem;
+    }
+
+    .optionSelectedIcon {
+        display: none;
+    }
+
+    .actions {
+        margin-top: 22px;
+        padding-top: 16px;
+    }
+
+    .button {
+        min-height: 48px;
+        padding: 0 18px;
+        font-size: 0.92rem;
+    }
+}

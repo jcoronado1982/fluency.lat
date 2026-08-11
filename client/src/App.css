@@ -1,0 +1,384 @@
+/* ---
+ * --- 1. NUEVOS ESTILOS DE LAYOUT (AÑADIDOS) ---
+ * --- (Controlan el Sidebar y el Contenido Principal) ---
+ --- */
+
+/* Tokens de marca: styles/app-brand.css (fuente única).
+   Tipografía de la app autenticada: index.css (.app-layout, .minimal-app-shell). */
+.app-layout {
+    display: flex;
+    width: 100%;
+    max-width: 100vw;
+    min-height: 100dvh;
+    background-color: var(--brand-canvas, #0b1120);
+    overflow-x: hidden;
+    --app-sidebar-width: 260px;
+}
+
+.minimal-app-shell {
+    min-height: 100dvh;
+    width: 100%;
+    background-color: var(--brand-canvas, #0b1120);
+}
+
+.main-content,
+.page-content {
+    font-family: inherit;
+}
+
+.flashcard-page-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+/* Flashcard app + demo landing: misma tipografía (tokens de marca: app-brand.css) */
+.flashcard-page-wrapper {
+    font-family: var(--font-family-app);
+    --font-family-body: var(--font-family-app);
+    --font-family-display: var(--font-family-app);
+}
+
+/* Flashcard app: dimensiones dinámicas según viewport (no aplica a landing demo) */
+.flashcard-page-wrapper:not([data-landing-demo]) {
+    --fc-header-offset: 88px;
+    /* Footer real ~82px (ver ShellFooter.css); 64px infravaloraba el hueco
+       y hacía que --fc-card-height se sobreestimara en TODOS los tamaños. */
+    --fc-footer-offset: 84px;
+    --fc-controls-spacing-extra: 10px;
+    --fc-controls-gap: calc(clamp(12px, 2vh, 24px) + var(--fc-controls-spacing-extra));
+    --fc-controls-offset: calc(88px + var(--fc-controls-gap) + var(--fc-controls-spacing-extra));
+    --fc-page-padding-block: 24px;
+    --fc-page-inline-padding: 16px;
+    --fc-card-max-width: 560px;
+    --fc-card-min-height: 380px;
+    /* var(--fc-real-vh) es el alto real del viewport medido en JS
+       (window.innerHeight, ver useRealViewportHeight.js). Bajo escalado
+       fraccional del sistema operativo (p.ej. 150%), algunos navegadores
+       calculan mal la unidad dvh frente al alto real, dejando la tarjeta
+       fija en su alto máximo aunque el espacio disponible sea mucho menor.
+       100dvh queda solo como fallback para el primer render antes de que
+       el hook corra. */
+    --fc-card-height: clamp(
+        var(--fc-card-min-height),
+        calc(
+            var(--fc-real-vh, 100dvh)
+            - var(--fc-header-offset)
+            - var(--fc-footer-offset)
+            - var(--fc-controls-offset)
+            - var(--fc-page-padding-block)
+        ),
+        720px
+    );
+}
+
+/* Laptops 13"-14" (viewport ancho pero de poca altura, p.ej. 1366x768 o
+   1440x900): priorizamos el alto útil de la tarjeta. El footer permanece en
+   el flujo normal y puede quedar debajo del primer viewport para acceder a él
+   con scroll, sin tocar móvil (que tiene su propio bloque max-width:768px). */
+/* 768.02px (y no 769px) para no dejar un hueco entre este bloque y el de
+   max-width:768px: con escalado fraccional del SO el ancho lógico puede ser
+   fraccionario (p.ej. 768.5px) y no matchearía ninguno de los dos. */
+@media (min-width: 768.02px) and (max-width: 1600px) and (max-height: 900px) {
+    .flashcard-page-wrapper:not([data-landing-demo]) {
+        --fc-header-offset: 64px;
+        --fc-controls-spacing-extra: 4px;
+        --fc-page-padding-block: 14px;
+        --fc-card-max-width: 580px;
+        --fc-card-min-height: 480px;
+        --fc-card-height: 540px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .flashcard-page-wrapper:not([data-landing-demo]) {
+        --fc-header-offset: calc(80px + env(safe-area-inset-top, 0px));
+        --fc-footer-offset: 0px;
+        --fc-controls-spacing-extra: 0px;
+        --fc-controls-gap: 20px;
+        --fc-controls-offset: calc(100px + env(safe-area-inset-bottom, 0px));
+        --fc-page-padding-block: 12px;
+        --fc-page-inline-padding: 15px;
+        --fc-card-max-width: 100%;
+        --fc-card-min-height: 200px;
+        --fc-card-max-height: 560px;
+        --fc-card-height: clamp(
+            var(--fc-card-min-height),
+            calc(
+                var(--fc-real-vh, 100dvh)
+                - var(--fc-header-offset)
+                - var(--fc-controls-offset)
+                - var(--fc-page-padding-block)
+                - 10px
+            ),
+            var(--fc-card-max-height)
+        );
+    }
+}
+
+/* Columna principal del shell: pila vertical lineal (page-content + footer;
+   header y sidebar son overlays) → flex column es la herramienta correcta,
+   no Grid. El padding-left de .sidebar-open es la única transición prevista. */
+.main-content {
+    flex-grow: 1;
+    min-width: 0; /* Important for flex-grow to prevent overflow */
+    transition: padding-left 0.3s ease;
+    background: var(--brand-canvas, #0b1120);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-content {
+    flex-grow: 1; /* Pushes the footer to the bottom */
+    transition: padding-top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    padding-top: 4px;
+    /* Initial peek space */
+}
+
+/* Cuando el sidebar está abierto, empuja el contenido (solo escritorio) */
+.main-content.sidebar-open {
+    padding-left: var(--app-sidebar-width, 260px);
+}
+
+@media (max-width: 768px) {
+    .main-content,
+    .main-content.sidebar-open,
+    .main-content.sidebar-closed {
+        padding-left: 0;
+        min-width: 0;
+        width: 100%;
+        max-width: 100vw;
+    }
+
+    .page-content {
+        padding-top: calc(4px + var(--safe-top, 0px));
+    }
+}
+
+.main-content > .shell-footer--app {
+    flex-shrink: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .main-content:has(.flashcard-page-wrapper[data-catalog-open='true']) > .shell-footer--app {
+        display: none;
+    }
+
+    .main-content:has(.flashcard-page-wrapper[data-completion-open='true']) > .shell-footer--app {
+        display: none;
+    }
+
+    .main-content:has(.flashcard-page-wrapper:not([data-landing-demo])) > .shell-footer--app {
+        flex-grow: 1;
+    }
+}
+
+/* No necesita padding superior, porque el Header
+   * (que está dentro de .main-content) usa position: sticky
+   */
+
+
+/* ---
+ * --- 2. ESTILOS EXISTENTES (MODIFICADOS) ---
+ --- */
+
+/* --- CONTENEDOR PRINCIPAL (MODIFICADO) --- */
+/* Esta clase ahora aplica al contenido de FlashcardPage, no a toda la app */
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; <-- ¡ELIMINADO! Esto ahora lo maneja .main-content */
+    position: relative;
+    /* background: ... <-- ¡ELIMINADO! Movido a .main-content */
+    /* overflow: hidden; <-- REMOVED to prevent layout clipping/stickiness issues */
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 50px 20px 20px 20px;
+    /* Increased top padding */
+    box-sizing: border-box;
+    /* Ocupa al menos la altura de la página (viewport menos el header de 80px) */
+    /* min-height: calc(100vh - 80px); <-- REMOVED */
+    padding-bottom: 40px;
+    /* Ensure space at bottom */
+}
+
+.flashcard-page-wrapper:not([data-landing-demo]) .app-container {
+    align-items: stretch;
+    padding: clamp(12px, 2.5vh, 36px) var(--fc-page-inline-padding, 16px) clamp(16px, 2vh, 32px);
+    /* Ojo: NO usar min-height: calc(100dvh - header-offset) aquí. .page-content
+       ya reserva el espacio real del header con su propio padding-top:80px
+       cuando el header está visible (ver Layout.css .app-header.manual-open +
+       .page-content). Repetir esa resta acá duplicaba el hueco reservado para
+       el header y era la causa real del espacio vacío + scroll de más que se
+       veía en laptops (independiente del escalado del sistema operativo). La
+       tarjeta ya define su propio alto exacto vía --fc-card-height; este
+       contenedor solo necesita un piso mínimo para no colapsar antes de que
+       cargue el contenido. */
+    min-height: var(--fc-card-min-height, 380px);
+}
+
+/* Debe ir después del shorthand `padding` anterior para que el orden de la
+   cascada elimine realmente la franja superior en viewports de poca altura. */
+@media (min-width: 768.02px) and (max-width: 1600px) and (max-height: 900px) {
+    .flashcard-page-wrapper:not([data-landing-demo]) .app-container {
+        padding-top: 0;
+    }
+}
+
+/* --- FLASHCARD CENTRADA (Sin Cambios) --- */
+.flashcard-main-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 580px;
+    width: 100%;
+    z-index: 2;
+}
+
+.flashcard-page-wrapper:not([data-landing-demo]) .flashcard-main-area {
+    max-width: var(--fc-card-max-width, 600px);
+    flex: 1;
+    min-height: 0;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .main-content:has(.flashcard-page-wrapper:not([data-landing-demo])) {
+        min-height: 100dvh;
+        height: auto;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .main-content:has(.flashcard-page-wrapper:not([data-landing-demo])) .page-content {
+        flex: 0 0 auto;
+        height: auto;
+        max-height: none;
+        overflow: visible;
+    }
+
+    .flashcard-page-wrapper:not([data-landing-demo]) .flashcard-main-area {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        flex: 0 0 auto;
+        justify-content: flex-start;
+        gap: var(--fc-controls-gap, 8px);
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .flashcard-page-wrapper:not([data-landing-demo]) {
+        --fc-page-inline-padding: 15px;
+    }
+}
+
+/* --- MENSAJE DE ESTADO --- */
+#message {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+/* --- MENSAJE DE DECK COMPLETADO (Sin Cambios) --- */
+.all-done-message {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #28a745;
+    text-align: center;
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .app-container {
+        padding: 60px 10px 0px 10px;
+        padding-bottom: 20px;
+    }
+
+    .flashcard-page-wrapper:not([data-landing-demo]) .app-container {
+        padding: 4px var(--fc-page-inline-padding, 15px) 30px;
+        min-height: 0;
+        align-items: stretch;
+    }
+
+    .flashcard-page-wrapper:not([data-landing-demo]) .flashcard-main-area {
+        flex: 0 0 auto;
+    }
+
+}
+
+/* Sesión instalada: composición inmersiva tipo portada. `display-mode`
+   impide que alcance al navegador móvil normal o al demo de landing. */
+@media (display-mode: standalone) and (max-width: 768px) {
+    .app-layout:has(.flashcard-page-wrapper:not([data-landing-demo])),
+    .main-content:has(.flashcard-page-wrapper:not([data-landing-demo])) {
+        background: #05070d;
+    }
+
+    .main-content:has(.flashcard-page-wrapper:not([data-landing-demo])) .app-header {
+        display: none;
+    }
+
+    .main-content:has(.flashcard-page-wrapper:not([data-landing-demo])) .page-content,
+    .main-content:has(.flashcard-page-wrapper:not([data-landing-demo])) .app-header + .page-content,
+    .main-content:has(.flashcard-page-wrapper:not([data-landing-demo])) .app-header.manual-open + .page-content {
+        padding-top: 0;
+    }
+
+    .main-content:has(.flashcard-page-wrapper:not([data-landing-demo])) > .shell-footer--app {
+        display: none;
+    }
+
+    .flashcard-page-wrapper:not([data-landing-demo]) {
+        --fc-header-offset: 0px;
+        --fc-footer-offset: 0px;
+        --fc-controls-gap: 0px;
+        --fc-controls-offset: 0px;
+        --fc-page-padding-block: 0px;
+        --fc-page-inline-padding: 0px;
+        --fc-card-max-width: 100%;
+        --fc-card-min-height: min(520px, 72svh);
+        --fc-card-max-height: 720px;
+        --fc-card-height: clamp(540px, 80svh, var(--fc-card-max-height));
+        min-height: 100svh;
+        overflow: visible;
+        background: #05070d;
+    }
+
+    .flashcard-page-wrapper:not([data-landing-demo]) .app-container {
+        display: block;
+        width: 100%;
+        max-width: none;
+        min-height: 0;
+        margin: 0;
+        padding: 0;
+        /* Efecto card-stack de iOS al abrir la hoja del catálogo: la sesión
+           retrocede (escala + esquinas redondeadas) tras el scrim. Misma
+           curva que la entrada de la hoja (CategorySelector.module.css). */
+        transform-origin: 50% 0;
+        transition: transform 380ms cubic-bezier(0.32, 0.72, 0, 1), border-radius 380ms cubic-bezier(0.32, 0.72, 0, 1);
+    }
+
+    .flashcard-page-wrapper:not([data-landing-demo])[data-catalog-open='true'] .app-container {
+        overflow: hidden;
+        border-radius: 24px;
+        transform: scale(0.92) translateY(10px);
+    }
+
+    .flashcard-page-wrapper:not([data-landing-demo]) .flashcard-main-area {
+        display: flex;
+        width: 100%;
+        max-width: none;
+        align-items: stretch;
+        gap: 0;
+    }
+}

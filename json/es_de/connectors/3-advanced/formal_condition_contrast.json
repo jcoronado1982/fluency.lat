@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "vorausgesetzt, dass",
+    "phonetic": "/foˈʁaʊsɡəzɛtst das/",
+    "spoken_phonetic_us": "/foˈʁaʊsɡəzɛtst das/",
+    "search_term": "phrase/condition/formal",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Condition",
+    "definitions": [
+      {
+        "meaning": "Siempre que / Con la condición de que",
+        "usage_example": "Die Bank wird das Geld leihen, vorausgesetzt, dass du eine Sicherheit hast.",
+        "pronunciation_guide_es": "/di_BANK_virt_das_GELT_LAI-en_fo-RAUS-ge-zetst_das_du_AI-ne_ZI-sher-hait_HAST/",
+        "usage_example_es": "El banco prestará el dinero, siempre que tengas una garantía.",
+        "char_count": "10",
+        "usage_context_en": "A formal way to say 'if' or 'as long as'.",
+        "usage_context_es": "Una forma formal de decir 'si' o 'siempre y cuando'.",
+        "imagePath": "/card_images/connectors/3-advanced/formal_condition_contrast/3-advanced_formal_condition_contrast_card_0_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "wenn auch",
+    "phonetic": "/vɛn aʊx/",
+    "spoken_phonetic_us": "/vɛn aʊx/",
+    "search_term": "connector/contrast",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Contrast",
+    "definitions": [
+      {
+        "meaning": "Aunque / Si bien",
+        "usage_example": "Er machte Fortschritte, wenn auch langsam.",
+        "pronunciation_guide_es": "/er_MAJ-te_FORT-shri-te_ven_AUX_LANG-zam/",
+        "usage_example_es": "Estaba haciendo progreso, si bien lentamente.",
+        "char_count": "6",
+        "usage_context_en": "Even though; although.",
+        "usage_context_es": "Aunque; a pesar de que.",
+        "imagePath": "/card_images/connectors/3-advanced/formal_condition_contrast/3-advanced_formal_condition_contrast_card_1_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "umgekehrt",
+    "phonetic": "/ˈʊmɡəkeːɐ̯t/",
+    "spoken_phonetic_us": "/ˈʊmɡəkeːɐ̯t/",
+    "search_term": "connector/contrast",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Contrast",
+    "definitions": [
+      {
+        "meaning": "Por el contrario / A la inversa",
+        "usage_example": "Manche Leute mögen es heiß; umgekehrt bevorzugen andere die Kälte.",
+        "pronunciation_guide_es": "/MAN-she_LOI-te_MOE-gen_es_HAIS_UM-ge-kert_be-FOR-tsu-gen_AN-de-re_di_KEL-te/",
+        "usage_example_es": "A algunas personas les gusta el calor; por el contrario, otras lo prefieren frío.",
+        "char_count": "10",
+        "usage_context_en": "Introducing a statement or idea which reverses one that has just been made or referred to.",
+        "usage_context_es": "Introducir una declaración o idea que invierte una que se acaba de hacer o a la que se hace referencia.",
+        "imagePath": "/card_images/connectors/3-advanced/formal_condition_contrast/3-advanced_formal_condition_contrast_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "dennoch",
+    "phonetic": "/ˈdɛnɔx/",
+    "spoken_phonetic_us": "/ˈdɛnɔx/",
+    "search_term": "connector/contrast",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Contrast",
+    "definitions": [
+      {
+        "meaning": "Sin embargo / No obstante",
+        "usage_example": "Es regnete; dennoch gingen wir spazieren.",
+        "pronunciation_guide_es": "/es_REG-ne-te_DE-noj_GIN-gen_vir_shpa-TSI-ren/",
+        "usage_example_es": "Estaba lloviendo; no obstante, salimos a caminar.",
+        "char_count": "12",
+        "usage_context_en": "In spite of that; however.",
+        "usage_context_es": "A pesar de eso; sin embargo.",
+        "imagePath": "/card_images/connectors/3-advanced/formal_condition_contrast/3-advanced_formal_condition_contrast_card_3_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "wohingegen",
+    "phonetic": "/voːˈhɪnɡeːɡən/",
+    "spoken_phonetic_us": "/voːˈhɪnɡeːɡən/",
+    "search_term": "conjunction/contrast/formal",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Contrast",
+    "definitions": [
+      {
+        "meaning": "Mientras que (formal)",
+        "usage_example": "Sie ist jung, wohingegen ich alt bin.",
+        "pronunciation_guide_es": "/zi_ist_YUNG_vo-hin-GE-gen_ish_ALT_bin/",
+        "usage_example_es": "Ella es joven, mientras que yo soy viejo.",
+        "char_count": "6",
+        "usage_context_en": "A formal way to contrast two facts.",
+        "usage_context_es": "Una forma formal de contrastar dos hechos.",
+        "imagePath": "/card_images/connectors/3-advanced/formal_condition_contrast/3-advanced_formal_condition_contrast_card_4_def0.avif"
+      }
+    ]
+  }
+]

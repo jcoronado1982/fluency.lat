@@ -1,0 +1,657 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Lado",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/position/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Lado]",
+                "usage_example": "El parque está en este lado.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El parque está en este lado.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Una posición a la izquierda o derecha de un centro]",
+                "usage_context_es": "Una posición a la izquierda o derecha de un centro",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_174_def0.avif"
+            }
+        ],
+        "group_name": null,
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Punto / Idea principal",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/idea/location/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Punto / Idea principal]",
+                "usage_example": "Ese es un buen punto (argumento).",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ese es un buen punto (argumento).]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Una idea u opinión / Un lugar específico]",
+                "usage_context_es": "Una idea u opinión / Un lugar específico",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_176_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Propósito o idea principal]",
+                "usage_example": "Ese es el punto de la historia.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ese es el punto de la historia.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: La idea o propósito principal de algo.]",
+                "usage_context_es": "La idea o propósito principal de algo.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_176_def1.avif"
+            }
+        ],
+        "group_name": null,
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Mapa",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/object/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Mapa]",
+                "usage_example": "Necesito un mapa de la ciudad.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Necesito un mapa de la ciudad.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un dibujo de un área o país]",
+                "usage_context_es": "Un dibujo de un área o país",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_265_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Dirección",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Dirección]",
+                "usage_example": "¿Cuál es tu dirección?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: ¿Cuál es tu dirección?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Donde vives (calle y número)]",
+                "usage_context_es": "Donde vives (calle y número)",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_287_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Norte",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/direction/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Norte]",
+                "usage_example": "El mapa muestra el norte.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El mapa muestra el norte.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La dirección opuesta al sur]",
+                "usage_context_es": "La dirección opuesta al sur",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_297_def0.avif"
+            }
+        ],
+        "group_name": "Directions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Sur",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/direction/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Sur]",
+                "usage_example": "Ellos viajaron al sur.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ellos viajaron al sur.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La dirección opuesta al norte]",
+                "usage_context_es": "La dirección opuesta al norte",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_298_def0.avif"
+            }
+        ],
+        "group_name": "Directions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Este",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/direction/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Este]",
+                "usage_example": "El sol sale por el este.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El sol sale por el este.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La dirección por donde sale el sol]",
+                "usage_context_es": "La dirección por donde sale el sol",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_299_def0.avif"
+            }
+        ],
+        "group_name": "Directions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Oeste",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/direction/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Oeste]",
+                "usage_example": "El sol se pone por el oeste.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El sol se pone por el oeste.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La dirección por donde se pone el sol]",
+                "usage_context_es": "La dirección por donde se pone el sol",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_300_def0.avif"
+            }
+        ],
+        "group_name": "Directions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Izquierda",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/direction/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Izquierda]",
+                "usage_example": "Gira a la izquierda.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Gira a la izquierda.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La dirección opuesta a la derecha]",
+                "usage_context_es": "La dirección opuesta a la derecha",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_301_def0.avif"
+            }
+        ],
+        "group_name": "Directions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Derecha",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/direction/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Derecha]",
+                "usage_example": "Gira a la derecha.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Gira a la derecha.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La dirección opuesta a la izquierda]",
+                "usage_context_es": "La dirección opuesta a la izquierda",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_302_def0.avif"
+            }
+        ],
+        "group_name": "Directions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Área / Zona",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Área / Zona]",
+                "usage_example": "Esta es una zona residencial.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Esta es una zona residencial.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL PT: Una región o parte de un lugar]",
+                "usage_context_es": "Una región o parte de un lugar",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_304_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Región",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Región]",
+                "usage_example": "Una región montañosa.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Una región montañosa.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Un área grande de un país o del mundo]",
+                "usage_context_es": "Un área grande de un país o del mundo",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_305_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Espacio",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Espacio]",
+                "usage_example": "Necesito más espacio.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Necesito más espacio.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un área vacía / El área fuera de la Tierra]",
+                "usage_context_es": "Un área vacía / El área fuera de la Tierra",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_306_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Esquina",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Esquina]",
+                "usage_example": "La tienda está en la esquina.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: La tienda está en la esquina.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: El lugar donde dos calles o paredes se encuentran]",
+                "usage_context_es": "El lugar donde dos calles o paredes se encuentran",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_312_def0.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Frente / Parte delantera",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/direction/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Frente / Parte delantera]",
+                "usage_example": "El frente de la casa es azul.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El frente de la casa es azul.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La parte más delantera; opuesto a 'atrás']",
+                "usage_context_es": "La parte más delantera; opuesto a 'atrás'",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_313_def0.avif"
+            }
+        ],
+        "group_name": "Directions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Cima / Parte superior",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/direction/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cima / Parte superior]",
+                "usage_example": "El libro está encima de la mesa.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El libro está encima de la mesa.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La parte más alta; opuesto a 'fondo']",
+                "usage_context_es": "La parte más alta; opuesto a 'fondo'",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_314_def0.avif"
+            }
+        ],
+        "group_name": "Directions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Fondo / Parte inferior",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/direction/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Fondo / Parte inferior]",
+                "usage_example": "Mi nombre está al fondo de la página.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Mi nombre está al fondo de la página.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: La parte más baja; opuesto a 'cima']",
+                "usage_context_es": "La parte más baja; opuesto a 'cima'",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_315_def0.avif"
+            }
+        ],
+        "group_name": "Directions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Centro",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/direction/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Centro]",
+                "usage_example": "La mesa está en el centro del cuarto.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: La mesa está en el centro del cuarto.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: El punto medio]",
+                "usage_context_es": "El punto medio",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_316_def0.avif"
+            }
+        ],
+        "group_name": "Directions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Medio",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/direction/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Medio]",
+                "usage_example": "Él está en medio de la multitud.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Él está en medio de la multitud.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: El punto o posición central]",
+                "usage_context_es": "El punto o posición central",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_317_def0.avif"
+            }
+        ],
+        "group_name": "Directions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Borde / Orilla",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/place/direction/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Borde / Orilla]",
+                "usage_example": "No te pares tan cerca del borde.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: No te pares tan cerca del borde.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: El límite exterior de un objeto o área]",
+                "usage_context_es": "El límite exterior de un objeto o área",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_318_def0.avif"
+            }
+        ],
+        "group_name": "Directions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "A place where you can enter.",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/directions/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: A place where you can enter.]",
+                "usage_example": "Espera en la entrada.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Espera en la entrada.]",
+                "char_count": "8",
+                "usage_context_en": "[TRADUCIR AL PT: Un lugar por donde se puede entrar.]",
+                "usage_context_es": "Un lugar por donde se puede entrar.",
+                "imagePath": "/card_images/nouns/1-basic/seed_entrance.avif"
+            }
+        ],
+        "group_name": "Directions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "A way out of a place.",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/directions/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: A way out of a place.]",
+                "usage_example": "La salida está a la izquierda.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: La salida está a la izquierda.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Una vía para salir de un lugar.]",
+                "usage_context_es": "Una vía para salir de un lugar.",
+                "imagePath": "/card_images/nouns/1-basic/seed_exit.avif"
+            }
+        ],
+        "group_name": "Directions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "The way something points or moves.",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/directions/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: The way something points or moves.]",
+                "usage_example": "¿En qué dirección queda la estación?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: ¿En qué dirección queda la estación?]",
+                "char_count": "9",
+                "usage_context_en": "[TRADUCIR AL PT: La orientación o rumbo de algo.]",
+                "usage_context_es": "La orientación o rumbo de algo.",
+                "imagePath": "/card_images/nouns/1-basic/seed_direction.avif"
+            }
+        ],
+        "group_name": "Directions",
+        "category": ""
+    }
+]

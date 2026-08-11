@@ -1,0 +1,114 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "where",
+        "phonetic": "/wɛər/",
+        "spoken_phonetic_us": "/wɛr/",
+        "search_term": "adverb/interrogative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Dónde / Adónde]",
+                "usage_example": "Where do you live?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE where AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Where do you live?]",
+                "char_count": 5,
+                "usage_context_en": "[TRADUCIR AL PT: Usado para preguntar por lugar o destino.]",
+                "usage_context_es": "Used to ask about place or destination.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Adverbs: Questions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "when",
+        "phonetic": "/wɛn/",
+        "spoken_phonetic_us": "/wɛn/",
+        "search_term": "adverb/interrogative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cuándo]",
+                "usage_example": "When does the class start?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE when AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: When does the class start?]",
+                "char_count": 4,
+                "usage_context_en": "[TRADUCIR AL PT: Usado para preguntar por tiempo.]",
+                "usage_context_es": "Used to ask about time.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Adverbs: Questions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "how",
+        "phonetic": "/haʊ/",
+        "spoken_phonetic_us": "/haʊ/",
+        "search_term": "adverb/interrogative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cómo]",
+                "usage_example": "How do you do that?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE how AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: How do you do that?]",
+                "char_count": 3,
+                "usage_context_en": "[TRADUCIR AL PT: Usado para preguntar por manera, estado o método.]",
+                "usage_context_es": "Used to ask about manner, condition, or method.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Adverbs: Questions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "why",
+        "phonetic": "/waɪ/",
+        "spoken_phonetic_us": "/waɪ/",
+        "search_term": "adverb/interrogative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Por qué]",
+                "usage_example": "Why are you late?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE why AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Why are you late?]",
+                "char_count": 3,
+                "usage_context_en": "[TRADUCIR AL PT: Usado para preguntar por razón o causa.]",
+                "usage_context_es": "Used to ask about reason or cause.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Adverbs: Questions",
+        "category": ""
+    }
+]

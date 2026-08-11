@@ -1,0 +1,366 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Mar",
+        "pronunciation_guide_es": "/de_SI_is_KALM_tuDEI/",
+        "usage_context_en": "A large body of salt water",
+        "usage_context_es": "Un gran cuerpo de agua salada",
+        "usage_example": "The sea is calm today.",
+        "usage_example_es": "El mar está en calma hoy.",
+        "imagePath": "/card_images/nouns/1-basic/oceans_seas/1-basic_oceans_seas_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "sea",
+    "phonetic": "/siː/",
+    "search_term": "noun/nature/water/essentials",
+    "spoken_phonetic_us": "/siː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Océano",
+        "pronunciation_guide_es": "/de_paSIFik_OUshan_is_VERI_BIG/",
+        "usage_context_en": "A very large sea",
+        "usage_context_es": "Un mar muy grande",
+        "usage_example": "The Pacific Ocean is very big.",
+        "usage_example_es": "El Océano Pacífico es muy grande.",
+        "imagePath": "/card_images/nouns/1-basic/oceans_seas/1-basic_oceans_seas_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "ocean",
+    "phonetic": "/ˈoʊʃən/",
+    "search_term": "noun/nature/water/essentials",
+    "spoken_phonetic_us": "/ˈoʊʃən/"
+  },
+  {
+    "word": "Pacific Ocean",
+    "translation": "Océano Pacífico",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "13",
+        "meaning": "The largest ocean on Earth.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "The largest ocean on Earth.",
+        "usage_context_es": "El océano más grande de la Tierra.",
+        "usage_example": "The Pacific Ocean is very large.",
+        "usage_example_es": "El Océano Pacífico es muy grande.",
+        "imagePath": "/card_images/nouns/1-basic/oceans_seas/1-basic_oceans_seas_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Oceans & Seas",
+    "is_verb": false,
+    "name": "Pacific Ocean",
+    "phonetic": "",
+    "search_term": "noun/oceans-&-seas/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "Atlantic Ocean",
+    "translation": "Océano Atlántico",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "14",
+        "meaning": "The ocean between the Americas and Europe/Africa.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "The ocean between the Americas and Europe/Africa.",
+        "usage_context_es": "El océano entre América y Europa/África.",
+        "usage_example": "The Atlantic Ocean is important for travel.",
+        "usage_example_es": "El Océano Atlántico es importante para viajar.",
+        "imagePath": "/card_images/nouns/1-basic/oceans_seas/1-basic_oceans_seas_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Oceans & Seas",
+    "is_verb": false,
+    "name": "Atlantic Ocean",
+    "phonetic": "",
+    "search_term": "noun/oceans-&-seas/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "Indian Ocean",
+    "translation": "Océano Índico",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "12",
+        "meaning": "The ocean between Africa, Asia, and Australia.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "The ocean between Africa, Asia, and Australia.",
+        "usage_context_es": "El océano entre África, Asia y Australia.",
+        "usage_example": "The Indian Ocean is warm.",
+        "usage_example_es": "El Océano Índico es cálido.",
+        "imagePath": "/card_images/nouns/1-basic/oceans_seas/1-basic_oceans_seas_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Oceans & Seas",
+    "is_verb": false,
+    "name": "Indian Ocean",
+    "phonetic": "",
+    "search_term": "noun/oceans-&-seas/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "Arctic Ocean",
+    "translation": "Océano Ártico",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "12",
+        "meaning": "The ocean around the North Pole.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "The ocean around the North Pole.",
+        "usage_context_es": "El océano alrededor del Polo Norte.",
+        "usage_example": "The Arctic Ocean is cold.",
+        "usage_example_es": "El Océano Ártico es frío.",
+        "imagePath": "/card_images/nouns/1-basic/oceans_seas/1-basic_oceans_seas_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Oceans & Seas",
+    "is_verb": false,
+    "name": "Arctic Ocean",
+    "phonetic": "",
+    "search_term": "noun/oceans-&-seas/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "Southern Ocean",
+    "translation": "Océano Austral",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "14",
+        "meaning": "The ocean surrounding Antarctica.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "The ocean surrounding Antarctica.",
+        "usage_context_es": "El océano que rodea la Antártida.",
+        "usage_example": "The Southern Ocean surrounds Antarctica.",
+        "usage_example_es": "El Océano Austral rodea la Antártida.",
+        "imagePath": "/card_images/nouns/1-basic/oceans_seas/1-basic_oceans_seas_card_6_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Oceans & Seas",
+    "is_verb": false,
+    "name": "Southern Ocean",
+    "phonetic": "",
+    "search_term": "noun/oceans-&-seas/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "Mediterranean Sea",
+    "translation": "Mar Mediterráneo",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "17",
+        "meaning": "A sea between Europe, Africa, and Asia.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A sea between Europe, Africa, and Asia.",
+        "usage_context_es": "Un mar entre Europa, África y Asia.",
+        "usage_example": "The Mediterranean Sea is famous.",
+        "usage_example_es": "El Mar Mediterráneo es famoso.",
+        "imagePath": "/card_images/nouns/1-basic/oceans_seas/1-basic_oceans_seas_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Oceans & Seas",
+    "is_verb": false,
+    "name": "Mediterranean Sea",
+    "phonetic": "",
+    "search_term": "noun/oceans-&-seas/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "Caribbean Sea",
+    "translation": "Mar Caribe",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "13",
+        "meaning": "A sea in the Caribbean region.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A sea in the Caribbean region.",
+        "usage_context_es": "Un mar en la región del Caribe.",
+        "usage_example": "The Caribbean Sea is warm.",
+        "usage_example_es": "El Mar Caribe es cálido.",
+        "imagePath": "/card_images/nouns/1-basic/oceans_seas/1-basic_oceans_seas_card_8_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Oceans & Seas",
+    "is_verb": false,
+    "name": "Caribbean Sea",
+    "phonetic": "",
+    "search_term": "noun/oceans-&-seas/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "Red Sea",
+    "translation": "Mar Rojo",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "meaning": "A sea between Africa and Asia.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A sea between Africa and Asia.",
+        "usage_context_es": "Un mar entre África y Asia.",
+        "usage_example": "The Red Sea is narrow.",
+        "usage_example_es": "El Mar Rojo es estrecho.",
+        "imagePath": "/card_images/nouns/1-basic/oceans_seas/1-basic_oceans_seas_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Oceans & Seas",
+    "is_verb": false,
+    "name": "Red Sea",
+    "phonetic": "",
+    "search_term": "noun/oceans-&-seas/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "Black Sea",
+    "translation": "Mar Negro",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "9",
+        "meaning": "A sea between Eastern Europe and Western Asia.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A sea between Eastern Europe and Western Asia.",
+        "usage_context_es": "Un mar entre Europa oriental y Asia occidental.",
+        "usage_example": "The Black Sea is connected to the Mediterranean.",
+        "usage_example_es": "El Mar Negro está conectado con el Mediterráneo.",
+        "imagePath": "/card_images/nouns/1-basic/oceans_seas/1-basic_oceans_seas_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Oceans & Seas",
+    "is_verb": false,
+    "name": "Black Sea",
+    "phonetic": "",
+    "search_term": "noun/oceans-&-seas/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "North Sea",
+    "translation": "Mar del Norte",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "9",
+        "meaning": "A sea between Great Britain and northern Europe.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A sea between Great Britain and northern Europe.",
+        "usage_context_es": "Un mar entre Gran Bretaña y el norte de Europa.",
+        "usage_example": "The North Sea is cold.",
+        "usage_example_es": "El Mar del Norte es frío.",
+        "imagePath": "/card_images/nouns/1-basic/oceans_seas/1-basic_oceans_seas_card_11_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Oceans & Seas",
+    "is_verb": false,
+    "name": "North Sea",
+    "phonetic": "",
+    "search_term": "noun/oceans-&-seas/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "Arabian Sea",
+    "translation": "Mar Arábigo",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "11",
+        "meaning": "A sea in the northwest Indian Ocean.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A sea in the northwest Indian Ocean.",
+        "usage_context_es": "Un mar en el noroeste del Océano Índico.",
+        "usage_example": "The Arabian Sea is part of the Indian Ocean.",
+        "usage_example_es": "El Mar Arábigo forma parte del Océano Índico.",
+        "imagePath": "/card_images/nouns/1-basic/oceans_seas/1-basic_oceans_seas_card_12_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Oceans & Seas",
+    "is_verb": false,
+    "name": "Arabian Sea",
+    "phonetic": "",
+    "search_term": "noun/oceans-&-seas/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "Baltic Sea",
+    "translation": "Mar Báltico",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "10",
+        "meaning": "A sea in Northern Europe.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A sea in Northern Europe.",
+        "usage_context_es": "Un mar del norte de Europa.",
+        "usage_example": "The Baltic Sea is in Europe.",
+        "usage_example_es": "El Mar Báltico está en Europa.",
+        "imagePath": "/card_images/nouns/1-basic/oceans_seas/1-basic_oceans_seas_card_13_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Oceans & Seas",
+    "is_verb": false,
+    "name": "Baltic Sea",
+    "phonetic": "",
+    "search_term": "noun/oceans-&-seas/seed",
+    "spoken_phonetic_us": ""
+  }
+]

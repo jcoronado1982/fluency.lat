@@ -1,0 +1,54 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_100_def0.avif",
+        "meaning": "Fin / Final",
+        "pronunciation_guide_es": "/dis_is_di_END_of_de_MUVI/",
+        "usage_context_en": "The final part of something",
+        "usage_context_es": "La parte final de algo",
+        "usage_example": "This is the end of the movie.",
+        "usage_example_es": "Este es el final de la película."
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "end",
+    "phonetic": "/ɛnd/",
+    "search_term": "noun/finish/essentials",
+    "spoken_phonetic_us": "/ɛnd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_101_def0.avif",
+        "meaning": "Inicio / Comienzo",
+        "pronunciation_guide_es": "/it_uas_a_GUD_START/",
+        "usage_context_en": "The beginning of something",
+        "usage_context_es": "El comienzo de algo",
+        "usage_example": "It was a good start.",
+        "usage_example_es": "Fue un buen comienzo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "start",
+    "phonetic": "/stɑːrt/",
+    "search_term": "noun/beginning/essentials",
+    "spoken_phonetic_us": "/stɑːrt/"
+  }
+]

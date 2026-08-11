@@ -1,0 +1,64 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Parte",
+        "pronunciation_guide_es": "/dis_is_de_BEST_PART_of_de_MUVI/",
+        "usage_context_en": "A piece of a whole",
+        "usage_context_es": "Un pedazo de un todo",
+        "usage_example": "This is the best part of the movie.",
+        "usage_example_es": "Esta es la mejor parte de la película.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_17_def0.avif"
+      },
+      {
+        "char_count": "4",
+        "meaning": "Papel o rol",
+        "pronunciation_guide_es": "/ji_PLEId_a_PART_in_de_MUVi/",
+        "usage_context_en": "A role in a play, movie, or situation.",
+        "usage_context_es": "Un papel en una obra, película o situación.",
+        "usage_example": "He played a part in the movie.",
+        "usage_example_es": "Él interpretó un papel en la película.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_17_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "part",
+    "phonetic": "/pɑːrt/",
+    "search_term": "noun/piece/essentials",
+    "spoken_phonetic_us": "/pɑːrt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Equipo",
+        "pronunciation_guide_es": "/ui_ar_a_GUD_TIM/",
+        "usage_context_en": "A group of people working or playing together",
+        "usage_context_es": "Un grupo de personas que trabajan o juegan juntas",
+        "usage_example": "We are a good team.",
+        "usage_example_es": "Somos un buen equipo.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_222_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "People",
+    "is_verb": false,
+    "name": "team",
+    "phonetic": "/tiːm/",
+    "search_term": "noun/group/work/essentials",
+    "spoken_phonetic_us": "/tiːm/"
+  }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "this",
+        "phonetic": "/ðɪs/",
+        "spoken_phonetic_us": "/ðɪs/",
+        "search_term": "pronoun/demonstrative",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Demostrativo",
+        "definitions": [
+            {
+                "meaning": "Este / Esta / Esto",
+                "usage_example": "This is my favorite book.",
+                "pronunciation_guide_es": "/dis_is_mai_FEI-vrit_buk/",
+                "usage_example_es": "Este es mi libro favorito.",
+                "char_count": "4",
+                "usage_context_en": "Used as a pronoun for a singular item near the speaker.",
+                "usage_context_es": "Usado como pronombre para un objeto singular cerca del hablante.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_23_def0.avif"
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "that",
+        "phonetic": "/ðæt/",
+        "spoken_phonetic_us": "/ðæt/",
+        "search_term": "pronoun/demonstrative",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Demostrativo",
+        "definitions": [
+            {
+                "meaning": "Ese / Esa / Aquel / Aquella",
+                "usage_example": "That is my car.",
+                "pronunciation_guide_es": "/dat_is_mai_KAR/",
+                "usage_example_es": "Ese es mi carro.",
+                "char_count": "4",
+                "usage_context_en": "Used as a pronoun for a singular item that is far from the speaker.",
+                "usage_context_es": "Usado como pronombre para un objeto singular que está lejos del hablante.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_24_def0.avif"
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "these",
+        "phonetic": "/ðiːz/",
+        "spoken_phonetic_us": "/ðiːz/",
+        "search_term": "pronoun/demonstrative",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Demostrativo",
+        "definitions": [
+            {
+                "meaning": "Estos / Estas",
+                "usage_example": "These are my keys.",
+                "pronunciation_guide_es": "/dis_ar_MAI_KIS/",
+                "usage_example_es": "Estas son mis llaves.",
+                "char_count": "4",
+                "usage_context_en": "Used as a pronoun for plural items near the speaker.",
+                "usage_context_es": "Usado como pronombre para objetos plurales cerca del hablante.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_25_def0.avif"
+            }
+        ],
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "those",
+        "phonetic": "/ðoʊz/",
+        "spoken_phonetic_us": "/ðoʊz/",
+        "search_term": "pronoun/demonstrative",
+        "is_verb": false,
+        "force_generation": false,
+        "group_name": "Demostrativo",
+        "definitions": [
+            {
+                "meaning": "Esos / Esas / Aquellos / Aquellas",
+                "usage_example": "Those are my keys.",
+                "pronunciation_guide_es": "/dous_ar_MAI_KIS/",
+                "usage_example_es": "Esas son mis llaves.",
+                "char_count": "4",
+                "usage_context_en": "Used as a pronoun for plural items far from the speaker.",
+                "usage_context_es": "Usado como pronombre para objetos plurales lejos del hablante.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_26_def0.avif"
+            }
+        ],
+        "category": "Basic"
+    }
+]

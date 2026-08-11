@@ -1,0 +1,1239 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: do]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/action/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "do",
+                "usage_example": "[TRADUCIR AL FR: I do my exercises in the morning.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I do my exercises in the morning.",
+                "char_count": "one",
+                "usage_context_en": "tasks/activities",
+                "usage_context_es": "[TRADUCIR AL FR: tasks/activities]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_do_def0.avif"
+            },
+            {
+                "meaning": "do (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Do you like coffee?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Do you like coffee?",
+                "char_count": "one",
+                "usage_context_en": "questions/negations",
+                "usage_context_es": "[TRADUCIR AL FR: questions/negations]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_do_def1.avif"
+            }
+        ],
+        "group_name": "Handling & Creating",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: make]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/create/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "make",
+                "usage_example": "[TRADUCIR AL FR: Can you make a cake for the party?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Can you make a cake for the party?",
+                "char_count": "one",
+                "usage_context_en": "cooking/creating",
+                "usage_context_es": "[TRADUCIR AL FR: cooking/creating]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_make_def0.avif"
+            },
+            {
+                "meaning": "make (def 2)",
+                "usage_example": "[TRADUCIR AL FR: The movie made me cry.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The movie made me cry.",
+                "char_count": "one",
+                "usage_context_en": "emotions/assurance",
+                "usage_context_es": "[TRADUCIR AL FR: emotions/assurance]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_make_def1.avif"
+            }
+        ],
+        "group_name": "Handling & Creating",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: eat]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/consume food/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "eat",
+                "usage_example": "[TRADUCIR AL FR: What do you want to eat for dinner?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "What do you want to eat for dinner?",
+                "char_count": "one",
+                "usage_context_en": "food/meals",
+                "usage_context_es": "[TRADUCIR AL FR: food/meals]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "eat (def 2)",
+                "usage_example": "[TRADUCIR AL FR: The acid eats away at the metal.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The acid eats away at the metal.",
+                "char_count": "one",
+                "usage_context_en": "chemical/idiom",
+                "usage_context_es": "[TRADUCIR AL FR: chemical/idiom]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Daily Routine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: drink]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/consume liquid/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "drink",
+                "usage_example": "[TRADUCIR AL FR: It's important to drink water.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "It's important to drink water.",
+                "char_count": "one",
+                "usage_context_en": "liquid/health",
+                "usage_context_es": "[TRADUCIR AL FR: liquid/health]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "drink (def 2)",
+                "usage_example": "[TRADUCIR AL FR: He doesn't drink alcohol.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He doesn't drink alcohol.",
+                "char_count": "one",
+                "usage_context_en": "alcohol/celebration",
+                "usage_context_es": "[TRADUCIR AL FR: alcohol/celebration]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Daily Routine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: sleep]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/rest/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "sleep",
+                "usage_example": "[TRADUCIR AL FR: I need to sleep for eight hours.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I need to sleep for eight hours.",
+                "char_count": "one",
+                "usage_context_en": "rest/health",
+                "usage_context_es": "[TRADUCIR AL FR: rest/health]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "sleep (def 2)",
+                "usage_example": "[TRADUCIR AL FR: This tent sleeps four people.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "This tent sleeps four people.",
+                "char_count": "one",
+                "usage_context_en": "accommodation/capacity",
+                "usage_context_es": "[TRADUCIR AL FR: accommodation/capacity]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Daily Routine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: use]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/utility/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "use",
+                "usage_example": "[TRADUCIR AL FR: Can I use your pen?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Can I use your pen?",
+                "char_count": "one",
+                "usage_context_en": "tools/objects",
+                "usage_context_es": "[TRADUCIR AL FR: tools/objects]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_13_def0.avif"
+            },
+            {
+                "meaning": "use (def 2)",
+                "usage_example": "[TRADUCIR AL FR: She uses a lot of sugar.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She uses a lot of sugar.",
+                "char_count": "one",
+                "usage_context_en": "consumption/application",
+                "usage_context_es": "[TRADUCIR AL FR: consumption/application]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_13_def1.avif"
+            }
+        ],
+        "group_name": "Handling & Creating",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: work]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/employment/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "work",
+                "usage_example": "[TRADUCIR AL FR: I work in an office.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I work in an office.",
+                "char_count": "one",
+                "usage_context_en": "job/effort",
+                "usage_context_es": "[TRADUCIR AL FR: job/effort]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_19_def0.avif"
+            },
+            {
+                "meaning": "work (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Does the machine work?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Does the machine work?",
+                "char_count": "one",
+                "usage_context_en": "function/success",
+                "usage_context_es": "[TRADUCIR AL FR: function/success]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_19_def1.avif"
+            }
+        ],
+        "group_name": "Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: try]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/attempt/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "try",
+                "usage_example": "[TRADUCIR AL FR: I will try to finish the job.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I will try to finish the job.",
+                "char_count": "one",
+                "usage_context_en": "effort/attempt",
+                "usage_context_es": "[TRADUCIR AL FR: effort/attempt]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_24_def0.avif"
+            },
+            {
+                "meaning": "try (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Try this new cake.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Try this new cake.",
+                "char_count": "one",
+                "usage_context_en": "food/clothing",
+                "usage_context_es": "[TRADUCIR AL FR: food/clothing]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_24_def1.avif"
+            }
+        ],
+        "group_name": "Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: start]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/begin/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "start",
+                "usage_example": "[TRADUCIR AL FR: Let's start the game now.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Let's start the game now.",
+                "char_count": "one",
+                "usage_context_en": "activities/time",
+                "usage_context_es": "[TRADUCIR AL FR: activities/time]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_31_def0.avif"
+            },
+            {
+                "meaning": "start (def 2)",
+                "usage_example": "[TRADUCIR AL FR: I can't start the car.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I can't start the car.",
+                "char_count": "one",
+                "usage_context_en": "vehicles/machines",
+                "usage_context_es": "[TRADUCIR AL FR: vehicles/machines]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_31_def1.avif"
+            }
+        ],
+        "group_name": "Change & Result",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: begin]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/start/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "begin",
+                "usage_example": "[TRADUCIR AL FR: The movie begins at 8 PM.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The movie begins at 8 PM.",
+                "char_count": "two",
+                "usage_context_en": "time/events",
+                "usage_context_es": "[TRADUCIR AL FR: time/events]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_27_def0.avif"
+            },
+            {
+                "meaning": "begin (def 2)",
+                "usage_example": "[TRADUCIR AL FR: He began to run quickly.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He began to run quickly.",
+                "char_count": "two",
+                "usage_context_en": "action/process",
+                "usage_context_es": "[TRADUCIR AL FR: action/process]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_27_def1.avif"
+            }
+        ],
+        "group_name": "Change & Result",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: stop]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/cease/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "stop",
+                "usage_example": "[TRADUCIR AL FR: Stop the car!]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Stop the car!",
+                "char_count": "one",
+                "usage_context_en": "movement/cessation",
+                "usage_context_es": "[TRADUCIR AL FR: movement/cessation]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_57_def0.avif"
+            },
+            {
+                "meaning": "stop (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Stop talking, please.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Stop talking, please.",
+                "char_count": "one",
+                "usage_context_en": "activities/habits",
+                "usage_context_es": "[TRADUCIR AL FR: activities/habits]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_57_def1.avif"
+            }
+        ],
+        "group_name": "Action & Movement",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: put]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "put",
+                "usage_example": "[TRADUCIR AL FR: Put the plate on the table.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Put the plate on the table.",
+                "char_count": "one",
+                "usage_context_en": "placement/clothing",
+                "usage_context_es": "[TRADUCIR AL FR: placement/clothing]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_17_def0.avif"
+            },
+            {
+                "meaning": "put (def 2)",
+                "usage_example": "[TRADUCIR AL FR: How can I put this simply?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "How can I put this simply?",
+                "char_count": "one",
+                "usage_context_en": "expression/communication",
+                "usage_context_es": "[TRADUCIR AL FR: expression/communication]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_17_def1.avif"
+            }
+        ],
+        "group_name": "Handling & Creating",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: play]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/game/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "play",
+                "usage_example": "[TRADUCIR AL FR: Children play in the garden.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Children play in the garden.",
+                "char_count": "one",
+                "usage_context_en": "games/sports",
+                "usage_context_es": "[TRADUCIR AL FR: games/sports]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_34_def0.avif"
+            },
+            {
+                "meaning": "play (def 2)",
+                "usage_example": "[TRADUCIR AL FR: He can play the guitar.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He can play the guitar.",
+                "char_count": "one",
+                "usage_context_en": "music/instruments",
+                "usage_context_es": "[TRADUCIR AL FR: music/instruments]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_34_def1.avif"
+            }
+        ],
+        "group_name": "Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: wait]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/delay/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "wait",
+                "usage_example": "[TRADUCIR AL FR: Wait for me here.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Wait for me here.",
+                "char_count": "one",
+                "usage_context_en": "delay/patience",
+                "usage_context_es": "[TRADUCIR AL FR: delay/patience]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "wait (def 2)",
+                "usage_example": "[TRADUCIR AL FR: We are waiting for the results.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "We are waiting for the results.",
+                "char_count": "one",
+                "usage_context_en": "results/readiness",
+                "usage_context_es": "[TRADUCIR AL FR: results/readiness]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: let]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/allow/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "let",
+                "usage_example": "[TRADUCIR AL FR: Let me help you.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Let me help you.",
+                "char_count": "one",
+                "usage_context_en": "permission/assistance",
+                "usage_context_es": "[TRADUCIR AL FR: permission/assistance]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_26_def0.avif"
+            },
+            {
+                "meaning": "let (def 2)",
+                "usage_example": "[TRADUCIR AL FR: We let our house last year.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "We let our house last year.",
+                "char_count": "one",
+                "usage_context_en": "renting/property",
+                "usage_context_es": "[TRADUCIR AL FR: renting/property]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_26_def1.avif"
+            }
+        ],
+        "group_name": "Handling & Creating",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: change]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/modify/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "change",
+                "usage_example": "[TRADUCIR AL FR: She wants to change her job.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She wants to change her job.",
+                "char_count": "one",
+                "usage_context_en": "work/condition",
+                "usage_context_es": "[TRADUCIR AL FR: work/condition]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_59_def0.avif"
+            },
+            {
+                "meaning": "change (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Can you change this dollar bill?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Can you change this dollar bill?",
+                "char_count": "one",
+                "usage_context_en": "money/transport",
+                "usage_context_es": "[TRADUCIR AL FR: money/transport]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_59_def1.avif"
+            }
+        ],
+        "group_name": "Change & Result",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: pull]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/drag/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "pull",
+                "usage_example": "[TRADUCIR AL FR: Pull the door, don't push it.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Pull the door, don't push it.",
+                "char_count": "one",
+                "usage_context_en": "doors/force",
+                "usage_context_es": "[TRADUCIR AL FR: doors/force]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_68_def0.avif"
+            },
+            {
+                "meaning": "pull (def 2)",
+                "usage_example": "[TRADUCIR AL FR: The dentist had to pull a tooth.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The dentist had to pull a tooth.",
+                "char_count": "one",
+                "usage_context_en": "extraction/rescue",
+                "usage_context_es": "[TRADUCIR AL FR: extraction/rescue]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_68_def1.avif"
+            }
+        ],
+        "group_name": "Action & Movement",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: push]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/shove/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "push",
+                "usage_example": "[TRADUCIR AL FR: Don't push me!]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Don't push me!",
+                "char_count": "one",
+                "usage_context_en": "force/buttons",
+                "usage_context_es": "[TRADUCIR AL FR: force/buttons]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_69_def0.avif"
+            },
+            {
+                "meaning": "push (def 2)",
+                "usage_example": "[TRADUCIR AL FR: She pushes herself to work harder.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She pushes herself to work harder.",
+                "char_count": "one",
+                "usage_context_en": "motivation/wind",
+                "usage_context_es": "[TRADUCIR AL FR: motivation/wind]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_69_def1.avif"
+            }
+        ],
+        "group_name": "Action & Movement",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: cut]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/separate/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "cut",
+                "usage_example": "[TRADUCIR AL FR: Cut the paper in half.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Cut the paper in half.",
+                "char_count": "one",
+                "usage_context_en": "scissors/injuries",
+                "usage_context_es": "[TRADUCIR AL FR: scissors/injuries]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_65_def0.avif"
+            },
+            {
+                "meaning": "cut (def 2)",
+                "usage_example": "[TRADUCIR AL FR: You need to cut down on sugar.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "You need to cut down on sugar.",
+                "char_count": "one",
+                "usage_context_en": "diet/editing",
+                "usage_context_es": "[TRADUCIR AL FR: diet/editing]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_65_def1.avif"
+            }
+        ],
+        "group_name": "Handling & Creating",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: close]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/close/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "close",
+                "usage_example": "[TRADUCIR AL FR: Close the window.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Close the window.",
+                "char_count": "one",
+                "usage_context_en": "doors/windows",
+                "usage_context_es": "[TRADUCIR AL FR: doors/windows]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_76_def0.avif"
+            },
+            {
+                "meaning": "close (def 2)",
+                "usage_example": "[TRADUCIR AL FR: The bank closes at five.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The bank closes at five.",
+                "char_count": "one",
+                "usage_context_en": "business/schedules",
+                "usage_context_es": "[TRADUCIR AL FR: business/schedules]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_76_def1.avif"
+            }
+        ],
+        "group_name": "Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: pick]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/pick/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "pick",
+                "usage_example": "[TRADUCIR AL FR: Pick one.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Pick one.",
+                "char_count": "one",
+                "usage_context_en": "choices/options",
+                "usage_context_es": "[TRADUCIR AL FR: choices/options]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_77_def0.avif"
+            },
+            {
+                "meaning": "pick (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Pick up the toy.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Pick up the toy.",
+                "char_count": "one",
+                "usage_context_en": "objects/actions",
+                "usage_context_es": "[TRADUCIR AL FR: objects/actions]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_77_def1.avif"
+            }
+        ],
+        "group_name": "Choice & Handling",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: place]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "place",
+                "usage_example": "[TRADUCIR AL FR: Place it here.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Place it here.",
+                "char_count": "one",
+                "usage_context_en": "objects/position",
+                "usage_context_es": "[TRADUCIR AL FR: objects/position]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_78_def0.avif"
+            },
+            {
+                "meaning": "place (def 2)",
+                "usage_example": "[TRADUCIR AL FR: They placed her in front.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "They placed her in front.",
+                "char_count": "one",
+                "usage_context_en": "position/order",
+                "usage_context_es": "[TRADUCIR AL FR: position/order]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_78_def1.avif"
+            }
+        ],
+        "group_name": "Choice & Handling",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: bring]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/carry/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "bring",
+                "usage_example": "[TRADUCIR AL FR: Please bring me a cup of tea.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Please bring me a cup of tea.",
+                "char_count": "one",
+                "usage_context_en": "delivery/transport",
+                "usage_context_es": "[TRADUCIR AL FR: delivery/transport]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_41_def0.avif"
+            },
+            {
+                "meaning": "bring (def 2)",
+                "usage_example": "[TRADUCIR AL FR: The good news brought a smile to her face.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The good news brought a smile to her face.",
+                "char_count": "one",
+                "usage_context_en": "cause/result",
+                "usage_context_es": "[TRADUCIR AL FR: cause/result]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_41_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: finish]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/finish/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "finish",
+                "usage_example": "[TRADUCIR AL FR: Finish your food.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Finish your food.",
+                "char_count": "one",
+                "usage_context_en": "tasks/meals",
+                "usage_context_es": "[TRADUCIR AL FR: tasks/meals]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_83_def0.avif"
+            },
+            {
+                "meaning": "finish (def 2)",
+                "usage_example": "[TRADUCIR AL FR: The race finishes soon.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The race finishes soon.",
+                "char_count": "one",
+                "usage_context_en": "time/events",
+                "usage_context_es": "[TRADUCIR AL FR: time/events]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_83_def1.avif"
+            }
+        ],
+        "group_name": "Time & Process",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: end]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/end/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "end",
+                "usage_example": "[TRADUCIR AL FR: End it now.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "End it now.",
+                "char_count": "one",
+                "usage_context_en": "events/actions",
+                "usage_context_es": "[TRADUCIR AL FR: events/actions]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_87_def0.avif"
+            },
+            {
+                "meaning": "end (def 2)",
+                "usage_example": "[TRADUCIR AL FR: The game ends here.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The game ends here.",
+                "char_count": "one",
+                "usage_context_en": "places/processes",
+                "usage_context_es": "[TRADUCIR AL FR: places/processes]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_87_def1.avif"
+            }
+        ],
+        "group_name": "Time & Process",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: teach]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/teach/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "teach",
+                "usage_example": "[TRADUCIR AL FR: Please teach me.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Please teach me.",
+                "char_count": "one",
+                "usage_context_en": "school/learning",
+                "usage_context_es": "[TRADUCIR AL FR: school/learning]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_80_def0.avif"
+            },
+            {
+                "meaning": "teach (def 2)",
+                "usage_example": "[TRADUCIR AL FR: This game teaches patience.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "This game teaches patience.",
+                "char_count": "one",
+                "usage_context_en": "life/experience",
+                "usage_context_es": "[TRADUCIR AL FR: life/experience]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_80_def1.avif"
+            }
+        ],
+        "group_name": "Learning & School",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: study]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/study/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "study",
+                "usage_example": "[TRADUCIR AL FR: I study English.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I study English.",
+                "char_count": "one",
+                "usage_context_en": "school/languages",
+                "usage_context_es": "[TRADUCIR AL FR: school/languages]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_79_def0.avif"
+            },
+            {
+                "meaning": "study (def 2)",
+                "usage_example": "[TRADUCIR AL FR: He studied the map.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He studied the map.",
+                "char_count": "one",
+                "usage_context_en": "analysis/observation",
+                "usage_context_es": "[TRADUCIR AL FR: analysis/observation]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_79_def1.avif"
+            }
+        ],
+        "group_name": "Learning & School",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: pause]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/pause/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "pause",
+                "usage_example": "[TRADUCIR AL FR: Pause the video.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Pause the video.",
+                "char_count": "one",
+                "usage_context_en": "videos/music",
+                "usage_context_es": "[TRADUCIR AL FR: videos/music]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_86_def0.avif"
+            },
+            {
+                "meaning": "pause (def 2)",
+                "usage_example": "[TRADUCIR AL FR: He paused for a second.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He paused for a second.",
+                "char_count": "one",
+                "usage_context_en": "speech/thought",
+                "usage_context_es": "[TRADUCIR AL FR: speech/thought]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_86_def1.avif"
+            }
+        ],
+        "group_name": "Time & Process",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: win]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/succeed/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "win",
+                "usage_example": "[TRADUCIR AL FR: Who will win the race?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Who will win the race?",
+                "char_count": "one",
+                "usage_context_en": "competition/luck",
+                "usage_context_es": "[TRADUCIR AL FR: competition/luck]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_60_def0.avif"
+            },
+            {
+                "meaning": "win (def 2)",
+                "usage_example": "[TRADUCIR AL FR: They won independence.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "They won independence.",
+                "char_count": "one",
+                "usage_context_en": "achievement/trust",
+                "usage_context_es": "[TRADUCIR AL FR: achievement/trust]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_60_def1.avif"
+            }
+        ],
+        "group_name": "Change & Result",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: lose]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/misplace/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "lose",
+                "usage_example": "[TRADUCIR AL FR: Be careful not to lose your wallet.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Be careful not to lose your wallet.",
+                "char_count": "one",
+                "usage_context_en": "misplacement/objects",
+                "usage_context_es": "[TRADUCIR AL FR: misplacement/objects]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_61_def0.avif"
+            },
+            {
+                "meaning": "lose (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Our team lost the game.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Our team lost the game.",
+                "char_count": "one",
+                "usage_context_en": "competition/hope",
+                "usage_context_es": "[TRADUCIR AL FR: competition/hope]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_61_def1.avif"
+            }
+        ],
+        "group_name": "Change & Result",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: die]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/cease life/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "die",
+                "usage_example": "[TRADUCIR AL FR: He died peacefully in his sleep.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He died peacefully in his sleep.",
+                "char_count": "one",
+                "usage_context_en": "life/nature",
+                "usage_context_es": "[TRADUCIR AL FR: life/nature]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_62_def0.avif"
+            },
+            {
+                "meaning": "die (def 2)",
+                "usage_example": "[TRADUCIR AL FR: The fire died down slowly.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The fire died down slowly.",
+                "char_count": "one",
+                "usage_context_en": "fire/desire",
+                "usage_context_es": "[TRADUCIR AL FR: fire/desire]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_62_def1.avif"
+            }
+        ],
+        "group_name": "Change & Result",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: hit]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/action/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "hit",
+                "usage_example": "[TRADUCIR AL FR: Be careful, don't hit your head.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Be careful, don't hit your head.",
+                "char_count": "one",
+                "usage_context_en": "To strike or touch something with force",
+                "usage_context_es": "[TRADUCIR AL FR: To strike or touch something with force]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Action & Movement",
+        "category": ""
+    }
+]

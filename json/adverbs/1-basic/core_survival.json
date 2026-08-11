@@ -1,0 +1,107 @@
+[
+  {
+    "name": "yes",
+    "phonetic": "/jɛs/",
+    "spoken_phonetic_us": "/jɛs/",
+    "search_term": "survival/response",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Survival: Street Basics",
+    "definitions": [
+      {
+        "meaning": "Sí",
+        "usage_example": "Yes, I need help.",
+        "pronunciation_guide_es": "/IES_ai_NID_HELP/",
+        "usage_example_es": "Sí, necesito ayuda.",
+        "char_count": "4",
+        "usage_context_en": "Used to answer affirmatively.",
+        "usage_context_es": "Usado para responder afirmativamente."
+      }
+    ]
+  },
+  {
+    "name": "no",
+    "phonetic": "/noʊ/",
+    "spoken_phonetic_us": "/noʊ/",
+    "search_term": "survival/response",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Survival: Street Basics",
+    "definitions": [
+      {
+        "meaning": "No",
+        "usage_example": "No, I don't understand.",
+        "pronunciation_guide_es": "/NOU_ai_DONT_on-der-STAND/",
+        "usage_example_es": "No, no entiendo.",
+        "char_count": "4",
+        "usage_context_en": "Used to answer negatively or refuse something.",
+        "usage_context_es": "Usado para responder negativamente o rechazar algo."
+      }
+    ]
+  },
+  {
+    "name": "not",
+    "phonetic": "/nɑt/",
+    "spoken_phonetic_us": "/nɑt/",
+    "search_term": "survival/negation",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Survival: Street Basics",
+    "definitions": [
+      {
+        "meaning": "No",
+        "usage_example": "I am not okay.",
+        "pronunciation_guide_es": "/ai_am_NOT_ou-KEI/",
+        "usage_example_es": "No estoy bien.",
+        "char_count": "4",
+        "usage_context_en": "Used to make a sentence negative.",
+        "usage_context_es": "Usado para hacer negativa una oración."
+      }
+    ]
+  },
+  {
+    "name": "please",
+    "phonetic": "/pliz/",
+    "spoken_phonetic_us": "/pliz/",
+    "search_term": "survival/polite-expression",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Survival: Street Basics",
+    "definitions": [
+      {
+        "meaning": "Por favor",
+        "usage_example": "Help me, please.",
+        "pronunciation_guide_es": "/HELP_mi_PLIS/",
+        "usage_example_es": "Ayúdeme, por favor.",
+        "char_count": "3",
+        "usage_context_en": "Used to make requests polite.",
+        "usage_context_es": "Usado para hacer solicitudes de forma educada."
+      }
+    ]
+  },
+  {
+    "name": "maybe",
+    "phonetic": "/ˈmeɪbi/",
+    "spoken_phonetic_us": "/ˈmeɪbi/",
+    "search_term": "survival/certainty",
+    "is_verb": false,
+    "learned": false,
+    "force_generation": false,
+    "group_name": "Survival: Street Basics",
+    "definitions": [
+      {
+        "meaning": "Tal vez / Quizás",
+        "usage_example": "Maybe we can ask for help.",
+        "pronunciation_guide_es": "/MEI-bi_ui_can_ASK_for_HELP/",
+        "usage_example_es": "Tal vez podamos pedir ayuda.",
+        "char_count": "6",
+        "usage_context_en": "Used when something is possible but not certain.",
+        "usage_context_es": "Usado cuando algo es posible pero no seguro."
+      }
+    ]
+  }
+]

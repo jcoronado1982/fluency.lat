@@ -1,0 +1,375 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "a",
+    "phonetic": "/eɪ/",
+    "spoken_phonetic_us": "/ə/",
+    "search_term": "determiner/article",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Articles",
+    "definitions": [
+      {
+        "meaning": "Un / Una",
+        "usage_example": "I need a pen.",
+        "pronunciation_guide_es": "/ai_NID_a_PEN/",
+        "usage_example_es": "Necesito un bolígrafo.",
+        "char_count": "4",
+        "usage_context_en": "Used before a singular countable noun that begins with a consonant sound.",
+        "usage_context_es": "Usado antes de un sustantivo contable singular que empieza con sonido de consonante.",
+        "imagePath": "/card_images/determinant/1-basic/1-basic_card_0_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "an",
+    "phonetic": "/æn/",
+    "spoken_phonetic_us": "/ən/",
+    "search_term": "determiner/article",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Articles",
+    "definitions": [
+      {
+        "meaning": "Un / Una",
+        "usage_example": "I want an apple.",
+        "pronunciation_guide_es": "/ai_UANT_an_A-pol/",
+        "usage_example_es": "Quiero una manzana.",
+        "char_count": "4",
+        "usage_context_en": "Used before a singular countable noun that begins with a vowel sound.",
+        "usage_context_es": "Usado antes de un sustantivo contable singular que empieza con sonido de vocal.",
+        "imagePath": "/card_images/determinant/1-basic/1-basic_card_1_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "the",
+    "phonetic": "/ðə/",
+    "spoken_phonetic_us": "/ði/",
+    "search_term": "determiner/article",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Articles",
+    "definitions": [
+      {
+        "meaning": "El / La / Los / Las",
+        "usage_example": "The car is red. The apples are green.",
+        "pronunciation_guide_es": "/de_CAR_is_RED_de_A-pols_ar_GRIN/",
+        "usage_example_es": "El carro es rojo. Las manzanas son verdes.",
+        "char_count": "7",
+        "usage_context_en": "Used to refer to a specific, known noun (singular or plural).",
+        "usage_context_es": "Usado para referirse a un sustantivo específico y conocido (singular o plural).",
+        "imagePath": "/card_images/determinant/1-basic/1-basic_card_2_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "this",
+    "phonetic": "/ðɪs/",
+    "spoken_phonetic_us": "/ðɪs/",
+    "search_term": "determiner/demonstrative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Demonstratives",
+    "definitions": [
+      {
+        "meaning": "Este / Esta",
+        "usage_example": "I like this book.",
+        "pronunciation_guide_es": "/ai_LAIK_dis_BUK/",
+        "usage_example_es": "Me gusta este libro.",
+        "char_count": "4",
+        "usage_context_en": "Used for a singular item that is near the speaker.",
+        "usage_context_es": "Usado para un objeto singular que está cerca del hablante.",
+        "imagePath": "/card_images/determinant/1-basic/1-basic_card_3_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "that",
+    "phonetic": "/ðæt/",
+    "spoken_phonetic_us": "/ðæt/",
+    "search_term": "determiner/demonstrative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Demonstratives",
+    "definitions": [
+      {
+        "meaning": "Ese / Esa / Aquel / Aquella",
+        "usage_example": "I want that book.",
+        "pronunciation_guide_es": "/ai_UANT_dat_BUK/",
+        "usage_example_es": "Quiero ese libro.",
+        "char_count": "4",
+        "usage_context_en": "Used for a singular item that is far from the speaker.",
+        "usage_context_es": "Usado para un objeto singular que está lejos del hablante.",
+        "imagePath": "/card_images/determinant/1-basic/1-basic_card_4_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "these",
+    "phonetic": "/ðiːz/",
+    "spoken_phonetic_us": "/ðiːz/",
+    "search_term": "determiner/demonstrative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Demonstratives",
+    "definitions": [
+      {
+        "meaning": "Estos / Estas",
+        "usage_example": "I like these shoes.",
+        "pronunciation_guide_es": "/ai_LAIK_dis_SHUS/",
+        "usage_example_es": "Me gustan estos zapatos.",
+        "char_count": "4",
+        "usage_context_en": "Used for plural items that are near the speaker.",
+        "usage_context_es": "Usado para objetos plurales que están cerca del hablante.",
+        "imagePath": "/card_images/determinant/1-basic/1-basic_card_5_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "those",
+    "phonetic": "/ðoʊz/",
+    "spoken_phonetic_us": "/ðoʊz/",
+    "search_term": "determiner/demonstrative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Demonstratives",
+    "definitions": [
+      {
+        "meaning": "Esos / Esas / Aquellos / Aquellas",
+        "usage_example": "I want those shoes.",
+        "pronunciation_guide_es": "/ai_UANT_dous_SHUS/",
+        "usage_example_es": "Quiero esos zapatos.",
+        "char_count": "4",
+        "usage_context_en": "Used for plural items that are far from the speaker.",
+        "usage_context_es": "Usado para objetos plurales que están lejos del hablante.",
+        "imagePath": "/card_images/determinant/1-basic/1-basic_card_6_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "same",
+    "phonetic": "/seɪm/",
+    "spoken_phonetic_us": "/seɪm/",
+    "search_term": "determiner/demonstrative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Other",
+    "definitions": [
+      {
+        "meaning": "Mismo/a / Mismos/as",
+        "usage_example": "We have the same car.",
+        "pronunciation_guide_es": "/ui_HAV_de_SEIM_CAR/",
+        "usage_example_es": "Tenemos el mismo carro.",
+        "char_count": "5",
+        "usage_context_en": "Used to identify something as being identical; not different.",
+        "usage_context_es": "Usado para identificar algo como idéntico; no diferente."
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "both",
+    "phonetic": "/boʊθ/",
+    "spoken_phonetic_us": "/boʊθ/",
+    "search_term": "determiner/distributive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Distributives",
+    "definitions": [
+      {
+        "meaning": "Ambos/as / Los/Las dos",
+        "usage_example": "Both my parents are doctors.",
+        "pronunciation_guide_es": "/BOUZ_mai_PA-rents_ar_DOK-tors/",
+        "usage_example_es": "Ambos de mis padres son doctores.",
+        "char_count": "5",
+        "usage_context_en": "Used to refer to two people or things together.",
+        "usage_context_es": "Usado para referirse a dos personas o cosas juntas."
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "each",
+    "phonetic": "/iːtʃ/",
+    "spoken_phonetic_us": "/iːtʃ/",
+    "search_term": "determiner/distributive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Distributives",
+    "definitions": [
+      {
+        "meaning": "Cada",
+        "usage_example": "Each student received a book.",
+        "pronunciation_guide_es": "/ICH_STU-dent_ri-SIVD_a_BUK/",
+        "usage_example_es": "Cada estudiante recibió un libro.",
+        "char_count": "5",
+        "usage_context_en": "Used to refer to every individual member of a group (separately).",
+        "usage_context_es": "Usado para referirse a cada miembro individual de un grupo (por separado).",
+        "imagePath": "/card_images/determinant/1-basic/1-basic_card_17_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "every",
+    "phonetic": "/ˈɛvri/",
+    "spoken_phonetic_us": "/ˈɛvri/",
+    "search_term": "determiner/distributive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Distributives",
+    "definitions": [
+      {
+        "meaning": "Cada / Todos los/as",
+        "usage_example": "I work every day.",
+        "pronunciation_guide_es": "/ai_UORK_E-vri_DEI/",
+        "usage_example_es": "Trabajo todos los días (cada día).",
+        "char_count": "4",
+        "usage_context_en": "Used to refer to all members of a group collectively.",
+        "usage_context_es": "Usado para referirse a todos los miembros de un grupo colectivamente.",
+        "imagePath": "/card_images/determinant/1-basic/1-basic_card_18_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "what",
+    "phonetic": "/wʌt/",
+    "spoken_phonetic_us": "/wʌt/",
+    "search_term": "determiner/interrogative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Questions",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Qué / Cuál",
+        "usage_example": "What bus do I take?",
+        "pronunciation_guide_es": "/UAT_bos_du_ai_TEIK/",
+        "usage_example_es": "¿Qué bus tomo?",
+        "char_count": "5",
+        "usage_context_en": "Used before a noun to ask for specific information.",
+        "usage_context_es": "Usado antes de un sustantivo para pedir información específica."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "which",
+    "phonetic": "/wɪtʃ/",
+    "spoken_phonetic_us": "/wɪtʃ/",
+    "search_term": "determiner/interrogative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Questions",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Cuál / Cuáles",
+        "usage_example": "Which street is this?",
+        "pronunciation_guide_es": "/UICH_STRIT_is_dis/",
+        "usage_example_es": "¿Cuál calle es esta?",
+        "char_count": "4",
+        "usage_context_en": "Used before a noun to ask someone to choose from a known set.",
+        "usage_context_es": "Usado antes de un sustantivo para elegir entre opciones conocidas."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "different",
+    "phonetic": "/ˈdɪfərənt/",
+    "spoken_phonetic_us": "/ˈdɪfərənt/",
+    "search_term": "adjective/describing",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Other",
+    "definitions": [
+      {
+        "meaning": "Diferente / Distinto/a",
+        "usage_example": "I have a different opinion.",
+        "pronunciation_guide_es": "/ai_HAV_a_DI-fe-rent_o-PI-nion/",
+        "usage_example_es": "Tengo una opinión diferente.",
+        "char_count": "5",
+        "usage_context_en": "Not the same as another or each other.",
+        "usage_context_es": "No igual a otro o entre sí."
+      }
+    ],
+    "category": "Basic"
+  }
+]

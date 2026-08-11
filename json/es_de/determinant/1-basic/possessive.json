@@ -1,0 +1,191 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "mein",
+    "phonetic": "/maɪn/",
+    "spoken_phonetic_us": "/maɪn/",
+    "search_term": "determiner/possessive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Possessives",
+    "definitions": [
+      {
+        "meaning": "Mi / Mis",
+        "usage_example": "Das ist mein Haus.",
+        "pronunciation_guide_es": "/das_ist_MAIN_HAUS/",
+        "usage_example_es": "Esta es mi casa.",
+        "char_count": "4",
+        "usage_context_en": "Belonging to me (the speaker).",
+        "usage_context_es": "Perteneciente a mí (el hablante).",
+        "imagePath": "/card_images/determinant/1-basic/possessive/1-basic_possessive_card_0_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "dein",
+    "phonetic": "/daɪn/",
+    "spoken_phonetic_us": "/daɪn/",
+    "search_term": "determiner/possessive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Possessives",
+    "definitions": [
+      {
+        "meaning": "Tu / Tus (informal) / Su / Sus (de usted)",
+        "usage_example": "Ist das dein Schlüssel?",
+        "pronunciation_guide_es": "/ist_das_DAIN_SHLUE-sel/",
+        "usage_example_es": "¿Es esta tu llave?",
+        "char_count": "4",
+        "usage_context_en": "Belonging to you (the listener).",
+        "usage_context_es": "Perteneciente a ti (el oyente).",
+        "imagePath": "/card_images/determinant/1-basic/possessive/1-basic_possessive_card_1_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sein",
+    "phonetic": "/zaɪn/",
+    "spoken_phonetic_us": "/zaɪn/",
+    "search_term": "determiner/possessive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Possessives",
+    "definitions": [
+      {
+        "meaning": "Su / Sus (de él)",
+        "usage_example": "Das ist sein Auto.",
+        "pronunciation_guide_es": "/das_ist_ZAIN_AU-to/",
+        "usage_example_es": "Ese es su carro (el carro de él).",
+        "char_count": "4",
+        "usage_context_en": "Belonging to a male person.",
+        "usage_context_es": "Perteneciente a una persona masculina.",
+        "imagePath": "/card_images/determinant/1-basic/possessive/1-basic_possessive_card_2_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ihr",
+    "phonetic": "/iːɐ̯/",
+    "spoken_phonetic_us": "/iːɐ̯/",
+    "search_term": "determiner/possessive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Possessives",
+    "definitions": [
+      {
+        "meaning": "Su / Sus (de ella)",
+        "usage_example": "Mir gefällt ihre neue Jacke.",
+        "pronunciation_guide_es": "/mir_ge-FELT_I-re_NOI-e_YA-ke/",
+        "usage_example_es": "Me gusta su chaqueta nueva (la de ella).",
+        "char_count": "5",
+        "usage_context_en": "Belonging to a female person.",
+        "usage_context_es": "Perteneciente a una persona femenina.",
+        "imagePath": "/card_images/determinant/1-basic/possessive/1-basic_possessive_card_3_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sein",
+    "phonetic": "/zaɪn/",
+    "spoken_phonetic_us": "/zaɪn/",
+    "search_term": "determiner/possessive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Possessives",
+    "definitions": [
+      {
+        "meaning": "Su / Sus (de un objeto, animal o cosa)",
+        "usage_example": "Der Hund wedelte mit seinem Schwanz.",
+        "pronunciation_guide_es": "/der_HUNT_VE-del-te_mit_ZAI-nem_SHVANTS/",
+        "usage_example_es": "El perro movió su cola.",
+        "char_count": "5",
+        "usage_context_en": "Belonging to a thing or animal.",
+        "usage_context_es": "Perteneciente a una cosa o animal.",
+        "imagePath": "/card_images/determinant/1-basic/possessive/1-basic_possessive_card_4_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "unser",
+    "phonetic": "/ˈʊnzɐ/",
+    "spoken_phonetic_us": "/ˈʊnzɐ/",
+    "search_term": "determiner/possessive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Possessives",
+    "definitions": [
+      {
+        "meaning": "Nuestro / Nuestra / Nuestros / Nuestras",
+        "usage_example": "Das ist unser Klassenzimmer.",
+        "pronunciation_guide_es": "/das_ist_UN-zer_KLA-sen-tsi-mer/",
+        "usage_example_es": "Este es nuestro salón de clases.",
+        "char_count": "4",
+        "usage_context_en": "Belonging to us (the speaker and others).",
+        "usage_context_es": "Perteneciente a nosotros (el hablante y otros).",
+        "imagePath": "/card_images/determinant/1-basic/possessive/1-basic_possessive_card_5_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ihr",
+    "phonetic": "/iːɐ̯/",
+    "spoken_phonetic_us": "/iːɐ̯/",
+    "search_term": "determiner/possessive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Possessives",
+    "definitions": [
+      {
+        "meaning": "Su / Sus (de ellos/ellas)",
+        "usage_example": "Es ist ihr Haus.",
+        "pronunciation_guide_es": "/es_ist_IR_HAUS/",
+        "usage_example_es": "Es su casa (la casa de ellos/ellas).",
+        "char_count": "4",
+        "usage_context_en": "Belonging to them (other people).",
+        "usage_context_es": "Perteneciente a ellos (otras personas).",
+        "imagePath": "/card_images/determinant/1-basic/possessive/1-basic_possessive_card_6_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  }
+]

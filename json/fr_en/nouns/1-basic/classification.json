@@ -1,0 +1,114 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "thing",
+        "phonetic": "/θɪŋ/",
+        "spoken_phonetic_us": "/θɪŋ/",
+        "search_term": "noun/object/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Cosa]",
+                "usage_example": "What is that thing?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE thing AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: What is that thing?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: Un objeto o idea (muy general)]",
+                "usage_context_es": "An object or idea (very general)",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_7_def0.avif"
+            }
+        ],
+        "group_name": null,
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "example",
+        "phonetic": "/ɪɡˈzæmpəl/",
+        "spoken_phonetic_us": "/ɪɡˈzæmpəl/",
+        "search_term": "noun/concept/sample/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Ejemplo]",
+                "usage_example": "Can you give me an example?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE example AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Can you give me an example?]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: Una cosa que muestra cómo son otras]",
+                "usage_context_es": "A thing that shows what others are like",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_177_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "kind",
+        "phonetic": "/kaɪnd/",
+        "spoken_phonetic_us": "/kaɪnd/",
+        "search_term": "noun/category/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Tipo / Clase]",
+                "usage_example": "What kind of music do you like?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE kind AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: What kind of music do you like?]",
+                "char_count": "1",
+                "usage_context_en": "[TRADUCIR AL FR: Un grupo de cosas con características similares]",
+                "usage_context_es": "A group of things with similar characteristics",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_483_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "piece",
+        "phonetic": "/piːs/",
+        "spoken_phonetic_us": "/piːs/",
+        "search_term": "noun/object/part/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Pedazo / Pieza]",
+                "usage_example": "I need a piece of paper.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE piece AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I need a piece of paper.]",
+                "char_count": "1",
+                "usage_context_en": "[TRADUCIR AL FR: Una parte de algo que ha sido separada]",
+                "usage_context_es": "A part of something that has been separated",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_484_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    }
+]

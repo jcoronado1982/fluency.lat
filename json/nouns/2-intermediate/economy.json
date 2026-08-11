@@ -1,0 +1,672 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "account",
+    "phonetic": "/əˈkaʊnt/",
+    "spoken_phonetic_us": "/əˈkaʊnt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Cuenta (bancaria, de email)",
+        "usage_example": "I opened a new account.",
+        "pronunciation_guide_es": "/ai_O-pend_a_niu_a-KAUNT/",
+        "usage_example_es": "Abrí una cuenta nueva.",
+        "char_count": "five",
+        "usage_context_en": "A record or statement of financial expenditure or receipts.",
+        "usage_context_es": "Un registro o estado de gastos o ingresos financieros.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_78_def0.avif"
+      },
+      {
+        "meaning": "Relato / Informe",
+        "usage_example": "He gave a full account of the event.",
+        "pronunciation_guide_es": "/hi_gueiv_a_ful_a-KAUNT_of_di_i-VENT/",
+        "usage_example_es": "Él dio un relato completo del evento.",
+        "char_count": "eight",
+        "usage_context_en": "A report or description of an event or experience.",
+        "usage_context_es": "Un informe o descripción de un evento o experiencia.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_78_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "bonus",
+    "phonetic": "/ˈboʊnəs/",
+    "spoken_phonetic_us": "/ˈboʊnəs/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Bono / Prima",
+        "usage_example": "We received a Christmas bonus.",
+        "pronunciation_guide_es": "/ui_ri-SIVD_a_CRIS-mas_BOU-nos/",
+        "usage_example_es": "Recibimos un bono de Navidad.",
+        "char_count": "five",
+        "usage_context_en": "An amount of money added to wages on a seasonal basis, especially as a reward.",
+        "usage_context_es": "Una cantidad de dinero añadida al salario de forma estacional, especialmente como recompensa.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_81_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "budget",
+    "phonetic": "/ˈbʌdʒɪt/",
+    "spoken_phonetic_us": "/ˈbʌdʒɪt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Presupuesto",
+        "usage_example": "We are over budget.",
+        "pronunciation_guide_es": "/ui_ar_O-ver_BO-yet/",
+        "usage_example_es": "Estamos por encima del presupuesto.",
+        "char_count": "four",
+        "usage_context_en": "An estimate of income and expenditure for a set period of time.",
+        "usage_context_es": "Una estimación de ingresos y gastos para un período de tiempo establecido.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_82_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "commerce",
+    "phonetic": "/ˈkɑmərs/",
+    "spoken_phonetic_us": "/ˈkɑmərs/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Comercio",
+        "usage_example": "E-commerce is growing fast.",
+        "pronunciation_guide_es": "/i-CO-mers_is_GROU-ing_fast/",
+        "usage_example_es": "El comercio electrónico está creciendo rápido.",
+        "char_count": "four",
+        "usage_context_en": "The activity of buying and selling, especially on a large scale.",
+        "usage_context_es": "La actividad de comprar y vender, especialmente a gran escala.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_86_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "insurance",
+    "phonetic": "/ɪnˈʃʊərəns/",
+    "spoken_phonetic_us": "/ɪnˈʃʊrəns/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Seguro",
+        "usage_example": "Do you have car insurance?",
+        "pronunciation_guide_es": "/du_iu_hav_car_in-SHU-rans/",
+        "usage_example_es": "¿Tienes seguro de coche?",
+        "char_count": "5",
+        "usage_context_en": "An agreement where you pay a company and they pay costs if you have an accident or loss.",
+        "usage_context_es": "Un acuerdo donde pagas a una compañía y ellos pagan los costos si tienes un accidente o pérdida.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_205_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "gain",
+    "phonetic": "/ɡeɪn/",
+    "spoken_phonetic_us": "/ɡeɪn/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Ganancia / Aumento",
+        "usage_example": "He made a financial gain.",
+        "pronunciation_guide_es": "/hi_meid_a_fai-NAN-shal_GUEIN/",
+        "usage_example_es": "Él obtuvo una ganancia financiera.",
+        "char_count": "5",
+        "usage_context_en": "An increase in wealth or resources; an advantage.",
+        "usage_context_es": "Un aumento en la riqueza o los recursos; una ventaja.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_214_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "consumer",
+    "phonetic": "/kənˈsumər/",
+    "spoken_phonetic_us": "/kənˈsumər/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Consumidor",
+        "usage_example": "The consumer has rights.",
+        "pronunciation_guide_es": "/de_con-SU-mer_has_RAITS/",
+        "usage_example_es": "El consumidor tiene derechos.",
+        "char_count": "4",
+        "usage_context_en": "A person who purchases goods and services for personal use.",
+        "usage_context_es": "Una persona que compra bienes y servicios para uso personal.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_251_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "demand",
+    "phonetic": "/dɪˈmænd/",
+    "spoken_phonetic_us": "/dɪˈmænd/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Demanda / Exigencia",
+        "usage_example": "There is a high demand for this product.",
+        "pronunciation_guide_es": "/der_is_a_HAI_di-MAND_for_dis_PRO-dokt/",
+        "usage_example_es": "Hay una alta demanda de este producto.",
+        "char_count": "8",
+        "usage_context_en": "The desire of consumers for a particular commodity or service.",
+        "usage_context_es": "El deseo de los consumidores por un determinado producto o servicio.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_261_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "distribution",
+    "phonetic": "/ˌdɪstrəˈbjuʃən/",
+    "spoken_phonetic_us": "/ˌdɪstrəˈbjuʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Distribución / Reparto",
+        "usage_example": "The distribution of food.",
+        "pronunciation_guide_es": "/de_dis-tri-BIU-shon_of_FUD/",
+        "usage_example_es": "La distribución de comida.",
+        "char_count": "4",
+        "usage_context_en": "The action of sharing something out among a number of recipients.",
+        "usage_context_es": "La acción de repartir algo entre varios destinatarios.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_272_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "exchange",
+    "phonetic": "/ɪksˈtʃeɪndʒ/",
+    "spoken_phonetic_us": "/ɪksˈtʃeɪndʒ/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Intercambio",
+        "usage_example": "We made an exchange.",
+        "pronunciation_guide_es": "/ui_meid_an_ex-CHEINCH/",
+        "usage_example_es": "Hicimos un intercambio.",
+        "char_count": "4",
+        "usage_context_en": "An act of giving one thing and receiving another in return.",
+        "usage_context_es": "Un acto de dar una cosa y recibir otra a cambio.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_282_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "industry",
+    "phonetic": "/ˈɪndəstri/",
+    "spoken_phonetic_us": "/ˈɪndəstri/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Industria (sector económico)",
+        "usage_example": "The technology industry is growing.",
+        "pronunciation_guide_es": "/de_tek-NO-lo-yi_IN-dos-tri_is_GROU-ing/",
+        "usage_example_es": "La industria de la tecnología está creciendo.",
+        "char_count": "5",
+        "usage_context_en": "Economic activity concerned with the processing of raw materials and manufacture of goods.",
+        "usage_context_es": "Actividad económica relacionada con el procesamiento de materias primas y fabricación de bienes.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_294_def0.avif"
+      },
+      {
+        "meaning": "Diligencia (cualidad)",
+        "usage_example": "He succeeded through hard work and industry.",
+        "pronunciation_guide_es": "/hi_sok-SI-ded_zru_HARD_uork_and_IN-dos-tri/",
+        "usage_example_es": "Él tuvo éxito gracias al trabajo duro y la diligencia.",
+        "char_count": "7",
+        "usage_context_en": "Hard, diligent work.",
+        "usage_context_es": "Trabajo duro y diligente.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_294_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "investment",
+    "phonetic": "/ɪnˈvɛstmənt/",
+    "spoken_phonetic_us": "/ɪnˈvɛstmənt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Inversión",
+        "usage_example": "It's a good investment.",
+        "pronunciation_guide_es": "/its_a_gud_in-VEST-ment/",
+        "usage_example_es": "Es una buena inversión.",
+        "char_count": "4",
+        "usage_context_en": "The action or process of putting money into something to gain a profit.",
+        "usage_context_es": "La acción o proceso de poner dinero en algo para obtener una ganancia.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_300_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Salario / Sueldo",
+        "pronunciation_guide_es": "/mai_SALari_inKRIST_dis_YIR/",
+        "usage_context_en": "The money you earn from your job each month",
+        "usage_context_es": "El dinero que ganas de tu trabajo cada mes",
+        "usage_example": "My salary increased this year.",
+        "usage_example_es": "Mi salario aumentó este año.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_364_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "salary",
+    "phonetic": "/ˈsæləri/",
+    "search_term": "noun/work/money/essentials",
+    "spoken_phonetic_us": "/ˈsæləri/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Ganancia / Utilidad",
+        "pronunciation_guide_es": "/de_KOMpani_meid_a_BIG_PROfIt/",
+        "usage_context_en": "The money earned after paying all costs",
+        "usage_context_es": "El dinero ganado después de pagar todos los costos",
+        "usage_example": "The company made a big profit.",
+        "usage_example_es": "La empresa obtuvo una gran ganancia.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_365_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "profit",
+    "phonetic": "/ˈprɒfɪt/",
+    "search_term": "noun/business/money/essentials",
+    "spoken_phonetic_us": "/ˈprɑːfɪt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Pérdida",
+        "pronunciation_guide_es": "/de_KOMpani_JED_a_LOS/",
+        "usage_context_en": "Money lost when costs are more than income",
+        "usage_context_es": "Dinero perdido cuando los costos superan los ingresos",
+        "usage_example": "The company had a loss.",
+        "usage_example_es": "La empresa tuvo una pérdida.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_366_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "loss",
+    "phonetic": "/lɒs/",
+    "search_term": "noun/business/money/essentials",
+    "spoken_phonetic_us": "/lɔːs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Factura",
+        "pronunciation_guide_es": "/SEND_de_INvois_tuDEI/",
+        "usage_context_en": "A document requesting payment for goods or services",
+        "usage_context_es": "Un documento que solicita pago por bienes o servicios",
+        "usage_example": "Send the invoice today.",
+        "usage_example_es": "Envía la factura hoy.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_367_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "invoice",
+    "phonetic": "/ˈɪnvɔɪs/",
+    "search_term": "noun/business/essentials",
+    "spoken_phonetic_us": "/ˈɪnvɔɪs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Proveedor",
+        "pronunciation_guide_es": "/de_saPlAIer_iz_lEIT/",
+        "usage_context_en": "A company that provides goods or services to another",
+        "usage_context_es": "Una empresa que provee bienes o servicios a otra",
+        "usage_example": "The supplier is late.",
+        "usage_example_es": "El proveedor está atrasado.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_368_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "supplier",
+    "phonetic": "/səˈplaɪər/",
+    "search_term": "noun/business/essentials",
+    "spoken_phonetic_us": "/səˈplaɪər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Mercadeo / Marketing",
+        "pronunciation_guide_es": "/MAKeting_HELPS_SEL_PROdakts/",
+        "usage_context_en": "Activities that promote and sell products or services",
+        "usage_context_es": "Actividades que promocionan y venden productos o servicios",
+        "usage_example": "Marketing helps sell products.",
+        "usage_example_es": "El marketing ayuda a vender productos.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_369_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "marketing",
+    "phonetic": "/ˈmɑːrkɪtɪŋ/",
+    "search_term": "noun/business/essentials",
+    "spoken_phonetic_us": "/ˈmɑːrkɪtɪŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Marca",
+        "pronunciation_guide_es": "/NIIKI_is_a_FAMOUS_BRAND/",
+        "usage_context_en": "A name or symbol that identifies a product or company",
+        "usage_context_es": "Un nombre o símbolo que identifica un producto o empresa",
+        "usage_example": "Nike is a famous brand.",
+        "usage_example_es": "Nike es una marca famosa.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_370_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "brand",
+    "phonetic": "/brænd/",
+    "search_term": "noun/business/essentials",
+    "spoken_phonetic_us": "/brænd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Empresa emergente / Startup",
+        "pronunciation_guide_es": "/DEIR_STARTUP_got_FAndin/",
+        "usage_context_en": "A new business that is just beginning",
+        "usage_context_es": "Un nuevo negocio que está comenzando",
+        "usage_example": "Their startup got funding.",
+        "usage_example_es": "Su startup obtuvo financiamiento.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_371_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "startup",
+    "phonetic": "/ˈstɑːrtʌp/",
+    "search_term": "noun/business/essentials",
+    "spoken_phonetic_us": "/ˈstɑːrtʌp/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Préstamo",
+        "pronunciation_guide_es": "/ai_TUCK_a_LOUN_from_de_BANK/",
+        "usage_context_en": "Money borrowed that must be paid back",
+        "usage_context_es": "Dinero prestado que debe ser devuelto",
+        "usage_example": "I took a loan from the bank.",
+        "usage_example_es": "Tomé un préstamo del banco.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_372_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "loan",
+    "phonetic": "/loʊn/",
+    "search_term": "noun/money/essentials",
+    "spoken_phonetic_us": "/loʊn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Deuda",
+        "pronunciation_guide_es": "/ji_JAS_a_LOT_of_DET/",
+        "usage_context_en": "Money that you owe to someone",
+        "usage_context_es": "Dinero que le debes a alguien",
+        "usage_example": "He has a lot of debt.",
+        "usage_example_es": "Él tiene mucha deuda.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_373_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "debt",
+    "phonetic": "/dɛt/",
+    "search_term": "noun/money/essentials",
+    "spoken_phonetic_us": "/dɛt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Ahorros",
+        "pronunciation_guide_es": "/ai_PUT_mai_SEIvinz_in_de_BANK/",
+        "usage_context_en": "Money that you keep for future use",
+        "usage_context_es": "Dinero que guardas para uso futuro",
+        "usage_example": "I put my savings in the bank.",
+        "usage_example_es": "Puse mis ahorros en el banco.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_374_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "savings",
+    "phonetic": "/ˈseɪvɪŋz/",
+    "search_term": "noun/money/essentials",
+    "spoken_phonetic_us": "/ˈseɪvɪŋz/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Hipoteca",
+        "pronunciation_guide_es": "/de_MORgich_is_30_YIRs_LONG/",
+        "usage_context_en": "A loan taken to buy a house",
+        "usage_context_es": "Un préstamo tomado para comprar una casa",
+        "usage_example": "The mortgage is 30 years long.",
+        "usage_example_es": "La hipoteca es de 30 años.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_375_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "mortgage",
+    "phonetic": "/ˈmɔːrɡɪdʒ/",
+    "search_term": "noun/money/essentials",
+    "spoken_phonetic_us": "/ˈmɔːrɡɪdʒ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Inflación",
+        "pronunciation_guide_es": "/inFLEshon_meiks_PRAISIS_JER/",
+        "usage_context_en": "The rise in prices over time",
+        "usage_context_es": "El aumento de precios con el tiempo",
+        "usage_example": "Inflation makes prices higher.",
+        "usage_example_es": "La inflación hace subir los precios.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_376_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "inflation",
+    "phonetic": "/ɪnˈfleɪʃən/",
+    "search_term": "noun/economy/essentials",
+    "spoken_phonetic_us": "/ɪnˈfleɪʃən/"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "usage_example_es": "Este es el camino correcto.",
+        "meaning": "Manera / Camino",
+        "pronunciation_guide_es": "/dis_is_de_RAIT_UEI/",
+        "usage_context_en": "A method, style, or direction",
+        "usage_context_es": "Un método, estilo o dirección",
+        "usage_example": "This is the right way.",
+        "imagePath": "/card_images/nouns/1-basic/cognition_language/1-basic_cognition_language_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "way",
+    "phonetic": "/weɪ/",
+    "search_term": "noun/method/essentials",
+    "spoken_phonetic_us": "/weɪ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Idea",
+        "pronunciation_guide_es": "/ai_JAV_a_GUD_aiDIA/",
+        "usage_context_en": "A thought or suggestion",
+        "usage_context_es": "Un pensamiento o sugerencia",
+        "usage_example": "I have a good idea.",
+        "usage_example_es": "Tengo una buena idea.",
+        "imagePath": "/card_images/nouns/1-basic/cognition_language/1-basic_cognition_language_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "idea",
+    "phonetic": "/aɪˈdiːə/",
+    "search_term": "noun/thought/essentials",
+    "spoken_phonetic_us": "/aɪˈdiːə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Cosas / Material (incontable)",
+        "pronunciation_guide_es": "/uat_is_OL_dis_STAF/",
+        "usage_context_en": "General term for objects, things, or materials",
+        "usage_context_es": "Término general para objetos, cosas o materiales",
+        "usage_example": "What is all this stuff?",
+        "usage_example_es": "¿Qué son todas estas cosas?",
+        "imagePath": "/card_images/nouns/1-basic/cognition_language/1-basic_cognition_language_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "stuff",
+    "phonetic": "/stʌf/",
+    "search_term": "noun/objects/essentials",
+    "spoken_phonetic_us": "/stʌf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "thought",
+    "phonetic": "/θɔt/",
+    "spoken_phonetic_us": "/θɔt/",
+    "search_term": "noun/cognition_language/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Pensamiento / Idea",
+        "usage_example": "That thought stayed with me all day.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Ese pensamiento se quedó conmigo todo el día.",
+        "char_count": "7",
+        "usage_context_en": "An idea or opinion formed in the mind.",
+        "usage_context_es": "An idea or opinion formed in the mind.",
+        "imagePath": "/card_images/nouns/1-basic/cognition_language/1-basic_cognition_language_card_3_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "General Concepts"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "mind",
+    "phonetic": "/maɪnd/",
+    "spoken_phonetic_us": "/maɪnd/",
+    "search_term": "noun/cognition_language/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Mente",
+        "usage_example": "Her mind is always active.",
+        "pronunciation_guide_es": "",
+        "usage_example_es": "Su mente siempre está activa.",
+        "char_count": "5",
+        "usage_context_en": "The part of a person that thinks and feels.",
+        "usage_context_es": "The part of a person that thinks and feels.",
+        "imagePath": "/card_images/nouns/1-basic/cognition_language/1-basic_cognition_language_card_4_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "General Concepts"
+  }
+]

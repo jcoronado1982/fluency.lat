@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/process_change/1-basic_process_change_card_0_def0.avif",
+        "meaning": "Fin / Final",
+        "pronunciation_guide_es": "/das_ist_das_EN-de_des_FILMS/",
+        "usage_context_en": "The final part of something",
+        "usage_context_es": "La parte final de algo",
+        "usage_example": "Das ist das Ende des Films.",
+        "usage_example_es": "Este es el final de la película."
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "das Ende",
+    "phonetic": "/das ˈɛndə/",
+    "search_term": "noun/finish/essentials",
+    "spoken_phonetic_us": "/das ˈɛndə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/process_change/1-basic_process_change_card_1_def0.avif",
+        "meaning": "Inicio / Comienzo",
+        "pronunciation_guide_es": "/es_var_ain_GU-ter_SHTART/",
+        "usage_context_en": "The beginning of something",
+        "usage_context_es": "El comienzo de algo",
+        "usage_example": "Es war ein guter Start.",
+        "usage_example_es": "Fue un buen comienzo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "der Start",
+    "phonetic": "/deːɐ ʃtaʁt/",
+    "search_term": "noun/beginning/essentials",
+    "spoken_phonetic_us": "/deːɐ ʃtaʁt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "der Anfang",
+    "phonetic": "/deːɐ ˈanfaŋ/",
+    "spoken_phonetic_us": "/deːɐ ˈanfaŋ/",
+    "search_term": "noun/process_change/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Comienzo / Inicio",
+        "usage_example": "Der Anfang des Buches ist spannend.",
+        "pronunciation_guide_es": "/der_AN-fang_des_BU-jes_ist_SHPA-nent/",
+        "usage_example_es": "El comienzo del libro es emocionante.",
+        "char_count": "7",
+        "usage_context_en": "The first part of something.",
+        "usage_context_es": "The first part of something.",
+        "imagePath": "/card_images/nouns/1-basic/process_change/1-basic_process_change_card_2_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Process Change"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "das Ende",
+    "phonetic": "/das ˈɛndə/",
+    "spoken_phonetic_us": "/das ˈɛndə/",
+    "search_term": "noun/process_change/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Final",
+        "usage_example": "Das Ende des Films hat mich überrascht.",
+        "pronunciation_guide_es": "/das_EN-de_des_FILMS_hat_mish_UE-ber-rasht/",
+        "usage_example_es": "El final de la película me sorprendió.",
+        "char_count": "7",
+        "usage_context_en": "The last part of something.",
+        "usage_context_es": "The last part of something.",
+        "imagePath": "/card_images/nouns/1-basic/process_change/1-basic_process_change_card_3_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Process Change"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "die Mitte",
+    "phonetic": "/diː ˈmɪtə/",
+    "spoken_phonetic_us": "/diː ˈmɪtə/",
+    "search_term": "noun/process_change/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Medio",
+        "usage_example": "Er saß in der Mitte des Raumes.",
+        "pronunciation_guide_es": "/er_ZAS_in_der_MI-te_des_RAU-mes/",
+        "usage_example_es": "Se sentó en medio del cuarto.",
+        "char_count": "8",
+        "usage_context_en": "The central part of something.",
+        "usage_context_es": "The central part of something.",
+        "imagePath": "/card_images/nouns/1-basic/process_change/1-basic_process_change_card_4_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Process Change"
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_0_def0.avif",
+        "meaning": "Mi / Mis",
+        "pronunciation_guide_es": "/dis_is_MAI_BUK/",
+        "usage_context_en": "The possessive adjective for 'I'. Always followed by a noun.",
+        "usage_context_es": "El adjetivo posesivo para 'Yo'. Siempre va seguido de un sustantivo.",
+        "usage_example": "This is my book.",
+        "usage_example_es": "Este es mi libro."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Posesivo (Adjetivo)",
+    "is_verb": false,
+    "name": "my",
+    "phonetic": "/maɪ/",
+    "search_term": "pronoun/possessive-adjective",
+    "spoken_phonetic_us": "/maɪ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_1_def0.avif",
+        "meaning": "Cada uno / Cada una",
+        "pronunciation_guide_es": "/ICH_of_de_STU-dents_PAST/",
+        "usage_context_en": "Used as a pronoun to refer to every individual member of a group separately.",
+        "usage_context_es": "Usado como pronombre para referirse a cada miembro individual de un grupo por separado.",
+        "usage_example": "Each of the students passed.",
+        "usage_example_es": "Cada uno de los estudiantes aprobó."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "is_verb": false,
+    "name": "each",
+    "phonetic": "/iːtʃ/",
+    "search_term": "pronoun/quantifier",
+    "spoken_phonetic_us": "/iːtʃ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_2_def0.avif",
+        "meaning": "Tu / Tus / Su / Sus (de usted)",
+        "pronunciation_guide_es": "/is_dis_IUR_BAG/",
+        "usage_context_en": "The possessive adjective for 'you'. Always followed by a noun.",
+        "usage_context_es": "El adjetivo posesivo para 'tú/usted'. Siempre va seguido de un sustantivo.",
+        "usage_example": "Is this your bag?",
+        "usage_example_es": "¿Es esta tu bolsa?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Posesivo (Adjetivo)",
+    "is_verb": false,
+    "name": "your",
+    "phonetic": "/jɔːr/",
+    "search_term": "pronoun/possessive-adjective",
+    "spoken_phonetic_us": "/jʊr/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_3_def0.avif",
+        "meaning": "Ambos/as (Determinante)",
+        "pronunciation_guide_es": "/BOUZ_PA-rents_ar_HIR/",
+        "usage_context_en": "Used as a determiner before a plural noun to mean 'the two'.",
+        "usage_context_es": "Usado como determinante antes de un sustantivo plural para significar 'los dos'.",
+        "usage_example": "Both parents are here.",
+        "usage_example_es": "Ambos padres están aquí."
+      },
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_3_def1.avif",
+        "meaning": "Ambos/as (Pronombre)",
+        "pronunciation_guide_es": "/BOUZ_ar_co-REKT/",
+        "usage_context_en": "Used as a pronoun to mean 'the two of them'.",
+        "usage_context_es": "Usado como pronombre para significar 'los dos'.",
+        "usage_example": "Both are correct.",
+        "usage_example_es": "Ambos son correctos."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "is_verb": false,
+    "name": "both",
+    "phonetic": "/boʊθ/",
+    "search_term": "pronoun/quantifier",
+    "spoken_phonetic_us": "/boʊθ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_4_def0.avif",
+        "meaning": "Su / Sus (de un objeto o animal)",
+        "pronunciation_guide_es": "/de_DOG_UAGD_its_TEIL/",
+        "usage_context_en": "The possessive adjective for 'it'. Always followed by a noun.",
+        "usage_context_es": "El adjetivo posesivo para 'it'. Siempre va seguido de un sustantivo.",
+        "usage_example": "The dog wagged its tail.",
+        "usage_example_es": "El perro movió su cola."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Posesivo (Adjetivo)",
+    "is_verb": false,
+    "name": "its",
+    "phonetic": "/ɪts/",
+    "search_term": "pronoun/possessive-adjective",
+    "spoken_phonetic_us": "/ɪts/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_5_def0.avif",
+        "meaning": "Muchos / Muchas (Determinante)",
+        "pronunciation_guide_es": "/ai_HAV_ME-ni_FRENDS/",
+        "usage_context_en": "Used as a determiner for a large number (countable).",
+        "usage_context_es": "Usado como determinante para un gran número (contable).",
+        "usage_example": "I have many friends.",
+        "usage_example_es": "Tengo muchos amigos."
+      },
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_5_def1.avif",
+        "meaning": "Muchos / Muchas (Pronombre)",
+        "pronunciation_guide_es": "/ME-ni_ar_COLD_bot_FIU_ar_CHOU-sen/",
+        "usage_context_en": "Used as a pronoun for a large number of people or things.",
+        "usage_context_es": "Usado como pronombre para un gran número de personas o cosas.",
+        "usage_example": "Many are called, but few are chosen.",
+        "usage_example_es": "Muchos son llamados, pero pocos son escogidos."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "is_verb": false,
+    "name": "many",
+    "phonetic": "/ˈmɛni/",
+    "search_term": "pronoun/quantifier",
+    "spoken_phonetic_us": "/ˈmɛni/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_6_def0.avif",
+        "meaning": "Nuestro / Nuestra / Nuestros / Nuestras",
+        "pronunciation_guide_es": "/dis_is_AUR_HAUS/",
+        "usage_context_en": "The possessive adjective for 'we'. Always followed by a noun.",
+        "usage_context_es": "El adjetivo posesivo para 'nosotros'. Siempre va seguido de un sustantivo.",
+        "usage_example": "This is our house.",
+        "usage_example_es": "Esta es nuestra casa."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Posesivo (Adjetivo)",
+    "is_verb": false,
+    "name": "our",
+    "phonetic": "/ˈaʊər/",
+    "search_term": "pronoun/possessive-adjective",
+    "spoken_phonetic_us": "/ˈaʊər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_7_def0.avif",
+        "meaning": "Ninguno / Ninguna / Nada",
+        "pronunciation_guide_es": "/hau_MOCH_MO-ni_is_LEFT_NON/",
+        "usage_context_en": "Used as a pronoun to mean 'not any' or 'no one'.",
+        "usage_context_es": "Usado como pronombre para significar 'nada' o 'ninguno'.",
+        "usage_example": "How much money is left? None.",
+        "usage_example_es": "¿Cuánto dinero queda? Nada."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "is_verb": false,
+    "name": "none",
+    "phonetic": "/nʌn/",
+    "search_term": "pronoun/quantifier",
+    "spoken_phonetic_us": "/nʌn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_8_def0.avif",
+        "meaning": "Su / Sus (de ellos/ellas)",
+        "pronunciation_guide_es": "/it_is_DER_HAUS/",
+        "usage_context_en": "The possessive adjective for 'they'. Always followed by a noun.",
+        "usage_context_es": "El adjetivo posesivo para 'ellos/ellas'. Siempre va seguido de un sustantivo.",
+        "usage_example": "It is their house.",
+        "usage_example_es": "Es su casa (de ellos/ellas)."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Posesivo (Adjetivo)",
+    "is_verb": false,
+    "name": "their",
+    "phonetic": "/ðɛər/",
+    "search_term": "pronoun/possessive-adjective",
+    "spoken_phonetic_us": "/ðɛr/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_9_def0.avif",
+        "meaning": "Todos / Todo",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "Used to refer to the whole group or total amount.",
+        "usage_context_es": "Used to refer to the whole group or total amount.",
+        "usage_example": "All are welcome here.",
+        "usage_example_es": "Todos son bienvenidos aquí."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "is_verb": false,
+    "name": "all",
+    "phonetic": "/ɔl/",
+    "search_term": "pronoun/quantifier_pronouns/added",
+    "spoken_phonetic_us": "/ɔl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_10_def0.avif",
+        "meaning": "La / Le / A ella (Objeto)",
+        "pronunciation_guide_es": "/ai_NOU_her/",
+        "usage_context_en": "The pronoun for the 3rd person singular (female) as the object.",
+        "usage_context_es": "El pronombre de la 3ª persona singular (femenino) como objeto.",
+        "usage_example": "I know her.",
+        "usage_example_es": "La conozco (a ella)."
+      },
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_10_def1.avif",
+        "meaning": "Su / Sus (Posesivo de ella)",
+        "pronunciation_guide_es": "/dis_is_HER_BUK/",
+        "usage_context_en": "The possessive determiner for the 3rd person singular (female).",
+        "usage_context_es": "El determinante posesivo de la 3ª persona singular (femenino).",
+        "usage_example": "This is her book.",
+        "usage_example_es": "Este es su libro (de ella)."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Objeto",
+    "is_verb": false,
+    "name": "her",
+    "phonetic": "/hɜːr/",
+    "search_term": "pronoun/object/possessive-adjective",
+    "spoken_phonetic_us": "/hər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_11_def0.avif",
+        "meaning": "Su / Sus (de él) (Determinante)",
+        "pronunciation_guide_es": "/dat_is_HIS_CAR/",
+        "usage_context_en": "The possessive determiner for 'he' (followed by a noun).",
+        "usage_context_es": "El determinante posesivo para 'él' (seguido de un sustantivo).",
+        "usage_example": "That is his car.",
+        "usage_example_es": "Ese es su carro (el carro de él)."
+      },
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_11_def1.avif",
+        "meaning": "Suyo / Suyos (de él) (Pronombre)",
+        "pronunciation_guide_es": "/de_RED_CAR_is_HIS/",
+        "usage_context_en": "The possessive pronoun for 'he'. (It is not followed by a noun).",
+        "usage_context_es": "El pronombre posesivo para 'él'. (No va seguido de un sustantivo).",
+        "usage_example": "The red car is his.",
+        "usage_example_es": "El carro rojo es suyo (de él)."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Posesivo (Pronombre)",
+    "is_verb": false,
+    "name": "his",
+    "phonetic": "/hɪz/",
+    "search_term": "pronoun/possessive-adjective/possessive-pronoun",
+    "spoken_phonetic_us": "/hɪz/"
+  }
+]

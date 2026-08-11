@@ -1,0 +1,975 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Mano",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Mano]",
+                "usage_example": "Lávate las manos.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Lávate las manos.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La parte del cuerpo al final del brazo]",
+                "usage_context_es": "La parte del cuerpo al final del brazo",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_12_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Ayuda / Asistencia]",
+                "usage_example": "¿Puedes darme una mano?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: ¿Puedes darme una mano?]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Ayuda o asistencia.]",
+                "usage_context_es": "Ayuda o asistencia.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_12_def1.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Manecilla del reloj]",
+                "usage_example": "Las manecillas del reloj muestran la hora.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Las manecillas del reloj muestran la hora.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Las agujas que marcan la hora en un reloj.]",
+                "usage_context_es": "Las agujas que marcan la hora en un reloj.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_12_def2.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Ojo",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Ojo]",
+                "usage_example": "Cierra los ojos.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Cierra los ojos.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La parte del cuerpo que usas para ver]",
+                "usage_context_es": "La parte del cuerpo que usas para ver",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_13_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Cabeza",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cabeza]",
+                "usage_example": "Me duele la cabeza.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Me duele la cabeza.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La parte superior de tu cuerpo]",
+                "usage_context_es": "La parte superior de tu cuerpo",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_14_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Persona a cargo / líder]",
+                "usage_example": "Ella es la jefa de la empresa.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ella es la jefa de la empresa.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: La persona responsable de una organización o departamento.]",
+                "usage_context_es": "La persona responsable de una organización o departamento.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_14_def1.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Cara",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cara]",
+                "usage_example": "Ella tiene una cara feliz.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ella tiene una cara feliz.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La parte frontal de la cabeza, con ojos, nariz, boca]",
+                "usage_context_es": "La parte frontal de la cabeza, con ojos, nariz, boca",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_41_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Superficie frontal / fachada]",
+                "usage_example": "La cara norte de la montaña es empinada.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: La cara norte de la montaña es empinada.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: La superficie o parte frontal de algo.]",
+                "usage_context_es": "La superficie o parte frontal de algo.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_41_def1.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Brazo",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Brazo]",
+                "usage_example": "Me duele el brazo izquierdo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Me duele el brazo izquierdo.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La parte del cuerpo entre el hombro y la mano]",
+                "usage_context_es": "La parte del cuerpo entre el hombro y la mano",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_42_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Rama o división de una organización]",
+                "usage_example": "El ejército tiene una división médica.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El ejército tiene una división médica.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Una rama o división de una organización mayor.]",
+                "usage_context_es": "Una rama o división de una organización mayor.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_42_def1.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Pierna",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Pierna]",
+                "usage_example": "Se rompió la pierna.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Se rompió la pierna.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La parte del cuerpo usada para caminar]",
+                "usage_context_es": "La parte del cuerpo usada para caminar",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_43_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Pie",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Pie]",
+                "usage_example": "Mis pies están fríos. (Plural: feet)",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Mis pies están fríos. (Plural: feet)]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La parte del cuerpo al final de la pierna]",
+                "usage_context_es": "La parte del cuerpo al final de la pierna",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_44_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Parte inferior o base de algo]",
+                "usage_example": "Hay una casa al pie de la colina.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Hay una casa al pie de la colina.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: La parte inferior o base de algo.]",
+                "usage_context_es": "La parte inferior o base de algo.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_44_def1.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Cuerpo",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cuerpo]",
+                "usage_example": "Debes cuidar tu cuerpo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Debes cuidar tu cuerpo.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: La estructura física de una persona o animal]",
+                "usage_context_es": "La estructura física de una persona o animal",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_45_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Grupo u organización]",
+                "usage_example": "El organismo rector aprobó las nuevas reglas.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El organismo rector aprobó las nuevas reglas.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Un grupo de personas que trabajan juntas con un propósito.]",
+                "usage_context_es": "Un grupo de personas que trabajan juntas con un propósito.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_45_def1.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Cabello / Pelo",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cabello / Pelo]",
+                "usage_example": "Ella tiene el cabello largo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ella tiene el cabello largo.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Las hebras que crecen de la cabeza]",
+                "usage_context_es": "Las hebras que crecen de la cabeza",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_46_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Espalda / Parte trasera",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/direction/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Espalda / Parte trasera]",
+                "usage_example": "Me duele la espalda.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Me duele la espalda.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La superficie trasera del cuerpo humano / Lo opuesto a 'frente']",
+                "usage_context_es": "La superficie trasera del cuerpo humano / Lo opuesto a 'frente'",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_109_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Nariz",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Nariz]",
+                "usage_example": "Mi nariz está fría.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Mi nariz está fría.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La parte de la cara usada para oler]",
+                "usage_context_es": "La parte de la cara usada para oler",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_249_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Boca",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Boca]",
+                "usage_example": "Abre la boca.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Abre la boca.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La parte de la cara usada para comer y hablar]",
+                "usage_context_es": "La parte de la cara usada para comer y hablar",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_250_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Diente",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Diente]",
+                "usage_example": "Me cepillo los dientes. (Plural: teeth)",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Me cepillo los dientes. (Plural: teeth)]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Las cosas blancas y duras en tu boca]",
+                "usage_context_es": "Las cosas blancas y duras en tu boca",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_251_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Oreja / Oído",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Oreja / Oído]",
+                "usage_example": "Oigo con mis oídos.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Oigo con mis oídos.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La parte del cuerpo usada para oír]",
+                "usage_context_es": "La parte del cuerpo usada para oír",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_252_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Hombro",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Hombro]",
+                "usage_example": "Me duele el hombro.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Me duele el hombro.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: La parte del cuerpo entre el brazo y el cuello]",
+                "usage_context_es": "La parte del cuerpo entre el brazo y el cuello",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_253_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Rodilla",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Rodilla]",
+                "usage_example": "Me lastimé la rodilla.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Me lastimé la rodilla.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La articulación en medio de tu pierna]",
+                "usage_context_es": "La articulación en medio de tu pierna",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_254_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Dedo (de la mano)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Dedo (de la mano)]",
+                "usage_example": "Tengo diez dedos.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Tengo diez dedos.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una de las cinco partes al final de tu mano]",
+                "usage_context_es": "Una de las cinco partes al final de tu mano",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_255_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Dedo (del pie)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Dedo (del pie)]",
+                "usage_example": "Me lastimé el dedo del pie.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Me lastimé el dedo del pie.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Una de las cinco partes al final de tu pie]",
+                "usage_context_es": "Una de las cinco partes al final de tu pie",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_256_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Cuello",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cuello]",
+                "usage_example": "Me duele el cuello.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Me duele el cuello.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La parte del cuerpo que conecta la cabeza y los hombros]",
+                "usage_context_es": "La parte del cuerpo que conecta la cabeza y los hombros",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_257_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Corazón",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Corazón]",
+                "usage_example": "Mi corazón está latiendo rápido.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Mi corazón está latiendo rápido.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: El órgano en tu pecho que bombea sangre]",
+                "usage_context_es": "El órgano en tu pecho que bombea sangre",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_352_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Sangre",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Sangre]",
+                "usage_example": "La sangre es roja.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: La sangre es roja.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: El líquido rojo dentro de tu cuerpo]",
+                "usage_context_es": "El líquido rojo dentro de tu cuerpo",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_353_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Hueso",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Hueso]",
+                "usage_example": "El perro tiene un hueso.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El perro tiene un hueso.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Las partes duras dentro de tu cuerpo]",
+                "usage_context_es": "Las partes duras dentro de tu cuerpo",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_354_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Piel",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Piel]",
+                "usage_example": "Tengo la piel suave.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Tengo la piel suave.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La cubierta exterior de tu cuerpo]",
+                "usage_context_es": "La cubierta exterior de tu cuerpo",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_355_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Voz",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/sound/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Voz]",
+                "usage_example": "Ella tiene una voz hermosa.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ella tiene una voz hermosa.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: El sonido que haces cuando hablas o cantas]",
+                "usage_context_es": "El sonido que haces cuando hablas o cantas",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_356_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Pecho / Tórax",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Pecho / Tórax]",
+                "usage_example": "Tengo dolor en el pecho.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Tengo dolor en el pecho.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La parte delantera del cuerpo entre el cuello y el estómago]",
+                "usage_context_es": "La parte delantera del cuerpo entre el cuello y el estómago",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_456_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Estómago / Barriga",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Estómago / Barriga]",
+                "usage_example": "Me duele el estómago.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Me duele el estómago.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: El órgano en tu cuerpo que digiere la comida]",
+                "usage_context_es": "El órgano en tu cuerpo que digiere la comida",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_457_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Muñeca",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Muñeca]",
+                "usage_example": "Me lastimé la muñeca.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Me lastimé la muñeca.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La articulación entre tu mano y tu brazo]",
+                "usage_context_es": "La articulación entre tu mano y tu brazo",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_458_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Tobillo",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Tobillo]",
+                "usage_example": "Me torcí el tobillo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Me torcí el tobillo.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: La articulación que conecta tu pie y tu pierna]",
+                "usage_context_es": "La articulación que conecta tu pie y tu pierna",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_459_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Pulgar",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Pulgar]",
+                "usage_example": "Me duele el pulgar.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Me duele el pulgar.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: El dedo corto y grueso de tu mano]",
+                "usage_context_es": "El dedo corto y grueso de tu mano",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_460_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Labio",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Labio]",
+                "usage_example": "Ella tiene labios rojos.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ella tiene labios rojos.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: El borde suave de tu boca]",
+                "usage_context_es": "El borde suave de tu boca",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_461_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Lengua",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Lengua]",
+                "usage_example": "La lengua te ayuda a saborear.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: La lengua te ayuda a saborear.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: El músculo en tu boca usado para saborear y hablar]",
+                "usage_context_es": "El músculo en tu boca usado para saborear y hablar",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_462_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Pulmón",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Pulmón]",
+                "usage_example": "Los pulmones respiran aire.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Los pulmones respiran aire.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: El órgano en tu cuerpo usado para respirar]",
+                "usage_context_es": "El órgano en tu cuerpo usado para respirar",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_463_def0.avif"
+            }
+        ],
+        "group_name": "Body Parts",
+        "category": ""
+    }
+]

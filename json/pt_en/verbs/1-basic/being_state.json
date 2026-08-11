@@ -1,0 +1,314 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "be",
+        "phonetic": "/biː/",
+        "spoken_phonetic_us": "/biː/",
+        "search_term": "verb/to be/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Ser (identidad, característica)]",
+                "usage_example": "She is a student.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE be AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: She is a student.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: identidad/descripción]",
+                "usage_context_es": "identity/description",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_0_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Estar (ubicación, estado)]",
+                "usage_example": "We are at the park.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE be AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: We are at the park.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: ubicación/estado]",
+                "usage_context_es": "location/state",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_0_def1.avif"
+            }
+        ],
+        "group_name": "Being & State",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "live",
+        "phonetic": "/lɪv/",
+        "spoken_phonetic_us": "/lɪv/",
+        "search_term": "verb/reside/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Vivir (residir)]",
+                "usage_example": "Where do you live?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE live AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Where do you live?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: residencia/ubicación]",
+                "usage_context_es": "residence/location",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_1_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Estar vivo/Experimentar la vida]",
+                "usage_example": "She lives a very quiet life.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE live AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: She lives a very quiet life.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: existencia/experiencia]",
+                "usage_context_es": "existence/experience",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_1_def1.avif"
+            }
+        ],
+        "group_name": "Being & State",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "stay",
+        "phonetic": "/steɪ/",
+        "spoken_phonetic_us": "/steɪ/",
+        "search_term": "verb/stay/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Quedarse]",
+                "usage_example": "Stay here.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE stay AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Stay here.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: ubicación/espera]",
+                "usage_context_es": "location/waiting",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_2_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Hospedarse/Permanecer]",
+                "usage_example": "They stayed calm all night.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE stay AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: They stayed calm all night.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: viajes/estado]",
+                "usage_context_es": "travel/state",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_2_def1.avif"
+            }
+        ],
+        "group_name": "Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "become",
+        "phonetic": "/bɪˈkʌm/",
+        "spoken_phonetic_us": "/bɪˈkʌm/",
+        "search_term": "verb/change/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Convertirse en/Llegar a ser]",
+                "usage_example": "She wants to become a doctor.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE become AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: She wants to become a doctor.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: profesión/cambio]",
+                "usage_context_es": "profession/change",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_3_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Suceder/Apropiado (arcaico o formal)]",
+                "usage_example": "It becomes a habit over time.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE become AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: It becomes a habit over time.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: proceso/conveniencia]",
+                "usage_context_es": "process/suitability",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_3_def1.avif"
+            }
+        ],
+        "group_name": "Being & State",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "happen",
+        "phonetic": "/ˈhæpən/",
+        "spoken_phonetic_us": "/ˈhæpən/",
+        "search_term": "verb/occur/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Suceder/Ocurrir]",
+                "usage_example": "What happened to you?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE happen AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: What happened to you?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: eventos/accidentes]",
+                "usage_context_es": "events/accidents",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_4_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Estar (por casualidad)]",
+                "usage_example": "I happened to be there when it started.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE happen AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I happened to be there when it started.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: casualidad/coincidencia]",
+                "usage_context_es": "chance/coincidence",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_4_def1.avif"
+            }
+        ],
+        "group_name": "Being & State",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "seem",
+        "phonetic": "/siːm/",
+        "spoken_phonetic_us": "/siːm/",
+        "search_term": "verb/appear/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Parecer (dar la impresión)]",
+                "usage_example": "She seems happy today.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE seem AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: She seems happy today.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: apariencia/impresión]",
+                "usage_context_es": "appearance/impression",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_5_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Aparentar (ser evidente)]",
+                "usage_example": "It seems that nobody is here.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE seem AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: It seems that nobody is here.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: evidencia/estado]",
+                "usage_context_es": "evidence/state",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_5_def1.avif"
+            }
+        ],
+        "group_name": "Being & State",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "laugh",
+        "phonetic": "/læf/",
+        "spoken_phonetic_us": "/læf/",
+        "search_term": "verb/laugh/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Reír]",
+                "usage_example": "They laughed at the joke.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE laugh AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: They laughed at the joke.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: emociones/bromas]",
+                "usage_context_es": "emotions/jokes",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_6_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Reírse de]",
+                "usage_example": "Don't laugh at me.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE laugh AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Don't laugh at me.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: reacciones sociales]",
+                "usage_context_es": "social reactions",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_6_def1.avif"
+            }
+        ],
+        "group_name": "Feelings & Relationships",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "cry",
+        "phonetic": "/kraɪ/",
+        "spoken_phonetic_us": "/kraɪ/",
+        "search_term": "verb/cry/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Llorar]",
+                "usage_example": "Don't cry.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE cry AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Don't cry.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: emociones/niños]",
+                "usage_context_es": "emotions/children",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_7_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Gritar/Pedir con fuerza]",
+                "usage_example": "He cried for help.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE cry AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He cried for help.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: emergencia/emoción]",
+                "usage_context_es": "emergency/emotion",
+                "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_7_def1.avif"
+            }
+        ],
+        "group_name": "Feelings & Relationships",
+        "category": ""
+    }
+]

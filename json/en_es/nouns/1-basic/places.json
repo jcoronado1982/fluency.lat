@@ -1,0 +1,705 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Mundo",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/planet/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "world",
+        "usage_example": "Quiero ver el mundo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I want to see the world.",
+        "char_count": "one",
+        "usage_context_en": "The Earth and all people and things on it",
+        "usage_context_es": "La Tierra y todas las personas y cosas en ella",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_0_def0.avif",
+        "target_meaning_es": "Mundo"
+      },
+      {
+        "meaning": "world",
+        "usage_example": "Ella trabaja en el mundo de la moda.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She works in the fashion world.",
+        "char_count": "5",
+        "usage_context_en": "A particular sphere or environment.",
+        "usage_context_es": "Un ámbito o entorno específico.",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_0_def1.avif",
+        "target_meaning_es": "Ámbito o entorno específico"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Ciudad",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "city",
+        "usage_example": "Nueva York es una ciudad grande.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "New York is a big city.",
+        "char_count": "two",
+        "usage_context_en": "A large town",
+        "usage_context_es": "Una gran urbe",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_1_def0.avif",
+        "target_meaning_es": "Ciudad"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Tienda",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "store",
+        "usage_example": "Necesito ir a la tienda.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I need to go to the store.",
+        "char_count": "one",
+        "usage_context_en": "A place where you buy things",
+        "usage_context_es": "Un lugar donde compras cosas",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_2_def0.avif",
+        "target_meaning_es": "Tienda"
+      },
+      {
+        "meaning": "store",
+        "usage_example": "Tienen una reserva de comida para el invierno.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "They have a store of food for winter.",
+        "char_count": "5",
+        "usage_context_en": "A supply or reserve of something.",
+        "usage_context_es": "Una reserva o cantidad guardada de algo.",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_2_def1.avif",
+        "target_meaning_es": "Depósito / reserva"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Parque",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "park",
+        "usage_example": "Caminemos en el parque.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Let's walk in the park.",
+        "char_count": "one",
+        "usage_context_en": "A public green area",
+        "usage_context_es": "Un área verde pública",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_3_def0.avif",
+        "target_meaning_es": "Parque"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Calle",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/city/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "street",
+        "usage_example": "El carro está en la calle.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The car is on the street.",
+        "char_count": "one",
+        "usage_context_en": "A public road in a city",
+        "usage_context_es": "Una vía pública en una ciudad",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_4_def0.avif",
+        "target_meaning_es": "Calle"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Carretera / Camino",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/transport/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "road",
+        "usage_example": "Esta carretera va a la ciudad.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "This road goes to the city.",
+        "char_count": "one",
+        "usage_context_en": "A long path for vehicles",
+        "usage_context_es": "Un camino largo para vehículos",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_5_def0.avif",
+        "target_meaning_es": "Carretera / Camino"
+      }
+    ],
+    "group_name": "Transportation",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Mercado",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/food/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "market",
+        "usage_example": "Compro fruta en el mercado.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I buy fruit at the market.",
+        "char_count": "two",
+        "usage_context_en": "A place to buy food and goods",
+        "usage_context_es": "Un lugar para comprar comida y bienes",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_6_def0.avif",
+        "target_meaning_es": "Mercado"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Hospital",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/health/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "hospital",
+        "usage_example": "Él está en el hospital.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He is in the hospital.",
+        "char_count": "three",
+        "usage_context_en": "A place for sick people",
+        "usage_context_es": "Un lugar para gente enferma",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_7_def0.avif",
+        "target_meaning_es": "Hospital"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Restaurante",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/food/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "restaurant",
+        "usage_example": "Comamos en un restaurante.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Let's eat at a restaurant.",
+        "char_count": "three",
+        "usage_context_en": "A place to buy and eat a meal",
+        "usage_context_es": "Un lugar para comprar y comer una comida",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_8_def0.avif",
+        "target_meaning_es": "Restaurante"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Hotel",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/travel/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "hotel",
+        "usage_example": "Nos estamos quedando en un hotel.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "We are staying at a hotel.",
+        "char_count": "two",
+        "usage_context_en": "A place to sleep when traveling",
+        "usage_context_es": "Un lugar para dormir cuando viajas",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_9_def0.avif",
+        "target_meaning_es": "Hotel"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Banco",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/money/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "bank",
+        "usage_example": "Necesito ir al banco.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I need to go to the bank.",
+        "char_count": "one",
+        "usage_context_en": "A place to keep money",
+        "usage_context_es": "Un lugar para guardar dinero",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_10_def0.avif",
+        "target_meaning_es": "Banco"
+      },
+      {
+        "meaning": "bank",
+        "usage_example": "Hicimos un picnic en la orilla del río.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "We had a picnic on the river bank.",
+        "char_count": "5",
+        "usage_context_en": "The land alongside or sloping down to a river or lake.",
+        "usage_context_es": "La tierra junto o inclinada hacia un río o lago.",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_10_def1.avif",
+        "target_meaning_es": "Orilla de un río o lago"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Lugar",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/location/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "place",
+        "usage_example": "Este es un lugar hermoso.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "This is a beautiful place.",
+        "char_count": "one",
+        "usage_context_en": "A specific location",
+        "usage_context_es": "Una ubicación específica",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_11_def0.avif",
+        "target_meaning_es": "Lugar"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Pueblo / Ciudad (pequeña)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "town",
+        "usage_example": "Vivo en un pueblo pequeño.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I live in a small town.",
+        "char_count": "one",
+        "usage_context_en": "A place with houses, smaller than a city",
+        "usage_context_es": "Un lugar con casas, más pequeño que una ciudad",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_12_def0.avif",
+        "target_meaning_es": "Pueblo / Ciudad (pequeña)"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Aldea / Pueblo (muy pequeño)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "village",
+        "usage_example": "Es una aldea tranquila.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "It's a quiet village.",
+        "char_count": "two",
+        "usage_context_en": "A very small town, usually in the country",
+        "usage_context_es": "Un pueblo muy pequeño, usualmente en el campo",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_13_def0.avif",
+        "target_meaning_es": "Aldea / Pueblo (muy pequeño)"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Granja",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/nature/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "farm",
+        "usage_example": "Ellos cultivan verduras en la granja.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "They grow vegetables on the farm.",
+        "char_count": "one",
+        "usage_context_en": "Land used for growing food or animals",
+        "usage_context_es": "Tierra usada para cultivar comida o animales",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_14_def0.avif",
+        "target_meaning_es": "Granja"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Edificio",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "building",
+        "usage_example": "Ese edificio es muy alto.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "That building is very tall.",
+        "char_count": "two",
+        "usage_context_en": "A structure with walls and a roof (e.g., house, office)",
+        "usage_context_es": "Una estructura con paredes y techo (ej. casa, oficina)",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_15_def0.avif",
+        "target_meaning_es": "Edificio"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Biblioteca",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "library",
+        "usage_example": "Pido prestados libros de la biblioteca.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I borrow books from the library.",
+        "char_count": "three",
+        "usage_context_en": "A place with books to read or borrow",
+        "usage_context_es": "Un lugar con libros para leer o pedir prestados",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_16_def0.avif",
+        "target_meaning_es": "Biblioteca"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Iglesia",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/religion/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "church",
+        "usage_example": "Ellos van a la iglesia el domingo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "They go to church on Sunday.",
+        "char_count": "one",
+        "usage_context_en": "A building for Christian religious services",
+        "usage_context_es": "Un edificio para servicios religiosos cristianos",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_17_def0.avif",
+        "target_meaning_es": "Iglesia"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Puente",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/transport/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "bridge",
+        "usage_example": "Cruzamos el puente.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "We crossed the bridge.",
+        "char_count": "one",
+        "usage_context_en": "A structure built over a river or road",
+        "usage_context_es": "Una estructura construida sobre un río o carretera",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_18_def0.avif",
+        "target_meaning_es": "Puente"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Jardín",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/nature/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "garden",
+        "usage_example": "Ella está en el jardín.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She is in the garden.",
+        "char_count": "two",
+        "usage_context_en": "An area of land for growing flowers or vegetables",
+        "usage_context_es": "Un área de tierra para cultivar flores o verduras",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_19_def0.avif",
+        "target_meaning_es": "Jardín"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Gimnasio",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "gym",
+        "usage_example": "Voy al gimnasio todos los días.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I go to the gym every day.",
+        "char_count": "one",
+        "usage_context_en": "A place where you go to exercise",
+        "usage_context_es": "Un lugar al que vas a hacer ejercicio",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_20_def0.avif",
+        "target_meaning_es": "Gimnasio"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Estadio",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "stadium",
+        "usage_example": "El estadio está lleno.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The stadium is full.",
+        "char_count": "two",
+        "usage_context_en": "A large place where sports are played",
+        "usage_context_es": "Un lugar grande donde se practican deportes",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_21_def0.avif",
+        "target_meaning_es": "Estadio"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Barrio / Vecindario",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "neighborhood",
+        "usage_example": "Es un barrio seguro.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "It's a safe neighborhood.",
+        "char_count": "three",
+        "usage_context_en": "The area near where you live",
+        "usage_context_es": "El área cerca de donde vives",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_22_def0.avif",
+        "target_meaning_es": "Barrio / Vecindario"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  }
+]

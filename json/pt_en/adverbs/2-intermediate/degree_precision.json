@@ -1,0 +1,153 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "nearly",
+        "phonetic": "/ˈnɪərli/",
+        "spoken_phonetic_us": "/ˈnɪrli/",
+        "search_term": "adverb/degree",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Casi]",
+                "usage_example": "I am nearly finished.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE nearly AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I am nearly finished.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Muy cerca de; casi.]",
+                "usage_context_es": "Very close to; almost.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Adverbs: Degree",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "almost",
+        "phonetic": "/ˈɔːlmoʊst/",
+        "spoken_phonetic_us": "/ˈɔlmoʊst/",
+        "search_term": "adverb/degree",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Casi]",
+                "usage_example": "The food is almost ready.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE almost AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The food is almost ready.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Muy cerca de; no completamente.]",
+                "usage_context_es": "Very nearly; not completely.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Adverbs: Degree",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "especially",
+        "phonetic": "/ɪˈspɛʃəli/",
+        "spoken_phonetic_us": "/ɪˈspɛʃəli/",
+        "search_term": "adverb/degree",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Especialmente / Sobre todo]",
+                "usage_example": "I like all fruits, especially apples.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE especially AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I like all fruits, especially apples.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: En gran medida; muchísimo; sobre todo.]",
+                "usage_context_es": "To a great extent; very much; above all.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Adverbs: Degree",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "exactly",
+        "phonetic": "/ɪɡˈzæktli/",
+        "spoken_phonetic_us": "/ɪɡˈzæktli/",
+        "search_term": "adverb/degree/manner",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Exactamente / Exacto]",
+                "usage_example": "That is exactly what I mean.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE exactly AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: That is exactly what I mean.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para enfatizar precisión o corrección.]",
+                "usage_context_es": "Used to emphasize precision or correctness.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Adverbs: Manner",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "simply",
+        "phonetic": "/ˈsɪmpli/",
+        "spoken_phonetic_us": "/ˈsɪmpli/",
+        "search_term": "adverb/manner/degree",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Simplemente (modo)]",
+                "usage_example": "You must explain it simply.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE simply AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: You must explain it simply.]",
+                "char_count": 5,
+                "usage_context_en": "[TRADUCIR AL PT: De una manera llana o fácil de entender.]",
+                "usage_context_es": "In a plain or easy-to-understand way.",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Simplemente / Solo (énfasis)]",
+                "usage_example": "It is simply a matter of time.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE simply AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: It is simply a matter of time.]",
+                "char_count": 6,
+                "usage_context_en": "[TRADUCIR AL PT: Usado para significar 'solo', 'solamente' o 'absolutamente'.]",
+                "usage_context_es": "Used to mean 'only', 'just', or 'absolutely'.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Adverbs: Manner",
+        "category": ""
+    }
+]

@@ -1,0 +1,220 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ausgeben",
+    "phonetic": "/ˈaʊsɡeːbn̩/",
+    "spoken_phonetic_us": "/ˈaʊsɡeːbn̩/",
+    "search_term": "verb/time/money/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Gastar (dinero)",
+        "usage_example": "Ich gebe zu viel Geld für Kleidung aus.",
+        "pronunciation_guide_es": "/ish_GE-be_tsu_FIL_GELT_fuer_KLAI-dung_AUS/",
+        "alternative_example": "How much do you spend?",
+        "usage_example_es": "Gasto demasiado dinero en ropa.",
+        "char_count": "one",
+        "usage_context_en": "money/shopping",
+        "usage_context_es": "dinero/compras",
+        "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_0_def0.avif"
+      },
+      {
+        "meaning": "Pasar (tiempo)",
+        "usage_example": "Wir verbringen das Wochenende am Strand.",
+        "pronunciation_guide_es": "/vir_fer-BRIN-gen_das_VO-chen-en-de_am_SHTRANT/",
+        "alternative_example": "She spends hours studying.",
+        "usage_example_es": "Pasamos el fin de semana en la playa.",
+        "char_count": "one",
+        "usage_context_en": "time/leisure",
+        "usage_context_es": "tiempo/ocio",
+        "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_0_def1.avif"
+      }
+    ],
+    "irregular": {
+      "past": {
+        "form": "gab aus",
+        "phonetic": "/ɡaːp aʊs/",
+        "spoken_phonetic_us": "/ɡaːp aʊs/",
+        "usage_example": "I spent a lot of money.",
+        "usage_example_es": "Gasté mucho dinero.",
+        "pronunciation_guide_es": "/ai_SPENT_a_LOT_of_MANi/",
+        "meaning": "Pasado de gastar/pasar",
+        "definitions": [
+          {
+            "usage_example": "Ich gab zu viel Geld für Kleidung aus.",
+            "usage_example_es": "Gasté demasiado dinero en ropa.",
+            "pronunciation_guide_es": "/ish_GAP_tsu_FIL_GELT_fuer_KLAI-dung_AUS/",
+            "meaning": "Pasado de Gastar",
+            "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_0_def0_v2.avif"
+          },
+          {
+            "usage_example": "Wir verbrachten das Wochenende in den Bergen.",
+            "usage_example_es": "Pasamos el fin de semana en las montañas.",
+            "pronunciation_guide_es": "/vir_fer-BRACH-ten_das_VO-chen-en-de_in_den_BER-gen/",
+            "meaning": "Pasado de Pasar tiempo",
+            "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_0_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "ausgegeben",
+        "phonetic": "/ˈaʊsɡəɡeːbn̩/",
+        "spoken_phonetic_us": "/ˈaʊsɡəɡeːbn̩/",
+        "usage_example": "Time was spent wisely.",
+        "usage_example_es": "El tiempo se pasó sabiamente.",
+        "pronunciation_guide_es": "/TAIM_uas_SPENT_UAISli/",
+        "meaning": "Participio de gastar/pasar",
+        "definitions": [
+          {
+            "usage_example": "Ich habe zu viel Geld für Kleidung ausgegeben.",
+            "usage_example_es": "Gasté demasiado dinero en ropa.",
+            "pronunciation_guide_es": "/ish_HA-be_tsu_FIL_GELT_fuer_KLAI-dung_AUS-ge-ge-ben/",
+            "meaning": "Participio de Gastar",
+            "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_0_def0_v3.avif"
+          },
+          {
+            "usage_example": "Wir haben das Wochenende in den Bergen verbracht.",
+            "usage_example_es": "Pasamos el fin de semana en las montañas.",
+            "pronunciation_guide_es": "/vir_HA-ben_das_VO-chen-en-de_in_den_BER-gen_fer-BRACHT/",
+            "meaning": "Participio de Pasar tiempo",
+            "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_0_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Social & Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "anbieten",
+    "phonetic": "/ˈanbiːtn̩/",
+    "spoken_phonetic_us": "/ˈanbiːtn̩/",
+    "search_term": "verb/present/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Ofrecer (algo)",
+        "usage_example": "Kann ich dir etwas zu trinken anbieten?",
+        "pronunciation_guide_es": "/kan_ish_dir_ET-vas_tsu_TRIN-ken_AN-bi-ten/",
+        "alternative_example": "The company offered him a job.",
+        "usage_example_es": "Quiero ofrecerte una bebida.",
+        "char_count": "two",
+        "usage_context_en": "hospitality/jobs",
+        "usage_context_es": "hospitalidad/empleos",
+        "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_1_def0.avif"
+      },
+      {
+        "meaning": "Proponer/Sugerir",
+        "usage_example": "Welche Lösung haben sie vorgeschlagen?",
+        "pronunciation_guide_es": "/VEL-she_LOE-zung_HA-ben_zi_FOR-ge-shla-gen/",
+        "alternative_example": "She offered to help.",
+        "usage_example_es": "¿Qué solución ofrecieron?",
+        "char_count": "two",
+        "usage_context_en": "suggestions/aid",
+        "usage_context_es": "sugerencias/ayuda",
+        "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_1_def1.avif"
+      }
+    ],
+    "group_name": "Social & Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "teilen",
+    "phonetic": "/ˈtaɪlən/",
+    "spoken_phonetic_us": "/ˈtaɪlən/",
+    "search_term": "verb/divide/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Compartir (algo con alguien)",
+        "usage_example": "Möchtest du meine Pizza teilen?",
+        "pronunciation_guide_es": "/MOESH-test_du_MAI-ne_PIT-sa_TAI-len/",
+        "alternative_example": "He shared his story with us.",
+        "usage_example_es": "¿Quieres compartir mi pizza?",
+        "char_count": "one",
+        "usage_context_en": "food/information",
+        "usage_context_es": "comida/información",
+        "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_2_def0.avif"
+      },
+      {
+        "meaning": "Tener en común",
+        "usage_example": "Wir teilen die gleichen Interessen.",
+        "pronunciation_guide_es": "/vir_TAI-len_di_GLAI-shen_in-te-RE-sen/",
+        "alternative_example": "Please share your ideas with the group.",
+        "usage_example_es": "Compartimos los mismos intereses.",
+        "char_count": "one",
+        "usage_context_en": "commonality/collaboration",
+        "usage_context_es": "comunalidad/colaboración",
+        "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_2_def1.avif"
+      }
+    ],
+    "group_name": "Social & Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "spenden",
+    "phonetic": "/ˈʃpɛndn̩/",
+    "spoken_phonetic_us": "/ˈʃpɛndn̩/",
+    "search_term": "verb/possession_exchange/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Donar",
+        "usage_example": "Viele Menschen spenden jedes Jahr Kleidung.",
+        "pronunciation_guide_es": "/FI-le_MEN-shen_SHPEN-den_YE-des_YAR_KLAI-dung/",
+        "usage_example_es": "Muchas personas donan ropa cada año.",
+        "char_count": "6",
+        "usage_context_en": "To give something for a good purpose.",
+        "usage_context_es": "To give something for a good purpose.",
+        "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_3_def0.avif"
+      }
+    ],
+    "is_verb": true,
+    "group_name": "Social & Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "austauschen",
+    "phonetic": "/ˈaʊstaʊʃn̩/",
+    "spoken_phonetic_us": "/ˈaʊstaʊʃn̩/",
+    "search_term": "verb/possession_exchange/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Intercambiar",
+        "usage_example": "Wir tauschten nach dem Unterricht Ideen aus.",
+        "pronunciation_guide_es": "/vir_TAUSH-ten_naj_dem_UN-ter-risht_i-DE-en_AUS/",
+        "usage_example_es": "Intercambiamos ideas después de la clase.",
+        "char_count": "6",
+        "usage_context_en": "To give one thing and receive another.",
+        "usage_context_es": "To give one thing and receive another.",
+        "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_4_def0.avif"
+      }
+    ],
+    "is_verb": true,
+    "group_name": "Social & Daily Life"
+  }
+]

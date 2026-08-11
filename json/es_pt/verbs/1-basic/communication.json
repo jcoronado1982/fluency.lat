@@ -1,0 +1,342 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: say]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/speech/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Decir (expresar con palabras)",
+                "usage_example": "[TRADUCIR AL PT: What did you say?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Qué dijiste?",
+                "char_count": "one",
+                "usage_context_en": "diálogo/comunicación",
+                "usage_context_es": "[TRADUCIR AL PT: dialogue/communication]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_say_def0.avif"
+            },
+            {
+                "meaning": "Afirmar (establecer algo)",
+                "usage_example": "[TRADUCIR AL PT: The sign says 'Stop'.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "El cartel dice 'Pare'.",
+                "char_count": "one",
+                "usage_context_en": "señales/información",
+                "usage_context_es": "[TRADUCIR AL PT: signs/information]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_say_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: talk]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/speak/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Hablar/Conversar",
+                "usage_example": "[TRADUCIR AL PT: We talk every day on the phone.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Hablamos todos los días por teléfono.",
+                "char_count": "one",
+                "usage_context_en": "comunicación/diálogo",
+                "usage_context_es": "[TRADUCIR AL PT: communication/dialogue]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_39_def0.avif"
+            },
+            {
+                "meaning": "Charlar/Comentar",
+                "usage_example": "[TRADUCIR AL PT: Don't talk during the movie.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "No hables durante la película.",
+                "char_count": "one",
+                "usage_context_en": "discusión/charla",
+                "usage_context_es": "[TRADUCIR AL PT: discussion/banter]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_39_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: tell]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/inform/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Contar/Decir (informar a alguien)",
+                "usage_example": "[TRADUCIR AL PT: Tell me a story.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Cuéntame una historia.",
+                "char_count": "one",
+                "usage_context_en": "historias/información",
+                "usage_context_es": "[TRADUCIR AL PT: stories/information]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_16_def0.avif"
+            },
+            {
+                "meaning": "Ordenar/Distinguir",
+                "usage_example": "[TRADUCIR AL PT: Can you tell the difference?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Puedes notar la diferencia?",
+                "char_count": "one",
+                "usage_context_en": "diferencia/instrucción",
+                "usage_context_es": "[TRADUCIR AL PT: difference/instruction]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_16_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: ask]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/question/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Preguntar",
+                "usage_example": "[TRADUCIR AL PT: Ask your teacher for help.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Pregúntale a tu profesor por ayuda.",
+                "char_count": "one",
+                "usage_context_en": "preguntas/ayuda",
+                "usage_context_es": "[TRADUCIR AL PT: questions/help]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_23_def0.avif"
+            },
+            {
+                "meaning": "Pedir (una cosa)",
+                "usage_example": "[TRADUCIR AL PT: I asked for a glass of water.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Pedí un vaso de agua.",
+                "char_count": "one",
+                "usage_context_en": "petición/demanda",
+                "usage_context_es": "[TRADUCIR AL PT: request/demand]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_23_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: call]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/name/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Llamar (por teléfono)",
+                "usage_example": "[TRADUCIR AL PT: Call me later.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Llámame más tarde.",
+                "char_count": "one",
+                "usage_context_en": "teléfono/comunicación",
+                "usage_context_es": "[TRADUCIR AL PT: telephone/communication]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_22_def0.avif"
+            },
+            {
+                "meaning": "Llamar (nombrar)",
+                "usage_example": "[TRADUCIR AL PT: They call him 'The Boss'.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Lo llaman 'El Jefe'.",
+                "char_count": "one",
+                "usage_context_en": "nombrar/títulos",
+                "usage_context_es": "[TRADUCIR AL PT: naming/titles]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_22_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: write]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/compose/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Escribir (con un bolígrafo, etc.)",
+                "usage_example": "[TRADUCIR AL PT: Write your name on the paper.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Escribe tu nombre en el papel.",
+                "char_count": "one",
+                "usage_context_en": "escritura/creación",
+                "usage_context_es": "[TRADUCIR AL PT: penmanship/creation]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "Componer (música, libro)",
+                "usage_example": "[TRADUCIR AL PT: He is writing a book about history.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Él está escribiendo un libro sobre historia.",
+                "char_count": "one",
+                "usage_context_en": "literatura/comunicación",
+                "usage_context_es": "[TRADUCIR AL PT: literature/communication]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: read]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/literature/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Leer (texto)",
+                "usage_example": "[TRADUCIR AL PT: I read a book every month.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Leo un libro cada mes.",
+                "char_count": "one",
+                "usage_context_en": "libros/instrucciones",
+                "usage_context_es": "[TRADUCIR AL PT: books/instructions]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "Estudiar/Interpretar (formal)",
+                "usage_example": "[TRADUCIR AL PT: He reads law at university.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Él estudia derecho en la universidad.",
+                "char_count": "one",
+                "usage_context_en": "estudio/datos",
+                "usage_context_es": "[TRADUCIR AL PT: study/data]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: show]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/display/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Mostrar/Enseñar",
+                "usage_example": "[TRADUCIR AL PT: Show me your new phone.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Muéstrame tu teléfono nuevo.",
+                "char_count": "one",
+                "usage_context_en": "objetos/demostración",
+                "usage_context_es": "[TRADUCIR AL PT: objects/demonstration]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_32_def0.avif"
+            },
+            {
+                "meaning": "Exhibir/Presentar",
+                "usage_example": "[TRADUCIR AL PT: She showed her talent at the event.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Ella mostró su talento en el evento.",
+                "char_count": "one",
+                "usage_context_en": "talento/resultados",
+                "usage_context_es": "[TRADUCIR AL PT: talent/results]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_32_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: thank]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/speech/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Agradecer",
+                "usage_example": "[TRADUCIR AL PT: I want to thank you for the dinner.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Quiero agradecerte por la cena.",
+                "char_count": "one",
+                "usage_context_en": "Decir gracias o expresar gratitud",
+                "usage_context_es": "[TRADUCIR AL PT: To say thanks or express gratitude]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    }
+]

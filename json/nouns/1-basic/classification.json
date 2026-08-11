@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Cosa",
+        "pronunciation_guide_es": "/uat_is_DAT_THING/",
+        "usage_context_en": "An object or idea (very general)",
+        "usage_context_es": "Un objeto o idea (muy general)",
+        "usage_example": "What is that thing?",
+        "usage_example_es": "¿Qué es esa cosa?",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": null,
+    "is_verb": false,
+    "name": "thing",
+    "phonetic": "/θɪŋ/",
+    "search_term": "noun/object/essentials",
+    "spoken_phonetic_us": "/θɪŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Ejemplo",
+        "pronunciation_guide_es": "/kan_iu_GIV_mi_an_igSAMpol/",
+        "usage_context_en": "A thing that shows what others are like",
+        "usage_context_es": "Una cosa que muestra cómo son otras",
+        "usage_example": "Can you give me an example?",
+        "usage_example_es": "¿Puedes darme un ejemplo?",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_177_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "example",
+    "phonetic": "/ɪɡˈzæmpəl/",
+    "search_term": "noun/concept/sample/essentials",
+    "spoken_phonetic_us": "/ɪɡˈzæmpəl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Cosas / Material (incontable)",
+        "pronunciation_guide_es": "/uat_is_OL_dis_STAF/",
+        "usage_context_en": "General term for objects, things, or materials",
+        "usage_context_es": "Término general para objetos, cosas o materiales",
+        "usage_example": "What is all this stuff?",
+        "usage_example_es": "¿Qué son todas estas cosas?",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_482_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "stuff",
+    "phonetic": "/stʌf/",
+    "search_term": "noun/objects/essentials",
+    "spoken_phonetic_us": "/stʌf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Tipo / Clase",
+        "pronunciation_guide_es": "/uat_KAIND_of_MIUzik_du_iu_LAIK/",
+        "usage_context_en": "A group of things with similar characteristics",
+        "usage_context_es": "Un grupo de cosas con características similares",
+        "usage_example": "What kind of music do you like?",
+        "usage_example_es": "¿Qué tipo de música te gusta?",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_483_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "kind",
+    "phonetic": "/kaɪnd/",
+    "search_term": "noun/category/essentials",
+    "spoken_phonetic_us": "/kaɪnd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "1",
+        "meaning": "Pedazo / Pieza",
+        "pronunciation_guide_es": "/ai_NID_a_PIS_of_PEIper/",
+        "usage_context_en": "A part of something that has been separated",
+        "usage_context_es": "Una parte de algo que ha sido separada",
+        "usage_example": "I need a piece of paper.",
+        "usage_example_es": "Necesito un pedazo de papel.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_484_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "piece",
+    "phonetic": "/piːs/",
+    "search_term": "noun/object/part/essentials",
+    "spoken_phonetic_us": "/piːs/"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_0_def0.avif",
+        "meaning": "Frontera",
+        "pronunciation_guide_es": "/ui_crost_de_BOR-der/",
+        "usage_context_en": "The line separating two countries or regions.",
+        "usage_context_es": "La línea que separa dos países o regiones.",
+        "usage_example": "We crossed the border.",
+        "usage_example_es": "Cruzamos la frontera."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "is_verb": false,
+    "name": "border",
+    "phonetic": "/ˈbɔrdər/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈbɔrdər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_1_def0.avif",
+        "meaning": "Distancia",
+        "pronunciation_guide_es": "/uat_is_de_DIS-tans_tu_de_SI-ti/",
+        "usage_context_en": "The amount of space between two things or places.",
+        "usage_context_es": "La cantidad de espacio entre dos cosas o lugares.",
+        "usage_example": "What is the distance to the city?",
+        "usage_example_es": "¿Cuál es la distancia a la ciudad?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "distance",
+    "phonetic": "/ˈdɪstəns/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈdɪstəns/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_2_def0.avif",
+        "meaning": "Punto de referencia / Monumento",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A famous place or a point used for orientation.",
+        "usage_context_es": "A famous place or a point used for orientation.",
+        "usage_example": "The tower is a well-known landmark.",
+        "usage_example_es": "La torre es un punto de referencia muy conocido."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "is_verb": false,
+    "name": "landmark",
+    "phonetic": "/ˈlændˌmɑrk/",
+    "search_term": "noun/location/added",
+    "spoken_phonetic_us": "/ˈlændˌmɑrk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_3_def0.avif",
+        "meaning": "Cercanías / Proximidad",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "The area near a particular place.",
+        "usage_context_es": "The area near a particular place.",
+        "usage_example": "There are several cafes in the vicinity.",
+        "usage_example_es": "Hay varios cafés en las cercanías."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places & Locations",
+    "is_verb": false,
+    "name": "vicinity",
+    "phonetic": "/vəˈsɪnəti/",
+    "search_term": "noun/location/added",
+    "spoken_phonetic_us": "/vəˈsɪnəti/"
+  }
+]

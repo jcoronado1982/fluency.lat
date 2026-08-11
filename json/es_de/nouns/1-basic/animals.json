@@ -1,0 +1,652 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Perro",
+        "pronunciation_guide_es": "/der_HUNT_BELT/",
+        "usage_context_en": "A common pet animal",
+        "usage_context_es": "Un animal doméstico común",
+        "usage_example": "Der Hund bellt.",
+        "usage_example_es": "El perro está ladrando.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "der Hund",
+    "phonetic": "/deːɐ hʊnt/",
+    "search_term": "noun/animal/essentials",
+    "spoken_phonetic_us": "/deːɐ hʊnt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Gato",
+        "pronunciation_guide_es": "/MAI-ne_KAT-se_SHLAEFT/",
+        "usage_context_en": "A small pet animal",
+        "usage_context_es": "Un animal doméstico pequeño",
+        "usage_example": "Meine Katze schläft.",
+        "usage_example_es": "Mi gato está durmiendo.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "die Katze",
+    "phonetic": "/diː ˈkatsə/",
+    "search_term": "noun/animal/essentials",
+    "spoken_phonetic_us": "/diː ˈkatsə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Pájaro",
+        "pronunciation_guide_es": "/ain_FO-gel_ZINGT/",
+        "usage_context_en": "An animal that can fly",
+        "usage_context_es": "Un animal que puede volar",
+        "usage_example": "Ein Vogel singt.",
+        "usage_example_es": "Un pájaro está cantando.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "der Vogel",
+    "phonetic": "/deːɐ ˈfoːɡl̩/",
+    "search_term": "noun/animal/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈfoːɡl̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Pez / Pescado",
+        "pronunciation_guide_es": "/ish_ZE-e_AI-nen_FISH_im_VA-ser/",
+        "usage_context_en": "An animal that lives in water / Its meat",
+        "usage_context_es": "Un animal que vive en el agua / Su carne",
+        "usage_example": "Ich sehe einen Fisch im Wasser.",
+        "usage_example_es": "Veo un pez en el agua.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "der Fisch",
+    "phonetic": "/deːɐ fɪʃ/",
+    "search_term": "noun/animal/food/essentials",
+    "spoken_phonetic_us": "/deːɐ fɪʃ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Caballo",
+        "pronunciation_guide_es": "/er_RAI-tet_auf_AI-nem_PFERT/",
+        "usage_context_en": "A large animal used for riding",
+        "usage_context_es": "Un animal grande usado para montar",
+        "usage_example": "Er reitet auf einem Pferd.",
+        "usage_example_es": "Él está montando a caballo.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "das Pferd",
+    "phonetic": "/das pfeːɐt/",
+    "search_term": "noun/animal/essentials",
+    "spoken_phonetic_us": "/das pfeːɐt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Vaca",
+        "pronunciation_guide_es": "/di_KU_GIPT_MILSH/",
+        "usage_context_en": "A large farm animal kept for milk or meat",
+        "usage_context_es": "Un animal grande de granja mantenido por leche o carne",
+        "usage_example": "Die Kuh gibt Milch.",
+        "usage_example_es": "La vaca da leche.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "die Kuh",
+    "phonetic": "/diː kuː/",
+    "search_term": "noun/animal/farm/essentials",
+    "spoken_phonetic_us": "/diː kuː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Cerdo",
+        "pronunciation_guide_es": "/ain_SHVAIN_MAK_SHLAM/",
+        "usage_context_en": "A farm animal with pink skin and a curly tail",
+        "usage_context_es": "Un animal de granja con piel rosa y cola rizada",
+        "usage_example": "Ein Schwein mag Schlamm.",
+        "usage_example_es": "A un cerdo le gusta el lodo.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_6_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "das Schwein",
+    "phonetic": "/das ʃvaɪn/",
+    "search_term": "noun/animal/farm/essentials",
+    "spoken_phonetic_us": "/das ʃvaɪn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "usage_example_es": "Una oveja, dos ovejas.",
+        "meaning": "Oveja (singular y plural)",
+        "pronunciation_guide_es": "/ain_SHAF_TSVAI_SHA-fe/",
+        "usage_context_en": "A farm animal with white, woolly fur",
+        "usage_context_es": "Un animal de granja con pelaje blanco y lanoso",
+        "usage_example": "Ein Schaf, zwei Schafe.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "das Schaf",
+    "phonetic": "/das ʃaːf/",
+    "search_term": "noun/animal/farm/essentials",
+    "spoken_phonetic_us": "/das ʃaːf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Pato",
+        "pronunciation_guide_es": "/di_EN-te_SHVIMT/",
+        "usage_context_en": "A bird that lives on water",
+        "usage_context_es": "Un ave que vive en el agua",
+        "usage_example": "Die Ente schwimmt.",
+        "usage_example_es": "El pato está nadando.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_8_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "die Ente",
+    "phonetic": "/diː ˈɛntə/",
+    "search_term": "noun/animal/bird/essentials",
+    "spoken_phonetic_us": "/diː ˈɛntə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Oso",
+        "pronunciation_guide_es": "/ish_ZA_AI-nen_BAE-ren_im_VALT/",
+        "usage_context_en": "A large, strong wild animal with thick fur",
+        "usage_context_es": "Un animal salvaje grande y fuerte con pelaje grueso",
+        "usage_example": "Ich sah einen Bären im Wald.",
+        "usage_example_es": "Vi un oso en el bosque.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "der Bär",
+    "phonetic": "/deːɐ bɛːɐ/",
+    "search_term": "noun/animal/wild/essentials",
+    "spoken_phonetic_us": "/deːɐ bɛːɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "León",
+        "pronunciation_guide_es": "/der_LOE-ve_ist_der_KOE-nish_des_DSHUN-gels/",
+        "usage_context_en": "A large, wild cat from Africa",
+        "usage_context_es": "Un gato salvaje grande de África",
+        "usage_example": "Der Löwe ist der König des Dschungels.",
+        "usage_example_es": "El león es el rey de la selva.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "der Löwe",
+    "phonetic": "/deːɐ ˈløːvə/",
+    "search_term": "noun/animal/wild/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈløːvə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Tigre",
+        "pronunciation_guide_es": "/ain_TI-ger_hat_o-RANJ-e_unt_SHVAR-tse_SHTRAI-fen/",
+        "usage_context_en": "A large, wild cat with stripes",
+        "usage_context_es": "Un gato salvaje grande con rayas",
+        "usage_example": "Ein Tiger hat orange und schwarze Streifen.",
+        "usage_example_es": "Un tigre tiene rayas naranjas y negras.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_11_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "der Tiger",
+    "phonetic": "/deːɐ ˈtiːɡɐ/",
+    "search_term": "noun/animal/wild/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈtiːɡɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Mono",
+        "pronunciation_guide_es": "/der_A-fe_IST_AI-ne_ba-NA-ne/",
+        "usage_context_en": "An animal that lives in trees",
+        "usage_context_es": "Un animal que vive en los árboles",
+        "usage_example": "Der Affe isst eine Banane.",
+        "usage_example_es": "El mono está comiendo una banana.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_12_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "der Affe",
+    "phonetic": "/deːɐ ˈafə/",
+    "search_term": "noun/animal/wild/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈafə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Elefante",
+        "pronunciation_guide_es": "/ain_e-le-FANT_ist_ain_ZER_GRO-ses_TIR/",
+        "usage_context_en": "A very large, gray animal with a long nose (trunk)",
+        "usage_context_es": "Un animal gris muy grande con una nariz larga (trompa)",
+        "usage_example": "Ein Elefant ist ein sehr großes Tier.",
+        "usage_example_es": "Un elefante es un animal muy grande.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_13_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "der Elefant",
+    "phonetic": "/deːɐ eleˈfant/",
+    "search_term": "noun/animal/wild/essentials",
+    "spoken_phonetic_us": "/deːɐ eleˈfant/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Serpiente",
+        "pronunciation_guide_es": "/ish_HA-be_ANKST_for_SHLAN-gen/",
+        "usage_context_en": "A long, thin animal with no legs",
+        "usage_context_es": "Un animal largo y delgado sin piernas",
+        "usage_example": "Ich habe Angst vor Schlangen.",
+        "usage_example_es": "Tengo miedo de las serpientes.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_14_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "die Schlange",
+    "phonetic": "/diː ˈʃlaŋə/",
+    "search_term": "noun/animal/wild/essentials",
+    "spoken_phonetic_us": "/diː ˈʃlaŋə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Animal",
+        "pronunciation_guide_es": "/ain_HUNT_ist_ain_TIR/",
+        "usage_context_en": "A living thing that is not a plant or human",
+        "usage_context_es": "Un ser vivo que no es una planta o un humano",
+        "usage_example": "Ein Hund ist ein Tier.",
+        "usage_example_es": "Un perro es un animal.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_15_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "das Tier",
+    "phonetic": "/das tiːɐ/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/das tiːɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Conejo",
+        "pronunciation_guide_es": "/das_ka-NIN-shen_ist_SHNEL/",
+        "usage_context_en": "A small furry animal with long ears",
+        "usage_context_es": "Un animal pequeño y peludo con orejas largas",
+        "usage_example": "Das Kaninchen ist schnell.",
+        "usage_example_es": "El conejo es rápido.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_16_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "das Kaninchen",
+    "phonetic": "/das kaˈniːnçən/",
+    "search_term": "noun/animal/essentials",
+    "spoken_phonetic_us": "/das kaˈniːnçən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Ratón",
+        "pronunciation_guide_es": "/di_MAUS_ist_KLAIN/",
+        "usage_context_en": "A small animal with a long tail",
+        "usage_context_es": "Un animal pequeño con una cola larga",
+        "usage_example": "Die Maus ist klein.",
+        "usage_example_es": "El ratón es pequeño.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_17_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "die Maus",
+    "phonetic": "/diː maʊs/",
+    "search_term": "noun/animal/essentials",
+    "spoken_phonetic_us": "/diː maʊs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Ciervo / Venado",
+        "pronunciation_guide_es": "/der_HIRSH_LOIFT_SHNEL/",
+        "usage_context_en": "A large animal with antlers that lives in forests",
+        "usage_context_es": "Un animal grande con cuernos que vive en bosques",
+        "usage_example": "Der Hirsch läuft schnell.",
+        "usage_example_es": "El venado corre rápido.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_18_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "der Hirsch",
+    "phonetic": "/deːɐ hɪʁʃ/",
+    "search_term": "noun/animal/essentials",
+    "spoken_phonetic_us": "/deːɐ hɪʁʃ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Lobo",
+        "pronunciation_guide_es": "/der_VOLF_HOILT_in_der_NAJT/",
+        "usage_context_en": "A wild animal similar to a large dog",
+        "usage_context_es": "Un animal salvaje parecido a un perro grande",
+        "usage_example": "Der Wolf heult in der Nacht.",
+        "usage_example_es": "El lobo aúlla por la noche.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_19_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "der Wolf",
+    "phonetic": "/deːɐ vɔlf/",
+    "search_term": "noun/animal/essentials",
+    "spoken_phonetic_us": "/deːɐ vɔlf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Zorro",
+        "pronunciation_guide_es": "/der_FUKS_ist_SHLAU/",
+        "usage_context_en": "A clever wild animal with a bushy tail",
+        "usage_context_es": "Un animal salvaje inteligente con una cola esponjosa",
+        "usage_example": "Der Fuchs ist schlau.",
+        "usage_example_es": "El zorro es inteligente.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_20_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "der Fuchs",
+    "phonetic": "/deːɐ fʊks/",
+    "search_term": "noun/animal/essentials",
+    "spoken_phonetic_us": "/deːɐ fʊks/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Rana",
+        "pronunciation_guide_es": "/der_FROSH_SHPRINGT_HOJ/",
+        "usage_context_en": "A small green animal that lives near water",
+        "usage_context_es": "Un animal verde pequeño que vive cerca del agua",
+        "usage_example": "Der Frosch springt hoch.",
+        "usage_example_es": "La rana salta alto.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_21_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "der Frosch",
+    "phonetic": "/deːɐ fʁɔʃ/",
+    "search_term": "noun/animal/essentials",
+    "spoken_phonetic_us": "/deːɐ fʁɔʃ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Mariposa",
+        "pronunciation_guide_es": "/der_SHMET-ter-ling_ist_BUNT/",
+        "usage_context_en": "An insect with colorful wings",
+        "usage_context_es": "Un insecto con alas coloridas",
+        "usage_example": "Der Schmetterling ist bunt.",
+        "usage_example_es": "La mariposa es colorida.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_22_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "der Schmetterling",
+    "phonetic": "/deːɐ ˈʃmɛtɐlɪŋ/",
+    "search_term": "noun/animal/insect/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈʃmɛtɐlɪŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Abeja",
+        "pronunciation_guide_es": "/di_BI-ne_MACHT_HO-nish/",
+        "usage_context_en": "An insect that makes honey",
+        "usage_context_es": "Un insecto que hace miel",
+        "usage_example": "Die Biene macht Honig.",
+        "usage_example_es": "La abeja hace miel.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_23_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "die Biene",
+    "phonetic": "/diː ˈbiːnə/",
+    "search_term": "noun/animal/insect/essentials",
+    "spoken_phonetic_us": "/diː ˈbiːnə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Insecto",
+        "pronunciation_guide_es": "/hir_ist_ain_in-ZEKT/",
+        "usage_context_en": "A small animal with six legs",
+        "usage_context_es": "Un animal pequeño con seis patas",
+        "usage_example": "Hier ist ein Insekt.",
+        "usage_example_es": "Hay un insecto aquí.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_24_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Animals",
+    "is_verb": false,
+    "name": "das Insekt",
+    "phonetic": "/das ɪnˈzɛkt/",
+    "search_term": "noun/animal/insect/essentials",
+    "spoken_phonetic_us": "/das ɪnˈzɛkt/"
+  }
+]

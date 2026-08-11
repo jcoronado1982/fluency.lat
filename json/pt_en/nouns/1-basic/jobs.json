@@ -1,0 +1,534 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "job",
+        "phonetic": "/ʤɒb/",
+        "spoken_phonetic_us": "/ʤɑːb/",
+        "search_term": "noun/profession/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Empleo / Puesto]",
+                "usage_example": "I am looking for a new job.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE job AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I am looking for a new job.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un puesto pagado de empleo regular]",
+                "usage_context_es": "A paid position of regular employment",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_20_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "doctor",
+        "phonetic": "/ˈdɒktər/",
+        "spoken_phonetic_us": "/ˈdɑːktər/",
+        "search_term": "noun/person/job/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Doctor / Médico]",
+                "usage_example": "I need to see a doctor.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE doctor AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I need to see a doctor.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que trata a gente enferma]",
+                "usage_context_es": "A person who treats sick people",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_99_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "police",
+        "phonetic": "/pəˈliːs/",
+        "spoken_phonetic_us": "/pəˈliːs/",
+        "search_term": "noun/job/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Policía]",
+                "usage_example": "Call the police!",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE police AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Call the police!]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Gente que hace cumplir las leyes y detiene el crimen]",
+                "usage_context_es": "People who enforce laws and stop crime",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_143_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "firefighter",
+        "phonetic": "/ˈfaɪərfaɪtər/",
+        "spoken_phonetic_us": "/ˈfaɪərfaɪtər/",
+        "search_term": "noun/job/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Bombero]",
+                "usage_example": "The firefighter is brave.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE firefighter AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The firefighter is brave.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que apaga incendios]",
+                "usage_context_es": "A person who stops fires",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_144_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "manager",
+        "phonetic": "/ˈmænɪʤər/",
+        "spoken_phonetic_us": "/ˈmænɪʤər/",
+        "search_term": "noun/job/work/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Gerente / Director]",
+                "usage_example": "I need to speak to the manager.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE manager AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I need to speak to the manager.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que controla un negocio o equipo]",
+                "usage_context_es": "A person who controls a business or team",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_230_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "employee",
+        "phonetic": "/ɛmˈplɔɪiː/",
+        "spoken_phonetic_us": "/ɛmˈplɔɪiː/",
+        "search_term": "noun/job/work/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Empleado]",
+                "usage_example": "He is a new employee.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE employee AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He is a new employee.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que trabaja por dinero]",
+                "usage_context_es": "A person who works for money",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_231_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "engineer",
+        "phonetic": "/ˌɛnʤɪˈnɪər/",
+        "spoken_phonetic_us": "/ˌɛnʤɪˈnɪr/",
+        "search_term": "noun/job/work/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Ingeniero]",
+                "usage_example": "She is an engineer.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE engineer AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: She is an engineer.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que diseña edificios o máquinas]",
+                "usage_context_es": "A person who designs buildings or machines",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_375_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "lawyer",
+        "phonetic": "/ˈlɔɪər/",
+        "spoken_phonetic_us": "/ˈlɔɪər/",
+        "search_term": "noun/job/work/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Abogado]",
+                "usage_example": "I need to call my lawyer.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE lawyer AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I need to call my lawyer.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que ayuda a la gente con la ley]",
+                "usage_context_es": "A person who helps people with the law",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_376_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "nurse",
+        "phonetic": "/nɜːrs/",
+        "spoken_phonetic_us": "/nɜːrs/",
+        "search_term": "noun/job/health/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Enfermero / Enfermera]",
+                "usage_example": "The nurse helped the doctor.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE nurse AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The nurse helped the doctor.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que cuida a gente enferma]",
+                "usage_context_es": "A person who takes care of sick people",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_377_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "artist",
+        "phonetic": "/ˈɑːrtɪst/",
+        "spoken_phonetic_us": "/ˈɑːrtɪst/",
+        "search_term": "noun/job/art/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Artista]",
+                "usage_example": "He is a famous artist.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE artist AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He is a famous artist.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que crea arte (pintura, música, etc.)]",
+                "usage_context_es": "A person who creates art (painting, music, etc.)",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_378_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "writer",
+        "phonetic": "/ˈraɪtər/",
+        "spoken_phonetic_us": "/ˈraɪtər/",
+        "search_term": "noun/job/art/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Escritor]",
+                "usage_example": "She is a famous writer.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE writer AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: She is a famous writer.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que escribe libros o artículos]",
+                "usage_context_es": "A person who writes books or articles",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_379_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "farmer",
+        "phonetic": "/ˈfɑːrmər/",
+        "spoken_phonetic_us": "/ˈfɑːrmər/",
+        "search_term": "noun/job/nature/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Granjero]",
+                "usage_example": "The farmer grows corn.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE farmer AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The farmer grows corn.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que trabaja en una granja]",
+                "usage_context_es": "A person who works on a farm",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_380_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "driver",
+        "phonetic": "/ˈdraɪvər/",
+        "spoken_phonetic_us": "/ˈdraɪvər/",
+        "search_term": "noun/job/transport/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Conductor / Chofer]",
+                "usage_example": "The bus driver.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE driver AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The bus driver.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que conduce un vehículo]",
+                "usage_context_es": "A person who drives a vehicle",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_381_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "cook",
+        "phonetic": "/kʊk/",
+        "spoken_phonetic_us": "/kʊk/",
+        "search_term": "noun/job/food/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cocinero]",
+                "usage_example": "He is a good cook.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE cook AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He is a good cook.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que prepara comida]",
+                "usage_context_es": "A person who prepares food",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_382_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "chef",
+        "phonetic": "/ʃɛf/",
+        "spoken_phonetic_us": "/ʃɛf/",
+        "search_term": "noun/job/food/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Chef (profesional)]",
+                "usage_example": "The chef at this restaurant is famous.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE chef AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The chef at this restaurant is famous.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un cocinero profesional en un restaurante]",
+                "usage_context_es": "A professional cook in a restaurant",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_383_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "waiter",
+        "phonetic": "/ˈweɪtər/",
+        "spoken_phonetic_us": "/ˈweɪtər/",
+        "search_term": "noun/job/food/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Mesero / Camarero]",
+                "usage_example": "Call the waiter, please.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE waiter AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Call the waiter, please.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Un hombre que sirve comida en un restaurante]",
+                "usage_context_es": "A man who serves food in a restaurant",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_384_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "waitress",
+        "phonetic": "/ˈweɪtrəs/",
+        "spoken_phonetic_us": "/ˈweɪtrəs/",
+        "search_term": "noun/job/food/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Mesera / Camarera]",
+                "usage_example": "The waitress is very nice.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE waitress AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The waitress is very nice.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una mujer que sirve comida en un restaurante]",
+                "usage_context_es": "A woman who serves food in a restaurant",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_385_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "boss",
+        "phonetic": "/bɒs/",
+        "spoken_phonetic_us": "/bɔːs/",
+        "search_term": "noun/job/work/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Jefe]",
+                "usage_example": "My boss is very demanding.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE boss AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: My boss is very demanding.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: La persona a cargo de ti en el trabajo]",
+                "usage_context_es": "The person in charge of you at work",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_388_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "soldier",
+        "phonetic": "/ˈsoʊlʤər/",
+        "spoken_phonetic_us": "/ˈsoʊlʤər/",
+        "search_term": "noun/job/society/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Soldado]",
+                "usage_example": "The soldier has a uniform.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE soldier AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The soldier has a uniform.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que está en el ejército]",
+                "usage_context_es": "A person who is in the army",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_389_def0.avif"
+            }
+        ],
+        "group_name": "School & Work",
+        "category": ""
+    }
+]

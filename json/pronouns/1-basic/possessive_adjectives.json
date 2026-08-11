@@ -1,0 +1,211 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "my",
+    "phonetic": "/maɪ/",
+    "spoken_phonetic_us": "/maɪ/",
+    "search_term": "pronoun/possessive-adjective",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Posesivo (Adjetivo)",
+    "definitions": [
+      {
+        "meaning": "Mi / Mis",
+        "usage_example": "This is my book.",
+        "pronunciation_guide_es": "/dis_is_MAI_BUK/",
+        "usage_example_es": "Este es mi libro.",
+        "char_count": "4",
+        "usage_context_en": "The possessive adjective for 'I'. Always followed by a noun.",
+        "usage_context_es": "El adjetivo posesivo para 'Yo'. Siempre va seguido de un sustantivo.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_12_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "your",
+    "phonetic": "/jɔːr/",
+    "spoken_phonetic_us": "/jʊr/",
+    "search_term": "pronoun/possessive-adjective",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Posesivo (Adjetivo)",
+    "definitions": [
+      {
+        "meaning": "Tu / Tus / Su / Sus (de usted)",
+        "usage_example": "Is this your bag?",
+        "pronunciation_guide_es": "/is_dis_IUR_BAG/",
+        "usage_example_es": "¿Es esta tu bolsa?",
+        "char_count": "4",
+        "usage_context_en": "The possessive adjective for 'you'. Always followed by a noun.",
+        "usage_context_es": "El adjetivo posesivo para 'tú/usted'. Siempre va seguido de un sustantivo.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_13_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "its",
+    "phonetic": "/ɪts/",
+    "spoken_phonetic_us": "/ɪts/",
+    "search_term": "pronoun/possessive-adjective",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Posesivo (Adjetivo)",
+    "definitions": [
+      {
+        "meaning": "Su / Sus (de un objeto o animal)",
+        "usage_example": "The dog wagged its tail.",
+        "pronunciation_guide_es": "/de_DOG_UAGD_its_TEIL/",
+        "usage_example_es": "El perro movió su cola.",
+        "char_count": "5",
+        "usage_context_en": "The possessive adjective for 'it'. Always followed by a noun.",
+        "usage_context_es": "El adjetivo posesivo para 'it'. Siempre va seguido de un sustantivo.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_16_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "our",
+    "phonetic": "/ˈaʊər/",
+    "spoken_phonetic_us": "/ˈaʊər/",
+    "search_term": "pronoun/possessive-adjective",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Posesivo (Adjetivo)",
+    "definitions": [
+      {
+        "meaning": "Nuestro / Nuestra / Nuestros / Nuestras",
+        "usage_example": "This is our house.",
+        "pronunciation_guide_es": "/dis_is_AUR_HAUS/",
+        "usage_example_es": "Esta es nuestra casa.",
+        "char_count": "4",
+        "usage_context_en": "The possessive adjective for 'we'. Always followed by a noun.",
+        "usage_context_es": "El adjetivo posesivo para 'nosotros'. Siempre va seguido de un sustantivo.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_17_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "their",
+    "phonetic": "/ðɛər/",
+    "spoken_phonetic_us": "/ðɛr/",
+    "search_term": "pronoun/possessive-adjective",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Posesivo (Adjetivo)",
+    "definitions": [
+      {
+        "meaning": "Su / Sus (de ellos/ellas)",
+        "usage_example": "It is their house.",
+        "pronunciation_guide_es": "/it_is_DER_HAUS/",
+        "usage_example_es": "Es su casa (de ellos/ellas).",
+        "char_count": "4",
+        "usage_context_en": "The possessive adjective for 'they'. Always followed by a noun.",
+        "usage_context_es": "El adjetivo posesivo para 'ellos/ellas'. Siempre va seguido de un sustantivo.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_18_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "her",
+    "phonetic": "/hɜːr/",
+    "spoken_phonetic_us": "/hər/",
+    "search_term": "pronoun/object/possessive-adjective",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Objeto",
+    "definitions": [
+      {
+        "meaning": "La / Le / A ella (Objeto)",
+        "usage_example": "I know her.",
+        "pronunciation_guide_es": "/ai_NOU_her/",
+        "usage_example_es": "La conozco (a ella).",
+        "char_count": "3",
+        "usage_context_en": "The pronoun for the 3rd person singular (female) as the object.",
+        "usage_context_es": "El pronombre de la 3ª persona singular (femenino) como objeto.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_9_def0.avif"
+      },
+      {
+        "meaning": "Su / Sus (Posesivo de ella)",
+        "usage_example": "This is her book.",
+        "pronunciation_guide_es": "/dis_is_HER_BUK/",
+        "usage_example_es": "Este es su libro (de ella).",
+        "char_count": "4",
+        "usage_context_en": "The possessive determiner for the 3rd person singular (female).",
+        "usage_context_es": "El determinante posesivo de la 3ª persona singular (femenino).",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_9_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "his",
+    "phonetic": "/hɪz/",
+    "spoken_phonetic_us": "/hɪz/",
+    "search_term": "pronoun/possessive-adjective/possessive-pronoun",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Posesivo (Pronombre)",
+    "definitions": [
+      {
+        "meaning": "Su / Sus (de él) (Determinante)",
+        "usage_example": "That is his car.",
+        "pronunciation_guide_es": "/dat_is_HIS_CAR/",
+        "usage_example_es": "Ese es su carro (el carro de él).",
+        "char_count": "4",
+        "usage_context_en": "The possessive determiner for 'he' (followed by a noun).",
+        "usage_context_es": "El determinante posesivo para 'él' (seguido de un sustantivo).",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_7_def0.avif"
+      },
+      {
+        "meaning": "Suyo / Suyos (de él) (Pronombre)",
+        "usage_example": "The red car is his.",
+        "pronunciation_guide_es": "/de_RED_CAR_is_HIS/",
+        "usage_example_es": "El carro rojo es suyo (de él).",
+        "char_count": "5",
+        "usage_context_en": "The possessive pronoun for 'he'. (It is not followed by a noun).",
+        "usage_context_es": "El pronombre posesivo para 'él'. (No va seguido de un sustantivo).",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_7_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Tratamiento (médico)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "treatment",
+        "usage_example": "Él está recibiendo tratamiento para el cáncer.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He is receiving treatment for cancer.",
+        "char_count": "6",
+        "usage_context_en": "Medical care given to a patient for an illness or injury.",
+        "usage_context_es": "Atención médica dada a un paciente por una enfermedad o lesión.",
+        "imagePath": "/card_images/nouns/3-advanced/health/3-advanced_health_card_0_def0.avif",
+        "target_meaning_es": "Tratamiento (médico)"
+      },
+      {
+        "meaning": "treatment",
+        "usage_example": "Su trato hacia sus empleados es malo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "His treatment of his employees is bad.",
+        "char_count": "7",
+        "usage_context_en": "The way one behaves toward or deals with someone or something.",
+        "usage_context_es": "La forma en que uno se comporta o trata a alguien o algo.",
+        "imagePath": "/card_images/nouns/3-advanced/health/3-advanced_health_card_0_def1.avif",
+        "target_meaning_es": "Trato (hacia alguien)"
+      }
+    ],
+    "group_name": "General Concepts",
+    "category": ""
+  }
+]

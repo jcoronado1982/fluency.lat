@@ -1,0 +1,86 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "furthermore",
+        "phonetic": "/ˌfɜrðərˈmɔr/",
+        "spoken_phonetic_us": "/ˌfɜrðərˈmɔr/",
+        "search_term": "connector/addition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Además]",
+                "usage_example": "The house is beautiful. Furthermore, it's in a great location.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE furthermore AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The house is beautiful. Furthermore, it's in a great location.]",
+                "char_count": "11",
+                "usage_context_en": "[TRADUCIR AL FR: En adición; además.]",
+                "usage_context_es": "In addition; besides.",
+                "imagePath": "/card_images/connectors/2-intermediate/2-intermediate_card_4_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "moreover",
+        "phonetic": "/mɔrˈoʊvər/",
+        "spoken_phonetic_us": "/mɔrˈoʊvər/",
+        "search_term": "adverb/addition/formal",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Además / Es más (formal)]",
+                "usage_example": "The plan is risky. Moreover, it is expensive.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE moreover AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The plan is risky. Moreover, it is expensive.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL FR: Como un punto adicional; además (usado para añadir un punto más fuerte y relacionado).]",
+                "usage_context_es": "As a further matter; besides (used to add a stronger, related point).",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_4_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "that is",
+        "phonetic": "/ðæt ɪz/",
+        "spoken_phonetic_us": "/ðæt ɪz/",
+        "search_term": "phrase/clarification/formal",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Es decir (formal)]",
+                "usage_example": "The hotel is closed; that is, we cannot stay there.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE that is AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The hotel is closed; that is, we cannot stay there.]",
+                "char_count": "8",
+                "usage_context_en": "[TRADUCIR AL FR: Usado para explicar o especificar lo que se acaba de decir (a menudo abreviado como 'i.e.').]",
+                "usage_context_es": "Used to explain or specify what was just said (often abbreviated as 'i.e.').",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_28_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Clarification",
+        "category": ""
+    }
+]

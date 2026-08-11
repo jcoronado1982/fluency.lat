@@ -1,0 +1,259 @@
+.lp-image-showcase {
+    width: 100%;
+    margin-top: clamp(54px, 7vw, 92px);
+}
+
+.lp-image-showcase-heading {
+    width: min(100% - 40px, 780px);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lp-image-showcase-badge {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 18px;
+    border-radius: 999px;
+    border: 1px solid rgba(244,114,182,0.32);
+    background: rgba(244,114,182,0.04);
+    font-family: var(--font-family-body);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(244,114,182,0.92);
+}
+
+.lp-image-showcase-title {
+    margin: 0;
+    font-family: var(--font-family-display);
+    font-size: clamp(2.35rem, 5vw, 4.6rem);
+    font-weight: 700;
+    line-height: 1.02;
+    letter-spacing: -0.035em;
+    text-wrap: balance;
+    background: linear-gradient(105deg, #ffffff 8%, #f9a8d4 48%, #fb923c 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lp-image-showcase-subtitle {
+    max-width: 690px;
+    margin: 22px auto 0;
+    color: rgba(245, 245, 245, 0.74);
+    font-size: clamp(1rem, 1.65vw, 1.2rem);
+    line-height: 1.68;
+    text-wrap: balance;
+}
+
+.lp-image-carousel {
+    --lp-gallery-gap: 24px;
+    position: relative;
+    width: 100vw;
+    margin-top: clamp(32px, 4.2vw, 54px);
+    margin-left: calc(50% - 50vw);
+    padding: 0;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.lp-image-carousel::before,
+.lp-image-carousel::after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    width: clamp(28px, 7vw, 120px);
+    pointer-events: none;
+}
+
+.lp-image-carousel::before {
+    left: 0;
+    background: linear-gradient(90deg, #0d0509 0%, rgba(13, 5, 9, 0.76) 35%, transparent 100%);
+}
+
+.lp-image-carousel::after {
+    right: 0;
+    background: linear-gradient(270deg, #0d0509 0%, rgba(13, 5, 9, 0.76) 35%, transparent 100%);
+}
+
+.lp-image-carousel-row {
+    width: max-content;
+    min-width: 100%;
+}
+
+.lp-image-carousel-row + .lp-image-carousel-row {
+    margin-top: var(--lp-gallery-gap);
+}
+
+.lp-image-carousel-track {
+    display: flex;
+    width: max-content;
+    will-change: transform;
+    animation: lp-gallery-slide-left 58s linear infinite;
+}
+
+.lp-image-carousel-row--right .lp-image-carousel-track {
+    animation-name: lp-gallery-slide-right;
+    animation-duration: 64s;
+}
+
+.lp-image-carousel:hover .lp-image-carousel-track {
+    animation-play-state: paused;
+}
+
+.lp-image-carousel-group {
+    display: flex;
+    flex: none;
+    gap: var(--lp-gallery-gap);
+    padding-right: var(--lp-gallery-gap);
+}
+
+.lp-image-carousel-tile {
+    position: relative;
+    flex: 0 0 clamp(155px, 22vw, var(--lp-gallery-tile-width));
+    width: clamp(155px, 22vw, var(--lp-gallery-tile-width));
+    height: clamp(168px, 18vw, 256px);
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    border-radius: clamp(16px, 1.5vw, 24px);
+    background-color: rgba(255, 255, 255, 0.04);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.3);
+    transform: translateZ(0);
+    cursor: pointer;
+}
+
+.lp-image-carousel-tile:focus-visible {
+    outline: 3px solid rgba(244, 114, 182, 0.95);
+    outline-offset: 4px;
+}
+
+.lp-image-carousel-row--right .lp-image-carousel-tile {
+    height: clamp(184px, 20vw, 282px);
+}
+
+.lp-image-carousel-tile img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    user-select: none;
+    transition: transform 0.45s ease, filter 0.45s ease;
+}
+
+.lp-image-carousel-tile::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.1), transparent 34%, rgba(13, 5, 9, 0.08));
+}
+
+.lp-image-carousel-tile:hover img {
+    transform: scale(1.035);
+    filter: saturate(1.08) contrast(1.02);
+}
+
+@keyframes lp-gallery-slide-left {
+    from { transform: translate3d(0, 0, 0); }
+    to { transform: translate3d(-50%, 0, 0); }
+}
+
+@keyframes lp-gallery-slide-right {
+    from { transform: translate3d(-50%, 0, 0); }
+    to { transform: translate3d(0, 0, 0); }
+}
+
+.lp-image-showcase-cta {
+    display: flex;
+    justify-content: center;
+    margin-top: clamp(32px, 4.2vw, 54px);
+}
+
+.lp-image-showcase-cta .lp-btn::after {
+    content: '→';
+    margin-left: 9px;
+    font-size: 1.05em;
+    transition: transform 0.2s ease;
+}
+
+.lp-image-showcase-cta .lp-btn:hover::after {
+    transform: translateX(3px);
+}
+
+@media (max-width: 719px) {
+    .lp-image-showcase {
+        margin-top: 54px;
+    }
+
+    .lp-image-showcase-heading {
+        width: min(100% - 40px, 34rem);
+    }
+
+    .lp-image-showcase-badge {
+        margin-bottom: 14px;
+    }
+
+    .lp-image-showcase-cta {
+        margin-top: 30px;
+    }
+
+    .lp-image-showcase-title {
+        font-size: 2.15rem;
+        line-height: 1.06;
+    }
+
+    .lp-image-showcase-subtitle {
+        margin-top: 16px;
+        font-size: 0.94rem;
+        line-height: 1.58;
+    }
+
+    .lp-image-carousel {
+        --lp-gallery-gap: 24px;
+        margin-top: 30px;
+    }
+
+    .lp-image-carousel-tile {
+        flex-basis: var(--lp-gallery-tile-mobile-width);
+        width: var(--lp-gallery-tile-mobile-width);
+        height: clamp(156px, 42vw, 164px);
+        border-radius: 15px;
+    }
+
+    .lp-image-carousel-row--right .lp-image-carousel-tile {
+        height: clamp(172px, 46vw, 182px);
+    }
+
+    .lp-image-carousel-track {
+        animation-duration: 46s;
+    }
+
+    .lp-image-carousel-row--right .lp-image-carousel-track {
+        animation-duration: 52s;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .lp-image-carousel {
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    .lp-image-carousel::-webkit-scrollbar {
+        display: none;
+    }
+
+    .lp-image-carousel-track {
+        animation: none;
+    }
+
+    .lp-image-carousel-group[aria-hidden='true'] {
+        display: none;
+    }
+}

@@ -1,0 +1,626 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "believe",
+        "phonetic": "/bɪˈliːv/",
+        "spoken_phonetic_us": "/bɪˈliːv/",
+        "search_term": "verb/faith/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Creer (algo)]",
+                "usage_example": "Do you believe his story?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE believe AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Do you believe his story?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: verdad/fe]",
+                "usage_context_es": "truth/faith",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Tener fe/Confiar]",
+                "usage_example": "I believe in you.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE believe AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I believe in you.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: confianza/optimismo]",
+                "usage_context_es": "trust/optimism",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Mind & Senses",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "learn",
+        "phonetic": "/lɜːrn/",
+        "spoken_phonetic_us": "/lɜːrn/",
+        "search_term": "verb/acquire knowledge/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Aprender]",
+                "usage_example": "I want to learn English.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE learn AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I want to learn English.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: estudio/habilidades]",
+                "usage_context_es": "study/skills",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_58_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Enterarse de/Saber (información)]",
+                "usage_example": "I learned about the news this morning.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE learn AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I learned about the news this morning.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: información/experiencia]",
+                "usage_context_es": "information/experience",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_58_def1.avif"
+            }
+        ],
+        "group_name": "Mind & Senses",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "remember",
+        "phonetic": "/rɪˈmɛmbər/",
+        "spoken_phonetic_us": "/rɪˈmɛmbər/",
+        "search_term": "verb/recall/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Recordar]",
+                "usage_example": "I can't remember his name.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE remember AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I can't remember his name.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: memoria/tareas]",
+                "usage_context_es": "memory/tasks",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Tener en cuenta/Asegurarse]",
+                "usage_example": "Remember me to your family.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE remember AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Remember me to your family.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: saludos/pasado]",
+                "usage_context_es": "greetings/past",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Thinking & Deciding",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "consider",
+        "phonetic": "/kənˈsɪdər/",
+        "spoken_phonetic_us": "/kənˈsɪdər/",
+        "search_term": "verb/think about/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Considerar/Pensar en]",
+                "usage_example": "We should consider all options.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE consider AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: We should consider all options.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: opciones/decisiones]",
+                "usage_context_es": "options/decisions",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Creer/Juzgar]",
+                "usage_example": "I consider him a good friend.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE consider AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I consider him a good friend.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: juicio/reputación]",
+                "usage_context_es": "judgment/reputation",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Thinking & Deciding",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "expect",
+        "phonetic": "/ɪkˈspɛkt/",
+        "spoken_phonetic_us": "/ɪkˈspɛkt/",
+        "search_term": "verb/anticipate/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Esperar (que algo suceda)]",
+                "usage_example": "I expect a call from him soon.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE expect AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I expect a call from him soon.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: anticipación/puntualidad]",
+                "usage_context_es": "anticipation/punctuality",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_11_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Exigir (formal)]",
+                "usage_example": "What do you expect of me?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE expect AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: What do you expect of me?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: demanda/reembolso]",
+                "usage_context_es": "demand/refund",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_11_def1.avif"
+            }
+        ],
+        "group_name": "Thinking & Deciding",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "decide",
+        "phonetic": "/dɪˈsaɪd/",
+        "spoken_phonetic_us": "/dɪˈsaɪd/",
+        "search_term": "verb/choose/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Decidir/Resolver]",
+                "usage_example": "We need to decide quickly.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE decide AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: We need to decide quickly.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: tiempo/elección]",
+                "usage_context_es": "time/choice",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Determinar/Fallar (legal)]",
+                "usage_example": "The judge will decide the case.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE decide AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The judge will decide the case.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: ley/planes]",
+                "usage_context_es": "law/plans",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Thinking & Deciding",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "understand",
+        "phonetic": "/ˌʌndərˈstænd/",
+        "spoken_phonetic_us": "/ˌʌndərˈstænd/",
+        "search_term": "verb/comprehend/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Entender/Comprender]",
+                "usage_example": "I don't understand the question.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE understand AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I don't understand the question.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: comprensión/idioma]",
+                "usage_context_es": "comprehension/language",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Saber/Interpretar]",
+                "usage_example": "I understand you are busy.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE understand AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I understand you are busy.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: consciencia/empatía]",
+                "usage_context_es": "awareness/empathy",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Thinking & Deciding",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "choose",
+        "phonetic": "/ʧuːz/",
+        "spoken_phonetic_us": "/ʧuːz/",
+        "search_term": "verb/select/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Elegir/Escoger]",
+                "usage_example": "You have to choose one option.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE choose AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: You have to choose one option.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: decisión/selección]",
+                "usage_context_es": "decision/selection",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Decidir/Preferir]",
+                "usage_example": "She chose to stay home.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE choose AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: She chose to stay home.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: acción/preferencia]",
+                "usage_context_es": "action/preference",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Thinking & Deciding",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "forget",
+        "phonetic": "/fərˈɡɛt/",
+        "spoken_phonetic_us": "/fərˈɡɛt/",
+        "search_term": "verb/omit memory/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Olvidar]",
+                "usage_example": "I always forget his birthday.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE forget AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I always forget his birthday.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: memoria/tareas]",
+                "usage_context_es": "memory/tasks",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Dejar de pensar en]",
+                "usage_example": "I can't forget what she said.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE forget AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I can't forget what she said.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: eventos pasados/acciones]",
+                "usage_context_es": "past events/actions",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Thinking & Deciding",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "realize",
+        "phonetic": "/ˈriːəlaɪz/",
+        "spoken_phonetic_us": "/ˈriːəlaɪz/",
+        "search_term": "verb/understand suddenly/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Darse cuenta de]",
+                "usage_example": "I suddenly realized I forgot my keys.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE realize AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I suddenly realized I forgot my keys.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: conciencia/comprensión]",
+                "usage_context_es": "awareness/understanding",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Cumplir/Hacer realidad (un sueño)]",
+                "usage_example": "She finally realized her dream of traveling.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE realize AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: She finally realized her dream of traveling.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: logro/sueños]",
+                "usage_context_es": "achievement/dreams",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Thinking & Deciding",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "guess",
+        "phonetic": "/ɡɛs/",
+        "spoken_phonetic_us": "/ɡɛs/",
+        "search_term": "verb/suppose/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Adivinar]",
+                "usage_example": "Can you guess my age?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE guess AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Can you guess my age?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: preguntas/respuestas]",
+                "usage_context_es": "questions/answers",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_53_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Suponer/Creer (informal)]",
+                "usage_example": "I guess it will rain tomorrow.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE guess AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I guess it will rain tomorrow.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: opinión/suposición]",
+                "usage_context_es": "opinion/supposition",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_53_def1.avif"
+            }
+        ],
+        "group_name": "Thinking & Deciding",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "wonder",
+        "phonetic": "/ˈwʌndər/",
+        "spoken_phonetic_us": "/ˈwʌndər/",
+        "search_term": "verb/ask oneself/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Preguntarse/Querer saber]",
+                "usage_example": "I wonder why he is late.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE wonder AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I wonder why he is late.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: curiosidad/duda]",
+                "usage_context_es": "curiosity/doubt",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_54_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Maravillarse/Asombrarse]",
+                "usage_example": "I wonder at her ability to stay calm.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE wonder AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I wonder at her ability to stay calm.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: admiración/asombro]",
+                "usage_context_es": "admiration/awe",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_54_def1.avif"
+            }
+        ],
+        "group_name": "Thinking & Deciding",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "recognize",
+        "phonetic": "/ˈrɛkəɡnaɪz/",
+        "spoken_phonetic_us": "/ˈrɛkəɡnaɪz/",
+        "search_term": "verb/identify/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Reconocer (identificar)]",
+                "usage_example": "I didn't recognize you with the new haircut.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE recognize AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I didn't recognize you with the new haircut.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: identidad/memoria]",
+                "usage_context_es": "identity/memory",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Reconocer (aceptar, admitir)]",
+                "usage_example": "We must recognize the problem.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE recognize AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: We must recognize the problem.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL FR: aceptación/oficial]",
+                "usage_context_es": "acceptance/official",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Thinking & Deciding",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "doubt",
+        "phonetic": "/daʊt/",
+        "spoken_phonetic_us": "/daʊt/",
+        "search_term": "verb/be unsure/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Dudar (no estar seguro)]",
+                "usage_example": "I doubt he will come.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE doubt AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I doubt he will come.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: incertidumbre/creencia]",
+                "usage_context_es": "uncertainty/belief",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Cuestionar]",
+                "usage_example": "Never doubt your abilities.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE doubt AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Never doubt your abilities.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: confianza/confianza]",
+                "usage_context_es": "confidence/trust",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Thinking & Deciding",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "plan",
+        "phonetic": "/plæn/",
+        "spoken_phonetic_us": "/plæn/",
+        "search_term": "verb/organize/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Planear/Planificar]",
+                "usage_example": "We are planning a trip to the coast.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE plan AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: We are planning a trip to the coast.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: futuro/viaje]",
+                "usage_context_es": "future/travel",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_59_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Tener la intención de]",
+                "usage_example": "I plan to study more this year.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE plan AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I plan to study more this year.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: intención/estrategia]",
+                "usage_context_es": "intention/strategy",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_59_def1.avif"
+            }
+        ],
+        "group_name": "Thinking & Deciding",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "worry",
+        "phonetic": "/ˈwɜːri/",
+        "spoken_phonetic_us": "/ˈwɜːri/",
+        "search_term": "verb/be anxious/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Preocuparse]",
+                "usage_example": "Don't worry about me.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE worry AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Don't worry about me.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: ansiedad/tranquilizar]",
+                "usage_context_es": "anxiety/reassurance",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_78_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Molestar/Inquietar]",
+                "usage_example": "Does the noise worry you?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE worry AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Does the noise worry you?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: molestia/preocupación]",
+                "usage_context_es": "bother/concern",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_78_def1.avif"
+            }
+        ],
+        "group_name": "Thinking & Deciding",
+        "category": ""
+    }
+]

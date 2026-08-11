@@ -1,0 +1,142 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/3-advanced/science/3-advanced_science_card_0_def0.avif",
+        "meaning": "Sensación (física)",
+        "pronunciation_guide_es": "/ai_HAV_a_TING-gling_sen-SEI-shon/",
+        "usage_context_en": "A physical feeling resulting from something that happens to or comes into contact with the body.",
+        "usage_context_es": "Un sentimiento físico resultante de algo que le sucede o entra en contacto con el cuerpo.",
+        "usage_example": "I have a tingling sensation.",
+        "usage_example_es": "Tengo una sensación de hormigueo."
+      },
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/science/3-advanced_science_card_0_def1.avif",
+        "meaning": "Sensación (conmoción)",
+        "pronunciation_guide_es": "/de_NIU_MU-vi_uas_a_sen-SEI-shon/",
+        "usage_context_en": "A widespread reaction of interest and excitement.",
+        "usage_context_es": "Una reacción generalizada de interés y emoción.",
+        "usage_example": "The new movie was a sensation.",
+        "usage_example_es": "La nueva película fue una sensación."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "sensation",
+    "phonetic": "/sɛnˈseɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/sɛnˈseɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/science/3-advanced_science_card_1_def0.avif",
+        "meaning": "Molécula",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A group of atoms joined together.",
+        "usage_context_es": "A group of atoms joined together.",
+        "usage_example": "A water molecule has three atoms.",
+        "usage_example_es": "Una molécula de agua tiene tres átomos."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "molecule",
+    "phonetic": "/ˈmɑlɪˌkjuːl/",
+    "search_term": "noun/science/added",
+    "spoken_phonetic_us": "/ˈmɑlɪˌkjuːl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/3-advanced/science/3-advanced_science_card_2_def0.avif",
+        "meaning": "Organismo",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "Any living thing.",
+        "usage_context_es": "Any living thing.",
+        "usage_example": "Every living organism needs energy.",
+        "usage_example_es": "Todo organismo vivo necesita energía."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "organism",
+    "phonetic": "/ˈɔrɡəˌnɪzəm/",
+    "search_term": "noun/science/added",
+    "spoken_phonetic_us": "/ˈɔrɡəˌnɪzəm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "imagePath": "/card_images/nouns/3-advanced/science/3-advanced_science_card_3_def0.avif",
+        "meaning": "Catalizador",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "Something that speeds up a reaction or event.",
+        "usage_context_es": "Something that speeds up a reaction or event.",
+        "usage_example": "The reform acted as a catalyst for change.",
+        "usage_example_es": "La reforma actuó como un catalizador del cambio."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "catalyst",
+    "phonetic": "/ˈkætəlɪst/",
+    "search_term": "noun/science/added",
+    "spoken_phonetic_us": "/ˈkætəlɪst/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/science/3-advanced_science_card_4_def0.avif",
+        "meaning": "Mutación",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A change in genes or structure.",
+        "usage_context_es": "A change in genes or structure.",
+        "usage_example": "The study examined a genetic mutation.",
+        "usage_example_es": "El estudio examinó una mutación genética."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "mutation",
+    "phonetic": "/mjuˈteɪʃən/",
+    "search_term": "noun/science/added",
+    "spoken_phonetic_us": "/mjuˈteɪʃən/"
+  }
+]

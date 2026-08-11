@@ -1,0 +1,333 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Persona",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/human/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "person",
+        "usage_example": "Es una buena persona.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He is a nice person.",
+        "char_count": "two",
+        "usage_context_en": "A human being",
+        "usage_context_es": "Un ser humano",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_0_def0.avif",
+        "target_meaning_es": "Persona"
+      }
+    ],
+    "group_name": "People",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Gente / Personas",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/human/plural/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "people",
+        "usage_example": "Hay mucha gente aquí.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "There are many people here.",
+        "char_count": "two",
+        "usage_context_en": "Plural of person",
+        "usage_context_es": "Plural de persona",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_1_def0.avif",
+        "target_meaning_es": "Gente / Personas"
+      }
+    ],
+    "group_name": "People",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Hombre",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/male/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "man",
+        "usage_example": "Ese hombre es mi padre.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "That man is my father.",
+        "char_count": "one",
+        "usage_context_en": "An adult male human",
+        "usage_context_es": "Un humano masculino adulto",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_2_def0.avif",
+        "target_meaning_es": "Hombre"
+      },
+      {
+        "meaning": "man",
+        "usage_example": "El ser humano siempre ha buscado el conocimiento.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Man has always sought knowledge.",
+        "char_count": "5",
+        "usage_context_en": "Refers to human beings collectively.",
+        "usage_context_es": "Se refiere a los seres humanos en conjunto.",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_2_def1.avif",
+        "target_meaning_es": "La humanidad / especie humana"
+      }
+    ],
+    "group_name": "People",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Mujer",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/female/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "woman",
+        "usage_example": "Ella es una mujer inteligente.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She is a smart woman.",
+        "char_count": "two",
+        "usage_context_en": "An adult female human",
+        "usage_context_es": "Una humana femenina adulta",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_3_def0.avif",
+        "target_meaning_es": "Mujer"
+      }
+    ],
+    "group_name": "People",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Niño / Niña",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/young person/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "child",
+        "usage_example": "El niño está jugando.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The child is playing.",
+        "char_count": "one",
+        "usage_context_en": "A young human being",
+        "usage_context_es": "Un ser humano joven",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_4_def0.avif",
+        "target_meaning_es": "Niño / Niña"
+      }
+    ],
+    "group_name": "Family",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Amigo / Amiga",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/people/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "friend",
+        "usage_example": "Ella es mi mejor amiga.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She is my best friend.",
+        "char_count": "one",
+        "usage_context_en": "A person you like and know well",
+        "usage_context_es": "Una persona que te agrada y conoces bien",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_5_def0.avif",
+        "target_meaning_es": "Amigo / Amiga"
+      }
+    ],
+    "group_name": "People",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Niño / Chico",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/male/child/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "boy",
+        "usage_example": "El niño está jugando.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The boy is playing.",
+        "char_count": "one",
+        "usage_context_en": "A male child",
+        "usage_context_es": "Un niño varón",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_6_def0.avif",
+        "target_meaning_es": "Niño / Chico"
+      }
+    ],
+    "group_name": "People",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Niña / Chica",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/female/child/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "girl",
+        "usage_example": "La niña está leyendo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The girl is reading.",
+        "char_count": "one",
+        "usage_context_en": "A female child",
+        "usage_context_es": "Una niña mujer",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_7_def0.avif",
+        "target_meaning_es": "Niña / Chica"
+      }
+    ],
+    "group_name": "People",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Vecino / Vecina",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/people/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "neighbor",
+        "usage_example": "Mi vecino es muy amigable.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "My neighbor is very friendly.",
+        "char_count": "two",
+        "usage_context_en": "A person who lives near you",
+        "usage_context_es": "Una persona que vive cerca de ti",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_8_def0.avif",
+        "target_meaning_es": "Vecino / Vecina"
+      }
+    ],
+    "group_name": "People",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Grupo",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "group",
+        "usage_example": "Un grupo de gente está esperando.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "A group of people is waiting.",
+        "char_count": "one",
+        "usage_context_en": "A number of people or things together",
+        "usage_context_es": "Un número de personas o cosas juntas",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_9_def0.avif",
+        "target_meaning_es": "Grupo"
+      }
+    ],
+    "group_name": "People",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Invitado / Huésped",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/person/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "guest",
+        "usage_example": "Tenemos un invitado esta noche.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "We have a guest tonight.",
+        "char_count": "one",
+        "usage_context_en": "A person visiting you or staying at a hotel",
+        "usage_context_es": "Una persona que te visita o se queda en un hotel",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_10_def0.avif",
+        "target_meaning_es": "Invitado / Huésped"
+      }
+    ],
+    "group_name": "People",
+    "category": ""
+  }
+]

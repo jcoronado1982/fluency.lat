@@ -1,0 +1,298 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Persona",
+        "pronunciation_guide_es": "/er_ist_AI-ne_NE-te_per-ZON/",
+        "usage_context_en": "A human being",
+        "usage_context_es": "Un ser humano",
+        "usage_example": "Er ist eine nette Person.",
+        "usage_example_es": "Es una buena persona.",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "People",
+    "is_verb": false,
+    "name": "die Person",
+    "phonetic": "/diː pɛʁˈzoːn/",
+    "search_term": "noun/human/essentials",
+    "spoken_phonetic_us": "/diː pɛʁˈzoːn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Gente / Personas",
+        "pronunciation_guide_es": "/hir_zint_FI-le_LOI-te/",
+        "usage_context_en": "Plural of person",
+        "usage_context_es": "Plural de persona",
+        "usage_example": "Hier sind viele Leute.",
+        "usage_example_es": "Hay mucha gente aquí.",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "People",
+    "is_verb": false,
+    "name": "die Leute",
+    "phonetic": "/diː ˈlɔɪtə/",
+    "search_term": "noun/human/plural/essentials",
+    "spoken_phonetic_us": "/diː ˈlɔɪtə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Hombre",
+        "pronunciation_guide_es": "/DI-zer_MAN_ist_main_FA-ter/",
+        "usage_context_en": "An adult male human",
+        "usage_context_es": "Un humano masculino adulto",
+        "usage_example": "Dieser Mann ist mein Vater.",
+        "usage_example_es": "Ese hombre es mi padre.",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_2_def0.avif"
+      },
+      {
+        "char_count": "5",
+        "meaning": "La humanidad / especie humana",
+        "pronunciation_guide_es": "/der_MENSH_hat_SHON_IM-mer_naj_VI-sen_ge-ZUCHT/",
+        "usage_context_en": "Refers to human beings collectively.",
+        "usage_context_es": "Se refiere a los seres humanos en conjunto.",
+        "usage_example": "Der Mensch hat schon immer nach Wissen gesucht.",
+        "usage_example_es": "El ser humano siempre ha buscado el conocimiento.",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_2_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "People",
+    "is_verb": false,
+    "name": "der Mann",
+    "phonetic": "/deːɐ man/",
+    "search_term": "noun/male/essentials",
+    "spoken_phonetic_us": "/deːɐ man/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Mujer",
+        "pronunciation_guide_es": "/zi_ist_AI-ne_KLU-ge_FRAU/",
+        "usage_context_en": "An adult female human",
+        "usage_context_es": "Una humana femenina adulta",
+        "usage_example": "Sie ist eine kluge Frau.",
+        "usage_example_es": "Ella es una mujer inteligente.",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "People",
+    "is_verb": false,
+    "name": "die Frau",
+    "phonetic": "/diː fʁaʊ/",
+    "search_term": "noun/female/essentials",
+    "spoken_phonetic_us": "/diː fʁaʊ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Niño / Niña",
+        "pronunciation_guide_es": "/das_KINT_SHPILT/",
+        "usage_context_en": "A young human being",
+        "usage_context_es": "Un ser humano joven",
+        "usage_example": "Das Kind spielt.",
+        "usage_example_es": "El niño está jugando.",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Family",
+    "is_verb": false,
+    "name": "das Kind",
+    "phonetic": "/das kɪnt/",
+    "search_term": "noun/young person/essentials",
+    "spoken_phonetic_us": "/das kɪnt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Amigo / Amiga",
+        "pronunciation_guide_es": "/zi_ist_MAI-ne_BES-te_FROIN-din/",
+        "usage_context_en": "A person you like and know well",
+        "usage_context_es": "Una persona que te agrada y conoces bien",
+        "usage_example": "Sie ist meine beste Freundin.",
+        "usage_example_es": "Ella es mi mejor amiga.",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "People",
+    "is_verb": false,
+    "name": "der Freund",
+    "phonetic": "/deːɐ fʁɔɪnt/",
+    "search_term": "noun/people/essentials",
+    "spoken_phonetic_us": "/deːɐ fʁɔɪnt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Niño / Chico",
+        "pronunciation_guide_es": "/der_YUN-ge_SHPILT/",
+        "usage_context_en": "A male child",
+        "usage_context_es": "Un niño varón",
+        "usage_example": "Der Junge spielt.",
+        "usage_example_es": "El niño está jugando.",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_6_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "People",
+    "is_verb": false,
+    "name": "der Junge",
+    "phonetic": "/deːɐ ˈjʊŋə/",
+    "search_term": "noun/male/child/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈjʊŋə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Niña / Chica",
+        "pronunciation_guide_es": "/das_MAET-shen_LIST/",
+        "usage_context_en": "A female child",
+        "usage_context_es": "Una niña mujer",
+        "usage_example": "Das Mädchen liest.",
+        "usage_example_es": "La niña está leyendo.",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "People",
+    "is_verb": false,
+    "name": "das Mädchen",
+    "phonetic": "/das ˈmɛːtçən/",
+    "search_term": "noun/female/child/essentials",
+    "spoken_phonetic_us": "/das ˈmɛːtçən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Vecino / Vecina",
+        "pronunciation_guide_es": "/main_NAJ-bar_ist_ZER_FROINT-lish/",
+        "usage_context_en": "A person who lives near you",
+        "usage_context_es": "Una persona que vive cerca de ti",
+        "usage_example": "Mein Nachbar ist sehr freundlich.",
+        "usage_example_es": "Mi vecino es muy amigable.",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_8_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "People",
+    "is_verb": false,
+    "name": "der Nachbar",
+    "phonetic": "/deːɐ ˈnaːxbaːɐ/",
+    "search_term": "noun/people/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈnaːxbaːɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Grupo",
+        "pronunciation_guide_es": "/AI-ne_GRU-pe_fon_MEN-shen_VAR-tet/",
+        "usage_context_en": "A number of people or things together",
+        "usage_context_es": "Un número de personas o cosas juntas",
+        "usage_example": "Eine Gruppe von Menschen wartet.",
+        "usage_example_es": "Un grupo de gente está esperando.",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "People",
+    "is_verb": false,
+    "name": "die Gruppe",
+    "phonetic": "/diː ˈɡʁʊpə/",
+    "search_term": "noun/essentials",
+    "spoken_phonetic_us": "/diː ˈɡʁʊpə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Invitado / Huésped",
+        "pronunciation_guide_es": "/vir_HA-ben_HOI-te_A-bent_AI-nen_GAST/",
+        "usage_context_en": "A person visiting you or staying at a hotel",
+        "usage_context_es": "Una persona que te visita o se queda en un hotel",
+        "usage_example": "Wir haben heute Abend einen Gast.",
+        "usage_example_es": "Tenemos un invitado esta noche.",
+        "imagePath": "/card_images/nouns/1-basic/people/1-basic_people_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "People",
+    "is_verb": false,
+    "name": "der Gast",
+    "phonetic": "/deːɐ ɡast/",
+    "search_term": "noun/person/essentials",
+    "spoken_phonetic_us": "/deːɐ ɡast/"
+  }
+]

@@ -1,0 +1,629 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "country",
+        "phonetic": "/ˈkʌntri/",
+        "spoken_phonetic_us": "/ˈkʌntri/",
+        "search_term": "noun/place/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: País / Campo]",
+                "usage_example": "Brazil is a large country.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE country AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Brazil is a large country.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: Una nación / Terreno fuera de las ciudades]",
+                "usage_context_es": "A nation / Land outside of cities",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_60_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Música country]",
+                "usage_example": "I like country music.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE country AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I like country music.]",
+                "char_count": "3",
+                "usage_context_en": "[TRADUCIR AL FR: Un estilo de música popular del sur de Estados Unidos.]",
+                "usage_context_es": "A style of popular music from the southern United States.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_60_def1.avif"
+            }
+        ],
+        "group_name": "Places",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "United States",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A major country in North America.]",
+                "usage_example": "The United States is in North America.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE United States AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The United States is in North America.]",
+                "char_count": "13",
+                "usage_context_en": "[TRADUCIR AL FR: Un país importante de América del Norte.]",
+                "usage_context_es": "A major country in North America.",
+                "imagePath": "/card_images/nouns/1-basic/seed_united_states.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Canada",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A large country north of the United States.]",
+                "usage_example": "Canada is in North America.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE Canada AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Canada is in North America.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Un país grande al norte de Estados Unidos.]",
+                "usage_context_es": "A large country north of the United States.",
+                "imagePath": "/card_images/nouns/1-basic/seed_canada.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Mexico",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A country south of the United States.]",
+                "usage_example": "Mexico is in North America.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE Mexico AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Mexico is in North America.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Un país al sur de Estados Unidos.]",
+                "usage_context_es": "A country south of the United States.",
+                "imagePath": "/card_images/nouns/1-basic/seed_mexico.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Brazil",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: The largest country in South America.]",
+                "usage_example": "Brazil is in South America.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE Brazil AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Brazil is in South America.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: El país más grande de América del Sur.]",
+                "usage_context_es": "The largest country in South America.",
+                "imagePath": "/card_images/nouns/1-basic/seed_brazil.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Argentina",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A major country in South America.]",
+                "usage_example": "Argentina is in South America.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE Argentina AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Argentina is in South America.]",
+                "char_count": "9",
+                "usage_context_en": "[TRADUCIR AL FR: Un país importante de América del Sur.]",
+                "usage_context_es": "A major country in South America.",
+                "imagePath": "/card_images/nouns/1-basic/seed_argentina.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Colombia",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A country in the northwest of South America.]",
+                "usage_example": "Colombia is in South America.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE Colombia AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Colombia is in South America.]",
+                "char_count": "8",
+                "usage_context_en": "[TRADUCIR AL FR: Un país del noroeste de América del Sur.]",
+                "usage_context_es": "A country in the northwest of South America.",
+                "imagePath": "/card_images/nouns/1-basic/seed_colombia.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Peru",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A country on the western side of South America.]",
+                "usage_example": "Peru is in South America.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE Peru AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Peru is in South America.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: Un país del lado occidental de América del Sur.]",
+                "usage_context_es": "A country on the western side of South America.",
+                "imagePath": "/card_images/nouns/1-basic/seed_peru.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Spain",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A country in southwestern Europe.]",
+                "usage_example": "Spain is in Europe.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE Spain AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Spain is in Europe.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Un país del suroeste de Europa.]",
+                "usage_context_es": "A country in southwestern Europe.",
+                "imagePath": "/card_images/nouns/1-basic/seed_spain.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "France",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A country in Western Europe.]",
+                "usage_example": "France is in Europe.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE France AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: France is in Europe.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Un país de Europa occidental.]",
+                "usage_context_es": "A country in Western Europe.",
+                "imagePath": "/card_images/nouns/1-basic/seed_france.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Germany",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A central European country.]",
+                "usage_example": "Germany is in Europe.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE Germany AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Germany is in Europe.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL FR: Un país de Europa central.]",
+                "usage_context_es": "A central European country.",
+                "imagePath": "/card_images/nouns/1-basic/seed_germany.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Italy",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A country in southern Europe.]",
+                "usage_example": "Italy is in Europe.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE Italy AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Italy is in Europe.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Un país del sur de Europa.]",
+                "usage_context_es": "A country in southern Europe.",
+                "imagePath": "/card_images/nouns/1-basic/seed_italy.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "United Kingdom",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: An island country in northwestern Europe.]",
+                "usage_example": "The United Kingdom is in Europe.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE United Kingdom AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: The United Kingdom is in Europe.]",
+                "char_count": "14",
+                "usage_context_en": "[TRADUCIR AL FR: Un país insular del noroeste de Europa.]",
+                "usage_context_es": "An island country in northwestern Europe.",
+                "imagePath": "/card_images/nouns/1-basic/seed_united_kingdom.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "China",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A large country in East Asia.]",
+                "usage_example": "China is in Asia.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE China AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: China is in Asia.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Un país grande de Asia oriental.]",
+                "usage_context_es": "A large country in East Asia.",
+                "imagePath": "/card_images/nouns/1-basic/seed_china.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Japan",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: An island country in East Asia.]",
+                "usage_example": "Japan is in Asia.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE Japan AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Japan is in Asia.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Un país insular de Asia oriental.]",
+                "usage_context_es": "An island country in East Asia.",
+                "imagePath": "/card_images/nouns/1-basic/seed_japan.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Russia",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A very large country across Europe and Asia.]",
+                "usage_example": "Russia spans Europe and Asia.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE Russia AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Russia spans Europe and Asia.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Un país muy grande entre Europa y Asia.]",
+                "usage_context_es": "A very large country across Europe and Asia.",
+                "imagePath": "/card_images/nouns/1-basic/seed_russia.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "India",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A major country in South Asia.]",
+                "usage_example": "India is in Asia.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE India AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: India is in Asia.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Un país importante del sur de Asia.]",
+                "usage_context_es": "A major country in South Asia.",
+                "imagePath": "/card_images/nouns/1-basic/seed_india.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "South Korea",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A country in East Asia.]",
+                "usage_example": "South Korea is in Asia.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE South Korea AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: South Korea is in Asia.]",
+                "char_count": "11",
+                "usage_context_en": "[TRADUCIR AL FR: Un país de Asia oriental.]",
+                "usage_context_es": "A country in East Asia.",
+                "imagePath": "/card_images/nouns/1-basic/seed_south_korea.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Australia",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A large country in Oceania.]",
+                "usage_example": "Australia is in Oceania.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE Australia AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Australia is in Oceania.]",
+                "char_count": "9",
+                "usage_context_en": "[TRADUCIR AL FR: Un país grande de Oceanía.]",
+                "usage_context_es": "A large country in Oceania.",
+                "imagePath": "/card_images/nouns/1-basic/seed_australia.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Egypt",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A country in North Africa.]",
+                "usage_example": "Egypt is in Africa.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE Egypt AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Egypt is in Africa.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Un país del norte de África.]",
+                "usage_context_es": "A country in North Africa.",
+                "imagePath": "/card_images/nouns/1-basic/seed_egypt.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Nigeria",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A large country in West Africa.]",
+                "usage_example": "Nigeria is in Africa.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE Nigeria AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Nigeria is in Africa.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL FR: Un país grande de África occidental.]",
+                "usage_context_es": "A large country in West Africa.",
+                "imagePath": "/card_images/nouns/1-basic/seed_nigeria.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "South Africa",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/countries/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: A country at the southern end of Africa.]",
+                "usage_example": "South Africa is in Africa.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE South Africa AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: South Africa is in Africa.]",
+                "char_count": "12",
+                "usage_context_en": "[TRADUCIR AL FR: Un país en el extremo sur de África.]",
+                "usage_context_es": "A country at the southern end of Africa.",
+                "imagePath": "/card_images/nouns/1-basic/seed_south_africa.avif"
+            }
+        ],
+        "group_name": "Countries",
+        "category": ""
+    }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Salud",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/body/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "health",
+        "usage_example": "La salud es muy importante.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Health is very important.",
+        "char_count": "one",
+        "usage_context_en": "The condition of your body",
+        "usage_context_es": "La condición de tu cuerpo",
+        "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_0_def0.avif",
+        "target_meaning_es": "Salud"
+      }
+    ],
+    "group_name": "General Concepts",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Dolor",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/feeling/body/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "pain",
+        "usage_example": "Siento un dolor en la pierna.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I feel a pain in my leg.",
+        "char_count": "one",
+        "usage_context_en": "The feeling you have when your body is hurt",
+        "usage_context_es": "El sentimiento que tienes cuando tu cuerpo está herido",
+        "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_1_def0.avif",
+        "target_meaning_es": "Dolor"
+      }
+    ],
+    "group_name": "Feelings",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Medicina / Medicamento",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/health-&-medicine/seed",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "medicine",
+        "usage_example": "Toma tu medicina después del almuerzo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Take your medicine after lunch.",
+        "char_count": "8",
+        "usage_context_en": "A substance used to treat illness.",
+        "usage_context_es": "Una sustancia usada para tratar una enfermedad.",
+        "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_2_def0.avif",
+        "target_meaning_es": "Medicina / Medicamento"
+      }
+    ],
+    "group_name": "Health & Medicine",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Paciente",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/health-&-medicine/seed",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "patient",
+        "usage_example": "El paciente está descansando.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The patient is resting.",
+        "char_count": "7",
+        "usage_context_en": "A person receiving medical care.",
+        "usage_context_es": "Una persona que recibe atención médica.",
+        "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_3_def0.avif",
+        "target_meaning_es": "Paciente"
+      }
+    ],
+    "group_name": "Health & Medicine",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Enfermedad",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/health-&-medicine/seed",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "illness",
+        "usage_example": "La enfermedad duró tres días.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The illness lasted three days.",
+        "char_count": "7",
+        "usage_context_en": "A condition of being sick.",
+        "usage_context_es": "La condición de estar enfermo.",
+        "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_4_def0.avif",
+        "target_meaning_es": "Enfermedad"
+      }
+    ],
+    "group_name": "Health & Medicine",
+    "category": ""
+  }
+]

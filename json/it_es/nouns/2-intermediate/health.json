@@ -1,0 +1,679 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Medicina (la ciencia)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Medicina (la ciencia)]",
+                "usage_example": "Ella está estudiando medicina.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Ella está estudiando medicina.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL IT: La ciencia o práctica del diagnóstico, tratamiento y prevención de enfermedades.]",
+                "usage_context_es": "La ciencia o práctica del diagnóstico, tratamiento y prevención de enfermedades.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_185_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL IT: Medicina / Medicamento]",
+                "usage_example": "¿Te tomaste tu medicina?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: ¿Te tomaste tu medicina?]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL IT: Un fármaco u otra preparación para el tratamiento o prevención de enfermedades.]",
+                "usage_context_es": "Un fármaco u otra preparación para el tratamiento o prevención de enfermedades.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_185_def1.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Medicamento / Fármaco",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Medicamento / Fármaco]",
+                "usage_example": "Este es un medicamento potente.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Este es un medicamento potente.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL IT: Un medicamento u otra sustancia que tiene un efecto fisiológico cuando se ingiere.]",
+                "usage_context_es": "Un medicamento u otra sustancia que tiene un efecto fisiológico cuando se ingiere.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_186_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL IT: Droga (ilegal)]",
+                "usage_example": "Fue arrestado por vender drogas.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Fue arrestado por vender drogas.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL IT: Una sustancia ilegal, a menudo adictiva, tomada por sus efectos narcóticos.]",
+                "usage_context_es": "Una sustancia ilegal, a menudo adictiva, tomada por sus efectos narcóticos.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_186_def1.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Receta (médica) / Fórmula",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Receta (médica) / Fórmula]",
+                "usage_example": "Necesito una receta para esto.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Necesito una receta para esto.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL IT: Una instrucción escrita por un médico que autoriza a un paciente a recibir un medicamento.]",
+                "usage_context_es": "Una instrucción escrita por un médico que autoriza a un paciente a recibir un medicamento.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_187_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Paciente",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Paciente]",
+                "usage_example": "El paciente se siente mejor.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: El paciente se siente mejor.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL IT: Una persona que recibe o está registrada para recibir tratamiento médico.]",
+                "usage_context_es": "Una persona que recibe o está registrada para recibir tratamiento médico.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_188_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Enfermedad (general / malestar)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Enfermedad (general / malestar)]",
+                "usage_example": "Se recuperó de su enfermedad.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Se recuperó de su enfermedad.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL IT: Una enfermedad o período de dolencia que afecta el cuerpo o la mente.]",
+                "usage_context_es": "Una enfermedad o período de dolencia que afecta el cuerpo o la mente.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_189_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Enfermedad (específica / diagnosticable)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Enfermedad (específica / diagnosticable)]",
+                "usage_example": "La enfermedad cardíaca es un problema serio.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: La enfermedad cardíaca es un problema serio.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL IT: Un trastorno específico de estructura o función en un organismo, a menudo con síntomas conocidos.]",
+                "usage_context_es": "Un trastorno específico de estructura o función en un organismo, a menudo con síntomas conocidos.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_190_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Dolor de cabeza",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Dolor de cabeza]",
+                "usage_example": "Tengo un terrible dolor de cabeza.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Tengo un terrible dolor de cabeza.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL IT: Un dolor continuo en la cabeza.]",
+                "usage_context_es": "Un dolor continuo en la cabeza.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_191_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Temperatura",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Temperatura]",
+                "usage_example": "La temperatura está alta hoy.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: La temperatura está alta hoy.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL IT: El grado de calor presente en una sustancia u objeto.]",
+                "usage_context_es": "El grado de calor presente en una sustancia u objeto.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_192_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL IT: Fiebre]",
+                "usage_example": "El bebé tiene fiebre.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: El bebé tiene fiebre.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL IT: Una temperatura corporal más alta de lo normal, generalmente un signo de enfermedad.]",
+                "usage_context_es": "Una temperatura corporal más alta de lo normal, generalmente un signo de enfermedad.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_192_def1.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Lesión / Herida",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Lesión / Herida]",
+                "usage_example": "Es una lesión grave.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Es una lesión grave.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL IT: Una instancia de ser dañado o lastimado.]",
+                "usage_context_es": "Una instancia de ser dañado o lastimado.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_193_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Herida (abierta / corte)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Herida (abierta / corte)]",
+                "usage_example": "Tiene una herida profunda en la pierna.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Tiene una herida profunda en la pierna.]",
+                "char_count": "8",
+                "usage_context_en": "[TRADUCIR AL IT: Una lesión al tejido vivo, especialmente una donde la piel está cortada o rota.]",
+                "usage_context_es": "Una lesión al tejido vivo, especialmente una donde la piel está cortada o rota.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_194_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Cerebro",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Cerebro]",
+                "usage_example": "Usa tu cerebro.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Usa tu cerebro.]",
+                "char_count": "3",
+                "usage_context_en": "[TRADUCIR AL IT: El órgano dentro de la cabeza que controla el pensamiento, la memoria y el movimiento.]",
+                "usage_context_es": "El órgano dentro de la cabeza que controla el pensamiento, la memoria y el movimiento.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_195_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Cirugía",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Cirugía]",
+                "usage_example": "Él necesita cirugía en la rodilla.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Él necesita cirugía en la rodilla.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL IT: Tratamiento médico en el que un doctor corta el cuerpo de alguien para reparar o quitar partes dañadas.]",
+                "usage_context_es": "Tratamiento médico en el que un doctor corta el cuerpo de alguien para reparar o quitar partes dañadas.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_196_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Cáncer",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Cáncer]",
+                "usage_example": "Ella está siendo tratada por cáncer.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Ella está siendo tratada por cáncer.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL IT: Una enfermedad grave causada por células anormales que crecen sin control.]",
+                "usage_context_es": "Una enfermedad grave causada por células anormales que crecen sin control.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_197_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Alergia",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/health/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Alergia]",
+                "usage_example": "Tengo alergia al polvo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Tengo alergia al polvo.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL IT: Una reacción negativa del cuerpo a una sustancia]",
+                "usage_context_es": "Una reacción negativa del cuerpo a una sustancia",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_345_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Síntoma",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/health/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Síntoma]",
+                "usage_example": "La fiebre es un síntoma.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: La fiebre es un síntoma.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL IT: Una señal de que algo está mal con tu salud]",
+                "usage_context_es": "Una señal de que algo está mal con tu salud",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_346_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Terapia",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/health/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Terapia]",
+                "usage_example": "Ella va a terapia semanalmente.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Ella va a terapia semanalmente.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL IT: Un tratamiento para una condición física o mental]",
+                "usage_context_es": "Un tratamiento para una condición física o mental",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_347_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Cita médica / Turno",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/health/work/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Cita médica / Turno]",
+                "usage_example": "Tengo una cita mañana.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Tengo una cita mañana.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL IT: Una reunión planificada con un médico o profesional]",
+                "usage_context_es": "Una reunión planificada con un médico o profesional",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_348_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Dieta",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/health/food/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Dieta]",
+                "usage_example": "Ella lleva una dieta saludable.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Ella lleva una dieta saludable.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL IT: El tipo de comida que una persona suele comer]",
+                "usage_context_es": "El tipo de comida que una persona suele comer",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_349_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Nutrición",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/health/food/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Nutrición]",
+                "usage_example": "Una buena nutrición te mantiene saludable.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Una buena nutrición te mantiene saludable.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL IT: El proceso de obtener la comida adecuada para la salud]",
+                "usage_context_es": "El proceso de obtener la comida adecuada para la salud",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_350_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Vitamina",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/health/food/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Vitamina]",
+                "usage_example": "La vitamina C ayuda al sistema inmune.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: La vitamina C ayuda al sistema inmune.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL IT: Una sustancia natural en los alimentos que tu cuerpo necesita]",
+                "usage_context_es": "Una sustancia natural en los alimentos que tu cuerpo necesita",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_351_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Salud mental",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/health/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Salud mental]",
+                "usage_example": "La salud mental es importante.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: La salud mental es importante.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL IT: El estado de tu bienestar emocional y psicológico]",
+                "usage_context_es": "El estado de tu bienestar emocional y psicológico",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_352_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Obesidad",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/health/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Obesidad]",
+                "usage_example": "La obesidad es un problema de salud.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: La obesidad es un problema de salud.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL IT: La condición de tener mucho sobrepeso]",
+                "usage_context_es": "La condición de tener mucho sobrepeso",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_353_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Discapacidad",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/health/society/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL IT: Discapacidad]",
+                "usage_example": "Él vive con una discapacidad.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE IT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL IT: Él vive con una discapacidad.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL IT: Una condición física o mental que limita a una persona]",
+                "usage_context_es": "Una condición física o mental que limita a una persona",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_354_def0.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "who",
+    "phonetic": "/huː/",
+    "spoken_phonetic_us": "/huː/",
+    "search_term": "pronoun/interrogative/relative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Interrogativo/Relativo",
+    "definitions": [
+      {
+        "meaning": "¿Quién / Quiénes?",
+        "usage_example": "Who is that person?",
+        "pronunciation_guide_es": "/HU_is_dat_PER-son/",
+        "usage_example_es": "¿Quién es esa persona?",
+        "char_count": "4",
+        "usage_context_en": "Used as an interrogative pronoun to ask about a person.",
+        "usage_context_es": "Usado como pronombre interrogativo para preguntar sobre una persona.",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_11_def0.avif"
+      },
+      {
+        "meaning": "Que / Quien / El cual (para personas)",
+        "usage_example": "The man who called me is here.",
+        "pronunciation_guide_es": "/de_MAN_hu_COLD_mi_is_HIR/",
+        "usage_example_es": "El hombre que me llamó está aquí.",
+        "char_count": "7",
+        "usage_context_en": "Used as a relative pronoun to introduce a clause about a person.",
+        "usage_context_es": "Usado como pronombre relativo para introducir una cláusula sobre una persona.",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_11_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "what",
+    "phonetic": "/wɒt/",
+    "spoken_phonetic_us": "/wʌt/",
+    "search_term": "pronoun/interrogative/relative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Interrogativo/Relativo",
+    "definitions": [
+      {
+        "meaning": "Qué / Cuál (pregunta)",
+        "usage_example": "What is your name?",
+        "pronunciation_guide_es": "/UAT_is_iur_NEIM/",
+        "usage_example_es": "¿Cuál es tu nombre?",
+        "char_count": "4",
+        "usage_context_en": "Used as an interrogative word to ask for information (open choice).",
+        "usage_context_es": "Usado como palabra interrogativa para pedir información (elección abierta).",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_14_def0.avif"
+      },
+      {
+        "meaning": "Lo que (pronombre relativo)",
+        "usage_example": "I don't know what to do.",
+        "pronunciation_guide_es": "/ai_DONT_NOU_uat_tu_DU/",
+        "usage_example_es": "No sé qué hacer. (No sé lo que debo hacer).",
+        "char_count": "6",
+        "usage_context_en": "Used as a relative pronoun to refer to 'the thing(s) that'.",
+        "usage_context_es": "Usado como pronombre relativo para referirse a 'la(s) cosa(s) que'.",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_14_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "which",
+    "phonetic": "/wɪtʃ/",
+    "spoken_phonetic_us": "/wɪtʃ/",
+    "search_term": "pronoun/interrogative/relative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Interrogativo/Relativo",
+    "definitions": [
+      {
+        "meaning": "¿Cuál / Cuáles?",
+        "usage_example": "Which color do you prefer?",
+        "pronunciation_guide_es": "/UICH_CO-lor_du_iu_pri-FER/",
+        "usage_example_es": "¿Cuál color prefieres?",
+        "char_count": "5",
+        "usage_context_en": "Used as an interrogative word to ask about a limited choice.",
+        "usage_context_es": "Usado como palabra interrogativa para preguntar sobre una elección limitada.",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_13_def0.avif"
+      },
+      {
+        "meaning": "Que / El cual / La cual",
+        "usage_example": "The car which is red is mine.",
+        "pronunciation_guide_es": "/de_CAR_uich_is_RED_is_MAIN/",
+        "usage_example_es": "El carro que es rojo es mío.",
+        "char_count": "7",
+        "usage_context_en": "Used as a relative pronoun to introduce a clause about a thing.",
+        "usage_context_es": "Usado como pronombre relativo para introducir una cláusula sobre una cosa.",
+        "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_13_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  }
+]

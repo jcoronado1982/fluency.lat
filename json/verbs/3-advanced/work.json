@@ -1,0 +1,407 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "implement",
+    "phonetic": "/ˈɪmpləmɛnt/",
+    "spoken_phonetic_us": "/ˈɪmpləmɛnt/",
+    "search_term": "verb/execute/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Implementar/Ejecutar",
+        "usage_example": "We need to implement the new plan immediately.",
+        "pronunciation_guide_es": "/ui_NID_tu_IMplement_de_NIU_PLAN_iMIdiatli/",
+        "alternative_example": "The company implemented new policies.",
+        "usage_example_es": "Necesitamos implementar el nuevo plan inmediatamente.",
+        "char_count": "three",
+        "usage_context_en": "plan/execution",
+        "usage_context_es": "plan/ejecución",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_12_def0.avif"
+      }
+    ],
+    "group_name": "Professional Action"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "consult",
+    "phonetic": "/kənˈsʌlt/",
+    "spoken_phonetic_us": "/kənˈsʌlt/",
+    "search_term": "verb/ask advice/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Consultar (pedir consejo)",
+        "usage_example": "You should consult a doctor.",
+        "pronunciation_guide_es": "/iu_shud_konSOLT_a_DOKtor/",
+        "alternative_example": "I need to consult with my lawyer.",
+        "usage_example_es": "Deberías consultar a un médico.",
+        "char_count": "two",
+        "usage_context_en": "advice/expert",
+        "usage_context_es": "consejo/experto",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_35_def0.avif"
+      }
+    ],
+    "group_name": "Professional Action"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "prioritize",
+    "phonetic": "/praɪˈɒrɪtaɪz/",
+    "spoken_phonetic_us": "/praɪˈɔːrətaɪz/",
+    "search_term": "verb/rank importance/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Priorizar/Dar prioridad",
+        "usage_example": "You must prioritize your tasks.",
+        "pronunciation_guide_es": "/iu_MAST_praiORitaiz_yor_TASKS/",
+        "alternative_example": "We prioritize customer satisfaction.",
+        "usage_example_es": "Debes priorizar tus tareas.",
+        "char_count": "five",
+        "usage_context_en": "importance/order",
+        "usage_context_es": "importancia/orden",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_38_def0.avif"
+      }
+    ],
+    "group_name": "Professional Action"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "delegate",
+    "phonetic": "/ˈdɛlɪɡeɪt/",
+    "spoken_phonetic_us": "/ˈdɛləɡeɪt/",
+    "search_term": "verb/assign task/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Delegar (asignar tareas)",
+        "usage_example": "A good manager knows how to delegate.",
+        "pronunciation_guide_es": "/a_GUD_MANayer_NOUS_JAU_tu_DELegeit/",
+        "alternative_example": "He delegated the responsibility to his assistant.",
+        "usage_example_es": "Un buen gerente sabe cómo delegar.",
+        "char_count": "three",
+        "usage_context_en": "work/responsibility",
+        "usage_context_es": "trabajo/responsabilidad",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_39_def0.avif"
+      }
+    ],
+    "group_name": "Professional Action"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "comply",
+    "phonetic": "/kəmˈplaɪ/",
+    "spoken_phonetic_us": "/kəmˈplaɪ/",
+    "search_term": "verb/obey/advanced",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Cumplir (con una regla, ley)",
+        "usage_example": "You must comply with the regulations.",
+        "pronunciation_guide_es": "/iu_MAST_komPLAI_uith_de_regiuLEIshons/",
+        "alternative_example": "The company failed to comply with the new law.",
+        "usage_example_es": "Debes cumplir con las regulaciones.",
+        "char_count": "two",
+        "usage_context_en": "obey/rules",
+        "usage_context_es": "obedecer/reglas",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_47_def0.avif"
+      }
+    ],
+    "group_name": "Professional Action"
+  },
+  {
+    "word": "collaborate",
+    "translation": "colaborar",
+    "example": "We will collaborate on this project.",
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The two companies collaborated on a new product.",
+        "char_count": "four",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_48_def0.avif",
+        "meaning": "Colaborar (trabajar en conjunto)",
+        "pronunciation_guide_es": "/ui_uil_koLABoreit_on_dis_PROyekt/",
+        "usage_context_en": "teamwork/projects",
+        "usage_context_es": "trabajo en equipo/proyectos",
+        "usage_example": "We will collaborate on this project.",
+        "usage_example_es": "Colaboraremos en este proyecto."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "collaborate",
+    "phonetic": "/kəˈlæbəreɪt/",
+    "search_term": "verb/work together/advanced",
+    "spoken_phonetic_us": "/kəˈlæbəreɪt/",
+    "group_name": "Professional & Business"
+  },
+  {
+    "word": "coordinate",
+    "translation": "coordinar",
+    "example": "She coordinates the marketing team.",
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "We need to coordinate our schedules.",
+        "char_count": "four",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_49_def0.avif",
+        "meaning": "Coordinar (organizar diferentes elementos)",
+        "pronunciation_guide_es": "/shi_koORdineits_de_MARketing_TIM/",
+        "usage_context_en": "management/logistics",
+        "usage_context_es": "gestión/logística",
+        "usage_example": "She coordinates the marketing team.",
+        "usage_example_es": "Ella coordina el equipo de marketing."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "coordinate",
+    "phonetic": "/koʊˈɔːrdɪneɪt/",
+    "search_term": "verb/organize/advanced",
+    "spoken_phonetic_us": "/koʊˈɔːrdɪneɪt/",
+    "group_name": "Professional & Business"
+  },
+  {
+    "word": "mediate",
+    "translation": "mediar",
+    "example": "The manager had to mediate the conflict.",
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "He mediates disputes between departments.",
+        "char_count": "three",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_50_def0.avif",
+        "meaning": "Mediar (intervenir en una disputa)",
+        "pronunciation_guide_es": "/de_MANayer_jad_tu_MIdieit_de_KONflikt/",
+        "usage_context_en": "conflict resolution/HR",
+        "usage_context_es": "resolución de conflictos/RRHH",
+        "usage_example": "The manager had to mediate the conflict.",
+        "usage_example_es": "El gerente tuvo que mediar en el conflicto."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "mediate",
+    "phonetic": "/ˈmiːdieɪt/",
+    "search_term": "verb/intervene/advanced",
+    "spoken_phonetic_us": "/ˈmiːdieɪt/",
+    "group_name": "Professional & Business"
+  },
+  {
+    "word": "allocate",
+    "translation": "asignar",
+    "example": "We need to allocate resources efficiently.",
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The committee allocated funds for the new project.",
+        "char_count": "three",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_51_def0.avif",
+        "meaning": "Asignar (distribuir recursos o fondos)",
+        "pronunciation_guide_es": "/ui_NID_tu_ALokeit_riSORses_iFISHentli/",
+        "usage_context_en": "budgeting/resources",
+        "usage_context_es": "presupuesto/recursos",
+        "usage_example": "We need to allocate resources efficiently.",
+        "usage_example_es": "Necesitamos asignar recursos de manera eficiente."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "allocate",
+    "phonetic": "/ˈæləkeɪt/",
+    "search_term": "verb/distribute/advanced",
+    "spoken_phonetic_us": "/ˈæləkeɪt/",
+    "group_name": "Professional & Business"
+  },
+  {
+    "word": "execute",
+    "translation": "ejecutar",
+    "example": "They failed to execute the plan properly.",
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "We are ready to execute the new strategy.",
+        "char_count": "three",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_52_def0.avif",
+        "meaning": "Ejecutar (llevar a cabo una acción o plan)",
+        "pronunciation_guide_es": "/dei_FEILD_tu_EKsekiut_de_PLAN_PROperli/",
+        "usage_context_en": "implementation/action",
+        "usage_context_es": "implementación/acción",
+        "usage_example": "They failed to execute the plan properly.",
+        "usage_example_es": "Fallaron en ejecutar el plan correctamente."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "execute",
+    "phonetic": "/ˈɛksɪkjuːt/",
+    "search_term": "verb/carry out/advanced",
+    "spoken_phonetic_us": "/ˈɛksɪkjuːt/",
+    "group_name": "Professional & Business"
+  },
+  {
+    "word": "strategize",
+    "translation": "crear estrategias",
+    "example": "The board met to strategize for the next quarter.",
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "We must strategize before entering a new market.",
+        "char_count": "three",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_53_def0.avif",
+        "meaning": "Idear estrategias (planear a futuro)",
+        "pronunciation_guide_es": "/de_BORD_MET_tu_STRATeyaiz_for_de_NEKST_KUORter/",
+        "usage_context_en": "planning/leadership",
+        "usage_context_es": "planificación/liderazgo",
+        "usage_example": "The board met to strategize for the next quarter.",
+        "usage_example_es": "La junta se reunió para idear estrategias para el próximo trimestre."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "strategize",
+    "phonetic": "/ˈstrætədʒaɪz/",
+    "search_term": "verb/plan/advanced",
+    "spoken_phonetic_us": "/ˈstrætədʒaɪz/",
+    "group_name": "Professional & Business"
+  },
+  {
+    "word": "benchmark",
+    "translation": "evaluar / tomar como referencia",
+    "example": "We benchmark our performance against competitors.",
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "They benchmarked the system to ensure quality.",
+        "char_count": "two",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_54_def0.avif",
+        "meaning": "Evaluar/Comparar (usando un estándar de referencia)",
+        "pronunciation_guide_es": "/ui_BENCHmark_aur_perFORmans_aGUENST_komPEtitors/",
+        "usage_context_en": "evaluation/standards",
+        "usage_context_es": "evaluación/estándares",
+        "usage_example": "We benchmark our performance against competitors.",
+        "usage_example_es": "Evaluamos nuestro rendimiento en comparación con la competencia."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "benchmark",
+    "phonetic": "/ˈbɛntʃmɑːrk/",
+    "search_term": "verb/standardize/advanced",
+    "spoken_phonetic_us": "/ˈbɛntʃmɑːrk/",
+    "group_name": "Professional & Business"
+  },
+  {
+    "word": "outsource",
+    "translation": "subcontratar",
+    "example": "Many companies outsource their IT services.",
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "We decided to outsource the payroll process.",
+        "char_count": "two",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_55_def0.avif",
+        "meaning": "Subcontratar / Tercerizar",
+        "pronunciation_guide_es": "/MENi_KOMpanis_AUTsors_der_AI_TI_SERvises/",
+        "usage_context_en": "business/contracts",
+        "usage_context_es": "negocios/contratos",
+        "usage_example": "Many companies outsource their IT services.",
+        "usage_example_es": "Muchas empresas subcontratan sus servicios de TI."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "outsource",
+    "phonetic": "/ˈaʊtsɔːrs/",
+    "search_term": "verb/contract out/advanced",
+    "spoken_phonetic_us": "/ˈaʊtsɔːrs/",
+    "group_name": "Professional & Business"
+  },
+  {
+    "word": "streamline",
+    "translation": "optimizar / simplificar",
+    "example": "We must streamline our production process.",
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The new software streamlines data entry.",
+        "char_count": "two",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_56_def0.avif",
+        "meaning": "Optimizar/Agilizar (hacer más eficiente un proceso)",
+        "pronunciation_guide_es": "/ui_MAST_STRIMlain_aur_proDUKshan_PROses/",
+        "usage_context_en": "efficiency/operations",
+        "usage_context_es": "eficiencia/operaciones",
+        "usage_example": "We must streamline our production process.",
+        "usage_example_es": "Debemos optimizar nuestro proceso de producción."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "streamline",
+    "phonetic": "/ˈstriːmlaɪn/",
+    "search_term": "verb/make efficient/advanced",
+    "spoken_phonetic_us": "/ˈstriːmlaɪn/",
+    "group_name": "Professional & Business"
+  },
+  {
+    "word": "audit",
+    "translation": "auditar",
+    "example": "The firm will audit our financial records.",
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "They are auditing the safety protocols today.",
+        "char_count": "two",
+        "imagePath": "/card_images/verbs/3-advanced/3-advanced_card_57_def0.avif",
+        "meaning": "Auditar (examinar cuentas, registros o procesos)",
+        "pronunciation_guide_es": "/de_FURM_uil_ODit_aur_faiNANshal_REkords/",
+        "usage_context_en": "accounting/inspection",
+        "usage_context_es": "contabilidad/inspección",
+        "usage_example": "The firm will audit our financial records.",
+        "usage_example_es": "La firma auditará nuestros registros financieros."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "audit",
+    "phonetic": "/ˈɔːdɪt/",
+    "search_term": "verb/inspect/advanced",
+    "spoken_phonetic_us": "/ˈɔːdɪt/",
+    "group_name": "Professional & Business"
+  }
+]

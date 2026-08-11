@@ -1,0 +1,164 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "because",
+        "phonetic": "/bɪˈkɔz/",
+        "spoken_phonetic_us": "/bɪˈkɔz/",
+        "search_term": "conjunction/reason",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Porque]",
+                "usage_example": "I am tired because I worked a lot.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE because AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I am tired because I worked a lot.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para introducir una razón o causa.]",
+                "usage_context_es": "Used to introduce a reason or cause.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_19_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "but",
+        "phonetic": "/bʌt/",
+        "spoken_phonetic_us": "/bʌt/",
+        "search_term": "conjunction/contrast",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Pero]",
+                "usage_example": "I like coffee, but I prefer tea.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE but AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I like coffee, but I prefer tea.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para introducir una frase o cláusula que contrasta con lo que ya se ha dicho.]",
+                "usage_context_es": "Used to introduce a phrase or clause contrasting with what has already been said.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_6_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Contrast",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "so",
+        "phonetic": "/soʊ/",
+        "spoken_phonetic_us": "/soʊ/",
+        "search_term": "conjunction/result",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Así que / Por lo tanto]",
+                "usage_example": "I worked a lot, so I am tired.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE so AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I worked a lot, so I am tired.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para introducir un resultado o consecuencia.]",
+                "usage_context_es": "Used to introduce a result or consequence.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_20_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Para que]",
+                "usage_example": "I am saving money so I can buy a car.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE so AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I am saving money so I can buy a car.]",
+                "char_count": "9",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para mostrar propósito (a menudo 'so that').]",
+                "usage_context_es": "Used to show purpose (often 'so that').",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_20_def1.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Tan / Muy]",
+                "usage_example": "He is so tall.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE so AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He is so tall.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Un intensificador que significa 'muy' o 'a este grado'.]",
+                "usage_context_es": "An intensifier meaning 'very' or 'to this degree'.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_20_def2.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "if",
+        "phonetic": "/ɪf/",
+        "spoken_phonetic_us": "/ɪf/",
+        "search_term": "conjunction/condition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Si (condicional)]",
+                "usage_example": "If it rains, I will stay home.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE if AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: If it rains, I will stay home.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para introducir una condición (algo que debe pasar primero).]",
+                "usage_context_es": "Used to introduce a condition (something that must happen first).",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_34_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Condition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "that's why",
+        "phonetic": "/ðæts waɪ/",
+        "spoken_phonetic_us": "/ðæts waɪ/",
+        "search_term": "phrase/result",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Por eso / Es por eso que]",
+                "usage_example": "He studied hard. That's why he passed.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE that's why AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He studied hard. That's why he passed.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Por esa razón (menos formal que 'therefore').]",
+                "usage_context_es": "For that reason (less formal than 'therefore').",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_25_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    }
+]

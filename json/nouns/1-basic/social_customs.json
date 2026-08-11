@@ -1,0 +1,158 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Fiesta",
+        "pronunciation_guide_es": "/ar_iu_GOUing_tu_de_PARTi/",
+        "usage_context_en": "A social event for celebration",
+        "usage_context_es": "Un evento social para celebrar",
+        "usage_example": "Are you going to the party?",
+        "usage_example_es": "¿Vas a ir a la fiesta?",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_171_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "party",
+    "phonetic": "/ˈpɑːrti/",
+    "search_term": "noun/event/essentials",
+    "spoken_phonetic_us": "/ˈpɑːrti/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Regalo / Don",
+        "pronunciation_guide_es": "/THANK_iu_for_de_GIFT/",
+        "usage_context_en": "A present / A natural talent",
+        "usage_context_es": "Un presente / Un talento natural",
+        "usage_example": "Thank you for the gift.",
+        "usage_example_es": "Gracias por el regalo.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_394_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "gift",
+    "phonetic": "/ɡɪft/",
+    "search_term": "noun/object/essentials",
+    "spoken_phonetic_us": "/ɡɪft/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_395_def0.avif",
+        "meaning": "Regalo / Presente",
+        "pronunciation_guide_es": "/ai_JAV_a_PRESent_for_iu/",
+        "usage_context_en": "A gift / The time now",
+        "usage_context_es": "Un regalo / El tiempo actual",
+        "usage_example": "I have a present for you.",
+        "usage_example_es": "Tengo un regalo para ti."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "present",
+    "phonetic": "/ˈprɛzənt/",
+    "search_term": "noun/object/time/essentials",
+    "spoken_phonetic_us": "/ˈprɛzənt/"
+  },
+  {
+    "word": "birthday",
+    "translation": "cumpleaños",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "meaning": "The yearly anniversary of a person's birth.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "The yearly anniversary of a person's birth.",
+        "usage_context_es": "El aniversario anual del nacimiento de una persona.",
+        "usage_example": "We celebrated her birthday.",
+        "usage_example_es": "Celebramos su cumpleaños.",
+        "imagePath": "/card_images/nouns/1-basic/seed_birthday.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Society",
+    "is_verb": false,
+    "name": "birthday",
+    "phonetic": "",
+    "search_term": "noun/society/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "wedding",
+    "translation": "boda",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "meaning": "A ceremony where two people get married.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A ceremony where two people get married.",
+        "usage_context_es": "Una ceremonia donde dos personas se casan.",
+        "usage_example": "They went to a wedding on Saturday.",
+        "usage_example_es": "Fueron a una boda el sábado.",
+        "imagePath": "/card_images/nouns/1-basic/seed_wedding.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Society",
+    "is_verb": false,
+    "name": "wedding",
+    "phonetic": "",
+    "search_term": "noun/society/seed",
+    "spoken_phonetic_us": ""
+  },
+  {
+    "word": "holiday",
+    "translation": "festividad",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "meaning": "A special day of celebration or rest.",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A special day of celebration or rest.",
+        "usage_context_es": "Un día especial de celebración o descanso.",
+        "usage_example": "The town is busy during the holiday.",
+        "usage_example_es": "El pueblo está lleno durante la festividad.",
+        "imagePath": "/card_images/nouns/1-basic/seed_holiday.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Society",
+    "is_verb": false,
+    "name": "holiday",
+    "phonetic": "",
+    "search_term": "noun/society/seed",
+    "spoken_phonetic_us": ""
+  }
+]

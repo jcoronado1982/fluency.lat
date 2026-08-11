@@ -1,0 +1,431 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Reunirse/Encontrarse con",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/encounter/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Reunirse/Encontrarse con]",
+                "usage_example": "Encontrémonos en el café.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Encontrémonos en el café.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: social/cita]",
+                "usage_context_es": "social/cita",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Conocer (a una persona por primera vez)]",
+                "usage_example": "Encantado de conocerte.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Encantado de conocerte.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: presentación/conocido]",
+                "usage_context_es": "presentación/conocido",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Sugerir/Proponer",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/propose/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Sugerir/Proponer]",
+                "usage_example": "Sugiero que tomemos un descanso.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Sugiero que tomemos un descanso.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: descansos/recomendaciones]",
+                "usage_context_es": "descansos/recomendaciones",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Indicar/Insinuar]",
+                "usage_example": "La evidencia sugiere que es culpable.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: La evidencia sugiere que es culpable.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: pistas/implicación]",
+                "usage_context_es": "pistas/implicación",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Informar/Notificar",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/inform/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Informar/Notificar]",
+                "usage_example": "Por favor, informe cualquier problema al gerente.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Por favor, informe cualquier problema al gerente.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: problemas/noticias]",
+                "usage_context_es": "problemas/noticias",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Presentarse/Acudir]",
+                "usage_example": "Preséntese en la oficina a las 9 AM.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Preséntese en la oficina a las 9 AM.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: asistencia/deber]",
+                "usage_context_es": "asistencia/deber",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Explicar",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/clarify/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Explicar]",
+                "usage_example": "¿Puedes explicarme las reglas?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: ¿Puedes explicarme las reglas?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: reglas/razones]",
+                "usage_context_es": "reglas/razones",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Aclarar/Justificar]",
+                "usage_example": "Déjame explicar mi punto de vista.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Déjame explicar mi punto de vista.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: opinión/descripción]",
+                "usage_context_es": "opinión/descripción",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Hablar (un idioma, formalmente)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/talk/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Hablar (un idioma, formalmente)]",
+                "usage_example": "¿Hablas inglés?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: ¿Hablas inglés?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: idioma/formal]",
+                "usage_context_es": "idioma/formal",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Dar un discurso/Expresar]",
+                "usage_example": "Ella habló sobre sus experiencias.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ella habló sobre sus experiencias.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: discurso público/expresión]",
+                "usage_context_es": "discurso público/expresión",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Discutir/Debatir (un tema)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/talk about/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Discutir/Debatir (un tema)]",
+                "usage_example": "Necesitamos discutir el nuevo plan.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Necesitamos discutir el nuevo plan.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: temas/reuniones]",
+                "usage_context_es": "temas/reuniones",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_49_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Hablar sobre algo]",
+                "usage_example": "Hablemos sobre dónde ir a cenar.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Hablemos sobre dónde ir a cenar.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: conversación/decisiones]",
+                "usage_context_es": "conversación/decisiones",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_49_def1.avif"
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Describir",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/explain appearance/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Describir]",
+                "usage_example": "¿Puedes describir al hombre que viste?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: ¿Puedes describir al hombre que viste?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: apariencia/detalles]",
+                "usage_context_es": "apariencia/detalles",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Relatar]",
+                "usage_example": "El libro relata la historia de la ciudad.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El libro relata la historia de la ciudad.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: información/narración]",
+                "usage_context_es": "información/narración",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Prometer",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/assure/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Prometer]",
+                "usage_example": "Prometo que te llamaré más tarde.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Prometo que te llamaré más tarde.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: garantía/compromiso]",
+                "usage_context_es": "garantía/compromiso",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Dar indicios de]",
+                "usage_example": "El cielo despejado promete un buen día.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El cielo despejado promete un buen día.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: futuro/potencial]",
+                "usage_context_es": "futuro/potencial",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Feelings & Reactions",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Mencionar",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/refer to/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Mencionar]",
+                "usage_example": "¿Mencionó mi nombre?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: ¿Mencionó mi nombre?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: conversación/información]",
+                "usage_context_es": "conversación/información",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Hacer alusión a]",
+                "usage_example": "No hay de qué (expresión).",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: No hay de qué (expresión).]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: cortesía/referencia]",
+                "usage_context_es": "cortesía/referencia",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Pedir (en un restaurante, en línea)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/request/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Pedir (en un restaurante, en línea)]",
+                "usage_example": "¿Estás listo para pedir?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: ¿Estás listo para pedir?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: restaurante/comercio]",
+                "usage_context_es": "restaurante/comercio",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_68_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Ordenar/Mandar (dar una orden)]",
+                "usage_example": "El capitán ordenó a los soldados atacar.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El capitán ordenó a los soldados atacar.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: comando/secuencia]",
+                "usage_context_es": "comando/secuencia",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_68_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Practicar",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/rehearse/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Practicar]",
+                "usage_example": "Necesitas practicar todos los días.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Necesitas practicar todos los días.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: habilidad/repetición]",
+                "usage_context_es": "habilidad/repetición",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Ejercer (una profesión)]",
+                "usage_example": "Él ejerce la abogacía en Nueva York.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Él ejerce la abogacía en Nueva York.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: profesión/hábito]",
+                "usage_context_es": "profesión/hábito",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    }
+]

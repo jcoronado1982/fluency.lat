@@ -1,0 +1,86 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "size",
+        "phonetic": "/saɪz/",
+        "spoken_phonetic_us": "/saɪz/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Talla / Tamaño]",
+                "usage_example": "What size do you wear?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE size AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: What size do you wear?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Qué tan grande o pequeño es algo]",
+                "usage_context_es": "How large or small something is",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_284_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "age",
+        "phonetic": "/eɪʤ/",
+        "spoken_phonetic_us": "/eɪʤ/",
+        "search_term": "noun/concept/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Edad]",
+                "usage_example": "What is your age?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE age AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: What is your age?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Qué tan viejo es alguien]",
+                "usage_context_es": "How old someone is",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_285_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "level",
+        "phonetic": "/ˈlɛvəl/",
+        "spoken_phonetic_us": "/ˈlɛvəl/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Nivel]",
+                "usage_example": "The water level is high.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE level AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The water level is high.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una posición en una escala; una superficie plana]",
+                "usage_context_es": "A position on a scale; a flat surface",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_303_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    }
+]

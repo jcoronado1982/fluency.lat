@@ -1,0 +1,61 @@
+GEMINI vs OLLAMA EN REFINADO DE PROMPT DE IMAGEN — PRODUCCIÓN vs LOCAL
+Verificado: 2026-08-05
+Nota: architecture.png NO especifica proveedores de LLM (solo tiene una caja
+genérica "External Service Adapter (e.g., AI, etc.)"), así que no hay
+discrepancia en la imagen. El problema está en docs/modules/media-generation.md,
+que sí afirma un proveedor concreto (Ollama/Qwen) y no es exacto en ninguno de
+los dos entornos.
+
+docs/modules/media-generation.md dice que el refinado de prompt de imagen usa
+Ollama/Qwen — eso es incompleto/engañoso tanto en producción como en local.
+
+Código real: backend/api_main/src/infrastructure/ai/gemini_grpc_provider.rs,
+función improve_prompt_for_image (~línea 638-655).
+
+EN PRODUCCIÓN (is_production == true, detectado por DATABASE_URL sin
+localhost/127.0.0.1/db):
+- El motor de refinado se fija SIEMPRE en "gemini", ignorando la env var
+  FLASHCARD_PROMPT_ENGINE.
+- Llamada real: gRPC binario (protobuf) a generativelanguage.googleapis.com,
+  método /google.ai.generativelanguage.v1beta.GenerativeService/GenerateContent,
+  modelo "gemini-flash-lite-latest", auth por header x-goog-api-key
+  (GEMINI_API_KEY).
+- Ollama solo se usa como FALLBACK si esa llamada falla o la API key está
+  deshabilitada.
+- El mensaje de error visible dice "El generador local (Ollama/Qwen) falló o
+  no está iniciado" (mod_flashcards/src/image_use_cases.rs ~línea 619) —
+  engañoso en producción, porque el motor primario ahí no es Ollama.
+
+EN LOCAL (is_production == false):
+- El motor se decide por FLASHCARD_PROMPT_ENGINE (default "gemini" si no se
+  define — mismo default que producción, pero aquí SÍ se respeta la env var).
+- Solo si FLASHCARD_PROMPT_ENGINE=ollama (o "qwen3") se fuerza Ollama/Qwen
+  directo, sin pasar primero por Gemini.
+- Con el default ("gemini"), local hace lo mismo que producción: intenta
+  Gemini gRPC primero y cae a Ollama (query_ollama, misma clase, ~línea 229,
+  POST OLLAMA_URL/api/chat — default http://127.0.0.1:11434 —, modelo
+  qwen3.5:9b) solo si Gemini falla o la key está deshabilitada.
+
+CONCLUSIÓN
+La doc describe el caso de Ollama-forzado (FLASHCARD_PROMPT_ENGINE=ollama),
+que es una configuración explícita, no el comportamiento por defecto real ni
+en local ni en producción. docs/modules/media-generation.md §"Imágenes"
+punto 2 necesitaría actualizarse para reflejar esto.
+
+LOS DOS LLM DE GEMINI (AUDIO E IMÁGENES)
+
+1) AUDIO (TTS)
+   - Modelo: gemini-2.5-flash-preview-tts
+   - Endpoint: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent
+   - Protocolo: REST (generateContent)
+   - Auth: GEMINI_TTS_API_KEY (fallback GEMINI_API_KEY)
+   - Código: backend/api_main/src/infrastructure/ai/gemini_tts_provider.rs (~línea 194)
+
+2) IMÁGENES (render final, no el refinado de prompt)
+   - Modelo: gemini-3.1-flash-lite-image
+   - Endpoint: POST https://generativelanguage.googleapis.com/v1beta/interactions
+   - Protocolo: REST (Interactions API)
+   - Auth: GEMINI_API_KEY
+   - Código: backend/api_main/src/infrastructure/ai/gemini_interactions_image_provider.rs (~línea 133)
+   - Uso: landing demo (siempre) + atajo directo-Gemini para premium/admin en
+     producción (use_direct_gemini_prod, mod_flashcards/src/image_use_cases.rs:568)

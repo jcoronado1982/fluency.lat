@@ -1,0 +1,253 @@
+/* --- Estilos Base (Tus estilos) --- */
+.modal {
+  display: flex; /* Use flexbox to center content */
+  justify-content: center;
+  align-items: center;
+  position: fixed; /* Cover the whole screen */
+  z-index: 1000; /* Ensure it's on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100dvh;
+  overflow: auto;
+  padding: max(12px, env(safe-area-inset-top, 0px)) max(12px, env(safe-area-inset-right, 0px)) max(12px, env(safe-area-inset-bottom, 0px)) max(12px, env(safe-area-inset-left, 0px));
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+}
+
+.modalContent {
+  background-color: #fefefe; /* White background for the modal box */
+  padding: 20px 25px 25px 25px; /* Padding inside the modal */
+  border: 1px solid #888; /* Subtle border */
+  width: 90%; /* Responsive width */
+  max-width: 800px; /* Aumentamos el ancho para la cuadrícula */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Drop shadow */
+  position: relative; /* Needed for positioning the close button */
+  animation: fadeIn 0.3s ease-out; /* Apply fade-in animation */
+  box-sizing: border-box; /* Include padding in the width calculation */
+  
+  /* --- Modificaciones --- */
+  display: flex; /* Usamos flex para el layout interno */
+  flex-direction: column;
+  max-height: min(85dvh, calc(100dvh - 24px));
+}
+
+/* Simple fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95); /* Slight scale up */
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.closeButton {
+  color: #aaa; /* Light gray color */
+  font-size: 28px; /* Size of the 'x' */
+  font-weight: bold;
+  position: absolute; /* Position relative to modalContent */
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  line-height: 1; /* Prevent extra vertical space */
+  background: none; /* No button background */
+  border: none; /* No button border */
+  padding: 0; /* No button padding */
+}
+.closeButton:hover,
+.closeButton:focus {
+  color: #333; /* Darker color on hover/focus */
+  text-decoration: none;
+  outline: 2px solid rgba(244, 114, 182, 0.7);
+  outline-offset: 2px;
+}
+
+/* --- ¡NUEVOS ESTILOS AÑADIDOS! --- */
+
+/* Estilos para estados de carga y error */
+.loading, .error {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 40px;
+  color: #555;
+}
+.error {
+  color: #D32F2F;
+}
+
+/* Contenedor de las reglas con scroll */
+.rulesContainer {
+  overflow-y: auto; /* Habilita el scroll si el contenido es muy largo */
+  padding-right: 15px; /* Espacio para la barra de scroll */
+  margin-top: 20px; /* Espacio desde el botón de cerrar */
+}
+
+/* Bloque para cada regla (título + ejemplos) */
+.ruleBlock {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #eee;
+}
+.ruleBlock:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+/* Título de la regla (ej. "1. -tion / -sion") */
+.ruleTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: var(--font-family-app, 'Plus Jakarta Sans', system-ui, sans-serif);
+}
+
+.ruleText {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #f472b6;
+}
+
+.ruleSoundsLike {
+  font-size: 1.1em;
+  font-style: italic;
+  color: #28a745; /* Verde */
+  font-weight: 500;
+}
+
+/* Cuadrícula responsive para los botones de ejemplos */
+.examplesGrid {
+  display: grid;
+  /* Crea columnas automáticas:
+       - Mínimo 160px de ancho
+       - Máximo 1fr (ocupa el espacio disponible)
+       - Se ajustarán automáticamente */
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+/* --- ¡NUEVA ANIMACIÓN AÑADIDA! --- */
+@keyframes pulseAnimation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 123, 255, 0.5);
+    background-color: #e6f0ff; /* Light blue start */
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(0, 123, 255, 0.1);
+    background-color: #d0e8ff; /* Brighter blue pulse */
+  }
+  100% {
+    box-shadow: 0 0 0 0px rgba(0, 123, 255, 0.1);
+    background-color: #e6f0ff; /* Light blue end */
+  }
+}
+
+/* Botón individual para cada palabra de ejemplo */
+.exampleButton {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 1em;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.exampleButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-color: #007bff;
+}
+
+
+.exampleButton:disabled {
+  cursor: not-allowed;
+  background-color: #e9ecef;
+  color: #6c757d;
+  transform: none; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
+  border-color: #dee2e6; 
+}
+
+/* --- ¡NUEVA CLASE AÑADIDA! --- */
+/* Estilo para el botón que se está reproduciendo */
+/* Anula el .exampleButton:disabled genérico */
+.activeButton, .activeButton:disabled {
+  background-color: #e6f0ff; /* Un fondo azul claro */
+  border-color: #007bff; /* Borde azul */
+  color: #0056b3; /* Texto azul oscuro */
+  
+  /* Aplicamos la animación */
+  animation: pulseAnimation 1.5s infinite ease-out;
+  
+  /* Aseguramos que siga pareciendo deshabilitado */
+  cursor: not-allowed;
+  transform: none; /* Anulamos el hover */
+  box-shadow: none; /* Dejamos que la animación controle la sombra */
+}
+
+
+.audioIcon {
+  font-size: 1.2em;
+  margin-right: 10px;
+  width: 20px; /* Ancho fijo para el icono */
+  text-align: center;
+}
+
+.exampleTextContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.exampleText {
+  font-weight: 600;
+  color: #333;
+}
+
+.exampleIpa {
+  font-size: 0.9em;
+  color: #6c757d;
+  font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada para IPA */
+}
+
+@media (max-width: 600px) {
+  .modalContent {
+    width: min(96%, 800px);
+    padding: 16px 14px 18px;
+    border-radius: 12px;
+  }
+
+  .rulesContainer {
+    padding-right: 8px;
+    margin-top: 12px;
+  }
+
+  .ruleTitle {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .ruleText {
+    font-size: 1.1em;
+  }
+
+  .examplesGrid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .exampleButton {
+    padding: 10px;
+  }
+}

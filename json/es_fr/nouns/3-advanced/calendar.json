@@ -1,0 +1,58 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: agenda]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Agenda / Orden del día",
+                "usage_example": "[TRADUCIR AL FR: What is on the agenda today?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Qué hay en la agenda hoy?",
+                "char_count": "6",
+                "usage_context_en": "Una lista de temas a discutir en una reunión formal.",
+                "usage_context_es": "[TRADUCIR AL FR: A list of items to be discussed at a formal meeting.]",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_7_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: schedule]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Horario / Agenda / Programa",
+                "usage_example": "[TRADUCIR AL FR: What is your schedule for today?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Cuál es tu horario para hoy?",
+                "char_count": "6",
+                "usage_context_en": "Un plan para llevar a cabo un proceso, dando listas de eventos y horas previstas.",
+                "usage_context_es": "[TRADUCIR AL FR: A plan for carrying out a process or procedure, giving lists of intended events and times.]",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_102_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    }
+]

@@ -1,0 +1,342 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Decir (expresar con palabras)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/speech/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Decir (expresar con palabras)]",
+                "usage_example": "¿Qué dijiste?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: ¿Qué dijiste?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: diálogo/comunicación]",
+                "usage_context_es": "diálogo/comunicación",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_say_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Afirmar (establecer algo)]",
+                "usage_example": "El cartel dice 'Pare'.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El cartel dice 'Pare'.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: señales/información]",
+                "usage_context_es": "señales/información",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_say_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Hablar/Conversar",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/speak/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Hablar/Conversar]",
+                "usage_example": "Hablamos todos los días por teléfono.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Hablamos todos los días por teléfono.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: comunicación/diálogo]",
+                "usage_context_es": "comunicación/diálogo",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_39_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Charlar/Comentar]",
+                "usage_example": "No hables durante la película.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: No hables durante la película.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: discusión/charla]",
+                "usage_context_es": "discusión/charla",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_39_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Contar/Decir (informar a alguien)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/inform/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Contar/Decir (informar a alguien)]",
+                "usage_example": "Cuéntame una historia.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Cuéntame una historia.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: historias/información]",
+                "usage_context_es": "historias/información",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_16_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Ordenar/Distinguir]",
+                "usage_example": "¿Puedes notar la diferencia?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: ¿Puedes notar la diferencia?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: diferencia/instrucción]",
+                "usage_context_es": "diferencia/instrucción",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_16_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Preguntar",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/question/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Preguntar]",
+                "usage_example": "Pregúntale a tu profesor por ayuda.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Pregúntale a tu profesor por ayuda.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: preguntas/ayuda]",
+                "usage_context_es": "preguntas/ayuda",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_23_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Pedir (una cosa)]",
+                "usage_example": "Pedí un vaso de agua.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Pedí un vaso de agua.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: petición/demanda]",
+                "usage_context_es": "petición/demanda",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_23_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Llamar (por teléfono)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/name/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Llamar (por teléfono)]",
+                "usage_example": "Llámame más tarde.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Llámame más tarde.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: teléfono/comunicación]",
+                "usage_context_es": "teléfono/comunicación",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_22_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Llamar (nombrar)]",
+                "usage_example": "Lo llaman 'El Jefe'.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Lo llaman 'El Jefe'.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: nombrar/títulos]",
+                "usage_context_es": "nombrar/títulos",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_22_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Escribir (con un bolígrafo, etc.)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/compose/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Escribir (con un bolígrafo, etc.)]",
+                "usage_example": "Escribe tu nombre en el papel.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Escribe tu nombre en el papel.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: escritura/creación]",
+                "usage_context_es": "escritura/creación",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Componer (música, libro)]",
+                "usage_example": "Él está escribiendo un libro sobre historia.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Él está escribiendo un libro sobre historia.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: literatura/comunicación]",
+                "usage_context_es": "literatura/comunicación",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Leer (texto)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/literature/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Leer (texto)]",
+                "usage_example": "Leo un libro cada mes.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Leo un libro cada mes.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: libros/instrucciones]",
+                "usage_context_es": "libros/instrucciones",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Estudiar/Interpretar (formal)]",
+                "usage_example": "Él estudia derecho en la universidad.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Él estudia derecho en la universidad.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: estudio/datos]",
+                "usage_context_es": "estudio/datos",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Mostrar/Enseñar",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/display/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Mostrar/Enseñar]",
+                "usage_example": "Muéstrame tu teléfono nuevo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Muéstrame tu teléfono nuevo.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: objetos/demostración]",
+                "usage_context_es": "objetos/demostración",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_32_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Exhibir/Presentar]",
+                "usage_example": "Ella mostró su talento en el evento.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ella mostró su talento en el evento.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: talento/resultados]",
+                "usage_context_es": "talento/resultados",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_32_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Agradecer",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/speech/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Agradecer]",
+                "usage_example": "Quiero agradecerte por la cena.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Quiero agradecerte por la cena.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Decir gracias o expresar gratitud]",
+                "usage_context_es": "Decir gracias o expresar gratitud",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    }
+]

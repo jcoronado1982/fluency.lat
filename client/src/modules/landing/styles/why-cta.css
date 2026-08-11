@@ -1,0 +1,250 @@
+/* ── WHY ── */
+.lp-why {
+    padding: 0;
+    background: transparent;
+    position: relative;
+}
+
+.lp-why-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: var(--shell-content-max-width);
+    margin: 0 auto;
+    padding: 72px var(--lp-section-inline-padding, var(--shell-content-inline-padding)) 104px;
+}
+
+.lp-why-eyebrow {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 18px;
+    border-radius: 999px;
+    border: 1px solid rgba(244,114,182,0.32);
+    background: rgba(244,114,182,0.04);
+    font-family: var(--font-family-body);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(244,114,182,0.92);
+}
+
+.lp-why-title {
+    margin: 0 0 16px;
+    font-family: var(--font-family-display);
+    font-size: var(--lp-section-title-size);
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-variation-settings: 'opsz' 56;
+    letter-spacing: -0.03em;
+    text-align: center;
+    line-height: var(--lp-section-title-line);
+    color: var(--color-text-primary);
+    max-width: 24ch;
+    width: auto;
+    text-wrap: balance;
+    position: relative;
+    z-index: 1;
+}
+
+.lp-why-subtitle {
+    margin: 0 0 48px;
+    font-family: var(--font-family-body);
+    font-size: calc(1.25rem - 1px);
+    font-weight: 400;
+    color: rgba(245,245,245,0.85);
+    text-align: center;
+    line-height: 1.7;
+    max-width: 44rem;
+    text-wrap: balance;
+}
+
+.lp-why-grid-wrap {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.lp-why-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1px;
+    width: 100%;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 40px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.08);
+}
+
+.lp-why-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 24px;
+    background: rgba(8,4,10,0.65);
+    transition: background 0.2s;
+}
+
+.lp-why-card:hover {
+    background: rgba(244,114,182,0.03);
+}
+
+.lp-why-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.lp-why-card-icon svg {
+    font-size: 1.15rem;
+}
+
+.lp-why-card-icon--rose {
+    background: rgba(190,24,93,0.16);
+    border: 1px solid rgba(244,114,182,0.22);
+    box-shadow: 0 0 28px rgba(244,114,182,0.07);
+}
+
+.lp-why-card-icon--rose svg {
+    color: #f472b6;
+}
+
+.lp-why-card-icon--violet {
+    background: rgba(125,119,221,0.14);
+    border: 1px solid rgba(125,119,221,0.28);
+    box-shadow: 0 0 28px rgba(125,119,221,0.1);
+}
+
+.lp-why-card-icon--violet svg {
+    color: #a39cf0;
+}
+
+.lp-why-card-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.lp-why-card h3 {
+    margin: 0 0 8px;
+    font-family: var(--font-family-body);
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--color-text-primary);
+    line-height: 1.3;
+}
+
+.lp-why-card p {
+    margin: 0;
+    font-family: var(--font-family-body);
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(245,245,245,0.75);
+    line-height: 1.65;
+}
+
+/* CTA cola — mismo bloque, sin segunda sección */
+.lp-why-cta-tail {
+    width: 100%;
+    max-width: 720px;
+    margin-top: 80px;
+    padding-top: 64px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lp-why-cta-eyebrow {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 18px;
+    border-radius: 999px;
+    border: 1px solid rgba(244,114,182,0.32);
+    background: rgba(244,114,182,0.04);
+    font-family: var(--font-family-body);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(244,114,182,0.92);
+}
+
+.lp-why-cta-title {
+    margin: 0 0 16px;
+    font-family: var(--font-family-display);
+    font-size: var(--lp-cta-title-size);
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-variation-settings: 'opsz' 48;
+    letter-spacing: -0.03em;
+    line-height: var(--lp-section-title-line);
+    color: var(--color-text-primary);
+    width: auto;
+    max-width: 17ch;
+    text-wrap: balance;
+    text-shadow:
+        0 0 32px rgba(244, 114, 182, 0.32),
+        0 0 64px rgba(190, 24, 93, 0.2);
+}
+
+.lp-why-cta-sub {
+    margin: 0 0 32px;
+    font-family: var(--font-family-body);
+    color: rgba(245,245,245,0.85);
+    font-size: calc(1.25rem - 1px);
+    max-width: 36rem;
+    line-height: 1.7;
+    text-wrap: balance;
+}
+
+.lp-why-cta-tail .lp-btn--cta {
+    font-family: var(--font-family-body);
+    font-size: 1rem;
+    font-weight: 600;
+    min-height: 48px;
+    padding: 0.75rem 2rem;
+}
+
+.lp-why-cta-trust {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 20px;
+    font-family: var(--font-family-body);
+    font-size: calc(0.95rem - 1px);
+    font-weight: 500;
+    color: rgba(245,245,245,0.7);
+    flex-wrap: wrap;
+    justify-content: center;
+    letter-spacing: 0.02em;
+}
+
+.lp-why-cta-trust-sep {
+    opacity: 0.35;
+}
+
+/* ── Page loader theme ── */
+/* !important en background: la clase de tema empata en especificidad con el
+   fondo base del módulo PageLoader; el orden de import entre archivos no está
+   garantizado, así que el tema debe forzar. */
+.landing-page-loader {
+    --loader-accent: #be185d;
+    --loader-accent-2: #f472b6;
+    --loader-bg: #140810;
+    --loader-surface: rgba(30,12,22,0.96);
+    --loader-surface-2: rgba(20,8,16,0.98);
+    --loader-text: #f5f5f5;
+    --loader-muted: #94a3b8;
+    --loader-track: rgba(244,114,182,0.15);
+    background:
+        radial-gradient(circle at 50% 18%, rgba(190,24,93,0.18), transparent 22%),
+        radial-gradient(circle at 50% 78%, rgba(251,146,60,0.08), transparent 30%),
+        linear-gradient(175deg,#0d0509 0%,#140810 100%) !important;
+}

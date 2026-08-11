@@ -1,0 +1,322 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "mich selbst",
+    "phonetic": "/mɪç zɛlpst/",
+    "spoken_phonetic_us": "/mɪç zɛlpst/",
+    "search_term": "pronoun/reflexive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "definitions": [
+      {
+        "meaning": "Me / A mí mismo (Reflexivo)",
+        "usage_example": "Ich habe mich geschnitten.",
+        "pronunciation_guide_es": "/ish_HA-be_mish_ge-SHNI-ten/",
+        "usage_example_es": "Me corté.",
+        "char_count": "3",
+        "usage_context_en": "Used when the subject and object of the verb are the same (I).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (Yo).",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_0_def0.avif"
+      },
+      {
+        "meaning": "Yo mismo (Énfasis)",
+        "usage_example": "Ich habe es selbst gemacht.",
+        "pronunciation_guide_es": "/ish_HA-be_es_ZELPST_ge-MAJT/",
+        "usage_example_es": "Lo hice yo mismo.",
+        "char_count": "4",
+        "usage_context_en": "Used to add emphasis to the subject (I).",
+        "usage_context_es": "Usado para añadir énfasis al sujeto (Yo).",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_0_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "dich selbst",
+    "phonetic": "/dɪç zɛlpst/",
+    "spoken_phonetic_us": "/dɪç zɛlpst/",
+    "search_term": "pronoun/reflexive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "definitions": [
+      {
+        "meaning": "Te / Se / A ti mismo (Reflexivo)",
+        "usage_example": "Hast du dich verletzt?",
+        "pronunciation_guide_es": "/hast_du_dish_fer-LETST/",
+        "usage_example_es": "¿Te lastimaste?",
+        "char_count": "4",
+        "usage_context_en": "Used when the subject and object of the verb are the same (You).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (Tú/Usted).",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_1_def0.avif"
+      },
+      {
+        "meaning": "Tú mismo / Usted mismo (Énfasis)",
+        "usage_example": "Du kannst es selbst tun.",
+        "pronunciation_guide_es": "/du_kanst_es_ZELPST_TUN/",
+        "usage_example_es": "Puedes hacerlo tú mismo.",
+        "char_count": "5",
+        "usage_context_en": "Used to add emphasis to the subject (You).",
+        "usage_context_es": "Usado para añadir énfasis al sujeto (Tú/Usted).",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_1_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sich selbst",
+    "phonetic": "/zɪç zɛlpst/",
+    "spoken_phonetic_us": "/zɪç zɛlpst/",
+    "search_term": "pronoun/reflexive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "definitions": [
+      {
+        "meaning": "Se / A sí mismo (Reflexivo, masculino)",
+        "usage_example": "Er hat sich verletzt.",
+        "pronunciation_guide_es": "/er_hat_zish_fer-LETST/",
+        "usage_example_es": "Él se lastimó.",
+        "char_count": "3",
+        "usage_context_en": "Used when the subject and object of the verb are the same (He).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (Él).",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_2_def0.avif"
+      },
+      {
+        "meaning": "Él mismo (Énfasis)",
+        "usage_example": "Er hat es selbst gebaut.",
+        "pronunciation_guide_es": "/er_hat_es_ZELPST_ge-BAUT/",
+        "usage_example_es": "Él mismo lo construyó.",
+        "char_count": "4",
+        "usage_context_en": "Used to add emphasis to the subject (He).",
+        "usage_context_es": "Usado para añadir énfasis al sujeto (Él).",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_2_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sich selbst",
+    "phonetic": "/zɪç zɛlpst/",
+    "spoken_phonetic_us": "/zɪç zɛlpst/",
+    "search_term": "pronoun/reflexive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "definitions": [
+      {
+        "meaning": "Se / A sí misma (Reflexivo, femenino)",
+        "usage_example": "Sie brachte sich selbst bei, Klavier zu spielen.",
+        "pronunciation_guide_es": "/zi_BRAJ-te_zish_ZELPST_bai_kla-VIR_tsu_SHPI-len/",
+        "usage_example_es": "Ella se enseñó a sí misma a tocar el piano.",
+        "char_count": "3",
+        "usage_context_en": "Used when the subject and object of the verb are the same (She).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (Ella).",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_3_def0.avif"
+      },
+      {
+        "meaning": "Ella misma (Énfasis)",
+        "usage_example": "Sie hat es selbst gemacht.",
+        "pronunciation_guide_es": "/zi_hat_es_ZELPST_ge-MAJT/",
+        "usage_example_es": "Ella misma lo hizo.",
+        "char_count": "4",
+        "usage_context_en": "Used to add emphasis to the subject (She).",
+        "usage_context_es": "Usado para añadir énfasis al sujeto (Ella).",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_3_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "uns selbst",
+    "phonetic": "/ʊns zɛlpst/",
+    "spoken_phonetic_us": "/ʊns zɛlpst/",
+    "search_term": "pronoun/reflexive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "definitions": [
+      {
+        "meaning": "Nos / A nosotros mismos (Reflexivo)",
+        "usage_example": "Wir haben uns amüsiert.",
+        "pronunciation_guide_es": "/vir_HA-ben_uns_a-mue-ZIRT/",
+        "usage_example_es": "Nos divertimos (a nosotros mismos).",
+        "char_count": "3",
+        "usage_context_en": "Used when the subject and object of the verb are the same (We).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (Nosotros/as).",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_4_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sich selbst",
+    "phonetic": "/zɪç zɛlpst/",
+    "spoken_phonetic_us": "/zɪç zɛlpst/",
+    "search_term": "pronoun/reflexive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "definitions": [
+      {
+        "meaning": "Se / A sí mismos (Reflexivo)",
+        "usage_example": "Sie haben sich verletzt.",
+        "pronunciation_guide_es": "/zi_HA-ben_zish_fer-LETST/",
+        "usage_example_es": "Se lastimaron (a sí mismos).",
+        "char_count": "3",
+        "usage_context_en": "Used when the subject and object of the verb are the same (They).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (Ellos/Ellas).",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_5_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sich selbst",
+    "phonetic": "/zɪç zɛlpst/",
+    "spoken_phonetic_us": "/zɪç zɛlpst/",
+    "search_term": "pronoun/reflexive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "definitions": [
+      {
+        "meaning": "Se / A sí mismo (Reflexivo, neutro)",
+        "usage_example": "Die Maschine hat sich selbst repariert.",
+        "pronunciation_guide_es": "/di_ma-SHI-ne_hat_zish_ZELPST_re-pa-RIRT/",
+        "usage_example_es": "La máquina se arregló a sí misma.",
+        "char_count": "4",
+        "usage_context_en": "Used when the subject and object of the verb are the same (It).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (Ello/Cosa).",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_6_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "einander",
+    "phonetic": "/aɪˈnandɐ/",
+    "spoken_phonetic_us": "/aɪˈnandɐ/",
+    "search_term": "pronoun/reciprocal",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Recíproco",
+    "definitions": [
+      {
+        "meaning": "El uno al otro / Mutuamente (dos personas)",
+        "usage_example": "Meine Eltern lieben einander.",
+        "pronunciation_guide_es": "/MAI-ne_EL-tern_LI-ben_ai-NAN-der/",
+        "usage_example_es": "Mis padres se aman (el uno al otro).",
+        "char_count": "5",
+        "usage_context_en": "A reciprocal pronoun used when referring to two people or things.",
+        "usage_context_es": "Pronombre recíproco usado al referirse a dos personas o cosas.",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_7_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "einander",
+    "phonetic": "/aɪˈnandɐ/",
+    "spoken_phonetic_us": "/aɪˈnandɐ/",
+    "search_term": "pronoun/reciprocal",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Recíproco",
+    "definitions": [
+      {
+        "meaning": "Unos a otros / Mutuamente (más de dos)",
+        "usage_example": "Die Teammitglieder helfen einander.",
+        "pronunciation_guide_es": "/di_TIM-mit-gli-der_HEL-fen_ai-NAN-der/",
+        "usage_example_es": "Los miembros del equipo se ayudan unos a otros.",
+        "char_count": "6",
+        "usage_context_en": "A reciprocal pronoun used when referring to more than two people or things.",
+        "usage_context_es": "Pronombre recíproco usado al referirse a más de dos personas o cosas.",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_8_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "euch selbst",
+    "phonetic": "/ɔɪç zɛlpst/",
+    "spoken_phonetic_us": "/ɔɪç zɛlpst/",
+    "search_term": "pronoun/reflexive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Reflexivo",
+    "definitions": [
+      {
+        "meaning": "Se / A ustedes mismos (Reflexivo)",
+        "usage_example": "Habt ihr euch verletzt?",
+        "pronunciation_guide_es": "/HAPT_ir_OICH_fer-LETST/",
+        "usage_example_es": "¿Se lastimaron ustedes mismos?",
+        "char_count": "5",
+        "usage_context_en": "Used when the subject and object of the verb are the same (you plural).",
+        "usage_context_es": "Usado cuando el sujeto y el objeto del verbo son el mismo (ustedes/vosotros).",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_9_def0.avif"
+      },
+      {
+        "meaning": "Ustedes mismos / Vosotros mismos (Énfasis)",
+        "usage_example": "Ihr könnt es selbst tun.",
+        "pronunciation_guide_es": "/ir_KOENT_es_ZELPST_TUN/",
+        "usage_example_es": "Pueden hacerlo ustedes mismos.",
+        "char_count": "6",
+        "usage_context_en": "Used to add emphasis to the subject (you plural).",
+        "usage_context_es": "Usado para añadir énfasis al sujeto (ustedes/vosotros).",
+        "imagePath": "/card_images/pronouns/2-intermediate/reflexive_and_reciprocal_pronouns/2-intermediate_reflexive_and_reciprocal_pronouns_card_9_def1.avif"
+      }
+    ],
+    "category": "Intermediate"
+  }
+]

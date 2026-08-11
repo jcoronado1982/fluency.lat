@@ -1,0 +1,153 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: time]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "time",
+                "usage_example": "[TRADUCIR AL FR: What time is it?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "What time is it?",
+                "char_count": "one",
+                "usage_context_en": "The concept of duration, a specific moment",
+                "usage_context_es": "[TRADUCIR AL FR: The concept of duration, a specific moment]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_0_def0.avif"
+            },
+            {
+                "meaning": "time (def 2)",
+                "usage_example": "[TRADUCIR AL FR: He called me three times.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "He called me three times.",
+                "char_count": "2",
+                "usage_context_en": "An instance or occasion when something happens.",
+                "usage_context_es": "[TRADUCIR AL FR: An instance or occasion when something happens.]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_0_def1.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: hour]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "hour",
+                "usage_example": "[TRADUCIR AL FR: I will be back in an hour.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I will be back in an hour.",
+                "char_count": "two",
+                "usage_context_en": "A period of 60 minutes",
+                "usage_context_es": "[TRADUCIR AL FR: A period of 60 minutes]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_120_def0.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: minute]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "minute",
+                "usage_example": "[TRADUCIR AL FR: Wait a minute.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Wait a minute.",
+                "char_count": "two",
+                "usage_context_en": "A period of 60 seconds",
+                "usage_context_es": "[TRADUCIR AL FR: A period of 60 seconds]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_121_def0.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: second]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "second",
+                "usage_example": "[TRADUCIR AL FR: Just a second, please.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Just a second, please.",
+                "char_count": "two",
+                "usage_context_en": "A very short unit of time",
+                "usage_context_es": "[TRADUCIR AL FR: A very short unit of time]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_122_def0.avif"
+            }
+        ],
+        "group_name": "Time",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: clock]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/object/time/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "clock",
+                "usage_example": "[TRADUCIR AL FR: The clock is on the wall.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The clock is on the wall.",
+                "char_count": "one",
+                "usage_context_en": "A device that shows time (not worn)",
+                "usage_context_es": "[TRADUCIR AL FR: A device that shows time (not worn)]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_264_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    }
+]

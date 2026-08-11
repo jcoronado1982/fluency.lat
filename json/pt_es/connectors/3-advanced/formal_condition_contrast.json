@@ -1,0 +1,142 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Siempre que / Con la condición de que",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "phrase/condition/formal",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Siempre que / Con la condición de que]",
+                "usage_example": "El banco prestará el dinero, siempre que tengas una garantía.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El banco prestará el dinero, siempre que tengas una garantía.]",
+                "char_count": "10",
+                "usage_context_en": "[TRADUCIR AL PT: Una forma formal de decir 'si' o 'siempre y cuando'.]",
+                "usage_context_es": "Una forma formal de decir 'si' o 'siempre y cuando'.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_37_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Condition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Aunque / Si bien",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "connector/contrast",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Aunque / Si bien]",
+                "usage_example": "Estaba haciendo progreso, si bien lentamente.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Estaba haciendo progreso, si bien lentamente.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Aunque; a pesar de que.]",
+                "usage_context_es": "Aunque; a pesar de que.",
+                "imagePath": "/card_images/connectors/3-advanced/3-advanced_card_2_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Contrast",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Por el contrario / A la inversa",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "connector/contrast",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Por el contrario / A la inversa]",
+                "usage_example": "A algunas personas les gusta el calor; por el contrario, otras lo prefieren frío.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: A algunas personas les gusta el calor; por el contrario, otras lo prefieren frío.]",
+                "char_count": "10",
+                "usage_context_en": "[TRADUCIR AL PT: Introducir una declaración o idea que invierte una que se acaba de hacer o a la que se hace referencia.]",
+                "usage_context_es": "Introducir una declaración o idea que invierte una que se acaba de hacer o a la que se hace referencia.",
+                "imagePath": "/card_images/connectors/3-advanced/3-advanced_card_3_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Contrast",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Sin embargo / No obstante",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "connector/contrast",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Sin embargo / No obstante]",
+                "usage_example": "Estaba lloviendo; no obstante, salimos a caminar.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Estaba lloviendo; no obstante, salimos a caminar.]",
+                "char_count": "12",
+                "usage_context_en": "[TRADUCIR AL PT: A pesar de eso; sin embargo.]",
+                "usage_context_es": "A pesar de eso; sin embargo.",
+                "imagePath": "/card_images/connectors/3-advanced/3-advanced_card_4_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Contrast",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Mientras que (formal)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "conjunction/contrast/formal",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Mientras que (formal)]",
+                "usage_example": "Ella es joven, mientras que yo soy viejo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ella es joven, mientras que yo soy viejo.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Una forma formal de contrastar dos hechos.]",
+                "usage_context_es": "Una forma formal de contrastar dos hechos.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_12_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Contrast",
+        "category": ""
+    }
+]

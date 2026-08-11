@@ -1,0 +1,137 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Intermediate",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/2-intermediate/quantifier_pronouns/2-intermediate_quantifier_pronouns_card_0_def0.avif",
+        "meaning": "Pocos / Pocas (Pronombre)",
+        "pronunciation_guide_es": "/ME-ni_TRAID_bot_FIU_sok-SI-ded/",
+        "usage_context_en": "Used as a pronoun for a small number of people or things.",
+        "usage_context_es": "Usado como pronombre para un número pequeño de personas o cosas.",
+        "usage_example": "Many tried, but few succeeded.",
+        "usage_example_es": "Muchos lo intentaron, pero pocos lo lograron."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "is_verb": false,
+    "name": "few",
+    "phonetic": "/fjuː/",
+    "search_term": "pronoun/quantifier",
+    "spoken_phonetic_us": "/fjuː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "category": "Intermediate",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/2-intermediate/quantifier_pronouns/2-intermediate_quantifier_pronouns_card_1_def0.avif",
+        "meaning": "Varios/as (Pronombre)",
+        "pronunciation_guide_es": "/SE-ve-ral_of_dem_ar_BROU-ken/",
+        "usage_context_en": "Used as a pronoun for a medium number of people or things.",
+        "usage_context_es": "Usado como pronombre para un número mediano de personas o cosas.",
+        "usage_example": "Several of them are broken.",
+        "usage_example_es": "Varios de ellos están rotos."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "is_verb": false,
+    "name": "several",
+    "phonetic": "/ˈsɛvərəl/",
+    "search_term": "pronoun/quantifier",
+    "spoken_phonetic_us": "/ˈsɛvərəl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Intermediate",
+    "definitions": [
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/pronouns/2-intermediate/quantifier_pronouns/2-intermediate_quantifier_pronouns_card_2_def0.avif",
+        "meaning": "Cualquiera (de dos) (Pronombre)",
+        "pronunciation_guide_es": "/uich_UAN_du_iu_UANT_AI-der_is_FAIN/",
+        "usage_context_en": "Used as a pronoun to mean 'one or the other'.",
+        "usage_context_es": "Usado como pronombre para significar 'uno u otro'.",
+        "usage_example": "Which one do you want? Either is fine.",
+        "usage_example_es": "¿Cuál quieres? Cualquiera está bien."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "is_verb": false,
+    "name": "either",
+    "phonetic": "/ˈaɪðər/",
+    "search_term": "pronoun/quantifier",
+    "spoken_phonetic_us": "/ˈiːðər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Intermediate",
+    "definitions": [
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/2-intermediate/quantifier_pronouns/2-intermediate_quantifier_pronouns_card_3_def0.avif",
+        "meaning": "Ninguno (de dos) (Pronombre)",
+        "pronunciation_guide_es": "/NAI-der_is_co-REKT/",
+        "usage_context_en": "Used as a pronoun to mean 'not one and not the other'.",
+        "usage_context_es": "Usado como pronombre para significar 'ni uno ni el otro'.",
+        "usage_example": "Neither is correct.",
+        "usage_example_es": "Ninguno es correcto."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "is_verb": false,
+    "name": "neither",
+    "phonetic": "/ˈnaɪðər/",
+    "search_term": "pronoun/quantifier",
+    "spoken_phonetic_us": "/ˈniːðər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Intermediate",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/2-intermediate/quantifier_pronouns/2-intermediate_quantifier_pronouns_card_4_def0.avif",
+        "meaning": "Un par / Unos pocos",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "Used to refer to two people or things, or a small number.",
+        "usage_context_es": "Used to refer to two people or things, or a small number.",
+        "usage_example": "A couple are still missing.",
+        "usage_example_es": "Aún faltan un par."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "is_verb": false,
+    "name": "a couple",
+    "phonetic": "/ə ˈkʌpəl/",
+    "search_term": "pronoun/quantifier_pronouns/added",
+    "spoken_phonetic_us": "/ə ˈkʌpəl/"
+  }
+]

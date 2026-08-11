@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/3-advanced/economy/3-advanced_economy_card_0_def0.avif",
+        "meaning": "Moneda / Divisa",
+        "pronunciation_guide_es": "/uat_is_de_LOU-cal_CO-ren-si/",
+        "usage_context_en": "A system of money in general use in a particular country.",
+        "usage_context_es": "Un sistema de dinero en uso general en un país en particular.",
+        "usage_example": "What is the local currency?",
+        "usage_example_es": "¿Cuál es la moneda local?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "currency",
+    "phonetic": "/ˈkɜrənsi/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈkɜrənsi/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "imagePath": "/card_images/nouns/3-advanced/economy/3-advanced_economy_card_1_def0.avif",
+        "meaning": "Incentivo",
+        "pronunciation_guide_es": "/de_BOU-nos_is_an_in-SEN-tiv_tu_UORK_HARD/",
+        "usage_context_en": "A thing that motivates or encourages one to do something.",
+        "usage_context_es": "Algo que motiva o alienta a uno a hacer algo.",
+        "usage_example": "The bonus is an incentive to work hard.",
+        "usage_example_es": "El bono es un incentivo para trabajar duro."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "incentive",
+    "phonetic": "/ɪnˈsɛntɪv/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ɪnˈsɛntɪv/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/economy/3-advanced_economy_card_2_def0.avif",
+        "meaning": "Ingresos / Renta",
+        "pronunciation_guide_es": "/hi_HAS_a_HAI_MONZ-li_IN-com/",
+        "usage_context_en": "Money received, especially on a regular basis, for work or through investments.",
+        "usage_context_es": "Dinero recibido, especialmente de forma regular, por trabajo o a través de inversiones.",
+        "usage_example": "He has a high monthly income.",
+        "usage_example_es": "Él tiene unos ingresos mensuales altos."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "income",
+    "phonetic": "/ˈɪnkʌm/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈɪnkʌm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/economy/3-advanced_economy_card_3_def0.avif",
+        "meaning": "Ingresos (de una empresa o estado)",
+        "pronunciation_guide_es": "/de_COM-pa-nis_RE-ve-niu_GRIU_last_YIR/",
+        "usage_context_en": "Income, especially when of a company or organization and of a substantial nature.",
+        "usage_context_es": "Ingresos, especialmente de una compañía u organización y de naturaleza sustancial.",
+        "usage_example": "The company's revenue grew last year.",
+        "usage_example_es": "Los ingresos de la compañía crecieron el año pasado."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "revenue",
+    "phonetic": "/ˈrɛvənjuː/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈrɛvənuː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/nouns/3-advanced/economy/3-advanced_economy_card_4_def0.avif",
+        "meaning": "Transacción",
+        "pronunciation_guide_es": "/it_uas_a_SIM-pol_tran-SAK-shon/",
+        "usage_context_en": "An instance of buying or selling something; a business deal.",
+        "usage_context_es": "Una instancia de comprar o vender algo; un acuerdo comercial.",
+        "usage_example": "It was a simple transaction.",
+        "usage_example_es": "Fue una transacción simple."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "transaction",
+    "phonetic": "/trænˈzækʃən/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/trænˈzækʃən/"
+  }
+]

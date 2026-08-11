@@ -1,0 +1,142 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: health]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Salud",
+                "usage_example": "[TRADUCIR AL FR: Health is very important.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "La salud es muy importante.",
+                "char_count": "one",
+                "usage_context_en": "La condición de tu cuerpo",
+                "usage_context_es": "[TRADUCIR AL FR: The condition of your body]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_168_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: pain]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/feeling/body/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Dolor",
+                "usage_example": "[TRADUCIR AL FR: I feel a pain in my leg.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Siento un dolor en la pierna.",
+                "char_count": "one",
+                "usage_context_en": "El sentimiento que tienes cuando tu cuerpo está herido",
+                "usage_context_es": "[TRADUCIR AL FR: The feeling you have when your body is hurt]",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_340_def0.avif"
+            }
+        ],
+        "group_name": "Feelings",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: medicine]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/health-&-medicine/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "A substance used to treat illness.",
+                "usage_example": "[TRADUCIR AL FR: Take your medicine after lunch.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Toma tu medicina después del almuerzo.",
+                "char_count": "8",
+                "usage_context_en": "Una sustancia usada para tratar una enfermedad.",
+                "usage_context_es": "[TRADUCIR AL FR: A substance used to treat illness.]",
+                "imagePath": "/card_images/nouns/1-basic/seed_medicine.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: patient]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/health-&-medicine/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "A person receiving medical care.",
+                "usage_example": "[TRADUCIR AL FR: The patient is resting.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "El paciente está descansando.",
+                "char_count": "7",
+                "usage_context_en": "Una persona que recibe atención médica.",
+                "usage_context_es": "[TRADUCIR AL FR: A person receiving medical care.]",
+                "imagePath": "/card_images/nouns/1-basic/seed_patient.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: illness]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/health-&-medicine/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "A condition of being sick.",
+                "usage_example": "[TRADUCIR AL FR: The illness lasted three days.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "La enfermedad duró tres días.",
+                "char_count": "7",
+                "usage_context_en": "La condición de estar enfermo.",
+                "usage_context_es": "[TRADUCIR AL FR: A condition of being sick.]",
+                "imagePath": "/card_images/nouns/1-basic/seed_illness.avif"
+            }
+        ],
+        "group_name": "Health & Medicine",
+        "category": ""
+    }
+]

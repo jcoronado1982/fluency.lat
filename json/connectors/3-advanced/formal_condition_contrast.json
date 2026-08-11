@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "provided that",
+    "phonetic": "/prəˈvaɪdɪd ðæt/",
+    "spoken_phonetic_us": "/prəˈvaɪdɪd ðæt/",
+    "search_term": "phrase/condition/formal",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Condition",
+    "definitions": [
+      {
+        "meaning": "Siempre que / Con la condición de que",
+        "usage_example": "The bank will lend the money, provided that you have security.",
+        "pronunciation_guide_es": "/de_BANK_uil_LEND_de_MO-ni_pro-VAI-ded_dat_iu_HAV_se-KIU-ri-ti/",
+        "usage_example_es": "El banco prestará el dinero, siempre que tengas una garantía.",
+        "char_count": "10",
+        "usage_context_en": "A formal way to say 'if' or 'as long as'.",
+        "usage_context_es": "Una forma formal de decir 'si' o 'siempre y cuando'.",
+        "imagePath": "/card_images/connectors/1-basic/1-basic_card_37_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "albeit",
+    "phonetic": "/ɔlˈbiɪt/",
+    "spoken_phonetic_us": "/ɔlˈbiɪt/",
+    "search_term": "connector/contrast",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Contrast",
+    "definitions": [
+      {
+        "meaning": "Aunque / Si bien",
+        "usage_example": "He was making progress, albeit slowly.",
+        "pronunciation_guide_es": "/ji_uas_mei-king_pro-gres_ol-bi-it_slou-li/",
+        "usage_example_es": "Estaba haciendo progreso, si bien lentamente.",
+        "char_count": "6",
+        "usage_context_en": "Even though; although.",
+        "usage_context_es": "Aunque; a pesar de que.",
+        "imagePath": "/card_images/connectors/3-advanced/3-advanced_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "conversely",
+    "phonetic": "/kənˈvɜrsli/",
+    "spoken_phonetic_us": "/kənˈvɜrsli/",
+    "search_term": "connector/contrast",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Contrast",
+    "definitions": [
+      {
+        "meaning": "Por el contrario / A la inversa",
+        "usage_example": "Some people like it hot; conversely, others prefer it cold.",
+        "pronunciation_guide_es": "/som_pi-pol_laik_it_jot_con-vers-li_o-ders_pre-fer_it_cold/",
+        "usage_example_es": "A algunas personas les gusta el calor; por el contrario, otras lo prefieren frío.",
+        "char_count": "10",
+        "usage_context_en": "Introducing a statement or idea which reverses one that has just been made or referred to.",
+        "usage_context_es": "Introducir una declaración o idea que invierte una que se acaba de hacer o a la que se hace referencia.",
+        "imagePath": "/card_images/connectors/3-advanced/3-advanced_card_3_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "nevertheless",
+    "phonetic": "/ˌnɛvərðəˈlɛs/",
+    "spoken_phonetic_us": "/ˌnɛvərðəˈlɛs/",
+    "search_term": "connector/contrast",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Contrast",
+    "definitions": [
+      {
+        "meaning": "Sin embargo / No obstante",
+        "usage_example": "It was raining; nevertheless, we went for a walk.",
+        "pronunciation_guide_es": "/it_uas_rei-ning_ne-ver-de-les_ui_uent_for_a_uok/",
+        "usage_example_es": "Estaba lloviendo; no obstante, salimos a caminar.",
+        "char_count": "12",
+        "usage_context_en": "In spite of that; however.",
+        "usage_context_es": "A pesar de eso; sin embargo.",
+        "imagePath": "/card_images/connectors/3-advanced/3-advanced_card_4_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "whereas",
+    "phonetic": "/wɛərˈæz/",
+    "spoken_phonetic_us": "/wɛrˈæz/",
+    "search_term": "conjunction/contrast/formal",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Contrast",
+    "definitions": [
+      {
+        "meaning": "Mientras que (formal)",
+        "usage_example": "She is young, whereas I am old.",
+        "pronunciation_guide_es": "/shi_is_IONG_uer-AS_ai_am_OLD/",
+        "usage_example_es": "Ella es joven, mientras que yo soy viejo.",
+        "char_count": "6",
+        "usage_context_en": "A formal way to contrast two facts.",
+        "usage_context_es": "Una forma formal de contrastar dos hechos.",
+        "imagePath": "/card_images/connectors/1-basic/1-basic_card_12_def0.avif"
+      }
+    ]
+  }
+]

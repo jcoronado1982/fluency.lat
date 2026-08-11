@@ -1,0 +1,337 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "lost",
+    "phonetic": "/lɔːst/",
+    "spoken_phonetic_us": "/lɔst/",
+    "search_term": "adjective/basic/location_distance",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Location & Distance",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Perdido/a",
+        "usage_example": "I am lost.",
+        "pronunciation_guide_es": "/ai_am_LOST/",
+        "usage_example_es": "Estoy perdido.",
+        "char_count": "3",
+        "usage_context_en": "Unable to find the way or know where one is.",
+        "usage_context_es": "Incapaz de encontrar el camino o saber dónde está."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "near",
+    "phonetic": "/nɪər/",
+    "spoken_phonetic_us": "/nɪr/",
+    "search_term": "adjective/basic/location_distance",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Location & Distance",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Cercano/a / Cerca",
+        "usage_example": "The hospital is near.",
+        "pronunciation_guide_es": "/de_HOS-pi-tal_is_NIR/",
+        "usage_example_es": "El hospital está cerca.",
+        "char_count": "4",
+        "usage_context_en": "Close in distance.",
+        "usage_context_es": "Cerca en distancia."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "far",
+    "phonetic": "/fɑːr/",
+    "spoken_phonetic_us": "/fɑr/",
+    "search_term": "adjective/basic/location_distance",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Location & Distance",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Lejano/a / Lejos",
+        "usage_example": "The station is far.",
+        "pronunciation_guide_es": "/de_STEI-shon_is_FAR/",
+        "usage_example_es": "La estación está lejos.",
+        "char_count": "4",
+        "usage_context_en": "At a great distance.",
+        "usage_context_es": "A gran distancia."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "crowded",
+    "phonetic": "/ˈkraʊdɪd/",
+    "spoken_phonetic_us": "/ˈkraʊdɪd/",
+    "search_term": "adjective/basic/places_crowds",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Places & Crowds",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Lleno de gente / Congestionado",
+        "usage_example": "The bus is crowded.",
+        "pronunciation_guide_es": "/de_BOS_is_CRAU-ded/",
+        "usage_example_es": "El bus está lleno de gente.",
+        "char_count": "4",
+        "usage_context_en": "Full of people, with little space.",
+        "usage_context_es": "Lleno de personas, con poco espacio."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "big",
+    "phonetic": "/bɪɡ/",
+    "spoken_phonetic_us": "/bɪɡ/",
+    "search_term": "adjective/basic/size_dimension",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Size & Dimension",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Grande",
+        "usage_example": "That is a big house.",
+        "pronunciation_guide_es": "/dat_is_a_BIG_HAUS/",
+        "usage_example_es": "Esa es una casa grande.",
+        "char_count": "5",
+        "usage_context_en": "Of considerable size or extent.",
+        "usage_context_es": "De tamaño o extensión considerable.",
+        "imagePath": "/card_images/adjectives/1-basic/1-basic_card_0_def0.avif",
+        "imageMetadata": {
+          "source": "local_comfyui",
+          "model": "flux-1-schnell",
+          "generatedAt": "2026-02-13T09:40:12.520878"
+        }
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "small",
+    "phonetic": "/smɔːl/",
+    "spoken_phonetic_us": "/smɔːl/",
+    "search_term": "adjective/basic/size_dimension",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Size & Dimension",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Pequeño/a",
+        "usage_example": "I have a small car.",
+        "pronunciation_guide_es": "/ai_HAV_a_SMOL_CAR/",
+        "usage_example_es": "Tengo un carro pequeño.",
+        "char_count": "5",
+        "usage_context_en": "Of a size that is less than normal or average.",
+        "usage_context_es": "De un tamaño menor al normal o promedio.",
+        "imagePath": "/card_images/adjectives/1-basic/1-basic_card_1_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "long",
+    "phonetic": "/lɒŋ/",
+    "spoken_phonetic_us": "/lɔŋ/",
+    "search_term": "adjective/basic/size_dimension",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Size & Dimension",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Largo/a",
+        "usage_example": "It's a long road.",
+        "pronunciation_guide_es": "/its_a_LONG_ROUD/",
+        "usage_example_es": "Es un camino largo.",
+        "char_count": "4",
+        "usage_context_en": "Measuring a great distance from end to end.",
+        "usage_context_es": "Que mide una gran distancia de extremo a extremo.",
+        "imagePath": "/card_images/adjectives/1-basic/1-basic_card_13_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "short",
+    "phonetic": "/ʃɔːrt/",
+    "spoken_phonetic_us": "/ʃɔrt/",
+    "search_term": "adjective/basic/size_dimension",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Size & Dimension",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Corto/a",
+        "usage_example": "This is a short movie.",
+        "pronunciation_guide_es": "/dis_is_a_SHORT_MU-vi/",
+        "usage_example_es": "Esta es una película corta.",
+        "char_count": "5",
+        "usage_context_en": "Measuring a small distance from end to end.",
+        "usage_context_es": "Que mide una distancia pequeña de extremo a extremo.",
+        "imagePath": "/card_images/adjectives/1-basic/1-basic_card_14_def0.avif"
+      },
+      {
+        "meaning": "Bajo/a (estatura)",
+        "usage_example": "He is short.",
+        "pronunciation_guide_es": "/hi_is_SHORT/",
+        "usage_example_es": "Él es bajo (de estatura).",
+        "char_count": "3",
+        "usage_context_en": "Of little height.",
+        "usage_context_es": "De poca altura.",
+        "imagePath": "/card_images/adjectives/1-basic/1-basic_card_14_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "tall",
+    "phonetic": "/tɔːl/",
+    "spoken_phonetic_us": "/tɔːl/",
+    "search_term": "adjective/basic/size_dimension",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Size & Dimension",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Alto/a",
+        "usage_example": "She is very tall.",
+        "pronunciation_guide_es": "/SHI_is_VE-ri_TOL/",
+        "usage_example_es": "Ella es muy alta.",
+        "char_count": "4",
+        "usage_context_en": "Having a greater than average height.",
+        "usage_context_es": "De estatura mayor al promedio.",
+        "imagePath": "/card_images/adjectives/1-basic/1-basic_card_33_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "wide",
+    "phonetic": "/waɪd/",
+    "spoken_phonetic_us": "/waɪd/",
+    "search_term": "adjective/basic/size_dimension",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Size & Dimension",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Ancho/a",
+        "usage_example": "The river is very wide.",
+        "pronunciation_guide_es": "/de_RI-ver_is_VE-ri_UAID/",
+        "usage_example_es": "El río es muy ancho.",
+        "char_count": "5",
+        "usage_context_en": "Having a large distance from side to side.",
+        "usage_context_es": "De gran distancia de lado a lado.",
+        "imagePath": "/card_images/adjectives/1-basic/1-basic_card_34_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "heavy",
+    "phonetic": "/ˈhɛvi/",
+    "spoken_phonetic_us": "/ˈhɛvi/",
+    "search_term": "adjective/basic/size_dimension",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Size & Dimension",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Pesado/a",
+        "usage_example": "This bag is very heavy.",
+        "pronunciation_guide_es": "/dis_BAG_is_VE-ri_JE-vi/",
+        "usage_example_es": "Esta bolsa es muy pesada.",
+        "char_count": "5",
+        "usage_context_en": "Of great weight.",
+        "usage_context_es": "De gran peso.",
+        "imagePath": "/card_images/adjectives/1-basic/1-basic_card_35_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "light",
+    "phonetic": "/laɪt/",
+    "spoken_phonetic_us": "/laɪt/",
+    "search_term": "adjective/basic/size_dimension",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Size & Dimension",
+    "category": "Basic",
+    "definitions": [
+      {
+        "meaning": "Ligero/a",
+        "usage_example": "The box is light.",
+        "pronunciation_guide_es": "/de_BOKS_is_LAIT/",
+        "usage_example_es": "La caja es ligera.",
+        "char_count": "4",
+        "usage_context_en": "Of little weight; easy to lift.",
+        "usage_context_es": "De poco peso; fácil de levantar.",
+        "imagePath": "/card_images/adjectives/1-basic/1-basic_card_36_def0.avif"
+      }
+    ]
+  }
+]

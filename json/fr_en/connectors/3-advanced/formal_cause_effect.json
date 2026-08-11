@@ -1,0 +1,114 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "consequently",
+        "phonetic": "/ˈkɒnsɪkwəntli/",
+        "spoken_phonetic_us": "/ˈkɑnsəkwɛntli/",
+        "search_term": "connector/result",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Por consiguiente / En consecuencia]",
+                "usage_example": "It rained heavily; consequently, the match was canceled.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE consequently AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: It rained heavily; consequently, the match was canceled.]",
+                "char_count": "12",
+                "usage_context_en": "[TRADUCIR AL FR: Como resultado.]",
+                "usage_context_es": "As a result.",
+                "imagePath": "/card_images/connectors/3-advanced/3-advanced_card_0_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "hence",
+        "phonetic": "/hɛns/",
+        "spoken_phonetic_us": "/hɛns/",
+        "search_term": "connector/result",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: De ahí que / Por lo tanto]",
+                "usage_example": "He didn't study; hence his failure.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE hence AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He didn't study; hence his failure.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: Como consecuencia; por esta razón.]",
+                "usage_context_es": "As a consequence; for this reason.",
+                "imagePath": "/card_images/connectors/3-advanced/3-advanced_card_1_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "therefore",
+        "phonetic": "/ˈðɛərˌfɔr/",
+        "spoken_phonetic_us": "/ˈðɛrˌfɔr/",
+        "search_term": "adverb/result/formal",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Por lo tanto / Por consiguiente (formal)]",
+                "usage_example": "He is sick; therefore, he will not come.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE therefore AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He is sick; therefore, he will not come.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL FR: Por esa razón; consecuentemente (usado en habla o escritura formal).]",
+                "usage_context_es": "For that reason; consequently (used in formal speech or writing).",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_21_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "thus",
+        "phonetic": "/ðʌs/",
+        "spoken_phonetic_us": "/ðʌs/",
+        "search_term": "adverb/result/formal",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Así pues / Por lo tanto (formal)]",
+                "usage_example": "He did not study; thus, he failed.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE thus AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He did not study; thus, he failed.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL FR: Como resultado o consecuencia de esto; por lo tanto.]",
+                "usage_context_es": "As a result or consequence of this; therefore.",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_24_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    }
+]

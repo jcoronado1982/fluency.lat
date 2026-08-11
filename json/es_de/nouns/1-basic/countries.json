@@ -1,0 +1,584 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "País / Campo",
+        "pronunciation_guide_es": "/bra-ZI-li-en_ist_ain_GRO-ses_LANT/",
+        "usage_context_en": "A nation / Land outside of cities",
+        "usage_context_es": "Una nación / Terreno fuera de las ciudades",
+        "usage_example": "Brasilien ist ein großes Land.",
+        "usage_example_es": "Brasil es un país grande.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_0_def0.avif"
+      },
+      {
+        "char_count": "3",
+        "meaning": "Música country",
+        "pronunciation_guide_es": "/ish_MAK_KAUN-tri-mu-zik/",
+        "usage_context_en": "A style of popular music from the southern United States.",
+        "usage_context_es": "Un estilo de música popular del sur de Estados Unidos.",
+        "usage_example": "Ich mag Countrymusik.",
+        "usage_example_es": "Me gusta la música country.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_0_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places",
+    "is_verb": false,
+    "name": "das Land",
+    "phonetic": "/das lant/",
+    "search_term": "noun/place/essentials",
+    "spoken_phonetic_us": "/das lant/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "13",
+        "meaning": "A major country in North America.",
+        "pronunciation_guide_es": "/di_fer-AI-nik-ten_SHTA-ten_LI-gen_in_NORT-a-me-ri-ka/",
+        "usage_context_en": "A major country in North America.",
+        "usage_context_es": "Un país importante de América del Norte.",
+        "usage_example": "Die Vereinigten Staaten liegen in Nordamerika.",
+        "usage_example_es": "Estados Unidos está en América del Norte.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "die Vereinigten Staaten",
+    "phonetic": "/diː fɛɐˈʔaɪnɪɡtn̩ ˈʃtaːtn̩/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/diː fɛɐˈʔaɪnɪɡtn̩ ˈʃtaːtn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "meaning": "A large country north of the United States.",
+        "pronunciation_guide_es": "/KA-na-da_LIKT_in_NORT-a-me-ri-ka/",
+        "usage_context_en": "A large country north of the United States.",
+        "usage_context_es": "Un país grande al norte de Estados Unidos.",
+        "usage_example": "Kanada liegt in Nordamerika.",
+        "usage_example_es": "Canadá está en América del Norte.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Kanada",
+    "phonetic": "/ˈkanada/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/ˈkanada/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "meaning": "A country south of the United States.",
+        "pronunciation_guide_es": "/ME-ksi-ko_LIKT_in_NORT-a-me-ri-ka/",
+        "usage_context_en": "A country south of the United States.",
+        "usage_context_es": "Un país al sur de Estados Unidos.",
+        "usage_example": "Mexiko liegt in Nordamerika.",
+        "usage_example_es": "México está en América del Norte.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Mexiko",
+    "phonetic": "/ˈmɛksiko/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/ˈmɛksiko/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "meaning": "The largest country in South America.",
+        "pronunciation_guide_es": "/bra-ZI-li-en_LIKT_in_ZUET-a-me-ri-ka/",
+        "usage_context_en": "The largest country in South America.",
+        "usage_context_es": "El país más grande de América del Sur.",
+        "usage_example": "Brasilien liegt in Südamerika.",
+        "usage_example_es": "Brasil está en América del Sur.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Brasilien",
+    "phonetic": "/bʁaˈziːli̯ən/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/bʁaˈziːli̯ən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "9",
+        "meaning": "A major country in South America.",
+        "pronunciation_guide_es": "/ar-gen-TI-ni-en_LIKT_in_ZUET-a-me-ri-ka/",
+        "usage_context_en": "A major country in South America.",
+        "usage_context_es": "Un país importante de América del Sur.",
+        "usage_example": "Argentinien liegt in Südamerika.",
+        "usage_example_es": "Argentina está en América del Sur.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Argentinien",
+    "phonetic": "/aʁɡɛnˈtiːni̯ən/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/aʁɡɛnˈtiːni̯ən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "8",
+        "meaning": "A country in the northwest of South America.",
+        "pronunciation_guide_es": "/ko-LUM-bi-en_LIKT_in_ZUET-a-me-ri-ka/",
+        "usage_context_en": "A country in the northwest of South America.",
+        "usage_context_es": "Un país del noroeste de América del Sur.",
+        "usage_example": "Kolumbien liegt in Südamerika.",
+        "usage_example_es": "Colombia está en América del Sur.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_6_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Kolumbien",
+    "phonetic": "/koˈlʊmbi̯ən/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/koˈlʊmbi̯ən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "4",
+        "meaning": "A country on the western side of South America.",
+        "pronunciation_guide_es": "/pe-RU_LIKT_in_ZUET-a-me-ri-ka/",
+        "usage_context_en": "A country on the western side of South America.",
+        "usage_context_es": "Un país del lado occidental de América del Sur.",
+        "usage_example": "Peru liegt in Südamerika.",
+        "usage_example_es": "Perú está en América del Sur.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Peru",
+    "phonetic": "/peˈʁuː/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/peˈʁuː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "meaning": "A country in southwestern Europe.",
+        "pronunciation_guide_es": "/SHPA-ni-en_LIKT_in_oi-RO-pa/",
+        "usage_context_en": "A country in southwestern Europe.",
+        "usage_context_es": "Un país del suroeste de Europa.",
+        "usage_example": "Spanien liegt in Europa.",
+        "usage_example_es": "España está en Europa.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_8_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Spanien",
+    "phonetic": "/ˈʃpaːni̯ən/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/ˈʃpaːni̯ən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "meaning": "A country in Western Europe.",
+        "pronunciation_guide_es": "/FRANK-raish_LIKT_in_oi-RO-pa/",
+        "usage_context_en": "A country in Western Europe.",
+        "usage_context_es": "Un país de Europa occidental.",
+        "usage_example": "Frankreich liegt in Europa.",
+        "usage_example_es": "Francia está en Europa.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Frankreich",
+    "phonetic": "/ˈfʁaŋkʁaɪç/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/ˈfʁaŋkʁaɪç/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "meaning": "A central European country.",
+        "pronunciation_guide_es": "/DOITSH-lant_LIKT_in_oi-RO-pa/",
+        "usage_context_en": "A central European country.",
+        "usage_context_es": "Un país de Europa central.",
+        "usage_example": "Deutschland liegt in Europa.",
+        "usage_example_es": "Alemania está en Europa.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Deutschland",
+    "phonetic": "/ˈdɔɪtʃlant/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/ˈdɔɪtʃlant/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "meaning": "A country in southern Europe.",
+        "pronunciation_guide_es": "/i-TA-li-en_LIKT_in_oi-RO-pa/",
+        "usage_context_en": "A country in southern Europe.",
+        "usage_context_es": "Un país del sur de Europa.",
+        "usage_example": "Italien liegt in Europa.",
+        "usage_example_es": "Italia está en Europa.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_11_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Italien",
+    "phonetic": "/iˈtaːli̯ən/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/iˈtaːli̯ən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "14",
+        "meaning": "An island country in northwestern Europe.",
+        "pronunciation_guide_es": "/das_fer-AI-nik-te_KOE-nikh-raish_LIKT_in_oi-RO-pa/",
+        "usage_context_en": "An island country in northwestern Europe.",
+        "usage_context_es": "Un país insular del noroeste de Europa.",
+        "usage_example": "Das Vereinigte Königreich liegt in Europa.",
+        "usage_example_es": "El Reino Unido está en Europa.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_12_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "das Vereinigte Königreich",
+    "phonetic": "/das fɛɐˈʔaɪnɪɡtə ˈkøːnɪkʁaɪç/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/das fɛɐˈʔaɪnɪɡtə ˈkøːnɪkʁaɪç/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "meaning": "A large country in East Asia.",
+        "pronunciation_guide_es": "/SHI-na_LIKT_in_A-zi-en/",
+        "usage_context_en": "A large country in East Asia.",
+        "usage_context_es": "Un país grande de Asia oriental.",
+        "usage_example": "China liegt in Asien.",
+        "usage_example_es": "China está en Asia.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_13_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "China",
+    "phonetic": "/ˈçiːna/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/ˈçiːna/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "meaning": "An island country in East Asia.",
+        "pronunciation_guide_es": "/YA-pan_LIKT_in_A-zi-en/",
+        "usage_context_en": "An island country in East Asia.",
+        "usage_context_es": "Un país insular de Asia oriental.",
+        "usage_example": "Japan liegt in Asien.",
+        "usage_example_es": "Japón está en Asia.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_14_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Japan",
+    "phonetic": "/ˈjaːpan/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/ˈjaːpan/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "meaning": "A very large country across Europe and Asia.",
+        "pronunciation_guide_es": "/RUS-lant_er-SHTREKT_zish_UE-ber_oi-RO-pa_unt_A-zi-en/",
+        "usage_context_en": "A very large country across Europe and Asia.",
+        "usage_context_es": "Un país muy grande entre Europa y Asia.",
+        "usage_example": "Russland erstreckt sich über Europa und Asien.",
+        "usage_example_es": "Rusia se extiende por Europa y Asia.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_15_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Russland",
+    "phonetic": "/ˈʁʊslant/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/ˈʁʊslant/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "meaning": "A major country in South Asia.",
+        "pronunciation_guide_es": "/IN-di-en_LIKT_in_A-zi-en/",
+        "usage_context_en": "A major country in South Asia.",
+        "usage_context_es": "Un país importante del sur de Asia.",
+        "usage_example": "Indien liegt in Asien.",
+        "usage_example_es": "India está en Asia.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_16_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Indien",
+    "phonetic": "/ˈɪndi̯ən/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/ˈɪndi̯ən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "11",
+        "meaning": "A country in East Asia.",
+        "pronunciation_guide_es": "/ZUET-ko-re-a_LIKT_in_A-zi-en/",
+        "usage_context_en": "A country in East Asia.",
+        "usage_context_es": "Un país de Asia oriental.",
+        "usage_example": "Südkorea liegt in Asien.",
+        "usage_example_es": "Corea del Sur está en Asia.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_17_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Südkorea",
+    "phonetic": "/ˈzyːtkoʁeːa/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/ˈzyːtkoʁeːa/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "9",
+        "meaning": "A large country in Oceania.",
+        "pronunciation_guide_es": "/au-STRA-li-en_LIKT_in_o-tse-A-ni-en/",
+        "usage_context_en": "A large country in Oceania.",
+        "usage_context_es": "Un país grande de Oceanía.",
+        "usage_example": "Australien liegt in Ozeanien.",
+        "usage_example_es": "Australia está en Oceanía.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_18_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Australien",
+    "phonetic": "/aʊˈstʁaːli̯ən/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/aʊˈstʁaːli̯ən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "5",
+        "meaning": "A country in North Africa.",
+        "pronunciation_guide_es": "/E-gyp-ten_LIKT_in_A-fri-ka/",
+        "usage_context_en": "A country in North Africa.",
+        "usage_context_es": "Un país del norte de África.",
+        "usage_example": "Ägypten liegt in Afrika.",
+        "usage_example_es": "Egipto está en África.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_19_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Ägypten",
+    "phonetic": "/ɛˈɡʏptn̩/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/ɛˈɡʏptn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "meaning": "A large country in West Africa.",
+        "pronunciation_guide_es": "/ni-GE-ri-a_LIKT_in_A-fri-ka/",
+        "usage_context_en": "A large country in West Africa.",
+        "usage_context_es": "Un país grande de África occidental.",
+        "usage_example": "Nigeria liegt in Afrika.",
+        "usage_example_es": "Nigeria está en África.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_20_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Nigeria",
+    "phonetic": "/niˈɡeːʁi̯a/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/niˈɡeːʁi̯a/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "12",
+        "meaning": "A country at the southern end of Africa.",
+        "pronunciation_guide_es": "/ZUET-a-fri-ka_LIKT_in_A-fri-ka/",
+        "usage_context_en": "A country at the southern end of Africa.",
+        "usage_context_es": "Un país en el extremo sur de África.",
+        "usage_example": "Südafrika liegt in Afrika.",
+        "usage_example_es": "Sudáfrica está en África.",
+        "imagePath": "/card_images/nouns/1-basic/countries/1-basic_countries_card_21_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Countries",
+    "is_verb": false,
+    "name": "Südafrika",
+    "phonetic": "/ˈzyːtʔaːfʁika/",
+    "search_term": "noun/countries/seed",
+    "spoken_phonetic_us": "/ˈzyːtʔaːfʁika/"
+  }
+]

@@ -1,0 +1,425 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Tener (posesión)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/ownership/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Tener (posesión)]",
+                "usage_example": "Ellos tienen una casa grande.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ellos tienen una casa grande.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: posesión/familia]",
+                "usage_context_es": "posesión/familia",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_have_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Tomar/Comer (en expresiones)]",
+                "usage_example": "Cenemos juntos.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Cenemos juntos.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: comidas/actividades]",
+                "usage_context_es": "comidas/actividades",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_have_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Obtener/Conseguir",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/obtain/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Obtener/Conseguir]",
+                "usage_example": "Necesito conseguir un abrigo nuevo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Necesito conseguir un abrigo nuevo.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: compras/recibir]",
+                "usage_context_es": "compras/recibir",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_get_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Llegar (a un lugar)]",
+                "usage_example": "Llegamos tarde a casa.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Llegamos tarde a casa.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: llegada/viaje]",
+                "usage_context_es": "llegada/viaje",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_get_def1.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Ponerse / Hacerse (cambio de estado)]",
+                "usage_example": "Se está haciendo tarde.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Se está haciendo tarde.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: cambio de estado/emociones]",
+                "usage_context_es": "cambio de estado/emociones",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Entender / Comprender]",
+                "usage_example": "No lo entiendo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: No lo entiendo.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: comprensión/entendimiento]",
+                "usage_context_es": "comprensión/entendimiento",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Traer / Ir a buscar]",
+                "usage_example": "¿Me puedes traer un bolígrafo?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: ¿Me puedes traer un bolígrafo?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: traer/ir a buscar]",
+                "usage_context_es": "traer/ir a buscar",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Tomar/Agarrar",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/transport/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Tomar/Agarrar]",
+                "usage_example": "Toma el libro de la mesa.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Toma el libro de la mesa.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: agarrar/recibir]",
+                "usage_context_es": "agarrar/recibir",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_take_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Llevar/Transportar]",
+                "usage_example": "Él toma el autobús para ir al trabajo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Él toma el autobús para ir al trabajo.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: transporte/acompañar]",
+                "usage_context_es": "transporte/acompañar",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_take_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Dar (entregar algo)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/transfer/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Dar (entregar algo)]",
+                "usage_example": "Dame el libro, por favor.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Dame el libro, por favor.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: entregar/regalar]",
+                "usage_context_es": "entregar/regalar",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_12_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Ofrecer (algo no material)]",
+                "usage_example": "Ella da buenos consejos.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ella da buenos consejos.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: consejo/oportunidad]",
+                "usage_context_es": "consejo/oportunidad",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_12_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Comprar",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/purchase/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Comprar]",
+                "usage_example": "Necesito comprar algo de leche.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Necesito comprar algo de leche.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: compras/víveres]",
+                "usage_context_es": "compras/víveres",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Adquirir/Creer (informal)]",
+                "usage_example": "Él le compró un coche nuevo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Él le compró un coche nuevo.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: regalos/creencia]",
+                "usage_context_es": "regalos/creencia",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Pagar (dinero)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/money/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Pagar (dinero)]",
+                "usage_example": "Necesito pagar el alquiler hoy.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Necesito pagar el alquiler hoy.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: dinero/facturas]",
+                "usage_context_es": "dinero/facturas",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Prestar atención (con 'attention')]",
+                "usage_example": "Presta atención al profesor.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Presta atención al profesor.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: enfoque/cortesía]",
+                "usage_context_es": "enfoque/cortesía",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Mantener/Guardar",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/retain/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Mantener/Guardar]",
+                "usage_example": "Quédate el cambio.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Quédate el cambio.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: posesión/promesa]",
+                "usage_context_es": "posesión/promesa",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_25_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Continuar (haciendo algo)]",
+                "usage_example": "Sigue caminando recto.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Sigue caminando recto.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: continuidad/acción]",
+                "usage_context_es": "continuidad/acción",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_25_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Sostener/Agarrar",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/grasp/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Sostener/Agarrar]",
+                "usage_example": "Sostén al bebé con cuidado.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Sostén al bebé con cuidado.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: sujetar/soporte]",
+                "usage_context_es": "sujetar/soporte",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_40_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Contener/Mantener]",
+                "usage_example": "Esta caja contiene muchos juguetes.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Esta caja contiene muchos juguetes.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: contención/restricción]",
+                "usage_context_es": "contención/restricción",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_40_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Enviar/Mandar",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/dispatch/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Enviar/Mandar]",
+                "usage_example": "Te enviaré un correo mañana.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Te enviaré un correo mañana.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: comunicación/correo]",
+                "usage_context_es": "comunicación/correo",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_63_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Emitir/Producir (luz, calor)]",
+                "usage_example": "El sol emite luz y calor.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El sol emite luz y calor.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: naturaleza/producción]",
+                "usage_context_es": "naturaleza/producción",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_63_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Vender",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/trade/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Vender]",
+                "usage_example": "Vendemos café y té.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Vendemos café y té.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: comercio/productos]",
+                "usage_context_es": "comercio/productos",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_67_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Persuadir (informal)]",
+                "usage_example": "Me vendieron la idea enseguida.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Me vendieron la idea enseguida.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: persuasión/marketing]",
+                "usage_context_es": "persuasión/marketing",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_67_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    }
+]

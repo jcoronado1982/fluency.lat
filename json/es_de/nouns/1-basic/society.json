@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Ley",
+        "pronunciation_guide_es": "/du_MUST_das_ge-ZETS_be-FOL-gen/",
+        "usage_context_en": "The system of rules in a country",
+        "usage_context_es": "El sistema de reglas en un país",
+        "usage_example": "Du musst das Gesetz befolgen.",
+        "usage_example_es": "Debes seguir la ley.",
+        "imagePath": "/card_images/nouns/1-basic/society/1-basic_society_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Society",
+    "is_verb": false,
+    "name": "das Gesetz",
+    "phonetic": "/das ɡəˈzɛts/",
+    "search_term": "noun/concept/society/essentials",
+    "spoken_phonetic_us": "/das ɡəˈzɛts/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Gobierno",
+        "pronunciation_guide_es": "/di_re-GI-rung_hat_ain_NOI-es_ge-ZETS_er-LA-sen/",
+        "usage_context_en": "The group of people who control a country",
+        "usage_context_es": "El grupo de personas que controla un país",
+        "usage_example": "Die Regierung hat ein neues Gesetz erlassen.",
+        "usage_example_es": "El gobierno hizo una nueva ley.",
+        "imagePath": "/card_images/nouns/1-basic/society/1-basic_society_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Society",
+    "is_verb": false,
+    "name": "die Regierung",
+    "phonetic": "/diː ʁeˈɡiːʁʊŋ/",
+    "search_term": "noun/concept/society/essentials",
+    "spoken_phonetic_us": "/diː ʁeˈɡiːʁʊŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Presidente",
+        "pronunciation_guide_es": "/der_pre-zi-DENT_der_FIR-ma/",
+        "usage_context_en": "The leader of a country or company",
+        "usage_context_es": "El líder de un país o compañía",
+        "usage_example": "Der Präsident der Firma.",
+        "usage_example_es": "El presidente de la compañía.",
+        "imagePath": "/card_images/nouns/1-basic/society/1-basic_society_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Society",
+    "is_verb": false,
+    "name": "der Präsident",
+    "phonetic": "/deːɐ pʁɛziˈdɛnt/",
+    "search_term": "noun/job/society/essentials",
+    "spoken_phonetic_us": "/deːɐ pʁɛziˈdɛnt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Guerra",
+        "pronunciation_guide_es": "/KRIK_ist_ET-vas_SHREK-lish-es/",
+        "usage_context_en": "A conflict between countries with armies",
+        "usage_context_es": "Un conflicto entre países con ejércitos",
+        "usage_example": "Krieg ist etwas Schreckliches.",
+        "usage_example_es": "La guerra es una cosa terrible.",
+        "imagePath": "/card_images/nouns/1-basic/society/1-basic_society_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Society",
+    "is_verb": false,
+    "name": "der Krieg",
+    "phonetic": "/deːɐ kʁiːk/",
+    "search_term": "noun/concept/society/essentials",
+    "spoken_phonetic_us": "/deːɐ kʁiːk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Paz",
+        "pronunciation_guide_es": "/vir_A-le_VO-len_FRI-den/",
+        "usage_context_en": "A time without war; calm",
+        "usage_context_es": "Un tiempo sin guerra; calma",
+        "usage_example": "Wir alle wollen Frieden.",
+        "usage_example_es": "Todos queremos la paz.",
+        "imagePath": "/card_images/nouns/1-basic/society/1-basic_society_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Society",
+    "is_verb": false,
+    "name": "der Frieden",
+    "phonetic": "/deːɐ ˈfʁiːdn̩/",
+    "search_term": "noun/concept/society/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈfʁiːdn̩/"
+  }
+]

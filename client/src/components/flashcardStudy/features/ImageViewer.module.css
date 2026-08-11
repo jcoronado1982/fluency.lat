@@ -1,0 +1,474 @@
+
+
+[data-variant='app'] .imagePlaceholder {
+    width: 100%;
+    flex: 1 1 0;
+    min-height: clamp(90px, calc(var(--fc-real-vh, 100dvh) * 0.18), 400px);
+    height: auto;
+    max-width: 100%;
+    margin: clamp(6px, 1vh, 12px) auto clamp(10px, 1.5vh, 16px);
+    min-width: 0;
+    align-self: stretch;
+}
+
+[data-variant='app'][data-layout='conjugation'] .imagePlaceholder {
+    aspect-ratio: 7 / 4;
+    flex: 0 0 auto;
+    margin-top: 10px;
+    align-self: end;
+}
+
+[data-variant='app'] .imageLoadingOverlay {
+    min-height: 0;
+}
+
+@media (min-width: 768.02px) and (max-height: 900px) {
+    [data-variant='app'] .imagePlaceholder {
+        min-height: clamp(110px, calc(var(--fc-real-vh, 100dvh) * 0.22), 260px);
+        margin: 6px auto 8px;
+    }
+
+    [data-variant='app'][data-layout='conjugation'] .imagePlaceholder {
+        margin-top: 0;
+    }
+}
+
+.imagePlaceholder {
+    /* Tamaño base del visor; las variantes app/demo lo redefinen a flex:1 + auto */
+    --fc-image-base-width: 512px;
+    --fc-image-base-height: 420px;
+    grid-area: image;
+    width: var(--fc-image-base-width);
+    height: var(--fc-image-base-height);
+    max-width: 100%;
+    margin: 20px auto 30px auto;
+    /* Margen superior fijo para evitar que se caiga demasiado */
+    border-radius: var(--fc-media-radius, 24px);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(15, 23, 42, 0.4);
+    backdrop-filter: blur(12px);
+    position: relative;
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.6),
+        inset 0 0 20px rgba(255, 255, 255, 0.05),
+        0 0 15px rgba(56, 189, 248, 0.05);
+    /* Brillo ambiental sutil */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.imageControls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 50;
+    display: flex;
+    gap: 8px;
+}
+
+.imageControlBtn {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    backface-visibility: hidden;
+}
+
+.deleteImageBtn {
+    color: #ef4444;
+    background: rgba(239, 68, 68, 0.1);
+    border-color: rgba(239, 68, 68, 0.2);
+}
+
+.uploadImageBtn {
+    color: #38bdf8;
+    background: rgba(56, 189, 248, 0.1);
+    border-color: rgba(56, 189, 248, 0.2);
+}
+
+.regenerateImageBtn {
+    color: #a855f7;
+    background: rgba(168, 85, 247, 0.1);
+    border-color: rgba(168, 85, 247, 0.2);
+}
+
+.imageControlBtn:hover {
+    transform: translateY(-2px) scale(1.1);
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.deleteImageBtn:hover {
+    background: rgba(239, 68, 68, 0.25);
+    border-color: #ef4444;
+    color: #ef4444;
+}
+
+.uploadImageBtn:hover {
+    background: rgba(56, 189, 248, 0.25);
+    border-color: #38bdf8;
+    color: #38bdf8;
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+}
+
+.regenerateImageBtn:hover {
+    background: rgba(168, 85, 247, 0.25);
+    border-color: #a855f7;
+    color: #a855f7;
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.3);
+}
+
+.noImagePlaceholderImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.65;
+    filter: brightness(0.85);
+    transition: opacity 0.3s ease;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Volvemos a cover para que llene el nuevo formato cine */
+    object-position: center 40%;
+    /* Ajuste fino solicitado por el usuario */
+    opacity: var(--image-opacity, 0);
+    transition: opacity 0.8s ease, transform 0.5s ease;
+    display: block;
+}
+
+.imageVisible {
+    opacity: var(--image-opacity, 1);
+}
+
+.imageBackdrop {
+    display: none;
+}
+
+.imageLoadingOverlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    text-align: center;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    padding: 32px;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at center, rgba(56, 189, 248, 0.08), transparent 42%),
+        linear-gradient(180deg, rgba(15, 23, 42, 0.78), rgba(15, 23, 42, 0.7));
+    backdrop-filter: blur(12px);
+}
+
+.imageLoadingOverlay::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(105deg, transparent 20%, rgba(255, 255, 255, 0.08) 50%, transparent 80%);
+    transform: translateX(-120%);
+    animation: imageShimmer 1.8s ease-in-out infinite;
+}
+
+.loaderVisualContainer {
+    position: relative;
+    z-index: 1;
+    width: 92px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aiLoaderGlow {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(56, 189, 248, 0.26), rgba(56, 189, 248, 0));
+    filter: blur(6px);
+}
+
+.aiLoaderCircle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 3px solid transparent;
+    border-top-color: #38bdf8;
+    border-radius: 50%;
+    animation: spin 2.8s linear infinite;
+    filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.4));
+}
+
+.aiLoaderCircleInner {
+    position: absolute;
+    width: 64%;
+    height: 64%;
+    border: 3px solid transparent;
+    border-bottom-color: #fbbf24;
+    border-radius: 50%;
+    animation: spin-reverse 1.9s linear infinite;
+    filter: drop-shadow(0 0-8px rgba(251, 191, 36, 0.3));
+}
+
+.aiLoaderIcon {
+    font-size: 22px;
+    color: #ffffff;
+    animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.aiLoaderTextContainer {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.aiLoaderText {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.06em;
+    margin: 0;
+    text-transform: none;
+}
+
+@keyframes spin-reverse {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes pulse-glow {
+
+    0%,
+    100% {
+        opacity: 0.5;
+        filter: drop-shadow(0 0 5px #38bdf8);
+        transform: scale(0.9);
+    }
+
+    50% {
+        opacity: 1;
+        filter: drop-shadow(0 0 15px #38bdf8);
+        transform: scale(1.1);
+    }
+}
+
+@keyframes imageShimmer {
+    0% {
+        transform: translateX(-120%);
+    }
+
+    100% {
+        transform: translateX(120%);
+    }
+}
+
+@media (max-width: 768px) {
+
+    [data-variant='app'] .imagePlaceholder {
+        flex: 1 1 0;
+        min-height: clamp(72px, calc(var(--fc-real-vh, 100dvh) * 0.14), 180px);
+        height: auto;
+        max-height: none;
+        margin: 6px auto 8px;
+        border-radius: clamp(12px, 3vw, 16px);
+        min-width: 0;
+        align-self: stretch;
+        flex-shrink: 1;
+    }
+
+    [data-variant='app'][data-layout='conjugation'] .imagePlaceholder {
+        aspect-ratio: auto;
+        flex: 1 1 0;
+        height: auto;
+        max-height: none;
+        align-self: stretch;
+    }
+
+    [data-variant='app'][data-layout='conjugation'] .imageBackdrop {
+        position: absolute;
+        z-index: 0;
+        inset: -18px;
+        display: block;
+        width: calc(100% + 36px);
+        height: calc(100% + 36px);
+        object-fit: cover;
+        opacity: var(--image-opacity, 0);
+        filter: blur(12px) brightness(0.64) saturate(1.05);
+        transform: scale(1.12);
+        pointer-events: none;
+    }
+
+    [data-variant='app'][data-layout='conjugation'] .image {
+        position: relative;
+        z-index: 1;
+        object-fit: contain;
+        filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.3));
+    }
+
+    /* Recortar los marcos difuminados en responsive móvil normal */
+    [data-variant='app']:not([data-layout='conjugation']) .image,
+    [data-variant='demo'] .image {
+        transform: scale(1.28);
+    }
+
+}
+
+[data-variant='demo'] .imagePlaceholder {
+    margin: 4px 0 0;
+    height: 100%;
+    min-height: 0;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 32px;
+}
+
+@media (max-width: 768px) {
+
+[data-variant='demo'] .imagePlaceholder {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    max-height: none;
+    margin: 4px 0 4px;
+    border-radius: 32px;
+}
+}
+
+@media (display-mode: standalone) and (max-width: 768px) {
+    [data-variant='app'] .imageControls {
+        top: 25px;
+    }
+
+    [data-variant='app'] .imageControlBtn {
+        background: var(--pwa-nav-surface, rgba(18, 22, 30, 0.62));
+        border-color: var(--pwa-nav-border, rgba(255, 255, 255, 0.1));
+        box-shadow: 0 12px 34px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(28px) saturate(1.4);
+        -webkit-backdrop-filter: blur(28px) saturate(1.4);
+    }
+
+    [data-variant='app'] .imageControlBtn svg {
+        width: 16px;
+        height: 16px;
+        stroke-width: var(--brand-icon-stroke, 2);
+    }
+
+    [data-variant='app'] .imagePlaceholder[data-state='empty'] {
+        overflow: hidden;
+        background: #020617;
+    }
+
+    [data-variant='app'] .imagePlaceholder[data-state='empty'] .noImagePlaceholderImg {
+        object-fit: cover;
+        object-position: center;
+        transform: translateY(-9%) scale(0.82);
+        transform-origin: center;
+    }
+
+    [data-variant='app'] .imageControlBtn:hover {
+        background: var(--pwa-nav-surface, rgba(18, 22, 30, 0.62));
+        border-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 12px 34px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    }
+
+    [data-variant='app'] .deleteImageBtn,
+    [data-variant='app'] .deleteImageBtn:hover {
+        color: #e11d48;
+    }
+
+    [data-variant='app'] .regenerateImageBtn,
+    [data-variant='app'] .regenerateImageBtn:hover {
+        color: #ffffff;
+    }
+
+    [data-variant='app'] .deleteImageBtn:hover,
+    [data-variant='app'] .uploadImageBtn:hover,
+    [data-variant='app'] .regenerateImageBtn:hover {
+        background: var(--pwa-nav-surface, rgba(18, 22, 30, 0.62));
+    }
+
+    [data-variant='app'] .imagePlaceholder,
+    [data-variant='app'][data-layout='conjugation'] .imagePlaceholder {
+        position: absolute;
+        z-index: 0;
+        top: var(--pwa-image-start, calc(100px + env(safe-area-inset-top, 0px)));
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        min-width: 0;
+        min-height: 0;
+        max-width: none;
+        max-height: none;
+        margin: 0;
+        border: 0;
+        border-radius: 0;
+        background: #111827;
+        box-shadow: none;
+        overflow: visible;
+    }
+
+    [data-variant='app'] .image,
+    [data-variant='app'][data-layout='conjugation'] .image {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        object-fit: none;
+        object-position: top;
+        margin-top: 0px;
+        filter: none;
+    }
+
+    [data-variant='app'][data-layout='conjugation'] .image {
+        object-position: center top;
+    }
+
+    [data-variant='app'] .imageBackdrop,
+    [data-variant='app'][data-layout='conjugation'] .imageBackdrop {
+        position: absolute;
+        z-index: 0;
+        top: calc(0px - var(--pwa-image-start, calc(100px + env(safe-area-inset-top, 0px))));
+        left: -24px;
+        display: block;
+        width: calc(100% + 48px);
+        height: calc(var(--pwa-image-start, calc(100px + env(safe-area-inset-top, 0px))) + 140px);
+        object-fit: cover;
+        object-position: center 28%;
+        opacity: var(--image-opacity, 0);
+        filter: blur(20px) brightness(0.58) saturate(1.18);
+        transform: scale(1.08);
+        -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 58%, transparent 100%);
+        mask-image: linear-gradient(180deg, #000 0%, #000 58%, transparent 100%);
+        pointer-events: none;
+    }
+}

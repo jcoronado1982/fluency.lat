@@ -1,0 +1,258 @@
+{
+  "categories": [
+
+    {
+      "name": "verbs",
+      "order": 2,
+      "decks": {
+        "1-basic": [
+          { "name": "Being & State", "order": 1 },
+          { "name": "Social & Exchange", "order": 2 },
+          { "name": "Handling & Creating", "order": 3 },
+          { "name": "Communication", "order": 4 },
+          { "name": "Action & Movement", "order": 5 },
+          { "name": "Mind & Senses", "order": 6 },
+          { "name": "Daily Life", "order": 7 },
+          { "name": "Change & Result", "order": 8 }
+        ],
+        "2-intermediate": [
+          { "name": "Managing & Control", "order": 1 },
+          { "name": "Social & Daily Life", "order": 2 },
+          { "name": "Building & Creating", "order": 3 },
+          { "name": "Daily Tasks", "order": 4 },
+          { "name": "Thinking & Deciding", "order": 5 },
+          { "name": "Body & Movement", "order": 6 },
+          { "name": "Communication", "order": 7 },
+          { "name": "Daily Routine", "order": 8 },
+          { "name": "Feelings & Reactions", "order": 9 }
+        ],
+        "3-advanced": [
+          { "name": "Goals & Results", "order": 1 },
+          { "name": "Critical Thinking", "order": 2 },
+          { "name": "Academic Communication", "order": 3 },
+          { "name": "Professional Action", "order": 4 },
+          { "name": "Influence & Change", "order": 5 },
+          { "name": "Social Dynamics", "order": 6 },
+          { "name": "Professional & Business", "order": 7 }
+        ]
+      }
+    },
+    {
+      "name": "nouns",
+      "order": 3,
+      "decks": {
+        "1-basic": [
+          { "name": "Time", "order": 1 },
+          { "name": "People", "order": 2 },
+          { "name": "General", "order": 3 },
+          { "name": "Family", "order": 4 },
+          { "name": "Places", "order": 5 },
+          { "name": "Body Parts", "order": 6 },
+          { "name": "General Concepts", "order": 7 },
+          { "name": "School & Work", "order": 8 },
+          { "name": "Food", "order": 9 },
+          { "name": "Animals", "order": 10 },
+          { "name": "Household", "order": 11 },
+          { "name": "Transportation", "order": 12 },
+          { "name": "Clothing", "order": 13 },
+          { "name": "Colors", "order": 14 },
+          { "name": "Nature", "order": 15 },
+          { "name": "Days of the Week", "order": 16 },
+          { "name": "Months", "order": 17 },
+          { "name": "Numbers", "order": 18 },
+          { "name": "Seasons", "order": 19 },
+          { "name": "Directions", "order": 20 },
+          { "name": "Society", "order": 21 },
+          { "name": "Feelings", "order": 22 }
+        ],
+        "2-intermediate": [
+          { "name": "General Concepts", "order": 1 },
+          { "name": "Arts & Media", "order": 2 },
+          { "name": "Places & Locations", "order": 3 },
+          { "name": "Feelings & Emotions", "order": 4 },
+          { "name": "Transportation & Travel", "order": 5 },
+          { "name": "Nature & Materials", "order": 6 },
+          { "name": "Science & Biology", "order": 7 },
+          { "name": "Government & Society", "order": 8 },
+          { "name": "Health & Medicine", "order": 9 },
+          { "name": "Technology & Internet", "order": 10 },
+          { "name": "Household", "order": 11 },
+          { "name": "Numbers", "order": 12 }
+        ],
+        "3-advanced": [
+          { "name": "General Concepts", "order": 1 },
+          { "name": "Arts & Media", "order": 2 },
+          { "name": "Feelings & Emotions", "order": 3 },
+          { "name": "Government & Society", "order": 4 },
+          { "name": "Nature & Environment", "order": 5 }
+        ]
+      }
+    },
+    {
+      "name": "preposition",
+      "order": 7,
+      "decks": {
+        "1-basic": [
+          { "name": "Place & Time", "order": 1 },
+          { "name": "Direction & Movement", "order": 2 },
+          { "name": "Relation, Purpose & Reference", "order": 3 }
+        ],
+        "2-intermediate": [
+          { "name": "Space & Extent", "order": 1 },
+          { "name": "Logic, Reference & Method", "order": 2 }
+        ],
+        "3-advanced": [
+          { "name": "Contrast & Reference", "order": 1 },
+          { "name": "Formal, Topic & Extension", "order": 2 }
+        ]
+      }
+    },
+    {
+      "name": "adjectives",
+      "order": 5,
+      "decks": {
+        "1-basic": [
+          { "name": "Size & Dimension", "order": 1 },
+          { "name": "Quality & Value", "order": 2 },
+          { "name": "Feelings & Emotions", "order": 3 },
+          { "name": "Physical State", "order": 4 },
+          { "name": "Age & Novelty", "order": 5 },
+          { "name": "Difficulty & Effort", "order": 6 },
+          { "name": "Speed & Time", "order": 7 },
+          { "name": "Logic & Evaluation", "order": 8 }
+        ],
+        "2-intermediate": [
+          { "name": "Personality & Social", "order": 1 },
+          { "name": "Feelings & Emotions", "order": 2 },
+          { "name": "Health & Well-being", "order": 3 },
+          { "name": "Value & Wealth", "order": 4 },
+          { "name": "Physical & Sensory", "order": 5 },
+          { "name": "Social & Status", "order": 6 },
+          { "name": "Mind & Attitude", "order": 7 }
+        ],
+        "3-advanced": [
+          { "name": "Personality Traits", "order": 1 },
+          { "name": "Feelings & Emotions", "order": 2 },
+          { "name": "State & Fortune", "order": 3 }
+        ]
+      }
+    },
+    {
+      "name": "adverbs",
+      "order": 4,
+      "decks": {
+        "1-basic": [
+          { "name": "Adverbs: Degree", "order": 1 },
+          { "name": "Adverbs: Manner", "order": 2 },
+          { "name": "Adverbs: Frequency", "order": 3 },
+          { "name": "Adverbs: Time", "order": 4 },
+          { "name": "Adverbs: Place", "order": 5 }
+        ],
+        "2-intermediate": [
+          { "name": "Adverbs: Manner", "order": 1 },
+          { "name": "Adverbs: Degree", "order": 2 },
+          { "name": "Adverbs: Certainty", "order": 3 },
+          { "name": "Adverbs: Time", "order": 4 },
+          { "name": "Adverbs: Sentence", "order": 5 },
+          { "name": "Adverbs: Frequency", "order": 6 }
+        ],
+        "3-advanced": [
+          { "name": "Adverbs: Sentence", "order": 1 },
+          { "name": "Adverbs: Manner", "order": 2 },
+          { "name": "Adverbs: Degree", "order": 3 },
+          { "name": "Adverbs: Frequency", "order": 4 },
+          { "name": "Connectors: Addition", "order": 5 },
+          { "name": "Connectors: Condition", "order": 6 },
+          { "name": "Connectors: Contrast", "order": 7 },
+          { "name": "Connectors: Cause & Effect", "order": 8 },
+          { "name": "Adverbs: Time", "order": 9 }
+        ]
+      }
+    },
+    {
+      "name": "connectors",
+      "order": 6,
+      "decks": {
+        "1-basic": [
+          { "name": "Connectors: Addition", "order": 1 },
+          { "name": "Connectors: Contrast", "order": 2 },
+          { "name": "Connectors: Sequence", "order": 3 },
+          { "name": "Connectors: Cause & Effect", "order": 4 },
+          { "name": "Connectors: Example", "order": 5 },
+          { "name": "Connectors: Clarification", "order": 6 },
+          { "name": "Connectors: Conclusion", "order": 7 },
+          { "name": "Connectors: Condition", "order": 8 },
+          { "name": "Connectors: Time", "order": 9 },
+          { "name": "Connectors: Alternative", "order": 10 }
+        ],
+        "2-intermediate": [
+          { "name": "Connectors: Contrast", "order": 1 },
+          { "name": "Connectors: Relative", "order": 2 },
+          { "name": "Connectors: Example", "order": 3 },
+          { "name": "Connectors: Clarification", "order": 4 },
+          { "name": "Connectors: Addition", "order": 5 },
+          { "name": "Connectors: Condition", "order": 6 },
+          { "name": "Connectors: Time", "order": 7 }
+        ],
+        "3-advanced": [
+          { "name": "Connectors: Cause & Effect", "order": 1 },
+          { "name": "Connectors: Contrast", "order": 2 }
+        ]
+      }
+    },
+    {
+      "name": "determinant",
+      "order": 8,
+      "decks": {
+        "1-basic": [
+          { "name": "Reference & Selection", "order": 1 },
+          { "name": "Possessive", "order": 2 },
+          { "name": "Quantifier", "order": 3 },
+          { "name": "Numbers & Order", "order": 4 }
+        ],
+        "2-intermediate": [
+          { "name": "Partitives & Emphasis", "order": 1 },
+          { "name": "Quantity & Measure", "order": 2 },
+          { "name": "Selection & Possession", "order": 3 }
+        ],
+        "3-advanced": [
+          { "name": "Compound & Partitive", "order": 1 },
+          { "name": "Reference & Relation", "order": 2 }
+        ]
+      }
+    },
+    {
+      "name": "phrasal_verbs",
+      "order": 9,
+      "decks": {
+        "1-basic": [
+          { "name": "Daily Life & Home", "order": 1 },
+          { "name": "Movement & Travel", "order": 2 },
+          { "name": "Communication & Social", "order": 3 },
+          { "name": "Search & Understanding", "order": 4 },
+          { "name": "Progress & Reactions", "order": 5 },
+          { "name": "Difficult Situations", "order": 6 },
+          { "name": "Safety & Emergencies", "order": 7 }
+        ],
+        "2-intermediate": [
+          { "name": "Change Results", "order": 1 },
+          { "name": "Communication Exchange", "order": 2 },
+          { "name": "Complex Actions", "order": 3 },
+          { "name": "Daily Decisions", "order": 4 },
+          { "name": "Learning, Problem Solving", "order": 5 },
+          { "name": "Movement & Transport", "order": 6 },
+          { "name": "Relationships & Care", "order": 7 },
+          { "name": "Social Visits", "order": 8 },
+          { "name": "Work & Progress", "order": 9 }
+        ],
+        "3-advanced": [
+          { "name": "Change Action", "order": 1 },
+          { "name": "Conflict & Resistance", "order": 2 },
+          { "name": "Goals & Progress", "order": 3 },
+          { "name": "Reasoning & Meaning", "order": 4 },
+          { "name": "Social Outcomes", "order": 5 }
+        ]
+      }
+    }
+  ]
+}

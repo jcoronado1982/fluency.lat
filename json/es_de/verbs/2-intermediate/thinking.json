@@ -1,0 +1,532 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "I believe in magic.",
+        "char_count": "two",
+        "meaning": "Creer (algo)",
+        "pronunciation_guide_es": "/GLAUPST_du_ZAI-ne_ge-SHISH-te/",
+        "usage_context_en": "truth/faith",
+        "usage_context_es": "verdad/fe",
+        "usage_example": "Glaubst du seine Geschichte?",
+        "usage_example_es": "¿Crees su historia?",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_0_def0.avif"
+      },
+      {
+        "alternative_example": "She believes in a better future.",
+        "char_count": "two",
+        "meaning": "Tener fe/Confiar",
+        "pronunciation_guide_es": "/ish_GLAU-be_an_dish/",
+        "usage_context_en": "trust/optimism",
+        "usage_context_es": "confianza/optimismo",
+        "usage_example": "Ich glaube an dich.",
+        "usage_example_es": "Creo en ti.",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_0_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "glauben",
+    "phonetic": "/ˈɡlaʊbn̩/",
+    "search_term": "verb/faith/essentials",
+    "spoken_phonetic_us": "/ˈɡlaʊbn̩/",
+    "group_name": "Mind & Senses"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "She learns new things every day.",
+        "char_count": "one",
+        "usage_example_es": "Quiero aprender inglés.",
+        "meaning": "Aprender",
+        "pronunciation_guide_es": "/ish_MOESH-te_ENG-lish_LER-nen/",
+        "usage_context_en": "study/skills",
+        "usage_context_es": "estudio/habilidades",
+        "usage_example": "Ich möchte Englisch lernen.",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_1_def0.avif"
+      },
+      {
+        "alternative_example": "He learned his lesson.",
+        "char_count": "one",
+        "usage_example_es": "Me enteré de la noticia esta mañana.",
+        "meaning": "Enterarse de/Saber (información)",
+        "pronunciation_guide_es": "/ish_HA-be_HOI-te_MOR-gen_fon_den_NOI-ish-kai-ten_er-FA-ren/",
+        "usage_context_en": "information/experience",
+        "usage_context_es": "información/experiencia",
+        "usage_example": "Ich habe heute Morgen von den Neuigkeiten erfahren.",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_1_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "lernen",
+    "phonetic": "/ˈlɛʁnən/",
+    "search_term": "verb/acquire knowledge/level_up",
+    "spoken_phonetic_us": "/ˈlɛʁnən/",
+    "irregular": {
+      "past": {
+        "form": "lernte",
+        "phonetic": "/ˈlɛʁntə/",
+        "spoken_phonetic_us": "/ˈlɛʁntə/",
+        "usage_example": "Er lernte seine Lektion.",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "/er_LERN-te_ZAI-ne_lek-tsi-ON/",
+        "meaning": "Past of learn",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_1_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gelernt",
+        "phonetic": "/ɡəˈlɛʁnt/",
+        "spoken_phonetic_us": "/ɡəˈlɛʁnt/",
+        "usage_example": "Ich habe viel aus diesem Fehler gelernt.",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "/ish_HA-be_FIL_aus_DI-zem_FE-ler_ge-LERNT/",
+        "meaning": "Participle of learn",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_1_def0_v3.avif"
+      }
+    },
+    "group_name": "Mind & Senses"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "betrachten",
+    "phonetic": "/bəˈtʁaxtn̩/",
+    "spoken_phonetic_us": "/bəˈtʁaxtn̩/",
+    "search_term": "verb/think about/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Considerar/Pensar en",
+        "usage_example": "Wir sollten alle Optionen in Betracht ziehen.",
+        "pronunciation_guide_es": "/vir_ZOL-ten_A-le_op-tsi-O-nen_in_be-TRACHT_TSI-en/",
+        "alternative_example": "I am considering a new career.",
+        "usage_example_es": "Deberíamos considerar todas las opciones.",
+        "char_count": "three",
+        "usage_context_en": "options/decisions",
+        "usage_context_es": "opciones/decisiones",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_2_def0.avif"
+      },
+      {
+        "meaning": "Creer/Juzgar",
+        "usage_example": "Ich halte ihn für einen guten Freund.",
+        "pronunciation_guide_es": "/ish_HAL-te_in_fuer_AI-nen_GU-ten_FROINT/",
+        "alternative_example": "She is considered an expert.",
+        "usage_example_es": "Lo considero un buen amigo.",
+        "char_count": "three",
+        "usage_context_en": "judgment/reputation",
+        "usage_context_es": "juicio/reputación",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_2_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "erwarten",
+    "phonetic": "/ɛɐˈvaʁtn̩/",
+    "spoken_phonetic_us": "/ɛɐˈvaʁtn̩/",
+    "search_term": "verb/anticipate/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Esperar (que algo suceda)",
+        "usage_example": "Ich erwarte bald einen Anruf von ihm.",
+        "pronunciation_guide_es": "/ish_er-VAR-te_BALT_AI-nen_AN-ruf_fon_im/",
+        "alternative_example": "They expect us to be on time.",
+        "usage_example_es": "Espero una llamada de él pronto.",
+        "char_count": "two",
+        "usage_context_en": "anticipation/punctuality",
+        "usage_context_es": "anticipación/puntualidad",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_3_def0.avif"
+      },
+      {
+        "meaning": "Exigir (formal)",
+        "usage_example": "Was erwartest du von mir?",
+        "pronunciation_guide_es": "/vas_er-VAR-test_du_fon_mir/",
+        "alternative_example": "We expect a full refund.",
+        "usage_example_es": "¿Qué esperas de mí?",
+        "char_count": "two",
+        "usage_context_en": "demand/refund",
+        "usage_context_es": "demanda/reembolso",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_3_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "entscheiden",
+    "phonetic": "/ɛntˈʃaɪdn̩/",
+    "spoken_phonetic_us": "/ɛntˈʃaɪdn̩/",
+    "search_term": "verb/choose/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Decidir/Resolver",
+        "usage_example": "Wir müssen uns schnell entscheiden.",
+        "pronunciation_guide_es": "/vir_MUE-sen_uns_SHNEL_ent-SHAI-den/",
+        "alternative_example": "Have you decided on a color?",
+        "usage_example_es": "Necesitamos decidirnos rápido.",
+        "char_count": "two",
+        "usage_context_en": "time/choice",
+        "usage_context_es": "tiempo/elección",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_4_def0.avif"
+      },
+      {
+        "meaning": "Determinar/Fallar (legal)",
+        "usage_example": "Der Richter wird über den Fall entscheiden.",
+        "pronunciation_guide_es": "/der_RISH-ter_virt_UE-ber_den_FAL_ent-SHAI-den/",
+        "alternative_example": "She decided to study abroad.",
+        "usage_example_es": "El juez decidirá el caso.",
+        "char_count": "two",
+        "usage_context_en": "law/plans",
+        "usage_context_es": "ley/planes",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_4_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "wählen",
+    "phonetic": "/ˈvɛːlən/",
+    "spoken_phonetic_us": "/ˈvɛːlən/",
+    "search_term": "verb/select/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Elegir/Escoger",
+        "usage_example": "Du musst eine Option wählen.",
+        "pronunciation_guide_es": "/du_MUST_AI-ne_op-tsi-ON_VAE-len/",
+        "alternative_example": "I choose the blue shirt.",
+        "usage_example_es": "Tienes que elegir una opción.",
+        "char_count": "one",
+        "usage_context_en": "decision/selection",
+        "usage_context_es": "decisión/selección",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_5_def0.avif"
+      },
+      {
+        "meaning": "Decidir/Preferir",
+        "usage_example": "Sie wählt, zu Hause zu bleiben.",
+        "pronunciation_guide_es": "/zi_VAELT_tsu_HAU-ze_tsu_BLAI-ben/",
+        "alternative_example": "We must choose wisely.",
+        "usage_example_es": "Ella elige quedarse en casa.",
+        "char_count": "one",
+        "usage_context_en": "action/preference",
+        "usage_context_es": "acción/preferencia",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_5_def1.avif"
+      }
+    ],
+    "irregular": {
+      "past": {
+        "form": "wählte",
+        "phonetic": "/ˈvɛːltə/",
+        "spoken_phonetic_us": "/ˈvɛːltə/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Past of choose",
+        "definitions": [
+          {
+            "usage_example": "Sie wählte das blaue Kleid für die Party.",
+            "usage_example_es": "Ella eligió el vestido azul para la fiesta.",
+            "pronunciation_guide_es": "/zi_VAEL-te_das_BLAU-e_KLAIT_fuer_di_PAR-ti/",
+            "meaning": "Pasado de Elegir",
+            "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_5_def0_v2.avif"
+          },
+          {
+            "usage_example": "Sie wählten stattdessen, zu Hause zu bleiben.",
+            "usage_example_es": "Escogieron quedarse en casa en su lugar.",
+            "pronunciation_guide_es": "/zi_VAEL-ten_SHTAT-de-sen_tsu_HAU-ze_tsu_BLAI-ben/",
+            "meaning": "Pasado de Escoger",
+            "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_5_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "gewählt",
+        "phonetic": "/ɡəˈvɛːlt/",
+        "spoken_phonetic_us": "/ɡəˈvɛːlt/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Participle of choose",
+        "definitions": [
+          {
+            "usage_example": "Sie hat das blaue Kleid für die Party gewählt.",
+            "usage_example_es": "Ella eligió el vestido azul para la fiesta.",
+            "pronunciation_guide_es": "/zi_hat_das_BLAU-e_KLAIT_fuer_di_PAR-ti_ge-VAELT/",
+            "meaning": "Participio de Elegir",
+            "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_5_def0_v3.avif"
+          },
+          {
+            "usage_example": "Sie haben stattdessen gewählt, zu Hause zu bleiben.",
+            "usage_example_es": "Escogieron quedarse en casa en su lugar.",
+            "pronunciation_guide_es": "/zi_HA-ben_SHTAT-de-sen_ge-VAELT_tsu_HAU-ze_tsu_BLAI-ben/",
+            "meaning": "Participio de Escoger",
+            "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_5_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "merken",
+    "phonetic": "/ˈmɛʁkn̩/",
+    "spoken_phonetic_us": "/ˈmɛʁkn̩/",
+    "search_term": "verb/understand suddenly/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Darse cuenta de",
+        "usage_example": "Ich merkte plötzlich, dass ich meine Schlüssel vergessen hatte.",
+        "pronunciation_guide_es": "/ish_MERK-te_PLOETS-lish_das_ish_MAI-ne_SHLUE-sel_fer-GE-sen_HAT-te/",
+        "alternative_example": "Do you realize how important this is?",
+        "usage_example_es": "De repente me di cuenta de que olvidé mis llaves.",
+        "char_count": "three",
+        "usage_context_en": "awareness/understanding",
+        "usage_context_es": "conciencia/comprensión",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_6_def0.avif"
+      },
+      {
+        "meaning": "Cumplir/Hacer realidad (un sueño)",
+        "usage_example": "Sie hat sich endlich ihren Traum vom Reisen erfüllt.",
+        "pronunciation_guide_es": "/zi_hat_zish_ENT-lish_I-ren_TRAUM_fom_RAI-zen_er-FUELT/",
+        "alternative_example": "He realized his full potential.",
+        "usage_example_es": "Finalmente hizo realidad su sueño de viajar.",
+        "char_count": "three",
+        "usage_context_en": "achievement/dreams",
+        "usage_context_es": "logro/sueños",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_6_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "raten",
+    "phonetic": "/ˈʁaːtn̩/",
+    "spoken_phonetic_us": "/ˈʁaːtn̩/",
+    "search_term": "verb/suppose/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Adivinar",
+        "usage_example": "Kannst du mein Alter erraten?",
+        "pronunciation_guide_es": "/kanst_du_main_AL-ter_er-RA-ten/",
+        "alternative_example": "I guessed the correct answer.",
+        "usage_example_es": "¿Puedes adivinar mi edad?",
+        "char_count": "one",
+        "usage_context_en": "questions/answers",
+        "usage_context_es": "preguntas/respuestas",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_7_def0.avif"
+      },
+      {
+        "meaning": "Suponer/Creer (informal)",
+        "usage_example": "Ich vermute, dass es morgen regnet.",
+        "pronunciation_guide_es": "/ish_fer-MU-te_das_es_MOR-gen_REK-net/",
+        "alternative_example": "I guess I should leave now.",
+        "usage_example_es": "Supongo que lloverá mañana.",
+        "char_count": "one",
+        "usage_context_en": "opinion/supposition",
+        "usage_context_es": "opinión/suposición",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_7_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sich fragen",
+    "phonetic": "/zɪç ˈfʁaːɡn̩/",
+    "spoken_phonetic_us": "/zɪç ˈfʁaːɡn̩/",
+    "search_term": "verb/ask oneself/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Preguntarse/Querer saber",
+        "usage_example": "Ich frage mich, warum er zu spät ist.",
+        "pronunciation_guide_es": "/ish_FRA-ge_mish_va-RUM_er_tsu_SHPAET_ist/",
+        "alternative_example": "I wonder if she likes me.",
+        "usage_example_es": "Me pregunto por qué llega tarde.",
+        "char_count": "two",
+        "usage_context_en": "curiosity/doubt",
+        "usage_context_es": "curiosidad/duda",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_8_def0.avif"
+      },
+      {
+        "meaning": "Maravillarse/Asombrarse",
+        "usage_example": "Ich bin erstaunt über ihre Fähigkeit, ruhig zu bleiben.",
+        "pronunciation_guide_es": "/ish_bin_er-SHTAUNT_UE-ber_I-re_FAE-ish-kait_RU-ish_tsu_BLAI-ben/",
+        "alternative_example": "We wondered at the beauty of the view.",
+        "usage_example_es": "Me maravilla su habilidad para mantener la calma.",
+        "char_count": "two",
+        "usage_context_en": "admiration/awe",
+        "usage_context_es": "admiración/asombro",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_8_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "erkennen",
+    "phonetic": "/ɛɐˈkɛnən/",
+    "spoken_phonetic_us": "/ɛɐˈkɛnən/",
+    "search_term": "verb/identify/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Reconocer (identificar)",
+        "usage_example": "Ich habe dich mit dem neuen Haarschnitt nicht erkannt.",
+        "pronunciation_guide_es": "/ish_HA-be_dish_mit_dem_NOI-en_HAR-shnit_nisht_er-KANT/",
+        "alternative_example": "Do you recognize this song?",
+        "usage_example_es": "No te reconocí con el nuevo corte de pelo.",
+        "char_count": "three",
+        "usage_context_en": "identity/memory",
+        "usage_context_es": "identidad/memoria",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_9_def0.avif"
+      },
+      {
+        "meaning": "Reconocer (aceptar, admitir)",
+        "usage_example": "Wir müssen das Problem erkennen.",
+        "pronunciation_guide_es": "/vir_MUE-sen_das_pro-BLEM_er-KE-nen/",
+        "alternative_example": "The government recognized his bravery.",
+        "usage_example_es": "Debemos reconocer el problema.",
+        "char_count": "three",
+        "usage_context_en": "acceptance/official",
+        "usage_context_es": "aceptación/oficial",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_9_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "bezweifeln",
+    "phonetic": "/bəˈtsvaɪfl̩n/",
+    "spoken_phonetic_us": "/bəˈtsvaɪfl̩n/",
+    "search_term": "verb/be unsure/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Dudar (no estar seguro)",
+        "usage_example": "Ich bezweifle, dass er kommt.",
+        "pronunciation_guide_es": "/ish_be-TSVAI-fle_das_er_KOMT/",
+        "alternative_example": "She doubts his story.",
+        "usage_example_es": "Dudo que venga.",
+        "char_count": "one",
+        "usage_context_en": "uncertainty/belief",
+        "usage_context_es": "incertidumbre/creencia",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_10_def0.avif"
+      },
+      {
+        "meaning": "Cuestionar",
+        "usage_example": "Zweifle nie an deinen Fähigkeiten.",
+        "pronunciation_guide_es": "/TSVAI-fle_ni_an_DAI-nen_FAE-ish-kai-ten/",
+        "alternative_example": "I have no reason to doubt him.",
+        "usage_example_es": "Nunca dudes de tus habilidades.",
+        "char_count": "one",
+        "usage_context_en": "confidence/trust",
+        "usage_context_es": "confianza/confianza",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_10_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "planen",
+    "phonetic": "/ˈplaːnən/",
+    "spoken_phonetic_us": "/ˈplaːnən/",
+    "search_term": "verb/organize/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Planear/Planificar",
+        "usage_example": "Wir planen einen Ausflug an die Küste.",
+        "pronunciation_guide_es": "/vir_PLA-nen_AI-nen_AUS-flug_an_di_KUES-te/",
+        "alternative_example": "What do you plan to do?",
+        "usage_example_es": "Estamos planeando un viaje a la costa.",
+        "char_count": "one",
+        "usage_context_en": "future/travel",
+        "usage_context_es": "futuro/viaje",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_11_def0.avif"
+      },
+      {
+        "meaning": "Tener la intención de",
+        "usage_example": "Ich habe vor, dieses Jahr mehr zu lernen.",
+        "pronunciation_guide_es": "/ish_HA-be_FOR_DI-zes_YAR_MER_tsu_LER-nen/",
+        "alternative_example": "He planned his moves carefully.",
+        "usage_example_es": "Tengo la intención de estudiar más este año.",
+        "char_count": "one",
+        "usage_context_en": "intention/strategy",
+        "usage_context_es": "intención/estrategia",
+        "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_11_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  }
+]

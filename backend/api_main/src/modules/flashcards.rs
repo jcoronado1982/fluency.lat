@@ -1,0 +1,85 @@
+use axum::{
+    routing::{delete, get, post},
+    Router,
+};
+
+use crate::{api, AppState};
+
+pub fn register_routes(app: Router<AppState>) -> Router<AppState> {
+    app.route(
+        "/api/categories",
+        get(api::endpoints::decks::get_categories),
+    )
+    .route(
+        "/api/available-flashcards-files",
+        get(api::endpoints::decks::get_available_decks),
+    )
+    .route(
+        "/api/deck-summaries",
+        get(api::endpoints::decks::get_deck_summaries),
+    )
+    .route(
+        "/api/flashcards-data",
+        get(api::endpoints::decks::get_deck_data),
+    )
+    .route(
+        "/api/update-status",
+        post(api::endpoints::decks::update_card_status),
+    )
+    .route(
+        "/api/update-batch",
+        post(api::endpoints::decks::update_cards_batch),
+    )
+    .route(
+        "/api/srs/due",
+        get(api::endpoints::decks::get_srs_due_cards),
+    )
+    .route(
+        "/api/reset-all",
+        post(api::endpoints::decks::reset_all_statuses),
+    )
+    .route(
+        "/api/phonics-data",
+        get(api::endpoints::decks::get_phonics_data),
+    )
+    .route(
+        "/api/learning-stats",
+        get(api::endpoints::decks::get_learning_stats),
+    )
+    .route(
+        "/api/study/touch",
+        post(api::endpoints::decks::touch_study_day),
+    )
+    .route(
+        "/api/resolve-audio",
+        post(api::endpoints::generation::resolve_audio),
+    )
+    .route(
+        "/api/synthesize-speech",
+        post(api::endpoints::generation::synthesize_speech),
+    )
+    .route(
+        "/api/resolve-image",
+        post(api::endpoints::generation::resolve_image),
+    )
+    .route(
+        "/api/generate-image",
+        post(api::endpoints::generation::generate_image),
+    )
+    .route(
+        "/api/upload-image",
+        post(api::endpoints::generation::upload_image),
+    )
+    .route(
+        "/api/delete-image",
+        delete(api::endpoints::generation::delete_image),
+    )
+    .route(
+        "/api/delete-audio",
+        post(api::endpoints::generation::delete_audio),
+    )
+    .route(
+        "/api/delete-definition",
+        delete(api::endpoints::generation::delete_definition),
+    )
+}

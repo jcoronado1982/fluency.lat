@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "aber",
+    "phonetic": "/ˈaːbɐ/",
+    "spoken_phonetic_us": "/ˈaːbɐ/",
+    "search_term": "conjunction/contrast",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Contrast",
+    "definitions": [
+      {
+        "meaning": "Pero",
+        "usage_example": "Ich mag Kaffee, aber ich bevorzuge Tee.",
+        "pronunciation_guide_es": "/ish_MAK_KA-fe_A-ber_ish_be-FOR-tsu-ge_TE/",
+        "usage_example_es": "Me gusta el café, pero prefiero el té.",
+        "char_count": "6",
+        "usage_context_en": "Used to introduce a phrase or clause contrasting with what has already been said.",
+        "usage_context_es": "Usado para introducir una frase o cláusula que contrasta con lo que ya se ha dicho.",
+        "imagePath": "/card_images/connectors/1-basic/contrast_condition_basics/1-basic_contrast_condition_basics_card_0_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "wenn",
+    "phonetic": "/vɛn/",
+    "spoken_phonetic_us": "/vɛn/",
+    "search_term": "conjunction/condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Condition",
+    "definitions": [
+      {
+        "meaning": "Si (condicional)",
+        "usage_example": "Wenn es regnet, bleibe ich zu Hause.",
+        "pronunciation_guide_es": "/ven_es_REG-net_BLAI-be_ish_tsu_HAU-ze/",
+        "usage_example_es": "Si llueve, me quedaré en casa.",
+        "char_count": "6",
+        "usage_context_en": "Used to introduce a condition (something that must happen first).",
+        "usage_context_es": "Usado para introducir una condición (algo que debe pasar primero).",
+        "imagePath": "/card_images/connectors/1-basic/contrast_condition_basics/1-basic_contrast_condition_basics_card_1_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sonst",
+    "phonetic": "/zɔnst/",
+    "spoken_phonetic_us": "/zɔnst/",
+    "search_term": "connector/contrast_condition_basics/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "O si no / De lo contrario",
+        "usage_example": "Beeil dich, sonst verpassen wir den Bus.",
+        "pronunciation_guide_es": "/be-AIL_dish_ZONST_fer-PA-sen_vir_den_BUS/",
+        "usage_example_es": "Date prisa o si no perderemos el bus.",
+        "char_count": "9",
+        "usage_context_en": "Used to warn about a consequence.",
+        "usage_context_es": "Used to warn about a consequence.",
+        "imagePath": "/card_images/connectors/1-basic/contrast_condition_basics/1-basic_contrast_condition_basics_card_2_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Connectors: Contrast"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "selbst wenn",
+    "phonetic": "/zɛlpst vɛn/",
+    "spoken_phonetic_us": "/zɛlpst vɛn/",
+    "search_term": "connector/contrast_condition_basics/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Incluso si / Aunque",
+        "usage_example": "Ich werde gehen, selbst wenn es regnet.",
+        "pronunciation_guide_es": "/ish_VER-de_GE-en_ZELPST_ven_es_REG-net/",
+        "usage_example_es": "Iré incluso si llueve.",
+        "char_count": "7",
+        "usage_context_en": "Used to show that something will still happen under a condition.",
+        "usage_context_es": "Used to show that something will still happen under a condition.",
+        "imagePath": "/card_images/connectors/1-basic/contrast_condition_basics/1-basic_contrast_condition_basics_card_3_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Connectors: Contrast"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "falls",
+    "phonetic": "/fals/",
+    "spoken_phonetic_us": "/fals/",
+    "search_term": "connector/contrast_condition_basics/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "En caso de que / Por si",
+        "usage_example": "Nimm einen Regenschirm mit, falls es regnet.",
+        "pronunciation_guide_es": "/nim_AI-nen_RE-gen-shirm_mit_FALS_es_REG-net/",
+        "usage_example_es": "Lleva un paraguas por si llueve.",
+        "char_count": "7",
+        "usage_context_en": "Used to prepare for a possible situation.",
+        "usage_context_es": "Used to prepare for a possible situation.",
+        "imagePath": "/card_images/connectors/1-basic/contrast_condition_basics/1-basic_contrast_condition_basics_card_4_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Connectors: Contrast"
+  }
+]

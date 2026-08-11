@@ -1,0 +1,321 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Persona",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/human/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Persona]",
+                "usage_example": "Es una buena persona.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Es una buena persona.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Un ser humano]",
+                "usage_context_es": "Un ser humano",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_1_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Gente / Personas",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/human/plural/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Gente / Personas]",
+                "usage_example": "Hay mucha gente aquí.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Hay mucha gente aquí.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Plural de persona]",
+                "usage_context_es": "Plural de persona",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_2_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Hombre",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/male/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Hombre]",
+                "usage_example": "Ese hombre es mi padre.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ese hombre es mi padre.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un humano masculino adulto]",
+                "usage_context_es": "Un humano masculino adulto",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_5_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: La humanidad / especie humana]",
+                "usage_example": "El ser humano siempre ha buscado el conocimiento.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El ser humano siempre ha buscado el conocimiento.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Se refiere a los seres humanos en conjunto.]",
+                "usage_context_es": "Se refiere a los seres humanos en conjunto.",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_5_def1.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Mujer",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/female/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Mujer]",
+                "usage_example": "Ella es una mujer inteligente.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ella es una mujer inteligente.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una humana femenina adulta]",
+                "usage_context_es": "Una humana femenina adulta",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_6_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Niño / Niña",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/young person/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Niño / Niña]",
+                "usage_example": "El niño está jugando.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El niño está jugando.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un ser humano joven]",
+                "usage_context_es": "Un ser humano joven",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_9_def0.avif"
+            }
+        ],
+        "group_name": "Family",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Amigo / Amiga",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/people/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Amigo / Amiga]",
+                "usage_example": "Ella es mi mejor amiga.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ella es mi mejor amiga.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que te agrada y conoces bien]",
+                "usage_context_es": "Una persona que te agrada y conoces bien",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_22_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Niño / Chico",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/male/child/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Niño / Chico]",
+                "usage_example": "El niño está jugando.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El niño está jugando.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un niño varón]",
+                "usage_context_es": "Un niño varón",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_102_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Niña / Chica",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/female/child/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Niña / Chica]",
+                "usage_example": "La niña está leyendo.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: La niña está leyendo.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Una niña mujer]",
+                "usage_context_es": "Una niña mujer",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_103_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Vecino / Vecina",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/people/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Vecino / Vecina]",
+                "usage_example": "Mi vecino es muy amigable.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Mi vecino es muy amigable.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que vive cerca de ti]",
+                "usage_context_es": "Una persona que vive cerca de ti",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_221_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Grupo",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Grupo]",
+                "usage_example": "Un grupo de gente está esperando.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Un grupo de gente está esperando.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un número de personas o cosas juntas]",
+                "usage_context_es": "Un número de personas o cosas juntas",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_223_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Invitado / Huésped",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/person/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Invitado / Huésped]",
+                "usage_example": "Tenemos un invitado esta noche.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Tenemos un invitado esta noche.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Una persona que te visita o se queda en un hotel]",
+                "usage_context_es": "Una persona que te visita o se queda en un hotel",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_387_def0.avif"
+            }
+        ],
+        "group_name": "People",
+        "category": ""
+    }
+]

@@ -1,0 +1,350 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "now",
+    "phonetic": "/naʊ/",
+    "spoken_phonetic_us": "/naʊ/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Ahora",
+        "usage_example": "I have to leave now.",
+        "pronunciation_guide_es": "/ai_HAV_tu_LIV_NAU/",
+        "usage_example_es": "Tengo que irme ahora.",
+        "char_count": 5,
+        "usage_context_en": "At the present time or moment.",
+        "usage_context_es": "En el tiempo o momento presente.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_0_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "today",
+    "phonetic": "/təˈdeɪ/",
+    "spoken_phonetic_us": "/təˈdeɪ/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Hoy",
+        "usage_example": "I have to work today.",
+        "pronunciation_guide_es": "/ai_HAV_tu_UORK_tu-DEI/",
+        "usage_example_es": "Tengo que trabajar hoy.",
+        "char_count": 5,
+        "usage_context_en": "On or during this present day.",
+        "usage_context_es": "En o durante este día presente.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_1_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "yesterday",
+    "phonetic": "/ˈjɛstərdeɪ/",
+    "spoken_phonetic_us": "/ˈjɛstərdeɪ/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Ayer",
+        "usage_example": "I saw him yesterday.",
+        "pronunciation_guide_es": "/ai_SO_him_IES-ter-dei/",
+        "usage_example_es": "Lo vi ayer.",
+        "char_count": 4,
+        "usage_context_en": "On the day before today.",
+        "usage_context_es": "En el día antes de hoy.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "tomorrow",
+    "phonetic": "/təˈmɒroʊ/",
+    "spoken_phonetic_us": "/təˈmɑːroʊ/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Mañana",
+        "usage_example": "See you tomorrow.",
+        "pronunciation_guide_es": "/SI_iu_tu-MO-rou/",
+        "usage_example_es": "Nos vemos mañana.",
+        "char_count": 3,
+        "usage_context_en": "On the day after today.",
+        "usage_context_es": "En el día después de hoy.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_3_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "early",
+    "phonetic": "/ˈɜːrli/",
+    "spoken_phonetic_us": "/ˈɜrli/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Temprano",
+        "usage_example": "He arrived early for the meeting.",
+        "pronunciation_guide_es": "/hi_a-RAIVD_ER-li_for_de_MI-ting/",
+        "usage_example_es": "Él llegó temprano a la reunión.",
+        "char_count": 6,
+        "usage_context_en": "Before the usual or expected time.",
+        "usage_context_es": "Antes de la hora habitual o esperada.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_4_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "late",
+    "phonetic": "/leɪt/",
+    "spoken_phonetic_us": "/leɪt/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Tarde",
+        "usage_example": "He arrived late for the meeting.",
+        "pronunciation_guide_es": "/hi_a-RAIVD_LEIT_for_de_MI-ting/",
+        "usage_example_es": "Él llegó tarde a la reunión.",
+        "char_count": 6,
+        "usage_context_en": "After the usual or expected time.",
+        "usage_context_es": "Después de la hora habitual o esperada.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_5_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "soon",
+    "phonetic": "/suːn/",
+    "spoken_phonetic_us": "/suːn/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Pronto",
+        "usage_example": "I will be home soon.",
+        "pronunciation_guide_es": "/ai_uil_bi_HOUM_SUN/",
+        "usage_example_es": "Estaré en casa pronto.",
+        "char_count": 5,
+        "usage_context_en": "In or after a short time.",
+        "usage_context_es": "En o después de un corto tiempo.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_6_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "then",
+    "phonetic": "/ðen/",
+    "spoken_phonetic_us": "/ðen/",
+    "search_term": "adverb/time/sequence",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Entonces / En ese momento",
+        "usage_example": "I was young then.",
+        "pronunciation_guide_es": "/ai_uas_IONG_DEN/",
+        "usage_example_es": "Yo era joven en ese momento.",
+        "char_count": 4,
+        "usage_context_en": "Referring to a specific time in the past or future.",
+        "usage_context_es": "Refiriéndose a un tiempo específico en el pasado o futuro.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_7_def0.avif"
+      },
+      {
+        "meaning": "Luego / Después",
+        "usage_example": "First I work, then I rest.",
+        "pronunciation_guide_es": "/FIRST_ai_UORK_den_ai_REST/",
+        "usage_example_es": "Primero trabajo, luego descanso.",
+        "char_count": 5,
+        "usage_context_en": "Used to indicate what happens next in a sequence.",
+        "usage_context_es": "Usado para indicar lo que sucede a continuación en una secuencia.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_7_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "yet",
+    "phonetic": "/jɛt/",
+    "spoken_phonetic_us": "/jɛt/",
+    "search_term": "adverb/time/basic",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Time & Sequence",
+    "definitions": [
+      {
+        "meaning": "Ya / Todavía",
+        "usage_example": "Have you finished yet?",
+        "pronunciation_guide_es": "/jav_iu_FINisht_YET/",
+        "usage_example_es": "¿Ya terminaste?",
+        "char_count": "4",
+        "usage_context_en": "Used in questions and negatives about something expected by now.",
+        "usage_context_es": "Usado en preguntas y negativos sobre algo esperado para este momento.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_8_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "already",
+    "phonetic": "/ɔːlˈrɛdi/",
+    "spoken_phonetic_us": "/ɔlˈrɛdi/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Ya",
+        "usage_example": "I have already eaten.",
+        "pronunciation_guide_es": "/ai_hav_ol-RE-di_I-ten/",
+        "usage_example_es": "Ya he comido.",
+        "char_count": 4,
+        "usage_context_en": "Before or by now; sooner than expected.",
+        "usage_context_es": "Antes o por ahora; más pronto de lo esperado.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_9_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "still",
+    "phonetic": "/stɪl/",
+    "spoken_phonetic_us": "/stɪl/",
+    "search_term": "adverb/time",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Adverbs: Time",
+    "definitions": [
+      {
+        "meaning": "Todavía / Aún",
+        "usage_example": "Are you still here?",
+        "pronunciation_guide_es": "/ar_iu_STIL_HIR/",
+        "usage_example_es": "¿Todavía estás aquí?",
+        "char_count": 4,
+        "usage_context_en": "Continuing to happen or be in a situation up to the present time.",
+        "usage_context_es": "Que continúa sucediendo o estando en una situación hasta el tiempo presente.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_10_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ever",
+    "phonetic": "/ˈɛvər/",
+    "spoken_phonetic_us": "/ˈɛvər/",
+    "search_term": "adverb/experience/basic",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Time & Sequence",
+    "definitions": [
+      {
+        "meaning": "Alguna vez / Nunca",
+        "usage_example": "Have you ever been to Mexico?",
+        "pronunciation_guide_es": "/jav_iu_EVer_BIN_tu_MEKsikou/",
+        "usage_example_es": "¿Has estado alguna vez en México?",
+        "char_count": "6",
+        "usage_context_en": "Used when asking about experiences at any time in life.",
+        "usage_context_es": "Usado para preguntar por experiencias en cualquier momento de la vida.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_11_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "whenever",
+    "phonetic": "/wɛnˈɛvər/",
+    "spoken_phonetic_us": "/wɛnˈɛvər/",
+    "search_term": "adverb/time/basic",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Time & Sequence",
+    "definitions": [
+      {
+        "meaning": "Cuando sea / Siempre que",
+        "usage_example": "Call me whenever you need help.",
+        "pronunciation_guide_es": "/COL_mi_uenEVer_iu_NID_HELP/",
+        "usage_example_es": "Llámame cuando sea que necesites ayuda.",
+        "char_count": "8",
+        "usage_context_en": "Used to mean at any time that something happens.",
+        "usage_context_es": "Usado para significar en cualquier momento en que algo suceda.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_12_def0.avif"
+      }
+    ]
+  }
+]

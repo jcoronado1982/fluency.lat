@@ -1,0 +1,152 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "weil",
+    "phonetic": "/vaɪl/",
+    "spoken_phonetic_us": "/vaɪl/",
+    "search_term": "conjunction/reason",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Cause & Effect",
+    "definitions": [
+      {
+        "meaning": "Porque",
+        "usage_example": "Ich bin müde, weil ich viel gearbeitet habe.",
+        "pronunciation_guide_es": "/ish_bin_MUE-de_vail_ish_FIL_ge-AR-bai-tet_HA-be/",
+        "usage_example_es": "Estoy cansado porque trabajé mucho.",
+        "char_count": "7",
+        "usage_context_en": "Used to introduce a reason or cause.",
+        "usage_context_es": "Usado para introducir una razón o causa.",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_0_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "also",
+    "phonetic": "/ˈalzoː/",
+    "spoken_phonetic_us": "/ˈalzoː/",
+    "search_term": "conjunction/result",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Cause & Effect",
+    "definitions": [
+      {
+        "meaning": "Así que / Por lo tanto",
+        "usage_example": "Ich habe viel gearbeitet, also bin ich müde.",
+        "pronunciation_guide_es": "/ish_HA-be_FIL_ge-AR-bai-tet_AL-zo_bin_ish_MUE-de/",
+        "usage_example_es": "Trabajé mucho, así que estoy cansado.",
+        "char_count": "7",
+        "usage_context_en": "Used to introduce a result or consequence.",
+        "usage_context_es": "Usado para introducir un resultado o consecuencia.",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_1_def0.avif"
+      },
+      {
+        "meaning": "Para que",
+        "usage_example": "Ich spare Geld, damit ich ein Auto kaufen kann.",
+        "pronunciation_guide_es": "/ish_SHPA-re_GELT_da-MIT_ish_ain_AU-to_KAU-fen_kan/",
+        "usage_example_es": "Estoy ahorrando dinero para poder comprar un carro.",
+        "char_count": "9",
+        "usage_context_en": "Used to show purpose (often 'so that').",
+        "usage_context_es": "Usado para mostrar propósito (a menudo 'so that').",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_1_def1.avif"
+      },
+      {
+        "meaning": "Tan / Muy",
+        "usage_example": "Er ist so groß.",
+        "pronunciation_guide_es": "/er_ist_zo_GROS/",
+        "usage_example_es": "Él es tan alto.",
+        "char_count": "4",
+        "usage_context_en": "An intensifier meaning 'very' or 'to this degree'.",
+        "usage_context_es": "Un intensificador que significa 'muy' o 'a este grado'.",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_1_def2.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "deshalb",
+    "phonetic": "/desˈhalp/",
+    "spoken_phonetic_us": "/desˈhalp/",
+    "search_term": "phrase/result",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Cause & Effect",
+    "definitions": [
+      {
+        "meaning": "Por eso / Es por eso que",
+        "usage_example": "Er hat hart gelernt. Deshalb hat er bestanden.",
+        "pronunciation_guide_es": "/er_hat_HART_ge-LERNT_des-HALP_hat_er_be-SHTAN-den/",
+        "usage_example_es": "Él estudió mucho. Por eso aprobó.",
+        "char_count": "6",
+        "usage_context_en": "For that reason (less formal than 'therefore').",
+        "usage_context_es": "Por esa razón (menos formal que 'therefore').",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_2_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "warum",
+    "phonetic": "/vaˈʁʊm/",
+    "spoken_phonetic_us": "/vaˈʁʊm/",
+    "search_term": "connector/cause_effect_basics/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Por qué / La razón por la que",
+        "usage_example": "Ich verstehe, warum du verärgert bist.",
+        "pronunciation_guide_es": "/ish_fer-SHTE-e_va-RUM_du_fer-ER-gert_bist/",
+        "usage_example_es": "Entiendo por qué estás molesto.",
+        "char_count": "6",
+        "usage_context_en": "Used to ask for or express a reason.",
+        "usage_context_es": "Used to ask for or express a reason.",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_3_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Connectors: Cause & Effect"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "dann",
+    "phonetic": "/dan/",
+    "spoken_phonetic_us": "/dan/",
+    "search_term": "connector/cause_effect_basics/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Entonces / En ese caso",
+        "usage_example": "Wenn du bereit bist, dann können wir anfangen.",
+        "pronunciation_guide_es": "/ven_du_be-RAIT_bist_dan_KOE-nen_vir_AN-fan-gen/",
+        "usage_example_es": "Si estás listo, entonces podemos empezar.",
+        "char_count": "8",
+        "usage_context_en": "Used to show consequence or the next logical step.",
+        "usage_context_es": "Used to show consequence or the next logical step.",
+        "imagePath": "/card_images/connectors/1-basic/cause_effect_basics/1-basic_cause_effect_basics_card_4_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Connectors: Cause & Effect"
+  }
+]

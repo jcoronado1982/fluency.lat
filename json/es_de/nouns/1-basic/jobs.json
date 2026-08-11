@@ -1,0 +1,496 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Empleo / Puesto",
+        "pronunciation_guide_es": "/ish_ZU-che_AI-nen_NOI-en_DSHOP/",
+        "usage_context_en": "A paid position of regular employment",
+        "usage_context_es": "Un puesto pagado de empleo regular",
+        "usage_example": "Ich suche einen neuen Job.",
+        "usage_example_es": "Estoy buscando un nuevo empleo.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Job",
+    "phonetic": "/deːɐ dʒɔp/",
+    "search_term": "noun/profession/essentials",
+    "spoken_phonetic_us": "/deːɐ dʒɔp/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Doctor / Médico",
+        "pronunciation_guide_es": "/ish_MUS_tsum_ARTST_GE-en/",
+        "usage_context_en": "A person who treats sick people",
+        "usage_context_es": "Una persona que trata a gente enferma",
+        "usage_example": "Ich muss zum Arzt gehen.",
+        "usage_example_es": "Necesito ver a un médico.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Arzt",
+    "phonetic": "/deːɐ aːɐtst/",
+    "search_term": "noun/person/job/essentials",
+    "spoken_phonetic_us": "/deːɐ aːɐtst/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Policía",
+        "pronunciation_guide_es": "/RUF_di_po-li-TSAI/",
+        "usage_context_en": "People who enforce laws and stop crime",
+        "usage_context_es": "Gente que hace cumplir las leyes y detiene el crimen",
+        "usage_example": "Ruf die Polizei!",
+        "usage_example_es": "¡Llama a la policía!",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "die Polizei",
+    "phonetic": "/diː poliˈtsaɪ/",
+    "search_term": "noun/job/essentials",
+    "spoken_phonetic_us": "/diː poliˈtsaɪ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Bombero",
+        "pronunciation_guide_es": "/der_FOI-er-ver-man_ist_MU-tish/",
+        "usage_context_en": "A person who stops fires",
+        "usage_context_es": "Una persona que apaga incendios",
+        "usage_example": "Der Feuerwehrmann ist mutig.",
+        "usage_example_es": "El bombero es valiente.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Feuerwehrmann",
+    "phonetic": "/deːɐ ˈfɔɪɐveːɐman/",
+    "search_term": "noun/job/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈfɔɪɐveːɐman/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Gerente / Director",
+        "pronunciation_guide_es": "/ish_MUS_mit_dem_ME-ne-ger_SHPRE-chen/",
+        "usage_context_en": "A person who controls a business or team",
+        "usage_context_es": "Una persona que controla un negocio o equipo",
+        "usage_example": "Ich muss mit dem Manager sprechen.",
+        "usage_example_es": "Necesito hablar con el gerente.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Manager",
+    "phonetic": "/deːɐ ˈmɛnɪdʒɐ/",
+    "search_term": "noun/job/work/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈmɛnɪdʒɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Empleado",
+        "pronunciation_guide_es": "/er_ist_ain_NOI-er_AN-ge-shtel-ter/",
+        "usage_context_en": "A person who works for money",
+        "usage_context_es": "Una persona que trabaja por dinero",
+        "usage_example": "Er ist ein neuer Angestellter.",
+        "usage_example_es": "Él es un nuevo empleado.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Angestellte",
+    "phonetic": "/deːɐ ˈanɡəʃtɛltə/",
+    "search_term": "noun/job/work/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈanɡəʃtɛltə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Ingeniero",
+        "pronunciation_guide_es": "/zi_ist_in-she-NI-oe-rin/",
+        "usage_context_en": "A person who designs buildings or machines",
+        "usage_context_es": "Una persona que diseña edificios o máquinas",
+        "usage_example": "Sie ist Ingenieurin.",
+        "usage_example_es": "Ella es ingeniera.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_6_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Ingenieur",
+    "phonetic": "/deːɐ ɪnʒeˈni̯øːɐ/",
+    "search_term": "noun/job/work/essentials",
+    "spoken_phonetic_us": "/deːɐ ɪnʒeˈni̯øːɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Abogado",
+        "pronunciation_guide_es": "/ish_MUS_MAI-nen_AN-valt_AN-ru-fen/",
+        "usage_context_en": "A person who helps people with the law",
+        "usage_context_es": "Una persona que ayuda a la gente con la ley",
+        "usage_example": "Ich muss meinen Anwalt anrufen.",
+        "usage_example_es": "Necesito llamar a mi abogado.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Anwalt",
+    "phonetic": "/deːɐ ˈanvalt/",
+    "search_term": "noun/job/work/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈanvalt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Enfermero / Enfermera",
+        "pronunciation_guide_es": "/di_KRAN-ken-shves-ter_HALF_dem_ARTST/",
+        "usage_context_en": "A person who takes care of sick people",
+        "usage_context_es": "Una persona que cuida a gente enferma",
+        "usage_example": "Die Krankenschwester half dem Arzt.",
+        "usage_example_es": "La enfermera ayudó al doctor.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_8_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "die Krankenschwester",
+    "phonetic": "/diː ˈkʁaŋkənʃvɛstɐ/",
+    "search_term": "noun/job/health/essentials",
+    "spoken_phonetic_us": "/diː ˈkʁaŋkənʃvɛstɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Artista",
+        "pronunciation_guide_es": "/er_ist_ain_be-RUEM-ter_KUEN-stler/",
+        "usage_context_en": "A person who creates art (painting, music, etc.)",
+        "usage_context_es": "Una persona que crea arte (pintura, música, etc.)",
+        "usage_example": "Er ist ein berühmter Künstler.",
+        "usage_example_es": "Él es un artista famoso.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Künstler",
+    "phonetic": "/deːɐ ˈkʏnstlɐ/",
+    "search_term": "noun/job/art/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈkʏnstlɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Escritor",
+        "pronunciation_guide_es": "/zi_ist_AI-ne_be-RUEM-te_SHRIFT-shte-le-rin/",
+        "usage_context_en": "A person who writes books or articles",
+        "usage_context_es": "Una persona que escribe libros o artículos",
+        "usage_example": "Sie ist eine berühmte Schriftstellerin.",
+        "usage_example_es": "Ella es una escritora famosa.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Schriftsteller",
+    "phonetic": "/deːɐ ˈʃʁɪftʃtɛlɐ/",
+    "search_term": "noun/job/art/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈʃʁɪftʃtɛlɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Granjero",
+        "pronunciation_guide_es": "/der_BAU-er_BAUT_MAIS_AN/",
+        "usage_context_en": "A person who works on a farm",
+        "usage_context_es": "Una persona que trabaja en una granja",
+        "usage_example": "Der Bauer baut Mais an.",
+        "usage_example_es": "El granjero cultiva maíz.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_11_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Bauer",
+    "phonetic": "/deːɐ ˈbaʊɐ/",
+    "search_term": "noun/job/nature/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈbaʊɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Conductor / Chofer",
+        "pronunciation_guide_es": "/der_BUS-fa-rer/",
+        "usage_context_en": "A person who drives a vehicle",
+        "usage_context_es": "Una persona que conduce un vehículo",
+        "usage_example": "Der Busfahrer.",
+        "usage_example_es": "El conductor del autobús.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_12_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Fahrer",
+    "phonetic": "/deːɐ ˈfaːʁɐ/",
+    "search_term": "noun/job/transport/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈfaːʁɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "usage_example_es": "Él es un buen cocinero.",
+        "meaning": "Cocinero",
+        "pronunciation_guide_es": "/er_ist_ain_GU-ter_KOJ/",
+        "usage_context_en": "A person who prepares food",
+        "usage_context_es": "Una persona que prepara comida",
+        "usage_example": "Er ist ein guter Koch.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_13_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Koch",
+    "phonetic": "/deːɐ kɔx/",
+    "search_term": "noun/job/food/essentials",
+    "spoken_phonetic_us": "/deːɐ kɔx/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Chef (profesional)",
+        "pronunciation_guide_es": "/der_SHEF-koj_in_DI-zem_res-to-RANG_ist_be-RUEMT/",
+        "usage_context_en": "A professional cook in a restaurant",
+        "usage_context_es": "Un cocinero profesional en un restaurante",
+        "usage_example": "Der Chefkoch in diesem Restaurant ist berühmt.",
+        "usage_example_es": "El chef de este restaurante es famoso.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_14_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Chefkoch",
+    "phonetic": "/deːɐ ˈʃɛfkɔx/",
+    "search_term": "noun/job/food/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈʃɛfkɔx/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Mesero / Camarero",
+        "pronunciation_guide_es": "/RUF_BI-te_den_KEL-ner/",
+        "usage_context_en": "A man who serves food in a restaurant",
+        "usage_context_es": "Un hombre que sirve comida en un restaurante",
+        "usage_example": "Ruf bitte den Kellner.",
+        "usage_example_es": "Llama al mesero, por favor.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_15_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Kellner",
+    "phonetic": "/deːɐ ˈkɛlnɐ/",
+    "search_term": "noun/job/food/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈkɛlnɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "usage_example_es": "La mesera es muy amable.",
+        "meaning": "Mesera / Camarera",
+        "pronunciation_guide_es": "/di_KEL-ne-rin_ist_ZER_NET/",
+        "usage_context_en": "A woman who serves food in a restaurant",
+        "usage_context_es": "Una mujer que sirve comida en un restaurante",
+        "usage_example": "Die Kellnerin ist sehr nett.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_16_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "die Kellnerin",
+    "phonetic": "/diː ˈkɛlnəʁɪn/",
+    "search_term": "noun/job/food/essentials",
+    "spoken_phonetic_us": "/diː ˈkɛlnəʁɪn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Jefe",
+        "pronunciation_guide_es": "/main_SHEF_ist_ZER_AN-shpruchs-fol/",
+        "usage_context_en": "The person in charge of you at work",
+        "usage_context_es": "La persona a cargo de ti en el trabajo",
+        "usage_example": "Mein Chef ist sehr anspruchsvoll.",
+        "usage_example_es": "Mi jefe es muy exigente.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_17_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Chef",
+    "phonetic": "/deːɐ ʃɛf/",
+    "search_term": "noun/job/work/essentials",
+    "spoken_phonetic_us": "/deːɐ ʃɛf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Soldado",
+        "pronunciation_guide_es": "/der_zol-DAT_TREKT_AI-ne_u-ni-FORM/",
+        "usage_context_en": "A person who is in the army",
+        "usage_context_es": "Una persona que está en el ejército",
+        "usage_example": "Der Soldat trägt eine Uniform.",
+        "usage_example_es": "El soldado tiene un uniforme.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_18_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "School & Work",
+    "is_verb": false,
+    "name": "der Soldat",
+    "phonetic": "/deːɐ zɔlˈdaːt/",
+    "search_term": "noun/job/society/essentials",
+    "spoken_phonetic_us": "/deːɐ zɔlˈdaːt/"
+  }
+]

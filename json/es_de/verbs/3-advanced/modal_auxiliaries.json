@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Debe de haber sido / Debe de haber estado",
+        "pronunciation_guide_es": "/er_MUS_MUE-de_ge-VE-zen_ZAIN/",
+        "usage_context_en": "strong deduction about the past",
+        "usage_context_es": "deducción fuerte sobre el pasado",
+        "usage_example": "Er muss müde gewesen sein.",
+        "usage_example_es": "Debe de haber estado cansado.",
+        "imagePath": "/card_images/verbs/3-advanced/modal_auxiliaries/3-advanced_modal_auxiliaries_card_0_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Perfect Modals",
+    "is_verb": true,
+    "name": "muss gewesen sein",
+    "phonetic": "/mʊs ɡəˈveːzn̩ zaɪn/",
+    "search_term": "modal/past-deduction/advanced",
+    "spoken_phonetic_us": "/mʊs ɡəˈveːzn̩ zaɪn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Debería haber",
+        "pronunciation_guide_es": "/du_HET-test_mish_AN-ru-fen_ZO-len/",
+        "usage_context_en": "past advice/regret",
+        "usage_context_es": "consejo o arrepentimiento pasado",
+        "usage_example": "Du hättest mich anrufen sollen.",
+        "usage_example_es": "Deberías haberme llamado.",
+        "imagePath": "/card_images/verbs/3-advanced/modal_auxiliaries/3-advanced_modal_auxiliaries_card_1_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Perfect Modals",
+    "is_verb": true,
+    "name": "hätte sollen",
+    "phonetic": "/ˈhɛtə ˈzɔlən/",
+    "search_term": "modal/past-advice/advanced",
+    "spoken_phonetic_us": "/ˈhɛtə ˈzɔlən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Habría",
+        "pronunciation_guide_es": "/ish_HET-te_ge-HOL-fen/",
+        "usage_context_en": "unreal past result",
+        "usage_context_es": "resultado irreal en el pasado",
+        "usage_example": "Ich hätte geholfen.",
+        "usage_example_es": "Yo habría ayudado.",
+        "imagePath": "/card_images/verbs/3-advanced/modal_auxiliaries/3-advanced_modal_auxiliaries_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Perfect Modals",
+    "is_verb": true,
+    "name": "hätte",
+    "phonetic": "/ˈhɛtə/",
+    "search_term": "modal/unreal-past/advanced",
+    "spoken_phonetic_us": "/ˈhɛtə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Podría haber",
+        "pronunciation_guide_es": "/zi_HET-ten_ge-VI-nen_KOE-nen/",
+        "usage_context_en": "past possibility/ability",
+        "usage_context_es": "posibilidad o capacidad pasada",
+        "usage_example": "Sie hätten gewinnen können.",
+        "usage_example_es": "Podrían haber ganado.",
+        "imagePath": "/card_images/verbs/3-advanced/modal_auxiliaries/3-advanced_modal_auxiliaries_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Perfect Modals",
+    "is_verb": true,
+    "name": "hätte können",
+    "phonetic": "/ˈhɛtə ˈkœnən/",
+    "search_term": "modal/past-possibility/advanced",
+    "spoken_phonetic_us": "/ˈhɛtə ˈkœnən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Más vale que / Mejor",
+        "pronunciation_guide_es": "/vir_KOEN-ten_ge-NAU-zo_GUT_hir-BLAI-ben/",
+        "usage_context_en": "practical suggestion",
+        "usage_context_es": "sugerencia práctica",
+        "usage_example": "Wir könnten genauso gut hierbleiben.",
+        "usage_example_es": "Más vale que nos quedemos aquí.",
+        "imagePath": "/card_images/verbs/3-advanced/modal_auxiliaries/3-advanced_modal_auxiliaries_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Advanced Modals",
+    "is_verb": true,
+    "name": "genauso gut",
+    "phonetic": "/ɡəˈnaʊzo ɡuːt/",
+    "search_term": "modal/suggestion/advanced",
+    "spoken_phonetic_us": "/ɡəˈnaʊzo ɡuːt/"
+  }
+]

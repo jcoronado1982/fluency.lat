@@ -1,0 +1,2727 @@
+{
+  "fixed": [
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/manner_degree_quantity.json",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "Demasiado",
+      "concept": "Demasiado / También",
+      "old": "",
+      "new": "/card_images/adverbs/1-basic/manner_degree_quantity/1-basic_manner_degree_quantity_card_9_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/manner_degree_quantity.json",
+      "word_index": 10,
+      "def_index": 0,
+      "name": "Suficiente",
+      "concept": "Suficiente",
+      "old": "",
+      "new": "/card_images/adverbs/1-basic/manner_degree_quantity/1-basic_manner_degree_quantity_card_11_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/manner_degree_quantity.json",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "Más",
+      "concept": "Más",
+      "old": "",
+      "new": "/card_images/adverbs/1-basic/manner_degree_quantity/1-basic_manner_degree_quantity_card_12_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/manner_degree_quantity.json",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "Menos",
+      "concept": "Menos",
+      "old": "",
+      "new": "/card_images/adverbs/1-basic/manner_degree_quantity/1-basic_manner_degree_quantity_card_13_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/place_direction.json",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "A la derecha",
+      "concept": "A la derecha / Correcto",
+      "old": "",
+      "new": "/card_images/adverbs/1-basic/place_direction/1-basic_place_direction_card_14_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "word_index": 1,
+      "def_index": 0,
+      "name": "Duro / Con esfuerzo",
+      "concept": "Duro / Con esfuerzo",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/manner_action/2-intermediate_manner_action_card_0_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "Fácilmente",
+      "concept": "Fácilmente",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/manner_action/2-intermediate_manner_action_card_1_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "word_index": 3,
+      "def_index": 0,
+      "name": "Silenciosamente / En voz baja",
+      "concept": "Silenciosamente / En voz baja",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/manner_action/2-intermediate_manner_action_card_2_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "word_index": 4,
+      "def_index": 0,
+      "name": "Ruidosamente / En voz alta",
+      "concept": "Ruidosamente / En voz alta",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/manner_action/2-intermediate_manner_action_card_3_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "Claramente",
+      "concept": "Claramente",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/manner_action/2-intermediate_manner_action_card_4_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "Gradualmente / Poco a poco",
+      "concept": "Gradualmente / Poco a poco",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/manner_action/2-intermediate_manner_action_card_5_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "De repente / Súbitamente",
+      "concept": "De repente / Súbitamente",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/manner_action/2-intermediate_manner_action_card_6_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "word_index": 1,
+      "def_index": 0,
+      "name": "Ciertamente / Sin duda",
+      "concept": "Ciertamente / Sin duda",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/stance_certainty/2-intermediate_stance_certainty_card_4_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "Definitivamente / Sin duda",
+      "concept": "Definitivamente / Sin duda",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/stance_certainty/2-intermediate_stance_certainty_card_5_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "word_index": 3,
+      "def_index": 0,
+      "name": "Afortunadamente / Por suerte",
+      "concept": "Afortunadamente / Por suerte",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/stance_certainty/2-intermediate_stance_certainty_card_6_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "word_index": 4,
+      "def_index": 0,
+      "name": "Desafortunadamente / Lamentablemente",
+      "concept": "Desafortunadamente / Lamentablemente",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/stance_certainty/2-intermediate_stance_certainty_card_7_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "Personalmente / En mi opinión",
+      "concept": "Personalmente / En mi opinión",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/stance_certainty/2-intermediate_stance_certainty_card_8_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "Honestamente / En serio",
+      "concept": "Honestamente / En serio",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/stance_certainty/2-intermediate_stance_certainty_card_9_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "Seriamente / Gravemente",
+      "concept": "Seriamente / Gravemente",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/stance_certainty/2-intermediate_stance_certainty_card_10_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "word_index": 7,
+      "def_index": 1,
+      "name": "Seriamente / Gravemente",
+      "concept": "En serio (pregunta/énfasis)",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/stance_certainty/2-intermediate_stance_certainty_card_10_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "Naturalmente / Por supuesto",
+      "concept": "Naturalmente / Por supuesto",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/stance_certainty/2-intermediate_stance_certainty_card_11_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "word_index": 8,
+      "def_index": 1,
+      "name": "Naturalmente / Por supuesto",
+      "concept": "De forma natural",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/stance_certainty/2-intermediate_stance_certainty_card_11_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "Recientemente / Hace poco",
+      "concept": "Recientemente / Hace poco",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/time_frequency/2-intermediate_time_frequency_card_0_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "word_index": 3,
+      "def_index": 0,
+      "name": "Finalmente / Al final",
+      "concept": "Finalmente / Al final",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/time_frequency/2-intermediate_time_frequency_card_1_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "word_index": 4,
+      "def_index": 0,
+      "name": "Para siempre",
+      "concept": "Para siempre",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/time_frequency/2-intermediate_time_frequency_card_2_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "Por último / Finalmente (secuencia)",
+      "concept": "Por último / Finalmente (secuencia)",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/time_frequency/2-intermediate_time_frequency_card_3_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "word_index": 5,
+      "def_index": 1,
+      "name": "Por último / Finalmente (secuencia)",
+      "concept": "Por fin / Finalmente (resultado)",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/time_frequency/2-intermediate_time_frequency_card_3_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "Rara vez / Casi nunca",
+      "concept": "Rara vez / Casi nunca",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/time_frequency/2-intermediate_time_frequency_card_4_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "Generalmente / Por lo general",
+      "concept": "Generalmente / Por lo general",
+      "old": "",
+      "new": "/card_images/adverbs/2-intermediate/time_frequency/2-intermediate_time_frequency_card_5_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/frequency_time.json",
+      "word_index": 3,
+      "def_index": 0,
+      "name": "Constantemente",
+      "concept": "Constantemente",
+      "old": "/card_images/adverbs/3-advanced/frequency_time/3-advanced_frequency_time_card_3_def0.avif",
+      "new": "/card_images/adverbs/3-advanced/frequency_time/3-advanced_frequency_time_card_0_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/frequency_time.json",
+      "word_index": 4,
+      "def_index": 0,
+      "name": "Mientras tanto",
+      "concept": "Mientras tanto",
+      "old": "/card_images/adverbs/3-advanced/frequency_time/3-advanced_frequency_time_card_4_def0.avif",
+      "new": "/card_images/adverbs/3-advanced/frequency_time/3-advanced_frequency_time_card_1_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/frequency_time_e_manner_precision.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "Constantemente",
+      "concept": "Constantemente",
+      "old": "/card_images/adverbs/3-advanced/frequency_time_e_manner_precision/3-advanced_frequency_time_e_manner_precision_card_6_def0.avif",
+      "new": "/card_images/adverbs/3-advanced/frequency_time_e_manner_precision/3-advanced_frequency_time_e_manner_precision_card_0_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/frequency_time_e_manner_precision.json",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "Mientras tanto",
+      "concept": "Mientras tanto",
+      "old": "/card_images/adverbs/3-advanced/frequency_time_e_manner_precision/3-advanced_frequency_time_e_manner_precision_card_8_def0.avif",
+      "new": "/card_images/adverbs/3-advanced/frequency_time_e_manner_precision/3-advanced_frequency_time_e_manner_precision_card_2_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/3-advanced/sentence_stance.json",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "Aparentemente / Por lo visto",
+      "concept": "Aparentemente / Por lo visto",
+      "old": "/card_images/adverbs/3-advanced/sentence_stance/3-advanced_sentence_stance_card_2_def0.avif",
+      "new": "/card_images/adverbs/3-advanced/sentence_stance/3-advanced_sentence_stance_card_1_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "determinant/3-advanced/reference_and_relation.json",
+      "word_index": 3,
+      "def_index": 0,
+      "name": "El/La/Los/Las siguiente(s)",
+      "concept": "El/La/Los/Las siguiente(s)",
+      "old": "/card_images/determinant/3-advanced/reference_and_relation/3-advanced_reference_and_relation_card_3_def0.avif",
+      "new": "/card_images/determinant/3-advanced/reference_and_relation/3-advanced_reference_and_relation_card_2_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "determinant/3-advanced/reference_and_relation.json",
+      "word_index": 4,
+      "def_index": 0,
+      "name": "Respectivo/a",
+      "concept": "Respectivo/a",
+      "old": "/card_images/determinant/3-advanced/reference_and_relation/3-advanced_reference_and_relation_card_4_def0.avif",
+      "new": "/card_images/determinant/3-advanced/reference_and_relation/3-advanced_reference_and_relation_card_3_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/cognition_language_e_communication.json",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "Charla / Conversación",
+      "concept": "Charla / Conversación",
+      "old": "",
+      "new": "/card_images/nouns/1-basic/cognition_language_e_communication/1-basic_cognition_language_e_communication_card_11_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "Banana / Plátano",
+      "concept": "Banana / Plátano",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_20_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_19_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 21,
+      "def_index": 0,
+      "name": "Queso",
+      "concept": "Queso",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_21_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_20_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 22,
+      "def_index": 0,
+      "name": "Azúcar",
+      "concept": "Azúcar",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_22_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_21_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 23,
+      "def_index": 0,
+      "name": "Sal",
+      "concept": "Sal",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_23_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_22_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 24,
+      "def_index": 0,
+      "name": "Pimienta / Pimiento",
+      "concept": "Pimienta / Pimiento",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_24_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_23_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 25,
+      "def_index": 0,
+      "name": "Aceite",
+      "concept": "Aceite",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_25_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_24_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 26,
+      "def_index": 0,
+      "name": "Mantequilla",
+      "concept": "Mantequilla",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_26_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_25_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 27,
+      "def_index": 0,
+      "name": "Sopa",
+      "concept": "Sopa",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_27_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_26_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 28,
+      "def_index": 0,
+      "name": "Ensalada",
+      "concept": "Ensalada",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_28_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_27_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 29,
+      "def_index": 0,
+      "name": "Sándwich / Emparedado",
+      "concept": "Sándwich / Emparedado",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_29_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_28_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 30,
+      "def_index": 0,
+      "name": "Torta / Pastel",
+      "concept": "Torta / Pastel",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_30_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_29_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 31,
+      "def_index": 0,
+      "name": "Jugo / Zumo",
+      "concept": "Jugo / Zumo",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_31_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_30_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 32,
+      "def_index": 0,
+      "name": "Cerveza",
+      "concept": "Cerveza",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_32_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_31_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 33,
+      "def_index": 0,
+      "name": "Vino",
+      "concept": "Vino",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_33_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_32_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 34,
+      "def_index": 0,
+      "name": "Cebolla",
+      "concept": "Cebolla",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_34_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_33_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 35,
+      "def_index": 0,
+      "name": "Ajo",
+      "concept": "Ajo",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_35_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_34_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 36,
+      "def_index": 0,
+      "name": "Chocolate",
+      "concept": "Chocolate",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_36_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_35_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 37,
+      "def_index": 0,
+      "name": "Postre",
+      "concept": "Postre",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_37_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_36_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 38,
+      "def_index": 0,
+      "name": "Merienda / Snack",
+      "concept": "Merienda / Snack",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_38_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_37_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 39,
+      "def_index": 0,
+      "name": "Tocino / Bacon",
+      "concept": "Tocino / Bacon",
+      "old": "",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_38_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 40,
+      "def_index": 0,
+      "name": "Ketchup / Cátsup",
+      "concept": "Ketchup / Cátsup",
+      "old": "",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_39_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 41,
+      "def_index": 0,
+      "name": "Helado",
+      "concept": "Helado",
+      "old": "",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_40_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/location.json",
+      "word_index": 22,
+      "def_index": 0,
+      "name": "Dirección",
+      "concept": "Dirección",
+      "old": "/card_images/nouns/1-basic/location/1-basic_location_card_22_def0.avif",
+      "new": "/card_images/nouns/1-basic/location/1-basic_location_card_3_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 1,
+      "def_index": 0,
+      "name": "Medicamento / Fármaco",
+      "concept": "Medicamento / Fármaco",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_1_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_0_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 1,
+      "def_index": 1,
+      "name": "Medicamento / Fármaco",
+      "concept": "Droga (ilegal)",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_1_def1.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_0_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "Receta (médica) / Fórmula",
+      "concept": "Receta (médica) / Fórmula",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_2_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_1_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "Enfermedad (específica / diagnosticable)",
+      "concept": "Enfermedad (específica / diagnosticable)",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_5_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_2_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "Dolor de cabeza",
+      "concept": "Dolor de cabeza",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_6_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_3_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "Temperatura",
+      "concept": "Temperatura",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_7_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_4_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 7,
+      "def_index": 1,
+      "name": "Temperatura",
+      "concept": "Fiebre",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_7_def1.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_4_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "Lesión / Herida",
+      "concept": "Lesión / Herida",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_8_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_5_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "Herida (abierta / corte)",
+      "concept": "Herida (abierta / corte)",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_9_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_6_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 10,
+      "def_index": 0,
+      "name": "Cerebro",
+      "concept": "Cerebro",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_10_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_7_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "Cirugía",
+      "concept": "Cirugía",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_11_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_8_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "Cáncer",
+      "concept": "Cáncer",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_12_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_9_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "Alergia",
+      "concept": "Alergia",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_13_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_10_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "Síntoma",
+      "concept": "Síntoma",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_14_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_11_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "Terapia",
+      "concept": "Terapia",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_15_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_12_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 16,
+      "def_index": 0,
+      "name": "Cita médica / Turno",
+      "concept": "Cita médica / Turno",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_16_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_13_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 17,
+      "def_index": 0,
+      "name": "Dieta",
+      "concept": "Dieta",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_17_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_14_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 18,
+      "def_index": 0,
+      "name": "Nutrición",
+      "concept": "Nutrición",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_18_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_15_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "Vitamina",
+      "concept": "Vitamina",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_19_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_16_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "Salud mental",
+      "concept": "Salud mental",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_20_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_17_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 21,
+      "def_index": 0,
+      "name": "Obesidad",
+      "concept": "Obesidad",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_21_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_18_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 22,
+      "def_index": 0,
+      "name": "Discapacidad",
+      "concept": "Discapacidad",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_22_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_19_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/location.json",
+      "word_index": 1,
+      "def_index": 0,
+      "name": "Dirección (rumbo)",
+      "concept": "Dirección (rumbo)",
+      "old": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_1_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/location_e_logic_reasoning/2-intermediate_location_e_logic_reasoning_card_2_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/location.json",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "Distancia",
+      "concept": "Distancia",
+      "old": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_2_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_1_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/materials_substances.json",
+      "word_index": 0,
+      "def_index": 0,
+      "name": "Acero",
+      "concept": "Acero",
+      "old": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_0_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/materials_substances_e_people/2-intermediate_materials_substances_e_people_card_0_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/numbers.json",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "Mil",
+      "concept": "Mil",
+      "old": "/card_images/nouns/2-intermediate/numbers/2-intermediate_numbers_card_8_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/numbers/2-intermediate_numbers_card_7_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/places.json",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "Ruta / Camino",
+      "concept": "Ruta / Camino",
+      "old": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_11_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_10_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/places.json",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "Ubicación / Lugar",
+      "concept": "Ubicación / Lugar",
+      "old": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_13_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_11_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "Servidor",
+      "concept": "Servidor",
+      "old": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_11_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_10_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "Actualización",
+      "concept": "Actualización",
+      "old": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_12_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_11_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "Copia de seguridad",
+      "concept": "Copia de seguridad",
+      "old": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_13_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_12_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "Inteligencia artificial",
+      "concept": "Inteligencia artificial",
+      "old": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_14_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_13_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "Datos",
+      "concept": "Datos",
+      "old": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_15_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_14_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "word_index": 16,
+      "def_index": 0,
+      "name": "Ciberseguridad",
+      "concept": "Ciberseguridad",
+      "old": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_16_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_15_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "word_index": 17,
+      "def_index": 0,
+      "name": "Transmisión en línea / Streaming",
+      "concept": "Transmisión en línea / Streaming",
+      "old": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_17_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_16_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 17,
+      "def_index": 0,
+      "name": "Gasolinera / Estación de servicio (US)",
+      "concept": "Gasolinera / Estación de servicio (US)",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_17_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_16_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 18,
+      "def_index": 0,
+      "name": "Gasolinera / Estación de servicio (UK)",
+      "concept": "Gasolinera / Estación de servicio (UK)",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_18_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_17_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "Entrega / Reparto",
+      "concept": "Entrega / Reparto",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_19_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_18_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "Alojamiento / Hospedaje",
+      "concept": "Alojamiento / Hospedaje",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_20_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_19_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 21,
+      "def_index": 0,
+      "name": "Visa",
+      "concept": "Visa",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_21_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_20_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 22,
+      "def_index": 0,
+      "name": "Aduana",
+      "concept": "Aduana",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_22_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_21_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 23,
+      "def_index": 0,
+      "name": "Itinerario",
+      "concept": "Itinerario",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_23_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_22_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 24,
+      "def_index": 0,
+      "name": "Peatón",
+      "concept": "Peatón",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_24_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_23_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/object_pronouns.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "La / Le / A ella",
+      "concept": "La / Le / A ella (Objeto)",
+      "old": "/card_images/pronouns/1-basic/object_pronouns/1-basic_object_pronouns_card_6_def0.avif",
+      "new": "/card_images/pronouns/1-basic/object_pronouns/1-basic_object_pronouns_card_4_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/subject_pronouns.json",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "Tú / Usted / Ustedes",
+      "concept": "Tú / Usted / Ustedes (Sujeto)",
+      "old": "/card_images/pronouns/1-basic/interrogative_pronouns_e_object_pronouns/1-basic_interrogative_pronouns_e_object_pronouns_card_9_def0.avif",
+      "new": "/card_images/pronouns/1-basic/subject_pronouns/1-basic_subject_pronouns_card_5_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis.json",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "Suyo / Suya / Suyos / Suyas (de ellos/ellas)",
+      "concept": "Suyo / Suya / Suyos / Suyas (de ellos/ellas)",
+      "old": "",
+      "new": "/card_images/pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis/2-intermediate_demonstrative_pronouns_e_possessive_pronouns_and_emphasis_card_9_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis.json",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "Suyo / Suya / Suyos / Suyas (de él)",
+      "concept": "Suyo / Suyos (de él) (Pronombre)",
+      "old": "",
+      "new": "/card_images/pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis/2-intermediate_demonstrative_pronouns_e_possessive_pronouns_and_emphasis_card_10_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis.json",
+      "word_index": 10,
+      "def_index": 0,
+      "name": "Mi propio/a",
+      "concept": "Mi propio/a",
+      "old": "",
+      "new": "/card_images/pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis/2-intermediate_demonstrative_pronouns_e_possessive_pronouns_and_emphasis_card_11_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/2-intermediate/possessive_pronouns_and_emphasis.json",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "Suyo / Suya / Suyos / Suyas (de él)",
+      "concept": "Suyo / Suyos (de él) (Pronombre)",
+      "old": "",
+      "new": "/card_images/pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis/2-intermediate_demonstrative_pronouns_e_possessive_pronouns_and_emphasis_card_10_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/2-intermediate/possessive_pronouns_and_emphasis.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "Mi propio/a",
+      "concept": "Mi propio/a",
+      "old": "",
+      "new": "/card_images/pronouns/2-intermediate/possessive_pronouns_and_emphasis/2-intermediate_possessive_pronouns_and_emphasis_card_5_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "Cada uno de nosotros",
+      "concept": "Cada uno de nosotros",
+      "old": "",
+      "new": "/card_images/pronouns/3-advanced/quantifier_and_partitive_pronouns/3-advanced_quantifier_and_partitive_pronouns_card_0_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "Ninguno de ellos/as",
+      "concept": "Ninguno de ellos/as",
+      "old": "",
+      "new": "/card_images/pronouns/3-advanced/quantifier_and_partitive_pronouns/3-advanced_quantifier_and_partitive_pronouns_card_1_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 10,
+      "def_index": 0,
+      "name": "La mayoría de ellos/as",
+      "concept": "La mayoría de ellos/as",
+      "old": "",
+      "new": "/card_images/pronouns/3-advanced/quantifier_and_partitive_pronouns/3-advanced_quantifier_and_partitive_pronouns_card_2_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "Algunos de nosotros",
+      "concept": "Algunos de nosotros",
+      "old": "",
+      "new": "/card_images/pronouns/3-advanced/quantifier_and_partitive_pronouns/3-advanced_quantifier_and_partitive_pronouns_card_3_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "Uno de ellos / Una de ellas",
+      "concept": "Uno de ellos / Una de ellas",
+      "old": "",
+      "new": "/card_images/pronouns/3-advanced/quantifier_and_partitive_pronouns/3-advanced_quantifier_and_partitive_pronouns_card_4_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "Ambos / Nosotros dos",
+      "concept": "Ambos / Nosotros dos",
+      "old": "",
+      "new": "/card_images/pronouns/3-advanced/quantifier_and_partitive_pronouns/3-advanced_quantifier_and_partitive_pronouns_card_5_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "Ninguno de ellos (dos)",
+      "concept": "Ninguno de ellos (dos)",
+      "old": "",
+      "new": "/card_images/pronouns/3-advanced/quantifier_and_partitive_pronouns/3-advanced_quantifier_and_partitive_pronouns_card_6_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "Cualquiera de ellos (dos)",
+      "concept": "Cualquiera de ellos (dos)",
+      "old": "",
+      "new": "/card_images/pronouns/3-advanced/quantifier_and_partitive_pronouns/3-advanced_quantifier_and_partitive_pronouns_card_7_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 16,
+      "def_index": 0,
+      "name": "Todos nosotros",
+      "concept": "Todos nosotros",
+      "old": "",
+      "new": "/card_images/pronouns/3-advanced/quantifier_and_partitive_pronouns/3-advanced_quantifier_and_partitive_pronouns_card_8_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 17,
+      "def_index": 0,
+      "name": "Todos ellos/as",
+      "concept": "Todos ellos/as",
+      "old": "",
+      "new": "/card_images/pronouns/3-advanced/quantifier_and_partitive_pronouns/3-advanced_quantifier_and_partitive_pronouns_card_9_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 18,
+      "def_index": 0,
+      "name": "Algunos de ellos/as",
+      "concept": "Algunos de ellos/as",
+      "old": "",
+      "new": "/card_images/pronouns/3-advanced/quantifier_and_partitive_pronouns/3-advanced_quantifier_and_partitive_pronouns_card_10_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "Parte de nosotros",
+      "concept": "Parte de nosotros",
+      "old": "",
+      "new": "/card_images/pronouns/3-advanced/quantifier_and_partitive_pronouns/3-advanced_quantifier_and_partitive_pronouns_card_11_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/being_state_e_creation.json",
+      "word_index": 4,
+      "def_index": 0,
+      "name": "Construir/Edificar",
+      "concept": "Construir/Edificar",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_5_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/being_state_e_creation.json",
+      "word_index": 4,
+      "def_index": 1,
+      "name": "Construir/Edificar",
+      "concept": "Crear/Desarrollar (reputación, negocio)",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_5_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/being_state_e_creation.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "Desarrollar/Crear",
+      "concept": "Desarrollar/Crear",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_9_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/being_state_e_creation.json",
+      "word_index": 6,
+      "def_index": 1,
+      "name": "Desarrollar/Crear",
+      "concept": "Crecer/Evolucionar",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_9_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/being_state_e_creation.json",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "Formar/Crear",
+      "concept": "Formar/Crear",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_10_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/being_state_e_creation.json",
+      "word_index": 7,
+      "def_index": 1,
+      "name": "Formar/Crear",
+      "concept": "Constituir/Ser parte de",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/being_state_e_creation/2-intermediate_being_state_e_creation_card_10_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/feelings_e_possession_exchange.json",
+      "word_index": 1,
+      "def_index": 1,
+      "name": "Gastar (dinero)",
+      "concept": "Pasar (tiempo)",
+      "old": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_0_def0.avif",
+      "new": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_0_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/feelings_e_possession_exchange.json",
+      "word_index": 3,
+      "def_index": 1,
+      "name": "Ofrecer (algo)",
+      "concept": "Proponer/Sugerir",
+      "old": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_1_def0.avif",
+      "new": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_1_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/feelings_e_possession_exchange.json",
+      "word_index": 5,
+      "def_index": 1,
+      "name": "Compartir (algo con alguien)",
+      "concept": "Tener en común",
+      "old": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_2_def0.avif",
+      "new": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_2_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 3,
+      "def_index": 0,
+      "name": "Considerar/Pensar en",
+      "concept": "Considerar/Pensar en",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_2_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 3,
+      "def_index": 1,
+      "name": "Considerar/Pensar en",
+      "concept": "Creer/Juzgar",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_2_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "Decidir/Resolver",
+      "concept": "Decidir/Resolver",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_4_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 5,
+      "def_index": 1,
+      "name": "Decidir/Resolver",
+      "concept": "Determinar/Fallar (legal)",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_4_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "Elegir/Escoger",
+      "concept": "Elegir/Escoger",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_5_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 7,
+      "def_index": 1,
+      "name": "Elegir/Escoger",
+      "concept": "Decidir/Preferir",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_5_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "Darse cuenta de",
+      "concept": "Darse cuenta de",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_6_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 9,
+      "def_index": 1,
+      "name": "Darse cuenta de",
+      "concept": "Cumplir/Hacer realidad (un sueño)",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_6_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "Reconocer (identificar)",
+      "concept": "Reconocer (identificar)",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_9_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 12,
+      "def_index": 1,
+      "name": "Reconocer (identificar)",
+      "concept": "Reconocer (aceptar, admitir)",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_9_def1.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "Dudar (no estar seguro)",
+      "concept": "Dudar (no estar seguro)",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_10_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 13,
+      "def_index": 1,
+      "name": "Dudar (no estar seguro)",
+      "concept": "Cuestionar",
+      "old": "",
+      "new": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_10_def1.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "die Banane",
+      "concept": "Banana / Plátano",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_20_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_19_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 21,
+      "def_index": 0,
+      "name": "der Käse",
+      "concept": "Queso",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_21_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_20_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 22,
+      "def_index": 0,
+      "name": "der Zucker",
+      "concept": "Azúcar",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_22_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_21_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 23,
+      "def_index": 0,
+      "name": "das Salz",
+      "concept": "Sal",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_23_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_22_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 24,
+      "def_index": 0,
+      "name": "der Pfeffer",
+      "concept": "Pimienta / Pimiento",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_24_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_23_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 25,
+      "def_index": 0,
+      "name": "das Öl",
+      "concept": "Aceite",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_25_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_24_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 26,
+      "def_index": 0,
+      "name": "die Butter",
+      "concept": "Mantequilla",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_26_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_25_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 27,
+      "def_index": 0,
+      "name": "die Suppe",
+      "concept": "Sopa",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_27_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_26_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 28,
+      "def_index": 0,
+      "name": "der Salat",
+      "concept": "Ensalada",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_28_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_27_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 29,
+      "def_index": 0,
+      "name": "das Sandwich",
+      "concept": "Sándwich / Emparedado",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_29_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_28_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 30,
+      "def_index": 0,
+      "name": "der Kuchen",
+      "concept": "Torta / Pastel",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_30_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_29_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 31,
+      "def_index": 0,
+      "name": "der Saft",
+      "concept": "Jugo / Zumo",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_31_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_30_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 32,
+      "def_index": 0,
+      "name": "das Bier",
+      "concept": "Cerveza",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_32_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_31_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 33,
+      "def_index": 0,
+      "name": "der Wein",
+      "concept": "Vino",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_33_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_32_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 34,
+      "def_index": 0,
+      "name": "die Zwiebel",
+      "concept": "Cebolla",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_34_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_33_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 35,
+      "def_index": 0,
+      "name": "der Knoblauch",
+      "concept": "Ajo",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_35_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_34_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 36,
+      "def_index": 0,
+      "name": "die Schokolade",
+      "concept": "Chocolate",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_36_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_35_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 37,
+      "def_index": 0,
+      "name": "der Nachtisch",
+      "concept": "Postre",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_37_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_36_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 38,
+      "def_index": 0,
+      "name": "der Snack",
+      "concept": "Merienda / Snack",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_38_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_37_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 39,
+      "def_index": 0,
+      "name": "der Speck",
+      "concept": "Tocino / Bacon",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_39_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_38_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 40,
+      "def_index": 0,
+      "name": "der Ketchup",
+      "concept": "Ketchup / Cátsup",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_40_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_39_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "word_index": 41,
+      "def_index": 0,
+      "name": "das Eis",
+      "concept": "Helado",
+      "old": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_41_def0.avif",
+      "new": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_40_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 1,
+      "def_index": 0,
+      "name": "das Medikament",
+      "concept": "Medicamento / Fármaco",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_1_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_0_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 1,
+      "def_index": 1,
+      "name": "das Medikament",
+      "concept": "Droga (ilegal)",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_1_def1.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_0_def1.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "das Rezept",
+      "concept": "Receta (médica) / Fórmula",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_2_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_1_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "die Krankheit",
+      "concept": "Enfermedad (específica / diagnosticable)",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_5_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_2_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "die Kopfschmerzen",
+      "concept": "Dolor de cabeza",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_6_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_3_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "die Temperatur",
+      "concept": "Temperatura",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_7_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_4_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 7,
+      "def_index": 1,
+      "name": "die Temperatur",
+      "concept": "Fiebre",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_7_def1.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_4_def1.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "die Verletzung",
+      "concept": "Lesión / Herida",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_8_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_5_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "die Wunde",
+      "concept": "Herida (abierta / corte)",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_9_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_6_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 10,
+      "def_index": 0,
+      "name": "das Gehirn",
+      "concept": "Cerebro",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_10_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_7_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "die Operation",
+      "concept": "Cirugía",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_11_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_8_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "der Krebs",
+      "concept": "Cáncer",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_12_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_9_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "die Allergie",
+      "concept": "Alergia",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_13_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_10_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "das Symptom",
+      "concept": "Síntoma",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_14_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_11_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "die Therapie",
+      "concept": "Terapia",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_15_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_12_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 16,
+      "def_index": 0,
+      "name": "der Termin",
+      "concept": "Cita médica / Turno",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_16_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_13_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 17,
+      "def_index": 0,
+      "name": "die Diät",
+      "concept": "Dieta",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_17_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_14_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 18,
+      "def_index": 0,
+      "name": "die Ernährung",
+      "concept": "Nutrición",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_18_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_15_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "das Vitamin",
+      "concept": "Vitamina",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_19_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_16_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "die psychische Gesundheit",
+      "concept": "Salud mental",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_20_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_17_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 21,
+      "def_index": 0,
+      "name": "die Fettleibigkeit",
+      "concept": "Obesidad",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_21_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_18_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "word_index": 22,
+      "def_index": 0,
+      "name": "die Behinderung",
+      "concept": "Discapacidad",
+      "old": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_22_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_19_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/location.json",
+      "word_index": 1,
+      "def_index": 0,
+      "name": "die Richtung",
+      "concept": "Dirección (rumbo)",
+      "old": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_1_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/location_e_logic_reasoning/2-intermediate_location_e_logic_reasoning_card_2_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/location.json",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "die Entfernung",
+      "concept": "Distancia",
+      "old": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_2_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_1_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/location.json",
+      "word_index": 3,
+      "def_index": 0,
+      "name": "das Wahrzeichen",
+      "concept": "Punto de referencia / Monumento",
+      "old": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_3_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_2_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/location.json",
+      "word_index": 4,
+      "def_index": 0,
+      "name": "die Nähe",
+      "concept": "Cercanías / Proximidad",
+      "old": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_4_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/location/2-intermediate_location_card_3_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/materials_substances.json",
+      "word_index": 0,
+      "def_index": 0,
+      "name": "der Stahl",
+      "concept": "Acero",
+      "old": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_0_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/materials_substances_e_people/2-intermediate_materials_substances_e_people_card_0_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/materials_substances.json",
+      "word_index": 1,
+      "def_index": 0,
+      "name": "der Stoff",
+      "concept": "Tela / Tejido",
+      "old": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_1_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_0_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/materials_substances.json",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "die Faser",
+      "concept": "Fibra",
+      "old": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_2_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_1_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/materials_substances.json",
+      "word_index": 3,
+      "def_index": 0,
+      "name": "das Textil",
+      "concept": "Textil / Tela",
+      "old": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_3_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_2_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/materials_substances.json",
+      "word_index": 4,
+      "def_index": 0,
+      "name": "die Legierung",
+      "concept": "Aleación",
+      "old": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_4_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/materials_substances/2-intermediate_materials_substances_card_3_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/numbers.json",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "tausend",
+      "concept": "Mil",
+      "old": "/card_images/nouns/2-intermediate/numbers/2-intermediate_numbers_card_8_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/numbers/2-intermediate_numbers_card_7_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/numbers.json",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "die Million",
+      "concept": "Millón",
+      "old": "/card_images/nouns/2-intermediate/numbers/2-intermediate_numbers_card_9_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/numbers/2-intermediate_numbers_card_8_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/places.json",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "die Route",
+      "concept": "Ruta / Camino",
+      "old": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_11_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_10_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/places.json",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "der Standort",
+      "concept": "Ubicación / Lugar",
+      "old": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_13_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_11_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "der Server",
+      "concept": "Servidor",
+      "old": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_11_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_10_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "das Update",
+      "concept": "Actualización",
+      "old": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_12_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_11_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "das Backup",
+      "concept": "Copia de seguridad",
+      "old": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_13_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_12_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "die künstliche Intelligenz",
+      "concept": "Inteligencia artificial",
+      "old": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_14_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_13_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "die Daten",
+      "concept": "Datos",
+      "old": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_15_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_14_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "word_index": 16,
+      "def_index": 0,
+      "name": "die Cybersicherheit",
+      "concept": "Ciberseguridad",
+      "old": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_16_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_15_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "word_index": 17,
+      "def_index": 0,
+      "name": "das Streaming",
+      "concept": "Transmisión en línea / Streaming",
+      "old": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_17_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_16_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 17,
+      "def_index": 0,
+      "name": "die Tankstelle",
+      "concept": "Gasolinera / Estación de servicio (US)",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_17_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_16_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 18,
+      "def_index": 0,
+      "name": "die Tankstelle",
+      "concept": "Gasolinera / Estación de servicio (UK)",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_18_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_17_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "die Lieferung",
+      "concept": "Entrega / Reparto",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_19_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_18_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "die Unterkunft",
+      "concept": "Alojamiento / Hospedaje",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_20_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_19_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 21,
+      "def_index": 0,
+      "name": "das Visum",
+      "concept": "Visa",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_21_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_20_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 22,
+      "def_index": 0,
+      "name": "der Zoll",
+      "concept": "Aduana",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_22_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_21_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 23,
+      "def_index": 0,
+      "name": "der Reiseplan",
+      "concept": "Itinerario",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_23_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_22_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/transport.json",
+      "word_index": 24,
+      "def_index": 0,
+      "name": "der Fußgänger",
+      "concept": "Peatón",
+      "old": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_24_def0.avif",
+      "new": "/card_images/nouns/2-intermediate/transport/2-intermediate_transport_card_23_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/1-basic/object_pronouns.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "sie",
+      "concept": "La / Le / A ella (Objeto)",
+      "old": "/card_images/pronouns/1-basic/object_pronouns/1-basic_object_pronouns_card_6_def0.avif",
+      "new": "/card_images/pronouns/1-basic/object_pronouns/1-basic_object_pronouns_card_4_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/1-basic/object_pronouns.json",
+      "word_index": 6,
+      "def_index": 1,
+      "name": "sie",
+      "concept": "Su / Sus (Posesivo de ella)",
+      "old": "/card_images/pronouns/1-basic/object_pronouns/1-basic_object_pronouns_card_6_def1.avif",
+      "new": "/card_images/pronouns/1-basic/object_pronouns/1-basic_object_pronouns_card_4_def1.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/1-basic/possessive_adjectives.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "sein",
+      "concept": "Su / Sus (de él) (Determinante)",
+      "old": "",
+      "new": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_11_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/1-basic/possessive_adjectives.json",
+      "word_index": 6,
+      "def_index": 1,
+      "name": "sein",
+      "concept": "Suyo / Suyos (de él) (Pronombre)",
+      "old": "",
+      "new": "/card_images/pronouns/1-basic/possessive_adjectives/1-basic_possessive_adjectives_card_5_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/1-basic/quantifier_pronouns.json",
+      "word_index": 1,
+      "def_index": 1,
+      "name": "beide",
+      "concept": "Ambos/as (Pronombre)",
+      "old": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_3_def1.avif",
+      "new": "/card_images/pronouns/1-basic/quantifier_pronouns/1-basic_quantifier_pronouns_card_1_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/1-basic/quantifier_pronouns.json",
+      "word_index": 2,
+      "def_index": 1,
+      "name": "viele",
+      "concept": "Muchos / Muchas (Pronombre)",
+      "old": "/card_images/pronouns/1-basic/possessive_adjectives_e_quantifier_pronouns/1-basic_possessive_adjectives_e_quantifier_pronouns_card_5_def1.avif",
+      "new": "/card_images/pronouns/1-basic/quantifier_pronouns/1-basic_quantifier_pronouns_card_2_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/possessive_pronouns_and_emphasis.json",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "sein",
+      "concept": "Su / Sus (de él) (Determinante)",
+      "old": "",
+      "new": "/card_images/pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis/2-intermediate_demonstrative_pronouns_e_possessive_pronouns_and_emphasis_card_10_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/possessive_pronouns_and_emphasis.json",
+      "word_index": 5,
+      "def_index": 1,
+      "name": "sein",
+      "concept": "Suyo / Suyos (de él) (Pronombre)",
+      "old": "",
+      "new": "/card_images/pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis/2-intermediate_demonstrative_pronouns_e_possessive_pronouns_and_emphasis_card_10_def1.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/possessive_pronouns_and_emphasis.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "mein eigenes",
+      "concept": "Mi propio/a",
+      "old": "",
+      "new": "/card_images/pronouns/2-intermediate/possessive_pronouns_and_emphasis/2-intermediate_possessive_pronouns_and_emphasis_card_5_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/quantifier_pronouns.json",
+      "word_index": 0,
+      "def_index": 1,
+      "name": "wenige",
+      "concept": "Pocos / Pocas (Pronombre)",
+      "old": "",
+      "new": "/card_images/pronouns/2-intermediate/quantifier_pronouns/2-intermediate_quantifier_pronouns_card_0_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/quantifier_pronouns.json",
+      "word_index": 1,
+      "def_index": 1,
+      "name": "mehrere",
+      "concept": "Varios/as (Pronombre)",
+      "old": "",
+      "new": "/card_images/pronouns/2-intermediate/quantifier_pronouns/2-intermediate_quantifier_pronouns_card_1_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/quantifier_pronouns.json",
+      "word_index": 2,
+      "def_index": 1,
+      "name": "entweder",
+      "concept": "Cualquiera (de dos) (Pronombre)",
+      "old": "",
+      "new": "/card_images/pronouns/2-intermediate/quantifier_pronouns/2-intermediate_quantifier_pronouns_card_2_def0.avif"
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/quantifier_pronouns.json",
+      "word_index": 3,
+      "def_index": 1,
+      "name": "keiner",
+      "concept": "Ninguno (de dos) (Pronombre)",
+      "old": "",
+      "new": "/card_images/pronouns/2-intermediate/quantifier_pronouns/2-intermediate_quantifier_pronouns_card_3_def0.avif"
+    }
+  ],
+  "unresolved": [
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/core_survival_e_frequency_routine.json",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "No",
+      "concept": "No",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/1-basic/core_survival_e_frequency_routine.json",
+      "word_index": 4,
+      "def_index": 0,
+      "name": "No",
+      "concept": "No",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/manner_action.json",
+      "word_index": 0,
+      "def_index": 0,
+      "name": "Juntos/as",
+      "concept": "Juntos/as",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "word_index": 0,
+      "def_index": 0,
+      "name": "Ya",
+      "concept": "Ya",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/time_frequency.json",
+      "word_index": 1,
+      "def_index": 0,
+      "name": "Todavía / Aún",
+      "concept": "Todavía / Aún",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/materials_substances.json",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "Plutonio",
+      "concept": "Plutonio",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/1-basic/possessive_adjectives.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "Su / Sus (de él)",
+      "concept": "Su / Sus (de él)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 0,
+      "def_index": 0,
+      "name": "Alguien",
+      "concept": "Alguien",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "Alguien (en preguntas)",
+      "concept": "Alguien (en preguntas)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 2,
+      "def_index": 1,
+      "name": "Alguien (en preguntas)",
+      "concept": "Nadie (en negaciones)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 2,
+      "def_index": 2,
+      "name": "Alguien (en preguntas)",
+      "concept": "Cualquiera",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 4,
+      "def_index": 0,
+      "name": "Todos / Todas (las personas)",
+      "concept": "Todos / Todas (las personas)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "Nadie",
+      "concept": "Nadie",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "Otro / Otra",
+      "concept": "Otro / Otra",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 9,
+      "def_index": 1,
+      "name": "Otro / Otra",
+      "concept": "Otro / Otra",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "Todos / Todas (las personas)",
+      "concept": "Todos / Todas (las personas)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "Nadie",
+      "concept": "Nadie",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "Alguien (en preguntas)",
+      "concept": "Alguien (en preguntas)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 13,
+      "def_index": 1,
+      "name": "Alguien (en preguntas)",
+      "concept": "Nadie (en negaciones)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 13,
+      "def_index": 2,
+      "name": "Alguien (en preguntas)",
+      "concept": "Cualquiera",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "Alguien",
+      "concept": "Alguien",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "Alguien más",
+      "concept": "Alguien más",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/indefinite_pronouns.json",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "Alguien más",
+      "concept": "Alguien más",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 0,
+      "def_index": 0,
+      "name": "Cada uno / Cada una",
+      "concept": "Cada uno / Cada una",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 1,
+      "def_index": 0,
+      "name": "Ambos/as (Determinante)",
+      "concept": "Ambos/as (Determinante)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 1,
+      "def_index": 1,
+      "name": "Ambos/as (Determinante)",
+      "concept": "Ambos/as (Pronombre)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "Pocos / Pocas (Determinante)",
+      "concept": "Pocos / Pocas (Determinante)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 2,
+      "def_index": 1,
+      "name": "Pocos / Pocas (Determinante)",
+      "concept": "Pocos / Pocas (Pronombre)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 3,
+      "def_index": 0,
+      "name": "Muchos / Muchas (Determinante)",
+      "concept": "Muchos / Muchas (Determinante)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 3,
+      "def_index": 1,
+      "name": "Muchos / Muchas (Determinante)",
+      "concept": "Muchos / Muchas (Pronombre)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 4,
+      "def_index": 0,
+      "name": "Varios/as (Determinante)",
+      "concept": "Varios/as (Determinante)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 4,
+      "def_index": 1,
+      "name": "Varios/as (Determinante)",
+      "concept": "Varios/as (Pronombre)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "Ninguno / Ninguna / Nada",
+      "concept": "Ninguno / Ninguna / Nada",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "Cualquiera (de dos) (Determinante)",
+      "concept": "Cualquiera (de dos) (Determinante)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 6,
+      "def_index": 1,
+      "name": "Cualquiera (de dos) (Determinante)",
+      "concept": "Cualquiera (de dos) (Pronombre)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "Ninguno (de dos) (Determinante)",
+      "concept": "Ninguno (de dos) (Determinante)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "pronouns/3-advanced/quantifier_and_partitive_pronouns.json",
+      "word_index": 7,
+      "def_index": 1,
+      "name": "Ninguno (de dos) (Determinante)",
+      "concept": "Ninguno (de dos) (Pronombre)",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "Recordar",
+      "concept": "Recordar",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 2,
+      "def_index": 1,
+      "name": "Recordar",
+      "concept": "Tener en cuenta/Asegurarse",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "Entender/Comprender",
+      "concept": "Entender/Comprender",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 6,
+      "def_index": 1,
+      "name": "Entender/Comprender",
+      "concept": "Saber/Interpretar",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "Olvidar",
+      "concept": "Olvidar",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 8,
+      "def_index": 1,
+      "name": "Olvidar",
+      "concept": "Dejar de pensar en",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "Preocuparse",
+      "concept": "Preocuparse",
+      "num_local": 0
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "word_index": 15,
+      "def_index": 1,
+      "name": "Preocuparse",
+      "concept": "Molestar/Inquietar",
+      "num_local": 0
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/quantifier_pronouns.json",
+      "word_index": 0,
+      "def_index": 0,
+      "name": "wenige",
+      "concept": "Pocos / Pocas (Determinante)",
+      "num_local": 0
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/quantifier_pronouns.json",
+      "word_index": 1,
+      "def_index": 0,
+      "name": "mehrere",
+      "concept": "Varios/as (Determinante)",
+      "num_local": 0
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/quantifier_pronouns.json",
+      "word_index": 2,
+      "def_index": 0,
+      "name": "entweder",
+      "concept": "Cualquiera (de dos) (Determinante)",
+      "num_local": 0
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/2-intermediate/quantifier_pronouns.json",
+      "word_index": 3,
+      "def_index": 0,
+      "name": "keiner",
+      "concept": "Ninguno (de dos) (Determinante)",
+      "num_local": 0
+    }
+  ]
+}

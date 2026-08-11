@@ -1,0 +1,58 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "maintenance",
+        "phonetic": "/ˈmeɪntənəns/",
+        "spoken_phonetic_us": "/ˈmeɪntənəns/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Mantenimiento]",
+                "usage_example": "The car needs regular maintenance.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE maintenance AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The car needs regular maintenance.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: El proceso de preservar una condición o situación, o el estado de ser preservado.]",
+                "usage_context_es": "The process of preserving a condition or situation or the state of being preserved.",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_73_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "occupation",
+        "phonetic": "/ˌɒkjuˈpeɪʃən/",
+        "spoken_phonetic_us": "/ˌɑkjuˈpeɪʃən/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Ocupación / Profesión]",
+                "usage_example": "Please state your name and occupation.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE occupation AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Please state your name and occupation.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: El trabajo o profesión de una persona.]",
+                "usage_context_es": "A person's job or profession.",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_83_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    }
+]

@@ -1,0 +1,181 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "additionally",
+        "phonetic": "/əˈdɪʃənəli/",
+        "spoken_phonetic_us": "/əˈdɪʃənəli/",
+        "search_term": "adverb/connector/addition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Adicionalmente / Además]",
+                "usage_example": "Additionally, we need to buy milk.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE additionally AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Additionally, we need to buy milk.]",
+                "char_count": 6,
+                "usage_context_en": "[TRADUCIR AL PT: Como un factor o razón extra; además.]",
+                "usage_context_es": "As an extra factor or reason; in addition.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "similarly",
+        "phonetic": "/ˈsɪmɪlərli/",
+        "spoken_phonetic_us": "/ˈsɪmɪlərli/",
+        "search_term": "adverb/connector/addition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Similarmente / Del mismo modo]",
+                "usage_example": "The sisters dress similarly.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE similarly AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The sisters dress similarly.]",
+                "char_count": 4,
+                "usage_context_en": "[TRADUCIR AL PT: De una manera similar.]",
+                "usage_context_es": "In a similar way.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Connectors: Addition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "otherwise",
+        "phonetic": "/ˈʌðərwaɪz/",
+        "spoken_phonetic_us": "/ˈʌðərwaɪz/",
+        "search_term": "adverb/connector/condition",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: De lo contrario / Si no]",
+                "usage_example": "Study hard, otherwise you will fail.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE otherwise AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Study hard, otherwise you will fail.]",
+                "char_count": 6,
+                "usage_context_en": "[TRADUCIR AL PT: Usado para indicar la consecuencia si no se cumple una condición.]",
+                "usage_context_es": "Used to state the consequence if a condition is not met.",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: De otra manera / Diferente]",
+                "usage_example": "He is quiet, but she is otherwise.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE otherwise AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He is quiet, but she is otherwise.]",
+                "char_count": 7,
+                "usage_context_en": "[TRADUCIR AL PT: De una manera diferente; diferentemente.]",
+                "usage_context_es": "In a different way; differently.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Connectors: Condition",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "nevertheless",
+        "phonetic": "/ˌnɛvərðəˈlɛs/",
+        "spoken_phonetic_us": "/ˌnɛvərðəˈlɛs/",
+        "search_term": "adverb/connector/contrast",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Sin embargo / No obstante (formal)]",
+                "usage_example": "It was cold. Nevertheless, he went swimming.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE nevertheless AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: It was cold. Nevertheless, he went swimming.]",
+                "char_count": 6,
+                "usage_context_en": "[TRADUCIR AL PT: A pesar de eso; no obstante (una versión muy formal de 'however').]",
+                "usage_context_es": "In spite of that; nonetheless (a very formal version of 'however').",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Connectors: Contrast",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "nonetheless",
+        "phonetic": "/ˌnʌnðəˈlɛs/",
+        "spoken_phonetic_us": "/ˌnʌnðəˈlɛs/",
+        "search_term": "adverb/connector/contrast",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Sin embargo / No obstante (formal)]",
+                "usage_example": "The results are bad. Nonetheless, we must continue.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE nonetheless AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The results are bad. Nonetheless, we must continue.]",
+                "char_count": 7,
+                "usage_context_en": "[TRADUCIR AL PT: A pesar de eso; sin embargo (también muy formal).]",
+                "usage_context_es": "In spite of that; nevertheless (also very formal).",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Connectors: Contrast",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "therefore",
+        "phonetic": "/ˈðɛərˌfɔr/",
+        "spoken_phonetic_us": "/ˈðɛrˌfɔr/",
+        "search_term": "adverb/connector/result",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Por lo tanto / Por consiguiente (formal)]",
+                "usage_example": "He is sick; therefore, he will not come.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE therefore AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He is sick; therefore, he will not come.]",
+                "char_count": 7,
+                "usage_context_en": "[TRADUCIR AL PT: Por esa razón; consecuentemente (usado en habla o escritura formal).]",
+                "usage_context_es": "For that reason; consequently (used in formal speech or writing).",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Connectors: Cause & Effect",
+        "category": ""
+    }
+]

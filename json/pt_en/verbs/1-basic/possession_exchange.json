@@ -1,0 +1,425 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "have",
+        "phonetic": "/hæv/",
+        "spoken_phonetic_us": "/hæv/",
+        "search_term": "verb/ownership/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Tener (posesión)]",
+                "usage_example": "They have a big house.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE have AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: They have a big house.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: posesión/familia]",
+                "usage_context_es": "ownership/family",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_have_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Tomar/Comer (en expresiones)]",
+                "usage_example": "Let's have dinner together.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE have AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Let's have dinner together.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: comidas/actividades]",
+                "usage_context_es": "meals/activities",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_have_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "get",
+        "phonetic": "/ɡɛt/",
+        "spoken_phonetic_us": "/ɡɛt/",
+        "search_term": "verb/obtain/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Obtener/Conseguir]",
+                "usage_example": "I need to get a new coat.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE get AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I need to get a new coat.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: compras/recibir]",
+                "usage_context_es": "shopping/receiving",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_get_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Llegar (a un lugar)]",
+                "usage_example": "We get home late.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE get AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: We get home late.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: llegada/viaje]",
+                "usage_context_es": "arrival/travel",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_get_def1.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Ponerse / Hacerse (cambio de estado)]",
+                "usage_example": "It is getting late.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE get AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: It is getting late.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: cambio de estado/emociones]",
+                "usage_context_es": "state change/emotions",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Entender / Comprender]",
+                "usage_example": "I don't get it.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE get AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I don't get it.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: comprensión/entendimiento]",
+                "usage_context_es": "comprehension/understanding",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Traer / Ir a buscar]",
+                "usage_example": "Can you get me a pen?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE get AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Can you get me a pen?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: traer/ir a buscar]",
+                "usage_context_es": "bringing/fetching",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "take",
+        "phonetic": "/teɪk/",
+        "spoken_phonetic_us": "/teɪk/",
+        "search_term": "verb/transport/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Tomar/Agarrar]",
+                "usage_example": "Take the book from the table.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE take AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Take the book from the table.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: agarrar/recibir]",
+                "usage_context_es": "grabbing/receiving",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_take_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Llevar/Transportar]",
+                "usage_example": "He takes the bus to work.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE take AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He takes the bus to work.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: transporte/acompañar]",
+                "usage_context_es": "transport/escorting",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_take_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "give",
+        "phonetic": "/ɡɪv/",
+        "spoken_phonetic_us": "/ɡɪv/",
+        "search_term": "verb/transfer/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Dar (entregar algo)]",
+                "usage_example": "Give me the book, please.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE give AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Give me the book, please.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: entregar/regalar]",
+                "usage_context_es": "handing/presenting",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_12_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Ofrecer (algo no material)]",
+                "usage_example": "She gives good advice.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE give AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: She gives good advice.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: consejo/oportunidad]",
+                "usage_context_es": "advice/opportunity",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_12_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "buy",
+        "phonetic": "/baɪ/",
+        "spoken_phonetic_us": "/baɪ/",
+        "search_term": "verb/purchase/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Comprar]",
+                "usage_example": "I need to buy some milk.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE buy AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I need to buy some milk.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: compras/víveres]",
+                "usage_context_es": "shopping/groceries",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Adquirir/Creer (informal)]",
+                "usage_example": "He bought her a new car.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE buy AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: He bought her a new car.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: regalos/creencia]",
+                "usage_context_es": "gifts/belief",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "pay",
+        "phonetic": "/peɪ/",
+        "spoken_phonetic_us": "/peɪ/",
+        "search_term": "verb/money/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Pagar (dinero)]",
+                "usage_example": "I need to pay the rent today.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE pay AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I need to pay the rent today.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: dinero/facturas]",
+                "usage_context_es": "money/bills",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Prestar atención (con 'attention')]",
+                "usage_example": "Pay attention to the teacher.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE pay AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Pay attention to the teacher.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: enfoque/cortesía]",
+                "usage_context_es": "focus/courtesy",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "keep",
+        "phonetic": "/kiːp/",
+        "spoken_phonetic_us": "/kiːp/",
+        "search_term": "verb/retain/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Mantener/Guardar]",
+                "usage_example": "Keep the change.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE keep AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Keep the change.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: posesión/promesa]",
+                "usage_context_es": "possession/promise",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_25_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Continuar (haciendo algo)]",
+                "usage_example": "Keep walking straight.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE keep AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Keep walking straight.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: continuidad/acción]",
+                "usage_context_es": "continuity/action",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_25_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "hold",
+        "phonetic": "/hoʊld/",
+        "spoken_phonetic_us": "/hoʊld/",
+        "search_term": "verb/grasp/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Sostener/Agarrar]",
+                "usage_example": "Hold the baby carefully.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE hold AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Hold the baby carefully.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: sujetar/soporte]",
+                "usage_context_es": "grasp/support",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_40_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Contener/Mantener]",
+                "usage_example": "This box holds many toys.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE hold AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: This box holds many toys.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: contención/restricción]",
+                "usage_context_es": "containment/restriction",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_40_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "send",
+        "phonetic": "/sɛnd/",
+        "spoken_phonetic_us": "/sɛnd/",
+        "search_term": "verb/dispatch/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Enviar/Mandar]",
+                "usage_example": "I will send you an email tomorrow.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE send AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I will send you an email tomorrow.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: comunicación/correo]",
+                "usage_context_es": "communication/post",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_63_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Emitir/Producir (luz, calor)]",
+                "usage_example": "The sun sends light and heat.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE send AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The sun sends light and heat.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: naturaleza/producción]",
+                "usage_context_es": "nature/production",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_63_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "sell",
+        "phonetic": "/sɛl/",
+        "spoken_phonetic_us": "/sɛl/",
+        "search_term": "verb/trade/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Vender]",
+                "usage_example": "We sell coffee and tea.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE sell AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: We sell coffee and tea.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: comercio/productos]",
+                "usage_context_es": "commerce/goods",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_67_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Persuadir (informal)]",
+                "usage_example": "They sold me the idea right away.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE sell AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: They sold me the idea right away.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: persuasión/marketing]",
+                "usage_context_es": "persuasion/marketing",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_67_def1.avif"
+            }
+        ],
+        "group_name": "Social & Exchange",
+        "category": ""
+    }
+]

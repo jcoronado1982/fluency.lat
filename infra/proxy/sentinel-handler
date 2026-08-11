@@ -1,0 +1,32 @@
+#!/bin/sh
+STATE_FILE="/tmp/PROXY_STATE"
+GATE_FILE="/tmp/GATE_FILE"
+# Invariante para el matcher de archivos de Caddy (db_protection):
+# CLOSED_FILE existe ⟺ STATE ≠ normal
+CLOSED_FILE="/tmp/PROXY_CLOSED"
+read REQUEST
+if echo "$REQUEST" | grep -q "/rojo"; then
+    echo "rojo" > $STATE_FILE
+    touch $CLOSED_FILE
+    printf "HTTP/1.1 200 OK\r\nContent-Length: 2\r\n\r\nok"
+elif echo "$REQUEST" | grep -q "/amarillo"; then
+    echo "amarillo" > $STATE_FILE
+    touch $CLOSED_FILE
+    printf "HTTP/1.1 200 OK\r\nContent-Length: 2\r\n\r\nok"
+elif echo "$REQUEST" | grep -q "/normal"; then
+    echo "normal" > $STATE_FILE
+    rm -f $GATE_FILE $CLOSED_FILE
+    printf "HTTP/1.1 200 OK\r\nContent-Length: 2\r\n\r\nok"
+elif echo "$REQUEST" | grep -q "/status"; then
+    CURRENT_STATE=$(cat $STATE_FILE 2>/dev/null || echo "normal")
+    printf "HTTP/1.1 200 OK\r\n\r\n$CURRENT_STATE"
+elif echo "$REQUEST" | grep -q "/check"; then
+    CURRENT_STATE=$(cat $STATE_FILE 2>/dev/null || echo "normal")
+    if [ "$CURRENT_STATE" = "normal" ] || [ -f "$GATE_FILE" ]; then
+        printf "HTTP/1.1 200 OK\r\nContent-Length: 0\r\n\r\n"
+    else
+        printf "HTTP/1.1 503 Service Unavailable\r\nContent-Length: 0\r\n\r\n"
+    fi
+else
+    printf "HTTP/1.1 404 Not Found\r\n\r\n"
+fi

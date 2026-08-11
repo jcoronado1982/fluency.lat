@@ -1,0 +1,453 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Reunirse/Encontrarse con",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/encounter/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "meet",
+        "usage_example": "Encontrémonos en el café.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Let's meet at the cafe.",
+        "char_count": "one",
+        "usage_context_en": "social/appointment",
+        "usage_context_es": "social/cita",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_0_def0.avif",
+        "target_meaning_es": "Reunirse/Encontrarse con"
+      },
+      {
+        "meaning": "meet",
+        "usage_example": "Encantado de conocerte.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Nice to meet you.",
+        "char_count": "one",
+        "usage_context_en": "introduction/acquaintance",
+        "usage_context_es": "presentación/conocido",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_0_def1.avif",
+        "target_meaning_es": "Conocer (a una persona por primera vez)"
+      }
+    ],
+    "group_name": "Social & Exchange",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Sugerir/Proponer",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/propose/level_up",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "suggest",
+        "usage_example": "Sugiero que tomemos un descanso.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I suggest we take a break.",
+        "char_count": "two",
+        "usage_context_en": "breaks/recommendations",
+        "usage_context_es": "descansos/recomendaciones",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_1_def0.avif",
+        "target_meaning_es": "Sugerir/Proponer"
+      },
+      {
+        "meaning": "suggest",
+        "usage_example": "La evidencia sugiere que es culpable.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The evidence suggests he is guilty.",
+        "char_count": "two",
+        "usage_context_en": "clues/implication",
+        "usage_context_es": "pistas/implicación",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_1_def1.avif",
+        "target_meaning_es": "Indicar/Insinuar"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Informar/Notificar",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/inform/level_up",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "report",
+        "usage_example": "Por favor, informe cualquier problema al gerente.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Please report any problem to the manager.",
+        "char_count": "two",
+        "usage_context_en": "problems/news",
+        "usage_context_es": "problemas/noticias",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_2_def0.avif",
+        "target_meaning_es": "Informar/Notificar"
+      },
+      {
+        "meaning": "report",
+        "usage_example": "Preséntese en la oficina a las 9 AM.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Report to the office at 9 AM.",
+        "char_count": "two",
+        "usage_context_en": "attendance/duty",
+        "usage_context_es": "asistencia/deber",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_2_def1.avif",
+        "target_meaning_es": "Presentarse/Acudir"
+      }
+    ],
+    "group_name": "Social & Daily Life",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Explicar",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/clarify/level_up",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "explain",
+        "usage_example": "¿Puedes explicarme las reglas?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Can you explain the rules to me?",
+        "char_count": "two",
+        "usage_context_en": "rules/reasons",
+        "usage_context_es": "reglas/razones",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_3_def0.avif",
+        "target_meaning_es": "Explicar"
+      },
+      {
+        "meaning": "explain",
+        "usage_example": "Déjame explicar mi punto de vista.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Let me explain my point of view.",
+        "char_count": "two",
+        "usage_context_en": "opinion/description",
+        "usage_context_es": "opinión/descripción",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_3_def1.avif",
+        "target_meaning_es": "Aclarar/Justificar"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Hablar (un idioma, formalmente)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/talk/level_up",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "speak",
+        "usage_example": "¿Hablas inglés?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Do you speak English?",
+        "char_count": "one",
+        "usage_context_en": "language/formal",
+        "usage_context_es": "idioma/formal",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_4_def0.avif",
+        "target_meaning_es": "Hablar (un idioma, formalmente)"
+      },
+      {
+        "meaning": "speak",
+        "usage_example": "Ella habla sobre sus experiencias.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She speaks about her experiences.",
+        "char_count": "one",
+        "usage_context_en": "public speaking/expression",
+        "usage_context_es": "discurso público/expresión",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_4_def1.avif",
+        "target_meaning_es": "Dar un discurso/Expresar"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Discutir/Debatir (un tema)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/talk about/intermediate",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "discuss",
+        "usage_example": "Necesitamos discutir el nuevo plan.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "We need to discuss the new plan.",
+        "char_count": "two",
+        "usage_context_en": "topics/meetings",
+        "usage_context_es": "temas/reuniones",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_5_def0.avif",
+        "target_meaning_es": "Discutir/Debatir (un tema)"
+      },
+      {
+        "meaning": "discuss",
+        "usage_example": "Hablemos sobre dónde ir a cenar.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Let's discuss where to go for dinner.",
+        "char_count": "two",
+        "usage_context_en": "conversation/decisions",
+        "usage_context_es": "conversación/decisiones",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_5_def1.avif",
+        "target_meaning_es": "Hablar sobre algo"
+      }
+    ],
+    "group_name": "Social & Daily Life",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Describir",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/explain appearance/intermediate",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "describe",
+        "usage_example": "¿Puedes describir al hombre que viste?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Can you describe the man you saw?",
+        "char_count": "two",
+        "usage_context_en": "appearance/details",
+        "usage_context_es": "apariencia/detalles",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_6_def0.avif",
+        "target_meaning_es": "Describir"
+      },
+      {
+        "meaning": "describe",
+        "usage_example": "El libro relata la historia de la ciudad.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The book describes the history of the city.",
+        "char_count": "two",
+        "usage_context_en": "information/narration",
+        "usage_context_es": "información/narración",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_6_def1.avif",
+        "target_meaning_es": "Relatar"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Prometer",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/assure/intermediate",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "promise",
+        "usage_example": "Prometo que te llamaré más tarde.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I promise I will call you later.",
+        "char_count": "two",
+        "usage_context_en": "assurance/commitment",
+        "usage_context_es": "garantía/compromiso",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_7_def0.avif",
+        "target_meaning_es": "Prometer"
+      },
+      {
+        "meaning": "promise",
+        "usage_example": "El cielo despejado promete un buen día.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The clear sky promises a good day.",
+        "char_count": "two",
+        "usage_context_en": "future/potential",
+        "usage_context_es": "futuro/potencial",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_7_def1.avif",
+        "target_meaning_es": "Dar indicios de"
+      }
+    ],
+    "group_name": "Feelings & Reactions",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Mencionar",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/refer to/intermediate",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "mention",
+        "usage_example": "¿Menciona mi nombre?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Does he mention my name?",
+        "char_count": "two",
+        "usage_context_en": "conversation/information",
+        "usage_context_es": "conversación/información",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_8_def0.avif",
+        "target_meaning_es": "Mencionar"
+      },
+      {
+        "meaning": "mention",
+        "usage_example": "No hay de qué (expresión).",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Don't mention it.",
+        "char_count": "two",
+        "usage_context_en": "politeness/reference",
+        "usage_context_es": "cortesía/referencia",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_8_def1.avif",
+        "target_meaning_es": "Hacer alusión a"
+      }
+    ],
+    "group_name": "Social & Daily Life",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Pedir (en un restaurante, en línea)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/request/intermediate",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "order",
+        "usage_example": "¿Estás listo para pedir?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Are you ready to order?",
+        "char_count": "two",
+        "usage_context_en": "restaurant/commerce",
+        "usage_context_es": "restaurante/comercio",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_9_def0.avif",
+        "target_meaning_es": "Pedir (en un restaurante, en línea)"
+      },
+      {
+        "meaning": "order",
+        "usage_example": "El capitán ordena a los soldados atacar.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The captain orders the soldiers to attack.",
+        "char_count": "two",
+        "usage_context_en": "command/sequence",
+        "usage_context_es": "comando/secuencia",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_9_def1.avif",
+        "target_meaning_es": "Ordenar/Mandar (dar una orden)"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Practicar",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "verb/rehearse/intermediate",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "practice",
+        "usage_example": "Necesitas practicar todos los días.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "You need to practice every day.",
+        "char_count": "two",
+        "usage_context_en": "skill/repetition",
+        "usage_context_es": "habilidad/repetición",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_10_def0.avif",
+        "target_meaning_es": "Practicar"
+      },
+      {
+        "meaning": "practice",
+        "usage_example": "Él ejerce la abogacía en Nueva York.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He practices law in New York.",
+        "char_count": "two",
+        "usage_context_en": "profession/habit",
+        "usage_context_es": "profesión/hábito",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_10_def1.avif",
+        "target_meaning_es": "Ejercer (una profesión)"
+      }
+    ],
+    "group_name": "Communication",
+    "category": ""
+  }
+]

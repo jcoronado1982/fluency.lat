@@ -1,0 +1,278 @@
+/* ── Responsive ── */
+@media (min-width: 720px) {
+    .lp {
+        --lp-section-inline-padding: 60px;
+    }
+
+    .lp-nav-links { display: flex; }
+
+    .lp-hero-inner {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .lp-why-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Laptop: alinea el margen lateral de los contenedores de la landing. */
+@media (min-width: 720px) and (max-width: 1349px) {
+    .lp-hero {
+        padding-inline: 50px;
+        padding-top: 30px;
+    }
+
+    .lp-section-inner {
+        padding-inline: 50px;
+    }
+
+    .lp-section-inner.lp-hero-inner {
+        padding-inline: 0;
+        gap: 90px;
+    }
+
+    .lp-hero-copy {
+        transform: translateY(-30px);
+    }
+
+    .lp-feedback-section .lp-section-inner {
+        padding-inline: 50px;
+    }
+
+    .lp-why-vocabulary-first .lp-section-inner {
+        padding-inline: 50px;
+    }
+
+    .lp-why .lp-section-inner {
+        padding-inline: 50px;
+    }
+
+    .lp-demo-widget {
+        padding-inline: 0;
+    }
+}
+
+@media (max-width: 719px) {
+    .lp-demo-widget {
+        padding: 0;
+    }
+
+    [data-landing-demo] {
+        --lp-demo-mobile-max: 100%;
+    }
+
+    [data-landing-demo].flashcard-page-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    [data-landing-demo] .app-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    [data-landing-demo] .flashcard-main-area {
+        gap: clamp(10px, 2vh, 14px);
+        align-items: stretch;
+        width: 100%;
+        max-width: var(--lp-demo-mobile-max);
+        margin: 0 auto;
+    }
+
+    [data-landing-demo] .lp-demo-card-frame {
+        /* El badge se superpone al borde de la tarjeta, como en escritorio. */
+        padding-top: 0;
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        overflow: visible;
+    }
+
+    [data-landing-demo] .lp-demo-complete {
+        height: clamp(440px, 132vw, 560px);
+        padding: 24px 18px;
+        gap: 18px;
+        border-radius: clamp(18px, 4vw, 24px);
+    }
+
+    [data-landing-demo] .lp-demo-complete-title {
+        max-width: 13ch;
+        font-size: clamp(1.35rem, 6.2vw, 1.72rem);
+        line-height: 1.16;
+    }
+
+    [data-landing-demo] .lp-demo-complete-copy {
+        max-width: 27ch;
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+
+    [data-landing-demo] .lp-demo-complete-button {
+        width: 100%;
+        max-width: 15rem;
+        min-height: 46px;
+        font-size: 0.9rem;
+    }
+
+    [data-landing-demo] .lp-demo-complete-actions {
+        width: min(100%, 15rem);
+        gap: 10px;
+    }
+
+    .lp-demo-prompt--card {
+        width: 100%;
+        max-width: var(--lp-demo-mobile-max);
+    }
+
+    .lp-hero-demo {
+        overflow: visible;
+        margin-top: 8px;
+    }
+
+    .lp {
+        --lp-mobile-title-size: 1.75rem;
+        --lp-mobile-title-line: 1.15;
+        --lp-mobile-trust-size: 0.6875rem;
+    }
+
+    .lp-section-inner {
+        padding-inline: 20px;
+    }
+
+    .lp .shell-footer-content {
+        padding-inline: 20px;
+    }
+
+    .lp-hero-title,
+    .lp-reviews-wall-title,
+    .lp-demo-feedback-label,
+    .lp-why-vocabulary-first-title,
+    .lp-why-title,
+    .lp-why-cta-title {
+        font-size: var(--lp-mobile-title-size);
+        line-height: var(--lp-mobile-title-line);
+        text-wrap: balance;
+    }
+
+    .lp-demo-feedback-sub,
+    .lp-demo-feedback-auth-hint {
+        font-size: 0.94rem;
+        line-height: 1.6;
+    }
+    .lp-demo-feedback-head {
+        gap: 15px;
+    }
+
+    .lp-nav-inner { padding: 12px 20px; gap: 15px; }
+    .lp-nav-end { gap: 12px; }
+    .lp-nav-login { display: none; }
+    .lp-btn--nav { min-height: 36px; padding: 0.45rem 1rem; font-size: 0.8125rem; }
+    .lp-btn--sm { display: none; }
+    .lp-hero {
+        padding: 50px 0 40px;
+    }
+    .lp-hero-inner { gap: 40px; }
+    .lp-hero-copy { max-width: 100%; }
+    .lp-hero-title {
+        max-width: none;
+        font-size: clamp(2.3rem, 9.8vw, 2.9rem);
+        line-height: 1.02;
+        letter-spacing: -0.034em;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+    .lp-hero-title-line2 {
+        margin-inline: auto;
+    }
+    .lp-reviews-wall-title {
+        text-align: center;
+    }
+    .lp-demo-feedback-label {
+        text-align: center;
+    }
+    .lp-hero-sub {
+        margin-bottom: 28px;
+        padding-left: 14px;
+        font-size: 1rem;
+        line-height: 1.65;
+    }
+    .lp-hero-cta { flex-direction: row; flex-wrap: wrap; }
+    .lp-hero-cta .lp-btn,
+    .lp-hero-cta .lp-btn--ghost { flex: 1 1 auto; min-width: 0; justify-content: center; }
+    .lp-hero-cta-note {
+        flex-basis: 100%;
+        text-align: center;
+        font-size: 0.76rem;
+    }
+    [data-landing-demo] .lp-demo-badge {
+        left: 14px;
+        gap: 7px;
+        padding: 5px 12px 5px 10px;
+        font-size: 0.625rem;
+        letter-spacing: 0.09em;
+    }
+
+    [data-landing-demo] .lp-demo-badge-dot {
+        width: 5px;
+        height: 5px;
+    }
+
+    [data-landing-demo] .lp-demo-badge {
+        top: 0;
+        left: 22px;
+    }
+
+    .lp-feedback-section .lp-section-inner { padding: 30px var(--lp-section-inline-padding, var(--shell-content-inline-padding)) 0; }
+    .lp-feedback-section { padding: 0 0 40px; }
+    .lp-demo-feedback-wrap { gap: 32px; }
+    .lp-demo-feedback-input { width: 100%; }
+    .lp-why-vocabulary-first { padding: 40px 0; }
+    .lp-why-vocabulary-first-inner { padding: 0 var(--lp-section-inline-padding, var(--shell-content-inline-padding)); }
+    .lp-vocab-first-grid {
+        padding: 0;
+        gap: 20px;
+    }
+    .lp-why-vocabulary-first-title {
+        margin-bottom: 15px;
+    }
+    .lp-vocab-first-card {
+        padding: 20px;
+    }
+    .lp-vocab-first-card-body {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+    .lp-why-inner { padding: 40px var(--lp-section-inline-padding, var(--shell-content-inline-padding)) 0; }
+    .lp-why-title {
+        white-space: normal;
+    }
+    .lp-why-subtitle {
+        margin: 0 0 40px;
+        font-size: 1.05rem;
+        line-height: 1.6;
+    }
+    .lp-why-grid-wrap {
+        padding: 0;
+    }
+    .lp-why-card { padding: 20px; }
+    .lp-why-cta-tail {
+        margin-top: 0px;
+        padding-top: 50px;
+        max-width: 100%;
+    }
+    .lp-why-cta-title {
+        white-space: normal;
+    }
+    .lp-why-cta-trust {
+        flex-wrap: wrap;
+        gap: 6px 8px;
+        max-width: 100%;
+        font-size: var(--lp-mobile-trust-size);
+        line-height: 1.35;
+        text-align: center;
+    }
+}

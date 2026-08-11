@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/logic_reasoning/1-basic_logic_reasoning_card_0_def0.avif",
+        "meaning": "Razón / Motivo",
+        "pronunciation_guide_es": "/vas_ist_der_GRUNT/",
+        "usage_context_en": "The cause or explanation for something",
+        "usage_context_es": "La causa o explicación de algo",
+        "usage_example": "Was ist der Grund?",
+        "usage_example_es": "¿Cuál es la razón?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "der Grund",
+    "phonetic": "/deːɐ ɡʁʊnt/",
+    "search_term": "noun/concept/cause/essentials",
+    "spoken_phonetic_us": "/deːɐ ɡʁʊnt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/logic_reasoning/1-basic_logic_reasoning_card_1_def0.avif",
+        "meaning": "Hecho",
+        "pronunciation_guide_es": "/es_ist_AI-ne_be-KAN-te_TAT-za-che/",
+        "usage_context_en": "Something that is true",
+        "usage_context_es": "Algo que es verdad",
+        "usage_example": "Es ist eine bekannte Tatsache.",
+        "usage_example_es": "Es un hecho conocido."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Tatsache",
+    "phonetic": "/diː ˈtaːtzaxə/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/diː ˈtaːtzaxə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/logic_reasoning/1-basic_logic_reasoning_card_2_def0.avif",
+        "meaning": "Verdad",
+        "pronunciation_guide_es": "/ZAK_mir_di_VAR-hait/",
+        "usage_context_en": "What is true; opposite of a lie",
+        "usage_context_es": "Lo que es cierto; opuesto a una mentira",
+        "usage_example": "Sag mir die Wahrheit.",
+        "usage_example_es": "Dime la verdad."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Wahrheit",
+    "phonetic": "/diː ˈvaːɐhaɪt/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/diː ˈvaːɐhaɪt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/logic_reasoning/1-basic_logic_reasoning_card_3_def0.avif",
+        "meaning": "Mentira",
+        "pronunciation_guide_es": "/das_ist_AI-ne_LUE-ge/",
+        "usage_context_en": "Something you say that is not true",
+        "usage_context_es": "Algo que dices que no es verdad",
+        "usage_example": "Das ist eine Lüge.",
+        "usage_example_es": "Eso es una mentira."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Lüge",
+    "phonetic": "/diː ˈlyːɡə/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/diː ˈlyːɡə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "9",
+        "imagePath": "/card_images/nouns/1-basic/logic_reasoning/1-basic_logic_reasoning_card_4_def0.avif",
+        "meaning": "Causa",
+        "pronunciation_guide_es": "/vir_MUE-sen_di_UR-za-che_des_pro-BLEMS_FIN-den/",
+        "usage_context_en": "The reason why something happens.",
+        "usage_context_es": "The reason why something happens.",
+        "usage_example": "Wir müssen die Ursache des Problems finden.",
+        "usage_example_es": "Necesitamos encontrar la causa del problema."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "die Ursache",
+    "phonetic": "/diː ˈuːɐzaxə/",
+    "search_term": "noun/logic_reasoning/added",
+    "spoken_phonetic_us": "/diː ˈuːɐzaxə/"
+  }
+]

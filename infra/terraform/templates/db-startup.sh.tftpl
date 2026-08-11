@@ -1,0 +1,88 @@
+#!/bin/sh
+# ============================================================================
+# Startup-script generado por Terraform para fluency-db-surreal (GCP).
+#
+# Verificado en vivo por SSH (5 ago 2026, solo lectura) contra la VM real --
+# NO es una extrapolación de infra/proxy/deploy-surrealdb.sh (ese script
+# legado de la era Oracle/OCI-1 no reproduce ninguno de estos valores). Los
+# hallazgos en vivo corrigieron supuestos previos de este mismo directorio:
+#   - "/" también es tmpfs (mismo patrón diskless que el proxy) -- no
+#     documentado hasta ahora en server_inventory.md, corregido en el mismo
+#     cambio que este archivo.
+#   - SÍ tiene un swapfile de 4 GB en /mnt/sda/swapfile (pri -2, en fstab) --
+#     tampoco documentado antes.
+#   - NO tiene TCP BBR ni fd-limits (a diferencia del proxy) -- confirmado
+#     ausente, no se agrega aquí para no inventar tuning que no existe.
+#   - El directorio de datos real es /mnt/sda/surreal_data (persistente),
+#     NO /root/surreal_data (que viviría en el tmpfs efímero de "/" y se
+#     perdería en cada reboot -- error de una versión anterior de este
+#     archivo, corregido).
+#   - Memoria real del contenedor: --memory 1200m --memory-swap 2200m
+#     (docker inspect, bytes exactos 1258291200/2306867200) -- server_inventory.md
+#     documentaba "800m", desactualizado, corregido en el mismo cambio.
+#   - Cmd real confirmado: `start --user root --pass root --bind 0.0.0.0:8080
+#     rocksdb:/data/surreal.db`.
+#   - Sin HEALTHCHECK configurado (State.Health null) -- contradice la nota
+#     de server_inventory.md sobre "queda unhealthy", también corregida.
+# ============================================================================
+set -eu
+
+MOUNT_POINT="/mnt/sda"
+DATA_DIR="$MOUNT_POINT/surreal_data"
+CONTAINER="surrealdb"
+SWAP_FILE="$MOUNT_POINT/swapfile"
+SWAP_SIZE_MB="4096"
+
+echo "=== 1. Verificando disco persistente diskless ($MOUNT_POINT) ==="
+if ! mountpoint -q "$MOUNT_POINT"; then
+  echo "ERROR: $MOUNT_POINT no está montado. La imagen de arranque no es la" >&2
+  echo "imagen diskless esperada (ver docs/infrastructure/server_inventory.md" >&2
+  echo "y el README de infra/terraform/). Abortando para no escribir en tmpfs." >&2
+  exit 1
+fi
+
+echo "=== 2. Docker ==="
+if ! command -v docker >/dev/null 2>&1; then
+  apk update
+  apk add --no-cache docker bash
+  rc-update add docker boot
+  service docker start
+fi
+
+echo "=== 3. Swap (4 GB, mismo patrón que el proxy -- ver bootstrap-gcp.sh) ==="
+if grep -q "^$SWAP_FILE " /proc/swaps 2>/dev/null; then
+  echo "Swap ya activo en $SWAP_FILE."
+else
+  if [ ! -f "$SWAP_FILE" ]; then
+    fallocate -l "${SWAP_SIZE_MB}M" "$SWAP_FILE" 2>/dev/null || \
+      dd if=/dev/zero of="$SWAP_FILE" bs=1M count="$SWAP_SIZE_MB"
+    chmod 600 "$SWAP_FILE"
+    mkswap "$SWAP_FILE"
+  fi
+  swapon -p -2 "$SWAP_FILE"
+fi
+if ! grep -q "$SWAP_FILE" /etc/fstab 2>/dev/null; then
+  echo "$SWAP_FILE swap swap defaults,pri=-2 0 0" >> /etc/fstab
+fi
+
+mkdir -p "$DATA_DIR"
+
+echo "=== 4. Contenedor SurrealDB ==="
+if docker ps --filter "name=^${CONTAINER}$" --filter "status=running" | grep -q "$CONTAINER"; then
+  echo "SurrealDB ya está corriendo -- no se recrea (evita downtime en reboot)."
+else
+  docker stop "$CONTAINER" 2>/dev/null || true
+  docker rm "$CONTAINER" 2>/dev/null || true
+  docker run -d \
+    --name "$CONTAINER" \
+    --user 0:0 \
+    --network host \
+    --restart always \
+    --memory 1200m \
+    --memory-swap 2200m \
+    -v "$DATA_DIR:/data" \
+    surrealdb/surrealdb:v3.2.3 \
+    start --user root --pass root --bind 0.0.0.0:8080 rocksdb:/data/surreal.db
+fi
+
+echo "=== startup-script (db) completado ==="

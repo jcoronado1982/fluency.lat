@@ -1,0 +1,948 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "impact",
+    "phonetic": "/ˈɪmpækt/",
+    "spoken_phonetic_us": "/ˈɪmpækt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Impacto / Efecto",
+        "usage_example": "It had a big impact.",
+        "pronunciation_guide_es": "/it_had_a_big_IM-pact/",
+        "usage_example_es": "Tuvo un gran impacto.",
+        "char_count": "five",
+        "usage_context_en": "A marked effect or influence.",
+        "usage_context_es": "Un marcado efecto o influencia.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_11_def0.avif"
+      },
+      {
+        "meaning": "Impacto / Colisión",
+        "usage_example": "The impact was strong.",
+        "pronunciation_guide_es": "/di_IM-pact_uas_strong/",
+        "usage_example_es": "El impacto fue fuerte.",
+        "char_count": "four",
+        "usage_context_en": "The action of one object coming forcibly into contact with another.",
+        "usage_context_es": "La acción de un objeto entrando en contacto forzoso con otro.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_11_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "occasion",
+    "phonetic": "/əˈkeɪʒən/",
+    "spoken_phonetic_us": "/əˈkeɪʒən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Ocasión",
+        "usage_example": "It was a special occasion.",
+        "pronunciation_guide_es": "/it_uas_a_SPE-shal_o-KEI-shon/",
+        "usage_example_es": "Fue una ocasión especial.",
+        "char_count": "five",
+        "usage_context_en": "A particular time or instance of an event.",
+        "usage_context_es": "Un momento particular o instancia de un evento.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_36_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "outcome",
+    "phonetic": "/ˈaʊtkʌm/",
+    "spoken_phonetic_us": "/ˈaʊtkʌm/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Resultado",
+        "usage_example": "What was the final outcome?",
+        "pronunciation_guide_es": "/uat_uas_de_FAI-nal_AUT-com/",
+        "usage_example_es": "¿Cuál fue el resultado final?",
+        "char_count": "five",
+        "usage_context_en": "The way a thing turns out; a consequence.",
+        "usage_context_es": "La forma en que resulta algo; una consecuencia.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_38_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "period",
+    "phonetic": "/ˈpɪriəd/",
+    "spoken_phonetic_us": "/ˈpɪriəd/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Período",
+        "usage_example": "It was a difficult period.",
+        "pronunciation_guide_es": "/it_uas_a_DI-fi-colt_PI-ri-od/",
+        "usage_example_es": "Fue un período difícil.",
+        "char_count": "five",
+        "usage_context_en": "A length or portion of time.",
+        "usage_context_es": "Una duración o porción de tiempo.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_40_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "phase",
+    "phonetic": "/feɪz/",
+    "spoken_phonetic_us": "/feɪz/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Fase / Etapa",
+        "usage_example": "This is the first phase.",
+        "pronunciation_guide_es": "/dis_is_de_ferst_FEIS/",
+        "usage_example_es": "Esta es la primera fase.",
+        "char_count": "five",
+        "usage_context_en": "A distinct period or stage in a series of events or a process of change.",
+        "usage_context_es": "Un período o etapa distinta en una serie de eventos o un proceso de cambio.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_41_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "process",
+    "phonetic": "/ˈprɑsɛs/",
+    "spoken_phonetic_us": "/ˈprɑsɛs/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Proceso",
+        "usage_example": "Trust the process.",
+        "pronunciation_guide_es": "/trost_de_PRO-ses/",
+        "usage_example_es": "Confía en el proceso.",
+        "char_count": "three",
+        "usage_context_en": "A series of actions or steps taken in order to achieve a particular end.",
+        "usage_context_es": "Una serie de acciones o pasos tomados para lograr un fin particular.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_45_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "progress",
+    "phonetic": "/ˈprɑɡrəs/",
+    "spoken_phonetic_us": "/ˈprɑɡrəs/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Progreso / Avance",
+        "usage_example": "We are making progress.",
+        "pronunciation_guide_es": "/ui_ar_MEI-king_PRO-gres/",
+        "usage_example_es": "Estamos haciendo progreso.",
+        "char_count": "four",
+        "usage_context_en": "Forward or onward movement toward a destination.",
+        "usage_context_es": "Movimiento hacia adelante o hacia un destino.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_46_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "reaction",
+    "phonetic": "/riˈækʃən/",
+    "spoken_phonetic_us": "/riˈækʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Reacción",
+        "usage_example": "What was his reaction?",
+        "pronunciation_guide_es": "/uat_uas_his_ri-AK-shon/",
+        "usage_example_es": "¿Cuál fue su reacción?",
+        "char_count": "four",
+        "usage_context_en": "An action performed or a feeling experienced in response to a situation or event.",
+        "usage_context_es": "Una acción realizada o un sentimiento experimentado en respuesta a una situación o evento.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_50_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "reform",
+    "phonetic": "/rɪˈfɔrm/",
+    "spoken_phonetic_us": "/rɪˈfɔrm/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Reforma",
+        "usage_example": "The company needs a major reform.",
+        "pronunciation_guide_es": "/de_COM-pa-ni_nids_a_MEI-yor_ri-FORM/",
+        "usage_example_es": "La compañía necesita una reforma importante.",
+        "char_count": "six",
+        "usage_context_en": "The improvement or amendment of what is wrong, corrupt, or unsatisfactory.",
+        "usage_context_es": "La mejora o enmienda de lo que está mal, corrupto o insatisfactorio.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_55_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "response",
+    "phonetic": "/rɪˈspɑns/",
+    "spoken_phonetic_us": "/rɪˈspɑns/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Respuesta",
+        "usage_example": "I am waiting for a response.",
+        "pronunciation_guide_es": "/ai_am_UEI-ting_for_a_ri-SPONS/",
+        "usage_example_es": "Estoy esperando una respuesta.",
+        "char_count": "six",
+        "usage_context_en": "A verbal or written answer.",
+        "usage_context_es": "Una contestación verbal o escrita.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_59_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "result",
+    "phonetic": "/rɪˈzʌlt/",
+    "spoken_phonetic_us": "/rɪˈzʌlt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Resultado",
+        "usage_example": "This is the final result.",
+        "pronunciation_guide_es": "/dis_is_de_FAI-nal_ri-SOLT/",
+        "usage_example_es": "Este es el resultado final.",
+        "char_count": "five",
+        "usage_context_en": "A consequence, effect, or outcome of something.",
+        "usage_context_es": "Una consecuencia, efecto o desenlace de algo.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_60_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "success",
+    "phonetic": "/səkˈsɛs/",
+    "spoken_phonetic_us": "/səkˈsɛs/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Éxito",
+        "usage_example": "Success is the result of hard work.",
+        "pronunciation_guide_es": "/sok-SES_is_de_ri-SOLT_of_hard_uork/",
+        "usage_example_es": "El éxito es el resultado del trabajo duro.",
+        "char_count": "seven",
+        "usage_context_en": "The accomplishment of an aim or purpose.",
+        "usage_context_es": "El logro de un objetivo o propósito.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_69_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "trend",
+    "phonetic": "/trɛnd/",
+    "spoken_phonetic_us": "/trɛnd/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Tendencia / Moda",
+        "usage_example": "This is a new trend.",
+        "pronunciation_guide_es": "/dis_is_a_niu_TREND/",
+        "usage_example_es": "Esta es una nueva tendencia.",
+        "char_count": "five",
+        "usage_context_en": "A general direction in which something is developing or changing.",
+        "usage_context_es": "Una dirección general en la que algo se está desarrollando o cambiando.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_73_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "version",
+    "phonetic": "/ˈvɜrʒən/",
+    "spoken_phonetic_us": "/ˈvɜrʒən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Versión",
+        "usage_example": "I have the latest version.",
+        "pronunciation_guide_es": "/ai_hav_de_LEI-test_VER-shon/",
+        "usage_example_es": "Tengo la última versión.",
+        "char_count": "five",
+        "usage_context_en": "A particular form of something differing in certain respects from an earlier form.",
+        "usage_context_es": "Una forma particular de algo que difiere en ciertos aspectos de una forma anterior.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_75_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "achievement",
+    "phonetic": "/əˈtʃivmənt/",
+    "spoken_phonetic_us": "/əˈtʃivmənt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Logro",
+        "usage_example": "It was a great achievement.",
+        "pronunciation_guide_es": "/it_uas_a_greit_a-CHIV-ment/",
+        "usage_example_es": "Fue un gran logro.",
+        "char_count": "five",
+        "usage_context_en": "A thing done successfully, typically by effort, courage, or skill.",
+        "usage_context_es": "Algo hecho con éxito, típicamente por esfuerzo, coraje o habilidad.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_79_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "improvement",
+    "phonetic": "/ɪmˈprumənt/",
+    "spoken_phonetic_us": "/ɪmˈprumənt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Mejora / Avance",
+        "usage_example": "I see a big improvement.",
+        "pronunciation_guide_es": "/ai_si_a_big_im-PRUV-ment/",
+        "usage_example_es": "Veo una gran mejora.",
+        "char_count": "5",
+        "usage_context_en": "The act of making something better.",
+        "usage_context_es": "El acto de hacer algo mejor.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_215_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "growth",
+    "phonetic": "/ɡroʊθ/",
+    "spoken_phonetic_us": "/ɡroʊθ/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Crecimiento",
+        "usage_example": "We saw rapid economic growth.",
+        "pronunciation_guide_es": "/ui_so_RA-pid_e-co-NO-mik_GROUZ/",
+        "usage_example_es": "Vimos un rápido crecimiento económico.",
+        "char_count": "5",
+        "usage_context_en": "The process of increasing in size, amount, or importance.",
+        "usage_context_es": "El proceso de aumentar en tamaño, cantidad o importancia.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_216_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "alternative",
+    "phonetic": "/ɔlˈtɜrnətɪv/",
+    "spoken_phonetic_us": "/ɔlˈtɜrnətɪv/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Alternativa / Opción",
+        "usage_example": "Do we have an alternative?",
+        "pronunciation_guide_es": "/du_ui_hav_an_ol-TER-na-tiv/",
+        "usage_example_es": "¿Tenemos una alternativa?",
+        "char_count": "5",
+        "usage_context_en": "One of two or more available possibilities.",
+        "usage_context_es": "Una de dos o más posibilidades disponibles.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_217_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "failure",
+    "phonetic": "/ˈfeɪljər/",
+    "spoken_phonetic_us": "/ˈfeɪljər/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Fracaso / Falla",
+        "usage_example": "The project was a failure.",
+        "pronunciation_guide_es": "/de_PRO-yekt_uas_a_FEI-liur/",
+        "usage_example_es": "El proyecto fue un fracaso.",
+        "char_count": "5",
+        "usage_context_en": "Lack of success.",
+        "usage_context_es": "Falta de éxito.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_218_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "protection",
+    "phonetic": "/prəˈtɛkʃən/",
+    "spoken_phonetic_us": "/prəˈtɛkʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Protección",
+        "usage_example": "Use sunscreen for protection.",
+        "pronunciation_guide_es": "/ius_SON-skrin_for_pro-TEK-shon/",
+        "usage_example_es": "Usa protector solar para protección.",
+        "char_count": "4",
+        "usage_context_en": "The action of keeping someone or something safe from harm or injury.",
+        "usage_context_es": "La acción de mantener a alguien o algo a salvo de daño o lesión.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_228_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "attempt",
+    "phonetic": "/əˈtɛmpt/",
+    "spoken_phonetic_us": "/əˈtɛmpt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Intento",
+        "usage_example": "It was a good attempt.",
+        "pronunciation_guide_es": "/it_uas_a_gud_a-TEMPT/",
+        "usage_example_es": "Fue un buen intento.",
+        "char_count": "5",
+        "usage_context_en": "An effort to achieve or complete a difficult task.",
+        "usage_context_es": "Un esfuerzo por lograr o completar una tarea difícil.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_234_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "construction",
+    "phonetic": "/kənˈstrʌkʃən/",
+    "spoken_phonetic_us": "/kənˈstrʌkʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Construcción",
+        "usage_example": "The building is under construction.",
+        "pronunciation_guide_es": "/de_BIL-ding_is_ON-der_cons-TROK-shon/",
+        "usage_example_es": "El edificio está en construcción.",
+        "char_count": "5",
+        "usage_context_en": "The process or art of building something.",
+        "usage_context_es": "El proceso o arte de construir algo.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_250_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "creation",
+    "phonetic": "/kriˈeɪʃən/",
+    "spoken_phonetic_us": "/kriˈeɪʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Creación",
+        "usage_example": "The creation of the universe.",
+        "pronunciation_guide_es": "/de_cri-EI-shon_of_de_IU-ni-vers/",
+        "usage_example_es": "La creación del universo.",
+        "char_count": "5",
+        "usage_context_en": "The action or process of bringing something into existence.",
+        "usage_context_es": "La acción o proceso de traer algo a la existencia.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_255_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "development",
+    "phonetic": "/dɪˈvɛləpmənt/",
+    "spoken_phonetic_us": "/dɪˈvɛləpmənt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Desarrollo / Avance",
+        "usage_example": "The project is in development.",
+        "pronunciation_guide_es": "/de_PRO-yekt_is_in_di-VE-lop-ment/",
+        "usage_example_es": "El proyecto está en desarrollo.",
+        "char_count": "5",
+        "usage_context_en": "The process of developing or being developed.",
+        "usage_context_es": "El proceso de desarrollar o ser desarrollado.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_264_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "effect",
+    "phonetic": "/ɪˈfɛkt/",
+    "spoken_phonetic_us": "/ɪˈfɛkt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Efecto",
+        "usage_example": "It had a strange effect on me.",
+        "pronunciation_guide_es": "/it_had_a_STREINCH_i-FEKT_on_mi/",
+        "usage_example_es": "Tuvo un efecto extraño en mí.",
+        "char_count": "7",
+        "usage_context_en": "A change which is a consequence or result of an action or other cause.",
+        "usage_context_es": "Un cambio que es consecuencia o resultado de una acción u otra causa.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_274_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "effort",
+    "phonetic": "/ˈɛfərt/",
+    "spoken_phonetic_us": "/ˈɛfərt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Esfuerzo",
+        "usage_example": "You made a good effort.",
+        "pronunciation_guide_es": "/iu_meid_a_gud_E-fort/",
+        "usage_example_es": "Hiciste un buen esfuerzo.",
+        "char_count": "5",
+        "usage_context_en": "A vigorous or determined attempt.",
+        "usage_context_es": "Un intento vigoroso o determinado.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_275_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "energy",
+    "phonetic": "/ˈɛnərdʒi/",
+    "spoken_phonetic_us": "/ˈɛnərdʒi/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Energía",
+        "usage_example": "I don't have much energy today.",
+        "pronunciation_guide_es": "/ai_dont_hav_moch_E-ner-yi_tu-DEI/",
+        "usage_example_es": "No tengo mucha energía hoy.",
+        "char_count": "6",
+        "usage_context_en": "The strength and vitality required for sustained physical or mental activity.",
+        "usage_context_es": "La fuerza y vitalidad requeridas para una actividad física o mental sostenida.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_277_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "event",
+    "phonetic": "/ɪˈvɛnt/",
+    "spoken_phonetic_us": "/ɪˈvɛnt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Evento / Suceso",
+        "usage_example": "It was a major event.",
+        "pronunciation_guide_es": "/it_uas_a_MEI-yor_i-VENT/",
+        "usage_example_es": "Fue un evento importante.",
+        "char_count": "5",
+        "usage_context_en": "A thing that happens or takes place, especially one of importance.",
+        "usage_context_es": "Algo que sucede o tiene lugar, especialmente uno de importancia.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_281_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "experience",
+    "phonetic": "/ɪkˈspɪriəns/",
+    "spoken_phonetic_us": "/ɪkˈspɪriəns/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Experiencia",
+        "usage_example": "I have five years of experience.",
+        "pronunciation_guide_es": "/ai_hav_FAIV_yirs_of_ex-PI-ri-ens/",
+        "usage_example_es": "Tengo cinco años de experiencia.",
+        "char_count": "6",
+        "usage_context_en": "Practical contact with and observation of facts or events.",
+        "usage_context_es": "Contacto práctico y observación de hechos o eventos.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_283_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "future",
+    "phonetic": "/ˈfjutʃər/",
+    "spoken_phonetic_us": "/ˈfjutʃər/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Futuro",
+        "usage_example": "What will happen in the future?",
+        "pronunciation_guide_es": "/uat_uil_HA-pen_in_de_FIU-cher/",
+        "usage_example_es": "¿Qué pasará en el futuro?",
+        "char_count": "6",
+        "usage_context_en": "The time or a period of time following the moment of speaking or writing; time regarded as still to come.",
+        "usage_context_es": "El tiempo o un período de tiempo posterior al momento de hablar o escribir; el tiempo considerado como aún por venir.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_289_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "invention",
+    "phonetic": "/ɪnˈvɛnʃən/",
+    "spoken_phonetic_us": "/ɪnˈvɛnʃən/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Invención / Invento",
+        "usage_example": "The wheel was a great invention.",
+        "pronunciation_guide_es": "/de_UIL_uas_a_greit_in-VEN-shon/",
+        "usage_example_es": "La rueda fue una gran invención.",
+        "char_count": "6",
+        "usage_context_en": "Something, typically a process or device, that has been created for the first time.",
+        "usage_context_es": "Algo, típicamente un proceso o dispositivo, que ha sido creado por primera vez.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_299_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "measurement",
+    "phonetic": "/ˈmɛʒərmənt/",
+    "spoken_phonetic_us": "/ˈmɛʒərmənt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Medida / Medición",
+        "usage_example": "The measurement is not accurate.",
+        "pronunciation_guide_es": "/de_ME-shur-ment_is_not_A-kiu-ret/",
+        "usage_example_es": "La medida no es precisa.",
+        "char_count": "5",
+        "usage_context_en": "The action of measuring something; the size or amount of something.",
+        "usage_context_es": "La acción de medir algo; el tamaño o cantidad de algo.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_309_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "moment",
+    "phonetic": "/ˈmoʊmənt/",
+    "spoken_phonetic_us": "/ˈmoʊmənt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Momento / Instante",
+        "usage_example": "Please wait a moment.",
+        "pronunciation_guide_es": "/plis_UEIT_a_MOU-ment/",
+        "usage_example_es": "Por favor espera un momento.",
+        "char_count": "4",
+        "usage_context_en": "A very brief period of time.",
+        "usage_context_es": "Un período de tiempo muy breve.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_311_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "movement",
+    "phonetic": "/ˈmuvmənt/",
+    "spoken_phonetic_us": "/ˈmuvmənt/",
+    "search_term": "noun/concept/essentials",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Movimiento",
+        "usage_example": "I saw a movement in the dark.",
+        "pronunciation_guide_es": "/ai_so_a_MUV-ment_in_de_DARK/",
+        "usage_example_es": "Vi un movimiento en la oscuridad.",
+        "char_count": "7",
+        "usage_context_en": "An act of changing physical location or position.",
+        "usage_context_es": "Un acto de cambiar de ubicación física o posición.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_312_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "meaning": "Energía renovable",
+        "pronunciation_guide_es": "/riNIUebl_ENerYi_is_de_FIUCHer/",
+        "usage_context_en": "Energy from natural sources that can be replaced",
+        "usage_context_es": "Energía de fuentes naturales que pueden reponerse",
+        "usage_example": "Renewable energy is the future.",
+        "usage_example_es": "La energía renovable es el futuro.",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_381_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature & Materials",
+    "is_verb": false,
+    "name": "renewable",
+    "phonetic": "/rɪˈnjuːəbəl/",
+    "search_term": "noun/environment/essentials",
+    "spoken_phonetic_us": "/rɪˈnuːəbəl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Cambio de divisas",
+        "pronunciation_guide_es": "/uer_is_de_KARensi_EXChENY/",
+        "usage_context_en": "The process of converting one currency to another",
+        "usage_context_es": "El proceso de convertir una moneda en otra",
+        "usage_example": "Where is the currency exchange?",
+        "usage_example_es": "¿Dónde está el cambio de divisas?",
+        "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_399_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Transportation & Travel",
+    "is_verb": false,
+    "name": "currency exchange",
+    "phonetic": "/ˈkʌrənsi ɪksˈtʃeɪndʒ/",
+    "search_term": "noun/travel/money/essentials",
+    "spoken_phonetic_us": "/ˈkʌrənsi ɪksˈtʃeɪndʒ/"
+  }
+]

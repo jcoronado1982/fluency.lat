@@ -1,0 +1,768 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Do you know his phone number?",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_0_def0.avif",
+        "meaning": "Saber (información)",
+        "pronunciation_guide_es": "/ish_VAIS_di_ANT-vort/",
+        "usage_context_en": "information/facts",
+        "usage_context_es": "información/hechos",
+        "usage_example": "Ich weiß die Antwort.",
+        "usage_example_es": "Sé la respuesta."
+      },
+      {
+        "alternative_example": "He knows this city well.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_0_def1.avif",
+        "meaning": "Conocer (a una persona/lugar)",
+        "pronunciation_guide_es": "/ish_KE-ne_zi_fon_der_SHU-le/",
+        "usage_context_en": "people/places",
+        "usage_context_es": "gente/lugares",
+        "usage_example": "Ich kenne sie von der Schule.",
+        "usage_example_es": "La conozco de la escuela."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "wissen",
+    "phonetic": "/ˈvɪsn̩/",
+    "search_term": "verb/knowledge/essentials",
+    "spoken_phonetic_us": "/ˈvɪsn̩/",
+    "irregular": {
+      "past": {
+        "form": "wusste",
+        "phonetic": "/ˈvʊstə/",
+        "spoken_phonetic_us": "/ˈvʊstə/",
+        "usage_example": "Ich wusste die Antwort sofort.",
+        "usage_example_es": "Sabía la respuesta inmediatamente.",
+        "pronunciation_guide_es": "/ish_VUS-te_di_ANT-vort_zo-FORT/",
+        "meaning": "Pasado de saber",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_0_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gewusst",
+        "phonetic": "/ɡəˈvʊst/",
+        "spoken_phonetic_us": "/ɡəˈvʊst/",
+        "usage_example": "Ich habe ihn seit Jahren gekannt.",
+        "usage_example_es": "Lo conozco desde hace años.",
+        "pronunciation_guide_es": "/ish_HA-be_in_zait_YA-ren_ge-KANT/",
+        "meaning": "Participio de saber",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_0_def0_v3.avif"
+      }
+    },
+    "group_name": "Mind & Senses"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Do you see that bird?",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_1_def0.avif",
+        "meaning": "Ver (con los ojos)",
+        "pronunciation_guide_es": "/ish_kan_fon_HIR_den_o-tse-AN_ZE-en/",
+        "usage_context_en": "vision/sight",
+        "usage_context_es": "visión/vista",
+        "usage_example": "Ich kann von hier den Ozean sehen.",
+        "usage_example_es": "Puedo ver el océano desde aquí."
+      },
+      {
+        "alternative_example": "Oh, I finally see!",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_1_def1.avif",
+        "meaning": "Entender/Comprender",
+        "pronunciation_guide_es": "/ish_fer-SHTE-e_vas_du_MAINST/",
+        "usage_context_en": "understanding/realization",
+        "usage_context_es": "comprensión/darse cuenta",
+        "usage_example": "Ich verstehe, was du meinst.",
+        "usage_example_es": "Entiendo lo que quieres decir."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "sehen",
+    "phonetic": "/ˈzeːən/",
+    "search_term": "verb/vision/essentials",
+    "spoken_phonetic_us": "/ˈzeːən/",
+    "irregular": {
+      "past": {
+        "form": "sah",
+        "phonetic": "/zaː/",
+        "spoken_phonetic_us": "/zaː/",
+        "usage_example": "Ich sah heute einen schönen Vogel.",
+        "usage_example_es": "Vi un pájaro hermoso hoy.",
+        "pronunciation_guide_es": "/ish_ZA_HOI-te_AI-nen_SHOE-nen_FO-gel/",
+        "meaning": "Pasado de ver",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_1_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gesehen",
+        "phonetic": "/ɡəˈzeːən/",
+        "spoken_phonetic_us": "/ɡəˈzeːən/",
+        "usage_example": "Ich habe diesen Film schon gesehen.",
+        "usage_example_es": "He visto esa película antes.",
+        "pronunciation_guide_es": "/ish_HA-be_DI-zen_FILM_SHON_ge-ZE-en/",
+        "meaning": "Participio de ver",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_1_def0_v3.avif"
+      }
+    },
+    "group_name": "Mind & Senses"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "I think, therefore I am.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_2_def0.avif",
+        "meaning": "Pensar (razonar)",
+        "pronunciation_guide_es": "/ish_DEN-ke_OFT_an_MAI-ne_TSU-kunft/",
+        "usage_context_en": "reasoning/reflection",
+        "usage_context_es": "razonar/reflexionar",
+        "usage_example": "Ich denke oft an meine Zukunft.",
+        "usage_example_es": "Pienso mucho en mi futuro."
+      },
+      {
+        "alternative_example": "What do you think of it?",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_2_def1.avif",
+        "meaning": "Creer/Opinar",
+        "pronunciation_guide_es": "/ish_GLAU-be_das_es_HOI-te_REK-nen_virt/",
+        "usage_context_en": "opinion/belief",
+        "usage_context_es": "opinión/creencia",
+        "usage_example": "Ich glaube, dass es heute regnen wird.",
+        "usage_example_es": "Creo que va a llover hoy."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "denken",
+    "phonetic": "/ˈdɛŋkn̩/",
+    "search_term": "verb/opinion/essentials",
+    "spoken_phonetic_us": "/ˈdɛŋkn̩/",
+    "irregular": {
+      "past": {
+        "form": "dachte",
+        "phonetic": "/ˈdaxtə/",
+        "spoken_phonetic_us": "/ˈdaxtə/",
+        "usage_example": "Ich dachte, du kommst.",
+        "usage_example_es": "Pensé que venías.",
+        "pronunciation_guide_es": "/ish_DACH-te_du_KOMST/",
+        "meaning": "Pasado de pensar",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_2_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gedacht",
+        "phonetic": "/ɡəˈdaxt/",
+        "spoken_phonetic_us": "/ɡəˈdaxt/",
+        "usage_example": "Ich habe sorgfältig darüber nachgedacht.",
+        "usage_example_es": "Lo he pensado cuidadosamente.",
+        "pronunciation_guide_es": "/ish_HA-be_ZORK-fel-tish_da-RUE-ber_NAJ-ge-dacht/",
+        "meaning": "Participio de pensar",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_2_def0_v3.avif"
+      }
+    },
+    "group_name": "Mind & Senses"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Look at the board, please.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_3_def0.avif",
+        "meaning": "Mirar",
+        "pronunciation_guide_es": "/SHAU_mish_AN/",
+        "usage_context_en": "attention/vision",
+        "usage_context_es": "atención/visión",
+        "usage_example": "Schau mich an.",
+        "usage_example_es": "Mírame."
+      },
+      {
+        "alternative_example": "You look tired today.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_3_def1.avif",
+        "meaning": "Parecer (verse de cierta manera)",
+        "pronunciation_guide_es": "/zi_ZIT_GLUEK-lish_AUS/",
+        "usage_context_en": "appearance/impression",
+        "usage_context_es": "apariencia/impresión",
+        "usage_example": "Sie sieht glücklich aus.",
+        "usage_example_es": "Ella se ve feliz."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "schauen",
+    "phonetic": "/ˈʃaʊən/",
+    "search_term": "verb/look/essentials",
+    "spoken_phonetic_us": "/ˈʃaʊən/",
+    "group_name": "Perception & Attention"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "I can't hear you clearly.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_4_def0.avif",
+        "meaning": "Oír/Escuchar",
+        "pronunciation_guide_es": "/HOERST_du_das_ge-ROISH/",
+        "usage_context_en": "sound/sense",
+        "usage_context_es": "sonido/sentido",
+        "usage_example": "Hörst du das Geräusch?",
+        "usage_example_es": "¿Oyes ese ruido?"
+      },
+      {
+        "alternative_example": "What do you hear about the plan?",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_4_def1.avif",
+        "meaning": "Recibir noticias/Saber de alguien",
+        "pronunciation_guide_es": "/vas_HOERST_du_UE-ber_den_PLAN/",
+        "usage_context_en": "news/communication",
+        "usage_context_es": "noticias/comunicación",
+        "usage_example": "Was hörst du über den Plan?",
+        "usage_example_es": "No he sabido de él en semanas."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "hören",
+    "phonetic": "/ˈhøːʁən/",
+    "search_term": "verb/sound/essentials",
+    "spoken_phonetic_us": "/ˈhøːʁən/",
+    "irregular": {
+      "past": {
+        "form": "hörte",
+        "phonetic": "/ˈhøːɐtə/",
+        "spoken_phonetic_us": "/ˈhøːɐtə/",
+        "usage_example": "Ich hörte ein seltsames Geräusch.",
+        "usage_example_es": "Oí un ruido extraño.",
+        "pronunciation_guide_es": "/ish_HOER-te_ain_ZELT-za-mes_ge-ROISH/",
+        "meaning": "Pasado de oír",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_4_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gehört",
+        "phonetic": "/ɡəˈhøːɐt/",
+        "spoken_phonetic_us": "/ɡəˈhøːɐt/",
+        "usage_example": "Ich habe seit Wochen nichts von ihm gehört.",
+        "usage_example_es": "He oído esa historia.",
+        "pronunciation_guide_es": "/ish_HA-be_zait_VO-chen_nishts_fon_im_ge-HOERT/",
+        "meaning": "Participio de oír",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_4_def0_v3.avif"
+      }
+    },
+    "group_name": "Communication"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Listen to your teacher.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_5_def0.avif",
+        "meaning": "Escuchar",
+        "pronunciation_guide_es": "/HOER_mir_TSU/",
+        "usage_context_en": "attention/sound",
+        "usage_context_es": "atención/sonido",
+        "usage_example": "Hör mir zu.",
+        "usage_example_es": "Escúchame."
+      },
+      {
+        "alternative_example": "I listened carefully to the news.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_5_def1.avif",
+        "meaning": "Prestar atención",
+        "pronunciation_guide_es": "/zi_HOE-ren_nisht_auf_den_RAT/",
+        "usage_context_en": "advice/instructions",
+        "usage_context_es": "consejos/instrucciones",
+        "usage_example": "Sie hören nicht auf den Rat.",
+        "usage_example_es": "No escucharon el consejo."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "zuhören",
+    "phonetic": "/ˈtsuːhøːʁən/",
+    "search_term": "verb/listen/essentials",
+    "spoken_phonetic_us": "/ˈtsuːhøːʁən/",
+    "group_name": "Perception & Attention"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Do you find a job?",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_6_def0.avif",
+        "meaning": "Encontrar (localizar algo)",
+        "pronunciation_guide_es": "/ish_kan_MAI-ne_SHLUE-sel_nisht_FIN-den/",
+        "usage_context_en": "search/discovery",
+        "usage_context_es": "búsqueda/descubrimiento",
+        "usage_example": "Ich kann meine Schlüssel nicht finden.",
+        "usage_example_es": "No puedo encontrar mis llaves."
+      },
+      {
+        "alternative_example": "She finds English easy.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_6_def1.avif",
+        "meaning": "Parecer/Opinar (encontrarle a algo una característica)",
+        "pronunciation_guide_es": "/ish_FIN-de_den_FILM_LANG-vai-lish/",
+        "usage_context_en": "opinion/judgment",
+        "usage_context_es": "opinión/juicio",
+        "usage_example": "Ich finde den Film langweilig.",
+        "usage_example_es": "Encuentro la película aburrida."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "finden",
+    "phonetic": "/ˈfɪndn̩/",
+    "search_term": "verb/discover/essentials",
+    "spoken_phonetic_us": "/ˈfɪndn̩/",
+    "irregular": {
+      "past": {
+        "form": "fand",
+        "phonetic": "/fant/",
+        "spoken_phonetic_us": "/fant/",
+        "usage_example": "Ich fand meine Schlüssel unter dem Sofa.",
+        "usage_example_es": "Encontré mis llaves debajo del sofá.",
+        "pronunciation_guide_es": "/ish_FANT_MAI-ne_SHLUE-sel_UN-ter_dem_zo-FA/",
+        "meaning": "Pasado de encontrar",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_6_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gefunden",
+        "phonetic": "/ɡəˈfʊndn̩/",
+        "spoken_phonetic_us": "/ɡəˈfʊndn̩/",
+        "usage_example": "Ich habe das perfekte Geschenk gefunden.",
+        "usage_example_es": "He encontrado el regalo perfecto.",
+        "pronunciation_guide_es": "/ish_HA-be_das_per-FEK-te_ge-SHENK_ge-FUN-den/",
+        "meaning": "Participio de encontrar",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_6_def0_v3.avif"
+      }
+    },
+    "group_name": "Mind & Senses"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Watch out for the hole!",
+        "char_count": "one",
+        "meaning": "Ver/Mirar (con atención)",
+        "pronunciation_guide_es": "/ish_SHAU-e_YE-den_A-bent_FERN/",
+        "usage_context_en": "entertainment/warning",
+        "usage_context_es": "entretenimiento/advertencia",
+        "usage_example": "Ich schaue jeden Abend fern.",
+        "usage_example_es": "Veo televisión todas las noches.",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_7_def0.avif"
+      },
+      {
+        "alternative_example": "We watched the kids play.",
+        "char_count": "one",
+        "meaning": "Vigilar/Cuidar",
+        "pronunciation_guide_es": "/kanst_du_KURTS_auf_MAI-ne_TA-she_AUF-pa-sen/",
+        "usage_context_en": "supervision/care",
+        "usage_context_es": "supervisión/cuidado",
+        "usage_example": "Kannst du kurz auf meine Tasche aufpassen?",
+        "usage_example_es": "¿Puedes vigilar mi bolso por un momento?",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_7_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "fernsehen",
+    "phonetic": "/ˈfɛʁnzeːən/",
+    "search_term": "verb/observe/level_up",
+    "spoken_phonetic_us": "/ˈfɛʁnzeːən/",
+    "group_name": "Mind & Senses"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "I don't mean to hurt you.",
+        "char_count": "one",
+        "usage_example_es": "¿Qué significa esta palabra?",
+        "meaning": "Significar/Querer decir",
+        "pronunciation_guide_es": "/vas_be-DOI-tet_DI-zes_VORT/",
+        "usage_context_en": "definition/intention",
+        "usage_context_es": "definición/intención",
+        "usage_example": "Was bedeutet dieses Wort?",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_8_def0.avif"
+      },
+      {
+        "alternative_example": "He means well.",
+        "char_count": "one",
+        "usage_example_es": "Tengo la intención de terminar este proyecto pronto.",
+        "meaning": "Tener la intención de",
+        "pronunciation_guide_es": "/ish_HA-be_FOR_DI-zes_pro-YEKT_BALT_tsu_be-EN-den/",
+        "usage_context_en": "intention/purpose",
+        "usage_context_es": "intención/propósito",
+        "usage_example": "Ich habe vor, dieses Projekt bald zu beenden.",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_8_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "bedeuten",
+    "phonetic": "/bəˈdɔɪtən/",
+    "search_term": "verb/signify/essentials",
+    "spoken_phonetic_us": "/bəˈdɔɪtən/",
+    "irregular": {
+      "past": {
+        "form": "bedeutete",
+        "phonetic": "/bəˈdɔɪtətə/",
+        "spoken_phonetic_us": "/bəˈdɔɪtətə/",
+        "usage_example": "Ich meinte, was ich gesagt habe.",
+        "usage_example_es": "Quise decir lo que dije.",
+        "pronunciation_guide_es": "/ish_MAIN-te_vas_ish_ge-ZAKT_HA-be/",
+        "meaning": "Pasado de significar/querer decir",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_8_def0_v2.avif"
+      },
+      "participle": {
+        "form": "bedeutet",
+        "phonetic": "/bəˈdɔɪtət/",
+        "spoken_phonetic_us": "/bəˈdɔɪtət/",
+        "usage_example": "Es hat mir sehr viel bedeutet.",
+        "usage_example_es": "Ha significado mucho para mí.",
+        "pronunciation_guide_es": "/es_hat_mir_ZER_FIL_be-DOI-tet/",
+        "meaning": "Participio de significar/querer decir",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_8_def0_v3.avif"
+      }
+    },
+    "group_name": "Being & State"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Oler",
+        "pronunciation_guide_es": "/di_BLU-men_RI-shen_GUT/",
+        "usage_context_en": "senses/perception",
+        "usage_context_es": "sentidos/percepción",
+        "usage_example": "Die Blumen riechen gut.",
+        "usage_example_es": "Las flores huelen bien.",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Thinking & Perception",
+    "is_verb": true,
+    "name": "riechen",
+    "phonetic": "/ˈʁiːçn̩/",
+    "search_term": "verb/sense/basic",
+    "spoken_phonetic_us": "/ˈʁiːçn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Saber / Tener sabor",
+        "pronunciation_guide_es": "/DI-ze_ZU-pe_SHMEKT_GROS-ar-tish/",
+        "usage_context_en": "senses/flavor",
+        "usage_context_es": "sentidos/sabor",
+        "usage_example": "Diese Suppe schmeckt großartig.",
+        "usage_example_es": "Esta sopa sabe muy bien.",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Thinking & Perception",
+    "is_verb": true,
+    "name": "schmecken",
+    "phonetic": "/ˈʃmɛkn̩/",
+    "search_term": "verb/sense/basic",
+    "spoken_phonetic_us": "/ˈʃmɛkn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Sonar",
+        "pronunciation_guide_es": "/das_KLINGT_ZELT-zam/",
+        "usage_context_en": "sound/perception",
+        "usage_context_es": "sonido/percepción",
+        "usage_example": "Das klingt seltsam.",
+        "usage_example_es": "Eso suena extraño.",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_11_def0.avif"
+      },
+      {
+        "char_count": "two",
+        "meaning": "Parecer",
+        "pronunciation_guide_es": "/das_KLINGT_GUT_fuer_mish/",
+        "usage_context_en": "impression/opinion",
+        "usage_context_es": "impresión/opinión",
+        "usage_example": "Das klingt gut für mich.",
+        "usage_example_es": "Me parece bien.",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_11_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Thinking & Perception",
+    "is_verb": true,
+    "name": "klingen",
+    "phonetic": "/ˈklɪŋən/",
+    "search_term": "verb/sense/basic",
+    "spoken_phonetic_us": "/ˈklɪŋən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sich erinnern",
+    "phonetic": "/zɪç ɛɐˈʔɪnɐn/",
+    "spoken_phonetic_us": "/zɪç ɛɐˈʔɪnɐn/",
+    "search_term": "verb/recall/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Recordar",
+        "usage_example": "Ich kann mich nicht an seinen Namen erinnern.",
+        "pronunciation_guide_es": "/ish_kan_mish_nisht_an_ZAI-nen_NA-men_er-IN-nern/",
+        "alternative_example": "Remember to buy milk!",
+        "usage_example_es": "No puedo recordar su nombre.",
+        "char_count": "three",
+        "usage_context_en": "memory/tasks",
+        "usage_context_es": "memoria/tareas",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_12_def0.avif"
+      },
+      {
+        "meaning": "Tener en cuenta/Asegurarse",
+        "usage_example": "Grüß deine Familie von mir.",
+        "pronunciation_guide_es": "/GRUES_DAI-ne_fa-MI-li-e_fon_mir/",
+        "alternative_example": "I remember my childhood clearly.",
+        "usage_example_es": "Dale mis saludos a tu familia.",
+        "char_count": "three",
+        "usage_context_en": "greetings/past",
+        "usage_context_es": "saludos/pasado",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_12_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "verstehen",
+    "phonetic": "/fɛɐˈʃteːən/",
+    "spoken_phonetic_us": "/fɛɐˈʃteːən/",
+    "search_term": "verb/comprehend/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Entender/Comprender",
+        "usage_example": "Ich verstehe die Frage nicht.",
+        "pronunciation_guide_es": "/ish_fer-SHTE-e_di_FRA-ge_nisht/",
+        "alternative_example": "She understands Spanish.",
+        "usage_example_es": "No entiendo la pregunta.",
+        "char_count": "three",
+        "usage_context_en": "comprehension/language",
+        "usage_context_es": "comprensión/idioma",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_13_def0.avif"
+      },
+      {
+        "meaning": "Saber/Interpretar",
+        "usage_example": "Ich verstehe, dass du beschäftigt bist.",
+        "pronunciation_guide_es": "/ish_fer-SHTE-e_das_du_be-SHEF-tikt_bist/",
+        "alternative_example": "He understands my feelings.",
+        "usage_example_es": "Entiendo que estás ocupado.",
+        "char_count": "three",
+        "usage_context_en": "awareness/empathy",
+        "usage_context_es": "consciencia/empatía",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_13_def1.avif"
+      }
+    ],
+    "irregular": {
+      "past": {
+        "form": "verstand",
+        "phonetic": "/fɛɐˈʃtant/",
+        "spoken_phonetic_us": "/fɛɐˈʃtant/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Past of understand",
+        "definitions": [
+          {
+            "usage_example": "Ich verstand alles, was du gesagt hast.",
+            "usage_example_es": "Entendí todo lo que dijiste.",
+            "pronunciation_guide_es": "/ish_fer-SHTANT_A-les_vas_du_ge-ZAKT_hast/",
+            "meaning": "Pasado de Entender",
+            "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_13_def0_v2.avif"
+          },
+          {
+            "usage_example": "Wir verstanden uns perfekt.",
+            "usage_example_es": "Nos comprendimos perfectamente.",
+            "pronunciation_guide_es": "/vir_fer-SHTAN-den_uns_per-FEKT/",
+            "meaning": "Pasado de Comprender",
+            "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_13_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "verstanden",
+        "phonetic": "/fɛɐˈʃtandn̩/",
+        "spoken_phonetic_us": "/fɛɐˈʃtandn̩/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Participle of understand",
+        "definitions": [
+          {
+            "usage_example": "Ich habe alles verstanden, was du gesagt hast.",
+            "usage_example_es": "Entendí todo lo que dijiste.",
+            "pronunciation_guide_es": "/ish_HA-be_A-les_fer-SHTAN-den_vas_du_ge-ZAKT_hast/",
+            "meaning": "Participio de Entender",
+            "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_13_def0_v3.avif"
+          },
+          {
+            "usage_example": "Wir haben uns perfekt verstanden.",
+            "usage_example_es": "Nos comprendimos perfectamente.",
+            "pronunciation_guide_es": "/vir_HA-ben_uns_per-FEKT_fer-SHTAN-den/",
+            "meaning": "Participio de Comprender",
+            "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_13_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "vergessen",
+    "phonetic": "/fɛɐˈɡɛsn̩/",
+    "spoken_phonetic_us": "/fɛɐˈɡɛsn̩/",
+    "search_term": "verb/omit memory/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Olvidar",
+        "usage_example": "Ich vergesse immer seinen Geburtstag.",
+        "pronunciation_guide_es": "/ish_fer-GE-se_IM-mer_ZAI-nen_ge-BURTS-tak/",
+        "alternative_example": "Don't forget your keys.",
+        "usage_example_es": "Siempre olvido su cumpleaños.",
+        "char_count": "two",
+        "usage_context_en": "memory/tasks",
+        "usage_context_es": "memoria/tareas",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_14_def0.avif"
+      },
+      {
+        "meaning": "Dejar de pensar en",
+        "usage_example": "Ich kann nicht vergessen, was sie gesagt hat.",
+        "pronunciation_guide_es": "/ish_kan_nisht_fer-GE-sen_vas_zi_ge-ZAKT_hat/",
+        "alternative_example": "I forgot to call him.",
+        "usage_example_es": "No puedo olvidar lo que dijo.",
+        "char_count": "two",
+        "usage_context_en": "past events/actions",
+        "usage_context_es": "eventos pasados/acciones",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_14_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sich sorgen",
+    "phonetic": "/zɪç ˈzɔʁɡn̩/",
+    "spoken_phonetic_us": "/zɪç ˈzɔʁɡn̩/",
+    "search_term": "verb/be anxious/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Preocuparse",
+        "usage_example": "Mach dir keine Sorgen um mich.",
+        "pronunciation_guide_es": "/MACH_dir_KAI-ne_ZOR-gen_um_mish/",
+        "alternative_example": "I am worried about the test.",
+        "usage_example_es": "No te preocupes por mí.",
+        "char_count": "two",
+        "usage_context_en": "anxiety/reassurance",
+        "usage_context_es": "ansiedad/tranquilizar",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_15_def0.avif"
+      },
+      {
+        "meaning": "Molestar/Inquietar",
+        "usage_example": "Beunruhigt dich das Geräusch?",
+        "pronunciation_guide_es": "/be-UN-ru-hikt_dish_das_ge-ROISH/",
+        "alternative_example": "She worries her parents when she's late.",
+        "usage_example_es": "¿Te molesta el ruido?",
+        "char_count": "two",
+        "usage_context_en": "bother/concern",
+        "usage_context_es": "molestia/preocupación",
+        "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_15_def1.avif"
+      }
+    ],
+    "group_name": "Thinking & Deciding"
+  }
+]

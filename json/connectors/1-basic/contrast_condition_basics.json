@@ -1,0 +1,54 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "but",
+    "phonetic": "/bʌt/",
+    "spoken_phonetic_us": "/bʌt/",
+    "search_term": "conjunction/contrast",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Contrast",
+    "definitions": [
+      {
+        "meaning": "Pero",
+        "usage_example": "I like coffee, but I prefer tea.",
+        "pronunciation_guide_es": "/ai_LAIK_CO-fi_bot_ai_pri-FER_TI/",
+        "usage_example_es": "Me gusta el café, pero prefiero el té.",
+        "char_count": "6",
+        "usage_context_en": "Used to introduce a phrase or clause contrasting with what has already been said.",
+        "usage_context_es": "Usado para introducir una frase o cláusula que contrasta con lo que ya se ha dicho.",
+        "imagePath": "/card_images/connectors/1-basic/1-basic_card_6_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "if",
+    "phonetic": "/ɪf/",
+    "spoken_phonetic_us": "/ɪf/",
+    "search_term": "conjunction/condition",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Condition",
+    "definitions": [
+      {
+        "meaning": "Si (condicional)",
+        "usage_example": "If it rains, I will stay home.",
+        "pronunciation_guide_es": "/if_it_REINS_ai_uil_STEI_HOUM/",
+        "usage_example_es": "Si llueve, me quedaré en casa.",
+        "char_count": "6",
+        "usage_context_en": "Used to introduce a condition (something that must happen first).",
+        "usage_context_es": "Usado para introducir una condición (algo que debe pasar primero).",
+        "imagePath": "/card_images/connectors/1-basic/1-basic_card_34_def0.avif"
+      }
+    ]
+  }
+]

@@ -1,0 +1,221 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "me",
+    "phonetic": "/miː/",
+    "spoken_phonetic_us": "/miː/",
+    "search_term": "pronoun/object",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Objeto",
+    "definitions": [
+      {
+        "meaning": "Me / Mí",
+        "usage_example": "He gave me the book.",
+        "pronunciation_guide_es": "/hi_GUEIV_mi_de_BUK/",
+        "usage_example_es": "Él me dio el libro (a mí).",
+        "char_count": "5",
+        "usage_context_en": "The pronoun for the 1st person singular as the object.",
+        "usage_context_es": "El pronombre de la 1ª persona singular como objeto.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_7_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "him",
+    "phonetic": "/hɪm/",
+    "spoken_phonetic_us": "/hɪm/",
+    "search_term": "pronoun/object",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Objeto",
+    "definitions": [
+      {
+        "meaning": "Le / Lo / A él",
+        "usage_example": "I called him yesterday.",
+        "pronunciation_guide_es": "/ai_COLD_him_IES-ter-dei/",
+        "usage_example_es": "Lo llamé ayer (a él).",
+        "char_count": "4",
+        "usage_context_en": "The pronoun for the 3rd person singular (male) as the object.",
+        "usage_context_es": "El pronombre de la 3ª persona singular (masculino) como objeto.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_8_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "us",
+    "phonetic": "/ʌs/",
+    "spoken_phonetic_us": "/əs/",
+    "search_term": "pronoun/object",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Objeto",
+    "definitions": [
+      {
+        "meaning": "Nos / Nosotros/as",
+        "usage_example": "He is waiting for us.",
+        "pronunciation_guide_es": "/hi_is_UEI-ting_for_OS/",
+        "usage_example_es": "Él nos está esperando (a nosotros).",
+        "char_count": "5",
+        "usage_context_en": "The pronoun for the 1st person plural as the object.",
+        "usage_context_es": "El pronombre de la 1ª persona plural como objeto.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_10_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "them",
+    "phonetic": "/ðɛm/",
+    "spoken_phonetic_us": "/ðəm/",
+    "search_term": "pronoun/object",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Objeto",
+    "definitions": [
+      {
+        "meaning": "Los / Las / Les / A ellos/as",
+        "usage_example": "I don't know them.",
+        "pronunciation_guide_es": "/ai_DONT_NOU_dem/",
+        "usage_example_es": "No los conozco (a ellos).",
+        "char_count": "4",
+        "usage_context_en": "The pronoun for the 3rd person plural as the object.",
+        "usage_context_es": "El pronombre de la 3ª persona plural como objeto.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_11_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "you",
+    "phonetic": "/juː/",
+    "spoken_phonetic_us": "/juː/",
+    "search_term": "pronoun/subject/object",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Subject",
+    "definitions": [
+      {
+        "meaning": "Tú / Usted / Ustedes (Sujeto)",
+        "usage_example": "You are my friend.",
+        "pronunciation_guide_es": "/iu_AR_mai_FREND/",
+        "usage_example_es": "Tú eres mi amigo.",
+        "char_count": "4",
+        "usage_context_en": "The pronoun for the 2nd person (the listener) as the subject.",
+        "usage_context_es": "El pronombre de la 2ª persona (el oyente) como sujeto.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_1_def0.avif"
+      },
+      {
+        "meaning": "Te / Ti / Le / A usted / Les / A ustedes (Objeto)",
+        "usage_example": "I will help you.",
+        "pronunciation_guide_es": "/ai_uil_HELP_iu/",
+        "usage_example_es": "Te ayudaré.",
+        "char_count": "4",
+        "usage_context_en": "The pronoun for the 2nd person (the listener) as the object.",
+        "usage_context_es": "El pronombre de la 2ª persona (el oyente) como objeto.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_1_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "it",
+    "phonetic": "/ɪt/",
+    "spoken_phonetic_us": "/ɪt/",
+    "search_term": "pronoun/subject/object",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Subject",
+    "definitions": [
+      {
+        "meaning": "(Sujeto neutro) / Ello",
+        "usage_example": "It is cold outside.",
+        "pronunciation_guide_es": "/it_is_COLD_aut-SAID/",
+        "usage_example_es": "Hace frío afuera. (Ello está frío afuera).",
+        "char_count": "4",
+        "usage_context_en": "The pronoun for the 3rd person singular (thing/animal) as the subject.",
+        "usage_context_es": "El pronombre de la 3ª persona singular (cosa/animal) como sujeto.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_4_def0.avif"
+      },
+      {
+        "meaning": "Lo / La (Objeto neutro)",
+        "usage_example": "I don't understand it.",
+        "pronunciation_guide_es": "/ai_DONT_on-der-STAND_it/",
+        "usage_example_es": "No lo entiendo.",
+        "char_count": "4",
+        "usage_context_en": "The pronoun for the 3rd person singular (thing/animal) as the object.",
+        "usage_context_es": "El pronombre de la 3ª persona singular (cosa/animal) como objeto.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_4_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "her",
+    "phonetic": "/hɜːr/",
+    "spoken_phonetic_us": "/hər/",
+    "search_term": "pronoun/object/possessive-adjective",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Objeto",
+    "definitions": [
+      {
+        "meaning": "La / Le / A ella (Objeto)",
+        "usage_example": "I know her.",
+        "pronunciation_guide_es": "/ai_NOU_her/",
+        "usage_example_es": "La conozco (a ella).",
+        "char_count": "3",
+        "usage_context_en": "The pronoun for the 3rd person singular (female) as the object.",
+        "usage_context_es": "El pronombre de la 3ª persona singular (femenino) como objeto.",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_9_def0.avif"
+      },
+      {
+        "meaning": "Su / Sus (Posesivo de ella)",
+        "usage_example": "This is her book.",
+        "pronunciation_guide_es": "/dis_is_HER_BUK/",
+        "usage_example_es": "Este es su libro (de ella).",
+        "char_count": "4",
+        "usage_context_en": "The possessive determiner for the 3rd person singular (female).",
+        "usage_context_es": "El determinante posesivo de la 3ª persona singular (femenino).",
+        "imagePath": "/card_images/pronouns/1-basic/1-basic_card_9_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  }
+]

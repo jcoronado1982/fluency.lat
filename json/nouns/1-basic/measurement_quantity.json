@@ -1,0 +1,80 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Talla / Tamaño",
+        "pronunciation_guide_es": "/uat_SAIS_du_iu_UER/",
+        "usage_context_en": "How large or small something is",
+        "usage_context_es": "Qué tan grande o pequeño es algo",
+        "usage_example": "What size do you wear?",
+        "usage_example_es": "¿Qué talla usas?",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_284_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "size",
+    "phonetic": "/saɪz/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/saɪz/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Edad",
+        "pronunciation_guide_es": "/uat_is_yor_EICH/",
+        "usage_context_en": "How old someone is",
+        "usage_context_es": "Qué tan viejo es alguien",
+        "usage_example": "What is your age?",
+        "usage_example_es": "¿Cuál es tu edad?",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_285_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "age",
+    "phonetic": "/eɪʤ/",
+    "search_term": "noun/concept/time/essentials",
+    "spoken_phonetic_us": "/eɪʤ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Nivel",
+        "pronunciation_guide_es": "/de_UATer_LEvel_is_JAI/",
+        "usage_context_en": "A position on a scale; a flat surface",
+        "usage_context_es": "Una posición en una escala; una superficie plana",
+        "usage_example": "The water level is high.",
+        "usage_example_es": "El nivel del agua está alto.",
+        "imagePath": "/card_images/nouns/1-basic/1-basic_card_303_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "level",
+    "phonetic": "/ˈlɛvəl/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈlɛvəl/"
+  }
+]

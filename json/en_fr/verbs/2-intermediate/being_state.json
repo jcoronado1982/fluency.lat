@@ -1,0 +1,80 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: remain]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/stay/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "remain",
+                "usage_example": "[TRADUCIR AL FR: Please remain seated until the end.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Please remain seated until the end.",
+                "char_count": "two",
+                "usage_context_en": "position/state",
+                "usage_context_es": "[TRADUCIR AL FR: position/state]",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_16_def0.avif"
+            },
+            {
+                "meaning": "remain (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Only a few minutes remain.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Only a few minutes remain.",
+                "char_count": "two",
+                "usage_context_en": "time/quantity",
+                "usage_context_es": "[TRADUCIR AL FR: time/quantity]",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_16_def1.avif"
+            }
+        ],
+        "group_name": "Body & Movement",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: appear]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/seem/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "appear",
+                "usage_example": "[TRADUCIR AL FR: The sun appeared from behind the clouds.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "The sun appeared from behind the clouds.",
+                "char_count": "two",
+                "usage_context_en": "visibility/arrival",
+                "usage_context_es": "[TRADUCIR AL FR: visibility/arrival]",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_32_def0.avif"
+            },
+            {
+                "meaning": "appear (def 2)",
+                "usage_example": "[TRADUCIR AL FR: She appears to be very smart.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She appears to be very smart.",
+                "char_count": "two",
+                "usage_context_en": "impression/judgment",
+                "usage_context_es": "[TRADUCIR AL FR: impression/judgment]",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_32_def1.avif"
+            }
+        ],
+        "group_name": "Feelings & Reactions",
+        "category": ""
+    }
+]

@@ -1,0 +1,119 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: who]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/interrogative/relative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "¿Quién / Quiénes?",
+                "usage_example": "[TRADUCIR AL PT: Who is that person?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Quién es esa persona?",
+                "char_count": "4",
+                "usage_context_en": "Usado como pronombre interrogativo para preguntar sobre una persona.",
+                "usage_context_es": "[TRADUCIR AL PT: Used as an interrogative pronoun to ask about a person.]",
+                "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_11_def0.avif"
+            },
+            {
+                "meaning": "Que / Quien / El cual (para personas)",
+                "usage_example": "[TRADUCIR AL PT: The man who called me is here.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "El hombre que me llamó está aquí.",
+                "char_count": "7",
+                "usage_context_en": "Usado como pronombre relativo para introducir una cláusula sobre una persona.",
+                "usage_context_es": "[TRADUCIR AL PT: Used as a relative pronoun to introduce a clause about a person.]",
+                "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_11_def1.avif"
+            }
+        ],
+        "group_name": "Interrogativo/Relativo",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: what]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/interrogative/relative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Qué / Cuál (pregunta)",
+                "usage_example": "[TRADUCIR AL PT: What is your name?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Cuál es tu nombre?",
+                "char_count": "4",
+                "usage_context_en": "Usado como palabra interrogativa para pedir información (elección abierta).",
+                "usage_context_es": "[TRADUCIR AL PT: Used as an interrogative word to ask for information (open choice).]",
+                "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_14_def0.avif"
+            },
+            {
+                "meaning": "Lo que (pronombre relativo)",
+                "usage_example": "[TRADUCIR AL PT: I don't know what to do.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "No sé qué hacer. (No sé lo que debo hacer).",
+                "char_count": "6",
+                "usage_context_en": "Usado como pronombre relativo para referirse a 'la(s) cosa(s) que'.",
+                "usage_context_es": "[TRADUCIR AL PT: Used as a relative pronoun to refer to 'the thing(s) that'.]",
+                "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_14_def1.avif"
+            }
+        ],
+        "group_name": "Interrogativo/Relativo",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL PT: which]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/interrogative/relative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "¿Cuál / Cuáles?",
+                "usage_example": "[TRADUCIR AL PT: Which color do you prefer?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "¿Cuál color prefieres?",
+                "char_count": "5",
+                "usage_context_en": "Usado como palabra interrogativa para preguntar sobre una elección limitada.",
+                "usage_context_es": "[TRADUCIR AL PT: Used as an interrogative word to ask about a limited choice.]",
+                "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_13_def0.avif"
+            },
+            {
+                "meaning": "Que / El cual / La cual",
+                "usage_example": "[TRADUCIR AL PT: The car which is red is mine.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN PT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "El carro que es rojo es mío.",
+                "char_count": "7",
+                "usage_context_en": "Usado como pronombre relativo para introducir una cláusula sobre una cosa.",
+                "usage_context_es": "[TRADUCIR AL PT: Used as a relative pronoun to introduce a clause about a thing.]",
+                "imagePath": "/card_images/pronouns/2-intermediate/2-intermediate_card_13_def1.avif"
+            }
+        ],
+        "group_name": "Interrogativo/Relativo",
+        "category": "Basic"
+    }
+]

@@ -1,0 +1,275 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: feel]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/emotion/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "feel",
+                "usage_example": "[TRADUCIR AL FR: I feel happy today.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I feel happy today.",
+                "char_count": "one",
+                "usage_context_en": "emotion/sensation",
+                "usage_context_es": "[TRADUCIR AL FR: emotion/sensation]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_21_def0.avif"
+            },
+            {
+                "meaning": "feel (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Feel the texture of the fabric.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Feel the texture of the fabric.",
+                "char_count": "one",
+                "usage_context_en": "touch/texture",
+                "usage_context_es": "[TRADUCIR AL FR: touch/texture]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_21_def1.avif"
+            }
+        ],
+        "group_name": "Being & State",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: like]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/preference/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "like",
+                "usage_example": "[TRADUCIR AL FR: I like your new haircut.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I like your new haircut.",
+                "char_count": "one",
+                "usage_context_en": "preference/enjoyment",
+                "usage_context_es": "[TRADUCIR AL FR: preference/enjoyment]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_37_def0.avif"
+            },
+            {
+                "meaning": "like (def 2)",
+                "usage_example": "[TRADUCIR AL FR: What would you like to drink?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "What would you like to drink?",
+                "char_count": "one",
+                "usage_context_en": "requests/politeness",
+                "usage_context_es": "[TRADUCIR AL FR: requests/politeness]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_37_def1.avif"
+            }
+        ],
+        "group_name": "Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: want]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/desire/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "want",
+                "usage_example": "[TRADUCIR AL FR: I want a glass of water.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I want a glass of water.",
+                "char_count": "one",
+                "usage_context_en": "desire/need",
+                "usage_context_es": "[TRADUCIR AL FR: desire/need]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_15_def0.avif"
+            },
+            {
+                "meaning": "want (def 2)",
+                "usage_example": "[TRADUCIR AL FR: They want to speak to the manager.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "They want to speak to the manager.",
+                "char_count": "one",
+                "usage_context_en": "request/demand",
+                "usage_context_es": "[TRADUCIR AL FR: request/demand]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_15_def1.avif"
+            }
+        ],
+        "group_name": "Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: need]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/necessity/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "need",
+                "usage_example": "[TRADUCIR AL FR: I need more time.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I need more time.",
+                "char_count": "one",
+                "usage_context_en": "necessity/time",
+                "usage_context_es": "[TRADUCIR AL FR: necessity/time]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_20_def0.avif"
+            },
+            {
+                "meaning": "need (def 2)",
+                "usage_example": "[TRADUCIR AL FR: You need to study for the test.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "You need to study for the test.",
+                "char_count": "one",
+                "usage_context_en": "requirement/obligation",
+                "usage_context_es": "[TRADUCIR AL FR: requirement/obligation]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_20_def1.avif"
+            }
+        ],
+        "group_name": "Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: love]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/love/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "love",
+                "usage_example": "[TRADUCIR AL FR: I love my family.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I love my family.",
+                "char_count": "one",
+                "usage_context_en": "family/relationships",
+                "usage_context_es": "[TRADUCIR AL FR: family/relationships]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_73_def0.avif"
+            },
+            {
+                "meaning": "love (def 2)",
+                "usage_example": "[TRADUCIR AL FR: We love this song.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "We love this song.",
+                "char_count": "one",
+                "usage_context_en": "preferences/strong liking",
+                "usage_context_es": "[TRADUCIR AL FR: preferences/strong liking]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_73_def1.avif"
+            }
+        ],
+        "group_name": "Feelings & Relationships",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: hate]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/hate/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "hate",
+                "usage_example": "[TRADUCIR AL FR: I hate spinach.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I hate spinach.",
+                "char_count": "one",
+                "usage_context_en": "strong dislike/preferences",
+                "usage_context_es": "[TRADUCIR AL FR: strong dislike/preferences]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_74_def0.avif"
+            },
+            {
+                "meaning": "hate (def 2)",
+                "usage_example": "[TRADUCIR AL FR: She hates being alone.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She hates being alone.",
+                "char_count": "one",
+                "usage_context_en": "daily life/emotions",
+                "usage_context_es": "[TRADUCIR AL FR: daily life/emotions]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_74_def1.avif"
+            }
+        ],
+        "group_name": "Feelings & Relationships",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: hope]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/wish/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "hope",
+                "usage_example": "[TRADUCIR AL FR: I hope you feel better soon.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I hope you feel better soon.",
+                "char_count": "one",
+                "usage_context_en": "health/optimism",
+                "usage_context_es": "[TRADUCIR AL FR: health/optimism]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_70_def0.avif"
+            },
+            {
+                "meaning": "hope (def 2)",
+                "usage_example": "[TRADUCIR AL FR: I hope it doesn't rain tomorrow.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I hope it doesn't rain tomorrow.",
+                "char_count": "one",
+                "usage_context_en": "weather/exams",
+                "usage_context_es": "[TRADUCIR AL FR: weather/exams]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_70_def1.avif"
+            }
+        ],
+        "group_name": "Daily Life",
+        "category": ""
+    }
+]

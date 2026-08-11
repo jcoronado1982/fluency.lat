@@ -1,0 +1,180 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "wünschen",
+    "phonetic": "/ˈvʏnʃn̩/",
+    "spoken_phonetic_us": "/ˈvʏnʃn̩/",
+    "search_term": "verb/desire/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Desear (algo)",
+        "usage_example": "Ich wünsche dir alles Gute zum Geburtstag.",
+        "pronunciation_guide_es": "/ish_VUEN-she_dir_A-les_GU-te_tsum_ge-BURTS-tak/",
+        "alternative_example": "I wish I were rich.",
+        "usage_example_es": "Te deseo un feliz cumpleaños.",
+        "char_count": "one",
+        "usage_context_en": "celebrations/hypotheticals",
+        "usage_context_es": "celebraciones/hipotéticos",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_0_def0.avif"
+      },
+      {
+        "meaning": "Anhelar/Querer",
+        "usage_example": "Sie wünschte sich Frieden.",
+        "pronunciation_guide_es": "/zi_VUEN-shte_zish_FRI-den/",
+        "alternative_example": "I wish to speak to the manager.",
+        "usage_example_es": "Ella anhelaba la paz.",
+        "char_count": "one",
+        "usage_context_en": "longing/formal request",
+        "usage_context_es": "anhelo/petición formal",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_0_def1.avif"
+      }
+    ],
+    "group_name": "Feelings & Reactions"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "zustimmen",
+    "phonetic": "/ˈtsuːʃtɪmən/",
+    "spoken_phonetic_us": "/ˈtsuːʃtɪmən/",
+    "search_term": "verb/consent/level_up",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Estar de acuerdo",
+        "usage_example": "Ich stimme deiner Meinung zu.",
+        "pronunciation_guide_es": "/ish_SHTIM-me_DAI-ner_MAI-nung_TSU/",
+        "alternative_example": "We agreed to meet at 8.",
+        "usage_example_es": "Estoy de acuerdo con tu opinión.",
+        "char_count": "two",
+        "usage_context_en": "opinion/plans",
+        "usage_context_es": "opinión/planes",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_1_def0.avif"
+      },
+      {
+        "meaning": "Concordar (gramática)",
+        "usage_example": "Das Verb muss mit dem Subjekt übereinstimmen.",
+        "pronunciation_guide_es": "/das_VERP_MUS_mit_dem_zup-YEKT_UE-ber-ain-shtim-men/",
+        "alternative_example": "They finally agreed on a price.",
+        "usage_example_es": "El verbo debe concordar con el sujeto.",
+        "char_count": "two",
+        "usage_context_en": "grammar/negotiation",
+        "usage_context_es": "gramática/negociación",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_1_def1.avif"
+      }
+    ],
+    "group_name": "Feelings & Reactions"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "genießen",
+    "phonetic": "/ɡəˈniːsn̩/",
+    "spoken_phonetic_us": "/ɡəˈniːsn̩/",
+    "search_term": "verb/like/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Disfrutar",
+        "usage_example": "Ich genieße es, Fußball zu spielen.",
+        "pronunciation_guide_es": "/ish_ge-NI-se_es_FUS-bal_tsu_SHPI-len/",
+        "alternative_example": "Enjoy your meal!",
+        "usage_example_es": "Disfruto jugando al fútbol.",
+        "char_count": "two",
+        "usage_context_en": "hobby/pleasure",
+        "usage_context_es": "pasatiempo/placer",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_2_def0.avif"
+      },
+      {
+        "meaning": "Gozar de/Tener",
+        "usage_example": "Die Stadt genießt einen guten Ruf.",
+        "pronunciation_guide_es": "/di_SHTAT_ge-NIST_AI-nen_GU-ten_RUF/",
+        "alternative_example": "I hope you enjoy the party.",
+        "usage_example_es": "La ciudad goza de una buena reputación.",
+        "char_count": "two",
+        "usage_context_en": "advantage/possession",
+        "usage_context_es": "ventaja/posesión",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_2_def1.avif"
+      }
+    ],
+    "group_name": "Feelings & Reactions"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "bevorzugen",
+    "phonetic": "/bəˈfoːɐtsuːɡn̩/",
+    "spoken_phonetic_us": "/bəˈfoːɐtsuːɡn̩/",
+    "search_term": "verb/like more/intermediate",
+    "is_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Preferir",
+        "usage_example": "Bevorzugst du Tee oder Kaffee?",
+        "pronunciation_guide_es": "/be-FOR-tsukst_du_TE_O-der_ka-FE/",
+        "alternative_example": "I prefer reading books to watching TV.",
+        "usage_example_es": "¿Prefieres té o café?",
+        "char_count": "two",
+        "usage_context_en": "choice/comparison",
+        "usage_context_es": "elección/comparación",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_3_def0.avif"
+      },
+      {
+        "meaning": "Elegir (una opción sobre otra)",
+        "usage_example": "Sie zog es vor, still zu bleiben.",
+        "pronunciation_guide_es": "/zi_TSOK_es_FOR_shtil_tsu_BLAI-ben/",
+        "alternative_example": "I would prefer to leave early.",
+        "usage_example_es": "Ella prefirió guardar silencio.",
+        "char_count": "two",
+        "usage_context_en": "decision/action",
+        "usage_context_es": "decisión/acción",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_3_def1.avif"
+      }
+    ],
+    "group_name": "Feelings & Reactions"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "nicht zustimmen",
+    "phonetic": "/nɪçt ˈtsuːʃtɪmən/",
+    "spoken_phonetic_us": "/nɪçt ˈtsuːʃtɪmən/",
+    "search_term": "verb/feelings/added",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "No estar de acuerdo / Discrepar",
+        "usage_example": "Ich bin mit dieser Entscheidung nicht einverstanden.",
+        "pronunciation_guide_es": "/ish_bin_mit_DI-zer_ent-SHAI-dung_nisht_AIN-fer-shtan-den/",
+        "usage_example_es": "No estoy de acuerdo con esa decisión.",
+        "char_count": "5",
+        "usage_context_en": "To have a different opinion.",
+        "usage_context_es": "To have a different opinion.",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_4_def0.avif"
+      }
+    ],
+    "is_verb": true,
+    "group_name": "Feelings & Reactions"
+  }
+]

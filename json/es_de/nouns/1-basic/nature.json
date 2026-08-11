@@ -1,0 +1,860 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_0_def0.avif",
+        "meaning": "Sol",
+        "pronunciation_guide_es": "/di_ZO-ne_ist_HAIS/",
+        "usage_context_en": "The star that gives us light",
+        "usage_context_es": "La estrella que nos da luz",
+        "usage_example": "Die Sonne ist heiß.",
+        "usage_example_es": "El sol está caliente."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "die Sonne",
+    "phonetic": "/diː ˈzɔnə/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/diː ˈzɔnə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_1_def0.avif",
+        "meaning": "Luna",
+        "pronunciation_guide_es": "/ish_ZE-e_den_MONT/",
+        "usage_context_en": "The object that shines in the sky at night",
+        "usage_context_es": "El objeto que brilla en el cielo de noche",
+        "usage_example": "Ich sehe den Mond.",
+        "usage_example_es": "Veo la luna."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Mond",
+    "phonetic": "/deːɐ moːnt/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/deːɐ moːnt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_2_def0.avif",
+        "meaning": "Cielo",
+        "pronunciation_guide_es": "/der_HIM-mel_ist_BLAU/",
+        "usage_context_en": "The space above the Earth",
+        "usage_context_es": "El espacio sobre la Tierra",
+        "usage_example": "Der Himmel ist blau.",
+        "usage_example_es": "El cielo es azul."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Himmel",
+    "phonetic": "/deːɐ ˈhɪml̩/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈhɪml̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_3_def0.avif",
+        "meaning": "Árbol",
+        "pronunciation_guide_es": "/das_ist_ain_HO-er_BAUM/",
+        "usage_context_en": "A tall plant with a wood trunk",
+        "usage_context_es": "Una planta alta con un tronco de madera",
+        "usage_example": "Das ist ein hoher Baum.",
+        "usage_example_es": "Ese es un árbol alto."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Baum",
+    "phonetic": "/deːɐ baʊm/",
+    "search_term": "noun/nature/plant/essentials",
+    "spoken_phonetic_us": "/deːɐ baʊm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_4_def0.avif",
+        "meaning": "Flor",
+        "pronunciation_guide_es": "/AI-ne_RO-te_BLU-me/",
+        "usage_context_en": "The colored part of a plant",
+        "usage_context_es": "La parte coloreada de una planta",
+        "usage_example": "Eine rote Blume.",
+        "usage_example_es": "Una flor roja."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "die Blume",
+    "phonetic": "/diː ˈbluːmə/",
+    "search_term": "noun/nature/plant/essentials",
+    "spoken_phonetic_us": "/diː ˈbluːmə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_5_def0.avif",
+        "meaning": "Lluvia",
+        "pronunciation_guide_es": "/ish_MAK_das_ge-ROISH_des_RE-gens/",
+        "usage_context_en": "Water that falls from the sky",
+        "usage_context_es": "Agua que cae del cielo",
+        "usage_example": "Ich mag das Geräusch des Regens.",
+        "usage_example_es": "Me gusta el sonido de la lluvia."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Regen",
+    "phonetic": "/deːɐ ˈʁeːɡn̩/",
+    "search_term": "noun/nature/weather/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈʁeːɡn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_6_def0.avif",
+        "meaning": "Nieve",
+        "pronunciation_guide_es": "/SHAU_dir_den_SHNE_AN/",
+        "usage_context_en": "Soft, white frozen water",
+        "usage_context_es": "Agua congelada, blanca y suave",
+        "usage_example": "Schau dir den Schnee an!",
+        "usage_example_es": "¡Mira la nieve!"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Schnee",
+    "phonetic": "/deːɐ ʃneː/",
+    "search_term": "noun/nature/weather/essentials",
+    "spoken_phonetic_us": "/deːɐ ʃneː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_7_def0.avif",
+        "meaning": "Clima / Tiempo",
+        "pronunciation_guide_es": "/vi_ist_das_VE-ter_HOI-te/",
+        "usage_context_en": "The condition of the atmosphere (hot, cold, rain, sun)",
+        "usage_context_es": "La condición de la atmósfera (calor, frío, lluvia, sol)",
+        "usage_example": "Wie ist das Wetter heute?",
+        "usage_example_es": "¿Cómo está el clima hoy?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "das Wetter",
+    "phonetic": "/das ˈvɛtɐ/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/das ˈvɛtɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_8_def0.avif",
+        "meaning": "Río",
+        "pronunciation_guide_es": "/der_FLUS_ist_LANG/",
+        "usage_context_en": "A large natural flow of water",
+        "usage_context_es": "Un gran flujo natural de agua",
+        "usage_example": "Der Fluss ist lang.",
+        "usage_example_es": "El río es largo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Fluss",
+    "phonetic": "/deːɐ flʊs/",
+    "search_term": "noun/nature/water/essentials",
+    "spoken_phonetic_us": "/deːɐ flʊs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_9_def0.avif",
+        "meaning": "Montaña",
+        "pronunciation_guide_es": "/DI-zer_BERK_ist_ZER_HOJ/",
+        "usage_context_en": "A very high hill",
+        "usage_context_es": "Una colina muy alta",
+        "usage_example": "Dieser Berg ist sehr hoch.",
+        "usage_example_es": "Esa montaña es muy alta."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Berg",
+    "phonetic": "/deːɐ bɛʁk/",
+    "search_term": "noun/nature/place/essentials",
+    "spoken_phonetic_us": "/deːɐ bɛʁk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_10_def0.avif",
+        "meaning": "Aire",
+        "pronunciation_guide_es": "/ish_BRAU-che_FRI-she_LUFT/",
+        "usage_context_en": "The invisible gas surrounding the Earth",
+        "usage_context_es": "El gas invisible que rodea la Tierra",
+        "usage_example": "Ich brauche frische Luft.",
+        "usage_example_es": "Necesito aire fresco."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "die Luft",
+    "phonetic": "/diː lʊft/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/diː lʊft/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_11_def0.avif",
+        "meaning": "Fuego / Incendio",
+        "pronunciation_guide_es": "/das_FOI-er_ist_HAIS/",
+        "usage_context_en": "Heat and light from burning",
+        "usage_context_es": "Calor y luz de la combustión",
+        "usage_example": "Das Feuer ist heiß.",
+        "usage_example_es": "El fuego está caliente."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "das Feuer",
+    "phonetic": "/das ˈfɔɪɐ/",
+    "search_term": "noun/nature/element/essentials",
+    "spoken_phonetic_us": "/das ˈfɔɪɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_12_def0.avif",
+        "meaning": "Tierra (superficie)",
+        "pronunciation_guide_es": "/vir_zint_auf_TRO-ke-nem_LANT/",
+        "usage_context_en": "The part of the Earth's surface that is not water",
+        "usage_context_es": "La parte de la superficie de la Tierra que no es agua",
+        "usage_example": "Wir sind auf trockenem Land.",
+        "usage_example_es": "Estamos en tierra firme."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "das Land",
+    "phonetic": "/das lant/",
+    "search_term": "noun/nature/place/essentials",
+    "spoken_phonetic_us": "/das lant/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_13_def0.avif",
+        "meaning": "Playa",
+        "pronunciation_guide_es": "/las_uns_tsum_SHTRANT_GE-en/",
+        "usage_context_en": "An area of sand or small stones by the sea",
+        "usage_context_es": "Un área de arena o piedras pequeñas junto al mar",
+        "usage_example": "Lass uns zum Strand gehen.",
+        "usage_example_es": "Vamos a la playa."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Strand",
+    "phonetic": "/deːɐ ʃtʁant/",
+    "search_term": "noun/place/nature/essentials",
+    "spoken_phonetic_us": "/deːɐ ʃtʁant/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_14_def0.avif",
+        "meaning": "Bosque",
+        "pronunciation_guide_es": "/ain_shpa-TSIR-gang_im_VALT/",
+        "usage_context_en": "A large area covered with trees",
+        "usage_context_es": "Un área grande cubierta de árboles",
+        "usage_example": "Ein Spaziergang im Wald.",
+        "usage_example_es": "Un paseo por el bosque."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Wald",
+    "phonetic": "/deːɐ valt/",
+    "search_term": "noun/place/nature/essentials",
+    "spoken_phonetic_us": "/deːɐ valt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_15_def0.avif",
+        "meaning": "Isla",
+        "pronunciation_guide_es": "/zi_LE-ben_auf_AI-ner_IN-zel/",
+        "usage_context_en": "A piece of land surrounded by water",
+        "usage_context_es": "Un pedazo de tierra rodeado de agua",
+        "usage_example": "Sie leben auf einer Insel.",
+        "usage_example_es": "Ellos viven en una isla."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "die Insel",
+    "phonetic": "/diː ˈɪnzl̩/",
+    "search_term": "noun/place/nature/essentials",
+    "spoken_phonetic_us": "/diː ˈɪnzl̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_16_def0.avif",
+        "meaning": "Hoja (de planta)",
+        "pronunciation_guide_es": "/ain_GRUE-nes_BLAT/",
+        "usage_context_en": "The flat, green part of a tree or plant",
+        "usage_context_es": "La parte plana y verde de un árbol o planta",
+        "usage_example": "Ein grünes Blatt.",
+        "usage_example_es": "Una hoja verde."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "das Blatt",
+    "phonetic": "/das blat/",
+    "search_term": "noun/nature/plant/essentials",
+    "spoken_phonetic_us": "/das blat/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_17_def0.avif",
+        "meaning": "Pasto / Césped",
+        "pronunciation_guide_es": "/das_GRAS_ist_GRUEN/",
+        "usage_context_en": "A common green plant covering the ground",
+        "usage_context_es": "Una planta verde común que cubre el suelo",
+        "usage_example": "Das Gras ist grün.",
+        "usage_example_es": "El pasto es verde."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "das Gras",
+    "phonetic": "/das ɡʁaːs/",
+    "search_term": "noun/nature/plant/essentials",
+    "spoken_phonetic_us": "/das ɡʁaːs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_18_def0.avif",
+        "meaning": "Arena",
+        "pronunciation_guide_es": "/ish_MAK_den_ZANT_am_SHTRANT/",
+        "usage_context_en": "Small, loose grains of rock",
+        "usage_context_es": "Pequeños granos sueltos de roca",
+        "usage_example": "Ich mag den Sand am Strand.",
+        "usage_example_es": "Me gusta la arena de la playa."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Sand",
+    "phonetic": "/deːɐ zant/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/deːɐ zant/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_19_def0.avif",
+        "meaning": "Estrella",
+        "pronunciation_guide_es": "/SHAU_dir_di_SHTER-ne_AN/",
+        "usage_context_en": "A point of light in the night sky",
+        "usage_context_es": "Un punto de luz en el cielo nocturno",
+        "usage_example": "Schau dir die Sterne an!",
+        "usage_example_es": "¡Mira las estrellas!"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Stern",
+    "phonetic": "/deːɐ ʃtɛʁn/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/deːɐ ʃtɛʁn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_20_def0.avif",
+        "meaning": "Viento",
+        "pronunciation_guide_es": "/der_VINT_ist_HOI-te_SHTARK/",
+        "usage_context_en": "Moving air",
+        "usage_context_es": "Aire en movimiento",
+        "usage_example": "Der Wind ist heute stark.",
+        "usage_example_es": "El viento está fuerte hoy."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Wind",
+    "phonetic": "/deːɐ vɪnt/",
+    "search_term": "noun/nature/weather/essentials",
+    "spoken_phonetic_us": "/deːɐ vɪnt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_21_def0.avif",
+        "meaning": "Suelo / Tierra",
+        "pronunciation_guide_es": "/er_FIL_auf_den_BO-den/",
+        "usage_context_en": "The surface of the Earth",
+        "usage_context_es": "La superficie de la Tierra",
+        "usage_example": "Er fiel auf den Boden.",
+        "usage_example_es": "Él se cayó al suelo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Boden",
+    "phonetic": "/deːɐ ˈboːdn̩/",
+    "search_term": "noun/place/nature/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈboːdn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_22_def0.avif",
+        "meaning": "Hielo",
+        "pronunciation_guide_es": "/das_ge-TRENK_hat_AIS/",
+        "usage_context_en": "Frozen water",
+        "usage_context_es": "Agua congelada",
+        "usage_example": "Das Getränk hat Eis.",
+        "usage_example_es": "La bebida tiene hielo."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "das Eis",
+    "phonetic": "/das aɪs/",
+    "search_term": "noun/nature/substance/essentials",
+    "spoken_phonetic_us": "/das aɪs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_23_def0.avif",
+        "meaning": "Madera",
+        "pronunciation_guide_es": "/der_TISH_ist_aus_HOLTS/",
+        "usage_context_en": "The hard material from trees",
+        "usage_context_es": "El material duro de los árboles",
+        "usage_example": "Der Tisch ist aus Holz.",
+        "usage_example_es": "La mesa está hecha de madera."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "das Holz",
+    "phonetic": "/das hɔlts/",
+    "search_term": "noun/substance/nature/essentials",
+    "spoken_phonetic_us": "/das hɔlts/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_24_def0.avif",
+        "meaning": "Piedra",
+        "pronunciation_guide_es": "/er_VARF_AI-nen_SHTAIN/",
+        "usage_context_en": "A hard, solid piece of rock",
+        "usage_context_es": "Una pieza dura y sólida de roca",
+        "usage_example": "Er warf einen Stein.",
+        "usage_example_es": "Él lanzó una piedra."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Stein",
+    "phonetic": "/deːɐ ʃtaɪn/",
+    "search_term": "noun/substance/nature/essentials",
+    "spoken_phonetic_us": "/deːɐ ʃtaɪn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_25_def0.avif",
+        "meaning": "Planta",
+        "pronunciation_guide_es": "/ish_MUS_di_PFLAN-tsen_GI-sen/",
+        "usage_context_en": "A living thing that grows in the ground",
+        "usage_context_es": "Un ser vivo que crece en la tierra",
+        "usage_example": "Ich muss die Pflanzen gießen.",
+        "usage_example_es": "Necesito regar las plantas."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "die Pflanze",
+    "phonetic": "/diː ˈpflantsə/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/diː ˈpflantsə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_26_def0.avif",
+        "meaning": "Nube",
+        "pronunciation_guide_es": "/di_VOL-ke_ist_VAIS/",
+        "usage_context_en": "A white or gray mass of water in the sky",
+        "usage_context_es": "Una masa blanca o gris de agua en el cielo",
+        "usage_example": "Die Wolke ist weiß.",
+        "usage_example_es": "La nube es blanca."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "die Wolke",
+    "phonetic": "/diː ˈvɔlkə/",
+    "search_term": "noun/nature/weather/essentials",
+    "spoken_phonetic_us": "/diː ˈvɔlkə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_27_def0.avif",
+        "meaning": "Tormenta",
+        "pronunciation_guide_es": "/es_GIPT_AI-nen_GRO-sen_SHTURM/",
+        "usage_context_en": "Very bad weather with heavy rain and wind",
+        "usage_context_es": "Mal tiempo con lluvia intensa y viento",
+        "usage_example": "Es gibt einen großen Sturm.",
+        "usage_example_es": "Hay una gran tormenta."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Sturm",
+    "phonetic": "/deːɐ ʃtʊʁm/",
+    "search_term": "noun/nature/weather/essentials",
+    "spoken_phonetic_us": "/deːɐ ʃtʊʁm/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_28_def0.avif",
+        "meaning": "Lago",
+        "pronunciation_guide_es": "/der_ZE_ist_VUN-der-shoen/",
+        "usage_context_en": "A large area of water surrounded by land",
+        "usage_context_es": "Una gran área de agua rodeada de tierra",
+        "usage_example": "Der See ist wunderschön.",
+        "usage_example_es": "El lago es hermoso."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der See",
+    "phonetic": "/deːɐ zeː/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/deːɐ zeː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "three",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_29_def0.avif",
+        "meaning": "Terremoto",
+        "pronunciation_guide_es": "/das_ERT-be-ben_var_SHTARK/",
+        "usage_context_en": "A sudden shaking of the ground",
+        "usage_context_es": "Un sacudimiento repentino del suelo",
+        "usage_example": "Das Erdbeben war stark.",
+        "usage_example_es": "El terremoto fue fuerte."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "das Erdbeben",
+    "phonetic": "/das ˈeːɐtbeːbn̩/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/das ˈeːɐtbeːbn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_30_def0.avif",
+        "meaning": "Humo",
+        "pronunciation_guide_es": "/ish_ZE-e_RAUCH_fom_FOI-er/",
+        "usage_context_en": "The gas produced when something burns",
+        "usage_context_es": "El gas que se produce cuando algo se quema",
+        "usage_example": "Ich sehe Rauch vom Feuer.",
+        "usage_example_es": "Veo humo del fuego."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Rauch",
+    "phonetic": "/deːɐ ʁaʊx/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/deːɐ ʁaʊx/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_31_def0.avif",
+        "meaning": "Sombra",
+        "pronunciation_guide_es": "/der_BAUM_hat_AI-nen_GRO-sen_SHA-ten/",
+        "usage_context_en": "A dark area caused by an object blocking light",
+        "usage_context_es": "Un área oscura causada por un objeto que bloquea la luz",
+        "usage_example": "Der Baum hat einen großen Schatten.",
+        "usage_example_es": "El árbol tiene una gran sombra."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Schatten",
+    "phonetic": "/deːɐ ˈʃatn̩/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈʃatn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_32_def0.avif",
+        "meaning": "Planeta",
+        "pronunciation_guide_es": "/vir_MUE-sen_UN-ze-ren_pla-NE-ten_SHUET-sen/",
+        "usage_context_en": "A large round object in space that orbits a star",
+        "usage_context_es": "Un objeto redondo grande en el espacio que orbita una estrella",
+        "usage_example": "Wir müssen unseren Planeten schützen.",
+        "usage_example_es": "Debemos proteger nuestro planeta."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Nature",
+    "is_verb": false,
+    "name": "der Planet",
+    "phonetic": "/deːɐ plaˈneːt/",
+    "search_term": "noun/nature/essentials",
+    "spoken_phonetic_us": "/deːɐ plaˈneːt/"
+  }
+]

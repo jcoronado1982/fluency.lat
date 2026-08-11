@@ -1,0 +1,41 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: sensation]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Sensación (física)",
+                "usage_example": "[TRADUCIR AL FR: I have a tingling sensation.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Tengo una sensación de hormigueo.",
+                "char_count": "5",
+                "usage_context_en": "Un sentimiento físico resultante de algo que le sucede o entra en contacto con el cuerpo.",
+                "usage_context_es": "[TRADUCIR AL FR: A physical feeling resulting from something that happens to or comes into contact with the body.]",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_103_def0.avif"
+            },
+            {
+                "meaning": "Sensación (conmoción)",
+                "usage_example": "[TRADUCIR AL FR: The new movie was a sensation.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "La nueva película fue una sensación.",
+                "char_count": "6",
+                "usage_context_en": "Una reacción generalizada de interés y emoción.",
+                "usage_context_es": "[TRADUCIR AL FR: A widespread reaction of interest and excitement.]",
+                "imagePath": "/card_images/nouns/3-advanced/3-advanced_card_103_def1.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    }
+]

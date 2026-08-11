@@ -1,0 +1,941 @@
+/* src/features/flashcards/Flashcard.module.css */
+
+/* Container Queries — decisión documentada (medido con Playwright, jul 2026):
+   los contenedores `flashcard` y `flashcard-face` quedan declarados para reglas
+   futuras, pero los breakpoints existentes NO se convierten a @container porque
+   la relación viewport→ancho-de-tarjeta no es monótona: en app la tarjeta mide
+   600px fijos con viewport ≥769px y SALTA a ~748px justo al cruzar a ≤768px
+   (el layout de página colapsa y libera espacio); en el demo del hero pasa de
+   282px (dos columnas, viewport 740px) a 660px (una columna, viewport 700px).
+   Ningún umbral de inline-size puede replicar el corte de 768px sin cambiar la
+   apariencia validada. La compresión interna está acoplada al colapso del
+   layout de página (sidebar/hero) — condición de ventana, no de contenedor. */
+
+.flashcardContainer {
+    --fc-face-radius: 32px;
+    --fc-face-padding-block-start: 20px;
+    --fc-face-padding-inline: 20px;
+    --fc-face-padding-block-end: 0px;
+    --fc-face-row-gap: 0px;
+    --fc-media-radius: 24px;
+    --fc-word-side-slot: 52px;
+    /* Piel de las caras (frente y dorso consumen estas tres variables) */
+    --fc-face-border: 1px solid #334155;
+    --fc-face-bg: linear-gradient(145deg, #1e293b 0%, #0f172a 100%);
+    --fc-face-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+    --fc-card-shadow: var(--fc-face-shadow);
+    width: 100%;
+    max-width: var(--fc-card-max-width, 560px);
+    height: var(--fc-card-base-height, 720px);
+    perspective: 1200px;
+    margin: 0 auto;
+    position: relative;
+    container: flashcard / inline-size;
+}
+
+.srsToggle {
+    position: absolute;
+    z-index: 4;
+    inset-block-start: clamp(12px, 2vw, 20px);
+    inset-inline-start: clamp(12px, 2vw, 20px);
+    inset-inline-end: auto;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: rgba(203, 213, 225, 0.62);
+    cursor: pointer;
+    box-shadow: none;
+    opacity: 0.72;
+    transition: background 160ms ease, border-color 160ms ease, color 160ms ease, opacity 160ms ease;
+}
+
+.srsToggle:hover {
+    border-color: rgba(236, 72, 153, 0.48);
+    background: rgba(74, 32, 75, 0.68);
+    color: #f9a8d4;
+    opacity: 1;
+}
+.srsToggle:focus-visible { outline: 2px solid #f9a8d4; outline-offset: 2px; }
+.srsToggle svg { display: block; width: 20px; height: 20px; flex: 0 0 auto; }
+
+@media (max-width: 768px) {
+    .srsToggle {
+        inset-block-start: 12px;
+        inset-inline-start: 12px;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+    }
+}
+
+.flashcardContainer[data-variant='demo'] {
+    --fc-face-radius: 32px;
+    --fc-face-padding-block-start: 20px;
+    --fc-face-padding-inline: 16px;
+    --fc-face-padding-block-end: 14px;
+    --fc-media-radius: 18px;
+    /* Borde hairline igual al de la app (la geometría del demo NO se toca:
+       tamaños de tarjeta/imagen, radios y paddings quedan como estaban).
+       El fondo sí es propio del demo: ciruela, definido en hero-demo.css. */
+    --fc-face-border: 1px solid rgba(255, 255, 255, 0.08);
+    --fc-face-bg: var(--lp-demo-surface, linear-gradient(145deg, #1b0f1a 0%, #0f0911 100%));
+    --fc-face-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+    --fc-card-shadow: none;
+    max-width: 100%;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+}
+
+/* App interna: tarjeta proporcional al viewport disponible */
+
+.flashcardContainer[data-variant='app'] {
+    --fc-face-radius: clamp(20px, 3vw, 32px);
+    --fc-face-padding-block-start: clamp(12px, 2vw, 20px);
+    --fc-face-padding-inline: clamp(12px, 2vw, 20px);
+    /* Piel app (jul 2026): superficie sólida elevada + borde hairline en vez
+       del degradado que se fundía con el lienzo. El demo conserva la suya. */
+    --fc-face-border: 1px solid var(--brand-border-subtle, rgba(255, 255, 255, 0.08));
+    --fc-face-bg: var(--brand-surface-card, #1b2438);
+    --fc-face-shadow: 0 24px 60px -16px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    --fc-card-shadow: var(--fc-face-shadow);
+    width: 100%;
+    max-width: var(--fc-card-max-width, 580px);
+    height: var(--fc-card-height, clamp(420px, calc(var(--fc-real-vh, 100dvh) * 0.72), 720px));
+    min-height: var(--fc-card-min-height, 380px);
+    flex-shrink: 0;
+}
+
+.cardFront[data-variant='app'] {
+    min-height: 0;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* LAPTOPS 13"-14" (ancho de escritorio, poca altura: 1366x768, 1440x900) */
+
+/* La tarjeta ya recibe más alto real gracias al bloque equivalente en   */
+
+/* App.css; aquí comprimimos el contenido interno para que quepa entero */
+
+/* sin que la lista de ejemplos empuje la imagen fuera del recorte.     */
+
+/* ------------------------------------------------------------------- */
+
+/* 768.02px y no 769px: ver nota equivalente en App.css (anchos fraccionarios
+   bajo escalado del SO no deben caer en el hueco entre breakpoints). */
+
+@media (min-width: 768.02px) and (max-height: 900px) {
+    .flashcardContainer[data-variant='app'] {
+        --fc-face-padding-block-start: clamp(10px, 1.6vh, 16px);
+        --fc-face-padding-inline: clamp(12px, 1.6vw, 18px);
+        max-width: 540px;
+        height: var(--fc-card-height);
+    }
+
+    .cardFront[data-variant='app'] .name {
+        font-size: clamp(1.3rem, 3.4vh, 1.75rem);
+    }
+
+    .cardFront[data-variant='app'] .phonetic {
+        margin-bottom: 8px;
+        font-size: 1.1em;
+    }
+
+    /* La lista de ejemplos ya no queda "pinneada": puede encogerse y, si
+       aun así no cabe, hace scroll interno en vez de desbordar la tarjeta. */
+
+    .cardFront[data-variant='app'] [data-fc='examples'] [data-fc-btn='voice'] {
+        width: 42px;
+        height: 42px;
+    }
+
+    .cardFront[data-variant='app'] [data-fc='examples'] [data-fc-btn='voice'] svg {
+        width: 20px;
+        height: 20px;
+        min-width: 20px;
+        min-height: 20px;
+    }
+
+    /* La imagen es flex:1 (ver regla base) y ya absorbe el espacio que
+       sobra tras el título/tabla/ejemplos; este mínimo solo evita que
+       desaparezca del todo en viewports extremadamente bajos. */
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: var(--fc-card-shadow);
+    border-radius: var(--fc-face-radius);
+}
+
+.flipped {
+    transform: rotateY(180deg);
+}
+
+/* Clase temporal aplicada durante el primer semiciclo del flip (solo demo) */
+.flipping {
+    /* El selector ::after con .flipping en Flashcard.module.css activa el shimmer */
+}
+
+.flipped .cardFront {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.cardFront {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.4s ease-in-out, visibility 0.4s;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    /* translateZ(1px) separa físicamente el frente en el espacio 3D, evitando z-fighting */
+    transform: translateZ(1px);
+    /* Forzar a Webkit/Chrome a mantener el clipping de border-radius durante la rotación 3D */
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+    background: var(--fc-face-bg);
+    border-radius: var(--fc-face-radius);
+    padding: var(--fc-face-padding-block-start) var(--fc-face-padding-inline) var(--fc-face-padding-block-end);
+    box-sizing: border-box;
+    display: grid;
+    grid-template-areas:
+        'header'
+        'conjugation'
+        'examples'
+        'image';
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto auto minmax(0, 1fr);
+    gap: var(--fc-face-row-gap);
+    align-items: center;
+    justify-content: flex-start;
+    /* Alineado arriba para dar espacio a la imagen */
+    text-align: center;
+    overflow: hidden;
+    border: var(--fc-face-border);
+    box-shadow: var(--fc-face-shadow);
+    color: #ffffff;
+    font-family: var(--font-family-app, var(--font-family-body));
+    container: flashcard-face / inline-size;
+}
+
+/* --- Estilos Generales del Frente --- */
+
+.name {
+    font-family: var(--font-family-body);
+    /* Jerarquía premium (jul 2026): la palabra manda sobre los ejemplos
+       (1.5rem). El demo no se ve afectado: fija su propio 1.9rem. */
+    font-size: clamp(1.6rem, 5vw, 2.25rem);
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    width: auto;
+    max-width: 100%;
+    border-bottom: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.phonetic {
+    font-family: 'Courier New', monospace;
+    font-size: 1.4em;
+    color: #a0a0a0;
+    margin: 0 0 30px 0;
+    font-weight: 400;
+    background: transparent;
+    padding: 0;
+    display: inline-block;
+    border: none;
+}
+
+.soundButton {
+    padding: 0;
+    font-size: 1.2em;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: none;
+    z-index: 10;
+    position: static;
+    background-color: transparent;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    color: #f472b6;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: none;
+    backface-visibility: hidden;
+    flex-shrink: 0;
+}
+
+.soundButton svg {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    stroke-width: 2.5;
+}
+
+.soundButton:hover,
+.wordHeader:hover .soundButton {
+    background: rgba(244, 114, 182, 0.15);
+    border-color: #f472b6;
+    box-shadow: 0 0 20px rgba(244, 114, 182, 0.35);
+}
+
+.wordBlock .ipaChartBtn {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+}
+
+.wordBlock .ipaChartBtn svg {
+    width: 18px;
+    height: 18px;
+}
+
+.ipaChartBtn {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: transform 0.2s, background 0.2s ease;
+    color: #838b9d;
+    backface-visibility: hidden;
+    line-height: 0;
+}
+
+.ipaChartBtn svg {
+    width: 22px;
+    height: 22px;
+}
+
+.ipaChartBtn:hover {
+    background-color: rgba(77, 171, 247, 0.15);
+    transform: scale(1.15);
+}
+
+/* --- Spinner Animation --- */
+
+.spinner {
+    animation: spin 1s linear infinite;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    font-size: 1.1em;
+}
+
+.loadingAudioBtn {
+    opacity: 0.4;
+    /* Transparente por defecto al cargar */
+    transition: opacity 0.3s ease;
+}
+
+.loadingAudioBtn:hover:not(:disabled) {
+    opacity: 1;
+    /* Opacidad total al pasar el mouse */
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotateVoiceBtn {
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid transparent;
+    color: #f472b6;
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+    opacity: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    flex-shrink: 0;
+    box-shadow: none;
+    backface-visibility: hidden;
+}
+
+.rotateVoiceBtn svg {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    stroke-width: 2.5;
+}
+
+[data-fc='examples'] [data-fc-btn='voice'] {
+    margin-left: 0;
+    flex-shrink: 0;
+}
+
+.rotateVoiceBtn:hover:not(:disabled) {
+    background: rgba(244, 114, 182, 0.15);
+    border-color: #f472b6;
+    color: #f472b6;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(244, 114, 182, 0.35);
+}
+
+.rotateVoiceBtn:disabled {
+    cursor: not-allowed;
+    opacity: 0.4;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Los estilos del contador de progreso flotante viven en
+   modules/flashcards/features/CardCounter.module.css (lo renderiza
+   FlashcardPage, no el componente Flashcard). */
+
+@media (max-width: 768px) {
+    .flashcardContainer[data-variant='app'] {
+        --fc-face-radius: clamp(18px, 4vw, 24px);
+        --fc-face-padding-block-start: clamp(8px, 2vw, 14px);
+        --fc-face-padding-inline: clamp(8px, 2vw, 12px);
+        --fc-face-shadow: 0 12px 30px rgba(0, 0, 0, 0.35), inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+        --fc-card-shadow: 0 16px 40px rgba(0, 0, 0, 0.45), inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 100%;
+        height: var(--fc-card-height);
+        min-height: var(--fc-card-min-height, 200px);
+        max-height: var(--fc-card-height);
+        overflow: hidden;
+    }
+
+    .flashcardContainer[data-variant='app'] .card {
+        height: 100%;
+        min-height: 0;
+    }
+
+    .flashcardContainer[data-variant='app'] .card {
+        border-radius: var(--fc-face-radius);
+    }
+
+    .cardFront[data-variant='app'][data-layout='conjugation'] [data-fc='examples'] [data-fc-btn='voice'] {
+        width: 46px;
+        height: 46px;
+    }
+
+    /* --- Móvil, ambas variantes (app + demo) -----------------------------
+       Ámbito .flashcard-page-wrapper: los dos wrappers llevan esta clase.
+       La variante demo re-ajusta lo suyo en su bloque (más abajo en el
+       archivo, gana por orden a igual especificidad). --------------------- */
+
+    .wordHeader {
+        --fc-word-side-slot: 56px;
+    }
+
+    .wordBlock {
+        row-gap: 0;
+    }
+
+    .phonetic {
+        font-size: 1.05rem;
+    }
+
+    .ipaChartBtn {
+        width: 44px;
+        height: 44px;
+        min-width: 44px;
+    }
+
+    .wordBlock .ipaChartBtn {
+        width: 26px;
+        height: 26px;
+        min-width: 26px;
+    }
+
+    .ipaChartBtn svg,
+    .wordBlock .ipaChartBtn svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .soundButton {
+        width: 48px;
+        height: 48px;
+        margin-left: 0;
+        align-self: center;
+        grid-column: 3;
+        justify-self: end;
+    }
+
+    /* --- Móvil, solo app (la variante demo define los suyos) ------------- */
+
+    .cardFront[data-variant='app'] .name {
+        /* 1.7rem: la palabra destaca sobre los ejemplos (1.5rem) también en
+           móvil; palabras largas parten con break-word sin descuadrar. */
+        font-size: 1.7rem;
+        min-height: 0;
+    }
+
+    .cardFront {
+        padding: 15px 15px 15px 15px;
+    }
+
+}
+
+.wordHeader {
+    grid-area: header;
+    position: relative;
+    width: 100%;
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns: var(--fc-word-side-slot) minmax(0, 1fr) var(--fc-word-side-slot);
+    align-items: start;
+    box-sizing: border-box;
+}
+
+.wordBlock {
+    grid-column: 2;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    row-gap: 2px;
+    column-gap: 8px;
+    max-width: 100%;
+    width: fit-content;
+}
+
+.wordBlock .name {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    text-align: left;
+    display: block;
+    width: auto;
+}
+
+.wordBlock > .rotateVoiceBtn {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+}
+
+.wordBlock > .phonetic {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: start;
+    text-align: left;
+    margin: 0;
+    display: inline;
+}
+
+.wordBlock > .ipaChartBtn {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+}
+
+.wordHeader > .soundButton {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+    align-self: start;
+    position: relative;
+    top: auto;
+    right: auto;
+    margin: 0;
+}
+
+.cardFront[data-variant='app'] .wordBlock {
+    row-gap: 2px;
+    column-gap: 2px;
+}
+
+.cardFront[data-variant='app'][data-layout='conjugation'] .wordHeader {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+/* Demo landing — layout y flip; colores/tipografía heredan la app */
+
+.flashcardContainer[data-variant='demo'],
+.cardFront[data-variant='demo'] {
+    font-family: var(--font-family-app, var(--font-family-body));
+}
+
+/* Demo landing — espaciados reducidos para que la imagen gane protagonismo */
+
+.flashcardContainer[data-variant='demo'] .card {
+    border-radius: var(--fc-face-radius);
+    background: transparent;
+}
+
+.cardFront[data-variant='demo'] .phonetic {
+    margin-bottom: 0px;
+}
+
+.cardFront[data-variant='demo'] .name {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+}
+
+/* ─── Demo flip: rotateY 3D real ───────────────────────────────────────────
+   Funciona porque sobrescribimos las propiedades que crean stacking context
+   en los hijos y que aplanarían preserve-3d:
+     • overflow:hidden → overflow:clip  (clip no crea stacking context)
+     • container:…     → container:none (containment crea stacking context)
+   ─────────────────────────────────────────────────────────────────────── */
+
+.flashcardContainer[data-variant='demo'] .card {
+    transform-style: preserve-3d;
+    transition: transform 0.65s cubic-bezier(0.4, 0.0, 0.2, 1),
+                box-shadow 0.65s ease;
+    will-change: transform;
+    border-radius: var(--fc-face-radius);
+    background: transparent;
+    /* Sombra suave en reposo */
+    box-shadow: 0 24px 52px rgba(0, 0, 0, 0.45),
+                0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+
+.flashcardContainer[data-variant='demo'] .card.flipped {
+    transform: rotateY(180deg);
+    box-shadow: 0 32px 64px rgba(0, 0, 0, 0.6),
+                0 0 0 1px rgba(244, 114, 182, 0.2),
+                0 0 48px rgba(244, 114, 182, 0.12);
+}
+
+/* Cara del frente en demo: eliminar los creadores de stacking context
+   para que preserve-3d funcione correctamente en el padre. */
+.cardFront[data-variant='demo'] {
+    overflow: hidden;  /* Usamos hidden para clipping óptimo de border-radius */
+    container: none;   /* Desactivamos container query para evitar z-fighting en layouts fluidos */
+}
+
+.flashcardContainer[data-variant='demo'] {
+    overflow: visible;
+    perspective: 1400px;
+    perspective-origin: 50% 38%;
+    width: 100%;
+    max-width: 100%;
+    height: clamp(480px, 52vw, 644px);
+    min-height: 460px;
+    border-radius: var(--fc-face-radius);
+}
+
+@media (min-width: 769px) and (max-width: 1349px) {
+    .flashcardContainer[data-variant='demo'] {
+        height: clamp(480px, 52vw, 540px);
+    }
+}
+
+@media (max-width: 768px) {
+    .flashcardContainer[data-variant='demo'] {
+        --fc-face-radius: 32px;
+        --fc-face-padding-block-start: clamp(12px, 2vw, 16px);
+        --fc-face-padding-inline: clamp(12px, 2vw, 16px);
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        height: clamp(440px, 132vw, 560px);
+        min-height: 440px;
+        margin: 0 auto;
+        overflow: visible;
+        border-radius: var(--fc-face-radius);
+    }
+
+    .flashcardContainer[data-variant='demo'] .card {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        margin: 0;
+        border-radius: var(--fc-face-radius);
+    }
+
+    .cardFront[data-variant='demo'] {
+        overflow: hidden;
+        min-width: 0;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .cardFront[data-variant='demo'] .name {
+        margin-top: 0;
+        margin-bottom: 4px;
+        min-height: 0;
+        font-size: 1.9rem;
+        text-align: center;
+        padding: 2px 0;
+    }
+
+    .cardFront[data-variant='demo'] .wordHeader {
+        --fc-word-side-slot: 40px;
+    }
+
+    .cardFront[data-variant='demo'] .wordHeader > .soundButton {
+        position: relative;
+        transform: none;
+        margin: 0;
+    }
+
+    .cardFront[data-variant='demo'] .soundButton {
+        margin-left: 0;
+        margin-top: 0;
+        width: 40px;
+        height: 40px;
+    }
+
+    .cardFront[data-variant='demo'] .soundButton svg {
+        width: 20px;
+        height: 20px;
+        min-width: 20px;
+        min-height: 20px;
+    }
+}
+
+/* --- Variante app: disciplina de acentos (jul 2026) ----------------------
+   Iconos en reposo neutros (slate); el rosa de marca aparece solo al
+   interactuar. El verde queda reservado al check de "aprendida" (Controls).
+   Los hovers se re-declaran con este ámbito porque empatan en especificidad
+   con las reglas de reposo y el orden del archivo decidiría en su contra.
+   La variante demo (landing) conserva el rosa en reposo. */
+
+.cardFront[data-variant='app'] .name {
+    text-shadow: none;
+}
+
+.cardFront[data-variant='app'] .phonetic {
+    color: var(--brand-icon-idle, #94a3b8);
+}
+
+.cardFront[data-variant='app'] .soundButton,
+.cardFront[data-variant='app'] .rotateVoiceBtn,
+.cardFront[data-variant='app'] .ipaChartBtn {
+    color: var(--brand-icon-idle, #94a3b8);
+}
+
+.cardFront[data-variant='app'] .soundButton:hover,
+.cardFront[data-variant='app'] .wordHeader:hover .soundButton,
+.cardFront[data-variant='app'] .rotateVoiceBtn:hover:not(:disabled) {
+    color: #f472b6;
+}
+
+/* Grosor de trazo único de la iconografía app (familia Lucide/Feather).
+   El demo conserva los grosores originales de sus reglas base. */
+.cardFront[data-variant='app'] .soundButton svg,
+.cardFront[data-variant='app'] .rotateVoiceBtn svg {
+    stroke-width: var(--brand-icon-stroke, 2);
+}
+
+/* Fonética: un paso por debajo de la palabra (jerarquía) y mono moderno del
+   sistema en vez de Courier New. En rem (no em) para no crear cascadas.
+   El demo conserva Courier y su tamaño. */
+.cardFront[data-variant='app'] .phonetic {
+    font-family: ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace;
+    font-size: clamp(1.05rem, 2.6vw, 1.15rem);
+}
+
+/* La PWA recompone el frente como hero sin duplicar la tarjeta ni perder sus
+   acciones: imagen a sangre y contenido sobre un degradado legible. */
+@media (display-mode: standalone) and (max-width: 768px) {
+    .flashcardContainer[data-variant='app'] {
+        --fc-face-radius: 0px;
+        --fc-face-padding-block-start: 0px;
+        --fc-face-padding-inline: 0px;
+        --fc-face-padding-block-end: 0px;
+        width: 100%;
+        max-width: 100%;
+        height: var(--fc-card-height);
+        min-height: var(--fc-card-min-height);
+        overflow: visible;
+        animation: pwaCardEnter 360ms cubic-bezier(0.22, 0.75, 0.3, 1) both;
+    }
+
+    .flashcardContainer[data-variant='app'] .card {
+        /* El elemento que gira debe conservar el espacio 3D. `overflow: hidden`
+           aplana sus caras en WebKit/Chrome instalados y deja el reverso vacío. */
+        overflow: visible;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .cardFront[data-variant='app'] {
+        --pwa-conjugation-nav-top: 58px;
+        --pwa-conjugation-nav-height: 48px;
+        --pwa-conjugation-nav-bottom: calc(
+            var(--pwa-conjugation-nav-top) + var(--pwa-conjugation-nav-height) + env(safe-area-inset-top, 0px)
+        );
+        --pwa-card-header-height: calc(64px + env(safe-area-inset-top, 0px));
+        --pwa-image-start: calc(58px + env(safe-area-inset-top, 0px));
+        display: block;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        background: #05070d;
+        box-shadow: none;
+        isolation: isolate;
+    }
+
+    .cardFront[data-variant='app'][data-layout='conjugation'] {
+        --pwa-card-header-height: calc(var(--pwa-conjugation-nav-bottom) + 6px);
+        --pwa-image-start: var(--pwa-conjugation-nav-bottom);
+    }
+
+    .cardFront[data-variant='app']::after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        inset: 0;
+        pointer-events: none;
+        background: linear-gradient(
+            180deg,
+            rgba(5, 7, 13, 0.06) 28%,
+            rgba(5, 7, 13, 0.28) 56%,
+            rgba(5, 7, 13, 0.66) 72%,
+            rgba(5, 7, 13, 0.94) 86%,
+            var(--pwa-canvas, #05070d) 100%
+        );
+    }
+
+    .cardFront[data-variant='app'] .wordHeader {
+        position: absolute;
+        z-index: 3;
+        right: 18px;
+        bottom: 174px;
+        left: 18px;
+        width: auto;
+        grid-template-columns: 48px minmax(0, 1fr) 48px;
+        align-items: center;
+    }
+
+    .cardFront[data-variant='app']:has([data-fc='examples'][data-count='1']) .wordHeader {
+        bottom: 102px;
+    }
+
+    .cardFront[data-variant='app']:has([data-fc='examples'][data-count='2']) .wordHeader {
+        bottom: 170px;
+    }
+
+    .cardFront[data-variant='app'][data-layout='standard'] .wordHeader {
+        bottom: 212px;
+    }
+
+    .cardFront[data-variant='app'][data-layout='standard']:has([data-fc='examples'][data-count='1']) .wordHeader {
+        bottom: 140px;
+    }
+
+    .cardFront[data-variant='app'][data-layout='standard']:has([data-fc='examples'][data-count='2']) .wordHeader {
+        bottom: 194px;
+    }
+
+    .cardFront[data-variant='app'] .wordBlock {
+        justify-self: center;
+    }
+
+    .cardFront[data-variant='app'] .wordBlock .name {
+        justify-self: center;
+        color: #ffffff;
+        font-size: clamp(2rem, 9vw, 3rem);
+        line-height: 0.95;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 0 3px 22px rgba(0, 0, 0, 0.8);
+    }
+
+    .cardFront[data-variant='app'] .wordBlock > .phonetic {
+        justify-self: center;
+        color: rgba(255, 255, 255, 0.72);
+        text-align: center;
+        text-shadow: 0 2px 12px rgba(0, 0, 0, 0.72);
+    }
+
+    .cardFront[data-variant='app'] .soundButton {
+        color: #ffffff;
+        background: var(--pwa-nav-surface, rgba(18, 22, 30, 0.62));
+        border-color: var(--pwa-nav-border, rgba(255, 255, 255, 0.1));
+        box-shadow: 0 12px 34px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(28px) saturate(1.4);
+        -webkit-backdrop-filter: blur(28px) saturate(1.4);
+    }
+
+    .cardFront[data-variant='app'] .soundButton svg {
+        width: 16px;
+        height: 16px;
+        min-width: 16px;
+        min-height: 16px;
+    }
+
+    .cardFront[data-variant='app'][data-layout='conjugation'] .wordHeader {
+        margin: 0;
+    }
+
+    .flashcardContainer[data-variant='app'] .srsToggle {
+        z-index: 5;
+        top: calc(76px + env(safe-area-inset-top, 0px));
+        left: 16px;
+        color: #ffffff;
+        background: var(--pwa-nav-surface, rgba(18, 22, 30, 0.62));
+        border-color: var(--pwa-nav-border, rgba(255, 255, 255, 0.1));
+        box-shadow: 0 12px 34px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(28px) saturate(1.4);
+        -webkit-backdrop-filter: blur(28px) saturate(1.4);
+    }
+
+    .flashcardContainer[data-variant='app'] .srsToggle svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .flashcardContainer[data-variant='app']:has(.cardFront[data-layout='conjugation']) .srsToggle {
+        top: calc(122px + env(safe-area-inset-top, 0px));
+    }
+}
+
+@keyframes pwaCardEnter {
+    from { opacity: 0.72; transform: translateX(22px) scale(0.99); }
+    to { opacity: 1; transform: translateX(0) scale(1); }
+}

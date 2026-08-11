@@ -1,0 +1,394 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "a",
+        "phonetic": "/eɪ/",
+        "spoken_phonetic_us": "/ə/",
+        "search_term": "determiner/article",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Un / Una]",
+                "usage_example": "I need a pen.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE a AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I need a pen.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Usado antes de un sustantivo contable singular que empieza con sonido de consonante.]",
+                "usage_context_es": "Used before a singular countable noun that begins with a consonant sound.",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_0_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Articles",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "an",
+        "phonetic": "/æn/",
+        "spoken_phonetic_us": "/ən/",
+        "search_term": "determiner/article",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Un / Una]",
+                "usage_example": "I want an apple.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE an AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I want an apple.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Usado antes de un sustantivo contable singular que empieza con sonido de vocal.]",
+                "usage_context_es": "Used before a singular countable noun that begins with a vowel sound.",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_1_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Articles",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "the",
+        "phonetic": "/ðə/",
+        "spoken_phonetic_us": "/ði/",
+        "search_term": "determiner/article",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: El / La / Los / Las]",
+                "usage_example": "The car is red. The apples are green.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE the AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The car is red. The apples are green.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para referirse a un sustantivo específico y conocido (singular o plural).]",
+                "usage_context_es": "Used to refer to a specific, known noun (singular or plural).",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_2_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Articles",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "this",
+        "phonetic": "/ðɪs/",
+        "spoken_phonetic_us": "/ðɪs/",
+        "search_term": "determiner/demonstrative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Este / Esta]",
+                "usage_example": "I like this book.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE this AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I like this book.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para un objeto singular que está cerca del hablante.]",
+                "usage_context_es": "Used for a singular item that is near the speaker.",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_3_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Demonstratives",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "that",
+        "phonetic": "/ðæt/",
+        "spoken_phonetic_us": "/ðæt/",
+        "search_term": "determiner/demonstrative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Ese / Esa / Aquel / Aquella]",
+                "usage_example": "I want that book.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE that AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I want that book.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para un objeto singular que está lejos del hablante.]",
+                "usage_context_es": "Used for a singular item that is far from the speaker.",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_4_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Demonstratives",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "these",
+        "phonetic": "/ðiːz/",
+        "spoken_phonetic_us": "/ðiːz/",
+        "search_term": "determiner/demonstrative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Estos / Estas]",
+                "usage_example": "I like these shoes.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE these AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I like these shoes.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para objetos plurales que están cerca del hablante.]",
+                "usage_context_es": "Used for plural items that are near the speaker.",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_5_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Demonstratives",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "those",
+        "phonetic": "/ðoʊz/",
+        "spoken_phonetic_us": "/ðoʊz/",
+        "search_term": "determiner/demonstrative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Esos / Esas / Aquellos / Aquellas]",
+                "usage_example": "I want those shoes.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE those AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I want those shoes.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para objetos plurales que están lejos del hablante.]",
+                "usage_context_es": "Used for plural items that are far from the speaker.",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_6_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Demonstratives",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "same",
+        "phonetic": "/seɪm/",
+        "spoken_phonetic_us": "/seɪm/",
+        "search_term": "determiner/demonstrative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Mismo/a / Mismos/as]",
+                "usage_example": "We have the same car.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE same AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: We have the same car.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para identificar algo como idéntico; no diferente.]",
+                "usage_context_es": "Used to identify something as being identical; not different.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Other",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "both",
+        "phonetic": "/boʊθ/",
+        "spoken_phonetic_us": "/boʊθ/",
+        "search_term": "determiner/distributive",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Ambos/as / Los/Las dos]",
+                "usage_example": "Both my parents are doctors.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE both AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Both my parents are doctors.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para referirse a dos personas o cosas juntas.]",
+                "usage_context_es": "Used to refer to two people or things together.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Distributives",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "each",
+        "phonetic": "/iːtʃ/",
+        "spoken_phonetic_us": "/iːtʃ/",
+        "search_term": "determiner/distributive",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cada]",
+                "usage_example": "Each student received a book.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE each AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Each student received a book.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para referirse a cada miembro individual de un grupo (por separado).]",
+                "usage_context_es": "Used to refer to every individual member of a group (separately).",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_17_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Distributives",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "every",
+        "phonetic": "/ˈɛvri/",
+        "spoken_phonetic_us": "/ˈɛvri/",
+        "search_term": "determiner/distributive",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cada / Todos los/as]",
+                "usage_example": "I work every day.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE every AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I work every day.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Usado para referirse a todos los miembros de un grupo colectivamente.]",
+                "usage_context_es": "Used to refer to all members of a group collectively.",
+                "imagePath": "/card_images/determinant/1-basic/1-basic_card_18_def0.avif"
+            }
+        ],
+        "group_name": "Determiners: Distributives",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "what",
+        "phonetic": "/wʌt/",
+        "spoken_phonetic_us": "/wʌt/",
+        "search_term": "determiner/interrogative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Qué / Cuál]",
+                "usage_example": "What bus do I take?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE what AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: What bus do I take?]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Usado antes de un sustantivo para pedir información específica.]",
+                "usage_context_es": "Used before a noun to ask for specific information.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Questions",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "which",
+        "phonetic": "/wɪtʃ/",
+        "spoken_phonetic_us": "/wɪtʃ/",
+        "search_term": "determiner/interrogative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cuál / Cuáles]",
+                "usage_example": "Which street is this?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE which AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Which street is this?]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Usado antes de un sustantivo para elegir entre opciones conocidas.]",
+                "usage_context_es": "Used before a noun to ask someone to choose from a known set.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Questions",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "different",
+        "phonetic": "/ˈdɪfərənt/",
+        "spoken_phonetic_us": "/ˈdɪfərənt/",
+        "search_term": "adjective/describing",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Diferente / Distinto/a]",
+                "usage_example": "I have a different opinion.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE different AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I have a different opinion.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: No igual a otro o entre sí.]",
+                "usage_context_es": "Not the same as another or each other.",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Determiners: Other",
+        "category": "Basic"
+    }
+]

@@ -1,0 +1,878 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "We should go now.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_0_def0.avif",
+        "meaning": "Ir (moverse a un lugar)",
+        "pronunciation_guide_es": "/ish_GE-e_MON-taks_ins_FIT-nes-shtu-di-o/",
+        "usage_context_en": "movement/routine",
+        "usage_context_es": "movimiento/rutina",
+        "usage_example": "Ich gehe montags ins Fitnessstudio.",
+        "usage_example_es": "Voy al gimnasio los lunes."
+      },
+      {
+        "alternative_example": "Let's go for a walk.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_0_def1.avif",
+        "meaning": "Funcionar/Continuar (en expresiones)",
+        "pronunciation_guide_es": "/funk-tsi-o-NIRT_das_LISHT/",
+        "usage_context_en": "function/activities",
+        "usage_context_es": "función/actividades",
+        "usage_example": "Funktioniert das Licht?",
+        "usage_example_es": "¿Está funcionando la luz?"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "gehen",
+    "phonetic": "/ˈɡeːən/",
+    "search_term": "verb/movement/essentials",
+    "spoken_phonetic_us": "/ˈɡeːən/",
+    "irregular": {
+      "past": {
+        "form": "ging",
+        "phonetic": "/ɡɪŋ/",
+        "spoken_phonetic_us": "/ɡɪŋ/",
+        "usage_example": "Wir gingen gestern an den Strand.",
+        "usage_example_es": "Fuimos a la playa ayer.",
+        "pronunciation_guide_es": "/vir_GIN-gen_GES-tern_an_den_SHTRANT/",
+        "meaning": "Pasado de ir",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_0_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gegangen",
+        "phonetic": "/ɡəˈɡaŋən/",
+        "spoken_phonetic_us": "/ɡəˈɡaŋən/",
+        "usage_example": "Sie ist zum Laden gegangen.",
+        "usage_example_es": "Ella ha ido a la tienda.",
+        "pronunciation_guide_es": "/zi_ist_tsum_LA-den_ge-GAN-gen/",
+        "meaning": "Participio de ir",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_0_def0_v3.avif"
+      }
+    },
+    "group_name": "Action & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "She will come to the party later.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_1_def0.avif",
+        "meaning": "Venir (acercarse)",
+        "pronunciation_guide_es": "/KOM_BI-te_HER/",
+        "usage_context_en": "approach/arrival",
+        "usage_context_es": "acercamiento/llegada",
+        "usage_example": "Komm bitte her.",
+        "usage_example_es": "Ven aquí, por favor."
+      },
+      {
+        "alternative_example": "When does your birthday come?",
+        "char_count": "one",
+        "meaning": "Llegar/Suceder",
+        "pronunciation_guide_es": "/der_RE-gen_KOMT_am_NAJ-mi-tak/",
+        "usage_context_en": "events/time",
+        "usage_context_es": "eventos/tiempo",
+        "usage_example": "Der Regen kommt am Nachmittag.",
+        "usage_example_es": "La lluvia llega por la tarde.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_1_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "kommen",
+    "phonetic": "/ˈkɔmən/",
+    "search_term": "verb/movement/essentials",
+    "spoken_phonetic_us": "/ˈkɔmən/",
+    "irregular": {
+      "past": {
+        "form": "kam",
+        "phonetic": "/kaːm/",
+        "spoken_phonetic_us": "/kaːm/",
+        "usage_example": "Sie kam letzte Nacht spät nach Hause.",
+        "usage_example_es": "Ella vino a casa tarde anoche.",
+        "pronunciation_guide_es": "/zi_KAM_LETS-te_NAJT_SHPAET_naj_HAU-ze/",
+        "meaning": "Pasado de venir",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_1_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gekommen",
+        "phonetic": "/ɡəˈkɔmən/",
+        "spoken_phonetic_us": "/ɡəˈkɔmən/",
+        "usage_example": "Sie sind weit gekommen.",
+        "usage_example_es": "Ellos han recorrido un largo camino.",
+        "pronunciation_guide_es": "/zi_zint_VAIT_ge-KO-men/",
+        "meaning": "Participio de venir",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_1_def0_v3.avif"
+      }
+    },
+    "group_name": "Action & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Let's go for a walk in the park.",
+        "char_count": "one",
+        "meaning": "Caminar/Andar",
+        "pronunciation_guide_es": "/ish_LAU-fe_YE-den_MOR-gen_tsum_MARKT/",
+        "usage_context_en": "movement/exercise",
+        "usage_context_es": "movimiento/ejercicio",
+        "usage_example": "Ich laufe jeden Morgen zum Markt.",
+        "usage_example_es": "Camino al mercado todas las mañanas.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_2_def0.avif"
+      },
+      {
+        "alternative_example": "Walk with me to the door.",
+        "char_count": "one",
+        "meaning": "Pasear/Acompañar",
+        "pronunciation_guide_es": "/er_GET_mit_dem_HUNT_shpa-TSI-ren/",
+        "usage_context_en": "pets/escorting",
+        "usage_context_es": "mascotas/acompañar",
+        "usage_example": "Er geht mit dem Hund spazieren.",
+        "usage_example_es": "Él está paseando al perro.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_2_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "laufen",
+    "phonetic": "/ˈlaʊfn̩/",
+    "search_term": "verb/move/level_up",
+    "spoken_phonetic_us": "/ˈlaʊfn̩/",
+    "group_name": "Action & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The dog runs after the ball.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_3_def0.avif",
+        "meaning": "Correr",
+        "pronunciation_guide_es": "/ish_RE-ne_YE-den_MOR-gen/",
+        "usage_context_en": "speed/exercise",
+        "usage_context_es": "velocidad/ejercicio",
+        "usage_example": "Ich renne jeden Morgen.",
+        "usage_example_es": "Corro todas las mañanas."
+      },
+      {
+        "alternative_example": "The water is running.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_3_def1.avif",
+        "meaning": "Dirigir/Funcionar",
+        "pronunciation_guide_es": "/ver_LAI-tet_DI-zes_UN-ter-ne-men/",
+        "usage_context_en": "management/flow",
+        "usage_context_es": "gestión/flujo",
+        "usage_example": "Wer leitet dieses Unternehmen?",
+        "usage_example_es": "¿Quién dirige esta empresa?"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "rennen",
+    "phonetic": "/ˈʁɛnən/",
+    "search_term": "verb/move/essentials",
+    "spoken_phonetic_us": "/ˈʁɛnən/",
+    "irregular": {
+      "past": {
+        "form": "rannte",
+        "phonetic": "/ˈʁantə/",
+        "spoken_phonetic_us": "/ˈʁantə/",
+        "usage_example": "Sie rannten heute fünf Meilen.",
+        "usage_example_es": "Corrieron cinco millas hoy.",
+        "pronunciation_guide_es": "/zi_RAN-ten_HOI-te_FUENF_MAI-len/",
+        "meaning": "Pasado de correr",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_3_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gerannt",
+        "phonetic": "/ɡəˈʁant/",
+        "spoken_phonetic_us": "/ɡəˈʁant/",
+        "usage_example": "Ich bin fünf Meilen gerannt.",
+        "usage_example_es": "El negocio está bien administrado.",
+        "pronunciation_guide_es": "/ish_bin_FUENF_MAI-len_ge-RANT/",
+        "meaning": "Participio de correr",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_3_def0_v3.avif"
+      }
+    },
+    "group_name": "Action & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "She sits at the table.",
+        "char_count": "one",
+        "meaning": "Sentarse",
+        "pronunciation_guide_es": "/ZETS_dish_BI-te/",
+        "usage_context_en": "posture/rest",
+        "usage_context_es": "postura/descanso",
+        "usage_example": "Setz dich bitte.",
+        "usage_example_es": "Por favor, siéntate.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_4_def0.avif"
+      },
+      {
+        "alternative_example": "Our office sits on the fifth floor.",
+        "char_count": "one",
+        "meaning": "Estar ubicado/Posicionado",
+        "pronunciation_guide_es": "/das_HAUS_LIKT_auf_AI-nem_HUE-gel/",
+        "usage_context_en": "location/position",
+        "usage_context_es": "ubicación/posición",
+        "usage_example": "Das Haus liegt auf einem Hügel.",
+        "usage_example_es": "La casa está ubicada en una colina.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_4_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "sitzen",
+    "phonetic": "/ˈzɪtsn̩/",
+    "search_term": "verb/rest/essentials",
+    "spoken_phonetic_us": "/ˈzɪtsn̩/",
+    "irregular": {
+      "past": {
+        "form": "saß",
+        "phonetic": "/zaːs/",
+        "spoken_phonetic_us": "/zaːs/",
+        "usage_example": "Wir saßen auf der Bank.",
+        "usage_example_es": "Nos sentamos en el banco.",
+        "pronunciation_guide_es": "/vir_ZA-sen_auf_der_BANK/",
+        "meaning": "Pasado de sentarse",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_4_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gesessen",
+        "phonetic": "/ɡəˈzɛsn̩/",
+        "spoken_phonetic_us": "/ɡəˈzɛsn̩/",
+        "usage_example": "Ich habe hier schon einmal gesessen.",
+        "usage_example_es": "Me he sentado aquí antes.",
+        "pronunciation_guide_es": "/ish_HA-be_hir_SHON_AIN-mal_ge-ZE-sen/",
+        "meaning": "Participio de sentarse",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_4_def0_v3.avif"
+      }
+    },
+    "group_name": "Being & State"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "We stand in line for the bus.",
+        "char_count": "one",
+        "meaning": "Estar de pie",
+        "pronunciation_guide_es": "/SHTE_nisht_auf_dem_TISH/",
+        "usage_context_en": "posture/waiting",
+        "usage_context_es": "postura/espera",
+        "usage_example": "Steh nicht auf dem Tisch.",
+        "usage_example_es": "No te pares en la mesa.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_5_def0.avif"
+      },
+      {
+        "alternative_example": "The old bridge stands the test of time.",
+        "char_count": "one",
+        "meaning": "Soportar/Resistir (una situación, idea)",
+        "pronunciation_guide_es": "/ish_kan_LAU-te_mu-ZIK_nisht_AUS-shte-en/",
+        "usage_context_en": "tolerance/endurance",
+        "usage_context_es": "tolerancia/resistencia",
+        "usage_example": "Ich kann laute Musik nicht ausstehen.",
+        "usage_example_es": "No soporto la música alta.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_5_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "stehen",
+    "phonetic": "/ˈʃteːən/",
+    "search_term": "verb/position/essentials",
+    "spoken_phonetic_us": "/ˈʃteːən/",
+    "irregular": {
+      "past": {
+        "form": "stand",
+        "phonetic": "/ʃtant/",
+        "spoken_phonetic_us": "/ʃtant/",
+        "usage_example": "Sie standen stundenlang Schlange.",
+        "usage_example_es": "Estuvieron parados en la fila por horas.",
+        "pronunciation_guide_es": "/zi_SHTAN-den_SHTUN-den-lang_SHLAN-ge/",
+        "meaning": "Pasado de estar de pie",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_5_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gestanden",
+        "phonetic": "/ɡəˈʃtandn̩/",
+        "spoken_phonetic_us": "/ɡəˈʃtandn̩/",
+        "usage_example": "Ich habe immer zu dir gestanden.",
+        "usage_example_es": "He estado a tu lado.",
+        "pronunciation_guide_es": "/ish_HA-be_IM-mer_tsu_dir_ge-SHTAN-den/",
+        "meaning": "Participio de estar de pie",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_5_def0_v3.avif"
+      }
+    },
+    "group_name": "Being & State"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The shop opens at nine.",
+        "char_count": "two",
+        "meaning": "Abrir (una puerta, caja)",
+        "pronunciation_guide_es": "/kanst_du_das_FEN-ster_OEF-nen/",
+        "usage_context_en": "objects/business hours",
+        "usage_context_es": "objetos/horario comercial",
+        "usage_example": "Kannst du das Fenster öffnen?",
+        "usage_example_es": "¿Puedes abrir la ventana?",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_6_def0.avif"
+      },
+      {
+        "alternative_example": "The contract was opened for discussion.",
+        "char_count": "two",
+        "meaning": "Revelar/Desplegar",
+        "pronunciation_guide_es": "/OEF-ne_DAI-nen_GAIST_fuer_NOI-e_i-DE-en/",
+        "usage_context_en": "ideas/discussion",
+        "usage_context_es": "ideas/discusión",
+        "usage_example": "Öffne deinen Geist für neue Ideen.",
+        "usage_example_es": "Abre tu mente a nuevas ideas.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_6_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "öffnen",
+    "phonetic": "/ˈœfnən/",
+    "search_term": "verb/unseal/level_up",
+    "spoken_phonetic_us": "/ˈœfnən/",
+    "group_name": "Handling & Creating"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "I need help with my homework.",
+        "char_count": "one",
+        "usage_example_es": "¿Puedes ayudarme con esta caja?",
+        "meaning": "Ayudar (asistir)",
+        "pronunciation_guide_es": "/kanst_du_mir_mit_DI-zer_KIS-te_HEL-fen/",
+        "usage_context_en": "assistance/tasks",
+        "usage_context_es": "asistencia/tareas",
+        "usage_example": "Kannst du mir mit dieser Kiste helfen?",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_7_def0.avif"
+      },
+      {
+        "alternative_example": "It helps to read the instructions.",
+        "char_count": "one",
+        "usage_example_es": "Esta medicina me ayuda a dormir.",
+        "meaning": "Contribuir/Servir",
+        "pronunciation_guide_es": "/DI-ze_me-di-TSIN_HILFT_mir_baim_SHLA-fen/",
+        "usage_context_en": "contribution/benefit",
+        "usage_context_es": "contribución/beneficio",
+        "usage_example": "Diese Medizin hilft mir beim Schlafen.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_7_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "helfen",
+    "phonetic": "/ˈhɛlfn̩/",
+    "search_term": "verb/assist/essentials",
+    "spoken_phonetic_us": "/ˈhɛlfn̩/",
+    "group_name": "Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The car turned around.",
+        "char_count": "one",
+        "usage_example_es": "Gira a la izquierda en la próxima esquina.",
+        "meaning": "Girar/Voltear",
+        "pronunciation_guide_es": "/BIK_an_der_NEKS-ten_E-ke_LINKS_AP/",
+        "usage_context_en": "direction/movement",
+        "usage_context_es": "dirección/movimiento",
+        "usage_example": "Bieg an der nächsten Ecke links ab.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_8_def0.avif"
+      },
+      {
+        "alternative_example": "She turned off the music.",
+        "char_count": "one",
+        "usage_example_es": "Enciende la luz, por favor.",
+        "meaning": "Encender/Apagar (con 'on' o 'off')",
+        "pronunciation_guide_es": "/MACH_BI-te_das_LISHT_AN/",
+        "usage_context_en": "appliances/power",
+        "usage_context_es": "aparatos/electricidad",
+        "usage_example": "Mach bitte das Licht an.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_8_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "drehen",
+    "phonetic": "/ˈdʁeːən/",
+    "search_term": "verb/rotate/essentials",
+    "spoken_phonetic_us": "/ˈdʁeːən/",
+    "group_name": "Action & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The line is moving slowly.",
+        "char_count": "one",
+        "usage_example_es": "Por favor, mueve tu coche.",
+        "meaning": "Mover/Moverse",
+        "pronunciation_guide_es": "/BI-te_be-VEK_dain_AU-to/",
+        "usage_context_en": "relocation/motion",
+        "usage_context_es": "reubicación/movimiento",
+        "usage_example": "Bitte beweg dein Auto.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_9_def0.avif"
+      },
+      {
+        "alternative_example": "When did they move here?",
+        "char_count": "one",
+        "usage_example_es": "Nos mudaremos a un apartamento nuevo.",
+        "meaning": "Mudarse (de casa)",
+        "pronunciation_guide_es": "/vir_VER-den_in_AI-ne_NOI-e_VO-nung_UM-tsi-en/",
+        "usage_context_en": "residence/change",
+        "usage_context_es": "residencia/cambio",
+        "usage_example": "Wir werden in eine neue Wohnung umziehen.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_9_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "bewegen",
+    "phonetic": "/bəˈveːɡn̩/",
+    "search_term": "verb/change position/essentials",
+    "spoken_phonetic_us": "/bəˈveːɡn̩/",
+    "group_name": "Action & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "He leaves work at five.",
+        "char_count": "one",
+        "meaning": "Dejar/Abandonar (un lugar o cosa)",
+        "pronunciation_guide_es": "/LAS_DAI-ne_TA-she_nisht_HIR/",
+        "usage_context_en": "objects/departure",
+        "usage_context_es": "objetos/partida",
+        "usage_example": "Lass deine Tasche nicht hier.",
+        "usage_example_es": "No dejes tu bolso aquí.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_10_def0.avif"
+      },
+      {
+        "alternative_example": "When do you leave the house?",
+        "char_count": "one",
+        "meaning": "Irse/Partir",
+        "pronunciation_guide_es": "/ish_MUS_YETST_LOS/",
+        "usage_context_en": "departure/time",
+        "usage_context_es": "partida/tiempo",
+        "usage_example": "Ich muss jetzt los.",
+        "usage_example_es": "Debo irme ahora.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_10_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "verlassen",
+    "phonetic": "/fɛɐˈlasn̩/",
+    "search_term": "verb/depart/essentials",
+    "spoken_phonetic_us": "/fɛɐˈlasn̩/",
+    "irregular": {
+      "past": {
+        "form": "verließ",
+        "phonetic": "/fɛɐˈliːs/",
+        "spoken_phonetic_us": "/fɛɐˈliːs/",
+        "usage_example": "Ich verließ das Büro um fünf Uhr.",
+        "usage_example_es": "Dejé mi paraguas en casa.",
+        "pronunciation_guide_es": "/ish_fer-LIS_das_BUE-ro_um_FUENF_UR/",
+        "meaning": "Pasado de dejar/salir",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_10_def0_v2.avif"
+      },
+      "participle": {
+        "form": "verlassen",
+        "phonetic": "/fɛɐˈlasn̩/",
+        "spoken_phonetic_us": "/fɛɐˈlasn̩/",
+        "usage_example": "Sie haben das Gebäude bereits verlassen.",
+        "usage_example_es": "Ellos ya se han ido.",
+        "pronunciation_guide_es": "/zi_HA-ben_das_ge-BOI-de_be-RAITS_fer-LA-sen/",
+        "meaning": "Participio de dejar/salir",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_10_def0_v3.avif"
+      }
+    },
+    "group_name": "Action & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Don't touch the stove.",
+        "char_count": "one",
+        "usage_example_es": "No toques eso.",
+        "meaning": "Tocar",
+        "pronunciation_guide_es": "/be-RUE-r_den_HERT_nisht/",
+        "usage_context_en": "objects/body",
+        "usage_context_es": "objetos/cuerpo",
+        "usage_example": "Berühr den Herd nicht.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_11_def0.avif"
+      },
+      {
+        "alternative_example": "Her words touched my heart.",
+        "char_count": "one",
+        "usage_example_es": "Esta historia me conmovió.",
+        "meaning": "Conmover/Afectar",
+        "pronunciation_guide_es": "/DI-ze_ge-SHISH-te_hat_mish_be-RUERT/",
+        "usage_context_en": "feelings/impact",
+        "usage_context_es": "emociones/impacto",
+        "usage_example": "Diese Geschichte hat mich berührt.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_11_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "berühren",
+    "phonetic": "/bəˈʁyːʁən/",
+    "search_term": "verb/touch/essentials",
+    "spoken_phonetic_us": "/bəˈʁyːʁən/",
+    "group_name": "Body & Objects"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Be careful not to drop the glass.",
+        "char_count": "one",
+        "usage_example_es": "No lo dejes caer.",
+        "meaning": "Dejar caer",
+        "pronunciation_guide_es": "/LAS_es_nisht_FA-len/",
+        "usage_context_en": "objects/accidents",
+        "usage_context_es": "objetos/accidentes",
+        "usage_example": "Lass es nicht fallen.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_12_def0.avif"
+      },
+      {
+        "alternative_example": "Sales dropped this month.",
+        "char_count": "one",
+        "usage_example_es": "La temperatura bajó.",
+        "meaning": "Bajar/Disminuir",
+        "pronunciation_guide_es": "/di_tem-pe-ra-TUR_ist_ge-ZUN-ken/",
+        "usage_context_en": "numbers/levels",
+        "usage_context_es": "números/niveles",
+        "usage_example": "Die Temperatur ist gesunken.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_12_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "fallen lassen",
+    "phonetic": "/ˈfalən ˈlasn̩/",
+    "search_term": "verb/drop/essentials",
+    "spoken_phonetic_us": "/ˈfalən ˈlasn̩/",
+    "group_name": "Body & Objects"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The leaves fall in autumn.",
+        "char_count": "one",
+        "usage_example_es": "Ten cuidado, ¡no te caigas!",
+        "meaning": "Caer/Caerse",
+        "pronunciation_guide_es": "/PAS_AUF_FAL_nisht/",
+        "usage_context_en": "accidents/nature",
+        "usage_context_es": "accidentes/naturaleza",
+        "usage_example": "Pass auf, fall nicht!",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_13_def0.avif"
+      },
+      {
+        "alternative_example": "The city falls to the enemy.",
+        "char_count": "one",
+        "usage_example_es": "La temperatura está bajando.",
+        "meaning": "Descender (un valor, temperatura)",
+        "pronunciation_guide_es": "/di_tem-pe-ra-TUR_FELT/",
+        "usage_context_en": "weather/values",
+        "usage_context_es": "clima/valores",
+        "usage_example": "Die Temperatur fällt.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_13_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "fallen",
+    "phonetic": "/ˈfalən/",
+    "search_term": "verb/drop/level_up",
+    "spoken_phonetic_us": "/ˈfalən/",
+    "irregular": {
+      "past": {
+        "form": "fiel",
+        "phonetic": "/fiːl/",
+        "spoken_phonetic_us": "/fiːl/",
+        "usage_example": "Er fiel von seinem Fahrrad.",
+        "usage_example_es": "Él se cayó de su bicicleta.",
+        "pronunciation_guide_es": "/er_FIL_fon_ZAI-nem_FAR-rat/",
+        "meaning": "Pasado de caer",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_13_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gefallen",
+        "phonetic": "/ɡəˈfalən/",
+        "spoken_phonetic_us": "/ɡəˈfalən/",
+        "usage_example": "Die Blätter sind gefallen.",
+        "usage_example_es": "Las hojas han caído.",
+        "pronunciation_guide_es": "/di_BLAE-ter_zint_ge-FA-len/",
+        "meaning": "Participio de caer",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_13_def0_v3.avif"
+      }
+    },
+    "group_name": "Action & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The dog follows him everywhere.",
+        "char_count": "two",
+        "meaning": "Seguir (ir detrás)",
+        "pronunciation_guide_es": "/FOL-ge_mir_in_di_KUE-che/",
+        "usage_context_en": "movement/direction",
+        "usage_context_es": "movimiento/dirección",
+        "usage_example": "Folge mir in die Küche.",
+        "usage_example_es": "Sígueme a la cocina.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_14_def0.avif"
+      },
+      {
+        "alternative_example": "I followed his advice.",
+        "char_count": "two",
+        "meaning": "Seguir (instrucciones, reglas)",
+        "pronunciation_guide_es": "/du_MUST_di_RE-geln_be-FOL-gen/",
+        "usage_context_en": "rules/advice",
+        "usage_context_es": "reglas/consejo",
+        "usage_example": "Du musst die Regeln befolgen.",
+        "usage_example_es": "Debes seguir las reglas.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_14_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "folgen",
+    "phonetic": "/ˈfɔlɡn̩/",
+    "search_term": "verb/pursue/level_up",
+    "spoken_phonetic_us": "/ˈfɔlɡn̩/",
+    "group_name": "Action & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Pass me the salt, please.",
+        "char_count": "one",
+        "usage_example_es": "El tiempo pasa muy rápido.",
+        "meaning": "Pasar (por un lugar, tiempo)",
+        "pronunciation_guide_es": "/di_TSAIT_fer-GET_ZER_SHNEL/",
+        "usage_context_en": "time/objects",
+        "usage_context_es": "tiempo/objetos",
+        "usage_example": "Die Zeit vergeht sehr schnell.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_15_def0.avif"
+      },
+      {
+        "alternative_example": "The new law was passed yesterday.",
+        "char_count": "one",
+        "usage_example_es": "¿Aprobaste tu examen de conducir?",
+        "meaning": "Aprobar (un examen, ley)",
+        "pronunciation_guide_es": "/hast_du_DAI-ne_FAR-pruef-ung_be-SHTAN-den/",
+        "usage_context_en": "exams/legislation",
+        "usage_context_es": "exámenes/legislación",
+        "usage_example": "Hast du deine Fahrprüfung bestanden?",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_15_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "vergehen",
+    "phonetic": "/fɛɐˈɡeːən/",
+    "search_term": "verb/go by/level_up",
+    "spoken_phonetic_us": "/fɛɐˈɡeːən/",
+    "group_name": "Action & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Enter the room quietly.",
+        "char_count": "one",
+        "usage_example_es": "Entra al cuarto.",
+        "meaning": "Entrar",
+        "pronunciation_guide_es": "/be-TRIT_den_RAUM_LAI-ze/",
+        "usage_context_en": "rooms/buildings",
+        "usage_context_es": "cuartos/edificios",
+        "usage_example": "Betritt den Raum leise.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_16_def0.avif"
+      },
+      {
+        "alternative_example": "Please enter your name here.",
+        "char_count": "one",
+        "usage_example_es": "Ingresa tu contraseña.",
+        "meaning": "Ingresar (datos)",
+        "pronunciation_guide_es": "/GIP_dain_PAS-vort_AIN/",
+        "usage_context_en": "forms/computers",
+        "usage_context_es": "formularios/computadoras",
+        "usage_example": "Gib dein Passwort ein.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_16_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "betreten",
+    "phonetic": "/bəˈtʁeːtn̩/",
+    "search_term": "verb/enter/essentials",
+    "spoken_phonetic_us": "/bəˈtʁeːtn̩/",
+    "group_name": "Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "You should rest after work.",
+        "char_count": "one",
+        "usage_example_es": "Descansa un poco.",
+        "meaning": "Descansar",
+        "pronunciation_guide_es": "/RU_dish_ain_BIS-shen_AUS/",
+        "usage_context_en": "health/tiredness",
+        "usage_context_es": "salud/cansancio",
+        "usage_example": "Ruh dich ein bisschen aus.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_17_def0.avif"
+      },
+      {
+        "alternative_example": "The cup rested on the table.",
+        "char_count": "one",
+        "usage_example_es": "El libro reposaba en el estante.",
+        "meaning": "Reposar",
+        "pronunciation_guide_es": "/das_BUJ_LAK_auf_dem_re-GAL/",
+        "usage_context_en": "objects/position",
+        "usage_context_es": "objetos/posición",
+        "usage_example": "Das Buch lag auf dem Regal.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_17_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "ausruhen",
+    "phonetic": "/ˈaʊsʁuːən/",
+    "search_term": "verb/rest/essentials",
+    "spoken_phonetic_us": "/ˈaʊsʁuːən/",
+    "group_name": "Health & Body"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "They visit their grandparents every month.",
+        "char_count": "one",
+        "usage_example_es": "Visitamos a mi tía.",
+        "meaning": "Visitar",
+        "pronunciation_guide_es": "/vir_be-ZU-chen_MAI-ne_TAN-te/",
+        "usage_context_en": "family/travel",
+        "usage_context_es": "familia/viajes",
+        "usage_example": "Wir besuchen meine Tante.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_18_def0.avif"
+      },
+      {
+        "alternative_example": "Many tourists visit the city in summer.",
+        "char_count": "one",
+        "usage_example_es": "Visitemos el museo.",
+        "meaning": "Ir a ver un lugar",
+        "pronunciation_guide_es": "/las_uns_das_mu-ZE-um_be-ZU-chen/",
+        "usage_context_en": "places/tourism",
+        "usage_context_es": "lugares/turismo",
+        "usage_example": "Lass uns das Museum besuchen.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_18_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "besuchen",
+    "phonetic": "/bəˈzuːxn̩/",
+    "search_term": "verb/visit/essentials",
+    "spoken_phonetic_us": "/bəˈzuːxn̩/",
+    "group_name": "Travel & Social Life"
+  }
+]

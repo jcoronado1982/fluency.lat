@@ -1,0 +1,178 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/seasons/1-basic_seasons_card_0_def0.avif",
+        "meaning": "Estación (del año)",
+        "pronunciation_guide_es": "/MAI-ne_LIP-lings-ya-res-tsait_ist_der_ZO-mer/",
+        "usage_context_en": "One of the four periods of the year (Spring, Summer, Fall, Winter)",
+        "usage_context_es": "Uno de los cuatro períodos del año (Primavera, Verano, Otoño, Invierno)",
+        "usage_example": "Meine Lieblingsjahreszeit ist der Sommer.",
+        "usage_example_es": "Mi estación favorita es el verano."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Seasons",
+    "is_verb": false,
+    "name": "die Jahreszeit",
+    "phonetic": "/diː ˈjaːʁəstsaɪt/",
+    "search_term": "noun/time/nature/essentials",
+    "spoken_phonetic_us": "/diː ˈjaːʁəstsaɪt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Primavera",
+        "pronunciation_guide_es": "/BLU-men_BLUE-en_im_FRUE-ling/",
+        "usage_context_en": "The season between winter and summer",
+        "usage_context_es": "La estación entre invierno y verano",
+        "usage_example": "Blumen blühen im Frühling.",
+        "usage_example_es": "Las flores florecen en primavera.",
+        "imagePath": "/card_images/nouns/1-basic/seasons/1-basic_seasons_card_1_def0.avif"
+      },
+      {
+        "char_count": "5",
+        "meaning": "Manantial de agua",
+        "pronunciation_guide_es": "/in_der_NAE-e_GIPT_es_AI-ne_HAI-se_KVE-le/",
+        "usage_context_en": "A natural source of water that flows from the ground.",
+        "usage_context_es": "Una fuente natural de agua que fluye del suelo.",
+        "usage_example": "In der Nähe gibt es eine heiße Quelle.",
+        "usage_example_es": "Hay un manantial de agua caliente cerca.",
+        "imagePath": "/card_images/nouns/1-basic/seasons/1-basic_seasons_card_1_def1.avif"
+      },
+      {
+        "char_count": "5",
+        "meaning": "Resorte o muelle metálico",
+        "pronunciation_guide_es": "/das_BET_hat_AI-ne_ka-PU-te_FE-der/",
+        "usage_context_en": "A device that returns to its shape after being compressed.",
+        "usage_context_es": "Un dispositivo que vuelve a su forma después de ser comprimido.",
+        "usage_example": "Das Bett hat eine kaputte Feder.",
+        "usage_example_es": "La cama tiene un resorte roto.",
+        "imagePath": "/card_images/nouns/1-basic/seasons/1-basic_seasons_card_1_def2.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Seasons",
+    "is_verb": false,
+    "name": "der Frühling",
+    "phonetic": "/deːɐ ˈfʁyːlɪŋ/",
+    "search_term": "noun/season/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈfʁyːlɪŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Verano",
+        "pronunciation_guide_es": "/im_ZO-mer_ist_es_HAIS/",
+        "usage_context_en": "The warmest season of the year",
+        "usage_context_es": "La estación más cálida del año",
+        "usage_example": "Im Sommer ist es heiß.",
+        "usage_example_es": "Hace calor en el verano.",
+        "imagePath": "/card_images/nouns/1-basic/seasons/1-basic_seasons_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Seasons",
+    "is_verb": false,
+    "name": "der Sommer",
+    "phonetic": "/deːɐ ˈzɔmɐ/",
+    "search_term": "noun/season/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈzɔmɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Otoño (AmE)",
+        "pronunciation_guide_es": "/BLAE-ter_FA-len_im_HERPST/",
+        "usage_context_en": "The season between summer and winter (AmE)",
+        "usage_context_es": "La estación entre verano e invierno (AmE)",
+        "usage_example": "Blätter fallen im Herbst.",
+        "usage_example_es": "Las hojas caen en el otoño.",
+        "imagePath": "/card_images/nouns/1-basic/seasons/1-basic_seasons_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Seasons",
+    "is_verb": false,
+    "name": "der Herbst",
+    "phonetic": "/deːɐ hɛʁpst/",
+    "search_term": "noun/season/essentials",
+    "spoken_phonetic_us": "/deːɐ hɛʁpst/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "imagePath": "/card_images/nouns/1-basic/seasons/1-basic_seasons_card_4_def0.avif",
+        "meaning": "Otoño (BrE)",
+        "pronunciation_guide_es": "/di_BOI-me_zint_im_HERPST_VUN-der-shoen/",
+        "usage_context_en": "The season between summer and winter (BrE)",
+        "usage_context_es": "La estación entre verano e invierno (BrE)",
+        "usage_example": "Die Bäume sind im Herbst wunderschön.",
+        "usage_example_es": "Los árboles están hermosos en otoño."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Seasons",
+    "is_verb": false,
+    "name": "der Herbst",
+    "phonetic": "/deːɐ hɛʁpst/",
+    "search_term": "noun/season/essentials",
+    "spoken_phonetic_us": "/deːɐ hɛʁpst/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Invierno",
+        "pronunciation_guide_es": "/es_SHNAIT_im_VIN-ter/",
+        "usage_context_en": "The coldest season of the year",
+        "usage_context_es": "La estación más fría del año",
+        "usage_example": "Es schneit im Winter.",
+        "usage_example_es": "Nieva en invierno.",
+        "imagePath": "/card_images/nouns/1-basic/seasons/1-basic_seasons_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Seasons",
+    "is_verb": false,
+    "name": "der Winter",
+    "phonetic": "/deːɐ ˈvɪntɐ/",
+    "search_term": "noun/season/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈvɪntɐ/"
+  }
+]

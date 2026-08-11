@@ -1,0 +1,553 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Año",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/time/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "year",
+        "usage_example": "Viajaré el próximo año.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I will travel next year.",
+        "char_count": "one",
+        "usage_context_en": "A period of 12 months",
+        "usage_context_es": "Un período de 12 meses",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_0_def0.avif",
+        "target_meaning_es": "Año"
+      }
+    ],
+    "group_name": "Time",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Día",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/time/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "day",
+        "usage_example": "Hoy es un día hermoso.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Today is a beautiful day.",
+        "char_count": "one",
+        "usage_context_en": "A period of 24 hours",
+        "usage_context_es": "Un período de 24 horas",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_1_def0.avif",
+        "target_meaning_es": "Día"
+      }
+    ],
+    "group_name": "Time",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Mes",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/time/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "month",
+        "usage_example": "Mi cumpleaños es el próximo mes.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "My birthday is next month.",
+        "char_count": "one",
+        "usage_context_en": "A period of about 30 days",
+        "usage_context_es": "Un período de unos 30 días",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_2_def0.avif",
+        "target_meaning_es": "Mes"
+      }
+    ],
+    "group_name": "Time",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Hoy",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/time/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "today",
+        "usage_example": "Hoy es lunes.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Today is Monday.",
+        "char_count": "two",
+        "usage_context_en": "This present day",
+        "usage_context_es": "Este día presente",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_3_def0.avif",
+        "target_meaning_es": "Hoy"
+      }
+    ],
+    "group_name": "Time",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Mañana (el día siguiente)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/time/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "tomorrow",
+        "usage_example": "Nos vemos mañana.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "See you tomorrow.",
+        "char_count": "three",
+        "usage_context_en": "The day after today",
+        "usage_context_es": "El día después de hoy",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_4_def0.avif",
+        "target_meaning_es": "Mañana (el día siguiente)"
+      }
+    ],
+    "group_name": "Time",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Ayer",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/time/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "yesterday",
+        "usage_example": "Lo vi ayer.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I saw him yesterday.",
+        "char_count": "three",
+        "usage_context_en": "The day before today",
+        "usage_context_es": "El día antes de hoy",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_5_def0.avif",
+        "target_meaning_es": "Ayer"
+      }
+    ],
+    "group_name": "Time",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Enero",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/month/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "January",
+        "usage_example": "Enero es el primer mes.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "January is the first month.",
+        "char_count": "four",
+        "usage_context_en": "The first month of the year",
+        "usage_context_es": "El primer mes del año",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_6_def0.avif",
+        "target_meaning_es": "Enero"
+      }
+    ],
+    "group_name": "Months",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Febrero",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/month/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "February",
+        "usage_example": "Febrero es un mes corto.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "February is a short month.",
+        "char_count": "four",
+        "usage_context_en": "The second month of the year",
+        "usage_context_es": "El segundo mes del año",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_7_def0.avif",
+        "target_meaning_es": "Febrero"
+      }
+    ],
+    "group_name": "Months",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Marzo",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/month/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "March",
+        "usage_example": "La primavera empieza en marzo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Spring begins in March.",
+        "char_count": "one",
+        "usage_context_en": "The third month of the year",
+        "usage_context_es": "El tercer mes del año",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_8_def0.avif",
+        "target_meaning_es": "Marzo"
+      }
+    ],
+    "group_name": "Months",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Abril",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/month/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "April",
+        "usage_example": "Llueve mucho en abril.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "It rains a lot in April.",
+        "char_count": "two",
+        "usage_context_en": "The fourth month of the year",
+        "usage_context_es": "El cuarto mes del año",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_9_def0.avif",
+        "target_meaning_es": "Abril"
+      }
+    ],
+    "group_name": "Months",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Mayo",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/month/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "May",
+        "usage_example": "Las flores florecen en mayo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Flowers bloom in May.",
+        "char_count": "one",
+        "usage_context_en": "The fifth month of the year",
+        "usage_context_es": "El quinto mes del año",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_10_def0.avif",
+        "target_meaning_es": "Mayo"
+      }
+    ],
+    "group_name": "Months",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Junio",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/month/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "June",
+        "usage_example": "El verano empieza en junio.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Summer starts in June.",
+        "char_count": "one",
+        "usage_context_en": "The sixth month of the year",
+        "usage_context_es": "El sexto mes del año",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_11_def0.avif",
+        "target_meaning_es": "Junio"
+      }
+    ],
+    "group_name": "Months",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Julio",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/month/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "July",
+        "usage_example": "Julio es a menudo muy caluroso.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "July is often very hot.",
+        "char_count": "two",
+        "usage_context_en": "The seventh month of the year",
+        "usage_context_es": "El séptimo mes del año",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_12_def0.avif",
+        "target_meaning_es": "Julio"
+      }
+    ],
+    "group_name": "Months",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Agosto",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/month/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "August",
+        "usage_example": "Nos vamos de vacaciones en agosto.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "We go on vacation in August.",
+        "char_count": "two",
+        "usage_context_en": "The eighth month of the year",
+        "usage_context_es": "El octavo mes del año",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_13_def0.avif",
+        "target_meaning_es": "Agosto"
+      }
+    ],
+    "group_name": "Months",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Septiembre",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/month/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "September",
+        "usage_example": "La escuela empieza en septiembre.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "School starts in September.",
+        "char_count": "three",
+        "usage_context_en": "The ninth month of the year",
+        "usage_context_es": "El noveno mes del año",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_14_def0.avif",
+        "target_meaning_es": "Septiembre"
+      }
+    ],
+    "group_name": "Months",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Octubre",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/month/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "October",
+        "usage_example": "Halloween es en octubre.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Halloween is in October.",
+        "char_count": "three",
+        "usage_context_en": "The tenth month of the year",
+        "usage_context_es": "El décimo mes del año",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_15_def0.avif",
+        "target_meaning_es": "Octubre"
+      }
+    ],
+    "group_name": "Months",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Noviembre",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/month/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "November",
+        "usage_example": "Acción de Gracias es en noviembre.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Thanksgiving is in November.",
+        "char_count": "three",
+        "usage_context_en": "The eleventh month of the year",
+        "usage_context_es": "El undécimo mes del año",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_16_def0.avif",
+        "target_meaning_es": "Noviembre"
+      }
+    ],
+    "group_name": "Months",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Diciembre",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/month/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "December",
+        "usage_example": "Navidad es en diciembre.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Christmas is in December.",
+        "char_count": "three",
+        "usage_context_en": "The twelfth month of the year",
+        "usage_context_es": "El duodécimo mes del año",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_17_def0.avif",
+        "target_meaning_es": "Diciembre"
+      }
+    ],
+    "group_name": "Months",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Fecha",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/time/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "date",
+        "usage_example": "¿Cuál es la fecha de hoy?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "What is the date today?",
+        "char_count": "one",
+        "usage_context_en": "A specific day (e.g., Nov 3) / A romantic meeting",
+        "usage_context_es": "Un día específico (ej. 3 Nov) / Una reunión romántica",
+        "imagePath": "/card_images/nouns/1-basic/calendar/1-basic_calendar_card_18_def0.avif",
+        "target_meaning_es": "Fecha / Cita"
+      }
+    ],
+    "group_name": "Time",
+    "category": ""
+  }
+]

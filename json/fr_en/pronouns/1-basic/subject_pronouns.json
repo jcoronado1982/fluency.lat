@@ -1,0 +1,220 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "I",
+        "phonetic": "/aɪ/",
+        "spoken_phonetic_us": "/aɪ/",
+        "search_term": "pronoun/subject",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Yo]",
+                "usage_example": "I am a student.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE I AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I am a student.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: El pronombre de la 1ª persona singular (el hablante).]",
+                "usage_context_es": "The pronoun for the 1st person singular (the speaker).",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_0_def0.avif"
+            }
+        ],
+        "group_name": "Subject",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "he",
+        "phonetic": "/hiː/",
+        "spoken_phonetic_us": "/hiː/",
+        "search_term": "pronoun/subject",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Él]",
+                "usage_example": "He works at a bank.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE he AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: He works at a bank.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL FR: El pronombre de la 3ª persona singular (masculino) como sujeto.]",
+                "usage_context_es": "The pronoun for the 3rd person singular (male) as the subject.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_2_def0.avif"
+            }
+        ],
+        "group_name": "Subject",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "she",
+        "phonetic": "/ʃiː/",
+        "spoken_phonetic_us": "/ʃiː/",
+        "search_term": "pronoun/subject",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Ella]",
+                "usage_example": "She is a doctor.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE she AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: She is a doctor.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: El pronombre de la 3ª persona singular (femenino) como sujeto.]",
+                "usage_context_es": "The pronoun for the 3rd person singular (female) as the subject.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_3_def0.avif"
+            }
+        ],
+        "group_name": "Subject",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "we",
+        "phonetic": "/wiː/",
+        "spoken_phonetic_us": "/wiː/",
+        "search_term": "pronoun/subject",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Nosotros / Nosotras]",
+                "usage_example": "We are a team.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE we AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: We are a team.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: El pronombre de la 1ª persona plural como sujeto.]",
+                "usage_context_es": "The pronoun for the 1st person plural as the subject.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_5_def0.avif"
+            }
+        ],
+        "group_name": "Subject",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "they",
+        "phonetic": "/ðeɪ/",
+        "spoken_phonetic_us": "/ðeɪ/",
+        "search_term": "pronoun/subject",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Ellos / Ellas]",
+                "usage_example": "They are watching TV.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE they AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: They are watching TV.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: El pronombre de la 3ª persona plural como sujeto.]",
+                "usage_context_es": "The pronoun for the 3rd person plural as the subject.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_6_def0.avif"
+            }
+        ],
+        "group_name": "Subject",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "you",
+        "phonetic": "/juː/",
+        "spoken_phonetic_us": "/juː/",
+        "search_term": "pronoun/subject/object",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Tú / Usted / Ustedes (Sujeto)]",
+                "usage_example": "You are my friend.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE you AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: You are my friend.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: El pronombre de la 2ª persona (el oyente) como sujeto.]",
+                "usage_context_es": "The pronoun for the 2nd person (the listener) as the subject.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_1_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Te / Ti / Le / A usted / Les / A ustedes (Objeto)]",
+                "usage_example": "I will help you.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE you AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I will help you.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: El pronombre de la 2ª persona (el oyente) como objeto.]",
+                "usage_context_es": "The pronoun for the 2nd person (the listener) as the object.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_1_def1.avif"
+            }
+        ],
+        "group_name": "Subject",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "it",
+        "phonetic": "/ɪt/",
+        "spoken_phonetic_us": "/ɪt/",
+        "search_term": "pronoun/subject/object",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: (Sujeto neutro) / Ello]",
+                "usage_example": "It is cold outside.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE it AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: It is cold outside.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: El pronombre de la 3ª persona singular (cosa/animal) como sujeto.]",
+                "usage_context_es": "The pronoun for the 3rd person singular (thing/animal) as the subject.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_4_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Lo / La (Objeto neutro)]",
+                "usage_example": "I don't understand it.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE it AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: I don't understand it.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: El pronombre de la 3ª persona singular (cosa/animal) como objeto.]",
+                "usage_context_es": "The pronoun for the 3rd person singular (thing/animal) as the object.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_4_def1.avif"
+            }
+        ],
+        "group_name": "Subject",
+        "category": "Basic"
+    }
+]

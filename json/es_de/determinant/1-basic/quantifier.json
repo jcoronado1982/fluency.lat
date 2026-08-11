@@ -1,0 +1,410 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "etwas",
+    "phonetic": "/ˈɛtvas/",
+    "spoken_phonetic_us": "/ˈɛtvas/",
+    "search_term": "determiner/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Quantifiers",
+    "definitions": [
+      {
+        "meaning": "Algo de / Unos / Algunas",
+        "usage_example": "Ich brauche etwas Wasser. / Ich brauche ein paar Äpfel.",
+        "pronunciation_guide_es": "/ish_BRAU-je_ET-vas_VA-ser_ish_BRAU-je_ain_PAR_EP-fel/",
+        "usage_example_es": "Necesito algo de agua. / Necesito unas manzanas.",
+        "char_count": "4",
+        "usage_context_en": "Used for an unspecified amount in affirmative sentences.",
+        "usage_context_es": "Usado para una cantidad no especificada en oraciones afirmativas.",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_0_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "irgendein",
+    "phonetic": "/ˈɪʁɡəntʔaɪn/",
+    "spoken_phonetic_us": "/ˈɪʁɡəntʔaɪn/",
+    "search_term": "determiner/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Quantifiers",
+    "definitions": [
+      {
+        "meaning": "Algo de / Algún / Alguna (preguntas)",
+        "usage_example": "Hast du irgendein Geld?",
+        "pronunciation_guide_es": "/hast_du_IR-gent-ain_GELT/",
+        "usage_example_es": "¿Tienes (algo de) dinero?",
+        "char_count": "5",
+        "usage_context_en": "Used for an unspecified amount in questions.",
+        "usage_context_es": "Usado para una cantidad no especificada en preguntas.",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_1_def0.avif"
+      },
+      {
+        "meaning": "Nada de / Ningún / Ninguna (negativos)",
+        "usage_example": "Ich habe kein Geld.",
+        "pronunciation_guide_es": "/ish_HA-be_KAIN_GELT/",
+        "usage_example_es": "No tengo (nada de) dinero.",
+        "char_count": "5",
+        "usage_context_en": "Used for a zero amount in negative sentences.",
+        "usage_context_es": "Usado para una cantidad cero en oraciones negativas.",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_1_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "kein",
+    "phonetic": "/kaɪn/",
+    "spoken_phonetic_us": "/kaɪn/",
+    "search_term": "determiner/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Quantifiers",
+    "definitions": [
+      {
+        "meaning": "No / Ningún / Ninguna",
+        "usage_example": "Ich habe kein Geld.",
+        "pronunciation_guide_es": "/ish_HA-be_KAIN_GELT/",
+        "usage_example_es": "No tengo dinero. (Tengo cero dinero).",
+        "char_count": "4",
+        "usage_context_en": "Used to indicate zero amount (stronger than 'not any').",
+        "usage_context_es": "Usado para indicar cantidad cero (más fuerte que 'not any').",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_2_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ganz",
+    "phonetic": "/ɡants/",
+    "spoken_phonetic_us": "/ɡants/",
+    "search_term": "determiner/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Quantifiers",
+    "definitions": [
+      {
+        "meaning": "Todo/a / Todos/as",
+        "usage_example": "Das ganze Essen ist fertig.",
+        "pronunciation_guide_es": "/das_GAN-tse_E-sen_ist_FER-tish/",
+        "usage_example_es": "Toda la comida está lista.",
+        "char_count": "5",
+        "usage_context_en": "Used to refer to the whole quantity or extent of something.",
+        "usage_context_es": "Usado para referirse a la cantidad total o extensión de algo.",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_3_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "viel",
+    "phonetic": "/fiːl/",
+    "spoken_phonetic_us": "/fiːl/",
+    "search_term": "determiner/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Quantifiers",
+    "definitions": [
+      {
+        "meaning": "Mucho / Mucha",
+        "usage_example": "Ich habe nicht viel Zeit.",
+        "pronunciation_guide_es": "/ish_HA-be_nisht_FIL_TSAIT/",
+        "usage_example_es": "No tengo mucho tiempo.",
+        "char_count": "5",
+        "usage_context_en": "Used for a large amount of an uncountable noun (mainly in questions/negatives).",
+        "usage_context_es": "Usado para una gran cantidad de un sustantivo incontable (principalmente en preguntas/negativos).",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_4_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "viele",
+    "phonetic": "/ˈfiːlə/",
+    "spoken_phonetic_us": "/ˈfiːlə/",
+    "search_term": "determiner/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Quantifiers",
+    "definitions": [
+      {
+        "meaning": "Muchos / Muchas",
+        "usage_example": "Ich habe viele Freunde.",
+        "pronunciation_guide_es": "/ish_HA-be_FI-le_FROIN-de/",
+        "usage_example_es": "Tengo muchos amigos.",
+        "char_count": "4",
+        "usage_context_en": "Used for a large number of a countable noun.",
+        "usage_context_es": "Usado para un gran número de un sustantivo contable.",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_5_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "viel",
+    "phonetic": "/fiːl/",
+    "spoken_phonetic_us": "/fiːl/",
+    "search_term": "determiner/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Quantifiers",
+    "definitions": [
+      {
+        "meaning": "Mucho / Mucha / Muchos / Muchas",
+        "usage_example": "Ich habe viele Freunde. / Ich habe viel Zeit.",
+        "pronunciation_guide_es": "/ish_HA-be_FI-le_FROIN-de_ish_HA-be_FIL_TSAIT/",
+        "usage_example_es": "Tengo muchos amigos. / Tengo mucho tiempo.",
+        "char_count": 5,
+        "usage_context_en": "A large amount or number (used with both countable and uncountable nouns).",
+        "usage_context_es": "Una gran cantidad o número (usado con sustantivos contables e incontables).",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_6_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "wenige",
+    "phonetic": "/ˈveːnɪɡə/",
+    "spoken_phonetic_us": "/ˈveːnɪɡə/",
+    "search_term": "determiner/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Quantifiers",
+    "definitions": [
+      {
+        "meaning": "Pocos / Pocas (casi nada)",
+        "usage_example": "Er hat wenige Freunde.",
+        "pronunciation_guide_es": "/er_hat_VE-ni-ge_FROIN-de/",
+        "usage_example_es": "Él tiene pocos amigos. (sentido negativo)",
+        "char_count": "4",
+        "usage_context_en": "Used for a small number of a countable noun (implies a negative quantity, 'not enough').",
+        "usage_context_es": "Usado para un pequeño número de un sustantivo contable (implica cantidad negativa, 'no suficientes').",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_7_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "wenig",
+    "phonetic": "/ˈveːnɪç/",
+    "spoken_phonetic_us": "/ˈveːnɪç/",
+    "search_term": "determiner/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Quantifiers",
+    "definitions": [
+      {
+        "meaning": "Poco / Poca (casi nada)",
+        "usage_example": "Er hat wenig Zeit.",
+        "pronunciation_guide_es": "/er_hat_VE-nish_TSAIT/",
+        "usage_example_es": "Él tiene poco tiempo. (sentido negativo)",
+        "char_count": "4",
+        "usage_context_en": "Used for a small amount of an uncountable noun (implies a negative quantity, 'not enough').",
+        "usage_context_es": "Usado para una pequeña cantidad de un sustantivo incontable (implica cantidad negativa, 'no suficiente').",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_8_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "genug",
+    "phonetic": "/ɡəˈnuːk/",
+    "spoken_phonetic_us": "/ɡəˈnuːk/",
+    "search_term": "determiner/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Quantifiers",
+    "definitions": [
+      {
+        "meaning": "Suficiente(s)",
+        "usage_example": "Ich habe nicht genug Geld.",
+        "pronunciation_guide_es": "/ish_HA-be_nisht_ge-NUK_GELT/",
+        "usage_example_es": "No tengo suficiente dinero.",
+        "char_count": "5",
+        "usage_context_en": "As much or as many as is necessary or required.",
+        "usage_context_es": "Tanto o tantos como sea necesario o requerido.",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_9_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "mehr",
+    "phonetic": "/meːɐ̯/",
+    "spoken_phonetic_us": "/meːɐ̯/",
+    "search_term": "determiner/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Quantifiers",
+    "definitions": [
+      {
+        "meaning": "Más",
+        "usage_example": "Ich brauche mehr Zeit.",
+        "pronunciation_guide_es": "/ish_BRAU-je_MER_TSAIT/",
+        "usage_example_es": "Necesito más tiempo.",
+        "char_count": "4",
+        "usage_context_en": "A greater or additional amount or degree.",
+        "usage_context_es": "Una cantidad o grado mayor o adicional.",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_10_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "weniger",
+    "phonetic": "/ˈveːnɪɡɐ/",
+    "spoken_phonetic_us": "/ˈveːnɪɡɐ/",
+    "search_term": "determiner/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Quantifiers",
+    "definitions": [
+      {
+        "meaning": "Menos (incontable)",
+        "usage_example": "Ich habe weniger Geld als du.",
+        "pronunciation_guide_es": "/ish_HA-be_VE-ni-ger_GELT_als_DU/",
+        "usage_example_es": "Tengo menos dinero que tú.",
+        "char_count": "6",
+        "usage_context_en": "A smaller amount of (used with uncountable nouns).",
+        "usage_context_es": "Una cantidad menor de (usado con sustantivos incontables).",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_11_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "noch ein",
+    "phonetic": "/nɔx aɪn/",
+    "spoken_phonetic_us": "/nɔx aɪn/",
+    "search_term": "determiner/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Quantifiers",
+    "definitions": [
+      {
+        "meaning": "Otro/a (uno más, adicional)",
+        "usage_example": "Kann ich noch einen Keks haben?",
+        "pronunciation_guide_es": "/kan_ish_noj_AI-nen_KEKS_HA-ben/",
+        "usage_example_es": "¿Puedo tomar otra galleta?",
+        "char_count": "5",
+        "usage_context_en": "Used for one more, additional, singular countable noun.",
+        "usage_context_es": "Usado para uno más, adicional, sustantivo contable singular.",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_12_def0.avif"
+      },
+      {
+        "meaning": "Otro/a (diferente)",
+        "usage_example": "Lass uns an einem anderen Tag treffen.",
+        "pronunciation_guide_es": "/las_uns_an_AI-nem_AN-de-ren_TAK_TRE-fen/",
+        "usage_example_es": "Reunámonos otro día.",
+        "char_count": "4",
+        "usage_context_en": "Used for a different singular countable noun.",
+        "usage_context_es": "Usado para un sustantivo contable singular diferente.",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_12_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "andere",
+    "phonetic": "/ˈandəʁə/",
+    "spoken_phonetic_us": "/ˈandəʁə/",
+    "search_term": "determiner/quantifier",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Quantifiers",
+    "definitions": [
+      {
+        "meaning": "Otro/a / Otros/as (general)",
+        "usage_example": "Hast du andere Optionen?",
+        "pronunciation_guide_es": "/hast_du_AN-de-re_op-TSI-o-nen/",
+        "usage_example_es": "¿Tienes otras opciones?",
+        "char_count": "5",
+        "usage_context_en": "Used for different or additional plural or uncountable nouns.",
+        "usage_context_es": "Usado para sustantivos plurales o incontables diferentes o adicionales.",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_13_def0.avif"
+      },
+      {
+        "meaning": "El/La otro/a (específico)",
+        "usage_example": "Der andere Schlüssel liegt auf dem Tisch.",
+        "pronunciation_guide_es": "/der_AN-de-re_SHLUE-sel_LIKT_auf_dem_TISH/",
+        "usage_example_es": "La otra llave está en la mesa.",
+        "char_count": "7",
+        "usage_context_en": "Used with 'the' to refer to the second of two specific things.",
+        "usage_context_es": "Usado con 'the' para referirse al segundo de dos objetos específicos.",
+        "imagePath": "/card_images/determinant/1-basic/quantifier/1-basic_quantifier_card_13_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  }
+]

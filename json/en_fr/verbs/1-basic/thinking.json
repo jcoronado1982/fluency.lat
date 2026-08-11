@@ -1,0 +1,353 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: know]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/knowledge/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "know",
+                "usage_example": "[TRADUCIR AL FR: I know the answer.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I know the answer.",
+                "char_count": "one",
+                "usage_context_en": "information/facts",
+                "usage_context_es": "[TRADUCIR AL FR: information/facts]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_know_def0.avif"
+            },
+            {
+                "meaning": "know (def 2)",
+                "usage_example": "[TRADUCIR AL FR: I know her from school.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I know her from school.",
+                "char_count": "one",
+                "usage_context_en": "people/places",
+                "usage_context_es": "[TRADUCIR AL FR: people/places]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_know_def1.avif"
+            }
+        ],
+        "group_name": "Mind & Senses",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: see]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/vision/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "see",
+                "usage_example": "[TRADUCIR AL FR: I can see the ocean from here.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I can see the ocean from here.",
+                "char_count": "one",
+                "usage_context_en": "vision/sight",
+                "usage_context_es": "[TRADUCIR AL FR: vision/sight]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_9_def0.avif"
+            },
+            {
+                "meaning": "see (def 2)",
+                "usage_example": "[TRADUCIR AL FR: I see what you mean.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I see what you mean.",
+                "char_count": "one",
+                "usage_context_en": "understanding/realization",
+                "usage_context_es": "[TRADUCIR AL FR: understanding/realization]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_9_def1.avif"
+            }
+        ],
+        "group_name": "Mind & Senses",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: think]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/opinion/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "think",
+                "usage_example": "[TRADUCIR AL FR: I think about my future a lot.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I think about my future a lot.",
+                "char_count": "one",
+                "usage_context_en": "reasoning/reflection",
+                "usage_context_es": "[TRADUCIR AL FR: reasoning/reflection]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_think_def0.avif"
+            },
+            {
+                "meaning": "think (def 2)",
+                "usage_example": "[TRADUCIR AL FR: I think it will rain today.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I think it will rain today.",
+                "char_count": "one",
+                "usage_context_en": "opinion/belief",
+                "usage_context_es": "[TRADUCIR AL FR: opinion/belief]",
+                "imagePath": "/card_images/verbs/1-basic/demo-sync/1-basic_think_def1.avif"
+            }
+        ],
+        "group_name": "Mind & Senses",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: look]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/look/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "look",
+                "usage_example": "[TRADUCIR AL FR: Look at me.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Look at me.",
+                "char_count": "one",
+                "usage_context_en": "attention/vision",
+                "usage_context_es": "[TRADUCIR AL FR: attention/vision]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_71_def0.avif"
+            },
+            {
+                "meaning": "look (def 2)",
+                "usage_example": "[TRADUCIR AL FR: She looks happy.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "She looks happy.",
+                "char_count": "one",
+                "usage_context_en": "appearance/impression",
+                "usage_context_es": "[TRADUCIR AL FR: appearance/impression]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_71_def1.avif"
+            }
+        ],
+        "group_name": "Perception & Attention",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: hear]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/sound/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "hear",
+                "usage_example": "[TRADUCIR AL FR: Did you hear that noise?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Did you hear that noise?",
+                "char_count": "one",
+                "usage_context_en": "sound/sense",
+                "usage_context_es": "[TRADUCIR AL FR: sound/sense]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_33_def0.avif"
+            },
+            {
+                "meaning": "hear (def 2)",
+                "usage_example": "[TRADUCIR AL FR: I haven't heard from him in weeks.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I haven't heard from him in weeks.",
+                "char_count": "one",
+                "usage_context_en": "news/communication",
+                "usage_context_es": "[TRADUCIR AL FR: news/communication]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_33_def1.avif"
+            }
+        ],
+        "group_name": "Communication",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: listen]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/listen/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "listen",
+                "usage_example": "[TRADUCIR AL FR: Listen to me.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Listen to me.",
+                "char_count": "one",
+                "usage_context_en": "attention/sound",
+                "usage_context_es": "[TRADUCIR AL FR: attention/sound]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_72_def0.avif"
+            },
+            {
+                "meaning": "listen (def 2)",
+                "usage_example": "[TRADUCIR AL FR: They didn't listen to the advice.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "They didn't listen to the advice.",
+                "char_count": "one",
+                "usage_context_en": "advice/instructions",
+                "usage_context_es": "[TRADUCIR AL FR: advice/instructions]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_72_def1.avif"
+            }
+        ],
+        "group_name": "Perception & Attention",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: find]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/discover/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "find",
+                "usage_example": "[TRADUCIR AL FR: I can't find my keys.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I can't find my keys.",
+                "char_count": "one",
+                "usage_context_en": "search/discovery",
+                "usage_context_es": "[TRADUCIR AL FR: search/discovery]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_14_def0.avif"
+            },
+            {
+                "meaning": "find (def 2)",
+                "usage_example": "[TRADUCIR AL FR: I find the movie boring.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I find the movie boring.",
+                "char_count": "one",
+                "usage_context_en": "opinion/judgment",
+                "usage_context_es": "[TRADUCIR AL FR: opinion/judgment]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_14_def1.avif"
+            }
+        ],
+        "group_name": "Mind & Senses",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: watch]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/observe/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "watch",
+                "usage_example": "[TRADUCIR AL FR: I watch TV every night.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I watch TV every night.",
+                "char_count": "one",
+                "usage_context_en": "entertainment/warning",
+                "usage_context_es": "[TRADUCIR AL FR: entertainment/warning]",
+                "imagePath": ""
+            },
+            {
+                "meaning": "watch (def 2)",
+                "usage_example": "[TRADUCIR AL FR: Can you watch my bag for a moment?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "Can you watch my bag for a moment?",
+                "char_count": "one",
+                "usage_context_en": "supervision/care",
+                "usage_context_es": "[TRADUCIR AL FR: supervision/care]",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Mind & Senses",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL FR: mean]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/signify/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "mean",
+                "usage_example": "[TRADUCIR AL FR: What does this word mean?]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "What does this word mean?",
+                "char_count": "one",
+                "usage_context_en": "definition/intention",
+                "usage_context_es": "[TRADUCIR AL FR: definition/intention]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_18_def0.avif"
+            },
+            {
+                "meaning": "mean (def 2)",
+                "usage_example": "[TRADUCIR AL FR: I mean to finish this project soon.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN FR PARA HABLANTES DE EN]",
+                "alternative_example": "",
+                "usage_example_es": "I mean to finish this project soon.",
+                "char_count": "one",
+                "usage_context_en": "intention/purpose",
+                "usage_context_es": "[TRADUCIR AL FR: intention/purpose]",
+                "imagePath": "/card_images/verbs/1-basic/1-basic_card_18_def1.avif"
+            }
+        ],
+        "group_name": "Being & State",
+        "category": ""
+    }
+]

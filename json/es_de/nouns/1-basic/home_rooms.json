@@ -1,0 +1,370 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Hogar",
+        "pronunciation_guide_es": "/ish_GE-e_naj_HAU-ze/",
+        "usage_context_en": "The place where you live",
+        "usage_context_es": "El lugar donde vives",
+        "usage_example": "Ich gehe nach Hause.",
+        "usage_example_es": "Voy a casa.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_0_def0.avif"
+      },
+      {
+        "char_count": "5",
+        "meaning": "Institución o residencia",
+        "pronunciation_guide_es": "/zi_LEPT_in_AI-nem_PFLE-ge-haim/",
+        "usage_context_en": "A place where people live and are cared for, such as a nursing home.",
+        "usage_context_es": "Un lugar donde las personas viven y reciben cuidado, como un hogar de ancianos.",
+        "usage_example": "Sie lebt in einem Pflegeheim.",
+        "usage_example_es": "Ella vive en un hogar de ancianos.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_0_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places",
+    "is_verb": false,
+    "name": "das Zuhause",
+    "phonetic": "/das tsuˈhaʊzə/",
+    "search_term": "noun/place/essentials",
+    "spoken_phonetic_us": "/das tsuˈhaʊzə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Casa (edificio)",
+        "pronunciation_guide_es": "/das_ist_ain_GRO-ses_HAUS/",
+        "usage_context_en": "A building for living in",
+        "usage_context_es": "Un edificio para vivir",
+        "usage_example": "Das ist ein großes Haus.",
+        "usage_example_es": "Esa es una casa grande.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_1_def0.avif"
+      },
+      {
+        "char_count": "5",
+        "meaning": "Cámara legislativa",
+        "pronunciation_guide_es": "/das_re-pre-zen-TAN-ten-haus_fer-AP-shi-de-te_das_ge-ZETS/",
+        "usage_context_en": "A legislative or deliberative body.",
+        "usage_context_es": "Un cuerpo legislativo o deliberativo.",
+        "usage_example": "Das Repräsentantenhaus verabschiedete das Gesetz.",
+        "usage_example_es": "La cámara aprobó el proyecto de ley.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_1_def1.avif"
+      },
+      {
+        "char_count": "5",
+        "meaning": "Familia noble / dinastía",
+        "pronunciation_guide_es": "/das_HAUS_VIND-zor_ist_be-RUEMT/",
+        "usage_context_en": "A royal or noble family line.",
+        "usage_context_es": "Una familia real o noble.",
+        "usage_example": "Das Haus Windsor ist berühmt.",
+        "usage_example_es": "La Casa de Windsor es famosa.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_1_def2.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places",
+    "is_verb": false,
+    "name": "das Haus",
+    "phonetic": "/das haʊs/",
+    "search_term": "noun/building/essentials",
+    "spoken_phonetic_us": "/das haʊs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Habitación / Cuarto",
+        "pronunciation_guide_es": "/main_TSI-mer_ist_KLAIN/",
+        "usage_context_en": "A part of the inside of a building",
+        "usage_context_es": "Una parte del interior de un edificio",
+        "usage_example": "Mein Zimmer ist klein.",
+        "usage_example_es": "Mi habitación es pequeña.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_2_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Places",
+    "is_verb": false,
+    "name": "das Zimmer",
+    "phonetic": "/das ˈtsɪmɐ/",
+    "search_term": "noun/place/house/essentials",
+    "spoken_phonetic_us": "/das ˈtsɪmɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Cocina",
+        "pronunciation_guide_es": "/ish_bin_in_der_KUE-che/",
+        "usage_context_en": "A room for cooking",
+        "usage_context_es": "Un cuarto para cocinar",
+        "usage_example": "Ich bin in der Küche.",
+        "usage_example_es": "Estoy en la cocina.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_3_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Küche",
+    "phonetic": "/diː ˈkʏçə/",
+    "search_term": "noun/place/house/essentials",
+    "spoken_phonetic_us": "/diː ˈkʏçə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "meaning": "Baño",
+        "pronunciation_guide_es": "/vo_ist_das_BA-de-tsi-mer/",
+        "usage_context_en": "A room with a toilet and sink",
+        "usage_context_es": "Un cuarto con un inodoro y un lavamanos",
+        "usage_example": "Wo ist das Badezimmer?",
+        "usage_example_es": "¿Dónde está el baño?",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_4_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Badezimmer",
+    "phonetic": "/das ˈbaːdətsɪmɐ/",
+    "search_term": "noun/place/house/essentials",
+    "spoken_phonetic_us": "/das ˈbaːdətsɪmɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "usage_example_es": "Mi dormitorio es grande.",
+        "meaning": "Dormitorio / Habitación",
+        "pronunciation_guide_es": "/main_SHLAF-tsi-mer_ist_GROS/",
+        "usage_context_en": "A room for sleeping",
+        "usage_context_es": "Un cuarto para dormir",
+        "usage_example": "Mein Schlafzimmer ist groß.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_5_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Schlafzimmer",
+    "phonetic": "/das ˈʃlaːftsɪmɐ/",
+    "search_term": "noun/place/house/essentials",
+    "spoken_phonetic_us": "/das ˈʃlaːftsɪmɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Piso / Suelo (de un cuarto)",
+        "pronunciation_guide_es": "/di_SHLUE-sel_LI-gen_auf_dem_BO-den/",
+        "usage_context_en": "The surface of a room you walk on",
+        "usage_context_es": "La superficie de un cuarto sobre la que caminas",
+        "usage_example": "Die Schlüssel liegen auf dem Boden.",
+        "usage_example_es": "Las llaves están en el piso.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_6_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "der Boden",
+    "phonetic": "/deːɐ ˈboːdn̩/",
+    "search_term": "noun/place/household/essentials",
+    "spoken_phonetic_us": "/deːɐ ˈboːdn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Pared / Muro",
+        "pronunciation_guide_es": "/das_BILT_HENGT_an_der_VANT/",
+        "usage_context_en": "The side of a room or building",
+        "usage_context_es": "El lado de un cuarto o edificio",
+        "usage_example": "Das Bild hängt an der Wand.",
+        "usage_example_es": "El cuadro está en la pared.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_7_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Wand",
+    "phonetic": "/diː vant/",
+    "search_term": "noun/place/household/essentials",
+    "spoken_phonetic_us": "/diː vant/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Techo (exterior) / Tejado",
+        "pronunciation_guide_es": "/di_KAT-se_ist_auf_dem_DACH/",
+        "usage_context_en": "The cover on top of a building",
+        "usage_context_es": "La cubierta en la cima de un edificio",
+        "usage_example": "Die Katze ist auf dem Dach.",
+        "usage_example_es": "El gato está en el techo.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_8_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "das Dach",
+    "phonetic": "/das dax/",
+    "search_term": "noun/place/household/essentials",
+    "spoken_phonetic_us": "/das dax/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "two",
+        "usage_example_es": "La lámpara cuelga del techo.",
+        "meaning": "Techo (interior)",
+        "pronunciation_guide_es": "/di_LAM-pe_HENGT_fon_der_DE-ke/",
+        "usage_context_en": "The inside top surface of a room",
+        "usage_context_es": "La superficie superior interna de un cuarto",
+        "usage_example": "Die Lampe hängt von der Decke.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Household",
+    "is_verb": false,
+    "name": "die Decke",
+    "phonetic": "/diː ˈdɛkə/",
+    "search_term": "noun/place/household/essentials",
+    "spoken_phonetic_us": "/diː ˈdɛkə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "11",
+        "meaning": "The main room in a home for sitting and relaxing.",
+        "pronunciation_guide_es": "/vir_ZE-en_im_VON-tsi-mer_FERN/",
+        "usage_context_en": "The main room in a home for sitting and relaxing.",
+        "usage_context_es": "La habitación principal de una casa para sentarse y relajarse.",
+        "usage_example": "Wir sehen im Wohnzimmer fern.",
+        "usage_example_es": "Vemos televisión en la sala.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Home",
+    "is_verb": false,
+    "name": "das Wohnzimmer",
+    "phonetic": "/das ˈvoːntsɪmɐ/",
+    "search_term": "noun/home/seed",
+    "spoken_phonetic_us": "/das ˈvoːntsɪmɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "11",
+        "meaning": "A room where people eat meals.",
+        "pronunciation_guide_es": "/das_A-bent-e-sen_ist_im_ES-tsi-mer/",
+        "usage_context_en": "A room where people eat meals.",
+        "usage_context_es": "Un cuarto donde la gente come.",
+        "usage_example": "Das Abendessen ist im Esszimmer.",
+        "usage_example_es": "La cena es en el comedor.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_11_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Home",
+    "is_verb": false,
+    "name": "das Esszimmer",
+    "phonetic": "/das ˈɛstsɪmɐ/",
+    "search_term": "noun/home/seed",
+    "spoken_phonetic_us": "/das ˈɛstsɪmɐ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "meaning": "A place where a car is kept.",
+        "pronunciation_guide_es": "/das_AU-to_ist_in_der_ga-RA-she/",
+        "usage_context_en": "A place where a car is kept.",
+        "usage_context_es": "Un lugar donde se guarda un carro.",
+        "usage_example": "Das Auto ist in der Garage.",
+        "usage_example_es": "El carro está en el garaje.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_12_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Home",
+    "is_verb": false,
+    "name": "die Garage",
+    "phonetic": "/diː ɡaˈʁaːʒə/",
+    "search_term": "noun/home/seed",
+    "spoken_phonetic_us": "/diː ɡaˈʁaːʒə/"
+  }
+]

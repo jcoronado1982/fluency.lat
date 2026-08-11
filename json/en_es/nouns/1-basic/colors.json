@@ -1,0 +1,350 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Rojo",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/color/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "red",
+        "usage_example": "La manzana es roja.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The apple is red.",
+        "char_count": "one",
+        "usage_context_en": "The color of blood",
+        "usage_context_es": "El color de la sangre",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_0_def0.avif",
+        "target_meaning_es": "Rojo"
+      }
+    ],
+    "group_name": "Colors",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Azul",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/color/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "blue",
+        "usage_example": "El cielo es azul.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The sky is blue.",
+        "char_count": "one",
+        "usage_context_en": "The color of the sky",
+        "usage_context_es": "El color del cielo",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_1_def0.avif",
+        "target_meaning_es": "Azul"
+      }
+    ],
+    "group_name": "Colors",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Verde",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/color/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "green",
+        "usage_example": "El pasto es verde.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The grass is green.",
+        "char_count": "one",
+        "usage_context_en": "The color of grass",
+        "usage_context_es": "El color del pasto",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_2_def0.avif",
+        "target_meaning_es": "Verde"
+      }
+    ],
+    "group_name": "Colors",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Amarillo",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/color/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "yellow",
+        "usage_example": "El sol es amarillo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The sun is yellow.",
+        "char_count": "two",
+        "usage_context_en": "The color of the sun",
+        "usage_context_es": "El color del sol",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_3_def0.avif",
+        "target_meaning_es": "Amarillo"
+      }
+    ],
+    "group_name": "Colors",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Negro",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/color/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "black",
+        "usage_example": "El gato es negro.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The cat is black.",
+        "char_count": "one",
+        "usage_context_en": "The darkest color, like night",
+        "usage_context_es": "El color más oscuro, como la noche",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_4_def0.avif",
+        "target_meaning_es": "Negro"
+      }
+    ],
+    "group_name": "Colors",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Blanco",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/color/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "white",
+        "usage_example": "La nieve es blanca.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The snow is white.",
+        "char_count": "one",
+        "usage_context_en": "The color of milk or snow",
+        "usage_context_es": "El color de la leche o la nieve",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_5_def0.avif",
+        "target_meaning_es": "Blanco"
+      }
+    ],
+    "group_name": "Colors",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Color",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "color",
+        "usage_example": "¿Cuál es tu color favorito?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "What is your favorite color?",
+        "char_count": "two",
+        "usage_context_en": "Red, blue, green, yellow, etc.",
+        "usage_context_es": "Rojo, azul, verde, amarillo, etc.",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_6_def0.avif",
+        "target_meaning_es": "Color"
+      }
+    ],
+    "group_name": "Colors",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Marrón / Café",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/color/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "brown",
+        "usage_example": "Sus zapatos son marrones.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "His shoes are brown.",
+        "char_count": "one",
+        "usage_context_en": "The color of wood or earth",
+        "usage_context_es": "El color de la madera o la tierra",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_7_def0.avif",
+        "target_meaning_es": "Marrón / Café"
+      }
+    ],
+    "group_name": "Colors",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Gris",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/color/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "gray",
+        "usage_example": "El cielo está gris.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The sky is gray.",
+        "char_count": "one",
+        "usage_context_en": "A color between black and white (AmE)",
+        "usage_context_es": "Un color entre negro y blanco (AmE)",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_8_def0.avif",
+        "target_meaning_es": "Gris"
+      }
+    ],
+    "group_name": "Colors",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Rosado / Rosa",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/color/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "pink",
+        "usage_example": "Una flor rosada.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "A pink flower.",
+        "char_count": "one",
+        "usage_context_en": "A light red color",
+        "usage_context_es": "Un color rojo claro",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_9_def0.avif",
+        "target_meaning_es": "Rosado / Rosa"
+      }
+    ],
+    "group_name": "Colors",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Morado / Púrpura",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/color/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "purple",
+        "usage_example": "Las uvas son moradas.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Grapes are purple.",
+        "char_count": "two",
+        "usage_context_en": "A color between red and blue",
+        "usage_context_es": "Un color entre rojo y azul",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_10_def0.avif",
+        "target_meaning_es": "Morado / Púrpura"
+      }
+    ],
+    "group_name": "Colors",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Naranja (color)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/colors/seed",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "orange",
+        "usage_example": "La camisa es naranja.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The shirt is orange.",
+        "char_count": "6",
+        "usage_context_en": "The color between red and yellow.",
+        "usage_context_es": "El color entre rojo y amarillo.",
+        "imagePath": "/card_images/nouns/1-basic/colors/1-basic_colors_card_11_def0.avif",
+        "target_meaning_es": "Naranja (color)"
+      }
+    ],
+    "group_name": "Colors",
+    "category": ""
+  }
+]

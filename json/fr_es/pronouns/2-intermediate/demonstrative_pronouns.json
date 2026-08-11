@@ -1,0 +1,114 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Este / Esta / Esto",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/demonstrative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Este / Esta / Esto]",
+                "usage_example": "Este es mi libro favorito.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Este es mi libro favorito.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: Usado como pronombre para un objeto singular cerca del hablante.]",
+                "usage_context_es": "Usado como pronombre para un objeto singular cerca del hablante.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_23_def0.avif"
+            }
+        ],
+        "group_name": "Demostrativo",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Ese / Esa / Aquel / Aquella",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/demonstrative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Ese / Esa / Aquel / Aquella]",
+                "usage_example": "Ese es mi carro.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Ese es mi carro.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: Usado como pronombre para un objeto singular que está lejos del hablante.]",
+                "usage_context_es": "Usado como pronombre para un objeto singular que está lejos del hablante.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_24_def0.avif"
+            }
+        ],
+        "group_name": "Demostrativo",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Estos / Estas",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/demonstrative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Estos / Estas]",
+                "usage_example": "Estas son mis llaves.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Estas son mis llaves.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: Usado como pronombre para objetos plurales cerca del hablante.]",
+                "usage_context_es": "Usado como pronombre para objetos plurales cerca del hablante.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_25_def0.avif"
+            }
+        ],
+        "group_name": "Demostrativo",
+        "category": "Basic"
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Esos / Esas / Aquellos / Aquellas",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "pronoun/demonstrative",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Esos / Esas / Aquellos / Aquellas]",
+                "usage_example": "Esas son mis llaves.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Esas son mis llaves.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: Usado como pronombre para objetos plurales lejos del hablante.]",
+                "usage_context_es": "Usado como pronombre para objetos plurales lejos del hablante.",
+                "imagePath": "/card_images/pronouns/1-basic/1-basic_card_26_def0.avif"
+            }
+        ],
+        "group_name": "Demostrativo",
+        "category": "Basic"
+    }
+]

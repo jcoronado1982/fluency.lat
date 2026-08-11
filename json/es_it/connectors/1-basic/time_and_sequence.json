@@ -1,0 +1,181 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: first]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adverb/sequence",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Primero / En primer lugar",
+                "usage_example": "[TRADUCIR AL IT: First, open the box. Then, read the manual.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Primero, abre la caja. Luego, lee el manual.",
+                "char_count": "7",
+                "usage_context_en": "Usado para marcar el inicio de una secuencia o lista.",
+                "usage_context_es": "[TRADUCIR AL IT: Used to mark the beginning of a sequence or list.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_13_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Sequence",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: next]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adverb/sequence",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Luego / Siguiente",
+                "usage_example": "[TRADUCIR AL IT: Next, add the sugar.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Luego, añade el azúcar.",
+                "char_count": "4",
+                "usage_context_en": "Usado para indicar el paso siguiente al actual.",
+                "usage_context_es": "[TRADUCIR AL IT: Used to indicate the step following the current one.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_15_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Sequence",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: after that]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "phrase/sequence",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Después de eso",
+                "usage_example": "[TRADUCIR AL IT: We ate dinner, and after that, we watched a movie.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Cenamos y, después de eso, vimos una película.",
+                "char_count": "9",
+                "usage_context_en": "Usado para introducir el siguiente evento en una secuencia.",
+                "usage_context_es": "[TRADUCIR AL IT: Used to introduce the next event in a sequence.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_16_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Sequence",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: finally]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adverb/sequence",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Finalmente / Por último",
+                "usage_example": "[TRADUCIR AL IT: Finally, close the box.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Finalmente, cierra la caja.",
+                "char_count": "4",
+                "usage_context_en": "Usado para introducir el último ítem en una lista o secuencia.",
+                "usage_context_es": "[TRADUCIR AL IT: Used to introduce the last item in a list or sequence.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_17_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Sequence",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: then]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "adverb/sequence/result",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Luego / Después",
+                "usage_example": "[TRADUCIR AL IT: First I work, then I rest.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Primero trabajo, luego descanso.",
+                "char_count": "5",
+                "usage_context_en": "Usado para indicar lo que sucede a continuación en una secuencia.",
+                "usage_context_es": "[TRADUCIR AL IT: Used to indicate what happens next in a sequence.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_14_def0.avif"
+            },
+            {
+                "meaning": "Entonces / En ese caso",
+                "usage_example": "[TRADUCIR AL IT: If you are hungry, then you should eat.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Si tienes hambre, entonces deberías comer.",
+                "char_count": "7",
+                "usage_context_en": "Usado para indicar una consecuencia o resultado.",
+                "usage_context_es": "[TRADUCIR AL IT: Used to state a consequence or result.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_14_def1.avif"
+            }
+        ],
+        "group_name": "Connectors: Sequence",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "[TRADUCIR AL IT: when]",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "conjunction/time",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "Cuando",
+                "usage_example": "[TRADUCIR AL IT: Call me when you arrive.]",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN IT PARA HABLANTES DE ES]",
+                "alternative_example": "",
+                "usage_example_es": "Llámame cuando llegues.",
+                "char_count": "5",
+                "usage_context_en": "Usado para introducir una cláusula de tiempo.",
+                "usage_context_es": "[TRADUCIR AL IT: Used to introduce a clause of time.]",
+                "imagePath": "/card_images/connectors/1-basic/1-basic_card_38_def0.avif"
+            }
+        ],
+        "group_name": "Connectors: Time",
+        "category": ""
+    }
+]

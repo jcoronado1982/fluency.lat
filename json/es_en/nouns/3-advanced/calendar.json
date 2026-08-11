@@ -1,0 +1,132 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/calendar/3-advanced_calendar_card_0_def0.avif",
+        "meaning": "Agenda / Orden del día",
+        "pronunciation_guide_es": "/uat_is_on_di_a-YEN-da_tu-DEI/",
+        "usage_context_en": "A list of items to be discussed at a formal meeting.",
+        "usage_context_es": "Una lista de temas a discutir en una reunión formal.",
+        "usage_example": "What is on the agenda today?",
+        "usage_example_es": "¿Qué hay en la agenda hoy?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "agenda",
+    "phonetic": "/əˈdʒɛndə/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/əˈdʒɛndə/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/calendar/3-advanced_calendar_card_1_def0.avif",
+        "meaning": "Horario / Agenda / Programa",
+        "pronunciation_guide_es": "/uat_is_iur_SKE-yul_for_tu-DEI/",
+        "usage_context_en": "A plan for carrying out a process or procedure, giving lists of intended events and times.",
+        "usage_context_es": "Un plan para llevar a cabo un proceso, dando listas de eventos y horas previstas.",
+        "usage_example": "What is your schedule for today?",
+        "usage_example_es": "¿Cuál es tu horario para hoy?"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "schedule",
+    "phonetic": "/ˈʃɛdjuːl/",
+    "search_term": "noun/concept/essentials",
+    "spoken_phonetic_us": "/ˈskɛdʒuːl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/nouns/3-advanced/calendar/3-advanced_calendar_card_2_def0.avif",
+        "meaning": "Fecha límite",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "The latest time by which something must be done.",
+        "usage_context_es": "The latest time by which something must be done.",
+        "usage_example": "The deadline for the project is Friday.",
+        "usage_example_es": "La fecha límite del proyecto es el viernes."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "deadline",
+    "phonetic": "/ˈdɛdˌlaɪn/",
+    "search_term": "noun/calendar/added",
+    "spoken_phonetic_us": "/ˈdɛdˌlaɪn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/calendar/3-advanced_calendar_card_3_def0.avif",
+        "meaning": "Horario",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A schedule showing times of events or transport.",
+        "usage_context_es": "A schedule showing times of events or transport.",
+        "usage_example": "Check the timetable before you leave.",
+        "usage_example_es": "Revisa el horario antes de salir."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "timetable",
+    "phonetic": "/ˈtaɪmˌteɪbəl/",
+    "search_term": "noun/calendar/added",
+    "spoken_phonetic_us": "/ˈtaɪmˌteɪbəl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "6",
+        "imagePath": "/card_images/nouns/3-advanced/calendar/3-advanced_calendar_card_4_def0.avif",
+        "meaning": "Cronología / Línea de tiempo",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "A sequence of events in time.",
+        "usage_context_es": "A sequence of events in time.",
+        "usage_example": "The report includes a clear timeline.",
+        "usage_example_es": "El informe incluye una cronología clara."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "General Concepts",
+    "is_verb": false,
+    "name": "timeline",
+    "phonetic": "/ˈtaɪmˌlaɪn/",
+    "search_term": "noun/calendar/added",
+    "spoken_phonetic_us": "/ˈtaɪmˌlaɪn/"
+  }
+]

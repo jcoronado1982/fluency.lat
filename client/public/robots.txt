@@ -1,0 +1,49 @@
+User-agent: *
+Allow: /
+Allow: /pricing
+Disallow: /api/
+Disallow: /flashcard
+Disallow: /review
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /grammar
+Disallow: /test
+Disallow: /onboarding
+Disallow: /checkout
+Disallow: /login
+
+# Directivas explícitas para IAs de búsqueda (permitir lectura de la marca / landing y restringir datos de app)
+User-agent: GPTBot
+Allow: /$
+Allow: /pricing
+Disallow: /api/
+Disallow: /flashcard
+Disallow: /dashboard
+Disallow: /admin
+
+User-agent: Google-Extended
+Allow: /$
+Allow: /pricing
+Disallow: /api/
+Disallow: /flashcard
+Disallow: /dashboard
+Disallow: /admin
+
+User-agent: PerplexityBot
+Allow: /$
+Allow: /pricing
+Disallow: /api/
+Disallow: /flashcard
+Disallow: /dashboard
+Disallow: /admin
+
+User-agent: ClaudeBot
+Allow: /$
+Allow: /pricing
+Disallow: /api/
+Disallow: /flashcard
+Disallow: /dashboard
+Disallow: /admin
+
+Sitemap: https://fluency.lat/sitemap.xml
+

@@ -1,0 +1,125 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Gastar (dinero)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/time/money/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "spend",
+                "usage_example": "Gasto demasiado dinero en ropa.",
+                "pronunciation_guide_es": "",
+                "alternative_example": "",
+                "usage_example_es": "I spend too much money on clothes.",
+                "char_count": "one",
+                "usage_context_en": "money/shopping",
+                "usage_context_es": "dinero/compras",
+                "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_0_def0.avif",
+                "target_meaning_es": "Gastar (dinero)"
+            },
+            {
+                "meaning": "spend",
+                "usage_example": "Pasamos el fin de semana en la playa.",
+                "pronunciation_guide_es": "",
+                "alternative_example": "",
+                "usage_example_es": "We spend the weekend at the beach.",
+                "char_count": "one",
+                "usage_context_en": "time/leisure",
+                "usage_context_es": "tiempo/ocio",
+                "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_0_def1.avif",
+                "target_meaning_es": "Pasar (tiempo)"
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Ofrecer (algo)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/present/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "offer",
+                "usage_example": "¿Puedo ofrecerte una bebida?",
+                "pronunciation_guide_es": "",
+                "alternative_example": "",
+                "usage_example_es": "Can I offer you a drink?",
+                "char_count": "two",
+                "usage_context_en": "hospitality/jobs",
+                "usage_context_es": "hospitalidad/empleos",
+                "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_1_def0.avif",
+                "target_meaning_es": "Ofrecer (algo)"
+            },
+            {
+                "meaning": "offer",
+                "usage_example": "¿Qué solución ofrecen?",
+                "pronunciation_guide_es": "",
+                "alternative_example": "",
+                "usage_example_es": "What solution do they offer?",
+                "char_count": "two",
+                "usage_context_en": "suggestions/aid",
+                "usage_context_es": "sugerencias/ayuda",
+                "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_1_def1.avif",
+                "target_meaning_es": "Proponer/Sugerir"
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Compartir (algo con alguien)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/divide/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "share",
+                "usage_example": "¿Quieres compartir mi pizza?",
+                "pronunciation_guide_es": "",
+                "alternative_example": "",
+                "usage_example_es": "Do you want to share my pizza?",
+                "char_count": "one",
+                "usage_context_en": "food/information",
+                "usage_context_es": "comida/información",
+                "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_2_def0.avif",
+                "target_meaning_es": "Compartir (algo con alguien)"
+            },
+            {
+                "meaning": "share",
+                "usage_example": "Compartimos los mismos intereses.",
+                "pronunciation_guide_es": "",
+                "alternative_example": "",
+                "usage_example_es": "We share the same interests.",
+                "char_count": "one",
+                "usage_context_en": "commonality/collaboration",
+                "usage_context_es": "comunalidad/colaboración",
+                "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_2_def1.avif",
+                "target_meaning_es": "Tener en común"
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    }
+]

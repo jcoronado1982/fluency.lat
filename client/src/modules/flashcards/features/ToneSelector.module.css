@@ -1,0 +1,75 @@
+/* src/features/flashcards/ToneSelector.module.css */
+.toneSelectorContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.toneSelectorLabel {
+    font-size: 0.85em;
+    font-weight: 600;
+    color: #CBD5E0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+}
+
+.toneSelectDropdown {
+    padding: 0 24px 0 0;
+    /* Space for arrow */
+    border: none;
+    border-radius: 0;
+    font-size: 0.95em;
+    font-weight: 600;
+    color: #2D3748;
+    background-color: transparent;
+    cursor: pointer;
+    /* Custom Arrow with matching color #4A5568 */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="%234A5568" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+    background-repeat: no-repeat;
+    background-position: right center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    min-width: 80px;
+    font-family: var(--font-family-app, var(--font-family-body));
+}
+
+.toneSelectDropdown:focus {
+    outline: 2px solid rgba(244, 114, 182, 0.7);
+    outline-offset: 2px;
+}
+
+.toneSelectDropdown option {
+    padding: 12px 16px;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #2D3748;
+    font-family: var(--font-family-app, var(--font-family-body));
+}
+
+.toneSelectDropdown option:hover {
+    background-color: #EBF4FF;
+}
+
+.toneSelectDropdown option:checked {
+    background-color: #0066CC;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.selectWrapper {
+    min-width: 180px;
+}
+
+@media (max-width: 768px) {
+    .toneSelectorLabel {
+        display: none;
+    }
+
+    .selectWrapper {
+        min-width: 140px;
+    }
+}

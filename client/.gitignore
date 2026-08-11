@@ -1,0 +1,20 @@
+# System & Logs
+logs
+*.log
+.DS_Store
+
+# Dependencies & Build
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment
+.env
+.env.*
+
+# Editor
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.sw?

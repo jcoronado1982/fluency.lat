@@ -1,0 +1,137 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/1-basic/quantifier_pronouns/1-basic_quantifier_pronouns_card_0_def0.avif",
+        "meaning": "Cada uno / Cada una",
+        "pronunciation_guide_es": "/ICH_of_de_STU-dents_PAST/",
+        "usage_context_en": "Used as a pronoun to refer to every individual member of a group separately.",
+        "usage_context_es": "Usado como pronombre para referirse a cada miembro individual de un grupo por separado.",
+        "usage_example": "Each of the students passed.",
+        "usage_example_es": "Cada uno de los estudiantes aprobó."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "is_verb": false,
+    "name": "each",
+    "phonetic": "/iːtʃ/",
+    "search_term": "pronoun/quantifier",
+    "spoken_phonetic_us": "/iːtʃ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "3",
+        "imagePath": "/card_images/pronouns/1-basic/quantifier_pronouns/1-basic_quantifier_pronouns_card_1_def0.avif",
+        "meaning": "Ambos/as (Pronombre)",
+        "pronunciation_guide_es": "/BOUZ_ar_co-REKT/",
+        "usage_context_en": "Used as a pronoun to mean 'the two of them'.",
+        "usage_context_es": "Usado como pronombre para significar 'los dos'.",
+        "usage_example": "Both are correct.",
+        "usage_example_es": "Ambos son correctos."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "is_verb": false,
+    "name": "both",
+    "phonetic": "/boʊθ/",
+    "search_term": "pronoun/quantifier",
+    "spoken_phonetic_us": "/boʊθ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "7",
+        "imagePath": "/card_images/pronouns/1-basic/quantifier_pronouns/1-basic_quantifier_pronouns_card_2_def0.avif",
+        "meaning": "Muchos / Muchas (Pronombre)",
+        "pronunciation_guide_es": "/ME-ni_ar_COLD_bot_FIU_ar_CHOU-sen/",
+        "usage_context_en": "Used as a pronoun for a large number of people or things.",
+        "usage_context_es": "Usado como pronombre para un gran número de personas o cosas.",
+        "usage_example": "Many are called, but few are chosen.",
+        "usage_example_es": "Muchos son llamados, pero pocos son escogidos."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "is_verb": false,
+    "name": "many",
+    "phonetic": "/ˈmɛni/",
+    "search_term": "pronoun/quantifier",
+    "spoken_phonetic_us": "/ˈmɛni/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "5",
+        "imagePath": "/card_images/pronouns/1-basic/quantifier_pronouns/1-basic_quantifier_pronouns_card_3_def0.avif",
+        "meaning": "Ninguno / Ninguna / Nada",
+        "pronunciation_guide_es": "/hau_MOCH_MO-ni_is_LEFT_NON/",
+        "usage_context_en": "Used as a pronoun to mean 'not any' or 'no one'.",
+        "usage_context_es": "Usado como pronombre para significar 'nada' o 'ninguno'.",
+        "usage_example": "How much money is left? None.",
+        "usage_example_es": "¿Cuánto dinero queda? Nada."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "is_verb": false,
+    "name": "none",
+    "phonetic": "/nʌn/",
+    "search_term": "pronoun/quantifier",
+    "spoken_phonetic_us": "/nʌn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "category": "Basic",
+    "definitions": [
+      {
+        "char_count": "4",
+        "imagePath": "/card_images/pronouns/1-basic/quantifier_pronouns/1-basic_quantifier_pronouns_card_4_def0.avif",
+        "meaning": "Todos / Todo",
+        "pronunciation_guide_es": "",
+        "usage_context_en": "Used to refer to the whole group or total amount.",
+        "usage_context_es": "Used to refer to the whole group or total amount.",
+        "usage_example": "All are welcome here.",
+        "usage_example_es": "Todos son bienvenidos aquí."
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Cuantificador",
+    "is_verb": false,
+    "name": "all",
+    "phonetic": "/ɔl/",
+    "search_term": "pronoun/quantifier_pronouns/added",
+    "spoken_phonetic_us": "/ɔl/"
+  }
+]

@@ -1,0 +1,563 @@
+/* --- Header (Barra Superior) --- */
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 24px;
+    /* Un solo paso por encima del lienzo (igual que el sidebar): el header
+       deja de ser una banda de otro azul y se separa solo por el hairline. */
+    background-color: #0d1526;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    /* Tipografía heredada de .app-layout (index.css) */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1100;
+    box-sizing: border-box;
+    transform: translateY(-76px);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    overflow: visible;
+}
+
+.app-header button {
+    font-family: inherit;
+}
+
+.app-header.sidebar-open,
+.app-header.manual-open {
+    transform: translateY(0);
+    /* Slide down */
+}
+
+/* Push content down when header opens OR sidebar is open OR manually opened */
+.app-header.sidebar-open+.page-content,
+.app-header.manual-open+.page-content {
+    padding-top: 80px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    min-width: 0;
+    font-family: inherit;
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+    flex-shrink: 0;
+    font-family: inherit;
+}
+
+.tone-selector-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.study-language-selector-wrapper {
+    display: none;
+}
+
+.menu-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-btn {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: none;
+}
+
+.hamburger-btn:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    transform: translateY(-1px);
+}
+
+.hamburger-btn svg {
+    width: 24px;
+    height: 24px;
+    /* Icono Lucide (stroke): hereda currentColor del botón; sin fill. */
+}
+
+.app-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+}
+
+.app-logo-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.app-brand-name {
+    display: none;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+}
+
+.header-user-avatar {
+    display: none;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border: 2px solid rgba(244, 114, 182, 0.45);
+    border-radius: 50%;
+    background: rgba(30, 41, 59, 0.9);
+    overflow: hidden;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.header-user-avatar:hover {
+    border-color: rgba(244, 114, 182, 0.75);
+    transform: scale(1.04);
+}
+
+.header-user-avatar-img,
+.header-user-avatar-fallback {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-user-avatar-fallback {
+    display: grid;
+    place-items: center;
+    color: #ffffff;
+    font-size: 0.82rem;
+    font-weight: 800;
+    font-family: inherit;
+    background: linear-gradient(135deg, #be185d, #f472b6 50%, #fb923c);
+}
+
+/* --- Sidebar (Menú Lateral) --- */
+/* Ancho real 256px; el offset que empuja el contenido en escritorio es
+   --app-sidebar-width: 260px (App.css .main-content.sidebar-open) — los 4px
+   de diferencia son aire visual intencional entre sidebar y contenido. */
+.app-sidebar {
+    width: 256px;
+    background: #0d1526;
+    border-right: 1px solid rgba(255, 255, 255, 0.06);
+    height: 100dvh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1200;
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: var(--font-family-app, var(--font-family-body));
+}
+
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: 1150;
+    backdrop-filter: blur(3px);
+    animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.app-sidebar.closed { transform: translateX(-100%); }
+.app-sidebar.open   { transform: translateX(0); }
+
+/* ─── Brand header inside sidebar ───────────────────────────────────────────── */
+.sidebar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 22px 20px 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    flex-shrink: 0;
+}
+
+.sidebar-brand-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.sidebar-brand-name {
+    color: #f8fafc;
+    font-family: var(--font-family-app, var(--font-family-body));
+    font-size: 1.12rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+/* ─── Nav ────────────────────────────────────────────────────────────────────── */
+.app-sidebar nav {
+    padding: 14px 12px;
+    flex: 1;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.app-sidebar nav::-webkit-scrollbar { display: none; }
+
+.app-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.app-sidebar li { margin-bottom: 2px; }
+
+.app-sidebar .menuSectionLabel {
+    display: block;
+    padding: 12px 8px 5px;
+    color: #475569;
+    font-size: 0.66rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+.app-sidebar .menuDivider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 8px 4px;
+}
+
+/* ─── Nav link ───────────────────────────────────────────────────────────────── */
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 9px 10px;
+    border-radius: 10px;
+    position: relative;
+    text-decoration: none;
+    color: #64748b;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: background 160ms ease, color 160ms ease;
+    margin-bottom: 2px;
+}
+
+.nav-link:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: #cbd5e1;
+}
+
+.nav-link:hover .sidebarIcon { color: #f8fafc; }
+
+.nav-link.active {
+    background: rgba(244, 114, 182, 0.08);
+    color: #f8fafc;
+}
+
+/* Barrita activa: pill vertical con el degradado de marca (sustituye al
+   antiguo border-left plano de 2px). */
+.nav-link.active::before,
+.app-sidebar .parentLink.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 22px;
+    border-radius: 999px;
+    background: linear-gradient(180deg, #f472b6, #fb923c);
+}
+
+.nav-link.active .sidebarIcon { color: #f472b6; }
+
+/* ─── Sidebar icon ───────────────────────────────────────────────────────────── */
+.sidebarIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #64748b;
+    transition: color 160ms ease;
+}
+
+.sidebarIcon svg {
+    width: 20px;
+    height: 20px;
+    stroke-width: var(--brand-icon-stroke, 2);
+}
+
+.sidebarIcon--admin { color: #f43f5e; }
+.nav-link.active .sidebarIcon--admin { color: #f43f5e; }
+
+/* ─── Text ───────────────────────────────────────────────────────────────────── */
+.optionText {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    text-align: left;
+    min-width: 0;
+}
+
+.optionName {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: inherit;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.optionSub {
+    font-size: 0.7rem;
+    color: #475569;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nav-link.active .optionSub { color: rgba(244, 114, 182, 0.65); }
+
+/* Subcategory indented links */
+.app-sidebar .parentItem    { margin-bottom: 8px; }
+.app-sidebar .parentLink    { display: flex; align-items: center; gap: 11px; padding: 9px 10px; border-radius: 10px; position: relative; text-decoration: none; color: #64748b; font-weight: 500; font-size: 0.9rem; transition: background 160ms ease, color 160ms ease; border: none; cursor: pointer; }
+.app-sidebar .parentLink:hover   { background: rgba(255,255,255,0.05); color: #cbd5e1; }
+.app-sidebar .parentLink:hover .sidebarIcon { color: #f8fafc; }
+.app-sidebar .parentLink.active  { background: rgba(244, 114, 182, 0.08); color: #f8fafc; }
+.app-sidebar .subCategory        { list-style: none; padding: 0; margin: 2px 0 0 0; max-height: 0; overflow: hidden; transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1); }
+.app-sidebar .subCategory.open   { max-height: 500px; }
+.app-sidebar .subCategory .nav-link { padding-left: 40px; }
+
+.header-account {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex-shrink: 0;
+    overflow: visible;
+}
+
+/* Mobile Header Adjustments */
+@media (max-width: 768px) {
+    .app-header {
+        padding: env(safe-area-inset-top, 0px) max(14px, env(safe-area-inset-right, 0px)) 0 max(14px, env(safe-area-inset-left, 0px));
+        min-height: calc(64px + env(safe-area-inset-top, 0px));
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .app-logo-img {
+        width: 32px;
+        height: 32px;
+        filter: none;
+    }
+
+    .app-brand-name {
+        display: block;
+    }
+
+    .header-user-avatar {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-controls {
+        gap: 8px;
+        justify-content: flex-end;
+        flex: 1;
+    }
+
+    .language-selector-wrapper {
+        display: none;
+    }
+
+    .header-account .floatingMainButton {
+        display: flex;
+    }
+
+    .header-account .floatingMenuContainer {
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+
+    .app-header.sidebar-open + .page-content,
+    .app-header.manual-open + .page-content {
+        padding-top: calc(64px + env(safe-area-inset-top, 0px));
+    }
+
+    .hamburger-btn {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+/* El saludo grande solo existe en la cabecera del dashboard instalado. */
+.pwa-header-greeting {
+    display: none;
+}
+
+/* Cabecera propia del dashboard instalado (patrón nativo tipo WhatsApp):
+   saludo grande a la izquierda, avatar en cápsula de cristal a la derecha.
+   Fija: el contenido scrollea por detrás; arranca transparente y gana
+   cristal al scrollear (scroll-edge effect) cuando el navegador soporta
+   animaciones scroll-driven; si no, conserva el cristal constante. */
+@media (display-mode: standalone) and (max-width: 768px) {
+    body:has(.dashboard-home) .app-header {
+        position: fixed;
+        background:
+            linear-gradient(90deg, rgba(5, 7, 13, 0.52), rgba(7, 10, 17, 0.12) 50%, rgba(5, 7, 13, 0.52)),
+            linear-gradient(180deg, rgba(5, 7, 13, 0.34), rgba(9, 14, 22, 0.08));
+        backdrop-filter: blur(18px) saturate(1.2);
+        -webkit-backdrop-filter: blur(18px) saturate(1.2);
+    }
+
+    @supports (animation-timeline: scroll()) {
+        body:has(.dashboard-home) .app-header {
+            background: transparent;
+            border-bottom-color: transparent;
+            box-shadow: none;
+            backdrop-filter: blur(0px) saturate(1);
+            -webkit-backdrop-filter: blur(0px) saturate(1);
+            animation: pwa-header-scroll-edge linear both;
+            animation-timeline: scroll(root);
+            animation-range: 8px 64px;
+        }
+
+        /* Al scrollear, el título grande se condensa y la fecha se retira
+           (patrón large-title nativo). Comparten timeline con el cristal. */
+        body:has(.dashboard-home) .app-header .pwa-greeting-title {
+            animation: pwa-greeting-condense linear both;
+            animation-timeline: scroll(root);
+            animation-range: 8px 64px;
+        }
+
+        body:has(.dashboard-home) .app-header .pwa-greeting-sub {
+            animation: pwa-greeting-sub-fade linear both;
+            animation-timeline: scroll(root);
+            animation-range: 8px 48px;
+        }
+    }
+
+    body:has(.dashboard-home) .app-header .hamburger-btn,
+    body:has(.dashboard-home) .app-header .app-brand-name,
+    body:has(.dashboard-home) .app-header .app-logo,
+    body:has(.dashboard-home) .app-header .floatingMainButton {
+        display: none;
+    }
+
+    body:has(.dashboard-home) .app-header .pwa-header-greeting {
+        display: flex;
+        min-width: 0;
+        flex-direction: column;
+        gap: 1px;
+        padding: 6px 0;
+    }
+
+    body:has(.dashboard-home) .app-header .pwa-greeting-title {
+        overflow: hidden;
+        color: #f8fafc;
+        font-size: 1.45rem;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        line-height: 1.1;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    body:has(.dashboard-home) .app-header .pwa-greeting-sub {
+        overflow: hidden;
+        color: var(--pwa-text-muted, #cbd5e1);
+        font-size: 0.7rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        opacity: 0.85;
+    }
+
+    body:has(.dashboard-home) .app-header .header-controls {
+        margin-left: auto;
+    }
+
+    /* Avatar como botón de cristal (mismo material que la barra inferior). */
+    body:has(.dashboard-home) .app-header .header-user-avatar {
+        width: 40px;
+        height: 40px;
+        border: 1px solid var(--pwa-nav-border, rgba(255, 255, 255, 0.1));
+        border-radius: 50%;
+        background: var(--pwa-nav-surface, rgba(18, 22, 30, 0.62));
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(20px) saturate(1.35);
+        -webkit-backdrop-filter: blur(20px) saturate(1.35);
+    }
+
+    body:has(.dashboard-home) .app-header .floatingOptions {
+        border-color: rgba(255, 255, 255, 0.16);
+        background:
+            linear-gradient(180deg, rgba(7, 10, 17, 0.78), rgba(7, 10, 17, 0.64)),
+            radial-gradient(circle at 100% 0%, rgba(244, 114, 182, 0.1), transparent 48%);
+        box-shadow: 0 24px 48px rgba(0, 0, 0, 0.46), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(26px) saturate(1.35);
+        -webkit-backdrop-filter: blur(26px) saturate(1.35);
+    }
+}
+
+/* Estado "scrolleado" de la cabecera PWA: solo valores interpolables
+   (color de fondo plano, no gradientes) para que la transición sea suave. */
+@keyframes pwa-header-scroll-edge {
+    to {
+        background-color: rgba(9, 12, 20, 0.68);
+        border-bottom-color: rgba(255, 255, 255, 0.08);
+        box-shadow: 0 8px 26px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(20px) saturate(1.35);
+        -webkit-backdrop-filter: blur(20px) saturate(1.35);
+    }
+}
+
+@keyframes pwa-greeting-condense {
+    to {
+        font-size: 1.08rem;
+    }
+}
+
+@keyframes pwa-greeting-sub-fade {
+    to {
+        opacity: 0;
+        transform: translateY(-4px);
+    }
+}

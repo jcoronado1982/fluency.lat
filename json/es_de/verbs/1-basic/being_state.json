@@ -1,0 +1,372 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "She is nice and smart.",
+        "char_count": "one",
+        "usage_example_es": "Ella es una estudiante.",
+        "meaning": "Ser (identidad, característica)",
+        "pronunciation_guide_es": "/zi_ist_shtu-DEN-tin/",
+        "usage_context_en": "identity/description",
+        "usage_context_es": "identidad/descripción",
+        "usage_example": "Sie ist Studentin.",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_0_def0.avif"
+      },
+      {
+        "alternative_example": "I am tired today.",
+        "char_count": "one",
+        "usage_example_es": "Estamos en el parque.",
+        "meaning": "Estar (ubicación, estado)",
+        "pronunciation_guide_es": "/vir_zint_im_PARK/",
+        "usage_context_en": "location/state",
+        "usage_context_es": "ubicación/estado",
+        "usage_example": "Wir sind im Park.",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_0_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "sein",
+    "phonetic": "/zaɪn/",
+    "search_term": "verb/to be/essentials",
+    "spoken_phonetic_us": "/zaɪn/",
+    "irregular": {
+      "past": {
+        "form": "war",
+        "phonetic": "/vaːɐ/",
+        "spoken_phonetic_us": "/vaːɐ/",
+        "definitions": [
+          {
+            "usage_example": "Ich war vor zehn Jahren Student.",
+            "usage_example_es": "Yo era estudiante hace diez años.",
+            "pronunciation_guide_es": "/ish_VAR_for_TSEN_YA-ren_shtu-DENT/",
+            "meaning": "Pasado de Ser (identidad/profesión)",
+            "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_0_def0_v2.avif"
+          },
+          {
+            "usage_example": "Wir waren letzten Sonntag am Strand.",
+            "usage_example_es": "Estábamos en la playa el domingo pasado.",
+            "pronunciation_guide_es": "/vir_VA-ren_LETS-ten_ZON-tak_am_SHTRANT/",
+            "meaning": "Pasado de Estar (ubicación)",
+            "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_0_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "gewesen",
+        "phonetic": "/ɡəˈveːzn̩/",
+        "spoken_phonetic_us": "/ɡəˈveːzn̩/",
+        "definitions": [
+          {
+            "usage_example": "Sie ist seit Jahren Ärztin gewesen.",
+            "usage_example_es": "Ella ha sido doctora por años.",
+            "pronunciation_guide_es": "/zi_ist_zait_YA-ren_ERTS-tin_ge-VE-zen/",
+            "meaning": "Participio de Ser",
+            "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_0_def0_v3.avif"
+          },
+          {
+            "usage_example": "Ich bin seit Mai in London gewesen.",
+            "usage_example_es": "He estado en Londres desde mayo.",
+            "pronunciation_guide_es": "/ish_bin_zait_MAI_in_LON-don_ge-VE-zen/",
+            "meaning": "Participio de Estar",
+            "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_0_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Being & State"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "I live in a big city.",
+        "char_count": "one",
+        "usage_example_es": "¿Dónde vives?",
+        "meaning": "Vivir",
+        "pronunciation_guide_es": "/vo_VONST_du/",
+        "usage_context_en": "residence/location",
+        "usage_context_es": "residencia/ubicación",
+        "usage_example": "Wo wohnst du?",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_1_def0.avif"
+      },
+      {
+        "alternative_example": "We only live once.",
+        "char_count": "one",
+        "meaning": "Estar vivo/Experimentar la vida",
+        "pronunciation_guide_es": "/zi_LEPT_ain_ZER_RU-i-ges_LE-ben/",
+        "usage_context_en": "existence/experience",
+        "usage_context_es": "existencia/experiencia",
+        "usage_example": "Sie lebt ein sehr ruhiges Leben.",
+        "usage_example_es": "Ella vive una vida muy tranquila.",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_1_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "leben",
+    "phonetic": "/ˈleːbn̩/",
+    "search_term": "verb/reside/essentials",
+    "spoken_phonetic_us": "/ˈleːbn̩/",
+    "group_name": "Being & State"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Stay here until I come back.",
+        "char_count": "one",
+        "usage_example_es": "Quédate aquí.",
+        "meaning": "Quedarse",
+        "pronunciation_guide_es": "/BLAIP_hir/",
+        "usage_context_en": "location/waiting",
+        "usage_context_es": "ubicación/espera",
+        "usage_example": "Bleib hier.",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_2_def0.avif"
+      },
+      {
+        "alternative_example": "We stayed at a small hotel.",
+        "char_count": "one",
+        "usage_example_es": "Permanecieron tranquilos toda la noche.",
+        "meaning": "Hospedarse/Permanecer",
+        "pronunciation_guide_es": "/vir_UE-ber-nach-te-ten_in_AI-nem_KLAI-nen_ho-TEL/",
+        "usage_context_en": "travel/state",
+        "usage_context_es": "viajes/estado",
+        "usage_example": "Wir übernachteten in einem kleinen Hotel.",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_2_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "bleiben",
+    "phonetic": "/ˈblaɪbn̩/",
+    "search_term": "verb/stay/essentials",
+    "spoken_phonetic_us": "/ˈblaɪbn̩/",
+    "group_name": "Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The weather is becoming colder.",
+        "char_count": "two",
+        "meaning": "Convertirse en/Llegar a ser",
+        "pronunciation_guide_es": "/zi_MOESH-te_ERTS-tin_VER-den/",
+        "usage_context_en": "profession/change",
+        "usage_context_es": "profesión/cambio",
+        "usage_example": "Sie möchte Ärztin werden.",
+        "usage_example_es": "Ella quiere convertirse en doctora.",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_3_def0.avif"
+      },
+      {
+        "alternative_example": "That hat becomes you.",
+        "char_count": "two",
+        "meaning": "Suceder/Apropiado (arcaico o formal)",
+        "pronunciation_guide_es": "/es_VIRT_mit_der_TSAIT_tsur_ge-VON-hait/",
+        "usage_context_en": "process/suitability",
+        "usage_context_es": "proceso/conveniencia",
+        "usage_example": "Es wird mit der Zeit zur Gewohnheit.",
+        "usage_example_es": "Se convierte en un hábito con el tiempo.",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_3_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "werden",
+    "phonetic": "/ˈveːɐdn̩/",
+    "search_term": "verb/change/essentials",
+    "spoken_phonetic_us": "/ˈveːɐdn̩/",
+    "irregular": {
+      "past": {
+        "form": "wurde",
+        "phonetic": "/ˈvʊʁdə/",
+        "spoken_phonetic_us": "/ˈvʊʁdə/",
+        "usage_example": "Er wurde Lehrer.",
+        "usage_example_es": "Él se convirtió en profesor.",
+        "pronunciation_guide_es": "/er_VUR-de_LE-rer/",
+        "meaning": "Pasado de convertirse en",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_3_def0_v2.avif"
+      },
+      "participle": {
+        "form": "geworden",
+        "phonetic": "/ɡəˈvɔʁdn̩/",
+        "spoken_phonetic_us": "/ɡəˈvɔʁdn̩/",
+        "usage_example": "Es ist sehr kalt geworden.",
+        "usage_example_es": "Se ha vuelto muy frío.",
+        "pronunciation_guide_es": "/es_ist_ZER_KALT_ge-VOR-den/",
+        "meaning": "Participio de convertirse en",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_3_def0_v3.avif"
+      }
+    },
+    "group_name": "Being & State"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The accident happened quickly.",
+        "char_count": "two",
+        "meaning": "Suceder/Ocurrir",
+        "pronunciation_guide_es": "/vas_ist_dir_pa-SIRT/",
+        "usage_context_en": "events/accidents",
+        "usage_context_es": "eventos/accidentes",
+        "usage_example": "Was ist dir passiert?",
+        "usage_example_es": "¿Qué te pasó?",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_4_def0.avif"
+      },
+      {
+        "alternative_example": "If you happen to see him, tell him to call me.",
+        "char_count": "two",
+        "meaning": "Estar (por casualidad)",
+        "pronunciation_guide_es": "/ish_var_tsu-FAE-lish_DORT_als_es_pa-SIR-te/",
+        "usage_context_en": "chance/coincidence",
+        "usage_context_es": "casualidad/coincidencia",
+        "usage_example": "Ich war zufällig dort, als es passierte.",
+        "usage_example_es": "Casualmente estaba allí cuando comenzó.",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_4_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "passieren",
+    "phonetic": "/paˈsiːʁən/",
+    "search_term": "verb/occur/essentials",
+    "spoken_phonetic_us": "/paˈsiːʁən/",
+    "group_name": "Being & State"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "It seems like a good idea.",
+        "char_count": "one",
+        "usage_example_es": "Ella parece feliz hoy.",
+        "meaning": "Parecer (dar la impresión)",
+        "pronunciation_guide_es": "/zi_SHAINT_HOI-te_GLUEK-lish_tsu_zain/",
+        "usage_context_en": "appearance/impression",
+        "usage_context_es": "apariencia/impresión",
+        "usage_example": "Sie scheint heute glücklich zu sein.",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_5_def0.avif"
+      },
+      {
+        "alternative_example": "He seemed to be worried.",
+        "char_count": "one",
+        "usage_example_es": "Parece que nadie está aquí.",
+        "meaning": "Aparentar (ser evidente)",
+        "pronunciation_guide_es": "/es_SHAINT_das_NI-mant_hir_ist/",
+        "usage_context_en": "evidence/state",
+        "usage_context_es": "evidencia/estado",
+        "usage_example": "Es scheint, dass niemand hier ist.",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_5_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "scheinen",
+    "phonetic": "/ˈʃaɪnən/",
+    "search_term": "verb/appear/essentials",
+    "spoken_phonetic_us": "/ˈʃaɪnən/",
+    "group_name": "Being & State"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The children laughed loudly.",
+        "char_count": "one",
+        "usage_example_es": "Se rieron del chiste.",
+        "meaning": "Reír",
+        "pronunciation_guide_es": "/zi_LACH-ten_UE-ber_den_VITS/",
+        "usage_context_en": "emotions/jokes",
+        "usage_context_es": "emociones/bromas",
+        "usage_example": "Sie lachten über den Witz.",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_6_def0.avif"
+      },
+      {
+        "alternative_example": "Don't laugh at him.",
+        "char_count": "one",
+        "usage_example_es": "No te rías de mí.",
+        "meaning": "Reírse de",
+        "pronunciation_guide_es": "/LACH_nisht_UE-ber_mish/",
+        "usage_context_en": "social reactions",
+        "usage_context_es": "reacciones sociales",
+        "usage_example": "Lach nicht über mich.",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_6_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "lachen",
+    "phonetic": "/ˈlaxn̩/",
+    "search_term": "verb/laugh/essentials",
+    "spoken_phonetic_us": "/ˈlaxn̩/",
+    "group_name": "Feelings & Relationships"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The baby cried all night.",
+        "char_count": "one",
+        "usage_example_es": "No llores.",
+        "meaning": "Llorar",
+        "pronunciation_guide_es": "/VAIN_nisht/",
+        "usage_context_en": "emotions/children",
+        "usage_context_es": "emociones/niños",
+        "usage_example": "Wein nicht.",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_7_def0.avif"
+      },
+      {
+        "alternative_example": "She cried for help.",
+        "char_count": "one",
+        "usage_example_es": "Gritó pidiendo ayuda.",
+        "meaning": "Gritar/Pedir con fuerza",
+        "pronunciation_guide_es": "/er_SHRI_um_HIL-fe/",
+        "usage_context_en": "emergency/emotion",
+        "usage_context_es": "emergencia/emoción",
+        "usage_example": "Er schrie um Hilfe.",
+        "imagePath": "/card_images/verbs/1-basic/being_state/1-basic_being_state_card_7_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "weinen",
+    "phonetic": "/ˈvaɪnən/",
+    "search_term": "verb/cry/essentials",
+    "spoken_phonetic_us": "/ˈvaɪnən/",
+    "group_name": "Feelings & Relationships"
+  }
+]

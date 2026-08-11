@@ -1,0 +1,494 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Please say 'thank you'.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_0_def0.avif",
+        "meaning": "Decir (expresar con palabras)",
+        "pronunciation_guide_es": "/vas_ZAKST_du/",
+        "usage_context_en": "dialogue/communication",
+        "usage_context_es": "diálogo/comunicación",
+        "usage_example": "Was sagst du?",
+        "usage_example_es": "¿Qué dices?"
+      },
+      {
+        "alternative_example": "The report says the opposite.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_0_def1.avif",
+        "meaning": "Afirmar (establecer algo)",
+        "pronunciation_guide_es": "/das_SHILT_ZAKT_SHTOP/",
+        "usage_context_en": "signs/information",
+        "usage_context_es": "señales/información",
+        "usage_example": "Das Schild sagt 'Stopp'.",
+        "usage_example_es": "El cartel dice 'Pare'."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "sagen",
+    "phonetic": "/ˈzaːɡn̩/",
+    "search_term": "verb/speech/essentials",
+    "spoken_phonetic_us": "/ˈzaːɡn̩/",
+    "irregular": {
+      "past": {
+        "form": "sagte",
+        "phonetic": "/ˈzaːktə/",
+        "spoken_phonetic_us": "/ˈzaːktə/",
+        "usage_example": "Sie sagte, dass sie müde sei.",
+        "usage_example_es": "Ella dijo que estaba cansada.",
+        "pronunciation_guide_es": "/zi_ZAK-te_das_zi_MUE-de_zai/",
+        "meaning": "Pasado de decir",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_0_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gesagt",
+        "phonetic": "/ɡəˈzaːkt/",
+        "spoken_phonetic_us": "/ɡəˈzaːkt/",
+        "usage_example": "Man sagt, dass er der Beste ist.",
+        "usage_example_es": "Se dice que él es el mejor.",
+        "pronunciation_guide_es": "/man_ZAKT_das_er_der_BES-te_ist/",
+        "meaning": "Participio de decir",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_0_def0_v3.avif"
+      }
+    },
+    "group_name": "Communication"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Can we talk later?",
+        "char_count": "one",
+        "meaning": "Hablar/Conversar",
+        "pronunciation_guide_es": "/vir_RE-den_YE-den_TAK_am_te-le-FON/",
+        "usage_context_en": "communication/dialogue",
+        "usage_context_es": "comunicación/diálogo",
+        "usage_example": "Wir reden jeden Tag am Telefon.",
+        "usage_example_es": "Hablamos todos los días por teléfono.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_1_def0.avif"
+      },
+      {
+        "alternative_example": "They are talking about their trip.",
+        "char_count": "one",
+        "meaning": "Charlar/Comentar",
+        "pronunciation_guide_es": "/RE-de_nisht_VAE-rent_des_FILMS/",
+        "usage_context_en": "discussion/banter",
+        "usage_context_es": "discusión/charla",
+        "usage_example": "Rede nicht während des Films.",
+        "usage_example_es": "No hables durante la película.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_1_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "reden",
+    "phonetic": "/ˈʁeːdn̩/",
+    "search_term": "verb/speak/essentials",
+    "spoken_phonetic_us": "/ˈʁeːdn̩/",
+    "group_name": "Communication"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Do you tell him the news?",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_2_def0.avif",
+        "meaning": "Contar/Decir (informar a alguien)",
+        "pronunciation_guide_es": "/er-TSAEL_mir_AI-ne_ge-SHISH-te/",
+        "usage_context_en": "stories/information",
+        "usage_context_es": "historias/información",
+        "usage_example": "Erzähl mir eine Geschichte.",
+        "usage_example_es": "Cuéntame una historia."
+      },
+      {
+        "alternative_example": "Tell the children to clean up.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_2_def1.avif",
+        "meaning": "Ordenar/Distinguir",
+        "pronunciation_guide_es": "/kanst_du_den_UN-ter-shid_er-KE-nen/",
+        "usage_context_en": "difference/instruction",
+        "usage_context_es": "diferencia/instrucción",
+        "usage_example": "Kannst du den Unterschied erkennen?",
+        "usage_example_es": "¿Puedes notar la diferencia?"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "erzählen",
+    "phonetic": "/ɛɐˈtsɛːlən/",
+    "search_term": "verb/inform/essentials",
+    "spoken_phonetic_us": "/ɛɐˈtsɛːlən/",
+    "irregular": {
+      "past": {
+        "form": "erzählte",
+        "phonetic": "/ɛɐˈtsɛːltə/",
+        "spoken_phonetic_us": "/ɛɐˈtsɛːltə/",
+        "usage_example": "Sie erzählte mir ein Geheimnis.",
+        "usage_example_es": "Ella me contó un secreto.",
+        "pronunciation_guide_es": "/zi_er-TSAEL-te_mir_ain_ge-HAIM-nis/",
+        "meaning": "Pasado de contar/decir",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_2_def0_v2.avif"
+      },
+      "participle": {
+        "form": "erzählt",
+        "phonetic": "/ɛɐˈtsɛːlt/",
+        "spoken_phonetic_us": "/ɛɐˈtsɛːlt/",
+        "usage_example": "Ich habe es dir schon oft erzählt.",
+        "usage_example_es": "Te lo he dicho muchas veces.",
+        "pronunciation_guide_es": "/ish_HA-be_es_dir_SHON_OFT_er-TSAELT/",
+        "meaning": "Participio de contar/decir",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_2_def0_v3.avif"
+      }
+    },
+    "group_name": "Communication"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "He asked a difficult question.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_3_def0.avif",
+        "meaning": "Preguntar",
+        "pronunciation_guide_es": "/FRAK_DAI-nen_LE-rer_um_HIL-fe/",
+        "usage_context_en": "questions/help",
+        "usage_context_es": "preguntas/ayuda",
+        "usage_example": "Frag deinen Lehrer um Hilfe.",
+        "usage_example_es": "Pregúntale a tu profesor por ayuda."
+      },
+      {
+        "alternative_example": "She is asking for trouble.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_3_def1.avif",
+        "meaning": "Pedir (una cosa)",
+        "pronunciation_guide_es": "/ish_BAT_um_ain_GLAS_VA-ser/",
+        "usage_context_en": "request/demand",
+        "usage_context_es": "petición/demanda",
+        "usage_example": "Ich bat um ein Glas Wasser.",
+        "usage_example_es": "Pedí un vaso de agua."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "fragen",
+    "phonetic": "/ˈfʁaːɡn̩/",
+    "search_term": "verb/question/essentials",
+    "spoken_phonetic_us": "/ˈfʁaːɡn̩/",
+    "group_name": "Communication"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "I need to call my mother.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_4_def0.avif",
+        "meaning": "Llamar (por teléfono)",
+        "pronunciation_guide_es": "/RUF_mish_SHPAE-ter_AN/",
+        "usage_context_en": "telephone/communication",
+        "usage_context_es": "teléfono/comunicación",
+        "usage_example": "Ruf mich später an.",
+        "usage_example_es": "Llámame más tarde."
+      },
+      {
+        "alternative_example": "What do you call this?",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_4_def1.avif",
+        "meaning": "Llamar (nombrar)",
+        "pronunciation_guide_es": "/zi_NE-nen_in_den_SHEF/",
+        "usage_context_en": "naming/titles",
+        "usage_context_es": "nombrar/títulos",
+        "usage_example": "Sie nennen ihn 'den Chef'.",
+        "usage_example_es": "Lo llaman 'El Jefe'."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "anrufen",
+    "phonetic": "/ˈanʁuːfən/",
+    "search_term": "verb/name/essentials",
+    "spoken_phonetic_us": "/ˈanʁuːfən/",
+    "group_name": "Communication"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "She writes beautiful poems.",
+        "char_count": "one",
+        "meaning": "Escribir (con un bolígrafo, etc.)",
+        "pronunciation_guide_es": "/SHRAIP_DAI-nen_NA-men_auf_das_BLAT/",
+        "usage_context_en": "penmanship/creation",
+        "usage_context_es": "escritura/creación",
+        "usage_example": "Schreib deinen Namen auf das Blatt.",
+        "usage_example_es": "Escribe tu nombre en el papel.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_5_def0.avif"
+      },
+      {
+        "alternative_example": "Write me an email soon.",
+        "char_count": "one",
+        "meaning": "Componer (música, libro)",
+        "pronunciation_guide_es": "/er_SHRAIPT_ain_BUJ_UE-ber_ge-SHISH-te/",
+        "usage_context_en": "literature/communication",
+        "usage_context_es": "literatura/comunicación",
+        "usage_example": "Er schreibt ein Buch über Geschichte.",
+        "usage_example_es": "Él está escribiendo un libro sobre historia.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_5_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "schreiben",
+    "phonetic": "/ˈʃʁaɪbn̩/",
+    "search_term": "verb/compose/essentials",
+    "spoken_phonetic_us": "/ˈʃʁaɪbn̩/",
+    "irregular": {
+      "past": {
+        "form": "schrieb",
+        "phonetic": "/ʃʁiːp/",
+        "spoken_phonetic_us": "/ʃʁiːp/",
+        "usage_example": "Ich schrieb meiner Mutter einen Brief.",
+        "usage_example_es": "Escribí una carta a mi mamá.",
+        "pronunciation_guide_es": "/ish_SHRIP_MAI-ner_MUT-ter_AI-nen_BRIF/",
+        "meaning": "Pasado de escribir",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_5_def0_v2.avif"
+      },
+      "participle": {
+        "form": "geschrieben",
+        "phonetic": "/ɡəˈʃʁiːbn̩/",
+        "spoken_phonetic_us": "/ɡəˈʃʁiːbn̩/",
+        "usage_example": "Das Buch wurde 1990 geschrieben.",
+        "usage_example_es": "El libro fue escrito en 1990.",
+        "pronunciation_guide_es": "/das_BUJ_VUR-de_NOIN-tsen-hun-dert-NOIN-tsish_ge-SHRI-ben/",
+        "meaning": "Participio de escribir",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_5_def0_v3.avif"
+      }
+    },
+    "group_name": "Communication"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "Read the instructions carefully.",
+        "char_count": "one",
+        "meaning": "Leer (texto)",
+        "pronunciation_guide_es": "/ish_LE-ze_YE-den_MO-nat_ain_BUJ/",
+        "usage_context_en": "books/instructions",
+        "usage_context_es": "libros/instrucciones",
+        "usage_example": "Ich lese jeden Monat ein Buch.",
+        "usage_example_es": "Leo un libro cada mes.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_6_def0.avif"
+      },
+      {
+        "alternative_example": "The meter reads 99 miles.",
+        "char_count": "one",
+        "meaning": "Estudiar/Interpretar (formal)",
+        "pronunciation_guide_es": "/er_shtu-DIRT_YU-ra_an_der_u-ni-ver-zi-TAET/",
+        "usage_context_en": "study/data",
+        "usage_context_es": "estudio/datos",
+        "usage_example": "Er studiert Jura an der Universität.",
+        "usage_example_es": "Él estudia derecho en la universidad.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_6_def1.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "lesen",
+    "phonetic": "/ˈleːzn̩/",
+    "search_term": "verb/literature/level_up",
+    "spoken_phonetic_us": "/ˈleːzn̩/",
+    "irregular": {
+      "past": {
+        "form": "las",
+        "phonetic": "/laːs/",
+        "spoken_phonetic_us": "/laːs/",
+        "usage_example": "Ich las das Buch letzte Nacht.",
+        "usage_example_es": "Leí el libro anoche.",
+        "pronunciation_guide_es": "/ish_LAS_das_BUJ_LETS-te_NAJT/",
+        "meaning": "Pasado de leer",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_6_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gelesen",
+        "phonetic": "/ɡəˈleːzn̩/",
+        "spoken_phonetic_us": "/ɡəˈleːzn̩/",
+        "usage_example": "Ich habe diesen Artikel gelesen.",
+        "usage_example_es": "He leído ese artículo.",
+        "pronunciation_guide_es": "/ish_HA-be_DI-zen_ar-TI-kel_ge-LE-zen/",
+        "meaning": "Participio de leer",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_6_def0_v3.avif"
+      }
+    },
+    "group_name": "Communication"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "alternative_example": "The map shows the way.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_7_def0.avif",
+        "meaning": "Mostrar/Enseñar",
+        "pronunciation_guide_es": "/TSAIK_mir_dain_NOI-es_te-le-FON/",
+        "usage_context_en": "objects/demonstration",
+        "usage_context_es": "objetos/demostración",
+        "usage_example": "Zeig mir dein neues Telefon.",
+        "usage_example_es": "Muéstrame tu teléfono nuevo."
+      },
+      {
+        "alternative_example": "The results show improvement.",
+        "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_7_def1.avif",
+        "meaning": "Exhibir/Presentar",
+        "pronunciation_guide_es": "/zi_TSAIKT_ir_ta-LENT_bai_der_fer-AN-shtal-tung/",
+        "usage_context_en": "talent/results",
+        "usage_context_es": "talento/resultados",
+        "usage_example": "Sie zeigt ihr Talent bei der Veranstaltung.",
+        "usage_example_es": "Ella muestra su talento en el evento."
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "zeigen",
+    "phonetic": "/ˈtsaɪɡn̩/",
+    "search_term": "verb/display/essentials",
+    "spoken_phonetic_us": "/ˈtsaɪɡn̩/",
+    "irregular": {
+      "past": {
+        "form": "zeigte",
+        "phonetic": "/ˈtsaɪktə/",
+        "spoken_phonetic_us": "/ˈtsaɪktə/",
+        "usage_example": "Sie zeigte mir ihre Fotos.",
+        "usage_example_es": "Ella me mostró sus fotos.",
+        "pronunciation_guide_es": "/zi_TSAIK-te_mir_I-re_FO-tos/",
+        "meaning": "Pasado de mostrar",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_7_def0_v2.avif"
+      },
+      "participle": {
+        "form": "gezeigt",
+        "phonetic": "/ɡəˈtsaɪkt/",
+        "spoken_phonetic_us": "/ɡəˈtsaɪkt/",
+        "usage_example": "Er hat große Fortschritte gezeigt.",
+        "usage_example_es": "Él ha mostrado un gran progreso.",
+        "pronunciation_guide_es": "/er_hat_GRO-se_FORT-shri-te_ge-TSAIKT/",
+        "meaning": "Participio de mostrar",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_7_def0_v3.avif"
+      }
+    },
+    "group_name": "Communication"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Agradecer",
+        "pronunciation_guide_es": "/ish_MOESH-te_dir_fuer_das_A-bent-e-sen_DAN-ken/",
+        "usage_context_en": "To say thanks or express gratitude",
+        "usage_context_es": "Decir gracias o expresar gratitud",
+        "usage_example": "Ich möchte dir für das Abendessen danken.",
+        "usage_example_es": "Quiero agradecerte por la cena.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_8_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "is_verb": true,
+    "name": "danken",
+    "phonetic": "/ˈdaŋkn̩/",
+    "search_term": "verb/speech/essentials",
+    "spoken_phonetic_us": "/ˈdaŋkn̩/",
+    "group_name": "Communication"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Responder / Contestar",
+        "pronunciation_guide_es": "/BI-te_be-ANT-vor-te_di_FRA-ge/",
+        "usage_context_en": "communication/response",
+        "usage_context_es": "comunicación/respuesta",
+        "usage_example": "Bitte beantworte die Frage.",
+        "usage_example_es": "Por favor responde la pregunta.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_9_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Communication",
+    "is_verb": true,
+    "name": "antworten",
+    "phonetic": "/ˈantvɔʁtn̩/",
+    "search_term": "verb/respond/basic",
+    "spoken_phonetic_us": "/ˈantvɔʁtn̩/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "definitions": [
+      {
+        "char_count": "one",
+        "meaning": "Responder / Contestar",
+        "pronunciation_guide_es": "/er_hat_nisht_auf_MAI-ne_NAJ-rish-t_ge-ANT-vor-tet/",
+        "usage_context_en": "communication/reply",
+        "usage_context_es": "comunicación/respuesta",
+        "usage_example": "Er hat nicht auf meine Nachricht geantwortet.",
+        "usage_example_es": "Él no respondió a mi mensaje.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_10_def0.avif"
+      }
+    ],
+    "force_generation": false,
+    "group_name": "Communication",
+    "is_verb": true,
+    "name": "antworten",
+    "phonetic": "/ˈantvɔʁtn̩/",
+    "search_term": "verb/respond/basic",
+    "spoken_phonetic_us": "/ˈantvɔʁtn̩/"
+  }
+]

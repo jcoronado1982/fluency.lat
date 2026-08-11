@@ -1,0 +1,70 @@
+[
+  {
+    "name": "remain",
+    "phonetic": "/rɪˈmeɪn/",
+    "spoken_phonetic_us": "/rɪˈmeɪn/",
+    "search_term": "verb/stay/level_up",
+    "is_verb": true,
+    "learned": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Permanecer/Quedarse",
+        "usage_example": "Please remain seated until the end.",
+        "pronunciation_guide_es": "/PLIS_riMEIN_SITid_antil_de_END/",
+        "alternative_example": "She remained calm during the crisis.",
+        "usage_example_es": "Por favor, permanezca sentado hasta el final.",
+        "char_count": "two",
+        "usage_context_en": "position/state",
+        "usage_context_es": "posición/estado",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_16_def0.avif"
+      },
+      {
+        "meaning": "Restar/Quedar (como sobra)",
+        "usage_example": "Only a few minutes remain.",
+        "pronunciation_guide_es": "/OUNli_a_fiu_MINits_riMEIN/",
+        "alternative_example": "The remaining pieces are on the table.",
+        "usage_example_es": "Solo quedan unos pocos minutos.",
+        "char_count": "two",
+        "usage_context_en": "time/quantity",
+        "usage_context_es": "tiempo/cantidad",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_16_def1.avif"
+      }
+    ],
+    "group_name": "Body & Movement"
+  },
+  {
+    "name": "appear",
+    "phonetic": "/əˈpɪər/",
+    "spoken_phonetic_us": "/əˈpɪr/",
+    "search_term": "verb/seem/level_up",
+    "is_verb": true,
+    "learned": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Aparecer",
+        "usage_example": "The sun appeared from behind the clouds.",
+        "pronunciation_guide_es": "/de_SAN_aPIRD_from_biJAIND_de_KLAUDS/",
+        "alternative_example": "He suddenly appeared at the door.",
+        "usage_example_es": "El sol apareció detrás de las nubes.",
+        "char_count": "two",
+        "usage_context_en": "visibility/arrival",
+        "usage_context_es": "visibilidad/llegada",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_32_def0.avif"
+      },
+      {
+        "meaning": "Parecer/Dar la impresión",
+        "usage_example": "She appears to be very smart.",
+        "pronunciation_guide_es": "/shi_aPIRS_tu_bi_VERI_smart/",
+        "alternative_example": "It appears you made a mistake.",
+        "usage_example_es": "Ella parece ser muy inteligente.",
+        "char_count": "two",
+        "usage_context_en": "impression/judgment",
+        "usage_context_es": "impresión/juicio",
+        "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_32_def1.avif"
+      }
+    ],
+    "group_name": "Feelings & Reactions"
+  }
+]

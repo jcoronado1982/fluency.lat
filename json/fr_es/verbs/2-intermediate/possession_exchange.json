@@ -1,0 +1,119 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Gastar (dinero)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/time/money/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Gastar (dinero)]",
+                "usage_example": "Gasto demasiado dinero en ropa.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Gasto demasiado dinero en ropa.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: dinero/compras]",
+                "usage_context_es": "dinero/compras",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Pasar (tiempo)]",
+                "usage_example": "Pasamos el fin de semana en la playa.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Pasamos el fin de semana en la playa.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: tiempo/ocio]",
+                "usage_context_es": "tiempo/ocio",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Ofrecer (algo)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/present/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Ofrecer (algo)]",
+                "usage_example": "Quiero ofrecerte una bebida.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Quiero ofrecerte una bebida.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: hospitalidad/empleos]",
+                "usage_context_es": "hospitalidad/empleos",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Proponer/Sugerir]",
+                "usage_example": "¿Qué solución ofrecieron?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: ¿Qué solución ofrecieron?]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL FR: sugerencias/ayuda]",
+                "usage_context_es": "sugerencias/ayuda",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Compartir (algo con alguien)",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/divide/intermediate",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Compartir (algo con alguien)]",
+                "usage_example": "¿Quieres compartir mi pizza?",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: ¿Quieres compartir mi pizza?]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: comida/información]",
+                "usage_context_es": "comida/información",
+                "imagePath": ""
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Tener en común]",
+                "usage_example": "Compartimos los mismos intereses.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Compartimos los mismos intereses.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL FR: comunalidad/colaboración]",
+                "usage_context_es": "comunalidad/colaboración",
+                "imagePath": ""
+            }
+        ],
+        "group_name": "Social & Daily Life",
+        "category": ""
+    }
+]

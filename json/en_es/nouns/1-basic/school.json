@@ -1,0 +1,671 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Escuela / Colegio",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/place/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "school",
+        "usage_example": "Los niños están en la escuela.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The children are at school.",
+        "char_count": "one",
+        "usage_context_en": "A place where children go to learn",
+        "usage_context_es": "Un lugar donde los niños van a aprender",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_0_def0.avif",
+        "target_meaning_es": "Escuela / Colegio"
+      },
+      {
+        "meaning": "school",
+        "usage_example": "Pasó un grupo de peces.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "A school of fish swam by.",
+        "char_count": "4",
+        "usage_context_en": "A group of fish swimming together.",
+        "usage_context_es": "Un grupo de peces que nadan juntos.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_0_def1.avif",
+        "target_meaning_es": "Grupo de peces"
+      },
+      {
+        "meaning": "school",
+        "usage_example": "La corriente de pensamiento cree en la libertad.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The school of thought believes in freedom.",
+        "char_count": "5",
+        "usage_context_en": "A particular group of ideas or beliefs.",
+        "usage_context_es": "Un grupo particular de ideas o creencias.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_0_def2.avif",
+        "target_meaning_es": "Corriente de pensamiento"
+      }
+    ],
+    "group_name": "Places",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Libro",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/object/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "book",
+        "usage_example": "Estoy leyendo un libro.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I am reading a book.",
+        "char_count": "one",
+        "usage_context_en": "A set of written pages in a cover",
+        "usage_context_es": "Un conjunto de páginas escritas en una cubierta",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_1_def0.avif",
+        "target_meaning_es": "Libro"
+      }
+    ],
+    "group_name": "Household",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Estudiante / Alumno",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/person/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "student",
+        "usage_example": "Él es un buen estudiante.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "He is a good student.",
+        "char_count": "two",
+        "usage_context_en": "A person who is studying at a school",
+        "usage_context_es": "Una persona que está estudiando en una escuela",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_2_def0.avif",
+        "target_meaning_es": "Estudiante / Alumno"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Profesor / Maestra",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/person/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "teacher",
+        "usage_example": "El profesor está en el salón.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The teacher is in the classroom.",
+        "char_count": "two",
+        "usage_context_en": "A person who teaches",
+        "usage_context_es": "Una persona que enseña",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_3_def0.avif",
+        "target_meaning_es": "Profesor / Maestra"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Bolígrafo / Pluma",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/tool/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "pen",
+        "usage_example": "Necesito un bolígrafo.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I need a pen.",
+        "char_count": "one",
+        "usage_context_en": "A tool for writing with ink",
+        "usage_context_es": "Una herramienta para escribir con tinta",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_4_def0.avif",
+        "target_meaning_es": "Bolígrafo / Pluma"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Lápiz",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/tool/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "pencil",
+        "usage_example": "¿Me prestas tu lápiz?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Can I borrow your pencil?",
+        "char_count": "two",
+        "usage_context_en": "A tool for writing with graphite",
+        "usage_context_es": "Una herramienta para escribir con grafito",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_5_def0.avif",
+        "target_meaning_es": "Lápiz"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Papel",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/material/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "paper",
+        "usage_example": "Necesito un trozo de papel.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I need a piece of paper.",
+        "char_count": "two",
+        "usage_context_en": "Material used for writing or printing",
+        "usage_context_es": "Material usado para escribir o imprimir",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_6_def0.avif",
+        "target_meaning_es": "Papel"
+      },
+      {
+        "meaning": "paper",
+        "usage_example": "Ella escribió un ensayo sobre el cambio climático.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She wrote a paper on climate change.",
+        "char_count": "5",
+        "usage_context_en": "An essay or written report on a specific subject.",
+        "usage_context_es": "Un ensayo o informe escrito sobre un tema específico.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_6_def1.avif",
+        "target_meaning_es": "Documento o ensayo académico"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Clase",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "class",
+        "usage_example": "Tengo una clase de inglés.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I have an English class.",
+        "char_count": "one",
+        "usage_context_en": "A lesson / A group of students",
+        "usage_context_es": "Una lección / Un grupo de estudiantes",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_7_def0.avif",
+        "target_meaning_es": "Clase"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Lección",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "lesson",
+        "usage_example": "La lección fue difícil.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The lesson was difficult.",
+        "char_count": "two",
+        "usage_context_en": "A period of time for learning",
+        "usage_context_es": "Un período de tiempo para aprender",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_8_def0.avif",
+        "target_meaning_es": "Lección"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Prueba / Examen (corto)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "test",
+        "usage_example": "Tenemos una prueba hoy.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "We have a test today.",
+        "char_count": "one",
+        "usage_context_en": "A set of questions to check knowledge",
+        "usage_context_es": "Un conjunto de preguntas para revisar el conocimiento",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_9_def0.avif",
+        "target_meaning_es": "Prueba / Examen (corto)"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Examen (formal, importante)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "exam",
+        "usage_example": "El examen final es la próxima semana.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The final exam is next week.",
+        "char_count": "two",
+        "usage_context_en": "An important test",
+        "usage_context_es": "Una prueba importante",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_10_def0.avif",
+        "target_meaning_es": "Examen (formal, importante)"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Tarea (escolar)",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "homework",
+        "usage_example": "Tengo que hacer mi tarea.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I have to do my homework.",
+        "char_count": "two",
+        "usage_context_en": "School work done at home",
+        "usage_context_es": "Trabajo escolar hecho en casa",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_11_def0.avif",
+        "target_meaning_es": "Tarea (escolar)"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Carta / Letra",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/communication/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "letter",
+        "usage_example": "Escribí una carta. / 'A' es la primera letra.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I wrote a letter. / 'A' is the first letter.",
+        "char_count": "two",
+        "usage_context_en": "A written message / A symbol of the alphabet",
+        "usage_context_es": "Un mensaje escrito / Un símbolo del alfabeto",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_12_def0.avif",
+        "target_meaning_es": "Carta / Letra"
+      },
+      {
+        "meaning": "letter",
+        "usage_example": "La palabra 'cat' tiene tres letras.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "The word 'cat' has three letters.",
+        "char_count": "6",
+        "usage_context_en": "A symbol used to represent a sound in writing.",
+        "usage_context_es": "Un símbolo usado para representar un sonido en la escritura.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_12_def1.avif",
+        "target_meaning_es": "Carácter del alfabeto"
+      },
+      {
+        "meaning": "letter",
+        "usage_example": "Ella escribió una carta a su amiga.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "She wrote a letter to her friend.",
+        "char_count": "5",
+        "usage_context_en": "A written message sent to someone.",
+        "usage_context_es": "Un mensaje escrito enviado a alguien.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_12_def2.avif",
+        "target_meaning_es": "Carta escrita o mensaje"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Historia",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "history",
+        "usage_example": "Estoy estudiando historia.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I am studying history.",
+        "char_count": "three",
+        "usage_context_en": "The study of past events",
+        "usage_context_es": "El estudio de eventos pasados",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_13_def0.avif",
+        "target_meaning_es": "Historia"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Ciencia",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "science",
+        "usage_example": "La ciencia es fascinante.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Science is fascinating.",
+        "char_count": "two",
+        "usage_context_en": "The study of the natural world",
+        "usage_context_es": "El estudio del mundo natural",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_14_def0.avif",
+        "target_meaning_es": "Ciencia"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Matemáticas",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "math",
+        "usage_example": "Tengo clase de matemáticas hoy.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I have math class today.",
+        "char_count": "one",
+        "usage_context_en": "The study of numbers and shapes (AmE)",
+        "usage_context_es": "El estudio de números y formas (AmE)",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_15_def0.avif",
+        "target_meaning_es": "Matemáticas"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Asignatura / Tema",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/concept/school/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "subject",
+        "usage_example": "¿Cuál es tu asignatura favorita?",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "What is your favorite subject?",
+        "char_count": "two",
+        "usage_context_en": "A topic of study / The main idea",
+        "usage_context_es": "Un tema de estudio / La idea principal",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_16_def0.avif",
+        "target_meaning_es": "Asignatura / Tema"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Nota / Apunte",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/communication/essentials",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "note",
+        "usage_example": "Deja una nota en la mesa.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Leave a note on the table.",
+        "char_count": "one",
+        "usage_context_en": "A short written message",
+        "usage_context_es": "Un mensaje escrito corto",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_17_def0.avif",
+        "target_meaning_es": "Nota / Apunte"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Cuaderno",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/school-&-work/seed",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "notebook",
+        "usage_example": "Mi cuaderno está sobre el escritorio.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "My notebook is on the desk.",
+        "char_count": "8",
+        "usage_context_en": "A book of blank pages for writing notes.",
+        "usage_context_es": "Un libro de páginas en blanco para escribir notas.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_18_def0.avif",
+        "target_meaning_es": "Cuaderno"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Borrador / Goma de borrar",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/school-&-work/seed",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "eraser",
+        "usage_example": "Necesito un borrador para este error.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "I need an eraser for this mistake.",
+        "char_count": "6",
+        "usage_context_en": "An object used to remove pencil marks.",
+        "usage_context_es": "Un objeto usado para borrar marcas de lápiz.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_19_def0.avif",
+        "target_meaning_es": "Borrador / Goma de borrar"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "Regla",
+    "phonetic": "",
+    "spoken_phonetic_us": "",
+    "search_term": "noun/school-&-work/seed",
+    "is_phrasal_verb": false,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "ruler",
+        "usage_example": "Usa la regla para dibujar la línea.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "",
+        "usage_example_es": "Use the ruler to draw the line.",
+        "char_count": "5",
+        "usage_context_en": "A straight tool used for measuring or drawing lines.",
+        "usage_context_es": "Una herramienta recta usada para medir o dibujar líneas.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_20_def0.avif",
+        "target_meaning_es": "Regla"
+      }
+    ],
+    "group_name": "School & Work",
+    "category": ""
+  }
+]

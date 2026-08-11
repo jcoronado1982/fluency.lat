@@ -1,0 +1,80 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Permanecer/Quedarse",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/stay/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Permanecer/Quedarse]",
+                "usage_example": "Por favor, permanezca sentado hasta el final.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Por favor, permanezca sentado hasta el final.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: posición/estado]",
+                "usage_context_es": "posición/estado",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_16_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Restar/Quedar (como sobra)]",
+                "usage_example": "Solo quedan unos pocos minutos.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Solo quedan unos pocos minutos.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: tiempo/cantidad]",
+                "usage_context_es": "tiempo/cantidad",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_16_def1.avif"
+            }
+        ],
+        "group_name": "Body & Movement",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "Aparecer",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "verb/seem/level_up",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Aparecer]",
+                "usage_example": "El sol apareció detrás de las nubes.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: El sol apareció detrás de las nubes.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: visibilidad/llegada]",
+                "usage_context_es": "visibilidad/llegada",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_32_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL PT: Parecer/Dar la impresión]",
+                "usage_example": "Ella parece ser muy inteligente.",
+                "pronunciation_guide_es": "[PRONUNCIACIÓN EN ES PARA HABLANTES DE PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Ella parece ser muy inteligente.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: impresión/juicio]",
+                "usage_context_es": "impresión/juicio",
+                "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_32_def1.avif"
+            }
+        ],
+        "group_name": "Feelings & Reactions",
+        "category": ""
+    }
+]

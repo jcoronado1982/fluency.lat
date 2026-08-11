@@ -1,0 +1,95 @@
+.pwaNav {
+    display: none;
+}
+
+@media (display-mode: standalone) and (max-width: 768px) {
+    :global([data-variant='app'][data-layout='conjugation'] [data-fc='conjugation']) {
+        display: none;
+    }
+
+    .pwaNav {
+        position: absolute;
+        z-index: 9;
+        top: calc(var(--pwa-conjugation-nav-top, 58px) + env(safe-area-inset-top, 0px));
+        right: 0px;
+        left: 0px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        min-height: var(--pwa-conjugation-nav-height, 48px);
+        align-items: stretch;
+        pointer-events: auto;
+    }
+
+    .formTab {
+        position: relative;
+        display: flex;
+        min-width: 0;
+        min-height: calc(var(--pwa-conjugation-nav-height, 48px) - 8px);
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1px;
+        margin: 3px 4px 5px;
+        padding: 4px 6px;
+        color: rgba(255, 255, 255, 0.56);
+        font: inherit;
+        border: 0;
+        border-radius: 8px;
+        background: transparent;
+        cursor: pointer;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+        transition:
+            color 160ms ease,
+            transform 110ms ease;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .form {
+        display: block;
+        max-width: 100%;
+        overflow: hidden;
+        font-size: clamp(1.1rem, 4.7vw, 1.25rem);
+        font-weight: 680;
+        line-height: 1.05;
+        text-overflow: ellipsis;
+        text-transform: capitalize;
+        white-space: nowrap;
+    }
+
+    .phonetic {
+        display: none;
+        max-width: 100%;
+        overflow: hidden;
+        color: rgba(255, 255, 255, 0.62);
+        font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+        font-size: 0.68rem;
+        line-height: 1.1;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .formTab[data-state='active'] {
+        color: #ffffff;
+        background-color: transparent;
+        box-shadow: none;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.82);
+    }
+
+    .formTab[data-state='active'] .form {
+        font-weight: 900;
+    }
+
+    .formTab:active {
+        color: #ffffff;
+        background: transparent;
+        box-shadow: none;
+        transform: scale(0.92);
+    }
+
+    .formTab:focus-visible {
+        outline: 2px solid rgba(255, 255, 255, 0.78);
+        outline-offset: -2px;
+        border-radius: 8px;
+    }
+}

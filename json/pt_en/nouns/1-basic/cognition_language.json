@@ -1,0 +1,86 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "way",
+        "phonetic": "/weɪ/",
+        "spoken_phonetic_us": "/weɪ/",
+        "search_term": "noun/method/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Manera / Camino]",
+                "usage_example": "This is the right way.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE way AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: This is the right way.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un método, estilo o dirección]",
+                "usage_context_es": "A method, style, or direction",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_21_def0.avif"
+            }
+        ],
+        "group_name": null,
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "idea",
+        "phonetic": "/aɪˈdiːə/",
+        "spoken_phonetic_us": "/aɪˈdiːə/",
+        "search_term": "noun/thought/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Idea]",
+                "usage_example": "I have a good idea.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE idea AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: I have a good idea.]",
+                "char_count": "three",
+                "usage_context_en": "[TRADUCIR AL PT: Un pensamiento o sugerencia]",
+                "usage_context_es": "A thought or suggestion",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_77_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "stuff",
+        "phonetic": "/stʌf/",
+        "spoken_phonetic_us": "/stʌf/",
+        "search_term": "noun/objects/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cosas / Material (incontable)]",
+                "usage_example": "What is all this stuff?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE stuff AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: What is all this stuff?]",
+                "char_count": "1",
+                "usage_context_en": "[TRADUCIR AL PT: Término general para objetos, cosas o materiales]",
+                "usage_context_es": "General term for objects, things, or materials",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_482_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    }
+]

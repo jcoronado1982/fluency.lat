@@ -1,0 +1,97 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "border",
+        "phonetic": "/ˈbɔrdər/",
+        "spoken_phonetic_us": "/ˈbɔrdər/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Frontera]",
+                "usage_example": "We crossed the border.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE border AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: We crossed the border.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL FR: La línea que separa dos países o regiones.]",
+                "usage_context_es": "The line separating two countries or regions.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_123_def0.avif"
+            }
+        ],
+        "group_name": "Places & Locations",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "direction",
+        "phonetic": "/dəˈrɛkʃən/",
+        "spoken_phonetic_us": "/dəˈrɛkʃən/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Dirección (rumbo)]",
+                "usage_example": "We are going in the wrong direction.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE direction AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: We are going in the wrong direction.]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL FR: El camino que sigue un objeto en movimiento.]",
+                "usage_context_es": "The path that a moving object follows.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_267_def0.avif"
+            },
+            {
+                "meaning": "[TRADUCIR AL FR: Instrucción (a menudo plural)]",
+                "usage_example": "Follow the directions.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE direction AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: Follow the directions.]",
+                "char_count": "3",
+                "usage_context_en": "[TRADUCIR AL FR: Una instrucción sobre cómo hacer algo o llegar a un lugar.]",
+                "usage_context_es": "An instruction on how to do something or reach a place.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_267_def1.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "distance",
+        "phonetic": "/ˈdɪstəns/",
+        "spoken_phonetic_us": "/ˈdɪstəns/",
+        "search_term": "noun/concept/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL FR: Distancia]",
+                "usage_example": "What is the distance to the city?",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE distance AL FR]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL FR: What is the distance to the city?]",
+                "char_count": "7",
+                "usage_context_en": "[TRADUCIR AL FR: La cantidad de espacio entre dos cosas o lugares.]",
+                "usage_context_es": "The amount of space between two things or places.",
+                "imagePath": "/card_images/nouns/2-intermediate/2-intermediate_card_271_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    }
+]

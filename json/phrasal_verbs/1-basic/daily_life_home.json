@@ -1,0 +1,484 @@
+[
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "wake up",
+    "phonetic": "/weɪk ʌp/",
+    "spoken_phonetic_us": "/weɪk ʌp/",
+    "search_term": "phrasal verb/daily routine/sleep/realize",
+    "is_phrasal_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Despertarse (dejar de dormir)",
+        "usage_example": "What time do you usually wake up?",
+        "pronunciation_guide_es": "/uat_TAIM_du_iu_IUyuali_ueik_AP/",
+        "alternative_example": "What time do you usually stop sleeping?",
+        "usage_example_es": "¿A qué hora te despiertas usualmente?",
+        "char_count": "one",
+        "usage_context_en": "daily routine",
+        "usage_context_es": "rutina diaria",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_41_def0.avif"
+      },
+      {
+        "meaning": "Despertar (a alguien)",
+        "usage_example": "Can you wake me up at 7 AM?",
+        "pronunciation_guide_es": "/kæn_iu_UEIK_mi_AP_at_SEven_ei_EM/",
+        "alternative_example": "Can you rouse me at 7 AM?",
+        "usage_example_es": "¿Me puedes despertar a las 7 AM?",
+        "char_count": "one",
+        "usage_context_en": "request/daily routine",
+        "usage_context_es": "petición/rutina diaria",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_41_def1.avif"
+      },
+      {
+        "meaning": "Espabilar, darse cuenta (metafórico)",
+        "usage_example": "You need to wake up and see the problem.",
+        "pronunciation_guide_es": "/iu_NID_tu_ueik_AP_and_SI_de_PROblem/",
+        "alternative_example": "You need to realize and see the problem.",
+        "usage_example_es": "Necesitas espabilar (despertar) y ver el problema.",
+        "char_count": "one",
+        "usage_context_en": "metaphorical/realization",
+        "usage_context_es": "metafórico/darse cuenta",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_41_def2.avif"
+      }
+    ],
+    "group_name": "Phrasal Verbs: Wake",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": true,
+    "learned_at": null,
+    "name": "get up",
+    "phonetic": "/ɡɛt ʌp/",
+    "spoken_phonetic_us": "/ɡɛɾ ʌp/",
+    "search_term": "phrasal verb daily routine/physical movement",
+    "is_phrasal_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "levantarse de la cama",
+        "usage_example": "I get up from my bed every morning.",
+        "pronunciation_guide_es": "/ai_guer_AP_from_mai_bed_EV-ri_MOR-ning/",
+        "alternative_example": "I rise from my bed every morning.",
+        "usage_example_es": "Me levanto de mi cama cada mañana.",
+        "char_count": "one",
+        "usage_context_en": "daily routine",
+        "usage_context_es": "rutina diaria",
+        "imagePath": "/card_images/phrasal_verbs/1-basic/1-basic_card_37_def0.avif"
+      },
+      {
+        "meaning": "ponerse de pie",
+        "usage_example": "He got up quickly when the boss entered the room.",
+        "pronunciation_guide_es": "/ji_gar_AP_KUÍK-li_uen_da_bos_EN-terd_da_rum/",
+        "alternative_example": "He rose quickly when the boss entered the room.",
+        "usage_example_es": "Él se levantó rápidamente cuando el jefe entró a la habitación.",
+        "char_count": "one",
+        "usage_context_en": "physical movement",
+        "usage_context_es": "movimiento físico",
+        "imagePath": "/card_images/phrasal_verbs/1-basic/1-basic_card_37_def1.avif"
+      }
+    ],
+    "group_name": "Phrasal Verbs: Get",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sit down",
+    "phonetic": "/sit down/",
+    "spoken_phonetic_us": "/sit down/",
+    "search_term": "phrasal verb/body movement",
+    "is_phrasal_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Sentarse",
+        "usage_example": "Please sit down.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "Please take a seat.",
+        "usage_example_es": "Por favor, siéntate.",
+        "char_count": "one",
+        "usage_context_en": "basic instruction",
+        "usage_context_es": "instrucción básica"
+      }
+    ],
+    "group_name": "Phrasal Verbs: Sit",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "stand up",
+    "phonetic": "/stand up/",
+    "spoken_phonetic_us": "/stand up/",
+    "search_term": "phrasal verb/body movement",
+    "is_phrasal_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Ponerse de pie / Levantarse",
+        "usage_example": "Please stand up.",
+        "pronunciation_guide_es": "",
+        "alternative_example": "Please get on your feet.",
+        "usage_example_es": "Por favor, ponte de pie.",
+        "char_count": "one",
+        "usage_context_en": "basic instruction",
+        "usage_context_es": "instrucción básica"
+      }
+    ],
+    "group_name": "Phrasal Verbs: Stand",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "put on",
+    "phonetic": "/pʊt ɑn/",
+    "spoken_phonetic_us": "/pʊt ɑn/",
+    "search_term": "phrasal verb/clothing/wear/pretend/gain weight",
+    "is_phrasal_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Ponerse (ropa)",
+        "usage_example": "Put on your jacket. It's cold outside.",
+        "pronunciation_guide_es": "/put_ON_iur_YAket. its_KOLD_autSAID/",
+        "alternative_example": "Wear your jacket. It's cold outside.",
+        "usage_example_es": "Ponte la chaqueta. Hace frío afuera.",
+        "char_count": "one",
+        "usage_context_en": "clothing/daily routine",
+        "usage_context_es": "ropa/rutina diaria",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_7_def0.avif"
+      },
+      {
+        "meaning": "Poner (música, un programa)",
+        "usage_example": "Can you put on some music?",
+        "pronunciation_guide_es": "/kæn_iu_put_ON_sam_MIUsik/",
+        "alternative_example": "Can you play some music?",
+        "usage_example_es": "¿Puedes poner algo de música?",
+        "char_count": "one",
+        "usage_context_en": "media/entertainment",
+        "usage_context_es": "medios/entretenimiento",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_7_def1.avif"
+      },
+      {
+        "meaning": "Ganar (peso)",
+        "usage_example": "He put on 10 pounds over the holidays.",
+        "pronunciation_guide_es": "/hi_put_ON_ten_PAUNDS_Over_de_HOlides/",
+        "alternative_example": "He gained 10 pounds over the holidays.",
+        "usage_example_es": "Él ganó 10 libras (kilos) durante las vacaciones.",
+        "char_count": "one",
+        "usage_context_en": "health/weight",
+        "usage_context_es": "salud/peso",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_7_def2.avif"
+      },
+      {
+        "meaning": "Fingir (una emoción)",
+        "usage_example": "She wasn't really sad. She just put it on.",
+        "pronunciation_guide_es": "/shi_UAsent_RIli_SAD. shi_yost_PU_rit_ON/",
+        "alternative_example": "She wasn't really sad. She just pretended.",
+        "usage_example_es": "No estaba realmente triste. Solo lo fingió.",
+        "char_count": "one",
+        "usage_context_en": "emotions/pretending",
+        "usage_context_es": "emociones/fingir",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_7_def3.avif"
+      }
+    ],
+    "group_name": "Phrasal Verbs: Put",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "take off",
+    "phonetic": "/teɪk ɔf/",
+    "spoken_phonetic_us": "/teɪk ɔf/",
+    "search_term": "phrasal verb/remove clothing/airplane/leave",
+    "is_phrasal_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Quitarse (ropa, zapatos)",
+        "usage_example": "Please take off your shoes at the door.",
+        "pronunciation_guide_es": "/plis_teik_OF_iur_SHUS_at_de_DOR/",
+        "alternative_example": "Please remove your shoes at the door.",
+        "usage_example_es": "Por favor, quítate los zapatos en la puerta.",
+        "char_count": "one",
+        "usage_context_en": "clothing/instructions",
+        "usage_context_es": "ropa/instrucciones",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_27_def0.avif"
+      },
+      {
+        "meaning": "Despegar (un avión)",
+        "usage_example": "What time does the plane take off?",
+        "pronunciation_guide_es": "/uat_TAIM_das_de_PLEIN_teik_OF/",
+        "alternative_example": "What time does the plane depart/leave?",
+        "usage_example_es": "¿A qué hora despega el avión?",
+        "char_count": "one",
+        "usage_context_en": "travel/aviation",
+        "usage_context_es": "viajes/aviación",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_27_def1.avif"
+      },
+      {
+        "meaning": "Irse (repentinamente, informal)",
+        "usage_example": "He saw the police and took off.",
+        "pronunciation_guide_es": "/hi_SO_de_poLIS_and_tuk_OF/",
+        "alternative_example": "He saw the police and ran away.",
+        "usage_example_es": "Él vio a la policía y se fue (huyó).",
+        "char_count": "one",
+        "usage_context_en": "leaving quickly/informal",
+        "usage_context_es": "irse rápido/informal",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_27_def2.avif"
+      }
+    ],
+    "group_name": "Phrasal Verbs: Take",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "turn on",
+    "phonetic": "/tɜrn ɑn/",
+    "spoken_phonetic_us": "/tɜrn ɑn/",
+    "search_term": "phrasal verb/activate/device/arouse",
+    "is_phrasal_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Encender (luz, aparato)",
+        "usage_example": "Can you turn on the light, please?",
+        "pronunciation_guide_es": "/kæn_iu_tern_ON_de_LAIT, plis/",
+        "alternative_example": "Can you activate the light, please?",
+        "usage_example_es": "¿Puedes encender la luz, por favor?",
+        "char_count": "one",
+        "usage_context_en": "devices/electronics",
+        "usage_context_es": "aparatos/electrónica",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_34_def0.avif"
+      },
+      {
+        "meaning": "Atraer (romántica o sexualmente)",
+        "usage_example": "That kind of confidence really turns me on.",
+        "pronunciation_guide_es": "/dat_KAIND_ov_KONfidens_RIli_TERNS_mi_ON/",
+        "alternative_example": "That kind of confidence really attracts me.",
+        "usage_example_es": "Ese tipo de confianza realmente me atrae (excita).",
+        "char_count": "one",
+        "usage_context_en": "attraction/relationships (informal)",
+        "usage_context_es": "atracción/relaciones (informal)",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_34_def1.avif"
+      }
+    ],
+    "group_name": "Phrasal Verbs: Turn",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "turn off",
+    "phonetic": "/tɜrn ɔf/",
+    "spoken_phonetic_us": "/tɜrn ɔf/",
+    "search_term": "phrasal verb/deactivate/device/repel",
+    "is_phrasal_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Apagar (luz, aparato)",
+        "usage_example": "Don't forget to turn off the TV.",
+        "pronunciation_guide_es": "/dont_forGUET_tu_tern_OF_de_tiVI/",
+        "alternative_example": "Don't forget to deactivate the TV.",
+        "usage_example_es": "No olvides apagar la televisión.",
+        "char_count": "one",
+        "usage_context_en": "devices/electronics",
+        "usage_context_es": "aparatos/electrónica",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_35_def0.avif"
+      },
+      {
+        "meaning": "Repeler, desagradar",
+        "usage_example": "His bad attitude really turns me off.",
+        "pronunciation_guide_es": "/his_BAD_Atitud_RIli_TERNS_mi_OF/",
+        "alternative_example": "His bad attitude really repels me.",
+        "usage_example_es": "Su mala actitud realmente me repele (desagrada).",
+        "char_count": "one",
+        "usage_context_en": "dislike/repulsion (informal)",
+        "usage_context_es": "desagrado/repulsión (informal)",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_35_def1.avif"
+      }
+    ],
+    "group_name": "Phrasal Verbs: Turn",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "pick up",
+    "phonetic": "/pɪk ʌp/",
+    "spoken_phonetic_us": "/pɪk ʌp/",
+    "search_term": "phrasal verb/lift/collect/learn/tidy/answer phone",
+    "is_phrasal_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Levantar (del suelo, de una superficie)",
+        "usage_example": "Can you pick up that pencil for me?",
+        "pronunciation_guide_es": "/kæn_iu_pik_AP_dat_PENsil_for_mi/",
+        "alternative_example": "Can you lift that pencil for me?",
+        "usage_example_es": "¿Puedes levantar ese lápiz por mí?",
+        "char_count": "one",
+        "usage_context_en": "physical action/lifting",
+        "usage_context_es": "acción física/levantar",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_3_def0.avif"
+      },
+      {
+        "meaning": "Recoger (a alguien, usualmente en auto)",
+        "usage_example": "I need to pick up my kids from school.",
+        "pronunciation_guide_es": "/ai_NID_tu_pik_AP_mai_KIDS_from_SKUL/",
+        "alternative_example": "I need to collect my kids from school.",
+        "usage_example_es": "Tengo que recoger a mis hijos del colegio.",
+        "char_count": "one",
+        "usage_context_en": "daily routine/transport",
+        "usage_context_es": "rutina diaria/transporte",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_3_def1.avif"
+      },
+      {
+        "meaning": "Contestar (el teléfono)",
+        "usage_example": "The phone is ringing. Please pick it up.",
+        "pronunciation_guide_es": "/de_FOUN_is_RINGing. plis_pik_it_AP/",
+        "alternative_example": "The phone is ringing. Please answer it.",
+        "usage_example_es": "El teléfono está sonando. Por favor, contéstalo.",
+        "char_count": "one",
+        "usage_context_en": "phone call",
+        "usage_context_es": "llamada telefónica",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_3_def2.avif"
+      },
+      {
+        "meaning": "Ordenar, recoger (un desorden)",
+        "usage_example": "You need to pick up your room.",
+        "pronunciation_guide_es": "/iu_NID_tu_pik_AP_iur_RUM/",
+        "alternative_example": "You need to tidy your room.",
+        "usage_example_es": "Necesitas ordenar tu cuarto.",
+        "char_count": "one",
+        "usage_context_en": "chores/tidying up",
+        "usage_context_es": "quehaceres/ordenar",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_3_def3.avif"
+      },
+      {
+        "meaning": "Aprender (un idioma, habilidad, sin esfuerzo)",
+        "usage_example": "I picked up some Spanish in Medellín.",
+        "pronunciation_guide_es": "/ai_pikt_AP_sam_SPAnish_in_medeYIN/",
+        "alternative_example": "I learned some Spanish (casually) in Medellín.",
+        "usage_example_es": "Aprendí algo de español en Medellín.",
+        "char_count": "one",
+        "usage_context_en": "learning/skills",
+        "usage_context_es": "aprender/habilidades",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_3_def4.avif"
+      }
+    ],
+    "group_name": "Phrasal Verbs: Pick",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "put away",
+    "phonetic": "/pʊt əˈweɪ/",
+    "spoken_phonetic_us": "/pʊt əˈweɪ/",
+    "search_term": "phrasal verb/tidy/store/save money",
+    "is_phrasal_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Guardar (algo en su lugar)",
+        "usage_example": "Please put away your toys now.",
+        "pronunciation_guide_es": "/plis_put_aUEI_iur_TOIS_NAU/",
+        "alternative_example": "Please store your toys in their proper place.",
+        "usage_example_es": "Por favor, guarda tus juguetes ahora.",
+        "char_count": "one",
+        "usage_context_en": "tidying up/chores",
+        "usage_context_es": "ordenar/quehaceres",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_11_def0.avif"
+      }
+    ],
+    "group_name": "Phrasal Verbs: Put",
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "take out",
+    "phonetic": "/teɪk aʊt/",
+    "spoken_phonetic_us": "/teɪ 'kaʊt/",
+    "search_term": "phrasal verb/remove/trash/dating/food",
+    "is_phrasal_verb": true,
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Sacar (la basura)",
+        "usage_example": "It's your turn to take out the trash.",
+        "pronunciation_guide_es": "/its_iur_TERN_tu_teik_AUT_de_TRASH/",
+        "alternative_example": "It's your turn to remove the trash.",
+        "usage_example_es": "Es tu turno de sacar la basura.",
+        "char_count": "one",
+        "usage_context_en": "chores/household",
+        "usage_context_es": "quehaceres/hogar",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_28_def0.avif"
+      },
+      {
+        "meaning": "Llevar (a alguien) a salir (cena, cine)",
+        "usage_example": "He's taking me out for dinner on Friday.",
+        "pronunciation_guide_es": "/his_TEIking_mi_AUT_for_DIner_on_FRAIdei/",
+        "alternative_example": "He's inviting me to dinner on Friday.",
+        "usage_example_es": "Él me va a llevar a cenar el viernes.",
+        "char_count": "one",
+        "usage_context_en": "dating/social",
+        "usage_context_es": "citas/social",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_28_def1.avif"
+      },
+      {
+        "meaning": "Pedir comida (para llevar)",
+        "usage_example": "Let's just get take out tonight.",
+        "pronunciation_guide_es": "/lets_yost_get_TEIK_aut_tuNAIT/",
+        "alternative_example": "Let's just get food to go tonight.",
+        "usage_example_es": "Simplemente pidamos comida para llevar esta noche.",
+        "char_count": "one",
+        "usage_context_en": "food/ordering",
+        "usage_context_es": "comida/pedir",
+        "imagePath": "/card_images/phrasal_verbs/3-advanced/3-advanced_card_28_def2.avif"
+      }
+    ],
+    "group_name": "Phrasal Verbs: Take",
+    "category": "Basic"
+  }
+]

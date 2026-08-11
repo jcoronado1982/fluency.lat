@@ -1,0 +1,338 @@
+[
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "metal",
+        "phonetic": "/ˈmɛtl/",
+        "spoken_phonetic_us": "/ˈmɛtl/",
+        "search_term": "noun/substance/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Metal]",
+                "usage_example": "The key is made of metal.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE metal AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The key is made of metal.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Una sustancia dura y brillante (ej. hierro, oro)]",
+                "usage_context_es": "A hard, shiny substance (e.g., iron, gold)",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_358_def0.avif"
+            }
+        ],
+        "group_name": "General Concepts",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "plastic",
+        "phonetic": "/ˈplæstɪk/",
+        "spoken_phonetic_us": "/ˈplæstɪk/",
+        "search_term": "noun/substance/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Plástico]",
+                "usage_example": "The bottle is made of plastic.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE plastic AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The bottle is made of plastic.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Un material artificial y ligero]",
+                "usage_context_es": "A light, artificial material",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_361_def0.avif"
+            }
+        ],
+        "group_name": "Household",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "cotton",
+        "phonetic": "/ˈkɒtn/",
+        "spoken_phonetic_us": "/ˈkɑːtn/",
+        "search_term": "noun/substance/clothing/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Algodón]",
+                "usage_example": "This shirt is made of cotton.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE cotton AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: This shirt is made of cotton.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Un material suave y blanco de una planta]",
+                "usage_context_es": "A soft, white material from a plant",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_362_def0.avif"
+            }
+        ],
+        "group_name": "Clothing",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "leather",
+        "phonetic": "/ˈlɛðər/",
+        "spoken_phonetic_us": "/ˈlɛðər/",
+        "search_term": "noun/substance/clothing/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Cuero / Piel]",
+                "usage_example": "A leather jacket.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE leather AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: A leather jacket.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Material hecho de piel de animal]",
+                "usage_context_es": "Material made from animal skin",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_363_def0.avif"
+            }
+        ],
+        "group_name": "Clothing",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "gold",
+        "phonetic": "/ɡoʊld/",
+        "spoken_phonetic_us": "/ɡoʊld/",
+        "search_term": "noun/substance/color/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Oro]",
+                "usage_example": "The ring is made of gold.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE gold AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The ring is made of gold.]",
+                "char_count": "one",
+                "usage_context_en": "[TRADUCIR AL PT: Un metal amarillo y caro]",
+                "usage_context_es": "A yellow, expensive metal",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_364_def0.avif"
+            }
+        ],
+        "group_name": "Colors",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "silver",
+        "phonetic": "/ˈsɪlvər/",
+        "spoken_phonetic_us": "/ˈsɪlvər/",
+        "search_term": "noun/substance/color/essentials",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: Plata]",
+                "usage_example": "A silver spoon.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE silver AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: A silver spoon.]",
+                "char_count": "two",
+                "usage_context_en": "[TRADUCIR AL PT: Un metal gris-blanco y caro]",
+                "usage_context_es": "A gray-white, expensive metal",
+                "imagePath": "/card_images/nouns/1-basic/1-basic_card_365_def0.avif"
+            }
+        ],
+        "group_name": "Colors",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "material",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/materials/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: A substance or matter used to make things.]",
+                "usage_example": "Wood is a material.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE material AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Wood is a material.]",
+                "char_count": "8",
+                "usage_context_en": "[TRADUCIR AL PT: Una sustancia o materia usada para hacer cosas.]",
+                "usage_context_es": "A substance or matter used to make things.",
+                "imagePath": "/card_images/nouns/1-basic/seed_material.avif"
+            }
+        ],
+        "group_name": "Materials",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "bronze",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/materials/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: A metal made mostly of copper and tin.]",
+                "usage_example": "The medal is bronze.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE bronze AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The medal is bronze.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Un metal hecho sobre todo de cobre y estaño.]",
+                "usage_context_es": "A metal made mostly of copper and tin.",
+                "imagePath": "/card_images/nouns/1-basic/seed_bronze.avif"
+            }
+        ],
+        "group_name": "Materials",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "iron",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/materials/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: A common strong metal.]",
+                "usage_example": "Iron is used in tools.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE iron AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Iron is used in tools.]",
+                "char_count": "4",
+                "usage_context_en": "[TRADUCIR AL PT: Un metal común y resistente.]",
+                "usage_context_es": "A common strong metal.",
+                "imagePath": "/card_images/nouns/1-basic/seed_iron.avif"
+            }
+        ],
+        "group_name": "Materials",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "steel",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/materials/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: A very strong metal made from iron.]",
+                "usage_example": "The bridge is made of steel.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE steel AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: The bridge is made of steel.]",
+                "char_count": "5",
+                "usage_context_en": "[TRADUCIR AL PT: Un metal muy resistente hecho de hierro.]",
+                "usage_context_es": "A very strong metal made from iron.",
+                "imagePath": "/card_images/nouns/1-basic/seed_steel.avif"
+            }
+        ],
+        "group_name": "Materials",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "copper",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/materials/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: A reddish-brown metal.]",
+                "usage_example": "Copper is used in wires.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE copper AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Copper is used in wires.]",
+                "char_count": "6",
+                "usage_context_en": "[TRADUCIR AL PT: Un metal rojizo.]",
+                "usage_context_es": "A reddish-brown metal.",
+                "imagePath": "/card_images/nouns/1-basic/seed_copper.avif"
+            }
+        ],
+        "group_name": "Materials",
+        "category": ""
+    },
+    {
+        "word": "",
+        "translation": "",
+        "example": null,
+        "learned": false,
+        "learned_at": null,
+        "name": "plutonium",
+        "phonetic": "",
+        "spoken_phonetic_us": "",
+        "search_term": "noun/materials/seed",
+        "is_phrasal_verb": false,
+        "force_generation": false,
+        "definitions": [
+            {
+                "meaning": "[TRADUCIR AL PT: A heavy radioactive metal.]",
+                "usage_example": "Plutonium is highly radioactive.",
+                "pronunciation_guide_es": "[ADAPTAR PRONUNCIACIÓN DE plutonium AL PT]",
+                "alternative_example": "",
+                "usage_example_es": "[TRADUCIR AL PT: Plutonium is highly radioactive.]",
+                "char_count": "9",
+                "usage_context_en": "[TRADUCIR AL PT: Un metal pesado y radiactivo.]",
+                "usage_context_es": "A heavy radioactive metal.",
+                "imagePath": "/card_images/nouns/1-basic/seed_plutonium.avif"
+            }
+        ],
+        "group_name": "Materials",
+        "category": ""
+    }
+]
