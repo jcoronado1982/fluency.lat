@@ -1,48 +1,48 @@
-# Módulo `<id>` — <nombre humano>
+# Module `<id>` — <Human Name>
 
-> Plantilla de doc de módulo. Copiar, rellenar TODAS las secciones (escribir "—" si no aplica)
-> y mantener actualizada en el mismo cambio que modifique el módulo.
-> Paso previo: [`GEMINI.md`](../../GEMINI.md) → protocolo de lectura.
+> Module documentation template. Copy, fill ALL sections (write "—" if not applicable),
+> and maintain updated in the same change modifying the module.
+> Entry protocol: [`GEMINI.md`](../../GEMINI.md) → reading protocol.
 
-## Propósito
+## Purpose
 
-2–3 líneas: qué problema de negocio resuelve el módulo y para quién.
+2–3 lines: what business problem this module solves and for whom.
 
-## Estado y roadmap
+## Status and Roadmap
 
-- Estado: activo | beta | pausado.
-- Pendientes conocidos / próximos pasos.
+- Status: active | beta | paused.
+- Known pending items / next steps.
 
-## Mapa de archivos
+## File Map
 
-La guía directa al código — mantenerla exacta.
+Direct code guide — keep exact.
 
-| Capa | Ruta | Qué contiene |
+| Layer | Path | Contents |
 |---|---|---|
-| Backend crate | `backend/mod_<x>/` | casos de uso |
-| Backend rutas | `backend/api_main/src/modules/<x>.rs` | registro de endpoints |
-| Backend handlers | `backend/api_main/src/api/endpoints/<x>.rs` | handlers HTTP |
-| Frontend | `client/src/modules/<x>/` | manifiesto + UI |
+| Backend crate | `backend/mod_<x>/` | use cases |
+| Backend routes | `backend/api_main/src/modules/<x>.rs` | endpoint registration |
+| Backend handlers | `backend/api_main/src/api/endpoints/<x>.rs` | HTTP handlers |
+| Frontend | `client/src/modules/<x>/` | manifest + UI |
 
-## Contratos / endpoints
+## Contracts / Endpoints
 
-| Método | Ruta | Auth | Qué hace |
+| Method | Route | Auth | Description |
 |---|---|---|---|
 
-## Flags y activación
+## Flags and Activation
 
-- Cargo feature: `<feature>` (o — si es solo frontend).
-- Flags Vite: `VITE_ENABLE_<X>`.
-- Perfil sparse: `./scripts/sparse-module.sh <x>`.
+- Cargo feature: `<feature>` (or — if frontend only).
+- Vite flags: `VITE_ENABLE_<X>`.
+- Sparse profile: `./scripts/sparse-module.sh <x>`.
 
-## Dependencias con otros módulos
+## Module Dependencies
 
-Lista explícita. Solo lo declarado aquí autoriza a leer la doc de otro módulo.
+Explicit list. Only items declared here authorize reading another module's doc.
 
-## Datos
+## Data
 
-Colecciones SurrealDB que toca (enlace a [`database_schema_diagram.md`](../../database_schema_diagram.md)).
+SurrealDB collections touched (link to [`database_schema_diagram.md`](../../database_schema_diagram.md)).
 
-## Cómo probar
+## How to Test
 
-Comandos de arranque, perfil sparse, URL local y tests relevantes.
+Startup commands, sparse profile, local URL, and relevant tests.

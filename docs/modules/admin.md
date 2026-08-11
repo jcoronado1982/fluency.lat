@@ -1,65 +1,64 @@
-# Módulo `admin` — Panel de administración y presencia
+# Module `admin` — Admin Panel and Presence
 
-> ⚠️ **Puede no estar en disco**: el perfil sparse actual (`dev-flashcards`) excluye el frontend
-> de admin. Para trabajarlo: `./scripts/sparse-module.sh admin` (rama de trabajo: `dev-admin`).
-> El perfil `admin.profile` corre la app SIN módulos de estudio — esa combinación debe seguir funcionando.
+> ⚠️ **May not be on disk**: the current sparse profile (`dev-flashcards`) excludes the admin frontend.
+> To work on it: `./scripts/sparse-module.sh admin` (working branch: `dev-admin`).
+> The `admin.profile` runs the app WITHOUT study modules — that combination must continue to function.
 
-## Propósito
+## Purpose
 
-Panel para el operador: actividad de usuarios (presencia en vivo), usuarios por país, stats
-diarias, gestión de suscripciones y reset de preferencias de catálogo.
+Operator panel: user activity (live presence), users by country, daily stats, subscription management, and catalog preference resets.
 
-## Estado y roadmap
+## Status and Roadmap
 
-- Estado: **activo**.
+- Status: **active**.
 
-## Mapa de archivos
+## File Map
 
-| Capa | Ruta | Qué contiene |
+| Layer | Path | Contents |
 |---|---|---|
-| Casos de uso | `backend/mod_shell/src/presence_use_cases.rs`, `subscription_use_cases.rs`, `daily_stats_use_cases.rs` | el backend de admin vive en el shell (features `auth`/`subscriptions`), no en crate propio |
+| Use cases | `backend/mod_shell/src/presence_use_cases.rs`, `subscription_use_cases.rs`, `daily_stats_use_cases.rs` | admin backend lives in the shell (`auth`/`subscriptions` features), not in its own crate |
 | Handlers | `backend/api_main/src/api/endpoints/admin.rs`, `admin_users.rs`, `admin_catalog_preferences.rs` | endpoints `/api/admin/*` |
-| Frontend página | `client/src/pages/AdminPage.jsx` | panel (página del shell) — solo orquesta, sin llamadas HTTP directas (SRP) |
-| Hooks (aplicación) | `client/src/pages/useAdminDashboardData.js` | `useAdminUsersActivity`, `useAdminCountriesStats`, `useAdminDailyStats` — polling + estado, consumen el repositorio |
-| Guard | `client/src/components/common/` (`AdminRoute`) | acceso solo admin |
-| Presencia cliente | `client/src/hooks/usePresence.js` | heartbeat que alimenta la actividad |
-| Repositorio | `client/src/repositories/adminRepository.js` | llamadas admin |
+| Frontend Page | `client/src/pages/AdminPage.jsx` | panel (shell page) — orchestrates only, no direct HTTP calls (SRP) |
+| Hooks (application) | `client/src/pages/useAdminDashboardData.js` | `useAdminUsersActivity`, `useAdminCountriesStats`, `useAdminDailyStats` — polling + state, consume repository |
+| Guard | `client/src/components/common/` (`AdminRoute`) | admin-only access |
+| Client presence | `client/src/hooks/usePresence.js` | heartbeat feeding activity |
+| Repository | `client/src/repositories/adminRepository.js` | admin HTTP calls |
 
-## Contratos / endpoints
+## Contracts / Endpoints
 
-Requieren JWT con rol admin (`SUPER_ADMIN_EMAIL` obtiene el rol automáticamente):
+Require JWT with admin role (`SUPER_ADMIN_EMAIL` automatically gains admin role):
 
-| Método | Ruta | Qué hace |
+| Method | Route | Description |
 |---|---|---|
-| GET | `/api/admin/users/activity` | actividad/presencia de usuarios |
-| GET | `/api/admin/users/countries` | usuarios por país |
-| GET | `/api/admin/stats/daily` | estadísticas diarias |
-| POST | `/api/admin/catalog-preferences/reset` | reset masivo de preferencias |
-| GET | `/api/admin/subscriptions` | lista de suscripciones (feature `subscriptions`) |
-| POST | `/api/admin/subscriptions/activate` | activa una suscripción |
-| POST | `/api/admin/subscriptions/cancel` | cancela una suscripción |
+| GET | `/api/admin/users/activity` | User activity/presence |
+| GET | `/api/admin/users/countries` | Users by country |
+| GET | `/api/admin/stats/daily` | Daily statistics |
+| POST | `/api/admin/catalog-preferences/reset` | Bulk reset of catalog preferences |
+| GET | `/api/admin/subscriptions` | Subscription list (`subscriptions` feature) |
+| POST | `/api/admin/subscriptions/activate` | Activate a subscription |
+| POST | `/api/admin/subscriptions/cancel` | Cancel a subscription |
 
-## Flags y activación
+## Flags and Activation
 
-- Cargo feature: `auth` (+ `subscriptions` para la gestión de suscripciones). Build mínimo: `cargo build -p api_main --no-default-features --features auth`.
+- Cargo feature: `auth` (+ `subscriptions` for subscription management). Minimal build: `cargo build -p api_main --no-default-features --features auth`.
 - Vite: `VITE_ENABLE_ADMIN` (opt-out).
 - Sparse: `./scripts/sparse-module.sh admin`.
 
-## Dependencias con otros módulos
+## Module Dependencies
 
-- **shell-auth** ([`shell-auth.md`](shell-auth.md)): todo el backend admin ES parte del shell; este módulo aporta la UI y los guards.
-- Ninguna con módulos de estudio (garantizado por el perfil `admin.profile`).
+- **shell-auth** ([`shell-auth.md`](shell-auth.md)): entire admin backend IS part of the shell; this module provides UI and guards.
+- None with study modules (guaranteed by `admin.profile`).
 
-## Datos
+## Data
 
-SurrealDB: `users`, `subscription`, actividad/presencia y stats diarias.
-Ver [`database_schema_diagram.md`](../../database_schema_diagram.md).
+SurrealDB: `users`, `subscription`, activity/presence, and daily stats.
+See [`database_schema_diagram.md`](../../database_schema_diagram.md).
 
-## Cómo probar
+## How to Test
 
 ```bash
 ./scripts/sparse-module.sh admin
 ./start.sh
-curl -X POST http://127.0.0.1:5173/api/auth/dev-guest   # el guest dev es admin
-# UI: ruta de admin dentro del shell autenticado
+curl -X POST http://127.0.0.1:5173/api/auth/dev-guest   # dev guest is admin
+# UI: admin route inside authenticated shell
 ```

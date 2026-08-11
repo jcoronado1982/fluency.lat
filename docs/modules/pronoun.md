@@ -1,53 +1,53 @@
-# Módulo `pronoun` — Práctica Interactiva de Pronombres e Historias
+# Module `pronoun` — Interactive Pronoun Practice & Stories
 
-> Módulo de aprendizaje y práctica interactiva de pronombres, historias y episodios.
+> Learning module for interactive practice of pronouns, stories, and episodes.
 
-## Propósito
+## Purpose
 
-Permite a los estudiantes practicar el uso de pronombres a través de historias interactivas y episodios con seguimiento de progreso detallado.
+Enables students to practice pronoun usage through interactive stories and episodes with detailed progress tracking.
 
-## Estado y roadmap
+## Status and Roadmap
 
-- Estado: activo.
-- Funcionalidades: lecciones por episodios, pantallas interactivas de práctica y seguimiento de historia/progreso.
+- Status: active.
+- Features: lesson episodes, interactive practice screens, and story/progress tracking.
 
-## Mapa de archivos
+## File Map
 
-| Capa | Ruta | Qué contiene |
+| Layer | Path | Contents |
 |---|---|---|
-| Backend crate | `backend/mod_pronoun/` | Casos de uso de práctica de pronombres |
-| Backend rutas | `backend/api_main/src/modules/pronoun_practice.rs` | Registro de endpoints HTTP |
-| Backend handlers | `backend/api_main/src/api/endpoints/pronoun_practice.rs` | Handlers de episodios, historias y progreso |
-| Frontend | `client/src/modules/pronoun/` | UI de episodios e interacción de historias |
+| Backend crate | `backend/mod_pronoun/` | Pronoun practice use cases |
+| Backend routes | `backend/api_main/src/modules/pronoun_practice.rs` | HTTP endpoint registration |
+| Backend handlers | `backend/api_main/src/api/endpoints/pronoun_practice.rs` | Episode, story, and progress handlers |
+| Frontend | `client/src/modules/pronoun/` | Episode UI and story interaction |
 
-## Contratos / endpoints
+## Contracts / Endpoints
 
-| Método | Ruta | Auth | Qué hace |
+| Method | Route | Auth | Description |
 |---|---|---|---|
-| GET | `/api/progress` | JWT | Obtiene el progreso general de práctica de pronombres |
-| POST | `/api/progress/update` | JWT | Actualiza el progreso del estudiante tras completar ejercicios |
-| DELETE | `/api/progress/reset` | JWT | Reinicia el progreso de práctica de pronombres |
-| GET | `/api/episodes/:episode_id/screens` | JWT | Obtiene las pantallas interactivas de un episodio |
-| GET | `/api/episodes/:episode_id/next` | JWT | Obtiene el siguiente episodio recomendado |
-| GET | `/api/stories/:story_id/full-history` | JWT | Obtiene el historial completo de una historia |
+| GET | `/api/progress` | JWT | Get general pronoun practice progress |
+| POST | `/api/progress/update` | JWT | Update student progress after completing exercises |
+| DELETE | `/api/progress/reset` | JWT | Reset pronoun practice progress |
+| GET | `/api/episodes/:episode_id/screens` | JWT | Fetch interactive screens for an episode |
+| GET | `/api/episodes/:episode_id/next` | JWT | Fetch next recommended episode |
+| GET | `/api/stories/:story_id/full-history` | JWT | Fetch complete story history |
 
-## Flags y activación
+## Flags and Activation
 
-- Cargo feature: `mod_pronoun`.
-- Flags Vite: `VITE_ENABLE_PRONOUN`.
-- Perfil sparse: `./scripts/sparse-module.sh pronoun`.
+- Cargo feature: `pronoun_practice`.
+- Vite flags: `VITE_ENABLE_PRONOUN_PRACTICE`.
+- Sparse profile: `./scripts/sparse-module.sh pronoun`.
 
-## Dependencias con otros módulos
+## Module Dependencies
 
-- `shell-auth`: autenticación por JWT.
-- `flashcards`: tarjetas de soporte léxico opcionales.
+- `shell-auth`: JWT authentication.
+- `flashcards`: optional lexical support cards.
 
-## Datos
+## Data
 
-- Colecciones SurrealDB: `user_progress`, `episodes`, `stories`.
+- SurrealDB collections: `user_progress`, `episodes`, `stories`.
 
-## Cómo probar
+## How to Test
 
 - Backend: `cargo check -p api_main`.
 - Frontend: `npm run dev`.
-- Verificación: `./scripts/verify-blueprints.sh`.
+- Verification: `./scripts/verify-blueprints.sh`.

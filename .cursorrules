@@ -1,25 +1,24 @@
-# Reglas de Codificación e Instrucciones del Proyecto (Fluency / Flashcard AI)
+# Project Coding Rules & Instructions (Fluency / Flashcard AI)
 
-**Protocolo canónico completo: `GEMINI.md` en la raíz** (alias: `CLAUDE.md`, `AGENTS.md`).
-Leerlo PRIMERO: orden de lectura, hojas de ruta por tarea, índice de herramientas, regla
-doc-first de infraestructura y regla de cierre. Lo de abajo es el resumen para este editor.
+**Full canonical protocol: `GEMINI.md` at root** (aliases: `CLAUDE.md`, `AGENTS.md`).
+Read it FIRST: reading order, task roadmaps, tools index, infrastructure doc-first rule, and closing rule. Below is the summary for this editor.
 
-## 🏗️ 1. Arquitectura y Estructura
-*   **Arquitectura modular:** Leer `docs/ARQUITECTURA_MODULAR.md` y `modules/README.md`. Plano por módulo: `docs/modules/<módulo>.md`. Registry: `scripts/module_registry.sh`. Sparse-checkout: `./scripts/sparse-module.sh <modulo>`.
-*   **Backend (Rust + Axum):** `backend/core` (puertos), `backend/mod_*` (casos de uso), `backend/api_main` (composition root). Guía: `backend/GEMINI.md` (alias `backend/CLAUDE.md`).
-*   **Frontend (React 19 + Vite + CSS vanilla/CSS Modules — PROHIBIDO Tailwind/Sass/MUI):** `client/src/modules/<nombre>/index.jsx` registra rutas y navegación. Guía: `client/GEMINI.md` (alias `client/CLAUDE.md`).
-*   **Base de datos:** SurrealDB 1.5.5 (no PostgreSQL; Postgres es solo infraestructura futura de pagos).
-*   **Dominios (Jun 2026):** Primario: `fluency.lat`. Secundario/Transición: `theruby.lat`.
+## 🏗️ 1. Architecture & Structure
+*   **Modular Architecture:** Read `docs/ARQUITECTURA_MODULAR.md` and `modules/README.md`. Per-module blueprint: `docs/modules/<module>.md`. Registry: `scripts/module_registry.sh`. Sparse-checkout: `./scripts/sparse-module.sh <module>`.
+*   **Backend (Rust + Axum):** `backend/core` (ports), `backend/mod_*` (use cases), `backend/api_main` (composition root). Guide: `backend/GEMINI.md`.
+*   **Frontend (React 19 + Vite + Vanilla CSS/CSS Modules — PROHIBITED Tailwind/Sass/MUI):** `client/src/modules/<name>/index.jsx` registers routes and navigation. Guide: `client/GEMINI.md`.
+*   **Database:** SurrealDB 3.2.3 (not PostgreSQL; Postgres is local docker-compose only).
+*   **Domains:** Primary: `fluency.lat`.
 
-## 🗺️ 2. Foco de Contexto Inteligente (Mapa de Dominios)
-*   Antes de leer o modificar archivos, consulta `docs/MAPA_DOMINIOS.md` y activa sparse-checkout del módulo relevante (`./scripts/sparse-module.sh flashcards|pronoun`).
-*   Carga únicamente el shell compartido + el módulo activo para mantener la ventana de contexto limpia.
-*   **Infraestructura Oracle/DB (Jun 2026):** Antes de tocar deploy, SurrealDB, Caddy o servidores, leer `docs/infrastructure/ARQUITECTURA_ORACLE_DB.md`. SurrealDB vive en OCI-1 (`10.0.1.138:8080`), no en el proxy. Postgres está en Azure, no en OCI-1.
+## 🗺️ 2. Intelligent Context Focus (Domain Map)
+*   Before reading or modifying files, check `docs/MAPA_DOMINIOS.md` and activate sparse-checkout for the relevant module (`./scripts/sparse-module.sh flashcards|pronoun`).
+*   Load only the shared shell + active module to keep context window clean.
+*   **Infrastructure & DB:** Before touching deploy, SurrealDB, Caddy, or servers, read `docs/infrastructure/server_inventory.md` and `docs/infrastructure/AI_OPERATIONS_CONTEXT.md`.
 
-## ⚙️ 3. Metodología de trabajo (validación obligatoria)
-1.  **Edición Local:** Lee y edita los archivos utilizando las herramientas nativas del editor.
-2.  **Validación Obligatoria:** Tras realizar cualquier modificación de código, ejecuta obligatoriamente en la terminal:
-    *   Para Rust: `cargo check --manifest-path backend/Cargo.toml`
-    *   Para validar tests: `cargo test --manifest-path backend/Cargo.toml`
-3.  **Auto-Corrección:** Si la compilación o las pruebas fallan, analiza las líneas de error exactas, propone y aplica la corrección, y vuelve a verificar.
-4.  **Confirmación:** No declares una tarea como finalizada hasta que la compilación y los tests den "Éxito/Verde" con cero errores.
+## ⚙️ 3. Development Workflow (Mandatory Verification)
+1.  **Local Editing:** Read and edit files using native editor tools.
+2.  **Mandatory Verification:** After modifying code, run in terminal:
+    *   For Rust: `cargo check -p api_main`
+    *   For tests: `cargo test --manifest-path backend/Cargo.toml` or `npm test` in `client/`
+3.  **Auto-Correction:** If compilation or tests fail, analyze exact error lines, propose and apply fix, and re-verify.
+4.  **Confirmation:** Do not declare a task complete until compilation and tests pass green with zero errors.

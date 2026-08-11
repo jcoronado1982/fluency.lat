@@ -1,36 +1,31 @@
-# Mapa de Dominios y Rutas
+# Domain and Route Map
 
-> Canónico para: dominios servidos y rutas URL del frontend. Los mapas de archivos por módulo
-> viven en [`docs/modules/`](modules/) (uno por módulo); el registry canónico en
-> [`modules/README.md`](../modules/README.md). Última revisión: 2026-07-16.
+> Canonical for: served domains and frontend URL routes. Per-module file maps live in [`docs/modules/`](modules/); canonical registry in [`modules/README.md`](../modules/README.md).
 
-Antes de editar un módulo, sigue el protocolo de [`GEMINI.md`](../GEMINI.md) y usa sparse-checkout:
+Before editing a module, follow the protocol in [`GEMINI.md`](../GEMINI.md) and use sparse-checkout:
 
 ```bash
-./scripts/sparse-module.sh flashcards   # o landing|pricing|dashboard|pronoun|admin
+./scripts/sparse-module.sh flashcards   # or landing|pricing|dashboard|pronoun|admin
 ```
 
 ---
 
-## Dominios servidos por Caddy (`infra/proxy/Caddyfile`)
+## Domains Served by Caddy (`infra/proxy/Caddyfile`)
 
-| Dominio | Qué sirve |
+| Domain | What it Serves |
 |---|---|
-| `fluency.lat`, `www.fluency.lat` | Producción Fluency (proxy naranja Cloudflare) |
-| `qa.fluency.lat` | Pre-producción (DNS-only, directo al proxy real [hoy GCP, antes Oracle], sin CDN) |
-| `theruby.lat` | Portfolio — **fuera del producto Fluency**, mismo Caddy |
-| `bill.theruby.lat` / `bill.fluency.lat` | Subdominio portfolio (fuera de Fluency) |
-| `talent.theruby.lat` / `talent.fluency.lat` | Subdominio portfolio (fuera de Fluency) |
-| `map.theruby.lat` / `map.fluency.lat` | Subdominio portfolio (fuera de Fluency) |
+| `fluency.lat`, `www.fluency.lat` | Fluency Production (Cloudflare proxy) |
+| `qa.fluency.lat` | Pre-production (DNS-only, direct to prod proxy [GCP today], no CDN) |
+| `theruby.lat` | Portfolio — **outside Fluency product**, same Caddy |
 
 ---
 
-## Módulos de negocio (registry)
+## Business Modules (Registry)
 
-Tabla canónica (flags, features, estado): [`modules/README.md`](../modules/README.md).
-Doc detallada por módulo (propósito, mapa de archivos, endpoints, dependencias):
+Canonical table (flags, features, status): [`modules/README.md`](../modules/README.md).
+Detailed module documentation (purpose, file map, endpoints, dependencies):
 
-| Módulo | Doc |
+| Module | Doc |
 |---|---|
 | `landing` | [modules/landing.md](modules/landing.md) |
 | `pricing` | [modules/pricing.md](modules/pricing.md) |
@@ -43,31 +38,24 @@ Doc detallada por módulo (propósito, mapa de archivos, endpoints, dependencias
 
 ---
 
-## Rutas frontend (referencia rápida)
+## Frontend Routes (Quick Reference)
 
-Lógica pura testeable: `client/src/modules/routingPaths.js`
-Resolución en runtime: `client/src/modules/index.js` (`getAuthenticatedHomePath`, `getDefaultAppPath`)
+Pure testable logic: `client/src/modules/routingPaths.js`  
+Runtime resolution: `client/src/modules/index.js` (`getAuthenticatedHomePath`, `getDefaultAppPath`)
 
-| URL | Quién | Qué muestra |
+| URL | Access | Renders |
 |-----|--------|-------------|
-| `/` | Público | Landing (o módulo default si no hay landing) |
-| `/pricing`, `/checkout` | Público | Planes y checkout |
-| `/login` | Público | Login Google |
-| `/dashboard` | Autenticado | Home del dashboard (hub) |
-| `/flashcard` | Autenticado | Módulo flashcards |
-| `/pronoun-practice` | Autenticado | Práctica de pronombres |
-
-| Función | Uso |
-|---------|-----|
-| `getDefaultAppPath()` | Primera ruta pública (landing en `/` o módulo default) |
-| `getAuthenticatedHomePath()` | Destino tras login → `/dashboard` si dashboard activo |
-| `resolveFallbackPath()` | Rutas desconocidas dentro del shell autenticado |
-| `SafeRedirect` | Evita bucles cuando destino === pathname actual |
+| `/` | Public | Landing page (or default module if landing disabled) |
+| `/pricing`, `/checkout` | Public | Plans & checkout |
+| `/login` | Public | Google Login |
+| `/dashboard` | Authenticated | Dashboard Home (hub) |
+| `/flashcard` | Authenticated | Flashcards module |
+| `/pronoun-practice` | Authenticated | Pronoun practice |
 
 ---
 
-## Infraestructura
+## Infrastructure
 
-- Inventario de servidores (IPs, specs): [`infrastructure/server_inventory.md`](infrastructure/server_inventory.md)
-- Pipeline CI/CD: [`infrastructure/pipeline-and-deploy.md`](infrastructure/pipeline-and-deploy.md)
-- Código ejecutable: `azure-pipelines.yml`, `start.sh`, `docker-compose.yml`, `infra/proxy/Caddyfile`
+- Server inventory (IPs, specs): [`infrastructure/server_inventory.md`](infrastructure/server_inventory.md)
+- CI/CD Pipeline: [`infrastructure/pipeline-and-deploy.md`](infrastructure/pipeline-and-deploy.md)
+- Executable code: `azure-pipelines.yml`, `start.sh`, `docker-compose.yml`, `infra/proxy/Caddyfile`
