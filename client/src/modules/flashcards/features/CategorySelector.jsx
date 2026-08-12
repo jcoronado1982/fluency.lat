@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState, useMemo } from 'react';
-import { LuCircleHelp } from 'react-icons/lu';
+import { LuCircleHelp, LuPlus, LuSearch, LuX } from 'react-icons/lu';
 import styles from './CategorySelector.module.css';
+import CreateWordModal from './CreateWordModal';
+import { flashcardPort } from '../composition';
 import { useAuth } from '../../../context/AuthContext';
 import { useUIContext } from '../../../context/UIContext';
 import { useDialog } from '../../../context/AppContext';
@@ -23,6 +25,7 @@ import {
     formatDeckCategoryName,
     getLevelFromDeckName,
     usesNestedLevelDecks,
+    isPersonalDeckName,
 } from '../useCases/deckUseCases';
 
 // Los totales son dinámicos — vienen del contexto que obtiene el conteo real del backend
@@ -200,6 +203,42 @@ function CategorySelector() {
     const [draggingCategory, setDraggingCategory] = useState(null);
     const [draggingGroup, setDraggingGroup] = useState(null);
     const [isHelpOpen, setIsHelpOpen] = useState(false);
+    const [isCreateWordOpen, setIsCreateWordOpen] = useState(false);
+    const [searchQuery, setSearchQuery] = useState('');
+    const [searchResults, setSearchResults] = useState([]);
+    const [isSearching, setIsSearching] = useState(false);
+    const courseDirection = getCourseDirectionFromStudyLanguage(studyLanguage);
+
+    useEffect(() => {
+        const trimmed = searchQuery.trim();
+        if (trimmed.length < 2) {
+            setSearchResults([]);
+            setIsSearching(false);
+            return;
+        }
+
+        setIsSearching(true);
+        const timer = setTimeout(async () => {
+            try {
+                const res = await flashcardPort.searchWords(trimmed, courseDirection);
+                setSearchResults(res?.results || []);
+            } catch {
+                setSearchResults([]);
+            } finally {
+                setIsSearching(false);
+            }
+        }, 250);
+
+        return () => clearTimeout(timer);
+    }, [searchQuery, courseDirection]);
+
+    const handleSelectSearchResult = (result) => {
+        if (!result) return;
+        const cleanDeck = result.deck ? result.deck.replace(/\.json$/, '') : result.deck;
+        changeCategory(result.category);
+        changeDeck(cleanDeck, result.card_index, result.category, { word: result.name });
+        dismissSheet();
+    };
 
     const {
         deckNames, deckSummaries, currentDeckName, changeDeck, masterData, setSelectedGroup, resetDeckByName, resetGroup
@@ -229,7 +268,6 @@ function CategorySelector() {
     const learnedCards = isNestedCatalog && nestedDeckNames.length > 0
         ? levelTotals.learned
         : masterData.filter(c => c.learned).length;
-    const courseDirection = getCourseDirectionFromStudyLanguage(studyLanguage);
     const courseSpecificHelp = getHelpForCourse(courseDirection, currentCategory);
     const studyLocale = studyLanguage === 'de' ? 'de' : studyLanguage === 'es' ? 'es' : 'en';
     const interfaceHelpContent = getCategoryHelpContent(
@@ -340,7 +378,15 @@ function CategorySelector() {
             recentNestedDecks,
             completedNestedDeckNames,
         );
-        setLocalNestedDeckOrder(ordered);
+        // "Crear palabra": el usuario debe poder ubicar lo que acaba de crear fácil — siempre
+        // primero, sin importar el orden guardado en sus preferencias (que nunca conoció este
+        // mazo al guardarse). `applyPreferenceOrder` empuja cualquier mazo ausente de la
+        // preferencia al final; lo reordenamos acá, después, para no tocar esa lógica genérica.
+        const personalFirst = [
+            ...ordered.filter(isPersonalDeckName),
+            ...ordered.filter((name) => !isPersonalDeckName(name)),
+        ];
+        setLocalNestedDeckOrder(personalFirst);
     }, [currentCategory, levelPreferenceKey, nestedDeckNamesKey, user?.catalog_preferences, completedNestedDeckNamesKey, user?.email, recentNestedDecksKey]);
 
     const groupsList = (localGroupOrder.length > 0 ? localGroupOrder : groupNames)
@@ -587,69 +633,164 @@ function CategorySelector() {
 
                 {/* Sidebar Izquierda */}
                 <aside className={styles.sidebar} data-tour="panel-categorias">
-                    <h3 className={styles.sidebarTitle}>{t.categoryTitle}</h3>
-                    <nav className={styles.categoryNav} aria-busy={categoriesLoading || areCategoryTotalsLoading}>
-                        {categoriesLoading && categories.length === 0 && (
-                            <p className={styles.sidebarLoading}>{t.loadingCategories || '…'}</p>
+                    <div className={styles.sidebarTitleRow}>
+                        <h3 className={styles.sidebarTitle}>{t.categoryTitle}</h3>
+                        <button
+                            type="button"
+                            className={styles.createWordBtn}
+                            onClick={() => setIsCreateWordOpen(true)}
+                            aria-label={t.createWordButtonLabel}
+                            title={t.createWordButtonLabel}
+                            data-tour="crear-palabra-btn"
+                        >
+                            <LuPlus size={16} />
+                        </button>
+                    </div>
+
+                    {/* Barra de Búsqueda */}
+                    <div className={styles.searchBarBox}>
+                        <LuSearch className={styles.searchIcon} size={15} />
+                        <input
+                            type="text"
+                            className={styles.searchInput}
+                            placeholder={studyLanguage === 'es' ? 'Buscar palabra (ej. spikes)…' : 'Search word (e.g. spikes)…'}
+                            value={searchQuery}
+                            onChange={(e) => setSearchQuery(e.target.value)}
+                            aria-label="Buscar palabras"
+                        />
+                        {searchQuery && (
+                            <button
+                                type="button"
+                                className={styles.searchClearBtn}
+                                onClick={() => setSearchQuery('')}
+                                title="Limpiar búsqueda"
+                            >
+                                <LuX size={13} />
+                            </button>
                         )}
-                        {categories.map(cat => {
-                            const isActive = cat === currentCategory;
-                            const count = categoryTotals[cat];
-                            const isCountLoading = areCategoryTotalsLoading && count == null;
-                            const dotColor = categoryColors[cat] || '#ffffff';
-                            return (
-                                <button
-                                    key={cat}
-                                    className={`${styles.categoryBtn} ${isActive ? styles.activeCategory : ''} ${draggingCategory === cat ? styles.isDragging : ''}`}
-                                    onClick={() => handleCategoryClick(cat)}
-                                    draggable
-                                    onDragStart={(event) => {
-                                        event.dataTransfer.effectAllowed = 'move';
-                                        event.dataTransfer.setData('text/plain', cat);
-                                        dragStateRef.current = { type: 'category', id: cat };
-                                        setDraggingCategory(cat);
-                                    }}
-                                    onDragOver={(event) => {
-                                        if (dragStateRef.current.type !== 'category') return;
-                                        event.preventDefault();
-                                    }}
-                                    onDrop={(event) => {
-                                        event.preventDefault();
-                                        if (dragStateRef.current.type !== 'category') return;
-                                        const sourceCategory = dragStateRef.current.id;
-                                        console.log(`[CategorySelector] 📥 Soltando categoría "${sourceCategory}" sobre "${cat}"`);
-                                        if (sourceCategory && sourceCategory !== cat) {
-                                            const fromIndex = categories.indexOf(sourceCategory);
-                                            const toIndex = categories.indexOf(cat);
-                                            if (fromIndex !== -1 && toIndex !== -1) {
-                                                console.log(`[CategorySelector] 🔄 Reordenando categorías en memoria de índice ${fromIndex} a ${toIndex}`);
-                                                moveCategory(fromIndex, toIndex);
+                    </div>
+
+                    {searchQuery.trim().length >= 2 ? (
+                        <div className={styles.searchResultsPanel}>
+                            <div className={styles.searchResultsHeader}>
+                                <span>{isSearching ? 'Buscando…' : `Resultados (${searchResults.length})`}</span>
+                            </div>
+                            {isSearching && (
+                                <p className={styles.searchLoadingMsg}>Buscando en el catálogo…</p>
+                            )}
+                            {!isSearching && searchResults.length === 0 && (
+                                <p className={styles.searchNoResultsMsg}>
+                                    No se encontraron palabras que coincidan con «{searchQuery}».
+                                </p>
+                            )}
+                            {!isSearching && searchResults.length > 0 && (
+                                <div className={styles.searchResultsList}>
+                                    {searchResults.map((res, i) => {
+                                        const catLabel = t?.categories?.[res.category] || res.category;
+                                        const dotColor = categoryColors[res.category] || '#ffffff';
+                                        const cleanWordName = res.name.includes('/')
+                                            ? res.name.split('/').filter((p) => !['noun', 'verb', 'adjective', 'adverb', 'phrasal_verbs'].includes(p.toLowerCase())).shift()?.replace(/_/g, ' ') || res.name
+                                            : res.name;
+                                        const rawTopic = res.is_personal
+                                            ? 'Mis palabras'
+                                            : res.deck.split('/').pop().replace(/\.json$/, '').replace(/_/g, ' ');
+                                        const topicDisplayName = rawTopic.replace(/\b\w/g, (c) => c.toUpperCase());
+
+                                        return (
+                                            <div
+                                                key={`${res.category}-${res.deck}-${res.card_index}-${i}`}
+                                                className={styles.searchResultCard}
+                                                onClick={() => handleSelectSearchResult(res)}
+                                                role="button"
+                                                tabIndex={0}
+                                            >
+                                                <div className={styles.searchResultTopRow}>
+                                                    <strong className={styles.searchResultWord}>
+                                                        {cleanWordName}
+                                                    </strong>
+                                                    <span className={styles.searchResultCatBadge}>
+                                                        <span className={styles.searchResultCatDot} style={{ backgroundColor: dotColor }} />
+                                                        {catLabel}
+                                                    </span>
+                                                </div>
+                                                <div className={styles.searchResultMetaRow}>
+                                                    <span className={styles.searchResultLevel}>
+                                                        {res.level.includes('1-basic') ? 'Básico' : res.level.includes('2-intermediate') ? 'Intermedio' : 'Avanzado'}
+                                                    </span>
+                                                    <span className={styles.searchResultDeckName}>
+                                                        {topicDisplayName}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+                            )}
+                        </div>
+                    ) : (
+                        <nav className={styles.categoryNav} aria-busy={categoriesLoading || areCategoryTotalsLoading}>
+                            {categoriesLoading && categories.length === 0 && (
+                                <p className={styles.sidebarLoading}>{t.loadingCategories || '…'}</p>
+                            )}
+                            {categories.map(cat => {
+                                const isActive = cat === currentCategory;
+                                const count = categoryTotals[cat];
+                                const isCountLoading = areCategoryTotalsLoading && count == null;
+                                const dotColor = categoryColors[cat] || '#ffffff';
+                                return (
+                                    <button
+                                        key={cat}
+                                        className={`${styles.categoryBtn} ${isActive ? styles.activeCategory : ''} ${draggingCategory === cat ? styles.isDragging : ''}`}
+                                        onClick={() => handleCategoryClick(cat)}
+                                        draggable
+                                        onDragStart={(event) => {
+                                            event.dataTransfer.effectAllowed = 'move';
+                                            event.dataTransfer.setData('text/plain', cat);
+                                            dragStateRef.current = { type: 'category', id: cat };
+                                            setDraggingCategory(cat);
+                                        }}
+                                        onDragOver={(event) => {
+                                            if (dragStateRef.current.type !== 'category') return;
+                                            event.preventDefault();
+                                        }}
+                                        onDrop={(event) => {
+                                            event.preventDefault();
+                                            if (dragStateRef.current.type !== 'category') return;
+                                            const sourceCategory = dragStateRef.current.id;
+                                            console.log(`[CategorySelector] 📥 Soltando categoría "${sourceCategory}" sobre "${cat}"`);
+                                            if (sourceCategory && sourceCategory !== cat) {
+                                                const fromIndex = categories.indexOf(sourceCategory);
+                                                const toIndex = categories.indexOf(cat);
+                                                if (fromIndex !== -1 && toIndex !== -1) {
+                                                    console.log(`[CategorySelector] 🔄 Reordenando categorías en memoria de índice ${fromIndex} a ${toIndex}`);
+                                                    moveCategory(fromIndex, toIndex);
+                                                }
                                             }
-                                        }
-                                    }}
-                                    onDragEnd={() => {
-                                        console.log('[CategorySelector] 🏁 Fin de arrastre de categoría');
-                                        dragStateRef.current = { type: null, id: null };
-                                        setDraggingCategory(null);
-                                    }}
-                                    data-tour="categoria-item"
-                                    data-categoria={categoryToTourSlug(cat)}
-                                    aria-current={isActive ? 'true' : undefined}
-                                >
-                                    <span className={styles.categoryInfo}>
-                                        <span className={styles.dot} style={{ backgroundColor: dotColor }} />
-                                        <span className={styles.categoryName}>{formatName(cat, t)}</span>
-                                    </span>
-                                    <span
-                                        className={`${styles.categoryCount} ${isCountLoading ? styles.categoryCountLoading : ''}`}
-                                        aria-label={isCountLoading ? (t.loadingCategories || 'Cargando') : undefined}
+                                        }}
+                                        onDragEnd={() => {
+                                            console.log('[CategorySelector] 🏁 Fin de arrastre de categoría');
+                                            dragStateRef.current = { type: null, id: null };
+                                            setDraggingCategory(null);
+                                        }}
+                                        data-tour="categoria-item"
+                                        data-categoria={categoryToTourSlug(cat)}
+                                        aria-current={isActive ? 'true' : undefined}
                                     >
-                                        {isCountLoading ? <span className={styles.countSpinner} aria-hidden="true" /> : (count ?? '—')}
-                                    </span>
-                                </button>
-                            );
-                        })}
-                    </nav>
+                                        <span className={styles.categoryInfo}>
+                                            <span className={styles.dot} style={{ backgroundColor: dotColor }} />
+                                            <span className={styles.categoryName}>{formatName(cat, t)}</span>
+                                        </span>
+                                        <span
+                                            className={`${styles.categoryCount} ${isCountLoading ? styles.categoryCountLoading : ''}`}
+                                            aria-label={isCountLoading ? (t.loadingCategories || 'Cargando') : undefined}
+                                        >
+                                            {isCountLoading ? <span className={styles.countSpinner} aria-hidden="true" /> : (count ?? '—')}
+                                        </span>
+                                    </button>
+                                );
+                            })}
+                        </nav>
+                    )}
                 </aside>
 
                 {/* Contenido Principal Derecha */}
@@ -750,6 +891,10 @@ function CategorySelector() {
                             const summary = deckSummaries[deckName];
                             const total = summary?.total ?? 0;
                             const learned = summary?.learned ?? 0;
+                            // "Crear palabra": si el usuario le puso nombre a su mazo personal
+                            // (rename_personal_deck), se muestra ese nombre en vez del label
+                            // genérico ("Mis palabras").
+                            const deckLabel = summary?.topicName || formatDeckCategoryName(deckName, language);
                             const progressPercent = total > 0 ? (learned / total) * 100 : 0;
                             const isComplete = total > 0 && learned === total;
                             const isNew = learned === 0;
@@ -802,7 +947,7 @@ function CategorySelector() {
                                     }}
                                 >
                                     <div className={styles.groupHeader}>
-                                        <h4 className={styles.groupName}>{formatDeckCategoryName(deckName, language)}</h4>
+                                        <h4 className={styles.groupName}>{deckLabel}</h4>
                                         <div className={styles.groupActions}>
                                             {isComplete ? (
                                                 <button
@@ -935,6 +1080,7 @@ function CategorySelector() {
                     </div>
                 </main>
             </div>
+            {isCreateWordOpen && <CreateWordModal onClose={() => setIsCreateWordOpen(false)} />}
         </div>
     );
 }

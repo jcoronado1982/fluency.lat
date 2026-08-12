@@ -13,6 +13,7 @@ use tokio::sync::OnceCell;
 
 pub mod audio_use_cases;
 pub mod batch;
+pub mod card_creation_use_cases;
 pub mod image_use_cases;
 
 /// Categoría de storage para el demo del landing (aislada del sistema interno).
@@ -102,6 +103,23 @@ pub fn safe_language_suffix(lang: Option<&str>) -> Result<String> {
             }
         }
     }
+}
+
+/// Convierte un email en un segmento de path seguro para URL/filesystem.
+/// Ejemplo: "user@example.com" → "user_example_com". Única fuente — usado por la capa personal
+/// de imágenes (`image_use_cases::personal_image_base`, reservada hoy al rol "platinum") y por el
+/// mazo personal de "Crear palabra" (`card_creation_use_cases`, namespace `users/<segmento>/...`).
+pub(crate) fn user_path_segment(email: &str) -> String {
+    email
+        .chars()
+        .map(|c| {
+            if c.is_alphanumeric() || c == '-' {
+                c.to_ascii_lowercase()
+            } else {
+                '_'
+            }
+        })
+        .collect()
 }
 
 pub fn normalize_course_direction(value: Option<&str>) -> &'static str {
@@ -199,6 +217,19 @@ struct CatalogCategory {
 struct CatalogDeck {
     path: String,
     total: usize,
+}
+
+#[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+pub struct SearchResultDto {
+    pub category: String,
+    pub deck: String,
+    pub deck_display_name: String,
+    pub level: String,
+    pub card_index: usize,
+    pub name: String,
+    pub translation: String,
+    pub example: String,
+    pub is_personal: bool,
 }
 
 pub struct DeckUseCases {
@@ -300,7 +331,11 @@ impl DeckUseCases {
     }
 
     /// Obtiene el estado comprimido (total y aprendidas) de todos los mazos de una categoría.
-    /// 0 lecturas de disco (usa el manifiesto en RAM) y 1 sola consulta a SurrealDB.
+    /// 0 lecturas de disco (usa el manifiesto en RAM) y 1 sola consulta a SurrealDB. Los mazos
+    /// personales ("Crear palabra") NO pasan por acá — el frontend los pide aparte
+    /// (`GET /api/personal-words` → `card_creation_use_cases::personal_words_summaries`, lectura en
+    /// vivo) y los antepone al resultado de este método sin tocarlo — ver
+    /// `docs/modules/flashcards.md` §Personal Words.
     pub async fn get_deck_summaries(
         &self,
         user_id: &str,
@@ -342,6 +377,27 @@ impl DeckUseCases {
         Ok(summaries)
     }
 
+    /// Cuenta tarjetas aprendidas de UN mazo específico para `user_id` — lectura en vivo, no usa
+    /// el manifiesto. Reutilizado por `card_creation_use_cases::personal_words_summaries` para
+    /// mazos personales, que no forman parte de `get_deck_summaries` (fuera del catálogo).
+    pub async fn learned_count_for_deck(
+        &self,
+        user_id: &str,
+        category: &str,
+        deck_name: &str,
+        course_direction: &str,
+    ) -> usize {
+        let normalized_direction = normalize_course_direction(Some(course_direction));
+        let progress_category = progress_category_key(normalized_direction, category);
+        let learned_counts = self
+            .db_repo
+            .count_learned_cards_by_category(user_id, &progress_category)
+            .await
+            .unwrap_or_default();
+        let deck_key = progress_deck_key(normalized_direction, deck_name);
+        learned_counts.get(&deck_key).copied().unwrap_or(0)
+    }
+
     /// Carga únicamente el manifiesto pequeño; nunca abre los JSON de decks.
     pub async fn warm_catalog_manifest(&self) {
         if let Err(err) = self.catalog_manifest().await {
@@ -359,6 +415,11 @@ impl DeckUseCases {
         course_direction: &str,
     ) -> Result<DeckData> {
         let normalized_direction = normalize_course_direction(Some(course_direction));
+        // Mazo personal ("Crear palabra"): `category` real (ej. "verbs") se reescribe al
+        // namespace interno del usuario — ver `card_creation_use_cases::resolve_storage_category`.
+        let category = &crate::card_creation_use_cases::resolve_storage_category(
+            category, deck_name, user_id,
+        );
         let deck_key = progress_deck_key(normalized_direction, deck_name);
         let progress_category = progress_category_key(normalized_direction, category);
         let mut data = self
@@ -407,6 +468,9 @@ impl DeckUseCases {
         course_direction: &str,
     ) -> Result<()> {
         let normalized_direction = normalize_course_direction(Some(course_direction));
+        let category = &crate::card_creation_use_cases::resolve_storage_category(
+            category, deck_name, user_id,
+        );
         let deck_key = progress_deck_key(normalized_direction, deck_name);
         let progress_category = progress_category_key(normalized_direction, category);
         tracing::info!(
@@ -447,6 +511,203 @@ impl DeckUseCases {
         self.db_repo
             .reset_card_progress(user_id, &progress_category, &deck_key)
             .await
+    }
+
+fn clean_card_word(word: &str, search_term: &str) -> String {
+    let raw = if !word.trim().is_empty() {
+        word.trim()
+    } else {
+        search_term.trim()
+    };
+
+    if raw.contains('/') {
+        let parts: Vec<&str> = raw.split('/').collect();
+        let first_lower = parts[0].to_lowercase();
+        let is_prefix = matches!(
+            first_lower.as_str(),
+            "noun" | "verb" | "adjective" | "adverb" | "connector" | "preposition" | "pronoun" | "phrasal_verbs" | "determinant"
+        );
+        if is_prefix && parts.len() > 1 {
+            return parts[1].replace('_', " ").to_string();
+        }
+        return parts.last().unwrap_or(&raw).replace('_', " ").to_string();
+    }
+
+    raw.replace('_', " ").to_string()
+}
+
+fn score_card_match(q: &str, clean_name: &str) -> u32 {
+    let name_lower = clean_name.trim().to_lowercase();
+    if name_lower.is_empty() {
+        return 0;
+    }
+
+    // 1. Coincidencia exacta en la palabra de la tarjeta (ej. "be" == "be")
+    if name_lower == q {
+        return 1000;
+    }
+
+    // 2. La palabra de la tarjeta COMIENZA por la consulta (ej. "be" -> "begin", "become")
+    if name_lower.starts_with(q) {
+        return 800;
+    }
+
+    // 3. Palabra completa dentro de frases compuestas (ej. "make" -> "make clear", "to make")
+    let contains_exact_word = name_lower
+        .split_whitespace()
+        .any(|w| w.trim_matches(|c: char| !c.is_alphanumeric()) == q);
+    if contains_exact_word {
+        return 600;
+    }
+
+    0
+}
+
+    /// Busca tarjetas/palabras en todo el catálogo de la dirección indicada y en mazos personales.
+    pub async fn search_cards(
+        &self,
+        query: &str,
+        course_direction: &str,
+        user_email: Option<&str>,
+    ) -> Result<Vec<SearchResultDto>> {
+        let q = query.trim().to_lowercase();
+        if q.len() < 2 {
+            return Ok(Vec::new());
+        }
+
+        let normalized_direction = normalize_course_direction(Some(course_direction));
+        let catalog = self.catalog_direction(normalized_direction).await?;
+        let mut scored_results: Vec<(u32, SearchResultDto)> = Vec::new();
+
+        for category in &catalog.categories {
+            let cat_name = &category.name;
+            for deck in &category.decks {
+                let deck_name = &deck.path;
+                if deck_name.contains("_e_") {
+                    continue;
+                }
+                let Ok(deck_data) = self
+                    .storage_repo
+                    .get_deck_data_for_direction(normalized_direction, cat_name, deck_name)
+                    .await
+                else {
+                    continue;
+                };
+
+                let cards = deck_data.flashcards();
+                for (idx, card) in cards.iter().enumerate() {
+                    let search_term = card
+                        .extra
+                        .get("search_term")
+                        .and_then(|v| v.as_str())
+                        .unwrap_or("");
+                    let raw_word = card.resolved_word();
+                    let translation = card.resolved_translation();
+                    let example = card.resolved_example();
+                    let clean_name = Self::clean_card_word(raw_word, search_term);
+
+                    let score = Self::score_card_match(&q, &clean_name);
+                    if score > 0 {
+                        let level = deck_name.split('/').next().unwrap_or("").to_string();
+                        scored_results.push((
+                            score,
+                            SearchResultDto {
+                                category: cat_name.clone(),
+                                deck: deck_name.trim_end_matches(".json").to_string(),
+                                deck_display_name: deck_name.trim_end_matches(".json").to_string(),
+                                level,
+                                card_index: idx,
+                                name: clean_name,
+                                translation,
+                                example,
+                                is_personal: false,
+                            },
+                        ));
+                    }
+                }
+            }
+        }
+
+        if let Some(email) = user_email.filter(|e| !e.trim().is_empty()) {
+            for category in &catalog.categories {
+                let cat_name = &category.name;
+                for level in crate::card_creation_use_cases::PERSONAL_WORD_LEVELS {
+                    let deck_name = format!("{level}/{}", crate::card_creation_use_cases::PERSONAL_WORDS_DECK_NAME);
+                    let storage_category = crate::card_creation_use_cases::resolve_storage_category(
+                        cat_name,
+                        &deck_name,
+                        email,
+                    );
+                    let Ok(deck_data) = self
+                        .storage_repo
+                        .get_deck_data_for_direction(normalized_direction, &storage_category, &deck_name)
+                        .await
+                    else {
+                        continue;
+                    };
+
+                    let cards = deck_data.flashcards();
+                    for (idx, card) in cards.iter().enumerate() {
+                        let search_term = card
+                            .extra
+                            .get("search_term")
+                            .and_then(|v| v.as_str())
+                            .unwrap_or("");
+                        let raw_word = card.resolved_word();
+                        let translation = card.resolved_translation();
+                        let example = card.resolved_example();
+                        let clean_name = Self::clean_card_word(raw_word, search_term);
+
+                        let score = Self::score_card_match(&q, &clean_name);
+                        if score > 0 {
+                            scored_results.push((
+                                score,
+                                SearchResultDto {
+                                    category: cat_name.clone(),
+                                    deck: deck_name.trim_end_matches(".json").to_string(),
+                                    deck_display_name: deck_name.trim_end_matches(".json").to_string(),
+                                    level: level.to_string(),
+                                    card_index: idx,
+                                    name: clean_name,
+                                    translation,
+                                    example,
+                                    is_personal: true,
+                                },
+                            ));
+                        }
+                    }
+                }
+            }
+        }
+
+        // Ordenar por puntuación descendente
+        scored_results.sort_by(|a, b| b.0.cmp(&a.0));
+
+        // Si existen coincidencias exactas (score == 1000), mostrar únicamente coincidencias exactas y de inicio (score >= 800)
+        let has_exact_match = scored_results.iter().any(|(score, _)| *score == 1000);
+        let has_strong_matches = scored_results.iter().any(|(score, _)| *score >= 400);
+
+        let mut seen_keys = std::collections::HashSet::new();
+        let final_items: Vec<SearchResultDto> = scored_results
+            .into_iter()
+            .filter(|(score, _)| {
+                if has_exact_match {
+                    *score >= 800
+                } else if has_strong_matches {
+                    *score >= 400
+                } else {
+                    true
+                }
+            })
+            .filter(|(_, item)| {
+                let key = format!("{}::{}::{}", item.category, item.name.to_lowercase(), item.level);
+                seen_keys.insert(key)
+            })
+            .take(40)
+            .map(|(_, item)| item)
+            .collect();
+
+        Ok(final_items)
     }
 
     pub async fn reset_category_status(
@@ -555,6 +816,9 @@ impl DeckUseCases {
             return Ok(());
         }
         let normalized_direction = normalize_course_direction(Some(course_direction));
+        let category = &crate::card_creation_use_cases::resolve_storage_category(
+            category, deck_name, user_id,
+        );
         let deck_key = progress_deck_key(normalized_direction, deck_name);
         let progress_category = progress_category_key(normalized_direction, category);
         self.db_repo
@@ -901,7 +1165,9 @@ mod tests {
             _category: &str,
             _deck: &str,
         ) -> Result<Vec<i32>> {
-            unimplemented!("not exercised by get_learning_stats")
+            // Sin progreso registrado en los fakes que ejercitan esto (`get_deck_data`) — vacío
+            // es una respuesta válida.
+            Ok(Vec::new())
         }
         async fn reset_card_progress(
             &self,
@@ -933,7 +1199,9 @@ mod tests {
             _user_id: &str,
             _category: &str,
         ) -> Result<HashMap<String, usize>> {
-            unimplemented!("not exercised by get_learning_stats")
+            // Sin tarjetas aprendidas registradas en los fakes que ejercitan esto
+            // (`get_deck_summaries` para mazos personales) — vacío es una respuesta válida.
+            Ok(HashMap::new())
         }
         async fn get_all_learned_cards(
             &self,
@@ -1259,5 +1527,57 @@ mod tests {
             .and_then(|d| d.as_array())
             .unwrap();
         assert_eq!(defs.len(), 2);
+    }
+
+    // Regresión: "Crear palabra" integrado al catálogo general (ver
+    // `docs/modules/flashcards.md` §Personal Words) — el frontend abre el mazo personal pasando
+    // la categoría REAL (ej. "verbs") + el nombre de mazo sentinel (`1-basic/my_words`), igual que
+    // cualquier mazo del catálogo. `get_deck_data` debe reescribir esa categoría al namespace
+    // interno del usuario (`resolve_storage_category`) para encontrar el archivo real.
+    #[tokio::test]
+    async fn get_deck_data_rewrites_category_to_the_personal_namespace_for_the_sentinel_deck() {
+        let card: fluency_core::domain::models::flashcard::Flashcard = serde_json::from_value(serde_json::json!({
+            "word": "", "translation": "", "example": null,
+            "learned": false, "learned_at": null, "name": "acquire", "definitions": []
+        }))
+        .unwrap();
+        let uc = build_deck_use_cases(DeckContentFake::new(
+            "es_en",
+            "personal-verbs-user_example_com",
+            "1-basic/my_words",
+            DeckData::Array(vec![card]),
+        ));
+
+        // Pide la categoría REAL ("verbs"), no el namespace interno — el frontend nunca lo conoce.
+        let data = uc
+            .get_deck_data("user@example.com", "verbs", "1-basic/my_words", "es_en")
+            .await
+            .expect("debería reescribir 'verbs' al namespace personal del usuario y encontrar el mazo");
+        assert_eq!(data.flashcards().len(), 1);
+        assert_eq!(
+            data.flashcards()[0].extra.get("name").and_then(|v| v.as_str()),
+            Some("acquire")
+        );
+    }
+
+    #[tokio::test]
+    async fn get_deck_data_leaves_a_real_catalog_deck_untouched() {
+        let card: fluency_core::domain::models::flashcard::Flashcard = serde_json::from_value(serde_json::json!({
+            "word": "", "translation": "", "example": null,
+            "learned": false, "learned_at": null, "name": "run", "definitions": []
+        }))
+        .unwrap();
+        let uc = build_deck_use_cases(DeckContentFake::new(
+            "es_en",
+            "verbs",
+            "1-basic/action",
+            DeckData::Array(vec![card]),
+        ));
+
+        let data = uc
+            .get_deck_data("user@example.com", "verbs", "1-basic/action", "es_en")
+            .await
+            .expect("un mazo real (nombre no-sentinel) no debe reescribirse");
+        assert_eq!(data.flashcards().len(), 1);
     }
 }

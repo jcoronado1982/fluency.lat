@@ -3,7 +3,7 @@ import { useCategoryContext } from '../context/CategoryContext';
 import { useFlashcardUiContext } from '../context/FlashcardUiContext';
 import { useUIContext } from '../../../context/UIContext';
 import { useDialog } from '../../../context/AppContext';
-import { flashcardPort } from '../composition';
+import { flashcardPort, personalWordPort } from '../composition';
 import { queueSrsBatch, listSrsBatches, removeSrsBatch } from '../adapters/srsOutboxIndexedDb';
 import { SrsEngine } from '../domain/SrsEngine';
 import { useAuth } from '../../../context/AuthContext';
@@ -142,6 +142,11 @@ export function useDeckSession(resumeSession = null) {
     const [deckNamesCategory, setDeckNamesCategory] = useState(null);
     const [currentDeckName, setCurrentDeckName] = useState(null);
     const [deckSummaries, setDeckSummaries] = useState({});
+    // "Crear palabra": fuerza un refetch del resumen personal aunque `currentCategory` no haya
+    // cambiado (si el usuario ya estaba parado en la categoría donde creó la palabra, nada más
+    // dispara el efecto de abajo — bug real: había que cerrar y volver a abrir la categoría para
+    // verla). `CreateWordModal` llama `refreshPersonalWords()` después de crear con éxito.
+    const [personalWordsRefreshToken, setPersonalWordsRefreshToken] = useState(0);
     const [selectedGroup, setSelectedGroup] = useState(null);
     const [resetKey, setResetKey] = useState(0);
     const [justCompletedInSession, setJustCompletedInSession] = useState(false);
@@ -158,6 +163,10 @@ export function useDeckSession(resumeSession = null) {
     const batchContextRef = useRef({ category: null, deck: null, userId: null, courseDirection });
     /** Ids de tarjetas ya vistas en la pasada actual (ver `reachedDeckEnd`). */
     const visitedCardIdsRef = useRef(new Set());
+    /** Tarjeta objetivo solicitada (ej. al seleccionar resultado de búsqueda). */
+    const pendingTargetCardRef = useRef(null);
+    /** Evita que resetKey sobrescriba currentIndex a 0 al cargar tarjeta solicitada. */
+    const skipNextResetRef = useRef(false);
     const summarizeDeck = useCallback((cards) => ({
         total: cards.length,
         learned: cards.filter((card) => card.learned).length,
@@ -167,7 +176,17 @@ export function useDeckSession(resumeSession = null) {
         if (!category || !deck || !user?.email) return;
         setIsDeckLoading(true);
         setLoadingStage('loading_cards');
-        setResetKey((k) => k + 1);
+        // Salto de búsqueda en curso hacia este (category, deck): no subir `resetKey` — este
+        // callback puede invocarse más de una vez para el mismo destino (su propia identidad
+        // cambia cuando `deckNames` cambia, ej. al anteponerse un mazo personal), y cada bump
+        // de más dispara el efecto de reseteo de índice DESPUÉS de que `applyPendingTargetCard`
+        // ya hubiera posicionado la carta correcta — pisándola de nuevo a 0.
+        const jumpingToTarget = pendingTargetCardRef.current
+            && pendingTargetCardRef.current.category === category
+            && pendingTargetCardRef.current.deck === deck;
+        if (!jumpingToTarget) {
+            setResetKey((k) => k + 1);
+        }
         try {
             const applyLoadedDeck = (cards) => {
                 setMasterData(cards);
@@ -220,7 +239,15 @@ export function useDeckSession(resumeSession = null) {
     }, [courseDirection, deckNames, setAppMessage, studyLanguage, summarizeDeck, user?.email]);
 
     useEffect(() => {
-        setCurrentDeckName(null);
+        // Salto de búsqueda con categoría + mazo destino en el mismo click (`changeDeck` ya fijó
+        // `currentDeckName` explícitamente vía `pendingTargetCardRef`): no lo pisemos a null, o
+        // se pierde y la carta buscada nunca se resuelve — solo el mazo persistido en
+        // localStorage la reemplazaría, y eso no cubre mazos personales ("Crear palabra").
+        const jumpingToTarget = pendingTargetCardRef.current
+            && pendingTargetCardRef.current.category === currentCategory;
+        if (!jumpingToTarget) {
+            setCurrentDeckName(null);
+        }
         setDeckNames([]);
         setDeckNamesCategory(null);
         setMasterData([]);
@@ -230,19 +257,81 @@ export function useDeckSession(resumeSession = null) {
 
     useEffect(() => {
         setSelectedGroup(null);
-        setResetKey((k) => k + 1);
+        // Salto de búsqueda en curso para esta categoría/mazo: NO subir `resetKey` acá. Cualquier
+        // re-disparo posterior de este efecto (StrictMode lo invoca 2 veces por commit; también
+        // puede pasar por reordenamiento de efectos async) volvería a incrementarlo, y eso
+        // dispara el efecto de reseteo de índice DESPUÉS de que `applyPendingTargetCard` ya
+        // hubiera posicionado la carta correcta — pisándola de nuevo a 0 (bug real reportado en
+        // vivo: la carta buscada nunca se resolvía).
+        const jumpingToTarget = pendingTargetCardRef.current
+            && pendingTargetCardRef.current.category === currentCategory
+            && pendingTargetCardRef.current.deck === currentDeckName;
+        if (!jumpingToTarget) {
+            setResetKey((k) => k + 1);
+        }
         setJustCompletedInSession(false);
         setReachedDeckEnd(false);
     }, [currentCategory, currentDeckName]);
 
-    useEffect(() => {
-        setFilteredData(filterUnlearned(masterData, selectedGroup));
-    }, [masterData, selectedGroup]);
+    const applyPendingTargetCard = useCallback((master, filtered) => {
+        const pending = pendingTargetCardRef.current;
+        if (!pending || master.length === 0) return;
+
+        const getCardWordString = (c) => {
+            if (!c) return '';
+            const raw = c.name || c.word || c.extra?.name || c.extra?.word || '';
+            return String(raw).trim().toLowerCase();
+        };
+
+        let targetCard = null;
+        if (pending.word) {
+            const pWord = pending.word.toLowerCase();
+            targetCard = master.find((c) => getCardWordString(c) === pWord);
+        }
+        if (!targetCard && typeof pending.cardIndex === 'number' && pending.cardIndex >= 0 && pending.cardIndex < master.length) {
+            targetCard = master[pending.cardIndex];
+        }
+
+        if (targetCard) {
+            pendingTargetCardRef.current = null;
+            const targetWordStr = getCardWordString(targetCard);
+            const matchIdx = filtered.findIndex(
+                (c) => c === targetCard || (targetWordStr && getCardWordString(c) === targetWordStr),
+            );
+            if (matchIdx !== -1) {
+                setCurrentIndex(matchIdx);
+            } else {
+                const fallbackIdx = master.findIndex(
+                    (c) => c === targetCard || (targetWordStr && getCardWordString(c) === targetWordStr),
+                );
+                if (fallbackIdx !== -1) {
+                    setFilteredData(master);
+                    setCurrentIndex(fallbackIdx);
+                }
+            }
+        }
+    }, []);
 
     useEffect(() => {
+        const unlearned = filterUnlearned(masterData, selectedGroup);
+        setFilteredData(unlearned);
+        applyPendingTargetCard(masterData, unlearned);
+    }, [masterData, selectedGroup, applyPendingTargetCard]);
+
+    useEffect(() => {
+        if (
+            skipNextResetRef.current
+            || (pendingTargetCardRef.current
+                && pendingTargetCardRef.current.category === currentCategory
+                && pendingTargetCardRef.current.deck === currentDeckName)
+        ) {
+            skipNextResetRef.current = false;
+            visitedCardIdsRef.current = new Set();
+            return;
+        }
         setCurrentIndex(0);
         visitedCardIdsRef.current = new Set();
-    }, [resetKey]);
+    }, [resetKey, currentCategory, currentDeckName]);
 
     /**
      * Cuenta las tarjetas realmente vistas en esta pasada (por id, no por índice)
@@ -261,6 +350,13 @@ export function useDeckSession(resumeSession = null) {
             setIsDeckLoading(true);
             setLoadingStage('loading_decks');
             try {
+                // Salto de búsqueda (`changeDeck` con `pendingTargetCardRef` ya fijado para esta
+                // categoría): el mazo destino ya está decidido explícitamente — incluye mazos
+                // personales ("Crear palabra"), que ni siquiera aparecen en `names` (catálogo
+                // general) y por lo tanto `resolvePersistedChoice` jamás los elegiría. No pisar
+                // `currentDeckName` con el resuelto por preferencia/persistencia en ese caso.
+                const hasPendingTargetForCategory = pendingTargetCardRef.current?.category === currentCategory;
+
                 const preloaded = await raceWithTimeout(
                     consumeFlashcardPreload(user?.email, resumeSession, studyLanguage),
                     PRELOAD_TIMEOUT_MS,
@@ -274,6 +370,7 @@ export function useDeckSession(resumeSession = null) {
                     const names = preloaded.deckNames;
                     setDeckNames(names);
                     setDeckNamesCategory(currentCategory);
+                    if (hasPendingTargetForCategory) return;
                     const storageKey = `${LAST_DECK_KEY_PREFIX}${currentCategory}`;
                     const preferredDeck = resumeSession?.category === currentCategory && resumeSession?.deck
                         && names.includes(resumeSession.deck)
@@ -290,6 +387,7 @@ export function useDeckSession(resumeSession = null) {
                     const names = sortDeckNames(result.files, currentCategory);
                     setDeckNames(names);
                     setDeckNamesCategory(currentCategory);
+                    if (hasPendingTargetForCategory) return;
                     const storageKey = `${LAST_DECK_KEY_PREFIX}${currentCategory}`;
                     const persistedDeck = resolvePersistedChoice(storageKey, names, names[0]);
                     const fallbackDeck = usesNestedLevelDecks(currentCategory) && persistedDeck
@@ -310,6 +408,61 @@ export function useDeckSession(resumeSession = null) {
         };
         loadDecks();
     }, [courseDirection, currentCategory, setAppMessage, isAuthenticated, resumeSession, studyLanguage, user?.email]);
+
+    /**
+     * "Crear palabra" (mazo personal — ver docs/modules/flashcards.md §Personal Words): justo
+     * después de que el catálogo general de la categoría termina de cargar, consulta aparte si el
+     * usuario tiene mazos personales ahí y los ANTEPONE a `deckNames`/`deckSummaries` — nunca
+     * bloquea ni modifica la carga general; si no tiene ninguno no se toca nada. El usuario que
+     * acaba de crear una palabra quiere verla primero, no al final de la lista.
+     */
+    useEffect(() => {
+        if (!currentCategory || !isAuthenticated || deckNamesCategory !== currentCategory) return;
+        let cancelled = false;
+        const loadPersonalDecks = async () => {
+            try {
+                const result = await personalWordPort.getPersonalWordsSummary({
+                    category: currentCategory,
+                    courseDirection,
+                });
+                const personalDecks = Array.isArray(result?.decks) ? result.decks : [];
+                if (cancelled || personalDecks.length === 0) return;
+
+                setDeckNames((prev) => {
+                    const newNames = personalDecks
+                        .map((entry) => entry.deck)
+                        .filter((name) => name && !prev.includes(name));
+                    return newNames.length > 0 ? [...newNames, ...prev] : prev;
+                });
+                setDeckSummaries((prev) => {
+                    const next = { ...prev };
+                    personalDecks.forEach((entry) => {
+                        if (!entry?.deck) return;
+                        // `topicName`: nombre puesto por el usuario (ver CreateWordModal/
+                        // rename_personal_deck); `undefined` si nunca le puso nombre — la grilla
+                        // cae al label genérico ("Mis palabras") en ese caso.
+                        next[entry.deck] = {
+                            total: entry.total,
+                            learned: entry.learned,
+                            topicName: entry.topic_name,
+                        };
+                    });
+                    return next;
+                });
+            } catch {
+                // Silencioso: si falla, el usuario simplemente no ve sus palabras personales esta
+                // vez — el catálogo general (ya cargado) no se ve afectado.
+            }
+        };
+        loadPersonalDecks();
+        return () => {
+            cancelled = true;
+        };
+    }, [currentCategory, courseDirection, isAuthenticated, deckNamesCategory, personalWordsRefreshToken]);
+
+    const refreshPersonalWords = useCallback(() => {
+        setPersonalWordsRefreshToken((v) => v + 1);
+    }, []);
 
     useEffect(() => {
         if (
@@ -579,11 +732,27 @@ export function useDeckSession(resumeSession = null) {
         };
     }, [isAuthenticated, user?.email]);
 
-    const changeDeck = (newDeck) => {
+    const changeDeck = (newDeck, targetCardIndex = null, targetCategory = null, targetMeta = null) => {
         markUserNavigation();
         void flushProgress({ silent: true });
-        setCurrentDeckName(newDeck);
-        localStorage.setItem(`${LAST_DECK_KEY_PREFIX}${currentCategory}`, newDeck);
+        const cat = targetCategory || currentCategory;
+        if (cat) {
+            localStorage.setItem(`${LAST_DECK_KEY_PREFIX}${cat}`, newDeck);
+        }
+        if (typeof targetCardIndex === 'number' || targetMeta) {
+            pendingTargetCardRef.current = {
+                category: cat,
+                deck: newDeck,
+                cardIndex: targetCardIndex,
+                word: targetMeta?.word || null,
+            };
+            skipNextResetRef.current = true;
+        }
+        if (cat === currentCategory && newDeck === currentDeckName && masterData.length > 0) {
+            applyPendingTargetCard(masterData, filteredData);
+        } else {
+            setCurrentDeckName(newDeck);
+        }
     };
 
     const updateCardImagePath = (cardId, newPath, defIndex, form = 'v1') => {
@@ -912,5 +1081,6 @@ export function useDeckSession(resumeSession = null) {
         justCompletedInSession,
         reachedDeckEnd,
         flushProgress,
+        refreshPersonalWords,
     };
 }

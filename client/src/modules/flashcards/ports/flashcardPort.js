@@ -13,6 +13,7 @@
  * @property {(userId: string, category: string, deck?: string, courseDirection?: string) => Promise<unknown>} resetCategoryStatus
  * @property {(courseDirection?: string) => Promise<unknown>} fetchLearningStats
  * @property {() => Promise<unknown>} fetchPhonicsData
+ * @property {(query: string, courseDirection?: string) => Promise<unknown>} searchWords
  * @property {(params: {category: string, deck: string, index: number, defIndex: number, form?: string, courseDirection?: string}) => Promise<unknown>} deleteDefinition
  */
 

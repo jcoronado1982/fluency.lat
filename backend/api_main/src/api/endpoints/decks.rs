@@ -271,6 +271,39 @@ pub async fn get_categories(
     }
 }
 
+#[derive(Debug, Deserialize)]
+pub struct SearchQuery {
+    pub q: String,
+    #[serde(default = "default_course_direction")]
+    pub course_direction: String,
+}
+
+pub async fn search_words(
+    State(state): State<AppState>,
+    headers: axum::http::HeaderMap,
+    Query(query): Query<SearchQuery>,
+) -> impl IntoResponse {
+    let claims = extract_claims(&state, &headers).ok();
+    let user_email = claims.as_ref().map(|c| c.email.as_str());
+
+    match state
+        .deck_use_cases
+        .search_cards(&query.q, &query.course_direction, user_email)
+        .await
+    {
+        Ok(results) => (
+            StatusCode::OK,
+            Json(serde_json::json!({ "success": true, "results": results })),
+        )
+            .into_response(),
+        Err(e) => (
+            StatusCode::INTERNAL_SERVER_ERROR,
+            Json(serde_json::json!({ "success": false, "detail": e.to_string() })),
+        )
+            .into_response(),
+    }
+}
+
 pub async fn get_available_decks(
     State(state): State<AppState>,
     Query(query): Query<CategoryQuery>,

@@ -11,6 +11,10 @@ pub fn register_routes(app: Router<AppState>) -> Router<AppState> {
         get(api::endpoints::decks::get_categories),
     )
     .route(
+        "/api/search-words",
+        get(api::endpoints::decks::search_words),
+    )
+    .route(
         "/api/available-flashcards-files",
         get(api::endpoints::decks::get_available_decks),
     )
@@ -81,5 +85,21 @@ pub fn register_routes(app: Router<AppState>) -> Router<AppState> {
     .route(
         "/api/delete-definition",
         delete(api::endpoints::generation::delete_definition),
+    )
+    .route(
+        "/api/personal-words/preview",
+        post(api::endpoints::personal_words::preview_word),
+    )
+    .route(
+        "/api/personal-words/create",
+        post(api::endpoints::personal_words::create_word),
+    )
+    .route(
+        "/api/personal-words",
+        get(api::endpoints::personal_words::get_personal_words_summary),
+    )
+    .route(
+        "/api/personal-words/rename",
+        post(api::endpoints::personal_words::rename_personal_deck),
     )
 }

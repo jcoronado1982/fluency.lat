@@ -8,23 +8,8 @@ use std::time::Instant;
 
 use crate::{
     is_landing_demo_namespace, normalize_course_direction, safe_deck_media_path, safe_form_suffix,
-    safe_storage_segment, FlashcardsConfig,
+    safe_storage_segment, user_path_segment, FlashcardsConfig,
 };
-
-/// Convierte un email en un segmento de path seguro para URL/filesystem.
-/// Ejemplo: "user@example.com" → "user_example_com"
-fn user_path_segment(email: &str) -> String {
-    email
-        .chars()
-        .map(|c| {
-            if c.is_alphanumeric() || c == '-' {
-                c.to_ascii_lowercase()
-            } else {
-                '_'
-            }
-        })
-        .collect()
-}
 
 fn normalize_role(role: &str) -> String {
     role.trim().to_ascii_lowercase()
@@ -155,6 +140,7 @@ fn fallback_demo_visual_description(usage_example: &str, scene_complement: Optio
 // Application-layer DTOs (no serde, no HTTP concerns)
 // ---------------------------------------------------------------------------
 
+#[derive(Clone)]
 pub struct ImageGenRequest {
     pub category: String,
     pub deck: String,
@@ -401,6 +387,17 @@ impl ImageUseCases {
         user_email: &str,
         role: &str,
     ) -> Result<(String, bool)> {
+        // Mazo personal ("Crear palabra"): `req.category` real se reescribe al namespace interno
+        // del usuario cuando `req.deck` es el sentinel `my_words` — ver
+        // `card_creation_use_cases::resolve_storage_category`.
+        let req = &ImageGenRequest {
+            category: crate::card_creation_use_cases::resolve_storage_category(
+                &req.category,
+                &req.deck,
+                user_email,
+            ),
+            ..req.clone()
+        };
         tracing::info!(
             "🖼️ Solicitud de imagen: email='{}', rol='{}', deck='{}', index='{}', prompt='{}'",
             user_email,
@@ -762,6 +759,50 @@ impl ImageUseCases {
         Ok((self.versioned_image_url(&file_name, &blob_path).await, true))
     }
 
+    /// Genera y guarda una imagen SIEMPRE vía Gemini directo (Interactions API, modo
+    /// `for_raw_phrase` — mismo generador que ya usa el atajo `use_direct_gemini_prod` de
+    /// `get_or_generate_image`), sin el condicional que exige `is_production`, y sin pasar NUNCA
+    /// por el pipeline local Ollama+ComfyUI. Usado exclusivamente por "Crear palabra" (mazo
+    /// personal, ver `card_creation_use_cases`) — pedido explícito del usuario de no depender del
+    /// generador local para esta ruta. `blob_path_base` ya debe venir sin extensión ni prefijo
+    /// (ej. `users/<segmento>/nouns/my_words_card_0_def0`); `phrase` es la frase de uso cruda.
+    pub async fn generate_and_store_direct_gemini(
+        &self,
+        blob_path_base: &str,
+        phrase: &str,
+    ) -> Result<String> {
+        if !self.config.image_ai_enabled {
+            return Err(anyhow::anyhow!(
+                "La generación de imagen por IA está deshabilitada."
+            ));
+        }
+
+        let generator = self
+            .gemini_flash_lite_image_gen
+            .as_ref()
+            .unwrap_or(&self.landing_demo_image_gen);
+        let final_prompt = generator.finalize_prompt(phrase, None);
+
+        let raw_bytes = generator
+            .generate(&final_prompt)
+            .await
+            .map_err(|e| anyhow::anyhow!("personal-word image: {e}"))?;
+
+        let compressed_bytes = self
+            .image_compressor
+            .compress_to_avif(&raw_bytes, 80)
+            .map_err(|e| anyhow::anyhow!("personal-word image compression: {e}"))?;
+
+        let file_name = format!("{}.avif", blob_path_base);
+        let blob_path = format!("{}/{}", self.config.gcs_images_prefix, file_name);
+        self.storage_repo
+            .upload_blob(&blob_path, compressed_bytes, "image/avif")
+            .await
+            .map_err(|e| anyhow::anyhow!("personal-word image upload: {e}"))?;
+
+        Ok(self.versioned_image_url(&file_name, &blob_path).await)
+    }
+
     /// Borra imágenes. Admin borra capa global; usuario normal borra solo su capa personal.
     pub async fn delete_image(
         &self,
@@ -863,6 +904,11 @@ impl ImageUseCases {
         user_email: &str,
         role: &str,
     ) -> Result<Option<String>> {
+        // Mazo personal ("Crear palabra"): `category` real se reescribe al namespace interno del
+        // usuario cuando `deck` es el sentinel `my_words` — ver
+        // `card_creation_use_cases::resolve_storage_category`.
+        let category =
+            &crate::card_creation_use_cases::resolve_storage_category(category, deck, user_email);
         let category = safe_storage_segment(category, "category")?;
         let (deck_media_dir, deck_file_prefix) = safe_deck_media_path(deck)?;
         let form_suffix = safe_form_suffix(form)?;

@@ -1,0 +1,211 @@
+import { renderHook, waitFor } from '@testing-library/react';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { useDeckSession } from './useDeckSession';
+
+const fetchDecksForCategory = vi.fn();
+const fetchDeckData = vi.fn();
+const getPersonalWordsSummary = vi.fn();
+// Referencias ESTABLES (no recreadas en cada render) — un mock que devuelve `vi.fn()` nuevo en
+// cada llamada rompe cualquier `useCallback`/`useEffect` que la tenga como dependencia y provoca
+// un loop de renders infinito ("Maximum update depth exceeded"), no reproducible en la app real
+// (donde los providers sí memoizan) pero sí en un mock ingenuo como este.
+const setAppMessage = vi.fn();
+const confirmDialog = vi.fn();
+const setIsCatalogVisible = vi.fn();
+
+// Categoría inventada (no está en NESTED_LEVEL_CATEGORIES) para que el hook no dispare el
+// efecto de resúmenes por nivel — mantiene el mock mínimo, enfocado en el comportamiento bajo
+// prueba: anteponer el mazo personal a `deckNames`/`deckSummaries` (ver
+// docs/modules/flashcards.md §Personal Words).
+const TEST_CATEGORY = 'flatcat';
+const OTHER_TEST_CATEGORY = 'othercat';
+
+// Mutable vía `vi.hoisted` porque `vi.mock` se iza sobre el resto del archivo: el test de salto
+// de búsqueda cruzando de categoría necesita que `currentCategory` cambie entre renders, como lo
+// haría `changeCategory` real (ver `context/CategoryContext.jsx`).
+const categoryState = vi.hoisted(() => ({ current: 'flatcat' }));
+
+vi.mock('../composition', () => ({
+    flashcardPort: {
+        fetchDecksForCategory: (...args) => fetchDecksForCategory(...args),
+        fetchDeckData: (...args) => fetchDeckData(...args),
+        fetchDeckSummaries: vi.fn(async () => ({ success: false })),
+        updateCardsBatch: vi.fn(async () => {}),
+        deleteDefinition: vi.fn(),
+        resetDeckStatus: vi.fn(),
+        updateCardStatus: vi.fn(),
+    },
+    personalWordPort: {
+        getPersonalWordsSummary: (...args) => getPersonalWordsSummary(...args),
+    },
+}));
+
+vi.mock('../context/CategoryContext', () => ({
+    useCategoryContext: () => ({ currentCategory: categoryState.current }),
+}));
+
+vi.mock('../context/FlashcardUiContext', () => ({
+    useFlashcardUiContext: () => ({ setIsCatalogVisible }),
+}));
+
+vi.mock('../../../context/UIContext', () => ({
+    useUIContext: () => ({ setAppMessage, language: 'en', studyLanguage: 'en' }),
+}));
+
+vi.mock('../../../context/AppContext', () => ({
+    useDialog: () => ({ confirm: confirmDialog }),
+}));
+
+vi.mock('../../../context/AuthContext', () => ({
+    useAuth: () => ({ isAuthenticated: true, user: { email: 'user@example.com' } }),
+}));
+
+vi.mock('../adapters/srsOutboxIndexedDb', () => ({
+    queueSrsBatch: vi.fn(),
+    listSrsBatches: vi.fn(async () => []),
+    removeSrsBatch: vi.fn(),
+}));
+
+vi.mock('../preload', () => ({
+    consumeFlashcardPreload: vi.fn(async () => null),
+    resetFlashcardPreload: vi.fn(),
+}));
+
+describe('useDeckSession — mazo personal ("Crear palabra")', () => {
+    beforeEach(() => {
+        categoryState.current = TEST_CATEGORY;
+        fetchDecksForCategory.mockReset();
+        fetchDeckData.mockReset();
+        getPersonalWordsSummary.mockReset();
+        fetchDecksForCategory.mockResolvedValue({ success: true, files: ['1-basic/action'] });
+        // Nunca resuelve: aísla lo que este archivo prueba (el listado de mazos) de
+        // `loadFlashcards`/la carga de contenido de un mazo, que no es el objeto de esta prueba.
+        fetchDeckData.mockImplementation(() => new Promise(() => {}));
+    });
+
+    it('antepone el mazo personal a deckNames/deckSummaries cuando el usuario tiene uno', async () => {
+        getPersonalWordsSummary.mockResolvedValue({
+            decks: [{ deck: '1-basic/my_words', total: 2, learned: 1 }],
+        });
+
+        const { result } = renderHook(() => useDeckSession());
+
+        await waitFor(() => {
+            expect(result.current.deckNames).toContain('1-basic/my_words');
+        });
+        expect(result.current.deckNames[0]).toBe('1-basic/my_words');
+        expect(result.current.deckNames).toContain('1-basic/action');
+        expect(result.current.deckSummaries['1-basic/my_words']).toEqual({ total: 2, learned: 1 });
+    });
+
+    it('propaga el nombre que el usuario le puso al mazo (rename_personal_deck) a deckSummaries', async () => {
+        getPersonalWordsSummary.mockResolvedValue({
+            decks: [{ deck: '2-intermediate/my_words', total: 1, learned: 0, topic_name: 'Palabras de trabajo' }],
+        });
+
+        const { result } = renderHook(() => useDeckSession());
+
+        await waitFor(() => {
+            expect(result.current.deckSummaries['2-intermediate/my_words']?.topicName).toBe('Palabras de trabajo');
+        });
+    });
+
+    it('no toca deckNames cuando el usuario no tiene mazo personal en esta categoría', async () => {
+        getPersonalWordsSummary.mockResolvedValue({ decks: [] });
+
+        const { result } = renderHook(() => useDeckSession());
+
+        await waitFor(() => {
+            expect(result.current.deckNames).toEqual(['1-basic/action']);
+        });
+        expect(getPersonalWordsSummary).toHaveBeenCalledWith({
+            category: TEST_CATEGORY,
+            courseDirection: 'es_en',
+        });
+    });
+
+    it('refreshPersonalWords() vuelve a pedir el resumen aunque currentCategory no haya cambiado', async () => {
+        // Bug real reportado en vivo: crear una palabra estando YA parado en su categoría no
+        // mostraba el mazo nuevo hasta cerrar y volver a abrir la categoría — `CreateWordModal`
+        // llama `refreshPersonalWords()` tras crear con éxito para forzar este refetch.
+        getPersonalWordsSummary.mockResolvedValueOnce({ decks: [] });
+
+        const { result } = renderHook(() => useDeckSession());
+
+        await waitFor(() => expect(getPersonalWordsSummary).toHaveBeenCalledTimes(1));
+        expect(result.current.deckNames).toEqual(['1-basic/action']);
+
+        getPersonalWordsSummary.mockResolvedValueOnce({
+            decks: [{ deck: '1-basic/my_words', total: 1, learned: 0 }],
+        });
+        result.current.refreshPersonalWords();
+
+        await waitFor(() => expect(getPersonalWordsSummary).toHaveBeenCalledTimes(2));
+        await waitFor(() => expect(result.current.deckNames).toContain('1-basic/my_words'));
+    });
+
+    it('posiciona la sesión en la tarjeta objetivo cuando se llama changeDeck con targetMeta', async () => {
+        getPersonalWordsSummary.mockResolvedValue({ decks: [] });
+        fetchDeckData.mockResolvedValue([
+            { id: 1, word: 'chair', learned: false },
+            { id: 2, word: 'table', learned: false },
+            { id: 3, word: 'lamp', learned: false },
+        ]);
+
+        const { result } = renderHook(() => useDeckSession());
+
+        await waitFor(() => {
+            expect(result.current.deckNames).toEqual(['1-basic/action']);
+        });
+
+        result.current.changeDeck('1-basic/action', 1, TEST_CATEGORY, { word: 'table' });
+
+        await waitFor(() => {
+            expect(result.current.currentIndex).toBe(1);
+            expect(result.current.currentCard?.word).toBe('table');
+        });
+    });
+
+    it('salto de búsqueda a un mazo personal en OTRA categoría no se pisa con el mazo por defecto del catálogo (bug real: la carta buscada nunca se resolvía)', async () => {
+        // `CategorySelector.handleSelectSearchResult` llama `changeCategory(result.category)`
+        // (mutamos el mock de contexto) y `changeDeck(...)` en el mismo click, sin esperar a que
+        // la categoría "asiente" — reproduce ese salto simultáneo.
+        fetchDecksForCategory.mockImplementation(async (category) => (
+            category === OTHER_TEST_CATEGORY
+                ? { success: true, files: ['1-basic/default-deck'] }
+                : { success: true, files: ['1-basic/action'] }
+        ));
+        getPersonalWordsSummary.mockImplementation(async ({ category }) => (
+            category === OTHER_TEST_CATEGORY
+                ? { decks: [{ deck: '1-basic/my_words', total: 3, learned: 0 }] }
+                : { decks: [] }
+        ));
+        fetchDeckData.mockImplementation(async (_email, category, deck) => {
+            if (category === OTHER_TEST_CATEGORY && deck === '1-basic/my_words') {
+                return [
+                    { id: 1, word: 'apple', learned: false },
+                    { id: 2, word: 'banana', learned: false },
+                ];
+            }
+            // El mazo por defecto del catálogo NUNCA debería pedirse en este flujo — si el bug
+            // reaparece y `currentDeckName` se pisa con él, esta promesa nunca resuelve y el
+            // `waitFor` de abajo expira, marcando la regresión.
+            return new Promise(() => {});
+        });
+
+        const { result, rerender } = renderHook(() => useDeckSession());
+
+        await waitFor(() => {
+            expect(result.current.deckNames).toEqual(['1-basic/action']);
+        });
+
+        categoryState.current = OTHER_TEST_CATEGORY;
+        result.current.changeDeck('1-basic/my_words', 1, OTHER_TEST_CATEGORY, { word: 'banana' });
+        rerender();
+
+        await waitFor(() => {
+            expect(result.current.currentDeckName).toBe('1-basic/my_words');
+            expect(result.current.currentCard?.word).toBe('banana');
+        });
+    });
+});

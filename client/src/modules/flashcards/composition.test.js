@@ -23,6 +23,7 @@ describe('flashcards composition root', () => {
             'resetCategoryStatus',
             'fetchLearningStats',
             'fetchPhonicsData',
+            'searchWords',
         ]) {
             expect(typeof flashcardPort[method]).toBe('function');
         }

@@ -13,6 +13,9 @@ export function createFlashcardHttpAdapter(httpClient) {
         fetchCategories: (courseDirection = 'es_en') =>
             httpClient.get(`/api/categories?course_direction=${encodeURIComponent(normalizeCourseDirection(courseDirection))}&include_counts=true`),
 
+        searchWords: (query, courseDirection = 'es_en') =>
+            httpClient.get(`/api/search-words?q=${encodeURIComponent(query)}&course_direction=${encodeURIComponent(normalizeCourseDirection(courseDirection))}`),
+
         fetchDecksForCategory: (category, courseDirection = 'es_en') =>
             httpClient.get(
                 `/api/available-flashcards-files?category=${encodeURIComponent(category)}&course_direction=${encodeURIComponent(normalizeCourseDirection(courseDirection))}`,

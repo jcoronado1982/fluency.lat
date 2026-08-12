@@ -723,6 +723,148 @@ Do not include the internal checklist, word counts, explanations, markdown, or a
             .await
     }
 
+    async fn generate_word_card_draft(
+        &self,
+        word: &str,
+        course_direction: &str,
+        category_override: Option<&str>,
+        level_override: Option<&str>,
+    ) -> Result<Vec<serde_json::Value>> {
+        #[cfg(feature = "flashcards")]
+        {
+            use crate::infrastructure::ai::gemini_word_card_prompt::{
+                build_word_card_user_message, WORD_CARD_CATEGORIES, WORD_CARD_LEVELS,
+                WORD_CARD_SYSTEM_PROMPT,
+            };
+
+            if self.api_key == "DISABLED" {
+                anyhow::bail!("Gemini está deshabilitado: no se puede crear una palabra nueva");
+            }
+
+            let user = build_word_card_user_message(
+                word,
+                course_direction,
+                category_override,
+                level_override,
+            );
+            let validate = |raw: &str| -> Result<Vec<serde_json::Value>> {
+                let value: serde_json::Value =
+                    serde_json::from_str(raw).context("Gemini: respuesta no es JSON válido")?;
+                let classifications = value
+                    .get("classifications")
+                    .and_then(|v| v.as_array())
+                    .context("Gemini: falta 'classifications' en el borrador")?;
+                anyhow::ensure!(
+                    !classifications.is_empty() && classifications.len() <= 2,
+                    "Gemini: 'classifications' debe tener 1 o 2 elementos (llegaron {})",
+                    classifications.len()
+                );
+                let mut result = Vec::with_capacity(classifications.len());
+                for item in classifications {
+                    let category = item
+                        .get("category")
+                        .and_then(|v| v.as_str())
+                        .context("Gemini: falta 'category' en una clasificación")?;
+                    anyhow::ensure!(
+                        WORD_CARD_CATEGORIES.contains(&category),
+                        "Gemini: categoría inválida '{category}'"
+                    );
+                    let level = item
+                        .get("level")
+                        .and_then(|v| v.as_str())
+                        .context("Gemini: falta 'level' en una clasificación")?;
+                    anyhow::ensure!(
+                        WORD_CARD_LEVELS.contains(&level),
+                        "Gemini: nivel inválido '{level}'"
+                    );
+                    anyhow::ensure!(
+                        item.get("name").and_then(|v| v.as_str()).is_some_and(|s| !s.trim().is_empty()),
+                        "Gemini: falta 'name' en una clasificación"
+                    );
+                    let definitions = item
+                        .get("definitions")
+                        .and_then(|v| v.as_array())
+                        .context("Gemini: falta 'definitions' en una clasificación")?;
+                    anyhow::ensure!(
+                        !definitions.is_empty(),
+                        "Gemini: 'definitions' vacío en una clasificación"
+                    );
+                    let first = &definitions[0];
+                    for key in [
+                        "meaning",
+                        "usage_example",
+                        "usage_example_es",
+                        "pronunciation_guide_es",
+                        "usage_context_en",
+                        "usage_context_es",
+                    ] {
+                        anyhow::ensure!(
+                            first.get(key).and_then(|v| v.as_str()).is_some_and(|s| !s.trim().is_empty()),
+                            "Gemini: falta '{key}' en definitions[0] de una clasificación"
+                        );
+                    }
+                    result.push(item.clone());
+                }
+
+                if let (Some(category), Some(level)) = (category_override, level_override) {
+                    // El usuario ya eligió — nunca dejamos que Gemini reinterprete la categoría/nivel:
+                    // clampamos el primer (y único que nos importa) elemento a lo pedido.
+                    let mut first = result
+                        .into_iter()
+                        .next()
+                        .context("Gemini: 'classifications' vacío")?;
+                    if let Some(obj) = first.as_object_mut() {
+                        obj.insert(
+                            "category".to_string(),
+                            serde_json::Value::String(category.to_string()),
+                        );
+                        obj.insert(
+                            "level".to_string(),
+                            serde_json::Value::String(level.to_string()),
+                        );
+                    }
+                    result = vec![first];
+                }
+
+                Ok(result)
+            };
+
+            let raw = self
+                .call(
+                    WORD_CARD_SYSTEM_PROMPT,
+                    &user,
+                    0.4,
+                    "gemini-3.1-flash-lite",
+                    Some("application/json"),
+                )
+                .await
+                .context("Gemini: fallo generando el borrador de la palabra")?;
+
+            match validate(&raw) {
+                Ok(value) => Ok(value),
+                Err(first_err) => {
+                    warn!("word-card-draft: primer intento inválido ({first_err}), reintentando");
+                    let retry = self
+                        .call(
+                            WORD_CARD_SYSTEM_PROMPT,
+                            &user,
+                            0.4,
+                            "gemini-3.1-flash-lite",
+                            Some("application/json"),
+                        )
+                        .await
+                        .context("Gemini: fallo en el reintento del borrador de la palabra")?;
+                    validate(&retry).context("Gemini: el reintento también devolvió un borrador inválido")
+                }
+            }
+        }
+        #[cfg(not(feature = "flashcards"))]
+        {
+            let _ = (word, course_direction, category_override, level_override);
+            anyhow::bail!("generate_word_card_draft requiere la feature 'flashcards'")
+        }
+    }
+
     async fn guide_onboarding_step(
         &self,
         locale: &str,

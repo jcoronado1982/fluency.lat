@@ -65,6 +65,8 @@ use crate::infrastructure::storage::surreal::{
 #[cfg(feature = "flashcards")]
 use mod_flashcards::audio_use_cases::AudioUseCases;
 #[cfg(feature = "flashcards")]
+use mod_flashcards::card_creation_use_cases::CardCreationUseCases;
+#[cfg(feature = "flashcards")]
 use mod_flashcards::batch::{
     parse_batch_filter, run_batch_audio_generation, run_batch_image_generation,
     run_batch_image_linking, AudioBatchContext, BatchSettings, ImageBatchContext,
@@ -105,6 +107,8 @@ pub struct AppState {
     pub audio_use_cases: Arc<AudioUseCases>,
     #[cfg(feature = "flashcards")]
     pub image_use_cases: Arc<ImageUseCases>,
+    #[cfg(feature = "flashcards")]
+    pub card_creation_use_cases: Arc<CardCreationUseCases>,
     #[cfg(feature = "pronoun_practice")]
     pub pronoun_practice_use_cases: Arc<StoryUseCases>,
     #[cfg(feature = "auth")]
@@ -434,6 +438,13 @@ async fn async_main() -> anyhow::Result<()> {
         ai_tutor.clone(),
         flashcards_config.clone(),
     ));
+    #[cfg(feature = "flashcards")]
+    let card_creation_use_cases = Arc::new(CardCreationUseCases::new(
+        ai_tutor.clone(),
+        image_use_cases.clone(),
+        audio_use_cases.clone(),
+        deck_use_cases.clone(),
+    ));
     #[cfg(feature = "pronoun_practice")]
     let pronoun_practice_use_cases = Arc::new(StoryUseCases::new(
         story_repo.clone(),
@@ -502,6 +513,8 @@ async fn async_main() -> anyhow::Result<()> {
         audio_use_cases,
         #[cfg(feature = "flashcards")]
         image_use_cases,
+        #[cfg(feature = "flashcards")]
+        card_creation_use_cases,
         #[cfg(feature = "pronoun_practice")]
         pronoun_practice_use_cases,
         #[cfg(feature = "auth")]

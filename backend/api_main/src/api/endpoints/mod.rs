@@ -7,6 +7,8 @@ pub mod features;
 #[cfg(feature = "flashcards")]
 pub mod generation;
 pub mod health;
+#[cfg(feature = "flashcards")]
+pub mod personal_words;
 pub mod notifications;
 pub mod tutor;
 

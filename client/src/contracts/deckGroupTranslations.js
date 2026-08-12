@@ -7,6 +7,8 @@
  * deuda #6).
  */
 export const DECK_GROUP_TRANSLATIONS_ES = {
+    // "Crear palabra" (mazo personal) — ver docs/modules/flashcards.md §Personal Words.
+    "My words": "Mis palabras",
     "General": "General",
     "Action": "Acción",
     "Being State": "Ser y Estado",

@@ -183,11 +183,23 @@ export const getLevelFromDeckName = (deckName) => {
 
 export const getDeckCategoryName = (deckName) => {
     if (!deckName) return '';
-    const [maybeLevel, maybeCategory] = deckName.split('/');
-    return maybeCategory ? maybeCategory.replace('.json', '') : maybeLevel.replace('.json', '');
+    const clean = deckName.replace(/\.json$/, '');
+    const parts = clean.split('/');
+    return parts.pop() || '';
 };
 
+/**
+ * "Crear palabra" (mazo personal, ver docs/modules/flashcards.md §Personal Words) — `true` si
+ * `deckName` es el mazo reservado `<nivel>/my_words`. Mismo sentinel y misma regla que
+ * `is_personal_deck_name` en `backend/mod_flashcards/src/card_creation_use_cases.rs` (nunca choca
+ * con un mazo real, que se nombran por tema).
+ */
+export const isPersonalDeckName = (deckName) => getDeckCategoryName(deckName) === 'my_words';
+
 const DECK_LABELS = {
+    // "Crear palabra" (mazo personal, ver docs/modules/flashcards.md §Personal Words) — nombre
+    // reservado `<nivel>/my_words`, se muestra igual que cualquier otro mazo del catálogo.
+    my_words: 'My words',
     access_readiness_and_effort: 'Access, Readiness & Effort',
     action: 'Action',
     addition_and_clarification: 'Addition & Clarification',

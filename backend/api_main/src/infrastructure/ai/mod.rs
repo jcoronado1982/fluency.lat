@@ -13,6 +13,8 @@ pub mod gemini_landing_demo_prompts;
 #[cfg(feature = "flashcards")]
 pub mod gemini_tts_provider;
 #[cfg(feature = "flashcards")]
+pub mod gemini_word_card_prompt;
+#[cfg(feature = "flashcards")]
 pub mod gemini_voices;
 #[cfg(feature = "flashcards")]
 pub mod pcm_ogg;

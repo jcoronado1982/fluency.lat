@@ -16,7 +16,7 @@ import {
 import { buildGlobalImageStoragePath } from '../src/components/flashcardStudy/features/imageStorageIdentity.js';
 import { normalizeCardImageUrl } from '../src/utils/mediaUrl.js';
 import { createFlashcardHttpAdapter } from '../src/modules/flashcards/adapters/flashcardHttpAdapter.js';
-import { formatDeckCategoryName, getDeckCategoryName, sortDeckNames } from '../src/contracts/deckOrder.js';
+import { formatDeckCategoryName, getDeckCategoryName, isPersonalDeckName, sortDeckNames } from '../src/contracts/deckOrder.js';
 import { DECK_GROUP_TRANSLATIONS_ES } from '../src/contracts/deckGroupTranslations.js';
 
 // Estos valores son CONTRATO entre módulos y con el backend (mod_flashcards
@@ -143,5 +143,16 @@ assert.deepEqual(
   sortDeckNames(['3-advanced.json', '1-basic.json', '2-intermediate.json']),
   ['1-basic', '2-intermediate', '3-advanced'],
 );
+
+// "Crear palabra" (mazo personal, docs/modules/flashcards.md §Personal Words): mismo sentinel
+// que `is_personal_deck_name` en `card_creation_use_cases.rs` — usado para anteponer el mazo
+// personal SIEMPRE primero en la grilla, sin importar el orden guardado en las preferencias del
+// usuario (bug real: con preferencias guardadas, `applyPreferenceOrder` empujaba el mazo nuevo
+// al final porque no formaba parte del orden ya guardado).
+assert.equal(isPersonalDeckName('1-basic/my_words'), true);
+assert.equal(isPersonalDeckName('2-intermediate/my_words'), true);
+assert.equal(isPersonalDeckName('my_words'), true);
+assert.equal(isPersonalDeckName('1-basic/action'), false);
+assert.equal(isPersonalDeckName(''), false);
 
 console.log('✅ test-contracts: todos los asserts pasaron');

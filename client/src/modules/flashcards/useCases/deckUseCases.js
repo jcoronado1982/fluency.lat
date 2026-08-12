@@ -39,7 +39,7 @@ import {
     formatDeckCategoryName as formatDeckCategoryNamePure,
 } from '../../../contracts/deckOrder.js';
 
-export { getLevelFromDeckName, getDeckCategoryName, sortDeckNames } from '../../../contracts/deckOrder.js';
+export { getLevelFromDeckName, getDeckCategoryName, sortDeckNames, isPersonalDeckName } from '../../../contracts/deckOrder.js';
 
 export const NESTED_LEVEL_CATEGORIES = [
     'verbs',

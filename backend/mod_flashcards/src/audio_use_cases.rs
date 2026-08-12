@@ -57,6 +57,7 @@ pub struct AudioSynthResult {
 // Application-layer DTOs (no serde, no HTTP concerns)
 // ---------------------------------------------------------------------------
 
+#[derive(Clone)]
 pub struct AudioSynthRequest {
     pub category: String,
     pub deck: String,
@@ -148,8 +149,23 @@ impl AudioUseCases {
         user_email: &str,
         role: &str,
     ) -> Result<Option<AudioSynthResult>> {
+        let req = &Self::with_resolved_category(req, user_email);
         self.lookup_existing_audio(req, user_email, role, false)
             .await
+    }
+
+    /// Reescribe `req.category` al namespace interno personal cuando `req.deck` es el sentinel
+    /// `my_words` — ver `card_creation_use_cases::resolve_storage_category`. Punto único de
+    /// entrada para ambos métodos públicos que tocan storage.
+    fn with_resolved_category(req: &AudioSynthRequest, user_email: &str) -> AudioSynthRequest {
+        AudioSynthRequest {
+            category: crate::card_creation_use_cases::resolve_storage_category(
+                &req.category,
+                &req.deck,
+                user_email,
+            ),
+            ..req.clone()
+        }
     }
 
     /// Devuelve URL + voz activa. Si existe audio, no regenera.
@@ -159,6 +175,7 @@ impl AudioUseCases {
         user_email: &str,
         role: &str,
     ) -> Result<AudioSynthResult> {
+        let req = &Self::with_resolved_category(req, user_email);
         tracing::info!(
             "🎧 Audio request: lang='{}', category='{}', deck='{}', verb='{:?}', text='{}', user='{}', role='{}'",
             req.lang.as_deref().unwrap_or("(none)"),

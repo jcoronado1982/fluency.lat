@@ -62,6 +62,34 @@ vi.mock('../context/FlashcardContext', () => ({
     }),
 }));
 
+// "Crear palabra" (mazo personal): la card real de `composition.js` también exporta
+// `imageCompressionService` (heic2any), que revienta en jsdom ("Worker is not defined") — se
+// mockea el módulo entero para que CategorySelector (y CreateWordModal, que ahora importa desde
+// acá) nunca toquen ese import real.
+vi.mock('../composition', () => ({
+    personalWordPort: {
+        createWord: vi.fn(),
+        getPersonalWordsSummary: vi.fn(async () => ({ exists: false, deck: 'my_words', total: 0 })),
+    },
+    flashcardPort: {
+        searchWords: vi.fn(async () => ({
+            results: [
+                {
+                    category: 'nouns',
+                    deck: '1-basic/nouns/essentials.json',
+                    deck_display_name: '1-basic/nouns/essentials',
+                    level: '1-basic',
+                    card_index: 3,
+                    name: 'table',
+                    translation: 'mesa',
+                    example: 'the table is clean',
+                    is_personal: false,
+                },
+            ],
+        })),
+    },
+}));
+
 describe('CategorySelector', () => {
     it('closes the category selector when selecting a deck card', () => {
         render(<CategorySelector />);
@@ -69,6 +97,26 @@ describe('CategorySelector', () => {
         fireEvent.click(deckCard);
 
         expect(mockChangeDeck).toHaveBeenCalledWith('nouns-basic');
+        expect(mockSetIsCatalogVisible).toHaveBeenCalledWith(false);
+    });
+
+    it('searches for words and navigates to the target deck and card when a result is clicked', async () => {
+        render(<CategorySelector />);
+
+        const searchInput = screen.getByLabelText('Buscar palabras');
+        fireEvent.change(searchInput, { target: { value: 'table' } });
+
+        const resultCard = await screen.findByText('table');
+        expect(resultCard).toBeInTheDocument();
+
+        fireEvent.click(resultCard);
+
+        expect(mockChangeDeck).toHaveBeenCalledWith(
+            '1-basic/nouns/essentials',
+            3,
+            'nouns',
+            { word: 'table' },
+        );
         expect(mockSetIsCatalogVisible).toHaveBeenCalledWith(false);
     });
 });
