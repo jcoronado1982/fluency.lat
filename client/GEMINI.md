@@ -203,7 +203,7 @@ python3 scripts/refactor_visual_diff.py /tmp/base /tmp/after        # PASS = ≤
 
 Identified and accepted SOLID deviations. Delicate code requiring planned refactoring + visual harness + behavior review:
 
-1. **God hooks (SRP)**: `useImageGeneration.js`, `CategorySelector.jsx`, `FlashcardPage.jsx`, `useAudioPlayback.jsx`, `useDeckSession.js`, `FlashcardOnboardingTour.jsx`.
+1. **God hooks (SRP)**: `useImageGeneration.js`, `FlashcardPage.jsx`, `useAudioPlayback.jsx`, `useDeckSession.js`, `FlashcardOnboardingTour.jsx`. (`CategorySelector.jsx` was split out of this list 2026-08-12: search → `CatalogSearch.jsx`+`useCatalogSearch.js`, help popover → `CategoryHelpPopover.jsx`, category list → `CategoryNav.jsx`, deck/group grid → `DeckGrid.jsx`, bottom-sheet gesture → `useBottomSheet.js`, drag reorder → `useDragReorder.js`, local order persistence → `useLocalCatalogOrder.js`; verified with the pixel-diff harness — 0px diff on `catalog__{desktop,laptop,mobile}`. It's now a ~300-line orchestrator; see `docs/modules/flashcards.md` File Map.)
 2. **Presentation Authorization**: `canGenerateImages`/`canDeleteImages` checking role directly inside UI hooks instead of domain useCase/policy.
 3. **Infra Leak**: `useImageGeneration.js` hardcoding `/card_images/${category}/…` path pattern instead of delegating to `imagePort`.
 

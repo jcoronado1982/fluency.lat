@@ -11,6 +11,7 @@ use axum::{
     response::IntoResponse,
     Json,
 };
+use fluency_core::ports::tutor::ExistingPersonalTopic;
 use mod_flashcards::card_creation_use_cases::CreateWordOutcome;
 
 const MAX_WORD_LEN: usize = 80;
@@ -38,6 +39,16 @@ pub async fn preview_word(
         ));
     }
 
+    let existing_topics: Vec<ExistingPersonalTopic> = body
+        .existing_topics
+        .iter()
+        .map(|t| ExistingPersonalTopic {
+            category: t.category.clone(),
+            level: t.level.clone(),
+            topic_name: t.topic_name.clone(),
+        })
+        .collect();
+
     match state
         .card_creation_use_cases
         .preview_personal_word(
@@ -47,6 +58,7 @@ pub async fn preview_word(
             &body.course_direction,
             body.category_override.as_deref(),
             body.level_override.as_deref(),
+            &existing_topics,
         )
         .await
     {

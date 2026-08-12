@@ -27,6 +27,8 @@ Core product module: vocabulary study using flashcards grouped by grammatical ca
 | Personal Words Handlers | `backend/api_main/src/api/endpoints/personal_words.rs` | preview / create / summary / rename (see §Personal Words) |
 | Frontend Module | `client/src/modules/flashcards/` | manifest (`index.jsx`), `FlashcardPage.jsx` (orchestrator), `composition.js`, `ports/`, `adapters/`, `useCases/`, `context/`, `features/` |
 | Create Word UI | `client/src/modules/flashcards/features/CreateWordModal.jsx` | "+" button in `CategorySelector.jsx` sidebar; the resulting deck merges into the normal grid — no separate tile (see §Personal Words) |
+| Catalog Search UI | `client/src/modules/flashcards/features/CatalogSearch.jsx` + `.module.css`, `hooks/useCatalogSearch.js` | Pluggable search box + results panel mounted inside `CategorySelector.jsx`'s sidebar (see §Word Search) |
+| Catalog Selector Pieces | `features/CategoryHelpPopover.jsx` (grammar help button+popover), `features/CategoryNav.jsx` (sidebar category list), `features/DeckGrid.jsx` (deck/group grid), `hooks/useBottomSheet.js` (PWA drag-to-dismiss), `hooks/useDragReorder.js` (generic HTML5 DnD reorder), `hooks/useLocalCatalogOrder.js` (local group/nested-deck order + persistence) | `CategorySelector.jsx` composes all of these — it only orchestrates (context ↔ hooks ↔ these components), ~300 lines. Each is independently swappable/removable; `CategoryHelpPopover`/`CategoryNav`/`DeckGrid` intentionally still import `CategorySelector.module.css` (its `.helpPopover*`/`.categoryNav`/`.groupsGrid` rules are split across several non-contiguous `@media` blocks — relocating them was judged higher regression risk than the architectural purity gained, since the pixel-diff harness doesn't open the help popover) |
 | Personal Deck Merge | `client/src/modules/flashcards/hooks/useDeckSession.js` | prepends the user's personal deck(s) to `deckNames`/`deckSummaries` right after the general catalog loads for a category |
 | Shared UI Kit | `client/src/components/flashcardStudy/` | card shared with landing demo — **read `client/GEMINI.md` §4 before editing** |
 | Content | `json/<pair>/<category>/<level>/*.json` | decks (synced to GCP prod proxy) |
@@ -71,7 +73,7 @@ Registered in `backend/api_main/src/modules/flashcards.rs`; DTOs in `api_main/sr
 
 | Method | Route | Inputs | Returns |
 |---|---|---|---|
-| POST | `/api/personal-words/preview` | `{word, course_direction?, category_override?, level_override?}` | `{candidates: [{duplicate, category, level, name, is_new_deck, existing_topic_name?}]}` — 1 o 2 candidatos (2 solo si Gemini detecta un segundo uso gramatical común, ej. verbo Y sustantivo), o exactamente 1 si vienen overrides. NO genera imagen/audio, NO guarda nada |
+| POST | `/api/personal-words/preview` | `{word, course_direction?, category_override?, level_override?, existing_topics?: [{category, level, topic_name?}]}` | `{candidates: [{duplicate, category, level, name, is_new_deck, existing_topic_name?}]}` — 1 o 2 candidatos (2 solo si Gemini detecta un segundo uso gramatical común, ej. verbo Y sustantivo), o exactamente 1 si vienen overrides. `existing_topics` (ignorado si vienen overrides) es la lista COMPLETA de mazos personales del usuario — Gemini la ve entera desde esta MISMA llamada y recomienda el mejor encaje como primera opción, ver §One-call full-topic-list recommendation. NO genera imagen/audio, NO guarda nada |
 | POST | `/api/personal-words/create` | `{word, course_direction?, category_override?, level_override?}` | `{duplicate, category, level, is_new_deck, card?}` — crea UNA tarjeta; `category_override`/`level_override` fuerzan la clasificación (el frontend siempre los manda al confirmar) |
 | GET | `/api/personal-words` | query: `category`, `course_direction?` | `{decks: [{deck, total, learned, topic_name?}]}` (0..3 entries, one per level) |
 | POST | `/api/personal-words/rename` | `{category, level, topic_name, course_direction?}` | `{success}` — mazo debe existir ya |
@@ -139,6 +141,19 @@ or modified**; the general catalog loads exactly as it always did, at the same c
   `resolve_audio`/`ImageUseCases::get_or_generate_image`/`resolve_image_path` — the sentinel deck
   name (`my_words`, never a real catalog deck, which are named by topic like `action`) is the only
   signal needed; no request needs to say "this is personal" explicitly.
+- **The internal namespace must never reach `catalog-manifest.json`** (real bug, fixed): the
+  namespace directories (`json/<direction>/personal-<category>-<segment>/`) physically live
+  alongside real category directories, so `scripts/generate-catalog-manifest.mjs` — which lists
+  every subdirectory as a category — was including them as if they were real, browsable
+  categories, visible to **every** user via the single shared static manifest (two categories
+  literally showing the reporting user's email-derived segment in their name, e.g.
+  `personal-nouns-jesus_example_com`). Fixed at the source (the generator now skips any directory
+  starting with `personal-`) AND defensively in `DeckUseCases::catalog_manifest()` (filters the
+  same prefix — `card_creation_use_cases::PERSONAL_CATEGORY_PREFIX`, `pub(crate)` for this reason —
+  right after loading, so a stale/hand-regenerated manifest can never leak it either). Regression
+  test: `catalog_manifest_never_exposes_the_internal_personal_words_namespace` in `lib.rs`. If you
+  ever add another internal-only directory convention under `json/<direction>/`, it needs the same
+  two-layer exclusion.
 - **The frontend never sees or builds the internal namespace.** `POST /api/personal-words/create`
   returns the REAL `category` (e.g. `"verbs"`) and `level` (e.g. `"1-basic"`); the frontend just
   does `changeCategory(category)` + `changeDeck(`${level}/my_words`)` — same as opening any other
@@ -199,38 +214,127 @@ paraphrased): "we're working with AI — it should be a bit smarter... give the 
 change the level/deck name the AI chose, evaluate this like a human would." Flow:
 
 1. User types the word, submits → frontend calls `POST /api/personal-words/preview` with no
-   overrides (`CardCreationUseCases::preview_personal_word` → `classify_and_load`) — runs the
-   Gemini classification (1 or 2 candidates) + duplicate check + existing-deck lookup per
-   candidate, but stops there: no image, no audio, no write to storage.
+   overrides but WITH `existing_topics` (see §One-call full-topic-list recommendation below —
+   `CardCreationUseCases::preview_personal_word` → `classify_and_load`) — runs the Gemini
+   classification (1 or 2 candidates) + duplicate check + existing-deck lookup per candidate, but
+   stops there: no image, no audio, no write to storage.
 2. Each candidate renders as an editable row in `CreateWordModal`: a checkbox (checked by default,
    unless `duplicate`, in which case it's disabled and shows a "Ya la tenés" badge), a category
-   `<select>` (`NESTED_LEVEL_CATEGORIES`) and a level `<select>`, both pre-filled with Gemini's
+   `<select>` (`NESTED_LEVEL_CATEGORIES`) and a **topic** `<select>`, both pre-filled with Gemini's
    pick, plus the destination line ("se va a agregar a tu mazo '{name}'..." or "vamos a crear un
    mazo nuevo..."). Changing either `<select>` re-calls the preview endpoint for JUST that row with
    `category_override`/`level_override` set to the new values — Gemini re-writes the
    definition/example for that specific reading instead of just relabeling the old one, and the
-   row's destination/duplicate/is_new_deck all refresh to match. A "+ Agregar otra clasificación"
-   link lets the user add a row for a category Gemini didn't suggest at all (defaults to the first
-   unused category in `NESTED_LEVEL_CATEGORIES`, immediately triggers the same override preview to
-   populate it).
+   row's destination/duplicate/is_new_deck all refresh to match.
+   - **The level `<select>` is topic-aware, not raw levels** (real design correction, live
+     feedback: grammatical category is the AI's call — the student can't self-assess that — but
+     which of the user's own EXISTING decks a word joins is a study preference, not a difficulty
+     score Gemini should silently pick). `CreateWordModal` fetches
+     `GET /api/personal-words` for all 9 `NESTED_LEVEL_CATEGORIES` in parallel once the preview
+     step is reached (`loadExistingTopics`), and each option shows the deck's `topic_name` (e.g.
+     "Trabajo") when one already exists at that level, or `t.newTopicOption` ("Nuevo tema", no
+     level shown — the AI already decided it, echoing the level back would suggest it's the
+     user's call to make) when it doesn't — never a bare "Básico/Intermedio/Avanzado" label once a
+     name exists. **Gotcha**: `entry.deck` from that response is `"<raw-level>/my_words"` (e.g.
+     `"1-basic/my_words"`) — the raw slug `levelOverride` needs. Do NOT resolve it with
+     `getLevelFromDeckName` (a display-only helper that strips the numeric prefix, e.g. returns
+     `"basic"`) — split on `/` instead. Real bug caught by test: doing this wrong sent
+     `level_override: "basic"` to the backend, which isn't a valid `PERSONAL_WORD_LEVELS` slug.
+   - **"+ Agregar a otro tema"** (was "+ Agregar otra clasificación") opens a picker listing the
+     user's existing topics ACROSS ALL categories (name + category + level, e.g. "Trabajo
+     (Verbos·Básico)") — picking one adds a row pinned to that exact category+level and triggers
+     the same override preview. Only when the user has zero existing topics anywhere does the
+     button fall back to the original behavior (label reverts to "+ Agregar otra clasificación",
+     defaults to the first unused category in `NESTED_LEVEL_CATEGORIES`) — there's nothing to pick
+     from yet.
+   - **Proactive "use this instead" suggestion** ("nadie estudia un mazo de una sola carta",
+     explicit user request): when a row's AI-picked level has no deck yet (`row.isNewDeck`) but the
+     row's category ALREADY has a topic at a different level, a subtle inline line appears under
+     the fields ("💡 Suggested deck: **Use Category · Level**", plain text + inline link, no
+     border/box by later minimalist-redesign request) — `bestExistingTopicFor` picks the one with
+     the most cards (`total`) when several exist — clicking the link re-previews the row pinned to
+     that topic's category+level (same override call as manually changing the topic `<select>`).
+     Pure suggestion: doesn't block or auto-apply, the user can ignore it and let Gemini's original
+     pick create a new deck instead.
+   - **The topic `<select>` never offers an arbitrary NEW level** (explicit user request: grammar
+     category is the AI's call, but so is difficulty — "la IA sabe más que el usuario" — the user
+     only decides which of their EXISTING topics to use, never invents a new difficulty). Per row,
+     `PERSONAL_WORD_LEVELS` is filtered to `lvl === row.level || topicsForCategory(row.category).some(t => t.level === lvl)`
+     — i.e. only the level Gemini actually picked (labeled "new topic" if no deck exists there yet)
+     plus any level where the user already has an established deck are ever shown as options.
 3. Confirm creates ONE card per checked, non-duplicate row — sequential calls to
    `POST /api/personal-words/create`, each with that row's `category_override`/`level_override` set
    (the frontend ALWAYS sends both, even for a row the user never touched, so `create_personal_word`
    never has to resolve ambiguity itself — see step 2 of the numbered list above). A failure on one
    row doesn't affect the others; the results screen shows a per-row outcome (created / already
    existed / error) with a "Ver en {category}" button and, for rows that created a brand-new deck,
-   their own inline "name this deck" box (see §Naming a deck above, now per-row).
+   their own inline "name this deck" box (see §Naming a deck above, now per-row). A **"Create
+   another word"** button reopens the word-input form without closing the modal, keeping
+   `existingTopics` cached (refreshed right after a successful creation, see below — not
+   re-fetched from scratch).
+
+### One-call full-topic-list recommendation (`existing_topics`)
+
+Real efficiency + UX fix, explicit user request: send Gemini the **full list** of the student's
+existing personal topics (all categories, all levels) in the FIRST classification call, and have
+it RECOMMEND the best-fitting one as the first/default candidate — the user can still change to
+another of their existing decks or explicitly create a new one — instead of guessing with a single
+"last used deck" hint and silently re-querying with overrides when it didn't fit.
+
+This superseded an earlier, narrower `preferred_category_hint`/`preferred_level_hint` mechanism
+(a single last-used-deck hint) — same one-call-efficiency motivation ("que la IA evalúe todo eso
+desde el primer llamado"), but limited to remembering only the ONE deck used last, so it couldn't
+help when the best-fitting deck was a *different* one than the last-used, or when the word simply
+didn't match the last-used deck's category. The full-list version fixes that: Gemini sees ALL of
+the user's decks every time, not just one remembered pointer.
+
+**Frontend** (`CreateWordModal.jsx`): `existingTopics` is fetched EAGER on mount (`useEffect`, not
+lazily after the first preview) via `loadExistingTopics()` (`GET /api/personal-words` for all 9
+`NESTED_LEVEL_CATEGORIES` in parallel), so the list is ready — or awaited inline if the fetch
+hadn't resolved yet — for the very FIRST preview call, not just subsequent ones.
+`handleSubmit`/`personalWordPort.previewWord` sends the whole list as
+`existingTopics: [{category, level, topicName}, ...]` (no overrides — those still null the list
+out, see below). After a successful creation (`handleConfirmCreate`), the list is refreshed again
+in the background so a newly-created deck is visible to Gemini the next time the user creates
+another word in the same modal session ("Create another word").
+
+**Wire path**: `personalWordPort.previewWord` → `personalWordHttpAdapter` (maps to
+`existing_topics: [{category, level, topic_name}, ...]`) → `POST /api/personal-words/preview`
+(`CreateWordBody.existing_topics: Vec<ExistingTopicDto>`, `api/dto/personal_words.rs`) →
+`personal_words.rs::preview_word` handler (maps DTOs to
+`Vec<fluency_core::ports::tutor::ExistingPersonalTopic>`) →
+`CardCreationUseCases::preview_personal_word` → `classify_and_load` →
+`AITutor::generate_word_card_draft(..., existing_topics: &[ExistingPersonalTopic])` →
+`build_word_card_user_message` (`gemini_word_card_prompt.rs`), which appends a paragraph listing
+every existing deck (category, level, and topic name if the user set one) and asks Gemini to
+classify the word as usual (own category/level, still up to 2 classifications when genuinely
+ambiguous) but PREFER an exact existing category+level when it's a good semantic AND difficulty
+fit — using the topic name, if present, as a theme hint so an unrelated word doesn't get dumped
+into a differently-themed deck just because the level matches.
+
+Unlike `category_override`/`level_override` (which force EXACTLY one clamped classification), this
+is a **soft recommendation inside the same free-classification call**: it never suppresses
+ambiguity detection (still 1-or-2 classifications), and if none of the existing decks are a good
+fit for a given classification, Gemini classifies it freely as usual (a new deck). No separate
+"recommendation" field in the response is needed — the existing frontend logic already detects
+when a returned `category`+`level` matches one of the user's decks (`is_new_deck: false`,
+`existing_topic_name` populated) and renders it as "goes to your existing deck X" instead of "new
+deck", so the recommended candidate — being the first/only classification for that grammatical
+use — naturally surfaces as the default/first option exactly like the earlier hint mechanism did.
+`preview_personal_word` nulls `existing_topics` out entirely when `category_override`/
+`level_override` are also present (those already determine everything).
 
 Backend implementation: `classify_and_load` (private) returns `Vec<ClassifiedWord>` and is shared
 by `preview_personal_word` (maps the whole vec to `Vec<WordPreview>`) and `create_personal_word`
-(takes the first — and, on the real path, only — element). `Self::validate_overrides` rejects a
-`category_override` without a matching `level_override` (or vice versa) and unknown category/level
-slugs (`PERSONAL_WORD_CATEGORIES`/`PERSONAL_WORD_LEVELS`, both intentional duplicates of the
-`api_main`-side constants — `mod_flashcards` cannot depend on `api_main`). No server-side
-session/cache for the draft: each preview/create call is a fresh, cheap text-only Gemini call at
-low temperature — NOT wired to the image/audio pipeline, so editing a row never costs anything
-beyond one small Gemini text call, even if the user changes their mind repeatedly before
-confirming.
+(takes the first — and, on the real path, only — element, always with `existing_topics: &[]` since
+`create_personal_word` always receives resolved overrides from the frontend). `Self::validate_overrides`
+rejects a `category_override` without a matching `level_override` (or vice versa) and unknown
+category/level slugs (`PERSONAL_WORD_CATEGORIES`/`PERSONAL_WORD_LEVELS`, both intentional
+duplicates of the `api_main`-side constants — `mod_flashcards` cannot depend on `api_main`). No
+server-side session/cache for the draft: each preview/create call is a fresh, cheap text-only
+Gemini call at low temperature — NOT wired to the image/audio pipeline, so editing a row never
+costs anything beyond one small Gemini text call, even if the user changes their mind repeatedly
+before confirming.
 
 ### Refreshing after creation without leaving the category
 
@@ -244,24 +348,25 @@ creation and after successfully naming a deck.
 
 ## Word Search and Target Navigation (`GET /api/search-words`)
 
-Search box in `CategorySelector.jsx` sidebar enables instant word lookup across catalog and personal decks:
+Search box in the catalog sidebar enables instant word lookup across catalog and personal decks:
 
 ### Backend Search Engine (`mod_flashcards/src/lib.rs`)
 - **Strict Word Matching (`score_card_match`)**: Matches query exclusively against card headword (`resolved_word()`), ignoring example sentences, translations, and search terms.
   - Score `1000`: Exact word match.
   - Score `800`: Word prefix match (`starts_with`).
+  - Score `800`: Query is the headword + a simple English inflection suffix (`s`, `es`, `ed`, `ing`) — e.g. query `spikes` matches headword `spike`. Headwords are ALWAYS stored canonical (infinitive for verbs, singular for nouns — same convention as the curated catalog in `json/**/*.json`), so without this tier, searching the conjugated/plural form the user actually typed silently found nothing. Real bug fixed: creating the same text as both a noun and a verb via "Crear palabra" (Gemini normalizes the verb candidate to its infinitive) meant only the noun ever showed up in search.
   - Score `600`: Exact word match inside compound word phrase.
 - **Deck Path Normalization**: Returns deck paths stripped of `.json` extensions (e.g. `1-basic/verbs/action`).
 - **Composite Deck Filtering**: Skips composite bundle decks containing `_e_` in their filename (e.g. `cause_effect_basics_e_contrast_condition_basics.json`) during catalog scan, avoiding duplicate results for words present in combined group files.
 - **Deduplication**: Deduplicates final results by `(category, name.to_lowercase(), level)`.
 
-### Search UI (`CategorySelector.jsx`)
-- Displays clean, compact result items showing:
-  1. Headword (`cleanWordName`)
-  2. Category Badge (`catLabel` with category color dot)
-  3. Level Badge (*Básico*, *Intermedio*, *Avanzado*)
-  4. Topic Name in Title Case (e.g. *Action*, *Contrast Condition Basics*, *Being State*)
-- Omits translations and example sentences to keep search results concise and easy to scan.
+### Search UI — Pluggable Component (`features/CatalogSearch.jsx` + `hooks/useCatalogSearch.js`)
+Deliberately factored OUT of `CategorySelector.jsx` (already on the "god component" debt list in `client/CLAUDE.md` §9) into its own hexagonal slice, so it can be dropped in/out without touching the selector:
+- **`useCatalogSearch(courseDirection)`** (application layer, no JSX): owns `query`/`results`/`isSearching` state, debounces (250ms, min 2 chars) and calls `flashcardPort.searchWords` — the only piece that talks to the port. Pure hook, unit-testable in isolation from rendering.
+- **`CatalogSearch.jsx`** (presentation only): renders the search box; while a query is active it renders the results panel *instead of* `children`, otherwise renders `children` unchanged. It receives everything it needs as props (`categoryColors`, `categoryLabels`, `studyLanguage`, `onSelectResult`) and knows nothing about `CategorySelector`'s internal state — swapping/removing it means changing one JSX block in `CategorySelector.jsx` (wrap/unwrap the category `<nav>` in `<CatalogSearch>`), nothing else.
+- `CategorySelector.jsx` still owns `handleSelectSearchResult` (calls `changeCategory`/`changeDeck`/`dismissSheet`) — that's orchestration wiring across two other contexts (`CategoryContext`, `FlashcardContext`), not the search feature's concern.
+- Result items show: headword (`cleanWordName`), category badge (color dot), level badge (*Básico*/*Intermedio*/*Avanzado*), topic name in Title Case. Omits translations and example sentences to keep results concise.
+- Own CSS Module (`CatalogSearch.module.css`) — search styles no longer live in `CategorySelector.module.css`.
 
 ### Target Card Navigation (`useDeckSession.js`)
 - `changeDeck(newDeck, cardIndex, category, { word })`: Passes target metadata to `pendingTargetCardRef`.

@@ -4,6 +4,8 @@
 //! `gemini_landing_demo_prompts.rs`: un proveedor de IA nuevo implementaría su propio equivalente
 //! detrás del mismo puerto sin tocar el caso de uso.
 
+use crate::domain::repositories::tutor::ExistingPersonalTopic;
+
 /// Las 9 categorías gramaticales que ya existen en el catálogo (`NESTED_LEVEL_CATEGORIES` en
 /// `client/src/modules/flashcards/useCases/deckUseCases.js`). Gemini DEBE elegir una de estas.
 pub const WORD_CARD_CATEGORIES: &[&str] = &[
@@ -80,11 +82,23 @@ Rules:
 /// lectura de la palabra — el código además clampa `category`/`level` al valor pedido después
 /// (ver `gemini_grpc_provider.rs::generate_word_card_draft`), esto solo mejora la calidad del
 /// contenido generado para esa clasificación.
+///
+/// `existing_topics` (solo se considera SIN overrides): la lista COMPLETA de mazos personales que
+/// el estudiante ya tiene — pedido explícito del usuario: "ya en el primer prompt que le pasa a
+/// Gemini, decile mira estos son los tópicos personalizados, vos debés recomendar uno" — en vez de
+/// clasificar libre y volver a preguntar con overrides cuando el mazo elegido no calzó. Es
+/// RECOMENDACIÓN, no regla: Gemini clasifica la palabra como siempre (categoría + nivel propios,
+/// pudiendo devolver 2 usos si es ambigua) pero, si un mazo existente es un buen encaje semántico
+/// Y de dificultad, se le pide preferir clasificar en ESE EXACTO category+level para que la
+/// palabra se agrupe ahí — el código ya detecta automáticamente cuándo eso pasa (compara
+/// category+level contra los mazos reales) y lo reporta como "va a tu mazo existente X" en vez de
+/// "mazo nuevo", sin necesitar un campo separado de "recomendación" en la respuesta.
 pub fn build_word_card_user_message(
     word: &str,
     course_direction: &str,
     category_override: Option<&str>,
     level_override: Option<&str>,
+    existing_topics: &[ExistingPersonalTopic],
 ) -> String {
     let base = format!(
         "STUDENT INPUT: \"{}\"\nCOURSE_DIRECTION: \"{}\" (native_lang_target_lang — the flashcard teaches the TARGET language, i.e. the part after the underscore)",
@@ -95,6 +109,23 @@ pub fn build_word_card_user_message(
         (Some(category), Some(level)) => format!(
             "{base}\nThe student has ALREADY CHOSEN how to classify this word: category=\"{category}\", level=\"{level}\". Return EXACTLY ONE classification in \"classifications\", written specifically for THAT grammatical use of the word (not whichever use you would have picked freely) — the definition and usage_example must make sense for a \"{category}\" reading of this word."
         ),
+        _ if !existing_topics.is_empty() => {
+            let topics_list = existing_topics
+                .iter()
+                .map(|t| {
+                    let name = t
+                        .topic_name
+                        .as_deref()
+                        .map(|n| format!(" named \"{n}\""))
+                        .unwrap_or_default();
+                    format!("- category=\"{}\", level=\"{}\"{name}", t.category, t.level)
+                })
+                .collect::<Vec<_>>()
+                .join("\n");
+            format!(
+                "{base}\nThe student already has these personal decks:\n{topics_list}\n\nRECOMMENDATION, not a rule: classify this word as you normally would (its own category and level, still returning a second classification if it has another genuinely common everyday grammatical use) — but if, for one of your classifications, the category matches one of the decks above AND that deck's level is genuinely a reasonable difficulty for the word, prefer using that EXACT level so the word groups into that deck (use the deck's name, if given, as a hint of its theme — e.g. don't group an unrelated word into a deck named for a specific topic just because the level matches). If none of the existing decks are a good fit for a given classification, ignore them and classify that one freely as usual (a new deck)."
+            )
+        }
         _ => base,
     }
 }

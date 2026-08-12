@@ -1,0 +1,32 @@
+{
+  "flashcards": [
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "definitions": [
+        {
+          "audioPath": "/card_audio/es_en/personal-verbs-email_coronado_gmail_com/2-intermediate/2-intermediate_none_the_temperature_is_expected_to_spike_lat_dc669bd122664faf.ogg?v=0ad3ad02-7db0-4924-9e4b-e5118ec6f6bb",
+          "char_count": "one",
+          "imagePath": "/card_images/personal-verbs-email_coronado_gmail_com/2-intermediate_my_words_card_0_def0.avif?v=1786557767408299261-50670",
+          "meaning": "Aumentar bruscamente / dispararse",
+          "pronunciation_guide_es": "/DE_TEMPRECHUR_IS_EKSPTEID_TU_SPAIK_LEITER_DIS_AFTUNUN/",
+          "usage_context_en": "sudden sharp increase",
+          "usage_context_es": "aumento repentino",
+          "usage_example": "The temperature is expected to spike later this afternoon.",
+          "usage_example_es": "Se espera que la temperatura suba bruscamente más tarde esta tarde."
+        }
+      ],
+      "force_generation": false,
+      "group_name": "Change & Movement",
+      "is_verb": true,
+      "name": "spike",
+      "phonetic": "/spaɪk/",
+      "search_term": "verb/increase",
+      "spoken_phonetic_us": "/spaɪk/"
+    }
+  ],
+  "topic_name": "my"
+}

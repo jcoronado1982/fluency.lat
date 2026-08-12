@@ -1,0 +1,32 @@
+{
+  "flashcards": [
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "definitions": [
+        {
+          "audioPath": "/card_audio/es_en/personal-nouns-email_coronado_gmail_com/2-intermediate/2-intermediate_none_the_soccer_player_had_metal_spikes_on_hi_28d57fc36efbf215.ogg?v=3c035569-56ed-4e6e-b028-1a95d7e8f8e9",
+          "char_count": "one",
+          "imagePath": "/card_images/personal-nouns-email_coronado_gmail_com/2-intermediate_my_words_card_0_def0.avif?v=1786557744559377121-33638",
+          "meaning": "Picos/Puntas",
+          "pronunciation_guide_es": "/De_SO-ker_PLEI-er_jad_ME-tal_SPAIKS_on_jis_SHUS/",
+          "usage_context_en": "sharp protrusions",
+          "usage_context_es": "proyecciones afiladas",
+          "usage_example": "The soccer player had metal spikes on his shoes.",
+          "usage_example_es": "El jugador de fútbol tenía tacos de metal en sus zapatos."
+        }
+      ],
+      "force_generation": false,
+      "group_name": "Objects & Shapes",
+      "is_verb": false,
+      "name": "spikes",
+      "phonetic": "/spaɪks/",
+      "search_term": "noun/sharp_projection",
+      "spoken_phonetic_us": "/spaɪks/"
+    }
+  ],
+  "topic_name": "My verbs"
+}

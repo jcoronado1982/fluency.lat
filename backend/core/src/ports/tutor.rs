@@ -1,6 +1,18 @@
 use anyhow::Result;
 use async_trait::async_trait;
 
+/// Un mazo personal ("Crear palabra") ya existente del estudiante — se le pasa a Gemini como
+/// contexto en `AITutor::generate_word_card_draft` para que pueda RECOMENDAR agrupar la palabra
+/// nueva ahí (clasificándola en ese mismo category+level) en vez de crear un mazo redundante,
+/// usando `topic_name` (si el usuario le puso uno) como pista temática — ver
+/// `mod_flashcards::card_creation_use_cases::preview_personal_word`.
+#[derive(Debug, Clone)]
+pub struct ExistingPersonalTopic {
+    pub category: String,
+    pub level: String,
+    pub topic_name: Option<String>,
+}
+
 #[async_trait]
 pub trait AITutor: Send + Sync {
     async fn analyze_error(
@@ -54,12 +66,24 @@ pub trait AITutor: Send + Sync {
     ///   SIEMPRE devuelve exactamente 1 elemento, con `category`/`level` forzados a esos valores —
     ///   el contenido (definición/ejemplo) se escribe específicamente para esa lectura de la
     ///   palabra, no para la que Gemini hubiera elegido libremente.
+    /// - `existing_topics` (SOLO tiene efecto cuando NO hay overrides; vacío = sin mazos
+    ///   personales todavía o el usuario ya editó la fila a mano): la lista COMPLETA de mazos
+    ///   personales que el estudiante ya tiene, en todas las categorías — no solo el último usado.
+    ///   Gemini la ve entera desde esta MISMA llamada y debe RECOMENDAR uno si esta palabra encaja
+    ///   ahí (categoría coincide, dificultad razonable, y el `topic_name` — si tiene — sugiere que
+    ///   el tema calza) clasificándola en ese EXACTO category+level; si ninguno encaja bien,
+    ///   clasifica libre como siempre (mazo nuevo). Nunca fuerza nada ni sacrifica la detección de
+    ///   ambigüedad (sigue pudiendo devolver 2 usos). Pedido explícito: resolver "¿a cuál de mis
+    ///   mazos la agrego, o creo uno nuevo?" en UNA sola llamada, sin clasificar libre primero y
+    ///   volver a preguntar con overrides después — ver
+    ///   `mod_flashcards::card_creation_use_cases::preview_personal_word`.
     async fn generate_word_card_draft(
         &self,
         word: &str,
         course_direction: &str,
         category_override: Option<&str>,
         level_override: Option<&str>,
+        existing_topics: &[ExistingPersonalTopic],
     ) -> Result<Vec<serde_json::Value>>;
     async fn guide_onboarding_step(
         &self,

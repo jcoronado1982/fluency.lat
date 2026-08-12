@@ -62,11 +62,21 @@ function getCards(document, file) {
     return cards;
 }
 
+// Namespace interno de "Crear palabra" (`personal-<categoria>-<segmento-email>`, ver
+// `backend/mod_flashcards/src/card_creation_use_cases.rs::PERSONAL_CATEGORY_PREFIX` — duplicado
+// intencional, este script no puede importar Rust). Cada usuario que crea una palabra nueva
+// termina con un directorio así en disco; NUNCA debe ser una categoría navegable del catálogo
+// compartido — es 100% interno, el frontend jamás lo ve ni lo construye (ver comentario de
+// módulo del archivo Rust de arriba). Bug real: sin este filtro, dos categorías fantasma con el
+// email del usuario en el nombre aparecían para TODOS los usuarios en el manifiesto generado.
+const PERSONAL_CATEGORY_PREFIX = 'personal-';
+
 async function buildDirection(direction) {
     const directionRoot = path.join(jsonRoot, direction);
     const categories = [];
 
     for (const category of await listDirectories(directionRoot)) {
+        if (category.startsWith(PERSONAL_CATEGORY_PREFIX)) continue;
         const categoryRoot = path.join(directionRoot, category);
         const deckFiles = await listJsonFiles(categoryRoot);
         const decks = [];

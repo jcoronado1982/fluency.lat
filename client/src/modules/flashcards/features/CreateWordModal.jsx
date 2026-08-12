@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import styles from './CreateWordModal.module.css';
 import { useUIContext } from '../../../context/UIContext';
 import { useCategoryContext } from '../context/CategoryContext';
@@ -73,12 +73,65 @@ function CreateWordModal({ onClose }) {
     // usuario agregue filas manuales después, para que el texto de introducción no cambie de golpe.
     const [detectedCount, setDetectedCount] = useState(1);
     const [errorMessage, setErrorMessage] = useState('');
+    // Temas (mazos personales YA creados) del usuario, en TODAS las categorías — `null` mientras
+    // no se pidieron todavía. La categoría gramatical la decide la IA (no es una elección del
+    // usuario); pero EN QUÉ mazo existente se guarda para estudiar sí lo es — esta lista es la que
+    // permite mostrar nombres de tema en vez de niveles crudos ("Básico/Intermedio/Avanzado") y
+    // dejar elegir un tema ya creado en vez de una categoría gramatical vacía (ver
+    // `handleAddCandidateClick`/`topicsForCategory`).
+    const [existingTopics, setExistingTopics] = useState(null);
+    const [isPickingTopic, setIsPickingTopic] = useState(false);
 
     const rowIdRef = useRef(0);
     const nextRowId = () => `row-${rowIdRef.current++}`;
 
     const courseDirection = getCourseDirectionFromStudyLanguage(studyLanguage);
     const isBusy = status === 'previewing' || status === 'creating';
+
+    /**
+     * Pide los mazos personales del usuario en las 9 categorías en paralelo. Se dispara EAGER al
+     * montar el modal (ver `useEffect` abajo) — no al primer submit — para que ya esté lista (o
+     * lo más lista posible) cuando se arma la PRIMERA llamada a Gemini: la lista completa se le
+     * manda ahí mismo para que recomiende el mejor mazo existente en vez de clasificar a ciegas y
+     * tener que reconsultar después (ver `handleSubmit`).
+     */
+    const loadExistingTopics = async () => {
+        try {
+            const results = await Promise.all(
+                NESTED_LEVEL_CATEGORIES.map(async (category) => {
+                    const response = await personalWordPort.getPersonalWordsSummary({ category, courseDirection });
+                    return (response?.decks ?? []).map((entry) => ({
+                        category,
+                        // `entry.deck` es siempre `"<nivel-crudo>/my_words"` (ej. "1-basic/my_words")
+                        // — el slug crudo necesario para `levelOverride`. OJO: NO usar
+                        // `getLevelFromDeckName` acá, devuelve la forma humana ("basic", sin
+                        // prefijo numérico), que el backend no reconoce como nivel válido.
+                        level: entry.deck.split('/')[0],
+                        topicName: entry.topic_name || null,
+                        total: entry.total ?? 0,
+                        learned: entry.learned ?? 0,
+                    }));
+                }),
+            );
+            const flat = results.flat();
+            setExistingTopics(flat);
+            return flat;
+        } catch {
+            // Silencioso: sin esta lista, el selector cae al comportamiento anterior (niveles
+            // crudos, botón "agregar categoría nueva") — nunca bloquea crear la palabra.
+            setExistingTopics([]);
+            return [];
+        }
+    };
+
+    // Eager: listo (o intentado) desde que se abre el modal, no recién al primer submit — la
+    // lista viaja en la PRIMERA llamada a Gemini (ver `handleSubmit`).
+    useEffect(() => {
+        void loadExistingTopics();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
+
+    const topicsForCategory = (category) => (existingTopics ?? []).filter((topic) => topic.category === category);
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -87,7 +140,20 @@ function CreateWordModal({ onClose }) {
         setStatus('previewing');
         setErrorMessage('');
         try {
-            const response = await personalWordPort.previewWord({ word: trimmed, courseDirection });
+            // Le mandamos a Gemini la lista COMPLETA de mazos personales que el usuario ya tiene,
+            // en TODAS las categorías, desde esta MISMA llamada — Gemini recomienda el mejor
+            // encaje como primera clasificación (o decide que ninguno calza y clasifica libre, un
+            // mazo nuevo) en vez de que el frontend adivine con una sola pista y tenga que
+            // reconsultar después con overrides. Pedido explícito: "vos debés recomendarlo y
+            // colocar esa recomendación como primera opción... el usuario lo puede cambiar entre
+            // sus otros decks o crear uno nuevo" — la fila resultante sigue siendo editable como
+            // cualquier otra.
+            const topics = existingTopics === null ? await loadExistingTopics() : existingTopics;
+            const response = await personalWordPort.previewWord({
+                word: trimmed,
+                courseDirection,
+                existingTopics: topics,
+            });
             const rawCandidates = response?.candidates ?? [];
             setCandidates(rawCandidates.map((c) => toRow(c, nextRowId())));
             setDetectedCount(rawCandidates.length || 1);
@@ -123,6 +189,23 @@ function CreateWordModal({ onClose }) {
         }
     };
 
+    /**
+     * Mejor tema existente en la categoría de la fila (el de más tarjetas, si hay varios) — solo
+     * para SUGERIR cuando el nivel que clasificó Gemini no coincide con ninguno de los mazos que
+     * el usuario ya tiene ahí. La decisión de usarlo o crear uno nuevo es del usuario, esto es
+     * únicamente una recomendación (nadie estudia un mazo de una sola carta si ya tenía un tema
+     * establecido en la misma categoría).
+     */
+    const bestExistingTopicFor = (category) => {
+        const options = topicsForCategory(category);
+        if (options.length === 0) return null;
+        return options.reduce((best, topic) => (topic.total > best.total ? topic : best));
+    };
+
+    const handleUseSuggestedTopic = (id, topic) => {
+        refreshRow(id, topic.category, topic.level);
+    };
+
     const handleRowFieldChange = (id, field, value) => {
         const row = candidates.find((r) => r.id === id);
         if (!row) return;
@@ -149,6 +232,32 @@ function CreateWordModal({ onClose }) {
         refreshRow(id, nextCategoryOption, level);
     };
 
+    /** Agrega una fila apuntada directamente a un tema (mazo) que el usuario ya creó. */
+    const handlePickTopic = (topic) => {
+        const id = nextRowId();
+        setCandidates((prev) => [...prev, {
+            ...toRow({ category: topic.category, level: topic.level, name: word.trim() }, id),
+            refreshing: true,
+        }]);
+        setIsPickingTopic(false);
+        refreshRow(id, topic.category, topic.level);
+    };
+
+    // Temas existentes que todavía no están usados por ninguna fila (categoría+nivel exactos) —
+    // esto es lo que se ofrece para elegir, no una categoría gramatical en blanco.
+    const usedCategoryLevelPairs = candidates.map((r) => `${r.category}::${r.level}`);
+    const pickableTopics = (existingTopics ?? []).filter(
+        (topic) => !usedCategoryLevelPairs.includes(`${topic.category}::${topic.level}`),
+    );
+
+    const handleAddCandidateClick = () => {
+        if (pickableTopics.length === 0) {
+            handleAddCandidate();
+            return;
+        }
+        setIsPickingTopic(true);
+    };
+
     const handleConfirmCreate = async () => {
         const trimmed = word.trim();
         const toCreate = candidates.filter((r) => r.selected && !r.duplicate);
@@ -158,6 +267,11 @@ function CreateWordModal({ onClose }) {
         setCandidates((prev) => prev.map((r) => (
             toCreate.some((c) => c.id === r.id) ? { ...r, createStatus: 'creating' } : r
         )));
+
+        // Si algo se creó de verdad (no todo duplicado), la lista de mazos existentes quedó
+        // desactualizada — se refresca para que "Crear otra palabra" en la MISMA sesión del modal
+        // le mande a Gemini el mazo recién creado como candidato a recomendar.
+        let anyCreated = false;
 
         // Secuencial a propósito (no Promise.all): no saturar generación de imagen/audio con
         // varias filas en simultáneo — ver docs/modules/flashcards.md §Personal Words.
@@ -169,10 +283,15 @@ function CreateWordModal({ onClose }) {
                     categoryOverride: row.category,
                     levelOverride: row.level,
                 });
+                const category = response?.category ?? row.category;
+                const level = response?.level ?? row.level;
+                if (!response?.duplicate) {
+                    anyCreated = true;
+                }
                 setCandidates((prev) => prev.map((r) => (r.id === row.id ? {
                     ...r,
-                    category: response?.category ?? r.category,
-                    level: response?.level ?? r.level,
+                    category,
+                    level,
                     isNewDeck: Boolean(response?.is_new_deck),
                     createStatus: response?.duplicate ? 'duplicate' : 'created',
                 } : r)));
@@ -183,8 +302,21 @@ function CreateWordModal({ onClose }) {
             }
         }
 
+        if (anyCreated) {
+            void loadExistingTopics();
+        }
         refreshPersonalWords?.();
         setStatus('results');
+    };
+
+    /** Vuelve al formulario para cargar otra palabra sin cerrar el modal — mantiene `existingTopics`
+     * en caché (ya refrescada tras la creación, ver `handleConfirmCreate`) para que Gemini la vea
+     * completa desde el primer submit de la siguiente palabra. */
+    const handleCreateAnother = () => {
+        setWord('');
+        setCandidates([]);
+        setErrorMessage('');
+        setStatus('idle');
     };
 
     const handleRowTopicNameChange = (id, value) => {
@@ -220,18 +352,6 @@ function CreateWordModal({ onClose }) {
         changeCategory(row.category);
         changeDeck(`${row.level}/my_words`);
         onClose();
-    };
-
-    const renderDestination = (row) => {
-        if (row.refreshing) return t.refreshingRow;
-        const category = formatCategoryName(row.category, categoryNames);
-        const level = formatLevelName(row.level, levelNames);
-        return row.isNewDeck
-            ? t.previewNewDeck.replace('{category}', category).replace('{level}', level)
-            : t.previewExistingDeck
-                .replace('{deck}', row.existingTopicName || t.topicNameDefault)
-                .replace('{category}', category)
-                .replace('{level}', level);
     };
 
     return (
@@ -289,7 +409,13 @@ function CreateWordModal({ onClose }) {
                                 : t.candidatesIntroSingle.replace('{word}', word.trim())}
                         </p>
                         <div className={styles.candidateList}>
-                            {candidates.map((row) => (
+                            {candidates.map((row) => {
+                                // Nadie estudia un mazo de una sola carta: si el nivel que Gemini clasificó
+                                // no tiene mazo del usuario todavía, pero SÍ hay un tema establecido en esa
+                                // misma categoría (otro nivel), se lo sugerimos — la decisión de usarlo o
+                                // crear uno nuevo sigue siendo suya.
+                                const suggestedTopic = (!row.refreshing && row.isNewDeck) ? bestExistingTopicFor(row.category) : null;
+                                return (
                                 <div
                                     key={row.id}
                                     className={`${styles.candidateRow} ${row.duplicate ? styles.candidateRowDuplicate : ''}`}
@@ -302,42 +428,104 @@ function CreateWordModal({ onClose }) {
                                             onChange={() => handleToggleRow(row.id)}
                                         />
                                         <span className={styles.candidateName}>{row.name || word.trim()}</span>
+                                        <span className={styles.candidateUsageHint}>
+                                            ({formatCategoryName(row.category, categoryNames).toLowerCase()})
+                                        </span>
                                         {row.duplicate && (
                                             <span className={`${styles.rowBadge} ${styles.rowBadgeDuplicate}`}>{t.duplicateBadge}</span>
                                         )}
                                     </label>
                                     <div className={styles.candidateFields}>
-                                        <select
-                                            className={styles.select}
-                                            value={row.category}
-                                            disabled={row.refreshing}
-                                            onChange={(e) => handleRowFieldChange(row.id, 'category', e.target.value)}
-                                            aria-label={t.categoryFieldLabel}
-                                        >
-                                            {NESTED_LEVEL_CATEGORIES.map((cat) => (
-                                                <option key={cat} value={cat}>{formatCategoryName(cat, categoryNames)}</option>
-                                            ))}
-                                        </select>
-                                        <select
-                                            className={styles.select}
-                                            value={row.level}
-                                            disabled={row.refreshing}
-                                            onChange={(e) => handleRowFieldChange(row.id, 'level', e.target.value)}
-                                            aria-label={t.levelFieldLabel}
-                                        >
-                                            {PERSONAL_WORD_LEVELS.map((lvl) => (
-                                                <option key={lvl} value={lvl}>{formatLevelName(lvl, levelNames)}</option>
-                                            ))}
-                                        </select>
+                                        <div className={styles.candidateFieldGroup}>
+                                            <label className={styles.fieldLabel} htmlFor={`category-${row.id}`}>{t.categoryFieldLabel}</label>
+                                            <select
+                                                id={`category-${row.id}`}
+                                                className={styles.select}
+                                                value={row.category}
+                                                disabled={row.refreshing}
+                                                onChange={(e) => handleRowFieldChange(row.id, 'category', e.target.value)}
+                                            >
+                                                {NESTED_LEVEL_CATEGORIES.map((cat) => (
+                                                    <option key={cat} value={cat}>{formatCategoryName(cat, categoryNames)}</option>
+                                                ))}
+                                            </select>
+                                        </div>
+                                        <div className={styles.candidateFieldGroup}>
+                                            <label className={styles.fieldLabel} htmlFor={`topic-${row.id}`}>{t.topicFieldLabel}</label>
+                                            <select
+                                                id={`topic-${row.id}`}
+                                                className={styles.select}
+                                                value={row.level}
+                                                disabled={row.refreshing}
+                                                onChange={(e) => handleRowFieldChange(row.id, 'level', e.target.value)}
+                                            >
+                                                {PERSONAL_WORD_LEVELS
+                                                    // El nivel de un mazo NUEVO lo decide la IA, no el usuario (sabe mejor que
+                                                    // él qué tan difícil es la palabra) — solo se ofrece como opción "nueva"
+                                                    // el nivel que ya clasificó (`row.level`), nunca los otros dos. Los temas
+                                                    // YA EXISTENTES sí siguen siendo elegibles: ahí la decisión es "a cuál de
+                                                    // mis mazos lo agrego", no una evaluación de dificultad.
+                                                    .filter((lvl) => lvl === row.level || topicsForCategory(row.category).some((topic) => topic.level === lvl))
+                                                    .map((lvl) => {
+                                                        const existingTopic = topicsForCategory(row.category).find((topic) => topic.level === lvl);
+                                                        // El nivel de un mazo nuevo lo decide la IA, no el usuario — no se
+                                                        // muestra acá (ya lo comunicó al clasificar), solo "Nuevo tema".
+                                                        const label = existingTopic
+                                                            ? (existingTopic.topicName || t.topicNameDefault)
+                                                            : t.newTopicOption;
+                                                        return <option key={lvl} value={lvl}>{label}</option>;
+                                                    })}
+                                            </select>
+                                        </div>
                                     </div>
-                                    <p className={styles.candidateDestination}>{renderDestination(row)}</p>
+                                    {suggestedTopic && (
+                                        <p className={styles.topicSuggestionInline}>
+                                            {t.topicSuggestionLabel}{' '}
+                                            <button
+                                                type="button"
+                                                className={styles.topicSuggestionLink}
+                                                onClick={() => handleUseSuggestedTopic(row.id, suggestedTopic)}
+                                            >
+                                                {t.topicSuggestionLinkText
+                                                    .replace('{category}', formatCategoryName(suggestedTopic.category, categoryNames))
+                                                    .replace('{level}', formatLevelName(suggestedTopic.level, levelNames))}
+                                            </button>
+                                        </p>
+                                    )}
                                 </div>
-                            ))}
+                                );
+                            })}
                         </div>
 
-                        {nextCategoryOption && (
-                            <button type="button" className={styles.addCandidateButton} onClick={handleAddCandidate}>
-                                {t.addCandidateButton}
+                        {isPickingTopic ? (
+                            <div className={styles.topicPicker}>
+                                <p className={styles.topicPickerLabel}>{t.pickTopicPrompt}</p>
+                                {pickableTopics.map((topic) => (
+                                    <button
+                                        key={`${topic.category}-${topic.level}`}
+                                        type="button"
+                                        className={styles.topicPickerOption}
+                                        onClick={() => handlePickTopic(topic)}
+                                    >
+                                        {topic.topicName || t.topicNameDefault} ({formatCategoryName(topic.category, categoryNames)}·{formatLevelName(topic.level, levelNames)})
+                                    </button>
+                                ))}
+                                {nextCategoryOption && (
+                                    <button
+                                        type="button"
+                                        className={styles.topicPickerOption}
+                                        onClick={() => { setIsPickingTopic(false); handleAddCandidate(); }}
+                                    >
+                                        {t.pickNewCategoryOption}
+                                    </button>
+                                )}
+                                <button type="button" className={styles.cancelButton} onClick={() => setIsPickingTopic(false)}>
+                                    {t.cancelButton}
+                                </button>
+                            </div>
+                        ) : (nextCategoryOption || pickableTopics.length > 0) && (
+                            <button type="button" className={styles.addCandidateButton} onClick={handleAddCandidateClick}>
+                                {pickableTopics.length > 0 ? t.addTopicButton : t.addCandidateButton}
                             </button>
                         )}
 
@@ -442,6 +630,9 @@ function CreateWordModal({ onClose }) {
                         <div className={styles.actions}>
                             <button type="button" className={styles.cancelButton} onClick={onClose}>
                                 {t.closeButton}
+                            </button>
+                            <button type="button" className={styles.submitButton} onClick={handleCreateAnother}>
+                                {t.createAnotherButton}
                             </button>
                         </div>
                     </div>

@@ -51,10 +51,17 @@ struct GeminiPart {
 
 #[derive(Clone, PartialEq, ::prost::Message)]
 struct GeminiGenerationConfig {
-    #[prost(float, optional, tag = "4")]
-    temperature: Option<f32>,
-    #[prost(int32, optional, tag = "5")]
+    // Tags verificados contra el .proto oficial (`google/ai/generativelanguage/v1beta/generative_service.proto`,
+    // mensaje `GenerationConfig`): `max_output_tokens` = 4, `temperature` = 5. Estaban
+    // intercambiados acá — bug real: el servidor descarta un campo cuyo wire type no coincide con
+    // el declarado para ese número (float vs varint), así que NINGUNA llamada por este helper
+    // aplicaba de verdad la temperatura ni el tope de tokens pedidos; Gemini corría con sus
+    // defaults del modelo en ambos. Afecta a TODAS las llamadas vía `call()` (word-card-draft,
+    // guía de onboarding, etc.), no solo una.
+    #[prost(int32, optional, tag = "4")]
     max_output_tokens: Option<i32>,
+    #[prost(float, optional, tag = "5")]
+    temperature: Option<f32>,
     #[prost(string, optional, tag = "13")]
     response_mime_type: Option<String>,
 }
@@ -729,6 +736,7 @@ Do not include the internal checklist, word counts, explanations, markdown, or a
         course_direction: &str,
         category_override: Option<&str>,
         level_override: Option<&str>,
+        existing_topics: &[crate::domain::repositories::tutor::ExistingPersonalTopic],
     ) -> Result<Vec<serde_json::Value>> {
         #[cfg(feature = "flashcards")]
         {
@@ -746,6 +754,7 @@ Do not include the internal checklist, word counts, explanations, markdown, or a
                 course_direction,
                 category_override,
                 level_override,
+                existing_topics,
             );
             let validate = |raw: &str| -> Result<Vec<serde_json::Value>> {
                 let value: serde_json::Value =
@@ -860,7 +869,13 @@ Do not include the internal checklist, word counts, explanations, markdown, or a
         }
         #[cfg(not(feature = "flashcards"))]
         {
-            let _ = (word, course_direction, category_override, level_override);
+            let _ = (
+                word,
+                course_direction,
+                category_override,
+                level_override,
+                existing_topics,
+            );
             anyhow::bail!("generate_word_card_draft requiere la feature 'flashcards'")
         }
     }
@@ -959,6 +974,32 @@ mod tests {
     // instalarlo; bajo nextest cada test tiene su propio proceso.
     fn ensure_crypto_provider() {
         let _ = rustls::crypto::aws_lc_rs::default_provider().install_default();
+    }
+
+    // Regresión (bug real): `max_output_tokens`/`temperature` tenían los tags de protobuf
+    // intercambiados respecto al .proto oficial de Gemini v1beta, así que el servidor descartaba
+    // ambos por wire-type mismatch (float vs varint) y CADA llamada por `call()` corría con los
+    // defaults del modelo en vez de los valores pedidos — sin red, sin API key, verifica los
+    // bytes crudos directamente contra los números de campo del proto real.
+    #[test]
+    fn generation_config_field_tags_match_the_official_v1beta_proto() {
+        let config = GeminiGenerationConfig {
+            max_output_tokens: Some(1024),
+            temperature: Some(0.4),
+            response_mime_type: None,
+        };
+        let bytes = <GeminiGenerationConfig as prost::Message>::encode_to_vec(&config);
+
+        // `max_output_tokens` = field 4, varint (int32) → tag byte = (4 << 3) | 0 = 0x20.
+        assert_eq!(bytes[0], 0x20, "max_output_tokens debe ir en field number 4 (varint)");
+        assert_eq!(&bytes[1..3], &[0x80, 0x08], "varint(1024) mal codificado");
+
+        // `temperature` = field 5, fixed32 (float) → tag byte = (5 << 3) | 5 = 0x2D.
+        assert_eq!(bytes[3], 0x2D, "temperature debe ir en field number 5 (fixed32)");
+        let temp_bytes: [u8; 4] = bytes[4..8].try_into().unwrap();
+        assert_eq!(f32::from_le_bytes(temp_bytes), 0.4_f32);
+
+        assert_eq!(bytes.len(), 8, "response_mime_type=None no debería codificar nada");
     }
 
     #[tokio::test]

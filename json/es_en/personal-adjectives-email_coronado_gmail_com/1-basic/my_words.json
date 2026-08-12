@@ -1,0 +1,86 @@
+{
+  "flashcards": [
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "definitions": [
+        {
+          "audioPath": "/card_audio/es_en/personal-adjectives-email_coronado_gmail_com/1-basic/1-basic_none_i_am_completely_exhausted_after_that_lon_ca6c7ef6d09e9b31.ogg?v=a63aa3dc-0390-48fd-875f-9c3b901d2df3",
+          "char_count": "three",
+          "imagePath": "/card_images/personal-adjectives-email_coronado_gmail_com/1-basic_my_words_card_0_def0.avif?v=1786561312259197385-28211",
+          "meaning": "Agotado/Extenuado",
+          "pronunciation_guide_es": "/AI_AM_komPLITli_egZOS-tid_AF-ter_DAT_long_FLAIT/",
+          "usage_context_en": "extreme tiredness",
+          "usage_context_es": "cansancio extremo",
+          "usage_example": "I am completely exhausted after that long flight.",
+          "usage_example_es": "Estoy completamente agotado después de ese vuelo largo."
+        }
+      ],
+      "force_generation": false,
+      "group_name": "Physical States",
+      "is_verb": false,
+      "name": "exhausted",
+      "phonetic": "/ɪɡˈzɔːstɪd/",
+      "search_term": "adjective/very_tired",
+      "spoken_phonetic_us": "/ɪɡˈzɔstɪd/"
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "definitions": [
+        {
+          "audioPath": "/card_audio/es_en/personal-adjectives-email_coronado_gmail_com/1-basic/1-basic_none_the_map_was_very_descriptive_and_easy_to_8461d289e1fcabd9.ogg?v=207520bc-31bd-4beb-b432-a49d85520fe3",
+          "char_count": "three",
+          "imagePath": "/card_images/personal-adjectives-email_coronado_gmail_com/1-basic_my_words_card_1_def0.avif?v=1786561863948252117-43118",
+          "meaning": "Descriptivo/Que describe",
+          "pronunciation_guide_es": "/de_MAP_uoz_VERI_di_SKRIP_tiv_and_I_si_tu_RID/",
+          "usage_context_en": "providing details",
+          "usage_context_es": "proporcionar detalles",
+          "usage_example": "The map was very descriptive and easy to read.",
+          "usage_example_es": "El mapa era muy descriptivo y fácil de leer."
+        }
+      ],
+      "force_generation": false,
+      "group_name": "Adjectives: Quality",
+      "is_verb": false,
+      "name": "descriptive",
+      "phonetic": "/dɪˈskrɪptɪv/",
+      "search_term": "adjective/descriptive",
+      "spoken_phonetic_us": "/dɪˈskrɪptɪv/"
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "definitions": [
+        {
+          "audioPath": "/card_audio/es_en/personal-adjectives-email_coronado_gmail_com/1-basic/1-basic_none_we_have_two_concurrent_meetings_at_noon_cca5784b877deee9.ogg?v=390b2e98-513e-46ec-aeea-e14b6aa5afd7",
+          "char_count": "three",
+          "imagePath": "/card_images/personal-adjectives-email_coronado_gmail_com/1-basic_my_words_card_2_def0.avif?v=1786562411694409686-35661",
+          "meaning": "Simultáneo/Concurrente",
+          "pronunciation_guide_es": "/ui_JEV_tu_kon_KE_rent_MI_tings_at_nun/",
+          "usage_context_en": "happening at the same time",
+          "usage_context_es": "ocurriendo al mismo tiempo",
+          "usage_example": "We have two concurrent meetings at noon.",
+          "usage_example_es": "Tenemos dos reuniones simultáneas al mediodía."
+        }
+      ],
+      "force_generation": false,
+      "group_name": "Time & Scheduling",
+      "is_verb": false,
+      "name": "concurrent",
+      "phonetic": "/kənˈkʌrənt/",
+      "search_term": "adjective/happening_at_the_same_time",
+      "spoken_phonetic_us": "/kənˈkɜːrənt/"
+    }
+  ],
+  "topic_name": "Descriptive States"
+}

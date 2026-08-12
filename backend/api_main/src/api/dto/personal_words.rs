@@ -9,6 +9,16 @@ fn default_course_direction() -> String {
 /// juntos o ninguno de los dos (validado en el caso de uso) — el frontend los manda cuando el
 /// usuario editó la categoría/nivel de una fila en el preview, o al confirmar la creación de
 /// cualquier fila (incluida la que no tocó), para que `create` nunca tenga que resolver ambigüedad.
+/// Un mazo personal ya existente del estudiante, tal como lo manda el frontend — ver
+/// `fluency_core::ports::tutor::ExistingPersonalTopic`.
+#[derive(Debug, Deserialize)]
+pub struct ExistingTopicDto {
+    pub category: String,
+    pub level: String,
+    #[serde(default)]
+    pub topic_name: Option<String>,
+}
+
 #[derive(Debug, Deserialize)]
 pub struct CreateWordBody {
     pub word: String,
@@ -18,6 +28,12 @@ pub struct CreateWordBody {
     pub category_override: Option<String>,
     #[serde(default)]
     pub level_override: Option<String>,
+    /// Solo usado por `preview_word` (ignorado por `create_word`, que siempre recibe overrides ya
+    /// resueltos) — ver `CardCreationUseCases::preview_personal_word`. Lista COMPLETA de los mazos
+    /// personales que el estudiante ya tiene, para que Gemini pueda recomendar el mejor encaje en
+    /// la MISMA llamada, sin forzar categoría ni perder la detección de ambigüedad.
+    #[serde(default)]
+    pub existing_topics: Vec<ExistingTopicDto>,
 }
 
 /// "¿Dónde va a caer esta palabra?" — se pide ANTES de generar imagen/audio, para que el usuario

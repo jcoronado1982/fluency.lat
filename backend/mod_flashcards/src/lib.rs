@@ -263,11 +263,28 @@ impl DeckUseCases {
         self.catalog_manifest
             .get_or_try_init(|| async {
                 let bytes = self.storage_repo.get_catalog_manifest().await?;
-                let manifest: CatalogManifest = serde_json::from_slice(&bytes)?;
+                let mut manifest: CatalogManifest = serde_json::from_slice(&bytes)?;
                 anyhow::ensure!(
                     manifest.schema_version == 1,
                     "schema de catálogo no soportado"
                 );
+                // Defensa en profundidad: el namespace interno de "Crear palabra"
+                // (`personal-<categoria>-<segmento-email>`, ver
+                // `card_creation_use_cases::PERSONAL_CATEGORY_PREFIX`) NUNCA debe ser una
+                // categoría navegable del catálogo compartido — es un directorio por usuario que
+                // Rust reescribe internamente al abrir un mazo personal (`resolve_storage_category`),
+                // jamás algo que el frontend deba listar. El generador
+                // (`scripts/generate-catalog-manifest.mjs`) ya lo excluye; este filtro es la
+                // última línea de defensa si un manifiesto viejo/regenerado a mano se filtra
+                // igual. Bug real: dos categorías fantasma con el email del usuario en el nombre
+                // aparecían para TODOS los usuarios — ver docs/modules/flashcards.md §Personal Words.
+                for direction in manifest.directions.values_mut() {
+                    direction.categories.retain(|category| {
+                        !category
+                            .name
+                            .starts_with(crate::card_creation_use_cases::PERSONAL_CATEGORY_PREFIX)
+                    });
+                }
                 tracing::info!(
                     catalog_version = %manifest.catalog_version,
                     "catálogo global cargado desde manifiesto"
@@ -549,6 +566,21 @@ fn score_card_match(q: &str, clean_name: &str) -> u32 {
 
     // 2. La palabra de la tarjeta COMIENZA por la consulta (ej. "be" -> "begin", "become")
     if name_lower.starts_with(q) {
+        return 800;
+    }
+
+    // 2b. La consulta es la palabra de la tarjeta + un sufijo flexivo simple en inglés (ej.
+    // "spikes" -> "spike", "wanted" -> "want"). Los headwords SIEMPRE se guardan en forma
+    // canónica — infinitivo para verbos, singular para sustantivos (ver convención del catálogo
+    // en `json/**/*.json`) — así que sin esto, buscar la forma conjugada/plural que el usuario
+    // realmente escribió (ej. crear "spikes" como verbo, Gemini lo normaliza a "spike") nunca
+    // encuentra esa tarjeta. Bug real reportado en vivo: un mismo texto creado como sustantivo Y
+    // verbo ("Crear palabra") solo aparecía uno de los dos al buscarlo.
+    const INFLECTION_SUFFIXES: [&str; 4] = ["s", "es", "ed", "ing"];
+    let is_simple_inflection = INFLECTION_SUFFIXES
+        .iter()
+        .any(|suffix| q.len() > name_lower.len() && q == format!("{name_lower}{suffix}"));
+    if is_simple_inflection {
         return 800;
     }
 
@@ -1364,6 +1396,58 @@ mod tests {
         assert_eq!(a2_deck.learned_count, 0);
     }
 
+    // Regresión (bug real reportado en vivo): el generador del manifiesto
+    // (`scripts/generate-catalog-manifest.mjs`) listaba cualquier carpeta bajo `json/<dirección>/`
+    // como categoría navegable, incluyendo los namespaces internos de "Crear palabra"
+    // (`personal-<categoria>-<segmento-email>`) — dos categorías fantasma con el email del
+    // usuario en el nombre aparecían para TODOS los usuarios. El generador ya se corrigió, pero
+    // `catalog_manifest()` filtra igual como última línea de defensa ante un manifiesto viejo o
+    // regenerado a mano.
+    #[tokio::test]
+    async fn catalog_manifest_never_exposes_the_internal_personal_words_namespace() {
+        let manifest_bytes = serde_json::json!({
+            "schemaVersion": 1,
+            "catalogVersion": "test",
+            "directions": {
+                "es_en": {
+                    "categories": [
+                        {
+                            "name": "verbs",
+                            "total": 10,
+                            "decks": [{"path": "1-basic/action.json", "total": 10}]
+                        },
+                        {
+                            "name": "personal-nouns-user_example_com",
+                            "total": 1,
+                            "decks": [{"path": "2-intermediate/my_words.json", "total": 1}]
+                        },
+                        {
+                            "name": "personal-verbs-user_example_com",
+                            "total": 1,
+                            "decks": [{"path": "2-intermediate/my_words.json", "total": 1}]
+                        }
+                    ]
+                }
+            }
+        })
+        .to_string()
+        .into_bytes();
+
+        let storage = FakeStorageRepository { manifest_bytes };
+        let uc = DeckUseCases::new(
+            Arc::new(storage),
+            Arc::new(FakeCardProgressRepository::default()),
+            Arc::new(FakeUserActivityRepository),
+        );
+
+        let categories = uc
+            .list_categories("es_en")
+            .await
+            .expect("list_categories");
+
+        assert_eq!(categories, vec!["verbs".to_string()]);
+    }
+
     struct DeckContentFake {
         decks: std::sync::Mutex<HashMap<String, DeckData>>,
     }
@@ -1579,5 +1663,25 @@ mod tests {
             .await
             .expect("un mazo real (nombre no-sentinel) no debe reescribirse");
         assert_eq!(data.flashcards().len(), 1);
+    }
+
+    // Regresión (bug real reportado en vivo): "Crear palabra" guarda headwords en forma
+    // canónica — infinitivo para verbos, singular para sustantivos (mismo convenio que el
+    // catálogo curado en json/**/*.json) — así que un mismo texto creado como sustantivo Y verbo
+    // ("spikes") queda como `name: "spikes"` (sustantivo) pero `name: "spike"` (verbo, Gemini lo
+    // normaliza). Sin este tier, buscar "spikes" solo encontraba el sustantivo.
+    #[test]
+    fn score_card_match_finds_the_card_by_simple_english_inflection_of_the_query() {
+        assert_eq!(DeckUseCases::score_card_match("spikes", "spike"), 800);
+        assert_eq!(DeckUseCases::score_card_match("wanted", "want"), 800);
+        assert_eq!(DeckUseCases::score_card_match("wanting", "want"), 800);
+        assert_eq!(DeckUseCases::score_card_match("boxes", "box"), 800);
+    }
+
+    #[test]
+    fn score_card_match_does_not_inflect_when_query_is_shorter_or_equal() {
+        assert_eq!(DeckUseCases::score_card_match("spike", "spike"), 1000);
+        assert_eq!(DeckUseCases::score_card_match("spike", "spikes"), 800); // ya cubierto por el tier 2 (prefijo)
+        assert_eq!(DeckUseCases::score_card_match("s", "s"), 1000);
     }
 }

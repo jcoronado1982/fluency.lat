@@ -23,7 +23,7 @@
 
 use anyhow::{Context, Result};
 use fluency_core::domain::models::flashcard::{DeckData, Flashcard};
-use fluency_core::ports::tutor::AITutor;
+use fluency_core::ports::tutor::{AITutor, ExistingPersonalTopic};
 use std::sync::Arc;
 
 use crate::audio_use_cases::{AudioSynthRequest, AudioUseCases};
@@ -37,8 +37,9 @@ use crate::{normalize_course_direction, user_path_segment, DeckUseCases};
 pub const PERSONAL_WORDS_DECK_NAME: &str = "my_words";
 
 /// Prefijo del namespace interno personal (`personal-<categoria>-<segmento>`) — nunca visible para
-/// el frontend, ver comentario de módulo.
-const PERSONAL_CATEGORY_PREFIX: &str = "personal-";
+/// el frontend, ver comentario de módulo. `pub(crate)` (no privado) para que `lib.rs` pueda
+/// filtrarlo defensivamente al cargar el manifiesto del catálogo (`DeckUseCases::catalog_manifest`).
+pub(crate) const PERSONAL_CATEGORY_PREFIX: &str = "personal-";
 
 /// Los 3 niveles reales del catálogo (mismos slugs que las carpetas físicas
 /// `json/<pair>/<categoria>/<nivel>/`). Duplicado intencional de `WORD_CARD_LEVELS`
@@ -214,6 +215,7 @@ impl CardCreationUseCases {
     /// Con `category_override`/`level_override` (ambos presentes o ambos ausentes — validado por
     /// los llamadores públicos), Gemini devuelve exactamente 1 candidato clampeado a esos valores;
     /// sin overrides puede devolver 1 o 2 (Gemini decide si la palabra es gramaticalmente ambigua).
+    /// `existing_topics`: solo tiene efecto SIN overrides — ver `AITutor::generate_word_card_draft`.
     async fn classify_and_load(
         &self,
         user_email: &str,
@@ -221,6 +223,7 @@ impl CardCreationUseCases {
         normalized_direction: &str,
         category_override: Option<&str>,
         level_override: Option<&str>,
+        existing_topics: &[ExistingPersonalTopic],
     ) -> Result<Vec<ClassifiedWord>> {
         let drafts = self
             .ai_tutor
@@ -229,6 +232,7 @@ impl CardCreationUseCases {
                 normalized_direction,
                 category_override,
                 level_override,
+                existing_topics,
             )
             .await
             .context("No se pudo generar el borrador de la palabra")?;
@@ -328,6 +332,12 @@ impl CardCreationUseCases {
     /// Vista previa: clasifica y dice dónde va a caer la palabra (mazo existente + su nombre, o
     /// "mazo nuevo") ANTES de generar imagen/audio. Mismo gate admin/premium que la creación real
     /// — nunca gratis para un rol no autorizado, aunque no genere media.
+    ///
+    /// `existing_topics` (ignorado si viene junto con `category_override`/`level_override` — esos
+    /// ya determinan todo): la lista COMPLETA de mazos personales que el estudiante ya tiene, para
+    /// que Gemini pueda RECOMENDAR el mejor encaje en la MISMA llamada — pedido explícito: "vos
+    /// debés recomendarlo y colocar esa recomendación como primera opción". Ver
+    /// `AITutor::generate_word_card_draft`.
     pub async fn preview_personal_word(
         &self,
         user_email: &str,
@@ -336,6 +346,7 @@ impl CardCreationUseCases {
         course_direction: &str,
         category_override: Option<&str>,
         level_override: Option<&str>,
+        existing_topics: &[ExistingPersonalTopic],
     ) -> Result<Vec<WordPreview>> {
         let role_norm = role.trim().to_ascii_lowercase();
         let is_admin = role_norm == "admin";
@@ -353,6 +364,14 @@ impl CardCreationUseCases {
         Self::validate_overrides(category_override, level_override)?;
 
         let normalized_direction = normalize_course_direction(Some(course_direction));
+        // La lista solo tiene sentido en la clasificación LIBRE — si ya hay overrides, esos
+        // determinan todo por su cuenta (ver `build_word_card_user_message`).
+        let no_topics: &[ExistingPersonalTopic] = &[];
+        let existing_topics = if category_override.is_some() {
+            no_topics
+        } else {
+            existing_topics
+        };
         let classified = self
             .classify_and_load(
                 user_email,
@@ -360,6 +379,7 @@ impl CardCreationUseCases {
                 normalized_direction,
                 category_override,
                 level_override,
+                existing_topics,
             )
             .await?;
 
@@ -432,6 +452,9 @@ impl CardCreationUseCases {
                 normalized_direction,
                 category_override,
                 level_override,
+                // `create_personal_word` SIEMPRE recibe overrides del frontend (ver comentario de
+                // `create_personal_word` más abajo) — la lista de `preview_personal_word` no aplica acá.
+                &[],
             )
             .await?
             .into_iter()
@@ -1014,11 +1037,19 @@ mod tests {
             _course_direction: &str,
             category_override: Option<&str>,
             level_override: Option<&str>,
+            existing_topics: &[ExistingPersonalTopic],
         ) -> Result<Vec<serde_json::Value>> {
             if let (Some(category), Some(level)) = (category_override, level_override) {
                 return Ok(vec![Self::draft_for(word, category, level, self.name)]);
             }
-            let mut out = vec![Self::draft_for(word, self.category, self.level, self.name)];
+            // Simula que Gemini recomienda el mazo existente SOLO cuando su categoría coincide con
+            // la que hubiera clasificado libremente — igual criterio que el prompt real.
+            let level = existing_topics
+                .iter()
+                .find(|t| t.category == self.category)
+                .map(|t| t.level.as_str())
+                .unwrap_or(self.level);
+            let mut out = vec![Self::draft_for(word, self.category, level, self.name)];
             for (category, level, name) in &self.extra {
                 out.push(Self::draft_for(word, category, level, name));
             }
@@ -1277,7 +1308,7 @@ mod tests {
             Arc::new(FakeAiTutor { category: "nouns", level: "1-basic", name: "table", extra: vec![] }),
         );
         let err = uc
-            .preview_personal_word("user@example.com", "viewer", "table", "es_en", None, None)
+            .preview_personal_word("user@example.com", "viewer", "table", "es_en", None, None, &[])
             .await
             .expect_err("viewer no debería poder previsualizar creación");
         assert!(err.to_string().contains("No autorizado"));
@@ -1290,7 +1321,7 @@ mod tests {
             Arc::new(FakeAiTutor { category: "nouns", level: "1-basic", name: "table", extra: vec![] }),
         );
         let previews = uc
-            .preview_personal_word("user@example.com", "premium", "table", "es_en", None, None)
+            .preview_personal_word("user@example.com", "premium", "table", "es_en", None, None, &[])
             .await
             .unwrap();
         assert_eq!(previews.len(), 1, "FakeAiTutor sin 'extra' devuelve un solo candidato");
@@ -1326,7 +1357,7 @@ mod tests {
         );
 
         let previews = uc
-            .preview_personal_word("user@example.com", "premium", "table", "es_en", None, None)
+            .preview_personal_word("user@example.com", "premium", "table", "es_en", None, None, &[])
             .await
             .unwrap();
         let preview = &previews[0];
@@ -1354,7 +1385,7 @@ mod tests {
         );
 
         let previews = uc
-            .preview_personal_word("user@example.com", "premium", "table", "es_en", None, None)
+            .preview_personal_word("user@example.com", "premium", "table", "es_en", None, None, &[])
             .await
             .unwrap();
         let preview = &previews[0];
@@ -1373,7 +1404,7 @@ mod tests {
             Arc::new(FakeAiTutor { category: "nouns", level: "1-basic", name: "table", extra: vec![] }),
         );
 
-        uc.preview_personal_word("user@example.com", "premium", "table", "es_en", None, None)
+        uc.preview_personal_word("user@example.com", "premium", "table", "es_en", None, None, &[])
             .await
             .unwrap();
 
@@ -1397,7 +1428,7 @@ mod tests {
         );
 
         let previews = uc
-            .preview_personal_word("user@example.com", "premium", "appreciate", "es_en", None, None)
+            .preview_personal_word("user@example.com", "premium", "appreciate", "es_en", None, None, &[])
             .await
             .unwrap();
         assert_eq!(previews.len(), 2, "la palabra tiene 2 usos gramaticales comunes");
@@ -1429,12 +1460,109 @@ mod tests {
                 "es_en",
                 Some("adjectives"),
                 Some("1-basic"),
+                &[],
             )
             .await
             .unwrap();
         assert_eq!(previews.len(), 1);
         assert_eq!(previews[0].category, "adjectives");
         assert_eq!(previews[0].level, "1-basic");
+    }
+
+    // Regresión ("vos debés recomendarlo y colocar esa recomendación como primera opción"): "crear
+    // otra palabra para uno de mis mazos ya existentes" debe resolverse en UNA sola llamada a
+    // Gemini — pasando la lista COMPLETA de mazos existentes en el mismo preview libre — en vez de
+    // clasificar sin lista y volver a preguntar con overrides cuando el mazo elegido no calzó.
+    #[tokio::test]
+    async fn preview_personal_word_recommends_an_existing_topic_when_the_free_category_matches() {
+        // FakeAiTutor clasificaría "linger" libremente como verbs/2-intermediate — la lista trae un
+        // mazo verbs/1-basic ya existente y, como la categoría SÍ coincide, se recomienda ese nivel
+        // en la misma llamada.
+        let uc = build_use_cases(
+            Arc::new(FakeStorage::empty()),
+            Arc::new(FakeAiTutor { category: "verbs", level: "2-intermediate", name: "linger", extra: vec![] }),
+        );
+
+        let existing = vec![ExistingPersonalTopic {
+            category: "verbs".to_string(),
+            level: "1-basic".to_string(),
+            topic_name: None,
+        }];
+        let previews = uc
+            .preview_personal_word(
+                "user@example.com",
+                "premium",
+                "linger",
+                "es_en",
+                None,
+                None,
+                &existing,
+            )
+            .await
+            .unwrap();
+        assert_eq!(previews.len(), 1);
+        assert_eq!(previews[0].category, "verbs");
+        assert_eq!(previews[0].level, "1-basic", "debe recomendar el mazo existente en la MISMA llamada");
+    }
+
+    #[tokio::test]
+    async fn preview_personal_word_ignores_existing_topics_of_a_different_category() {
+        // La lista solo recomienda dentro de la MISMA categoría — si la clasificación libre de la
+        // palabra cae en otra categoría, un mazo existente de "verbs" no debe forzar nada ahí.
+        let uc = build_use_cases(
+            Arc::new(FakeStorage::empty()),
+            Arc::new(FakeAiTutor { category: "nouns", level: "2-intermediate", name: "chair", extra: vec![] }),
+        );
+
+        let existing = vec![ExistingPersonalTopic {
+            category: "verbs".to_string(),
+            level: "1-basic".to_string(),
+            topic_name: None,
+        }];
+        let previews = uc
+            .preview_personal_word(
+                "user@example.com",
+                "premium",
+                "chair",
+                "es_en",
+                None,
+                None,
+                &existing,
+            )
+            .await
+            .unwrap();
+        assert_eq!(previews[0].category, "nouns");
+        assert_eq!(previews[0].level, "2-intermediate", "un mazo de otra categoría no debe aplicar");
+    }
+
+    #[tokio::test]
+    async fn preview_personal_word_ignores_existing_topics_when_overrides_are_also_present() {
+        // Si el usuario ya editó la fila a mano (overrides), esos mandan por completo — la
+        // recomendación entre mazos existentes ya no aplica (`preview_personal_word` la anula
+        // antes de llamar a `classify_and_load`).
+        let uc = build_use_cases(
+            Arc::new(FakeStorage::empty()),
+            Arc::new(FakeAiTutor { category: "verbs", level: "2-intermediate", name: "linger", extra: vec![] }),
+        );
+
+        let existing = vec![ExistingPersonalTopic {
+            category: "verbs".to_string(),
+            level: "1-basic".to_string(),
+            topic_name: None,
+        }];
+        let previews = uc
+            .preview_personal_word(
+                "user@example.com",
+                "premium",
+                "linger",
+                "es_en",
+                Some("verbs"),
+                Some("3-advanced"),
+                &existing,
+            )
+            .await
+            .unwrap();
+        assert_eq!(previews[0].level, "3-advanced", "el override manda, no la recomendación");
     }
 
     #[tokio::test]
@@ -1452,6 +1580,7 @@ mod tests {
                 "es_en",
                 Some("verbs"),
                 None,
+                &[],
             )
             .await
             .expect_err("category_override sin level_override debería rechazarse");
@@ -1473,6 +1602,7 @@ mod tests {
                 "es_en",
                 Some("not-a-real-category"),
                 Some("1-basic"),
+                &[],
             )
             .await
             .expect_err("categoría desconocida debería rechazarse");
@@ -1525,6 +1655,7 @@ mod tests {
                 "es_en",
                 Some("nouns"),
                 Some("3-advanced"),
+                &[],
             )
             .await
             .unwrap();

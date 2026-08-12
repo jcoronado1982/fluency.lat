@@ -10,12 +10,17 @@ export function createPersonalWordHttpAdapter(httpClient) {
     };
 
     return {
-        previewWord: ({ word, courseDirection, categoryOverride, levelOverride }) =>
+        previewWord: ({ word, courseDirection, categoryOverride, levelOverride, existingTopics }) =>
             httpClient.post('/api/personal-words/preview', {
                 word,
                 course_direction: normalizeCourseDirection(courseDirection),
                 category_override: categoryOverride,
                 level_override: levelOverride,
+                existing_topics: (existingTopics || []).map((t) => ({
+                    category: t.category,
+                    level: t.level,
+                    topic_name: t.topicName,
+                })),
             }),
 
         createWord: ({ word, courseDirection, categoryOverride, levelOverride }) =>

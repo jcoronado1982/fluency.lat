@@ -472,6 +472,48 @@ Este documento es una base de conocimientos dinámica de errores técnicos, bugs
   la respuesta (`status` + tipos de steps). **Un error de integración que no incluye lo que llegó
   obliga a una reproducción manual; incluirlo lo convierte en diagnóstico de una lectura.**
 
+### 17. `temperature`/`max_output_tokens` de Gemini nunca se aplicaban: tags de protobuf intercambiados en el cliente gRPC hand-rolled
+- **Fecha:** 2026-08-12 (surgió al auditar si el prompt de "Crear palabra" estaba optimizado en tokens)
+- **Síntoma:** ninguno visible — sin error, sin log, JSON siempre válido. Solo se notó al preguntar
+  específicamente "¿está optimizado el prompt para gastar los menos tokens posible?" y auditar la
+  request real en vez de solo el texto del prompt.
+- **Causa real:** `gemini_grpc_provider.rs` define los tipos protobuf de la request A MANO (`prost::Message`
+  derive con `#[prost(..., tag = "N")]`, sin `.proto`+`protoc`, ver comentario de cabecera del
+  archivo — "sin protoc ni build.rs"). En `GeminiGenerationConfig`, `temperature` estaba en
+  `tag = "4"` y `max_output_tokens` en `tag = "5"` — INVERTIDOS respecto al `.proto` real
+  (`google/ai/generativelanguage/v1beta/generative_service.proto`, mensaje `GenerationConfig`:
+  `max_output_tokens = 4`, `temperature = 5` — verificado trayendo el `.proto` oficial de
+  `raw.githubusercontent.com/googleapis/googleapis`, no de memoria). Como además tienen wire types
+  distintos (`temperature` es `float` = wire type 5 fijo de 32 bits; `max_output_tokens` es
+  `int32` = wire type 0 varint), el servidor no podía siquiera "malinterpretar" el valor — el wire
+  type no coincidía con el campo real de ese número, así que protobuf (permisivo con campos que no
+  puede decodificar) **descartaba ambos en silencio**. Resultado: TODA llamada por el helper
+  `call()` (no solo "Crear palabra" — también la guía de onboarding y cualquier otro prompt que lo
+  use) corría con la `temperature` y el `max_output_tokens` que trae el modelo por defecto, nunca
+  con los que el código pedía — sin excepción, sin log, sin forma de notarlo desde afuera.
+- **Por qué costaba tokens de más**: sin `max_output_tokens` real aplicado, el modelo no tenía el
+  techo de 1024 que se le quería poner. Sin la `temperature=0.4` real aplicada (quedaba en el
+  default del modelo, más alto), las respuestas eran menos deterministas — probable causa de que
+  ya existiera un reintento completo si el primer JSON salía inválido (`generate_word_card_draft`
+  reintenta la llamada entera, no solo el parseo), cada reintento es una llamada completa pagada
+  de nuevo.
+- **Cómo se aisló:** no se puede ver a simple vista comparando el struct de Rust contra la doc de
+  alto nivel de la API (ahí no aparecen números de campo) — hacía falta el `.proto` verbatim.
+  `WebSearch`/páginas de terceros dieron datos contradictorios entre sí; solo `WebFetch` trayendo
+  el archivo `.proto` crudo de GitHub y pidiendo la cita literal del mensaje `GenerationConfig`
+  dio los números de campo reales y coincidentes.
+- **Solución:** intercambiar los `tag` de `temperature`↔`max_output_tokens` para que coincidan con
+  el `.proto` oficial. Test de regresión sin red (`generation_config_field_tags_match_the_official_v1beta_proto`
+  en `gemini_grpc_provider.rs`): codifica el struct y verifica los bytes crudos (tag byte + valor)
+  contra los números de campo reales — hubiera fallado con el bug.
+- **Lección extra**: un cliente protobuf hand-rolled (sin `.proto`+`protoc` real) no tiene ninguna
+  verificación de que los `tag` coincidan con el servidor — un typo/inversión compila perfecto,
+  pasa cualquier test que no mire bytes crudos, y el fallo es 100% silencioso (protobuf ignora
+  campos con wire type inesperado en vez de rechazar la request). Cualquier campo nuevo que se
+  agregue a mano a este archivo necesita el número de campo verificado contra el `.proto` real
+  (no memoria, no un resumen de terceros) — y lo ideal sería, en algún momento, migrar a
+  `.proto`+`build.rs`/`tonic-build` para que esta clase de bug sea imposible de escribir.
+
 ---
 
 ## 📜 Protocolo de Auto-Documentación para IAs

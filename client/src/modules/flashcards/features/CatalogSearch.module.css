@@ -1,0 +1,182 @@
+/* --- Search Bar --- */
+.searchBarBox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 0 16px 0;
+  padding: 0 4px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 14px;
+  color: rgba(255, 255, 255, 0.45);
+  pointer-events: none;
+}
+
+.searchInput {
+  width: 100%;
+  height: 36px;
+  padding: 0 32px 0 34px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  color: #ffffff;
+  font-size: 0.85rem;
+  outline: none;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.searchInput:focus {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--brand-rose, #f472b6);
+  box-shadow: 0 0 10px rgba(244, 114, 182, 0.25);
+}
+
+.searchInput::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.searchClearBtn {
+  position: absolute;
+  right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.2s ease;
+}
+
+.searchClearBtn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+}
+
+/* --- Search Results Panel --- */
+.searchResultsPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 4px;
+  max-height: calc(100vh - 220px);
+  overflow-y: auto;
+}
+
+.searchResultsHeader {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0 4px 4px 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.searchLoadingMsg,
+.searchNoResultsMsg {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.55);
+  padding: 12px 8px;
+  text-align: center;
+  margin: 0;
+}
+
+.searchResultsList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.searchResultCard {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.searchResultCard:hover,
+.searchResultCard:focus-visible {
+  background: rgba(244, 114, 182, 0.1);
+  border-color: rgba(244, 114, 182, 0.4);
+  transform: translateX(2px);
+  outline: none;
+}
+
+.searchResultTopRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.searchResultWord {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.searchResultCatBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.72rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.searchResultCatDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.searchResultTranslation {
+  font-size: 0.84rem;
+  color: #f472b6;
+  font-weight: 500;
+}
+
+.searchResultExample {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.55);
+  font-style: italic;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.searchResultMetaRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 2px;
+}
+
+.searchResultLevel {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.searchResultDeckName {
+  text-transform: capitalize;
+}
