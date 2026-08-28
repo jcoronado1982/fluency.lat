@@ -154,5 +154,57 @@
     "phonetic": "/seɪl/",
     "search_term": "noun/concept/money/essentials",
     "spoken_phonetic_us": "/seɪl/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "cent",
+    "phonetic": "/sɛnt/",
+    "spoken_phonetic_us": "/sɛnt/",
+    "search_term": "noun/money/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Centavo",
+        "usage_example": "This candy costs fifty cents.",
+        "pronunciation_guide_es": "/SENT/",
+        "usage_example_es": "Este dulce cuesta cincuenta centavos.",
+        "char_count": "one",
+        "usage_context_en": "One hundredth of a dollar.",
+        "usage_context_es": "La centésima parte de un dólar.",
+        "imagePath": "/card_images/nouns/1-basic/economy/1-basic_economy_card_6_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "euro",
+    "phonetic": "/ˈjʊəroʊ/",
+    "spoken_phonetic_us": "/ˈjʊəroʊ/",
+    "search_term": "noun/money/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Euro (moneda)",
+        "usage_example": "The ticket costs ten euros.",
+        "pronunciation_guide_es": "/IU-rou/",
+        "usage_example_es": "El boleto cuesta diez euros.",
+        "char_count": "two",
+        "usage_context_en": "The currency used in much of Europe.",
+        "usage_context_es": "La moneda usada en gran parte de Europa.",
+        "imagePath": "/card_images/nouns/1-basic/economy/1-basic_economy_card_7_def0.avif"
+      }
+    ]
   }
 ]

@@ -38,7 +38,7 @@ backend/
 └── api_main/
     ├── src/main.rs              ← composition root
     ├── src/modules/             ← registro de rutas por módulo
-    ├── src/infrastructure/      ← adapters Surreal, Gemini, ComfyUI
+    ├── src/infrastructure/      ← adapters Surreal, Gemini, stable-diffusion.cpp (Flux 2 C++), llama.cpp
     └── src/api/endpoints/       ← handlers HTTP
 ```
 

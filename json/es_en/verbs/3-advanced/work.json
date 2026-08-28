@@ -403,5 +403,140 @@
     "search_term": "verb/inspect/advanced",
     "spoken_phonetic_us": "/ˈɔːdɪt/",
     "group_name": "Professional & Business"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "direct",
+    "phonetic": "/dɪˈrɛkt/",
+    "spoken_phonetic_us": "/dɪˈrɛkt/",
+    "search_term": "verb/direct/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Professional & Business",
+    "definitions": [
+      {
+        "meaning": "Dirigir",
+        "usage_example": "She directs the marketing team.",
+        "pronunciation_guide_es": "/shi_diREKTS_de_MARketing_TIM/",
+        "usage_example_es": "Ella dirige el equipo de mercadeo.",
+        "char_count": "two",
+        "usage_context_en": "To manage or control an activity or team.",
+        "usage_context_es": "Administrar o controlar una actividad o equipo.",
+        "imagePath": "/card_images/verbs/3-advanced/work/3-advanced_work_card_15_def0.avif",
+        "alternative_example": "He directed the traffic during the storm."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "elect",
+    "phonetic": "/ɪˈlɛkt/",
+    "spoken_phonetic_us": "/ɪˈlɛkt/",
+    "search_term": "verb/elect/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Professional & Business",
+    "definitions": [
+      {
+        "meaning": "Elegir (por votación)",
+        "usage_example": "They elected a new president.",
+        "pronunciation_guide_es": "/dei_iLEKted_a_NIU_PRESident/",
+        "usage_example_es": "Eligieron a un nuevo presidente.",
+        "char_count": "two",
+        "usage_context_en": "To choose someone by voting.",
+        "usage_context_es": "Escoger a alguien mediante votación.",
+        "imagePath": "/card_images/verbs/3-advanced/work/3-advanced_work_card_16_def0.avif",
+        "alternative_example": "The club elected a new treasurer."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "operate",
+    "phonetic": "/ˈɒpəreɪt/",
+    "spoken_phonetic_us": "/ˈɒpəreɪt/",
+    "search_term": "verb/operate/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Professional Action",
+    "definitions": [
+      {
+        "meaning": "Operar (una máquina, un negocio)",
+        "usage_example": "She operates heavy machinery.",
+        "pronunciation_guide_es": "/shi_OpereITS_JEvi_maSHInri/",
+        "usage_example_es": "Ella opera maquinaria pesada.",
+        "char_count": "three",
+        "usage_context_en": "To work or run a machine, system, or business.",
+        "usage_context_es": "Trabajar o dirigir una máquina, sistema o negocio.",
+        "imagePath": "/card_images/verbs/3-advanced/work/3-advanced_work_card_17_def0.avif",
+        "alternative_example": "The hospital operates around the clock."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "reserve",
+    "phonetic": "/rɪˈzɜːrv/",
+    "spoken_phonetic_us": "/rɪˈzɜːrv/",
+    "search_term": "verb/reserve/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Professional & Business",
+    "definitions": [
+      {
+        "meaning": "Reservar",
+        "usage_example": "I reserved a table for two.",
+        "pronunciation_guide_es": "/ai_riSERVD_a_TEIbol_for_TU/",
+        "usage_example_es": "Reservé una mesa para dos.",
+        "char_count": "two",
+        "usage_context_en": "To arrange to have something kept for you.",
+        "usage_context_es": "Arreglar que algo se guarde para ti.",
+        "imagePath": "/card_images/verbs/3-advanced/work/3-advanced_work_card_18_def0.avif",
+        "alternative_example": "We reserved two seats near the stage."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "vote",
+    "phonetic": "/voʊt/",
+    "spoken_phonetic_us": "/voʊt/",
+    "search_term": "verb/vote/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Professional & Business",
+    "definitions": [
+      {
+        "meaning": "Votar",
+        "usage_example": "Everyone should vote in the election.",
+        "pronunciation_guide_es": "/EVriuan_shud_VOUT_in_de_iLEKshon/",
+        "usage_example_es": "Todos deberían votar en la elección.",
+        "char_count": "one",
+        "usage_context_en": "To formally choose someone or something.",
+        "usage_context_es": "Escoger formalmente a alguien o algo.",
+        "imagePath": "/card_images/verbs/3-advanced/work/3-advanced_work_card_19_def0.avif",
+        "alternative_example": "She voted for the first time this year."
+      }
+    ]
   }
 ]

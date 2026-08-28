@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { sinkRecentCategory, sortCategories } from './catalogOrder';
+import { FALLBACK_CATEGORIES, getNextStudyStep, sinkRecentCategory, sortCategories } from './catalogOrder';
 
 describe('sinkRecentCategory', () => {
     it('moves the recently finished category to the end, keeping the rest in order', () => {
@@ -65,5 +65,47 @@ describe('sortCategories', () => {
     it('respects a user-dragged preferred order', () => {
         const sorted = sortCategories(['verbs', 'nouns', 'adjectives'], ['adjectives', 'verbs', 'nouns']);
         expect(sorted).toEqual(['adjectives', 'verbs', 'nouns']);
+    });
+});
+
+describe('getNextStudyStep — nested-level categories (nouns/verbs/adjectives/…)', () => {
+    // Regresión (reporte real de usuario, ago 2026): `catalogOrder.json` modela los "decks" de
+    // una categoría anidada como sus 3 niveles, no como los mazos reales `<nivel>/<tema>` que
+    // usa la app — sin `nestedDeckNames`, `deckIndex` siempre daba -1 y la función saltaba
+    // directo a OTRA categoría al terminar cualquier mazo anidado (nivel intermedio o avanzado
+    // incluido), aterrizando en básico si esa categoría nunca se había estudiado. Con
+    // `nestedDeckNames` (la lista real, ya ordenada nivel→tema) debe avanzar primero DENTRO de
+    // la misma categoría.
+    const nestedDeckNames = [
+        '1-basic/time', '1-basic/people', '1-basic/family',
+        '2-intermediate/classification', '2-intermediate/location',
+        '3-advanced/calendar', '3-advanced/economy',
+    ];
+
+    it('advances to the next topic within the SAME level, not to another category', () => {
+        const result = getNextStudyStep('nouns', '1-basic/time', null, { nestedDeckNames });
+        expect(result).toEqual({ type: 'deck', category: 'nouns', deck: '1-basic/people', group: null });
+    });
+
+    it('advances from the last topic of a level into the next level, same category', () => {
+        const result = getNextStudyStep('nouns', '1-basic/family', null, { nestedDeckNames });
+        expect(result).toEqual({ type: 'deck', category: 'nouns', deck: '2-intermediate/classification', group: null });
+    });
+
+    it('advances from intermediate into advanced, same category (the reported bug: this used to jump categories and could land on basic)', () => {
+        const result = getNextStudyStep('nouns', '2-intermediate/location', null, { nestedDeckNames });
+        expect(result).toEqual({ type: 'deck', category: 'nouns', deck: '3-advanced/calendar', group: null });
+    });
+
+    it('only jumps to another category after the LAST deck of the LAST level', () => {
+        const result = getNextStudyStep('nouns', '3-advanced/economy', null, { nestedDeckNames });
+        expect(result?.type).toBe('category');
+        expect(result?.category).not.toBe('nouns');
+        expect(FALLBACK_CATEGORIES).toContain(result?.category);
+    });
+
+    it('without nestedDeckNames (caller not updated), falls back to the previous category-jump behavior', () => {
+        const result = getNextStudyStep('nouns', '1-basic/time', null, {});
+        expect(result?.type).toBe('category');
     });
 });

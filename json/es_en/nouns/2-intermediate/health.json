@@ -538,5 +538,57 @@
     "phonetic": "/ˌdɪsəˈbɪlɪti/",
     "search_term": "noun/health/society/essentials",
     "spoken_phonetic_us": "/ˌdɪsəˈbɪlɪti/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "exercise",
+    "phonetic": "/ˈɛksərsaɪz/",
+    "spoken_phonetic_us": "/ˈɛksərsaɪz/",
+    "search_term": "noun/health/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Health & Medicine",
+    "definitions": [
+      {
+        "meaning": "Ejercicio",
+        "usage_example": "Regular exercise is good for you.",
+        "pronunciation_guide_es": "/REguler_EKserSais_is_GUD_for_iu/",
+        "usage_example_es": "El ejercicio regular es bueno para ti.",
+        "char_count": "three",
+        "usage_context_en": "Physical activity to stay healthy.",
+        "usage_context_es": "Actividad física para mantenerse saludable.",
+        "imagePath": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_20_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sight",
+    "phonetic": "/saɪt/",
+    "spoken_phonetic_us": "/saɪt/",
+    "search_term": "noun/health/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Health & Medicine",
+    "definitions": [
+      {
+        "meaning": "Vista",
+        "usage_example": "His sight is getting worse.",
+        "pronunciation_guide_es": "/jis_SAIT_is_GEting_UORS/",
+        "usage_example_es": "Su vista está empeorando.",
+        "char_count": "one",
+        "usage_context_en": "The ability to see.",
+        "usage_context_es": "La capacidad de ver.",
+        "imagePath": "/card_images/nouns/2-intermediate/health/2-intermediate_health_card_21_def0.avif"
+      }
+    ]
   }
 ]

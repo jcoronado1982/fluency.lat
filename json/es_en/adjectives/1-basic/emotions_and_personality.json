@@ -241,5 +241,58 @@
         "imagePath": "/card_images/adjectives/1-basic/emotions_and_personality/1-basic_emotions_and_personality_card_8_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "glad",
+    "phonetic": "/ɡlæd/",
+    "spoken_phonetic_us": "/ɡlæd/",
+    "search_term": "adjective/basic/emotions_personality",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Feelings & Emotions",
+    "definitions": [
+      {
+        "meaning": "Contento / Alegre",
+        "usage_example": "I'm glad you came.",
+        "pronunciation_guide_es": "/aim_GLAD_iu_KEIM/",
+        "usage_example_es": "Me alegra que vinieras.",
+        "char_count": "one",
+        "usage_context_en": "Feeling happy or pleased about something.",
+        "usage_context_es": "Sentirse feliz o complacido por algo.",
+        "imagePath": "/card_images/adjectives/1-basic/emotions_and_personality/1-basic_emotions_and_personality_card_9_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "famous",
+    "phonetic": "/ˈfeɪ.məs/",
+    "spoken_phonetic_us": "/ˈfeɪ.məs/",
+    "search_term": "adjective/fame/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Emotions & Personality",
+    "definitions": [
+      {
+        "meaning": "Famoso / Conocido",
+        "usage_example": "He is a famous actor in Hollywood.",
+        "pronunciation_guide_es": "/ji_IS_a_FEI-mos_AK-tor_in_JA-li-wud/",
+        "usage_example_es": "Es un actor famoso en Hollywood.",
+        "char_count": "one",
+        "usage_context_en": "Known about by many people.",
+        "usage_context_es": "Conocido por muchas personas.",
+        "imagePath": "/card_images/adjectives/1-basic/emotions_and_personality/1-basic_famous_def0.avif"
+      }
+    ]
   }
 ]

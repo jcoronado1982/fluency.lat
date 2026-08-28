@@ -1608,5 +1608,181 @@
     "search_term": "verb/action/essentials",
     "spoken_phonetic_us": "/hɪt/",
     "group_name": "Action & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "draw",
+    "phonetic": "/drɔː/",
+    "spoken_phonetic_us": "/drɔː/",
+    "search_term": "verb/draw/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Handling & Creating",
+    "definitions": [
+      {
+        "meaning": "Dibujar",
+        "usage_example": "She likes to draw animals.",
+        "pronunciation_guide_es": "/DRO/",
+        "usage_example_es": "A ella le gusta dibujar animales.",
+        "char_count": "one",
+        "usage_context_en": "To make a picture using a pencil or pen.",
+        "usage_context_es": "Hacer un dibujo usando un lápiz o pluma.",
+        "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_32_def0.avif",
+        "alternative_example": "He drew a picture of his house."
+      },
+      {
+        "meaning": "Trazar (una línea)",
+        "usage_example": "Draw a straight line here.",
+        "alternative_example": "The teacher drew a diagram on the board.",
+        "pronunciation_guide_es": "/DRO_a_STREIT_LAIN_JIR/",
+        "usage_example_es": "Traza una línea recta aquí.",
+        "char_count": "one",
+        "usage_context_en": "To mark a line or shape on a surface.",
+        "usage_context_es": "Marcar una línea o figura en una superficie.",
+        "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_32_def1.avif"
+      }
+    ],
+    "irregular": {
+      "past": {
+        "form": "drew",
+        "phonetic": "/druː/",
+        "spoken_phonetic_us": "/druː/",
+        "usage_example": "She drew a beautiful sunset yesterday.",
+        "usage_example_es": "Ella dibujó un hermoso atardecer ayer.",
+        "pronunciation_guide_es": "/shi_DRU_a_BIUtiful_SANset_iesterdei/",
+        "meaning": "Pasado de dibujar/trazar",
+        "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_32_def0_v2.avif"
+      },
+      "participle": {
+        "form": "drawn",
+        "phonetic": "/drɔːn/",
+        "spoken_phonetic_us": "/drɔːn/",
+        "usage_example": "The map has already been drawn.",
+        "usage_example_es": "El mapa ya ha sido dibujado.",
+        "pronunciation_guide_es": "/de_MAP_jaz_olREDI_bin_DRON/",
+        "meaning": "Participio de dibujar/trazar",
+        "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_32_def0_v3.avif"
+      }
+    }
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "fill",
+    "phonetic": "/fɪl/",
+    "spoken_phonetic_us": "/fɪl/",
+    "search_term": "verb/fill/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Handling & Creating",
+    "definitions": [
+      {
+        "meaning": "Llenar",
+        "usage_example": "Please fill the glass with water.",
+        "pronunciation_guide_es": "/FIL/",
+        "usage_example_es": "Por favor llena el vaso con agua.",
+        "char_count": "one",
+        "usage_context_en": "To make something full.",
+        "usage_context_es": "Hacer que algo quede lleno.",
+        "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_33_def0.avif",
+        "alternative_example": "Fill the form with your name."
+      },
+      {
+        "meaning": "Rellenar (un formulario)",
+        "usage_example": "Fill in this form, please.",
+        "alternative_example": "She filled the application form.",
+        "pronunciation_guide_es": "/FIL_in_dis_FORM_plis/",
+        "usage_example_es": "Rellena este formulario, por favor.",
+        "char_count": "one",
+        "usage_context_en": "To complete a document by writing information on it.",
+        "usage_context_es": "Completar un documento escribiendo información en él.",
+        "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_33_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "dance",
+    "phonetic": "/dɑːns/",
+    "spoken_phonetic_us": "/dæns/",
+    "search_term": "verb/dance/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Handling & Creating",
+    "definitions": [
+      {
+        "meaning": "Bailar",
+        "usage_example": "They love to dance at parties.",
+        "pronunciation_guide_es": "/DEI_lav_tu_DANS_at_PAR-tis/",
+        "usage_example_es": "A ellos les encanta bailar en las fiestas.",
+        "char_count": "one",
+        "usage_context_en": "To move rhythmically to music, typically following a set sequence of steps.",
+        "usage_context_es": "Moverse rítmicamente al compás de la música.",
+        "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_dance_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "wash",
+    "phonetic": "/wɒʃ/",
+    "spoken_phonetic_us": "/wɑːʃ/",
+    "search_term": "verb/wash/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Handling & Creating",
+    "definitions": [
+      {
+        "meaning": "Lavar",
+        "usage_example": "Please wash your hands before dinner.",
+        "pronunciation_guide_es": "/PLIS_UASH_yur_JANDS_bi-FOR_DIN-ner/",
+        "usage_example_es": "Por favor lava tus manos antes de cenar.",
+        "char_count": "one",
+        "usage_context_en": "To clean with water and soap.",
+        "usage_context_es": "Limpiar con agua y jabón.",
+        "imagePath": "/card_images/verbs/1-basic/action/1-basic_wash_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "wear",
+    "phonetic": "/weər/",
+    "spoken_phonetic_us": "/wer/",
+    "search_term": "verb/wear/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Handling & Creating",
+    "definitions": [
+      {
+        "meaning": "Llevar puesto / Vestir",
+        "usage_example": "I wear a jacket when it is cold.",
+        "pronunciation_guide_es": "/ai_UER_a_YAK-et_uen_it_IS_KOLD/",
+        "usage_example_es": "Llevo puesta una chaqueta cuando hace frío.",
+        "char_count": "one",
+        "usage_context_en": "To have clothing or accessories on one's body.",
+        "usage_context_es": "Tener ropa o accesorios puestos en el cuerpo.",
+        "imagePath": "/card_images/verbs/1-basic/action/1-basic_wear_def0.avif"
+      }
+    ]
   }
 ]

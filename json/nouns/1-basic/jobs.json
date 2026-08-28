@@ -492,5 +492,83 @@
     "phonetic": "/ˈsoʊlʤər/",
     "search_term": "noun/job/society/essentials",
     "spoken_phonetic_us": "/ˈsoʊlʤər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "actor",
+    "phonetic": "/ˈæk.tər/",
+    "spoken_phonetic_us": "/ˈæk.tɚ/",
+    "search_term": "noun/profession/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "School & Work",
+    "definitions": [
+      {
+        "meaning": "Actor",
+        "usage_example": "He is a talented actor in action movies.",
+        "pronunciation_guide_es": "/ji_IS_a_TA-len-ted_AK-tor_in_AK-shon_MU-vis/",
+        "usage_example_es": "Es un actor talentoso en películas de acción.",
+        "char_count": "one",
+        "usage_context_en": "A person who performs in plays, movies, or TV shows.",
+        "usage_context_es": "Una persona que actúa en obras de teatro, películas o programas de televisión.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_actor_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "singer",
+    "phonetic": "/ˈsɪŋ.ər/",
+    "spoken_phonetic_us": "/ˈsɪŋ.ɚ/",
+    "search_term": "noun/profession/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "School & Work",
+    "definitions": [
+      {
+        "meaning": "Cantante",
+        "usage_example": "She is a famous singer with a powerful voice.",
+        "pronunciation_guide_es": "/shi_IS_a_FEI-mos_SING-er_uid_a_PAU-er-ful_VOIS/",
+        "usage_example_es": "Es una cantante famosa con una voz potente.",
+        "char_count": "one",
+        "usage_context_en": "A person who sings music professionally or as a hobby.",
+        "usage_context_es": "Una persona que canta música profesionalmente o como pasatiempo.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_singer_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "worker",
+    "phonetic": "/ˈwɜː.kər/",
+    "spoken_phonetic_us": "/ˈwɝː.kɚ/",
+    "search_term": "noun/profession/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "School & Work",
+    "definitions": [
+      {
+        "meaning": "Trabajador",
+        "usage_example": "The factory worker finished his shift at five.",
+        "pronunciation_guide_es": "/de_FAK-to-ri_WUOR-ker_FI-nishd_jis_SHIFT_at_FAIV/",
+        "usage_example_es": "El trabajador de la fábrica terminó su turno a las cinco.",
+        "char_count": "one",
+        "usage_context_en": "A person who does a specified type of work.",
+        "usage_context_es": "Una persona que realiza un tipo específico de trabajo.",
+        "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_worker_def0.avif"
+      }
+    ]
   }
 ]

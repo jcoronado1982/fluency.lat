@@ -626,5 +626,57 @@
     "phonetic": "/ˈspɔɪlər/",
     "search_term": "noun/concept/essentials",
     "spoken_phonetic_us": "/ˈspɔɪlər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "record",
+    "phonetic": "/ˈrɛkərd/",
+    "spoken_phonetic_us": "/ˈrɛkərd/",
+    "search_term": "noun/media/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Arts & Media",
+    "definitions": [
+      {
+        "meaning": "Récord / Disco",
+        "usage_example": "He broke the world record.",
+        "pronunciation_guide_es": "/ji_BROUK_de_UORLD_REkord/",
+        "usage_example_es": "Él rompió el récord mundial.",
+        "char_count": "two",
+        "usage_context_en": "The best known achievement, or a music disc.",
+        "usage_context_es": "El mejor logro conocido, o un disco de música.",
+        "imagePath": "/card_images/nouns/2-intermediate/media/2-intermediate_media_card_23_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "scene",
+    "phonetic": "/siːn/",
+    "spoken_phonetic_us": "/siːn/",
+    "search_term": "noun/media/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Arts & Media",
+    "definitions": [
+      {
+        "meaning": "Escena",
+        "usage_example": "That was a funny scene in the movie.",
+        "pronunciation_guide_es": "/dat_UAS_a_FAni_SIN_in_de_MUvi/",
+        "usage_example_es": "Esa fue una escena graciosa en la película.",
+        "char_count": "one",
+        "usage_context_en": "A part of a film, play, or story.",
+        "usage_context_es": "Una parte de una película, obra o historia.",
+        "imagePath": "/card_images/nouns/2-intermediate/media/2-intermediate_media_card_24_def0.avif"
+      }
+    ]
   }
 ]

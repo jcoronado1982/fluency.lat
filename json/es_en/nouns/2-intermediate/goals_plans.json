@@ -284,5 +284,31 @@
         "imagePath": "/card_images/nouns/2-intermediate/goals_plans/2-intermediate_goals_plans_card_10_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "chance",
+    "phonetic": "/tʃæns/",
+    "spoken_phonetic_us": "/tʃæns/",
+    "search_term": "noun/goals/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Oportunidad",
+        "usage_example": "This is your chance to succeed.",
+        "pronunciation_guide_es": "/dis_is_yor_CHANS_tu_sakSID/",
+        "usage_example_es": "Esta es tu oportunidad de triunfar.",
+        "char_count": "one",
+        "usage_context_en": "An opportunity to do something.",
+        "usage_context_es": "Una oportunidad para hacer algo.",
+        "imagePath": "/card_images/nouns/2-intermediate/goals_plans/2-intermediate_goals_plans_card_11_def0.avif"
+      }
+    ]
   }
 ]

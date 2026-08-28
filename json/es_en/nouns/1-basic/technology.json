@@ -284,5 +284,83 @@
     "phonetic": "/ˈspiːkər/",
     "search_term": "noun/technology/essentials",
     "spoken_phonetic_us": "/ˈspiːkər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "radio",
+    "phonetic": "/ˈreɪdioʊ/",
+    "spoken_phonetic_us": "/ˈreɪdioʊ/",
+    "search_term": "noun/technology/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Radio",
+        "usage_example": "I listen to the radio in the morning.",
+        "pronunciation_guide_es": "/REI-di-ou/",
+        "usage_example_es": "Escucho la radio en la mañana.",
+        "char_count": "three",
+        "usage_context_en": "A device that receives audio broadcasts.",
+        "usage_context_es": "Un dispositivo que recibe transmisiones de audio.",
+        "imagePath": "/card_images/nouns/1-basic/technology/1-basic_technology_card_11_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "telephone",
+    "phonetic": "/ˈtɛlɪfoʊn/",
+    "spoken_phonetic_us": "/ˈtɛlɪfoʊn/",
+    "search_term": "noun/technology/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Teléfono",
+        "usage_example": "The telephone is ringing.",
+        "pronunciation_guide_es": "/TE-le-foun/",
+        "usage_example_es": "El teléfono está sonando.",
+        "char_count": "three",
+        "usage_context_en": "A device used to talk to someone far away.",
+        "usage_context_es": "Un dispositivo usado para hablar con alguien lejos.",
+        "imagePath": "/card_images/nouns/1-basic/technology/1-basic_technology_card_12_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "laptop",
+    "phonetic": "/ˈlæp.tɒp/",
+    "spoken_phonetic_us": "/ˈlæp.tɑːp/",
+    "search_term": "noun/device/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Household",
+    "definitions": [
+      {
+        "meaning": "Computadora portátil / Laptop",
+        "usage_example": "I bring my laptop to work every day.",
+        "pronunciation_guide_es": "/ai_BRING_mai_LAP-top_tu_WUORK_EV-ri_DEI/",
+        "usage_example_es": "Llevo mi computadora portátil al trabajo todos los días.",
+        "char_count": "one",
+        "usage_context_en": "A portable computer suitable for use while traveling.",
+        "usage_context_es": "Una computadora portátil adecuada para usar mientras se viaja.",
+        "imagePath": "/card_images/nouns/1-basic/technology/1-basic_technology_card_laptop_def0.avif"
+      }
+    ]
   }
 ]

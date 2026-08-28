@@ -232,5 +232,31 @@
         "imagePath": "/card_images/nouns/1-basic/sports/1-basic_sports_card_8_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "tennis",
+    "phonetic": "/ˈtɛnɪs/",
+    "spoken_phonetic_us": "/ˈtɛnɪs/",
+    "search_term": "noun/sport/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Tenis",
+        "usage_example": "We play tennis on Saturdays.",
+        "pronunciation_guide_es": "/TE-nis/",
+        "usage_example_es": "Jugamos tenis los sábados.",
+        "char_count": "two",
+        "usage_context_en": "A sport played with rackets and a ball.",
+        "usage_context_es": "Un deporte que se juega con raquetas y una pelota.",
+        "imagePath": "/card_images/nouns/1-basic/sports/1-basic_sports_card_9_def0.avif"
+      }
+    ]
   }
 ]

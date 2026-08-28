@@ -115,14 +115,31 @@ export function useLocalCatalogOrder({
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currentCategory, levelPreferenceKey, nestedDeckNamesKey, user?.catalog_preferences, completedNestedDeckNamesKey, user?.email, recentNestedDecksKey]);
 
-    const visibleGroups = (localGroupOrder.length > 0 ? localGroupOrder : groupNames)
+    // `localGroupOrder`/`localNestedDeckOrder` se recalculan en un `useEffect` (un tick DESPUÉS
+    // del render, ver arriba) — mientras tanto pueden seguir conteniendo el orden del nivel o
+    // categoría ANTERIOR aunque `groupNames`/`nestedDeckNames` (derivados directo de props, sin
+    // demora) ya reflejen el nuevo. Sin esta validación, ese estado viejo "sobrevivía" un frame
+    // como `localXxxOrder.length > 0`, mostrando mazos del nivel anterior con el botón de nivel
+    // ya marcado como activo en el nuevo — bug real reportado en vivo: "cambio a nivel intermedio
+    // y el primer mazo que muestra sigue siendo del nivel anterior; si le hago click, me devuelve
+    // a ese nivel". Solo confiamos en el orden local guardado si su conjunto de items coincide
+    // EXACTO con el de la lista fresca — si no, todavía no se actualizó el efecto y caemos al
+    // orden sin drag-reorder (siempre correcto porque es puro derivado de props).
+    const groupNamesSet = new Set(groupNames);
+    const isLocalGroupOrderFresh = localGroupOrder.length === groupNames.length
+        && localGroupOrder.every((name) => groupNamesSet.has(name));
+    const visibleGroups = (isLocalGroupOrderFresh ? localGroupOrder : groupNames)
         .map((name) => {
             const cards = groupsMap[name] || [];
             const total = cards.length;
             const learned = cards.filter((c) => c.learned).length;
             return { name, total, learned };
         });
-    const visibleNestedDecks = localNestedDeckOrder.length > 0 ? localNestedDeckOrder : nestedDeckNames;
+
+    const nestedDeckNamesSet = new Set(nestedDeckNames);
+    const isLocalNestedDeckOrderFresh = localNestedDeckOrder.length === nestedDeckNames.length
+        && localNestedDeckOrder.every((name) => nestedDeckNamesSet.has(name));
+    const visibleNestedDecks = isLocalNestedDeckOrderFresh ? localNestedDeckOrder : nestedDeckNames;
 
     const moveLocalGroup = (fromIndex, toIndex) => {
         let next;

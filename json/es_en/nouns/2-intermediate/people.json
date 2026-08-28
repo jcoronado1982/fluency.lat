@@ -128,5 +128,57 @@
     "phonetic": "/kəmˈpænjən/",
     "search_term": "noun/people/added",
     "spoken_phonetic_us": "/kəmˈpænjən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "relative",
+    "phonetic": "/ˈrɛlətɪv/",
+    "spoken_phonetic_us": "/ˈrɛlətɪv/",
+    "search_term": "noun/people/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Pariente / Familiar",
+        "usage_example": "She's staying with relatives.",
+        "pronunciation_guide_es": "/shis_STEIing_uiz_RELetivs/",
+        "usage_example_es": "Ella se está quedando con familiares.",
+        "char_count": "three",
+        "usage_context_en": "A member of your family.",
+        "usage_context_es": "Un miembro de tu familia.",
+        "imagePath": "/card_images/nouns/2-intermediate/people/2-intermediate_people_card_5_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "youth",
+    "phonetic": "/juːθ/",
+    "spoken_phonetic_us": "/juːθ/",
+    "search_term": "noun/people/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Juventud",
+        "usage_example": "He was a great athlete in his youth.",
+        "pronunciation_guide_es": "/ji_UAS_a_GREIT_ATlit_in_jis_YUZ/",
+        "usage_example_es": "Él fue un gran atleta en su juventud.",
+        "char_count": "one",
+        "usage_context_en": "The period of being young.",
+        "usage_context_es": "El período de ser joven.",
+        "imagePath": "/card_images/nouns/2-intermediate/people/2-intermediate_people_card_6_def0.avif"
+      }
+    ]
   }
 ]

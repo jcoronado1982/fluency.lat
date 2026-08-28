@@ -99,16 +99,31 @@ impl ComfyUIProvider {
 #[async_trait]
 impl ImageGenerator for ComfyUIProvider {
     async fn generate(&self, prompt: &str) -> Result<Vec<u8>> {
+        use base64::Engine;
         let request_started_at = Instant::now();
-        /*
-        info!(
-            prompt_len = prompt.len(),
-            prompt_preview = %preview_for_log(prompt, 180),
-            comfy_url = %self.url,
-            "comfy:start"
-        );
-        */
-        // Robustness: Wait for ComfyUI to be completely idle before submitting
+
+        // 1. Try stable-diffusion.cpp (sd-server) native endpoint first (OpenAI-compatible)
+        let openai_url = format!("{}/v1/images/generations", self.url);
+        let sd_body = json!({
+            "prompt": prompt,
+            "size": format!("{}x{}", FLUX_IMAGE_WIDTH, FLUX_IMAGE_HEIGHT),
+            "response_format": "b64_json"
+        });
+
+        if let Ok(resp) = self.client.post(&openai_url).json(&sd_body).send().await {
+            if resp.status().is_success() {
+                if let Ok(json_resp) = resp.json::<serde_json::Value>().await {
+                    if let Some(b64_str) = json_resp["data"][0]["b64_json"].as_str() {
+                        let bytes = base64::engine::general_purpose::STANDARD
+                            .decode(b64_str)
+                            .context("Failed to decode base64 image from sd-server")?;
+                        return Ok(bytes);
+                    }
+                }
+            }
+        }
+
+        // 2. Fallback to legacy ComfyUI node workflow
         self.wait_for_idle().await?;
 
         let client_id = uuid::Uuid::new_v4().to_string();

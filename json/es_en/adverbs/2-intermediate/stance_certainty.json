@@ -330,5 +330,31 @@
         "imagePath": "/card_images/adverbs/2-intermediate/stance_certainty/2-intermediate_stance_certainty_card_11_def1.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "rather",
+    "phonetic": "/ˈræðər/",
+    "spoken_phonetic_us": "/ˈræðər/",
+    "search_term": "adverb/sentence",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Adverbs: Sentence",
+    "definitions": [
+      {
+        "meaning": "Más bien / Bastante",
+        "usage_example": "I'd rather stay home tonight.",
+        "pronunciation_guide_es": "/aid_RAder_STEI_JOUM_tuNAIT/",
+        "usage_example_es": "Prefiero quedarme en casa esta noche.",
+        "char_count": "two",
+        "usage_context_en": "Used to express a preference or degree.",
+        "usage_context_es": "Se usa para expresar preferencia o grado.",
+        "imagePath": "/card_images/adverbs/2-intermediate/stance_certainty/2-intermediate_stance_certainty_card_12_def0.avif"
+      }
+    ]
   }
 ]

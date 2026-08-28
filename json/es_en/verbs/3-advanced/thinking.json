@@ -295,5 +295,86 @@
       }
     ],
     "group_name": "Social Dynamics"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "determine",
+    "phonetic": "/dɪˈtɜːrmɪn/",
+    "spoken_phonetic_us": "/dɪˈtɜːrmɪn/",
+    "search_term": "verb/determine/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Critical Thinking",
+    "definitions": [
+      {
+        "meaning": "Determinar",
+        "usage_example": "Tests will determine the cause.",
+        "pronunciation_guide_es": "/TESTS_UIL_diTERmin_de_KOS/",
+        "usage_example_es": "Las pruebas determinarán la causa.",
+        "char_count": "three",
+        "usage_context_en": "To find out or decide something exactly.",
+        "usage_context_es": "Averiguar o decidir algo con exactitud.",
+        "imagePath": "/card_images/verbs/3-advanced/thinking/3-advanced_thinking_card_11_def0.avif",
+        "alternative_example": "The judge determined he was not guilty."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "judge",
+    "phonetic": "/dʒʌdʒ/",
+    "spoken_phonetic_us": "/dʒʌdʒ/",
+    "search_term": "verb/judge/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Critical Thinking",
+    "definitions": [
+      {
+        "meaning": "Juzgar",
+        "usage_example": "Don't judge people too quickly.",
+        "pronunciation_guide_es": "/DONT_YACH_PIpol_tu_KUIKli/",
+        "usage_example_es": "No juzgues a la gente tan rápido.",
+        "char_count": "one",
+        "usage_context_en": "To form an opinion about someone or something.",
+        "usage_context_es": "Formar una opinión sobre alguien o algo.",
+        "imagePath": "/card_images/verbs/3-advanced/thinking/3-advanced_thinking_card_12_def0.avif",
+        "alternative_example": "It's hard to judge a book by its cover."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "observe",
+    "phonetic": "/əbˈzɜːrv/",
+    "spoken_phonetic_us": "/əbˈzɜːrv/",
+    "search_term": "verb/observe/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Critical Thinking",
+    "definitions": [
+      {
+        "meaning": "Observar",
+        "usage_example": "Scientists observed the animals closely.",
+        "pronunciation_guide_es": "/SAIentists_obSERVD_de_ANimals_CLOUSli/",
+        "usage_example_es": "Los científicos observaron a los animales de cerca.",
+        "char_count": "two",
+        "usage_context_en": "To watch someone or something carefully.",
+        "usage_context_es": "Mirar a alguien o algo con atención.",
+        "imagePath": "/card_images/verbs/3-advanced/thinking/3-advanced_thinking_card_13_def0.avif",
+        "alternative_example": "I observed a strange pattern in the data."
+      }
+    ]
   }
 ]

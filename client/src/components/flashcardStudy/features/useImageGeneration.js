@@ -484,12 +484,15 @@ export function useImageGeneration({
                     if (data?.path) {
                         return tryVerifyPath(imagePort.normalizeToAvif(data.path), form);
                     }
+                    return false;
                 } catch (err) {
                     if (err?.name === 'AbortError' || isStale()) return false;
-                    // La ruta directa queda como compatibilidad para un JSON
-                    // legado que no pueda resolverse. Al no llevar versión,
-                    // responde no-cache y no puede quedar stale.
+                    const isNotFound = err.message?.includes('404') || err.message?.includes('no encontrada') || err.message?.includes('Sin ruta');
+                    if (isNotFound) {
+                        return false;
+                    }
                     console.warn('[ensureImage] no se pudo versionar imagePath:', err.message);
+                    return false;
                 }
             }
             return tryVerifyPath(jsonPath, form);
@@ -575,10 +578,6 @@ export function useImageGeneration({
             // es_en. En en_es podría apuntar a otra palabra del mazo inverso.
             if (!isLandingDemo) {
                 if (studyLanguage !== 'es' && (await tryResolveForm(pipelineForm))) return;
-                if (studyLanguage !== 'es') {
-                    const exactPath = buildGlobalFallbackPath(defIndex, pipelineForm);
-                    if (await tryVerifyPath(exactPath, pipelineForm)) return;
-                }
             } else {
                 // Demo landing: resolve en servidor (Oracle/local) antes del preload en navegador
                 if (await tryResolveForm(pipelineForm)) return;
@@ -669,45 +668,6 @@ export function useImageGeneration({
         setAppMessage({ text: `Imagen no disponible (Def ${defIndex + 1})`, isError: false });
     }, [clearGeneratingUiTimer, setAppMessage, setIsImageLoading]);
 
-    const prevCardIdRef = useRef(null);
-
-    useEffect(() => {
-        if (!cardData) return;
-        if (prevCardIdRef.current === cardData.id) return;
-
-        prevCardIdRef.current = cardData.id;
-        abortImageRequest();
-        loadSeqRef.current += 1;
-        setIsImageLoading(true);
-        setIsGeneratingImage(false);
-        setImageUrl(null);
-        imageUrlRef.current = null;
-        confirmedPathRef.current = null;
-        activeGenerations.current = {};
-        currentDefIndexRef.current = 0;
-        displayedFormRef.current = activeFormRef.current; // Bug 3: usar el form activo real, no hardcoded 'v1'
-        isTransitioningRef.current = false;
-        clearGeneratingUiTimer();
-    }, [cardData, abortImageRequest, clearGeneratingUiTimer, setIsImageLoading]);
-
-    const prevFormContextRef = useRef({ form: activeForm, cardId: cardData?.id });
-
-    useEffect(() => {
-        if (!cardData) return;
-        const prev = prevFormContextRef.current;
-        if (prev.form === activeForm && prev.cardId === cardData.id) return;
-        prevFormContextRef.current = { form: activeForm, cardId: cardData.id };
-
-        setImageUrl(null);
-        imageUrlRef.current = null;
-        confirmedPathRef.current = null;
-        displayedFormRef.current = '';
-        setIsImageLoading(true);
-        setIsGeneratingImage(false);
-        isTransitioningRef.current = true;
-        clearGeneratingUiTimer();
-    }, [activeForm, cardData, clearGeneratingUiTimer, setIsImageLoading]);
-
     const ensureImageRef = useRef(ensureImageForDefinition);
     ensureImageRef.current = ensureImageForDefinition;
 
@@ -740,11 +700,29 @@ export function useImageGeneration({
         if (!shouldBootstrap) return;
 
         imageBootstrapRef.current = snapshot;
-        ensureImageRef.current(0);
-        // El bootstrap se re-ejecuta por cambio de tarjeta (id), no por identidad
-        // del objeto cardData: el resto de campos se lee como snapshot puntual.
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [authLoading, cardData?.id, currentCategory, currentDeckName, activeForm]);
+        abortImageRequest();
+        loadSeqRef.current += 1;
+        setIsImageLoading(true);
+        setIsGeneratingImage(false);
+        setImageUrl(null);
+        imageUrlRef.current = null;
+        confirmedPathRef.current = null;
+        activeGenerations.current = {};
+        currentDefIndexRef.current = 0;
+        displayedFormRef.current = activeForm;
+        isTransitioningRef.current = false;
+        clearGeneratingUiTimer();
+
+        setTimeout(() => {
+            // Solo lanzamos la carga si el componente no ha cambiado de forma o id en estos 50ms
+            if (
+                imageBootstrapRef.current.cardId === snapshot.cardId &&
+                imageBootstrapRef.current.form === snapshot.form
+            ) {
+                ensureImageRef.current(0);
+            }
+        }, 50);
+    }, [authLoading, cardData?.id, currentCategory, currentDeckName, activeForm, abortImageRequest, clearGeneratingUiTimer, setIsImageLoading]);
 
     const prevApplySignalRef = useRef(0);
     useEffect(() => {

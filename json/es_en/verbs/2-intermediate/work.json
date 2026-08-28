@@ -340,5 +340,216 @@
       }
     ],
     "group_name": "Managing & Control"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "apply",
+    "phonetic": "/əˈplaɪ/",
+    "spoken_phonetic_us": "/əˈplaɪ/",
+    "search_term": "verb/apply/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Work & Jobs",
+    "definitions": [
+      {
+        "meaning": "Postularse (a un empleo)",
+        "usage_example": "I applied for the job online.",
+        "alternative_example": "She applied to three universities.",
+        "pronunciation_guide_es": "/ai_aPLAID_for_de_YOB_ONlain/",
+        "usage_example_es": "Me postulé al empleo en línea.",
+        "char_count": "two",
+        "usage_context_en": "To formally request a job or place.",
+        "usage_context_es": "Solicitar formalmente un empleo o un lugar.",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_9_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "employ",
+    "phonetic": "/ɪmˈplɔɪ/",
+    "spoken_phonetic_us": "/ɪmˈplɔɪ/",
+    "search_term": "verb/employ/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Work & Jobs",
+    "definitions": [
+      {
+        "meaning": "Emplear (dar trabajo)",
+        "usage_example": "The company employs 50 people.",
+        "alternative_example": "They employed a new manager.",
+        "pronunciation_guide_es": "/de_KAMpani_emPLOIS_FIFti_PIpol/",
+        "usage_example_es": "La empresa emplea a 50 personas.",
+        "char_count": "two",
+        "usage_context_en": "To pay someone to work for you.",
+        "usage_context_es": "Pagarle a alguien para que trabaje para ti.",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_10_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "fail",
+    "phonetic": "/feɪl/",
+    "spoken_phonetic_us": "/feɪl/",
+    "search_term": "verb/fail/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Work & Jobs",
+    "definitions": [
+      {
+        "meaning": "Fracasar / Fallar",
+        "usage_example": "The plan failed completely.",
+        "alternative_example": "Don't be afraid to fail.",
+        "pronunciation_guide_es": "/de_PLAN_FEILD_komPLITli/",
+        "usage_example_es": "El plan fracasó por completo.",
+        "char_count": "one",
+        "usage_context_en": "To not succeed in something.",
+        "usage_context_es": "No lograr algo.",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_11_def0.avif"
+      },
+      {
+        "meaning": "Reprobar (un examen)",
+        "usage_example": "He failed the math test.",
+        "alternative_example": "She failed her driving test twice.",
+        "pronunciation_guide_es": "/ji_FEILD_de_MAZ_TEST/",
+        "usage_example_es": "Él reprobó el examen de matemáticas.",
+        "char_count": "one",
+        "usage_context_en": "To not pass an exam or test.",
+        "usage_context_es": "No aprobar un examen.",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_11_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "lead",
+    "phonetic": "/liːd/",
+    "spoken_phonetic_us": "/liːd/",
+    "search_term": "verb/lead/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Work & Jobs",
+    "definitions": [
+      {
+        "meaning": "Liderar",
+        "usage_example": "She leads a team of ten people.",
+        "alternative_example": "He led the project successfully.",
+        "pronunciation_guide_es": "/shi_LIDS_a_TIM_of_TEN_PIpol/",
+        "usage_example_es": "Ella lidera un equipo de diez personas.",
+        "char_count": "one",
+        "usage_context_en": "To be in charge of a group.",
+        "usage_context_es": "Estar a cargo de un grupo.",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_12_def0.avif"
+      },
+      {
+        "meaning": "Conducir (a un lugar)",
+        "usage_example": "This road leads to the beach.",
+        "alternative_example": "All paths lead to the center.",
+        "pronunciation_guide_es": "/dis_ROUD_LIDS_tu_de_BICH/",
+        "usage_example_es": "Este camino conduce a la playa.",
+        "char_count": "one",
+        "usage_context_en": "To go towards a destination.",
+        "usage_context_es": "Llevar hacia un destino.",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_12_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "organize",
+    "phonetic": "/ˈɔːrɡənaɪz/",
+    "spoken_phonetic_us": "/ˈɔːrɡənaɪz/",
+    "search_term": "verb/organize/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Work & Jobs",
+    "definitions": [
+      {
+        "meaning": "Organizar",
+        "usage_example": "She organized the meeting.",
+        "alternative_example": "We need to organize our files.",
+        "pronunciation_guide_es": "/shi_ORganaisd_de_MIting/",
+        "usage_example_es": "Ella organizó la reunión.",
+        "char_count": "three",
+        "usage_context_en": "To arrange things in order.",
+        "usage_context_es": "Poner las cosas en orden.",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_13_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "prepare",
+    "phonetic": "/prɪˈpɛr/",
+    "spoken_phonetic_us": "/prɪˈpɛr/",
+    "search_term": "verb/prepare/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Work & Jobs",
+    "definitions": [
+      {
+        "meaning": "Preparar",
+        "usage_example": "She prepared dinner for the family.",
+        "alternative_example": "We prepared for the exam all week.",
+        "pronunciation_guide_es": "/shi_priPERD_DIner_for_de_FAmili/",
+        "usage_example_es": "Ella preparó la cena para la familia.",
+        "char_count": "two",
+        "usage_context_en": "To get something ready.",
+        "usage_context_es": "Alistar algo.",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_14_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "succeed",
+    "phonetic": "/səkˈsiːd/",
+    "spoken_phonetic_us": "/səkˈsiːd/",
+    "search_term": "verb/succeed/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Work & Jobs",
+    "definitions": [
+      {
+        "meaning": "Tener éxito / Lograrlo",
+        "usage_example": "She succeeded in her new business.",
+        "alternative_example": "He finally succeeded after years of effort.",
+        "pronunciation_guide_es": "/shi_sakSIDed_in_jer_NIU_BISnes/",
+        "usage_example_es": "Ella tuvo éxito en su nuevo negocio.",
+        "char_count": "two",
+        "usage_context_en": "To achieve what you were trying to do.",
+        "usage_context_es": "Lograr lo que se intentaba hacer.",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_15_def0.avif"
+      }
+    ]
   }
 ]

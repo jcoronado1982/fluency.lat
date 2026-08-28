@@ -1,18 +1,2427 @@
 {
   "summary": {
-    "DEF_COUNT_MISMATCH": 8,
-    "IMAGE_MISSING": 1,
-    "IMAGE_MISSING_NO_BASELINE": 18,
-    "WORD_COUNT_MISMATCH": 98,
-    "WORD_MISALIGNED": 357
+    "DEF_COUNT_MISMATCH": 7,
+    "IMAGE_FILE_NOT_FOUND": 260,
+    "WORD_COUNT_MISMATCH": 214,
+    "WORD_MISALIGNED": 308
   },
-  "total_findings": 482,
+  "total_findings": 789,
   "findings": [
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/access_readiness_and_effort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "able",
+      "imagePath": "/card_images/adjectives/1-basic/access_readiness_and_effort/1-basic_access_readiness_and_effort_card_9_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/access_readiness_and_effort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 10,
+      "def_index": 0,
+      "name": "simple",
+      "imagePath": "/card_images/adjectives/1-basic/access_readiness_and_effort/1-basic_access_readiness_and_effort_card_10_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/health_safety_and_emergency.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "ill",
+      "imagePath": "/card_images/adjectives/1-basic/health_safety_and_emergency/1-basic_health_safety_and_emergency_card_7_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/physical_state_and_condition.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "married",
+      "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_20_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/physical_state_and_condition.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 21,
+      "def_index": 0,
+      "name": "dead",
+      "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_21_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/physical_state_and_condition.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 22,
+      "def_index": 0,
+      "name": "fresh",
+      "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_22_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/physical_state_and_condition.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 23,
+      "def_index": 0,
+      "name": "soft",
+      "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_physical_state_and_condition_card_23_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/space_size_and_crowds.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "high",
+      "imagePath": "/card_images/adjectives/1-basic/space_size_and_crowds/1-basic_space_size_and_crowds_card_12_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/space_size_and_crowds.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "large",
+      "imagePath": "/card_images/adjectives/1-basic/space_size_and_crowds/1-basic_space_size_and_crowds_card_13_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/space_size_and_crowds.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "deep",
+      "imagePath": "/card_images/adjectives/1-basic/space_size_and_crowds/1-basic_space_size_and_crowds_card_14_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/value_cost_and_evaluation.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "better",
+      "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_12_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/value_cost_and_evaluation.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "best",
+      "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_13_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/value_cost_and_evaluation.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "sure",
+      "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_14_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/value_cost_and_evaluation.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "main",
+      "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_15_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/value_cost_and_evaluation.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 16,
+      "def_index": 0,
+      "name": "pretty",
+      "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_16_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/value_cost_and_evaluation.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 17,
+      "def_index": 0,
+      "name": "final",
+      "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_17_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/value_cost_and_evaluation.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 18,
+      "def_index": 0,
+      "name": "clear",
+      "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_18_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/value_cost_and_evaluation.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "possible",
+      "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_19_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/value_cost_and_evaluation.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "real",
+      "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_20_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/1-basic/value_cost_and_evaluation.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 21,
+      "def_index": 0,
+      "name": "special",
+      "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_21_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/appearance_and_status.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "foreign",
+      "imagePath": "/card_images/adjectives/2-intermediate/appearance_and_status/2-intermediate_appearance_and_status_card_7_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/appearance_and_status.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "local",
+      "imagePath": "/card_images/adjectives/2-intermediate/appearance_and_status/2-intermediate_appearance_and_status_card_8_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/appearance_and_status.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "round",
+      "imagePath": "/card_images/adjectives/2-intermediate/appearance_and_status/2-intermediate_appearance_and_status_card_9_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "actual",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_8_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "average",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_9_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 10,
+      "def_index": 0,
+      "name": "chief",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_10_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "common",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_11_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "complete",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_12_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "current",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_13_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "due",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_14_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "equal",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_15_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 16,
+      "def_index": 0,
+      "name": "fair",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_16_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 17,
+      "def_index": 0,
+      "name": "former",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_17_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 18,
+      "def_index": 0,
+      "name": "general",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_18_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "moral",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_19_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "native",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_20_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 21,
+      "def_index": 0,
+      "name": "numerous",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_21_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 22,
+      "def_index": 0,
+      "name": "official",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_22_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 23,
+      "def_index": 0,
+      "name": "ordinary",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_23_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 24,
+      "def_index": 0,
+      "name": "particular",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_24_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 25,
+      "def_index": 0,
+      "name": "plain",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_25_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 26,
+      "def_index": 0,
+      "name": "political",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_26_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 27,
+      "def_index": 0,
+      "name": "proper",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_27_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 28,
+      "def_index": 0,
+      "name": "recent",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_28_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 29,
+      "def_index": 0,
+      "name": "rough",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_29_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 30,
+      "def_index": 0,
+      "name": "total",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_30_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 31,
+      "def_index": 0,
+      "name": "usual",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_31_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 32,
+      "def_index": 0,
+      "name": "worth",
+      "imagePath": "/card_images/adjectives/2-intermediate/evaluation_comparison_and_comfort/2-intermediate_evaluation_comparison_and_comfort_card_32_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/experience_and_life_state.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "likely",
+      "imagePath": "/card_images/adjectives/2-intermediate/experience_and_life_state/2-intermediate_experience_and_life_state_card_7_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/experience_and_life_state.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "single",
+      "imagePath": "/card_images/adjectives/2-intermediate/experience_and_life_state/2-intermediate_experience_and_life_state_card_8_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/personality_and_character.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "active",
+      "imagePath": "/card_images/adjectives/2-intermediate/personality_and_character/2-intermediate_personality_and_character_card_14_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/personality_and_character.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "human",
+      "imagePath": "/card_images/adjectives/2-intermediate/personality_and_character/2-intermediate_personality_and_character_card_15_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/personality_and_character.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 16,
+      "def_index": 0,
+      "name": "social",
+      "imagePath": "/card_images/adjectives/2-intermediate/personality_and_character/2-intermediate_personality_and_character_card_16_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/personality_and_character.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 17,
+      "def_index": 0,
+      "name": "wild",
+      "imagePath": "/card_images/adjectives/2-intermediate/personality_and_character/2-intermediate_personality_and_character_card_17_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adjectives/2-intermediate/personality_and_character.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 18,
+      "def_index": 0,
+      "name": "wise",
+      "imagePath": "/card_images/adjectives/2-intermediate/personality_and_character/2-intermediate_personality_and_character_card_18_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adverbs/1-basic/core_survival.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 10,
+      "def_index": 0,
+      "name": "oh",
+      "imagePath": "/card_images/adverbs/1-basic/core_survival/1-basic_core_survival_card_10_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adverbs/1-basic/core_survival.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "yeah",
+      "imagePath": "/card_images/adverbs/1-basic/core_survival/1-basic_core_survival_card_11_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adverbs/1-basic/manner_degree_quantity.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "quite",
+      "imagePath": "/card_images/adverbs/1-basic/manner_degree_quantity/1-basic_manner_degree_quantity_card_14_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adverbs/1-basic/manner_degree_quantity.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "only",
+      "imagePath": "/card_images/adverbs/1-basic/manner_degree_quantity/1-basic_manner_degree_quantity_card_15_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adverbs/1-basic/manner_degree_quantity.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 16,
+      "def_index": 0,
+      "name": "even",
+      "imagePath": "/card_images/adverbs/1-basic/manner_degree_quantity/1-basic_manner_degree_quantity_card_16_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adverbs/1-basic/place_direction.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 22,
+      "def_index": 0,
+      "name": "out",
+      "imagePath": "/card_images/adverbs/1-basic/place_direction/1-basic_place_direction_card_22_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adverbs/1-basic/time_sequence.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "ago",
+      "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_13_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adverbs/1-basic/time_sequence.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "once",
+      "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_14_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adverbs/2-intermediate/degree_precision.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "indeed",
+      "imagePath": "/card_images/adverbs/2-intermediate/degree_precision/2-intermediate_degree_precision_card_5_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "rather",
+      "imagePath": "/card_images/adverbs/2-intermediate/stance_certainty/2-intermediate_stance_certainty_card_12_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "connectors/2-intermediate/contrast_and_condition.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "except",
+      "imagePath": "/card_images/connectors/2-intermediate/contrast_and_condition/2-intermediate_contrast_and_condition_card_11_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "connectors/2-intermediate/contrast_and_condition.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "instead",
+      "imagePath": "/card_images/connectors/2-intermediate/contrast_and_condition/2-intermediate_contrast_and_condition_card_12_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/animals.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 25,
+      "def_index": 0,
+      "name": "spider",
+      "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_spider_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/animals.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 26,
+      "def_index": 0,
+      "name": "ant",
+      "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_ant_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/clothes.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 18,
+      "def_index": 0,
+      "name": "socks",
+      "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_socks_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/clothes.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "glove",
+      "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_glove_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/clothes.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "trousers",
+      "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_trousers_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/economy.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "euro",
+      "imagePath": "/card_images/nouns/1-basic/economy/1-basic_economy_card_7_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/family.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 18,
+      "def_index": 0,
+      "name": "dad",
+      "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_18_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/family.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "mum",
+      "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_19_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/family.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "boyfriend",
+      "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_20_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/family.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 21,
+      "def_index": 0,
+      "name": "girlfriend",
+      "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_21_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/family.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 22,
+      "def_index": 0,
+      "name": "grandparent",
+      "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_22_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 42,
+      "def_index": 0,
+      "name": "pasta",
+      "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_42_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 43,
+      "def_index": 0,
+      "name": "pizza",
+      "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_43_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 44,
+      "def_index": 0,
+      "name": "menu",
+      "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_menu_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 45,
+      "def_index": 0,
+      "name": "burger",
+      "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_burger_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/health.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "fever",
+      "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_fever_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/health.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "cough",
+      "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_cough_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/health.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "pill",
+      "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_pill_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/home_rooms.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "bath",
+      "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_13_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/household_items.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 32,
+      "def_index": 0,
+      "name": "dish",
+      "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_32_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/jobs.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "actor",
+      "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_actor_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/jobs.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "singer",
+      "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_singer_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/jobs.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 21,
+      "def_index": 0,
+      "name": "worker",
+      "imagePath": "/card_images/nouns/1-basic/jobs/1-basic_jobs_card_worker_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/measurement_quantity.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "mile",
+      "imagePath": "/card_images/nouns/1-basic/measurement_quantity/1-basic_measurement_quantity_card_5_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/measurement_quantity.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "pound",
+      "imagePath": "/card_images/nouns/1-basic/measurement_quantity/1-basic_measurement_quantity_card_6_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/media.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "guitar",
+      "imagePath": "/card_images/nouns/1-basic/media/1-basic_media_card_14_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/media.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "piano",
+      "imagePath": "/card_images/nouns/1-basic/media/1-basic_media_card_15_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/media.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 16,
+      "def_index": 0,
+      "name": "video",
+      "imagePath": "/card_images/nouns/1-basic/media/1-basic_media_card_video_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/nature.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 33,
+      "def_index": 0,
+      "name": "hill",
+      "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_33_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/nature.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 34,
+      "def_index": 0,
+      "name": "rock",
+      "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_34_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/nature.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 35,
+      "def_index": 0,
+      "name": "wave",
+      "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_35_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/personal_items.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "card",
+      "imagePath": "/card_images/nouns/1-basic/personal_items/1-basic_personal_items_card_11_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/places.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 23,
+      "def_index": 0,
+      "name": "cafe",
+      "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_23_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/places.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 24,
+      "def_index": 0,
+      "name": "club",
+      "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_24_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/places.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 25,
+      "def_index": 0,
+      "name": "capital",
+      "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_25_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/places.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 26,
+      "def_index": 0,
+      "name": "flat",
+      "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_26_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/places.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 27,
+      "def_index": 0,
+      "name": "zoo",
+      "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_zoo_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/places.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 28,
+      "def_index": 0,
+      "name": "theatre",
+      "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_theatre_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/school.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 22,
+      "def_index": 0,
+      "name": "classroom",
+      "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_22_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/social_customs.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "hey",
+      "imagePath": "/card_images/nouns/1-basic/social_customs/1-basic_social_customs_card_8_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/social_customs.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "goodbye",
+      "imagePath": "/card_images/nouns/1-basic/social_customs/1-basic_social_customs_card_9_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/social_customs.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 10,
+      "def_index": 0,
+      "name": "welcome",
+      "imagePath": "/card_images/nouns/1-basic/social_customs/1-basic_social_customs_card_10_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/social_customs.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "dear",
+      "imagePath": "/card_images/nouns/1-basic/social_customs/1-basic_social_customs_card_11_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/sports.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "tennis",
+      "imagePath": "/card_images/nouns/1-basic/sports/1-basic_sports_card_9_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/technology.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "radio",
+      "imagePath": "/card_images/nouns/1-basic/technology/1-basic_technology_card_11_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/technology.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "telephone",
+      "imagePath": "/card_images/nouns/1-basic/technology/1-basic_technology_card_12_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/technology.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "laptop",
+      "imagePath": "/card_images/nouns/1-basic/technology/1-basic_technology_card_laptop_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/1-basic/transport.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 16,
+      "def_index": 0,
+      "name": "bike",
+      "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_16_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/analysis_research.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "detail",
+      "imagePath": "/card_images/nouns/2-intermediate/analysis_research/2-intermediate_analysis_research_card_13_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/classification.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "sort",
+      "imagePath": "/card_images/nouns/2-intermediate/classification/2-intermediate_classification_card_6_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 17,
+      "def_index": 0,
+      "name": "post",
+      "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_17_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/economy.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 26,
+      "def_index": 0,
+      "name": "product",
+      "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_26_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/economy.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 27,
+      "def_index": 0,
+      "name": "trade",
+      "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_27_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/logic_reasoning.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "case",
+      "imagePath": "/card_images/nouns/2-intermediate/logic_reasoning/2-intermediate_logic_reasoning_card_7_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/measurement_quantity.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "amount",
+      "imagePath": "/card_images/nouns/2-intermediate/measurement_quantity/2-intermediate_measurement_quantity_card_8_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/measurement_quantity.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 10,
+      "def_index": 0,
+      "name": "speed",
+      "imagePath": "/card_images/nouns/2-intermediate/measurement_quantity/2-intermediate_measurement_quantity_card_10_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/media.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 24,
+      "def_index": 0,
+      "name": "scene",
+      "imagePath": "/card_images/nouns/2-intermediate/media/2-intermediate_media_card_24_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/nature.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 10,
+      "def_index": 0,
+      "name": "field",
+      "imagePath": "/card_images/nouns/2-intermediate/nature/2-intermediate_nature_card_10_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/people.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "relative",
+      "imagePath": "/card_images/nouns/2-intermediate/people/2-intermediate_people_card_5_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/people.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "youth",
+      "imagePath": "/card_images/nouns/2-intermediate/people/2-intermediate_people_card_6_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/process_change.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 37,
+      "def_index": 0,
+      "name": "step",
+      "imagePath": "/card_images/nouns/2-intermediate/process_change/2-intermediate_process_change_card_37_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/school.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "course",
+      "imagePath": "/card_images/nouns/2-intermediate/school/2-intermediate_school_card_14_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/school.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "term",
+      "imagePath": "/card_images/nouns/2-intermediate/school/2-intermediate_school_card_15_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/social_relations.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 24,
+      "def_index": 0,
+      "name": "enemy",
+      "imagePath": "/card_images/nouns/2-intermediate/social_relations/2-intermediate_social_relations_card_24_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/social_relations.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 25,
+      "def_index": 0,
+      "name": "relation",
+      "imagePath": "/card_images/nouns/2-intermediate/social_relations/2-intermediate_social_relations_card_25_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/society.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 33,
+      "def_index": 0,
+      "name": "race",
+      "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_33_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/society.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 34,
+      "def_index": 0,
+      "name": "religion",
+      "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_34_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/society.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 35,
+      "def_index": 0,
+      "name": "rule",
+      "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_35_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/society.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 36,
+      "def_index": 0,
+      "name": "state",
+      "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_36_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/states_conditions.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 17,
+      "def_index": 0,
+      "name": "condition",
+      "imagePath": "/card_images/nouns/2-intermediate/states_conditions/2-intermediate_states_conditions_card_17_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/states_conditions.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 18,
+      "def_index": 0,
+      "name": "force",
+      "imagePath": "/card_images/nouns/2-intermediate/states_conditions/2-intermediate_states_conditions_card_18_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/states_conditions.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "silence",
+      "imagePath": "/card_images/nouns/2-intermediate/states_conditions/2-intermediate_states_conditions_card_19_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/states_conditions.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "trouble",
+      "imagePath": "/card_images/nouns/2-intermediate/states_conditions/2-intermediate_states_conditions_card_20_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/structure_components.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "base",
+      "imagePath": "/card_images/nouns/2-intermediate/structure_components/2-intermediate_structure_components_card_19_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/structure_components.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "line",
+      "imagePath": "/card_images/nouns/2-intermediate/structure_components/2-intermediate_structure_components_card_20_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/structure_components.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 21,
+      "def_index": 0,
+      "name": "shape",
+      "imagePath": "/card_images/nouns/2-intermediate/structure_components/2-intermediate_structure_components_card_21_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/structure_components.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 22,
+      "def_index": 0,
+      "name": "square",
+      "imagePath": "/card_images/nouns/2-intermediate/structure_components/2-intermediate_structure_components_card_22_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 18,
+      "def_index": 0,
+      "name": "motor",
+      "imagePath": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_18_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "duty",
+      "imagePath": "/card_images/nouns/2-intermediate/work/2-intermediate_work_card_6_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/2-intermediate/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "factory",
+      "imagePath": "/card_images/nouns/2-intermediate/work/2-intermediate_work_card_7_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/3-advanced/materials_substances.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "surface",
+      "imagePath": "/card_images/nouns/3-advanced/materials_substances/3-advanced_materials_substances_card_5_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/3-advanced/measurement_quantity.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "mass",
+      "imagePath": "/card_images/nouns/3-advanced/measurement_quantity/3-advanced_measurement_quantity_card_6_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/3-advanced/society.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "union",
+      "imagePath": "/card_images/nouns/3-advanced/society/3-advanced_society_card_5_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/3-advanced/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "master",
+      "imagePath": "/card_images/nouns/3-advanced/work/3-advanced_work_card_5_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "nouns/3-advanced/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "rank",
+      "imagePath": "/card_images/nouns/3-advanced/work/3-advanced_work_card_6_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "pronouns/1-basic/indefinite_pronouns.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "else",
+      "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_15_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 33,
+      "def_index": 0,
+      "name": "fill",
+      "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_33_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 33,
+      "def_index": 1,
+      "name": "fill",
+      "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_33_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "introduce",
+      "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_11_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 11,
+      "def_index": 1,
+      "name": "introduce",
+      "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_11_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "repeat",
+      "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_12_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 12,
+      "def_index": 1,
+      "name": "repeat",
+      "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_12_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "spell",
+      "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_13_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 13,
+      "def_index": 1,
+      "name": "spell",
+      "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_13_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "sing",
+      "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_14_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 14,
+      "def_index": 1,
+      "name": "sing",
+      "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_14_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/feelings.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "relax",
+      "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_7_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/feelings.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 7,
+      "def_index": 1,
+      "name": "relax",
+      "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_7_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/feelings.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "care",
+      "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_8_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/feelings.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 8,
+      "def_index": 1,
+      "name": "care",
+      "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_8_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/feelings.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "smile",
+      "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_9_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/feelings.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 9,
+      "def_index": 1,
+      "name": "smile",
+      "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_9_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/movement.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "climb",
+      "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_19_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/movement.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 19,
+      "def_index": 1,
+      "name": "climb",
+      "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_19_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/movement.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "ride",
+      "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_20_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/1-basic/movement.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 20,
+      "def_index": 1,
+      "name": "ride",
+      "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_20_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 22,
+      "def_index": 0,
+      "name": "act",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_22_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 22,
+      "def_index": 1,
+      "name": "act",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_22_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 23,
+      "def_index": 0,
+      "name": "contain",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_23_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 23,
+      "def_index": 1,
+      "name": "contain",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_23_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 24,
+      "def_index": 0,
+      "name": "divide",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_24_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 24,
+      "def_index": 1,
+      "name": "divide",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_24_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 25,
+      "def_index": 0,
+      "name": "fight",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_25_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 25,
+      "def_index": 1,
+      "name": "fight",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_25_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 26,
+      "def_index": 0,
+      "name": "gather",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_26_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 26,
+      "def_index": 1,
+      "name": "gather",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_26_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 27,
+      "def_index": 0,
+      "name": "hang",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_27_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 27,
+      "def_index": 1,
+      "name": "hang",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_27_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 28,
+      "def_index": 0,
+      "name": "mark",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_28_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 28,
+      "def_index": 1,
+      "name": "mark",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_28_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 29,
+      "def_index": 0,
+      "name": "measure",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_29_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 29,
+      "def_index": 1,
+      "name": "measure",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_29_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 30,
+      "def_index": 0,
+      "name": "shake",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_30_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 30,
+      "def_index": 1,
+      "name": "shake",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_30_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 31,
+      "def_index": 0,
+      "name": "prevent",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_31_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 31,
+      "def_index": 1,
+      "name": "prevent",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_31_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 32,
+      "def_index": 0,
+      "name": "protect",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_32_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 32,
+      "def_index": 1,
+      "name": "protect",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_32_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 33,
+      "def_index": 0,
+      "name": "reduce",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_33_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 33,
+      "def_index": 1,
+      "name": "reduce",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_33_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 34,
+      "def_index": 0,
+      "name": "rise",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_34_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 34,
+      "def_index": 1,
+      "name": "rise",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_34_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 35,
+      "def_index": 0,
+      "name": "lay",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_35_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 35,
+      "def_index": 1,
+      "name": "lay",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_35_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 36,
+      "def_index": 0,
+      "name": "shine",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_36_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 36,
+      "def_index": 1,
+      "name": "shine",
+      "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_36_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/being_state.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "increase",
+      "imagePath": "/card_images/verbs/2-intermediate/being_state/2-intermediate_being_state_card_5_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "admit",
+      "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_11_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 11,
+      "def_index": 1,
+      "name": "admit",
+      "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_11_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "claim",
+      "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_12_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 12,
+      "def_index": 1,
+      "name": "claim",
+      "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_12_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "express",
+      "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_13_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 13,
+      "def_index": 1,
+      "name": "express",
+      "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_13_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "refuse",
+      "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_14_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/creation.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "produce",
+      "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_6_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/creation.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 6,
+      "def_index": 1,
+      "name": "produce",
+      "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_6_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/feelings.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "marry",
+      "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_5_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/feelings.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "miss",
+      "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_6_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/feelings.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 6,
+      "def_index": 1,
+      "name": "miss",
+      "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_6_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/feelings.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "surprise",
+      "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_7_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/modal_auxiliaries.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "ought to",
+      "imagePath": "/card_images/verbs/2-intermediate/modal_auxiliaries/2-intermediate_modal_auxiliaries_card_5_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/movement.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "cross",
+      "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_8_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/movement.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 8,
+      "def_index": 1,
+      "name": "cross",
+      "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_8_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/movement.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "escape",
+      "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_9_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/movement.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 10,
+      "def_index": 0,
+      "name": "lift",
+      "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_10_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/movement.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "roll",
+      "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_11_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/possession_exchange.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 5,
+      "def_index": 0,
+      "name": "accept",
+      "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_5_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/possession_exchange.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 6,
+      "def_index": 0,
+      "name": "receive",
+      "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_6_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/possession_exchange.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 7,
+      "def_index": 0,
+      "name": "save",
+      "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_7_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/possession_exchange.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 7,
+      "def_index": 1,
+      "name": "save",
+      "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_7_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/possession_exchange.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 8,
+      "def_index": 0,
+      "name": "supply",
+      "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_8_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 16,
+      "def_index": 0,
+      "name": "suppose",
+      "imagePath": "/card_images/verbs/2-intermediate/thinking/2-intermediate_thinking_card_16_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 9,
+      "def_index": 0,
+      "name": "apply",
+      "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_9_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 10,
+      "def_index": 0,
+      "name": "employ",
+      "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_10_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "fail",
+      "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_11_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 11,
+      "def_index": 1,
+      "name": "fail",
+      "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_11_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "lead",
+      "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_12_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 12,
+      "def_index": 1,
+      "name": "lead",
+      "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_12_def1.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "organize",
+      "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_13_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "prepare",
+      "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_14_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/2-intermediate/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "succeed",
+      "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_15_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "attack",
+      "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_11_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "destroy",
+      "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_12_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "extend",
+      "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_13_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 14,
+      "def_index": 0,
+      "name": "permit",
+      "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_14_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "separate",
+      "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_15_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 16,
+      "def_index": 0,
+      "name": "settle",
+      "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_16_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 17,
+      "def_index": 0,
+      "name": "shoot",
+      "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_17_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 18,
+      "def_index": 0,
+      "name": "spread",
+      "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_18_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "strike",
+      "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_19_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 20,
+      "def_index": 0,
+      "name": "struggle",
+      "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_20_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 21,
+      "def_index": 0,
+      "name": "suffer",
+      "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_21_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 22,
+      "def_index": 0,
+      "name": "unite",
+      "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_22_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/action.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 23,
+      "def_index": 0,
+      "name": "yield",
+      "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_23_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/communication.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "remark",
+      "imagePath": "/card_images/verbs/3-advanced/communication/3-advanced_communication_card_12_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/thinking.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 11,
+      "def_index": 0,
+      "name": "determine",
+      "imagePath": "/card_images/verbs/3-advanced/thinking/3-advanced_thinking_card_11_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/thinking.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 12,
+      "def_index": 0,
+      "name": "judge",
+      "imagePath": "/card_images/verbs/3-advanced/thinking/3-advanced_thinking_card_12_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/thinking.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 13,
+      "def_index": 0,
+      "name": "observe",
+      "imagePath": "/card_images/verbs/3-advanced/thinking/3-advanced_thinking_card_13_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 15,
+      "def_index": 0,
+      "name": "direct",
+      "imagePath": "/card_images/verbs/3-advanced/work/3-advanced_work_card_15_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 16,
+      "def_index": 0,
+      "name": "elect",
+      "imagePath": "/card_images/verbs/3-advanced/work/3-advanced_work_card_16_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 17,
+      "def_index": 0,
+      "name": "operate",
+      "imagePath": "/card_images/verbs/3-advanced/work/3-advanced_work_card_17_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 18,
+      "def_index": 0,
+      "name": "reserve",
+      "imagePath": "/card_images/verbs/3-advanced/work/3-advanced_work_card_18_def0.avif"
+    },
+    {
+      "direction": "es_en",
+      "file": "verbs/3-advanced/work.json",
+      "type": "IMAGE_FILE_NOT_FOUND",
+      "word_index": 19,
+      "def_index": 0,
+      "name": "vote",
+      "imagePath": "/card_images/verbs/3-advanced/work/3-advanced_work_card_19_def0.avif"
+    },
+    {
+      "direction": "en_es",
+      "file": "adjectives/1-basic/access_readiness_and_effort.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 11,
+      "direction_count": 8
+    },
+    {
+      "direction": "en_es",
+      "file": "adjectives/1-basic/emotions_and_personality.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 9
+    },
+    {
+      "direction": "en_es",
+      "file": "adjectives/1-basic/health_safety_and_emergency.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 8,
+      "direction_count": 7
+    },
+    {
+      "direction": "en_es",
+      "file": "adjectives/1-basic/physical_state_and_condition.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 24,
+      "direction_count": 19
+    },
+    {
+      "direction": "en_es",
+      "file": "adjectives/1-basic/space_size_and_crowds.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 16,
+      "direction_count": 12
+    },
+    {
+      "direction": "en_es",
+      "file": "adjectives/1-basic/value_cost_and_evaluation.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 22,
+      "direction_count": 12
+    },
+    {
+      "direction": "en_es",
+      "file": "adjectives/2-intermediate/appearance_and_status.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 7
+    },
+    {
+      "direction": "en_es",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 33,
+      "direction_count": 8
+    },
+    {
+      "direction": "en_es",
+      "file": "adjectives/2-intermediate/experience_and_life_state.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 9,
+      "direction_count": 7
+    },
+    {
+      "direction": "en_es",
+      "file": "adjectives/2-intermediate/personality_and_character.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 19,
+      "direction_count": 14
+    },
     {
       "direction": "en_es",
       "file": "adverbs/1-basic/core_survival.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 10,
+      "baseline_count": 12,
       "direction_count": 5
     },
     {
@@ -26,7 +2435,7 @@
       "direction": "en_es",
       "file": "adverbs/1-basic/manner_degree_quantity.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 14,
+      "baseline_count": 17,
       "direction_count": 13
     },
     {
@@ -65,7 +2474,7 @@
       "direction": "en_es",
       "file": "adverbs/1-basic/place_direction.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 22,
+      "baseline_count": 23,
       "direction_count": 17
     },
     {
@@ -80,8 +2489,15 @@
       "direction": "en_es",
       "file": "adverbs/1-basic/time_sequence.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 13,
+      "baseline_count": 15,
       "direction_count": 8
+    },
+    {
+      "direction": "en_es",
+      "file": "adverbs/2-intermediate/degree_precision.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 6,
+      "direction_count": 5
     },
     {
       "direction": "en_es",
@@ -150,7 +2566,7 @@
       "direction": "en_es",
       "file": "adverbs/2-intermediate/stance_certainty.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 12,
+      "baseline_count": 13,
       "direction_count": 9
     },
     {
@@ -290,23 +2706,6 @@
     },
     {
       "direction": "en_es",
-      "file": "adverbs/3-advanced/degree_focus_e_discourse_logic.json",
-      "type": "DEF_COUNT_MISMATCH",
-      "word_index": 5,
-      "name": "De lo contrario / Si no",
-      "baseline_def_count": 2,
-      "direction_def_count": 1
-    },
-    {
-      "direction": "en_es",
-      "file": "adverbs/3-advanced/degree_focus_e_discourse_logic.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 5,
-      "baseline_headword": "De lo contrario / Si no",
-      "direction_headword": "De lo contrario / Si no"
-    },
-    {
-      "direction": "en_es",
       "file": "adverbs/3-advanced/discourse_logic.json",
       "type": "DEF_COUNT_MISMATCH",
       "word_index": 2,
@@ -359,46 +2758,6 @@
       "file": "adverbs/3-advanced/frequency_time.json",
       "type": "WORD_MISALIGNED",
       "word_index": 4,
-      "baseline_headword": "Consistentemente / De manera constante",
-      "direction_headword": "Mientras tanto"
-    },
-    {
-      "direction": "en_es",
-      "file": "adverbs/3-advanced/frequency_time_e_manner_precision.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 0,
-      "baseline_headword": "Constantemente",
-      "direction_headword": "Normalmente"
-    },
-    {
-      "direction": "en_es",
-      "file": "adverbs/3-advanced/frequency_time_e_manner_precision.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 2,
-      "baseline_headword": "Mientras tanto",
-      "direction_headword": "Frecuentemente / A menudo"
-    },
-    {
-      "direction": "en_es",
-      "file": "adverbs/3-advanced/frequency_time_e_manner_precision.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 4,
-      "baseline_headword": "Ocasionalmente / De vez en cuando",
-      "direction_headword": "Comúnmente / Habitualmente"
-    },
-    {
-      "direction": "en_es",
-      "file": "adverbs/3-advanced/frequency_time_e_manner_precision.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 6,
-      "baseline_headword": "Periódicamente",
-      "direction_headword": "Constantemente"
-    },
-    {
-      "direction": "en_es",
-      "file": "adverbs/3-advanced/frequency_time_e_manner_precision.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 8,
       "baseline_headword": "Consistentemente / De manera constante",
       "direction_headword": "Mientras tanto"
     },
@@ -443,16 +2802,9 @@
     },
     {
       "direction": "en_es",
-      "file": "connectors/1-basic/cause_effect_basics_e_contrast_condition_basics.json",
-      "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 10,
-      "direction_count": 5
-    },
-    {
-      "direction": "en_es",
       "file": "connectors/1-basic/contrast_condition_basics.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 5,
+      "baseline_count": 6,
       "direction_count": 2
     },
     {
@@ -481,16 +2833,9 @@
     },
     {
       "direction": "en_es",
-      "file": "connectors/2-intermediate/addition_and_clarification_e_reason_time_and_reference.json",
-      "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 11,
-      "direction_count": 8
-    },
-    {
-      "direction": "en_es",
       "file": "connectors/2-intermediate/contrast_and_condition.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 11,
+      "baseline_count": 13,
       "direction_count": 9
     },
     {
@@ -506,21 +2851,6 @@
       "type": "WORD_COUNT_MISMATCH",
       "baseline_count": 5,
       "direction_count": 3
-    },
-    {
-      "direction": "en_es",
-      "file": "connectors/3-advanced/formal_addition_clarification_e_formal_cause_effect.json",
-      "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 10,
-      "direction_count": 7
-    },
-    {
-      "direction": "en_es",
-      "file": "connectors/3-advanced/formal_addition_clarification_e_formal_cause_effect.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 6,
-      "baseline_headword": "Del mismo modo / Asimismo",
-      "direction_headword": "Así pues / Por lo tanto (formal)"
     },
     {
       "direction": "en_es",
@@ -571,6 +2901,13 @@
     {
       "direction": "en_es",
       "file": "nouns/1-basic/animals.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 27,
+      "direction_count": 25
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/animals.json",
       "type": "WORD_MISALIGNED",
       "word_index": 7,
       "baseline_headword": "Oveja (singular y plural)",
@@ -593,18 +2930,17 @@
     },
     {
       "direction": "en_es",
-      "file": "nouns/1-basic/classification_e_clock_time.json",
+      "file": "nouns/1-basic/clock_time.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 10,
-      "direction_count": 9
+      "baseline_count": 6,
+      "direction_count": 5
     },
     {
       "direction": "en_es",
-      "file": "nouns/1-basic/classification_e_clock_time.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 8,
-      "baseline_headword": "Tipo",
-      "direction_headword": "Reloj (de pared o mesa)"
+      "file": "nouns/1-basic/clothes.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 21,
+      "direction_count": 18
     },
     {
       "direction": "en_es",
@@ -612,45 +2948,6 @@
       "type": "WORD_COUNT_MISMATCH",
       "baseline_count": 5,
       "direction_count": 3
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/cognition_language_e_communication.json",
-      "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 12,
-      "direction_count": 10
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/cognition_language_e_communication.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 6,
-      "baseline_headword": "Pensamiento / Idea",
-      "direction_headword": "Respuesta"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/cognition_language_e_communication.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 7,
-      "baseline_headword": "Respuesta",
-      "direction_headword": "Idioma / Lenguaje"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/cognition_language_e_communication.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 8,
-      "baseline_headword": "Mente",
-      "direction_headword": "Información"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/cognition_language_e_communication.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 9,
-      "baseline_headword": "Idioma / Lenguaje",
-      "direction_headword": "Charla / Conversación"
     },
     {
       "direction": "en_es",
@@ -715,86 +3012,6 @@
       "word_index": 6,
       "baseline_headword": "The continent around the South Pole.",
       "direction_headword": "Antártida"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/continents_e_day_parts.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 0,
-      "baseline_headword": "The largest continent.",
-      "direction_headword": "Asia"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/continents_e_day_parts.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 2,
-      "baseline_headword": "A continent west of Asia.",
-      "direction_headword": "Europa"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/continents_e_day_parts.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 4,
-      "baseline_headword": "A continent south of Europe.",
-      "direction_headword": "África"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/continents_e_day_parts.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 6,
-      "baseline_headword": "A continent in the Northern Hemisphere.",
-      "direction_headword": "América del Norte"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/continents_e_day_parts.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 8,
-      "baseline_headword": "A continent in the Western Hemisphere.",
-      "direction_headword": "América del Sur"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/continents_e_day_parts.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 9,
-      "baseline_headword": "Around the middle of the day.",
-      "direction_headword": "Mediodía"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/continents_e_day_parts.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 10,
-      "baseline_headword": "A region and continent grouping in the Pacific.",
-      "direction_headword": "Oceanía"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/continents_e_day_parts.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 11,
-      "baseline_headword": "Twelve o'clock in the daytime.",
-      "direction_headword": "Mediodía"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/continents_e_day_parts.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 12,
-      "baseline_headword": "The continent around the South Pole.",
-      "direction_headword": "Antártida"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/continents_e_day_parts.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 13,
-      "baseline_headword": "Twelve o'clock at night.",
-      "direction_headword": "Medianoche"
     },
     {
       "direction": "en_es",
@@ -990,33 +3207,23 @@
     },
     {
       "direction": "en_es",
-      "file": "nouns/1-basic/economy_e_health.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 5,
-      "baseline_headword": "A substance used to treat illness.",
-      "direction_headword": "Medicina / Medicamento"
+      "file": "nouns/1-basic/economy.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 8,
+      "direction_count": 6
     },
     {
       "direction": "en_es",
-      "file": "nouns/1-basic/economy_e_health.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 7,
-      "baseline_headword": "A person receiving medical care.",
-      "direction_headword": "Paciente"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/economy_e_health.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 9,
-      "baseline_headword": "A condition of being sick.",
-      "direction_headword": "Enfermedad"
+      "file": "nouns/1-basic/family.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 23,
+      "direction_count": 18
     },
     {
       "direction": "en_es",
       "file": "nouns/1-basic/food_drink.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 41,
+      "baseline_count": 46,
       "direction_count": 42
     },
     {
@@ -1197,6 +3404,21 @@
     },
     {
       "direction": "en_es",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 41,
+      "baseline_headword": "Crema",
+      "direction_headword": "Helado"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/health.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 8,
+      "direction_count": 5
+    },
+    {
+      "direction": "en_es",
       "file": "nouns/1-basic/health.json",
       "type": "WORD_MISALIGNED",
       "word_index": 2,
@@ -1222,6 +3444,13 @@
     {
       "direction": "en_es",
       "file": "nouns/1-basic/home_rooms.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 14,
+      "direction_count": 13
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/home_rooms.json",
       "type": "WORD_MISALIGNED",
       "word_index": 10,
       "baseline_headword": "The main room in a home for sitting and relaxing.",
@@ -1242,6 +3471,13 @@
       "word_index": 12,
       "baseline_headword": "A place where a car is kept.",
       "direction_headword": "Garaje"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/household_items.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 33,
+      "direction_count": 32
     },
     {
       "direction": "en_es",
@@ -1278,6 +3514,13 @@
     },
     {
       "direction": "en_es",
+      "file": "nouns/1-basic/jobs.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 22,
+      "direction_count": 19
+    },
+    {
+      "direction": "en_es",
       "file": "nouns/1-basic/location.json",
       "type": "WORD_MISALIGNED",
       "word_index": 20,
@@ -1306,13 +3549,6 @@
       "type": "WORD_COUNT_MISMATCH",
       "baseline_count": 5,
       "direction_count": 4
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/logic_reasoning_e_measurement_quantity.json",
-      "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 10,
-      "direction_count": 7
     },
     {
       "direction": "en_es",
@@ -1365,8 +3601,22 @@
       "direction": "en_es",
       "file": "nouns/1-basic/measurement_quantity.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 5,
+      "baseline_count": 7,
       "direction_count": 3
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/media.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 17,
+      "direction_count": 14
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/nature.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 36,
+      "direction_count": 33
     },
     {
       "direction": "en_es",
@@ -1483,6 +3733,13 @@
     {
       "direction": "en_es",
       "file": "nouns/1-basic/personal_items.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 11
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/personal_items.json",
       "type": "WORD_MISALIGNED",
       "word_index": 7,
       "baseline_headword": "Lenses worn to help someone see.",
@@ -1514,6 +3771,13 @@
     },
     {
       "direction": "en_es",
+      "file": "nouns/1-basic/places.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 29,
+      "direction_count": 23
+    },
+    {
+      "direction": "en_es",
       "file": "nouns/1-basic/process_change.json",
       "type": "WORD_COUNT_MISMATCH",
       "baseline_count": 4,
@@ -1521,42 +3785,10 @@
     },
     {
       "direction": "en_es",
-      "file": "nouns/1-basic/process_change_e_seasons.json",
+      "file": "nouns/1-basic/school.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 11,
-      "direction_count": 8
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/process_change_e_seasons.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 4,
-      "baseline_headword": "Comienzo / Inicio",
-      "direction_headword": "Verano"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/process_change_e_seasons.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 5,
-      "baseline_headword": "Verano",
-      "direction_headword": "Otoño (AmE)"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/process_change_e_seasons.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 6,
-      "baseline_headword": "Final",
-      "direction_headword": "Otoño (BrE)"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/process_change_e_seasons.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 7,
-      "baseline_headword": "Otoño (AmE)",
-      "direction_headword": "Invierno"
+      "baseline_count": 23,
+      "direction_count": 21
     },
     {
       "direction": "en_es",
@@ -1602,6 +3834,13 @@
     {
       "direction": "en_es",
       "file": "nouns/1-basic/social_customs.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 8
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/social_customs.json",
       "type": "WORD_MISALIGNED",
       "word_index": 3,
       "baseline_headword": "The yearly anniversary of a person's birth.",
@@ -1627,7 +3866,7 @@
       "direction": "en_es",
       "file": "nouns/1-basic/sports.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 9,
+      "baseline_count": 10,
       "direction_count": 8
     },
     {
@@ -1639,81 +3878,52 @@
     },
     {
       "direction": "en_es",
-      "file": "nouns/1-basic/structure_components_e_work.json",
+      "file": "nouns/1-basic/technology.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 14,
+      "direction_count": 11
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/1-basic/transport.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 17,
+      "direction_count": 16
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/analysis_research.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 14,
+      "direction_count": 13
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/classification.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 7,
+      "direction_count": 6
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/communication.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 18,
+      "direction_count": 17
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/economy.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 28,
+      "direction_count": 25
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/goals_plans.json",
       "type": "WORD_COUNT_MISMATCH",
       "baseline_count": 12,
-      "direction_count": 9
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/structure_components_e_work.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 4,
-      "baseline_headword": "Sección",
-      "direction_headword": "Empresa / Compañía"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/structure_components_e_work.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 5,
-      "baseline_headword": "Empresa / Compañía",
-      "direction_headword": "Negocio / Empresa"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/structure_components_e_work.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 6,
-      "baseline_headword": "Unidad",
-      "direction_headword": "Escritorio"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/structure_components_e_work.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 7,
-      "baseline_headword": "Negocio / Empresa",
-      "direction_headword": "Cliente"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/1-basic/structure_components_e_work.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 8,
-      "baseline_headword": "Miembro",
-      "direction_headword": "Reunión"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/2-intermediate/classification_e_household_items.json",
-      "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 11,
-      "direction_count": 8
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/2-intermediate/classification_e_household_items.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 5,
-      "baseline_headword": "Utensilio",
-      "direction_headword": "Variedad"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/2-intermediate/classification_e_household_items.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 6,
-      "baseline_headword": "Variedad",
-      "direction_headword": "Categoría"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/2-intermediate/classification_e_household_items.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 7,
-      "baseline_headword": "Muebles / Mobiliario",
-      "direction_headword": "Diferencia"
+      "direction_count": 11
     },
     {
       "direction": "en_es",
@@ -1727,7 +3937,7 @@
       "direction": "en_es",
       "file": "nouns/2-intermediate/health.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 20,
+      "baseline_count": 22,
       "direction_count": 23
     },
     {
@@ -1892,9 +4102,25 @@
     },
     {
       "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 20,
+      "baseline_headword": "Ejercicio",
+      "direction_headword": "Salud mental"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 21,
+      "baseline_headword": "Vista",
+      "direction_headword": "Obesidad"
+    },
+    {
+      "direction": "en_es",
       "file": "nouns/2-intermediate/household_items.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 5,
+      "baseline_count": 6,
       "direction_count": 2
     },
     {
@@ -1922,42 +4148,10 @@
     },
     {
       "direction": "en_es",
-      "file": "nouns/2-intermediate/location_e_logic_reasoning.json",
+      "file": "nouns/2-intermediate/logic_reasoning.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 12,
-      "direction_count": 10
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/2-intermediate/location_e_logic_reasoning.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 6,
-      "baseline_headword": "Punto de referencia / Monumento",
-      "direction_headword": "Significado"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/2-intermediate/location_e_logic_reasoning.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 7,
-      "baseline_headword": "Significado",
-      "direction_headword": "Posibilidad"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/2-intermediate/location_e_logic_reasoning.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 8,
-      "baseline_headword": "Cercanías / Proximidad",
-      "direction_headword": "Probabilidad"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/2-intermediate/location_e_logic_reasoning.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 9,
-      "baseline_headword": "Posibilidad",
-      "direction_headword": "Declaración / Afirmación"
+      "baseline_count": 9,
+      "direction_count": 7
     },
     {
       "direction": "en_es",
@@ -1976,18 +4170,24 @@
     },
     {
       "direction": "en_es",
-      "file": "nouns/2-intermediate/materials_substances_e_people.json",
+      "file": "nouns/2-intermediate/measurement_quantity.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 10,
-      "direction_count": 3
+      "baseline_count": 11,
+      "direction_count": 8
     },
     {
       "direction": "en_es",
-      "file": "nouns/2-intermediate/materials_substances_e_people.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 2,
-      "baseline_headword": "Tela / Tejido",
-      "direction_headword": "Colega / Compañero de trabajo"
+      "file": "nouns/2-intermediate/media.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 25,
+      "direction_count": 23
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/nature.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 10
     },
     {
       "direction": "en_es",
@@ -2009,14 +4209,14 @@
       "direction": "en_es",
       "file": "nouns/2-intermediate/people.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 5,
+      "baseline_count": 7,
       "direction_count": 2
     },
     {
       "direction": "en_es",
       "file": "nouns/2-intermediate/places.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 12,
+      "baseline_count": 13,
       "direction_count": 14
     },
     {
@@ -2037,6 +4237,28 @@
     },
     {
       "direction": "en_es",
+      "file": "nouns/2-intermediate/places.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 12,
+      "baseline_headword": "Lugar / Punto",
+      "direction_headword": "Entrada"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/process_change.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 38,
+      "direction_count": 36
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/school.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 16,
+      "direction_count": 14
+    },
+    {
+      "direction": "en_es",
       "file": "nouns/2-intermediate/science.json",
       "type": "WORD_MISALIGNED",
       "word_index": 7,
@@ -2052,18 +4274,17 @@
     },
     {
       "direction": "en_es",
-      "file": "nouns/2-intermediate/social_customs_e_spirit_identity.json",
+      "file": "nouns/2-intermediate/social_relations.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 10,
-      "direction_count": 5
+      "baseline_count": 26,
+      "direction_count": 24
     },
     {
       "direction": "en_es",
-      "file": "nouns/2-intermediate/social_customs_e_spirit_identity.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 4,
-      "baseline_headword": "Costumbre",
-      "direction_headword": "Identidad"
+      "file": "nouns/2-intermediate/society.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 37,
+      "direction_count": 33
     },
     {
       "direction": "en_es",
@@ -2074,9 +4295,23 @@
     },
     {
       "direction": "en_es",
+      "file": "nouns/2-intermediate/states_conditions.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 21,
+      "direction_count": 17
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/structure_components.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 23,
+      "direction_count": 19
+    },
+    {
+      "direction": "en_es",
       "file": "nouns/2-intermediate/technology.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 17,
+      "baseline_count": 19,
       "direction_count": 18
     },
     {
@@ -2134,6 +4369,14 @@
       "word_index": 16,
       "baseline_headword": "Transmisión en línea / Streaming",
       "direction_headword": "Ciberseguridad"
+    },
+    {
+      "direction": "en_es",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 17,
+      "baseline_headword": "Máquina",
+      "direction_headword": "Transmisión en línea / Streaming"
     },
     {
       "direction": "en_es",
@@ -2208,17 +4451,17 @@
     },
     {
       "direction": "en_es",
+      "file": "nouns/2-intermediate/work.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 8,
+      "direction_count": 6
+    },
+    {
+      "direction": "en_es",
       "file": "nouns/3-advanced/calendar.json",
       "type": "WORD_COUNT_MISMATCH",
       "baseline_count": 5,
       "direction_count": 2
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/3-advanced/calendar_e_communication.json",
-      "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 10,
-      "direction_count": 3
     },
     {
       "direction": "en_es",
@@ -2229,10 +4472,10 @@
     },
     {
       "direction": "en_es",
-      "file": "nouns/3-advanced/economy_e_feelings.json",
+      "file": "nouns/3-advanced/economy.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 10,
-      "direction_count": 9
+      "baseline_count": 6,
+      "direction_count": 5
     },
     {
       "direction": "en_es",
@@ -2250,13 +4493,6 @@
     },
     {
       "direction": "en_es",
-      "file": "nouns/3-advanced/goals_plans_e_health.json",
-      "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 10,
-      "direction_count": 3
-    },
-    {
-      "direction": "en_es",
       "file": "nouns/3-advanced/health.json",
       "type": "WORD_COUNT_MISMATCH",
       "baseline_count": 5,
@@ -2271,56 +4507,17 @@
     },
     {
       "direction": "en_es",
-      "file": "nouns/3-advanced/logic_reasoning_e_materials_substances.json",
-      "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 10,
-      "direction_count": 6
-    },
-    {
-      "direction": "en_es",
       "file": "nouns/3-advanced/materials_substances.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 5,
+      "baseline_count": 6,
       "direction_count": 3
     },
     {
       "direction": "en_es",
-      "file": "nouns/3-advanced/measurement_quantity_e_nature.json",
+      "file": "nouns/3-advanced/measurement_quantity.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 11,
-      "direction_count": 7
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/3-advanced/measurement_quantity_e_nature.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 3,
-      "baseline_headword": "Ecosistema",
-      "direction_headword": "Competencia / Capacidad"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/3-advanced/measurement_quantity_e_nature.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 4,
-      "baseline_headword": "Competencia / Capacidad",
-      "direction_headword": "Indicador"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/3-advanced/measurement_quantity_e_nature.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 5,
-      "baseline_headword": "Biodiversidad",
-      "direction_headword": "Proporción / Parte"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/3-advanced/measurement_quantity_e_nature.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 6,
-      "baseline_headword": "Indicador",
-      "direction_headword": "Fuerza"
+      "baseline_count": 7,
+      "direction_count": 6
     },
     {
       "direction": "en_es",
@@ -2338,42 +4535,10 @@
     },
     {
       "direction": "en_es",
-      "file": "nouns/3-advanced/science_e_society.json",
+      "file": "nouns/3-advanced/society.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 10,
-      "direction_count": 6
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/3-advanced/science_e_society.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 2,
-      "baseline_headword": "Molécula",
-      "direction_headword": "Obligación"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/3-advanced/science_e_society.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 3,
-      "baseline_headword": "Obligación",
-      "direction_headword": "Sanción / Multa / Castigo"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/3-advanced/science_e_society.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 4,
-      "baseline_headword": "Organismo",
-      "direction_headword": "Político/a"
-    },
-    {
-      "direction": "en_es",
-      "file": "nouns/3-advanced/science_e_society.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 5,
-      "baseline_headword": "Multa / Castigo / Penal",
-      "direction_headword": "Infraestructura"
+      "baseline_count": 6,
+      "direction_count": 5
     },
     {
       "direction": "en_es",
@@ -2394,7 +4559,7 @@
       "direction": "en_es",
       "file": "nouns/3-advanced/work.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 5,
+      "baseline_count": 7,
       "direction_count": 2
     },
     {
@@ -2413,21 +4578,6 @@
       "word_index": 10,
       "baseline_headword": "Sacar (la basura)",
       "direction_headword": "Sacar (la basura)"
-    },
-    {
-      "direction": "en_es",
-      "file": "phrasal_verbs/1-basic/difficult_situations_e_progress_reactions.json",
-      "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 11,
-      "direction_count": 10
-    },
-    {
-      "direction": "en_es",
-      "file": "phrasal_verbs/1-basic/difficult_situations_e_progress_reactions.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 9,
-      "baseline_headword": "Animarse / Alegrarse",
-      "direction_headword": "Agotarse, quedarse sin (algo)"
     },
     {
       "direction": "en_es",
@@ -2450,53 +4600,6 @@
       "word_index": 2,
       "baseline_headword": "¿Cuál / Cuáles?",
       "direction_headword": "Qué / Cuál / Que"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/1-basic/interrogative_pronouns_e_object_pronouns.json",
-      "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 12,
-      "direction_count": 10
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/1-basic/interrogative_pronouns_e_object_pronouns.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 4,
-      "baseline_headword": "¿Cuál / Cuáles?",
-      "direction_headword": "Qué / Cuál / Que"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/1-basic/interrogative_pronouns_e_object_pronouns.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 6,
-      "baseline_headword": "A quién / A quien",
-      "direction_headword": "Los / Las / Les / A ellos/as"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/1-basic/interrogative_pronouns_e_object_pronouns.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 7,
-      "baseline_headword": "Los / Las / Les / A ellos/as",
-      "direction_headword": "Te / Lo / La / Le / A ti / A usted(es)"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/1-basic/interrogative_pronouns_e_object_pronouns.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 8,
-      "baseline_headword": "Quién más",
-      "direction_headword": "Lo / La"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/1-basic/interrogative_pronouns_e_object_pronouns.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 9,
-      "baseline_headword": "Tú / Usted / Ustedes (Sujeto)",
-      "direction_headword": "La / Le / A ella"
     },
     {
       "direction": "en_es",
@@ -2549,37 +4652,6 @@
       "type": "WORD_COUNT_MISMATCH",
       "baseline_count": 5,
       "direction_count": 4
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis.json",
-      "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 12,
-      "direction_count": 11
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 8,
-      "baseline_headword": "Tal / Semejante cosa",
-      "direction_headword": "Suyo / Suya / Suyos / Suyas (de ellos/ellas)"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 9,
-      "baseline_headword": "Suyo / Suya / Suyos / Suyas (de ellos/ellas)",
-      "direction_headword": "Suyo / Suya / Suyos / Suyas (de él)"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/2-intermediate/demonstrative_pronouns_e_possessive_pronouns_and_emphasis.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 10,
-      "baseline_headword": "Su / Sus (de él) (Determinante)",
-      "direction_headword": "Mi propio/a"
     },
     {
       "direction": "en_es",
@@ -2709,18 +4781,30 @@
     {
       "direction": "en_es",
       "file": "verbs/1-basic/action.json",
-      "type": "IMAGE_MISSING",
-      "word_index": 0,
-      "def_index": 1,
-      "name": "Hacer (una actividad)",
-      "expected_imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_0_def1.avif"
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 34,
+      "direction_count": 32
     },
     {
       "direction": "en_es",
       "file": "verbs/1-basic/communication.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 11,
+      "baseline_count": 15,
       "direction_count": 9
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/1-basic/feelings.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 7
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/1-basic/movement.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 21,
+      "direction_count": 19
     },
     {
       "direction": "en_es",
@@ -2755,69 +4839,58 @@
     },
     {
       "direction": "en_es",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 37,
+      "direction_count": 22
+    },
+    {
+      "direction": "en_es",
       "file": "verbs/2-intermediate/being_state.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 5,
+      "baseline_count": 6,
       "direction_count": 2
     },
     {
       "direction": "en_es",
-      "file": "verbs/2-intermediate/being_state_e_creation.json",
+      "file": "verbs/2-intermediate/communication.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 11,
-      "direction_count": 8
+      "baseline_count": 15,
+      "direction_count": 11
     },
     {
       "direction": "en_es",
-      "file": "verbs/2-intermediate/being_state_e_creation.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 4,
-      "baseline_headword": "Existir",
-      "direction_headword": "Construir/Edificar"
-    },
-    {
-      "direction": "en_es",
-      "file": "verbs/2-intermediate/being_state_e_creation.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 5,
-      "baseline_headword": "Construir/Edificar",
-      "direction_headword": "Levantar/Alzar"
-    },
-    {
-      "direction": "en_es",
-      "file": "verbs/2-intermediate/being_state_e_creation.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 6,
-      "baseline_headword": "Ocurrir / Suceder",
-      "direction_headword": "Desarrollar/Crear"
-    },
-    {
-      "direction": "en_es",
-      "file": "verbs/2-intermediate/being_state_e_creation.json",
-      "type": "WORD_MISALIGNED",
-      "word_index": 7,
-      "baseline_headword": "Levantar/Alzar",
-      "direction_headword": "Formar/Crear"
+      "file": "verbs/2-intermediate/creation.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 7,
+      "direction_count": 6
     },
     {
       "direction": "en_es",
       "file": "verbs/2-intermediate/feelings.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 5,
+      "baseline_count": 8,
       "direction_count": 4
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/movement.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 8
     },
     {
       "direction": "en_es",
       "file": "verbs/2-intermediate/possession_exchange.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 5,
+      "baseline_count": 9,
       "direction_count": 3
     },
     {
       "direction": "en_es",
       "file": "verbs/2-intermediate/thinking.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 12,
+      "baseline_count": 17,
       "direction_count": 16
     },
     {
@@ -2902,6 +4975,59 @@
     },
     {
       "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 12,
+      "baseline_headword": "Depender",
+      "direction_headword": "Reconocer (identificar)"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 13,
+      "baseline_headword": "Descubrir",
+      "direction_headword": "Dudar (no estar seguro)"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 14,
+      "baseline_headword": "Notar / Darse cuenta",
+      "direction_headword": "Planear/Planificar"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 15,
+      "baseline_headword": "Probar / Demostrar",
+      "direction_headword": "Preocuparse"
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/2-intermediate/work.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 16,
+      "direction_count": 9
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/3-advanced/action.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 24,
+      "direction_count": 11
+    },
+    {
+      "direction": "en_es",
+      "file": "verbs/3-advanced/communication.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 13,
+      "direction_count": 12
+    },
+    {
+      "direction": "en_es",
       "file": "verbs/3-advanced/movement.json",
       "type": "WORD_COUNT_MISMATCH",
       "baseline_count": 5,
@@ -2916,147 +5042,144 @@
     },
     {
       "direction": "en_es",
-      "file": "adverbs/1-basic/core_survival_e_frequency_routine.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 2,
-      "def_index": 0,
-      "name": "No"
+      "file": "verbs/3-advanced/thinking.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 14,
+      "direction_count": 11
     },
     {
       "direction": "en_es",
-      "file": "adverbs/1-basic/core_survival_e_frequency_routine.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
+      "file": "verbs/3-advanced/work.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 20,
+      "direction_count": 15
+    },
+    {
+      "direction": "es_de",
+      "file": "adjectives/1-basic/access_readiness_and_effort.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 11,
+      "direction_count": 8
+    },
+    {
+      "direction": "es_de",
+      "file": "adjectives/1-basic/emotions_and_personality.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 9
+    },
+    {
+      "direction": "es_de",
+      "file": "adjectives/1-basic/health_safety_and_emergency.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 8,
+      "direction_count": 7
+    },
+    {
+      "direction": "es_de",
+      "file": "adjectives/1-basic/physical_state_and_condition.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 24,
+      "direction_count": 19
+    },
+    {
+      "direction": "es_de",
+      "file": "adjectives/1-basic/space_size_and_crowds.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 16,
+      "direction_count": 12
+    },
+    {
+      "direction": "es_de",
+      "file": "adjectives/1-basic/value_cost_and_evaluation.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 22,
+      "direction_count": 12
+    },
+    {
+      "direction": "es_de",
+      "file": "adjectives/2-intermediate/appearance_and_status.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 7
+    },
+    {
+      "direction": "es_de",
+      "file": "adjectives/2-intermediate/evaluation_comparison_and_comfort.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 33,
+      "direction_count": 8
+    },
+    {
+      "direction": "es_de",
+      "file": "adjectives/2-intermediate/experience_and_life_state.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 9,
+      "direction_count": 7
+    },
+    {
+      "direction": "es_de",
+      "file": "adjectives/2-intermediate/personality_and_character.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 19,
+      "direction_count": 14
+    },
+    {
+      "direction": "es_de",
+      "file": "adverbs/1-basic/core_survival.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 10
+    },
+    {
+      "direction": "es_de",
+      "file": "adverbs/1-basic/manner_degree_quantity.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 17,
+      "direction_count": 14
+    },
+    {
+      "direction": "es_de",
+      "file": "adverbs/1-basic/place_direction.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 23,
+      "direction_count": 22
+    },
+    {
+      "direction": "es_de",
+      "file": "adverbs/1-basic/time_sequence.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 15,
+      "direction_count": 13
+    },
+    {
+      "direction": "es_de",
+      "file": "adverbs/2-intermediate/degree_precision.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 6,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
+      "file": "adverbs/2-intermediate/stance_certainty.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 13,
+      "direction_count": 12
+    },
+    {
+      "direction": "es_de",
+      "file": "connectors/1-basic/cause_effect_basics.json",
+      "type": "WORD_MISALIGNED",
       "word_index": 4,
-      "def_index": 0,
-      "name": "No"
+      "baseline_headword": "Como resultado / Por eso",
+      "direction_headword": "Entonces / En ese caso"
     },
     {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 0,
-      "def_index": 0,
-      "name": "Alguien"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 2,
-      "def_index": 0,
-      "name": "Alguien (en preguntas)"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 2,
-      "def_index": 1,
-      "name": "Alguien (en preguntas)"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 2,
-      "def_index": 2,
-      "name": "Alguien (en preguntas)"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 4,
-      "def_index": 0,
-      "name": "Todos / Todas (las personas)"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 6,
-      "def_index": 0,
-      "name": "Nadie"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 9,
-      "def_index": 0,
-      "name": "Otro / Otra"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 9,
-      "def_index": 1,
-      "name": "Otro / Otra"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 11,
-      "def_index": 0,
-      "name": "Todos / Todas (las personas)"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 12,
-      "def_index": 0,
-      "name": "Nadie"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 13,
-      "def_index": 0,
-      "name": "Alguien (en preguntas)"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 13,
-      "def_index": 1,
-      "name": "Alguien (en preguntas)"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 13,
-      "def_index": 2,
-      "name": "Alguien (en preguntas)"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 14,
-      "def_index": 0,
-      "name": "Alguien"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 15,
-      "def_index": 0,
-      "name": "Alguien más"
-    },
-    {
-      "direction": "en_es",
-      "file": "pronouns/3-advanced/indefinite_pronouns.json",
-      "type": "IMAGE_MISSING_NO_BASELINE",
-      "word_index": 19,
-      "def_index": 0,
-      "name": "Alguien más"
+      "direction": "es_de",
+      "file": "connectors/1-basic/contrast_condition_basics.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 6,
+      "direction_count": 5
     },
     {
       "direction": "es_de",
@@ -3077,9 +5200,51 @@
     },
     {
       "direction": "es_de",
+      "file": "connectors/2-intermediate/contrast_and_condition.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 13,
+      "direction_count": 11
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/animals.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 27,
+      "direction_count": 25
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/clock_time.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 6,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/clothes.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 21,
+      "direction_count": 18
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/economy.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 8,
+      "direction_count": 6
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/family.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 23,
+      "direction_count": 18
+    },
+    {
+      "direction": "es_de",
       "file": "nouns/1-basic/food_drink.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 41,
+      "baseline_count": 46,
       "direction_count": 42
     },
     {
@@ -3260,6 +5425,77 @@
     },
     {
       "direction": "es_de",
+      "file": "nouns/1-basic/food_drink.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 41,
+      "baseline_headword": "Crema",
+      "direction_headword": "Helado"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/health.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 8,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/home_rooms.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 14,
+      "direction_count": 13
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/household_items.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 33,
+      "direction_count": 32
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/jobs.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 22,
+      "direction_count": 19
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/measurement_quantity.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 7,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/media.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 17,
+      "direction_count": 14
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/nature.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 36,
+      "direction_count": 33
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/personal_items.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 11
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/places.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 29,
+      "direction_count": 23
+    },
+    {
+      "direction": "es_de",
       "file": "nouns/1-basic/process_change.json",
       "type": "WORD_COUNT_MISMATCH",
       "baseline_count": 4,
@@ -3267,9 +5503,79 @@
     },
     {
       "direction": "es_de",
+      "file": "nouns/1-basic/school.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 23,
+      "direction_count": 21
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/social_customs.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 8
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/sports.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 9
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/technology.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 14,
+      "direction_count": 11
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/1-basic/transport.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 17,
+      "direction_count": 16
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/analysis_research.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 14,
+      "direction_count": 13
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/classification.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 7,
+      "direction_count": 6
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/communication.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 18,
+      "direction_count": 17
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/economy.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 28,
+      "direction_count": 25
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/goals_plans.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 11
+    },
+    {
+      "direction": "es_de",
       "file": "nouns/2-intermediate/health.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 20,
+      "baseline_count": 22,
       "direction_count": 23
     },
     {
@@ -3434,6 +5740,29 @@
     },
     {
       "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 20,
+      "baseline_headword": "Ejercicio",
+      "direction_headword": "Salud mental"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/health.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 21,
+      "baseline_headword": "Vista",
+      "direction_headword": "Obesidad"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/household_items.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 6,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
       "file": "nouns/2-intermediate/location.json",
       "type": "WORD_COUNT_MISMATCH",
       "baseline_count": 4,
@@ -3462,6 +5791,13 @@
       "word_index": 3,
       "baseline_headword": "Cercanías / Proximidad",
       "direction_headword": "Punto de referencia / Monumento"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/logic_reasoning.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 9,
+      "direction_count": 7
     },
     {
       "direction": "es_de",
@@ -3504,6 +5840,27 @@
     },
     {
       "direction": "es_de",
+      "file": "nouns/2-intermediate/measurement_quantity.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 11,
+      "direction_count": 8
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/media.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 25,
+      "direction_count": 23
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/nature.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 10
+    },
+    {
+      "direction": "es_de",
       "file": "nouns/2-intermediate/numbers.json",
       "type": "WORD_COUNT_MISMATCH",
       "baseline_count": 9,
@@ -3527,9 +5884,16 @@
     },
     {
       "direction": "es_de",
+      "file": "nouns/2-intermediate/people.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 7,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
       "file": "nouns/2-intermediate/places.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 12,
+      "baseline_count": 13,
       "direction_count": 14
     },
     {
@@ -3550,9 +5914,59 @@
     },
     {
       "direction": "es_de",
+      "file": "nouns/2-intermediate/places.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 12,
+      "baseline_headword": "Lugar / Punto",
+      "direction_headword": "Entrada"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/process_change.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 38,
+      "direction_count": 36
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/school.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 16,
+      "direction_count": 14
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/social_relations.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 26,
+      "direction_count": 24
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/society.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 37,
+      "direction_count": 33
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/states_conditions.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 21,
+      "direction_count": 17
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/structure_components.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 23,
+      "direction_count": 19
+    },
+    {
+      "direction": "es_de",
       "file": "nouns/2-intermediate/technology.json",
       "type": "WORD_COUNT_MISMATCH",
-      "baseline_count": 17,
+      "baseline_count": 19,
       "direction_count": 18
     },
     {
@@ -3610,6 +6024,14 @@
       "word_index": 16,
       "baseline_headword": "Transmisión en línea / Streaming",
       "direction_headword": "Ciberseguridad"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/technology.json",
+      "type": "WORD_MISALIGNED",
+      "word_index": 17,
+      "baseline_headword": "Máquina",
+      "direction_headword": "Transmisión en línea / Streaming"
     },
     {
       "direction": "es_de",
@@ -3681,6 +6103,55 @@
       "word_index": 23,
       "baseline_headword": "Peatón",
       "direction_headword": "Itinerario"
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/2-intermediate/work.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 8,
+      "direction_count": 6
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/3-advanced/economy.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 6,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/3-advanced/materials_substances.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 6,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/3-advanced/measurement_quantity.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 7,
+      "direction_count": 6
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/3-advanced/society.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 6,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
+      "file": "nouns/3-advanced/work.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 7,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
+      "file": "pronouns/1-basic/indefinite_pronouns.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 16,
+      "direction_count": 15
     },
     {
       "direction": "es_de",
@@ -3774,6 +6245,132 @@
       "word_index": 3,
       "baseline_headword": "Ninguno (de dos) (Pronombre)",
       "direction_headword": "Ninguno (de dos) (Determinante)"
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/1-basic/action.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 34,
+      "direction_count": 32
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/1-basic/communication.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 15,
+      "direction_count": 11
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/1-basic/feelings.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 10,
+      "direction_count": 7
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/1-basic/movement.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 21,
+      "direction_count": 19
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/2-intermediate/action.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 37,
+      "direction_count": 22
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/2-intermediate/being_state.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 6,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/2-intermediate/communication.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 15,
+      "direction_count": 11
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/2-intermediate/creation.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 7,
+      "direction_count": 6
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/2-intermediate/feelings.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 8,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/2-intermediate/modal_auxiliaries.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 6,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/2-intermediate/movement.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 12,
+      "direction_count": 8
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/2-intermediate/possession_exchange.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 9,
+      "direction_count": 5
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/2-intermediate/thinking.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 17,
+      "direction_count": 12
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/2-intermediate/work.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 16,
+      "direction_count": 9
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/3-advanced/action.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 24,
+      "direction_count": 11
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/3-advanced/communication.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 13,
+      "direction_count": 12
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/3-advanced/thinking.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 14,
+      "direction_count": 11
+    },
+    {
+      "direction": "es_de",
+      "file": "verbs/3-advanced/work.json",
+      "type": "WORD_COUNT_MISMATCH",
+      "baseline_count": 20,
+      "direction_count": 15
     }
   ]
 }

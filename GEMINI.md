@@ -14,6 +14,7 @@
 - **Payments**: active via **LemonSqueezy** (checkout + webhook), subscriptions saved in
   SurrealDB — see [`docs/modules/pricing.md`](docs/modules/pricing.md).
 - **Auth**: Google OAuth 2.0 → JWT.
+- **Local AI Engines (Cero Python / Cero Ollama / Cero ComfyUI)**: Local AI runs 100% natively in C++ with CUDA 13.3. Images use **`stable-diffusion.cpp`** (`sd-server` on `:8188` loading Flux 2 Klein GGUF from `/home/jcoronado/Desktop/dev/models/unet/` on GPU 0 RTX 5060 Ti). Text/prompt refinement uses **`llama.cpp`** (`llama-server` on `:8082` loading Qwen GGUF from `/home/jcoronado/Desktop/dev/models/clip/` on GPU 1 GTX 1660) and Gemini Cloud fallback. All AI models live in `/home/jcoronado/Desktop/dev/models/`. ComfyUI and Ollama are **DEPRECATED, NOT installed, and NOT used on this machine**.
 - **Infra**: multi-cloud — **GCP** (Caddy proxy + prod backend + dedicated DB, `fluency` project;
   also Cloud Run as overflow in project `launch-490115`), AWS (mirror), Azure (auxiliary +
   Azure DevOps CI/CD). Oracle **archived as powered-off backup** since Aug 4, 2026 — nothing
@@ -146,6 +147,8 @@ review this table **on the way in** and pick only what your floor requires — d
 | Pure Logic Tests | `client/scripts/test-*.mjs` (`npm test`) | Touching useCases/routes/contracts |
 | Blueprint Verifier | `./scripts/verify-blueprints.sh` | ALWAYS when closing backend work (closing rule) |
 | Image-Phrase Congruence Test | `scripts/check_flashcard_images.py` + `scripts/fix_flashcard_image_congruence.py` (skill: [`scripts/flashcard_image_congruence.skill.md`](scripts/flashcard_image_congruence.skill.md)) | Suspected wrong image on a card, or editing `json/` touching multiple words in a deck |
+| Query User Study Progress | `scripts/get_user_study_progress.py` (skill: [`.agents/skills/user-study-progress/SKILL.md`](.agents/skills/user-study-progress/SKILL.md)) | Checking real user learned cards (✓) vs pending (❌) without reading git json files |
+| Start Local Stack & AI | `scripts/start_local_stack.sh` (skill: [`.agents/skills/start-local-stack/SKILL.md`](.agents/skills/start-local-stack/SKILL.md)) | Launch SurrealDB, Rust backend, Vite frontend, llama-server, sd-server, and cloudflared tunnel |
 | Credentials | `SECRETS_MAP.md` (LOCAL ONLY) | Any server/DB access |
 
 The "Dependencies" section of each module's blueprint is the per-floor version of this table:
@@ -207,6 +210,8 @@ physically inspect the site (SSH, runtime, browser), verify live, fix, and close
 | Archived Oracle infra / reactivation | [`tools/oracle-legacy/README.md`](tools/oracle-legacy/README.md) |
 | Archived AWS↔Oracle private tunnel | [`tools/oracle-legacy/wireguard-aws-oracle.md`](tools/oracle-legacy/wireguard-aws-oracle.md) |
 | Verify/fix image-phrase congruence across languages | [`scripts/flashcard_image_congruence.skill.md`](scripts/flashcard_image_congruence.skill.md) |
+| Query exact user study progress & learned cards | [`.agents/skills/user-study-progress/SKILL.md`](.agents/skills/user-study-progress/SKILL.md) |
+| Start full local stack & AI engines | [`.agents/skills/start-local-stack/SKILL.md`](.agents/skills/start-local-stack/SKILL.md) |
 | General technical codebase structure | [`CODEBASE.md`](CODEBASE.md) |
 | Security (findings & remediation) | [`SECURITY.md`](SECURITY.md) |
 | CSS quality / frontend structure spec | [`docs/REFACTOR_CSS_SPEC.md`](docs/REFACTOR_CSS_SPEC.md) |

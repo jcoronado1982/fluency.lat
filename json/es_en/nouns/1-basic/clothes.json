@@ -466,5 +466,83 @@
     "phonetic": "/ʃɔːrts/",
     "search_term": "noun/clothing/essentials",
     "spoken_phonetic_us": "/ʃɔːrts/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "socks",
+    "phonetic": "/sɒks/",
+    "spoken_phonetic_us": "/sɑːks/",
+    "search_term": "noun/clothing/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Clothing",
+    "definitions": [
+      {
+        "meaning": "Calcetines / Medias",
+        "usage_example": "Don't forget to put on warm socks.",
+        "pronunciation_guide_es": "/DONT_for-GUET_tu_PUT_on_WORM_SAKS/",
+        "usage_example_es": "No olvides ponerte calcetines abrigados.",
+        "char_count": "one",
+        "usage_context_en": "Garments worn on the feet inside shoes.",
+        "usage_context_es": "Prendas que se usan en los pies dentro de los zapatos.",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_socks_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "glove",
+    "phonetic": "/ɡlʌv/",
+    "spoken_phonetic_us": "/ɡlʌv/",
+    "search_term": "noun/clothing/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Clothing",
+    "definitions": [
+      {
+        "meaning": "Guante",
+        "usage_example": "I lost one glove in the park.",
+        "pronunciation_guide_es": "/ai_LOST_wan_GLAV_in_de_PARK/",
+        "usage_example_es": "Perdí un guante en el parque.",
+        "char_count": "one",
+        "usage_context_en": "A covering for the hand worn for protection or warmth.",
+        "usage_context_es": "Cubierta para la mano usada para protección o abrigo.",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_glove_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "trousers",
+    "phonetic": "/ˈtraʊ.zəz/",
+    "spoken_phonetic_us": "/ˈtraʊ.zɚz/",
+    "search_term": "noun/clothing/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Clothing",
+    "definitions": [
+      {
+        "meaning": "Pantalones",
+        "usage_example": "These black trousers fit me well.",
+        "pronunciation_guide_es": "/DIS_blak_TRAU-sers_FIT_mi_WEL/",
+        "usage_example_es": "Estos pantalones negros me quedan bien.",
+        "char_count": "one",
+        "usage_context_en": "An outer garment covering the body from the waist to the ankles.",
+        "usage_context_es": "Prenda de vestir que cubre el cuerpo desde la cintura hasta los tobillos.",
+        "imagePath": "/card_images/nouns/1-basic/clothes/1-basic_clothes_card_trousers_def0.avif"
+      }
+    ]
   }
 ]

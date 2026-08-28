@@ -103,5 +103,31 @@
         "usage_context_es": "Usado cuando algo es posible pero no seguro."
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "of course",
+    "phonetic": "/əv kɔːs/",
+    "spoken_phonetic_us": "/əv kɔːrs/",
+    "search_term": "adverb/affirmation/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Core Survival",
+    "definitions": [
+      {
+        "meaning": "Por supuesto / Claro que sí",
+        "usage_example": "Can you help me? — Of course!",
+        "pronunciation_guide_es": "/KAN_iu_JELP_mi_—_ov_KORS/",
+        "usage_example_es": "¿Puedes ayudarme? — ¡Por supuesto!",
+        "char_count": "two",
+        "usage_context_en": "Used to introduce an idea or agree enthusiastically.",
+        "usage_context_es": "Usado para estar de acuerdo con entusiasmo o afirmar algo.",
+        "imagePath": "/card_images/adverbs/1-basic/core_survival/1-basic_of_course_def0.avif"
+      }
+    ]
   }
 ]

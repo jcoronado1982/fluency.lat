@@ -362,5 +362,31 @@
     "phonetic": "/ˌmæɡəˈziːn/",
     "search_term": "noun/communication/essentials",
     "spoken_phonetic_us": "/ˌmæɡəˈziːn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "video",
+    "phonetic": "/ˈvɪd.i.əʊ/",
+    "spoken_phonetic_us": "/ˈvɪd.i.oʊ/",
+    "search_term": "noun/art/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Video",
+        "usage_example": "Can you record a short video of the party?",
+        "pronunciation_guide_es": "/KAN_iu_ri-KORD_a_SHORT_VI-di-o_ov_de_PAR-ti/",
+        "usage_example_es": "¿Puedes grabar un video corto de la fiesta?",
+        "char_count": "one",
+        "usage_context_en": "A recording of moving visual images.",
+        "usage_context_es": "Una grabación de imágenes visuales en movimiento.",
+        "imagePath": "/card_images/nouns/1-basic/media/1-basic_media_card_video_def0.avif"
+      }
+    ]
   }
 ]

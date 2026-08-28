@@ -268,5 +268,57 @@
     "phonetic": "/draʊt/",
     "search_term": "noun/nature/weather/essentials",
     "spoken_phonetic_us": "/draʊt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "field",
+    "phonetic": "/fiːld/",
+    "spoken_phonetic_us": "/fiːld/",
+    "search_term": "noun/nature/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Nature & Materials",
+    "definitions": [
+      {
+        "meaning": "Campo",
+        "usage_example": "The cows are in the field.",
+        "pronunciation_guide_es": "/de_KAUS_ar_in_de_FILD/",
+        "usage_example_es": "Las vacas están en el campo.",
+        "char_count": "one",
+        "usage_context_en": "An open area of land, often used for farming.",
+        "usage_context_es": "Un área abierta de tierra, a menudo usada para cultivos.",
+        "imagePath": "/card_images/nouns/2-intermediate/nature/2-intermediate_nature_card_10_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "heat",
+    "phonetic": "/hiːt/",
+    "spoken_phonetic_us": "/hiːt/",
+    "search_term": "noun/nature/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Nature & Materials",
+    "definitions": [
+      {
+        "meaning": "Calor",
+        "usage_example": "The heat was unbearable in July.",
+        "pronunciation_guide_es": "/de_JIT_UAS_anBErabol_in_yuLAI/",
+        "usage_example_es": "El calor era insoportable en julio.",
+        "char_count": "one",
+        "usage_context_en": "The quality of being hot.",
+        "usage_context_es": "La cualidad de estar caliente.",
+        "imagePath": "/card_images/nouns/2-intermediate/nature/2-intermediate_nature_card_11_def0.avif"
+      }
+    ]
   }
 ]

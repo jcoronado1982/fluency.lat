@@ -197,5 +197,86 @@
         "imagePath": "/card_images/adjectives/2-intermediate/appearance_and_status/2-intermediate_appearance_and_status_card_6_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "foreign",
+    "phonetic": "/ˈfɔːrɪn/",
+    "spoken_phonetic_us": "/ˈfɔːrɪn/",
+    "search_term": "adjective/appearance/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Appearance & Style",
+    "definitions": [
+      {
+        "meaning": "Extranjero/a",
+        "usage_example": "She speaks three foreign languages.",
+        "pronunciation_guide_es": "/shi_SPIKS_ZRI_FOrin_LANguayes/",
+        "usage_example_es": "Ella habla tres idiomas extranjeros.",
+        "char_count": "two",
+        "usage_context_en": "From a different country.",
+        "usage_context_es": "De un país diferente.",
+        "imagePath": "/card_images/adjectives/2-intermediate/appearance_and_status/2-intermediate_appearance_and_status_card_7_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "local",
+    "phonetic": "/ˈloʊkəl/",
+    "spoken_phonetic_us": "/ˈloʊkəl/",
+    "search_term": "adjective/appearance/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Appearance & Style",
+    "definitions": [
+      {
+        "meaning": "Local",
+        "usage_example": "We shop at the local market.",
+        "pronunciation_guide_es": "/UI_SHOP_at_de_LOUkal_MARket/",
+        "usage_example_es": "Compramos en el mercado local.",
+        "char_count": "two",
+        "usage_context_en": "Belonging to a particular nearby area.",
+        "usage_context_es": "Que pertenece a un área cercana en particular.",
+        "imagePath": "/card_images/adjectives/2-intermediate/appearance_and_status/2-intermediate_appearance_and_status_card_8_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "round",
+    "phonetic": "/raʊnd/",
+    "spoken_phonetic_us": "/raʊnd/",
+    "search_term": "adjective/appearance/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Appearance & Style",
+    "definitions": [
+      {
+        "meaning": "Redondo/a",
+        "usage_example": "The table is round.",
+        "pronunciation_guide_es": "/de_TEIbol_is_RAUND/",
+        "usage_example_es": "La mesa es redonda.",
+        "char_count": "one",
+        "usage_context_en": "Shaped like a circle.",
+        "usage_context_es": "Con forma de círculo.",
+        "imagePath": "/card_images/adjectives/2-intermediate/appearance_and_status/2-intermediate_appearance_and_status_card_9_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
   }
 ]

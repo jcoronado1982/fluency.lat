@@ -440,5 +440,57 @@
     "phonetic": "/ˈstriːmɪŋ/",
     "search_term": "noun/technology/internet/essentials",
     "spoken_phonetic_us": "/ˈstriːmɪŋ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "machine",
+    "phonetic": "/məˈʃiːn/",
+    "spoken_phonetic_us": "/məˈʃiːn/",
+    "search_term": "noun/technology/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Technology & Internet",
+    "definitions": [
+      {
+        "meaning": "Máquina",
+        "usage_example": "This machine washes clothes.",
+        "pronunciation_guide_es": "/dis_maSHIN_UAshes_KLOUS/",
+        "usage_example_es": "Esta máquina lava ropa.",
+        "char_count": "two",
+        "usage_context_en": "A device with moving parts that does a job.",
+        "usage_context_es": "Un aparato con partes móviles que hace un trabajo.",
+        "imagePath": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_17_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "motor",
+    "phonetic": "/ˈmoʊtər/",
+    "spoken_phonetic_us": "/ˈmoʊtər/",
+    "search_term": "noun/technology/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Technology & Internet",
+    "definitions": [
+      {
+        "meaning": "Motor",
+        "usage_example": "The motor stopped working.",
+        "pronunciation_guide_es": "/de_MOUter_STOPT_UORking/",
+        "usage_example_es": "El motor dejó de funcionar.",
+        "char_count": "two",
+        "usage_context_en": "A machine that makes something move.",
+        "usage_context_es": "Una máquina que hace que algo se mueva.",
+        "imagePath": "/card_images/nouns/2-intermediate/technology/2-intermediate_technology_card_18_def0.avif"
+      }
+    ]
   }
 ]

@@ -240,5 +240,31 @@
         "imagePath": "/card_images/adjectives/3-advanced/3-advanced_card_13_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "famous",
+    "phonetic": "/ˈfeɪ.məs/",
+    "spoken_phonetic_us": "/ˈfeɪ.məs/",
+    "search_term": "adjective/fame/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Emotions & Personality",
+    "definitions": [
+      {
+        "meaning": "Famoso / Conocido",
+        "usage_example": "He is a famous actor in Hollywood.",
+        "pronunciation_guide_es": "/ji_IS_a_FEI-mos_AK-tor_in_JA-li-wud/",
+        "usage_example_es": "Es un actor famoso en Hollywood.",
+        "char_count": "one",
+        "usage_context_en": "Known about by many people.",
+        "usage_context_es": "Conocido por muchas personas.",
+        "imagePath": "/card_images/adjectives/1-basic/emotions_and_personality/1-basic_famous_def0.avif"
+      }
+    ]
   }
 ]

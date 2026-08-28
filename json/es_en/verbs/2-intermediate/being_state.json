@@ -152,5 +152,31 @@
     ],
     "is_verb": true,
     "group_name": "Body & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "increase",
+    "phonetic": "/ɪnˈkriːs/",
+    "spoken_phonetic_us": "/ɪnˈkriːs/",
+    "search_term": "verb/increase/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Feelings & Reactions",
+    "definitions": [
+      {
+        "meaning": "Aumentar",
+        "usage_example": "Prices increased last month.",
+        "pronunciation_guide_es": "/PRAISes_inKRISD_LAST_MONZ/",
+        "usage_example_es": "Los precios aumentaron el mes pasado.",
+        "char_count": "two",
+        "usage_context_en": "To become greater in size or amount.",
+        "usage_context_es": "Volverse mayor en tamaño o cantidad.",
+        "imagePath": "/card_images/verbs/2-intermediate/being_state/2-intermediate_being_state_card_5_def0.avif"
+      }
+    ]
   }
 ]

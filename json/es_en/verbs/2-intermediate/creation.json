@@ -330,5 +330,43 @@
       }
     ],
     "group_name": "Building & Creating"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "produce",
+    "phonetic": "/prəˈduːs/",
+    "spoken_phonetic_us": "/prəˈduːs/",
+    "search_term": "verb/produce/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Building & Creating",
+    "definitions": [
+      {
+        "meaning": "Producir",
+        "usage_example": "The factory produces cars.",
+        "alternative_example": "This farm produces organic vegetables.",
+        "pronunciation_guide_es": "/de_FAKtori_proDUses_KARS/",
+        "usage_example_es": "La fábrica produce carros.",
+        "char_count": "two",
+        "usage_context_en": "To make or manufacture something.",
+        "usage_context_es": "Fabricar o elaborar algo.",
+        "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_6_def0.avif"
+      },
+      {
+        "meaning": "Producir (un resultado)",
+        "usage_example": "The plan produced good results.",
+        "alternative_example": "Stress can produce headaches.",
+        "pronunciation_guide_es": "/de_PLAN_proDUSD_gud_riSULTS/",
+        "usage_example_es": "El plan produjo buenos resultados.",
+        "char_count": "two",
+        "usage_context_en": "To cause or generate a result.",
+        "usage_context_es": "Causar o generar un resultado.",
+        "imagePath": "/card_images/verbs/2-intermediate/creation/2-intermediate_creation_card_6_def1.avif"
+      }
+    ]
   }
 ]

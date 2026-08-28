@@ -128,5 +128,57 @@
     "phonetic": "/ɪˈfɪʃənsi/",
     "search_term": "noun/work/added",
     "spoken_phonetic_us": "/ɪˈfɪʃənsi/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "master",
+    "phonetic": "/ˈmæstər/",
+    "spoken_phonetic_us": "/ˈmæstər/",
+    "search_term": "noun/work/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Maestro / Experto",
+        "usage_example": "He is a master of his craft.",
+        "pronunciation_guide_es": "/ji_is_a_MASter_of_jis_KRAFT/",
+        "usage_example_es": "Él es un maestro de su oficio.",
+        "char_count": "two",
+        "usage_context_en": "Someone highly skilled at something.",
+        "usage_context_es": "Alguien muy hábil en algo.",
+        "imagePath": "/card_images/nouns/3-advanced/work/3-advanced_work_card_5_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "rank",
+    "phonetic": "/ræŋk/",
+    "spoken_phonetic_us": "/ræŋk/",
+    "search_term": "noun/work/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Rango",
+        "usage_example": "He has the rank of captain.",
+        "pronunciation_guide_es": "/ji_JAS_de_RANK_of_KAPtin/",
+        "usage_example_es": "Él tiene el rango de capitán.",
+        "char_count": "one",
+        "usage_context_en": "A position in a hierarchy.",
+        "usage_context_es": "Una posición en una jerarquía.",
+        "imagePath": "/card_images/nouns/3-advanced/work/3-advanced_work_card_6_def0.avif"
+      }
+    ]
   }
 ]

@@ -116,7 +116,7 @@ export const getNextStudyStep = (
     categoryName,
     deckName,
     groupName,
-    { categoryOrder = [], groupOrder = [], completedGroups = [] } = {},
+    { categoryOrder = [], groupOrder = [], completedGroups = [], nestedDeckNames = null } = {},
 ) => {
     const completedSet = new Set((Array.isArray(completedGroups) ? completedGroups : []).filter(Boolean));
     const orderedCategories = applyPreferenceOrder(
@@ -128,6 +128,30 @@ export const getNextStudyStep = (
 
     const categoryEntry = categoryEntries.find(({ name }) => name === categoryName);
     if (!categoryEntry) return null;
+
+    // Categorías anidadas (nouns/verbs/adjectives/…): `catalogOrder.json` modela sus "decks" como
+    // los 3 niveles (`1-basic`/`2-intermediate`/`3-advanced`), pero el `deckName` real que llega
+    // acá es `<nivel>/<tema>` (ej. `3-advanced/change_action`) — nunca matchea esas claves, así
+    // que `deckIndex` de abajo siempre daba -1 y esta función saltaba directo a "siguiente
+    // categoría" al terminar CUALQUIER mazo anidado, sin importar el nivel (bug real reportado:
+    // "termino un mazo avanzado y me manda a básico" — en realidad saltaba de categoría, y esa
+    // categoría siguiente caía en básico si el usuario nunca la había estudiado antes, de ahí que
+    // pasara "a veces sí, a veces no"). Con la lista real de mazos de la categoría (ya ordenada
+    // nivel→tema por `sortDeckNames`) avanzamos al siguiente mazo DENTRO de la misma categoría
+    // primero, y solo si es el último (fin del nivel avanzado) caemos al salto de categoría de
+    // abajo, igual que en el camino no anidado.
+    if (Array.isArray(nestedDeckNames) && nestedDeckNames.length > 0) {
+        const nestedIndex = nestedDeckNames.indexOf(deckName);
+        if (nestedIndex !== -1 && nestedIndex + 1 < nestedDeckNames.length) {
+            return {
+                type: 'deck',
+                category: categoryName,
+                deck: nestedDeckNames[nestedIndex + 1],
+                group: null,
+            };
+        }
+    }
+
     const deckNames = Object.keys(categoryEntry.decks || {});
     const deckIndex = deckNames.indexOf(deckName);
 

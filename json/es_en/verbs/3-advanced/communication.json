@@ -322,5 +322,32 @@
       }
     ],
     "group_name": "Academic Communication"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "remark",
+    "phonetic": "/rɪˈmɑːrk/",
+    "spoken_phonetic_us": "/rɪˈmɑːrk/",
+    "search_term": "verb/remark/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Academic Communication",
+    "definitions": [
+      {
+        "meaning": "Comentar / Observar",
+        "usage_example": "She remarked that the plan was risky.",
+        "pronunciation_guide_es": "/shi_riMARKT_de_PLAN_UAS_RISki/",
+        "usage_example_es": "Ella comentó que el plan era arriesgado.",
+        "char_count": "two",
+        "usage_context_en": "To make a comment about something noticed.",
+        "usage_context_es": "Hacer un comentario sobre algo que se nota.",
+        "imagePath": "/card_images/verbs/3-advanced/communication/3-advanced_communication_card_12_def0.avif",
+        "alternative_example": "He remarked on how quiet the city was."
+      }
+    ]
   }
 ]

@@ -128,5 +128,31 @@
     "phonetic": "/trænˈzækʃən/",
     "search_term": "noun/concept/essentials",
     "spoken_phonetic_us": "/trænˈzækʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "charge",
+    "phonetic": "/tʃɑːrdʒ/",
+    "spoken_phonetic_us": "/tʃɑːrdʒ/",
+    "search_term": "noun/economy/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Cargo / Cobro",
+        "usage_example": "There's an extra charge for delivery.",
+        "pronunciation_guide_es": "/DERS_an_EKstra_CHARCH_for_diLIveri/",
+        "usage_example_es": "Hay un cargo extra por la entrega.",
+        "char_count": "one",
+        "usage_context_en": "An amount of money you must pay.",
+        "usage_context_es": "Una cantidad de dinero que debes pagar.",
+        "imagePath": "/card_images/nouns/3-advanced/economy/3-advanced_economy_card_5_def0.avif"
+      }
+    ]
   }
 ]

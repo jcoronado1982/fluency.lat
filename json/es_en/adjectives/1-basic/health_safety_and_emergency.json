@@ -187,5 +187,32 @@
         "imagePath": "/card_images/adjectives/1-basic/health_safety_and_emergency/1-basic_health_safety_and_emergency_card_6_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ill",
+    "phonetic": "/ɪl/",
+    "spoken_phonetic_us": "/ɪl/",
+    "search_term": "adjective/basic/health_safety",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Health & Emergency",
+    "definitions": [
+      {
+        "meaning": "Enfermo/a",
+        "usage_example": "He feels ill today.",
+        "pronunciation_guide_es": "/ji_FILS_IL_tuDEI/",
+        "usage_example_es": "Él se siente enfermo hoy.",
+        "char_count": "one",
+        "usage_context_en": "Not in good health; sick.",
+        "usage_context_es": "No estar en buena salud; enfermo.",
+        "imagePath": "/card_images/adjectives/1-basic/health_safety_and_emergency/1-basic_health_safety_and_emergency_card_7_def0.avif"
+      }
+    ],
+    "category": "Basic"
   }
 ]

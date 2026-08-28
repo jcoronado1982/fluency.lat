@@ -246,5 +246,83 @@
     "phonetic": "/ˈkwɒntəti/",
     "search_term": "noun/concept/essentials",
     "spoken_phonetic_us": "/ˈkwɑntəti/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "amount",
+    "phonetic": "/əˈmaʊnt/",
+    "spoken_phonetic_us": "/əˈmaʊnt/",
+    "search_term": "noun/measurement_quantity/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Cantidad",
+        "usage_example": "A large amount of money was spent.",
+        "pronunciation_guide_es": "/a_LARCH_aMAUNT_of_MAni_UAS_SPENT/",
+        "usage_example_es": "Se gastó una gran cantidad de dinero.",
+        "char_count": "two",
+        "usage_context_en": "How much of something there is.",
+        "usage_context_es": "Cuánto hay de algo.",
+        "imagePath": "/card_images/nouns/2-intermediate/measurement_quantity/2-intermediate_measurement_quantity_card_8_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "figure",
+    "phonetic": "/ˈfɪɡjər/",
+    "spoken_phonetic_us": "/ˈfɪɡjər/",
+    "search_term": "noun/measurement_quantity/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Cifra / Número",
+        "usage_example": "Sales figures were high this year.",
+        "pronunciation_guide_es": "/SEILS_FIguers_UER_JAI_dis_YIR/",
+        "usage_example_es": "Las cifras de ventas fueron altas este año.",
+        "char_count": "two",
+        "usage_context_en": "A number representing an amount.",
+        "usage_context_es": "Un número que representa una cantidad.",
+        "imagePath": "/card_images/nouns/2-intermediate/measurement_quantity/2-intermediate_measurement_quantity_card_9_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "speed",
+    "phonetic": "/spiːd/",
+    "spoken_phonetic_us": "/spiːd/",
+    "search_term": "noun/measurement_quantity/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Velocidad",
+        "usage_example": "The car was going at high speed.",
+        "pronunciation_guide_es": "/de_KAR_UAS_GOing_at_JAI_SPID/",
+        "usage_example_es": "El carro iba a alta velocidad.",
+        "char_count": "one",
+        "usage_context_en": "How fast something moves.",
+        "usage_context_es": "Qué tan rápido se mueve algo.",
+        "imagePath": "/card_images/nouns/2-intermediate/measurement_quantity/2-intermediate_measurement_quantity_card_10_def0.avif"
+      }
+    ]
   }
 ]

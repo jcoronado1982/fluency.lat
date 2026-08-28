@@ -490,5 +490,146 @@
       }
     ],
     "group_name": "Communication"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "admit",
+    "phonetic": "/ədˈmɪt/",
+    "spoken_phonetic_us": "/ədˈmɪt/",
+    "search_term": "verb/admit/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Communication",
+    "definitions": [
+      {
+        "meaning": "Admitir / Confesar",
+        "usage_example": "He admitted his mistake.",
+        "alternative_example": "She admitted she was wrong.",
+        "pronunciation_guide_es": "/ji_admited_jis_misSTEIK/",
+        "usage_example_es": "Él admitió su error.",
+        "char_count": "two",
+        "usage_context_en": "To say that something is true, often reluctantly.",
+        "usage_context_es": "Decir que algo es verdad, a veces con reticencia.",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_11_def0.avif"
+      },
+      {
+        "meaning": "Admitir (dejar entrar)",
+        "usage_example": "The school admits 200 students a year.",
+        "alternative_example": "You must be 18 to be admitted.",
+        "pronunciation_guide_es": "/de_SKUL_adMITS_TU_JANdred_STUdents/",
+        "usage_example_es": "La escuela admite 200 estudiantes al año.",
+        "char_count": "two",
+        "usage_context_en": "To formally allow someone to enter or join.",
+        "usage_context_es": "Permitir formalmente que alguien ingrese.",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_11_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "claim",
+    "phonetic": "/kleɪm/",
+    "spoken_phonetic_us": "/kleɪm/",
+    "search_term": "verb/claim/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Communication",
+    "definitions": [
+      {
+        "meaning": "Afirmar",
+        "usage_example": "He claims he saw a UFO.",
+        "alternative_example": "She claims to be an expert.",
+        "pronunciation_guide_es": "/ji_KLEIMS_ji_SO_a_IUFO/",
+        "usage_example_es": "Él afirma que vio un OVNI.",
+        "char_count": "one",
+        "usage_context_en": "To say something is true without proof.",
+        "usage_context_es": "Decir que algo es cierto sin prueba.",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_12_def0.avif"
+      },
+      {
+        "meaning": "Reclamar (algo que te pertenece)",
+        "usage_example": "You can claim your luggage at gate five.",
+        "alternative_example": "She claimed her prize at the office.",
+        "pronunciation_guide_es": "/iu_KAN_KLEIM_yor_LAgueich/",
+        "usage_example_es": "Puedes reclamar tu equipaje en la puerta cinco.",
+        "char_count": "one",
+        "usage_context_en": "To formally ask for something you are owed.",
+        "usage_context_es": "Pedir formalmente algo que te corresponde.",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_12_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "express",
+    "phonetic": "/ɪkˈsprɛs/",
+    "spoken_phonetic_us": "/ɪkˈsprɛs/",
+    "search_term": "verb/express/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Communication",
+    "definitions": [
+      {
+        "meaning": "Expresar",
+        "usage_example": "It's hard to express my feelings.",
+        "alternative_example": "She expressed her gratitude.",
+        "pronunciation_guide_es": "/its_JARD_tu_ekSPRES_mai_FILings/",
+        "usage_example_es": "Es difícil expresar mis sentimientos.",
+        "char_count": "two",
+        "usage_context_en": "To show a thought or feeling in words.",
+        "usage_context_es": "Mostrar un pensamiento o sentimiento con palabras.",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_13_def0.avif"
+      },
+      {
+        "meaning": "Expresarse (comunicarse)",
+        "usage_example": "He expresses himself well in English.",
+        "alternative_example": "Children express themselves through drawing.",
+        "pronunciation_guide_es": "/ji_ekSPREses_jimSELF_UEL_in_INglish/",
+        "usage_example_es": "Él se expresa bien en inglés.",
+        "char_count": "two",
+        "usage_context_en": "To communicate one's own ideas clearly.",
+        "usage_context_es": "Comunicar las propias ideas con claridad.",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_13_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "refuse",
+    "phonetic": "/rɪˈfjuːz/",
+    "spoken_phonetic_us": "/rɪˈfjuːz/",
+    "search_term": "verb/refuse/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Social & Exchange",
+    "definitions": [
+      {
+        "meaning": "Rechazar / Negarse",
+        "usage_example": "He refused to help.",
+        "alternative_example": "She refused the offer.",
+        "pronunciation_guide_es": "/ji_riFIUSD_tu_JELP/",
+        "usage_example_es": "Él se negó a ayudar.",
+        "char_count": "two",
+        "usage_context_en": "To say no to something offered or requested.",
+        "usage_context_es": "Decir que no a algo ofrecido o pedido.",
+        "imagePath": "/card_images/verbs/2-intermediate/communication/2-intermediate_communication_card_14_def0.avif"
+      }
+    ]
   }
 ]

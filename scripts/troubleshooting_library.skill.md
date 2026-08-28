@@ -522,3 +522,10 @@ Este documento es una base de conocimientos dinámica de errores técnicos, bugs
 3. **Persistencia:** Realizar un `git commit` específico para actualizar esta biblioteca.
 
 **EL OBJETIVO ES NO TROPEZAR DOS VECES CON LA MISMA PIEDRA.**
+
+### 17. React cascade aborts image fetch immediately on card change
+- **Fecha:** 2026-08-24
+- **Síntoma:** Al cambiar de tarjeta ("Next Card"), la imagen mostraba el placeholder gris `noimages.png` de inmediato, sin loader. Si el usuario daba click a la definición difuminada, la imagen sí cargaba.
+- **Causa real:** El componente `Flashcard.jsx` sufre una cascada de re-renderizados síncronos al cambiar de tarjeta. El custom hook `useImageGeneration` tenía un `useEffect` que se disparaba con el cambio del ID de la tarjeta, el cual creaba un `AbortController` nuevo y lanzaba la petición HTTP (`imagePort.resolve`), pero la cascada de renders de `Flashcard` volvía a disparar dependencias y funciones de limpieza milisegundos después, provocando que el `AbortController` cancelara la petición recién iniciada ("AbortError"). El pipeline capturaba el error silenciosamente y dejaba la imagen en `null`. Un click manual esquivaba React (`onClick`), por eso sí funcionaba.
+- **Solución:** Se envolvió el disparo de la petición en un `setTimeout` de 50ms dentro del `useEffect` unificado, aislando la petición de la tormenta de re-renderizados inicial. Pasados los 50ms, valida que el ID siga siendo el mismo y ejecuta de forma segura el fetch.
+- **Lección:** Las cargas de red orquestadas "on mount" bajo jerarquías complejas de React 19 son extremadamente vulnerables a abortos prematuros inducidos por limpiezas de efectos. Si una petición red funciona on-click pero falla/se anula "on-load", el síntoma apunta a una función de limpieza (cleanup function) disparándose a traición. Enviar la llamada a la red tras el fin de ciclo del Event Loop (`setTimeout`) es una defensa sólida.

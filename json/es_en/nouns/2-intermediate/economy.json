@@ -668,5 +668,83 @@
     "phonetic": "/ɪnˈfleɪʃən/",
     "search_term": "noun/economy/essentials",
     "spoken_phonetic_us": "/ɪnˈfleɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "deal",
+    "phonetic": "/diːl/",
+    "spoken_phonetic_us": "/diːl/",
+    "search_term": "noun/economy/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Trato / Negocio",
+        "usage_example": "They made a good deal.",
+        "pronunciation_guide_es": "/DEI_MEID_a_GUD_DIL/",
+        "usage_example_es": "Hicieron un buen trato.",
+        "char_count": "one",
+        "usage_context_en": "An agreement, especially in business.",
+        "usage_context_es": "Un acuerdo, especialmente en negocios.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_25_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "product",
+    "phonetic": "/ˈprɒdʌkt/",
+    "spoken_phonetic_us": "/ˈprɒdʌkt/",
+    "search_term": "noun/economy/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Producto",
+        "usage_example": "This is our best-selling product.",
+        "pronunciation_guide_es": "/dis_is_AUR_BEST_SEling_PROdakt/",
+        "usage_example_es": "Este es nuestro producto más vendido.",
+        "char_count": "two",
+        "usage_context_en": "Something made to be sold.",
+        "usage_context_es": "Algo fabricado para ser vendido.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_26_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "trade",
+    "phonetic": "/treɪd/",
+    "spoken_phonetic_us": "/treɪd/",
+    "search_term": "noun/economy/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Comercio",
+        "usage_example": "Trade between the two countries grew.",
+        "pronunciation_guide_es": "/TREID_biTUIN_de_TU_KANtris_GRU/",
+        "usage_example_es": "El comercio entre los dos países creció.",
+        "char_count": "one",
+        "usage_context_en": "The buying and selling of goods.",
+        "usage_context_es": "La compra y venta de bienes.",
+        "imagePath": "/card_images/nouns/2-intermediate/economy/2-intermediate_economy_card_27_def0.avif"
+      }
+    ]
   }
 ]

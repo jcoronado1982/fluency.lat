@@ -284,5 +284,31 @@
     "phonetic": "/ˈspiːkər/",
     "search_term": "noun/technology/essentials",
     "spoken_phonetic_us": "/ˈspiːkər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "laptop",
+    "phonetic": "/ˈlæp.tɒp/",
+    "spoken_phonetic_us": "/ˈlæp.tɑːp/",
+    "search_term": "noun/device/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Household",
+    "definitions": [
+      {
+        "meaning": "Computadora portátil / Laptop",
+        "usage_example": "I bring my laptop to work every day.",
+        "pronunciation_guide_es": "/ai_BRING_mai_LAP-top_tu_WUORK_EV-ri_DEI/",
+        "usage_example_es": "Llevo mi computadora portátil al trabajo todos los días.",
+        "char_count": "one",
+        "usage_context_en": "A portable computer suitable for use while traveling.",
+        "usage_context_es": "Una computadora portátil adecuada para usar mientras se viaja.",
+        "imagePath": "/card_images/nouns/1-basic/technology/1-basic_technology_card_laptop_def0.avif"
+      }
+    ]
   }
 ]

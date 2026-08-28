@@ -295,5 +295,356 @@
       }
     ],
     "group_name": "Influence & Change"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "attack",
+    "phonetic": "/əˈtæk/",
+    "spoken_phonetic_us": "/əˈtæk/",
+    "search_term": "verb/attack/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Social Dynamics",
+    "definitions": [
+      {
+        "meaning": "Atacar",
+        "usage_example": "The army attacked at dawn.",
+        "pronunciation_guide_es": "/di_ARmi_aTAKT_at_DON/",
+        "usage_example_es": "El ejército atacó al amanecer.",
+        "char_count": "two",
+        "usage_context_en": "To use force against someone or something.",
+        "usage_context_es": "Usar la fuerza contra alguien o algo.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_11_def0.avif",
+        "alternative_example": "The critics attacked his new book."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "destroy",
+    "phonetic": "/dɪˈstrɔɪ/",
+    "spoken_phonetic_us": "/dɪˈstrɔɪ/",
+    "search_term": "verb/destroy/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Influence & Change",
+    "definitions": [
+      {
+        "meaning": "Destruir",
+        "usage_example": "The fire destroyed the building.",
+        "pronunciation_guide_es": "/de_FAIer_disTROID_de_BILding/",
+        "usage_example_es": "El incendio destruyó el edificio.",
+        "char_count": "two",
+        "usage_context_en": "To damage something so badly it no longer exists.",
+        "usage_context_es": "Dañar algo tan gravemente que deja de existir.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_12_def0.avif",
+        "alternative_example": "The flood destroyed the crops."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "extend",
+    "phonetic": "/ɪkˈstɛnd/",
+    "spoken_phonetic_us": "/ɪkˈstɛnd/",
+    "search_term": "verb/extend/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Influence & Change",
+    "definitions": [
+      {
+        "meaning": "Extender / Prolongar",
+        "usage_example": "They extended the deadline by a week.",
+        "pronunciation_guide_es": "/dei_ekSTENded_de_DEDlain_bai_a_UIK/",
+        "usage_example_es": "Extendieron el plazo una semana.",
+        "char_count": "two",
+        "usage_context_en": "To make something longer or larger.",
+        "usage_context_es": "Hacer algo más largo o más grande.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_13_def0.avif",
+        "alternative_example": "She extended her stay by two days."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "permit",
+    "phonetic": "/pərˈmɪt/",
+    "spoken_phonetic_us": "/pərˈmɪt/",
+    "search_term": "verb/permit/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Goals & Results",
+    "definitions": [
+      {
+        "meaning": "Permitir",
+        "usage_example": "The rules do not permit smoking here.",
+        "pronunciation_guide_es": "/de_RULS_du_NOT_perMIT_SMOking/",
+        "usage_example_es": "Las reglas no permiten fumar aquí.",
+        "char_count": "two",
+        "usage_context_en": "To formally allow something.",
+        "usage_context_es": "Permitir algo de manera formal.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_14_def0.avif",
+        "alternative_example": "This visa permits you to work here."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "separate",
+    "phonetic": "/ˈsɛpəreɪt/",
+    "spoken_phonetic_us": "/ˈsɛpəreɪt/",
+    "search_term": "verb/separate/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Influence & Change",
+    "definitions": [
+      {
+        "meaning": "Separar",
+        "usage_example": "Separate the whites from the yolks.",
+        "pronunciation_guide_es": "/SEparEIT_de_UAITS_from_de_YOULKS/",
+        "usage_example_es": "Separa las claras de las yemas.",
+        "char_count": "three",
+        "usage_context_en": "To divide into different parts or groups.",
+        "usage_context_es": "Dividir en distintas partes o grupos.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_15_def0.avif",
+        "alternative_example": "A wall separates the two gardens."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "settle",
+    "phonetic": "/ˈsɛtəl/",
+    "spoken_phonetic_us": "/ˈsɛtəl/",
+    "search_term": "verb/settle/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Goals & Results",
+    "definitions": [
+      {
+        "meaning": "Resolver / Establecerse",
+        "usage_example": "They settled the dispute peacefully.",
+        "pronunciation_guide_es": "/dei_SEteld_de_disPIUT_PISfuli/",
+        "usage_example_es": "Resolvieron la disputa pacíficamente.",
+        "char_count": "two",
+        "usage_context_en": "To reach an agreement, or to start living somewhere.",
+        "usage_context_es": "Llegar a un acuerdo, o empezar a vivir en un lugar.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_16_def0.avif",
+        "alternative_example": "They settled in a small town."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "shoot",
+    "phonetic": "/ʃuːt/",
+    "spoken_phonetic_us": "/ʃuːt/",
+    "search_term": "verb/shoot/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Social Dynamics",
+    "definitions": [
+      {
+        "meaning": "Disparar",
+        "usage_example": "The hunter shot at the target.",
+        "pronunciation_guide_es": "/de_JANter_SHOT_at_de_TARguet/",
+        "usage_example_es": "El cazador disparó al blanco.",
+        "char_count": "one",
+        "usage_context_en": "To fire a weapon.",
+        "usage_context_es": "Disparar un arma.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_17_def0.avif",
+        "alternative_example": "The photographer shot the whole event."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "spread",
+    "phonetic": "/sprɛd/",
+    "spoken_phonetic_us": "/sprɛd/",
+    "search_term": "verb/spread/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Influence & Change",
+    "definitions": [
+      {
+        "meaning": "Propagarse / Extenderse",
+        "usage_example": "The news spread quickly.",
+        "pronunciation_guide_es": "/de_NIUS_SPRED_KUIKli/",
+        "usage_example_es": "La noticia se propagó rápidamente.",
+        "char_count": "one",
+        "usage_context_en": "To reach or affect a larger area or more people.",
+        "usage_context_es": "Alcanzar o afectar un área o más personas.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_18_def0.avif",
+        "alternative_example": "Rumors spread fast in a small office."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "strike",
+    "phonetic": "/straɪk/",
+    "spoken_phonetic_us": "/straɪk/",
+    "search_term": "verb/strike/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Social Dynamics",
+    "definitions": [
+      {
+        "meaning": "Golpear / Hacer huelga",
+        "usage_example": "Workers went on strike.",
+        "pronunciation_guide_es": "/UORkers_UENT_on_STRAIK/",
+        "usage_example_es": "Los trabajadores hicieron huelga.",
+        "char_count": "one",
+        "usage_context_en": "To hit something, or to stop working to protest.",
+        "usage_context_es": "Golpear algo, o dejar de trabajar para protestar.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_19_def0.avif",
+        "alternative_example": "Lightning struck the old tree."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "struggle",
+    "phonetic": "/ˈstrʌɡəl/",
+    "spoken_phonetic_us": "/ˈstrʌɡəl/",
+    "search_term": "verb/struggle/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Goals & Results",
+    "definitions": [
+      {
+        "meaning": "Luchar / Esforzarse mucho",
+        "usage_example": "She struggled to pay the bills.",
+        "pronunciation_guide_es": "/shi_STRAgeld_tu_PEI_de_BILS/",
+        "usage_example_es": "Ella luchaba para pagar las cuentas.",
+        "char_count": "two",
+        "usage_context_en": "To try very hard to do something difficult.",
+        "usage_context_es": "Esforzarse mucho para hacer algo difícil.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_20_def0.avif",
+        "alternative_example": "He struggled to understand the lesson."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "suffer",
+    "phonetic": "/ˈsʌfər/",
+    "spoken_phonetic_us": "/ˈsʌfər/",
+    "search_term": "verb/suffer/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Goals & Results",
+    "definitions": [
+      {
+        "meaning": "Sufrir",
+        "usage_example": "He suffered from headaches.",
+        "pronunciation_guide_es": "/ji_SAferd_from_JEDeiks/",
+        "usage_example_es": "Él sufría de dolores de cabeza.",
+        "char_count": "two",
+        "usage_context_en": "To experience pain or difficulty.",
+        "usage_context_es": "Experimentar dolor o dificultad.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_21_def0.avif",
+        "alternative_example": "The team suffered a big loss."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "unite",
+    "phonetic": "/juˈnaɪt/",
+    "spoken_phonetic_us": "/juˈnaɪt/",
+    "search_term": "verb/unite/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Influence & Change",
+    "definitions": [
+      {
+        "meaning": "Unir(se)",
+        "usage_example": "The crisis united the whole country.",
+        "pronunciation_guide_es": "/de_KRAIsis_iuNAIted_de_JOUL_KANtri/",
+        "usage_example_es": "La crisis unió a todo el país.",
+        "char_count": "two",
+        "usage_context_en": "To join together as one.",
+        "usage_context_es": "Juntarse como una sola cosa.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_22_def0.avif",
+        "alternative_example": "The two companies united into one."
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "yield",
+    "phonetic": "/jiːld/",
+    "spoken_phonetic_us": "/jiːld/",
+    "search_term": "verb/yield/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Goals & Results",
+    "definitions": [
+      {
+        "meaning": "Ceder / Producir",
+        "usage_example": "The negotiations yielded good results.",
+        "pronunciation_guide_es": "/de_niGOsheISHENS_YILded_gud_riSULTS/",
+        "usage_example_es": "Las negociaciones produjeron buenos resultados.",
+        "char_count": "one",
+        "usage_context_en": "To produce a result, or to give in.",
+        "usage_context_es": "Producir un resultado, o ceder.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_23_def0.avif",
+        "alternative_example": "The old man finally yielded to their advice."
+      }
+    ]
   }
 ]

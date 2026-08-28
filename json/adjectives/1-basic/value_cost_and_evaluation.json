@@ -331,5 +331,135 @@
         "usage_context_es": "Sin error; correcto."
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "beautiful",
+    "phonetic": "/ˈbjuː.tɪ.fəl/",
+    "spoken_phonetic_us": "/ˈbjuː.t̬ə.fəl/",
+    "search_term": "adjective/appearance/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Value, Cost & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Hermoso / Bonito",
+        "usage_example": "She is wearing a beautiful dress.",
+        "pronunciation_guide_es": "/shi_IS_UE-ring_a_BIU-ti-ful_DRES/",
+        "usage_example_es": "Ella lleva puesto un vestido hermoso.",
+        "char_count": "one",
+        "usage_context_en": "Pleasing the senses or mind aesthetically.",
+        "usage_context_es": "Agradable a los sentidos o a la vista.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_beautiful_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ugly",
+    "phonetic": "/ˈʌɡ.li/",
+    "spoken_phonetic_us": "/ˈʌɡ.li/",
+    "search_term": "adjective/appearance/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Value, Cost & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Feo",
+        "usage_example": "That old building looks ugly.",
+        "pronunciation_guide_es": "/dat_OLD_BIL-ding_LUKS_AG-li/",
+        "usage_example_es": "Ese edificio viejo se ve feo.",
+        "char_count": "one",
+        "usage_context_en": "Unpleasant or repulsive in appearance.",
+        "usage_context_es": "Desagradable a la vista.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_ugly_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "interesting",
+    "phonetic": "/ˈɪn.trəs.tɪŋ/",
+    "spoken_phonetic_us": "/ˈɪn.trəs.tɪŋ/",
+    "search_term": "adjective/evaluation/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Value, Cost & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Interesante",
+        "usage_example": "This book has an interesting story.",
+        "pronunciation_guide_es": "/dis_BUK_JAS_an_IN-tres-ting_STOR-i/",
+        "usage_example_es": "Este libro tiene una historia interesante.",
+        "char_count": "one",
+        "usage_context_en": "Holding or catching the attention; intriguing.",
+        "usage_context_es": "Que llama o mantiene la atención.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_interesting_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "boring",
+    "phonetic": "/ˈbɔː.rɪŋ/",
+    "spoken_phonetic_us": "/ˈbɔː.rɪŋ/",
+    "search_term": "adjective/evaluation/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Value, Cost & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Aburrido",
+        "usage_example": "The movie was long and boring.",
+        "pronunciation_guide_es": "/de_MU-vi_UAS_LONG_and_BOR-ing/",
+        "usage_example_es": "La película fue larga y aburrida.",
+        "char_count": "one",
+        "usage_context_en": "Not interesting; tedious.",
+        "usage_context_es": "No interesante; tedioso.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_boring_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "important",
+    "phonetic": "/ɪmˈpɔː.tənt/",
+    "spoken_phonetic_us": "/ɪmˈpɔːr.tənt/",
+    "search_term": "adjective/importance/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Value, Cost & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Importante",
+        "usage_example": "Sleep is very important for your health.",
+        "pronunciation_guide_es": "/SLIP_is_VE-ri_im-POR-tant_for_yur_JELTH/",
+        "usage_example_es": "Dormir es muy importante para tu salud.",
+        "char_count": "one",
+        "usage_context_en": "Of great significance or value.",
+        "usage_context_es": "De gran importancia o valor.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_important_def0.avif"
+      }
+    ]
   }
 ]

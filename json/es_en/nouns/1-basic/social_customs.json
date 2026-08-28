@@ -206,5 +206,109 @@
     "phonetic": "/həˈloʊ / haɪ/",
     "search_term": "noun/concept/communication/essentials",
     "spoken_phonetic_us": "/həˈloʊ / haɪ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "hey",
+    "phonetic": "/heɪ/",
+    "spoken_phonetic_us": "/heɪ/",
+    "search_term": "noun/concept/communication/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Oye / Hola (informal)",
+        "usage_example": "Hey, how's it going?",
+        "pronunciation_guide_es": "/JEI_jaus_it_GOU-in/",
+        "usage_example_es": "Oye, ¿cómo va todo?",
+        "char_count": "two",
+        "usage_context_en": "An informal greeting between friends.",
+        "usage_context_es": "Un saludo informal entre amigos.",
+        "imagePath": "/card_images/nouns/1-basic/social_customs/1-basic_social_customs_card_8_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "goodbye",
+    "phonetic": "/ˌɡʊdˈbaɪ/",
+    "spoken_phonetic_us": "/ˌɡʊdˈbaɪ/",
+    "search_term": "noun/concept/communication/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Adiós",
+        "usage_example": "Goodbye, see you tomorrow.",
+        "pronunciation_guide_es": "/gud-BAI_si_iu_tu-MO-rou/",
+        "usage_example_es": "Adiós, nos vemos mañana.",
+        "char_count": "two",
+        "usage_context_en": "Used when leaving or ending a conversation.",
+        "usage_context_es": "Usado al despedirse o terminar una conversación.",
+        "imagePath": "/card_images/nouns/1-basic/social_customs/1-basic_social_customs_card_9_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "welcome",
+    "phonetic": "/ˈwɛlkəm/",
+    "spoken_phonetic_us": "/ˈwɛlkəm/",
+    "search_term": "noun/concept/communication/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Bienvenido/a",
+        "usage_example": "Welcome to my home!",
+        "pronunciation_guide_es": "/UEL-kom_tu_mai_JOUM/",
+        "usage_example_es": "¡Bienvenido a mi casa!",
+        "char_count": "two",
+        "usage_context_en": "Used to greet someone arriving.",
+        "usage_context_es": "Usado para saludar a alguien que llega.",
+        "imagePath": "/card_images/nouns/1-basic/social_customs/1-basic_social_customs_card_10_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "dear",
+    "phonetic": "/dɪr/",
+    "spoken_phonetic_us": "/dɪr/",
+    "search_term": "noun/concept/communication/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Querido/a",
+        "usage_example": "Dear friend, thank you for coming.",
+        "pronunciation_guide_es": "/DIR_frend_zaenk_iu_for_KO-min/",
+        "usage_example_es": "Querido amigo, gracias por venir.",
+        "char_count": "one",
+        "usage_context_en": "A friendly or affectionate way to address someone.",
+        "usage_context_es": "Una forma cariñosa de dirigirse a alguien.",
+        "imagePath": "/card_images/nouns/1-basic/social_customs/1-basic_social_customs_card_11_def0.avif"
+      }
+    ]
   }
 ]

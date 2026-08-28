@@ -337,5 +337,113 @@
         "imagePath": "/card_images/adjectives/1-basic/space_size_and_crowds/1-basic_space_size_and_crowds_card_11_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "high",
+    "phonetic": "/haɪ/",
+    "spoken_phonetic_us": "/haɪ/",
+    "search_term": "adjective/basic/size_dimension",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Size & Dimension",
+    "definitions": [
+      {
+        "meaning": "Alto/a (altura)",
+        "usage_example": "The mountain is very high.",
+        "pronunciation_guide_es": "/JAI/",
+        "usage_example_es": "La montaña es muy alta.",
+        "char_count": "4",
+        "usage_context_en": "Having a great distance from bottom to top.",
+        "usage_context_es": "Que tiene una gran distancia de abajo hacia arriba.",
+        "imagePath": "/card_images/adjectives/1-basic/space_size_and_crowds/1-basic_space_size_and_crowds_card_12_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "large",
+    "phonetic": "/lɑːrdʒ/",
+    "spoken_phonetic_us": "/lɑːrdʒ/",
+    "search_term": "adjective/basic/size_dimension",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Size & Dimension",
+    "definitions": [
+      {
+        "meaning": "Grande",
+        "usage_example": "I need a large bag.",
+        "pronunciation_guide_es": "/LARCH/",
+        "usage_example_es": "Necesito una bolsa grande.",
+        "char_count": "5",
+        "usage_context_en": "Big in size or amount.",
+        "usage_context_es": "Grande en tamaño o cantidad.",
+        "imagePath": "/card_images/adjectives/1-basic/space_size_and_crowds/1-basic_space_size_and_crowds_card_13_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "deep",
+    "phonetic": "/diːp/",
+    "spoken_phonetic_us": "/diːp/",
+    "search_term": "adjective/basic/size_dimension",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Size & Dimension",
+    "definitions": [
+      {
+        "meaning": "Profundo/a",
+        "usage_example": "The lake is very deep.",
+        "pronunciation_guide_es": "/de_LEIK_is_VEri_DIP/",
+        "usage_example_es": "El lago es muy profundo.",
+        "char_count": "one",
+        "usage_context_en": "Going far down from the top.",
+        "usage_context_es": "Que va muy hacia abajo desde la superficie.",
+        "imagePath": "/card_images/adjectives/1-basic/space_size_and_crowds/1-basic_space_size_and_crowds_card_14_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "low",
+    "phonetic": "/loʊ/",
+    "spoken_phonetic_us": "/loʊ/",
+    "search_term": "adjective/basic/size_dimension",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Size & Dimension",
+    "definitions": [
+      {
+        "meaning": "Bajo/a",
+        "usage_example": "The table is very low.",
+        "pronunciation_guide_es": "/de_TEIbol_is_VEri_LOU/",
+        "usage_example_es": "La mesa es muy baja.",
+        "char_count": "one",
+        "usage_context_en": "Not high or tall.",
+        "usage_context_es": "No alto.",
+        "imagePath": "/card_images/adjectives/1-basic/space_size_and_crowds/1-basic_space_size_and_crowds_card_15_def0.avif"
+      }
+    ],
+    "category": "Basic"
   }
 ]

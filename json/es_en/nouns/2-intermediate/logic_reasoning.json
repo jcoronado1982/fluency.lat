@@ -200,5 +200,57 @@
     "phonetic": "/ˈsteɪtmənt/",
     "search_term": "noun/concept/essentials",
     "spoken_phonetic_us": "/ˈsteɪtmənt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "case",
+    "phonetic": "/keɪs/",
+    "spoken_phonetic_us": "/keɪs/",
+    "search_term": "noun/logic/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Caso",
+        "usage_example": "In that case, let's leave now.",
+        "pronunciation_guide_es": "/in_DAT_KEIS_lets_LIV_NAU/",
+        "usage_example_es": "En ese caso, vámonos ahora.",
+        "char_count": "one",
+        "usage_context_en": "A particular situation or example.",
+        "usage_context_es": "Una situación o ejemplo particular.",
+        "imagePath": "/card_images/nouns/2-intermediate/logic_reasoning/2-intermediate_logic_reasoning_card_7_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "matter",
+    "phonetic": "/ˈmætər/",
+    "spoken_phonetic_us": "/ˈmætər/",
+    "search_term": "noun/logic/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Asunto",
+        "usage_example": "It's a serious matter.",
+        "pronunciation_guide_es": "/its_a_SIrios_MAter/",
+        "usage_example_es": "Es un asunto serio.",
+        "char_count": "two",
+        "usage_context_en": "A subject or situation to think about.",
+        "usage_context_es": "Un tema o situación en la que pensar.",
+        "imagePath": "/card_images/nouns/2-intermediate/logic_reasoning/2-intermediate_logic_reasoning_card_8_def0.avif"
+      }
+    ]
   }
 ]

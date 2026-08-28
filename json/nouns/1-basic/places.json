@@ -626,5 +626,57 @@
     "phonetic": "/ˈneɪbərˌhʊd/",
     "search_term": "noun/place/essentials",
     "spoken_phonetic_us": "/ˈneɪbərˌhʊd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "zoo",
+    "phonetic": "/zuː/",
+    "spoken_phonetic_us": "/zuː/",
+    "search_term": "noun/places/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Places",
+    "definitions": [
+      {
+        "meaning": "Zoológico",
+        "usage_example": "We are visiting the zoo this Saturday.",
+        "pronunciation_guide_es": "/ui_AR_VI-si-ting_de_ZU_dis_SA-tur-dei/",
+        "usage_example_es": "Visitaremos el zoológico este sábado.",
+        "char_count": "one",
+        "usage_context_en": "A park where wild animals are kept for people to see.",
+        "usage_context_es": "Un parque donde se mantienen animales salvajes para que las personas los vean.",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_zoo_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "theatre",
+    "phonetic": "/ˈθɪə.tər/",
+    "spoken_phonetic_us": "/ˈθiː.ə.t̬ɚ/",
+    "search_term": "noun/places/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Places",
+    "definitions": [
+      {
+        "meaning": "Teatro",
+        "usage_example": "We bought tickets for a play at the theatre.",
+        "pronunciation_guide_es": "/ui_BOT_TI-kets_for_a_PLEI_at_de_TI-a-ter/",
+        "usage_example_es": "Compramos entradas para una obra en el teatro.",
+        "char_count": "one",
+        "usage_context_en": "A building where plays, shows, or movies are presented.",
+        "usage_context_es": "Un edificio donde se presentan obras de teatro, espectáculos o películas.",
+        "imagePath": "/card_images/nouns/1-basic/places/1-basic_places_card_theatre_def0.avif"
+      }
+    ]
   }
 ]

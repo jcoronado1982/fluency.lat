@@ -138,5 +138,57 @@
     "phonetic": "/klɒk/",
     "search_term": "noun/object/time/essentials",
     "spoken_phonetic_us": "/klɑːk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "quarter",
+    "phonetic": "/ˈkwɔː.tər/",
+    "spoken_phonetic_us": "/ˈkwɔːr.t̬ɚ/",
+    "search_term": "noun/time/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Clock Time",
+    "definitions": [
+      {
+        "meaning": "Cuarto (15 minutos / hora)",
+        "usage_example": "It is a quarter past three.",
+        "pronunciation_guide_es": "/it_IS_a_KUOR-ter_PAST_THRI/",
+        "usage_example_es": "Son las tres y cuarto.",
+        "char_count": "one",
+        "usage_context_en": "A period of 15 minutes, or one fourth of an hour.",
+        "usage_context_es": "Un periodo de 15 minutos o una cuarta parte de una hora.",
+        "imagePath": "/card_images/nouns/1-basic/clock_time/1-basic_quarter_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "half",
+    "phonetic": "/hɑːf/",
+    "spoken_phonetic_us": "/hæf/",
+    "search_term": "noun/time/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Clock Time",
+    "definitions": [
+      {
+        "meaning": "Media (30 minutos / hora)",
+        "usage_example": "The movie starts at half past four.",
+        "pronunciation_guide_es": "/de_MU-vi_STARTS_at_JAF_PAST_FOR/",
+        "usage_example_es": "La película empieza a las cuatro y media.",
+        "char_count": "one",
+        "usage_context_en": "A period of 30 minutes, or one half of an hour.",
+        "usage_context_es": "Un periodo de 30 minutos o la mitad de una hora.",
+        "imagePath": "/card_images/nouns/1-basic/clock_time/1-basic_half_def0.avif"
+      }
+    ]
   }
 ]

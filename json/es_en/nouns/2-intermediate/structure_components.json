@@ -542,5 +542,109 @@
     "phonetic": "/ɪˈkwɪpmənt/",
     "search_term": "noun/objects/tools",
     "spoken_phonetic_us": "/ɪˈkwɪpmənt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "base",
+    "phonetic": "/beɪs/",
+    "spoken_phonetic_us": "/beɪs/",
+    "search_term": "noun/structure/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Base",
+        "usage_example": "The lamp has a heavy base.",
+        "pronunciation_guide_es": "/de_LAMP_jas_a_JEvi_BEIS/",
+        "usage_example_es": "La lámpara tiene una base pesada.",
+        "char_count": "one",
+        "usage_context_en": "The bottom part that supports something.",
+        "usage_context_es": "La parte inferior que sostiene algo.",
+        "imagePath": "/card_images/nouns/2-intermediate/structure_components/2-intermediate_structure_components_card_19_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "line",
+    "phonetic": "/laɪn/",
+    "spoken_phonetic_us": "/laɪn/",
+    "search_term": "noun/structure/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Línea",
+        "usage_example": "Draw a straight line.",
+        "pronunciation_guide_es": "/DRO_a_STREIT_LAIN/",
+        "usage_example_es": "Dibuja una línea recta.",
+        "char_count": "one",
+        "usage_context_en": "A long, thin mark.",
+        "usage_context_es": "Una marca larga y delgada.",
+        "imagePath": "/card_images/nouns/2-intermediate/structure_components/2-intermediate_structure_components_card_20_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "shape",
+    "phonetic": "/ʃeɪp/",
+    "spoken_phonetic_us": "/ʃeɪp/",
+    "search_term": "noun/structure/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Forma",
+        "usage_example": "The cake was in the shape of a heart.",
+        "pronunciation_guide_es": "/de_KEIK_UAS_in_de_SHEIP_of_a_JART/",
+        "usage_example_es": "El pastel tenía forma de corazón.",
+        "char_count": "one",
+        "usage_context_en": "The outer form of something.",
+        "usage_context_es": "La forma exterior de algo.",
+        "imagePath": "/card_images/nouns/2-intermediate/structure_components/2-intermediate_structure_components_card_21_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "square",
+    "phonetic": "/skwɛr/",
+    "spoken_phonetic_us": "/skwɛr/",
+    "search_term": "noun/structure/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Cuadrado / Plaza",
+        "usage_example": "They met in the town square.",
+        "pronunciation_guide_es": "/dei_MET_in_de_TAUN_SKUER/",
+        "usage_example_es": "Se encontraron en la plaza del pueblo.",
+        "char_count": "one",
+        "usage_context_en": "A shape with four equal sides, or an open area in a town.",
+        "usage_context_es": "Una figura de cuatro lados iguales, o un área abierta en un pueblo.",
+        "imagePath": "/card_images/nouns/2-intermediate/structure_components/2-intermediate_structure_components_card_22_def0.avif"
+      }
+    ]
   }
 ]

@@ -450,5 +450,109 @@
     "phonetic": "/ˈwaɪldlaɪf/",
     "search_term": "noun/nature/animal/essentials",
     "spoken_phonetic_us": "/ˈwaɪldlaɪf/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "condition",
+    "phonetic": "/kənˈdɪʃən/",
+    "spoken_phonetic_us": "/kənˈdɪʃən/",
+    "search_term": "noun/states/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Condición / Estado",
+        "usage_example": "The car is in good condition.",
+        "pronunciation_guide_es": "/de_KAR_is_in_GUD_konDIshon/",
+        "usage_example_es": "El carro está en buen estado.",
+        "char_count": "three",
+        "usage_context_en": "The state something is in.",
+        "usage_context_es": "El estado en el que algo se encuentra.",
+        "imagePath": "/card_images/nouns/2-intermediate/states_conditions/2-intermediate_states_conditions_card_17_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "force",
+    "phonetic": "/fɔːrs/",
+    "spoken_phonetic_us": "/fɔːrs/",
+    "search_term": "noun/states/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Fuerza",
+        "usage_example": "The wind blew with great force.",
+        "pronunciation_guide_es": "/de_UIND_BLU_uiz_GREIT_FORS/",
+        "usage_example_es": "El viento sopló con gran fuerza.",
+        "char_count": "one",
+        "usage_context_en": "Physical strength or power.",
+        "usage_context_es": "Fuerza o poder físico.",
+        "imagePath": "/card_images/nouns/2-intermediate/states_conditions/2-intermediate_states_conditions_card_18_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "silence",
+    "phonetic": "/ˈsaɪləns/",
+    "spoken_phonetic_us": "/ˈsaɪləns/",
+    "search_term": "noun/states/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Silencio",
+        "usage_example": "There was total silence in the room.",
+        "pronunciation_guide_es": "/DER_UAS_TOtal_SAIlens_in_de_RUM/",
+        "usage_example_es": "Había silencio total en la habitación.",
+        "char_count": "two",
+        "usage_context_en": "Complete absence of sound.",
+        "usage_context_es": "Ausencia total de sonido.",
+        "imagePath": "/card_images/nouns/2-intermediate/states_conditions/2-intermediate_states_conditions_card_19_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "trouble",
+    "phonetic": "/ˈtrʌbəl/",
+    "spoken_phonetic_us": "/ˈtrʌbəl/",
+    "search_term": "noun/states/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Problema / Dificultad",
+        "usage_example": "He's having trouble with his car.",
+        "pronunciation_guide_es": "/jis_JAving_TRAbol_uiz_jis_KAR/",
+        "usage_example_es": "Él tiene problemas con su carro.",
+        "char_count": "two",
+        "usage_context_en": "A difficulty or problem.",
+        "usage_context_es": "Una dificultad o problema.",
+        "imagePath": "/card_images/nouns/2-intermediate/states_conditions/2-intermediate_states_conditions_card_20_def0.avif"
+      }
+    ]
   }
 ]

@@ -414,5 +414,31 @@
     "phonetic": "/ˈʌndərɡraʊnd/",
     "search_term": "noun/transport/essentials",
     "spoken_phonetic_us": "/ˈʌndərɡraʊnd/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "bike",
+    "phonetic": "/baɪk/",
+    "spoken_phonetic_us": "/baɪk/",
+    "search_term": "noun/transport/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Transportation",
+    "definitions": [
+      {
+        "meaning": "Bici / Bicicleta",
+        "usage_example": "I ride my bike to school.",
+        "pronunciation_guide_es": "/BAIK/",
+        "usage_example_es": "Voy en bici a la escuela.",
+        "char_count": "one",
+        "usage_context_en": "A short word for bicycle.",
+        "usage_context_es": "Una palabra corta para bicicleta.",
+        "imagePath": "/card_images/nouns/1-basic/transport/1-basic_transport_card_16_def0.avif"
+      }
+    ]
   }
 ]

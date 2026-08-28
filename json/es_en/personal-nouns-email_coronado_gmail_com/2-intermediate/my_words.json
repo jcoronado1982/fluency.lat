@@ -8,25 +8,52 @@
       "learned_at": null,
       "definitions": [
         {
-          "audioPath": "/card_audio/es_en/personal-nouns-email_coronado_gmail_com/2-intermediate/2-intermediate_none_the_soccer_player_had_metal_spikes_on_hi_28d57fc36efbf215.ogg?v=3c035569-56ed-4e6e-b028-1a95d7e8f8e9",
+          "audioPath": "/card_audio/es_en/personal-nouns-email_coronado_gmail_com/2-intermediate/2-intermediate_none_the_soccer_player_wore_shoes_with_spikes_37c6176323112146.ogg?v=7028f3b8-7702-4f3a-b479-debd7ff40917",
           "char_count": "one",
-          "imagePath": "/card_images/personal-nouns-email_coronado_gmail_com/2-intermediate_my_words_card_0_def0.avif?v=1786557744559377121-33638",
-          "meaning": "Picos/Puntas",
-          "pronunciation_guide_es": "/De_SO-ker_PLEI-er_jad_ME-tal_SPAIKS_on_jis_SHUS/",
-          "usage_context_en": "sharp protrusions",
-          "usage_context_es": "proyecciones afiladas",
-          "usage_example": "The soccer player had metal spikes on his shoes.",
-          "usage_example_es": "El jugador de fútbol tenía tacos de metal en sus zapatos."
+          "imagePath": "/card_images/personal-nouns-email_coronado_gmail_com/2-intermediate_my_words_card_0_def0.avif?v=1786569731537276687-56779",
+          "meaning": "Puntas/Clavos",
+          "pronunciation_guide_es": "/de_SO-ker_PLEI-er_uord_SHUZ_uid_SPAIKS_for_BE-ter_GRIP_on_de_GRAS/",
+          "usage_context_en": "sharp pointed objects",
+          "usage_context_es": "objetos puntiagudos",
+          "usage_example": "The soccer player wore shoes with spikes for better grip on the grass.",
+          "usage_example_es": "El jugador de fútbol usó zapatos con puntas para tener mejor agarre en el césped."
         }
       ],
       "force_generation": false,
-      "group_name": "Objects & Shapes",
+      "group_name": "Objects & Tools",
       "is_verb": false,
       "name": "spikes",
       "phonetic": "/spaɪks/",
-      "search_term": "noun/sharp_projection",
+      "search_term": "noun/pointed_objects",
       "spoken_phonetic_us": "/spaɪks/"
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "definitions": [
+        {
+          "audioPath": "/card_audio/es_en/personal-nouns-email_coronado_gmail_com/2-intermediate/2-intermediate_none_i_have_a_heavy_workload_this_week_6d9495c806de102c.ogg?v=a8ba193d-73d3-42af-aeb4-a62ce90e80b2",
+          "char_count": "two",
+          "imagePath": "/card_images/personal-nouns-email_coronado_gmail_com/2-intermediate_my_words_card_1_def0.avif?v=1786582857390113344-38188",
+          "meaning": "Carga de trabajo",
+          "pronunciation_guide_es": "/AI_JAF_A_JEVI_UORK_LOUD_DIS_UIK/",
+          "usage_context_en": "amount of work assigned",
+          "usage_context_es": "cantidad de trabajo asignado",
+          "usage_example": "I have a heavy workload this week.",
+          "usage_example_es": "Tengo una carga de trabajo pesada esta semana."
+        }
+      ],
+      "force_generation": false,
+      "group_name": "Work & Productivity",
+      "is_verb": false,
+      "name": "workload",
+      "phonetic": "/ˈwɜːrk.loʊd/",
+      "search_term": "noun/workload",
+      "spoken_phonetic_us": "/ˈwɜrkˌloʊd/"
     }
   ],
-  "topic_name": "My verbs"
+  "topic_name": "new words"
 }

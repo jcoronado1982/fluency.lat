@@ -590,5 +590,31 @@
         "imagePath": "/card_images/adverbs/1-basic/place_direction/1-basic_place_direction_card_21_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "out",
+    "phonetic": "/aʊt/",
+    "spoken_phonetic_us": "/aʊt/",
+    "search_term": "adverb/place",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Adverbs: Place",
+    "definitions": [
+      {
+        "meaning": "Afuera / Hacia afuera",
+        "usage_example": "Let's go out tonight.",
+        "pronunciation_guide_es": "/lets_GOU_AUT_tuNAIT/",
+        "usage_example_es": "Salgamos esta noche.",
+        "char_count": "one",
+        "usage_context_en": "Away from the inside of a place.",
+        "usage_context_es": "Fuera del interior de un lugar.",
+        "imagePath": "/card_images/adverbs/1-basic/place_direction/1-basic_place_direction_card_22_def0.avif"
+      }
+    ]
   }
 ]

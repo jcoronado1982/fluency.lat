@@ -128,5 +128,31 @@
     ],
     "is_verb": false,
     "group_name": "Connectors: Contrast"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "than",
+    "phonetic": "/ðæn/",
+    "spoken_phonetic_us": "/ðæn/",
+    "search_term": "connector/contrast_condition_basics/added",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Connectors: Contrast",
+    "definitions": [
+      {
+        "meaning": "Que (en comparaciones)",
+        "usage_example": "This book is better than that one.",
+        "pronunciation_guide_es": "/DAEN/",
+        "usage_example_es": "Este libro es mejor que ese.",
+        "char_count": "4",
+        "usage_context_en": "Used after comparative adjectives to introduce the second item compared.",
+        "usage_context_es": "Usado después de adjetivos comparativos para introducir el segundo elemento comparado.",
+        "imagePath": "/card_images/connectors/1-basic/contrast_condition_basics/1-basic_contrast_condition_basics_card_5_def0.avif"
+      }
+    ]
   }
 ]

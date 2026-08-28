@@ -284,5 +284,31 @@
     "phonetic": "",
     "search_term": "noun/personal-items/seed",
     "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "card",
+    "phonetic": "/kɑːrd/",
+    "spoken_phonetic_us": "/kɑːrd/",
+    "search_term": "noun/object/money/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Household",
+    "definitions": [
+      {
+        "meaning": "Tarjeta",
+        "usage_example": "I paid with my card.",
+        "pronunciation_guide_es": "/KARD/",
+        "usage_example_es": "Pagué con mi tarjeta.",
+        "char_count": "one",
+        "usage_context_en": "A small plastic or paper item, like a bank card.",
+        "usage_context_es": "Un objeto pequeño de plástico o papel, como una tarjeta bancaria.",
+        "imagePath": "/card_images/nouns/1-basic/personal_items/1-basic_personal_items_card_11_def0.avif"
+      }
+    ]
   }
 ]

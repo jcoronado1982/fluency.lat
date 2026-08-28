@@ -944,5 +944,57 @@
     "phonetic": "/ˈkʌrənsi ɪksˈtʃeɪndʒ/",
     "search_term": "noun/travel/money/essentials",
     "spoken_phonetic_us": "/ˈkʌrənsi ɪksˈtʃeɪndʒ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "stage",
+    "phonetic": "/steɪdʒ/",
+    "spoken_phonetic_us": "/steɪdʒ/",
+    "search_term": "noun/process/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Etapa",
+        "usage_example": "We're in the first stage of the project.",
+        "pronunciation_guide_es": "/UIR_in_de_FERST_STEICH_of_de_PROyekt/",
+        "usage_example_es": "Estamos en la primera etapa del proyecto.",
+        "char_count": "one",
+        "usage_context_en": "A point or period in a process.",
+        "usage_context_es": "Un punto o período en un proceso.",
+        "imagePath": "/card_images/nouns/2-intermediate/process_change/2-intermediate_process_change_card_36_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "step",
+    "phonetic": "/stɛp/",
+    "spoken_phonetic_us": "/stɛp/",
+    "search_term": "noun/process/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Paso",
+        "usage_example": "This is the first step.",
+        "pronunciation_guide_es": "/dis_is_de_FERST_STEP/",
+        "usage_example_es": "Este es el primer paso.",
+        "char_count": "one",
+        "usage_context_en": "One action in a series toward a goal.",
+        "usage_context_es": "Una acción en una serie hacia una meta.",
+        "imagePath": "/card_images/nouns/2-intermediate/process_change/2-intermediate_process_change_card_37_def0.avif"
+      }
+    ]
   }
 ]

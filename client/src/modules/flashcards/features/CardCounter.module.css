@@ -56,6 +56,22 @@
     color: #94a3b8;
     margin-bottom: 2px;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.counterDeckBadge {
+    font-size: 0.68rem;
+    font-family: var(--font-family-mono, monospace);
+    color: #38bdf8;
+    background: rgba(56, 189, 248, 0.14);
+    border: 1px solid rgba(56, 189, 248, 0.28);
+    padding: 1px 5px;
+    border-radius: 4px;
+    letter-spacing: normal;
+    text-transform: none;
+    font-weight: 600;
 }
 
 .counterValues {

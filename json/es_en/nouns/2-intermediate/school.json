@@ -362,5 +362,57 @@
     "phonetic": "/ˌɡrædʒuˈeɪʃən/",
     "search_term": "noun/education/essentials",
     "spoken_phonetic_us": "/ˌɡrædʒuˈeɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "course",
+    "phonetic": "/kɔːrs/",
+    "spoken_phonetic_us": "/kɔːrs/",
+    "search_term": "noun/school/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Curso",
+        "usage_example": "She's taking an English course.",
+        "pronunciation_guide_es": "/shis_TEIking_an_INglish_KORS/",
+        "usage_example_es": "Ella está tomando un curso de inglés.",
+        "char_count": "one",
+        "usage_context_en": "A series of classes on a subject.",
+        "usage_context_es": "Una serie de clases sobre un tema.",
+        "imagePath": "/card_images/nouns/2-intermediate/school/2-intermediate_school_card_14_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "term",
+    "phonetic": "/tɜːrm/",
+    "spoken_phonetic_us": "/tɜːrm/",
+    "search_term": "noun/school/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Trimestre / Término",
+        "usage_example": "The new term starts in September.",
+        "pronunciation_guide_es": "/de_NIU_TERM_STARTS_in_sepTEMber/",
+        "usage_example_es": "El nuevo trimestre empieza en septiembre.",
+        "char_count": "one",
+        "usage_context_en": "A fixed period of study, or a word for something.",
+        "usage_context_es": "Un período fijo de estudio, o una palabra para algo.",
+        "imagePath": "/card_images/nouns/2-intermediate/school/2-intermediate_school_card_15_def0.avif"
+      }
+    ]
   }
 ]

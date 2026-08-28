@@ -148,5 +148,31 @@
     "phonetic": "/ˈrɛzɪˌduː/",
     "search_term": "noun/materials_substances/added",
     "spoken_phonetic_us": "/ˈrɛzɪˌduː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "surface",
+    "phonetic": "/ˈsɜːrfɪs/",
+    "spoken_phonetic_us": "/ˈsɜːrfɪs/",
+    "search_term": "noun/materials/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Superficie",
+        "usage_example": "The table has a smooth surface.",
+        "pronunciation_guide_es": "/de_TEIbol_JAS_a_SMUZ_SERfis/",
+        "usage_example_es": "La mesa tiene una superficie lisa.",
+        "char_count": "two",
+        "usage_context_en": "The outside or top part of something.",
+        "usage_context_es": "La parte exterior o superior de algo.",
+        "imagePath": "/card_images/nouns/3-advanced/materials_substances/3-advanced_materials_substances_card_5_def0.avif"
+      }
+    ]
   }
 ]

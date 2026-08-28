@@ -490,5 +490,235 @@
     "phonetic": "/rɪˈplaɪ/",
     "search_term": "verb/respond/basic",
     "spoken_phonetic_us": "/rɪˈplaɪ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "introduce",
+    "phonetic": "/ˌɪntrəˈduːs/",
+    "spoken_phonetic_us": "/ˌɪntrəˈduːs/",
+    "search_term": "verb/introduce/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Communication",
+    "definitions": [
+      {
+        "meaning": "Presentar (a alguien)",
+        "usage_example": "Let me introduce my friend.",
+        "pronunciation_guide_es": "/in-tro-DUS/",
+        "usage_example_es": "Déjame presentarte a mi amigo.",
+        "char_count": "three",
+        "usage_context_en": "To formally present one person to another.",
+        "usage_context_es": "Presentar formalmente a una persona con otra.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_11_def0.avif",
+        "alternative_example": "She introduced herself to the group."
+      },
+      {
+        "meaning": "Introducir (algo nuevo)",
+        "usage_example": "The company introduced a new product.",
+        "alternative_example": "They introduced a new rule at school.",
+        "pronunciation_guide_es": "/de_KAMpani_inTROdiust_a_NIU_PROdakt/",
+        "usage_example_es": "La empresa introdujo un nuevo producto.",
+        "char_count": "three",
+        "usage_context_en": "To bring something new into use.",
+        "usage_context_es": "Poner en uso algo nuevo por primera vez.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_11_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "repeat",
+    "phonetic": "/rɪˈpiːt/",
+    "spoken_phonetic_us": "/rɪˈpiːt/",
+    "search_term": "verb/repeat/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Communication",
+    "definitions": [
+      {
+        "meaning": "Repetir",
+        "usage_example": "Can you repeat that, please?",
+        "pronunciation_guide_es": "/ri-PIT/",
+        "usage_example_es": "¿Puedes repetir eso, por favor?",
+        "char_count": "two",
+        "usage_context_en": "To say something again.",
+        "usage_context_es": "Decir algo de nuevo.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_12_def0.avif",
+        "alternative_example": "The teacher repeated the question."
+      },
+      {
+        "meaning": "Repetir (hacer de nuevo)",
+        "usage_example": "We repeat this exercise every day.",
+        "alternative_example": "History tends to repeat itself.",
+        "pronunciation_guide_es": "/UI_riPIT_dis_EKserSais_EVri_DEI/",
+        "usage_example_es": "Repetimos este ejercicio todos los días.",
+        "char_count": "two",
+        "usage_context_en": "To do something again.",
+        "usage_context_es": "Hacer algo de nuevo.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_12_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "spell",
+    "phonetic": "/spɛl/",
+    "spoken_phonetic_us": "/spɛl/",
+    "search_term": "verb/spell/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Communication",
+    "definitions": [
+      {
+        "meaning": "Deletrear",
+        "usage_example": "Can you spell your name?",
+        "pronunciation_guide_es": "/SPEL/",
+        "usage_example_es": "¿Puedes deletrear tu nombre?",
+        "char_count": "one",
+        "usage_context_en": "To say or write the letters of a word in order.",
+        "usage_context_es": "Decir o escribir las letras de una palabra en orden.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_13_def0.avif",
+        "alternative_example": "She spelled the word correctly."
+      },
+      {
+        "meaning": "Escribirse (de cierta manera)",
+        "usage_example": "How do you spell 'necessary'?",
+        "alternative_example": "This word is spelled with two Rs.",
+        "pronunciation_guide_es": "/jau_du_iu_SPEL_neSEseri/",
+        "usage_example_es": "¿Cómo se escribe 'necessary'?",
+        "char_count": "one",
+        "usage_context_en": "To be written with certain letters, in order.",
+        "usage_context_es": "Escribirse con ciertas letras, en orden.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_13_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sing",
+    "phonetic": "/sɪŋ/",
+    "spoken_phonetic_us": "/sɪŋ/",
+    "search_term": "verb/sing/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Communication",
+    "definitions": [
+      {
+        "meaning": "Cantar",
+        "usage_example": "She likes to sing in the shower.",
+        "alternative_example": "He sang a beautiful song.",
+        "pronunciation_guide_es": "/shi_LAIKS_tu_SING_in_de_SHAUer/",
+        "usage_example_es": "A ella le gusta cantar en la ducha.",
+        "char_count": "one",
+        "usage_context_en": "To make music with your voice.",
+        "usage_context_es": "Hacer música con la voz.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_14_def0.avif"
+      },
+      {
+        "meaning": "Cantarle (a alguien)",
+        "usage_example": "The mother sang to her baby.",
+        "alternative_example": "They sang happy birthday to him.",
+        "pronunciation_guide_es": "/de_MAder_SANG_tu_jer_BEIbi/",
+        "usage_example_es": "La mamá le cantó a su bebé.",
+        "char_count": "one",
+        "usage_context_en": "To sing directed at someone.",
+        "usage_context_es": "Cantar dirigido a alguien.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_14_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "speak",
+    "phonetic": "/spiːk/",
+    "spoken_phonetic_us": "/spiːk/",
+    "search_term": "verb/talk/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Communication",
+    "definitions": [
+      {
+        "meaning": "Hablar (un idioma o comunicarse)",
+        "usage_example": "I speak Spanish and a little English.",
+        "pronunciation_guide_es": "/ai_SPIK_SPA-nish_and_a_LI-tl_ING-glish/",
+        "usage_example_es": "Hablo español y un poco de inglés.",
+        "char_count": "one",
+        "usage_context_en": "To convey information or express feelings in spoken words.",
+        "usage_context_es": "Transmitir información o expresar sentimientos mediante palabras habladas.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_speak_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "meet",
+    "phonetic": "/miːt/",
+    "spoken_phonetic_us": "/miːt/",
+    "search_term": "verb/meet/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Communication",
+    "definitions": [
+      {
+        "meaning": "Conocer a alguien / Reunirse",
+        "usage_example": "Nice to meet you!",
+        "pronunciation_guide_es": "/NAIS_tu_MIT_iu/",
+        "usage_example_es": "¡Mucho gusto en conocerte!",
+        "char_count": "one",
+        "usage_context_en": "To see and speak to someone for the first time.",
+        "usage_context_es": "Ver y hablar con alguien por primera vez.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_meet_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "order",
+    "phonetic": "/ˈɔː.dər/",
+    "spoken_phonetic_us": "/ˈɔːr.dɚ/",
+    "search_term": "verb/order/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Communication",
+    "definitions": [
+      {
+        "meaning": "Pedir (en restaurante) / Ordenar",
+        "usage_example": "Are you ready to order your food?",
+        "pronunciation_guide_es": "/AR_iu_RE-di_tu_OR-der_yur_FUD/",
+        "usage_example_es": "¿Estás listo para pedir tu comida?",
+        "char_count": "one",
+        "usage_context_en": "To request something to be supplied in a restaurant or store.",
+        "usage_context_es": "Pedir comida u objetos en un restaurante o tienda.",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_order_def0.avif"
+      }
+    ]
   }
 ]

@@ -154,5 +154,31 @@
         "imagePath": "/card_images/nouns/2-intermediate/classification/2-intermediate_classification_card_5_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sort",
+    "phonetic": "/sɔːrt/",
+    "spoken_phonetic_us": "/sɔːrt/",
+    "search_term": "noun/classification/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Tipo / Clase",
+        "usage_example": "What sort of music do you like?",
+        "pronunciation_guide_es": "/UAT_SORT_of_MIUsik_du_iu_LAIK/",
+        "usage_example_es": "¿Qué tipo de música te gusta?",
+        "char_count": "one",
+        "usage_context_en": "A type or kind of something.",
+        "usage_context_es": "Un tipo o clase de algo.",
+        "imagePath": "/card_images/nouns/2-intermediate/classification/2-intermediate_classification_card_6_def0.avif"
+      }
+    ]
   }
 ]

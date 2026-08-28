@@ -128,5 +128,31 @@
     "phonetic": "/ˈɪnfrəˌstrʌktʃər/",
     "search_term": "noun/concept/society/advanced",
     "spoken_phonetic_us": "/ˈɪnfrəˌstrʌktʃər/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "union",
+    "phonetic": "/ˈjuːnjən/",
+    "spoken_phonetic_us": "/ˈjuːnjən/",
+    "search_term": "noun/society/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Government & Society",
+    "definitions": [
+      {
+        "meaning": "Unión / Sindicato",
+        "usage_example": "The workers formed a union.",
+        "pronunciation_guide_es": "/de_UORkers_FORMD_a_IUnion/",
+        "usage_example_es": "Los trabajadores formaron un sindicato.",
+        "char_count": "two",
+        "usage_context_en": "A group joined together for a common purpose.",
+        "usage_context_es": "Un grupo unido con un propósito común.",
+        "imagePath": "/card_images/nouns/3-advanced/society/3-advanced_society_card_5_def0.avif"
+      }
+    ]
   }
 ]

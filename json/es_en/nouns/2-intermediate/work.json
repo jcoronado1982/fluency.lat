@@ -154,5 +154,57 @@
     "phonetic": "/ˈɪntɜːrnʃɪp/",
     "search_term": "noun/education/work/essentials",
     "spoken_phonetic_us": "/ˈɪntɜːrnʃɪp/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "duty",
+    "phonetic": "/ˈduːti/",
+    "spoken_phonetic_us": "/ˈduːti/",
+    "search_term": "noun/work/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Deber / Obligación",
+        "usage_example": "It's my duty to help.",
+        "pronunciation_guide_es": "/its_mai_DUti_tu_JELP/",
+        "usage_example_es": "Es mi deber ayudar.",
+        "char_count": "two",
+        "usage_context_en": "Something you must do because it is right.",
+        "usage_context_es": "Algo que debes hacer porque es lo correcto.",
+        "imagePath": "/card_images/nouns/2-intermediate/work/2-intermediate_work_card_6_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "factory",
+    "phonetic": "/ˈfæktəri/",
+    "spoken_phonetic_us": "/ˈfæktəri/",
+    "search_term": "noun/work/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Fábrica",
+        "usage_example": "He works at a car factory.",
+        "pronunciation_guide_es": "/ji_UORKS_at_a_KAR_FAKtori/",
+        "usage_example_es": "Él trabaja en una fábrica de carros.",
+        "char_count": "three",
+        "usage_context_en": "A building where goods are made.",
+        "usage_context_es": "Un edificio donde se fabrican productos.",
+        "imagePath": "/card_images/nouns/2-intermediate/work/2-intermediate_work_card_7_def0.avif"
+      }
+    ]
   }
 ]

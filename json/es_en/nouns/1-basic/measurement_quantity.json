@@ -128,5 +128,57 @@
     "phonetic": "/haɪt/",
     "search_term": "noun/measurement_quantity/added",
     "spoken_phonetic_us": "/haɪt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "mile",
+    "phonetic": "/maɪl/",
+    "spoken_phonetic_us": "/maɪl/",
+    "search_term": "noun/measurement_quantity/added",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Milla",
+        "usage_example": "The store is one mile away.",
+        "pronunciation_guide_es": "/MAIL/",
+        "usage_example_es": "La tienda está a una milla.",
+        "char_count": "one",
+        "usage_context_en": "A unit of distance (about 1.6 km).",
+        "usage_context_es": "Una unidad de distancia (aproximadamente 1.6 km).",
+        "imagePath": "/card_images/nouns/1-basic/measurement_quantity/1-basic_measurement_quantity_card_5_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "pound",
+    "phonetic": "/paʊnd/",
+    "spoken_phonetic_us": "/paʊnd/",
+    "search_term": "noun/measurement_quantity/added",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Libra (peso)",
+        "usage_example": "The bag weighs one pound.",
+        "pronunciation_guide_es": "/PAUND/",
+        "usage_example_es": "La bolsa pesa una libra.",
+        "char_count": "one",
+        "usage_context_en": "A unit of weight (about 0.45 kg).",
+        "usage_context_es": "Una unidad de peso (aproximadamente 0.45 kg).",
+        "imagePath": "/card_images/nouns/1-basic/measurement_quantity/1-basic_measurement_quantity_card_6_def0.avif"
+      }
+    ]
   }
 ]

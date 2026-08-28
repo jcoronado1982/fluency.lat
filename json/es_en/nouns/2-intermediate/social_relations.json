@@ -642,5 +642,57 @@
     "phonetic": "/rɪˈspɛkt/",
     "search_term": "noun/concept/essentials",
     "spoken_phonetic_us": "/rɪˈspɛkt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "enemy",
+    "phonetic": "/ˈɛnəmi/",
+    "spoken_phonetic_us": "/ˈɛnəmi/",
+    "search_term": "noun/social_relations/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Enemigo",
+        "usage_example": "They became enemies after the fight.",
+        "pronunciation_guide_es": "/DEI_biKEIM_ENemis_AFter_de_FAIT/",
+        "usage_example_es": "Se convirtieron en enemigos después de la pelea.",
+        "char_count": "three",
+        "usage_context_en": "A person who is against you.",
+        "usage_context_es": "Una persona que está en tu contra.",
+        "imagePath": "/card_images/nouns/2-intermediate/social_relations/2-intermediate_social_relations_card_24_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "relation",
+    "phonetic": "/rɪˈleɪʃən/",
+    "spoken_phonetic_us": "/rɪˈleɪʃən/",
+    "search_term": "noun/social_relations/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Relación",
+        "usage_example": "Good relations between neighbors matter.",
+        "pronunciation_guide_es": "/GUD_riLEIshons_biTUIN_NEIbors_MAter/",
+        "usage_example_es": "Las buenas relaciones entre vecinos importan.",
+        "char_count": "three",
+        "usage_context_en": "The way two people or groups are connected.",
+        "usage_context_es": "La forma en que dos personas o grupos están conectados.",
+        "imagePath": "/card_images/nouns/2-intermediate/social_relations/2-intermediate_social_relations_card_25_def0.avif"
+      }
+    ]
   }
 ]

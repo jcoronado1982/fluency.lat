@@ -346,5 +346,57 @@
         "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_12_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ago",
+    "phonetic": "/əˈɡoʊ/",
+    "spoken_phonetic_us": "/əˈɡoʊ/",
+    "search_term": "adverb/time/basic",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Time & Sequence",
+    "definitions": [
+      {
+        "meaning": "Hace (tiempo)",
+        "usage_example": "I met her three years ago.",
+        "pronunciation_guide_es": "/ai_MET_jer_ZRI_YIRS_aGOU/",
+        "usage_example_es": "La conocí hace tres años.",
+        "char_count": "two",
+        "usage_context_en": "Used to say how far back in time something happened.",
+        "usage_context_es": "Se usa para decir cuánto tiempo atrás pasó algo.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_13_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "once",
+    "phonetic": "/wʌns/",
+    "spoken_phonetic_us": "/wʌns/",
+    "search_term": "adverb/time/basic",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Time & Sequence",
+    "definitions": [
+      {
+        "meaning": "Una vez",
+        "usage_example": "I've only been there once.",
+        "pronunciation_guide_es": "/aiv_OUNli_bin_DER_UANS/",
+        "usage_example_es": "Solo he estado ahí una vez.",
+        "char_count": "one",
+        "usage_context_en": "On one occasion only.",
+        "usage_context_es": "En una sola ocasión.",
+        "imagePath": "/card_images/adverbs/1-basic/time_sequence/1-basic_time_sequence_card_14_def0.avif"
+      }
+    ]
   }
 ]

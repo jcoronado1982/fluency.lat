@@ -286,5 +286,119 @@
     "search_term": "verb/wish/level_up",
     "spoken_phonetic_us": "/hoʊp/",
     "group_name": "Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "relax",
+    "phonetic": "/rɪˈlæks/",
+    "spoken_phonetic_us": "/rɪˈlæks/",
+    "search_term": "verb/relax/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Being & State",
+    "definitions": [
+      {
+        "meaning": "Relajarse",
+        "usage_example": "I relax by listening to music.",
+        "pronunciation_guide_es": "/ri-LAKS/",
+        "usage_example_es": "Me relajo escuchando música.",
+        "char_count": "two",
+        "usage_context_en": "To rest and become calm.",
+        "usage_context_es": "Descansar y calmarse.",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_7_def0.avif",
+        "alternative_example": "You should relax before the exam."
+      },
+      {
+        "meaning": "Descansar (el cuerpo, la mente)",
+        "usage_example": "Just relax and breathe.",
+        "alternative_example": "Relax your shoulders.",
+        "pronunciation_guide_es": "/YAST_riLAKS_and_BRIZ/",
+        "usage_example_es": "Solo relájate y respira.",
+        "char_count": "two",
+        "usage_context_en": "To become calm and free of tension.",
+        "usage_context_es": "Calmarse y liberarse de la tensión.",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_7_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "care",
+    "phonetic": "/kɛr/",
+    "spoken_phonetic_us": "/kɛr/",
+    "search_term": "verb/care/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Feelings & Relationships",
+    "definitions": [
+      {
+        "meaning": "Preocuparse / Importarle a alguien",
+        "usage_example": "I really care about my friends.",
+        "alternative_example": "He doesn't seem to care at all.",
+        "pronunciation_guide_es": "/ai_RIli_KER_aBAUT_mai_FRENDS/",
+        "usage_example_es": "Realmente me importan mis amigos.",
+        "char_count": "one",
+        "usage_context_en": "To feel that something is important to you.",
+        "usage_context_es": "Sentir que algo es importante para ti.",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_8_def0.avif"
+      },
+      {
+        "meaning": "Cuidar (de alguien)",
+        "usage_example": "She cares for her elderly parents.",
+        "alternative_example": "Who is going to care for the baby?",
+        "pronunciation_guide_es": "/shi_KERS_for_jer_ELderli_PErents/",
+        "usage_example_es": "Ella cuida a sus padres ancianos.",
+        "char_count": "one",
+        "usage_context_en": "To look after someone's health and needs.",
+        "usage_context_es": "Atender la salud y las necesidades de alguien.",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_8_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "smile",
+    "phonetic": "/smaɪl/",
+    "spoken_phonetic_us": "/smaɪl/",
+    "search_term": "verb/smile/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Daily Life",
+    "definitions": [
+      {
+        "meaning": "Sonreír",
+        "usage_example": "She smiled when she saw me.",
+        "alternative_example": "He always smiles at strangers.",
+        "pronunciation_guide_es": "/shi_SMAILD_uen_shi_SO_mi/",
+        "usage_example_es": "Ella sonrió cuando me vio.",
+        "char_count": "one",
+        "usage_context_en": "To make a happy expression with your mouth.",
+        "usage_context_es": "Hacer una expresión feliz con la boca.",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_9_def0.avif"
+      },
+      {
+        "meaning": "Sonreírle (a alguien)",
+        "usage_example": "The baby smiled at his mother.",
+        "alternative_example": "Please smile for the camera.",
+        "pronunciation_guide_es": "/de_BEIbi_SMAILD_at_jis_MAder/",
+        "usage_example_es": "El bebé le sonrió a su mamá.",
+        "char_count": "one",
+        "usage_context_en": "To smile directed at a specific person.",
+        "usage_context_es": "Sonreír dirigido a una persona específica.",
+        "imagePath": "/card_images/verbs/1-basic/feelings/1-basic_feelings_card_9_def1.avif"
+      }
+    ]
   }
 ]

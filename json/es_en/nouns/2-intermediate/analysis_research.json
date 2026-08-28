@@ -346,5 +346,31 @@
         "imagePath": "/card_images/nouns/2-intermediate/analysis_research/2-intermediate_analysis_research_card_12_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "detail",
+    "phonetic": "/ˈdiːteɪl/",
+    "spoken_phonetic_us": "/ˈdiːteɪl/",
+    "search_term": "noun/analysis/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Detalle",
+        "usage_example": "Tell me the details of the plan.",
+        "pronunciation_guide_es": "/TEL_mi_de_DIteils_of_de_PLAN/",
+        "usage_example_es": "Cuéntame los detalles del plan.",
+        "char_count": "two",
+        "usage_context_en": "A small individual fact or item.",
+        "usage_context_es": "Un hecho o elemento pequeño e individual.",
+        "imagePath": "/card_images/nouns/2-intermediate/analysis_research/2-intermediate_analysis_research_card_13_def0.avif"
+      }
+    ]
   }
 ]

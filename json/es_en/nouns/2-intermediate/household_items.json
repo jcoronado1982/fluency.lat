@@ -128,5 +128,31 @@
     ],
     "is_verb": false,
     "group_name": "Household"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "seat",
+    "phonetic": "/siːt/",
+    "spoken_phonetic_us": "/siːt/",
+    "search_term": "noun/household/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Household",
+    "definitions": [
+      {
+        "meaning": "Asiento",
+        "usage_example": "Please take a seat.",
+        "pronunciation_guide_es": "/plis_TEIK_a_SIT/",
+        "usage_example_es": "Por favor toma asiento.",
+        "char_count": "one",
+        "usage_context_en": "A place to sit.",
+        "usage_context_es": "Un lugar para sentarse.",
+        "imagePath": "/card_images/nouns/2-intermediate/household_items/2-intermediate_household_items_card_5_def0.avif"
+      }
+    ]
   }
 ]

@@ -164,5 +164,31 @@
     "phonetic": "/strɛŋkθ/",
     "search_term": "noun/concept/essentials",
     "spoken_phonetic_us": "/strɛŋkθ/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "mass",
+    "phonetic": "/mæs/",
+    "spoken_phonetic_us": "/mæs/",
+    "search_term": "noun/measurement_quantity/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Masa (cantidad)",
+        "usage_example": "Scientists measured the mass of the object.",
+        "pronunciation_guide_es": "/SAIentists_MEyerd_de_MAS_of_de_OByekt/",
+        "usage_example_es": "Los científicos midieron la masa del objeto.",
+        "char_count": "one",
+        "usage_context_en": "The amount of matter something contains.",
+        "usage_context_es": "La cantidad de materia que algo contiene.",
+        "imagePath": "/card_images/nouns/3-advanced/measurement_quantity/3-advanced_measurement_quantity_card_6_def0.avif"
+      }
+    ]
   }
 ]

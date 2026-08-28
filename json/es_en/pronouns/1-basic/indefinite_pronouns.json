@@ -484,5 +484,32 @@
     "phonetic": "/ˈsʌmbɒdi/",
     "search_term": "pronoun/indefinite",
     "spoken_phonetic_us": "/ˈsʌmbɑdi/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "else",
+    "phonetic": "/ɛls/",
+    "spoken_phonetic_us": "/ɛls/",
+    "search_term": "pronoun/indefinite",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Indefinido",
+    "definitions": [
+      {
+        "meaning": "Más / Otro/a (adicional)",
+        "usage_example": "Do you need anything else?",
+        "pronunciation_guide_es": "/ELS/",
+        "usage_example_es": "¿Necesitas algo más?",
+        "char_count": "4",
+        "usage_context_en": "Used after words like something, anyone, to mean 'in addition'.",
+        "usage_context_es": "Usado después de palabras como something, anyone, para significar 'además'.",
+        "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_15_def0.avif"
+      }
+    ],
+    "category": "Basic"
   }
 ]

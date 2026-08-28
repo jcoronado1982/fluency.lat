@@ -138,5 +138,31 @@
         "imagePath": "/card_images/adverbs/2-intermediate/degree_precision/2-intermediate_degree_precision_card_4_def1.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "indeed",
+    "phonetic": "/ɪnˈdiːd/",
+    "spoken_phonetic_us": "/ɪnˈdiːd/",
+    "search_term": "adverb/degree",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Adverbs: Degree",
+    "definitions": [
+      {
+        "meaning": "Realmente / En efecto",
+        "usage_example": "It was indeed a great show.",
+        "pronunciation_guide_es": "/it_UAS_inDID_a_GREIT_SHOU/",
+        "usage_example_es": "Fue en efecto un gran espectáculo.",
+        "char_count": "two",
+        "usage_context_en": "Used to emphasize a statement is true.",
+        "usage_context_es": "Se usa para enfatizar que una afirmación es cierta.",
+        "imagePath": "/card_images/adverbs/2-intermediate/degree_precision/2-intermediate_degree_precision_card_5_def0.avif"
+      }
+    ]
   }
 ]

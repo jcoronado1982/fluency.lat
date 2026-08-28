@@ -874,5 +874,181 @@
     "search_term": "verb/visit/essentials",
     "spoken_phonetic_us": "/ˈvɪz.ɪt/",
     "group_name": "Travel & Social Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "climb",
+    "phonetic": "/klaɪm/",
+    "spoken_phonetic_us": "/klaɪm/",
+    "search_term": "verb/climb/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Action & Movement",
+    "definitions": [
+      {
+        "meaning": "Subir / Escalar",
+        "usage_example": "We climbed the mountain.",
+        "pronunciation_guide_es": "/KLAIM/",
+        "usage_example_es": "Subimos la montaña.",
+        "char_count": "one",
+        "usage_context_en": "To go up using your hands and feet.",
+        "usage_context_es": "Ir hacia arriba usando las manos y los pies.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_19_def0.avif",
+        "alternative_example": "He climbs trees very well."
+      },
+      {
+        "meaning": "Subir (escaleras, una cuesta)",
+        "usage_example": "She climbed the stairs quickly.",
+        "alternative_example": "The price continues to climb.",
+        "pronunciation_guide_es": "/shi_KLAIMD_de_STERS_KUIKli/",
+        "usage_example_es": "Ella subió las escaleras rápidamente.",
+        "char_count": "one",
+        "usage_context_en": "To go upward, step by step.",
+        "usage_context_es": "Ir hacia arriba, paso a paso.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_19_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ride",
+    "phonetic": "/raɪd/",
+    "spoken_phonetic_us": "/raɪd/",
+    "search_term": "verb/ride/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Action & Movement",
+    "definitions": [
+      {
+        "meaning": "Andar / Montar",
+        "usage_example": "I ride my bike every day.",
+        "pronunciation_guide_es": "/RAID/",
+        "usage_example_es": "Ando en bici todos los días.",
+        "char_count": "one",
+        "usage_context_en": "To travel on a bike, horse, or vehicle.",
+        "usage_context_es": "Viajar en bicicleta, caballo o vehículo.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_20_def0.avif",
+        "alternative_example": "She rides a horse on weekends."
+      },
+      {
+        "meaning": "Viajar (en un vehículo, como pasajero)",
+        "usage_example": "We rode the bus to school.",
+        "alternative_example": "They rode the train to the city.",
+        "pronunciation_guide_es": "/UI_ROUD_de_BAS_tu_SKUL/",
+        "usage_example_es": "Viajamos en autobús a la escuela.",
+        "char_count": "one",
+        "usage_context_en": "To travel as a passenger in a vehicle.",
+        "usage_context_es": "Viajar como pasajero en un vehículo.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_20_def1.avif"
+      }
+    ],
+    "irregular": {
+      "past": {
+        "form": "rode",
+        "phonetic": "/roʊd/",
+        "spoken_phonetic_us": "/roʊd/",
+        "usage_example": "I rode my bike to work yesterday.",
+        "usage_example_es": "Ayer fui en bici al trabajo.",
+        "pronunciation_guide_es": "/ai_ROUD_mai_BAIK_tu_UORK_iesterdei/",
+        "meaning": "Pasado de andar/montar",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_20_def0_v2.avif"
+      },
+      "participle": {
+        "form": "ridden",
+        "phonetic": "/ˈrɪdən/",
+        "spoken_phonetic_us": "/ˈrɪdən/",
+        "usage_example": "I have ridden a horse before.",
+        "usage_example_es": "Ya he montado a caballo antes.",
+        "pronunciation_guide_es": "/ai_jav_RIDen_a_JORS_biFOR/",
+        "meaning": "Participio de andar/montar",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_20_def0_v3.avif"
+      }
+    }
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "drive",
+    "phonetic": "/draɪv/",
+    "spoken_phonetic_us": "/draɪv/",
+    "search_term": "verb/operate vehicle/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Movement",
+    "definitions": [
+      {
+        "meaning": "Conducir / Manejar (un vehículo)",
+        "usage_example": "I drive a car to work every morning.",
+        "pronunciation_guide_es": "/ai_DRAIV_a_KAR_tu_WUORK_EV-ri_MOR-ning/",
+        "usage_example_es": "Conduzco un auto al trabajo cada mañana.",
+        "char_count": "one",
+        "usage_context_en": "To operate and control the direction and speed of a motor vehicle.",
+        "usage_context_es": "Operar y controlar la dirección y velocidad de un vehículo a motor.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_drive_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "arrive",
+    "phonetic": "/əˈraɪv/",
+    "spoken_phonetic_us": "/əˈraɪv/",
+    "search_term": "verb/reach destination/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Movement",
+    "definitions": [
+      {
+        "meaning": "Llegar (a un lugar o destino)",
+        "usage_example": "We arrive at the airport at eight o'clock.",
+        "pronunciation_guide_es": "/ui_a-RAIV_at_de_ER-port_at_EIT_o-KLOK/",
+        "usage_example_es": "Llegamos al aeropuerto a las ocho en punto.",
+        "char_count": "one",
+        "usage_context_en": "To reach a destination or location at the end of a journey.",
+        "usage_context_es": "Alcanzar un destino o lugar al final de un viaje.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_arrive_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "swim",
+    "phonetic": "/swɪm/",
+    "spoken_phonetic_us": "/swɪm/",
+    "search_term": "verb/swim/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Movement",
+    "definitions": [
+      {
+        "meaning": "Nadar",
+        "usage_example": "We love to swim in the pool during summer.",
+        "pronunciation_guide_es": "/ui_LAV_tu_SUIM_in_de_PUL_diu-ring_SAM-mer/",
+        "usage_example_es": "Nos encanta nadar en la piscina durante el verano.",
+        "char_count": "one",
+        "usage_context_en": "To propel oneself through water using the limbs.",
+        "usage_context_es": "Moverse en el agua usando brazos y piernas.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_swim_def0.avif"
+      }
+    ]
   }
 ]

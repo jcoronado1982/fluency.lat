@@ -372,5 +372,109 @@
         "imagePath": "/card_images/adverbs/1-basic/manner_degree_quantity/1-basic_manner_degree_quantity_card_13_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "quite",
+    "phonetic": "/kwaɪt/",
+    "spoken_phonetic_us": "/kwaɪt/",
+    "search_term": "adverb/degree",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Adverbs: Degree",
+    "definitions": [
+      {
+        "meaning": "Bastante",
+        "usage_example": "The movie was quite good.",
+        "pronunciation_guide_es": "/KUAIT/",
+        "usage_example_es": "La película estuvo bastante buena.",
+        "char_count": "5",
+        "usage_context_en": "To a fairly high degree.",
+        "usage_context_es": "En un grado bastante alto.",
+        "imagePath": "/card_images/adverbs/1-basic/manner_degree_quantity/1-basic_manner_degree_quantity_card_14_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "only",
+    "phonetic": "/ˈoʊnli/",
+    "spoken_phonetic_us": "/ˈoʊnli/",
+    "search_term": "adverb/degree",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Adverbs: Degree",
+    "definitions": [
+      {
+        "meaning": "Solo / Solamente",
+        "usage_example": "I only have one dollar.",
+        "pronunciation_guide_es": "/OUN-li/",
+        "usage_example_es": "Solo tengo un dólar.",
+        "char_count": "4",
+        "usage_context_en": "No more than; just.",
+        "usage_context_es": "No más que; solamente.",
+        "imagePath": "/card_images/adverbs/1-basic/manner_degree_quantity/1-basic_manner_degree_quantity_card_15_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "even",
+    "phonetic": "/ˈiːvən/",
+    "spoken_phonetic_us": "/ˈiːvən/",
+    "search_term": "adverb/degree",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Adverbs: Degree",
+    "definitions": [
+      {
+        "meaning": "Incluso / Hasta",
+        "usage_example": "Even my dad likes it.",
+        "pronunciation_guide_es": "/I-ven/",
+        "usage_example_es": "Incluso a mi papá le gusta.",
+        "char_count": "4",
+        "usage_context_en": "Used to emphasize something surprising.",
+        "usage_context_es": "Usado para enfatizar algo sorprendente.",
+        "imagePath": "/card_images/adverbs/1-basic/manner_degree_quantity/1-basic_manner_degree_quantity_card_16_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "a lot",
+    "phonetic": "/ə lɒt/",
+    "spoken_phonetic_us": "/ə lɑːt/",
+    "search_term": "adverb/quantity/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Manner, Degree & Quantity",
+    "definitions": [
+      {
+        "meaning": "Mucho / Un montón",
+        "usage_example": "Thanks a lot for your help.",
+        "pronunciation_guide_es": "/THANKS_a_LOT_for_yur_JELP/",
+        "usage_example_es": "Muchas gracias por tu ayuda.",
+        "char_count": "two",
+        "usage_context_en": "To a great extent; very much.",
+        "usage_context_es": "En gran medida; mucho.",
+        "imagePath": "/card_images/adverbs/1-basic/manner_degree_quantity/1-basic_a_lot_def0.avif"
+      }
+    ]
   }
 ]

@@ -604,5 +604,57 @@
     "phonetic": "",
     "search_term": "noun/school-&-work/seed",
     "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "college",
+    "phonetic": "/ˈkɑːlɪdʒ/",
+    "spoken_phonetic_us": "/ˈkɑːlɪdʒ/",
+    "search_term": "noun/school/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "School & Work",
+    "definitions": [
+      {
+        "meaning": "Universidad",
+        "usage_example": "She studies at college.",
+        "pronunciation_guide_es": "/KA-lich/",
+        "usage_example_es": "Ella estudia en la universidad.",
+        "char_count": "two",
+        "usage_context_en": "A place of higher education after high school.",
+        "usage_context_es": "Un lugar de educación superior después de la secundaria.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_21_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "classroom",
+    "phonetic": "/ˈklæsruːm/",
+    "spoken_phonetic_us": "/ˈklæsruːm/",
+    "search_term": "noun/school/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "School & Work",
+    "definitions": [
+      {
+        "meaning": "Salón de clases",
+        "usage_example": "The classroom is full of students.",
+        "pronunciation_guide_es": "/KLAS-rum/",
+        "usage_example_es": "El salón de clases está lleno de estudiantes.",
+        "char_count": "two",
+        "usage_context_en": "A room where students have lessons.",
+        "usage_context_es": "Un salón donde los estudiantes tienen clases.",
+        "imagePath": "/card_images/nouns/1-basic/school/1-basic_school_card_22_def0.avif"
+      }
+    ]
   }
 ]

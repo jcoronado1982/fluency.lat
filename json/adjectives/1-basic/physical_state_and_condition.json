@@ -493,5 +493,135 @@
         "usage_context_es": "Dañado y sin funcionar correctamente."
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sunny",
+    "phonetic": "/ˈsʌn.i/",
+    "spoken_phonetic_us": "/ˈsʌn.i/",
+    "search_term": "adjective/weather/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Physical State & Condition",
+    "definitions": [
+      {
+        "meaning": "Soleado",
+        "usage_example": "It is a warm and sunny day.",
+        "pronunciation_guide_es": "/it_IS_a_WORM_and_SA-ni_DEI/",
+        "usage_example_es": "Es un día cálido y soleado.",
+        "char_count": "one",
+        "usage_context_en": "Bright with sunlight; receiving much sunlight.",
+        "usage_context_es": "Brillante por la luz del sol.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_sunny_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "cloudy",
+    "phonetic": "/ˈklaʊ.di/",
+    "spoken_phonetic_us": "/ˈklaʊ.di/",
+    "search_term": "adjective/weather/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Physical State & Condition",
+    "definitions": [
+      {
+        "meaning": "Nublado",
+        "usage_example": "The sky is cloudy today.",
+        "pronunciation_guide_es": "/de_SKAI_is_KLAU-di_tu-DEI/",
+        "usage_example_es": "El cielo está nublado hoy.",
+        "char_count": "one",
+        "usage_context_en": "Covered with or characterized by clouds.",
+        "usage_context_es": "Cubierto o caracterizado por nubes.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_cloudy_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "rainy",
+    "phonetic": "/ˈreɪ.ni/",
+    "spoken_phonetic_us": "/ˈreɪ.ni/",
+    "search_term": "adjective/weather/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Physical State & Condition",
+    "definitions": [
+      {
+        "meaning": "Lluvioso",
+        "usage_example": "Don't forget your umbrella on a rainy afternoon.",
+        "pronunciation_guide_es": "/DONT_for-GUET_yur_om-BRE-la_on_a_REI-ni_af-ter-NUN/",
+        "usage_example_es": "No olvides tu paraguas en una tarde lluviosa.",
+        "char_count": "one",
+        "usage_context_en": "Having a lot of rain.",
+        "usage_context_es": "Que tiene mucha lluvia.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_rainy_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "windy",
+    "phonetic": "/ˈwɪn.di/",
+    "spoken_phonetic_us": "/ˈwɪn.di/",
+    "search_term": "adjective/weather/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Physical State & Condition",
+    "definitions": [
+      {
+        "meaning": "Viento / Ventoso",
+        "usage_example": "It is very windy near the ocean.",
+        "pronunciation_guide_es": "/it_IS_VE-ri_WIN-di_NIR_de_O-shan/",
+        "usage_example_es": "Hace mucho viento cerca del océano.",
+        "char_count": "one",
+        "usage_context_en": "Characterized by strong wind.",
+        "usage_context_es": "Caracterizado por viento fuerte.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_windy_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "foggy",
+    "phonetic": "/ˈfɒɡ.i/",
+    "spoken_phonetic_us": "/ˈfɑː.ɡi/",
+    "search_term": "adjective/weather/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Physical State & Condition",
+    "definitions": [
+      {
+        "meaning": "Nubes bajas / Con niebla",
+        "usage_example": "Drive slowly because it is foggy outside.",
+        "pronunciation_guide_es": "/DRAIV_SLO-li_bi-KOS_it_IS_FOG-gui_aut-SAID/",
+        "usage_example_es": "Conduce despacio porque hay niebla afuera.",
+        "char_count": "one",
+        "usage_context_en": "Full of or covered with fog.",
+        "usage_context_es": "Lleno de niebla.",
+        "imagePath": "/card_images/adjectives/1-basic/physical_state_and_condition/1-basic_foggy_def0.avif"
+      }
+    ]
   }
 ]

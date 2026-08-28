@@ -466,5 +466,135 @@
     "phonetic": "/niːs/",
     "search_term": "noun/family/essentials",
     "spoken_phonetic_us": "/niːs/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "dad",
+    "phonetic": "/dæd/",
+    "spoken_phonetic_us": "/dæd/",
+    "search_term": "noun/family/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Family",
+    "definitions": [
+      {
+        "meaning": "Papá",
+        "usage_example": "My dad works downtown.",
+        "pronunciation_guide_es": "/DAD/",
+        "usage_example_es": "Mi papá trabaja en el centro.",
+        "char_count": "one",
+        "usage_context_en": "An informal word for father.",
+        "usage_context_es": "Una palabra informal para padre.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_18_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "mum",
+    "phonetic": "/mʌm/",
+    "spoken_phonetic_us": "/mʌm/",
+    "search_term": "noun/family/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Family",
+    "definitions": [
+      {
+        "meaning": "Mamá",
+        "usage_example": "My mum makes great food.",
+        "pronunciation_guide_es": "/MOM/",
+        "usage_example_es": "Mi mamá cocina genial.",
+        "char_count": "one",
+        "usage_context_en": "An informal word for mother.",
+        "usage_context_es": "Una palabra informal para madre.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_19_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "boyfriend",
+    "phonetic": "/ˈbɔɪfrɛnd/",
+    "spoken_phonetic_us": "/ˈbɔɪfrɛnd/",
+    "search_term": "noun/family/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Family",
+    "definitions": [
+      {
+        "meaning": "Novio",
+        "usage_example": "This is my boyfriend, Tom.",
+        "pronunciation_guide_es": "/BOI-frend/",
+        "usage_example_es": "Este es mi novio, Tom.",
+        "char_count": "two",
+        "usage_context_en": "A man someone is romantically dating.",
+        "usage_context_es": "Un hombre con el que alguien tiene una relación romántica.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_20_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "girlfriend",
+    "phonetic": "/ˈɡɜːrlfrɛnd/",
+    "spoken_phonetic_us": "/ˈɡɜːrlfrɛnd/",
+    "search_term": "noun/family/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Family",
+    "definitions": [
+      {
+        "meaning": "Novia",
+        "usage_example": "She introduced her girlfriend to us.",
+        "pronunciation_guide_es": "/GUERL-frend/",
+        "usage_example_es": "Ella nos presentó a su novia.",
+        "char_count": "two",
+        "usage_context_en": "A woman someone is romantically dating.",
+        "usage_context_es": "Una mujer con la que alguien tiene una relación romántica.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_21_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "grandparent",
+    "phonetic": "/ˈɡrænpɛərənt/",
+    "spoken_phonetic_us": "/ˈɡrænpɛərənt/",
+    "search_term": "noun/family/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Family",
+    "definitions": [
+      {
+        "meaning": "Abuelo/a",
+        "usage_example": "I visit my grandparents every Sunday.",
+        "pronunciation_guide_es": "/GRAN-pe-rent/",
+        "usage_example_es": "Visito a mis abuelos cada domingo.",
+        "char_count": "three",
+        "usage_context_en": "The parent of one's father or mother.",
+        "usage_context_es": "El padre o la madre de tu padre o madre.",
+        "imagePath": "/card_images/nouns/1-basic/family/1-basic_family_card_22_def0.avif"
+      }
+    ]
   }
 ]

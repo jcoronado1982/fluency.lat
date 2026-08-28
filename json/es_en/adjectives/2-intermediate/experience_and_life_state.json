@@ -197,5 +197,59 @@
         "imagePath": "/card_images/adjectives/2-intermediate/experience_and_life_state/2-intermediate_experience_and_life_state_card_6_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "likely",
+    "phonetic": "/ˈlaɪkli/",
+    "spoken_phonetic_us": "/ˈlaɪkli/",
+    "search_term": "adjective/experience/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "State & Fortune",
+    "definitions": [
+      {
+        "meaning": "Probable",
+        "usage_example": "It's likely to rain today.",
+        "pronunciation_guide_es": "/its_LAIKli_tu_REIN_tuDEI/",
+        "usage_example_es": "Es probable que llueva hoy.",
+        "char_count": "two",
+        "usage_context_en": "Probably going to happen.",
+        "usage_context_es": "Que probablemente va a suceder.",
+        "imagePath": "/card_images/adjectives/2-intermediate/experience_and_life_state/2-intermediate_experience_and_life_state_card_7_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "single",
+    "phonetic": "/ˈsɪŋɡəl/",
+    "spoken_phonetic_us": "/ˈsɪŋɡəl/",
+    "search_term": "adjective/experience/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "State & Fortune",
+    "definitions": [
+      {
+        "meaning": "Soltero/a",
+        "usage_example": "She's been single for a year.",
+        "pronunciation_guide_es": "/shis_bin_SINgol_for_a_YIR/",
+        "usage_example_es": "Ella ha estado soltera por un año.",
+        "char_count": "two",
+        "usage_context_en": "Not married or in a relationship.",
+        "usage_context_es": "No casado ni en una relación.",
+        "imagePath": "/card_images/adjectives/2-intermediate/experience_and_life_state/2-intermediate_experience_and_life_state_card_8_def0.avif"
+      }
+    ],
+    "category": "Intermediate"
   }
 ]

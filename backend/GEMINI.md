@@ -17,7 +17,7 @@ backend/
     ├── src/config.rs           Settings (env vars)
     ├── src/modules/            route registration PER module (flashcards.rs, pronoun_practice.rs, shell.rs)
     ├── src/api/endpoints/      HTTP handlers (thin: map HTTP ↔ use cases)
-    └── src/infrastructure/     adapters: SurrealDB, storage, media_delivery, ai/ (Gemini gRPC, TTS, ComfyUI, AVIF)
+    └── src/infrastructure/     adapters: SurrealDB, storage, media_delivery, ai/ (Gemini gRPC, TTS, stable-diffusion.cpp, llama.cpp, AVIF)
 ```
 
 **Dependency Rule (Inviolable)**: `core` imports from no one; `mod_*` imports only `core`; `api_main` imports everything and wires. A `mod_*` NEVER imports from `api_main` or another `mod_*`.
@@ -54,10 +54,15 @@ cargo check -p api_main    # ALWAYS before push (pipeline protocol)
 - Without DB → `infrastructure/storage/null_db_repository.rs` (Null Object, app launches normally).
 - Assets (json/audio/images): local disk in prod (`SYNC_TO_ORACLE=false`, `ORACLE_REPOSITORY_ONLY=false`). Full env vars table in `CODEBASE.md`.
 
+## Local AI Stack (Cero Python / Cero Ollama / Cero ComfyUI)
+- **stable-diffusion.cpp** (`sd-server` :8188) → Flux 2 Klein GGUF en GPU 0 (RTX 5060 Ti).
+- **llama.cpp** (`llama-server` :8082) → Qwen GGUF en GPU 1 (GTX 1660).
+- ComfyUI y Ollama están DEPRECADOS y NO están instalados en este sistema.
+
 ## How to Test
 
 ```bash
-./start.sh                    # full stack (Docker DB + ComfyUI + backend :8081 + Vite :5173)
+./start.sh                    # full stack (Docker DB + sd-server :8188 + backend :8081 + Vite :5173)
 cargo check -p api_main       # minimum gate
 cargo nextest run --workspace # Rust local suite (unit, properties, mocks, handlers/snapshots)
 curl -s http://localhost:8081/api/health

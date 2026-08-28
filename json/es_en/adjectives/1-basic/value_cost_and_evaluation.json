@@ -332,5 +332,405 @@
         "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_11_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "better",
+    "phonetic": "/ˈbɛtər/",
+    "spoken_phonetic_us": "/ˈbɛtər/",
+    "search_term": "adjective/basic/quality_value",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Quality & Value",
+    "definitions": [
+      {
+        "meaning": "Mejor",
+        "usage_example": "This coffee is better than that one.",
+        "pronunciation_guide_es": "/BE-ter/",
+        "usage_example_es": "Este café es mejor que ese.",
+        "char_count": "6",
+        "usage_context_en": "Comparative form of good.",
+        "usage_context_es": "Forma comparativa de good (bueno).",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_12_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "best",
+    "phonetic": "/bɛst/",
+    "spoken_phonetic_us": "/bɛst/",
+    "search_term": "adjective/basic/quality_value",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Quality & Value",
+    "definitions": [
+      {
+        "meaning": "El/la mejor",
+        "usage_example": "This is the best restaurant in town.",
+        "pronunciation_guide_es": "/BEST/",
+        "usage_example_es": "Este es el mejor restaurante de la ciudad.",
+        "char_count": "4",
+        "usage_context_en": "Superlative form of good.",
+        "usage_context_es": "Forma superlativa de good (bueno).",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_13_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "sure",
+    "phonetic": "/ʃʊr/",
+    "spoken_phonetic_us": "/ʃʊr/",
+    "search_term": "adjective/basic/logic_evaluation",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Logic & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Seguro/a (de algo)",
+        "usage_example": "Are you sure about that?",
+        "pronunciation_guide_es": "/SHUR/",
+        "usage_example_es": "¿Estás seguro de eso?",
+        "char_count": "4",
+        "usage_context_en": "Confident that something is true.",
+        "usage_context_es": "Confiado de que algo es cierto.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_14_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "main",
+    "phonetic": "/meɪn/",
+    "spoken_phonetic_us": "/meɪn/",
+    "search_term": "adjective/basic/logic_evaluation",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Logic & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Principal",
+        "usage_example": "What is the main problem?",
+        "pronunciation_guide_es": "/MEIN/",
+        "usage_example_es": "¿Cuál es el problema principal?",
+        "char_count": "4",
+        "usage_context_en": "The most important one.",
+        "usage_context_es": "El/la más importante.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_15_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "pretty",
+    "phonetic": "/ˈprɪti/",
+    "spoken_phonetic_us": "/ˈprɪti/",
+    "search_term": "adjective/basic/quality_value",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Quality & Value",
+    "definitions": [
+      {
+        "meaning": "Bonito/a",
+        "usage_example": "She has a pretty dress.",
+        "pronunciation_guide_es": "/PRI-ti/",
+        "usage_example_es": "Ella tiene un vestido bonito.",
+        "char_count": "6",
+        "usage_context_en": "Attractive in a delicate way.",
+        "usage_context_es": "Atractivo/a de manera delicada.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_16_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "final",
+    "phonetic": "/ˈfaɪnəl/",
+    "spoken_phonetic_us": "/ˈfaɪnəl/",
+    "search_term": "adjective/basic/logic_evaluation",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Logic & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Final / Último",
+        "usage_example": "This is the final answer.",
+        "pronunciation_guide_es": "/FAI-nal/",
+        "usage_example_es": "Esta es la respuesta final.",
+        "char_count": "5",
+        "usage_context_en": "Coming at the end of something.",
+        "usage_context_es": "Que ocurre al final de algo.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_17_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "clear",
+    "phonetic": "/klɪr/",
+    "spoken_phonetic_us": "/klɪr/",
+    "search_term": "adjective/basic/logic_evaluation",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Logic & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Claro/a",
+        "usage_example": "Her instructions were very clear.",
+        "pronunciation_guide_es": "/jer_insSTRAKshons_UER_VEri_KLIR/",
+        "usage_example_es": "Sus instrucciones fueron muy claras.",
+        "char_count": "one",
+        "usage_context_en": "Easy to understand; not confusing.",
+        "usage_context_es": "Fácil de entender; no confuso.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_18_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "possible",
+    "phonetic": "/ˈpɒsɪbəl/",
+    "spoken_phonetic_us": "/ˈpɒsɪbəl/",
+    "search_term": "adjective/basic/logic_evaluation",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Logic & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Posible",
+        "usage_example": "It's possible to finish today.",
+        "pronunciation_guide_es": "/its_POsibol_tu_FInish_tuDEI/",
+        "usage_example_es": "Es posible terminar hoy.",
+        "char_count": "three",
+        "usage_context_en": "Able to happen or be done.",
+        "usage_context_es": "Que puede suceder o hacerse.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_19_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "real",
+    "phonetic": "/riːl/",
+    "spoken_phonetic_us": "/riːl/",
+    "search_term": "adjective/basic/logic_evaluation",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Logic & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Real / Verdadero",
+        "usage_example": "Is this a real diamond?",
+        "pronunciation_guide_es": "/is_dis_a_RIL_DAImond/",
+        "usage_example_es": "¿Es este un diamante real?",
+        "char_count": "one",
+        "usage_context_en": "Actually existing; not imaginary.",
+        "usage_context_es": "Que existe de verdad; no imaginario.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_20_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "special",
+    "phonetic": "/ˈspɛʃəl/",
+    "spoken_phonetic_us": "/ˈspɛʃəl/",
+    "search_term": "adjective/basic/quality_value",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Quality & Value",
+    "definitions": [
+      {
+        "meaning": "Especial",
+        "usage_example": "Today is a special day.",
+        "pronunciation_guide_es": "/tuDEI_is_a_SPEshol_DEI/",
+        "usage_example_es": "Hoy es un día especial.",
+        "char_count": "two",
+        "usage_context_en": "Different from usual; important.",
+        "usage_context_es": "Diferente de lo usual; importante.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_value_cost_and_evaluation_card_21_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "beautiful",
+    "phonetic": "/ˈbjuː.tɪ.fəl/",
+    "spoken_phonetic_us": "/ˈbjuː.t̬ə.fəl/",
+    "search_term": "adjective/appearance/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Value, Cost & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Hermoso / Bonito",
+        "usage_example": "She is wearing a beautiful dress.",
+        "pronunciation_guide_es": "/shi_IS_UE-ring_a_BIU-ti-ful_DRES/",
+        "usage_example_es": "Ella lleva puesto un vestido hermoso.",
+        "char_count": "one",
+        "usage_context_en": "Pleasing the senses or mind aesthetically.",
+        "usage_context_es": "Agradable a los sentidos o a la vista.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_beautiful_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ugly",
+    "phonetic": "/ˈʌɡ.li/",
+    "spoken_phonetic_us": "/ˈʌɡ.li/",
+    "search_term": "adjective/appearance/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Value, Cost & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Feo",
+        "usage_example": "That old building looks ugly.",
+        "pronunciation_guide_es": "/dat_OLD_BIL-ding_LUKS_AG-li/",
+        "usage_example_es": "Ese edificio viejo se ve feo.",
+        "char_count": "one",
+        "usage_context_en": "Unpleasant or repulsive in appearance.",
+        "usage_context_es": "Desagradable a la vista.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_ugly_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "interesting",
+    "phonetic": "/ˈɪn.trəs.tɪŋ/",
+    "spoken_phonetic_us": "/ˈɪn.trəs.tɪŋ/",
+    "search_term": "adjective/evaluation/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Value, Cost & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Interesante",
+        "usage_example": "This book has an interesting story.",
+        "pronunciation_guide_es": "/dis_BUK_JAS_an_IN-tres-ting_STOR-i/",
+        "usage_example_es": "Este libro tiene una historia interesante.",
+        "char_count": "one",
+        "usage_context_en": "Holding or catching the attention; intriguing.",
+        "usage_context_es": "Que llama o mantiene la atención.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_interesting_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "boring",
+    "phonetic": "/ˈbɔː.rɪŋ/",
+    "spoken_phonetic_us": "/ˈbɔː.rɪŋ/",
+    "search_term": "adjective/evaluation/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Value, Cost & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Aburrido",
+        "usage_example": "The movie was long and boring.",
+        "pronunciation_guide_es": "/de_MU-vi_UAS_LONG_and_BOR-ing/",
+        "usage_example_es": "La película fue larga y aburrida.",
+        "char_count": "one",
+        "usage_context_en": "Not interesting; tedious.",
+        "usage_context_es": "No interesante; tedioso.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_boring_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "important",
+    "phonetic": "/ɪmˈpɔː.tənt/",
+    "spoken_phonetic_us": "/ɪmˈpɔːr.tənt/",
+    "search_term": "adjective/importance/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Value, Cost & Evaluation",
+    "definitions": [
+      {
+        "meaning": "Importante",
+        "usage_example": "Sleep is very important for your health.",
+        "pronunciation_guide_es": "/SLIP_is_VE-ri_im-POR-tant_for_yur_JELTH/",
+        "usage_example_es": "Dormir es muy importante para tu salud.",
+        "char_count": "one",
+        "usage_context_en": "Of great significance or value.",
+        "usage_context_es": "De gran importancia o valor.",
+        "imagePath": "/card_images/adjectives/1-basic/value_cost_and_evaluation/1-basic_important_def0.avif"
+      }
+    ]
   }
 ]

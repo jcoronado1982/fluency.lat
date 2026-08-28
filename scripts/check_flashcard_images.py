@@ -26,6 +26,13 @@ def load(p):
         return json.load(f)
 
 
+def is_personal_deck(rel_path):
+    """Personal per-user decks (json/es_en/personal-*/...) only ever exist in es_en and use a
+    different top-level shape ({"flashcards": [...], "topic_name": ...}) instead of a plain word
+    array - they're outside the shared cross-direction image congruence system entirely."""
+    return any(part.startswith("personal-") for part in Path(rel_path).parts)
+
+
 def file_exists_for_path(image_path):
     if not image_path:
         return False
@@ -46,7 +53,10 @@ def headword_of(direction, word_obj):
 def check_direction_against_baseline(direction, baseline_files):
     dir_root = JSON_ROOT / direction
     findings = []
-    dir_files = {str(p.relative_to(dir_root)) for p in dir_root.rglob("*.json")}
+    dir_files = {
+        str(p.relative_to(dir_root)) for p in dir_root.rglob("*.json")
+        if not is_personal_deck(p.relative_to(dir_root))
+    }
     common = sorted(baseline_files & dir_files)
     only_here = sorted(dir_files - baseline_files)
 
@@ -125,6 +135,8 @@ def check_baseline_itself():
     findings = []
     for p in sorted(dir_root.rglob("*.json")):
         rel = str(p.relative_to(dir_root))
+        if is_personal_deck(rel):
+            continue
         data = load(p)
         for i, w in enumerate(data):
             for j, d in enumerate(w.get("definitions", [])):
@@ -143,7 +155,10 @@ def main():
     args = ap.parse_args()
 
     baseline_root = JSON_ROOT / BASELINE
-    baseline_files = {str(p.relative_to(baseline_root)) for p in baseline_root.rglob("*.json")}
+    baseline_files = {
+        str(p.relative_to(baseline_root)) for p in baseline_root.rglob("*.json")
+        if not is_personal_deck(p.relative_to(baseline_root))
+    }
 
     all_findings = []
     all_findings.extend(check_baseline_itself())

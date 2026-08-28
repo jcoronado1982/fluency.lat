@@ -302,5 +302,124 @@
       }
     ],
     "group_name": "Body & Movement"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "cross",
+    "phonetic": "/krɔːs/",
+    "spoken_phonetic_us": "/krɔːs/",
+    "search_term": "verb/cross/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Body & Movement",
+    "definitions": [
+      {
+        "meaning": "Cruzar",
+        "usage_example": "Cross the street carefully.",
+        "alternative_example": "We crossed the bridge.",
+        "pronunciation_guide_es": "/KROS_de_STRIT_KERfuli/",
+        "usage_example_es": "Cruza la calle con cuidado.",
+        "char_count": "one",
+        "usage_context_en": "To go from one side to the other.",
+        "usage_context_es": "Ir de un lado al otro.",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_8_def0.avif"
+      },
+      {
+        "meaning": "Cruzar (los brazos, las piernas)",
+        "usage_example": "She crossed her arms and waited.",
+        "alternative_example": "He sat with his legs crossed.",
+        "pronunciation_guide_es": "/ji_KROSD_jer_ARMS_and_UEIted/",
+        "usage_example_es": "Ella cruzó los brazos y esperó.",
+        "char_count": "one",
+        "usage_context_en": "To place one limb over the other.",
+        "usage_context_es": "Colocar un miembro sobre el otro.",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_8_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "escape",
+    "phonetic": "/ɪˈskeɪp/",
+    "spoken_phonetic_us": "/ɪˈskeɪp/",
+    "search_term": "verb/escape/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Body & Movement",
+    "definitions": [
+      {
+        "meaning": "Escapar",
+        "usage_example": "The bird escaped from its cage.",
+        "alternative_example": "They escaped through a window.",
+        "pronunciation_guide_es": "/de_BERD_esKEIPT_from_its_KEICH/",
+        "usage_example_es": "El pájaro escapó de su jaula.",
+        "char_count": "two",
+        "usage_context_en": "To get free from a dangerous or unwanted place.",
+        "usage_context_es": "Liberarse de un lugar peligroso o no deseado.",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_9_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "lift",
+    "phonetic": "/lɪft/",
+    "spoken_phonetic_us": "/lɪft/",
+    "search_term": "verb/lift/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Body & Movement",
+    "definitions": [
+      {
+        "meaning": "Levantar",
+        "usage_example": "He lifted the heavy box.",
+        "alternative_example": "Can you help me lift this table?",
+        "pronunciation_guide_es": "/ji_LIFted_de_JEvi_BOKS/",
+        "usage_example_es": "Él levantó la caja pesada.",
+        "char_count": "one",
+        "usage_context_en": "To raise something to a higher position.",
+        "usage_context_es": "Elevar algo a una posición más alta.",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_10_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "roll",
+    "phonetic": "/roʊl/",
+    "spoken_phonetic_us": "/roʊl/",
+    "search_term": "verb/roll/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Body & Movement",
+    "definitions": [
+      {
+        "meaning": "Rodar",
+        "usage_example": "The ball rolled down the hill.",
+        "alternative_example": "The coin rolled under the table.",
+        "pronunciation_guide_es": "/de_BOL_ROULD_DAUN_de_JIL/",
+        "usage_example_es": "La pelota rodó cuesta abajo.",
+        "char_count": "one",
+        "usage_context_en": "To move by turning over and over.",
+        "usage_context_es": "Moverse dando vueltas sobre sí mismo.",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_11_def0.avif"
+      }
+    ]
   }
 ]

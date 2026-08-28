@@ -460,5 +460,31 @@
         "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_16_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "post",
+    "phonetic": "/poʊst/",
+    "spoken_phonetic_us": "/poʊst/",
+    "search_term": "noun/communication/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Correo / Publicación",
+        "usage_example": "I sent it by post.",
+        "pronunciation_guide_es": "/ai_SENT_it_bai_POUST/",
+        "usage_example_es": "Lo envié por correo.",
+        "char_count": "one",
+        "usage_context_en": "Mail, or something published online.",
+        "usage_context_es": "Correo postal, o algo publicado en línea.",
+        "imagePath": "/card_images/nouns/2-intermediate/communication/2-intermediate_communication_card_17_def0.avif"
+      }
+    ]
   }
 ]

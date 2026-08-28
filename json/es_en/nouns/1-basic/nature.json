@@ -856,5 +856,83 @@
     "phonetic": "/ˈplænɪt/",
     "search_term": "noun/nature/essentials",
     "spoken_phonetic_us": "/ˈplænɪt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "hill",
+    "phonetic": "/hɪl/",
+    "spoken_phonetic_us": "/hɪl/",
+    "search_term": "noun/nature/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Nature",
+    "definitions": [
+      {
+        "meaning": "Colina",
+        "usage_example": "We climbed the hill.",
+        "pronunciation_guide_es": "/UI_KLAIMD_de_JIL/",
+        "usage_example_es": "Subimos la colina.",
+        "char_count": "one",
+        "usage_context_en": "A raised area of land, smaller than a mountain.",
+        "usage_context_es": "Una zona elevada de tierra, más pequeña que una montaña.",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_33_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "rock",
+    "phonetic": "/rɒk/",
+    "spoken_phonetic_us": "/rɒk/",
+    "search_term": "noun/nature/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Nature",
+    "definitions": [
+      {
+        "meaning": "Roca / Piedra",
+        "usage_example": "He sat on a big rock.",
+        "pronunciation_guide_es": "/ji_SAT_on_a_BIG_ROK/",
+        "usage_example_es": "Él se sentó en una roca grande.",
+        "char_count": "one",
+        "usage_context_en": "A hard piece of stone.",
+        "usage_context_es": "Un pedazo duro de piedra.",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_34_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "wave",
+    "phonetic": "/weɪv/",
+    "spoken_phonetic_us": "/weɪv/",
+    "search_term": "noun/nature/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Nature",
+    "definitions": [
+      {
+        "meaning": "Ola",
+        "usage_example": "The kids played in the waves.",
+        "pronunciation_guide_es": "/de_KIDS_PLEID_in_de_UEIVS/",
+        "usage_example_es": "Los niños jugaron en las olas.",
+        "char_count": "one",
+        "usage_context_en": "A moving ridge of water in the sea.",
+        "usage_context_es": "Una cresta de agua en movimiento en el mar.",
+        "imagePath": "/card_images/nouns/1-basic/nature/1-basic_nature_card_35_def0.avif"
+      }
+    ]
   }
 ]

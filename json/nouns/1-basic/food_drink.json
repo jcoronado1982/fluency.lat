@@ -1012,5 +1012,57 @@
     "phonetic": "/snæk/",
     "search_term": "noun/food/essentials",
     "spoken_phonetic_us": "/snæk/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "menu",
+    "phonetic": "/ˈmen.juː/",
+    "spoken_phonetic_us": "/ˈmen.juː/",
+    "search_term": "noun/food/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Food",
+    "definitions": [
+      {
+        "meaning": "Menú / Carta",
+        "usage_example": "Could I see the menu, please?",
+        "pronunciation_guide_es": "/KUD_ai_SI_de_MEN-iu_PLIS/",
+        "usage_example_es": "¿Puedo ver el menú, por favor?",
+        "char_count": "one",
+        "usage_context_en": "A list of food and drink options at a restaurant.",
+        "usage_context_es": "Una lista de opciones de comida y bebida en un restaurante.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_menu_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "burger",
+    "phonetic": "/ˈbɜːr.ɡər/",
+    "spoken_phonetic_us": "/ˈbɝː.ɡɚ/",
+    "search_term": "noun/food/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Food",
+    "definitions": [
+      {
+        "meaning": "Hamburguesa",
+        "usage_example": "I would like a burger and fries.",
+        "pronunciation_guide_es": "/ai_WUD_laik_a_BER-guer_and_FRAIS/",
+        "usage_example_es": "Me gustaría una hamburguesa y papas fritas.",
+        "char_count": "one",
+        "usage_context_en": "A popular fast food sandwich with a meat or veggie patty.",
+        "usage_context_es": "Un sándwich popular de comida rápida con medallón de carne o vegetal.",
+        "imagePath": "/card_images/nouns/1-basic/food_drink/1-basic_food_drink_card_burger_def0.avif"
+      }
+    ]
   }
 ]

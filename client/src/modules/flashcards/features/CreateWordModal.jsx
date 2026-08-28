@@ -40,7 +40,7 @@ const toRow = (candidate, id) => ({
     refreshing: false,
     createStatus: 'idle', // idle | creating | created | duplicate | error
     createError: '',
-    topicName: '',
+    topicName: candidate?.existing_topic_name ?? '',
     topicNameStatus: 'idle', // idle | saving | dismissed | error
 });
 
@@ -56,7 +56,7 @@ const toRow = (candidate, id) => ({
  * explícito del usuario: no forzar una palabra ambigua a una sola categoría, y darle control para
  * corregir la recomendación de la IA en vez de un preview de solo lectura.
  */
-function CreateWordModal({ onClose }) {
+function CreateWordModal({ onClose, onViewCreatedDeck }) {
     const { language = 'en', studyLanguage = 'en' } = useUIContext();
     const { changeCategory } = useCategoryContext();
     const { changeDeck, refreshPersonalWords } = useFlashcardContext();
@@ -206,9 +206,27 @@ function CreateWordModal({ onClose }) {
         refreshRow(id, topic.category, topic.level);
     };
 
+    const handleTopicSelectChange = (id, selectedValue) => {
+        const row = candidates.find((r) => r.id === id);
+        if (!row) return;
+
+        if (selectedValue === '__new__') {
+            const existingLevels = topicsForCategory(row.category).map((t) => t.level);
+            const freeLevel = PERSONAL_WORD_LEVELS.find((lvl) => !existingLevels.includes(lvl)) || row.level;
+            setCandidates((prev) => prev.map((r) => (r.id === id ? { ...r, isNewDeck: true } : r)));
+            refreshRow(id, row.category, freeLevel);
+        } else {
+            refreshRow(id, row.category, selectedValue);
+        }
+    };
+
     const handleRowFieldChange = (id, field, value) => {
         const row = candidates.find((r) => r.id === id);
         if (!row) return;
+        if (field === 'level') {
+            handleTopicSelectChange(id, value);
+            return;
+        }
         const nextCategory = field === 'category' ? value : row.category;
         const nextLevel = field === 'level' ? value : row.level;
         refreshRow(id, nextCategory, nextLevel);
@@ -285,14 +303,31 @@ function CreateWordModal({ onClose }) {
                 });
                 const category = response?.category ?? row.category;
                 const level = response?.level ?? row.level;
+                const isNewDeck = Boolean(response?.is_new_deck);
                 if (!response?.duplicate) {
                     anyCreated = true;
                 }
+
+                const finalTopicName = row.topicName.trim();
+                if (finalTopicName && (isNewDeck || row.isNewDeck)) {
+                    try {
+                        await personalWordPort.renamePersonalDeck({
+                            category,
+                            level,
+                            topicName: finalTopicName,
+                            courseDirection,
+                        });
+                    } catch (err) {
+                        console.error('Error auto-saving topic name:', err);
+                    }
+                }
+
                 setCandidates((prev) => prev.map((r) => (r.id === row.id ? {
                     ...r,
                     category,
                     level,
-                    isNewDeck: Boolean(response?.is_new_deck),
+                    isNewDeck,
+                    topicName: finalTopicName || r.topicName,
                     createStatus: response?.duplicate ? 'duplicate' : 'created',
                 } : r)));
             } catch (err) {
@@ -349,8 +384,11 @@ function CreateWordModal({ onClose }) {
     // La categoría/mazo son los REALES del catálogo (ej. "verbs" / "1-basic/my_words") — el
     // mismo flujo que abrir cualquier otro mazo, ver docs/modules/flashcards.md §Personal Words.
     const handleViewRow = (row) => {
+        const targetWord = row.name || row.card?.name || word.trim();
+        const deckPath = `${row.level}/my_words`;
         changeCategory(row.category);
-        changeDeck(`${row.level}/my_words`);
+        changeDeck(deckPath, null, row.category, { word: targetWord });
+        onViewCreatedDeck?.();
         onClose();
     };
 
@@ -358,7 +396,13 @@ function CreateWordModal({ onClose }) {
         <div className={styles.modal} onClick={onClose}>
             <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
                 <button type="button" className={styles.closeButton} onClick={onClose} aria-label={t.closeButton}>&times;</button>
-                <h3 className={styles.title}>{t.title}</h3>
+                <h3 className={styles.title}>
+                    {status === 'creating' || status === 'previewing'
+                        ? (t.generatingTitle || 'Generando con IA…')
+                        : status === 'results'
+                            ? (t.successTitle || '¡Palabra creada con éxito!')
+                            : t.title}
+                </h3>
 
                 {(status === 'idle' || status === 'previewing' || status === 'error') && (
                     <form onSubmit={handleSubmit} className={styles.form}>
@@ -410,10 +454,6 @@ function CreateWordModal({ onClose }) {
                         </p>
                         <div className={styles.candidateList}>
                             {candidates.map((row) => {
-                                // Nadie estudia un mazo de una sola carta: si el nivel que Gemini clasificó
-                                // no tiene mazo del usuario todavía, pero SÍ hay un tema establecido en esa
-                                // misma categoría (otro nivel), se lo sugerimos — la decisión de usarlo o
-                                // crear uno nuevo sigue siendo suya.
                                 const suggestedTopic = (!row.refreshing && row.isNewDeck) ? bestExistingTopicFor(row.category) : null;
                                 return (
                                 <div
@@ -455,29 +495,39 @@ function CreateWordModal({ onClose }) {
                                             <select
                                                 id={`topic-${row.id}`}
                                                 className={styles.select}
-                                                value={row.level}
+                                                value={row.isNewDeck || !topicsForCategory(row.category).some((topic) => topic.level === row.level) ? '__new__' : row.level}
                                                 disabled={row.refreshing}
-                                                onChange={(e) => handleRowFieldChange(row.id, 'level', e.target.value)}
+                                                onChange={(e) => handleTopicSelectChange(row.id, e.target.value)}
                                             >
-                                                {PERSONAL_WORD_LEVELS
-                                                    // El nivel de un mazo NUEVO lo decide la IA, no el usuario (sabe mejor que
-                                                    // él qué tan difícil es la palabra) — solo se ofrece como opción "nueva"
-                                                    // el nivel que ya clasificó (`row.level`), nunca los otros dos. Los temas
-                                                    // YA EXISTENTES sí siguen siendo elegibles: ahí la decisión es "a cuál de
-                                                    // mis mazos lo agrego", no una evaluación de dificultad.
-                                                    .filter((lvl) => lvl === row.level || topicsForCategory(row.category).some((topic) => topic.level === lvl))
-                                                    .map((lvl) => {
-                                                        const existingTopic = topicsForCategory(row.category).find((topic) => topic.level === lvl);
-                                                        // El nivel de un mazo nuevo lo decide la IA, no el usuario — no se
-                                                        // muestra acá (ya lo comunicó al clasificar), solo "Nuevo tema".
-                                                        const label = existingTopic
-                                                            ? (existingTopic.topicName || t.topicNameDefault)
-                                                            : t.newTopicOption;
-                                                        return <option key={lvl} value={lvl}>{label}</option>;
-                                                    })}
+                                                {topicsForCategory(row.category).map((topic) => (
+                                                    <option key={topic.level} value={topic.level}>
+                                                        {topic.topicName || t.topicNameDefault}
+                                                    </option>
+                                                ))}
+                                                <option value="__new__">
+                                                    {t.newTopicOption}
+                                                </option>
                                             </select>
                                         </div>
                                     </div>
+                                    {row.selected && row.isNewDeck && (
+                                        <div className={styles.candidateFieldGroupFull}>
+                                            <label className={styles.fieldLabel} htmlFor={`topic-name-${row.id}`}>
+                                                {t.newTopicNameLabel} <span className={styles.requiredMark}>*</span>
+                                            </label>
+                                            <input
+                                                id={`topic-name-${row.id}`}
+                                                type="text"
+                                                className={styles.input}
+                                                value={row.topicName}
+                                                maxLength={MAX_TOPIC_NAME_LEN}
+                                                placeholder={t.newTopicNamePlaceholder}
+                                                onChange={(e) => handleRowTopicNameChange(row.id, e.target.value)}
+                                                disabled={row.refreshing}
+                                                required
+                                            />
+                                        </div>
+                                    )}
                                     {suggestedTopic && (
                                         <p className={styles.topicSuggestionInline}>
                                             {t.topicSuggestionLabel}{' '}
@@ -541,7 +591,10 @@ function CreateWordModal({ onClose }) {
                                 type="button"
                                 className={styles.submitButton}
                                 onClick={handleConfirmCreate}
-                                disabled={!candidates.some((r) => r.selected && !r.duplicate)}
+                                disabled={
+                                    !candidates.some((r) => r.selected && !r.duplicate) ||
+                                    candidates.some((r) => r.selected && !r.duplicate && r.isNewDeck && !r.topicName.trim())
+                                }
                             >
                                 {t.confirmCreateButton}
                             </button>
@@ -558,22 +611,45 @@ function CreateWordModal({ onClose }) {
 
                 {status === 'results' && (
                     <div className={styles.resultBox}>
-                        <p className={styles.resultTitle}>{t.resultsTitle}</p>
+                        <div className={styles.successHero}>
+                            <div className={styles.successIconBadge}>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                            </div>
+                            <div className={styles.successHeroText}>
+                                <h4 className={styles.successHeroTitle}>{t.resultsHeaderTitle || '¡Guardada con éxito!'}</h4>
+                                <p className={styles.successHeroSubtitle}>{t.resultsHeaderSubtitle || 'Audio, imagen y ejemplo creados con IA para tu mazo.'}</p>
+                            </div>
+                        </div>
+
                         <div className={styles.resultsList}>
                             {candidates.filter((r) => r.createStatus !== 'idle').map((row) => (
-                                <div key={row.id} className={styles.resultRow}>
-                                    <div className={styles.resultRowHeader}>
-                                        <span>
-                                            {formatCategoryName(row.category, categoryNames)} → {formatLevelName(row.level, levelNames)}
-                                        </span>
+                                <div key={row.id} className={styles.resultCardItem}>
+                                    <div className={styles.resultCardHeader}>
+                                        <div className={styles.resultCardPath}>
+                                            <span className={styles.resultCategoryBadge}>
+                                                {formatCategoryName(row.category, categoryNames)}
+                                            </span>
+                                            <span className={styles.resultPathSeparator}>→</span>
+                                            <span className={styles.resultTopicNameText}>
+                                                {row.topicName.trim() || formatLevelName(row.level, levelNames)}
+                                            </span>
+                                        </div>
                                         {row.createStatus === 'created' && (
-                                            <span className={`${styles.rowBadge} ${styles.rowBadgeCreated}`}>{t.rowCreated}</span>
+                                            <span className={`${styles.rowBadge} ${styles.rowBadgeCreated}`}>
+                                                {t.rowCreated}
+                                            </span>
                                         )}
                                         {row.createStatus === 'duplicate' && (
-                                            <span className={`${styles.rowBadge} ${styles.rowBadgeDuplicate}`}>{t.rowDuplicate}</span>
+                                            <span className={`${styles.rowBadge} ${styles.rowBadgeDuplicate}`}>
+                                                {t.rowDuplicate}
+                                            </span>
                                         )}
                                         {row.createStatus === 'error' && (
-                                            <span className={`${styles.rowBadge} ${styles.rowBadgeError}`}>{t.rowError}</span>
+                                            <span className={`${styles.rowBadge} ${styles.rowBadgeError}`}>
+                                                {t.rowError}
+                                            </span>
                                         )}
                                     </div>
 
@@ -582,57 +658,32 @@ function CreateWordModal({ onClose }) {
                                     )}
 
                                     {(row.createStatus === 'created' || row.createStatus === 'duplicate') && (
-                                        <div className={styles.actions}>
-                                            <button type="button" className={styles.submitButton} onClick={() => handleViewRow(row)}>
-                                                {t.successViewButton.replace('{category}', formatCategoryName(row.category, categoryNames))}
-                                            </button>
-                                        </div>
-                                    )}
-
-                                    {row.isNewDeck && row.createStatus === 'created' && row.topicNameStatus !== 'dismissed' && (
-                                        <div className={styles.topicNameBox}>
-                                            <label className={styles.label} htmlFor={`topic-name-${row.id}`}>{t.topicNameLabel}</label>
-                                            <input
-                                                id={`topic-name-${row.id}`}
-                                                type="text"
-                                                className={styles.input}
-                                                value={row.topicName}
-                                                maxLength={MAX_TOPIC_NAME_LEN}
-                                                placeholder={t.topicNamePlaceholder}
-                                                onChange={(e) => handleRowTopicNameChange(row.id, e.target.value)}
-                                                disabled={row.topicNameStatus === 'saving'}
-                                            />
-                                            {row.topicNameStatus === 'error' && (
-                                                <p className={styles.errorBox}>{t.topicNameError}</p>
-                                            )}
-                                            <div className={styles.actions}>
-                                                <button
-                                                    type="button"
-                                                    className={styles.cancelButton}
-                                                    onClick={() => handleSkipRowTopicName(row.id)}
-                                                >
-                                                    {t.topicNameSkip}
-                                                </button>
-                                                <button
-                                                    type="button"
-                                                    className={styles.submitButton}
-                                                    onClick={() => handleSaveRowTopicName(row.id)}
-                                                    disabled={!row.topicName.trim() || row.topicNameStatus === 'saving'}
-                                                >
-                                                    {t.topicNameSave}
-                                                </button>
-                                            </div>
-                                        </div>
+                                        <button
+                                            type="button"
+                                            className={styles.viewDeckHeroBtn}
+                                            onClick={() => handleViewRow(row)}
+                                        >
+                                            <span>{t.successViewButton.replace('{category}', formatCategoryName(row.category, categoryNames))}</span>
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                                <line x1="5" y1="12" x2="19" y2="12" />
+                                                <polyline points="12 5 19 12 12 19" />
+                                            </svg>
+                                        </button>
                                     )}
                                 </div>
                             ))}
                         </div>
-                        <div className={styles.actions}>
-                            <button type="button" className={styles.cancelButton} onClick={onClose}>
+
+                        <div className={styles.resultsFooterActions}>
+                            <button type="button" className={styles.secondaryFooterBtn} onClick={onClose}>
                                 {t.closeButton}
                             </button>
-                            <button type="button" className={styles.submitButton} onClick={handleCreateAnother}>
-                                {t.createAnotherButton}
+                            <button type="button" className={styles.primaryFooterBtn} onClick={handleCreateAnother}>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                    <line x1="12" y1="5" x2="12" y2="19" />
+                                    <line x1="5" y1="12" x2="19" y2="12" />
+                                </svg>
+                                <span>{t.createAnotherButton}</span>
                             </button>
                         </div>
                     </div>

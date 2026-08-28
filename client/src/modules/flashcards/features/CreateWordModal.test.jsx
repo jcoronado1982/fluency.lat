@@ -36,7 +36,7 @@ vi.mock('../context/FlashcardContext', () => ({
 async function typeAndSubmit(word) {
     const input = screen.getByLabelText(/palabra o expresión/i);
     fireEvent.change(input, { target: { value: word } });
-    fireEvent.click(screen.getByRole('button', { name: /crear con ia/i }));
+    fireEvent.click(screen.getByRole('button', { name: /siguiente/i }));
 }
 
 describe('CreateWordModal', () => {
@@ -98,12 +98,12 @@ describe('CreateWordModal', () => {
             categoryOverride: 'nouns',
             levelOverride: '1-basic',
         }));
-        await waitFor(() => expect(screen.getByText(/creada/i)).toBeInTheDocument());
+        await waitFor(() => expect(screen.getAllByText(/creada/i).length).toBeGreaterThan(0));
         expect(refreshPersonalWords).toHaveBeenCalled();
 
         fireEvent.click(screen.getByRole('button', { name: /ver en/i }));
         expect(changeCategory).toHaveBeenCalledWith('nouns');
-        expect(changeDeck).toHaveBeenCalledWith('1-basic/my_words');
+        expect(changeDeck).toHaveBeenCalledWith('1-basic/my_words', null, 'nouns', { word: 'table' });
         expect(onClose).toHaveBeenCalled();
     });
 
@@ -155,6 +155,10 @@ describe('CreateWordModal', () => {
         expect(screen.getByText('appreciation')).toBeInTheDocument();
         expect(screen.getByText(/2 usos comunes/i)).toBeInTheDocument();
 
+        const nameInputs = screen.getAllByLabelText(/nombre del nuevo tema/i);
+        fireEvent.change(nameInputs[0], { target: { value: 'Verbos de aprecio' } });
+        fireEvent.change(nameInputs[1], { target: { value: 'Sustantivos de aprecio' } });
+
         fireEvent.click(screen.getByRole('button', { name: /confirmar y crear/i }));
 
         await waitFor(() => expect(createWord).toHaveBeenCalledTimes(2));
@@ -185,6 +189,9 @@ describe('CreateWordModal', () => {
 
         const checkboxes = screen.getAllByRole('checkbox');
         fireEvent.click(checkboxes[1]);
+
+        const nameInput = screen.getByLabelText(/nombre del nuevo tema/i);
+        fireEvent.change(nameInput, { target: { value: 'Verbos de aprecio' } });
 
         fireEvent.click(screen.getByRole('button', { name: /confirmar y crear/i }));
 
@@ -369,24 +376,25 @@ describe('CreateWordModal', () => {
         expect(screen.queryByText(/mazo sugerido/i)).not.toBeInTheDocument();
     });
 
-    it('offers to name the deck only when confirming created it (is_new_deck), and saves it', async () => {
+    it('requires naming the new deck before confirming creation, and saves it', async () => {
         previewWord.mockResolvedValueOnce({
             candidates: [{ duplicate: false, category: 'verbs', level: '2-intermediate', name: 'acquire', is_new_deck: true }],
         });
         createWord.mockResolvedValueOnce({
             duplicate: false, category: 'verbs', level: '2-intermediate', is_new_deck: true, card: { name: 'acquire' },
         });
-        renamePersonalDeck.mockResolvedValueOnce({ success: true });
 
         render(<CreateWordModal onClose={onClose} />);
         await typeAndSubmit('acquire');
-        await waitFor(() => expect(screen.getByRole('button', { name: /confirmar y crear/i })).toBeInTheDocument());
-        fireEvent.click(screen.getByRole('button', { name: /confirmar y crear/i }));
-        await waitFor(() => expect(screen.getByLabelText(/ponele un nombre/i)).toBeInTheDocument());
+        await waitFor(() => expect(screen.getByLabelText(/nombre del nuevo tema/i)).toBeInTheDocument());
 
-        const nameInput = screen.getByLabelText(/ponele un nombre/i);
+        expect(screen.getByRole('button', { name: /confirmar y crear/i })).toBeDisabled();
+
+        const nameInput = screen.getByLabelText(/nombre del nuevo tema/i);
         fireEvent.change(nameInput, { target: { value: '  Palabras de trabajo  ' } });
-        fireEvent.click(screen.getByRole('button', { name: /guardar nombre/i }));
+
+        expect(screen.getByRole('button', { name: /confirmar y crear/i })).not.toBeDisabled();
+        fireEvent.click(screen.getByRole('button', { name: /confirmar y crear/i }));
 
         await waitFor(() => expect(renamePersonalDeck).toHaveBeenCalledWith({
             category: 'verbs',
@@ -394,27 +402,9 @@ describe('CreateWordModal', () => {
             topicName: 'Palabras de trabajo',
             courseDirection: 'es_en',
         }));
-        await waitFor(() => expect(screen.queryByLabelText(/ponele un nombre/i)).not.toBeInTheDocument());
-    });
-
-    it('lets the user skip naming the new deck without calling the port', async () => {
-        previewWord.mockResolvedValueOnce({
-            candidates: [{ duplicate: false, category: 'verbs', level: '2-intermediate', name: 'acquire', is_new_deck: true }],
-        });
-        createWord.mockResolvedValueOnce({
-            duplicate: false, category: 'verbs', level: '2-intermediate', is_new_deck: true, card: { name: 'acquire' },
-        });
-
-        render(<CreateWordModal onClose={onClose} />);
-        await typeAndSubmit('acquire');
-        await waitFor(() => expect(screen.getByRole('button', { name: /confirmar y crear/i })).toBeInTheDocument());
-        fireEvent.click(screen.getByRole('button', { name: /confirmar y crear/i }));
-        await waitFor(() => expect(screen.getByLabelText(/ponele un nombre/i)).toBeInTheDocument());
-
-        fireEvent.click(screen.getByRole('button', { name: /omitir/i }));
-
-        expect(screen.queryByLabelText(/ponele un nombre/i)).not.toBeInTheDocument();
-        expect(renamePersonalDeck).not.toHaveBeenCalled();
+        await waitFor(() => expect(screen.getAllByText(/creada/i).length).toBeGreaterThan(0));
+        expect(screen.getByText('Verbos')).toBeInTheDocument();
+        expect(screen.getByText('Palabras de trabajo')).toBeInTheDocument();
     });
 
     it('never offers to name the deck when it already existed', async () => {
@@ -429,9 +419,9 @@ describe('CreateWordModal', () => {
         await typeAndSubmit('acquire');
         await waitFor(() => expect(screen.getByRole('button', { name: /confirmar y crear/i })).toBeInTheDocument());
         fireEvent.click(screen.getByRole('button', { name: /confirmar y crear/i }));
-        await waitFor(() => expect(screen.getByText(/creada/i)).toBeInTheDocument());
+        await waitFor(() => expect(screen.getAllByText(/creada/i).length).toBeGreaterThan(0));
 
-        expect(screen.queryByLabelText(/ponele un nombre/i)).not.toBeInTheDocument();
+        expect(screen.queryByLabelText(/nombre del nuevo tema/i)).not.toBeInTheDocument();
     });
 
     // Regresión ("vos debés recomendarlo y colocar esa recomendación como primera opción, el
@@ -456,10 +446,10 @@ describe('CreateWordModal', () => {
 
         render(<CreateWordModal onClose={onClose} />);
         await typeAndSubmit('acquire');
-        await waitFor(() => expect(screen.getByRole('button', { name: /confirmar y crear/i })).toBeInTheDocument());
+        await waitFor(() => expect(screen.getByLabelText(/nombre del nuevo tema/i)).toBeInTheDocument());
+        fireEvent.change(screen.getByLabelText(/nombre del nuevo tema/i), { target: { value: 'Trabajo' } });
         fireEvent.click(screen.getByRole('button', { name: /confirmar y crear/i }));
-        await waitFor(() => expect(screen.getByText(/creada/i)).toBeInTheDocument());
-        fireEvent.click(screen.getByRole('button', { name: /omitir/i }));
+        await waitFor(() => expect(screen.getAllByText(/creada/i).length).toBeGreaterThan(0));
 
         // Tras crear, la lista de mazos existentes se refresca en segundo plano — se espera a que
         // el refresh (con el mazo recién creado ya reflejado) se dispare antes de crear otra.
@@ -502,7 +492,7 @@ describe('CreateWordModal', () => {
 
     it('does not call the port for a blank word', async () => {
         render(<CreateWordModal onClose={onClose} />);
-        expect(screen.getByRole('button', { name: /crear con ia/i })).toBeDisabled();
+        expect(screen.getByRole('button', { name: /siguiente/i })).toBeDisabled();
         expect(previewWord).not.toHaveBeenCalled();
     });
 });

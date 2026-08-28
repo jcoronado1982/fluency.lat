@@ -310,5 +310,31 @@
     "phonetic": "/loʊˈkeɪʃən/",
     "search_term": "noun/concept/essentials",
     "spoken_phonetic_us": "/loʊˈkeɪʃən/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "spot",
+    "phonetic": "/spɒt/",
+    "spoken_phonetic_us": "/spɒt/",
+    "search_term": "noun/places/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Places & Locations",
+    "definitions": [
+      {
+        "meaning": "Lugar / Punto",
+        "usage_example": "This is a nice spot for a picnic.",
+        "pronunciation_guide_es": "/dis_is_a_NAIS_SPOT_for_a_PIKnik/",
+        "usage_example_es": "Este es un buen lugar para un picnic.",
+        "char_count": "one",
+        "usage_context_en": "A particular place.",
+        "usage_context_es": "Un lugar en particular.",
+        "imagePath": "/card_images/nouns/2-intermediate/places/2-intermediate_places_card_12_def0.avif"
+      }
+    ]
   }
 ]

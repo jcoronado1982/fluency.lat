@@ -128,5 +128,31 @@
     "phonetic": "/ˈjuːst tuː/",
     "search_term": "modal/past-habit/intermediate",
     "spoken_phonetic_us": "/ˈjuːst tuː/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ought to",
+    "phonetic": "/ˈɔːt tuː/",
+    "spoken_phonetic_us": "/ˈɔːt tuː/",
+    "search_term": "verb/ought/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Modal Verbs",
+    "definitions": [
+      {
+        "meaning": "Debería (obligación moral)",
+        "usage_example": "You ought to apologize.",
+        "pronunciation_guide_es": "/iu_OT_tu_aPOloYAIS/",
+        "usage_example_es": "Deberías disculparte.",
+        "char_count": "two",
+        "usage_context_en": "Used to say what is the right thing to do.",
+        "usage_context_es": "Se usa para decir lo correcto que se debe hacer.",
+        "imagePath": "/card_images/verbs/2-intermediate/modal_auxiliaries/2-intermediate_modal_auxiliaries_card_5_def0.avif"
+      }
+    ]
   }
 ]

@@ -362,5 +362,83 @@
     "phonetic": "/ˌmæɡəˈziːn/",
     "search_term": "noun/communication/essentials",
     "spoken_phonetic_us": "/ˌmæɡəˈziːn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "guitar",
+    "phonetic": "/ɡɪˈtɑːr/",
+    "spoken_phonetic_us": "/ɡɪˈtɑːr/",
+    "search_term": "noun/art/music/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Guitarra",
+        "usage_example": "He plays the guitar every day.",
+        "pronunciation_guide_es": "/gi-TAR/",
+        "usage_example_es": "Él toca la guitarra todos los días.",
+        "char_count": "two",
+        "usage_context_en": "A musical instrument with strings.",
+        "usage_context_es": "Un instrumento musical de cuerdas.",
+        "imagePath": "/card_images/nouns/1-basic/media/1-basic_media_card_14_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "piano",
+    "phonetic": "/piˈænoʊ/",
+    "spoken_phonetic_us": "/piˈænoʊ/",
+    "search_term": "noun/art/music/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Piano",
+        "usage_example": "She plays the piano beautifully.",
+        "pronunciation_guide_es": "/pi-A-nou/",
+        "usage_example_es": "Ella toca el piano hermosamente.",
+        "char_count": "three",
+        "usage_context_en": "A large musical instrument with keys.",
+        "usage_context_es": "Un instrumento musical grande con teclas.",
+        "imagePath": "/card_images/nouns/1-basic/media/1-basic_media_card_15_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "video",
+    "phonetic": "/ˈvɪd.i.əʊ/",
+    "spoken_phonetic_us": "/ˈvɪd.i.oʊ/",
+    "search_term": "noun/art/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Video",
+        "usage_example": "Can you record a short video of the party?",
+        "pronunciation_guide_es": "/KAN_iu_ri-KORD_a_SHORT_VI-di-o_ov_de_PAR-ti/",
+        "usage_example_es": "¿Puedes grabar un video corto de la fiesta?",
+        "char_count": "one",
+        "usage_context_en": "A recording of moving visual images.",
+        "usage_context_es": "Una grabación de imágenes visuales en movimiento.",
+        "imagePath": "/card_images/nouns/1-basic/media/1-basic_media_card_video_def0.avif"
+      }
+    ]
   }
 ]

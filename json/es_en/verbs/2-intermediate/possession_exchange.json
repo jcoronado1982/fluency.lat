@@ -216,5 +216,124 @@
     ],
     "is_verb": true,
     "group_name": "Social & Daily Life"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "accept",
+    "phonetic": "/əkˈsɛpt/",
+    "spoken_phonetic_us": "/əkˈsɛpt/",
+    "search_term": "verb/accept/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Social & Daily Life",
+    "definitions": [
+      {
+        "meaning": "Aceptar",
+        "usage_example": "She accepted the gift happily.",
+        "alternative_example": "He accepted the job offer.",
+        "pronunciation_guide_es": "/ji_akSEPted_de_GUIFT_JApili/",
+        "usage_example_es": "Ella aceptó el regalo con alegría.",
+        "char_count": "two",
+        "usage_context_en": "To agree to take or receive something.",
+        "usage_context_es": "Estar de acuerdo en recibir algo.",
+        "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_5_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "receive",
+    "phonetic": "/rɪˈsiːv/",
+    "spoken_phonetic_us": "/rɪˈsiːv/",
+    "search_term": "verb/receive/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Social & Daily Life",
+    "definitions": [
+      {
+        "meaning": "Recibir",
+        "usage_example": "I received your message.",
+        "alternative_example": "She received a prize.",
+        "pronunciation_guide_es": "/ai_riSIVD_yor_MEsich/",
+        "usage_example_es": "Recibí tu mensaje.",
+        "char_count": "two",
+        "usage_context_en": "To get something that is given or sent to you.",
+        "usage_context_es": "Obtener algo que te dan o envían.",
+        "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_6_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "save",
+    "phonetic": "/seɪv/",
+    "spoken_phonetic_us": "/seɪv/",
+    "search_term": "verb/save/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Social & Daily Life",
+    "definitions": [
+      {
+        "meaning": "Ahorrar",
+        "usage_example": "I'm saving money for a trip.",
+        "alternative_example": "She saves ten percent of her salary.",
+        "pronunciation_guide_es": "/aim_SEIving_MAni_for_a_TRIP/",
+        "usage_example_es": "Estoy ahorrando dinero para un viaje.",
+        "char_count": "one",
+        "usage_context_en": "To keep money instead of spending it.",
+        "usage_context_es": "Guardar dinero en lugar de gastarlo.",
+        "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_7_def0.avif"
+      },
+      {
+        "meaning": "Salvar",
+        "usage_example": "The doctors saved his life.",
+        "alternative_example": "She saved the child from the fire.",
+        "pronunciation_guide_es": "/de_DOKters_SEIVD_jis_LAIF/",
+        "usage_example_es": "Los médicos le salvaron la vida.",
+        "char_count": "one",
+        "usage_context_en": "To rescue someone from danger.",
+        "usage_context_es": "Rescatar a alguien de un peligro.",
+        "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_7_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "supply",
+    "phonetic": "/səˈplaɪ/",
+    "spoken_phonetic_us": "/səˈplaɪ/",
+    "search_term": "verb/supply/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Social & Daily Life",
+    "definitions": [
+      {
+        "meaning": "Suministrar / Abastecer",
+        "usage_example": "The farm supplies eggs to local stores.",
+        "alternative_example": "The company supplies parts to factories.",
+        "pronunciation_guide_es": "/de_FARM_saPLAIS_EGS_tu_LOukal_STORS/",
+        "usage_example_es": "La granja suministra huevos a tiendas locales.",
+        "char_count": "two",
+        "usage_context_en": "To provide something that is needed.",
+        "usage_context_es": "Proporcionar algo que se necesita.",
+        "imagePath": "/card_images/verbs/2-intermediate/possession_exchange/2-intermediate_possession_exchange_card_8_def0.avif"
+      }
+    ]
   }
 ]

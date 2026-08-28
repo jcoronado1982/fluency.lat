@@ -113,7 +113,7 @@ flowchart TB
 | Dominio + puertos | `backend/core` | Modelos y contratos (`StorageRepository`, `MediaDeliveryProvider`, `AITutor`, …) |
 | Aplicación | `backend/mod_*` | Casos de uso por módulo y shell (`mod_shell`, `mod_flashcards`, `mod_pronoun`) |
 | API | `backend/api_main/src/api/` | Handlers HTTP delgados; DTOs en `dto/`; mapeo HTTP→use case en `mappers/` |
-| Infraestructura | `backend/api_main/src/infrastructure/` | Adapters por puerto: `storage/surreal/*`, entrega Oracle/Cloudflare, Gemini, ComfyUI, storage local |
+| Infraestructura | `backend/api_main/src/infrastructure/` | Adapters por puerto: `storage/surreal/*`, entrega Cloudflare, Gemini, stable-diffusion.cpp (Flux 2 C++), llama.cpp (Qwen C++), storage local |
 | Composition root | `backend/api_main/src/main.rs` | Wiring de dependencias y `AppState` |
 | Registro modular | `backend/api_main/src/modules/` | `register_routes()` por módulo |
 

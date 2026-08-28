@@ -366,5 +366,31 @@
     "phonetic": "",
     "search_term": "noun/home/seed",
     "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "bath",
+    "phonetic": "/bæθ/",
+    "spoken_phonetic_us": "/bæθ/",
+    "search_term": "noun/place/house/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Household",
+    "definitions": [
+      {
+        "meaning": "Baño (tina)",
+        "usage_example": "I take a bath every night.",
+        "pronunciation_guide_es": "/BAZ/",
+        "usage_example_es": "Me baño en tina cada noche.",
+        "char_count": "one",
+        "usage_context_en": "The act of washing in a tub, or the tub itself.",
+        "usage_context_es": "El acto de lavarse en una tina, o la tina misma.",
+        "imagePath": "/card_images/nouns/1-basic/home_rooms/1-basic_home_rooms_card_13_def0.avif"
+      }
+    ]
   }
 ]

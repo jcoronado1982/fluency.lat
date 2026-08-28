@@ -310,7 +310,12 @@ function CategorySelector() {
                     />
                 </main>
             </div>
-            {isCreateWordOpen && <CreateWordModal onClose={() => setIsCreateWordOpen(false)} />}
+            {isCreateWordOpen && (
+                <CreateWordModal
+                    onClose={() => setIsCreateWordOpen(false)}
+                    onViewCreatedDeck={dismissSheet}
+                />
+            )}
         </div>
     );
 }

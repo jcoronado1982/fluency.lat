@@ -314,5 +314,57 @@
         "imagePath": "/card_images/connectors/2-intermediate/contrast_and_condition/2-intermediate_contrast_and_condition_card_10_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "except",
+    "phonetic": "/ɪkˈsɛpt/",
+    "spoken_phonetic_us": "/ɪkˈsɛpt/",
+    "search_term": "conjunction/condition",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Connectors: Condition",
+    "definitions": [
+      {
+        "meaning": "Excepto",
+        "usage_example": "Everyone came except John.",
+        "pronunciation_guide_es": "/EVriuan_KEIM_ekSEPT_YON/",
+        "usage_example_es": "Todos vinieron excepto John.",
+        "char_count": "two",
+        "usage_context_en": "Used to exclude something or someone.",
+        "usage_context_es": "Se usa para excluir algo o a alguien.",
+        "imagePath": "/card_images/connectors/2-intermediate/contrast_and_condition/2-intermediate_contrast_and_condition_card_11_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "instead",
+    "phonetic": "/ɪnˈstɛd/",
+    "spoken_phonetic_us": "/ɪnˈstɛd/",
+    "search_term": "connector/condition",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Connectors: Condition",
+    "definitions": [
+      {
+        "meaning": "En lugar de eso",
+        "usage_example": "It's cold. Let's stay in instead.",
+        "pronunciation_guide_es": "/its_KOULD_LETS_STEI_IN_inSTED/",
+        "usage_example_es": "Hace frío. Mejor quedémonos adentro.",
+        "char_count": "two",
+        "usage_context_en": "Used to say something is chosen in place of another.",
+        "usage_context_es": "Se usa para decir que algo se elige en lugar de otro.",
+        "imagePath": "/card_images/connectors/2-intermediate/contrast_and_condition/2-intermediate_contrast_and_condition_card_12_def0.avif"
+      }
+    ]
   }
 ]

@@ -382,9 +382,31 @@ export function useDeckSession(resumeSession = null) {
                     return;
                 }
 
-                const result = await flashcardPort.fetchDecksForCategory(currentCategory, courseDirection);
+                const [result, personalResult] = await Promise.all([
+                    flashcardPort.fetchDecksForCategory(currentCategory, courseDirection),
+                    personalWordPort.getPersonalWordsSummary({ category: currentCategory, courseDirection }).catch(() => null),
+                ]);
+
                 if (result.success && Array.isArray(result.files)) {
-                    const names = sortDeckNames(result.files, currentCategory);
+                    let names = sortDeckNames(result.files, currentCategory);
+                    const personalDecks = Array.isArray(personalResult?.decks) ? personalResult.decks : [];
+                    if (personalDecks.length > 0) {
+                        const personalNames = personalDecks.map((entry) => entry.deck).filter(Boolean);
+                        names = [...personalNames.filter((name) => !names.includes(name)), ...names];
+                        setDeckSummaries((prev) => {
+                            const next = { ...prev };
+                            personalDecks.forEach((entry) => {
+                                if (!entry?.deck) return;
+                                next[entry.deck] = {
+                                    total: entry.total,
+                                    learned: entry.learned,
+                                    topicName: entry.topic_name,
+                                };
+                            });
+                            return next;
+                        });
+                    }
+
                     setDeckNames(names);
                     setDeckNamesCategory(currentCategory);
                     if (hasPendingTargetForCategory) return;
@@ -417,7 +439,7 @@ export function useDeckSession(resumeSession = null) {
      * acaba de crear una palabra quiere verla primero, no al final de la lista.
      */
     useEffect(() => {
-        if (!currentCategory || !isAuthenticated || deckNamesCategory !== currentCategory) return;
+        if (!currentCategory || !isAuthenticated || personalWordsRefreshToken === 0) return;
         let cancelled = false;
         const loadPersonalDecks = async () => {
             try {

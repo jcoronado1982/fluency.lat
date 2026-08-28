@@ -7,6 +7,7 @@ pub mod compress;
 #[cfg(feature = "flashcards")]
 pub mod elevenlabs_tts_provider;
 pub mod gemini_grpc_provider;
+pub mod gemini_image_prompt;
 #[cfg(feature = "flashcards")]
 pub mod gemini_interactions_image_provider;
 pub mod gemini_landing_demo_prompts;

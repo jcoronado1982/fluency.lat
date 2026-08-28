@@ -176,5 +176,97 @@
     ],
     "is_verb": true,
     "group_name": "Feelings & Reactions"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "marry",
+    "phonetic": "/ˈmæri/",
+    "spoken_phonetic_us": "/ˈmæri/",
+    "search_term": "verb/marry/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Feelings & Reactions",
+    "definitions": [
+      {
+        "meaning": "Casarse (con alguien)",
+        "usage_example": "They got married last June.",
+        "alternative_example": "He wants to marry her.",
+        "pronunciation_guide_es": "/dei_GOT_MEriD_LAST_YUN/",
+        "usage_example_es": "Se casaron el pasado junio.",
+        "char_count": "two",
+        "usage_context_en": "To become someone's husband or wife.",
+        "usage_context_es": "Convertirse en esposo o esposa de alguien.",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_5_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "miss",
+    "phonetic": "/mɪs/",
+    "spoken_phonetic_us": "/mɪs/",
+    "search_term": "verb/miss/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Feelings & Reactions",
+    "definitions": [
+      {
+        "meaning": "Extrañar",
+        "usage_example": "I miss my family a lot.",
+        "alternative_example": "She misses her hometown.",
+        "pronunciation_guide_es": "/ai_MIS_mai_FAmili_a_LOT/",
+        "usage_example_es": "Extraño mucho a mi familia.",
+        "char_count": "one",
+        "usage_context_en": "To feel sad because someone is not with you.",
+        "usage_context_es": "Sentirse triste porque alguien no está contigo.",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_6_def0.avif"
+      },
+      {
+        "meaning": "Perder (un evento, transporte)",
+        "usage_example": "I missed the bus this morning.",
+        "alternative_example": "He missed his flight.",
+        "pronunciation_guide_es": "/ai_MIST_de_BAS_dis_MORning/",
+        "usage_example_es": "Perdí el autobús esta mañana.",
+        "char_count": "one",
+        "usage_context_en": "To fail to catch or attend something.",
+        "usage_context_es": "No lograr alcanzar o asistir a algo.",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_6_def1.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "surprise",
+    "phonetic": "/sərˈpraɪz/",
+    "spoken_phonetic_us": "/sərˈpraɪz/",
+    "search_term": "verb/surprise/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "group_name": "Feelings & Reactions",
+    "definitions": [
+      {
+        "meaning": "Sorprender",
+        "usage_example": "The news surprised everyone.",
+        "alternative_example": "Nothing surprises me anymore.",
+        "pronunciation_guide_es": "/de_NIUS_serPRAISD_EVriuan/",
+        "usage_example_es": "La noticia sorprendió a todos.",
+        "char_count": "two",
+        "usage_context_en": "To make someone feel surprise.",
+        "usage_context_es": "Hacer que alguien sienta sorpresa.",
+        "imagePath": "/card_images/verbs/2-intermediate/feelings/2-intermediate_feelings_card_7_def0.avif"
+      }
+    ]
   }
 ]

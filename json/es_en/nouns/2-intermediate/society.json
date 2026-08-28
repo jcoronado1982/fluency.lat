@@ -876,5 +876,109 @@
     "phonetic": "/ˈwɛlˌfɛər/",
     "search_term": "noun/society/government/essentials",
     "spoken_phonetic_us": "/ˈwɛlˌfɛr/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "race",
+    "phonetic": "/reɪs/",
+    "spoken_phonetic_us": "/reɪs/",
+    "search_term": "noun/society/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Government & Society",
+    "definitions": [
+      {
+        "meaning": "Carrera (competencia)",
+        "usage_example": "She won the race.",
+        "pronunciation_guide_es": "/shi_UON_de_REIS/",
+        "usage_example_es": "Ella ganó la carrera.",
+        "char_count": "one",
+        "usage_context_en": "A competition to see who is fastest.",
+        "usage_context_es": "Una competencia para ver quién es más rápido.",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_33_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "religion",
+    "phonetic": "/rɪˈlɪdʒən/",
+    "spoken_phonetic_us": "/rɪˈlɪdʒən/",
+    "search_term": "noun/society/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Government & Society",
+    "definitions": [
+      {
+        "meaning": "Religión",
+        "usage_example": "They respect all religions.",
+        "pronunciation_guide_es": "/dei_risPEKT_ol_riLIyons/",
+        "usage_example_es": "Ellos respetan todas las religiones.",
+        "char_count": "three",
+        "usage_context_en": "A system of belief in a god or gods.",
+        "usage_context_es": "Un sistema de creencia en un dios o dioses.",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_34_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "rule",
+    "phonetic": "/ruːl/",
+    "spoken_phonetic_us": "/ruːl/",
+    "search_term": "noun/society/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Government & Society",
+    "definitions": [
+      {
+        "meaning": "Regla",
+        "usage_example": "It's against the rules.",
+        "pronunciation_guide_es": "/its_aGENST_de_RULS/",
+        "usage_example_es": "Va en contra de las reglas.",
+        "char_count": "one",
+        "usage_context_en": "An official instruction of what to do.",
+        "usage_context_es": "Una instrucción oficial de lo que se debe hacer.",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_35_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "state",
+    "phonetic": "/steɪt/",
+    "spoken_phonetic_us": "/steɪt/",
+    "search_term": "noun/society/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Government & Society",
+    "definitions": [
+      {
+        "meaning": "Estado",
+        "usage_example": "Texas is a state in the U.S.",
+        "pronunciation_guide_es": "/TEKsas_is_a_STEIT_in_de_iu_ES/",
+        "usage_example_es": "Texas es un estado en EE.UU.",
+        "char_count": "one",
+        "usage_context_en": "A country, or a region of a country.",
+        "usage_context_es": "Un país, o una región de un país.",
+        "imagePath": "/card_images/nouns/2-intermediate/society/2-intermediate_society_card_36_def0.avif"
+      }
+    ]
   }
 ]

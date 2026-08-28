@@ -224,5 +224,86 @@
         "imagePath": "/card_images/adjectives/1-basic/access_readiness_and_effort/1-basic_access_readiness_and_effort_card_7_def1.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "difficult",
+    "phonetic": "/ˈdɪfɪkəlt/",
+    "spoken_phonetic_us": "/ˈdɪfɪkəlt/",
+    "search_term": "adjective/basic/difficulty_effort",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Difficulty & Effort",
+    "definitions": [
+      {
+        "meaning": "Difícil",
+        "usage_example": "This exercise is very difficult.",
+        "pronunciation_guide_es": "/DI-fi-kolt/",
+        "usage_example_es": "Este ejercicio es muy difícil.",
+        "char_count": "9",
+        "usage_context_en": "Needing much effort to do or understand.",
+        "usage_context_es": "Que requiere mucho esfuerzo hacer o entender.",
+        "imagePath": "/card_images/adjectives/1-basic/access_readiness_and_effort/1-basic_access_readiness_and_effort_card_8_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "able",
+    "phonetic": "/ˈeɪbəl/",
+    "spoken_phonetic_us": "/ˈeɪbəl/",
+    "search_term": "adjective/basic/difficulty_effort",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Difficulty & Effort",
+    "definitions": [
+      {
+        "meaning": "Capaz",
+        "usage_example": "She is able to speak three languages.",
+        "pronunciation_guide_es": "/shi_is_EIbol_tu_SPIK_ZRI_LANguayes/",
+        "usage_example_es": "Ella es capaz de hablar tres idiomas.",
+        "char_count": "two",
+        "usage_context_en": "Having the skill or power to do something.",
+        "usage_context_es": "Tener la habilidad o el poder de hacer algo.",
+        "imagePath": "/card_images/adjectives/1-basic/access_readiness_and_effort/1-basic_access_readiness_and_effort_card_9_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "simple",
+    "phonetic": "/ˈsɪmpəl/",
+    "spoken_phonetic_us": "/ˈsɪmpəl/",
+    "search_term": "adjective/basic/difficulty_effort",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Difficulty & Effort",
+    "definitions": [
+      {
+        "meaning": "Simple / Sencillo",
+        "usage_example": "This recipe is very simple.",
+        "pronunciation_guide_es": "/dis_reSEpi_is_VEri_SIMpol/",
+        "usage_example_es": "Esta receta es muy sencilla.",
+        "char_count": "two",
+        "usage_context_en": "Easy to understand or do.",
+        "usage_context_es": "Fácil de entender o hacer.",
+        "imagePath": "/card_images/adjectives/1-basic/access_readiness_and_effort/1-basic_access_readiness_and_effort_card_10_def0.avif"
+      }
+    ],
+    "category": "Basic"
   }
 ]

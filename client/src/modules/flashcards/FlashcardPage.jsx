@@ -19,7 +19,7 @@ import { getCategoryDisplayName, getGroupDisplayName, getProgressLabel } from '.
 import { getNextStudyStep } from './config/catalogOrder';
 import { getCategoryOrderPreference, getGroupOrderPreference } from './config/catalogPreferences';
 import { navigationIntentRef, markInitialNavigation } from './navigationIntent';
-import { formatDeckCategoryName, getLevelFromDeckName, usesNestedLevelDecks } from './useCases/deckUseCases';
+import { formatDeckCategoryName, getLevelFromDeckName, usesNestedLevelDecks, isPersonalDeckName } from './useCases/deckUseCases';
 import { flashcardPort, audioPort, imagePort, imageCompressionService } from './composition';
 import SrsControls from './features/SrsControls';
 import PwaStudyChrome from './features/PwaStudyChrome';
@@ -201,7 +201,7 @@ export default function FlashcardPage() {
         currentCard, loadingStage: flashcardLoadingStage, filteredData, masterData, currentDeckName,
         currentIndex, nextCard, prevCard, markAsLearned, resetDeck, reviewDeckAgain,
         selectedGroup, changeDeck, setSelectedGroup, justCompletedInSession, reachedDeckEnd,
-        currentCategory: categoryFromSession, isSrsMode = false,
+        currentCategory: categoryFromSession, isSrsMode = false, deckNames,
     } = useFlashcardContext();
     const currentCategory = categoryFromSession || categoryFromCatalog;
     const isInstalledPwa = typeof window !== 'undefined'
@@ -398,6 +398,13 @@ export default function FlashcardPage() {
                 user?.catalog_preferences,
             ),
             completedGroups: completedGroupNames,
+            // `catalogOrder.json` no modela mazos anidados por tema (ver comentario en
+            // `getNextStudyStep`) — le pasamos la lista real de mazos de la categoría (ya
+            // ordenada nivel→tema) para que pueda avanzar al siguiente tema/nivel DENTRO de la
+            // misma categoría en vez de saltar directo a otra.
+            nestedDeckNames: usesNestedLevelDecks(currentCategory) && Array.isArray(deckNames)
+                ? deckNames.filter((name) => !isPersonalDeckName(name))
+                : null,
         })
         : null;
     const completionScope = selectedGroup ? 'group' : 'deck';
@@ -547,7 +554,10 @@ export default function FlashcardPage() {
                 {masterData.length > 0 && !isOverlayOpen && !shouldShowLoading && !shouldShowCompletionCard && (
                     <div className={`${styles.cardCounter} ${isPronounsCategory ? styles.pronounsCounter : ''}`}>
                         <div className={styles.counterItem}>
-                            <span className={styles.counterLabel}>{displayLabel}</span>
+                            <span className={styles.counterLabel}>
+                                {displayLabel}
+                                {currentDeckName && <span className={styles.counterDeckBadge}>{currentDeckName}</span>}
+                            </span>
                             <div className={styles.counterValues}>
                                 <span className={styles.learnedValue}>{displayLearned}</span>
                                 <span className={styles.totalValue}>/ {displayTotal}</span>

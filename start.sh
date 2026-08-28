@@ -135,16 +135,21 @@ else
     echo "   - El backend usará sus degradaciones internas si no encuentra DB/Oracle."
 fi
 
-# 4. Iniciar Local AI (ComfyUI) en segundo plano
-echo "🤖 Iniciando AI Local (ComfyUI)..."
-COMFY_DIR="/home/jcoronado/Desktop/dev/ComfyUI"
-if [ -d "$COMFY_DIR" ]; then
-    cd "$COMFY_DIR" || exit
-    nohup python3 main.py --listen 127.0.0.1 --port 8188 --cache-none > comfyui_startup.log 2>&1 &
-    cd - > /dev/null
-    echo "   - ComfyUI lanzado en puerto 8188."
+# 4. Iniciar Local AI (stable-diffusion.cpp con Flux 2 C++) en segundo plano
+echo "🤖 Iniciando AI Local (stable-diffusion.cpp / Flux 2 C++)..."
+SD_SERVER_BIN="/home/jcoronado/Desktop/dev/stable-diffusion.cpp/build/bin/sd-server"
+MODELS_DIR="/home/jcoronado/Desktop/dev/models"
+if [ -f "$SD_SERVER_BIN" ]; then
+    nohup "$SD_SERVER_BIN" \
+      --diffusion-model "$MODELS_DIR/unet/flux-2-klein-9b-Q8_0.gguf" \
+      --llm "$MODELS_DIR/clip/Qwen_Qwen3-8B-Q8_0.gguf" \
+      --vae "$MODELS_DIR/vae/flux2-vae.safetensors" \
+      --offload-to-cpu \
+      --listen-port 8188 \
+      --listen-ip 127.0.0.1 > "$REPO_ROOT/sd_server.log" 2>&1 &
+    echo "   - stable-diffusion.cpp (Flux 2 C++) lanzado en puerto 8188."
 else
-    echo "⚠️  ADVERTENCIA: No se encontró el directorio de ComfyUI en $COMFY_DIR"
+    echo "⚠️  ADVERTENCIA: No se encontró el binario de stable-diffusion.cpp en $SD_SERVER_BIN"
 fi
 
 # 5. Iniciar Backend Rust

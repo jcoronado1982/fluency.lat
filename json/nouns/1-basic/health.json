@@ -128,5 +128,83 @@
     "phonetic": "",
     "search_term": "noun/health-&-medicine/seed",
     "spoken_phonetic_us": ""
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "fever",
+    "phonetic": "/ˈfiː.vər/",
+    "spoken_phonetic_us": "/ˈfiː.vɚ/",
+    "search_term": "noun/concept/body/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Fiebre",
+        "usage_example": "He stayed in bed because he had a fever.",
+        "pronunciation_guide_es": "/ji_STEID_in_BED_bi-KOS_ji_JAD_a_FI-ver/",
+        "usage_example_es": "Se quedó en cama porque tenía fiebre.",
+        "char_count": "one",
+        "usage_context_en": "An abnormally high body temperature caused by illness.",
+        "usage_context_es": "Temperatura corporal anormalmente alta causada por enfermedad.",
+        "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_fever_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "cough",
+    "phonetic": "/kɒf/",
+    "spoken_phonetic_us": "/kɑːf/",
+    "search_term": "noun/concept/body/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Tos",
+        "usage_example": "Take some syrup for that dry cough.",
+        "pronunciation_guide_es": "/TEIK_sam_SI-rop_for_dat_DRAI_KAF/",
+        "usage_example_es": "Toma un poco de jarabe para esa tos seca.",
+        "char_count": "one",
+        "usage_context_en": "A sudden expulsion of air from the lungs.",
+        "usage_context_es": "Expulsión repentina de aire de los pulmones.",
+        "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_cough_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "pill",
+    "phonetic": "/pɪl/",
+    "spoken_phonetic_us": "/pɪl/",
+    "search_term": "noun/concept/body/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "General Concepts",
+    "definitions": [
+      {
+        "meaning": "Pastilla / Píldora",
+        "usage_example": "Take one pill after breakfast every morning.",
+        "pronunciation_guide_es": "/TEIK_wan_PIL_af-ter_BREK-fast_EV-ri_MOR-ning/",
+        "usage_example_es": "Toma una pastilla después del desayuno cada mañana.",
+        "char_count": "one",
+        "usage_context_en": "A small solid piece of medicine to swallow.",
+        "usage_context_es": "Una pequeña porción sólida de medicina para tragar.",
+        "imagePath": "/card_images/nouns/1-basic/health/1-basic_health_card_pill_def0.avif"
+      }
+    ]
   }
 ]

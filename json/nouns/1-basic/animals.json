@@ -648,5 +648,57 @@
     "phonetic": "/ˈɪnsɛkt/",
     "search_term": "noun/animal/insect/essentials",
     "spoken_phonetic_us": "/ˈɪnsɛkt/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "spider",
+    "phonetic": "/ˈspaɪ.dər/",
+    "spoken_phonetic_us": "/ˈspaɪ.dɚ/",
+    "search_term": "noun/animal/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Animals",
+    "definitions": [
+      {
+        "meaning": "Araña",
+        "usage_example": "There is a small spider on the wall.",
+        "pronunciation_guide_es": "/DER_is_a_SMOL_SPAI-der_on_de_WOL/",
+        "usage_example_es": "Hay una araña pequeña en la pared.",
+        "char_count": "one",
+        "usage_context_en": "An eight-legged predatory arachnid.",
+        "usage_context_es": "Un arácnido depredador de ocho patas.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_spider_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "ant",
+    "phonetic": "/ænt/",
+    "spoken_phonetic_us": "/ænt/",
+    "search_term": "noun/animal/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Animals",
+    "definitions": [
+      {
+        "meaning": "Hormiga",
+        "usage_example": "Look at that ant carrying a piece of bread.",
+        "pronunciation_guide_es": "/LUK_at_dat_ANT_KA-ri-ing_a_PIS_ov_BRED/",
+        "usage_example_es": "Mira esa hormiga cargando un pedazo de pan.",
+        "char_count": "one",
+        "usage_context_en": "A small social insect living in complex colonies.",
+        "usage_context_es": "Un pequeño insecto social que vive en colonias complejas.",
+        "imagePath": "/card_images/nouns/1-basic/animals/1-basic_animals_card_ant_def0.avif"
+      }
+    ]
   }
 ]

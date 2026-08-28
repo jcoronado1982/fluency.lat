@@ -880,5 +880,31 @@
     "phonetic": "/fæn/",
     "search_term": "noun/household/essentials",
     "spoken_phonetic_us": "/fæn/"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "dish",
+    "phonetic": "/dɪʃ/",
+    "spoken_phonetic_us": "/dɪʃ/",
+    "search_term": "noun/object/kitchen/essentials",
+    "is_verb": false,
+    "force_generation": true,
+    "group_name": "Household",
+    "definitions": [
+      {
+        "meaning": "Plato",
+        "usage_example": "Please wash the dishes.",
+        "pronunciation_guide_es": "/DISH/",
+        "usage_example_es": "Por favor lava los platos.",
+        "char_count": "one",
+        "usage_context_en": "A plate or container for food.",
+        "usage_context_es": "Un plato o recipiente para comida.",
+        "imagePath": "/card_images/nouns/1-basic/household_items/1-basic_household_items_card_32_def0.avif"
+      }
+    ]
   }
 ]
