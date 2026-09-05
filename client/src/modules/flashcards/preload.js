@@ -3,6 +3,7 @@ import { FALLBACK_CATEGORIES, sortCategories } from './config/catalogOrder';
 import { getCategoryOrderPreference } from './config/catalogPreferences';
 import { LAST_CATEGORY_KEY, LAST_DECK_KEY_PREFIX } from './config/sessionKeys';
 import {
+    excludeDeletedCards,
     getCourseDirectionFromStudyLanguage,
     normalizeDeckResponse,
     parseCategoriesResponse,
@@ -69,6 +70,7 @@ export async function preloadFlashcardStart(userEmail, resumeSession = null, stu
         let deckNames = [];
         let deck = null;
         let deckData = null;
+        let introCard = null;
 
         if (category) {
             const decksResult = await flashcardPort.fetchDecksForCategory(category, courseDirection);
@@ -79,7 +81,8 @@ export async function preloadFlashcardStart(userEmail, resumeSession = null, stu
 
             if (deck) {
                 const rawDeck = await flashcardPort.fetchDeckData(userEmail, category, deck, courseDirection);
-                deckData = normalizeDeckResponse(rawDeck);
+                deckData = excludeDeletedCards(normalizeDeckResponse(rawDeck));
+                introCard = rawDeck?.intro_card?.enabled ? rawDeck.intro_card : null;
             }
         }
 
@@ -88,6 +91,7 @@ export async function preloadFlashcardStart(userEmail, resumeSession = null, stu
             deck,
             deckNames,
             deckData,
+            introCard,
         };
 
         preloadState.data = data;

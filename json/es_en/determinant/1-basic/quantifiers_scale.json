@@ -1,0 +1,372 @@
+{
+  "flashcards": [
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "name": "a lot of",
+      "phonetic": "/ə lɒt əv/",
+      "spoken_phonetic_us": "/ə lɑt əv/",
+      "search_term": "determiner/quantifier",
+      "is_verb": false,
+      "force_generation": false,
+      "group_name": "Quantifiers & Scale",
+      "definitions": [
+        {
+          "meaning": "Mucho / Mucha / Muchos / Muchas",
+          "usage_example": "I have a lot of friends.",
+          "pronunciation_guide_es": "/ai_HAV_a_LOT_of_FRENDS/",
+          "usage_example_es": "Tengo muchos amigos.",
+          "char_count": 5,
+          "usage_context_en": "A large amount or number (used with both countable and uncountable nouns).",
+          "usage_context_es": "Una gran cantidad o número (usado con sustantivos contables e incontables).",
+          "imagePath": "/card_images/determinant/1-basic/quantifiers_scale/1-basic_quantifiers_scale_card_0_def0.avif"
+        }
+      ]
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "name": "many",
+      "phonetic": "/ˈmɛni/",
+      "spoken_phonetic_us": "/ˈmɛni/",
+      "search_term": "determiner/quantifier",
+      "is_verb": false,
+      "force_generation": false,
+      "group_name": "Quantifiers & Scale",
+      "definitions": [
+        {
+          "meaning": "Muchos / Muchas",
+          "usage_example": "I have many friends.",
+          "pronunciation_guide_es": "/ai_HAV_ME-ni_FRENDS/",
+          "usage_example_es": "Tengo muchos amigos.",
+          "char_count": "4",
+          "usage_context_en": "Used for a large number of a countable noun.",
+          "usage_context_es": "Usado para un gran número de un sustantivo contable.",
+          "imagePath": "/card_images/determinant/1-basic/quantifiers_scale/1-basic_quantifiers_scale_card_1_def0.avif"
+        }
+      ]
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "name": "much",
+      "phonetic": "/mʌtʃ/",
+      "spoken_phonetic_us": "/mʌtʃ/",
+      "search_term": "determiner/quantifier",
+      "is_verb": false,
+      "force_generation": false,
+      "group_name": "Quantifiers & Scale",
+      "definitions": [
+        {
+          "meaning": "Mucho / Mucha",
+          "usage_example": "I don't have much time.",
+          "pronunciation_guide_es": "/ai_DONT_HAV_moch_TAIM/",
+          "usage_example_es": "No tengo mucho tiempo.",
+          "char_count": "5",
+          "usage_context_en": "Used for a large amount of an uncountable noun (mainly in questions/negatives).",
+          "usage_context_es": "Usado para una gran cantidad de un sustantivo incontable (principalmente en preguntas/negativos).",
+          "imagePath": "/card_images/determinant/1-basic/quantifiers_scale/1-basic_quantifiers_scale_card_2_def0.avif"
+        }
+      ]
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": true,
+      "learned_at": null,
+      "name": "more",
+      "phonetic": "/mɔːr/",
+      "spoken_phonetic_us": "/mɔr/",
+      "search_term": "determiner/quantifier",
+      "is_verb": false,
+      "force_generation": false,
+      "group_name": "Quantifiers & Scale",
+      "definitions": [
+        {
+          "meaning": "Más",
+          "usage_example": "I need more time.",
+          "pronunciation_guide_es": "/ai_NID_MOR_TAIM/",
+          "usage_example_es": "Necesito más tiempo.",
+          "char_count": "4",
+          "usage_context_en": "A greater or additional amount or degree.",
+          "usage_context_es": "Una cantidad o grado mayor o adicional.",
+          "imagePath": "/card_images/determinant/1-basic/quantifiers_scale/1-basic_quantifiers_scale_card_6_def0.avif"
+        }
+      ]
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "name": "the most",
+      "phonetic": "/ðə moʊst/",
+      "spoken_phonetic_us": "/ðə moʊst/",
+      "search_term": "determiner/quantifier",
+      "is_verb": false,
+      "force_generation": false,
+      "group_name": "Quantifiers & Scale",
+      "definitions": [
+        {
+          "meaning": "Lo más / El máximo (superlativo)",
+          "usage_example": "My brother earns the most money in our family.",
+          "pronunciation_guide_es": "/mai_BRA-der_ERNS_de_MOUST_MO-ni_in_AUR_FA-mi-li/",
+          "usage_example_es": "Mi hermano es el que más dinero gana en la familia.",
+          "char_count": "8",
+          "usage_context_en": "The superlative of 'many/much' — the greatest amount or number, used with both countable and uncountable nouns (the counterpart of 'the least'/'the fewest').",
+          "usage_context_es": "El superlativo de 'many/much' — la mayor cantidad o número, usado con sustantivos contables e incontables (la contraparte de 'the least'/'the fewest').",
+          "imagePath": "/card_images/determinant/1-basic/quantifiers_scale/1-basic_quantifiers_scale_card_13_def0.avif"
+        }
+      ]
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "name": "a few",
+      "phonetic": "/ə fjuː/",
+      "spoken_phonetic_us": "/ə fjuː/",
+      "search_term": "determiner/quantifier",
+      "is_verb": false,
+      "force_generation": true,
+      "group_name": "Quantifiers & Scale",
+      "definitions": [
+        {
+          "meaning": "Unos pocos / Unas pocas",
+          "usage_example": "I have a few questions.",
+          "pronunciation_guide_es": "/ai_JAV_a_FIU_KUES-chons/",
+          "usage_example_es": "Tengo unas pocas preguntas.",
+          "char_count": "3",
+          "usage_context_en": "Used before plural countable nouns to mean 'a small number of' (a positive tone, unlike 'few').",
+          "usage_context_es": "Usado antes de sustantivos plurales contables para decir 'una pequeña cantidad de' (tono positivo, a diferencia de 'few').",
+          "imagePath": "/card_images/determinant/1-basic/quantifiers_scale/1-basic_quantifiers_scale_card_3_def0.avif"
+        }
+      ]
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "name": "few",
+      "phonetic": "/fjuː/",
+      "spoken_phonetic_us": "/fjuː/",
+      "search_term": "determiner/quantifier",
+      "is_verb": false,
+      "force_generation": false,
+      "group_name": "Quantifiers & Scale",
+      "definitions": [
+        {
+          "meaning": "Pocos / Pocas (casi nada)",
+          "usage_example": "He has few friends.",
+          "pronunciation_guide_es": "/hi_HAS_FIU_FRENDS/",
+          "usage_example_es": "Él tiene pocos amigos. (sentido negativo)",
+          "char_count": "4",
+          "usage_context_en": "Used for a small number of a countable noun (implies a negative quantity, 'not enough' — the counterpart of 'a few', which has a positive tone).",
+          "usage_context_es": "Usado para un pequeño número de un sustantivo contable (implica cantidad negativa, 'no suficientes' — la contraparte de 'a few', que tiene tono positivo).",
+          "imagePath": "/card_images/determinant/1-basic/quantifiers_scale/1-basic_quantifiers_scale_card_9_def0.avif"
+        }
+      ]
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "name": "a little",
+      "phonetic": "/ə ˈlɪtəl/",
+      "spoken_phonetic_us": "/ə ˈlɪtəl/",
+      "search_term": "determiner/quantifier",
+      "is_verb": false,
+      "force_generation": true,
+      "group_name": "Quantifiers & Scale",
+      "definitions": [
+        {
+          "meaning": "Un poco",
+          "usage_example": "I speak a little English.",
+          "pronunciation_guide_es": "/ai_SPIK_a_LI-tel_IN-glish/",
+          "usage_example_es": "Hablo un poco de inglés.",
+          "char_count": "3",
+          "usage_context_en": "Used before uncountable nouns to mean 'a small amount of' (a positive tone, unlike 'little').",
+          "usage_context_es": "Usado antes de sustantivos incontables para decir 'una pequeña cantidad de' (tono positivo, a diferencia de 'little').",
+          "imagePath": "/card_images/determinant/1-basic/quantifiers_scale/1-basic_quantifiers_scale_card_4_def0.avif"
+        }
+      ]
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "name": "little",
+      "phonetic": "/ˈlɪtəl/",
+      "spoken_phonetic_us": "/ˈlɪtəl/",
+      "search_term": "determiner/quantifier",
+      "is_verb": false,
+      "force_generation": false,
+      "group_name": "Quantifiers & Scale",
+      "definitions": [
+        {
+          "meaning": "Poco / Poca (casi nada)",
+          "usage_example": "He has little time.",
+          "pronunciation_guide_es": "/hi_HAS_LI-tol_TAIM/",
+          "usage_example_es": "Él tiene poco tiempo. (sentido negativo)",
+          "char_count": "4",
+          "usage_context_en": "Used for a small amount of an uncountable noun (implies a negative quantity, 'not enough' — the counterpart of 'a little', which has a positive tone).",
+          "usage_context_es": "Usado para una pequeña cantidad de un sustantivo incontable (implica cantidad negativa, 'no suficiente' — la contraparte de 'a little', que tiene tono positivo).",
+          "imagePath": "/card_images/determinant/1-basic/quantifiers_scale/1-basic_quantifiers_scale_card_10_def0.avif"
+        }
+      ]
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "name": "less",
+      "phonetic": "/lɛs/",
+      "spoken_phonetic_us": "/lɛs/",
+      "search_term": "determiner/quantifier",
+      "is_verb": false,
+      "force_generation": false,
+      "group_name": "Quantifiers & Scale",
+      "definitions": [
+        {
+          "meaning": "Menos (incontable)",
+          "usage_example": "I have less money than you.",
+          "pronunciation_guide_es": "/ai_HAV_LES_MO-ni_dan_IU/",
+          "usage_example_es": "Tengo menos dinero que tú.",
+          "char_count": "6",
+          "usage_context_en": "A smaller amount of (used with uncountable nouns).",
+          "usage_context_es": "Una cantidad menor de (usado con sustantivos incontables).",
+          "imagePath": "/card_images/determinant/1-basic/quantifiers_scale/1-basic_quantifiers_scale_card_7_def0.avif"
+        }
+      ]
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "name": "the least",
+      "phonetic": "/ðə liːst/",
+      "spoken_phonetic_us": "/ðə liːst/",
+      "search_term": "determiner/quantifier",
+      "is_verb": false,
+      "force_generation": false,
+      "group_name": "Quantifiers & Scale",
+      "definitions": [
+        {
+          "meaning": "Lo menos (incontable, superlativo)",
+          "usage_example": "My sister earns the least money in our family.",
+          "pronunciation_guide_es": "/mai_SIS-ter_ERNS_de_LIST_MO-ni_in_AUR_FA-mi-li/",
+          "usage_example_es": "Mi hermana es la que menos dinero gana en la familia.",
+          "char_count": "8",
+          "usage_context_en": "The superlative of 'little' — the smallest amount, used with uncountable nouns (the counterpart of 'the most').",
+          "usage_context_es": "El superlativo de 'little' — la cantidad más pequeña, usado con sustantivos incontables (la contraparte de 'the most').",
+          "imagePath": "/card_images/determinant/1-basic/quantifiers_scale/1-basic_quantifiers_scale_card_11_def0.avif"
+        }
+      ]
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "name": "fewer",
+      "phonetic": "/ˈfjuːər/",
+      "spoken_phonetic_us": "/ˈfjuːər/",
+      "search_term": "determiner/quantifier",
+      "is_verb": false,
+      "force_generation": false,
+      "group_name": "Quantifiers & Scale",
+      "definitions": [
+        {
+          "meaning": "Menos (contable)",
+          "usage_example": "I have fewer books than you.",
+          "pronunciation_guide_es": "/ai_HAV_FIU-er_BUKS_dan_IU/",
+          "usage_example_es": "Tengo menos libros que tú.",
+          "char_count": "6",
+          "usage_context_en": "A smaller number of (used with countable nouns — the counterpart of 'less', which is for uncountable nouns).",
+          "usage_context_es": "Un número menor de (usado con sustantivos contables — la contraparte de 'less', que es para sustantivos incontables).",
+          "imagePath": "/card_images/determinant/1-basic/quantifiers_scale/1-basic_quantifiers_scale_card_8_def0.avif"
+        }
+      ]
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "name": "the fewest",
+      "phonetic": "/ðə ˈfjuːɪst/",
+      "spoken_phonetic_us": "/ðə ˈfjuːɪst/",
+      "search_term": "determiner/quantifier",
+      "is_verb": false,
+      "force_generation": false,
+      "group_name": "Quantifiers & Scale",
+      "definitions": [
+        {
+          "meaning": "Los menos / La menor cantidad (contable, superlativo)",
+          "usage_example": "She made the fewest mistakes.",
+          "pronunciation_guide_es": "/SHI_MEID_de_FIU-est_mis-TEIKS/",
+          "usage_example_es": "Ella cometió la menor cantidad de errores.",
+          "char_count": "10",
+          "usage_context_en": "The superlative of 'few' — the smallest number, used with countable nouns (the counterpart of 'the most').",
+          "usage_context_es": "El superlativo de 'few' — el número más pequeño, usado con sustantivos contables (la contraparte de 'the most').",
+          "imagePath": "/card_images/determinant/1-basic/quantifiers_scale/1-basic_quantifiers_scale_card_12_def0.avif"
+        }
+      ]
+    },
+    {
+      "word": "",
+      "translation": "",
+      "example": null,
+      "learned": false,
+      "learned_at": null,
+      "name": "enough",
+      "phonetic": "/ɪˈnʌf/",
+      "spoken_phonetic_us": "/ɪˈnʌf/",
+      "search_term": "determiner/quantifier",
+      "is_verb": false,
+      "force_generation": false,
+      "group_name": "Quantifiers & Scale",
+      "definitions": [
+        {
+          "meaning": "Suficiente(s)",
+          "usage_example": "I don't have enough money.",
+          "pronunciation_guide_es": "/ai_DONT_HAV_i-NOF_MO-ni/",
+          "usage_example_es": "No tengo suficiente dinero.",
+          "char_count": "5",
+          "usage_context_en": "As much or as many as is necessary or required.",
+          "usage_context_es": "Tanto o tantos como sea necesario o requerido.",
+          "imagePath": "/card_images/determinant/1-basic/quantifiers_scale/1-basic_quantifiers_scale_card_5_def0.avif"
+        }
+      ]
+    }
+  ],
+  "intro_card": {
+    "enabled": true,
+    "imagePath": "/card_images/determinant/1-basic/quantifiers_scale/1-basic_quantifiers_scale_intro.png"
+  }
+}

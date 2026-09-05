@@ -127,9 +127,9 @@ function DeckGrid({
                             ) : (
                                 <h4 className={styles.groupName}>{deckLabel}</h4>
                             )}
-                            <div className={styles.groupMetaInfo}>
+                            {/* <div className={styles.groupMetaInfo}>
                                 <span className={styles.groupDeckId}>{deckName}</span>
-                            </div>
+                            </div> */}
                             <div className={styles.groupActions}>
                                 {isComplete ? (
                                     <button

@@ -551,5 +551,43 @@
         "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_15_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "charge",
+    "phonetic": "/tʃɑːrdʒ/",
+    "spoken_phonetic_us": "/tʃɑːrdʒ/",
+    "search_term": "verb/price/business",
+    "is_verb": true,
+    "force_generation": true,
+    "definitions": [
+      {
+        "meaning": "Cobrar (un precio)",
+        "usage_example": "The hotel charges $100 per night.",
+        "alternative_example": "How much do you charge for this service?",
+        "pronunciation_guide_es": "/de_jo-TEL_CHAR-yes_uan_JAN-dred_DO-lars_per_NAIt/",
+        "usage_example_es": "El hotel cobra $100 por noche.",
+        "char_count": "one",
+        "usage_context_en": "To ask for an amount of money for goods or a service.",
+        "usage_context_es": "Pedir una cantidad de dinero por bienes o un servicio.",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_16_def0.avif"
+      },
+      {
+        "meaning": "Cargar (una batería)",
+        "usage_example": "I need to charge my phone.",
+        "alternative_example": "The battery is fully charged.",
+        "pronunciation_guide_es": "/ai_NID_tu_CHAR-y_mai_FOUN/",
+        "usage_example_es": "Necesito cargar mi teléfono.",
+        "char_count": "one",
+        "usage_context_en": "To fill a device with electrical energy.",
+        "usage_context_es": "Llenar un dispositivo con energía eléctrica.",
+        "imagePath": "/card_images/verbs/2-intermediate/work/2-intermediate_work_card_16_def1.avif"
+      }
+    ],
+    "group_name": "Managing & Control"
   }
 ]

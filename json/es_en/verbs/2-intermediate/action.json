@@ -1444,5 +1444,86 @@
         "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_36_def1.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "weigh",
+    "phonetic": "/weɪ/",
+    "spoken_phonetic_us": "/weɪ/",
+    "search_term": "verb/measure/weight",
+    "is_verb": true,
+    "force_generation": true,
+    "definitions": [
+      {
+        "meaning": "Pesar (tener un peso)",
+        "usage_example": "This bag weighs five kilos.",
+        "alternative_example": "How much do you weigh?",
+        "pronunciation_guide_es": "/dis_BAG_UEIS_FAIV_KI-lous/",
+        "usage_example_es": "Esta bolsa pesa cinco kilos.",
+        "char_count": "one",
+        "usage_context_en": "To have a particular weight.",
+        "usage_context_es": "Tener un peso determinado.",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_37_def0.avif"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "test",
+    "phonetic": "/tɛst/",
+    "spoken_phonetic_us": "/tɛst/",
+    "search_term": "verb/evaluate/essentials",
+    "is_verb": true,
+    "force_generation": true,
+    "definitions": [
+      {
+        "meaning": "Probar / Poner a prueba",
+        "usage_example": "We need to test the new software.",
+        "alternative_example": "The doctor tested my blood.",
+        "pronunciation_guide_es": "/ui_NID_tu_TEST_de_NIU_SOFT-uer/",
+        "usage_example_es": "Necesitamos probar el nuevo software.",
+        "char_count": "one",
+        "usage_context_en": "To try something to see if it works correctly.",
+        "usage_context_es": "Intentar algo para ver si funciona correctamente.",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_38_def0.avif"
+      }
+    ],
+    "group_name": "Daily Tasks"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "book",
+    "phonetic": "/bʊk/",
+    "spoken_phonetic_us": "/bʊk/",
+    "search_term": "verb/reserve/travel",
+    "is_verb": true,
+    "force_generation": true,
+    "definitions": [
+      {
+        "meaning": "Reservar",
+        "usage_example": "I want to book a table for two.",
+        "alternative_example": "She booked a flight to Paris.",
+        "pronunciation_guide_es": "/ai_UANT_tu_BUK_a_TEI-bol_for_TU/",
+        "usage_example_es": "Quiero reservar una mesa para dos.",
+        "char_count": "one",
+        "usage_context_en": "To arrange to have a seat, room, or service in advance.",
+        "usage_context_es": "Organizar con anticipación tener un asiento, habitación o servicio.",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_39_def0.avif"
+      }
+    ],
+    "group_name": "Social & Daily Life"
   }
 ]

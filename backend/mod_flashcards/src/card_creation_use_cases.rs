@@ -596,7 +596,13 @@ impl CardCreationUseCases {
             else {
                 continue;
             };
-            let total = deck.flashcards().len();
+            // Las tarjetas retiradas por un admin (`DELETE /api/delete-card`) siguen en el archivo
+            // para no correr los índices, pero no cuentan como estudiables en el mosaico.
+            let total = deck
+                .flashcards()
+                .iter()
+                .filter(|card| !card.is_deleted())
+                .count();
             if total == 0 {
                 continue;
             }

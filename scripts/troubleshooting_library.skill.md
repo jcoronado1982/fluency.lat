@@ -529,3 +529,40 @@ Este documento es una base de conocimientos dinámica de errores técnicos, bugs
 - **Causa real:** El componente `Flashcard.jsx` sufre una cascada de re-renderizados síncronos al cambiar de tarjeta. El custom hook `useImageGeneration` tenía un `useEffect` que se disparaba con el cambio del ID de la tarjeta, el cual creaba un `AbortController` nuevo y lanzaba la petición HTTP (`imagePort.resolve`), pero la cascada de renders de `Flashcard` volvía a disparar dependencias y funciones de limpieza milisegundos después, provocando que el `AbortController` cancelara la petición recién iniciada ("AbortError"). El pipeline capturaba el error silenciosamente y dejaba la imagen en `null`. Un click manual esquivaba React (`onClick`), por eso sí funcionaba.
 - **Solución:** Se envolvió el disparo de la petición en un `setTimeout` de 50ms dentro del `useEffect` unificado, aislando la petición de la tormenta de re-renderizados inicial. Pasados los 50ms, valida que el ID siga siendo el mismo y ejecuta de forma segura el fetch.
 - **Lección:** Las cargas de red orquestadas "on mount" bajo jerarquías complejas de React 19 son extremadamente vulnerables a abortos prematuros inducidos por limpiezas de efectos. Si una petición red funciona on-click pero falla/se anula "on-load", el síntoma apunta a una función de limpieza (cleanup function) disparándose a traición. Enviar la llamada a la red tras el fin de ciclo del Event Loop (`setTimeout`) es una defensa sólida.
+
+### 18. Anomalías anatómicas de extremidades en FLUX 2: conflicto por doble acción manual
+- **Fecha:** 2026-09-02
+- **Caso / Tarjeta:** Categoría `determinant` → Nivel `1-basic` → Mazo `reference_and_selection.json` → Tarjeta `11` (`WHAT`: *"What bus do I take?"*).
+  - Archivo: `json/es_en/determinant/1-basic/reference_and_selection.json`
+  - Imagen: `card_images/determinant/1-basic/reference_and_selection/1-basic_reference_and_selection_card_11_def0.avif`
+- **Síntoma:** En la escena generada por FLUX 2, la protagonista aparecía con **tres manos**: sujetando un mapa desplegado con ambas manos a la vez que un tercer brazo/mano extendido señalaba el tablero de horarios de la parada de autobús.
+- **Causa real:** El prompt generado por el LLM solicitaba simultáneamente dos acciones que involucran manos sin asignar explícitamente la lateralidad: *"sosteniendo un mapa"* + *"señalando el horario"*. Al no delimitar qué mano ejecuta qué acción, la difusión intenta satisfacer ambas poses completas por separado, generando dos manos para el mapa y una tercera para apuntar.
+- **Regla de Solución para IAs (Claude / Gemini):**
+  - **PROHIBIDO usar negative prompts burdos:** No añadir directivas como *"no 3 hands, no 6 fingers, no extra limbs"*. En modelos de difusión modernos (FLUX 2), las advertencias negativas sobre anatomía sobrecargan la atención en los tokens anatómicos y provocan artefactos plásticos o deformidades peores.
+  - **REGLA DE ASIGNACIÓN NATURAL DE MANOS:** Describir la acción física repartiendo explícitamente el rol de cada mano:
+    > *"holding a folded city map in her **left hand**, while pointing towards the bus timetable with her **right index finger**"* (o alternativamente: *"holding the map with both hands while looking up at the bus numbers"*).
+  - Al acotar qué hace la mano izquierda y qué hace la derecha, el modelo genera exactamente dos extremidades de forma 100% natural, sin tocar ni deformar la calidad del prompt.
+
+
+### 19. Borrar una tarjeta del catálogo: por qué NO se puede sacar del array, y 3 formas de dejar el botón invisible
+- **Fecha:** 2026-09-05
+- **Contexto:** botón de curaduría del admin para eliminar la tarjeta visible del catálogo general (`DELETE /api/delete-card`). Plano completo: [`docs/modules/flashcards.md`](../docs/modules/flashcards.md) §Admin Card Retirement.
+
+**A) El borrado físico corrompe el mazo (trampa de diseño, no bug encontrado)**
+- **Causa:** las tarjetas se direccionan **por posición** en dos lugares a la vez: el progreso del usuario en SurrealDB (`learned` por índice) y las rutas de imagen `<categoria>/<mazo>/<mazo>_card_N_defM`, que **no dependen de la dirección de curso** (`es_en/verbs/action` carta 3 y `en_es/verbs/action` carta 3 apuntan al MISMO archivo). Sacar el elemento N del array corre en 1 todas las siguientes: cada una hereda la imagen y el `learned` de su vecina, en ese mazo **y en el equivalente de las otras direcciones**.
+- **Solución:** marcar `"deleted": true` (+ `deleted_at`/`deleted_by`) y dejar la fila en el archivo. Filtrar en los consumidores (`excludeDeletedCards`), NUNCA en `normalizeDeckResponse` — `card.id` tiene que seguir siendo el índice real, porque `assembleSrsDeck` resuelve las candidatas SRS por esa posición contra el array completo.
+- **Lección:** antes de "borrar" algo en este repo, preguntarse quién más usa su índice. Media compartida entre direcciones de curso convierte un `splice` local en corrupción global.
+
+**B) La caché moka de mazos hace ver cambios viejos al editar JSON a mano**
+- **Síntoma:** agregué tarjetas de prueba a `json/es_en/verbs/1-basic/being_state.json` y el API siguió devolviendo el mazo anterior; parecía que el backend no leía el archivo.
+- **Causa:** `LocalStorageRepository` mantiene un LRU moka de mazos completos (12 entradas, TTL 300 s). `save_deck_data_for_direction` **sí** invalida la entrada que escribe — o sea, borrar desde la app se ve al instante — pero editar el archivo por fuera de la app no invalida nada.
+- **Solución:** esperar el TTL (≤5 min) o reiniciar el backend. No es bug del endpoint; es una trampa de QA/autoría.
+
+**C) Tres maneras de dejar un botón nuevo "invisible" (las tres reportadas en vivo)**
+1. **Lejos y sin contraste:** primera versión = ícono gris de 36px en la esquina superior IZQUIERDA del wrapper. En un monitor de 1920 quedaba a 640px de la tarjeta, oscuro sobre oscuro → *"no veo dónde elimino la tarjeta"*. Ancla el control nuevo a un bloque de chrome que el ojo YA mire (acá, la columna del chip contador).
+2. **Ícono que no compite con su etiqueta:** 16px de trazo fino heredando el color apagado del botón, al lado de texto en negrita → *"se ven las letras, el ícono no se ve"*. En móvil el ícono es lo ÚNICO que se ve, así que su tamaño es toda la afordancia (quedó 18px desktop / 20px móvil en `#fff1f2`).
+3. **Copiar el `display:none` del vecino sin pensar:** oculté el botón bajo `(display-mode: standalone) and (max-width: 768px)` por analogía con el chip contador. Resultado: en la **PWA instalada** —justo el lugar desde donde el admin cura— no había forma de borrar. El contador es informativo; un botón de acción no se esconde por simetría visual.
+- **Cómo verificarlo sin adivinar:** Playwright contra `https://launch.lat` (túnel al stack local) con perfiles `devices['iPhone 14' | 'Pixel 7' | 'iPhone SE']`, midiendo `boundingBox()` del botón vs el de la tarjeta, y `document.elementFromPoint(centro)` para confirmar que nada lo tapa. El `tap()` táctil (no `click()`) es lo que prueba de verdad el flujo móvil.
+
+**D) Probar un borrado destructivo sin tocar contenido real**
+- Copiar el JSON del mazo a un backup FUERA del repo, agregar tarjetas `__qa_temp_card` al FINAL (índices nuevos, no corren nada), esperar el TTL de la caché, borrarlas por la UI, y restaurar con `cp` desde el backup verificando `md5sum` + `git status` sin cambios. Nunca borrar una tarjeta real "para probar".

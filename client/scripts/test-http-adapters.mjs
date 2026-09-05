@@ -86,6 +86,15 @@ function fakeHttp() {
     body: { category: 'verbs', deck: '1-basic/action', index: 3, def_index: 1, form: 'v1', course_direction: 'en_es' },
   });
 
+  await adapter.deleteCard({ category: 'verbs', deck: '1-basic/action', index: 3, expectedWord: 'run', courseDirection: 'en_es' });
+  assert.deepEqual(http.calls.at(-1), {
+    method: 'DELETE',
+    url: '/api/delete-card',
+    // `expected_word` es la guarda contra un índice viejo: si se pierde en el mapeo, el backend
+    // borraría a ciegas la tarjeta que hoy ocupe esa posición.
+    body: { category: 'verbs', deck: '1-basic/action', index: 3, expected_word: 'run', course_direction: 'en_es' },
+  });
+
   console.log('✅ flashcardHttpAdapter: contrato HTTP verificado');
 }
 

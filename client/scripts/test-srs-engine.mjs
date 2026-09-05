@@ -56,6 +56,15 @@ assert.equal(loads, 1);
 assert.deepEqual(assembled.map((card) => card.word), ['one', 'zero']);
 assert.deepEqual(assembled.map((card) => card.id), [1, 0]);
 
+// Tarjeta retirada del catálogo por un admin (`DELETE /api/delete-card`): sigue en el archivo
+// (los índices son posicionales, por eso se resuelve contra el array COMPLETO) y su progreso
+// sigue en la DB, pero no debe entrar al repaso diario. Su vecina en el índice 1 sí.
+const assembledWithDeleted = await assembleSrsDeck(candidates, async () => (
+    [{ word: 'zero', deleted: true }, { word: 'one' }]
+));
+assert.deepEqual(assembledWithDeleted.map((card) => card.word), ['one']);
+assert.deepEqual(assembledWithDeleted.map((card) => card.id), [1], 'el índice de la vecina no se corre');
+
 fc.assert(fc.property(
     fc.record({
         box_level: fc.integer({ min: 0, max: 98 }),

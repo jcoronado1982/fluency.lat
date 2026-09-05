@@ -87,6 +87,10 @@ pub fn register_routes(app: Router<AppState>) -> Router<AppState> {
         delete(api::endpoints::generation::delete_definition),
     )
     .route(
+        "/api/delete-card",
+        delete(api::endpoints::generation::delete_card),
+    )
+    .route(
         "/api/personal-words/preview",
         post(api::endpoints::personal_words::preview_word),
     )

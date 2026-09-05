@@ -232,6 +232,20 @@ pub struct SearchResultDto {
     pub is_personal: bool,
 }
 
+/// Resultado de `DeckUseCases::delete_card` (retiro de una tarjeta del catálogo por un admin).
+/// `remaining_active` cuenta las tarjetas del mazo que siguen siendo estudiables, para que quien
+/// llame sepa si el mazo quedó vacío sin volver a leerlo.
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub enum DeleteCardOutcome {
+    Deleted { remaining_active: usize },
+    /// Ya estaba retirada (reintento / doble click): no se reescribió el archivo.
+    AlreadyDeleted { remaining_active: usize },
+    /// `index` fuera del rango del mazo.
+    OutOfRange,
+    /// La palabra en `index` no es la que el cliente creía estar borrando: el mazo cambió.
+    WordMismatch { actual: String },
+}
+
 pub struct DeckUseCases {
     storage_repo: Arc<dyn StorageRepository>,
     db_repo: Arc<dyn CardProgressRepository>,
@@ -628,6 +642,11 @@ fn score_card_match(q: &str, clean_name: &str) -> u32 {
 
                 let cards = deck_data.flashcards();
                 for (idx, card) in cards.iter().enumerate() {
+                    // Retirada del catálogo por un admin: sigue en el archivo (los índices son
+                    // posicionales) pero no debe aparecer en la búsqueda.
+                    if card.is_deleted() {
+                        continue;
+                    }
                     let search_term = card
                         .extra
                         .get("search_term")
@@ -680,6 +699,9 @@ fn score_card_match(q: &str, clean_name: &str) -> u32 {
 
                     let cards = deck_data.flashcards();
                     for (idx, card) in cards.iter().enumerate() {
+                        if card.is_deleted() {
+                            continue;
+                        }
                         let search_term = card
                             .extra
                             .get("search_term")
@@ -824,6 +846,94 @@ fn score_card_match(q: &str, clean_name: &str) -> u32 {
         self.save_deck_json(category, deck_name, &deck, course_direction)
             .await?;
         Ok(true)
+    }
+
+    /// Tarjetas del mazo que siguen siendo estudiables (las retiradas por un admin no cuentan).
+    fn active_card_count(deck: &DeckData) -> usize {
+        deck.flashcards()
+            .iter()
+            .filter(|card| !card.is_deleted())
+            .count()
+    }
+
+    /// Retira del catálogo la tarjeta completa en `index` (todas sus acepciones) marcándola con
+    /// `"deleted": true` **sin sacarla del array**. Herramienta de curaduría del admin: la tarjeta
+    /// deja de entregarse a todos los usuarios de esa dirección de curso.
+    ///
+    /// El borrado físico no es una opción: el progreso en SurrealDB (`learned` por índice) y las
+    /// rutas de imagen (`<categoria>/<mazo>/<mazo>_card_N_defM`, **compartidas por todas las
+    /// direcciones de curso**) direccionan las tarjetas por posición. Sacar un elemento correría
+    /// en 1 todos los índices siguientes: cada tarjeta posterior heredaría la imagen y el
+    /// `learned` de su vecina, acá y en el mazo equivalente de las otras direcciones. Marcarla
+    /// preserva esas coordenadas y además deja el retiro reversible a mano sobre el JSON.
+    ///
+    /// La imagen y el audio de la tarjeta retirada quedan huérfanos a propósito (mismo criterio
+    /// que `delete_definition`): borrarlos rompería la imagen del mismo índice en las demás
+    /// direcciones de curso, que apuntan al mismo archivo.
+    ///
+    /// `expected_word` protege contra un índice viejo (el JSON pudo cambiar entre que el cliente
+    /// cargó el mazo y apretó borrar): si la palabra en esa posición no coincide, no se toca nada.
+    /// `user_id` solo resuelve el namespace de un mazo personal (`my_words`); en un mazo del
+    /// catálogo no cambia nada.
+    pub async fn delete_card(
+        &self,
+        user_id: &str,
+        category: &str,
+        deck_name: &str,
+        index: usize,
+        expected_word: Option<&str>,
+        course_direction: &str,
+        deleted_by: &str,
+    ) -> Result<DeleteCardOutcome> {
+        let category =
+            &crate::card_creation_use_cases::resolve_storage_category(category, deck_name, user_id);
+        let mut deck = self
+            .get_deck_json(category, deck_name, course_direction)
+            .await?;
+
+        let Some(card) = deck.flashcards().get(index) else {
+            return Ok(DeleteCardOutcome::OutOfRange);
+        };
+
+        if let Some(expected) = expected_word.map(str::trim).filter(|w| !w.is_empty()) {
+            let actual = card.resolved_word();
+            if !actual.trim().eq_ignore_ascii_case(expected) {
+                return Ok(DeleteCardOutcome::WordMismatch {
+                    actual: actual.to_string(),
+                });
+            }
+        }
+
+        if card.is_deleted() {
+            // Reintento o doble click: no reescribimos el archivo, pero informamos el conteo real.
+            return Ok(DeleteCardOutcome::AlreadyDeleted {
+                remaining_active: Self::active_card_count(&deck),
+            });
+        }
+
+        let card = deck
+            .flashcards_mut()
+            .get_mut(index)
+            .expect("índice ya validado arriba");
+        let Some(extra) = card.extra.as_object_mut() else {
+            anyhow::bail!("la tarjeta {index} de {category}/{deck_name} no es un objeto JSON");
+        };
+        extra.insert("deleted".to_string(), serde_json::Value::Bool(true));
+        extra.insert(
+            "deleted_at".to_string(),
+            serde_json::Value::String(chrono::Utc::now().to_rfc3339()),
+        );
+        extra.insert(
+            "deleted_by".to_string(),
+            serde_json::Value::String(deleted_by.to_string()),
+        );
+
+        self.save_deck_json(category, deck_name, &deck, course_direction)
+            .await?;
+
+        Ok(DeleteCardOutcome::Deleted {
+            remaining_active: Self::active_card_count(&deck),
+        })
     }
 
     pub async fn blob_exists(&self, blob_path: &str) -> Result<bool> {
@@ -1611,6 +1721,87 @@ mod tests {
             .and_then(|d| d.as_array())
             .unwrap();
         assert_eq!(defs.len(), 2);
+    }
+
+    fn two_card_deck_json() -> &'static str {
+        r#"[
+            {"word": "run", "definitions": [{"meaning": "correr"}]},
+            {"word": "walk", "definitions": [{"meaning": "caminar"}]}
+        ]"#
+    }
+
+    /// Invariante central del retiro: la tarjeta se MARCA, no se saca del array — si se sacara,
+    /// "walk" pasaría del índice 1 al 0 y heredaría la imagen y el progreso de "run".
+    #[tokio::test]
+    async fn delete_card_marks_the_card_without_shifting_the_remaining_indexes() {
+        let deck: DeckData = serde_json::from_str(two_card_deck_json()).unwrap();
+        let uc = build_deck_use_cases(DeckContentFake::new("es_en", "verbs", "action.json", deck));
+
+        let outcome = uc
+            .delete_card("u@example.com", "verbs", "action.json", 0, Some("run"), "es_en", "admin@example.com")
+            .await
+            .expect("delete_card");
+        assert_eq!(outcome, DeleteCardOutcome::Deleted { remaining_active: 1 });
+
+        let updated = uc
+            .get_deck_json("verbs", "action.json", "es_en")
+            .await
+            .unwrap();
+        let cards = updated.flashcards();
+        assert_eq!(cards.len(), 2, "el array NO se acorta");
+        assert!(cards[0].is_deleted());
+        assert_eq!(
+            cards[0].extra.get("deleted_by").and_then(|v| v.as_str()),
+            Some("admin@example.com")
+        );
+        assert!(!cards[1].is_deleted());
+        assert_eq!(cards[1].resolved_word(), "walk", "«walk» sigue en el índice 1");
+    }
+
+    #[tokio::test]
+    async fn delete_card_rejects_a_stale_index_instead_of_deleting_the_wrong_word() {
+        let deck: DeckData = serde_json::from_str(two_card_deck_json()).unwrap();
+        let uc = build_deck_use_cases(DeckContentFake::new("es_en", "verbs", "action.json", deck));
+
+        let outcome = uc
+            .delete_card("u@example.com", "verbs", "action.json", 1, Some("run"), "es_en", "admin@example.com")
+            .await
+            .unwrap();
+        assert_eq!(
+            outcome,
+            DeleteCardOutcome::WordMismatch { actual: "walk".to_string() }
+        );
+
+        let unchanged = uc
+            .get_deck_json("verbs", "action.json", "es_en")
+            .await
+            .unwrap();
+        assert!(unchanged.flashcards().iter().all(|c| !c.is_deleted()));
+    }
+
+    #[tokio::test]
+    async fn delete_card_is_idempotent_and_reports_an_emptied_deck() {
+        let deck: DeckData = serde_json::from_str(two_card_deck_json()).unwrap();
+        let uc = build_deck_use_cases(DeckContentFake::new("es_en", "verbs", "action.json", deck));
+
+        for index in [0, 1] {
+            uc.delete_card("u@example.com", "verbs", "action.json", index, None, "es_en", "a@b.c")
+                .await
+                .unwrap();
+        }
+        // Último borrado: el mazo quedó sin ninguna tarjeta estudiable.
+        let repeated = uc
+            .delete_card("u@example.com", "verbs", "action.json", 1, None, "es_en", "a@b.c")
+            .await
+            .unwrap();
+        assert_eq!(repeated, DeleteCardOutcome::AlreadyDeleted { remaining_active: 0 });
+
+        assert_eq!(
+            uc.delete_card("u@example.com", "verbs", "action.json", 9, None, "es_en", "a@b.c")
+                .await
+                .unwrap(),
+            DeleteCardOutcome::OutOfRange
+        );
     }
 
     // Regresión: "Crear palabra" integrado al catálogo general (ver

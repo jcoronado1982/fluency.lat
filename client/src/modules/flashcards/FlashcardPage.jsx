@@ -11,6 +11,8 @@ import PageLoader from '../../components/common/PageLoader';
 import { usePageLoader } from '../../components/common/usePageLoader';
 import styles from './features/CardCounter.module.css';
 import CompletionCard from './features/CompletionCard';
+import IntroCard from './features/IntroCard';
+import AdminDeleteCardButton from './features/AdminDeleteCardButton';
 import { useUIContext } from '../../context/UIContext';
 import { useFlashcardUiContext } from './context/FlashcardUiContext';
 import { useCategoryContext } from './context/CategoryContext';
@@ -202,6 +204,7 @@ export default function FlashcardPage() {
         currentIndex, nextCard, prevCard, markAsLearned, resetDeck, reviewDeckAgain,
         selectedGroup, changeDeck, setSelectedGroup, justCompletedInSession, reachedDeckEnd,
         currentCategory: categoryFromSession, isSrsMode = false, deckNames,
+        introCard, dismissIntroCard, deleteCard,
     } = useFlashcardContext();
     const currentCategory = categoryFromSession || categoryFromCatalog;
     const isInstalledPwa = typeof window !== 'undefined'
@@ -343,6 +346,9 @@ export default function FlashcardPage() {
         : getProgressLabel(currentCategory, selectedGroup, language);
     const locale = language === 'es' ? 'es' : 'en';
     const isCompletionVisible = masterData.length > 0 && filteredData.length === 0;
+    // La intro es la "carta 0": siempre se muestra al entrar al mazo, salvo que ya esté
+    // completo (en ese caso el usuario quiere ver el resumen, no la infografía de nuevo).
+    const shouldShowIntro = Boolean(introCard?.imagePath) && !isCompletionVisible;
     const isUserViewingCompleted = isCompletionVisible
         && !justCompletedInSession
         && navigationIntentRef.current === 'user';
@@ -383,8 +389,11 @@ export default function FlashcardPage() {
                 : (locale === 'es' ? 'Terminando' : 'Finishing'),
         },
     ] : [];
-    const recommendation = !isSrsMode && (isCompletionVisible || reachedDeckEnd)
-        ? getNextStudyStep(currentCategory, currentDeckName, selectedGroup, {
+    // Calculado bajo demanda (no solo en render) porque el borrado de tarjetas del admin puede
+    // vaciar el mazo: ahí `isCompletionVisible` es false (exige que queden tarjetas aprendidas)
+    // y aun así hay que saber cuál es el siguiente paso de estudio.
+    const computeNextStudyStep = () =>
+        getNextStudyStep(currentCategory, currentDeckName, selectedGroup, {
             categoryOrder: getCategoryOrderPreference(
                 user?.email,
                 categories,
@@ -405,7 +414,9 @@ export default function FlashcardPage() {
             nestedDeckNames: usesNestedLevelDecks(currentCategory) && Array.isArray(deckNames)
                 ? deckNames.filter((name) => !isPersonalDeckName(name))
                 : null,
-        })
+        });
+    const recommendation = !isSrsMode && (isCompletionVisible || reachedDeckEnd)
+        ? computeNextStudyStep()
         : null;
     const completionScope = selectedGroup ? 'group' : 'deck';
     const getDeckDisplayName = (deckName) => {
@@ -425,6 +436,15 @@ export default function FlashcardPage() {
         ? getGroupDisplayName(selectedGroup, language)
         : `${getCategoryDisplayName(currentCategory, language)} • ${getDeckDisplayName(currentDeckName)}`;
     const allCardsLearned = displayTotal > 0 && displayLearned === displayTotal;
+    // Herramienta de curaduría: solo admin, solo con una tarjeta real en pantalla y sin nada
+    // encima. `deleteCard` es null en el repaso diario (SRS), así que eso también queda fuera.
+    const canDeleteCurrentCard = user?.role === 'admin'
+        && typeof deleteCard === 'function'
+        && Boolean(currentCard)
+        && !isOverlayOpen
+        && !shouldShowLoading
+        && !shouldShowCompletionCard
+        && !shouldShowIntro;
 
     useEffect(() => {
         if (!activeLoadingStage || !loadingCopy) {
@@ -470,26 +490,48 @@ export default function FlashcardPage() {
         return () => setIsHeaderSuppressed(false);
     }, [shouldShowLoading, isOnboardingTour, setIsHeaderSuppressed]);
 
-    const handleContinueRecommendation = useCallback(() => {
-        if (!recommendation) {
+    /** Aplica un paso de `getNextStudyStep`; sin paso disponible, abre el catálogo. */
+    const applyStudyStep = useCallback((step) => {
+        if (!step) {
             setIsCatalogVisible(true);
             return;
         }
 
-        if (recommendation.type === 'group') {
-            setSelectedGroup(recommendation.group);
+        if (step.type === 'group') {
+            setSelectedGroup(step.group);
             return;
         }
 
-        if (recommendation.type === 'deck') {
+        if (step.type === 'deck') {
             setSelectedGroup(null);
-            changeDeck(recommendation.deck);
+            changeDeck(step.deck);
             return;
         }
 
         setSelectedGroup(null);
-        changeCategory(recommendation.category);
-    }, [recommendation, setIsCatalogVisible, setSelectedGroup, changeDeck, changeCategory]);
+        changeCategory(step.category);
+    }, [setIsCatalogVisible, setSelectedGroup, changeDeck, changeCategory]);
+
+    const handleContinueRecommendation = useCallback(() => {
+        applyStudyStep(recommendation);
+    }, [applyStudyStep, recommendation]);
+
+    /**
+     * Curaduría del admin: elimina la tarjeta visible del catálogo general y deja la pantalla en
+     * un estado con salida. `deleteCard` ya reacomodó la sesión (ver su tabla de escenarios en
+     * `useDeckSession`); acá solo falta el caso en que el mazo se quedó SIN tarjetas, donde no hay
+     * pantalla de fin de mazo posible y hay que saltar al siguiente mazo/categoría.
+     */
+    // Sin useCallback a propósito: `computeNextStudyStep` se recalcula en cada render (depende de
+    // masterData/deckNames/preferencias), así que memoizar acá no ahorraría nada y solo agregaría
+    // una dependencia que cambia siempre.
+    const handleDeleteCurrentCard = async () => {
+        if (typeof deleteCard !== 'function') return;
+        const outcome = await deleteCard();
+        if (outcome === 'deck_empty') {
+            applyStudyStep(computeNextStudyStep());
+        }
+    };
 
     const handleOpenPwaRecommendation = useCallback((item) => {
         if (!item?.category || !item?.deckName) return;
@@ -556,7 +598,7 @@ export default function FlashcardPage() {
                         <div className={styles.counterItem}>
                             <span className={styles.counterLabel}>
                                 {displayLabel}
-                                {currentDeckName && <span className={styles.counterDeckBadge}>{currentDeckName}</span>}
+                                {/* {currentDeckName && <span className={styles.counterDeckBadge}>{currentDeckName}</span>} */}
                             </span>
                             <div className={styles.counterValues}>
                                 <span className={styles.learnedValue}>{displayLearned}</span>
@@ -566,17 +608,25 @@ export default function FlashcardPage() {
                     </div>
                 )}
 
+                {canDeleteCurrentCard && (
+                    <AdminDeleteCardButton
+                        word={currentCard?.name || currentCard?.word}
+                        language={language}
+                        onConfirmDelete={handleDeleteCurrentCard}
+                    />
+                )}
+
                 {isCatalogVisible && !isSrsMode && <CategorySelector />}
 
                 <div className="app-container">
                     <div
                         className="flashcard-main-area"
                         onTouchStart={(e) => {
-                            if (shouldShowLoading || shouldShowCompletionCard) return;
+                            if (shouldShowLoading || shouldShowCompletionCard || shouldShowIntro) return;
                             touchStartRef.current = e.targetTouches[0].clientX;
                         }}
                         onTouchEnd={(e) => {
-                            if (shouldShowLoading || isCompletionVisible || touchStartRef.current == null) return;
+                            if (shouldShowLoading || isCompletionVisible || shouldShowIntro || touchStartRef.current == null) return;
                             const distance = touchStartRef.current - e.changedTouches[0].clientX;
                             if (distance > minSwipeDistance) nextCard();
                             else if (distance < -minSwipeDistance) prevCard();
@@ -592,6 +642,12 @@ export default function FlashcardPage() {
                                 operation={loadingCopy.operation || loadingCopy.status}
                                 progress={progress}
                                 stats={loaderStats}
+                            />
+                        ) : shouldShowIntro ? (
+                            <IntroCard
+                                imagePath={introCard.imagePath}
+                                language={language}
+                                onContinue={dismissIntroCard}
                             />
                         ) : isSrsMode && !currentCard ? (
                             <div className="all-done-message">
@@ -621,7 +677,7 @@ export default function FlashcardPage() {
                         ) : (
                             <Flashcard key={`${currentCard?.srs_key || `${currentCategory}-${currentDeckName}`}-${language}-${studyLanguage}`} />
                         )}
-                        {!shouldShowLoading && !shouldShowCompletionCard && (!isSrsMode || currentCard) && (
+                        {!shouldShowLoading && !shouldShowCompletionCard && !shouldShowIntro && (!isSrsMode || currentCard) && (
                             isSrsMode ? <SrsControls /> : (
                                 <>
                                     <Controls />

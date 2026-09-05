@@ -15,6 +15,7 @@
  * @property {() => Promise<unknown>} fetchPhonicsData
  * @property {(query: string, courseDirection?: string) => Promise<unknown>} searchWords
  * @property {(params: {category: string, deck: string, index: number, defIndex: number, form?: string, courseDirection?: string}) => Promise<unknown>} deleteDefinition
+ * @property {(params: {category: string, deck: string, index: number, expectedWord?: string, courseDirection?: string}) => Promise<{success: boolean, already_deleted: boolean, remaining_active: number}>} deleteCard
  */
 
 /** @param {FlashcardPort} adapter */

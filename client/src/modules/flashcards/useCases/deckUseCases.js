@@ -89,10 +89,22 @@ export const normalizeCard = (card, index) => {
     return normalized;
 };
 
+/**
+ * `normalizeDeckResponse` NO filtra: `id` es la posición en el archivo y el backend direcciona
+ * por índice (progreso en DB + rutas de imagen `<mazo>_card_N_defM`). Consumidores que resuelven
+ * por índice (`assembleSrsDeck`) necesitan el array completo; los que arman la lista de estudio
+ * aplican `excludeDeletedCards` DESPUÉS, conservando los ids originales.
+ */
 export const normalizeDeckResponse = (data) => {
     const rawCards = Array.isArray(data) ? data : (data.flashcards || [data]);
     return rawCards.map(normalizeCard);
 };
+
+/** Tarjeta retirada del catálogo por un admin (`DELETE /api/delete-card`). */
+export const isDeletedCard = (card) => card?.deleted === true;
+
+/** Saca las tarjetas retiradas sin renumerar: `card.id` sigue siendo su índice en el archivo. */
+export const excludeDeletedCards = (cards) => (cards || []).filter((card) => !isDeletedCard(card));
 
 /** Wrapper con i18n de flashcards sobre la versión pura de `contracts/deckOrder.js`. */
 export const formatDeckCategoryName = (deckName, language = 'en') =>

@@ -42,6 +42,20 @@ impl DeckData {
 }
 
 impl Flashcard {
+    /// Marca de retiro del catálogo puesta por un admin (`DELETE /api/delete-card`).
+    ///
+    /// La tarjeta sigue físicamente en el array del mazo — sacarla correría en 1 el índice de
+    /// todas las siguientes, y tanto el progreso del usuario en SurrealDB como las rutas de
+    /// imagen (`<categoria>/<mazo>/<mazo>_card_N_defM`, compartidas por TODAS las direcciones de
+    /// curso) direccionan por posición. Retirada significa "no se entrega como tarjeta
+    /// estudiable", no "no está en el archivo".
+    pub fn is_deleted(&self) -> bool {
+        self.extra
+            .get("deleted")
+            .and_then(|v| v.as_bool())
+            .unwrap_or(false)
+    }
+
     pub fn resolved_word(&self) -> &str {
         if !self.word.trim().is_empty() {
             return self.word.trim();

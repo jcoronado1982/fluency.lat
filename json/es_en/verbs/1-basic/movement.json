@@ -1050,5 +1050,32 @@
         "imagePath": "/card_images/verbs/1-basic/movement/1-basic_swim_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "park",
+    "phonetic": "/pɑːrk/",
+    "spoken_phonetic_us": "/pɑːrk/",
+    "search_term": "verb/movement/travel",
+    "is_verb": true,
+    "force_generation": true,
+    "definitions": [
+      {
+        "meaning": "Estacionar",
+        "usage_example": "You can park the car here.",
+        "alternative_example": "I parked near the store.",
+        "pronunciation_guide_es": "/iu_can_PARK_de_KAR_JIR/",
+        "usage_example_es": "Puedes estacionar el carro aquí.",
+        "char_count": "one",
+        "usage_context_en": "To stop and leave a vehicle in a place.",
+        "usage_context_es": "Detener y dejar un vehículo en un lugar.",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_park_def0.avif"
+      }
+    ],
+    "group_name": "Travel & Social Life"
   }
 ]

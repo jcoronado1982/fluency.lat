@@ -1784,5 +1784,32 @@
         "imagePath": "/card_images/verbs/1-basic/action/1-basic_wear_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "water",
+    "phonetic": "/ˈwɔːtər/",
+    "spoken_phonetic_us": "/ˈwɔːtər/",
+    "search_term": "verb/daily/home",
+    "is_verb": true,
+    "force_generation": true,
+    "definitions": [
+      {
+        "meaning": "Regar",
+        "usage_example": "I water the plants every morning.",
+        "alternative_example": "Please water the garden.",
+        "pronunciation_guide_es": "/ai_UA-ter_de_PLANTS_EV-ri_MOR-ning/",
+        "usage_example_es": "Riego las plantas todas las mañanas.",
+        "char_count": "two",
+        "usage_context_en": "To pour water on plants or ground.",
+        "usage_context_es": "Verter agua sobre plantas o tierra.",
+        "imagePath": "/card_images/verbs/1-basic/action/1-basic_water_def0.avif"
+      }
+    ],
+    "group_name": "Daily Routine"
   }
 ]

@@ -21,13 +21,14 @@ Core product module: vocabulary study using flashcards grouped by grammatical ca
 | Word Draft Prompt | `backend/api_main/src/infrastructure/ai/gemini_word_card_prompt.rs` | Gemini system prompt for `AITutor::generate_word_card_draft` |
 | Prompts/Voices | `backend/api_main/src/infrastructure/ai/` | provider-specific content (system prompts, voice names) |
 | Batch | `backend/mod_flashcards/src/batch/` | batch media generation |
-| Route Registration | `backend/api_main/src/modules/flashcards.rs` | 19 module endpoints |
+| Route Registration | `backend/api_main/src/modules/flashcards.rs` | 20 module endpoints |
 | Deck Handlers | `backend/api_main/src/api/endpoints/decks.rs` | catalog, progress, stats |
 | Media Handlers | `backend/api_main/src/api/endpoints/generation.rs` | resolve/generate/upload/delete |
 | Personal Words Handlers | `backend/api_main/src/api/endpoints/personal_words.rs` | preview / create / summary / rename (see §Personal Words) |
 | Frontend Module | `client/src/modules/flashcards/` | manifest (`index.jsx`), `FlashcardPage.jsx` (orchestrator), `composition.js`, `ports/`, `adapters/`, `useCases/`, `context/`, `features/` |
 | Create Word UI | `client/src/modules/flashcards/features/CreateWordModal.jsx` | "+" button in `CategorySelector.jsx` sidebar; the resulting deck merges into the normal grid — no separate tile (see §Personal Words) |
 | Catalog Search UI | `client/src/modules/flashcards/features/CatalogSearch.jsx` + `.module.css`, `hooks/useCatalogSearch.js` | Pluggable search box + results panel mounted inside `CategorySelector.jsx`'s sidebar (see §Word Search) |
+| Admin Card Retirement UI | `client/src/modules/flashcards/features/AdminDeleteCardButton.jsx` + `.module.css` | Red "Delete card" pill rendered by `FlashcardPage.jsx` **outside** the card, directly under the counter chip (icon-only circle on ≤768px). Admin-only, free-study mode only (see §Admin Card Retirement) |
 | Catalog Selector Pieces | `features/CategoryHelpPopover.jsx` (grammar help button+popover), `features/CategoryNav.jsx` (sidebar category list), `features/DeckGrid.jsx` (deck/group grid), `hooks/useBottomSheet.js` (PWA drag-to-dismiss), `hooks/useDragReorder.js` (generic HTML5 DnD reorder), `hooks/useLocalCatalogOrder.js` (local group/nested-deck order + persistence) | `CategorySelector.jsx` composes all of these — it only orchestrates (context ↔ hooks ↔ these components), ~300 lines. Each is independently swappable/removable; `CategoryHelpPopover`/`CategoryNav`/`DeckGrid` intentionally still import `CategorySelector.module.css` (its `.helpPopover*`/`.categoryNav`/`.groupsGrid` rules are split across several non-contiguous `@media` blocks — relocating them was judged higher regression risk than the architectural purity gained, since the pixel-diff harness doesn't open the help popover) |
 | Personal Deck Merge | `client/src/modules/flashcards/hooks/useDeckSession.js` | prepends the user's personal deck(s) to `deckNames`/`deckSummaries` right after the general catalog loads for a category |
 | "Continue Studying" Recommendation | `client/src/modules/flashcards/config/catalogOrder.js` (`getNextStudyStep`) | next group → next deck → next category, driven by `contracts/catalogOrder.json`; nested-level categories need `nestedDeckNames` passed in (see §"Continue Studying" Recommendation below) |
@@ -69,6 +70,7 @@ Registered in `backend/api_main/src/modules/flashcards.rs`; DTOs in `api_main/sr
 | DELETE | `/api/delete-image` | `{category, deck, index, def_index, course_direction?, form?}` | deletes image |
 | POST | `/api/delete-audio` | `DeleteAudioBody` | deletes audio |
 | DELETE | `/api/delete-definition` | `{category, deck, index, def_index, course_direction?, form?}` | admin-only definition deletion |
+| DELETE | `/api/delete-card` | `{category, deck, index, expected_word?, course_direction?}` | admin-only card retirement — `{success, already_deleted, remaining_active}`; 404 out of range, 409 if `expected_word` doesn't match (see §Admin Card Retirement) |
 
 ### Personal Words (`personal_words.rs`)
 
@@ -84,6 +86,146 @@ Registered in `backend/api_main/src/modules/flashcards.rs`; DTOs in `api_main/sr
 `es_en` (default), `en_es`, and `es_de` (native Spanish → learn German).
 
 **Images DO NOT depend on course direction** (`image_use_cases.rs::global_image_base` shares paths: `category/deck/deck_card_N_defM`). Audio IS namespaced by direction (`card_audio/<direction>/...`).
+
+## Content JSON Schema (`json/es_en/`, `json/en_es/`)
+
+Scope: this section documents only the `es_en` and `en_es` pairs (the other directions —
+`es_de`, `en_fr`, `es_fr`, `es_it`, `es_pt`, `fr_en`, `fr_es`, `it_es`, `pt_en`, `pt_es` — live under
+the same `json/` tree and follow the same path shape, but are out of scope here).
+
+### Path convention
+
+```
+json/<direction>/<category>/<level>/<topic>.json
+```
+
+- `<direction>`: `es_en` (Spanish speaker learning English) | `en_es` (English speaker learning
+  Spanish).
+- `<category>`: one of the 9 grammatical categories — `verbs`, `nouns`, `adjectives`, `adverbs`,
+  `phrasal_verbs`, `connectors`, `preposition`, `determinant`, `pronouns` (same list as
+  `NESTED_LEVEL_CATEGORIES` plus the flat ones — see §"Continue Studying" Recommendation above).
+- `<level>`: `1-basic` | `2-intermediate` | `3-advanced`.
+- `<topic>.json`: one **deck** — a themed group of cards (e.g. `cause_effect_basics.json`,
+  `action.json`). This is the file a `GET /api/flashcards-data` call ultimately reads.
+- Personal decks (see §Personal Words) live in the sibling internal namespace
+  `json/<direction>/personal-<category>-<user_path_segment>/<level>/my_words.json` — same shape,
+  different discovery path (never listed in `catalog-manifest.json`).
+
+### Deck file shape
+
+A deck file is normally a **bare JSON array** of card objects (`DeckData::Array` in
+`backend/core/src/domain/models/flashcard.rs`). Personal decks, once named, use the alternate
+**object** shape `{ "flashcards": [...], "topic_name": "..." }` (`DeckData::Object`) —
+`flashcards_mut()`/`flashcards()` abstract over both, so nothing downstream needs to care which
+one a given file uses (see §Naming a deck). A catalog deck can use the same `Object` shape to
+carry an optional **`intro_card`** (see §Intro Card below) — both keys can coexist on the same
+deck.
+
+### Intro Card (optional, per-deck)
+
+Some decks benefit from a single explanatory image shown before the first real card (e.g. an
+infographic laying out how `many/much/a few/a little/less/fewer` relate before the student drills
+them one by one) — `determinant/1-basic/quantifiers_scale.json` is the first (and, so far, only)
+deck using this.
+
+- **Storage**: the deck file uses `DeckData::Object`, with a sibling top-level key next to
+  `flashcards`: `"intro_card": { "enabled": true, "imagePath": "/card_images/<category>/<level>/<deck>/<deck>_intro.<ext>" }`.
+  No backend code change was needed for this — `#[serde(flatten)] extra` on `DeckData::Object`
+  already serializes arbitrary sibling keys back out to the client, exactly like `topic_name` does
+  for personal decks.
+- **Frontend plumbing**: `intro_card` is dropped by `normalizeDeckResponse` (which only extracts
+  `.flashcards`), so it's captured **separately**, in two places that both fetch a deck's raw
+  response — `useDeckSession.js`'s `loadFlashcards` (normal path) and `preload.js`'s
+  `preloadFlashcardStart` (the silent-preload fast path raced against it, see
+  `PRELOAD_TIMEOUT_MS`) — both must set it, or the intro card only shows non-deterministically
+  depending on which path wins the race. Exposed via `useDeckSession`'s return
+  (`introCard`, `dismissIntroCard`) → `FlashcardContext` (spread verbatim, no extra plumbing) →
+  `FlashcardPage.jsx` (`shouldShowIntro = Boolean(introCard?.imagePath)`).
+- **Rendering**: `features/IntroCard.jsx` — a self-contained component (own `.module.css`, no
+  props/state shared with `Flashcard.jsx`/`CardFront.jsx`/`Controls.jsx`) rendered as an
+  alternative branch in `FlashcardPage.jsx`'s ternary, the same pattern already used for
+  `CompletionCard.jsx`. **Deliberately does not touch the shared study-card kit** (explicit
+  requirement — see git history for this section): it reuses the kit's own sizing tokens
+  (`var(--fc-card-max-width)`, `var(--fc-card-base-height)` from `App.css`) so it occupies the
+  exact same footprint as `<Flashcard/>`, but renders inline in the card slot (NOT a
+  `position:fixed` full-viewport overlay — that was the first attempt and it visually broke,
+  apparently clipped by a transformed/perspective ancestor; rendering inside the normal card slot
+  sidesteps the issue entirely and also matches the desired UX). Image sits inset with a 20px
+  padding inside the card box and its own rounded corners (`border-radius: 16px`, distinct from
+  the outer `.container`'s 24px) — deliberate double-radius framing, not a bug. Click/tap or
+  Enter/Space anywhere on it, or its own visible **"Continue" button** (bottom-right, its only
+  control), calls `dismissIntroCard()`, which nulls `introCard` and reveals the first real card
+  underneath — `currentIndex` is untouched, so dismissal never skips or re-shows a card.
+- **No check/reset while the intro is up** (explicit requirement — "solo avanza"): `Controls`/
+  `SrsControls`/`PwaStudyControls` are hidden while `shouldShowIntro` is true (same guard as
+  `shouldShowCompletionCard`), so `markAsLearned`/`resetDeck` are simply unreachable — the ONLY
+  affordance to move past the intro is its own "Continue" button/tap. The top counter badge
+  (`DETERMINANTS 1-basic/quantifiers_scale 0/14`) stays visible for orientation.
+  `useDeckSession.js`'s `nextCard()` is still intro-aware (dismisses instead of advancing
+  `currentIndex`) as a harmless safety net for any other caller, but with `Controls` unmounted its
+  next-button/keyboard-ArrowRight path is moot in practice — the visible "Continue" button is the
+  real interaction.
+- **Never shown over an already-completed deck**: `shouldShowIntro` is gated with
+  `!isCompletionVisible` — re-opening a fully-learned deck shows the completion screen, not the
+  infographic again.
+- **Reset**: `introCard` is nulled at the top of `loadFlashcards` on every deck load, then
+  re-populated (or left `null`) once the fetch resolves — so switching decks always re-evaluates
+  whether the new deck has one, and a deck without `intro_card` never shows a stale one from the
+  previous deck.
+- **To add one to another deck**: wrap that deck's JSON in the `Object` shape and add
+  `intro_card.enabled: true` + `imagePath` pointing at an image placed alongside the deck's other
+  images (`card_images/<category>/<level>/<deck>/`) — no other change needed, this was built to be
+  reusable per-deck from the start.
+
+### Card object (`Flashcard`)
+
+The Rust struct only hard-types 5 legacy fields; everything else is captured by
+`#[serde(flatten)] extra: serde_json::Value` — i.e. the JSON on disk is intentionally looser than
+the struct, and new fields can be added to content without a code change.
+
+| Field | Type | Notes |
+|---|---|---|
+| `word`, `translation`, `example`, `learned`, `learned_at` | string/bool/null | **Legacy, always empty/`false`/`null` in real content.** Superseded by `definitions[0].meaning` / `.usage_example` (read via `Flashcard::resolved_word/resolved_translation/resolved_example`, which fall back into `extra` when these are blank — the normal path for every current deck) |
+| `name` | string | Headword, canonical form (infinitive verb, singular noun). In `es_en` this is the **English** word (e.g. `"do"`); in `en_es` it's the **Spanish** word (e.g. `"Porque"`) — direction flips which language is the headword, not just which is the translation |
+| `phonetic`, `spoken_phonetic_us` | string | IPA transcription of the headword |
+| `search_term` | string | Free-form tag used as a search/classification hint (e.g. `"conjunction/reason"`) |
+| `group_name` | string | Human-readable topic label shown in the UI (e.g. `"Connectors: Cause & Effect"`) |
+| `is_verb` | bool | Present in `es_en` cards |
+| `is_phrasal_verb`, `category` | bool, string | Present in `en_es` cards instead of `is_verb` — the two directions were authored with slightly different field sets, not a typo to "fix" without checking both content pipelines |
+| `irregular` | bool | Present on some `es_en` verb cards (irregular conjugation flag) |
+| `force_generation` | bool | Media-pipeline flag — forces regeneration instead of reusing cached audio/image |
+| `definitions` | array | One entry per distinct meaning/usage of the headword — see below. A word with several unrelated senses (like `"so"`) has multiple entries here, each getting its own image |
+
+### Definition object (`definitions[]`)
+
+| Field | Notes |
+|---|---|
+| `meaning` | The translation shown for this sense. `es_en`: Spanish meaning of the English headword. `en_es`: English meaning of the Spanish headword |
+| `target_meaning_es` | **`en_es` only.** Redundant Spanish restatement of the headword's sense — not present in `es_en` decks |
+| `usage_example` / `usage_example_es` | Example sentence pair. `es_en`: `usage_example` is English, `usage_example_es` is its Spanish translation. `en_es`: **inverted** — `usage_example` is Spanish, `usage_example_es` is the English translation, despite the field name suggesting otherwise |
+| `alternative_example` | Optional second example sentence, often left `""` |
+| `pronunciation_guide_es` | Phonetic-spelled-in-Spanish pronunciation aid (e.g. `/ai_am_TAI-erd_bi-COZ.../`) — often empty in `en_es` |
+| `usage_context_en` / `usage_context_es` | Short bilingual gloss of when this sense applies (e.g. `"Used to introduce a reason or cause."`) |
+| `char_count` | String, not always numeric (seen as `"7"` or as spelled-out `"one"`/`"two"` on personal-word cards) — treat as opaque metadata, not a parsed length |
+| `imagePath` | Path under `/card_images/...` for this specific sense (one image per definition, not per card) — combine with the media-versioning `?v=` rules in `AI_OPERATIONS_CONTEXT.md` |
+| `audioPath` | Only seen written on personal-word cards; catalog decks resolve audio via `/api/resolve-audio` instead of storing the path in the JSON |
+
+### `catalog-manifest.json`
+
+Precomputed index consumed by `DeckUseCases` (`OnceCell<CatalogManifest>`), regenerated by
+`scripts/generate-catalog-manifest.mjs`:
+
+```
+{ schemaVersion, catalogVersion, generatedAt,
+  directions: { "<direction>": { total, categories: [
+    { name, total, decks: [ { path, level, total, size }, ... ] }, ...
+  ] } } }
+```
+
+`path` is deck-relative (e.g. `"1-basic/action.json"`), not the full `json/<direction>/...` path.
+Directories starting with `personal-` are excluded from `categories` at generation time (see
+§Storage in Personal Words above) — this file is the general catalog only, never a given user's
+personal decks.
 
 ## Personal Words ("Create Word")
 
@@ -391,6 +533,118 @@ Deliberately factored OUT of `CategorySelector.jsx` (already on the "god compone
 - **Real bug, fixed (reported live, Aug 2026 — "cambio a nivel intermedio, el botón de nivel se marca bien, pero le doy click al primer mazo y me manda a otro nivel")**: `visibleNestedDecks`/`visibleGroups` (what `DeckGrid.jsx` renders and what a click resolves to) fell back to `localNestedDeckOrder`/`localGroupOrder` — `useState` recomputed in a `useEffect` keyed by `levelPreferenceKey`/`currentCategory` — whenever that state was non-empty, with no check that it actually belonged to the level/category just switched to. `activeLevel`/`nestedDeckNames` (plain derived values, no effect delay) update in the SAME render the user clicks a level button, but the effect that refreshes `localNestedDeckOrder` only runs (and repaints) one tick later. In that window the level button already shows the new level active while the grid — and therefore the first tile a user clicks — still belongs to the previous level; clicking it calls `changeDeck` with that stale deck, which flips `activeLevel` back.
   Fix: `visibleNestedDecks`/`visibleGroups` only trust the local (possibly drag-reordered) state when its item SET matches the fresh `nestedDeckNames`/`groupNames` exactly; otherwise they render the always-correct, prop-derived list directly until the effect catches up. Not covered by an automated regression test — the race is a render-vs-`useEffect` timing gap that `@testing-library/react`'s `act()` flushes away by construction (effects settle before assertions can observe the stale frame), so verify manually: switch levels on a nested category (e.g. adjectives) and click the first tile immediately.
 
+## Admin Card Retirement (`DELETE /api/delete-card`)
+
+Curation tool: an admin studying a deck can drop a card they don't want in the product. It removes
+the card from the **general catalog** (every user in that course direction), not from the admin's
+own progress — the admin is the one deciding what stays and what goes.
+
+### Retire ≠ splice (the reason this is a flag, not an array removal)
+
+Cards are addressed **positionally** everywhere that matters:
+
+- user progress in SurrealDB is a set of learned **indices** per `(user, category, deck)`;
+- image paths are `<category>/<deck>/<deck>_card_N_defM` and, per §Supported Course Directions,
+  **do not depend on course direction** — `es_en/verbs/action` card 3 and `en_es/verbs/action`
+  card 3 resolve to the *same* image file.
+
+So splicing element N out of a deck's array would shift every later card down one: each of them
+would inherit the previous neighbour's image and `learned` flag, in this deck **and** in the same
+deck of every other course direction. `DeckUseCases::delete_card` therefore writes
+`"deleted": true` (plus `deleted_at` / `deleted_by` for audit) on the card and leaves it in place.
+Consequences, all deliberate:
+
+- The card's own image/audio files are left as **orphans on purpose** — deleting them would blank
+  out the same index in the other course directions (same rule as `delete_definition`).
+- The retirement is **reversible by hand**: drop the three keys from the JSON and the card is back.
+- Nothing in the frontend or the DB needs a migration; `#[serde(flatten)] extra` already carries
+  arbitrary keys through (same mechanism as `intro_card`, see above).
+
+`expected_word` is the guard against a stale index: the client sends the headword it believes sits
+at `index`, and the backend returns **409** instead of retiring the wrong card if the deck changed
+on disk in between. Out-of-range → 404. Retiring an already-retired card → 200 with
+`already_deleted: true` (idempotent — a double click leaves the client consistent).
+
+### Where "deleted" is honoured
+
+`normalizeDeckResponse` (frontend) deliberately does **not** filter: `card.id` is the position in
+the file, and `assembleSrsDeck` resolves SRS candidates by that index against the full array.
+Filtering happens one layer up, via `excludeDeletedCards` (`useCases/deckUseCases.js`), which keeps
+the original ids:
+
+| Consumer | Where |
+|---|---|
+| Study session load | `useDeckSession.js` `loadFlashcards` (fetch path) + the per-deck summary fallback |
+| Silent preload | `preload.js` `preloadFlashcardStart` — **both paths race**, both must filter, same gotcha as `intro_card` |
+| Daily review (SRS) | `srsDeckUseCases.js` — a due candidate whose card was retired is skipped (its DB progress survives untouched) |
+| Word search | `mod_flashcards/src/lib.rs` `search_words`, both the catalog and the personal-deck scan |
+| Personal deck totals | `card_creation_use_cases::personal_words_summaries` |
+| Catalog manifest totals | `scripts/generate-catalog-manifest.mjs` (`total` skips `deleted`) |
+
+**Deck JSON cache**: `LocalStorageRepository` keeps a moka LRU of full decks (12 entries, TTL 300s).
+`save_deck_data_for_direction` invalidates the entry it writes, so a retirement done **through the
+app** is visible on the very next read — verified live. Editing a deck's JSON **by hand on disk**
+bypasses that invalidation and the API keeps serving the old deck for up to 5 minutes; that is a
+QA/authoring gotcha, not a bug in this endpoint.
+
+**Known staleness**: `deck.total` in `catalog-manifest.json` is precomputed and cached in RAM
+(`OnceCell`), so the deck-grid tile keeps counting a retired card until the manifest is regenerated
+and the backend restarts. The study session itself is always correct (it counts the loaded array),
+and `useDeckSession` rewrites `deckSummaries[deck]` locally right after a deletion.
+
+### UI and the "what do I see next?" scenarios
+
+The button lives in `FlashcardPage.jsx`, **outside** `<Flashcard/>` — the shared study kit
+(`components/flashcardStudy`) also renders the public landing demo, where this action must not
+exist, and keeping it out means the card itself is untouched (no pixel-diff surface on the card).
+It renders only when: role is `admin`, a real card is on screen, no overlay/loader/completion/intro
+is up, and `deleteCard` exists (it is `null` in SRS mode — the daily review mixes cards from many
+decks and its advance is driven by the SRS engine, so curation happens while studying a deck).
+
+Placement is anchored to the **counter chip's column** (absolute inside `.flashcard-page-wrapper`,
+`right: 40px`, counter `top` + 90px — i.e. below the chip, not beside it), red-tinted with a visible
+label. On ≤768px the counter becomes
+a static row above the card and the button collapses to a 34px circle in that row's free left side,
+with its `top` tuned so its bottom edge clears the card's top edge (measured: card at y≈114 on
+390×844; a `::after` inset of -6px widens the touch target to ~46px without changing the layout).
+
+Three live-reported placement/visibility fixes are baked into this CSS — do not "simplify" them
+back:
+
+1. **Not the top-left corner.** The first version put a discreet grey icon there; on a wide monitor
+   it sat 640px from the card, dark on dark, and was unfindable (*"no veo dónde elimino la
+   tarjeta"*).
+2. **The icon is 18px (20px on mobile) in `#fff1f2`**, not the 16px thin stroke inheriting the
+   button's muted pink — that read as an empty pill next to the bold label (*"se ven las letras, el
+   ícono no se ve"*). On mobile the icon is the *only* content, so its size is the whole affordance.
+3. **It is NOT hidden in the installed PWA.** The counter chip hides itself under
+   `(display-mode: standalone) and (max-width: 768px)` and the first version copied that rule by
+   analogy — which left the installed app with no way to retire a card at all, the exact place the
+   admin curates from. The counter is informational; this is a tool. In standalone the slot is
+   freer, since the counter row is not painted.
+
+Verified with Playwright on `iPhone 14` / `Pixel 7` / `iPhone SE` and 1366/1920 desktop: button
+visible, `elementFromPoint` at its centre returns the button itself (nothing overlaying it), zero
+overlap with the card box, and a real touch `tap()` completes the deletion.
+
+`useDeckSession.deleteCard()` reports what happened so the page can decide whether to also navigate:
+
+| Situation after the deletion | Returns | What the admin sees |
+|---|---|---|
+| Unlearned cards remain | `advanced` | The next card. If the deleted one was the last of the list, it steps back one (`computeNextIndex`) instead of leaving the index out of range |
+| It was the last **unlearned** card, learned ones remain | `deck_completed` | The end-of-deck/group screen with the "continue" recommendation. `justCompletedInSession` is set on purpose: without it `isCompletionVisible` would be true with no screen qualified to render, dropping the admin into a dead-end "No hay tarjetas disponibles" |
+| It was the **only** card left (deck emptied) | `deck_empty` | `FlashcardPage` runs `getNextStudyStep` on demand and jumps to the next group → deck → category; the catalog opens if there is nothing left |
+| Request failed (403/404/409/network) | `error` | Error message; the session is untouched and the card stays on screen |
+
+Also handled by `deleteCard`: the pending progress batch entry and the "visited cards" set for that
+id are dropped, and `resetFlashcardPreload` is called — the silent preload caches the whole deck,
+so without invalidating it the retired card comes back the next time the deck is opened (the
+preload can win the race against the fetch).
+
+Reopening a deck whose cards were **all** retired hits `loadFlashcards`'s existing "Deck vacío"
+path: nested-level categories fall back to another deck of the category, flat ones show the load
+error. Not a new behaviour, but reachable now — regenerate the manifest if a deck is emptied.
+
 ## Invariants
 
 - **`resolve-*` NEVER generates media** — 404 halts prefetching.
@@ -413,6 +667,15 @@ Deliberately factored OUT of `CategorySelector.jsx` (already on the "god compone
   real category names + the `my_words` sentinel deck name.
 - **Personal decks always render first**, regardless of the user's saved catalog order preference
   (`isPersonalDeckName` pin in `CategorySelector.jsx` — see §Ordering above).
+- **A retired card is never spliced out of the deck array** — `DELETE /api/delete-card` only sets
+  `"deleted": true`; card indices are the addressing scheme for user progress and for images shared
+  across ALL course directions (see §Admin Card Retirement).
+- **`normalizeDeckResponse` never filters retired cards** — `card.id` must stay equal to the card's
+  index in the file; filtering is done by `excludeDeletedCards` at each study-list consumer.
+- **Card retirement is admin-only and free-study-only** — `require_admin_role` server-side (stricter
+  than `delete_definition`'s image-customization gate), and `deleteCard` is `null` in SRS mode.
+- **A stale index never deletes a card** — a mismatching `expected_word` returns 409 and writes
+  nothing.
 - **A deck can only be named after it has at least one word** (`rename_personal_deck` fails on an
   empty/nonexistent deck) — naming is offered exactly once, right after the word that created it.
 
@@ -424,5 +687,7 @@ Deliberately factored OUT of `CategorySelector.jsx` (already on the "god compone
 curl -X POST http://127.0.0.1:5173/api/auth/dev-guest   # login dev guest
 cd client && npm test                      # run unit tests
 cargo test -p mod_flashcards card_creation_use_cases resolve_storage_category get_deck_data   # Personal Words unit tests
+cargo test -p mod_flashcards delete_card                # card-retirement unit tests (no index shift, stale index, idempotence)
+cd client && npx vitest run src/modules/flashcards/hooks/useDeckSession.test.js   # deleteCard scenario matrix
 ./scripts/test-site-e2e.sh --chromium   # run full site E2E tour (~2 min)
 ```

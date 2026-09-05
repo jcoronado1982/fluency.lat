@@ -646,5 +646,151 @@
         "alternative_example": "The old man finally yielded to their advice."
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "archive",
+    "phonetic": "/ˈɑːrkaɪv/",
+    "spoken_phonetic_us": "/ˈɑːrkaɪv/",
+    "search_term": "verb/technology/professional",
+    "is_verb": true,
+    "force_generation": true,
+    "definitions": [
+      {
+        "meaning": "Archivar",
+        "usage_example": "We archive old documents every year.",
+        "alternative_example": "The emails were archived automatically.",
+        "pronunciation_guide_es": "/ui_AR-kaiv_OULD_DO-kiu-ments_EV-ri_YIR/",
+        "usage_example_es": "Archivamos los documentos viejos cada año.",
+        "char_count": "two",
+        "usage_context_en": "To store records or files for future reference, rather than everyday use.",
+        "usage_context_es": "Guardar registros o archivos para referencia futura, en vez de uso diario.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_24_def0.avif"
+      }
+    ],
+    "group_name": "Professional Action"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "log",
+    "phonetic": "/lɔːg/",
+    "spoken_phonetic_us": "/lɔːg/",
+    "search_term": "verb/technology/professional",
+    "is_verb": true,
+    "force_generation": true,
+    "definitions": [
+      {
+        "meaning": "Registrar (datos)",
+        "usage_example": "The system logs every transaction.",
+        "alternative_example": "Please log your working hours.",
+        "pronunciation_guide_es": "/de_SIS-tem_LOGS_EV-ri_tran-SAC-tion/",
+        "usage_example_es": "El sistema registra cada transacción.",
+        "char_count": "one",
+        "usage_context_en": "To record information systematically.",
+        "usage_context_es": "Registrar información de manera sistemática.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_25_def0.avif"
+      },
+      {
+        "meaning": "Iniciar sesión",
+        "usage_example": "Log in with your email and password.",
+        "alternative_example": "I can't log in to my account.",
+        "pronunciation_guide_es": "/LOG_IN_uiz_yur_i-MEIL_and_PAS-uord/",
+        "usage_example_es": "Inicia sesión con tu correo y contraseña.",
+        "char_count": "one",
+        "usage_context_en": "To enter a system by identifying yourself with a username and password.",
+        "usage_context_es": "Entrar a un sistema identificándote con usuario y contraseña.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_25_def1.avif"
+      }
+    ],
+    "group_name": "Professional Action"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "access",
+    "phonetic": "/ˈæksɛs/",
+    "spoken_phonetic_us": "/ˈæksɛs/",
+    "search_term": "verb/technology/professional",
+    "is_verb": true,
+    "force_generation": true,
+    "definitions": [
+      {
+        "meaning": "Acceder",
+        "usage_example": "You need a password to access this file.",
+        "alternative_example": "Employees can access the database remotely.",
+        "pronunciation_guide_es": "/iu_NID_a_PAS-uord_tu_AC-ses_dis_FAIL/",
+        "usage_example_es": "Necesitas una contraseña para acceder a este archivo.",
+        "char_count": "two",
+        "usage_context_en": "To obtain or be able to use something, especially data or a place.",
+        "usage_context_es": "Obtener o poder usar algo, especialmente datos o un lugar.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_26_def0.avif"
+      }
+    ],
+    "group_name": "Professional Action"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "update",
+    "phonetic": "/ʌpˈdeɪt/",
+    "spoken_phonetic_us": "/ʌpˈdeɪt/",
+    "search_term": "verb/technology/professional",
+    "is_verb": true,
+    "force_generation": true,
+    "definitions": [
+      {
+        "meaning": "Actualizar",
+        "usage_example": "Please update the software before the meeting.",
+        "alternative_example": "The app updates automatically.",
+        "pronunciation_guide_es": "/PLIS_ap-DEIT_de_SOFT-uer_bi-FOR_de_MI-ting/",
+        "usage_example_es": "Por favor actualiza el software antes de la reunión.",
+        "char_count": "two",
+        "usage_context_en": "To make something more current by adding new information.",
+        "usage_context_es": "Hacer algo más actual agregando información nueva.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_27_def0.avif"
+      }
+    ],
+    "group_name": "Professional Action"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "back up",
+    "phonetic": "/ˌbækˈʌp/",
+    "spoken_phonetic_us": "/ˌbækˈʌp/",
+    "search_term": "verb/technology/professional",
+    "is_verb": true,
+    "force_generation": true,
+    "definitions": [
+      {
+        "meaning": "Respaldar (hacer una copia de seguridad)",
+        "usage_example": "You should back up your files every week.",
+        "alternative_example": "I backed up the data before the update.",
+        "pronunciation_guide_es": "/iu_shud_BAK_OP_yur_FAILS_EV-ri_UIK/",
+        "usage_example_es": "Deberías respaldar tus archivos cada semana.",
+        "char_count": "two",
+        "usage_context_en": "To make a copy of data in case the original is lost or damaged.",
+        "usage_context_es": "Hacer una copia de datos por si el original se pierde o se daña.",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_28_def0.avif"
+      }
+    ],
+    "group_name": "Professional Action"
   }
 ]

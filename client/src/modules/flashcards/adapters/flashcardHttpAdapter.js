@@ -93,5 +93,16 @@ export function createFlashcardHttpAdapter(httpClient) {
                 form,
                 course_direction: normalizeCourseDirection(courseDirection),
             }),
+
+        // DELETE /api/delete-card — retira la tarjeta ENTERA del catálogo (admin). `expectedWord`
+        // viaja para que el backend rechace el borrado si el mazo cambió desde que se cargó.
+        deleteCard: ({ category, deck, index, expectedWord, courseDirection }) =>
+            httpClient.delete('/api/delete-card', {
+                category,
+                deck,
+                index,
+                expected_word: expectedWord,
+                course_direction: normalizeCourseDirection(courseDirection),
+            }),
     };
 }

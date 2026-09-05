@@ -10,6 +10,7 @@ globalThis.localStorage = {
 };
 
 const {
+  excludeDeletedCards,
   filterUnlearned,
   getCourseDirectionFromStudyLanguage,
   getDeckCategoryName,
@@ -103,5 +104,19 @@ storage.set('k', 'zz');
 assert.equal(resolvePersistedChoice('k', ['a', 'b'], 'a'), 'a');
 storage.delete('k');
 assert.equal(resolvePersistedChoice('k', ['a', 'b'], 'a'), 'a');
+
+// excludeDeletedCards: saca las tarjetas retiradas del catálogo por un admin
+// (`DELETE /api/delete-card`) SIN renumerar — `id` sigue siendo el índice en el archivo, que es
+// como el backend direcciona el progreso y las rutas de imagen `<mazo>_card_N_defM`.
+const withDeleted = normalizeDeckResponse([
+  { name: 'chair' },
+  { name: 'table', deleted: true },
+  { name: 'lamp' },
+]);
+assert.deepEqual(withDeleted.map((c) => c.id), [0, 1, 2], 'normalizeDeckResponse no filtra');
+const active = excludeDeletedCards(withDeleted);
+assert.deepEqual(active.map((c) => c.name), ['chair', 'lamp']);
+assert.deepEqual(active.map((c) => c.id), [0, 2], 'los ids NO se renumeran al filtrar');
+assert.deepEqual(excludeDeletedCards(null), []);
 
 console.log('✅ test-deck-use-cases: todos los asserts pasaron');

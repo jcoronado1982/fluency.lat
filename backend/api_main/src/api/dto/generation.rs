@@ -108,6 +108,20 @@ pub struct DeleteDefinitionBody {
     pub form: Option<String>,
 }
 
+/// Cuerpo de `DELETE /api/delete-card` — retiro de la tarjeta ENTERA del catálogo (admin).
+/// `expected_word` es la palabra que el cliente cree tener en `index`: si el mazo cambió desde que
+/// la cargó, el backend rechaza el borrado en vez de retirar la tarjeta equivocada.
+#[derive(Deserialize)]
+pub struct DeleteCardBody {
+    pub category: String,
+    pub deck: String,
+    pub index: usize,
+    #[serde(default)]
+    pub expected_word: Option<String>,
+    #[serde(default)]
+    pub course_direction: Option<String>,
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;

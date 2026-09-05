@@ -10,6 +10,7 @@ import { useAuth } from '../../../context/AuthContext';
 import { getFlashcardTranslations } from '../config/translations';
 import { markUserNavigation } from '../navigationIntent';
 import {
+    excludeDeletedCards,
     filterUnlearned,
     getCourseDirectionFromStudyLanguage,
     getLevelFromDeckName,
@@ -135,6 +136,8 @@ export function useDeckSession(resumeSession = null) {
 
     const [masterData, setMasterData] = useState([]);
     const [filteredData, setFilteredData] = useState([]);
+    /** Carta introductoria opcional del mazo activo (imagen sola, sin chrome) — ver §Content JSON Schema. */
+    const [introCard, setIntroCard] = useState(null);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isDeckLoading, setIsDeckLoading] = useState(false);
     const [loadingStage, setLoadingStage] = useState(null);
@@ -187,6 +190,7 @@ export function useDeckSession(resumeSession = null) {
         if (!jumpingToTarget) {
             setResetKey((k) => k + 1);
         }
+        setIntroCard(null);
         try {
             const applyLoadedDeck = (cards) => {
                 setMasterData(cards);
@@ -206,15 +210,17 @@ export function useDeckSession(resumeSession = null) {
                 && preloaded.deckData.length > 0
             ) {
                 applyLoadedDeck(preloaded.deckData);
+                setIntroCard(preloaded.introCard || null);
                 return;
             }
 
             const data = await flashcardPort.fetchDeckData(user.email, category, deck, courseDirection);
-            const normalized = normalizeDeckResponse(data);
+            const normalized = excludeDeletedCards(normalizeDeckResponse(data));
             if (normalized.length === 0) {
                 throw new Error(`Deck vacío: ${category}/${deck}`);
             }
             applyLoadedDeck(normalized);
+            setIntroCard(data?.intro_card?.enabled ? data.intro_card : null);
         } catch (err) {
             console.error('Error al cargar tarjetas:', { category, deck, courseDirection, error: err });
             const message = String(err?.message || '');
@@ -536,7 +542,7 @@ export function useDeckSession(resumeSession = null) {
                         deckName,
                         courseDirection,
                     );
-                    const normalized = normalizeDeckResponse(data);
+                    const normalized = excludeDeletedCards(normalizeDeckResponse(data));
                     return [deckName, summarizeDeck(normalized)];
                 }),
             );
@@ -757,6 +763,9 @@ export function useDeckSession(resumeSession = null) {
     const changeDeck = (newDeck, targetCardIndex = null, targetCategory = null, targetMeta = null) => {
         markUserNavigation();
         void flushProgress({ silent: true });
+        setJustCompletedInSession(false);
+        setReachedDeckEnd(false);
+        visitedCardIdsRef.current = new Set();
         const cat = targetCategory || currentCategory;
         if (cat) {
             localStorage.setItem(`${LAST_DECK_KEY_PREFIX}${cat}`, newDeck);
@@ -771,7 +780,12 @@ export function useDeckSession(resumeSession = null) {
             skipNextResetRef.current = true;
         }
         if (cat === currentCategory && newDeck === currentDeckName && masterData.length > 0) {
-            applyPendingTargetCard(masterData, filteredData);
+            if (pendingTargetCardRef.current) {
+                applyPendingTargetCard(masterData, filteredData);
+            } else {
+                setCurrentIndex(0);
+                setResetKey((k) => k + 1);
+            }
         } else {
             setCurrentDeckName(newDeck);
         }
@@ -801,6 +815,66 @@ export function useDeckSession(resumeSession = null) {
         setMasterData(updater);
         setFilteredData(updater);
         return true;
+    };
+
+    /**
+     * Retira del catálogo la tarjeta visible (curaduría de admin: `DELETE /api/delete-card` la
+     * marca `"deleted": true` en el JSON, para TODOS los usuarios de esa dirección de curso) y
+     * deja la sesión en un estado coherente. Devuelve qué pasó, para que la página decida si
+     * además tiene que navegar:
+     *
+     * | Situación tras borrar                          | Devuelve          | Qué ve el admin |
+     * |------------------------------------------------|-------------------|-----------------|
+     * | Quedan tarjetas por estudiar                    | `advanced`        | La siguiente tarjeta (o la anterior si borró la última de la lista) |
+     * | Era la última SIN aprender, pero quedan aprendidas | `deck_completed` | Pantalla de fin de mazo/grupo con la recomendación de continuar |
+     * | Era la última tarjeta del mazo (mazo vacío)     | `deck_empty`      | La página salta al siguiente mazo/categoría |
+     * | Falló la petición (403/404/409/red)             | `error`           | Mensaje de error; nada cambia en pantalla |
+     *
+     * El 409 (`WordMismatch`) es el caso de índice viejo: el mazo cambió en disco desde que se
+     * cargó, y el backend prefiere no borrar nada antes que borrar la tarjeta equivocada.
+     */
+    const deleteCard = async () => {
+        const card = filteredData[currentIndex];
+        if (!card || !currentCategory || !currentDeckName) return 'error';
+
+        try {
+            await flashcardPort.deleteCard({
+                category: currentCategory,
+                deck: currentDeckName,
+                index: card.id,
+                expectedWord: card.name || card.word || '',
+                courseDirection,
+            });
+        } catch (err) {
+            setAppMessage({ text: `No se pudo eliminar la tarjeta: ${err.message}`, isError: true });
+            return 'error';
+        }
+
+        // La precarga silenciosa cachea el mazo entero: sin invalidarla, la tarjeta retirada
+        // reaparece la próxima vez que se entre al mazo (gana la carrera contra el fetch).
+        resetFlashcardPreload(user?.email);
+
+        const updatedMaster = masterData.filter((c) => c.id !== card.id);
+        const remaining = filterUnlearned(updatedMaster, selectedGroup);
+        setMasterData(updatedMaster);
+        setFilteredData(remaining);
+        setDeckSummaries((prev) => ({ ...prev, [currentDeckName]: summarizeDeck(updatedMaster) }));
+        // Progreso sin enviar y conteo de "pasada completa" de una tarjeta que ya no existe.
+        pendingBatchRef.current.delete(card.id);
+        visitedCardIdsRef.current.delete(card.id);
+        // Mismo criterio que al aprender: el índice se queda donde está (la siguiente ocupa el
+        // lugar de la borrada) salvo que se haya borrado la última, donde retrocede una.
+        setCurrentIndex((prev) => computeNextIndex(prev, remaining.length));
+
+        if (updatedMaster.length === 0) return 'deck_empty';
+        if (remaining.length === 0) {
+            // Sin esto `isCompletionVisible` sería true pero no habría pantalla que mostrar
+            // (`shouldShowCompletionCard` exige justCompleted/reachedEnd/intención de usuario):
+            // el admin caería en "No hay tarjetas disponibles" sin salida.
+            setJustCompletedInSession(true);
+            return 'deck_completed';
+        }
+        return 'advanced';
     };
 
     const markAsLearned = async () => {
@@ -1020,6 +1094,12 @@ export function useDeckSession(resumeSession = null) {
     };
 
     const nextCard = () => {
+        // La intro ocupa el lugar visual de la carta 0: "siguiente" simplemente la descarta,
+        // dejando ver la carta real que ya está debajo (currentIndex no se mueve).
+        if (introCard) {
+            setIntroCard(null);
+            return;
+        }
         if (!filteredData.length) return;
         if (currentIndex >= filteredData.length - 1) {
             // Solo cierra la pasada si de verdad se vieron todas las tarjetas del
@@ -1079,6 +1159,8 @@ export function useDeckSession(resumeSession = null) {
     return {
         masterData,
         filteredData,
+        introCard,
+        dismissIntroCard: () => setIntroCard(null),
         currentIndex,
         setCurrentIndex,
         isDeckLoading,
@@ -1089,6 +1171,7 @@ export function useDeckSession(resumeSession = null) {
         changeDeck,
         updateCardImagePath,
         deleteDefinition,
+        deleteCard,
         markAsLearned,
         addToReview,
         resetDeck,

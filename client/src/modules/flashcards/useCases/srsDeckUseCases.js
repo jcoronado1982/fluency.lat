@@ -1,4 +1,4 @@
-import { normalizeDeckResponse } from './deckUseCases.js';
+import { isDeletedCard, normalizeDeckResponse } from './deckUseCases.js';
 
 const coordinateKey = ({ category, deck, card_index: cardIndex }) => `${category}::${deck}::${cardIndex}`;
 
@@ -20,8 +20,11 @@ export async function assembleSrsDeck(queue, loadDeck) {
 
     return candidates.flatMap((candidate) => {
         const cards = loaded.get(`${candidate.category}::${candidate.deck}`) || [];
+        // Índice posicional contra el array COMPLETO (por eso `normalizeDeckResponse` no filtra):
+        // una candidata vencida cuya tarjeta ya fue retirada del catálogo simplemente no entra al
+        // repaso — su progreso en DB sigue existiendo, pero no hay nada que estudiar.
         const card = cards[candidate.card_index];
-        if (!card) return [];
+        if (!card || isDeletedCard(card)) return [];
         return [{
             ...card,
             learned: Boolean(candidate.learned),

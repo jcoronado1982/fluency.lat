@@ -214,5 +214,8 @@ export function useSrsDeckSession() {
         resetGroup: async () => false,
         updateCardImagePath: () => {},
         deleteDefinition: async () => false,
+        // El repaso diario mezcla tarjetas de muchos mazos y su avance lo maneja el motor SRS:
+        // la curaduría se hace estudiando el mazo, donde el estado posterior es determinable.
+        deleteCard: null,
     };
 }

@@ -95,7 +95,10 @@ async function buildDirection(direction) {
             decks.push({
                 path: file.relative,
                 level,
-                total: cards.length,
+                // Las tarjetas retiradas por un admin (`DELETE /api/delete-card`) siguen en el
+                // archivo para no correr los índices posicionales (progreso + rutas de imagen),
+                // pero no son estudiables: no deben inflar el total del mazo.
+                total: cards.filter((card) => card?.deleted !== true).length,
                 size: metadata.size,
             });
         }

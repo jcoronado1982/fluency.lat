@@ -275,33 +275,6 @@
     "example": null,
     "learned": false,
     "learned_at": null,
-    "name": "every",
-    "phonetic": "/ˈɛvri/",
-    "spoken_phonetic_us": "/ˈɛvri/",
-    "search_term": "determiner/distributive",
-    "is_verb": false,
-    "force_generation": false,
-    "group_name": "Determiners: Distributives",
-    "definitions": [
-      {
-        "meaning": "Cada / Todos los/as",
-        "usage_example": "I work every day.",
-        "pronunciation_guide_es": "/ai_UORK_E-vri_DEI/",
-        "usage_example_es": "Trabajo todos los días (cada día).",
-        "char_count": "4",
-        "usage_context_en": "Used to refer to all members of a group collectively.",
-        "usage_context_es": "Usado para referirse a todos los miembros de un grupo colectivamente.",
-        "imagePath": "/card_images/determinant/1-basic/reference_and_selection/1-basic_reference_and_selection_card_10_def0.avif"
-      }
-    ],
-    "category": "Basic"
-  },
-  {
-    "word": "",
-    "translation": "",
-    "example": null,
-    "learned": false,
-    "learned_at": null,
     "name": "what",
     "phonetic": "/wʌt/",
     "spoken_phonetic_us": "/wʌt/",
@@ -373,6 +346,124 @@
         "usage_context_en": "Not the same as another or each other.",
         "usage_context_es": "No igual a otro o entre sí.",
         "imagePath": "/card_images/determinant/1-basic/reference_and_selection/1-basic_reference_and_selection_card_13_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "such",
+    "phonetic": "/sʌtʃ/",
+    "spoken_phonetic_us": "/sʌtʃ/",
+    "search_term": "determiner/emphasis",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Other",
+    "definitions": [
+      {
+        "meaning": "Tal / Semejante",
+        "usage_example": "I have never seen such a thing.",
+        "pronunciation_guide_es": "/ai_hav_NE-ver_SIN_soch_a_ZING/",
+        "usage_example_es": "Nunca he visto tal cosa.",
+        "char_count": "7",
+        "usage_context_en": "Used to mean 'of this/that kind' or 'to this degree'.",
+        "usage_context_es": "Usado para significar 'de este/ese tipo' o 'a este grado'.",
+        "imagePath": "/card_images/determinant/2-intermediate/partitives_and_emphasis/2-intermediate_partitives_and_emphasis_card_10_def0.avif"
+      },
+      {
+        "meaning": "Tan",
+        "usage_example": "It was such a good day.",
+        "pronunciation_guide_es": "/it_UAS_soch_a_GUD_DEI/",
+        "usage_example_es": "Fue un día tan bueno.",
+        "char_count": "6",
+        "usage_context_en": "Used for emphasis (similar to 'so').",
+        "usage_context_es": "Usado para énfasis (similar a 'so').",
+        "imagePath": "/card_images/determinant/2-intermediate/partitives_and_emphasis/2-intermediate_partitives_and_emphasis_card_10_def1.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "either",
+    "phonetic": "/ˈaɪðər/",
+    "spoken_phonetic_us": "/ˈiːðər/",
+    "search_term": "determiner/distributive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Distributives",
+    "definitions": [
+      {
+        "meaning": "Cualquiera (de los dos)",
+        "usage_example": "You can take either road.",
+        "pronunciation_guide_es": "/iu_can_TEIK_AI-der_ROUD/",
+        "usage_example_es": "Puedes tomar cualquiera de los dos caminos.",
+        "char_count": "5",
+        "usage_context_en": "Used to mean 'one or the other' of two options.",
+        "usage_context_es": "Usado para significar 'uno u otro' de dos opciones.",
+        "imagePath": "/card_images/determinant/2-intermediate/selection_and_possession/2-intermediate_selection_and_possession_card_0_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "neither",
+    "phonetic": "/ˈnaɪðər/",
+    "spoken_phonetic_us": "/ˈniːðər/",
+    "search_term": "determiner/distributive",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Distributives",
+    "definitions": [
+      {
+        "meaning": "Ninguno (de los dos)",
+        "usage_example": "Neither answer is correct.",
+        "pronunciation_guide_es": "/NAI-der_AN-ser_is_co-REKT/",
+        "usage_example_es": "Ninguna (de las dos) respuesta es correcta.",
+        "char_count": "4",
+        "usage_context_en": "Used to mean 'not one and not the other' of two options.",
+        "usage_context_es": "Usado para significar 'ni uno ni el otro' de dos opciones.",
+        "imagePath": "/card_images/determinant/2-intermediate/selection_and_possession/2-intermediate_selection_and_possession_card_1_def0.avif"
+      }
+    ],
+    "category": "Basic"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "whichever",
+    "phonetic": "/wɪtʃˈɛvər/",
+    "spoken_phonetic_us": "/wɪtʃˈɛvər/",
+    "search_term": "determiner/relative",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Determiners: Other",
+    "definitions": [
+      {
+        "meaning": "Cualquiera (que)",
+        "usage_example": "Choose whichever one you like.",
+        "pronunciation_guide_es": "/CHUS_uich-E-ver_UAN_iu_LAIK/",
+        "usage_example_es": "Elige cualquiera que te guste.",
+        "char_count": "5",
+        "usage_context_en": "Used to refer to any one from a limited set.",
+        "usage_context_es": "Usado para referirse a cualquiera de un conjunto limitado.",
+        "imagePath": "/card_images/determinant/3-advanced/reference_and_relation/3-advanced_reference_and_relation_card_0_def0.avif"
       }
     ],
     "category": "Basic"

@@ -5,60 +5,6 @@
     "example": null,
     "learned": false,
     "learned_at": null,
-    "name": "either",
-    "phonetic": "/ˈaɪðər/",
-    "spoken_phonetic_us": "/ˈiːðər/",
-    "search_term": "determiner/distributive",
-    "is_verb": false,
-    "force_generation": false,
-    "group_name": "Determiners: Distributives",
-    "definitions": [
-      {
-        "meaning": "Cualquiera (de los dos)",
-        "usage_example": "You can take either road.",
-        "pronunciation_guide_es": "/iu_can_TEIK_AI-der_ROUD/",
-        "usage_example_es": "Puedes tomar cualquiera de los dos caminos.",
-        "char_count": "5",
-        "usage_context_en": "Used to mean 'one or the other' of two options.",
-        "usage_context_es": "Usado para significar 'uno u otro' de dos opciones.",
-        "imagePath": "/card_images/determinant/2-intermediate/2-intermediate_card_2_def0.avif"
-      }
-    ],
-    "category": "Intermediate"
-  },
-  {
-    "word": "",
-    "translation": "",
-    "example": null,
-    "learned": false,
-    "learned_at": null,
-    "name": "neither",
-    "phonetic": "/ˈnaɪðər/",
-    "spoken_phonetic_us": "/ˈniːðər/",
-    "search_term": "determiner/distributive",
-    "is_verb": false,
-    "force_generation": false,
-    "group_name": "Determiners: Distributives",
-    "definitions": [
-      {
-        "meaning": "Ninguno (de los dos)",
-        "usage_example": "Neither answer is correct.",
-        "pronunciation_guide_es": "/NAI-der_AN-ser_is_co-REKT/",
-        "usage_example_es": "Ninguna (de las dos) respuesta es correcta.",
-        "char_count": "4",
-        "usage_context_en": "Used to mean 'not one and not the other' of two options.",
-        "usage_context_es": "Usado para significar 'ni uno ni el otro' de dos opciones.",
-        "imagePath": "/card_images/determinant/2-intermediate/2-intermediate_card_3_def0.avif"
-      }
-    ],
-    "category": "Intermediate"
-  },
-  {
-    "word": "",
-    "translation": "",
-    "example": null,
-    "learned": false,
-    "learned_at": null,
     "name": "own",
     "phonetic": "/oʊn/",
     "spoken_phonetic_us": "/oʊn/",

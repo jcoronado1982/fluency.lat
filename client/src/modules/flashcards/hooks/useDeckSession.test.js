@@ -1,4 +1,4 @@
-import { renderHook, waitFor } from '@testing-library/react';
+import { act, renderHook, waitFor } from '@testing-library/react';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { useDeckSession } from './useDeckSession';
 
@@ -12,6 +12,7 @@ const getPersonalWordsSummary = vi.fn();
 const setAppMessage = vi.fn();
 const confirmDialog = vi.fn();
 const setIsCatalogVisible = vi.fn();
+const deleteCardRequest = vi.fn();
 
 // Categoría inventada (no está en NESTED_LEVEL_CATEGORIES) para que el hook no dispare el
 // efecto de resúmenes por nivel — mantiene el mock mínimo, enfocado en el comportamiento bajo
@@ -32,6 +33,7 @@ vi.mock('../composition', () => ({
         fetchDeckSummaries: vi.fn(async () => ({ success: false })),
         updateCardsBatch: vi.fn(async () => {}),
         deleteDefinition: vi.fn(),
+        deleteCard: (...args) => deleteCardRequest(...args),
         resetDeckStatus: vi.fn(),
         updateCardStatus: vi.fn(),
     },
@@ -207,5 +209,159 @@ describe('useDeckSession — mazo personal ("Crear palabra")', () => {
             expect(result.current.currentDeckName).toBe('1-basic/my_words');
             expect(result.current.currentCard?.word).toBe('banana');
         });
+    });
+
+    it('re-seleccionar el mismo mazo resetea reachedDeckEnd y el índice a 0', async () => {
+        getPersonalWordsSummary.mockResolvedValue({ decks: [] });
+        fetchDecksForCategory.mockResolvedValue({ success: true, files: ['1-basic/action'] });
+        fetchDeckData.mockResolvedValue([
+            { id: 1, word: 'chair', learned: true },
+            { id: 2, word: 'table', learned: false },
+        ]);
+
+        const { result } = renderHook(() => useDeckSession());
+
+        await waitFor(() => {
+            expect(result.current.deckNames).toEqual(['1-basic/action']);
+            expect(result.current.filteredData.length).toBe(1);
+        });
+
+        // Simula llegar al final del mazo
+        act(() => {
+            result.current.nextCard();
+        });
+        expect(result.current.reachedDeckEnd).toBe(true);
+
+        // Usuario vuelve a tocar el mazo en el selector de categorías
+        act(() => {
+            result.current.changeDeck('1-basic/action');
+        });
+
+        await waitFor(() => {
+            expect(result.current.reachedDeckEnd).toBe(false);
+            expect(result.current.currentIndex).toBe(0);
+            expect(result.current.currentCard?.word).toBe('table');
+        });
+    });
+});
+
+// Curaduría del admin: `deleteCard()` elimina la tarjeta visible del catálogo GENERAL y deja la
+// sesión coherente. Lo que se prueba acá son los escenarios de borde de "¿y después qué se ve?"
+// (ver la tabla de escenarios en el JSDoc de `deleteCard`, en useDeckSession.js).
+describe('useDeckSession — deleteCard (borrado de tarjeta por admin)', () => {
+    beforeEach(() => {
+        categoryState.current = TEST_CATEGORY;
+        fetchDecksForCategory.mockReset();
+        fetchDeckData.mockReset();
+        getPersonalWordsSummary.mockReset();
+        deleteCardRequest.mockReset();
+        setAppMessage.mockReset();
+        fetchDecksForCategory.mockResolvedValue({ success: true, files: ['1-basic/action'] });
+        getPersonalWordsSummary.mockResolvedValue({ decks: [] });
+        deleteCardRequest.mockResolvedValue({ success: true, remaining_active: 0 });
+    });
+
+    const renderLoadedSession = async (cards) => {
+        fetchDeckData.mockResolvedValue(cards);
+        const { result } = renderHook(() => useDeckSession());
+        await waitFor(() => expect(result.current.masterData.length).toBe(cards.length));
+        return result;
+    };
+
+    it('quedan tarjetas: avanza a la siguiente y la borrada desaparece del mazo', async () => {
+        const result = await renderLoadedSession([
+            { name: 'chair', learned: false },
+            { name: 'table', learned: false },
+            { name: 'lamp', learned: false },
+        ]);
+
+        let outcome;
+        await act(async () => { outcome = await result.current.deleteCard(); });
+
+        expect(outcome).toBe('advanced');
+        expect(result.current.currentCard?.name).toBe('table');
+        expect(result.current.filteredData.map((c) => c.name)).toEqual(['table', 'lamp']);
+        expect(result.current.deckSummaries['1-basic/action']).toEqual({ total: 2, learned: 0 });
+    });
+
+    it('manda el índice REAL en el archivo, no la posición en la lista filtrada', async () => {
+        // La tarjeta 0 está aprendida: no entra a `filteredData`, pero sigue ocupando el índice 0
+        // del JSON. Borrar la primera visible tiene que apuntar al índice 1, o el backend
+        // retiraría la tarjeta equivocada (el `expected_word` es justamente la última defensa).
+        const result = await renderLoadedSession([
+            { name: 'chair', learned: true },
+            { name: 'table', learned: false },
+            { name: 'lamp', learned: false },
+        ]);
+
+        await act(async () => { await result.current.deleteCard(); });
+
+        expect(deleteCardRequest).toHaveBeenCalledWith(expect.objectContaining({
+            category: TEST_CATEGORY,
+            deck: '1-basic/action',
+            index: 1,
+            expectedWord: 'table',
+        }));
+    });
+
+    it('borrar la última de la lista retrocede una en vez de dejar el índice fuera de rango', async () => {
+        const result = await renderLoadedSession([
+            { name: 'chair', learned: false },
+            { name: 'table', learned: false },
+        ]);
+
+        act(() => { result.current.nextCard(); });
+        expect(result.current.currentCard?.name).toBe('table');
+
+        let outcome;
+        await act(async () => { outcome = await result.current.deleteCard(); });
+
+        expect(outcome).toBe('advanced');
+        expect(result.current.currentIndex).toBe(0);
+        expect(result.current.currentCard?.name).toBe('chair');
+    });
+
+    it('era la última SIN aprender pero quedan aprendidas: cierra el mazo en vez de dejar pantalla vacía', async () => {
+        const result = await renderLoadedSession([
+            { name: 'chair', learned: true },
+            { name: 'table', learned: false },
+        ]);
+
+        let outcome;
+        await act(async () => { outcome = await result.current.deleteCard(); });
+
+        expect(outcome).toBe('deck_completed');
+        expect(result.current.filteredData).toEqual([]);
+        expect(result.current.masterData.length).toBe(1);
+        // `justCompletedInSession` es lo que hace que FlashcardPage muestre la pantalla de fin
+        // de mazo (con la recomendación de continuar) en vez de "No hay tarjetas disponibles".
+        expect(result.current.justCompletedInSession).toBe(true);
+    });
+
+    it('era la única tarjeta del mazo: informa deck_empty para que la página salte al siguiente mazo', async () => {
+        const result = await renderLoadedSession([{ name: 'chair', learned: false }]);
+
+        let outcome;
+        await act(async () => { outcome = await result.current.deleteCard(); });
+
+        expect(outcome).toBe('deck_empty');
+        expect(result.current.masterData).toEqual([]);
+        expect(result.current.filteredData).toEqual([]);
+    });
+
+    it('si la petición falla (403/409/red) no toca la sesión y avisa', async () => {
+        deleteCardRequest.mockRejectedValue(new Error('El mazo cambió'));
+        const result = await renderLoadedSession([
+            { name: 'chair', learned: false },
+            { name: 'table', learned: false },
+        ]);
+
+        let outcome;
+        await act(async () => { outcome = await result.current.deleteCard(); });
+
+        expect(outcome).toBe('error');
+        expect(result.current.masterData.length).toBe(2);
+        expect(result.current.currentCard?.name).toBe('chair');
+        expect(setAppMessage).toHaveBeenCalledWith(expect.objectContaining({ isError: true }));
     });
 });

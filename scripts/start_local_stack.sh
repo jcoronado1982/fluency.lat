@@ -36,15 +36,15 @@ if [ -f "$SD_BIN" ]; then
       --listen-ip 127.0.0.1 > "$REPO_ROOT/sd_server.log" 2>&1 &
 fi
 
-# 3. Refinamiento de Prompts C++ - llama.cpp (8082) en GPU 1 (GTX 1660)
-echo "✍️ 3. Iniciando AI Refinamiento de Prompts (llama-server / Qwen C++ en GPU 1, puerto 8082)..."
-LLAMA_BIN="/home/jcoronado/Desktop/dev/llama.cpp/build/bin/llama-server"
-if [ -f "$LLAMA_BIN" ]; then
-    CUDA_VISIBLE_DEVICES=1 setsid "$LLAMA_BIN" \
-      -m "$MODELS_DIR/clip/Qwen_Qwen3-8B-Q8_0.gguf" \
-      --port 8082 \
-      --host 127.0.0.1 > "$REPO_ROOT/llama_server.log" 2>&1 &
-fi
+# 3. Refinamiento de Prompts (Configurado para Gemini Cloud - llama-server desactivado para experimento)
+echo "✍️ 3. Refinamiento de Prompts configurado en Gemini Cloud (ahorrando VRAM/RAM local)..."
+# LLAMA_BIN="/home/jcoronado/Desktop/dev/llama.cpp/build/bin/llama-server"
+# if [ -f "$LLAMA_BIN" ]; then
+#     CUDA_VISIBLE_DEVICES=1 setsid "$LLAMA_BIN" \
+#       -m "$MODELS_DIR/clip/Qwen_Qwen3-8B-Q8_0.gguf" \
+#       --port 8082 \
+#       --host 127.0.0.1 > "$REPO_ROOT/llama_server.log" 2>&1 &
+# fi
 
 # 4. Backend Rust Axum (8081)
 echo "🔥 4. Iniciando Backend Rust Axum (puerto 8081)..."
@@ -54,6 +54,7 @@ export LOCAL_STORAGE_PATH="$REPO_ROOT"
 export SURREAL_URL="ws://127.0.0.1:8001"
 export SURREAL_NS="flashcard"
 export SURREAL_DB="flashcard"
+export FLASHCARD_PROMPT_ENGINE="gemini"
 setsid cargo run -p api_main > "$REPO_ROOT/backend.log" 2>&1 &
 
 # 5. Frontend React 19 + Vite (5173)
