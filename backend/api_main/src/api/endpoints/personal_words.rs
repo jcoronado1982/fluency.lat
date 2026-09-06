@@ -1,7 +1,9 @@
 use crate::api::dto::personal_words::{
-    CreateWordBody, CreateWordResponse, PersonalDeckSummaryDto, PersonalWordsSummaryQuery,
-    PersonalWordsSummaryResponse, PreviewWordCandidate, PreviewWordResponse,
+    CreateWordBody, PersonalDeckSummaryDto, PersonalWordsSummaryQuery, PersonalWordsSummaryResponse,
     RenamePersonalDeckBody,
+};
+use crate::api::mappers::flashcards::{
+    create_word_outcome_to_response, word_previews_to_response,
 };
 use crate::api::middleware::auth::{extract_claims, require_premium_role, resolve_effective_role};
 use crate::AppState;
@@ -12,7 +14,6 @@ use axum::{
     Json,
 };
 use fluency_core::ports::tutor::ExistingPersonalTopic;
-use mod_flashcards::card_creation_use_cases::CreateWordOutcome;
 
 const MAX_WORD_LEN: usize = 80;
 const MAX_TOPIC_NAME_LEN: usize = 60;
@@ -62,23 +63,7 @@ pub async fn preview_word(
         )
         .await
     {
-        Ok(candidates) => Ok((
-            StatusCode::OK,
-            Json(PreviewWordResponse {
-                candidates: candidates
-                    .into_iter()
-                    .map(|c| PreviewWordCandidate {
-                        duplicate: c.duplicate,
-                        category: c.category,
-                        level: c.level,
-                        name: c.name,
-                        is_new_deck: c.is_new_deck,
-                        existing_topic_name: c.existing_topic_name,
-                    })
-                    .collect(),
-            }),
-        )
-            .into_response()),
+        Ok(candidates) => Ok(word_previews_to_response(candidates)),
         Err(e) => Err((StatusCode::INTERNAL_SERVER_ERROR, e.to_string())),
     }
 }
@@ -116,28 +101,7 @@ pub async fn create_word(
         )
         .await
     {
-        Ok(CreateWordOutcome::Duplicate { category, level, .. }) => Ok((
-            StatusCode::OK,
-            Json(CreateWordResponse {
-                duplicate: true,
-                category,
-                level,
-                is_new_deck: false,
-                card: None,
-            }),
-        )
-            .into_response()),
-        Ok(CreateWordOutcome::Created { category, level, is_new_deck, card }) => Ok((
-            StatusCode::OK,
-            Json(CreateWordResponse {
-                duplicate: false,
-                category,
-                level,
-                is_new_deck,
-                card: Some(card),
-            }),
-        )
-            .into_response()),
+        Ok(outcome) => Ok(create_word_outcome_to_response(outcome)),
         Err(e) => Err((StatusCode::INTERNAL_SERVER_ERROR, e.to_string())),
     }
 }

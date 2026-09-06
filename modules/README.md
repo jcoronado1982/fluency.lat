@@ -52,8 +52,25 @@ Each module has its own documentation in `docs/modules/` (step 3 of reading prot
 | `pricing` | [docs/modules/pricing.md](../docs/modules/pricing.md) | — | `VITE_ENABLE_PAYMENTS` (opt-out) | Public pricing and checkout |
 | `dashboard` | [docs/modules/dashboard.md](../docs/modules/dashboard.md) | — | `VITE_ENABLE_DASHBOARD` (opt-out) | Authenticated shell + **home** at `/dashboard` |
 | `flashcards` | [docs/modules/flashcards.md](../docs/modules/flashcards.md) | `flashcards` | `VITE_ENABLE_FLASHCARDS` (opt-out) | Flashcards with progress, AVIF images, and Opus audio |
-| `pronoun` | [docs/modules/pronoun.md](../docs/modules/pronoun.md) | `pronoun_practice` | `VITE_ENABLE_PRONOUN_REFERENCE` + `VITE_ENABLE_PRONOUN_PRACTICE` | Pronoun reference and guided practice |
-| `admin` | [docs/modules/admin.md](../docs/modules/admin.md) | `auth` | `VITE_ENABLE_ADMIN` (opt-out) | Admin panel and presence (sparse profile without study modules) |
+| `pronoun` ⚠️ | [docs/modules/pronoun.md](../docs/modules/pronoun.md) | `pronoun_practice` | `VITE_ENABLE_PRONOUN_REFERENCE` + `VITE_ENABLE_PRONOUN_PRACTICE` | Pronoun reference and guided practice — **code not present in this repository** (see below) |
+| `admin` | [docs/modules/admin.md](../docs/modules/admin.md) | `auth` | `VITE_ENABLE_ADMIN` (opt-out) | Admin panel and presence (sparse profile without study modules); lives in the shell (`client/src/pages/`), not in `client/src/modules/` |
+
+> ⚠️ **`pronoun` is documented but not present.** Neither `backend/mod_pronoun/` (crate
+> `pronoun_practice`) nor `client/src/modules/pronounPractice/` exist on disk, in the workspace
+> members, or in the history of any branch of this repository — this is not sparse-checkout.
+> The backend scaffolding that would host it (`api_main/src/modules/pronoun_practice.rs`, its
+> endpoints, DTOs and mappers) is still in place, waiting for the crate; enabling the
+> `pronoun_practice` feature emits an explanatory `compile_error!` instead of a resolution error.
+> `VITE_ENABLE_PRONOUN_*` flags resolve to features that no registry module consumes.
+> Verified 2026-09-06. Restoring or retiring the module is a pending decision.
+
+**Verified plug/unplug matrix (2026-09-06)** — this is the guarantee the table above promises:
+
+- Backend: `default`, `auth`, `auth,flashcards`, `auth,subscriptions`, `auth,payments`,
+  `auth,flashcards,local_agent` all compile. `auth` is **shell, not a pluggable module** — see
+  [ARQUITECTURA_MODULAR §3.2](../docs/ARQUITECTURA_MODULAR.md).
+- Frontend: `vite build` passes with full flags, and with each of flashcards / dashboard / landing /
+  pricing unplugged, and with the admin profile (no study modules).
 
 Shared shell (auth, tutor, registry, layout): [docs/modules/shell-auth.md](../docs/modules/shell-auth.md).
 Media generation tooling (not a registry module): [docs/modules/media-generation.md](../docs/modules/media-generation.md).

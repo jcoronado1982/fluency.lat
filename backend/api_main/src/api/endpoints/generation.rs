@@ -3,7 +3,8 @@ use crate::api::dto::generation::{
     GenerateImageResponse, ResolveImageBody, SynthesizeSpeechBody, SynthesizeSpeechResponse,
 };
 use crate::api::mappers::flashcards::{
-    to_audio_synth_request, to_delete_audio_request, to_image_gen_request, to_upload_image_request,
+    delete_card_outcome_to_response, to_audio_synth_request, to_delete_audio_request,
+    to_image_gen_request, to_upload_image_request,
 };
 use crate::api::middleware::auth::{
     extract_claims, extract_claims_or_guest, require_admin_role, require_premium_role,
@@ -16,7 +17,7 @@ use axum::{
     response::IntoResponse,
     Json,
 };
-use mod_flashcards::{is_landing_demo_namespace, DeleteCardOutcome};
+use mod_flashcards::is_landing_demo_namespace;
 
 const MAX_TTS_TEXT_LEN: usize = 500;
 const MAX_IMAGE_PROMPT_LEN: usize = 1_200;
@@ -381,33 +382,7 @@ pub async fn delete_card(
         .await
         .map_err(|e| (StatusCode::INTERNAL_SERVER_ERROR, e.to_string()))?;
 
-    match outcome {
-        DeleteCardOutcome::Deleted { remaining_active } => Ok(Json(serde_json::json!({
-            "success": true,
-            "message": "Tarjeta eliminada del catálogo",
-            "already_deleted": false,
-            "remaining_active": remaining_active,
-        }))
-        .into_response()),
-        // Idempotente: si ya estaba retirada el cliente igual queda consistente al avanzar.
-        DeleteCardOutcome::AlreadyDeleted { remaining_active } => Ok(Json(serde_json::json!({
-            "success": true,
-            "message": "La tarjeta ya estaba eliminada",
-            "already_deleted": true,
-            "remaining_active": remaining_active,
-        }))
-        .into_response()),
-        DeleteCardOutcome::OutOfRange => Err((
-            StatusCode::NOT_FOUND,
-            "No existe ninguna tarjeta en esa posición del mazo".to_string(),
-        )),
-        DeleteCardOutcome::WordMismatch { actual } => Err((
-            StatusCode::CONFLICT,
-            format!(
-                "El mazo cambió: en esa posición ahora está «{actual}». Recargá el mazo y volvé a intentar."
-            ),
-        )),
-    }
+    delete_card_outcome_to_response(outcome)
 }
 
 pub async fn upload_image(

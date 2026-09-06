@@ -680,6 +680,15 @@ error. Not a new behaviour, but reachable now — regenerate the manifest if a d
 
 - **`resolve-*` NEVER generates media** — 404 halts prefetching.
 - **`update-batch` is ONE SurrealDB transaction** (`BEGIN…COMMIT`).
+- **No raw `fetch` outside the adapter layer, `beforeunload` included.** The last-chance flush of
+  pending progress (`flushProgressBeacon` in `useDeckSession.js` and `useSrsDeckSession.js`) goes
+  through `flashcardPort.updateCardsBatchBeacon` → `flashcardHttpAdapter` → `httpClient.beacon`,
+  the same path as the normal flush. `httpClient.beacon` exists because this one case cannot use
+  `request()`: the page is unloading, so there is nobody to `await` the promise and only
+  `keepalive: true` makes the browser finish sending after the document is destroyed
+  (`navigator.sendBeacon` is not an option — it cannot carry the `Authorization` header the backend
+  requires). Both hooks previously rebuilt the URL, the token and the auth headers by hand.
+  Regression test: `client/scripts/test-http-adapters.mjs` › `flashcardHttpAdapter`.
 - Media URLs return `?v=<mtime>-<size>` query parameter.
 - Responsive web images use **768×512 (3:2) AVIF**.
 - **Personal Words image generation is ALWAYS Gemini** (`for_raw_phrase` direct path) — never the

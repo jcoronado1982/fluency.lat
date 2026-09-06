@@ -681,8 +681,8 @@ export function useDeckSession(resumeSession = null) {
 
     /**
      * Versión fire-and-forget para beforeunload (no puede usar async/await).
-     * Usa fetch con keepalive: true para que el navegador complete la petición
-     * incluso si la página se está cerrando.
+     * Va por `flashcardPort.updateCardsBatchBeacon` → `httpClient.beacon`, que usa
+     * `keepalive: true` para que el navegador complete la petición aunque la página se cierre.
      */
     const flushProgressBeacon = useCallback(() => {
         const batch = pendingBatchRef.current;
@@ -694,30 +694,13 @@ export function useDeckSession(resumeSession = null) {
         pendingBatchRef.current = new Map();
         persistProgressBatch({ category, deck, userId, courseDirection: batchCourseDirection }, cards);
 
-        const apiBase = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_API_URL) || '';
-        const token = localStorage.getItem('auth_token');
-        const headers = { 'Content-Type': 'application/json' };
-        if (token) {
-            headers.Authorization = `Bearer ${token}`;
-        }
-
-        try {
-            fetch(`${apiBase}/api/update-batch`, {
-                method: 'POST',
-                headers,
-                body: JSON.stringify({
-                    user_id: userId,
-                    category,
-                    deck,
-                    cards,
-                    course_direction: normalizeStoredCourseDirection(batchCourseDirection),
-                }),
-                keepalive: true,
-                credentials: 'include',
-            });
-        } catch (_) {
-            // No podemos hacer nada en beforeunload
-        }
+        flashcardPort.updateCardsBatchBeacon(
+            userId,
+            category,
+            deck,
+            cards,
+            normalizeStoredCourseDirection(batchCourseDirection),
+        );
     }, []);
 
     useEffect(() => {

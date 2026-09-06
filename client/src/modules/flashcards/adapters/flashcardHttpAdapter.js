@@ -57,6 +57,19 @@ export function createFlashcardHttpAdapter(httpClient) {
                 course_direction: normalizeCourseDirection(courseDirection),
             }),
 
+        /**
+         * Mismo lote que `updateCardsBatch`, pero para `beforeunload`: sin promesa y con
+         * `keepalive` para que el navegador lo termine de enviar mientras destruye la página.
+         */
+        updateCardsBatchBeacon: (userId, category, deck, cards, courseDirection = 'es_en') =>
+            httpClient.beacon('/api/update-batch', {
+                user_id: userId,
+                category,
+                deck,
+                cards,
+                course_direction: normalizeCourseDirection(courseDirection),
+            }),
+
         resetDeckStatus: (userId, category, deck, courseDirection = 'es_en') =>
             httpClient.post('/api/reset-all', {
                 user_id: userId,

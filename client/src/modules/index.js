@@ -35,7 +35,19 @@ export async function initModules() {
   modules = [];
 
   for (const [path, loadModule] of moduleLoaders) {
-    const { default: moduleDef } = await loadModule();
+    let moduleDef;
+    try {
+      ({ default: moduleDef } = await loadModule());
+    } catch (err) {
+      // Contrato de arquitectura: un módulo ausente NO rompe el arranque — simplemente no se
+      // registra (`docs/ARQUITECTURA_MODULAR.md` §0). El caso real es un perfil sparse que sacó el
+      // módulo de disco con su flag todavía en `true`: sin este guard, el `import()` que falla
+      // rechaza `initModules()`, `bootstrap()` nunca monta `App` y la app entera queda en blanco
+      // por un módulo opcional. Se avisa fuerte para que un error de código dentro del manifest no
+      // pase inadvertido como si fuera una ausencia intencional.
+      console.error(`[registry] módulo '${path}' no se pudo cargar; se omite del registro:`, err);
+      continue;
+    }
     if (!moduleDef?.id) {
       throw new Error(`Module '${path}' must export a default object with an id`);
     }

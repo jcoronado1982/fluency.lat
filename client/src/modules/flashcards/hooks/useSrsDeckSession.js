@@ -149,28 +149,17 @@ export function useSrsDeckSession() {
 
     const flushProgressBeacon = useCallback(() => {
         if (pendingGroupsRef.current.size === 0) return;
-        const apiBase = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_API_URL) || '';
-        const token = localStorage.getItem('auth_token');
         for (const group of pendingGroupsRef.current.values()) {
-            const headers = { 'Content-Type': 'application/json' };
-            if (token) headers.Authorization = `Bearer ${token}`;
-            try {
-                fetch(`${apiBase}/api/update-batch`, {
-                    method: 'POST',
-                    headers,
-                    credentials: 'include',
-                    keepalive: true,
-                    body: JSON.stringify({
-                        user_id: group.context.userId,
-                        category: group.context.category,
-                        deck: group.context.deck,
-                        course_direction: group.context.courseDirection,
-                        cards: Array.from(group.cards.values()),
-                    }),
-                });
-            } catch {
-                // El respaldo local se reintentará en la siguiente sesión.
-            }
+            // Mismo puerto que el flush normal (líneas ~39/~76): `beforeunload` no justifica saltarse
+            // la capa de adaptadores. `httpClient.beacon` pone `keepalive` y traga el error: en
+            // `beforeunload` el respaldo local es el que reintenta en la siguiente sesión.
+            flashcardPort.updateCardsBatchBeacon(
+                group.context.userId,
+                group.context.category,
+                group.context.deck,
+                Array.from(group.cards.values()),
+                group.context.courseDirection,
+            );
         }
     }, []);
 

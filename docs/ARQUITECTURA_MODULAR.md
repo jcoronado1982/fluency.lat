@@ -64,13 +64,16 @@ flashcard/
 │   │   └── src/modules/      # registro de rutas por módulo
 │   ├── mod_flashcards/       # casos de uso flashcards (deck, audio, imágenes, batch CLI)
 │   │   └── src/batch/        # --batch-gen-images / --batch-gen-audio (composition desde main)
-│   └── mod_pronoun/          # crate pronoun_practice — StoryUseCases
+│   └── mod_pronoun/          # crate pronoun_practice — StoryUseCases  ⚠️ NO presente (ver §3.2)
 ├── client/
 │   └── src/
+│       ├── contracts/        # contratos ENTRE módulos (nunca imports cruzados)
 │       ├── modules/          # registry frontend (loader + módulos)
 │       │   ├── index.js
 │       │   ├── flashcards/   # ports, adapters, useCases, hooks, composition.js
-│       │   └── pronounPractice/
+│       │   ├── dashboard/    # shell autenticado + home /dashboard
+│       │   ├── landing/      # página pública / (opt-in)
+│       │   └── pricing/      # precios y checkout público
 │       ├── repositories/     # shell: AuthRepository (httpClient)
 │       └── context/          # shell: UIContext, AuthContext, AppContext
 ├── scripts/
@@ -121,27 +124,42 @@ flowchart TB
 
 ```toml
 [features]
-default = ["flashcards", "auth"]
+default = ["flashcards", "auth", "subscriptions"]
 flashcards = ["mod_flashcards"]
+pronoun_practice = []
 auth = []
-pronoun_practice = ["dep:pronoun_practice"]
+payments = []
+subscriptions = ["payments"]
+local_agent = []
 ```
 
-| Módulo registry | Feature | Crate |
-|-----------------|---------|-------|
-| `flashcards` | `flashcards` | `mod_flashcards` |
-| `pronoun` | `pronoun_practice` | `pronoun_practice` (`mod_pronoun/`) |
+| Módulo registry | Feature | Crate | Estado |
+|-----------------|---------|-------|--------|
+| `flashcards` | `flashcards` | `mod_flashcards` | Enchufable |
+| `pricing` (backend) | `subscriptions` → `payments` | — (en `mod_shell`) | Enchufable |
+| — (laboratorio) | `local_agent` | — (en `mod_shell`) | Enchufable |
+| `pronoun` | `pronoun_practice` | `pronoun_practice` (`mod_pronoun/`) | ⚠️ crate ausente — ver abajo |
 
-**Build solo pronombres:**
+**`auth` no es un módulo enchufable: es shell.** Su middleware (`extract_claims`,
+`require_admin_role`, `require_premium_role`) protege TODOS los endpoints de estudio, no solo los
+de login; apagarla no produce "el backend sin login" sino endpoints autenticados que no compilan.
+`main.rs` lo hace explícito con un `compile_error!` en vez de fallar con errores de resolución
+sueltos. Hacerla opcional de verdad exigiría mover la autorización a un puerto con implementación
+nula explícita — refactor planificado, nunca oportunista.
+
+**`pronoun_practice` no se puede compilar en este repositorio**: el crate `pronoun_practice`
+(`backend/mod_pronoun/`) no está en los miembros del workspace ni en el historial de ninguna rama.
+El andamiaje del módulo sí existe (`api_main/src/modules/pronoun_practice.rs`, sus endpoints, DTOs y
+mappers) a la espera del crate. Activar la feature emite un `compile_error!` que lo dice.
+
+**Matriz verificada (2026-09-06)** — todas compilan salvo lo señalado arriba:
 
 ```bash
-cargo build -p api_main --no-default-features --features auth,pronoun_practice
-```
-
-**Build solo flashcards:**
-
-```bash
-cargo build -p api_main --no-default-features --features auth,flashcards
+cargo check -p api_main                                                          # default ✅
+cargo check -p api_main --no-default-features --features auth                    # shell solo ✅
+cargo check -p api_main --no-default-features --features auth,flashcards         # ✅
+cargo check -p api_main --no-default-features --features auth,subscriptions      # ✅
+cargo check -p api_main --no-default-features --features auth,flashcards,local_agent  # ✅
 ```
 
 ### 3.3 Registro de rutas
@@ -150,7 +168,8 @@ Cada módulo expone `register_routes(app) -> Router` en `api_main/src/modules/`:
 
 - `shell.rs` — media compartida `/card_images`, `/card_audio` (vía `StorageRepository`; **no** depende de flashcards)
 - `flashcards.rs` — decks, generación/resolución de media, APIs de estudio
-- `pronoun_practice.rs` — progreso, episodios, historias
+- `payments.rs` — checkout y webhook LemonSqueezy (feature `subscriptions`)
+- `pronoun_practice.rs` — progreso, episodios, historias (andamiaje; crate ausente, ver §3.2)
 
 El shell registra siempre: `/api/health`, `/api/features`, tutor, notificaciones, auth (si feature activa), **y media estática compartida**.
 
@@ -201,21 +220,18 @@ client/src/
     │   ├── context/             # estado React del módulo
     │   ├── uiBridge.js          # puente shell↔módulo (FloatingMenu)
     │   └── index.jsx            # manifest del registry
-    └── pronounPractice/
-        ├── composition.js
-        ├── ports/
-        ├── adapters/
-        ├── queries/storyQueries.js
-        ├── domain/pronounReferenceData.js
-        └── index.jsx
     ├── landing/              # página pública / (opt-in, layout bare)
-    ├── pricing/              # precios y checkout público
+    ├── pricing/              # precios y checkout público (ports/ adapters/ useCases/)
     └── dashboard/            # shell autenticado + home /dashboard
         ├── DashboardShell.jsx
         ├── DashboardHome.jsx
         ├── layout/           # Sidebar, Header, Footer, FloatingMenu
         └── config/translations.js
 ```
+
+Los cuatro módulos de arriba son los que existen en disco. `pronounPractice/` está documentado en
+[`modules/pronoun.md`](modules/pronoun.md) pero **no está en este repositorio** (igual que su crate
+backend, §3.2): `modules/index.js` no lo carga y ningún flag lo enciende.
 
 | Capa frontend | Equivalente backend | Responsabilidad |
 |---------------|---------------------|-----------------|
@@ -230,6 +246,14 @@ client/src/
 ### 4.2 Loader (`client/src/modules/index.js`)
 
 Auto-descubre `./<modulo>/index.jsx` (sparse-checkout decide qué existe) y exporta:
+
+> `initModules()` omite del registro cualquier módulo cuyo `import()` falle, avisando por
+> `console.error` (Sep 2026). El caso real es un perfil sparse que sacó el módulo de disco con su
+> flag todavía en `true`: antes ese `import()` rechazaba `initModules()`, `bootstrap()` nunca
+> montaba `App` y la app quedaba en blanco por un módulo **opcional** — lo contrario del §0. No hay
+> test automatizado: reproducirlo exige un módulo ausente en tiempo de build, que es justo lo que
+> `vite build` rechaza; se verifica a mano borrando una carpeta de módulo con su flag encendido.
+
 
 - `initModules()` — carga async de manifests
 - `getModuleRoutes(config)` — rutas React Router
@@ -321,16 +345,25 @@ Reglas de aislamiento (Jun 2026):
 
 ### 4.6 Flags Vite (`client/src/config/index.js`)
 
+Flags que cargan un módulo del registry (`modules/index.js`):
+
 | Flag | Comportamiento |
 |------|----------------|
 | `VITE_ENABLE_LANDING` | Opt-in (`=== 'true'`) — `/` público (landing) |
 | `VITE_ENABLE_DASHBOARD` | Opt-out (`!== 'false'`) — shell + home `/dashboard` tras login |
-| `VITE_DEFAULT_MODULE` | Módulo que abre en `/` si no hay landing (`flashcards` default, o `pronoun`) |
 | `VITE_ENABLE_FLASHCARDS` | Opt-out (`!== 'false'`) |
 | `VITE_ENABLE_PAYMENTS` | Opt-out (`!== 'false'`) — habilita módulo `pricing` |
-| `VITE_ENABLE_PRONOUN_REFERENCE` | Opt-out |
-| `VITE_ENABLE_PRONOUN_PRACTICE` | Opt-in (`=== 'true'`) |
-| `VITE_ENABLE_PRONOUN` | Alias legacy de práctica |
+| `VITE_DEFAULT_MODULE` | Módulo que abre en `/` si no hay landing (`flashcards` default) |
+
+Flags que solo encienden features dentro del shell o de un módulo ya cargado — **no** cargan un
+módulo del registry: `VITE_ENABLE_ADMIN` (rutas admin del shell), `VITE_ENABLE_AUTH`,
+`VITE_ENABLE_SUBSCRIPTIONS`, `VITE_ENABLE_GRAMMAR`, `VITE_ENABLE_TESTS`, y
+`VITE_ENABLE_PRONOUN_REFERENCE` / `VITE_ENABLE_PRONOUN_PRACTICE` / `VITE_ENABLE_PRONOUN` (estos tres
+quedan sin efecto mientras el módulo `pronoun` no esté en el repositorio, §3.2).
+
+**Matriz verificada (2026-09-06)** — `npx vite build` con cada pieza desenchufada: completo, sin
+flashcards, sin dashboard, sin landing, sin pricing, y perfil admin (sin módulos de estudio). Las
+seis construyen.
 
 ---
 
@@ -475,8 +508,16 @@ limpio (solo dominio + puertos); `api_main/src/domain` es una fachada de re-expo
    feature de laboratorio/admin) — no tocar de pasada.
 
 Matiz aceptado (no es desviación de capa): `api_main/src/api/endpoints/generation.rs` importa la
-**función** `mod_flashcards::is_landing_demo_namespace` (predicado de dominio, no un tipo); la regla
-"HTTP delgado" del §3.3 se refiere a tipos de request/response, que sí pasan por DTOs y mappers.
+**función** `mod_flashcards::is_landing_demo_namespace` y `decks.rs` la función
+`mod_flashcards::validate_srs_schedule` (predicados de dominio, no tipos); la regla "HTTP delgado"
+del §3.3 se refiere a tipos de request/response, que sí pasan por DTOs y mappers.
+
+6. ~~`generation.rs` y `personal_words.rs` importaban los **tipos** de resultado
+   `DeleteCardOutcome` / `CreateWordOutcome` de `mod_flashcards` y hacían el `match` a status+cuerpo
+   dentro del handler~~ — **resuelto 2026-09-06**: la traducción resultado→HTTP vive ahora en
+   `api/mappers/flashcards.rs` (`delete_card_outcome_to_response`, `create_word_outcome_to_response`,
+   `word_previews_to_response`) y los endpoints ya no importan ningún tipo de `mod_flashcards`.
+   Comportamiento idéntico (mismos status, mismos cuerpos); verificado con `cargo test --workspace`.
 
 ## 9. Módulos actuales
 

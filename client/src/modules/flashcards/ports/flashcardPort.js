@@ -9,6 +9,7 @@
  * @property {(userId: string, category: string, deck: string, courseDirection?: string) => Promise<unknown>} fetchDeckData
  * @property {(userId: string, category: string, deck: string, index: number, learned: boolean, courseDirection?: string) => Promise<unknown>} updateCardStatus
  * @property {(userId: string, category: string, deck: string, cards: Array<{index: number, learned: boolean}>, courseDirection?: string) => Promise<unknown>} updateCardsBatch
+ * @property {(userId: string, category: string, deck: string, cards: Array<{index: number, learned: boolean}>, courseDirection?: string) => void} updateCardsBatchBeacon envío de última oportunidad en `beforeunload` (sin promesa)
  * @property {(userId: string, category: string, deck: string, courseDirection?: string) => Promise<unknown>} resetDeckStatus
  * @property {(userId: string, category: string, deck?: string, courseDirection?: string) => Promise<unknown>} resetCategoryStatus
  * @property {(courseDirection?: string) => Promise<unknown>} fetchLearningStats

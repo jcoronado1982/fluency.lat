@@ -17,6 +17,7 @@ function fakeHttp() {
     get: async (url) => { calls.push({ method: 'GET', url }); return { ok: true, url }; },
     post: async (url, body) => { calls.push({ method: 'POST', url, body }); return { ok: true, url, body }; },
     delete: async (url, body) => { calls.push({ method: 'DELETE', url, body }); return { ok: true, url, body }; },
+    beacon: (url, body) => { calls.push({ method: 'BEACON', url, body }); },
   };
 }
 
@@ -61,6 +62,15 @@ function fakeHttp() {
   await adapter.updateCardsBatch('u1', 'verbs', '1-basic/action', [{ index: 0, learned: true }]);
   assert.deepEqual(http.calls.at(-1), {
     method: 'POST',
+    url: '/api/update-batch',
+    body: { user_id: 'u1', category: 'verbs', deck: '1-basic/action', cards: [{ index: 0, learned: true }], course_direction: 'es_en' },
+  });
+
+  // `beforeunload` no puede esperar una promesa, pero tampoco justifica un `fetch` crudo en el
+  // hook: el envío de última oportunidad usa el mismo adapter y normaliza igual la dirección.
+  adapter.updateCardsBatchBeacon('u1', 'verbs', '1-basic/action', [{ index: 0, learned: true }], 'zz_xx');
+  assert.deepEqual(http.calls.at(-1), {
+    method: 'BEACON',
     url: '/api/update-batch',
     body: { user_id: 'u1', category: 'verbs', deck: '1-basic/action', cards: [{ index: 0, learned: true }], course_direction: 'es_en' },
   });

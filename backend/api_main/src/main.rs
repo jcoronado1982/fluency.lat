@@ -4,6 +4,32 @@ mod domain;
 mod infrastructure;
 mod modules;
 
+// ── Invariantes de composición (`docs/ARQUITECTURA_MODULAR.md` §3.2) ─────────────────────────
+// Los módulos de negocio se enchufan y desenchufan por feature; estas dos NO son de ese tipo y
+// antes fallaban con errores de resolución sueltos y desorientadores en `main.rs`. Un mensaje
+// explícito al compilar vale más que descubrirlo con tres E0433 a mitad del build.
+
+// `auth` es SHELL, no un módulo desenchufable: el middleware (`extract_claims`,
+// `require_admin_role`, `require_premium_role`) protege TODOS los endpoints de estudio, no solo
+// los de login. Apagarla no entrega "el backend sin login": entrega un backend cuyos endpoints
+// autenticados no compilan — y si se forzara a compilar, quedarían sin autorización. Si algún día
+// hay que hacerla opcional de verdad, el trabajo es mover la autorización a un puerto y dar una
+// implementación nula explícita, no borrar los `#[cfg]`.
+#[cfg(not(feature = "auth"))]
+compile_error!(
+    "La feature `auth` es parte del shell compartido y debe estar siempre activa. \
+     Compilá con `--features auth,<módulos>` (ej. `--no-default-features --features auth,flashcards`)."
+);
+
+// El crate `pronoun_practice` (`backend/mod_pronoun/`) NO está en este repositorio: no figura en
+// los miembros del workspace ni en el historial de ninguna rama. El andamiaje del módulo
+// (`modules/pronoun_practice.rs`, endpoints, DTOs, mappers) sí está, a la espera del crate.
+#[cfg(feature = "pronoun_practice")]
+compile_error!(
+    "La feature `pronoun_practice` requiere el crate `pronoun_practice` (`backend/mod_pronoun/`), \
+     que no está presente en este repositorio. Ver `modules/README.md`."
+);
+
 use axum::{
     http::HeaderValue,
     routing::{get, post},
