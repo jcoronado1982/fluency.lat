@@ -1,7 +1,8 @@
 {
   "summary": {
     "DEF_COUNT_MISMATCH": 7,
-    "IMAGE_FILE_NOT_FOUND": 291,
+    "IMAGE_FILE_NOT_FOUND": 290,
+    "IMAGE_MISSING": 1,
     "WORD_COUNT_MISMATCH": 231,
     "WORD_MISALIGNED": 375
   },
@@ -5329,6 +5330,15 @@
     },
     {
       "direction": "en_es",
+      "file": "verbs/1-basic/action.json",
+      "type": "IMAGE_MISSING",
+      "word_index": 0,
+      "def_index": 1,
+      "name": "Hacer (una actividad)",
+      "expected_imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_0_def1.avif"
+    },
+    {
+      "direction": "en_es",
       "file": "verbs/1-basic/communication.json",
       "type": "WORD_COUNT_MISMATCH",
       "baseline_count": 18,
@@ -7053,15 +7063,6 @@
       "word_index": 3,
       "baseline_headword": "Otros / Otras (los demás)",
       "direction_headword": "Algo (en preguntas)"
-    },
-    {
-      "direction": "es_de",
-      "file": "pronouns/1-basic/indefinite_pronouns.json",
-      "type": "IMAGE_FILE_NOT_FOUND",
-      "word_index": 4,
-      "def_index": 0,
-      "name": "jeder",
-      "imagePath": "/card_images/pronouns/1-basic/indefinite_pronouns/1-basic_indefinite_pronouns_card_4_def0.avif"
     },
     {
       "direction": "es_de",
