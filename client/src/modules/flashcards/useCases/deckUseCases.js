@@ -32,12 +32,9 @@
 
 import { LANDING_DEMO_CATEGORY } from '../../../contracts/landingDemoNamespace.js';
 import { getFlashcardTranslations } from '../config/translations.js';
-import {
-    getLevelFromDeckName,
-    getDeckCategoryName,
-    sortDeckNames,
-    formatDeckCategoryName as formatDeckCategoryNamePure,
-} from '../../../contracts/deckOrder.js';
+// Solo lo que este archivo consume. Los otros nombres del contrato salen por el re-export de abajo,
+// que no necesita importarlos primero.
+import { formatDeckCategoryName as formatDeckCategoryNamePure } from '../../../contracts/deckOrder.js';
 
 export { getLevelFromDeckName, getDeckCategoryName, sortDeckNames, isPersonalDeckName } from '../../../contracts/deckOrder.js';
 

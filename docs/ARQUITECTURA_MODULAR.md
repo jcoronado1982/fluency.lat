@@ -162,6 +162,16 @@ cargo check -p api_main --no-default-features --features auth,subscriptions     
 cargo check -p api_main --no-default-features --features auth,flashcards,local_agent  # ✅
 ```
 
+**Arranque real verificado (2026-09-06)**, no solo compilación — el binario `--features auth`
+(shell sin flashcards) levantado sin SurrealDB:
+
+| Sonda | Resultado | Qué demuestra |
+|---|---|---|
+| `GET /api/health` | `200 {"status":"ok"}` | Arranca sin DB: `NullDbRepository` (LSP, §8) |
+| `GET /api/features` | `{"flashcards":false,"auth":true,…}` | El registro modular se refleja en runtime |
+| `GET /api/categories` | `404` | Las rutas de flashcards no existen; no fallan, no están |
+| `GET /card_images/<real>.avif` | `200` | La media compartida del shell **no** depende de flashcards (§3.3) |
+
 ### 3.3 Registro de rutas
 
 Cada módulo expone `register_routes(app) -> Router` en `api_main/src/modules/`:

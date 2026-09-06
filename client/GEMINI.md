@@ -49,7 +49,7 @@ The only central touchpoint is ONE line in the registry. Do not touch `App.jsx`,
    };
    export default newModule;
    ```
-   Recommended internal structure (copied from `pricing/`, the smallest module): `ports/` + `adapters/` + `useCases/` + `composition.js` + pages/features. Backend data ALWAYS via port (§2).
+   Recommended internal structure (copied from `pricing/`, the smallest module): `ports/` + `adapters/` + `composition.js` + pages/features, plus `useCases/` once there is pure application logic to hold — `pricing/` and `landing/` have none yet and legitimately ship without that folder; `flashcards/` and `dashboard/` have it. Backend data ALWAYS via port (§2).
 2. **Register the loader** in `src/modules/index.js` (`moduleLoaders` array), conditioned on its flag:
    ```js
    if (import.meta.env.VITE_ENABLE_NEW === 'true') {
