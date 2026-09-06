@@ -33,6 +33,20 @@ def is_personal_deck(rel_path):
     return any(part.startswith("personal-") for part in Path(rel_path).parts)
 
 
+def cards_of(data):
+    """A deck file is EITHER a plain word array OR an object wrapping one under "flashcards"
+    (that shape is what carries `intro_card`; e.g. determinant/1-basic/quantifiers_scale.json).
+    Both are valid shared decks, so mirror the app's own normalizer -- `normalizeDeckResponse`
+    in client/src/modules/flashcards/useCases/deckUseCases.js. Assuming the array shape made
+    this script crash with `'str' object has no attribute 'get'` (it iterated the object's keys)
+    on the first shared deck that gained an intro card."""
+    if isinstance(data, list):
+        return data
+    if isinstance(data, dict):
+        return data.get("flashcards") or []
+    return []
+
+
 def file_exists_for_path(image_path):
     if not image_path:
         return False
@@ -61,8 +75,8 @@ def check_direction_against_baseline(direction, baseline_files):
     only_here = sorted(dir_files - baseline_files)
 
     for rel in common:
-        base = load(JSON_ROOT / BASELINE / rel)
-        cur = load(dir_root / rel)
+        base = cards_of(load(JSON_ROOT / BASELINE / rel))
+        cur = cards_of(load(dir_root / rel))
         n = min(len(base), len(cur))
         if len(base) != len(cur):
             findings.append({
@@ -111,7 +125,7 @@ def check_direction_against_baseline(direction, baseline_files):
 
     # Files that only exist in this direction (no positional baseline to compare against)
     for rel in only_here:
-        cur = load(dir_root / rel)
+        cur = cards_of(load(dir_root / rel))
         for i, w in enumerate(cur):
             for j, d in enumerate(w.get("definitions", [])):
                 actual = d.get("imagePath")
@@ -137,7 +151,7 @@ def check_baseline_itself():
         rel = str(p.relative_to(dir_root))
         if is_personal_deck(rel):
             continue
-        data = load(p)
+        data = cards_of(load(p))
         for i, w in enumerate(data):
             for j, d in enumerate(w.get("definitions", [])):
                 actual = d.get("imagePath")

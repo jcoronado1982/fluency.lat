@@ -104,7 +104,12 @@ async function changeInterfaceLanguage(page, { from, to, isMobile }) {
             name: to === 'es' ? 'Menú de estudio' : 'Study menu',
             exact: true,
         }).last();
-        await studyMenu.click();
+        // Lo que importa es el estado final: el menú queda cerrado. Cambiar el idioma YA lo cierra
+        // por su cuenta, así que un clic incondicional lo volvía a abrir y hacía fallar la
+        // aserción — el botón es un toggle, no un "cerrar".
+        if (await studyMenu.getAttribute('aria-expanded') === 'true') {
+            await studyMenu.click();
+        }
         await expect(studyMenu).toHaveAttribute('aria-expanded', 'false');
     }
 }
@@ -273,19 +278,26 @@ test('card supports both flip directions, buttons, swipes, audio and several che
     await expect(card).toHaveAttribute('data-flipped', 'false');
 
     const counter = page.locator('[data-tour="boton-contador-tarjetas"]');
-    await expect(counter).toContainText('1 / 32');
+    // El total sale del propio contador, no de una constante: el mazo crece cuando se añade
+    // contenido al catálogo (pasó de 32 a 38 tarjetas) y un número fijo convierte cada alta de
+    // vocabulario en un test roto. Lo que se verifica es la NAVEGACIÓN — que la posición avanza y
+    // retrocede — no cuántas tarjetas tiene hoy el mazo.
+    await expect(counter).toContainText(/^1 \/ \d+$/);
+    const total = (await counter.textContent()).split('/')[1].trim();
+    const at = (position) => `${position} / ${total}`;
+
     await page.getByRole('button', { name: 'Next', exact: true }).click();
-    await expect(counter).toContainText('2 / 32');
+    await expect(counter).toContainText(at(2));
     await page.getByRole('button', { name: 'Previous', exact: true }).click();
-    await expect(counter).toContainText('1 / 32');
+    await expect(counter).toContainText(at(1));
 
     const mainArea = page.locator('.flashcard-main-area');
     await mainArea.dispatchEvent('touchstart', { targetTouches: [{ identifier: 1, clientX: 260 }] });
     await mainArea.dispatchEvent('touchend', { changedTouches: [{ identifier: 1, clientX: 80 }] });
-    await expect(counter).toContainText('2 / 32');
+    await expect(counter).toContainText(at(2));
     await mainArea.dispatchEvent('touchstart', { targetTouches: [{ identifier: 2, clientX: 80 }] });
     await mainArea.dispatchEvent('touchend', { changedTouches: [{ identifier: 2, clientX: 260 }] });
-    await expect(counter).toContainText('1 / 32');
+    await expect(counter).toContainText(at(1));
 
     const audio = page.locator('[data-tour="boton-reproducir-audio-palabra"]').first();
     await expect(audio).toBeEnabled();
@@ -302,7 +314,9 @@ test('card supports both flip directions, buttons, swipes, audio and several che
     ));
     await page.locator('[data-tour="boton-marcar-aprendida"]').click();
     await page.locator('[data-tour="boton-marcar-aprendida"]').click();
-    await expect(counter).toContainText('1 / 30');
+    // Marcar dos tarjetas como aprendidas las saca de la pasada: el total baja exactamente 2,
+    // sea cual sea el tamaño del mazo. Eso es lo que se verifica, no un número concreto.
+    await expect(counter).toContainText(`1 / ${Number(total) - 2}`);
     await page.evaluate(() => window.dispatchEvent(new Event('beforeunload')));
     const batch = await batchSaved;
     expect(batch.ok()).toBeTruthy();
@@ -315,7 +329,9 @@ test('card supports both flip directions, buttons, swipes, audio and several che
         await dashboardCourse.getByRole('button', { name: 'Next category' }).click();
     }
     await expect(dashboardCourse).toContainText(/Verbs/i);
-    await expect(dashboardCourse).toContainText(/30 cards remaining/i);
+    // El dashboard debe reflejar el MISMO progreso que dejó el estudio: las dos aprendidas ya no
+    // cuentan. Derivado del total real por lo mismo que el contador de la tarjeta.
+    await expect(dashboardCourse).toContainText(new RegExp(`${Number(total) - 2} cards remaining`, 'i'));
 });
 
 test('reset cancel/confirm and complete a level with the correct confirmation', async ({ page, request }) => {
