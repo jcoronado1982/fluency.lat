@@ -137,6 +137,25 @@ impl SurrealConnection {
         }
     }
 
+    /// ¿Esta conexión sigue AUTENTICADA, no solo viva?
+    ///
+    /// `health()` es un ping sin autenticar: responde OK aunque la sesión haya perdido las
+    /// credenciales de root. Por eso el watchdog nunca reconectaba mientras los handlers fallaban
+    /// con «Anonymous access not allowed: Not enough permissions to perform this action» y el
+    /// backend degradaba a leer solo del disco — un fallo invisible para el health-check que lo
+    /// tenía que detectar. `INFO FOR DB` exige sesión con NS+DB, así que distingue las dos cosas
+    /// sin transferir filas de datos (importa: el backend de producción vive en 512 MB).
+    ///
+    /// Los errores de SurrealDB por sentencia NO llegan como `Err` del `query()`: viajan dentro de
+    /// la respuesta, así que hay que mirar `take_errors()` o un fallo de permisos se leería como
+    /// conexión sana.
+    async fn is_usable(db: &Surreal<Client>) -> bool {
+        match db.query("INFO FOR DB;").await {
+            Ok(mut response) => response.take_errors().is_empty(),
+            Err(_) => false,
+        }
+    }
+
     async fn connect(endpoint: &str, namespace: &str, database: &str) -> Result<Surreal<Client>> {
         let is_secure = endpoint.starts_with("wss://") || endpoint.starts_with("https://");
         let bare_endpoint = endpoint
@@ -231,11 +250,17 @@ impl SurrealConnection {
             loop {
                 interval.tick().await;
 
-                // 1. Health-check de la conexión primaria
-                let primary_db = this.db();
-                if primary_db.health().await.is_err() {
+                // 1. Health-check de la conexión primaria.
+                // Se sondea la primaria DIRECTAMENTE, no vía `db()`: ese reparte round-robin y
+                // podría devolver una secundaria, dejando la primaria sin revisar nunca.
+                let primary_db = this
+                    .primary
+                    .read()
+                    .expect("surreal connection lock poisoned")
+                    .clone();
+                if !Self::is_usable(&primary_db).await {
                     tracing::warn!(
-                        "⚠️ SurrealDB primary health-check falló ({}); reconectando…",
+                        "⚠️ SurrealDB primaria no utilizable ({}); reconectando…",
                         this.endpoint
                     );
                     match Self::connect(&this.endpoint, &this.namespace, &this.database).await {
@@ -249,19 +274,95 @@ impl SurrealConnection {
                     }
                 }
 
-                // 2. Limpieza de conexiones secundarias inactivas (Idle Pruning -> vuelve a MIN=1)
+                // 2. Las secundarias no se sondeaban NUNCA: solo se podaban por inactividad. Una
+                // que perdiera la sesión seguía repartiéndose por round-robin y fallando en cada
+                // petición hasta agotar su `idle_timeout`. Se sondean fuera del lock (la sonda es
+                // `async` y el lock es síncrono) y se descartan las inservibles; `acquire_on_demand`
+                // las vuelve a crear cuando haga falta.
+                let candidates: Vec<(usize, Surreal<Client>)> = {
+                    let pool = this.secondary_pool.read().expect("pool lock poisoned");
+                    pool.iter()
+                        .enumerate()
+                        .map(|(idx, conn)| (idx, conn.client.clone()))
+                        .collect()
+                };
+                let probed_len = candidates.len();
+                let mut unusable = Vec::new();
+                for (idx, client) in candidates {
+                    if !Self::is_usable(&client).await {
+                        unusable.push(idx);
+                    }
+                }
+
+                // 3. Poda: secundarias inservibles + inactivas (Idle Pruning -> vuelve a MIN=1)
                 let now = Instant::now();
                 let mut pool = this.secondary_pool.write().expect("pool lock poisoned");
                 let initial_len = pool.len();
-                pool.retain(|conn| now.duration_since(conn.last_used) < this.idle_timeout);
+                // Los índices se aplican SOLO al prefijo que se sondeó: mientras tanto
+                // `acquire_on_demand` puede haber añadido conexiones al final, y ésas son nuevas y
+                // sanas. Quitar elementos solo ocurre aquí (una única tarea, en serie), así que el
+                // prefijo sigue apuntando a las mismas conexiones que se probaron.
+                let mut idx = 0;
+                pool.retain(|conn| {
+                    let probed_unusable = idx < probed_len && unusable.contains(&idx);
+                    let keep = !probed_unusable
+                        && now.duration_since(conn.last_used) < this.idle_timeout;
+                    idx += 1;
+                    keep
+                });
 
+                if !unusable.is_empty() {
+                    tracing::warn!(
+                        "⚠️ {} conexión(es) secundaria(s) de SurrealDB no utilizables; descartadas",
+                        unusable.len()
+                    );
+                }
                 if pool.len() < initial_len {
                     tracing::info!(
-                        "📉 Conexiones secundarias inactivas depuradas. Conexiones activas en pool: {}",
+                        "📉 Conexiones secundarias depuradas. Conexiones activas en pool: {}",
                         pool.len() + 1
                     );
                 }
             }
         });
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    /// Regresión del bug real (sep 2026): bajo carga aparecían «Anonymous access not allowed» en
+    /// los handlers mientras el watchdog NUNCA reconectaba. La causa es lo que fija este test:
+    /// `health()` sigue diciendo OK con la sesión perdida, así que como sonda es ciega.
+    ///
+    /// Necesita SurrealDB local; sin él se omite, para que `cargo nextest` siga verde en máquinas
+    /// sin la pila levantada (gate `test-local-preprod.sh --quick`). Con la pila arriba
+    /// (`--full`) sí se ejecuta de verdad.
+    #[tokio::test]
+    async fn health_misses_a_lost_session_but_is_usable_catches_it() {
+        let endpoint =
+            std::env::var("SURREAL_URL").unwrap_or_else(|_| "127.0.0.1:8001".to_string());
+        let Ok(db) = SurrealConnection::connect(&endpoint, "flashcard", "flashcard").await else {
+            eprintln!("SurrealDB no disponible en {endpoint}; test omitido");
+            return;
+        };
+
+        assert!(
+            SurrealConnection::is_usable(&db).await,
+            "recién autenticada, la conexión debe ser utilizable"
+        );
+
+        // Pierde la sesión sin cerrar el socket: el mismo estado en el que quedaba en producción.
+        db.invalidate().await.expect("invalidate debe funcionar");
+
+        assert!(
+            db.health().await.is_ok(),
+            "health() sigue OK sin sesión — exactamente por lo que no servía de sonda"
+        );
+        assert!(
+            !SurrealConnection::is_usable(&db).await,
+            "is_usable debe detectar la sesión perdida y disparar la reconexión"
+        );
     }
 }
