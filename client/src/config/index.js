@@ -37,6 +37,11 @@ const sharedFeatures = {
   auth: import.meta.env.VITE_ENABLE_AUTH !== 'false',
   pronounReference: import.meta.env.VITE_ENABLE_PRONOUN_REFERENCE !== 'false',
   admin: import.meta.env.VITE_ENABLE_ADMIN !== 'false',
+  // Opt-in: apagado, `/login` no pinta el botón de Apple NI descarga su SDK. El botón estaba
+  // comentado en el JSX, pero el `useEffect` que inyecta el script de `appleid.cdn-apple.com`
+  // seguía corriendo en cada visita al login para un botón que no se renderizaba. Encenderlo
+  // requiere además `VITE_APPLE_CLIENT_ID` (hoy no está definido en ningún perfil).
+  appleLogin: import.meta.env.VITE_ENABLE_APPLE_LOGIN === 'true',
 
   grammar: import.meta.env.VITE_ENABLE_GRAMMAR === 'true',
   tests: import.meta.env.VITE_ENABLE_TESTS === 'true',

@@ -41,7 +41,6 @@ const toRow = (candidate, id) => ({
     createStatus: 'idle', // idle | creating | created | duplicate | error
     createError: '',
     topicName: candidate?.existing_topic_name ?? '',
-    topicNameStatus: 'idle', // idle | saving | dismissed | error
 });
 
 /**
@@ -358,28 +357,10 @@ function CreateWordModal({ onClose, onViewCreatedDeck }) {
         setCandidates((prev) => prev.map((r) => (r.id === id ? { ...r, topicName: value } : r)));
     };
 
-    const handleSkipRowTopicName = (id) => {
-        setCandidates((prev) => prev.map((r) => (r.id === id ? { ...r, topicNameStatus: 'dismissed' } : r)));
-    };
-
-    const handleSaveRowTopicName = async (id) => {
-        const row = candidates.find((r) => r.id === id);
-        const trimmed = row?.topicName.trim();
-        if (!row || !trimmed) return;
-        setCandidates((prev) => prev.map((r) => (r.id === id ? { ...r, topicNameStatus: 'saving' } : r)));
-        try {
-            await personalWordPort.renamePersonalDeck({
-                category: row.category,
-                level: row.level,
-                topicName: trimmed,
-                courseDirection,
-            });
-            refreshPersonalWords?.();
-            setCandidates((prev) => prev.map((r) => (r.id === id ? { ...r, topicNameStatus: 'dismissed' } : r)));
-        } catch {
-            setCandidates((prev) => prev.map((r) => (r.id === id ? { ...r, topicNameStatus: 'error' } : r)));
-        }
-    };
+    // Antes vivían aquí `handleSkipRowTopicName`/`handleSaveRowTopicName`: un renombrado de mazo
+    // por fila POSTERIOR a la creación, cuya UI ya no existe. La capacidad no se pierde — el
+    // nombre del mazo se manda en la propia creación (`renamePersonalDeck` más arriba) y se puede
+    // renombrar después desde el catálogo (`CategorySelector.jsx`).
 
     // La categoría/mazo son los REALES del catálogo (ej. "verbs" / "1-basic/my_words") — el
     // mismo flujo que abrir cualquier otro mazo, ver docs/modules/flashcards.md §Personal Words.

@@ -366,7 +366,9 @@ Flags que cargan un módulo del registry (`modules/index.js`):
 | `VITE_DEFAULT_MODULE` | Módulo que abre en `/` si no hay landing (`flashcards` default) |
 
 Flags que solo encienden features dentro del shell o de un módulo ya cargado — **no** cargan un
-módulo del registry: `VITE_ENABLE_ADMIN` (rutas admin del shell), `VITE_ENABLE_AUTH`,
+módulo del registry: `VITE_ENABLE_ADMIN` (rutas admin del shell),
+`VITE_ENABLE_APPLE_LOGIN` (opt-in; apagado, `/login` no pinta el botón **ni descarga el SDK de
+Apple** — requiere además `VITE_APPLE_CLIENT_ID`), `VITE_ENABLE_AUTH`,
 `VITE_ENABLE_SUBSCRIPTIONS`, `VITE_ENABLE_GRAMMAR`, `VITE_ENABLE_TESTS`, y
 `VITE_ENABLE_PRONOUN_REFERENCE` / `VITE_ENABLE_PRONOUN_PRACTICE` / `VITE_ENABLE_PRONOUN` (estos tres
 quedan sin efecto mientras el módulo `pronoun` no esté en el repositorio, §3.2).

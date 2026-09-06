@@ -412,8 +412,11 @@ function getDynamicCategoryEntries(userDecks = []) {
     return entries;
 }
 
+// Sin `levelId` a propósito: el acceso rápido es deliberadamente multinivel. La regla 1 parte del
+// progreso real del usuario (mazos empezados, que pueden ser de niveles distintos) y la regla 2
+// recorre el catálogo por categoría; filtrar por un único nivel descartaría mazos legítimamente en
+// curso. El parámetro existía en la firma pero nunca se leía.
 export function getDashboardQuickAccessItems({
-    levelId,
     currentCategory = null,
     currentDeck = null,
     language = 'en',

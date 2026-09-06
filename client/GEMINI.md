@@ -33,7 +33,7 @@ The app DOES NOT mount static routes: it assembles at runtime from **module mani
 }
 ```
 
-**Feature flags** (`.env.development`, profiles in `client/env-profiles/*.profile`): `VITE_ENABLE_LANDING`, `VITE_ENABLE_DASHBOARD`, `VITE_ENABLE_FLASHCARDS`, `VITE_ENABLE_PAYMENTS`, `VITE_ENABLE_ADMIN`, `VITE_DEFAULT_MODULE`, `VITE_API_URL` (empty = relative routes via Vite proxy). Config resolved in `src/config/index.js` → `config.features.*`. Sparse-checkout may remove modules from disk: the registry only loads present ones.
+**Feature flags** (`.env.development`, profiles in `client/env-profiles/*.profile`): `VITE_ENABLE_LANDING`, `VITE_ENABLE_DASHBOARD`, `VITE_ENABLE_FLASHCARDS`, `VITE_ENABLE_PAYMENTS`, `VITE_ENABLE_ADMIN`, `VITE_ENABLE_APPLE_LOGIN` (opt-in — off, `/login` renders no Apple button and, since Sep 2026, no longer downloads Apple's SDK on every visit; also needs `VITE_APPLE_CLIENT_ID`), `VITE_DEFAULT_MODULE`, `VITE_API_URL` (empty = relative routes via Vite proxy). Config resolved in `src/config/index.js` → `config.features.*`. Sparse-checkout may remove modules from disk: the registry only loads present ones.
 
 ### Recipe: ADD a Module
 

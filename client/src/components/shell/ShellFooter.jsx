@@ -7,9 +7,10 @@ const DEFAULT_LABELS = {
     github: 'GitHub',
 };
 
-export default function ShellFooter({ variant = 'app', labels = DEFAULT_LABELS }) {
-    const copy = { ...DEFAULT_LABELS, ...labels };
-
+// `labels` sigue en la firma porque LandingPage, LoginPage y PricingPage lo pasan traducido: hoy no
+// se usa (el bloque de links está desactivado más abajo), pero quitarlo obligaría a tocar los tres
+// llamadores para volver a ponerlo al reactivar los links.
+export default function ShellFooter({ variant = 'app', labels: _labels = DEFAULT_LABELS }) {
     return (
         <footer className={`shell-footer shell-footer--${variant}`}>
             <div className="shell-footer-content">
@@ -22,7 +23,9 @@ export default function ShellFooter({ variant = 'app', labels = DEFAULT_LABELS }
                         </div>
                     </div>
                 </div>
-                {/* <div className="shell-footer-links">
+                {/* Al reactivar este bloque, restaurar `const copy = { ...DEFAULT_LABELS, ...labels };`
+                    arriba — es lo único que consumía la prop `labels`.
+                <div className="shell-footer-links">
                     <a href="/documentation" className="shell-footer-link">{copy.documentation}</a>
                     <span className="shell-footer-divider">|</span>
                     <a

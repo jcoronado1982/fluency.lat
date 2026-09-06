@@ -103,13 +103,12 @@ export default function DashboardHero({ stats, statsLoading, labels, language, u
     const primaryCourse = carouselItems.find((item) => !item.isDailyReview) || carouselItems[0];
 
     const quickAccessItems = useMemo(() => getDashboardQuickAccessItems({
-        levelId: level.currentLevel,
         currentCategory: primaryCourse?.category,
         currentDeck: primaryCourse?.deckName,
         language,
         limit: 4,
         stats,
-    }), [language, level.currentLevel, primaryCourse?.category, primaryCourse?.deckName, stats]);
+    }), [language, primaryCourse?.category, primaryCourse?.deckName, stats]);
     const [activeSlide, setActiveSlide] = useState(0);
 
     const carouselSignature = carouselItems.map((item) => item.key).join('|');

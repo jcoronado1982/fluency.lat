@@ -124,6 +124,9 @@ const LoginPage = () => {
     );
 
     useEffect(() => {
+        // Solo si el login de Apple está encendido: sin este guard el script de terceros se
+        // descargaba en CADA visita a /login para un botón que ni se renderizaba.
+        if (!config.features.appleLogin) return;
         // Cargar SDK de autenticación de Apple
         if (!document.getElementById('apple-auth-sdk')) {
             const script = document.createElement('script');
@@ -329,20 +332,24 @@ const LoginPage = () => {
                             <div className="google-btn-container" ref={googleBtnRef} />
                             <p className="login-trust">{loginCopy.trust}</p>
 
-                            {/*
-                            <div className="login-or" role="separator" aria-label={loginCopy.or}>
-                                <span>{loginCopy.or}</span>
-                            </div>
+                            {/* Apagado por flag, no comentado: así el handler y el SDK siguen
+                                siendo código vivo y encender la función es configuración. */}
+                            {config.features.appleLogin && (
+                                <>
+                                    <div className="login-or" role="separator" aria-label={loginCopy.or}>
+                                        <span>{loginCopy.or}</span>
+                                    </div>
 
-                            <button
-                                type="button"
-                                className="login-apple-btn"
-                                onClick={handleAppleLogin}
-                            >
-                                <AppleIcon />
-                                <span>{loginCopy.apple}</span>
-                            </button>
-                            */}
+                                    <button
+                                        type="button"
+                                        className="login-apple-btn"
+                                        onClick={handleAppleLogin}
+                                    >
+                                        <AppleIcon />
+                                        <span>{loginCopy.apple}</span>
+                                    </button>
+                                </>
+                            )}
                         </div>
                     </div>
                 </div>

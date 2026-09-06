@@ -157,7 +157,6 @@ assert.equal(estimateMinutesRemaining(120), 60); // 120 tarjetas * 30s = 3600s =
     ],
   };
   const items = getDashboardQuickAccessItems({
-    levelId: 'A1',
     currentCategory: 'verbs',
     currentDeck: '1-basic/action.json',
     language: 'en',
