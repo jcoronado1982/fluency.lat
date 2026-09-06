@@ -529,6 +529,37 @@ Deliberately factored OUT of `CategorySelector.jsx` (already on the "god compone
 - **Real bug, fixed (reported live, Aug 2026 — "termino un mazo avanzado/intermedio y a veces me manda a básico")**: without the real deck list, `deckIndex` inside `getNextStudyStep` was always `-1` for nested categories, so finishing **any** nested deck — regardless of level — skipped straight to "next category" instead of the next topic/level within the same category. Whether the user landed on basic depended entirely on whether that other category had a `localStorage`-persisted deck already (`resolvePersistedChoice` falls back to `names[0]`, always the basic-level deck when sorted) — explaining the intermittent "sometimes it resets, sometimes it doesn't". This also corrupted `CategorySelector`'s level display/level buttons (`activeLevel = getLevelFromDeckName(currentDeckName)`), since they just reflect whatever category+deck the session was silently bounced to.
   Fix: `getNextStudyStep` now accepts an optional `nestedDeckNames` (the real, already `sortDeckNames`-ordered deck list for the current category, personal decks filtered out) and, when present, advances to the next entry in that list first — falling through to the category jump only after the last deck of the last level. `FlashcardPage.jsx` passes it whenever `usesNestedLevelDecks(currentCategory)`. Regression tests: `config/catalogOrder.test.js` › `getNextStudyStep — nested-level categories`.
 
+### Reaching the End of a Deck by Navigating (`reachedDeckEnd`, `useDeckSession.js`)
+
+`nextCard()` on the last card sets `reachedDeckEnd`, which is what makes `FlashcardPage` swap the
+card for the end-of-deck screen (`shouldShowCompletionCard`). It is deliberately **not** "index is
+at the end" — jumping straight to the last card of a deck from a search result and pressing next
+must not claim you finished it. The pass is closed when **either** condition holds:
+
+- **(a)** every card still in `filteredData` has been visited in this pass (`visitedCardIdsRef`), or
+- **(b)** the user moved forward at least once in this pass (`advancedForwardRef`).
+
+**Real bug, fixed (reported live, Sep 2026 — "a veces muestra la confirmación de terminado de mazo,
+a veces se queda en la última")**: only (a) existed, and it compared *sizes*
+(`visited.size >= filteredData.length`). Two independent failures came out of that:
+
+1. **Entering mid-deck never closed the pass.** Resuming from the dashboard or opening a search
+   result positions `currentIndex` in the middle; the earlier cards are never visited, so the
+   threshold was unreachable no matter how far the user navigated — they hit the last card and
+   stayed there with no way out. Condition (b) fixes exactly this case while still rejecting the
+   "jumped straight onto the last card and pressed next" false positive, which has no forward move.
+2. **Size comparison compared two different sets.** `visitedCardIdsRef` keeps ids, but
+   `filteredData` shrinks as cards are marked learned (and now also when a card is retired), so the
+   set retained ids no longer in the list and the count could cross the threshold for the wrong
+   reason. Now (a) is `filteredData.every(card => visited.has(card.id))` — evaluated against the
+   cards that are actually still there.
+
+`advancedForwardRef` is reset in lockstep with `visitedCardIdsRef` at every point that starts a new
+pass (deck/category/group change, `reviewDeckAgain`, `changeDeck`, and when the pass closes) — they
+are two halves of the same "current pass" state; resetting one without the other reintroduces the
+bug. Regression tests: `useDeckSession.test.js` › *"llegar al final del mazo navegando"* (3 cases:
+full pass from the start, mid-deck entry, and the jump-to-last false positive).
+
 ### Level-Switch Rendering Race (`hooks/useLocalCatalogOrder.js`)
 - **Real bug, fixed (reported live, Aug 2026 — "cambio a nivel intermedio, el botón de nivel se marca bien, pero le doy click al primer mazo y me manda a otro nivel")**: `visibleNestedDecks`/`visibleGroups` (what `DeckGrid.jsx` renders and what a click resolves to) fell back to `localNestedDeckOrder`/`localGroupOrder` — `useState` recomputed in a `useEffect` keyed by `levelPreferenceKey`/`currentCategory` — whenever that state was non-empty, with no check that it actually belonged to the level/category just switched to. `activeLevel`/`nestedDeckNames` (plain derived values, no effect delay) update in the SAME render the user clicks a level button, but the effect that refreshes `localNestedDeckOrder` only runs (and repaints) one tick later. In that window the level button already shows the new level active while the grid — and therefore the first tile a user clicks — still belongs to the previous level; clicking it calls `changeDeck` with that stale deck, which flips `activeLevel` back.
   Fix: `visibleNestedDecks`/`visibleGroups` only trust the local (possibly drag-reordered) state when its item SET matches the fresh `nestedDeckNames`/`groupNames` exactly; otherwise they render the always-correct, prop-derived list directly until the effect catches up. Not covered by an automated regression test — the race is a render-vs-`useEffect` timing gap that `@testing-library/react`'s `act()` flushes away by construction (effects settle before assertions can observe the stale frame), so verify manually: switch levels on a nested category (e.g. adjectives) and click the first tile immediately.

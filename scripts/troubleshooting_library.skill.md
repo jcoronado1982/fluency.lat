@@ -566,3 +566,12 @@ Este documento es una base de conocimientos dinámica de errores técnicos, bugs
 
 **D) Probar un borrado destructivo sin tocar contenido real**
 - Copiar el JSON del mazo a un backup FUERA del repo, agregar tarjetas `__qa_temp_card` al FINAL (índices nuevos, no corren nada), esperar el TTL de la caché, borrarlas por la UI, y restaurar con `cp` desde el backup verificando `md5sum` + `git status` sin cambios. Nunca borrar una tarjeta real "para probar".
+
+### 20. "A veces aparece la pantalla de fin de mazo, a veces me quedo clavado en la última tarjeta"
+- **Fecha:** 2026-09-05
+- **Síntoma:** al recorrer un mazo con el botón "siguiente", a veces salía la pantalla de fin de mazo y a veces la sesión se quedaba en la última tarjeta sin ninguna salida. Intermitente, sin patrón obvio.
+- **Causa real:** el guard de `reachedDeckEnd` en `useDeckSession.nextCard()` era `visitedCardIdsRef.current.size >= filteredData.length`. Dos defectos en esa sola línea:
+  1. **Entrar por el medio del mazo hacía el umbral inalcanzable.** Reanudar desde el dashboard o abrir un resultado de búsqueda posiciona `currentIndex` en el medio; las tarjetas anteriores nunca se "visitan", así que por más que el usuario avanzara hasta el final el set nunca llegaba al largo del mazo. Ese era el "se queda en la última".
+  2. **Comparaba dos conjuntos distintos por tamaño.** El set guarda ids visitados, pero `filteredData` se achica al marcar aprendidas (y al retirar una tarjeta), así que quedaban ids de tarjetas que ya no estaban en la lista inflando el conteo.
+- **Solución:** cerrar la pasada si **(a)** todas las tarjetas que SIGUEN en `filteredData` fueron visitadas (`every(...has(card.id))`, no comparación de tamaños) **o (b)** hubo al menos un avance hacia adelante en la pasada (`advancedForwardRef`). (b) cubre la entrada por el medio sin habilitar el falso positivo de "salté directo a la última y pulsé siguiente" (ahí no hubo avance y no están todas visitadas). Las dos refs se reinician SIEMPRE juntas: son dos mitades del mismo estado de "pasada actual".
+- **Lección:** comparar `set.size >= array.length` solo es válido si el set y el array contienen siempre lo mismo. En cuanto uno de los dos se filtra o muta por su cuenta (progreso, borrado), la comparación deja de significar lo que se cree; preguntar por pertenencia (`every(... has ...)`) es lo correcto. Y un guard de "¿el usuario recorrió esto?" tiene que contemplar que la sesión pueda **empezar por el medio**, no solo en el índice 0.

@@ -166,6 +166,12 @@ export function useDeckSession(resumeSession = null) {
     const batchContextRef = useRef({ category: null, deck: null, userId: null, courseDirection });
     /** Ids de tarjetas ya vistas en la pasada actual (ver `reachedDeckEnd`). */
     const visitedCardIdsRef = useRef(new Set());
+    /**
+     * ¿Hubo al menos un avance hacia adelante en esta pasada? Junto con `visitedCardIdsRef` decide
+     * si llegar a la última tarjeta cierra el mazo — ver `nextCard`. Se reinicia siempre con el set
+     * de visitadas: son las dos mitades del mismo estado de "pasada actual".
+     */
+    const advancedForwardRef = useRef(false);
     /** Tarjeta objetivo solicitada (ej. al seleccionar resultado de búsqueda). */
     const pendingTargetCardRef = useRef(null);
     /** Evita que resetKey sobrescriba currentIndex a 0 al cargar tarjeta solicitada. */
@@ -333,10 +339,12 @@ export function useDeckSession(resumeSession = null) {
         ) {
             skipNextResetRef.current = false;
             visitedCardIdsRef.current = new Set();
+            advancedForwardRef.current = false;
             return;
         }
         setCurrentIndex(0);
         visitedCardIdsRef.current = new Set();
+        advancedForwardRef.current = false;
     }, [resetKey, currentCategory, currentDeckName]);
 
     /**
@@ -766,6 +774,7 @@ export function useDeckSession(resumeSession = null) {
         setJustCompletedInSession(false);
         setReachedDeckEnd(false);
         visitedCardIdsRef.current = new Set();
+        advancedForwardRef.current = false;
         const cat = targetCategory || currentCategory;
         if (cat) {
             localStorage.setItem(`${LAST_DECK_KEY_PREFIX}${cat}`, newDeck);
@@ -1102,15 +1111,29 @@ export function useDeckSession(resumeSession = null) {
         }
         if (!filteredData.length) return;
         if (currentIndex >= filteredData.length - 1) {
-            // Solo cierra la pasada si de verdad se vieron todas las tarjetas del
-            // mazo/grupo activo (no solo si el índice quedó en el límite, que
-            // `prevCard` podría alcanzar sin haber recorrido nada).
-            if (visitedCardIdsRef.current.size >= filteredData.length) {
+            // Cierra la pasada si el usuario recorrió el mazo/grupo — por cualquiera de los dos
+            // caminos válidos:
+            //   a) vio TODAS las tarjetas que siguen en la lista, o
+            //   b) llegó hasta acá avanzando (aunque haya entrado por el medio).
+            // (b) es lo que faltaba: reanudar desde el dashboard o abrir un resultado de búsqueda
+            // posiciona la sesión en una tarjeta del medio, y las anteriores nunca se visitan —
+            // el umbral de (a) no se alcanzaba nunca y el usuario quedaba clavado en la última
+            // tarjeta sin pantalla de fin (bug real reportado en vivo: "a veces muestra la
+            // confirmación de terminado de mazo, a veces se queda en la última").
+            // (a) se evalúa contra las tarjetas ACTUALES, no por tamaño: al marcar aprendidas (o
+            // al retirar una tarjeta) la lista se achica y el set conservaba ids que ya no están,
+            // así que comparar cantidades comparaba dos cosas distintas.
+            const sawEveryRemainingCard = filteredData.every(
+                (card) => visitedCardIdsRef.current.has(card.id),
+            );
+            if (sawEveryRemainingCard || advancedForwardRef.current) {
                 setReachedDeckEnd(true);
                 visitedCardIdsRef.current = new Set();
+                advancedForwardRef.current = false;
             }
             return;
         }
+        advancedForwardRef.current = true;
         setCurrentIndex((p) => p + 1);
     };
     // No da la vuelta al llegar a la primera tarjeta: envolver a la última falseaba
@@ -1130,6 +1153,7 @@ export function useDeckSession(resumeSession = null) {
         setCurrentIndex(0);
         setReachedDeckEnd(false);
         visitedCardIdsRef.current = new Set();
+        advancedForwardRef.current = false;
     };
 
     const changeGroup = (group) => {

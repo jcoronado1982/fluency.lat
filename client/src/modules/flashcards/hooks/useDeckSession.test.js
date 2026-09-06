@@ -365,3 +365,76 @@ describe('useDeckSession — deleteCard (borrado de tarjeta por admin)', () => {
         expect(setAppMessage).toHaveBeenCalledWith(expect.objectContaining({ isError: true }));
     });
 });
+
+// `reachedDeckEnd` es lo que hace aparecer la pantalla de fin de mazo al llegar navegando a la
+// última tarjeta. Reporte en vivo: "a veces muestra la confirmación de terminado de mazo, a veces
+// se queda en la última".
+describe('useDeckSession — llegar al final del mazo navegando', () => {
+    beforeEach(() => {
+        categoryState.current = TEST_CATEGORY;
+        fetchDecksForCategory.mockReset();
+        fetchDeckData.mockReset();
+        getPersonalWordsSummary.mockReset();
+        fetchDecksForCategory.mockResolvedValue({ success: true, files: ['1-basic/action'] });
+        getPersonalWordsSummary.mockResolvedValue({ decks: [] });
+    });
+
+    const loaded = async (cards) => {
+        fetchDeckData.mockResolvedValue(cards);
+        const { result } = renderHook(() => useDeckSession());
+        await waitFor(() => expect(result.current.filteredData.length).toBe(cards.filter((c) => !c.learned).length));
+        return result;
+    };
+
+    it('recorriendo el mazo entero desde el principio muestra el fin de mazo', async () => {
+        const result = await loaded([
+            { name: 'one', learned: false },
+            { name: 'two', learned: false },
+            { name: 'three', learned: false },
+        ]);
+
+        act(() => { result.current.nextCard(); });
+        act(() => { result.current.nextCard(); });
+        expect(result.current.currentCard?.name).toBe('three');
+        act(() => { result.current.nextCard(); });
+
+        expect(result.current.reachedDeckEnd).toBe(true);
+    });
+
+    it('entrando a mitad del mazo (reanudar / salto de búsqueda) también cierra la pasada al llegar al final', async () => {
+        // Reanudar desde el dashboard o abrir un resultado de búsqueda posiciona la sesión en una
+        // tarjeta del medio: las anteriores nunca se "visitan". El guard contaba visitadas contra
+        // el largo del mazo, así que jamás llegaba al umbral y la pantalla de fin no aparecía —
+        // el usuario quedaba clavado en la última tarjeta sin salida.
+        const result = await loaded([
+            { name: 'one', learned: false },
+            { name: 'two', learned: false },
+            { name: 'three', learned: false },
+            { name: 'four', learned: false },
+        ]);
+
+        act(() => { result.current.setCurrentIndex(2); });
+        expect(result.current.currentCard?.name).toBe('three');
+
+        act(() => { result.current.nextCard(); });
+        expect(result.current.currentCard?.name).toBe('four');
+        act(() => { result.current.nextCard(); });
+
+        expect(result.current.reachedDeckEnd).toBe(true);
+    });
+
+    it('saltar directo a la ÚLTIMA tarjeta y pulsar siguiente NO cierra el mazo sin haber avanzado', async () => {
+        // Falso positivo a evitar: abrir un resultado de búsqueda que cae en la última tarjeta no
+        // significa haber estudiado el mazo.
+        const result = await loaded([
+            { name: 'one', learned: false },
+            { name: 'two', learned: false },
+            { name: 'three', learned: false },
+        ]);
+
+        act(() => { result.current.setCurrentIndex(2); });
+        act(() => { result.current.nextCard(); });
+
+        expect(result.current.reachedDeckEnd).toBe(false);
+    });
+});
