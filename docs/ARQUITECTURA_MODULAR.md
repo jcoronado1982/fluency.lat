@@ -39,7 +39,7 @@ El repositorio es un **monolito modular**:
 | Pieza | Rol |
 |-------|-----|
 | **Shell compartido** | Arranque, auth, layout, tutor, health, notificaciones |
-| **Módulos de negocio** | Flashcards, pronombres, futuros módulos vendibles |
+| **Módulos de negocio** | Landing, pricing, dashboard, flashcards, futuros módulos vendibles |
 | **Registry** | `scripts/module_registry.sh` — fuente de verdad de paths, features y flags |
 | **Sparse-checkout** | Solo existen en disco los archivos del shell + módulos activos → la IA no ve código ajeno |
 
@@ -60,11 +60,10 @@ flashcard/
 ├── backend/
 │   ├── core/                 # fluency_core — dominio + puertos compartidos
 │   ├── mod_shell/            # casos de uso compartidos del shell (auth, tutor, presence, subscriptions)
-│   ├── api_main/             # composition root (shell HTTP)
-│   │   └── src/modules/      # registro de rutas por módulo
 │   ├── mod_flashcards/       # casos de uso flashcards (deck, audio, imágenes, batch CLI)
 │   │   └── src/batch/        # --batch-gen-images / --batch-gen-audio (composition desde main)
-│   └── mod_pronoun/          # crate pronoun_practice — StoryUseCases  ⚠️ NO presente (ver §3.2)
+│   └── api_main/             # composition root (shell HTTP)
+│       └── src/modules/      # registro de rutas por módulo
 ├── client/
 │   └── src/
 │       ├── contracts/        # contratos ENTRE módulos (nunca imports cruzados)
@@ -114,7 +113,7 @@ flowchart TB
 | Capa | Ubicación | Responsabilidad |
 |------|-----------|-----------------|
 | Dominio + puertos | `backend/core` | Modelos y contratos (`StorageRepository`, `MediaDeliveryProvider`, `AITutor`, …) |
-| Aplicación | `backend/mod_*` | Casos de uso por módulo y shell (`mod_shell`, `mod_flashcards`, `mod_pronoun`) |
+| Aplicación | `backend/mod_*` | Casos de uso por módulo y shell (`mod_shell`, `mod_flashcards`) |
 | API | `backend/api_main/src/api/` | Handlers HTTP delgados; DTOs en `dto/`; mapeo HTTP→use case en `mappers/` |
 | Infraestructura | `backend/api_main/src/infrastructure/` | Adapters por puerto: `storage/surreal/*`, entrega Cloudflare, Gemini, stable-diffusion.cpp (Flux 2 C++), llama.cpp (Qwen C++), storage local |
 | Composition root | `backend/api_main/src/main.rs` | Wiring de dependencias y `AppState` |
@@ -126,7 +125,6 @@ flowchart TB
 [features]
 default = ["flashcards", "auth", "subscriptions"]
 flashcards = ["mod_flashcards"]
-pronoun_practice = []
 auth = []
 payments = []
 subscriptions = ["payments"]
@@ -138,7 +136,6 @@ local_agent = []
 | `flashcards` | `flashcards` | `mod_flashcards` | Enchufable |
 | `pricing` (backend) | `subscriptions` → `payments` | — (en `mod_shell`) | Enchufable |
 | — (laboratorio) | `local_agent` | — (en `mod_shell`) | Enchufable |
-| `pronoun` | `pronoun_practice` | `pronoun_practice` (`mod_pronoun/`) | ⚠️ crate ausente — ver abajo |
 
 **`auth` no es un módulo enchufable: es shell.** Su middleware (`extract_claims`,
 `require_admin_role`, `require_premium_role`) protege TODOS los endpoints de estudio, no solo los
@@ -146,11 +143,6 @@ de login; apagarla no produce "el backend sin login" sino endpoints autenticados
 `main.rs` lo hace explícito con un `compile_error!` en vez de fallar con errores de resolución
 sueltos. Hacerla opcional de verdad exigiría mover la autorización a un puerto con implementación
 nula explícita — refactor planificado, nunca oportunista.
-
-**`pronoun_practice` no se puede compilar en este repositorio**: el crate `pronoun_practice`
-(`backend/mod_pronoun/`) no está en los miembros del workspace ni en el historial de ninguna rama.
-El andamiaje del módulo sí existe (`api_main/src/modules/pronoun_practice.rs`, sus endpoints, DTOs y
-mappers) a la espera del crate. Activar la feature emite un `compile_error!` que lo dice.
 
 **Matriz verificada (2026-09-06)** — todas compilan salvo lo señalado arriba:
 
@@ -179,7 +171,6 @@ Cada módulo expone `register_routes(app) -> Router` en `api_main/src/modules/`:
 - `shell.rs` — media compartida `/card_images`, `/card_audio` (vía `StorageRepository`; **no** depende de flashcards)
 - `flashcards.rs` — decks, generación/resolución de media, APIs de estudio
 - `payments.rs` — checkout y webhook LemonSqueezy (feature `subscriptions`)
-- `pronoun_practice.rs` — progreso, episodios, historias (andamiaje; crate ausente, ver §3.2)
 
 El shell registra siempre: `/api/health`, `/api/features`, tutor, notificaciones, auth (si feature activa), **y media estática compartida**.
 
@@ -195,9 +186,7 @@ generación invitada visible (`category=landing-demo`) conserva Gemini/ElevenLab
 `flashcards` (rama `dev-flashcards`) incluye `landing` + `dashboard` + `flashcards`. Detalle operativo:
 [`infrastructure/media-delivery-cache.md`](infrastructure/media-delivery-cache.md).
 
-`TutorUseCases` usa `Option<PronounPracticeRepository>` — sin módulo pronoun no hay acoplamiento a su DB.
-
-**Persistencia (ISP):** `SurrealConnection` comparte el cliente; cada puerto DB tiene su adapter (`SurrealUserRepository`, `SurrealCardProgressRepository`, `SurrealPronounRepository`, …) en `infrastructure/storage/surreal/`.
+**Persistencia (ISP):** `SurrealConnection` comparte el cliente; cada puerto DB tiene su adapter (`SurrealUserRepository`, `SurrealCardProgressRepository`, `SurrealSubscriptionRepository`, …) en `infrastructure/storage/surreal/`.
 
 **Batch CLI:** la lógica masiva de imágenes/audio vive en `mod_flashcards/src/batch/`; `main.rs` solo compone `ImageBatchContext` / `AudioBatchContext` y delega.
 
@@ -239,9 +228,7 @@ client/src/
         └── config/translations.js
 ```
 
-Los cuatro módulos de arriba son los que existen en disco. `pronounPractice/` está documentado en
-[`modules/pronoun.md`](modules/pronoun.md) pero **no está en este repositorio** (igual que su crate
-backend, §3.2): `modules/index.js` no lo carga y ningún flag lo enciende.
+Esos cuatro son los módulos del registry; `admin` vive en el shell (`client/src/pages/`).
 
 | Capa frontend | Equivalente backend | Responsabilidad |
 |---------------|---------------------|-----------------|
@@ -369,9 +356,7 @@ Flags que solo encienden features dentro del shell o de un módulo ya cargado �
 módulo del registry: `VITE_ENABLE_ADMIN` (rutas admin del shell),
 `VITE_ENABLE_APPLE_LOGIN` (opt-in; apagado, `/login` no pinta el botón **ni descarga el SDK de
 Apple** — requiere además `VITE_APPLE_CLIENT_ID`), `VITE_ENABLE_AUTH`,
-`VITE_ENABLE_SUBSCRIPTIONS`, `VITE_ENABLE_GRAMMAR`, `VITE_ENABLE_TESTS`, y
-`VITE_ENABLE_PRONOUN_REFERENCE` / `VITE_ENABLE_PRONOUN_PRACTICE` / `VITE_ENABLE_PRONOUN` (estos tres
-quedan sin efecto mientras el módulo `pronoun` no esté en el repositorio, §3.2).
+`VITE_ENABLE_SUBSCRIPTIONS`, `VITE_ENABLE_GRAMMAR` y `VITE_ENABLE_TESTS`.
 
 **Matriz verificada (2026-09-06)** — `npx vite build` con cada pieza desenchufada: completo, sin
 flashcards, sin dashboard, sin landing, sin pricing, y perfil admin (sin módulos de estudio). Las
@@ -398,10 +383,9 @@ seis construyen.
 ./scripts/sparse-module.sh list
 
 # Trabajar solo con pronombres (archivos de flashcards ausentes en disco)
-./scripts/sparse-module.sh pronoun
 
 # Trabajar con dos módulos
-./scripts/sparse-module.sh flashcards pronoun
+./scripts/sparse-module.sh flashcards admin
 
 # Restaurar repo completo
 ./scripts/sparse-module.sh full
@@ -410,14 +394,14 @@ seis construyen.
 ./scripts/export-module.sh flashcards
 
 # Validar compilación del módulo
-./scripts/validate-module.sh pronoun
+./scripts/validate-module.sh flashcards
 ```
 
 ### 5.3 Aislamiento para IA
 
-Tras `./scripts/sparse-module.sh pronoun`:
+Tras `./scripts/sparse-module.sh admin`:
 
-- **Existen:** `backend/core`, `api_main`, `mod_shell`, `mod_pronoun`, `client/src/modules/pronounPractice`, shell
+- **Existen:** `backend/core`, `api_main`, `mod_shell`, shell (incluidas las rutas admin)
 - **No existen:** `mod_flashcards`, `client/src/modules/flashcards`, `json/`
 
 Cursor y herramientas de indexación solo ven lo presente físicamente.

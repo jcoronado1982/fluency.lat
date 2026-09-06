@@ -35,7 +35,6 @@ const sharedFeatures = {
   aiEnabled: true,
   flashcards: import.meta.env.VITE_ENABLE_FLASHCARDS !== 'false',
   auth: import.meta.env.VITE_ENABLE_AUTH !== 'false',
-  pronounReference: import.meta.env.VITE_ENABLE_PRONOUN_REFERENCE !== 'false',
   admin: import.meta.env.VITE_ENABLE_ADMIN !== 'false',
   // Opt-in: apagado, `/login` no pinta el botón de Apple NI descarga su SDK. El botón estaba
   // comentado en el JSX, pero el `useEffect` que inyecta el script de `appleid.cdn-apple.com`
@@ -45,15 +44,12 @@ const sharedFeatures = {
 
   grammar: import.meta.env.VITE_ENABLE_GRAMMAR === 'true',
   tests: import.meta.env.VITE_ENABLE_TESTS === 'true',
-  pronounPractice:
-    import.meta.env.VITE_ENABLE_PRONOUN_PRACTICE === 'true' ||
-    import.meta.env.VITE_ENABLE_PRONOUN === 'true',
   pricing: pricingEnabled,
   payments: pricingEnabled,
   subscriptions: import.meta.env.VITE_ENABLE_SUBSCRIPTIONS !== 'false',
 };
 
-/** Módulo que abre en `/` (solo dominio). Ej: flashcards | pronoun */
+/** Módulo que abre en `/` (solo dominio). Ej: flashcards */
 const defaultModule = import.meta.env.VITE_DEFAULT_MODULE || 'flashcards';
 
 const config = {

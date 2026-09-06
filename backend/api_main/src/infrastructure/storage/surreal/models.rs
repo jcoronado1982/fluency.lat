@@ -1,4 +1,3 @@
-use crate::domain::models::story::StoryScreen;
 use crate::domain::models::user::CatalogPreferences;
 use crate::domain::models::user::User;
 use surrealdb::types::{Datetime, RecordId, RecordIdKey, SerdeWrapper, SurrealValue};
@@ -37,30 +36,6 @@ impl From<SurrealUser> for User {
             catalog_preferences: value.catalog_preferences.map(|w| w.0),
             created_at: value.created_at.into_inner(),
             last_login: value.last_login.into_inner(),
-        }
-    }
-}
-
-#[derive(SurrealValue)]
-pub struct SurrealStoryScreen {
-    pub id: RecordId,
-    pub episode_id: i32,
-    pub step_order: i32,
-    pub content: serde_json::Value,
-}
-
-impl From<SurrealStoryScreen> for StoryScreen {
-    fn from(value: SurrealStoryScreen) -> Self {
-        let numeric_id = match value.id.key {
-            RecordIdKey::Number(n) => n as i32,
-            RecordIdKey::String(s) => s.parse().unwrap_or(0),
-            _ => 0,
-        };
-        StoryScreen {
-            id: numeric_id,
-            episode_id: value.episode_id,
-            step_order: value.step_order,
-            content: value.content,
         }
     }
 }
@@ -154,56 +129,6 @@ mod tests {
         );
     }
 
-    #[test]
-    fn story_screen_reads_a_numeric_record_id_as_is() {
-        let surreal_screen = SurrealStoryScreen {
-            id: record("story_screens", RecordIdKey::Number(7)),
-            episode_id: 3,
-            step_order: 1,
-            content: serde_json::json!({"text": "hola"}),
-        };
-
-        let screen: StoryScreen = surreal_screen.into();
-
-        assert_eq!(screen.id, 7);
-        assert_eq!(screen.episode_id, 3);
-    }
-
-    #[test]
-    fn story_screen_parses_a_numeric_looking_string_id() {
-        let surreal_screen = SurrealStoryScreen {
-            id: record("story_screens", RecordIdKey::String("12".to_string())),
-            episode_id: 3,
-            step_order: 1,
-            content: serde_json::Value::Null,
-        };
-
-        let screen: StoryScreen = surreal_screen.into();
-
-        assert_eq!(screen.id, 12);
-    }
-
-    #[test]
-    fn story_screen_falls_back_to_zero_for_ids_it_cannot_interpret_as_a_number() {
-        let non_numeric_string = SurrealStoryScreen {
-            id: record(
-                "story_screens",
-                RecordIdKey::String("not-a-number".to_string()),
-            ),
-            episode_id: 3,
-            step_order: 1,
-            content: serde_json::Value::Null,
-        };
-        assert_eq!(<StoryScreen>::from(non_numeric_string).id, 0);
-
-        let uuid_key = SurrealStoryScreen {
-            id: record("story_screens", RecordIdKey::Uuid(Default::default())),
-            episode_id: 3,
-            step_order: 1,
-            content: serde_json::Value::Null,
-        };
-        assert_eq!(<StoryScreen>::from(uuid_key).id, 0);
-    }
 }
 
 #[derive(SurrealValue)]

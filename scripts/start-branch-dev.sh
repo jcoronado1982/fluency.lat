@@ -15,18 +15,13 @@ case "$BRANCH" in
     SPARSE_MODULES=(landing dashboard flashcards)
     FEATURES="auth,flashcards"
     ;;
-  dev-pronoun)
-    PROFILE=pronoun
-    SPARSE_MODULES=(pronoun)
-    FEATURES="auth,pronoun_practice"
-    ;;
   dev-full)
     PROFILE=full
     SPARSE_MODULES=()
-    FEATURES="auth,flashcards,pronoun_practice"
+    FEATURES="auth,flashcards"
     ;;
   *)
-    echo "Uso: $0 dev-admin|dev-flashcards|dev-pronoun|dev-full" >&2
+    echo "Uso: $0 dev-admin|dev-flashcards|dev-full" >&2
     exit 1
     ;;
 esac
@@ -95,10 +90,6 @@ start_dev_databases() {
     fi
   done
   echo "✅ Bases de datos listas."
-
-  if [[ "$PROFILE" == "pronoun" ]] && [[ -f "$ROOT/infra/proxy/seed-pronoun-practice.sh" ]]; then
-    bash "$ROOT/infra/proxy/seed-pronoun-practice.sh"
-  fi
 }
 
 start_dev_databases

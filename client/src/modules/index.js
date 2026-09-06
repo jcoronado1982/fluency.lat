@@ -112,16 +112,9 @@ export function getModuleNavSections(config, context) {
 function getOnboardingRegistry(language = 'en') {
   void language;
 
-  return [
-    // Futuro:
-    // {
-    //   id: 'pronoun',
-    //   enabled: (config, user) => config.features.pronounPractice && userHasModule(user, 'pronoun'),
-    //   path: () => '/pronoun-practice',
-    //   name: 'Pronouns',
-    //   description: '...'
-    // }
-  ];
+  // Vacío a propósito: los módulos exponen su onboarding por manifest (`module.onboarding`).
+  // Este registro paralelo existe para entradas que no son un módulo del registry.
+  return [];
 }
 
 export function getOnboardingModules(config, context = {}) {

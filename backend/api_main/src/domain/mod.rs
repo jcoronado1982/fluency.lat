@@ -5,9 +5,9 @@ pub mod repositories {
     pub use fluency_core::ports::audio;
     pub use fluency_core::ports::db_repository;
     pub use fluency_core::ports::geo_ip;
-    #[cfg(any(feature = "flashcards", feature = "pronoun_practice"))]
+    #[cfg(feature = "flashcards")]
     pub use fluency_core::ports::image;
-    #[cfg(any(feature = "flashcards", feature = "pronoun_practice"))]
+    #[cfg(feature = "flashcards")]
     pub use fluency_core::ports::image_compressor;
     pub use fluency_core::ports::media_delivery;
     #[cfg(feature = "payments")]

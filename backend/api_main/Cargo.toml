@@ -58,7 +58,6 @@ proptest.workspace = true
 # (`cargo check -p api_main --no-default-features --features flashcards,auth`).
 default = ["flashcards", "auth", "subscriptions"]
 flashcards = ["mod_flashcards"]
-pronoun_practice = []
 auth = []
 payments = []
 subscriptions = ["payments"]

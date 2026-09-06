@@ -26,7 +26,6 @@ Guaranteed target: a client can purchase only a subset of modules, and the appli
 | `pricing` | `pricing` | `VITE_ENABLE_PAYMENTS` → public `/pricing` and `/checkout` |
 | `dashboard` | `dashboard` | `VITE_ENABLE_DASHBOARD` (opt-out, default on) → `/dashboard` post-login |
 | `flashcards` | `flashcards` | `VITE_DEFAULT_MODULE=flashcards` (default) → `/flashcard` if landing exists |
-| `pronoun` | `pronoun` | `VITE_DEFAULT_MODULE=pronoun` |
 
 ### Routes (With active landing + dashboard)
 
@@ -38,7 +37,6 @@ Guaranteed target: a client can purchase only a subset of modules, and the appli
 | `/login` | Public | Google Login |
 | `/dashboard` | Authenticated | **Dashboard Home** — hub with access to modules |
 | `/flashcard` | Authenticated | Flashcards module (inside shell) |
-| `/pronoun-practice`, etc. | Authenticated | Other study modules |
 
 **Post-login:** `getAuthenticatedHomePath()` → `/dashboard` (if dashboard module is on disk and `VITE_ENABLE_DASHBOARD !== 'false'`). If no dashboard, falls back to default module (`/flashcard` or `/` per flags).
 
@@ -52,17 +50,17 @@ Each module has its own documentation in `docs/modules/` (step 3 of reading prot
 | `pricing` | [docs/modules/pricing.md](../docs/modules/pricing.md) | — | `VITE_ENABLE_PAYMENTS` (opt-out) | Public pricing and checkout |
 | `dashboard` | [docs/modules/dashboard.md](../docs/modules/dashboard.md) | — | `VITE_ENABLE_DASHBOARD` (opt-out) | Authenticated shell + **home** at `/dashboard` |
 | `flashcards` | [docs/modules/flashcards.md](../docs/modules/flashcards.md) | `flashcards` | `VITE_ENABLE_FLASHCARDS` (opt-out) | Flashcards with progress, AVIF images, and Opus audio |
-| `pronoun` ⚠️ | [docs/modules/pronoun.md](../docs/modules/pronoun.md) | `pronoun_practice` | `VITE_ENABLE_PRONOUN_REFERENCE` + `VITE_ENABLE_PRONOUN_PRACTICE` | Pronoun reference and guided practice — **code not present in this repository** (see below) |
 | `admin` | [docs/modules/admin.md](../docs/modules/admin.md) | `auth` | `VITE_ENABLE_ADMIN` (opt-out) | Admin panel and presence (sparse profile without study modules); lives in the shell (`client/src/pages/`), not in `client/src/modules/` |
 
-> ⚠️ **`pronoun` is documented but not present.** Neither `backend/mod_pronoun/` (crate
-> `pronoun_practice`) nor `client/src/modules/pronounPractice/` exist on disk, in the workspace
-> members, or in the history of any branch of this repository — this is not sparse-checkout.
-> The backend scaffolding that would host it (`api_main/src/modules/pronoun_practice.rs`, its
-> endpoints, DTOs and mappers) is still in place, waiting for the crate; enabling the
-> `pronoun_practice` feature emits an explanatory `compile_error!` instead of a resolution error.
-> `VITE_ENABLE_PRONOUN_*` flags resolve to features that no registry module consumes.
-> Verified 2026-09-06. Restoring or retiring the module is a pending decision.
+> **`pronoun` was retired on 2026-09-06.** Its code (`backend/mod_pronoun/`, crate
+> `pronoun_practice`, and `client/src/modules/pronounPractice/`) existed in no branch of this
+> repository, so the module could never be built. The orphaned scaffolding it left behind was
+> removed: the `pronoun_practice` Cargo feature and its route/endpoint/DTO/mapper files, the
+> `PronounPracticeRepository` port with its Surreal and null adapters, the `story` domain model,
+> the registry entries and sparse patterns, the `VITE_ENABLE_PRONOUN_*` flags, and the seed
+> scripts. The design blueprint is kept at [docs/archive/pronoun.md](../docs/archive/pronoun.md).
+> The `pronouns` **flashcard category** (decks, images, audio, deck ordering) is unrelated study
+> content and was left untouched.
 
 **Verified plug/unplug matrix (2026-09-06)** — this is the guarantee the table above promises:
 
@@ -83,10 +81,9 @@ Media generation tooling (not a registry module): [docs/modules/media-generation
 ./scripts/sparse-module.sh landing             # shell + landing only
 ./scripts/sparse-module.sh pricing             # shell + pricing only
 ./scripts/sparse-module.sh dashboard           # shell + dashboard (no landing or study)
-./scripts/sparse-module.sh pronoun              # shell + pronoun only
 ./scripts/sparse-module.sh flashcards           # shell + flashcards only
 ./scripts/sparse-module.sh admin                # shell + admin only
-./scripts/sparse-module.sh flashcards pronoun   # both modules
+./scripts/sparse-module.sh flashcards admin      # two modules
 ./scripts/sparse-module.sh full                 # full repository
 ./scripts/sparse-module.sh status               # check active profile
 ```

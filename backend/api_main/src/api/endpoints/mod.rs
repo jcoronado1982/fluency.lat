@@ -12,8 +12,6 @@ pub mod personal_words;
 pub mod notifications;
 pub mod tutor;
 
-#[cfg(feature = "pronoun_practice")]
-pub mod pronoun_practice;
 
 #[cfg(feature = "auth")]
 pub mod auth;

@@ -12,7 +12,7 @@ Uso:
   ./scripts/export-module.sh <modulo> [salida.tar.gz]
 
 Ejemplos:
-  ./scripts/export-module.sh pronoun
+  ./scripts/export-module.sh flashcards
   ./scripts/export-module.sh flashcards /tmp/flashcards-module.tar.gz
 EOF
 }

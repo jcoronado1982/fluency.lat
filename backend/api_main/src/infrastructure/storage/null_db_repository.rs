@@ -1,6 +1,5 @@
 use crate::domain::models::feedback::DemoFeedback;
 use crate::domain::models::srs::{CardProgressUpdate, SrsReviewCandidate};
-use crate::domain::models::story::{ProgressUpdate, StoryScreen, UserProgress};
 use crate::domain::models::subscription::Subscription;
 use crate::domain::models::user::{CatalogPreferences, User};
 use crate::domain::models::user_activity::{
@@ -8,7 +7,7 @@ use crate::domain::models::user_activity::{
 };
 use crate::domain::repositories::db_repository::{
     CardProgressRepository, DailyStatsRepository, DemoFeedbackRepository,
-    PronounPracticeRepository, SubscriptionRepository, UserActivityRepository, UserRepository,
+    SubscriptionRepository, UserActivityRepository, UserRepository,
 };
 use anyhow::{anyhow, Result};
 use async_trait::async_trait;
@@ -18,78 +17,6 @@ use async_trait::async_trait;
 /// return errors gracefully instead of crashing the process.
 pub struct NullDbRepository;
 
-#[async_trait]
-impl PronounPracticeRepository for NullDbRepository {
-    async fn log_user_error(
-        &self,
-        _user_id: &str,
-        _story_id: i32,
-        _screen_id: i32,
-        _user_input: &str,
-        _correct_answer: &str,
-        _error_type: &str,
-        _explanation: &str,
-    ) -> Result<()> {
-        Ok(())
-    }
-
-    async fn get_progress(&self, _user_id: &str, _story_id: i32) -> Result<Option<UserProgress>> {
-        Ok(None)
-    }
-
-    async fn create_progress(
-        &self,
-        _user_id: &str,
-        _story_id: i32,
-        _episode_id: i32,
-    ) -> Result<UserProgress> {
-        Err(anyhow!("DB no disponible en este entorno"))
-    }
-
-    async fn update_progress(&self, _update: ProgressUpdate) -> Result<UserProgress> {
-        Err(anyhow!("DB no disponible en este entorno"))
-    }
-
-    async fn reset_progress(&self, _user_id: &str, _story_id: i32) -> Result<()> {
-        Ok(())
-    }
-
-    async fn get_story_title(&self, story_id: i32) -> Result<String> {
-        Ok(format!("Story {}", story_id))
-    }
-
-    async fn get_episode_title(&self, episode_id: i32) -> Result<String> {
-        Ok(format!("Episode {}", episode_id))
-    }
-
-    async fn get_first_episode_id(&self, _story_id: i32) -> Result<i32> {
-        Err(anyhow!("DB no disponible en este entorno"))
-    }
-
-    async fn get_next_episode_id(&self, _current_episode_id: i32) -> Result<Option<i32>> {
-        Ok(None)
-    }
-
-    async fn get_episode_screens(&self, _episode_id: i32) -> Result<Vec<StoryScreen>> {
-        Ok(vec![])
-    }
-
-    async fn update_screen_content(
-        &self,
-        _screen_id: i32,
-        _content: serde_json::Value,
-    ) -> Result<()> {
-        Ok(())
-    }
-
-    async fn get_story_full_history(&self, _story_id: i32) -> Result<serde_json::Value> {
-        Ok(serde_json::json!([]))
-    }
-
-    async fn get_episodes_by_story(&self, _story_id: i32) -> Result<Vec<(i32, String)>> {
-        Ok(vec![])
-    }
-}
 
 #[async_trait]
 impl CardProgressRepository for NullDbRepository {
@@ -369,33 +296,7 @@ mod tests {
         }
     }
 
-    #[tokio::test]
-    async fn pronoun_practice_reads_degrade_to_empty_and_writes_fail_explicitly() {
-        let repo = repo();
-        assert!(repo.get_progress("guest", 1).await.unwrap().is_none());
-        assert_eq!(repo.get_next_episode_id(1).await.unwrap(), None);
-        assert!(repo.get_episode_screens(1).await.unwrap().is_empty());
-        assert_eq!(repo.get_episodes_by_story(1).await.unwrap(), vec![]);
-        assert_eq!(repo.reset_progress("guest", 1).await.unwrap(), ());
-        assert_eq!(repo.get_story_title(7).await.unwrap(), "Story 7");
-        assert_eq!(repo.get_episode_title(7).await.unwrap(), "Episode 7");
-
-        assert!(repo.create_progress("guest", 1, 1).await.is_err());
-        assert!(repo
-            .update_progress(ProgressUpdate {
-                user_id: "guest".to_string(),
-                story_id: 1,
-                current_episode_id: 1,
-                current_step_order: 0,
-                score_increment: 0,
-                status: "in_progress".to_string(),
-            })
-            .await
-            .is_err());
-        assert!(repo.get_first_episode_id(1).await.is_err());
-    }
-
-    #[tokio::test]
+        #[tokio::test]
     async fn card_progress_reads_are_empty_and_writes_are_ok() {
         let repo = repo();
         assert_eq!(

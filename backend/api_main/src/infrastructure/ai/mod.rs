@@ -1,8 +1,8 @@
-#[cfg(any(feature = "flashcards", feature = "pronoun_practice"))]
+#[cfg(feature = "flashcards")]
 pub mod avif_compressor;
-#[cfg(any(feature = "flashcards", feature = "pronoun_practice"))]
+#[cfg(feature = "flashcards")]
 pub mod comfy_provider;
-#[cfg(any(feature = "flashcards", feature = "pronoun_practice"))]
+#[cfg(feature = "flashcards")]
 pub mod compress;
 #[cfg(feature = "flashcards")]
 pub mod elevenlabs_tts_provider;

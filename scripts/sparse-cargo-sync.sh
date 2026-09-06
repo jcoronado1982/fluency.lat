@@ -38,14 +38,7 @@ sparse_patch_api_main() {
     sed -i 's/default = \["auth", "flashcards"\]/default = ["auth"]/' "$tmp"
   fi
 
-  if ! module_selected_contains pronoun "${modules[@]}"; then
-    sed -i '/^pronoun_practice = /d' "$tmp"
-  fi
-
-  if module_selected_contains pronoun "${modules[@]}" \
-    && ! module_selected_contains flashcards "${modules[@]}"; then
-    sed -i 's/default = \["flashcards", "auth"\]/default = ["auth", "pronoun_practice"]/' "$tmp"
-  elif module_selected_contains admin "${modules[@]}" \
+  if module_selected_contains admin "${modules[@]}" \
     && [[ "${#modules[@]}" -eq 1 ]]; then
     sed -i 's/default = \["flashcards", "auth"\]/default = ["auth"]/' "$tmp"
   fi

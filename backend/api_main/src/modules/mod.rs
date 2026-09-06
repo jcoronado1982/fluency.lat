@@ -6,8 +6,6 @@ use crate::AppState;
 mod flashcards;
 #[cfg(feature = "subscriptions")]
 mod payments;
-#[cfg(feature = "pronoun_practice")]
-mod pronoun_practice;
 mod shell;
 
 pub fn register_routes(app: Router<AppState>) -> Router<AppState> {
@@ -19,11 +17,6 @@ pub fn register_routes(app: Router<AppState>) -> Router<AppState> {
     #[cfg(feature = "flashcards")]
     {
         app = flashcards::register_routes(app);
-    }
-
-    #[cfg(feature = "pronoun_practice")]
-    {
-        app = pronoun_practice::register_routes(app);
     }
 
     #[cfg(feature = "subscriptions")]

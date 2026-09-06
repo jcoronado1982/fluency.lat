@@ -2,7 +2,6 @@ pub mod feedback;
 pub mod flashcard;
 pub mod onboarding;
 pub mod srs;
-pub mod story;
 pub mod subscription;
 pub mod tutor;
 pub mod user;

@@ -1,6 +1,5 @@
 use crate::domain::models::feedback::DemoFeedback;
 use crate::domain::models::srs::{CardProgressUpdate, SrsReviewCandidate};
-use crate::domain::models::story::{ProgressUpdate, StoryScreen, UserProgress};
 use crate::domain::models::subscription::Subscription;
 use crate::domain::models::user::{CatalogPreferences, User};
 use crate::domain::models::user_activity::{
@@ -155,37 +154,3 @@ pub trait DemoFeedbackRepository: Send + Sync {
     async fn feedback_summary(&self) -> Result<(f64, u32)>;
 }
 
-#[async_trait]
-pub trait PronounPracticeRepository: Send + Sync {
-    async fn log_user_error(
-        &self,
-        user_id: &str,
-        story_id: i32,
-        screen_id: i32,
-        user_input: &str,
-        correct_answer: &str,
-        error_type: &str,
-        explanation: &str,
-    ) -> Result<()>;
-
-    async fn get_progress(&self, user_id: &str, story_id: i32) -> Result<Option<UserProgress>>;
-    async fn create_progress(
-        &self,
-        user_id: &str,
-        story_id: i32,
-        episode_id: i32,
-    ) -> Result<UserProgress>;
-    async fn update_progress(&self, update: ProgressUpdate) -> Result<UserProgress>;
-    async fn reset_progress(&self, user_id: &str, story_id: i32) -> Result<()>;
-
-    async fn get_story_title(&self, story_id: i32) -> Result<String>;
-    async fn get_episode_title(&self, episode_id: i32) -> Result<String>;
-    async fn get_first_episode_id(&self, story_id: i32) -> Result<i32>;
-    async fn get_next_episode_id(&self, current_episode_id: i32) -> Result<Option<i32>>;
-
-    async fn get_episode_screens(&self, episode_id: i32) -> Result<Vec<StoryScreen>>;
-    async fn update_screen_content(&self, screen_id: i32, content: serde_json::Value)
-        -> Result<()>;
-    async fn get_story_full_history(&self, story_id: i32) -> Result<serde_json::Value>;
-    async fn get_episodes_by_story(&self, story_id: i32) -> Result<Vec<(i32, String)>>;
-}

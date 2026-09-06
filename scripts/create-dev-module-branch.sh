@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Crea o actualiza una rama dev-* con solo los archivos del perfil modular indicado.
-# Uso: ./scripts/create-dev-module-branch.sh admin|flashcards|pronoun [rama-base]
+# Uso: ./scripts/create-dev-module-branch.sh admin|flashcards [rama-base]
 #
 # dev-full NO se modifica: trabaja desde una rama temporal o la base que indiques.
 set -euo pipefail
@@ -14,7 +14,7 @@ source "$ROOT/scripts/module_registry.sh"
 usage() {
   cat <<'EOF'
 Uso:
-  ./scripts/create-dev-module-branch.sh admin|flashcards|pronoun [rama-base]
+  ./scripts/create-dev-module-branch.sh admin|flashcards [rama-base]
 
 Crea la rama dev-* pareada al perfil sparse y commitea:
   - archivos podados (solo shell + módulo activo)
@@ -25,7 +25,6 @@ Crea la rama dev-* pareada al perfil sparse y commitea:
 Ramas resultantes:
   admin      → dev-admin      (solo shell + admin/auth)
   flashcards → dev-flashcards (shell + landing + dashboard + flashcards)
-  pronoun    → dev-pronoun    (shell + admin + pronoun)
 
 No toca dev-full. Ejecutar primero desde temp/setup-module-branches.
 EOF
@@ -39,10 +38,6 @@ case "$PROFILE" in
   flashcards)
     BRANCH="dev-flashcards"
     MODULES=(landing dashboard flashcards)
-    ;;
-  pronoun)
-    BRANCH="dev-pronoun"
-    MODULES=(pronoun)
     ;;
   *)
     usage
@@ -72,7 +67,7 @@ fi
 sparse_git_rm_inactive_modules() {
   local active=("$@")
   local module path
-  for module in flashcards pronoun; do
+  for module in flashcards; do
     if module_selected_contains "$module" "${active[@]}"; then
       continue
     fi

@@ -17,14 +17,12 @@ Uso:
 
 Perfiles:
   flashcards   shell + modulo flashcards
-  pronoun      shell + modulo pronoun
   admin        shell + panel admin (sin modulos de estudio)
   full         repo completo
 
 Ejemplos:
-  ./scripts/sparse-module.sh pronoun
   ./scripts/sparse-module.sh flashcards
-  ./scripts/sparse-module.sh flashcards pronoun
+  ./scripts/sparse-module.sh flashcards admin
   ./scripts/sparse-module.sh admin
   ./scripts/sparse-module.sh full
 

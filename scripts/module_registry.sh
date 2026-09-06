@@ -7,7 +7,6 @@ MODULE_NAMES=(
   pricing
   dashboard
   flashcards
-  pronoun
   admin
 )
 
@@ -28,7 +27,6 @@ module_description() {
     pricing) echo "Precios y checkout publico (modulo frontend de pagos)" ;;
     dashboard) echo "Shell autenticado: sidebar, header, footer y menu flotante" ;;
     flashcards) echo "Flashcards base con imagenes/audio AVIF/Opus y progreso" ;;
-    pronoun) echo "Referencia y practica guiada de pronombres" ;;
     admin) echo "Panel admin, auth y presencia (shell sin modulos de estudio)" ;;
     *) return 1 ;;
   esac
@@ -40,7 +38,6 @@ module_backend_feature() {
     pricing) echo "" ;;
     dashboard) echo "" ;;
     flashcards) echo "flashcards" ;;
-    pronoun) echo "pronoun_practice" ;;
     admin) echo "auth" ;;
     *) return 1 ;;
   esac
@@ -88,11 +85,6 @@ module_frontend_flag() {
     pricing) echo "VITE_ENABLE_PAYMENTS=true" ;;
     dashboard) echo "VITE_ENABLE_DASHBOARD=true" ;;
     flashcards) echo "VITE_ENABLE_FLASHCARDS=true" ;;
-    pronoun)
-      printf '%s\n' \
-        "VITE_ENABLE_PRONOUN_REFERENCE=true" \
-        "VITE_ENABLE_PRONOUN_PRACTICE=true"
-      ;;
     admin) echo "VITE_ENABLE_ADMIN=true" ;;
     *) return 1 ;;
   esac
@@ -110,10 +102,6 @@ module_default_home_multi() {
         echo "flashcards"
         return 0
         ;;
-      pronoun)
-        echo "pronoun"
-        return 0
-        ;;
     esac
   done
   echo "flashcards"
@@ -125,11 +113,6 @@ module_frontend_disable_flag() {
     pricing) echo "VITE_ENABLE_PAYMENTS=false" ;;
     dashboard) echo "VITE_ENABLE_DASHBOARD=false" ;;
     flashcards) echo "VITE_ENABLE_FLASHCARDS=false" ;;
-    pronoun)
-      printf '%s\n' \
-        "VITE_ENABLE_PRONOUN_REFERENCE=false" \
-        "VITE_ENABLE_PRONOUN_PRACTICE=false"
-      ;;
     admin) echo "VITE_ENABLE_ADMIN=false" ;;
     *) return 1 ;;
   esac
@@ -247,16 +230,8 @@ card_images
 card_audio
 EOF
       ;;
-    pronoun)
-      cat <<'EOF'
-backend/mod_pronoun
-client/src/modules/pronounPractice
-infra/seed
-infra/proxy/seed-pronoun-practice.sh
-EOF
-      ;;
     admin)
-      # Admin vive en el shell; sin mod_flashcards ni mod_pronoun
+      # Admin vive en el shell; sin modulos de estudio
       return 0
       ;;
     *)
@@ -295,13 +270,6 @@ module_disk_paths() {
         card_images \
         card_audio
       ;;
-    pronoun)
-      printf '%s\n' \
-        backend/mod_pronoun \
-        client/src/modules/pronounPractice \
-        infra/seed \
-        infra/proxy/seed-pronoun-practice.sh
-      ;;
     *) return 1 ;;
   esac
 }
@@ -314,7 +282,6 @@ module_workspace_members() {
   for module in "${modules[@]}"; do
     case "$module" in
       flashcards) members+=('"mod_flashcards"') ;;
-      pronoun) members+=('"mod_pronoun"') ;;
     esac
   done
   local IFS=', '

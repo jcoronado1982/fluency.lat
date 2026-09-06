@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # Cambia a la rama dev-<módulo> y activa el sparse-checkout pareado.
-# Uso: ./scripts/dev-module.sh flashcards|pronoun|admin|full
+# Uso: ./scripts/dev-module.sh flashcards|admin|full
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 MODULE="${1:-}"
 
 if [[ -z "$MODULE" ]]; then
-  echo "Uso: $0 flashcards|pronoun|admin|full"
+  echo "Uso: $0 flashcards|admin|full"
   exit 1
 fi
 
@@ -16,7 +16,7 @@ case "$MODULE" in
     BRANCH="dev-full"
     sparse_profile="full"
     ;;
-  flashcards|pronoun|admin)
+  flashcards|admin)
     BRANCH="dev-${MODULE}"
     sparse_profile="$MODULE"
     ;;

@@ -65,7 +65,7 @@ If the module doc is outdated relative to code: code rules, and **you update the
 ## The Complete Building (Even If You Don't See All Floors)
 
 The system ALWAYS contains these modules, whether on your disk or not: `landing`, `pricing`,
-`dashboard`, `flashcards`, `pronoun`, `admin` + the shell. Git sparse-checkout hides or materializes
+`dashboard`, `flashcards`, `admin` + the shell. Git sparse-checkout hides or materializes
 versioned files without authorizing the deletion of local, ignored, or unversioned files.
 That is why profiles are never changed without authorization. Their blueprints remain in `docs/modules/`.
 

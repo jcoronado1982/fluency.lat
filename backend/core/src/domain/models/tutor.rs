@@ -7,6 +7,4 @@ pub struct TutorRequest {
     pub context_spanish: String,
     pub original_explanation: Option<String>,
     pub user_id: Option<String>,
-    pub story_id: Option<i32>,
-    pub screen_id: Option<i32>,
 }

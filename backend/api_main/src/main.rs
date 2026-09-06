@@ -21,15 +21,6 @@ compile_error!(
      Compilá con `--features auth,<módulos>` (ej. `--no-default-features --features auth,flashcards`)."
 );
 
-// El crate `pronoun_practice` (`backend/mod_pronoun/`) NO está en este repositorio: no figura en
-// los miembros del workspace ni en el historial de ninguna rama. El andamiaje del módulo
-// (`modules/pronoun_practice.rs`, endpoints, DTOs, mappers) sí está, a la espera del crate.
-#[cfg(feature = "pronoun_practice")]
-compile_error!(
-    "La feature `pronoun_practice` requiere el crate `pronoun_practice` (`backend/mod_pronoun/`), \
-     que no está presente en este repositorio. Ver `modules/README.md`."
-);
-
 use axum::{
     http::HeaderValue,
     routing::{get, post},
@@ -50,12 +41,12 @@ use crate::config::Settings;
 use crate::domain::repositories::audio::AudioGenerator;
 use crate::domain::repositories::db_repository::{
     CardProgressRepository, DailyStatsRepository, DemoFeedbackRepository,
-    PronounPracticeRepository, SubscriptionRepository, UserActivityRepository, UserRepository,
+    SubscriptionRepository, UserActivityRepository, UserRepository,
 };
 use crate::domain::repositories::geo_ip::GeoIpLookup;
-#[cfg(any(feature = "flashcards", feature = "pronoun_practice"))]
+#[cfg(feature = "flashcards")]
 use crate::domain::repositories::image::ImageGenerator;
-#[cfg(any(feature = "flashcards", feature = "pronoun_practice"))]
+#[cfg(feature = "flashcards")]
 use crate::domain::repositories::image_compressor::ImageCompressor;
 use crate::domain::repositories::media_delivery::MediaDeliveryProvider;
 #[cfg(feature = "payments")]
@@ -63,9 +54,9 @@ use crate::domain::repositories::payment::PaymentProvider;
 use crate::domain::repositories::storage::StorageRepository;
 use crate::domain::repositories::token_verifier::TokenVerifier;
 use crate::domain::repositories::tutor::AITutor;
-#[cfg(any(feature = "flashcards", feature = "pronoun_practice"))]
+#[cfg(feature = "flashcards")]
 use crate::infrastructure::ai::avif_compressor::AvifCompressor;
-#[cfg(any(feature = "flashcards", feature = "pronoun_practice"))]
+#[cfg(feature = "flashcards")]
 use crate::infrastructure::ai::comfy_provider::ComfyUIProvider;
 // #[cfg(feature = "flashcards")]
 // use crate::infrastructure::ai::elevenlabs_tts_provider::ElevenLabsTtsProvider;
@@ -85,7 +76,7 @@ use crate::infrastructure::storage::local_repository::LocalStorageRepository;
 use crate::infrastructure::storage::null_db_repository::NullDbRepository;
 use crate::infrastructure::storage::surreal::{
     SurrealCardProgressRepository, SurrealConnection, SurrealDailyStatsRepository,
-    SurrealDemoFeedbackRepository, SurrealPronounRepository, SurrealSubscriptionRepository,
+    SurrealDemoFeedbackRepository, SurrealSubscriptionRepository,
     SurrealUserActivityRepository, SurrealUserRepository,
 };
 #[cfg(feature = "flashcards")]
@@ -112,8 +103,6 @@ use mod_shell::presence_use_cases::PresenceUseCases;
 #[cfg(feature = "subscriptions")]
 use mod_shell::subscription_use_cases::SubscriptionUseCases;
 use mod_shell::tutor_use_cases::TutorUseCases;
-#[cfg(feature = "pronoun_practice")]
-use pronoun_practice::StoryUseCases;
 
 /// Application state exposed to HTTP handlers.
 /// Only contains use-case facades and shared infrastructure primitives
@@ -135,8 +124,6 @@ pub struct AppState {
     pub image_use_cases: Arc<ImageUseCases>,
     #[cfg(feature = "flashcards")]
     pub card_creation_use_cases: Arc<CardCreationUseCases>,
-    #[cfg(feature = "pronoun_practice")]
-    pub pronoun_practice_use_cases: Arc<StoryUseCases>,
     #[cfg(feature = "auth")]
     pub auth_use_cases: Arc<AuthUseCases>,
     #[cfg(feature = "auth")]
@@ -328,7 +315,6 @@ async fn async_main() -> anyhow::Result<()> {
         user_repo,
         sub_repo,
         card_repo,
-        story_repo,
         activity_repo,
         daily_stats_repo,
         demo_feedback_repo,
@@ -336,7 +322,6 @@ async fn async_main() -> anyhow::Result<()> {
         Arc<dyn UserRepository>,
         Arc<dyn SubscriptionRepository>,
         Arc<dyn CardProgressRepository>,
-        Arc<dyn PronounPracticeRepository>,
         Arc<dyn UserActivityRepository>,
         Arc<dyn DailyStatsRepository>,
         Arc<dyn DemoFeedbackRepository>,
@@ -351,8 +336,6 @@ async fn async_main() -> anyhow::Result<()> {
                     as Arc<dyn SubscriptionRepository>,
                 Arc::new(SurrealCardProgressRepository(conn.clone()))
                     as Arc<dyn CardProgressRepository>,
-                Arc::new(SurrealPronounRepository(conn.clone()))
-                    as Arc<dyn PronounPracticeRepository>,
                 Arc::new(SurrealUserActivityRepository::new(conn.clone()))
                     as Arc<dyn UserActivityRepository>,
                 Arc::new(SurrealDailyStatsRepository(conn.clone()))
@@ -369,7 +352,6 @@ async fn async_main() -> anyhow::Result<()> {
             );
             let repo = Arc::new(NullDbRepository);
             (
-                repo.clone(),
                 repo.clone(),
                 repo.clone(),
                 repo.clone(),
@@ -400,7 +382,7 @@ async fn async_main() -> anyhow::Result<()> {
     */
     #[cfg(feature = "flashcards")]
     tracing::info!("🎙️ Landing demo TTS: usando Gemini TTS (gemini-2.5-flash-preview-tts)");
-    #[cfg(any(feature = "flashcards", feature = "pronoun_practice"))]
+    #[cfg(feature = "flashcards")]
     let image_gen: Arc<dyn ImageGenerator> = Arc::new(ComfyUIProvider::new(&settings));
     #[cfg(feature = "flashcards")]
     let landing_demo_image_gen: Arc<dyn ImageGenerator> =
@@ -411,7 +393,7 @@ async fn async_main() -> anyhow::Result<()> {
             &settings,
             "gemini-3.1-flash-lite-image",
         )) as Arc<dyn ImageGenerator>);
-    #[cfg(any(feature = "flashcards", feature = "pronoun_practice"))]
+    #[cfg(feature = "flashcards")]
     let image_compressor: Arc<dyn ImageCompressor> = Arc::new(AvifCompressor);
 
     // 1000 slots: soporte para ráfagas de imágenes generadas en batch sin perder eventos SSE.
@@ -440,11 +422,7 @@ async fn async_main() -> anyhow::Result<()> {
         image_ai_enabled: settings.image_ai_enabled,
         is_production: settings.is_production,
     });
-    #[cfg(feature = "pronoun_practice")]
-    let tutor_db_repo = Some(story_repo.clone());
-    #[cfg(not(feature = "pronoun_practice"))]
-    let tutor_db_repo = None;
-    let tutor_use_cases = Arc::new(TutorUseCases::new(ai_tutor.clone(), tutor_db_repo));
+    let tutor_use_cases = Arc::new(TutorUseCases::new(ai_tutor.clone()));
     let demo_feedback_use_cases = Arc::new(DemoFeedbackUseCases::new(demo_feedback_repo.clone()));
     #[cfg(feature = "flashcards")]
     let audio_use_cases = Arc::new(AudioUseCases::new(
@@ -471,18 +449,6 @@ async fn async_main() -> anyhow::Result<()> {
         audio_use_cases.clone(),
         deck_use_cases.clone(),
     ));
-    #[cfg(feature = "pronoun_practice")]
-    let pronoun_practice_use_cases = Arc::new(StoryUseCases::new(
-        story_repo.clone(),
-        Some(image_gen.clone()),
-        Some(image_compressor.clone()),
-        Some(ai_tutor.clone()),
-        Some(storage_repo.clone()),
-        Some(notification_sender.clone()),
-        settings.gcs_images_prefix.clone(),
-        settings.public_base_url.clone(),
-    ));
-
     let local_agent_use_cases = Arc::new(LocalAgentUseCases::new(local_agent_settings(&settings)));
 
     #[cfg(feature = "auth")]
@@ -541,8 +507,6 @@ async fn async_main() -> anyhow::Result<()> {
         image_use_cases,
         #[cfg(feature = "flashcards")]
         card_creation_use_cases,
-        #[cfg(feature = "pronoun_practice")]
-        pronoun_practice_use_cases,
         #[cfg(feature = "auth")]
         auth_use_cases,
         #[cfg(feature = "auth")]

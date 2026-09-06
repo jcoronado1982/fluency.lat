@@ -11,13 +11,10 @@ backend/
 ├── core/            ← fluency_core: domain (models/) + ports (ports/) — ZERO infra dependencies
 ├── mod_shell/       ← shell use cases: auth (OAuth→JWT), tutor, presence, subscriptions, daily_stats, local_agent
 ├── mod_flashcards/  ← DeckUseCases + audio/image use cases + batch  (feature `flashcards`)
-├── mod_pronoun/     ← StoryUseCases (crate `pronoun_practice`) — ⚠️ NOT PRESENT in this repository
-│                       (not a sparse profile: absent from workspace members and from every branch's
-│                        history). See `modules/README.md`.
 └── api_main/        ← composition root:
     ├── src/main.rs             adapter wiring + shell routes
     ├── src/config.rs           Settings (env vars)
-    ├── src/modules/            route registration PER module (flashcards.rs, pronoun_practice.rs, shell.rs)
+    ├── src/modules/            route registration PER module (flashcards.rs, payments.rs, shell.rs)
     ├── src/api/endpoints/      HTTP handlers (thin: map HTTP ↔ use cases)
     └── src/infrastructure/     adapters: SurrealDB, storage, media_delivery, ai/ (Gemini gRPC, TTS, stable-diffusion.cpp, llama.cpp, AVIF)
 ```
@@ -29,7 +26,6 @@ backend/
 | Feature | Activates |
 |---|---|
 | `flashcards` (default) | mod_flashcards + decks/generation endpoints |
-| `pronoun_practice` | mod_pronoun + practice endpoints — ⚠️ crate absent: enabling it emits an explanatory `compile_error!` |
 | `auth` | OAuth/JWT login, presence, admin endpoints — **shell, always required**: its middleware guards every study endpoint too, so disabling it emits a `compile_error!` rather than shipping an unauthenticated API |
 | `subscriptions` | subscriptions |
 | `payments` | LemonSqueezy payment provider (checkout + webhooks) |
