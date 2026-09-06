@@ -25,6 +25,11 @@ DETERMINISTIC_CSS = """
   scroll-behavior: auto !important;
 }
 .lp-reviews-scroll-track { animation: none !important; }
+/* Mismo motivo que la de arriba: sin esto las tiras del carrusel de imágenes del landing quedan
+   en un desplazamiento distinto en cada captura y `landing__{desktop,laptop}` fallaba con ~500k px
+   de diferencia comparando el MISMO commit consigo mismo — un FAIL falso que tapa las regresiones
+   reales. Pausar no basta: hay que resetear la animación a su posición base. */
+.lp-image-carousel-track { animation: none !important; }
 .dash-course-card, .dash-category-card, .dash-side-stack,
 .admin-table-wrap, .admin-subtitle { visibility: hidden !important; }
 """
@@ -41,13 +46,19 @@ def wait_until_stable(page: Page) -> None:
         """async () => {
           await document.fonts.ready;
           const images = [...document.images];
-          await Promise.all(images.map((image) => {
-            if (image.complete) return Promise.resolve();
-            return new Promise((resolve) => {
-              image.addEventListener('load', resolve, { once: true });
-              image.addEventListener('error', resolve, { once: true });
-              setTimeout(resolve, 5000);
-            });
+          await Promise.all(images.map(async (image) => {
+            if (!image.complete) {
+              await new Promise((resolve) => {
+                image.addEventListener('load', resolve, { once: true });
+                image.addEventListener('error', resolve, { once: true });
+                setTimeout(resolve, 5000);
+              });
+            }
+            // `complete`/`load` solo garantizan que los BYTES llegaron, no que el AVIF esté
+            // decodificado y pintado. Sin esperar el decode, la tarjeta salía a medio pintar en
+            // algunas capturas y `flashcard-front__*` fallaba comparando el mismo commit consigo
+            // mismo (~1200px desktop, ~300px móvil): ruido que enmascara regresiones reales.
+            try { await image.decode(); } catch (_) { /* rota o sin src: la captura la muestra */ }
           }));
         }"""
     )
