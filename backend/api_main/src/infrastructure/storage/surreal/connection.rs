@@ -1,5 +1,5 @@
 use anyhow::{anyhow, Result};
-use std::sync::atomic::{AtomicUsize, Ordering};
+use std::sync::atomic::{AtomicBool, AtomicUsize, Ordering};
 use std::sync::{Arc, RwLock};
 use std::time::{Duration, Instant};
 use surrealdb::engine::remote::ws::{Client, Ws, Wss};
@@ -10,6 +10,11 @@ struct PooledConnection {
     client: Surreal<Client>,
     last_used: Instant,
 }
+
+/// El esquema (tablas + índices) se declara una sola vez por proceso.
+/// Ver el comentario en `connect()`: declararlo por conexión reconstruía el índice de
+/// `card_progress` cada vez que el pool recreaba una conexión.
+static SCHEMA_READY: AtomicBool = AtomicBool::new(false);
 
 /// Conexión adaptativa y Pool bajo demanda a SurrealDB.
 ///
@@ -185,12 +190,25 @@ impl SurrealConnection {
 
         db.use_ns(namespace).use_db(database).await?;
 
-        if let Err(e) = Self::define_tables(&db).await {
-            tracing::warn!("⚠️ No se pudieron definir tablas en SurrealDB: {}", e);
-        }
-
-        if let Err(e) = Self::define_indexes(&db).await {
-            tracing::warn!("⚠️ No se pudieron definir índices en SurrealDB: {}", e);
+        // El esquema se declara UNA vez por proceso, no en cada conexión.
+        //
+        // Antes esto corría en todo `connect()`, y `connect()` lo llama también el pool
+        // (`acquire_on_demand`) cada vez que el watchdog descarta una conexión inservible.
+        // Con el sondeo `is_usable()` (INFO FOR DB), que falla de forma intermitente bajo
+        // carga (~0,3 % de las peticiones — ver troubleshooting §21), cada fallo costaba una
+        // reconstrucción del índice de `card_progress`, la tabla más grande. El 7 sep 2026
+        // eso tumbó la SurrealDB de producción (VM de 2 GB, contenedor topado en 1200m) al
+        // desplegar este código en el mirror de AWS, que reconecta cada 30 s de forma
+        // permanente. Un sondeo más estricto convirtió un fallo transitorio benigno en una
+        // operación cara repetida en bucle.
+        if !SCHEMA_READY.swap(true, Ordering::SeqCst) {
+            if let Err(e) = Self::define_tables(&db).await {
+                tracing::warn!("⚠️ No se pudieron definir tablas en SurrealDB: {}", e);
+                SCHEMA_READY.store(false, Ordering::SeqCst);
+            } else if let Err(e) = Self::define_indexes(&db).await {
+                tracing::warn!("⚠️ No se pudieron definir índices en SurrealDB: {}", e);
+                SCHEMA_READY.store(false, Ordering::SeqCst);
+            }
         }
 
         Ok(db)
@@ -223,9 +241,12 @@ impl SurrealConnection {
     }
 
     async fn define_indexes(db: &Surreal<Client>) -> Result<()> {
+        // `IF NOT EXISTS` es obligatorio: sin él, SurrealDB RECONSTRUYE el índice entero
+        // sobre `card_progress` cada vez que se ejecuta la sentencia. Con el índice ya
+        // creado, esta consulta pasa a ser un no-op.
         if let Err(e) = db
             .query(
-                "DEFINE INDEX idx_card_progress_user \
+                "DEFINE INDEX IF NOT EXISTS idx_card_progress_user \
                 ON card_progress FIELDS user_id;",
             )
             .await
