@@ -26,18 +26,31 @@
 
 ## Resumen en una frase
 
-**Tu PC compila (front + backend multi-arch); el agente `Default` solo despliega (copia archivos, `docker pull`, `docker run`) — hoy solo a Oracle (frontend) y AWS, ver nota arriba; los secretos vienen de Azure DevOps y nunca se guardan en disco en el servidor destino.**
+**Tu PC (pool `LocalBuild`) compila y además despliega todo lo que queda activo — Cloud Run y el mirror de AWS —; el pool `Default` está offline y ningún job activo lo usa; los secretos vienen de Azure DevOps y nunca se guardan en disco en el servidor destino.**
 
 ---
 
 ## Dos pools de agentes
 
-| Pool | Máquina | Qué hace | Qué NO hace |
-|------|---------|----------|-------------|
-| **`LocalBuild`** | PC del desarrollador (`~/azp-agent-localbuild`) | Compila frontend (bun/vite), cross-compile Rust amd64+arm64, push GCR | No toca servidores de producción |
-| **`Default`** | Agente self-hosted ARM (`jcoronado-ubuntu-22`, históricamente hospedado en Oracle) | SSH/SCP a servidores, `docker pull`, `gcloud`, scripts `infra/proxy/` | **Nunca compila** Rust ni frontend |
+| Pool | Máquina | Estado | Qué hace |
+|------|---------|--------|----------|
+| **`LocalBuild`** | PC del desarrollador (`~/azp-agent-localbuild`, agente `jcoronado-ubuntu-22-localbuild`) | **online — único pool con agente vivo** | **Todos** los jobs activos: build front, cross-compile Rust, `gcloud run deploy`, mirror AWS, cleanup |
+| **`Default`** | Agente self-hosted `jcoronado-ubuntu-22` (`/opt/azp-agent`, VM Ubuntu 22.04 de Oracle) | **offline** desde el archivado de Oracle — último run verde: build **405** (11 ago 2026) | Nada. Todos los jobs que aún lo referencian tienen `condition: false` (referencia por si se reactiva) |
 
-**Requisito:** el agente `LocalBuild` debe estar **online** cuando corre el pipeline. Si el PC está apagado, fallan stages 1 y 2.
+**Requisitos:**
+- El agente `LocalBuild` debe estar **online** cuando corre el pipeline. Si el PC está apagado, no corre ningún stage.
+- El demonio de Docker debe estar **activo** en la PC: sin él, el Stage 2 muere a los 0 s con
+  `dial unix /var/run/docker.sock: connect: no such file or directory`. El servicio quedó habilitado
+  al arranque el 7 sep 2026 (`sudo systemctl enable docker`) y el Stage 2 tiene un step *preflight*
+  que intenta arrancarlo (`sudo -n systemctl start docker`) y, si no puede, falla con el comando exacto.
+- **Nunca encolar un job a un pool sin agente online.** Un job en esa situación **no falla**: se queda
+  en `pending` esperando un agente que no volverá y cuelga el run completo (incidente del build 406,
+  7 sep 2026 — el job `Cleanup_Default` era el último que lo hacía). Antes de asignar `pool: Default`
+  a algo, comprobar:
+  ```bash
+  curl -s -u :$PAT "https://dev.azure.com/safejcoronado1982/_apis/distributedtask/pools/1/agents?api-version=7.1" \
+    | python3 -c "import json,sys; [print(a['name'], a['status']) for a in json.load(sys.stdin)['value']]"
+  ```
 
 Instalación del agente local: `infra/ci/install-local-agent.sh`
 
@@ -47,24 +60,28 @@ Instalación del agente local: `infra/ci/install-local-agent.sh`
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  PARALELO (pools distintos)                                 │
+│  PARALELO (mismo pool LocalBuild)                           │
 │  Stage 1 Build_Frontend  [LocalBuild]  bun + vite           │
 │  Stage 2 Build_Backend   [LocalBuild]  docker buildx → GCR  │
 └─────────────────────────────────────────────────────────────┘
                               │
-                              ▼  SERIALIZADO en pool Default
-                    Stage 3 Deploy_Frontend (Oracle Caddy — sin cambios, ver nota arriba)
+                              ▼
+                    Stage 3 Deploy_Frontend (job DESHABILITADO — sin destino activo)
                               │
                               ▼
-                    Stage 4 Deploy_GCP (Cloud Run)
+                    Stage 4 Deploy_GCP (Cloud Run)          [LocalBuild]
                               │
                               ▼
                     Stage 5 Deploy_Mirrors
-                         Oracle (deshabilitado) → OCI-1 (deshabilitado) → AWS (independiente)
+                         Oracle (deshabilitado) · OCI-1 (deshabilitado) · AWS [LocalBuild]
                               │
                               ▼
-                    Stage 6 Cleanup (workspace agentes + artefacto ADO)
+                    Stage 6 Cleanup (workspace LocalBuild + artefacto ADO)  [LocalBuild]
 ```
+
+> Desde el 7 sep 2026 **todo corre en `LocalBuild`**: `Deploy_GCP`, `Mirror_AWS` y el cleanup se
+> movieron desde el pool `Default` (offline). El job `Cleanup_Default` quedó con `condition: false`
+> y el borrado del artefacto ADO pasó a `Cleanup_LocalBuild` (es una llamada a la API: da igual el agente).
 
 > Desde el 4 ago 2026, `Mirror_Oracle` y `Mirror_OCI1` tienen `condition: false` — no se ejecutan.
 > `Mirror_AWS` ya no depende de `Mirror_OCI1` (se independizó, `dependsOn: []`) para que no quedara
@@ -77,7 +94,7 @@ Instalación del agente local: `infra/ci/install-local-agent.sh`
 | Cola / espera agente | 0–5 min | `LocalBuild` debe estar online; si hay otro build corriendo, espera |
 | Stage 1 — Frontend | 2–5 min | `bun install` + `vite build`; cache bun acelera |
 | Stage 2 — Backend buildx | **15–35 min** | Cross-compile Rust **amd64 + arm64**, push GCR; timeout job **45 min** |
-| Stages 3→5 — Deploys | **8–15 min** | **En serie** (Oracle frontend → Cloud Run → AWS; Mirror_Oracle/OCI1 deshabilitados desde 4 ago 2026); un solo agente `Default` |
+| Stages 3→5 — Deploys | **3–8 min** | **En serie** (Cloud Run → AWS; Stage 3, Mirror_Oracle y Mirror_OCI1 deshabilitados); un solo agente `LocalBuild` |
 | Stage 6 — Cleanup | 1–2 min | Limpia disco en agentes; intenta borrar artefacto `flashcard-site` |
 | **Total end-to-end** | **~25–45 min** | Normal en esta arquitectura |
 
@@ -87,7 +104,7 @@ Instalación del agente local: `infra/ci/install-local-agent.sh`
 
 ### Por qué los deploys van en serie (no en paralelo)
 
-Antes, stages 3, 4 y 5 arrancaban a la vez → **5 jobs** compitiendo por **1 agente** `Default` y límite de paralelismo self-hosted → colas y fallos.
+Antes, stages 3, 4 y 5 arrancaban a la vez → **5 jobs** compitiendo por **1 agente** y límite de paralelismo self-hosted → colas y fallos. La cadena `dependsOn` sigue siendo necesaria: desde el 7 sep 2026 todos comparten el agente `LocalBuild`, que también está compilando.
 
 **Desde `fe8cc2c` (jun 2026) hasta el 4 ago 2026:**
 - Stage 4 espera a Stage 3 (`dependsOn: Deploy_Frontend`)
@@ -98,7 +115,7 @@ Antes, stages 3, 4 y 5 arrancaban a la vez → **5 jobs** compitiendo por **1 ag
 por el agente porque no corren). `Mirror_AWS` pasó a `dependsOn: []` — ya no espera a nadie dentro
 del stage 5, corre en cuanto el stage arranca.
 
-Stages 1 y 2 **siguen en paralelo** (correcto: usan `LocalBuild`, no compiten con el agente `Default`).
+Stages 1 y 2 **siguen en paralelo** (correcto: son los dos únicos jobs simultáneos del pool `LocalBuild`; los deploys esperan a que terminen).
 
 ---
 
@@ -118,12 +135,18 @@ Stages 1 y 2 **siguen en paralelo** (correcto: usan `LocalBuild`, no compiten co
 - **3 reintentos** de push con re-login GCR (evita `DeadlineExceeded`)
 - Timeout job: 45 min; `DOCKER_CLIENT_TIMEOUT=300`
 - Login GCR: task `Docker@2` + re-login con `GCP_KEY_JSON` en reintentos
+- **Step 1 = preflight del demonio Docker** (7 sep 2026): si `docker info` falla, intenta
+  `sudo -n systemctl start docker` y, si tampoco puede, corta el stage con el comando a ejecutar en
+  la PC. Antes, el stage moría en el primer `docker run` con un error de socket sin contexto.
 
 **No ejecutar buildx en Oracle** (1 GB RAM — regla de oro).
 
 ---
 
-## Stage 3 — Deploy Frontend (`Default` → Oracle)
+## Stage 3 — Deploy Frontend (job DESHABILITADO — `condition: false`)
+
+> No corre desde el 5 ago 2026: apunta al service connection `SrvPortfolio` (IP de Oracle, muerta) y
+> no existe todavía un service connection SSH hacia el proxy real de GCP. El SPA se despliega a mano.
 
 1. Descarga artefacto `flashcard-site`
 2. `CopyFilesOverSSH` → `/root/smart-proxy/flashcard`
@@ -134,7 +157,7 @@ Scripts copiados en cada deploy: `bootstrap-oracle.sh`, `deploy-caddy.sh`, `depl
 
 ---
 
-## Stage 4 — Deploy GCP Cloud Run (`Default`)
+## Stage 4 — Deploy GCP Cloud Run (`LocalBuild` desde el 7 sep 2026)
 
 - Solo si Stage 2 succeeded
 - `gcloud run deploy flashcard-backend` con imagen `:latest` de GCR
@@ -220,7 +243,7 @@ cerrar con `curl -sf http://127.0.0.1:8080/api/health`. Archivos temporales **si
 
 ---
 
-## Stage 5 — Replicate Mirrors (`Default`)
+## Stage 5 — Replicate Mirrors (`LocalBuild` desde el 7 sep 2026)
 
 Condición: `Deploy_Frontend` OK y `Deploy_GCP` Succeeded o Skipped (si falló compile, mirrors igual despliegan imagen anterior).
 
@@ -399,7 +422,7 @@ El script quita **retention leases** en lote y luego borra cada build terminado 
 ### Automática (cada deploy)
 
 **Stage 6 Cleanup** (`azure-pipelines.yml`):
-- Borra workspaces y `.log` en agentes `Default` y `LocalBuild`
+- Borra workspace y `.log` del agente `LocalBuild` (el job `Cleanup_Default` está deshabilitado desde el 7 sep 2026)
 - `docker buildx prune` en LocalBuild (últimas 24 h)
 - Intenta `DELETE` del artefacto `flashcard-site` del run actual
 
@@ -417,7 +440,7 @@ Azure crea **retention leases** por rama/pipeline. Sin quitar el lease, borrar u
 |-----------|--------|-------------|
 | **Azure DevOps (nube)** | Log de cada run en el portal | Se elimina **con el run** (`DELETE build`). Con 0 runs no quedan logs de pipeline. |
 | **Agente LocalBuild** (`~/azp-agent-localbuild/_diag/*.log`, `_work/`) | Copia local en tu PC | `--clean-agent-logs` |
-| **Agente Default** (histórico: hospedado en Oracle) | Workspace del agente en el servidor | Stage 6 Cleanup en cada deploy |
+| **Agente Default** (`/opt/azp-agent`, VM de Oracle) | Workspace del agente; agente offline, ya no genera logs nuevos | Nada automático — solo si se reactiva el pool |
 | **Audit log org** (Settings → Auditing) | Eventos de org/proyecto | **No borrable** por API; retención fija de Microsoft |
 
 ### Política en portal (opcional)
@@ -454,7 +477,8 @@ ssh root@157.151.199.170 "ls /tmp/gcp-deploy-key.json /tmp/flashcard-backend.env
 | SSH `runOptions: commands` con múltiples `export` | Variables no persisten | `runOptions: inline` |
 | `docker login` permanente en `~/.docker/config.json` | Credencial en disco | `docker-gcr-auth.sh` |
 | `-v /tmp/gcp-deploy-key.json:/gcp/key.json` | JSON en host Oracle | `GOOGLE_CREDENTIALS_JSON` env |
-| Stages 3+4+5 en paralelo en `Default` | Cola por 1 agente | `dependsOn` en cadena |
+| Stages 3+4+5 en paralelo en un mismo pool | Cola por 1 agente | `dependsOn` en cadena |
+| Job activo con `pool: Default` | Agente offline → job `pending` eterno que cuelga el run entero | Todo job activo va a `LocalBuild`; los de `Default` llevan `condition: false` |
 | 3 mirror jobs en paralelo | Misma cola | `dependsOn` Oracle→OCI-1→AWS |
 | Compilar en Oracle ARM | OOM / disco lleno | `LocalBuild` en PC |
 | `SYNC_TO_ORACLE=true` en contenedor **Oracle** | SSH por archivo, error 255 | `false` + volumen `/data` |
@@ -474,6 +498,8 @@ ssh root@157.151.199.170 "ls /tmp/gcp-deploy-key.json /tmp/flashcard-backend.env
 | `SUPER_ADMIN_EMAIL: command not found` | `$(VAR)` sin sustituir en heredoc | Asignar `VAR_VAL='$(VAR)'` antes del heredoc |
 | Audio 500 `ssh mkdir 255` | `SYNC_TO_ORACLE=true` en Oracle | Ver [`oracle-local-backend-deploy.md`](../../tools/oracle-legacy/oracle-local-backend-deploy.md) (archivado) |
 | LocalBuild offline | PC apagada o agente parado | `systemctl status` en `~/azp-agent-localbuild` |
+| `dial unix /var/run/docker.sock: ... no such file or directory` en Stage 2 | Demonio Docker parado en la PC (el servicio estaba `disabled` al arranque) | `sudo systemctl start docker && sudo systemctl enable docker`. Ya hay preflight en el Stage 2 que lo intenta y falla claro |
+| Un stage se queda en `pending` para siempre / el run no termina ni cancelándolo | Job encolado al pool `Default`, sin agente online | Todo job activo debe ir a `LocalBuild`. Cancelar el run colgado: `PATCH /_apis/build/builds/<id>` con `{"status":"cancelling"}` |
 | `PERMISSION_DENIED run.services.get` en Stage 4 | El step heredaba la cuenta `gcloud` activa del agente (`alberto.testing01@`), que no tiene ese permiso en `launch-490115` | Corregido: `export CLOUDSDK_CORE_ACCOUNT=azure-pipelines-deployer@launch-490115...` dentro del step. No heredar identidad del ambiente del agente |
 | `ORACLE_HOST: command not found` en Stage 4 | La variable no existe en el variable group → Azure deja `$(ORACLE_HOST)` literal → bash lo ejecuta como comando → valor vacío | Definirla en `Flashcard-Secrets` (o quitar el `SYNC_TO_ORACLE=true` de Cloud Run). Ver §Stage 4 |
 | `artifactregistry...downloadArtifacts denied` al hacer `docker pull` | Cuenta `gcloud` activa (`alberto.testing01@…`) es del proyecto `fluency`, no de `launch-490115` | `CLOUDSDK_CORE_ACCOUNT=azure-pipelines-deployer@launch-490115.iam.gserviceaccount.com docker pull …` |
@@ -492,4 +518,5 @@ ssh root@157.151.199.170 "ls /tmp/gcp-deploy-key.json /tmp/flashcard-backend.env
 | 2026-06-08 | `fe8cc2c` | Reintentos GCR, deploy serializado, mirrors en cadena |
 | 2026-06-18 | `http-fluency.lat` | Repo GitHub + pipeline renombrado `jcoronado1982.fluency`; arquitectura modular |
 | 2026-08-05 | `#391` / `40350ea` | Documentado el deploy MANUAL del backend real (el pipeline solo publica la imagen en GCR) y el fallo IAM preexistente de Stage 4 → `Mirror_AWS` skipped. |
+| 2026-09-07 | `#406` | Stage 2 caído por demonio Docker parado + run colgado por `Cleanup_Default` en el pool `Default` (offline). Fix: preflight de Docker en Stage 2, `docker.service` habilitado al arranque, y `Deploy_GCP`/`Mirror_AWS`/cleanup movidos a `LocalBuild`; `Cleanup_Default` con `condition: false`. |
 | 2026-06-08 | `#165` | Primer pipeline completo en verde con nueva arquitectura |

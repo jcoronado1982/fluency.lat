@@ -589,3 +589,49 @@ Este documento es una base de conocimientos dinámica de errores técnicos, bugs
 - **Lo que sí arregla el cambio:** una pérdida de sesión **persistente** ahora se detecta y se repara; antes no se habría detectado nunca. Eso está probado por el test unitario. Pero no era ésa la causa del síntoma.
 - **Causa real del síntoma (pendiente):** el SDK de SurrealDB reabre el WebSocket por debajo y **no reaplica `signin`/`use_ns`**. Las peticiones que caen en esa ventana fallan; la conexión se recupera sola después, por eso el sondeo periódico del watchdog casi nunca la pilla y no reconecta. La prueba de que es transitorio y no persistente: si fuera una sesión perdida de verdad, fallarían TODAS las consultas siguientes, no 25 de miles. `Session not found` es la pista definitiva.
 - **Arreglo correcto pendiente:** reintentar **en el adaptador** cuando la consulta falla con un error de estado de sesión (reaplicando `signin`+`use_ns` antes del reintento). No vale comprobar antes de cada consulta: duplicaría los viajes a la DB y el backend de producción vive en 512 MB. Son **30 llamadas a `.db()` repartidas en 6 repositorios** de `infrastructure/storage/surreal/`: cambio propio, con su propia verificación. Degrada con gracia mientras tanto (lee del disco).
+
+### 22. Azure Pipelines: Stage 2 falla con `docker.sock: no such file or directory` y Stage 6 se cuelga en agente Default
+- **Fecha:** 2026-09-07
+- **Síntoma:** Al disparar el pipeline de Azure DevOps (ej. Build 406 en rama `main`), Stage 1 (Build Front) pasa al 100%, pero Stage 2 (Cross-Compile Backend) falla de inmediato con:
+  ```text
+  failed to connect to the docker API at unix:///var/run/docker.sock; check if the path is correct and if the daemon is running: dial unix /var/run/docker.sock: connect: no such file or directory
+  ```
+  Subsecuentemente, Stage 4 y 5 se omiten (`skipped`), y Stage 6 (Cleanup) queda indefinidamente en estado `pending`/`inProgress` bloqueando el pipeline.
+- **Causa real:**
+  1. El agente `LocalBuild` corre en el PC del desarrollador local. Si el servicio de Docker en el host está inactivo (`systemctl status docker` en estado `inactive/dead`), `docker buildx` no puede comunicarse con el socket `/var/run/docker.sock`.
+  2. Stage 6 (Cleanup) tenía un job asignado al pool `Default`, cuyo agente (`jcoronado-ubuntu-22`, VM Ubuntu 22.04 de Oracle) está offline desde el desmantelamiento de Oracle. Cualquier job asignado a ese pool queda en cola eterna. Era el único job activo que seguía apuntando ahí en **todos** los runs; `Deploy_GCP` y `Mirror_AWS` también lo usaban, pero en el build 406 se saltaron por el fallo del Stage 2 y taparon el problema.
+- **Precisión sobre la fecha (verificado por API el 7 sep 2026):** el agente `Default` no murió el 4 de
+  agosto con la migración a GCP — siguió corriendo `CloudRunDeploy`, `Mirror_AWS` y `Cleanup_Default`
+  en los builds 402–405 (el último verde, el **405**, del 11 ago 2026). Se apagó después. Datos reales
+  del agente: `jcoronado-ubuntu-22`, Ubuntu 22.04.5, `/opt/azp-agent`, pool id 1, `status: offline`.
+- **Lo que hace peligroso este fallo:** un job encolado a un pool sin agente online **no falla nunca**.
+  Se queda en `pending` esperando, el stage se muestra `inProgress` y ni siquiera el `cancelling`
+  ordinario lo cierra a la primera. Un pool vacío no produce error, produce espera — por eso el
+  síntoma parecía un cuelgue del pipeline y no un problema de configuración.
+- **Solución aplicada (permanente, no solo el desbloqueo del run):**
+  1. **Stage 2 — demonio Docker:** `docker.service` estaba `disabled` al arranque, así que volvía a
+     pasar en cada reinicio de la PC. Arreglado de dos formas complementarias:
+     ```bash
+     sudo systemctl start docker && sudo systemctl enable docker   # en la PC (agente LocalBuild)
+     ```
+     y un step *preflight* al inicio del Stage 2 en `azure-pipelines.yml`: si `docker info` falla,
+     intenta `sudo -n systemctl start docker` y, si no puede, corta con `task.logissue` indicando el
+     comando exacto — en vez de morir a los 0 s con un error de socket sin contexto.
+  2. **Pool `Default` — jobs movidos a `LocalBuild`:** `Deploy_GCP` (`CloudRunDeploy`), `Mirror_AWS` y
+     el cleanup pasaron al pool `LocalBuild`, el único con agente online. La PC tiene `gcloud`
+     (con la SA `azure-pipelines-deployer@launch-490115` ya en el credential store de `jcoronado`,
+     el usuario del agente) y `sshpass`, que es todo lo que necesitaban esos jobs. `Cleanup_Default`
+     quedó con `condition: false` — un job con condición falsa **no pide agente**, por eso los jobs
+     ya deshabilitados (`DeployFront`, `Mirror_Oracle`, `Mirror_OCI1`) nunca colgaron nada — y el
+     borrado del artefacto ADO se movió a `Cleanup_LocalBuild` (es una llamada a la API REST: da
+     igual desde qué agente salga).
+  3. **Desbloqueo del run colgado:** `PATCH /_apis/build/builds/406?api-version=7.1` con
+     `{"status":"cancelling"}` (build 406 → `completed/canceled`).
+  4. **Validación sin gastar un run:** el YAML se verificó contra el propio Azure con
+     `POST /_apis/pipelines/2/runs` y `{"previewRun": true, "yamlOverride": "<contenido>"}`, que
+     compila el pipeline y devuelve el YAML final sin encolar nada.
+- **Regla operativa:** antes de asignar `pool:` a un job, comprobar que el pool tiene agente online
+  (`GET /_apis/distributedtask/pools/<id>/agents`). Y para cambios de **puro contenido**
+  (`card_images/`, `card_audio/`, `json/`) no hace falta pipeline ni rebuild de Rust: se sincronizan
+  con `rsync` directo al proxy de GCP (`35.188.162.50:/mnt/sda/repository/flashcard/`).
+

@@ -68,7 +68,7 @@ variables:
       value: '/root/smart-proxy/flashcard'
 
 # ═══════════════════════════════════════════════════════════════════════
-# ARQUITECTURA DEL PIPELINE (actualizado 5 ago 2026 — servidor real: GCP)
+# ARQUITECTURA DEL PIPELINE (actualizado 7 sep 2026 — servidor real: GCP)
 #
 #  Stage 1 Build_Frontend  ──┐  PARALELO en LocalBuild (PC dev, ~30 GB RAM)
 #  Stage 2 Build_Backend   ──┘  docker buildx amd64+arm64 → push GCR
@@ -76,11 +76,18 @@ variables:
 #                    ┌───────────────┼────────────────┐
 #                    ▼               ▼                ▼
 #            Stage 3 Deploy_Front  Stage 4 Deploy_GCP  Stage 5 Deploy_Mirrors
-#            (DESHABILITADO,       (Default —          (Default — solo AWS
+#            (DESHABILITADO,       (LocalBuild —       (LocalBuild — solo AWS
 #             sin destino activo)   deploy real)         activo, resto off)
 #                                    │
 #                                    ▼
 #                          Stage 6 Cleanup (limpia workspace agente + artefacto actual)
+#
+# TODOS los jobs activos corren hoy en el pool LocalBuild. El pool `Default`
+# (agente `jcoronado-ubuntu-22`, VM Ubuntu 22.04 de Oracle) está OFFLINE
+# desde que se archivó Oracle — último run verde: build 405, 11 ago 2026.
+# Un job encolado a un pool sin agente NO falla: espera indefinidamente y
+# cuelga el run entero (build 406, 7 sep 2026). Por eso los jobs que quedan
+# apuntando a `Default` tienen todos `condition: false`.
 #
 # El servidor real de producción es GCP (proxy Caddy + backend, ver
 # docs/infrastructure/server_inventory.md §GCP) desde el 4 ago 2026. La
@@ -154,6 +161,29 @@ stages:
       name: 'LocalBuild'
     timeoutInMinutes: 45
     steps:
+    # Preflight del demonio Docker: el agente LocalBuild corre en la PC de
+    # desarrollo y docker.service puede estar parado (7 sep 2026, build 406:
+    # todo el stage murió en el primer `docker run` con
+    # "dial unix /var/run/docker.sock: connect: no such file or directory"
+    # tras 0 s, sin ninguna pista de que el problema era el host).
+    # Intenta arrancarlo sin contraseña y, si no puede, falla YA con el
+    # comando exacto que lo arregla. `systemctl enable docker` en la PC evita
+    # que vuelva a pasar tras un reinicio.
+    - script: |
+        if docker info >/dev/null 2>&1; then
+          echo "Docker daemon OK"
+          exit 0
+        fi
+        echo "Docker daemon caído en el agente; intentando arrancarlo..."
+        sudo -n systemctl start docker 2>/dev/null || true
+        sleep 3
+        if docker info >/dev/null 2>&1; then
+          echo "Docker daemon arrancado por el pipeline"
+          exit 0
+        fi
+        echo "##vso[task.logissue type=error]Docker no está corriendo en el agente LocalBuild. En la PC: sudo systemctl start docker && sudo systemctl enable docker"
+        exit 1
+      displayName: 'Preflight: demonio Docker activo'
     - script: |
         docker run --privileged --rm tonistiigi/binfmt --install arm64 2>/dev/null || true
       displayName: 'Registrar binfmt arm64 (si falta)'
@@ -320,7 +350,14 @@ stages:
 
 # ───────────────────────────────────────────────────────────────────────
 # STAGE 4: DEPLOY BACKEND → GCP Cloud Run
-# Agente: Default (self-hosted, gcloud ya instalado) — gcloud run deploy
+# Agente: LocalBuild — movido desde el pool Default el 7 sep 2026.
+# El agente del pool Default (`jcoronado-ubuntu-22`, /opt/azp-agent en la VM
+# Ubuntu 22.04 de Oracle) está OFFLINE desde que se archivó Oracle; su último
+# run verde fue el build 405 (11 ago 2026). Un job encolado a ese pool no
+# falla: espera un agente que no volverá y cuelga el run entero.
+# Este stage solo necesita `gcloud` (presente en la PC) y la SA del pipeline,
+# que ya está en el credential store del usuario `jcoronado` con el que corre
+# el agente LocalBuild — por eso el step fija CLOUDSDK_CORE_ACCOUNT.
 # ───────────────────────────────────────────────────────────────────────
 - stage: Deploy_GCP
   displayName: '☁️ 4. Deploy Backend → GCP Cloud Run'
@@ -332,9 +369,11 @@ stages:
     - group: Flashcard-Secrets
   jobs:
   - job: CloudRunDeploy
-    pool: { name: 'Default' }
+    pool: { name: 'LocalBuild' }
     steps:
     - script: |
+        command -v gcloud >/dev/null || {
+          echo "##vso[task.logissue type=error]gcloud no está instalado en el agente LocalBuild"; exit 1; }
         # La cuenta gcloud "activa" del agente es ambiente compartido: un humano que
         # corre `gcloud config set account` en esta misma máquina (p.ej. durante la
         # migración a GCP del 4 ago 2026) cambia con qué identidad despliega el
@@ -628,7 +667,10 @@ stages:
     displayName: 'AWS Mirror (34.229.229.255)'
     dependsOn: []
     condition: eq(variables['Build.SourceBranch'], 'refs/heads/main')
-    pool: { name: 'Default' }
+    # Pool LocalBuild desde el 7 sep 2026 (antes 'Default', hoy offline —
+    # ver comentario del Stage 4). Este job solo hace scp+ssh con sshpass,
+    # que está instalado en la PC; no compila nada.
+    pool: { name: 'LocalBuild' }
     steps:
     - script: |
         set -euo pipefail
@@ -702,8 +744,17 @@ stages:
     in(dependencies.Deploy_Mirrors.result, 'Succeeded', 'Skipped')
   jobs:
 
+  # DESHABILITADO (7 sep 2026): este job limpiaba el workspace del agente
+  # `Default`, que está offline desde que se archivó Oracle. Como el stage 6
+  # corre SIEMPRE (condición `Succeeded|Skipped`), era el único job que se
+  # encolaba a ese pool en cada run — y con el agente muerto dejaba el build
+  # colgado para siempre en "pending"/"cancelling" (build 406, 7 sep 2026;
+  # ver scripts/troubleshooting_library.skill.md entrada 22). Ya no hay nada
+  # que limpiar allí: ningún job activo usa ese agente. No se borra el job
+  # para no perder la receta si se reactiva el pool Default.
   - job: Cleanup_Default
-    displayName: 'Cleanup agent Default + delete ADO artifact'
+    displayName: 'Cleanup agent Default (deshabilitado — agente offline)'
+    condition: false
     pool: { name: 'Default' }
     steps:
     - checkout: none
@@ -714,7 +765,30 @@ stages:
         rm -f /tmp/deploy-oci1.sh /tmp/deploy-aws.sh 2>/dev/null || true
         find "$(Pipeline.Workspace)" -maxdepth 5 -name "*.log" -type f -delete 2>/dev/null || true
         find "$(Agent.TempDirectory)" -maxdepth 3 -type f -delete 2>/dev/null || true
+        echo "Default cleanup OK"
+      displayName: 'Clean workspace'
 
+  - job: Cleanup_LocalBuild
+    displayName: 'Cleanup agent LocalBuild + delete ADO artifact'
+    pool: { name: 'LocalBuild' }
+    steps:
+    - checkout: none
+    - script: |
+        set -euo pipefail
+        echo "Cleaning LocalBuild agent workspace..."
+        rm -rf "$(Pipeline.Workspace)/site" "$(Pipeline.Workspace)/s/client/dist" 2>/dev/null || true
+        rm -f /tmp/deploy-aws.sh 2>/dev/null || true
+        find "$(Pipeline.Workspace)" -maxdepth 6 -name "*.log" -type f -delete 2>/dev/null || true
+        find "$(Agent.TempDirectory)" -maxdepth 3 -type f -delete 2>/dev/null || true
+        docker buildx prune -f --filter "until=24h" 2>/dev/null || true
+        echo "LocalBuild cleanup OK"
+      displayName: 'Clean build artifacts and logs'
+
+    # El borrado del artefacto lo hacía Cleanup_Default; se movió aquí al
+    # deshabilitarlo (7 sep 2026). Es una llamada a la API de ADO: da igual
+    # el agente desde el que salga.
+    - script: |
+        set -euo pipefail
         echo "Deleting pipeline artifact flashcard-site (build $(Build.BuildId))..."
         ORG_URL="$(System.CollectionUri)"
         PROJECT="$(System.TeamProject)"
@@ -727,22 +801,6 @@ stages:
         else
           echo "WARN: could not delete ADO artifact (HTTP $HTTP_CODE)"
         fi
-        echo "Default cleanup OK"
-      displayName: 'Clean workspace + delete current ADO artifact'
+      displayName: 'Delete current ADO artifact'
       env:
         SYSTEM_ACCESSTOKEN: $(System.AccessToken)
-
-  - job: Cleanup_LocalBuild
-    displayName: 'Cleanup agent LocalBuild'
-    pool: { name: 'LocalBuild' }
-    steps:
-    - checkout: none
-    - script: |
-        set -euo pipefail
-        echo "Cleaning LocalBuild agent workspace..."
-        rm -rf "$(Pipeline.Workspace)/site" "$(Pipeline.Workspace)/s/client/dist" 2>/dev/null || true
-        find "$(Pipeline.Workspace)" -maxdepth 6 -name "*.log" -type f -delete 2>/dev/null || true
-        find "$(Agent.TempDirectory)" -maxdepth 3 -type f -delete 2>/dev/null || true
-        docker buildx prune -f --filter "until=24h" 2>/dev/null || true
-        echo "LocalBuild cleanup OK"
-      displayName: 'Clean build artifacts and logs'
