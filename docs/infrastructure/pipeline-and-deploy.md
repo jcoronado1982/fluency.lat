@@ -3,7 +3,10 @@
 > **Documento fuente de verdad** para IAs y operadores sobre CI/CD, compilación y despliegue.
 > Si otro archivo contradice esto, **este documento manda** (salvo `SECRETS_MAP.md` para credenciales).
 
-**Última validación:** migración Fluency — repo `fluency.lat`, pipeline `jcoronado1982.fluency` (Ago 2026).
+**Última validación:** **build 409, 7 sep 2026 — verde de punta a punta en 14 min** (los 6 stages,
+todo en el pool `LocalBuild`, con Cloud Run y el mirror de AWS desplegados y verificados por
+`/api/health`). Es el primer run que compila el repo `fluency.lat`; los builds 410 (`qa`) y 411
+(`dev-flashcard`) confirmaron además que el trigger automático funciona tras el repoint.
 
 
 **Repositorio y Azure:** [`../DEPLOY_Y_REPOSITORIO.md`](../DEPLOY_Y_REPOSITORIO.md)
@@ -526,4 +529,6 @@ ssh root@157.151.199.170 "ls /tmp/gcp-deploy-key.json /tmp/flashcard-backend.env
 | 2026-06-18 | `http-fluency.lat` | Repo GitHub + pipeline renombrado `jcoronado1982.fluency`; arquitectura modular |
 | 2026-08-05 | `#391` / `40350ea` | Documentado el deploy MANUAL del backend real (el pipeline solo publica la imagen en GCR) y el fallo IAM preexistente de Stage 4 → `Mirror_AWS` skipped. |
 | 2026-09-07 | `#406` | Stage 2 caído por demonio Docker parado + run colgado por `Cleanup_Default` en el pool `Default` (offline). Fix: preflight de Docker en Stage 2, `docker.service` habilitado al arranque, y `Deploy_GCP`/`Mirror_AWS`/cleanup movidos a `LocalBuild`; `Cleanup_Default` con `condition: false`. |
+| 2026-09-07 | `#407`–`#408` | Repointada la definición 2 al repo canónico `fluency.lat` (compilaba `jcoronado1982/fluency`, congelado en agosto). Descubierto que faltaba el plugin `docker-buildx` en la PC del agente. |
+| 2026-09-07 | `#409` / `88b05e7c` | **Primer run verde con todo lo anterior**: 6 stages en 14 min, Cloud Run rev. `flashcard-backend-00232-nkh` y mirror AWS desplegados y verificados. |
 | 2026-06-08 | `#165` | Primer pipeline completo en verde con nueva arquitectura |

@@ -630,6 +630,10 @@ Este documento es una base de conocimientos dinámica de errores técnicos, bugs
   4. **Validación sin gastar un run:** el YAML se verificó contra el propio Azure con
      `POST /_apis/pipelines/2/runs` y `{"previewRun": true, "yamlOverride": "<contenido>"}`, que
      compila el pipeline y devuelve el YAML final sin encolar nada.
+- **Validado en vivo (build 409, 7 sep 2026):** los 6 stages en verde en 14 min. En concreto, el
+  Stage 6 **cierra** en vez de quedarse en `pending`, y `Deploy_GCP`/`Mirror_AWS` corren en
+  `LocalBuild` sin problema (Cloud Run rev. `flashcard-backend-00232-nkh` + mirror AWS respondiendo
+  `/api/health`).
 - **Regla operativa:** antes de asignar `pool:` a un job, comprobar que el pool tiene agente online
   (`GET /_apis/distributedtask/pools/<id>/agents`). Y para cambios de **puro contenido**
   (`card_images/`, `card_audio/`, `json/`) no hace falta pipeline ni rebuild de Rust: se sincronizan
