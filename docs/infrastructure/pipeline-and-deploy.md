@@ -37,12 +37,19 @@
 | **`LocalBuild`** | PC del desarrollador (`~/azp-agent-localbuild`, agente `jcoronado-ubuntu-22-localbuild`) | **online — único pool con agente vivo** | **Todos** los jobs activos: build front, cross-compile Rust, `gcloud run deploy`, mirror AWS, cleanup |
 | **`Default`** | Agente self-hosted `jcoronado-ubuntu-22` (`/opt/azp-agent`, VM Ubuntu 22.04 de Oracle) | **offline** desde el archivado de Oracle — último run verde: build **405** (11 ago 2026) | Nada. Todos los jobs que aún lo referencian tienen `condition: false` (referencia por si se reactiva) |
 
+**Repo fuente:** desde el 7 sep 2026 la definición 2 compila **`jcoronado1982/fluency.lat`**
+(antes `jcoronado1982/fluency`, un repo de historia disjunta congelado en agosto — ver el aviso en
+[`../DEPLOY_Y_REPOSITORIO.md`](../DEPLOY_Y_REPOSITORIO.md#repositorio-git)).
+
 **Requisitos:**
 - El agente `LocalBuild` debe estar **online** cuando corre el pipeline. Si el PC está apagado, no corre ningún stage.
 - El demonio de Docker debe estar **activo** en la PC: sin él, el Stage 2 muere a los 0 s con
   `dial unix /var/run/docker.sock: connect: no such file or directory`. El servicio quedó habilitado
   al arranque el 7 sep 2026 (`sudo systemctl enable docker`) y el Stage 2 tiene un step *preflight*
   que intenta arrancarlo (`sudo -n systemctl start docker`) y, si no puede, falla con el comando exacto.
+- El **plugin `docker buildx`** debe estar instalado en la PC, no solo el demonio: son dos cosas
+  distintas y faltaba (`docker: unknown command: docker buildx`, builds 407 y 408). En Arch/CachyOS
+  es el paquete `docker-buildx`; comprobar con `docker buildx version`.
 - **Nunca encolar un job a un pool sin agente online.** Un job en esa situación **no falla**: se queda
   en `pending` esperando un agente que no volverá y cuelga el run completo (incidente del build 406,
   7 sep 2026 — el job `Cleanup_Default` era el último que lo hacía). Antes de asignar `pool: Default`

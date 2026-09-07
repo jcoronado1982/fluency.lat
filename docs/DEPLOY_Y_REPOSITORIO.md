@@ -19,8 +19,20 @@
 
 | Campo | Valor |
 |-------|--------|
-| **Repo canónico** | `https://github.com/jcoronado1982/fluency.lat.git` |
-| **Repos obsoletos** | `jcoronado1982/flashcard`, `jcoronado1982/http-fluency.lat` — eliminados |
+| **Repo canónico** | `https://github.com/jcoronado1982/fluency.lat.git` — **es también el que compila el pipeline** desde el 7 sep 2026 |
+| **Repos obsoletos** | `jcoronado1982/flashcard`, `jcoronado1982/http-fluency.lat` — eliminados. `jcoronado1982/fluency` — **congelado**, ver aviso abajo |
+
+> 🔴 **Aviso (7 sep 2026): existió un segundo repo desincronizado.** Hasta ese día el pipeline de
+> Azure (definición 2) compilaba `jcoronado1982/fluency`, **no** este repo. Los dos tienen historias
+> **sin ancestro común** (`git merge-base` entre ambos `main` no devuelve nada) y habían divergido en
+> ~400 archivos: `fluency` se quedó en el commit `29298b39` del **5 ago 2026** mientras todo el
+> trabajo seguía en `fluency.lat`. Consecuencia: **durante un mes el CI construyó y desplegó código
+> de agosto**, y ningún cambio de septiembre pasó por el pipeline.
+>
+> Corregido apuntando la definición 2 a `jcoronado1982/fluency.lat` (revisión 5 del pipeline).
+> `jcoronado1982/fluency` queda **congelado**: no borrarlo todavía (guarda la historia de agosto),
+> pero **no commitear ahí**. Si algún día un build vuelve a checkoutear un commit que no existe en
+> tu clon local, es este mismo problema.
 | **Rama desarrollo** | `dev-flashcards` (+ `dev-pronoun`, `dev-admin`) — **NO despliegan** |
 | **Rama integración** | `dev-full` — integra módulos, **NO despliega** |
 | **Rama pre-prod** | `qa` → auto-deploy a `qa.fluency.lat` |
@@ -65,7 +77,7 @@ dev-flashcards  ──(merge/PR)──▶  qa  ──── auto-deploy ──�
 ```bash
 # Con gh CLI (desde el repo local)
 gh pr create \
-  --repo jcoronado1982/fluency \
+  --repo jcoronado1982/fluency.lat \
   --base main --head qa \
   --title "release: <descripción breve>"
 gh pr merge --merge
@@ -90,7 +102,7 @@ gh pr merge --merge
 |-------|--------|
 | **Organización** | `https://dev.azure.com/safejcoronado1982` |
 | **Proyecto** | `theruby` (nombre histórico del proyecto Azure; la app es Fluency) |
-| **Pipeline** | `jcoronado1982.fluency` (id **2**) |
+| **Pipeline** | `jcoronado1982.fluency` (id **2**) — nombre legado; desde el 7 sep 2026 su repo fuente es `jcoronado1982/fluency.lat` |
 | **Pipeline obsoleto** | `jcoronado1982.flashcard` — renombrado |
 | **Usuario / correo** | Jesus Coronado — `safe.jcoronado1982@outlook.com` |
 | **Conexión GitHub** | `jcoronado1982 (1)` → cuenta GitHub `jcoronado1982` |

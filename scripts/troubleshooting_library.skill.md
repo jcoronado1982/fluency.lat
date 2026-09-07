@@ -635,3 +635,52 @@ Este documento es una base de conocimientos dinámica de errores técnicos, bugs
   (`card_images/`, `card_audio/`, `json/`) no hace falta pipeline ni rebuild de Rust: se sincronizan
   con `rsync` directo al proxy de GCP (`35.188.162.50:/mnt/sda/repository/flashcard/`).
 
+
+### 23. El pipeline llevaba un mes compilando OTRO repositorio (historias disjuntas)
+- **Fecha:** 2026-09-07
+- **Síntoma:** ninguno visible. El pipeline daba verde, producción respondía, y aun así **ningún
+  cambio de septiembre llegaba nunca por CI**. Se destapó por un detalle del log del build 406:
+  ```text
+  HEAD is now at 29298b3 Merge pull request #17 from jcoronado1982/qa
+  ```
+  Ese commit **no existe en el clon local** (`git cat-file` → `bad object`).
+- **Causa real:** hay **dos repos de GitHub distintos**, sin un solo commit en común:
+  | | `jcoronado1982/fluency.lat` | `jcoronado1982/fluency` |
+  |---|---|---|
+  | Rol | `origin` local; repo canónico según `docs/DEPLOY_Y_REPOSITORIO.md` | **el que compilaba la definición 2 de Azure** |
+  | `main` | `fc8a51e6` (7 sep 2026) | `29298b39` (5 ago 2026) |
+  `git merge-base` entre ambos `main` no devuelve nada: **no comparten ancestro**. Habían divergido
+  en ~400 archivos (sin contar `json/` ni media). O sea: el CI construía y desplegaba código de agosto.
+- **Por qué nadie lo notó:** los `azure-pipelines.yml` de los dos repos difieren en **2 líneas**, así
+  que todo lo que uno lee del pipeline coincide con lo que ve en local. Y el backend real de
+  producción se despliega **a mano**, no por el pipeline — así que el código bueno igual llegaba a
+  `fluency.lat` en el servidor, tapando el desfase. El repo viejo tampoco tenía webhooks: los
+  triggers van por GitHub App, que ve ambos repos.
+- **Solución:** repointar la definición 2 al repo canónico, vía API (revisión 4 → 5):
+  ```bash
+  # GET .../build/definitions/2 → sustituir el objeto "repository" → PUT
+  # El objeto exacto que Azure espera se saca de:
+  GET /_apis/sourceProviders/GitHub/repositories?serviceEndpointId=<id-conexión>
+  ```
+  Confirmado en vivo: el push siguiente a `main` disparó el build 407 con `reason: batchedCI` sobre
+  el commit correcto — el trigger automático funciona sin tocar webhooks.
+- **Cómo detectarlo la próxima vez:** si un build hace checkout de un commit que no existe en tu
+  clon, no es un problema de git: **es otro repositorio**. Verificar siempre con
+  `GET /_apis/build/definitions/2` → `repository.url`.
+- **Pendiente:** `jcoronado1982/fluency` queda congelado (guarda la historia de agosto). No commitear
+  ahí. Antes de borrarlo, comprobar si tiene algo que no esté en `fluency.lat`.
+
+### 24. `docker: unknown command: docker buildx` en el Stage 2 (demonio activo, plugin ausente)
+- **Fecha:** 2026-09-07
+- **Síntoma:** con el demonio de Docker ya corriendo (entrada 22 arreglada), el Stage 2 seguía
+  muriendo a los 0 s, ahora con otro error: `docker: unknown command: docker buildx` (builds 407, 408).
+- **Causa:** **el demonio y el plugin son dos cosas distintas.** `docker buildx` es un CLI plugin en
+  `/usr/lib/docker/cli-plugins/`; en esa máquina solo estaba `docker-compose`. El preflight de la
+  entrada 22 comprueba `docker info` (demonio) y pasaba correctamente: no cubría el plugin.
+- **Solución:** `sudo pacman -S docker-buildx` (Arch/CachyOS). Verificar con `docker buildx version`
+  y que el builder arranca con las dos plataformas:
+  ```bash
+  docker buildx inspect ci-builder | grep Platforms   # linux/amd64 … linux/arm64
+  ```
+- **Lección:** un preflight que valida *una* dependencia da la falsa sensación de haber cubierto el
+  paso entero. Dos runs seguidos se gastaron en descubrir la segunda dependencia de la misma línea.
