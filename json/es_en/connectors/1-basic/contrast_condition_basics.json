@@ -57,58 +57,6 @@
     "example": null,
     "learned": false,
     "learned_at": null,
-    "name": "or else",
-    "phonetic": "/ɔr ɛls/",
-    "spoken_phonetic_us": "/ɔr ɛls/",
-    "search_term": "connector/contrast_condition_basics/added",
-    "force_generation": false,
-    "definitions": [
-      {
-        "meaning": "O si no / De lo contrario",
-        "usage_example": "Hurry up, or else we will miss the bus.",
-        "pronunciation_guide_es": "",
-        "usage_example_es": "Date prisa o si no perderemos el bus.",
-        "char_count": "9",
-        "usage_context_en": "Used to warn about a consequence.",
-        "usage_context_es": "Used to warn about a consequence.",
-        "imagePath": "/card_images/connectors/1-basic/contrast_condition_basics/1-basic_contrast_condition_basics_card_2_def0.avif"
-      }
-    ],
-    "is_verb": false,
-    "group_name": "Connectors: Contrast"
-  },
-  {
-    "word": "",
-    "translation": "",
-    "example": null,
-    "learned": false,
-    "learned_at": null,
-    "name": "even if",
-    "phonetic": "/ˈiːvən ɪf/",
-    "spoken_phonetic_us": "/ˈiːvən ɪf/",
-    "search_term": "connector/contrast_condition_basics/added",
-    "force_generation": false,
-    "definitions": [
-      {
-        "meaning": "Incluso si / Aunque",
-        "usage_example": "I will go even if it rains.",
-        "pronunciation_guide_es": "",
-        "usage_example_es": "Iré incluso si llueve.",
-        "char_count": "7",
-        "usage_context_en": "Used to show that something will still happen under a condition.",
-        "usage_context_es": "Used to show that something will still happen under a condition.",
-        "imagePath": "/card_images/connectors/1-basic/contrast_condition_basics/1-basic_contrast_condition_basics_card_3_def0.avif"
-      }
-    ],
-    "is_verb": false,
-    "group_name": "Connectors: Contrast"
-  },
-  {
-    "word": "",
-    "translation": "",
-    "example": null,
-    "learned": false,
-    "learned_at": null,
     "name": "in case",
     "phonetic": "/ɪn keɪs/",
     "spoken_phonetic_us": "/ɪn keɪs/",

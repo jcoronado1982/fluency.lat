@@ -184,5 +184,83 @@
         "imagePath": "/card_images/connectors/2-intermediate/reason_time_and_reference/2-intermediate_reason_time_and_reference_card_5_def0.avif"
       }
     ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "that's why",
+    "phonetic": "/ðæts waɪ/",
+    "spoken_phonetic_us": "/ðæts waɪ/",
+    "search_term": "connector/cause_effect/result",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Cause & Effect",
+    "definitions": [
+      {
+        "meaning": "Por eso / Es por eso que",
+        "usage_example": "He studied hard. That's why he passed.",
+        "pronunciation_guide_es": "/hi_STO-did_HARD_dats_UAI_hi_PAST/",
+        "usage_example_es": "Él estudió mucho. Por eso aprobó.",
+        "char_count": "6",
+        "usage_context_en": "For that reason (less formal than 'therefore').",
+        "usage_context_es": "Por esa razón (menos formal que 'therefore').",
+        "imagePath": "/card_images/connectors/2-intermediate/reason_time_and_reference/2-intermediate_reason_time_and_reference_card_6_def0.avif"
+      }
+    ]
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "as a result",
+    "phonetic": "/æz ə rɪˈzʌlt/",
+    "spoken_phonetic_us": "/æz ə rɪˈzʌlt/",
+    "search_term": "connector/cause_effect/consequence",
+    "force_generation": false,
+    "definitions": [
+      {
+        "meaning": "Como resultado / Por eso",
+        "usage_example": "She trained every day. As a result, she won the race.",
+        "pronunciation_guide_es": "/shi_TREIND_EVRI_dei_az_a_riZALT_shi_UON_de_reis/",
+        "usage_example_es": "Ella entrenó cada día. Como resultado, ganó la carrera.",
+        "char_count": "8",
+        "usage_context_en": "Used to express the consequence of something.",
+        "usage_context_es": "Usado para expresar la consecuencia de algo.",
+        "imagePath": "/card_images/connectors/2-intermediate/reason_time_and_reference/2-intermediate_reason_time_and_reference_card_7_def0.avif"
+      }
+    ],
+    "is_verb": false,
+    "group_name": "Connectors: Cause & Effect"
+  },
+  {
+    "word": "",
+    "translation": "",
+    "example": null,
+    "learned": false,
+    "learned_at": null,
+    "name": "therefore",
+    "phonetic": "/ˈðɛərˌfɔr/",
+    "spoken_phonetic_us": "/ˈðɛrˌfɔr/",
+    "search_term": "adverb/result/formal",
+    "is_verb": false,
+    "force_generation": false,
+    "group_name": "Connectors: Cause & Effect",
+    "definitions": [
+      {
+        "meaning": "Por lo tanto / Por consiguiente (formal)",
+        "usage_example": "He is sick; therefore, he will not come.",
+        "pronunciation_guide_es": "/hi_is_SIK_DER-for_hi_uil_not_COM/",
+        "usage_example_es": "Él está enfermo; por lo tanto, no vendrá.",
+        "char_count": "7",
+        "usage_context_en": "For that reason; consequently (used in formal speech or writing).",
+        "usage_context_es": "Por esa razón; consecuentemente (usado en habla o escritura formal).",
+        "imagePath": "/card_images/connectors/2-intermediate/reason_time_and_reference/2-intermediate_reason_time_and_reference_card_8_def0.avif"
+      }
+    ]
   }
 ]
