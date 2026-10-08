@@ -58,7 +58,7 @@ Este documento es una base de conocimientos dinámica de errores técnicos, bugs
   fuera del flujo automático), de forma que cuando `Mirror_Oracle` despliegue el backend nuevo la
   DB ya esté en la versión correcta y `Mirror_OCI1` solo reinicie el contenedor sobre datos ya
   migrados. Procedimiento completo de migración de datos (peldaño de versión intermedia, export,
-  import, verificación de conteos): [`ARQUITECTURA_ORACLE_DB.md` §15](../docs/infrastructure/ARQUITECTURA_ORACLE_DB.md).
+  import, verificación de conteos): [`ARQUITECTURA_ORACLE_DB.md` §15](../tools/oracle-legacy/ARQUITECTURA_ORACLE_DB.md).
 - **Otras trampas del mismo upgrade** (documentadas en `backend/CLAUDE.md` y `ARQUITECTURA_ORACLE_DB.md`):
   `UPDATE` ya no crea el registro si no existe (usar `UPSERT`); `SELECT`/`UPDATE` sobre una tabla
   nunca escrita ahora es error `NotFound`, no vacío; headers HTTP del endpoint `/sql` cambiaron de

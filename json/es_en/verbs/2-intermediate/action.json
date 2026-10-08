@@ -141,22 +141,22 @@
         "form": "set",
         "phonetic": "/sɛt/",
         "spoken_phonetic_us": "/sɛt/",
-        "usage_example": "The rules are set.",
-        "usage_example_es": "Las reglas están establecidas.",
-        "pronunciation_guide_es": "/de_RULS_ar_SET/",
+        "usage_example": "They have set the rules.",
+        "usage_example_es": "Han establecido las reglas.",
+        "pronunciation_guide_es": "/dei_JAV_SET_de_RULS/",
         "meaning": "Participio de poner/establecer",
         "definitions": [
           {
-            "usage_example": "They set the conditions for the deal.",
-            "usage_example_es": "Ellos establecieron las condiciones para el trato.",
-            "pronunciation_guide_es": "/dei_SET_de_konDISHons_for_de_DIL/",
+            "usage_example": "They have set the conditions for the deal.",
+            "usage_example_es": "Han establecido las condiciones para el trato.",
+            "pronunciation_guide_es": "/dei_JAV_SET_de_konDISHons_for_de_DIL/",
             "meaning": "Participio de Establecer",
             "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_2_def0_v3.avif"
           },
           {
-            "usage_example": "She set the vase on the shelf.",
-            "usage_example_es": "Ella colocó el florero en el estante.",
-            "pronunciation_guide_es": "/shi_SET_de_VEIS_on_de_SHELF/",
+            "usage_example": "She has set the vase on the shelf.",
+            "usage_example_es": "Ella ha colocado el florero en el estante.",
+            "pronunciation_guide_es": "/shi_jas_SET_de_VEIS_on_de_SHELF/",
             "meaning": "Participio de Colocar",
             "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_2_def1_v3.avif"
           }
@@ -467,7 +467,61 @@
         "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_10_def1.avif"
       }
     ],
-    "group_name": "Daily Tasks"
+    "group_name": "Daily Tasks",
+    "irregular": {
+      "past": {
+        "form": "broke",
+        "phonetic": "/broʊk/",
+        "spoken_phonetic_us": "/broʊk/",
+        "usage_example": "He broke his arm during the game.",
+        "usage_example_es": "Él se fracturó el brazo durante el juego.",
+        "pronunciation_guide_es": "/ji_BROUK_jis_ARM_DIURing_de_GUEIM/",
+        "meaning": "Pasado de Romper/Quebrar",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_10_def0_v2.avif",
+        "definitions": [
+          {
+            "usage_example": "He broke his arm during the game.",
+            "usage_example_es": "Él se fracturó el brazo durante el juego.",
+            "pronunciation_guide_es": "/ji_BROUK_jis_ARM_DIURing_de_GUEIM/",
+            "meaning": "Pasado de Romper/Quebrar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_10_def0_v2.avif"
+          },
+          {
+            "usage_example": "They broke for lunch at noon.",
+            "usage_example_es": "Ellos hicieron una pausa para almorzar al mediodía.",
+            "pronunciation_guide_es": "/dei_BROUK_for_LANCH_at_NUN/",
+            "meaning": "Pasado de Tomar un descanso/Interrumpir",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_10_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "broken",
+        "phonetic": "/ˈbroʊ.kən/",
+        "spoken_phonetic_us": "/ˈbroʊ.kən/",
+        "usage_example": "The window has been broken.",
+        "usage_example_es": "La ventana ha sido rota.",
+        "pronunciation_guide_es": "/de_UINdou_jaz_bin_BROUKen/",
+        "meaning": "Participio de Romper/Quebrar",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_10_def0_v3.avif",
+        "definitions": [
+          {
+            "usage_example": "The window has been broken.",
+            "usage_example_es": "La ventana ha sido rota.",
+            "pronunciation_guide_es": "/de_UINdou_jaz_bin_BROUKen/",
+            "meaning": "Participio de Romper/Quebrar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_10_def0_v3.avif"
+          },
+          {
+            "usage_example": "She has broken the world record.",
+            "usage_example_es": "Ella ha roto el récord mundial.",
+            "pronunciation_guide_es": "/shi_jaz_BROUKen_de_UERLD_REKord/",
+            "meaning": "Participio de Tomar un descanso/Interrumpir",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_10_def1_v3.avif"
+          }
+        ]
+      }
+    }
   },
   {
     "word": "",
@@ -505,7 +559,61 @@
         "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_11_def1.avif"
       }
     ],
-    "group_name": "Daily Tasks"
+    "group_name": "Daily Tasks",
+    "irregular": {
+      "past": {
+        "form": "caught",
+        "phonetic": "/kɔːt/",
+        "spoken_phonetic_us": "/kɔːt/",
+        "usage_example": "He caught the ball with one hand.",
+        "usage_example_es": "Él atrapó la pelota con una mano.",
+        "pronunciation_guide_es": "/ji_KOT_de_BOL_uid_UAN_JAND/",
+        "meaning": "Pasado de Atrapar / Coger",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_11_def0_v2.avif",
+        "definitions": [
+          {
+            "usage_example": "He caught the ball with one hand.",
+            "usage_example_es": "Él atrapó la pelota con una mano.",
+            "pronunciation_guide_es": "/ji_KOT_de_BOL_uid_UAN_JAND/",
+            "meaning": "Pasado de Atrapar/Coger",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_11_def0_v2.avif"
+          },
+          {
+            "usage_example": "She caught the early bus yesterday.",
+            "usage_example_es": "Ella tomó el autobús temprano ayer.",
+            "pronunciation_guide_es": "/shi_KOT_de_URLI_BAS_IESTerdei/",
+            "meaning": "Pasado de Tomar (un transporte)",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_11_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "caught",
+        "phonetic": "/kɔːt/",
+        "spoken_phonetic_us": "/kɔːt/",
+        "usage_example": "The police have caught the thief.",
+        "usage_example_es": "La policía ha atrapado al ladrón.",
+        "pronunciation_guide_es": "/de_poLIS_jav_KOT_de_THIF/",
+        "meaning": "Participio de Atrapar / Coger",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_11_def0_v3.avif",
+        "definitions": [
+          {
+            "usage_example": "The police have caught the thief.",
+            "usage_example_es": "La policía ha atrapado al ladrón.",
+            "pronunciation_guide_es": "/de_poLIS_jav_KOT_de_THIF/",
+            "meaning": "Participio de Atrapar/Coger",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_11_def0_v3.avif"
+          },
+          {
+            "usage_example": "They have caught the train on time.",
+            "usage_example_es": "Ellos han tomado el tren a tiempo.",
+            "pronunciation_guide_es": "/dei_jav_KOT_de_TREIN_on_TAIM/",
+            "meaning": "Participio de Tomar (un transporte)",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_11_def1_v3.avif"
+          }
+        ]
+      }
+    }
   },
   {
     "word": "",
@@ -543,7 +651,61 @@
         "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_12_def1.avif"
       }
     ],
-    "group_name": "Daily Tasks"
+    "group_name": "Daily Tasks",
+    "irregular": {
+      "past": {
+        "form": "threw",
+        "phonetic": "/θruː/",
+        "spoken_phonetic_us": "/θruː/",
+        "usage_example": "She threw the ball across the yard.",
+        "usage_example_es": "Ella lanzó la pelota a través del patio.",
+        "pronunciation_guide_es": "/shi_THRU_de_BOL_aKROS_de_YARD/",
+        "meaning": "Pasado de Lanzar/Arrojar",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_12_def0_v2.avif",
+        "definitions": [
+          {
+            "usage_example": "She threw the ball across the yard.",
+            "usage_example_es": "Ella lanzó la pelota a través del patio.",
+            "pronunciation_guide_es": "/shi_THRU_de_BOL_aKROS_de_YARD/",
+            "meaning": "Pasado de Lanzar/Arrojar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_12_def0_v2.avif"
+          },
+          {
+            "usage_example": "They threw a surprise party for him.",
+            "usage_example_es": "Ellos hicieron una fiesta sorpresa para él.",
+            "pronunciation_guide_es": "/dei_THRU_a_serPRAIS_PARTI_for_JIM/",
+            "meaning": "Pasado de Hacer (una fiesta)",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_12_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "thrown",
+        "phonetic": "/θroʊn/",
+        "spoken_phonetic_us": "/θroʊn/",
+        "usage_example": "He has thrown the paper in the trash.",
+        "usage_example_es": "Él ha tirado el papel a la basura.",
+        "pronunciation_guide_es": "/ji_jaz_THROUN_de_PEIPer_in_de_TRASH/",
+        "meaning": "Participio de Lanzar/Arrojar",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_12_def0_v3.avif",
+        "definitions": [
+          {
+            "usage_example": "He has thrown the paper in the trash.",
+            "usage_example_es": "Él ha tirado el papel a la basura.",
+            "pronunciation_guide_es": "/ji_jaz_THROUN_de_PEIPer_in_de_TRASH/",
+            "meaning": "Participio de Lanzar/Arrojar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_12_def0_v3.avif"
+          },
+          {
+            "usage_example": "They have thrown the biggest event of the year.",
+            "usage_example_es": "Ellos han organizado el evento más grande del año.",
+            "pronunciation_guide_es": "/dei_jav_THROUN_de_BIGest_iVENT_ov_de_YIR/",
+            "meaning": "Participio de Hacer (una fiesta)",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_12_def1_v3.avif"
+          }
+        ]
+      }
+    }
   },
   {
     "word": "",
@@ -1025,7 +1187,61 @@
         "usage_context_es": "Luchar contra algo difícil.",
         "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_25_def1.avif"
       }
-    ]
+    ],
+    "irregular": {
+      "past": {
+        "form": "fought",
+        "phonetic": "/fɔːt/",
+        "spoken_phonetic_us": "/fɔːt/",
+        "usage_example": "The kids fought over a toy yesterday.",
+        "usage_example_es": "Los niños pelearon por un juguete ayer.",
+        "pronunciation_guide_es": "/de_KIDS_FOT_OUver_a_TOI_IESTerdei/",
+        "meaning": "Pasado de Pelear / Luchar",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_25_def0_v2.avif",
+        "definitions": [
+          {
+            "usage_example": "The kids fought over a toy yesterday.",
+            "usage_example_es": "Los niños pelearon por un juguete ayer.",
+            "pronunciation_guide_es": "/de_KIDS_FOT_OUver_a_TOI_IESTerdei/",
+            "meaning": "Pasado de Pelear / Luchar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_25_def0_v2.avif"
+          },
+          {
+            "usage_example": "They fought bravely for their rights.",
+            "usage_example_es": "Ellos lucharon valientemente por sus derechos.",
+            "pronunciation_guide_es": "/dei_FOT_BREIVli_for_der_RAITS/",
+            "meaning": "Pasado de Combatir / Luchar (por una causa)",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_25_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "fought",
+        "phonetic": "/fɔːt/",
+        "spoken_phonetic_us": "/fɔːt/",
+        "usage_example": "They have fought many battles together.",
+        "usage_example_es": "Ellos han peleado muchas batallas juntos.",
+        "pronunciation_guide_es": "/dei_jav_FOT_MENI_BATls_tuGUEDer/",
+        "meaning": "Participio de Pelear / Luchar",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_25_def0_v3.avif",
+        "definitions": [
+          {
+            "usage_example": "They have fought many battles together.",
+            "usage_example_es": "Ellos han peleado muchas batallas juntos.",
+            "pronunciation_guide_es": "/dei_jav_FOT_MENI_BATls_tuGUEDer/",
+            "meaning": "Participio de Pelear / Luchar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_25_def0_v3.avif"
+          },
+          {
+            "usage_example": "Doctors have fought the disease tirelessly.",
+            "usage_example_es": "Los médicos han combatido la enfermedad incansablemente.",
+            "pronunciation_guide_es": "/DOKters_jav_FOT_de_diSIS_TAIArlesli/",
+            "meaning": "Participio de Combatir / Luchar (por una causa)",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_25_def1_v3.avif"
+          }
+        ]
+      }
+    }
   },
   {
     "word": "",
@@ -1191,31 +1407,83 @@
     "search_term": "verb/shake/essentials",
     "is_verb": true,
     "force_generation": true,
-    "group_name": "Daily Tasks",
     "definitions": [
       {
-        "meaning": "Sacudir / Temblar",
-        "usage_example": "The ground shook during the storm.",
-        "alternative_example": "She shook the bottle before opening it.",
-        "pronunciation_guide_es": "/de_GRAUND_SHUK_DUring_de_STORM/",
-        "usage_example_es": "El suelo tembló durante la tormenta.",
+        "meaning": "Sacudir / Agitar",
+        "usage_example": "Shake the bottle well before opening.",
+        "alternative_example": "Earthquakes can shake entire buildings.",
+        "pronunciation_guide_es": "/SHEIK_de_BOTol_uel_biFOR_OPening/",
+        "usage_example_es": "Agita bien la botella antes de abrirla.",
         "char_count": "one",
-        "usage_context_en": "To move quickly from side to side.",
+        "usage_context_en": "To move quickly back and forth.",
         "usage_context_es": "Moverse rápido de un lado a otro.",
         "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_30_def0.avif"
       },
       {
         "meaning": "Estrechar (la mano)",
-        "usage_example": "They shook hands after the meeting.",
-        "alternative_example": "He shook my hand firmly.",
-        "pronunciation_guide_es": "/DEI_SHUK_JANDS_AFter_de_MIting/",
-        "usage_example_es": "Se dieron la mano después de la reunión.",
+        "usage_example": "We usually shake hands when we meet someone.",
+        "alternative_example": "They shake hands to seal the agreement.",
+        "pronunciation_guide_es": "/ui_IUsuali_SHEIK_JANDS_uen_ui_MIT_SAMuan/",
+        "usage_example_es": "Solemos darnos la mano cuando conocemos a alguien.",
         "char_count": "one",
         "usage_context_en": "To shake someone's hand as a greeting.",
         "usage_context_es": "Estrechar la mano de alguien como saludo.",
         "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_30_def1.avif"
       }
-    ]
+    ],
+    "irregular": {
+      "past": {
+        "form": "shook",
+        "phonetic": "/ʃʊk/",
+        "spoken_phonetic_us": "/ʃʊk/",
+        "usage_example": "The ground shook during the storm.",
+        "usage_example_es": "El suelo tembló durante la tormenta.",
+        "pronunciation_guide_es": "/de_GRAUND_SHUK_DUring_de_STORM/",
+        "meaning": "Pasado de sacudir/estrechar",
+        "definitions": [
+          {
+            "usage_example": "The ground shook during the storm.",
+            "usage_example_es": "El suelo tembló durante la tormenta.",
+            "pronunciation_guide_es": "/de_GRAUND_SHUK_DUring_de_STORM/",
+            "meaning": "Pasado de Sacudir/Temblar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_30_def0_v2.avif"
+          },
+          {
+            "usage_example": "They shook hands after the meeting.",
+            "usage_example_es": "Se dieron la mano después de la reunión.",
+            "pronunciation_guide_es": "/DEI_SHUK_JANDS_AFter_de_MIting/",
+            "meaning": "Pasado de Estrechar (la mano)",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_30_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "shaken",
+        "phonetic": "/ˈʃeɪkən/",
+        "spoken_phonetic_us": "/ˈʃeɪkən/",
+        "usage_example": "I have shaken the bottle thoroughly.",
+        "usage_example_es": "He agitado la botella minuciosamente.",
+        "pronunciation_guide_es": "/ai_JAV_SHEIKen_de_BOTol_TOROli/",
+        "meaning": "Participio de sacudir/estrechar",
+        "definitions": [
+          {
+            "usage_example": "I have shaken the bottle thoroughly.",
+            "usage_example_es": "He agitado la botella minuciosamente.",
+            "pronunciation_guide_es": "/ai_JAV_SHEIKen_de_BOTol_TOROli/",
+            "meaning": "Participio de Sacudir/Agitar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_30_def0_v3.avif"
+          },
+          {
+            "usage_example": "They have shaken hands and closed the deal.",
+            "usage_example_es": "Se han estrechado la mano y cerrado el trato.",
+            "pronunciation_guide_es": "/dei_JAV_SHEIKen_JANDS_and_KLOUST_de_DIL/",
+            "meaning": "Participio de Estrechar (la mano)",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_30_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Daily Tasks"
   },
   {
     "word": "",
@@ -1343,31 +1611,83 @@
     "search_term": "verb/rise/essentials",
     "is_verb": true,
     "force_generation": true,
-    "group_name": "Managing & Control",
     "definitions": [
       {
         "meaning": "Subir / Aumentar",
-        "usage_example": "The temperature rose quickly.",
-        "alternative_example": "Prices keep rising every year.",
-        "pronunciation_guide_es": "/de_TEMprecher_ROUS_KUIKli/",
-        "usage_example_es": "La temperatura subió rápido.",
+        "usage_example": "Prices usually rise every year.",
+        "alternative_example": "The temperature begins to rise at noon.",
+        "pronunciation_guide_es": "/PRAIsis_IUsuali_RAIZ_EVri_IER/",
+        "usage_example_es": "Los precios suelen subir cada año.",
         "char_count": "one",
         "usage_context_en": "To go up in level or amount.",
         "usage_context_es": "Subir de nivel o cantidad.",
         "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_34_def0.avif"
       },
       {
-        "meaning": "Levantarse (de pie)",
-        "usage_example": "He rose from his chair to greet us.",
-        "alternative_example": "The sun rises in the east.",
-        "pronunciation_guide_es": "/ji_ROUS_from_jis_CHER_tu_GRIT_as/",
-        "usage_example_es": "Él se levantó de su silla para saludarnos.",
+        "meaning": "Levantarse / Salir (el sol)",
+        "usage_example": "The sun rises in the east.",
+        "alternative_example": "Members of the court rise when the judge enters.",
+        "pronunciation_guide_es": "/de_SAN_RAIZis_in_de_IST/",
+        "usage_example_es": "El sol sale por el este.",
         "char_count": "one",
         "usage_context_en": "To stand up or get up.",
-        "usage_context_es": "Ponerse de pie.",
+        "usage_context_es": "Ponerse de pie o elevarse.",
         "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_34_def1.avif"
       }
-    ]
+    ],
+    "irregular": {
+      "past": {
+        "form": "rose",
+        "phonetic": "/roʊz/",
+        "spoken_phonetic_us": "/roʊz/",
+        "usage_example": "The temperature rose quickly.",
+        "usage_example_es": "La temperatura subió rápido.",
+        "pronunciation_guide_es": "/de_TEMprecher_ROUS_KUIKli/",
+        "meaning": "Pasado de subir/levantarse",
+        "definitions": [
+          {
+            "usage_example": "The temperature rose quickly.",
+            "usage_example_es": "La temperatura subió rápido.",
+            "pronunciation_guide_es": "/de_TEMprecher_ROUS_KUIKli/",
+            "meaning": "Pasado de Subir/Aumentar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_34_def0_v2.avif"
+          },
+          {
+            "usage_example": "He rose from his chair to greet us.",
+            "usage_example_es": "Él se levantó de su silla para saludarnos.",
+            "pronunciation_guide_es": "/ji_ROUS_from_jis_CHER_tu_GRIT_as/",
+            "meaning": "Pasado de Levantarse",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_34_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "risen",
+        "phonetic": "/ˈrɪzən/",
+        "spoken_phonetic_us": "/ˈrɪzən/",
+        "usage_example": "Prices have risen significantly this year.",
+        "usage_example_es": "Los precios han subido significativamente este año.",
+        "pronunciation_guide_es": "/PRAIsis_jav_RIZon_sigNIfikantli_dis_IER/",
+        "meaning": "Participio de subir/levantarse",
+        "definitions": [
+          {
+            "usage_example": "Prices have risen significantly this year.",
+            "usage_example_es": "Los precios han subido significativamente este año.",
+            "pronunciation_guide_es": "/PRAIsis_jav_RIZon_sigNIfikantli_dis_IER/",
+            "meaning": "Participio de Subir/Aumentar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_34_def0_v3.avif"
+          },
+          {
+            "usage_example": "The sun has already risen above the horizon.",
+            "usage_example_es": "El sol ya ha salido sobre el horizonte.",
+            "pronunciation_guide_es": "/de_SAN_jas_olREDI_RIZon_aBAV_de_joRAIzon/",
+            "meaning": "Participio de Levantarse/Salir",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_34_def1_v3.avif"
+          }
+        ]
+      }
+    },
+    "group_name": "Managing & Control"
   },
   {
     "word": "",

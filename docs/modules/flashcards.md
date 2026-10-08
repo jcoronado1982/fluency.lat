@@ -192,7 +192,7 @@ the struct, and new fields can be added to content without a code change.
 | `group_name` | string | Human-readable topic label shown in the UI (e.g. `"Connectors: Cause & Effect"`) |
 | `is_verb` | bool | Present in `es_en` cards |
 | `is_phrasal_verb`, `category` | bool, string | Present in `en_es` cards instead of `is_verb` — the two directions were authored with slightly different field sets, not a typo to "fix" without checking both content pipelines |
-| `irregular` | bool | Present on some `es_en` verb cards (irregular conjugation flag) |
+| `irregular` | object | Present on some `es_en` verb cards. **Not a flag** — it holds `past` and `participle`, each with `form`, `phonetic`, `spoken_phonetic_us`, `meaning` and either a top-level `usage_example`/`usage_example_es`/`pronunciation_guide_es` or a `definitions[]` array that **takes precedence over the top-level fields** (`CardBack.jsx:48-70`). Feeds the v1/v2/v3 table in `ConjugationTable.jsx`. `form` may be a composite string (`"was / were"`, `"gotten / got"`, `"learned / learnt"`) — any validator matching `form` against the example sentence must handle that |
 | `force_generation` | bool | Media-pipeline flag — forces regeneration instead of reusing cached audio/image |
 | `definitions` | array | One entry per distinct meaning/usage of the headword — see below. A word with several unrelated senses (like `"so"`) has multiple entries here, each getting its own image |
 
@@ -689,6 +689,22 @@ error. Not a new behaviour, but reachable now — regenerate the manifest if a d
   (`navigator.sendBeacon` is not an option — it cannot carry the `Authorization` header the backend
   requires). Both hooks previously rebuilt the URL, the token and the auth headers by hand.
   Regression test: `client/scripts/test-http-adapters.mjs` › `flashcardHttpAdapter`.
+- **The example of an `irregular` block must exercise the tense its slot teaches.** Tapping v3 makes
+  `CardBack.jsx` show `participle.form` as the card title plus that block's `usage_example` and
+  `meaning` ("Participio de…"), so the sentence is the lesson, not decoration:
+  - `past` (v2) → simple past: the past form as the finite verb, no `have/has/had`.
+  - `participle` (v3) → **present perfect** (`have`/`has` + participle), and `usage_example_es` with
+    *haber* + participio. A passive ("It is said that he is the best") is valid English but teaches
+    voice, not the perfect, and its Spanish never exercises *haber*; copying the v2 sentence into v3
+    is always wrong — it shows the title `eaten` above a sentence that says `ate`.
+  - Time adverbials must survive the switch: `last night`/`last year`/`in 1990` do not combine with
+    the present perfect, so they get dropped or moved (`this year`, `this month`) when v2 → v3.
+  - Changing a sentence invalidates its media: the audio filename hashes the phrase
+    (`deterministic_audio_filename`, `audio_use_cases.rs:696-714`) so the old `.ogg` is orphaned and
+    re-synthesized on demand, while `imagePath` is explicit and keeps serving an image drawn for the
+    **old** phrase. Keep the subject of the sentence when rewriting, or queue the image for regeneration.
+  - Audited 2026-10-08 across the 26 files of `json/es_en/verbs/` (69 cards with an `irregular`
+    block): 34 participle examples were taught in the wrong tense and were corrected.
 - Media URLs return `?v=<mtime>-<size>` query parameter.
 - Responsive web images use **768×512 (3:2) AVIF**.
 - **Personal Words image generation is ALWAYS Gemini** (`for_raw_phrase` direct path) — never the

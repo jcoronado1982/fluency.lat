@@ -15,7 +15,7 @@ Este manual define los procedimientos estándar para la gestión del proyecto Fl
   `UPSERT` para crear-si-no-existe (`UPDATE` ya no crea), tablas nunca escritas dan error `NotFound`
   en vez de vacío, sin compatibilidad cruzada de versión mayor entre cliente y servidor — backend y
   DB se despliegan juntos. Transacciones multi-statement en una sola query siguen igual. Detalle:
-  `docs/infrastructure/ARQUITECTURA_ORACLE_DB.md` §7 y §15.
+  `tools/oracle-legacy/ARQUITECTURA_ORACLE_DB.md` §7 y §15.
 
 > ⚠️ **PostgreSQL NO es la DB del producto**: existe solo en `docker-compose.yml` local, sin uso en
 > producción. Los pagos SÍ están activos (LemonSqueezy + tabla `subscription` en SurrealDB — ver

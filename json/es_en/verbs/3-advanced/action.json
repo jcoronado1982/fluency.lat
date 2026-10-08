@@ -122,16 +122,56 @@
     "definitions": [
       {
         "meaning": "Superar (un obstáculo, dificultad)",
-        "usage_example": "He overcame many challenges to succeed.",
-        "pronunciation_guide_es": "/ji_ouverKEIM_MENi_CHALenyis_tu_sakSID/",
-        "alternative_example": "She is trying to overcome her fear.",
-        "usage_example_es": "Él superó muchos desafíos para tener éxito.",
+        "usage_example": "She is trying to overcome her fear.",
+        "pronunciation_guide_es": "/shi_is_TRAIing_tu_ouverKAM_jer_FIR/",
+        "alternative_example": "You can overcome any obstacle with effort.",
+        "usage_example_es": "Ella está intentando superar su miedo.",
         "char_count": "four",
         "usage_context_en": "difficulty/success",
         "usage_context_es": "dificultad/éxito",
         "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_4_def0.avif"
       }
     ],
+    "irregular": {
+      "past": {
+        "form": "overcame",
+        "phonetic": "/ˌoʊvərˈkeɪm/",
+        "spoken_phonetic_us": "/ˌoʊvərˈkeɪm/",
+        "usage_example": "He overcame many challenges to succeed.",
+        "usage_example_es": "Él superó muchos desafíos para tener éxito.",
+        "pronunciation_guide_es": "/ji_ouverKEIM_MENi_CHALenyis_tu_sakSID/",
+        "meaning": "Pasado de Superar (un obstáculo)",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_4_def0_v2.avif",
+        "definitions": [
+          {
+            "usage_example": "He overcame many challenges to succeed.",
+            "usage_example_es": "Él superó muchos desafíos para tener éxito.",
+            "pronunciation_guide_es": "/ji_ouverKEIM_MENi_CHALenyis_tu_sakSID/",
+            "meaning": "Pasado de Superar (un obstáculo)",
+            "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_4_def0_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "overcome",
+        "phonetic": "/ˌoʊvərˈkʌm/",
+        "spoken_phonetic_us": "/ˌoʊvərˈkʌm/",
+        "usage_example": "They have overcome great difficulties.",
+        "usage_example_es": "Ellos han superado grandes dificultades.",
+        "pronunciation_guide_es": "/dei_jav_ouverKAM_greit_DIFikoltis/",
+        "meaning": "Participio de Superar (un obstáculo)",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_4_def0_v3.avif",
+        "definitions": [
+          {
+            "usage_example": "They have overcome great difficulties.",
+            "usage_example_es": "Ellos han superado grandes dificultades.",
+            "pronunciation_guide_es": "/dei_jav_ouverKAM_greit_DIFikoltis/",
+            "meaning": "Participio de Superar (un obstáculo)",
+            "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_4_def0_v3.avif"
+          }
+        ]
+      }
+    },
     "group_name": "Goals & Results"
   },
   {
@@ -501,16 +541,56 @@
     "definitions": [
       {
         "meaning": "Propagarse / Extenderse",
-        "usage_example": "The news spread quickly.",
-        "pronunciation_guide_es": "/de_NIUS_SPRED_KUIKli/",
-        "usage_example_es": "La noticia se propagó rápidamente.",
+        "usage_example": "Rumors spread fast in a small office.",
+        "pronunciation_guide_es": "/RUmors_SPRED_FAST_in_a_SMOL_OFis/",
+        "usage_example_es": "Los rumores se propagan rápido en una oficina pequeña.",
         "char_count": "one",
         "usage_context_en": "To reach or affect a larger area or more people.",
         "usage_context_es": "Alcanzar o afectar un área o más personas.",
         "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_18_def0.avif",
-        "alternative_example": "Rumors spread fast in a small office."
+        "alternative_example": "Flies spread disease easily."
       }
-    ]
+    ],
+    "irregular": {
+      "past": {
+        "form": "spread",
+        "phonetic": "/sprɛd/",
+        "spoken_phonetic_us": "/sprɛd/",
+        "usage_example": "The news spread quickly yesterday.",
+        "usage_example_es": "La noticia se propagó rápidamente ayer.",
+        "pronunciation_guide_es": "/de_NIUS_SPRED_KUIKli_IESTerdei/",
+        "meaning": "Pasado de Propagarse / Extenderse",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_18_def0_v2.avif",
+        "definitions": [
+          {
+            "usage_example": "The news spread quickly yesterday.",
+            "usage_example_es": "La noticia se propagó rápidamente ayer.",
+            "pronunciation_guide_es": "/de_NIUS_SPRED_KUIKli_IESTerdei/",
+            "meaning": "Pasado de Propagarse / Extenderse",
+            "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_18_def0_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "spread",
+        "phonetic": "/sprɛd/",
+        "spoken_phonetic_us": "/sprɛd/",
+        "usage_example": "The disease has spread to other regions.",
+        "usage_example_es": "La enfermedad se ha propagado a otras regiones.",
+        "pronunciation_guide_es": "/de_diSIS_jaz_SPRED_tu_ADer_RIyons/",
+        "meaning": "Participio de Propagarse / Extenderse",
+        "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_18_def0_v3.avif",
+        "definitions": [
+          {
+            "usage_example": "The disease has spread to other regions.",
+            "usage_example_es": "La enfermedad se ha propagado a otras regiones.",
+            "pronunciation_guide_es": "/de_diSIS_jaz_SPRED_tu_ADer_RIyons/",
+            "meaning": "Participio de Propagarse / Extenderse",
+            "imagePath": "/card_images/verbs/3-advanced/action/3-advanced_action_card_18_def0_v3.avif"
+          }
+        ]
+      }
+    }
   },
   {
     "word": "",

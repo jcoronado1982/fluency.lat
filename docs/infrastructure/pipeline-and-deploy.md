@@ -153,103 +153,41 @@ Stages 1 y 2 **siguen en paralelo** (correcto: son los dos únicos jobs simultá
 
 ---
 
-## Stage 3 — Deploy Frontend (job DESHABILITADO — `condition: false`)
+## Stage 3 — Deploy Frontend (`LocalBuild` desde el 7 sep 2026)
 
-> No corre desde el 5 ago 2026: apunta al service connection `SrvPortfolio` (IP de Oracle, muerta) y
-> no existe todavía un service connection SSH hacia el proxy real de GCP. El SPA se despliega a mano.
+> Activo desde el 7 sep 2026: desplegado automáticamente desde el pool `LocalBuild` vía SSH con `sshpass -e` al proxy real de GCP (`35.188.162.50`). Solo ejecuta en ramas `main` y `qa`.
 
-1. Descarga artefacto `flashcard-site`
-2. `CopyFilesOverSSH` → `/root/smart-proxy/flashcard`
-3. `CopyFilesOverSSH` → sync `infra/proxy/*` a `/root/smart-proxy/infra-proxy/`
-4. `SSH@0` → `bootstrap-oracle.sh --caddy-only`
-
-Scripts copiados en cada deploy: `bootstrap-oracle.sh`, `deploy-caddy.sh`, `deploy-oracle-backend.sh`, `docker-gcr-auth.sh`, etc.
-
----
-
-## Stage 4 — Deploy GCP Cloud Run (`LocalBuild` desde el 7 sep 2026)
-
-- Solo si Stage 2 succeeded
-- `gcloud run deploy flashcard-backend` con imagen `:latest` de GCR
-- Espejo/overflow histórico; **producción principal no depende de Cloud Run**
-
-> ⚠️ **Este stage nunca había funcionado en `main`** (diagnosticado el 5 ago 2026). Falló con
-> `PERMISSION_DENIED: Permission 'run.services.get' denied ... authenticated as
-> alberto.testing01@gmail.com` en los builds 388 y 391 — los **únicos dos** runs de `main` desde
-> que el stage existe (el último `main` verde, run 318 del 21 jul, tenía un pipeline de solo 2
-> stages, sin `Deploy_GCP`). No es una regresión: nació roto.
->
-> **Causa raíz:** el step heredaba la cuenta `gcloud` *activa del agente*, que es estado
-> compartido de la máquina — un humano que corra `gcloud config set account` ahí (p. ej. durante
-> la migración a GCP del 4 ago) cambia con qué identidad despliega el pipeline. Verificado en
-> vivo: `alberto.testing01@gmail.com` **no** tiene `run.services.get` sobre `launch-490115`,
-> mientras que `azure-pipelines-deployer@launch-490115.iam.gserviceaccount.com` **sí** (y sus
-> credenciales ya están en el credential store del usuario `jcoronado`, que es con el que corren
-> ambos agentes). **Corregido** fijando `CLOUDSDK_CORE_ACCOUNT` en el propio step, para no
-> depender del ambiente.
->
-> Impacto mientras estuvo roto: como `Deploy_Mirrors` exige
-> `in(dependencies.Deploy_GCP.result, 'Succeeded', 'Skipped')` y aquí el resultado era `Failed`,
-> **arrastraba a `Mirror_AWS` a `Skipped`** — el único mirror activo no se actualizaba. El backend
-> de producción real (la VM de GCP) no se ve afectado porque este pipeline nunca lo despliega
-> (ver sección siguiente).
->
-> **Segundo bug del mismo stage (destino de media legado — corregido a medias):** `ORACLE_HOST`
-> y `ORACLE_SSH_PASSWORD` **no existían en ningún lado**, así que Azure dejaba el literal
-> `$(ORACLE_HOST)`, bash lo interpretaba como sustitución de comando (de ahí los
-> `ORACLE_HOST: command not found` del log) y el valor llegaba **vacío**. Verificado en el
-> servicio Cloud Run vivo: `SYNC_TO_ORACLE='true'` con `ORACLE_HOST=''`. Además
-> `ORACLE_REMOTE_PATH` apuntaba a la ruta de Oracle (`/root/smart-proxy/repository/flashcard`),
-> que **no existe en el proxy de GCP** (verificado por SSH) — la real es
-> `/mnt/sda/repository/flashcard`. **El mismo defecto afectaba a `Mirror_AWS`**, no solo a
-> Cloud Run. Consecuencia: si el tráfico caía al overflow y un premium/admin generaba audio o
-> imagen, el SCP iba a un host vacío y fallaba (patrón "Audio 500 `ssh mkdir 255`").
->
-> Corregido en el YAML: `ORACLE_HOST` (`35.188.162.50`) y `ORACLE_REMOTE_PATH`
-> (`/mnt/sda/repository/flashcard`) ahora son variables del pipeline — el prefijo `ORACLE_*` es
-> **nombre legado**, el destino real es el proxy de GCP. La IP no es secreta (ya estaba en
-> `server_inventory.md`); la contraseña sí.
->
-> 🔴 **Falta un paso manual:** `ORACLE_SSH_PASSWORD` debe cargarse como variable **secreta** en
-> el variable group `Flashcard-Secrets` (contraseña root del proxy, en `SECRETS_MAP.md`).
-> Mientras no exista, Cloud Run y el mirror de AWS siguen sin poder escribir media en el proxy.
+1. Descarga el artefacto `flashcard-site` generado en Stage 1.
+2. Empaqueta el bundle SPA en stream y lo extrae directamente en el servidor proxy de GCP:
+   - Para rama `main`: `/mnt/sda/flashcard` (servido para `fluency.lat`).
+   - Para rama `qa`: `/mnt/sda/qa_flashcard` (servido para `qa.fluency.lat`).
+3. Aplica permisos `chmod -R 755 $TARGET_DIR`.
+4. Verifica la respuesta HTTP (`curl -sf -I "https://$FRONTEND_HOST/"`).
 
 ---
 
-## Deploy del backend de producción REAL (manual — el pipeline no lo hace)
+## Stage 4 — Deploy Backend GCP Proxy + Cloud Run (`LocalBuild` desde el 7 sep 2026)
 
-El pipeline **no despliega** el backend que sirve `fluency.lat`: solo construye y publica la
-imagen en GCR (stage 2). Quien corre en la VM `fluency-proxy-backend` (`35.188.162.50`) es el
-contenedor `flashcard-backend-node`, y actualizarlo es un paso **manual**.
+> Corre en `LocalBuild` si Stage 2 tuvo éxito (y Stage 3 succeeded o skipped) en ramas `main` y `qa`.
 
-**Ojo con las credenciales de GCR** (verificado 5 ago 2026): la cuenta `gcloud` activa por defecto
-es `alberto.testing01@gmail.com`, que sirve para el proyecto `fluency` (las VMs) pero **NO** tiene
-`artifactregistry.repositories.downloadArtifacts` sobre `launch-490115` (donde vive la imagen).
-La que sí puede es la service account del pipeline. Sin cambiar la config global de `gcloud`:
+Contiene dos jobs encadenados:
 
-```bash
-CLOUDSDK_CORE_ACCOUNT=azure-pipelines-deployer@launch-490115.iam.gserviceaccount.com \
-  docker pull gcr.io/launch-490115/flashcard-backend:latest
-```
+### A. GCPProxyDeploy (Servidor Principal de Producción / QA)
+Despliegue automatizado del contenedor backend en la VM de GCP (`35.188.162.50`):
+1. Inyecta `GCP_KEY_JSON` decodificado en un temporal efímero para `docker login` a `gcr.io`.
+2. Hace `docker pull gcr.io/launch-490115/flashcard-backend:latest`.
+3. Detiene y elimina el contenedor anterior (`flashcard-backend-node` en `main` o `qa-flashcard-backend-node` en `qa`).
+4. Lanza el nuevo contenedor con red `--network host --restart always`:
+   - En `main`: puerto `8080`, namespaces `flashcard`, memoria `512m`, cpu-shares `1024`, mount `/mnt/sda/repository/flashcard:/data`.
+   - En `qa`: puerto `8081`, namespaces `qa_flashcard`, memoria `128m`, cpu-shares `128`, mount `/mnt/sda/repository/qa_flashcard:/data`.
+   - Inyecta todas las credenciales (`SURREAL_*`, `GEMINI_*`, `JWT_SECRET`, `LEMON_SQUEEZY_*`, `GCP_API_KEY`) directo en memoria.
+5. Verifica salud con `curl -sf http://127.0.0.1:$PORT/api/health`.
 
-La VM **no tiene `gcloud` ni credenciales de Docker** (el pipeline se las inyectaba efímeras), así
-que no puede hacer `docker pull` por sí sola. El camino que funciona es empujar la imagen desde la
-PC de desarrollo:
-
-```bash
-docker save gcr.io/launch-490115/flashcard-backend:latest \
-  | gzip -1 \
-  | sshpass -p '<pass>' ssh root@35.188.162.50 'gunzip | docker load'
-```
-
-Y luego recrear el contenedor **replicando su configuración exacta leída en vivo**, no de memoria:
-`docker inspect` da las ~21 env vars, y se pasan con `--env-file` (cada línea `KEY=VALUE` literal,
-sin `eval` ni quoting — que es donde se rompen estos scripts). Config verificada del contenedor:
-`--network host --restart always --memory 512m --memory-swap 512m --cpu-shares 1024`,
-logs `json-file` 10m×2, mount `/mnt/sda/repository/flashcard:/data`. Antes de tocar nada, taguear
-la imagen en uso (`docker tag <id> flashcard-backend:rollback-<fecha>`) para poder revertir, y
-cerrar con `curl -sf http://127.0.0.1:8080/api/health`. Archivos temporales **siempre en
-`/mnt/sda`**, nunca en `/` (tmpfs de ~485 MB).
+### B. CloudRunDeploy (Overflow en GCP Cloud Run)
+- Solo corre en rama `main` tras el éxito de `GCPProxyDeploy`.
+- `gcloud run deploy flashcard-backend` con imagen `:latest` de GCR.
+- Cuenta pineada con `CLOUDSDK_CORE_ACCOUNT="azure-pipelines-deployer@launch-490115.iam.gserviceaccount.com"`.
+- Destino de media configurado a `ORACLE_HOST=35.188.162.50` y `ORACLE_REMOTE_PATH=/mnt/sda/repository/flashcard`.
 
 ---
 

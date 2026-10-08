@@ -70,9 +70,9 @@
             "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_0_def0_v3.avif"
           },
           {
-            "usage_example": "Well done! You did a great job.",
-            "usage_example_es": "¡Bien hecho! Hiciste un gran trabajo.",
-            "pronunciation_guide_es": "/uel_DON_iu_did_a_greit_YOB/",
+            "usage_example": "Well done! They have done a great job.",
+            "usage_example_es": "¡Bien hecho! Han hecho un gran trabajo.",
+            "pronunciation_guide_es": "/uel_DON_dei_jav_DON_a_greit_YOB/",
             "meaning": "Participio de Hacer (completado)",
             "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_0_def1_v3.avif"
           }
@@ -132,9 +132,9 @@
         "form": "made",
         "phonetic": "/meɪd/",
         "spoken_phonetic_us": "/meɪd/",
-        "usage_example": "The chair was made of wood.",
-        "usage_example_es": "La silla estaba hecha de madera.",
-        "pronunciation_guide_es": "/de_CHEAR_was_MEID_ov_WUD/",
+        "usage_example": "They have made the chair out of wood.",
+        "usage_example_es": "Han hecho la silla de madera.",
+        "pronunciation_guide_es": "/dei_JAV_MEID_de_CHEAR_aut_ov_WUD/",
         "meaning": "Participio de hacer",
         "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_1_def0_v3.avif"
       }
@@ -213,16 +213,16 @@
         "meaning": "Participle of eat",
         "definitions": [
           {
-            "usage_example": "We ate dinner at a fancy restaurant.",
-            "usage_example_es": "Comimos en un restaurante elegante.",
-            "pronunciation_guide_es": "/ui_EIT_DINer_at_a_FANsi_REStaurant/",
+            "usage_example": "We have eaten dinner at a fancy restaurant.",
+            "usage_example_es": "Hemos comido en un restaurante elegante.",
+            "pronunciation_guide_es": "/ui_JAV_ITen_DINer_at_a_FANsi_REStaurant/",
             "meaning": "Participio de Comer",
             "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_2_def0_v3.avif"
           },
           {
-            "usage_example": "The rust ate away at the metal.",
-            "usage_example_es": "El óxido desgastó el metal.",
-            "pronunciation_guide_es": "/de_ROST_EIT_aUEI_at_de_METal/",
+            "usage_example": "The rust has eaten away at the metal.",
+            "usage_example_es": "El óxido ha desgastado el metal.",
+            "pronunciation_guide_es": "/de_ROST_jas_ITen_aUEI_at_de_METal/",
             "meaning": "Participio de Desgastar/Corroer",
             "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_2_def1_v3.avif"
           }
@@ -303,16 +303,16 @@
         "meaning": "Participle of drink",
         "definitions": [
           {
-            "usage_example": "I drank a cold glass of water.",
-            "usage_example_es": "Bebí un vaso de agua fría.",
-            "pronunciation_guide_es": "/ai_DRANK_a_KOULD_GLAS_of_UOTer/",
+            "usage_example": "I have drunk a cold glass of water.",
+            "usage_example_es": "He bebido un vaso de agua fría.",
+            "pronunciation_guide_es": "/ai_JAV_DRONK_a_KOULD_GLAS_of_UOTer/",
             "meaning": "Participio de Beber",
             "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_3_def0_v3.avif"
           },
           {
-            "usage_example": "The dry soil drank up the rain.",
-            "usage_example_es": "El suelo seco absorbió la lluvia.",
-            "pronunciation_guide_es": "/de_DRAI_SOIL_DRANK_ap_de_REIN/",
+            "usage_example": "The dry soil has drunk up the rain.",
+            "usage_example_es": "El suelo seco ha absorbido la lluvia.",
+            "pronunciation_guide_es": "/de_DRAI_SOIL_jas_DRONK_ap_de_REIN/",
             "meaning": "Participio de Absorber",
             "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_3_def1_v3.avif"
           }
@@ -393,16 +393,16 @@
         "meaning": "Participle of sleep",
         "definitions": [
           {
-            "usage_example": "I slept for ten hours last night.",
-            "usage_example_es": "Dormí durante diez horas anoche.",
-            "pronunciation_guide_es": "/ai_SLEPT_for_TEN_AUArs_last_NAIT/",
+            "usage_example": "I have slept for ten hours.",
+            "usage_example_es": "He dormido diez horas.",
+            "pronunciation_guide_es": "/ai_JAV_SLEPT_for_TEN_AUArs/",
             "meaning": "Participio de Dormir",
             "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_4_def0_v3.avif"
           },
           {
-            "usage_example": "They slept in a tent during the trip.",
-            "usage_example_es": "Pernoctaron en una tienda durante el viaje.",
-            "pronunciation_guide_es": "/dei_SLEPT_in_a_TENT_DUring_de_TRIP/",
+            "usage_example": "They have slept in a tent during the trip.",
+            "usage_example_es": "Han pernoctado en una tienda durante el viaje.",
+            "pronunciation_guide_es": "/dei_JAV_SLEPT_in_a_TENT_DUring_de_TRIP/",
             "meaning": "Participio de Pernoctar",
             "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_4_def1_v3.avif"
           }
@@ -712,9 +712,9 @@
         "form": "put",
         "phonetic": "/pʊt/",
         "spoken_phonetic_us": "/pʊt/",
-        "usage_example": "The fire was put out.",
-        "usage_example_es": "El fuego fue extinguido.",
-        "pronunciation_guide_es": "/de_FAIAr_uas_PUT_AUT/",
+        "usage_example": "The firefighters have put out the fire.",
+        "usage_example_es": "Los bomberos han extinguido el fuego.",
+        "pronunciation_guide_es": "/de_FAIAr_FAITers_jav_PUT_AUT_de_FAIAr/",
         "meaning": "Participio de poner",
         "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_11_def0_v3.avif"
       }
@@ -1607,6 +1607,46 @@
     "phonetic": "/hɪt/",
     "search_term": "verb/action/essentials",
     "spoken_phonetic_us": "/hɪt/",
+    "irregular": {
+      "past": {
+        "form": "hit",
+        "phonetic": "/hɪt/",
+        "spoken_phonetic_us": "/hɪt/",
+        "usage_example": "The ball hit the car window yesterday.",
+        "usage_example_es": "La pelota golpeó la ventana del auto ayer.",
+        "pronunciation_guide_es": "/de_BOL_JIT_de_KAR_UINdou_IESTerdei/",
+        "meaning": "Pasado de Golpear / Pegar",
+        "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_31_def0_v2.avif",
+        "definitions": [
+          {
+            "usage_example": "The ball hit the car window yesterday.",
+            "usage_example_es": "La pelota golpeó la ventana del auto ayer.",
+            "pronunciation_guide_es": "/de_BOL_JIT_de_KAR_UINdou_IESTerdei/",
+            "meaning": "Pasado de Golpear / Pegar",
+            "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_31_def0_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "hit",
+        "phonetic": "/hɪt/",
+        "spoken_phonetic_us": "/hɪt/",
+        "usage_example": "The target has been hit twice.",
+        "usage_example_es": "El blanco ha sido golpeado dos veces.",
+        "pronunciation_guide_es": "/de_TARguet_jaz_bin_JIT_TUAIS/",
+        "meaning": "Participio de Golpear / Pegar",
+        "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_31_def0_v3.avif",
+        "definitions": [
+          {
+            "usage_example": "The target has been hit twice.",
+            "usage_example_es": "El blanco ha sido golpeado dos veces.",
+            "pronunciation_guide_es": "/de_TARguet_jaz_bin_JIT_TUAIS/",
+            "meaning": "Participio de Golpear / Pegar",
+            "imagePath": "/card_images/verbs/1-basic/action/1-basic_action_card_31_def0_v3.avif"
+          }
+        ]
+      }
+    },
     "group_name": "Action & Movement"
   },
   {

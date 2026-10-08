@@ -30,34 +30,34 @@
       }
     ],
     "force_generation": false,
+    "group_name": "Communication",
+    "irregular": {
+      "participle": {
+        "form": "said",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_0_def0_v3.avif",
+        "meaning": "Participio de decir",
+        "phonetic": "/sɛd/",
+        "pronunciation_guide_es": "/PIpol_jav_SED_dat_ji_is_de_BEST/",
+        "spoken_phonetic_us": "/sɛd/",
+        "usage_example": "People have said that he is the best.",
+        "usage_example_es": "La gente ha dicho que él es el mejor."
+      },
+      "past": {
+        "form": "said",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_0_def0_v2.avif",
+        "meaning": "Pasado de decir",
+        "phonetic": "/sɛd/",
+        "pronunciation_guide_es": "/shi_SED_shi_uas_TAIArd/",
+        "spoken_phonetic_us": "/sɛd/",
+        "usage_example": "She said she was tired.",
+        "usage_example_es": "Ella dijo que estaba cansada."
+      }
+    },
     "is_verb": true,
     "name": "say",
     "phonetic": "/seɪ/",
     "search_term": "verb/speech/essentials",
-    "spoken_phonetic_us": "/seɪ/",
-    "irregular": {
-      "past": {
-        "form": "said",
-        "phonetic": "/sɛd/",
-        "spoken_phonetic_us": "/sɛd/",
-        "usage_example": "She said she was tired.",
-        "usage_example_es": "Ella dijo que estaba cansada.",
-        "pronunciation_guide_es": "/shi_SED_shi_uas_TAIArd/",
-        "meaning": "Pasado de decir",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_0_def0_v2.avif"
-      },
-      "participle": {
-        "form": "said",
-        "phonetic": "/sɛd/",
-        "spoken_phonetic_us": "/sɛd/",
-        "usage_example": "It is said that he is the best.",
-        "usage_example_es": "Se dice que él es el mejor.",
-        "pronunciation_guide_es": "/it_is_SED_dat_ji_is_de_BEST/",
-        "meaning": "Participio de decir",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_0_def0_v3.avif"
-      }
-    },
-    "group_name": "Communication"
+    "spoken_phonetic_us": "/seɪ/"
   },
   {
     "word": "",
@@ -69,33 +69,33 @@
       {
         "alternative_example": "Can we talk later?",
         "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_1_def0.avif",
         "meaning": "Hablar/Conversar",
         "pronunciation_guide_es": "/ui_TORK_EVri_DEI_on_de_FOUN/",
         "usage_context_en": "communication/dialogue",
         "usage_context_es": "comunicación/diálogo",
         "usage_example": "We talk every day on the phone.",
-        "usage_example_es": "Hablamos todos los días por teléfono.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_1_def0.avif"
+        "usage_example_es": "Hablamos todos los días por teléfono."
       },
       {
         "alternative_example": "They are talking about their trip.",
         "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_1_def1.avif",
         "meaning": "Charlar/Comentar",
         "pronunciation_guide_es": "/dont_TORK_DIUring_de_MUVI/",
         "usage_context_en": "discussion/banter",
         "usage_context_es": "discusión/charla",
         "usage_example": "Don't talk during the movie.",
-        "usage_example_es": "No hables durante la película.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_1_def1.avif"
+        "usage_example_es": "No hables durante la película."
       }
     ],
     "force_generation": false,
+    "group_name": "Communication",
     "is_verb": true,
     "name": "talk",
     "phonetic": "/tɔːk/",
     "search_term": "verb/speak/essentials",
-    "spoken_phonetic_us": "/tɔːk/",
-    "group_name": "Communication"
+    "spoken_phonetic_us": "/tɔːk/"
   },
   {
     "word": "",
@@ -128,34 +128,34 @@
       }
     ],
     "force_generation": false,
+    "group_name": "Communication",
+    "irregular": {
+      "participle": {
+        "form": "told",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_2_def0_v3.avif",
+        "meaning": "Participio de contar/decir",
+        "phonetic": "/toʊld/",
+        "pronunciation_guide_es": "/ai_JAV_TOULD_iu_meni_TAIMS/",
+        "spoken_phonetic_us": "/toʊld/",
+        "usage_example": "I have told you many times.",
+        "usage_example_es": "Te lo he dicho muchas veces."
+      },
+      "past": {
+        "form": "told",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_2_def0_v2.avif",
+        "meaning": "Pasado de contar/decir",
+        "phonetic": "/toʊld/",
+        "pronunciation_guide_es": "/shi_TOULD_mi_a_SIkret/",
+        "spoken_phonetic_us": "/toʊld/",
+        "usage_example": "She told me a secret.",
+        "usage_example_es": "Ella me contó un secreto."
+      }
+    },
     "is_verb": true,
     "name": "tell",
     "phonetic": "/tɛl/",
     "search_term": "verb/inform/essentials",
-    "spoken_phonetic_us": "/tɛl/",
-    "irregular": {
-      "past": {
-        "form": "told",
-        "phonetic": "/toʊld/",
-        "spoken_phonetic_us": "/toʊld/",
-        "usage_example": "She told me a secret.",
-        "usage_example_es": "Ella me contó un secreto.",
-        "pronunciation_guide_es": "/shi_TOULD_mi_a_SIkret/",
-        "meaning": "Pasado de contar/decir",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_2_def0_v2.avif"
-      },
-      "participle": {
-        "form": "told",
-        "phonetic": "/toʊld/",
-        "spoken_phonetic_us": "/toʊld/",
-        "usage_example": "I have told you many times.",
-        "usage_example_es": "Te lo he dicho muchas veces.",
-        "pronunciation_guide_es": "/ai_JAV_TOULD_iu_meni_TAIMS/",
-        "meaning": "Participio de contar/decir",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_2_def0_v3.avif"
-      }
-    },
-    "group_name": "Communication"
+    "spoken_phonetic_us": "/tɛl/"
   },
   {
     "word": "",
@@ -188,12 +188,12 @@
       }
     ],
     "force_generation": false,
+    "group_name": "Communication",
     "is_verb": true,
     "name": "ask",
     "phonetic": "/æsk/",
     "search_term": "verb/question/essentials",
-    "spoken_phonetic_us": "/æsk/",
-    "group_name": "Communication"
+    "spoken_phonetic_us": "/æsk/"
   },
   {
     "word": "",
@@ -226,12 +226,12 @@
       }
     ],
     "force_generation": false,
+    "group_name": "Communication",
     "is_verb": true,
     "name": "call",
     "phonetic": "/kɔːl/",
     "search_term": "verb/name/essentials",
-    "spoken_phonetic_us": "/kɔːl/",
-    "group_name": "Communication"
+    "spoken_phonetic_us": "/kɔːl/"
   },
   {
     "word": "",
@@ -243,55 +243,55 @@
       {
         "alternative_example": "She writes beautiful poems.",
         "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_5_def0.avif",
         "meaning": "Escribir (con un bolígrafo, etc.)",
         "pronunciation_guide_es": "/RAIT_yor_NEIM_on_de_PEIper/",
         "usage_context_en": "penmanship/creation",
         "usage_context_es": "escritura/creación",
         "usage_example": "Write your name on the paper.",
-        "usage_example_es": "Escribe tu nombre en el papel.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_5_def0.avif"
+        "usage_example_es": "Escribe tu nombre en el papel."
       },
       {
         "alternative_example": "Write me an email soon.",
         "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_5_def1.avif",
         "meaning": "Componer (música, libro)",
         "pronunciation_guide_es": "/hi_is_RAITing_a_BUK_aBAUT_HISTRi/",
         "usage_context_en": "literature/communication",
         "usage_context_es": "literatura/comunicación",
         "usage_example": "He is writing a book about history.",
-        "usage_example_es": "Él está escribiendo un libro sobre historia.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_5_def1.avif"
+        "usage_example_es": "Él está escribiendo un libro sobre historia."
       }
     ],
     "force_generation": false,
+    "group_name": "Communication",
+    "irregular": {
+      "participle": {
+        "form": "written",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_5_def0_v3.avif",
+        "meaning": "Participio de escribir",
+        "phonetic": "/ˈrɪtn/",
+        "pronunciation_guide_es": "/de_OTor_jas_RITen_a_FEIMOS_BUK/",
+        "spoken_phonetic_us": "/ˈrɪtn/",
+        "usage_example": "The author has written a famous book.",
+        "usage_example_es": "El autor ha escrito un libro famoso."
+      },
+      "past": {
+        "form": "wrote",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_5_def0_v2.avif",
+        "meaning": "Pasado de escribir",
+        "phonetic": "/roʊt/",
+        "pronunciation_guide_es": "/ai_ROUT_a_LETer_tu_mai_MAM/",
+        "spoken_phonetic_us": "/roʊt/",
+        "usage_example": "I wrote a letter to my mom.",
+        "usage_example_es": "Escribí una carta a mi mamá."
+      }
+    },
     "is_verb": true,
     "name": "write",
     "phonetic": "/raɪt/",
     "search_term": "verb/compose/essentials",
-    "spoken_phonetic_us": "/raɪt/",
-    "irregular": {
-      "past": {
-        "form": "wrote",
-        "phonetic": "/roʊt/",
-        "spoken_phonetic_us": "/roʊt/",
-        "usage_example": "I wrote a letter to my mom.",
-        "usage_example_es": "Escribí una carta a mi mamá.",
-        "pronunciation_guide_es": "/ai_ROUT_a_LETer_tu_mai_MAM/",
-        "meaning": "Pasado de escribir",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_5_def0_v2.avif"
-      },
-      "participle": {
-        "form": "written",
-        "phonetic": "/ˈrɪtn/",
-        "spoken_phonetic_us": "/ˈrɪtn/",
-        "usage_example": "The book was written in 1990.",
-        "usage_example_es": "El libro fue escrito en 1990.",
-        "pronunciation_guide_es": "/de_BUK_uas_RITen_in_nainTIN_NAINti/",
-        "meaning": "Participio de escribir",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_5_def0_v3.avif"
-      }
-    },
-    "group_name": "Communication"
+    "spoken_phonetic_us": "/raɪt/"
   },
   {
     "word": "",
@@ -303,55 +303,55 @@
       {
         "alternative_example": "Read the instructions carefully.",
         "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_6_def0.avif",
         "meaning": "Leer (texto)",
         "pronunciation_guide_es": "/ai_RID_a_BUK_EVri_MANTH/",
         "usage_context_en": "books/instructions",
         "usage_context_es": "libros/instrucciones",
         "usage_example": "I read a book every month.",
-        "usage_example_es": "Leo un libro cada mes.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_6_def0.avif"
+        "usage_example_es": "Leo un libro cada mes."
       },
       {
         "alternative_example": "The meter reads 99 miles.",
         "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_6_def1.avif",
         "meaning": "Estudiar/Interpretar (formal)",
         "pronunciation_guide_es": "/hi_RIDS_LO_at_iuniVERSITi/",
         "usage_context_en": "study/data",
         "usage_context_es": "estudio/datos",
         "usage_example": "He reads law at university.",
-        "usage_example_es": "Él estudia derecho en la universidad.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_6_def1.avif"
+        "usage_example_es": "Él estudia derecho en la universidad."
       }
     ],
     "force_generation": false,
+    "group_name": "Communication",
+    "irregular": {
+      "participle": {
+        "form": "read",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_6_def0_v3.avif",
+        "meaning": "Participio de leer",
+        "phonetic": "/rɛd/",
+        "pronunciation_guide_es": "/ai_JAV_RED_dat_ARtikol/",
+        "spoken_phonetic_us": "/rɛd/",
+        "usage_example": "I have read that article.",
+        "usage_example_es": "He leído ese artículo."
+      },
+      "past": {
+        "form": "read",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_6_def0_v2.avif",
+        "meaning": "Pasado de leer",
+        "phonetic": "/rɛd/",
+        "pronunciation_guide_es": "/ai_RED_de_BUK_last_NAIT/",
+        "spoken_phonetic_us": "/rɛd/",
+        "usage_example": "I read the book last night.",
+        "usage_example_es": "Leí el libro anoche."
+      }
+    },
     "is_verb": true,
     "name": "read",
     "phonetic": "/riːd/",
     "search_term": "verb/literature/level_up",
-    "spoken_phonetic_us": "/riːd/",
-    "irregular": {
-      "past": {
-        "form": "read",
-        "phonetic": "/rɛd/",
-        "spoken_phonetic_us": "/rɛd/",
-        "usage_example": "I read the book last night.",
-        "usage_example_es": "Leí el libro anoche.",
-        "pronunciation_guide_es": "/ai_RED_de_BUK_last_NAIT/",
-        "meaning": "Pasado de leer",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_6_def0_v2.avif"
-      },
-      "participle": {
-        "form": "read",
-        "phonetic": "/rɛd/",
-        "spoken_phonetic_us": "/rɛd/",
-        "usage_example": "I have read that article.",
-        "usage_example_es": "He leído ese artículo.",
-        "pronunciation_guide_es": "/ai_JAV_RED_dat_ARtikol/",
-        "meaning": "Participio de leer",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_6_def0_v3.avif"
-      }
-    },
-    "group_name": "Communication"
+    "spoken_phonetic_us": "/riːd/"
   },
   {
     "word": "",
@@ -384,34 +384,34 @@
       }
     ],
     "force_generation": false,
+    "group_name": "Communication",
+    "irregular": {
+      "participle": {
+        "form": "shown / showed",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_7_def0_v3.avif",
+        "meaning": "Participio de mostrar",
+        "phonetic": "/ʃoʊn/ /ʃoʊd/",
+        "pronunciation_guide_es": "/ji_jas_SHOUN_greit_PROgres/",
+        "spoken_phonetic_us": "/ʃoʊn/ /ʃoʊd/",
+        "usage_example": "He has shown great progress.",
+        "usage_example_es": "Él ha mostrado un gran progreso."
+      },
+      "past": {
+        "form": "showed",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_7_def0_v2.avif",
+        "meaning": "Pasado de mostrar",
+        "phonetic": "/ʃoʊd/",
+        "pronunciation_guide_es": "/shi_SHOUD_mi_jer_PIKchers/",
+        "spoken_phonetic_us": "/ʃoʊd/",
+        "usage_example": "She showed me her pictures.",
+        "usage_example_es": "Ella me mostró sus fotos."
+      }
+    },
     "is_verb": true,
     "name": "show",
     "phonetic": "/ʃoʊ/",
     "search_term": "verb/display/essentials",
-    "spoken_phonetic_us": "/ʃoʊ/",
-    "irregular": {
-      "past": {
-        "form": "showed",
-        "phonetic": "/ʃoʊd/",
-        "spoken_phonetic_us": "/ʃoʊd/",
-        "usage_example": "She showed me her pictures.",
-        "usage_example_es": "Ella me mostró sus fotos.",
-        "pronunciation_guide_es": "/shi_SHOUD_mi_jer_PIKchers/",
-        "meaning": "Pasado de mostrar",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_7_def0_v2.avif"
-      },
-      "participle": {
-        "form": "shown / showed",
-        "phonetic": "/ʃoʊn/ /ʃoʊd/",
-        "spoken_phonetic_us": "/ʃoʊn/ /ʃoʊd/",
-        "usage_example": "He has shown great progress.",
-        "usage_example_es": "Él ha mostrado un gran progreso.",
-        "pronunciation_guide_es": "/ji_jas_SHOUN_greit_PROgres/",
-        "meaning": "Participio de mostrar",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_7_def0_v3.avif"
-      }
-    },
-    "group_name": "Communication"
+    "spoken_phonetic_us": "/ʃoʊ/"
   },
   {
     "word": "",
@@ -422,22 +422,22 @@
     "definitions": [
       {
         "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_8_def0.avif",
         "meaning": "Agradecer",
         "pronunciation_guide_es": "/ai_uant_tu_thank_iu_for_de_diner/",
         "usage_context_en": "To say thanks or express gratitude",
         "usage_context_es": "Decir gracias o expresar gratitud",
         "usage_example": "I want to thank you for the dinner.",
-        "usage_example_es": "Quiero agradecerte por la cena.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_8_def0.avif"
+        "usage_example_es": "Quiero agradecerte por la cena."
       }
     ],
     "force_generation": false,
+    "group_name": "Communication",
     "is_verb": true,
     "name": "thank",
     "phonetic": "/θæŋk/",
     "search_term": "verb/speech/essentials",
-    "spoken_phonetic_us": "/θæŋk/",
-    "group_name": "Communication"
+    "spoken_phonetic_us": "/θæŋk/"
   },
   {
     "word": "",
@@ -448,13 +448,13 @@
     "definitions": [
       {
         "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_9_def0.avif",
         "meaning": "Responder / Contestar",
         "pronunciation_guide_es": "/PLIS_ANSER_de_KUESchon/",
         "usage_context_en": "communication/response",
         "usage_context_es": "comunicación/respuesta",
         "usage_example": "Please answer the question.",
-        "usage_example_es": "Por favor responde la pregunta.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_9_def0.avif"
+        "usage_example_es": "Por favor responde la pregunta."
       }
     ],
     "force_generation": false,
@@ -474,13 +474,13 @@
     "definitions": [
       {
         "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_10_def0.avif",
         "meaning": "Responder / Contestar",
         "pronunciation_guide_es": "/ji_diDNT_riPLAI_tu_mai_MESich/",
         "usage_context_en": "communication/reply",
         "usage_context_es": "comunicación/respuesta",
         "usage_example": "He didn't reply to my message.",
-        "usage_example_es": "Él no respondió a mi mensaje.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_10_def0.avif"
+        "usage_example_es": "Él no respondió a mi mensaje."
       }
     ],
     "force_generation": false,
@@ -497,37 +497,37 @@
     "example": null,
     "learned": false,
     "learned_at": null,
-    "name": "introduce",
-    "phonetic": "/ˌɪntrəˈduːs/",
-    "spoken_phonetic_us": "/ˌɪntrəˈduːs/",
-    "search_term": "verb/introduce/essentials",
-    "is_verb": true,
-    "force_generation": true,
-    "group_name": "Communication",
     "definitions": [
       {
-        "meaning": "Presentar (a alguien)",
-        "usage_example": "Let me introduce my friend.",
-        "pronunciation_guide_es": "/in-tro-DUS/",
-        "usage_example_es": "Déjame presentarte a mi amigo.",
+        "alternative_example": "She introduced herself to the group.",
         "char_count": "three",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_11_def0.avif",
+        "meaning": "Presentar (a alguien)",
+        "pronunciation_guide_es": "/in-tro-DUS/",
         "usage_context_en": "To formally present one person to another.",
         "usage_context_es": "Presentar formalmente a una persona con otra.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_11_def0.avif",
-        "alternative_example": "She introduced herself to the group."
+        "usage_example": "Let me introduce my friend.",
+        "usage_example_es": "Déjame presentarte a mi amigo."
       },
       {
-        "meaning": "Introducir (algo nuevo)",
-        "usage_example": "The company introduced a new product.",
         "alternative_example": "They introduced a new rule at school.",
-        "pronunciation_guide_es": "/de_KAMpani_inTROdiust_a_NIU_PROdakt/",
-        "usage_example_es": "La empresa introdujo un nuevo producto.",
         "char_count": "three",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_11_def1.avif",
+        "meaning": "Introducir (algo nuevo)",
+        "pronunciation_guide_es": "/de_KAMpani_inTROdiust_a_NIU_PROdakt/",
         "usage_context_en": "To bring something new into use.",
         "usage_context_es": "Poner en uso algo nuevo por primera vez.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_11_def1.avif"
+        "usage_example": "The company introduced a new product.",
+        "usage_example_es": "La empresa introdujo un nuevo producto."
       }
-    ]
+    ],
+    "force_generation": true,
+    "group_name": "Communication",
+    "is_verb": true,
+    "name": "introduce",
+    "phonetic": "/ˌɪntrəˈduːs/",
+    "search_term": "verb/introduce/essentials",
+    "spoken_phonetic_us": "/ˌɪntrəˈduːs/"
   },
   {
     "word": "",
@@ -535,37 +535,37 @@
     "example": null,
     "learned": false,
     "learned_at": null,
-    "name": "repeat",
-    "phonetic": "/rɪˈpiːt/",
-    "spoken_phonetic_us": "/rɪˈpiːt/",
-    "search_term": "verb/repeat/essentials",
-    "is_verb": true,
-    "force_generation": true,
-    "group_name": "Communication",
     "definitions": [
       {
-        "meaning": "Repetir",
-        "usage_example": "Can you repeat that, please?",
-        "pronunciation_guide_es": "/ri-PIT/",
-        "usage_example_es": "¿Puedes repetir eso, por favor?",
+        "alternative_example": "The teacher repeated the question.",
         "char_count": "two",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_12_def0.avif",
+        "meaning": "Repetir",
+        "pronunciation_guide_es": "/ri-PIT/",
         "usage_context_en": "To say something again.",
         "usage_context_es": "Decir algo de nuevo.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_12_def0.avif",
-        "alternative_example": "The teacher repeated the question."
+        "usage_example": "Can you repeat that, please?",
+        "usage_example_es": "¿Puedes repetir eso, por favor?"
       },
       {
-        "meaning": "Repetir (hacer de nuevo)",
-        "usage_example": "We repeat this exercise every day.",
         "alternative_example": "History tends to repeat itself.",
-        "pronunciation_guide_es": "/UI_riPIT_dis_EKserSais_EVri_DEI/",
-        "usage_example_es": "Repetimos este ejercicio todos los días.",
         "char_count": "two",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_12_def1.avif",
+        "meaning": "Repetir (hacer de nuevo)",
+        "pronunciation_guide_es": "/UI_riPIT_dis_EKserSais_EVri_DEI/",
         "usage_context_en": "To do something again.",
         "usage_context_es": "Hacer algo de nuevo.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_12_def1.avif"
+        "usage_example": "We repeat this exercise every day.",
+        "usage_example_es": "Repetimos este ejercicio todos los días."
       }
-    ]
+    ],
+    "force_generation": true,
+    "group_name": "Communication",
+    "is_verb": true,
+    "name": "repeat",
+    "phonetic": "/rɪˈpiːt/",
+    "search_term": "verb/repeat/essentials",
+    "spoken_phonetic_us": "/rɪˈpiːt/"
   },
   {
     "word": "",
@@ -573,37 +573,26 @@
     "example": null,
     "learned": false,
     "learned_at": null,
-    "name": "spell",
-    "phonetic": "/spɛl/",
-    "spoken_phonetic_us": "/spɛl/",
-    "search_term": "verb/spell/essentials",
-    "is_verb": true,
-    "force_generation": true,
-    "group_name": "Communication",
     "definitions": [
       {
-        "meaning": "Deletrear",
-        "usage_example": "Can you spell your name?",
-        "pronunciation_guide_es": "/SPEL/",
-        "usage_example_es": "¿Puedes deletrear tu nombre?",
+        "alternative_example": "She spelled the word correctly.",
         "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_13_def0.avif",
+        "meaning": "Deletrear",
+        "pronunciation_guide_es": "/SPEL/",
         "usage_context_en": "To say or write the letters of a word in order.",
         "usage_context_es": "Decir o escribir las letras de una palabra en orden.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_13_def0.avif",
-        "alternative_example": "She spelled the word correctly."
-      },
-      {
-        "meaning": "Escribirse (de cierta manera)",
-        "usage_example": "How do you spell 'necessary'?",
-        "alternative_example": "This word is spelled with two Rs.",
-        "pronunciation_guide_es": "/jau_du_iu_SPEL_neSEseri/",
-        "usage_example_es": "¿Cómo se escribe 'necessary'?",
-        "char_count": "one",
-        "usage_context_en": "To be written with certain letters, in order.",
-        "usage_context_es": "Escribirse con ciertas letras, en orden.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_13_def1.avif"
+        "usage_example": "Can you spell your name?",
+        "usage_example_es": "¿Puedes deletrear tu nombre?"
       }
-    ]
+    ],
+    "force_generation": true,
+    "group_name": "Communication",
+    "is_verb": true,
+    "name": "spell",
+    "phonetic": "/spɛl/",
+    "search_term": "verb/spell/essentials",
+    "spoken_phonetic_us": "/spɛl/"
   },
   {
     "word": "",
@@ -611,37 +600,91 @@
     "example": null,
     "learned": false,
     "learned_at": null,
-    "name": "sing",
-    "phonetic": "/sɪŋ/",
-    "spoken_phonetic_us": "/sɪŋ/",
-    "search_term": "verb/sing/essentials",
-    "is_verb": true,
-    "force_generation": true,
-    "group_name": "Communication",
     "definitions": [
       {
-        "meaning": "Cantar",
-        "usage_example": "She likes to sing in the shower.",
         "alternative_example": "He sang a beautiful song.",
-        "pronunciation_guide_es": "/shi_LAIKS_tu_SING_in_de_SHAUer/",
-        "usage_example_es": "A ella le gusta cantar en la ducha.",
         "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_14_def0.avif",
+        "meaning": "Cantar",
+        "pronunciation_guide_es": "/shi_LAIKS_tu_SING_in_de_SHAUer/",
         "usage_context_en": "To make music with your voice.",
         "usage_context_es": "Hacer música con la voz.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_14_def0.avif"
+        "usage_example": "She likes to sing in the shower.",
+        "usage_example_es": "A ella le gusta cantar en la ducha."
       },
       {
-        "meaning": "Cantarle (a alguien)",
-        "usage_example": "The mother sang to her baby.",
         "alternative_example": "They sang happy birthday to him.",
-        "pronunciation_guide_es": "/de_MAder_SANG_tu_jer_BEIbi/",
-        "usage_example_es": "La mamá le cantó a su bebé.",
         "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_14_def1.avif",
+        "meaning": "Cantarle (a alguien)",
+        "pronunciation_guide_es": "/de_MAder_SANG_tu_jer_BEIbi/",
         "usage_context_en": "To sing directed at someone.",
         "usage_context_es": "Cantar dirigido a alguien.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_14_def1.avif"
+        "usage_example": "The mother sang to her baby.",
+        "usage_example_es": "La mamá le cantó a su bebé."
       }
-    ]
+    ],
+    "force_generation": true,
+    "group_name": "Communication",
+    "irregular": {
+      "participle": {
+        "definitions": [
+          {
+            "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_14_def0_v3.avif",
+            "meaning": "Participio de Cantar",
+            "pronunciation_guide_es": "/de_KUAIR_jaz_SANG_dis_SONG_biFOR/",
+            "usage_example": "The choir has sung this song before.",
+            "usage_example_es": "El coro ha cantado esta canción antes."
+          },
+          {
+            "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_14_def1_v3.avif",
+            "meaning": "Participio de Cantarle (a alguien)",
+            "pronunciation_guide_es": "/shi_jaz_SANG_tu_CHILdren_OL_OUver_de_UERLD/",
+            "usage_example": "She has sung to children all over the world.",
+            "usage_example_es": "Ella le ha cantado a niños en todo el mundo."
+          }
+        ],
+        "form": "sung",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_14_def0_v3.avif",
+        "meaning": "Participio de Cantar",
+        "phonetic": "/sʌŋ/",
+        "pronunciation_guide_es": "/de_KUAIR_jaz_SANG_dis_SONG_biFOR/",
+        "spoken_phonetic_us": "/sʌŋ/",
+        "usage_example": "The choir has sung this song before.",
+        "usage_example_es": "El coro ha cantado esta canción antes."
+      },
+      "past": {
+        "definitions": [
+          {
+            "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_14_def0_v2.avif",
+            "meaning": "Pasado de Cantar",
+            "pronunciation_guide_es": "/shi_SANG_BIUtifuli_LAST_NAIT/",
+            "usage_example": "She sang beautifully last night.",
+            "usage_example_es": "Ella cantó hermosamente anoche."
+          },
+          {
+            "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_14_def1_v2.avif",
+            "meaning": "Pasado de Cantarle (a alguien)",
+            "pronunciation_guide_es": "/dei_SANG_JAPi_BIRTHdei_tu_JIM/",
+            "usage_example": "They sang happy birthday to him.",
+            "usage_example_es": "Ellos le cantaron feliz cumpleaños a él."
+          }
+        ],
+        "form": "sang",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_14_def0_v2.avif",
+        "meaning": "Pasado de Cantar",
+        "phonetic": "/sæŋ/",
+        "pronunciation_guide_es": "/shi_SANG_BIUtifuli_LAST_NAIT/",
+        "spoken_phonetic_us": "/sæŋ/",
+        "usage_example": "She sang beautifully last night.",
+        "usage_example_es": "Ella cantó hermosamente anoche."
+      }
+    },
+    "is_verb": true,
+    "name": "sing",
+    "phonetic": "/sɪŋ/",
+    "search_term": "verb/sing/essentials",
+    "spoken_phonetic_us": "/sɪŋ/"
   },
   {
     "word": "",
@@ -649,25 +692,28 @@
     "example": null,
     "learned": false,
     "learned_at": null,
-    "name": "speak",
-    "phonetic": "/spiːk/",
-    "spoken_phonetic_us": "/spiːk/",
-    "search_term": "verb/talk/essentials",
-    "is_verb": true,
-    "force_generation": true,
-    "group_name": "Communication",
     "definitions": [
       {
-        "meaning": "Hablar (un idioma o comunicarse)",
-        "usage_example": "I speak Spanish and a little English.",
-        "pronunciation_guide_es": "/ai_SPIK_SPA-nish_and_a_LI-tl_ING-glish/",
-        "usage_example_es": "Hablo español y un poco de inglés.",
         "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_15_def0.avif",
+        "meaning": "Hablar (un idioma o comunicarse)",
+        "pronunciation_guide_es": "/ai_SPIK_SPA-nish_and_a_LI-tl_ING-glish/",
         "usage_context_en": "To convey information or express feelings in spoken words.",
         "usage_context_es": "Transmitir información o expresar sentimientos mediante palabras habladas.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_15_def0.avif"
+        "usage_example": "I speak Spanish and a little English.",
+        "usage_example_es": "Hablo español y un poco de inglés."
       }
-    ]
+    ],
+    "deleted": true,
+    "deleted_at": "2026-10-08T15:36:19.991260544+00:00",
+    "deleted_by": "email.coronado@gmail.com",
+    "force_generation": true,
+    "group_name": "Communication",
+    "is_verb": true,
+    "name": "speak",
+    "phonetic": "/spiːk/",
+    "search_term": "verb/talk/essentials",
+    "spoken_phonetic_us": "/spiːk/"
   },
   {
     "word": "",
@@ -675,25 +721,65 @@
     "example": null,
     "learned": false,
     "learned_at": null,
-    "name": "meet",
-    "phonetic": "/miːt/",
-    "spoken_phonetic_us": "/miːt/",
-    "search_term": "verb/meet/essentials",
-    "is_verb": true,
-    "force_generation": true,
-    "group_name": "Communication",
     "definitions": [
       {
-        "meaning": "Conocer a alguien / Reunirse",
-        "usage_example": "Nice to meet you!",
-        "pronunciation_guide_es": "/NAIS_tu_MIT_iu/",
-        "usage_example_es": "¡Mucho gusto en conocerte!",
         "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_16_def0.avif",
+        "meaning": "Conocer a alguien / Reunirse",
+        "pronunciation_guide_es": "/NAIS_tu_MIT_iu/",
         "usage_context_en": "To see and speak to someone for the first time.",
         "usage_context_es": "Ver y hablar con alguien por primera vez.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_16_def0.avif"
+        "usage_example": "Nice to meet you!",
+        "usage_example_es": "¡Mucho gusto en conocerte!"
       }
-    ]
+    ],
+    "force_generation": true,
+    "group_name": "Communication",
+    "irregular": {
+      "participle": {
+        "definitions": [
+          {
+            "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_16_def0_v3.avif",
+            "meaning": "Participio de Conocer a alguien / Reunirse",
+            "pronunciation_guide_es": "/ui_JAV_MET_biFOR/",
+            "usage_example": "We have met before.",
+            "usage_example_es": "Nos hemos conocido antes."
+          }
+        ],
+        "form": "met",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_16_def0_v3.avif",
+        "meaning": "Participio de Conocer a alguien / Reunirse",
+        "phonetic": "/mɛt/",
+        "pronunciation_guide_es": "/ui_JAV_MET_biFOR/",
+        "spoken_phonetic_us": "/mɛt/",
+        "usage_example": "We have met before.",
+        "usage_example_es": "Nos hemos conocido antes."
+      },
+      "past": {
+        "definitions": [
+          {
+            "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_16_def0_v2.avif",
+            "meaning": "Pasado de Conocer a alguien / Reunirse",
+            "pronunciation_guide_es": "/ai_MET_jim_IESTerdei/",
+            "usage_example": "I met him yesterday.",
+            "usage_example_es": "Lo conocí ayer."
+          }
+        ],
+        "form": "met",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_16_def0_v2.avif",
+        "meaning": "Pasado de Conocer a alguien / Reunirse",
+        "phonetic": "/mɛt/",
+        "pronunciation_guide_es": "/ai_MET_jim_IESTerdei/",
+        "spoken_phonetic_us": "/mɛt/",
+        "usage_example": "I met him yesterday.",
+        "usage_example_es": "Lo conocí ayer."
+      }
+    },
+    "is_verb": true,
+    "name": "meet",
+    "phonetic": "/miːt/",
+    "search_term": "verb/meet/essentials",
+    "spoken_phonetic_us": "/miːt/"
   },
   {
     "word": "",
@@ -701,24 +787,24 @@
     "example": null,
     "learned": false,
     "learned_at": null,
-    "name": "order",
-    "phonetic": "/ˈɔː.dər/",
-    "spoken_phonetic_us": "/ˈɔːr.dɚ/",
-    "search_term": "verb/order/essentials",
-    "is_verb": true,
-    "force_generation": true,
-    "group_name": "Communication",
     "definitions": [
       {
-        "meaning": "Pedir (en restaurante) / Ordenar",
-        "usage_example": "Are you ready to order your food?",
-        "pronunciation_guide_es": "/AR_iu_RE-di_tu_OR-der_yur_FUD/",
-        "usage_example_es": "¿Estás listo para pedir tu comida?",
         "char_count": "one",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_17_def0.avif",
+        "meaning": "Pedir (en restaurante) / Ordenar",
+        "pronunciation_guide_es": "/AR_iu_RE-di_tu_OR-der_yur_FUD/",
         "usage_context_en": "To request something to be supplied in a restaurant or store.",
         "usage_context_es": "Pedir comida u objetos en un restaurante o tienda.",
-        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_17_def0.avif"
+        "usage_example": "Are you ready to order your food?",
+        "usage_example_es": "¿Estás listo para pedir tu comida?"
       }
-    ]
+    ],
+    "force_generation": true,
+    "group_name": "Communication",
+    "is_verb": true,
+    "name": "order",
+    "phonetic": "/ˈɔː.dər/",
+    "search_term": "verb/order/essentials",
+    "spoken_phonetic_us": "/ˈɔːr.dɚ/"
   }
 ]

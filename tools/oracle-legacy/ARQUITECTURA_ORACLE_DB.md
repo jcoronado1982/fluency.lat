@@ -1,6 +1,6 @@
 # Arquitectura Oracle + SurrealDB (Jul 2026)
 
-> Canónico de IPs/specs/hardware: [`server_inventory.md`](server_inventory.md). Este documento
+> Canónico de IPs/specs/hardware: [`server_inventory.md`](../../docs/infrastructure/server_inventory.md). Este documento
 > solo cubre la arquitectura del split proxy/DB y la operación de SurrealDB. Ante discrepancia
 > de datos de máquina, manda el inventario. Última revisión: 2026-07-21 (upgrade SurrealDB 3.2.3).
 
@@ -436,7 +436,7 @@ Backend y DB en la misma versión mayor, sin ventana de incompatibilidad pendien
 > 800 MB, load average <0.25 en ambos nodos, swap ≈0. **No estamos al límite** — hay margen no
 > exprimido, pero tampoco hay carga real que justifique tocar nada hoy. Antes de aplicar cualquiera
 > de estas, seguir el "Protocolo antes de optimizar" de
-> [`AI_OPERATIONS_CONTEXT.md`](AI_OPERATIONS_CONTEXT.md) (medir bajo carga real, no por sensación).
+> [`AI_OPERATIONS_CONTEXT.md`](../../docs/infrastructure/AI_OPERATIONS_CONTEXT.md) (medir bajo carga real, no por sensación).
 
 ### Candidata válida (verificada contra el binario real)
 

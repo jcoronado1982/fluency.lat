@@ -401,7 +401,61 @@
         "usage_context_es": "descanso/interrupción"
       }
     ],
-    "group_name": "Daily Tasks"
+    "group_name": "Daily Tasks",
+    "irregular": {
+      "past": {
+        "form": "broke",
+        "phonetic": "/broʊk/",
+        "spoken_phonetic_us": "/broʊk/",
+        "usage_example": "He broke his arm during the game.",
+        "usage_example_es": "Él se fracturó el brazo durante el juego.",
+        "pronunciation_guide_es": "/ji_BROUK_jis_ARM_DIURing_de_GUEIM/",
+        "meaning": "Pasado de Romper/Quebrar",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_10_def0_v2.avif",
+        "definitions": [
+          {
+            "usage_example": "He broke his arm during the game.",
+            "usage_example_es": "Él se fracturó el brazo durante el juego.",
+            "pronunciation_guide_es": "/ji_BROUK_jis_ARM_DIURing_de_GUEIM/",
+            "meaning": "Pasado de Romper/Quebrar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_10_def0_v2.avif"
+          },
+          {
+            "usage_example": "They broke for lunch at noon.",
+            "usage_example_es": "Ellos hicieron una pausa para almorzar al mediodía.",
+            "pronunciation_guide_es": "/dei_BROUK_for_LANCH_at_NUN/",
+            "meaning": "Pasado de Tomar un descanso/Interrumpir",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_10_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "broken",
+        "phonetic": "/ˈbroʊ.kən/",
+        "spoken_phonetic_us": "/ˈbroʊ.kən/",
+        "usage_example": "The window has been broken.",
+        "usage_example_es": "La ventana ha sido rota.",
+        "pronunciation_guide_es": "/de_UINdou_jaz_bin_BROUKen/",
+        "meaning": "Participio de Romper/Quebrar",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_10_def0_v3.avif",
+        "definitions": [
+          {
+            "usage_example": "The window has been broken.",
+            "usage_example_es": "La ventana ha sido rota.",
+            "pronunciation_guide_es": "/de_UINdou_jaz_bin_BROUKen/",
+            "meaning": "Participio de Romper/Quebrar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_10_def0_v3.avif"
+          },
+          {
+            "usage_example": "She has broken the world record.",
+            "usage_example_es": "Ella ha roto el récord mundial.",
+            "pronunciation_guide_es": "/shi_jaz_BROUKen_de_UERLD_REKord/",
+            "meaning": "Participio de Tomar un descanso/Interrumpir",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_10_def1_v3.avif"
+          }
+        ]
+      }
+    }
   },
   {
     "name": "catch",
@@ -433,7 +487,61 @@
         "usage_context_es": "transporte/descubrimiento"
       }
     ],
-    "group_name": "Daily Tasks"
+    "group_name": "Daily Tasks",
+    "irregular": {
+      "past": {
+        "form": "caught",
+        "phonetic": "/kɔːt/",
+        "spoken_phonetic_us": "/kɔːt/",
+        "usage_example": "He caught the ball with one hand.",
+        "usage_example_es": "Él atrapó la pelota con una mano.",
+        "pronunciation_guide_es": "/ji_KOT_de_BOL_uid_UAN_JAND/",
+        "meaning": "Pasado de Atrapar / Coger",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_11_def0_v2.avif",
+        "definitions": [
+          {
+            "usage_example": "He caught the ball with one hand.",
+            "usage_example_es": "Él atrapó la pelota con una mano.",
+            "pronunciation_guide_es": "/ji_KOT_de_BOL_uid_UAN_JAND/",
+            "meaning": "Pasado de Atrapar/Coger",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_11_def0_v2.avif"
+          },
+          {
+            "usage_example": "She caught the early bus yesterday.",
+            "usage_example_es": "Ella tomó el autobús temprano ayer.",
+            "pronunciation_guide_es": "/shi_KOT_de_URLI_BAS_IESTerdei/",
+            "meaning": "Pasado de Tomar (un transporte)",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_11_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "caught",
+        "phonetic": "/kɔːt/",
+        "spoken_phonetic_us": "/kɔːt/",
+        "usage_example": "The police have caught the thief.",
+        "usage_example_es": "La policía ha atrapado al ladrón.",
+        "pronunciation_guide_es": "/de_poLIS_jav_KOT_de_THIF/",
+        "meaning": "Participio de Atrapar / Coger",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_11_def0_v3.avif",
+        "definitions": [
+          {
+            "usage_example": "The police have caught the thief.",
+            "usage_example_es": "La policía ha atrapado al ladrón.",
+            "pronunciation_guide_es": "/de_poLIS_jav_KOT_de_THIF/",
+            "meaning": "Participio de Atrapar/Coger",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_11_def0_v3.avif"
+          },
+          {
+            "usage_example": "They have caught the train on time.",
+            "usage_example_es": "Ellos han tomado el tren a tiempo.",
+            "pronunciation_guide_es": "/dei_jav_KOT_de_TREIN_on_TAIM/",
+            "meaning": "Participio de Tomar (un transporte)",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_11_def1_v3.avif"
+          }
+        ]
+      }
+    }
   },
   {
     "name": "throw",
@@ -467,7 +575,61 @@
         "imagePath": "/card_images/verbs/2-intermediate/2-intermediate_card_39_def1.avif"
       }
     ],
-    "group_name": "Daily Tasks"
+    "group_name": "Daily Tasks",
+    "irregular": {
+      "past": {
+        "form": "threw",
+        "phonetic": "/θruː/",
+        "spoken_phonetic_us": "/θruː/",
+        "usage_example": "She threw the ball across the yard.",
+        "usage_example_es": "Ella lanzó la pelota a través del patio.",
+        "pronunciation_guide_es": "/shi_THRU_de_BOL_aKROS_de_YARD/",
+        "meaning": "Pasado de Lanzar/Arrojar",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_12_def0_v2.avif",
+        "definitions": [
+          {
+            "usage_example": "She threw the ball across the yard.",
+            "usage_example_es": "Ella lanzó la pelota a través del patio.",
+            "pronunciation_guide_es": "/shi_THRU_de_BOL_aKROS_de_YARD/",
+            "meaning": "Pasado de Lanzar/Arrojar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_12_def0_v2.avif"
+          },
+          {
+            "usage_example": "They threw a surprise party for him.",
+            "usage_example_es": "Ellos hicieron una fiesta sorpresa para él.",
+            "pronunciation_guide_es": "/dei_THRU_a_serPRAIS_PARTI_for_JIM/",
+            "meaning": "Pasado de Hacer (una fiesta)",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_12_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "thrown",
+        "phonetic": "/θroʊn/",
+        "spoken_phonetic_us": "/θroʊn/",
+        "usage_example": "He has thrown the paper in the trash.",
+        "usage_example_es": "Él ha tirado el papel a la basura.",
+        "pronunciation_guide_es": "/ji_jaz_THROUN_de_PEIPer_in_de_TRASH/",
+        "meaning": "Participio de Lanzar/Arrojar",
+        "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_12_def0_v3.avif",
+        "definitions": [
+          {
+            "usage_example": "He has thrown the paper in the trash.",
+            "usage_example_es": "Él ha tirado el papel a la basura.",
+            "pronunciation_guide_es": "/ji_jaz_THROUN_de_PEIPer_in_de_TRASH/",
+            "meaning": "Participio de Lanzar/Arrojar",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_12_def0_v3.avif"
+          },
+          {
+            "usage_example": "They have thrown the biggest event of the year.",
+            "usage_example_es": "Ellos han organizado el evento más grande del año.",
+            "pronunciation_guide_es": "/dei_jav_THROUN_de_BIGest_iVENT_ov_de_YIR/",
+            "meaning": "Participio de Hacer (una fiesta)",
+            "imagePath": "/card_images/verbs/2-intermediate/action/2-intermediate_action_card_12_def1_v3.avif"
+          }
+        ]
+      }
+    }
   },
   {
     "name": "support",

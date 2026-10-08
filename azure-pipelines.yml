@@ -257,13 +257,15 @@ stages:
 # reactiva apuntando ahí), solo no se ejecuta.
 # ───────────────────────────────────────────────────────────────────────
 - stage: Deploy_Frontend
-  displayName: '🚀 3. Deploy Frontend (deshabilitado — sin destino activo)'
+  displayName: '🚀 3. Deploy Frontend → GCP Proxy (35.188.162.50)'
   dependsOn: Build_Frontend
-  condition: succeeded('Build_Frontend')
+  condition: and(succeeded('Build_Frontend'), in(variables['Build.SourceBranch'], 'refs/heads/main', 'refs/heads/qa'))
+  variables:
+    - group: Flashcard-Secrets
   jobs:
   - job: DeployFront
-    condition: false
-    pool: { name: 'Default' }
+    displayName: 'Upload SPA → GCP Proxy'
+    pool: { name: 'LocalBuild' }
     steps:
     - task: DownloadPipelineArtifact@2
       displayName: 'Download dist/'
@@ -271,122 +273,162 @@ stages:
         artifact: 'flashcard-site'
         targetPath: '$(Pipeline.Workspace)/site'
 
-    - task: CopyFilesOverSSH@0
-      displayName: 'Upload SPA → Legacy Proxy (deshabilitado)'
-      inputs:
-        sshEndpoint: $(sshConn)
-        sourceFolder: '$(Pipeline.Workspace)/site'
-        contents: '**'
-        targetFolder: $(remotePath)
-        cleanTargetFolder: true
+    - script: |
+        set -euo pipefail
+        command -v sshpass >/dev/null || { echo "sshpass no instalado en el agente"; exit 1; }
+        export SSHPASS="$(ORACLE_SSH_PASSWORD)"
 
-    - task: SSH@0
-      displayName: 'Ajustar permisos'
-      inputs:
-        sshEndpoint: $(sshConn)
-        runOptions: 'commands'
-        commands: |
-          chown -R 101:101 $(remotePath)
-          chmod -R 755 $(remotePath)
+        if [ "$(Build.SourceBranch)" = "refs/heads/qa" ]; then
+          TARGET_DIR="/mnt/sda/qa_flashcard"
+          FRONTEND_HOST="qa.fluency.lat"
+        else
+          TARGET_DIR="/mnt/sda/flashcard"
+          FRONTEND_HOST="fluency.lat"
+        fi
 
-    - task: CopyFilesOverSSH@0
-      displayName: 'Sync infra/proxy → Legacy Proxy (deshabilitado)'
-      inputs:
-        sshEndpoint: $(sshConn)
-        sourceFolder: 'infra/proxy'
-        contents: |
-          Caddyfile
-          Dockerfile
-          entrypoint.sh
-          deploy.sh
-          deploy-caddy.sh
-          deploy-oracle-backend.sh
-          deploy-surrealdb.sh
-          deploy-surrealdb-oci1.sh
-          oci1-db-tuning.sh
-          docker-gcr-auth.sh
-          bootstrap-oracle.sh
-          sync-json-to-oracle.sh
-          sync-qa-repository.sh
-          oracle-ram-monitor.sh
-          aws-health-monitor.sh
-          sentinel-handler
-          traffic-manager
-        targetFolder: '/root/smart-proxy/infra-proxy'
-        cleanTargetFolder: false
+        echo "=== Desplegando SPA a $FRONTEND_HOST ($TARGET_DIR) ==="
+        tar -czf - -C $(Pipeline.Workspace)/site . | \
+          sshpass -e ssh -o StrictHostKeyChecking=no root@35.188.162.50 \
+          "tar -xzf - -C ${TARGET_DIR} && chmod -R 755 ${TARGET_DIR}"
 
-    - task: SSH@0
-      displayName: 'Bootstrap Legacy Proxy (Caddy + monitors, deshabilitado)'
-      inputs:
-        sshEndpoint: $(sshConn)
-        runOptions: 'inline'
-        failOnStdErr: false
-        inline: |
-          export MEDIA_DELIVERY_MODE="$(MEDIA_DELIVERY_MODE)"
-          bash /root/smart-proxy/infra-proxy/bootstrap-oracle.sh --caddy-only
-          if [ "$(Build.SourceBranch)" = "refs/heads/qa" ]; then
-            FRONTEND_HOST=qa.fluency.lat
-            curl -sf -k -H "Host: qa.fluency.lat" https://127.0.0.1/api/health || echo "WARN: QA API health via Caddy not ready yet"
-          else
-            FRONTEND_HOST=fluency.lat
-            curl -sf https://fluency.lat/api/health >/dev/null || echo "WARN: API health via Caddy not ready yet"
-          fi
-
-          echo "Verifying SPA cache policy..."
-          HTML_HEADERS=$(curl -skI --resolve "$FRONTEND_HOST:443:127.0.0.1" "https://$FRONTEND_HOST/")
-          printf '%s\n' "$HTML_HEADERS" | grep -qi '^cache-control: no-cache, must-revalidate' || {
-            echo "ERROR: index.html can remain stale after a deployment"; exit 1;
-          }
-          HTML=$(curl -sk --resolve "$FRONTEND_HOST:443:127.0.0.1" "https://$FRONTEND_HOST/")
-          ASSET_PATH=$(printf '%s' "$HTML" | grep -oE '/assets/[^" ]+\.js' | head -1)
-          test -n "$ASSET_PATH" || { echo "ERROR: no hashed JS bundle found in index.html"; exit 1; }
-          ASSET_HEADERS=$(curl -skI --resolve "$FRONTEND_HOST:443:127.0.0.1" "https://$FRONTEND_HOST$ASSET_PATH")
-          printf '%s\n' "$ASSET_HEADERS" | grep -qi '^cache-control: public, max-age=31536000, immutable' || {
-            echo "ERROR: hashed frontend assets are not immutable"; exit 1;
-          }
-          echo "SPA cache policy OK"
-          echo "Frontend deploy OK"
-
+        echo "Verificando respuesta del Frontend..."
+        sleep 2
+        curl -sf -I "https://${FRONTEND_HOST}/" | head -n 5
+        echo "Frontend deploy OK"
+      displayName: 'Upload dist/ to GCP Proxy'
 
 # ───────────────────────────────────────────────────────────────────────
-# STAGE 4: DEPLOY BACKEND → GCP Cloud Run
-# Agente: LocalBuild — movido desde el pool Default el 7 sep 2026.
-# El agente del pool Default (`jcoronado-ubuntu-22`, /opt/azp-agent en la VM
-# Ubuntu 22.04 de Oracle) está OFFLINE desde que se archivó Oracle; su último
-# run verde fue el build 405 (11 ago 2026). Un job encolado a ese pool no
-# falla: espera un agente que no volverá y cuelga el run entero.
-# Este stage solo necesita `gcloud` (presente en la PC) y la SA del pipeline,
-# que ya está en el credential store del usuario `jcoronado` con el que corre
-# el agente LocalBuild — por eso el step fija CLOUDSDK_CORE_ACCOUNT.
+# STAGE 4: DEPLOY BACKEND → GCP Proxy + Cloud Run Overflow
 # ───────────────────────────────────────────────────────────────────────
 - stage: Deploy_GCP
-  displayName: '☁️ 4. Deploy Backend → GCP Cloud Run'
+  displayName: '☁️ 4. Deploy Backend → GCP Proxy + Cloud Run'
   dependsOn:
     - Build_Backend
     - Deploy_Frontend
-  condition: and(succeeded('Build_Backend'), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  condition: and(succeeded('Build_Backend'), in(dependencies.Deploy_Frontend.result, 'Succeeded', 'Skipped'), in(variables['Build.SourceBranch'], 'refs/heads/main', 'refs/heads/qa'))
   variables:
     - group: Flashcard-Secrets
   jobs:
+  - job: GCPProxyDeploy
+    displayName: 'Deploy Backend → GCP Proxy (35.188.162.50)'
+    pool: { name: 'LocalBuild' }
+    steps:
+    - script: |
+        set -euo pipefail
+        command -v sshpass >/dev/null || { echo "sshpass no instalado en el agente"; exit 1; }
+        export SSHPASS="$(ORACLE_SSH_PASSWORD)"
+
+        GCP_CREDS_B64="$(printf '%s' '$(GCP_KEY_JSON)' | base64 -w0)"
+        SUPER_ADMIN_EMAIL_VAL='$(SUPER_ADMIN_EMAIL)'
+        JWT_SECRET_VAL='$(JWT_SECRET)'
+        SURREAL_USER_VAL='$(SURREAL_USER)'
+        SURREAL_PASS_VAL='$(SURREAL_PASS)'
+        GEMINI_API_KEY_VAL='$(GEMINI_API_KEY)'
+        GEMINI_TTS_API_KEY_VAL='$(GEMINI_TTS_API_KEY)'
+        GCP_API_KEY_VAL='$(GCP_API_KEY)'
+        GOOGLE_CLIENT_ID_VAL='$(GOOGLE_CLIENT_ID)'
+        DATABASE_URL_VAL='$(DATABASE_URL)'
+        LEMON_SQUEEZY_STORE_ID_VAL='$(LEMON_SQUEEZY_STORE_ID)'
+        LEMON_SQUEEZY_VARIANT_MONTHLY_VAL='$(LEMON_SQUEEZY_VARIANT_MONTHLY)'
+        LEMON_SQUEEZY_VARIANT_ANNUAL_VAL='$(LEMON_SQUEEZY_VARIANT_ANNUAL)'
+        LEMON_SQUEEZY_WEBHOOK_SECRET_VAL='$(LEMON_SQUEEZY_WEBHOOK_SECRET)'
+        LEMON_SQUEEZY_API_KEY_VAL='$(LEMON_SQUEEZY_API_KEY)'
+
+        if [ "$(Build.SourceBranch)" = "refs/heads/qa" ]; then
+          CONTAINER="qa-flashcard-backend-node"
+          PORT="8081"
+          SURREAL_NS="qa_flashcard"
+          SURREAL_DB="qa_flashcard"
+          REPO_PATH="/mnt/sda/repository/qa_flashcard"
+          MEMORY_LIMIT="128m"
+          CPU_SHARES="128"
+        else
+          CONTAINER="flashcard-backend-node"
+          PORT="8080"
+          SURREAL_NS="flashcard"
+          SURREAL_DB="flashcard"
+          REPO_PATH="/mnt/sda/repository/flashcard"
+          MEMORY_LIMIT="512m"
+          CPU_SHARES="1024"
+        fi
+
+        cat > $(Agent.TempDirectory)/deploy-gcp-proxy.sh << EOF
+#!/bin/sh
+set -eu
+IMAGE="gcr.io/launch-490115/flashcard-backend:latest"
+CONTAINER="${CONTAINER}"
+PORT="${PORT}"
+SURREAL_NS="${SURREAL_NS}"
+SURREAL_DB="${SURREAL_DB}"
+REPO_PATH="${REPO_PATH}"
+MEMORY_LIMIT="${MEMORY_LIMIT}"
+CPU_SHARES="${CPU_SHARES}"
+GOOGLE_CREDENTIALS_JSON="${GCP_CREDS_B64}"
+KEY_TMP="\$(mktemp /tmp/gcp-key-XXXXXX)"
+AUTH_TMP="\$(mktemp -d /tmp/docker-auth-XXXXXX)"
+chmod 600 "\$KEY_TMP"
+chmod 700 "\$AUTH_TMP"
+trap 'rm -rf "\$AUTH_TMP" "\$KEY_TMP"' EXIT
+printf '%s' "\$GOOGLE_CREDENTIALS_JSON" | base64 -d > "\$KEY_TMP"
+export DOCKER_CONFIG="\$AUTH_TMP"
+cat "\$KEY_TMP" | docker login -u _json_key --password-stdin https://gcr.io >/dev/null
+docker pull "\$IMAGE"
+rm -rf "\$AUTH_TMP"
+unset DOCKER_CONFIG
+docker stop "\$CONTAINER" 2>/dev/null || true
+docker rm   "\$CONTAINER" 2>/dev/null || true
+docker run -d --name "\$CONTAINER" \
+  --network host --restart always \
+  --memory "\$MEMORY_LIMIT" --memory-swap "\$MEMORY_LIMIT" \
+  --cpu-shares "\$CPU_SHARES" \
+  --log-opt max-size=10m --log-opt max-file=2 \
+  -v "\$REPO_PATH:/data" \
+  -e LOCAL_STORAGE_PATH="/data" \
+  -e SYNC_TO_ORACLE="false" \
+  -e ORACLE_REPOSITORY_ONLY="false" \
+  -e MEDIA_DELIVERY_MODE="$(MEDIA_DELIVERY_MODE)" \
+  -e PORT="\$PORT" \
+  -e RUST_LOG="info" \
+  -e SURREAL_URL="ws://10.128.0.5:8080" \
+  -e SURREAL_NS="\$SURREAL_NS" \
+  -e SURREAL_DB="\$SURREAL_DB" \
+  -e SURREAL_USER="${SURREAL_USER_VAL}" \
+  -e SURREAL_PASS="${SURREAL_PASS_VAL}" \
+  -e GEMINI_API_KEY="${GEMINI_API_KEY_VAL}" \
+  -e GEMINI_TTS_API_KEY="${GEMINI_TTS_API_KEY_VAL}" \
+  -e GCP_API_KEY="${GCP_API_KEY_VAL}" \
+  -e GOOGLE_CLIENT_ID="${GOOGLE_CLIENT_ID_VAL}" \
+  -e JWT_SECRET="${JWT_SECRET_VAL}" \
+  -e SUPER_ADMIN_EMAIL="${SUPER_ADMIN_EMAIL_VAL}" \
+  -e DATABASE_URL="${DATABASE_URL_VAL}" \
+  -e LEMON_SQUEEZY_STORE_ID="${LEMON_SQUEEZY_STORE_ID_VAL}" \
+  -e LEMON_SQUEEZY_VARIANT_MONTHLY="${LEMON_SQUEEZY_VARIANT_MONTHLY_VAL}" \
+  -e LEMON_SQUEEZY_VARIANT_ANNUAL="${LEMON_SQUEEZY_VARIANT_ANNUAL_VAL}" \
+  -e LEMON_SQUEEZY_WEBHOOK_SECRET="${LEMON_SQUEEZY_WEBHOOK_SECRET_VAL}" \
+  -e LEMON_SQUEEZY_API_KEY="${LEMON_SQUEEZY_API_KEY_VAL}" \
+  "\$IMAGE"
+sleep 3
+curl -sf "http://127.0.0.1:\$PORT/api/health" >/dev/null
+echo "GCP Proxy backend deploy OK (container: \$CONTAINER, port: \$PORT)"
+EOF
+        chmod +x $(Agent.TempDirectory)/deploy-gcp-proxy.sh
+        sshpass -e scp -o StrictHostKeyChecking=no \
+          $(Agent.TempDirectory)/deploy-gcp-proxy.sh \
+          root@35.188.162.50:/tmp/
+        sshpass -e ssh -o StrictHostKeyChecking=no \
+          root@35.188.162.50 'sh /tmp/deploy-gcp-proxy.sh && rm -f /tmp/deploy-gcp-proxy.sh'
+      displayName: 'Deploy Backend to GCP Proxy (35.188.162.50)'
+
   - job: CloudRunDeploy
+    displayName: 'Deploy Backend → GCP Cloud Run Overflow'
+    dependsOn: GCPProxyDeploy
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
     pool: { name: 'LocalBuild' }
     steps:
     - script: |
         command -v gcloud >/dev/null || {
           echo "##vso[task.logissue type=error]gcloud no está instalado en el agente LocalBuild"; exit 1; }
-        # La cuenta gcloud "activa" del agente es ambiente compartido: un humano que
-        # corre `gcloud config set account` en esta misma máquina (p.ej. durante la
-        # migración a GCP del 4 ago 2026) cambia con qué identidad despliega el
-        # pipeline. Verificado en vivo el 5 ago 2026: alberto.testing01@gmail.com
-        # (la cuenta activa) NO tiene run.services.get sobre launch-490115 y este
-        # stage fallaba con PERMISSION_DENIED en TODOS los runs de main (388, 391);
-        # la SA del pipeline sí lo tiene. Pinear la identidad aquí en vez de heredar
-        # la del agente.
         export CLOUDSDK_CORE_ACCOUNT="azure-pipelines-deployer@launch-490115.iam.gserviceaccount.com"
-        # ORACLE_* es nombre legado: el destino real es el proxy de GCP (ver bloque
-        # `variables` arriba). Hasta el 5 ago 2026 ORACLE_HOST/ORACLE_SSH_PASSWORD no
-        # existían y llegaban VACÍOS junto a SYNC_TO_ORACLE=true, así que al caer el
-        # tráfico al overflow, generar audio/imagen hacía SCP a un host vacío y fallaba.
         gcloud run deploy flashcard-backend \
           --project $(gcpProject) \
           --image $(imageName):latest \

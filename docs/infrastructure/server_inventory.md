@@ -62,6 +62,17 @@ This document details the capabilities and roles of all active servers in the Fl
 - **Active Docker Container**:
   - `surrealdb` (`surrealdb/surrealdb:v3.2.3`, `--network host`, `--memory 1200m --memory-swap 2200m`). Persistent data at `/mnt/sda/surreal_data:/data`.
 
+### **AI Orchestrator Bridge — `server-ai`**
+- **Public IP**: `34.139.53.254`
+- **Role**: AI Orchestrator Bridge Daemon, Claude Code Pro Agent.
+- **Capabilities**:
+  - **Type**: GCP VM.
+  - **Disk**: 40 GB `pd-balanced` (Persistent disk `/dev/sda1`).
+  - **OS**: Alpine Linux (Native boot on disk, NO Ubuntu, NO kexec, NO Docker).
+  - **Swap**: Active.
+  - **Services**: OpenRC `ai-orchestrator` (:8080), `sshd`.
+  - **User**: `agent` (UID 1000) for Claude execution.
+
 ---
 
 ## 🖥️ Build & Generation Station (LocalBuild — Dev PC)
@@ -70,8 +81,8 @@ This document details the capabilities and roles of all active servers in the Fl
 - **Role**: ALL compilation (Vite frontend + dual-arch `docker buildx` of Rust backend) and ALL batch media generation. 1 GB cloud servers NEVER compile or generate media.
 - **Capabilities**:
   - **RAM**: ~30 GB.
-  - **GPU 0**: NVIDIA RTX 5060 Ti 16 GB → **ComfyUI/Flux 2** (image generation), port `127.0.0.1:8188`.
-  - **GPU 1**: NVIDIA GTX 1660 Ti 6 GB → **Ollama/Qwen** (prompt refinement), port `127.0.0.1:11434`.
+  - **GPU 0**: NVIDIA RTX 5060 Ti 16 GB → **stable-diffusion.cpp** (`sd-server` :8188, Flux 2 Klein GGUF en C++).
+  - **GPU 1**: NVIDIA GTX 1660 Ti 6 GB → **llama.cpp** (`llama-server` :8082, Qwen GGUF en C++).
 
 ---
 
@@ -94,4 +105,5 @@ This document details the capabilities and roles of all active servers in the Fl
     - **AWS**: alpine-aws-01 (34.229.229.255) | mirror/worker | 1GB RAM
     - **GCP (Proxy+Backend)**: fluency-proxy-backend (35.188.162.50 / 10.128.0.4) | Caddy + Rust | 1GB RAM
     - **GCP (DB)**: fluency-db-surreal (10.128.0.5) | SurrealDB 3.2.3 :8080 | 2GB RAM
-    - **LocalBuild (non-cloud)**: Dev PC | Compilation + ComfyUI/Flux 2 (GPU0 16GB) + Ollama/Qwen (GPU1 6GB) | 30GB RAM
+    - **GCP (AI)**: server-ai (34.139.53.254) | AI Orchestrator + Claude | Native Alpine
+    - **LocalBuild (non-cloud)**: Dev PC | Compilation + sd-server/Flux 2 (GPU0 16GB) + llama-server/Qwen (GPU1 6GB) | 30GB RAM

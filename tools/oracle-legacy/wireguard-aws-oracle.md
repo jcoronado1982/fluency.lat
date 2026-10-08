@@ -2,7 +2,7 @@
 
 > Red privada punto a punto entre el espejo AWS y el Oracle Proxy. Fuente ejecutable:
 > [`infra/wireguard/setup-tunnel.sh`](../../infra/wireguard/setup-tunnel.sh). Inventario de las
-> máquinas: [`server_inventory.md`](server_inventory.md). Última revisión: 2026-07-16.
+> máquinas: [`server_inventory.md`](../../docs/infrastructure/server_inventory.md). Última revisión: 2026-07-16.
 
 ## Propósito
 

@@ -73,7 +73,61 @@
         "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_1_def1.avif"
       }
     ],
-    "group_name": "Daily Routine"
+    "group_name": "Daily Routine",
+    "irregular": {
+      "past": {
+        "form": "drove",
+        "phonetic": "/droʊv/",
+        "spoken_phonetic_us": "/droʊv/",
+        "usage_example": "He drove all night to get home.",
+        "usage_example_es": "Él condujo toda la noche para llegar a casa.",
+        "pronunciation_guide_es": "/ji_DROUV_OL_NAIT_tu_GUET_JOUM/",
+        "meaning": "Pasado de Conducir / Manejar",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_1_def0_v2.avif",
+        "definitions": [
+          {
+            "usage_example": "He drove all night to get home.",
+            "usage_example_es": "Él condujo toda la noche para llegar a casa.",
+            "pronunciation_guide_es": "/ji_DROUV_OL_NAIT_tu_GUET_JOUM/",
+            "meaning": "Pasado de Conducir/Manejar",
+            "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_1_def0_v2.avif"
+          },
+          {
+            "usage_example": "Hunger drove him to seek help.",
+            "usage_example_es": "El hambre lo impulsó a buscar ayuda.",
+            "pronunciation_guide_es": "/JONGer_DROUV_jim_tu_SIK_JELP/",
+            "meaning": "Pasado de Impulsar/Llevar (a un estado)",
+            "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_1_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "driven",
+        "phonetic": "/ˈdrɪv.ən/",
+        "spoken_phonetic_us": "/ˈdrɪv.ən/",
+        "usage_example": "She has driven across the country.",
+        "usage_example_es": "Ella ha conducido a través del país.",
+        "pronunciation_guide_es": "/shi_jaz_DRIVEN_aKROS_de_KANTRI/",
+        "meaning": "Participio de Conducir / Manejar",
+        "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_1_def0_v3.avif",
+        "definitions": [
+          {
+            "usage_example": "She has driven across the country.",
+            "usage_example_es": "Ella ha conducido a través del país.",
+            "pronunciation_guide_es": "/shi_jaz_DRIVEN_aKROS_de_KANTRI/",
+            "meaning": "Participio de Conducir/Manejar",
+            "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_1_def0_v3.avif"
+          },
+          {
+            "usage_example": "Ambition has driven their success.",
+            "usage_example_es": "La ambición ha impulsado su éxito.",
+            "pronunciation_guide_es": "/amBISHon_jaz_DRIVEN_der_sakSES/",
+            "meaning": "Participio de Impulsar/Llevar (a un estado)",
+            "imagePath": "/card_images/verbs/2-intermediate/movement/2-intermediate_movement_card_1_def1_v3.avif"
+          }
+        ]
+      }
+    }
   },
   {
     "word": "",

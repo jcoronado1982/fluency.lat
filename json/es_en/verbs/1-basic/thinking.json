@@ -671,16 +671,16 @@
         "meaning": "Participle of understand",
         "definitions": [
           {
-            "usage_example": "I understood everything you said.",
-            "usage_example_es": "Entendí todo lo que dijiste.",
-            "pronunciation_guide_es": "/ai_anderSTUD_EVriTHing_iu_SED/",
+            "usage_example": "I have understood everything you said.",
+            "usage_example_es": "He entendido todo lo que dijiste.",
+            "pronunciation_guide_es": "/ai_JAV_anderSTUD_EVriTHing_iu_SED/",
             "meaning": "Participio de Entender",
             "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_13_def0_v3.avif"
           },
           {
-            "usage_example": "We understood each other perfectly.",
-            "usage_example_es": "Nos comprendimos perfectamente.",
-            "pronunciation_guide_es": "/ui_anderSTUD_ICH_ader_PERfektli/",
+            "usage_example": "We have understood each other perfectly.",
+            "usage_example_es": "Nos hemos comprendido perfectamente.",
+            "pronunciation_guide_es": "/ui_JAV_anderSTUD_ICH_ader_PERfektli/",
             "meaning": "Participio de Comprender",
             "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_13_def1_v3.avif"
           }
@@ -725,6 +725,58 @@
         "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_14_def1.avif"
       }
     ],
+    "irregular": {
+      "past": {
+        "form": "forgot",
+        "phonetic": "/fərˈɡɑːt/",
+        "spoken_phonetic_us": "/fərˈɡɑːt/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Past of forget",
+        "definitions": [
+          {
+            "usage_example": "I forgot his birthday yesterday.",
+            "usage_example_es": "Olvidé su cumpleaños ayer.",
+            "pronunciation_guide_es": "/ai_forGAT_jis_BIRTHdei_IESTerdei/",
+            "meaning": "Pasado de Olvidar",
+            "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_14_def0_v2.avif"
+          },
+          {
+            "usage_example": "I forgot what she said.",
+            "usage_example_es": "Olvidé lo que ella dijo.",
+            "pronunciation_guide_es": "/ai_forGAT_uat_shi_SED/",
+            "meaning": "Pasado de Dejar de pensar en",
+            "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_14_def1_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "forgotten",
+        "phonetic": "/fərˈɡɑːtn/",
+        "spoken_phonetic_us": "/fərˈɡɑːtn/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Participle of forget",
+        "definitions": [
+          {
+            "usage_example": "I have forgotten his birthday.",
+            "usage_example_es": "He olvidado su cumpleaños.",
+            "pronunciation_guide_es": "/ai_jav_forGATen_jis_BIRTHdei/",
+            "meaning": "Participio de Olvidar",
+            "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_14_def0_v3.avif"
+          },
+          {
+            "usage_example": "I have forgotten what she said.",
+            "usage_example_es": "He olvidado lo que ella dijo.",
+            "pronunciation_guide_es": "/ai_jav_forGATen_uat_shi_SED/",
+            "meaning": "Participio de Dejar de pensar en",
+            "imagePath": "/card_images/verbs/1-basic/thinking/1-basic_thinking_card_14_def1_v3.avif"
+          }
+        ]
+      }
+    },
     "group_name": "Thinking & Deciding"
   },
   {

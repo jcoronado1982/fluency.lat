@@ -413,6 +413,54 @@
         "usage_context_es": "eventos pasados/acciones"
       }
     ],
+    "irregular": {
+      "past": {
+        "form": "forgot",
+        "phonetic": "/fərˈɡɑːt/",
+        "spoken_phonetic_us": "/fərˈɡɑːt/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Past of forget",
+        "definitions": [
+          {
+            "usage_example": "I forgot his birthday yesterday.",
+            "usage_example_es": "Olvidé su cumpleaños ayer.",
+            "pronunciation_guide_es": "/ai_forGAT_jis_BIRTHdei_IESTerdei/",
+            "meaning": "Pasado de Olvidar"
+          },
+          {
+            "usage_example": "I forgot what she said.",
+            "usage_example_es": "Olvidé lo que ella dijo.",
+            "pronunciation_guide_es": "/ai_forGAT_uat_shi_SED/",
+            "meaning": "Pasado de Dejar de pensar en"
+          }
+        ]
+      },
+      "participle": {
+        "form": "forgotten",
+        "phonetic": "/fərˈɡɑːtn/",
+        "spoken_phonetic_us": "/fərˈɡɑːtn/",
+        "usage_example": "",
+        "usage_example_es": "",
+        "pronunciation_guide_es": "",
+        "meaning": "Participle of forget",
+        "definitions": [
+          {
+            "usage_example": "I have forgotten his birthday.",
+            "usage_example_es": "He olvidado su cumpleaños.",
+            "pronunciation_guide_es": "/ai_jav_forGATen_jis_BIRTHdei/",
+            "meaning": "Participio de Olvidar"
+          },
+          {
+            "usage_example": "I have forgotten what she said.",
+            "usage_example_es": "He olvidado lo que ella dijo.",
+            "pronunciation_guide_es": "/ai_jav_forGATen_uat_shi_SED/",
+            "meaning": "Participio de Dejar de pensar en"
+          }
+        ]
+      }
+    },
     "group_name": "Thinking & Deciding"
   },
   {

@@ -1,9 +1,9 @@
 # Oracle Local Backend — Runtime en producción (Jul 2026)
 
 > **Documento para IAs y operadores.** Leer antes de tocar Caddy, el backend en Oracle o audio TTS.
-> **Restricciones de RAM y topología:** [`AI_OPERATIONS_CONTEXT.md`](AI_OPERATIONS_CONTEXT.md).
-> **Para pipeline CI/CD, secretos y compilación:** [`pipeline-and-deploy.md`](pipeline-and-deploy.md) (fuente de verdad).
-> **Para entrega y caché de imágenes/audio:** [`media-delivery-cache.md`](media-delivery-cache.md).
+> **Restricciones de RAM y topología:** [`AI_OPERATIONS_CONTEXT.md`](../../docs/infrastructure/AI_OPERATIONS_CONTEXT.md).
+> **Para pipeline CI/CD, secretos y compilación:** [`pipeline-and-deploy.md`](../../docs/infrastructure/pipeline-and-deploy.md) (fuente de verdad).
+> **Para entrega y caché de imágenes/audio:** [`media-delivery-cache.md`](../../docs/infrastructure/media-delivery-cache.md).
 > Última revisión contra el código y endpoints públicos: 2026-07-14.
 
 ---
@@ -131,7 +131,7 @@ El pipeline inyecta secretos en memoria dentro de una única sesión `SSH inline
 
 ## Pipeline Azure
 
-**Ver documentación completa:** [`pipeline-and-deploy.md`](pipeline-and-deploy.md)
+**Ver documentación completa:** [`pipeline-and-deploy.md`](../../docs/infrastructure/pipeline-and-deploy.md)
 
 Resumen para este documento (solo runtime Oracle):
 

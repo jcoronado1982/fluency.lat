@@ -449,7 +449,47 @@
         "usage_context_es": "Ver y hablar con alguien por primera vez.",
         "imagePath": "/card_images/verbs/1-basic/communication/1-basic_meet_def0.avif"
       }
-    ]
+    ],
+    "irregular": {
+      "past": {
+        "form": "met",
+        "phonetic": "/mɛt/",
+        "spoken_phonetic_us": "/mɛt/",
+        "usage_example": "I met him yesterday.",
+        "usage_example_es": "Lo conocí ayer.",
+        "pronunciation_guide_es": "/ai_MET_jim_IESTerdei/",
+        "meaning": "Pasado de Conocer a alguien / Reunirse",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_16_def0_v2.avif",
+        "definitions": [
+          {
+            "usage_example": "I met him yesterday.",
+            "usage_example_es": "Lo conocí ayer.",
+            "pronunciation_guide_es": "/ai_MET_jim_IESTerdei/",
+            "meaning": "Pasado de Conocer a alguien / Reunirse",
+            "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_16_def0_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "met",
+        "phonetic": "/mɛt/",
+        "spoken_phonetic_us": "/mɛt/",
+        "usage_example": "We have met before.",
+        "usage_example_es": "Nos hemos conocido antes.",
+        "pronunciation_guide_es": "/ui_JAV_MET_biFOR/",
+        "meaning": "Participio de Conocer a alguien / Reunirse",
+        "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_16_def0_v3.avif",
+        "definitions": [
+          {
+            "usage_example": "We have met before.",
+            "usage_example_es": "Nos hemos conocido antes.",
+            "pronunciation_guide_es": "/ui_JAV_MET_biFOR/",
+            "meaning": "Participio de Conocer a alguien / Reunirse",
+            "imagePath": "/card_images/verbs/1-basic/communication/1-basic_communication_card_16_def0_v3.avif"
+          }
+        ]
+      }
+    }
   },
   {
     "word": "",

@@ -31,7 +31,7 @@ Detailed module documentation (purpose, file map, endpoints, dependencies):
 | `pricing` | [modules/pricing.md](modules/pricing.md) |
 | `dashboard` | [modules/dashboard.md](modules/dashboard.md) |
 | `flashcards` | [modules/flashcards.md](modules/flashcards.md) |
-| `pronoun` | [modules/pronoun.md](modules/pronoun.md) |
+| `pronoun` | [archive/pronoun.md](archive/pronoun.md) (archivado) |
 | `admin` | [modules/admin.md](modules/admin.md) |
 | shell + auth | [modules/shell-auth.md](modules/shell-auth.md) |
 | media (tooling) | [modules/media-generation.md](modules/media-generation.md) |

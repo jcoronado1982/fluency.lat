@@ -208,9 +208,9 @@
         "form": "run",
         "phonetic": "/rʌn/",
         "spoken_phonetic_us": "/rʌn/",
-        "usage_example": "The business is well run.",
-        "usage_example_es": "El negocio está bien administrado.",
-        "pronunciation_guide_es": "/de_BISnis_is_uel_RON/",
+        "usage_example": "She has run the business for ten years.",
+        "usage_example_es": "Ella ha administrado el negocio durante diez años.",
+        "pronunciation_guide_es": "/shi_jas_RON_de_BISnis_for_TEN_IERS/",
         "meaning": "Participio de correr",
         "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_3_def0_v3.avif"
       }
@@ -997,7 +997,47 @@
         "usage_context_es": "Operar y controlar la dirección y velocidad de un vehículo a motor.",
         "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_21_def0.avif"
       }
-    ]
+    ],
+    "irregular": {
+      "past": {
+        "form": "drove",
+        "phonetic": "/droʊv/",
+        "spoken_phonetic_us": "/droʊv/",
+        "usage_example": "He drove to work yesterday.",
+        "usage_example_es": "Él condujo al trabajo ayer.",
+        "pronunciation_guide_es": "/ji_DROUV_tu_WUORK_IESTerdei/",
+        "meaning": "Pasado de Conducir / Manejar",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_21_def0_v2.avif",
+        "definitions": [
+          {
+            "usage_example": "He drove to work yesterday.",
+            "usage_example_es": "Él condujo al trabajo ayer.",
+            "pronunciation_guide_es": "/ji_DROUV_tu_WUORK_IESTerdei/",
+            "meaning": "Pasado de Conducir / Manejar",
+            "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_21_def0_v2.avif"
+          }
+        ]
+      },
+      "participle": {
+        "form": "driven",
+        "phonetic": "/ˈdrɪv.ən/",
+        "spoken_phonetic_us": "/ˈdrɪv.ən/",
+        "usage_example": "She has driven this car for five years.",
+        "usage_example_es": "Ella ha conducido este auto por cinco años.",
+        "pronunciation_guide_es": "/shi_jaz_DRIVEN_dis_KAR_for_FAIV_YIRS/",
+        "meaning": "Participio de Conducir / Manejar",
+        "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_21_def0_v3.avif",
+        "definitions": [
+          {
+            "usage_example": "She has driven this car for five years.",
+            "usage_example_es": "Ella ha conducido este auto por cinco años.",
+            "pronunciation_guide_es": "/shi_jaz_DRIVEN_dis_KAR_for_FAIV_YIRS/",
+            "meaning": "Participio de Conducir / Manejar",
+            "imagePath": "/card_images/verbs/1-basic/movement/1-basic_movement_card_21_def0_v3.avif"
+          }
+        ]
+      }
+    }
   },
   {
     "word": "",
